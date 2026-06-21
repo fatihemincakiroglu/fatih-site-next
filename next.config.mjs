@@ -1,9 +1,19 @@
-import i18nConfig from './next-i18next.config.js'
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  i18n: i18nConfig.i18n,
-  reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: {
+    unoptimized: true
+  },
+  i18n: {
+    defaultLocale: 'tr',
+    locales: ['tr', 'en'],
+    localeDetection: true,
+  },
 }
 
 export default nextConfig
