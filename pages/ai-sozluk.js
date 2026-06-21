@@ -98,9 +98,9 @@ export default function Page() {
       <Head>
         <title>{router.pathname.startsWith('/en') ? 'AI Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={router.pathname.startsWith('/en') ? 'Glossary of 125+ SEO, GEO and AI terms with Turkish and English explanations.' : '125+ SEO, GEO ve AI terimi sözlüğü.'} />
-        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/ai-sozluk' : 'https://fatihemincakiroglu.com/ai-sozluk'} />
+        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/ai-glossary' : 'https://fatihemincakiroglu.com/ai-sozluk'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/ai-sozluk" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/ai-sozluk" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/ai-glossary" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/ai-sozluk" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "AI ve SEO Terimleri Sözlüğü", "url": "https://fatihemincakiroglu.com/ai-sozluk", "description": "125+ SEO, GEO ve AI terimi. LLM, AI Overview, E-E-A-T ve daha fazlası.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "AI Sözlük", "item": "https://fatihemincakiroglu.com/ai-sozluk"}]})}</script>

@@ -50,9 +50,9 @@ export default function Page(props) {
       <Head>
         <title>{c.title}</title>
         <meta name="description" content={c.metaDesc} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/performans' : 'https://fatihemincakiroglu.com/performans'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/performance-growth' : 'https://fatihemincakiroglu.com/performans'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/performans" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/performans" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/performance-growth" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/performans" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

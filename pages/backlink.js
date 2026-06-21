@@ -50,9 +50,9 @@ export default function Page(props) {
       <Head>
         <title>{c.title}</title>
         <meta name="description" content={c.metaDesc} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/backlink' : 'https://fatihemincakiroglu.com/backlink'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/backlink-digital-pr' : 'https://fatihemincakiroglu.com/backlink'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/backlink" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/backlink" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/backlink-digital-pr" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/backlink" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

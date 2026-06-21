@@ -42,9 +42,9 @@ export default function Page() {
       <Head>
         <title>{router.pathname.startsWith('/en') ? 'SEO Guides | Fatih Emin Çakıroğlu' : 'SEO Rehberleri | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={router.pathname.startsWith('/en') ? 'Comprehensive guides on technical SEO, GEO, backlinks and content strategy.' : 'Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.'} />
-        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/rehber' : 'https://fatihemincakiroglu.com/rehber'} />
+        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/guides' : 'https://fatihemincakiroglu.com/rehber'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/rehber" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/rehber" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/guides" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/rehber" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": "SEO Rehberleri", "url": "https://fatihemincakiroglu.com/rehber", "description": "Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Rehber", "item": "https://fatihemincakiroglu.com/rehber"}]})}</script>

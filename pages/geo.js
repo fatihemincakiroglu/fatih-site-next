@@ -58,9 +58,9 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'GEO Consulting | Fatih Emin Çakıroğlu' : 'GEO Danışmanlığı | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Get cited as a source in ChatGPT, Perplexity and Google AI Overview. GEO strategy.' : 'ChatGPT, Perplexity ve Google AI Overview\'da kaynak olarak görünme stratejisi.'} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo' : 'https://fatihemincakiroglu.com/geo'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo-consulting' : 'https://fatihemincakiroglu.com/geo'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo-consulting" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/geo" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

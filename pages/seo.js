@@ -67,9 +67,9 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'SEO Consulting | Fatih Emin Çakıroğlu' : 'SEO Danışmanlığı | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Technical SEO, content optimization and backlink strategy consulting for organic growth.' : 'Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.'} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/seo' : 'https://fatihemincakiroglu.com/seo'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/seo-consulting' : 'https://fatihemincakiroglu.com/seo'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo-consulting" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/seo" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"SEO Consulting":"SEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"areaServed":"TR","url":"https://fatihemincakiroglu.com/seo"})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Services":"Hizmetler","item":"https://fatihemincakiroglu.com/hizmetler"},{"@type":"ListItem","position":3,"name":isEn?"SEO Consulting":"SEO Danışmanlığı","item":"https://fatihemincakiroglu.com/seo"}]})}</script>

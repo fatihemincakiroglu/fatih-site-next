@@ -32,9 +32,9 @@ export default function Page(props) {
       <Head>
         <title>{t.title}</title>
         <meta name="description" content={isEn ? '8+ years experienced SEO and digital marketing consultant. 150+ businesses, measurable organic growth.' : '8+ yıllık deneyimli SEO ve dijital pazarlama danışmanı. 150+ işletme, ölçülebilir organik büyüme.'} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/hakkimda' : 'https://fatihemincakiroglu.com/hakkimda'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/about' : 'https://fatihemincakiroglu.com/hakkimda'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hakkimda" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/hakkimda" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/about" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/hakkimda" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
