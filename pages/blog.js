@@ -54,9 +54,9 @@ const POSTS = [
   { slug: 'seo-ajans-secimi', baslik: 'SEO Ajansı veya Danışman Seçerken Dikkat Edilecekler', ozet: 'Garantili sıralama vaatleri, şeffaf raporlama ve referans kontrolü ile doğru SEO partneri nasıl seçilir?', tarih: '20 Şubat 2026', sure: '6 dk', etiket: 'SEO' },
 ];
 
-const ETİKETLER = ['Tümü', 'SEO', 'Teknik SEO', 'E-Ticaret', 'Yerel SEO', 'Google Ads', 'İçerik', 'AI & GEO'];
+const ETIKETLER = ['Tümü', 'SEO', 'Teknik SEO', 'E-Ticaret', 'Yerel SEO', 'Google Ads', 'İçerik', 'AI & GEO'];
 
-const ETİKET_RENKLERİ = {
+const ETIKET_RENKLERI = {
   'SEO': { bg: '#fff3ee', color: '#e8560a' },
   'Teknik SEO': { bg: '#e0f2fe', color: '#0369a1' },
   'E-Ticaret': { bg: '#dcfce7', color: '#15803d' },
@@ -114,7 +114,7 @@ export default function Page() {
                 style={{ border: 'none', outline: 'none', fontSize: '14px', color: '#333', background: 'transparent', fontFamily: 'var(--font-body)', width: '100%' }} />
             </div>
             <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-              {ETİKETLER.map(e => (
+              {ETIKETLER.map(e => (
                 <button key={e} onClick={() => setAktif(e)} style={{
                   padding: '7px 14px', borderRadius: '20px',
                   background: aktif === e ? 'var(--orange)' : '#fff',
@@ -184,7 +184,7 @@ export default function Page() {
 }
 
 function EtiketBadge({ etiket }) {
-  const renk = ETİKET_RENKLERİ[etiket] || { bg: '#f5f5f5', color: '#555' };
+  const renk = ETIKET_RENKLERI[etiket] || { bg: '#f5f5f5', color: '#555' };
   return (
     <span style={{ display: 'inline-block', padding: '4px 10px', borderRadius: '4px', background: renk.bg, color: renk.color, fontSize: '11px', fontWeight: 700 }}>{etiket}</span>
   );

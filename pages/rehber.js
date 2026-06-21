@@ -20,7 +20,7 @@ const REHBERLER = [
   { slug: 'eeat', no: '15', baslik: 'E-E-A-T Rehberi', kategori: 'Strateji', ikon: '⭐', ozet: 'Deneyim, Uzmanlık, Otorite ve Güvenilirlik sinyalleri.' },
 ];
 
-const KATEGORİLER = ['Tümü', 'Strateji', 'Teknik', 'AI & GEO', 'Ölçüm & İçerik'];
+const KATEGORILER = ['Tümü', 'Strateji', 'Teknik', 'AI & GEO', 'Ölçüm & İçerik'];
 const KAT_RENK = {
   Teknik: { bg: '#e0f2fe', color: '#0369a1' },
   Strateji: { bg: '#f3e8ff', color: '#7c3aed' },
@@ -70,7 +70,7 @@ export default function Page() {
                 style={{ border: 'none', outline: 'none', fontSize: '14px', color: '#333', background: 'transparent', fontFamily: 'var(--font-body)', width: '180px' }} />
             </div>
             <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-              {KATEGORİLER.map(k => (
+              {KATEGORILER.map(k => (
                 <button key={k} onClick={() => setAktifKat(k)} style={{
                   padding: '7px 14px', borderRadius: '20px',
                   background: aktifKat === k ? 'var(--orange)' : '#fff',
