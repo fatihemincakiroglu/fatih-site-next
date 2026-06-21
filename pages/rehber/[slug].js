@@ -290,10 +290,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

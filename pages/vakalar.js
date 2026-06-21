@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -134,15 +135,18 @@ function MiniGrafik({ veri, renk }) {
 }
 
 export default function Page() {
+    const router = useRouter()
   const [aktif, setAktif] = useState(null);
 
   return (
     <>
       <Head>
-        <title>Vaka Çalışmaları | Fatih Emin Çakıroğlu — SEO Başarı Hikayeleri</title>
-        <meta name="description" content="SEO danışmanlığı sonucu elde edilen gerçek başarı hikayeleri. Ölçülebilir trafik artışı, sıralama ve dönüşüm sonuçları." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/vakalar" />
-
+        <title>{router.locale === 'en' ? 'Case Studies | Fatih Emin Çakıroğlu' : 'Vaka Çalışmaları | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Real success stories and measurable results from SEO consulting.' : 'SEO danışmanlığı sonucu elde edilen gerçek başarı hikayeleri ve ölçülebilir sonuçlar.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/vakalar' : 'https://fatihemincakiroglu.com/vakalar'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/vakalar" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/vakalar" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/vakalar" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": "Vaka Çalışmaları", "url": "https://fatihemincakiroglu.com/vakalar", "description": "SEO danışmanlığı sonucu elde edilen gerçek başarı hikayeleri ve ölçülebilir sonuçlar.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}, {"@type": "ListItem", "position": 3, "name": "Vaka Çalışmaları", "item": "https://fatihemincakiroglu.com/vakalar"}]})}</script>
       </Head>
@@ -257,10 +261,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "vakalar"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

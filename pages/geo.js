@@ -1,16 +1,20 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
 export default function Page() {
+    const router = useRouter()
   const neler = ['llms.txt implementasyonu','Google AI Overview optimizasyonu','Yapılandırılmış içerik stratejisi','E-E-A-T sinyal güçlendirme','Yanıt motoru optimizasyonu','LLM kaynak analizleri'];
   return (
     <>
       <Head>
-        <title>GEO Danışmanlığı | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünün. Generative Engine Optimization ile yapay zekâ arama görünürlüğünüzü artırın." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/geo" />
-
+        <title>{router.locale === 'en' ? 'GEO Consulting | Fatih Emin Çakıroğlu' : 'GEO Danışmanlığı | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Get cited as a source in ChatGPT, Perplexity and Google AI Overview.' : 'ChatGPT, Perplexity ve Google AI Overview\'da kaynak olarak görünün.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/geo' : 'https://fatihemincakiroglu.com/geo'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/geo" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "GEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/geo", "description": "ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünme optimizasyonu.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["GEO", "Generative Engine Optimization", "AI Overview Optimizasyonu", "LLM Görünürlük"]})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "GEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/geo"}]})}</script>
       </Head>
@@ -59,10 +63,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "geo"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -31,6 +32,7 @@ const SSS_DATA = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   const [aktifKat, setAktifKat] = useState('Tümü');
   const [acik, setAcik] = useState(null);
   const [arama, setArama] = useState('');
@@ -54,9 +56,12 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu — SEO Danışmanlığı</title>
-        <meta name="description" content="SEO danışmanlığı hakkında en sık sorulan sorular ve yanıtları. Fiyatlandırma, süreç ve sonuçlar hakkında her şey." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/sss" />
+        <title>{router.locale === 'en' ? 'FAQ | Fatih Emin Çakıroğlu' : 'Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Most frequently asked questions and answers about SEO consulting.' : 'SEO danışmanlığı hakkında en sık sorulan sorular ve yanıtları.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/sss' : 'https://fatihemincakiroglu.com/sss'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/sss" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/sss" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/sss" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
 
         <script type="application/ld+json">{JSON.stringify({
@@ -158,10 +163,4 @@ function SoruKart({ soru, acik, setAcik, idx }) {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "sss"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -12,13 +13,16 @@ const NELER = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>SEO Danışmanlığı | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Fatih Emin Çakıroğlu'ndan teknik SEO, içerik stratejisi ve backlink danışmanlığı. 8+ yıllık deneyim, 150+ başarılı proje ve ölçülebilir organik büyüme." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/seo" />
-
+        <title>{router.locale === 'en' ? 'SEO Consulting | Fatih Emin Çakıroğlu' : 'SEO Danışmanlığı | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Technical SEO, content optimization and backlink strategy consulting for organic growth.' : 'Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/seo' : 'https://fatihemincakiroglu.com/seo'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/seo" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/seo", "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["Teknik SEO", "İçerik SEO", "Backlink Stratejisi", "SEO Danışmanlığı"], "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "TRY"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "SEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/seo"}]})}</script>
       </Head>
@@ -89,10 +93,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "seo"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

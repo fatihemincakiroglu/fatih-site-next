@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -24,6 +25,7 @@ const BÜTÇELER = [
 const REFERANSLAR = ['kariyer.net', 'Hepsiburada', 'hepsiEmlak', 'Turkish Airlines', 'obilet'];
 
 export default function Page() {
+    const router = useRouter()
   const [adim, setAdim] = useState(1);
   const [seciliHizmetler, setSeciliHizmetler] = useState([]);
   const [butce, setButce] = useState('Henüz Belirlemedim');
@@ -67,10 +69,12 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Ücretsiz Keşif Görüşmesi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Ücretsiz SEO keşif görüşmesi için randevu alın. Sitenizi değerlendirip size özel yol haritası sunuyorum." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/randevu" />
-
+        <title>{router.locale === 'en' ? 'Book a Call | Fatih Emin Çakıroğlu' : 'Randevu | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Book a free SEO discovery call.' : 'Ücretsiz SEO keşif görüşmesi için randevu alın.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/randevu' : 'https://fatihemincakiroglu.com/randevu'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/randevu" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/randevu" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/randevu" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "Ücretsiz SEO Keşif Görüşmesi", "url": "https://fatihemincakiroglu.com/randevu", "description": "Ücretsiz SEO ve GEO keşif görüşmesi için randevu alın.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY", "availability": "https://schema.org/InStock", "name": "Ücretsiz Keşif Görüşmesi"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Randevu", "item": "https://fatihemincakiroglu.com/randevu"}]})}</script>
       </Head>
@@ -285,10 +289,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "randevu"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

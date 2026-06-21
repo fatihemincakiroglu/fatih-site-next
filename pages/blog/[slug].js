@@ -135,6 +135,9 @@ export default function Page() {
         <title>{baslik} | Fatih Emin Çakıroğlu</title>
         <meta name="description" content={ozet || `${baslik} hakkında kapsamlı rehber ve strateji.`} />
         <link rel="canonical" href={canonicalUrl} />
+        <link rel="alternate" hrefLang="tr" href={canonicalUrl} />
+        <link rel="alternate" hrefLang="en" href={`https://fatihemincakiroglu.com/en/blog/${slug}`} />
+        <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Head>
@@ -225,10 +228,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -10,13 +11,16 @@ const KAYNAKLAR = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>Kaynaklar | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="SEO ve dijital pazarlama için faydalı kaynaklar, araçlar ve rehberler. Alanındaki en güncel bilgiler tek yerde." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/kaynaklar" />
-
+        <title>{router.locale === 'en' ? 'Resources | Fatih Emin Çakıroğlu' : 'Kaynaklar | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Useful resources, tools and guides for SEO and digital marketing.' : 'SEO ve dijital pazarlama için faydalı kaynaklar, araçlar ve rehberler.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/kaynaklar' : 'https://fatihemincakiroglu.com/kaynaklar'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/kaynaklar" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/kaynaklar" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/kaynaklar" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": "Kaynaklar", "url": "https://fatihemincakiroglu.com/kaynaklar", "description": "SEO ve dijital pazarlama için faydalı kaynaklar, araçlar ve rehberler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}]})}</script>
       </Head>
@@ -61,10 +65,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "kaynaklar"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

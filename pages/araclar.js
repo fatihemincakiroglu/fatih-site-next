@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -397,16 +398,19 @@ const ARACLAR = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   const [aktif, setAktif] = useState('meta');
   const AktifComponent = ARACLAR.find(a => a.id === aktif)?.component;
 
   return (
     <>
       <Head>
-        <title>Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması, SEO skor hesaplayıcı ve daha fazlası. Kayıt gerektirmez." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/araclar" />
-
+        <title>{router.locale === 'en' ? 'Free SEO Tools | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Free SEO tools: Meta tag analysis, keyword research and more. No registration required.' : 'Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması ve daha fazlası.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/araclar' : 'https://fatihemincakiroglu.com/araclar'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/araclar" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/araclar" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/araclar" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "WebApplication", "name": "Ücretsiz SEO Araçları", "url": "https://fatihemincakiroglu.com/araclar", "description": "Meta tag analizi, anahtar kelime araştırması, SEO skoru ve daha fazlası.", "applicationCategory": "SEO Tool", "operatingSystem": "Web", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Araçlar", "item": "https://fatihemincakiroglu.com/araclar"}]})}</script>
       </Head>
@@ -461,10 +465,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "araclar"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

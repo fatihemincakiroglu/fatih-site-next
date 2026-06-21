@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
 export default function Page() {
+    const router = useRouter()
   const [form, setForm] = useState({ ad: '', email: '', konu: '', mesaj: '' });
   const [gonderildi, setGonderildi] = useState(false);
 
@@ -15,10 +17,12 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>İletişim | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı görüşmesi için randevu alın veya mesaj gönderin." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/iletisim" />
-
+        <title>{router.locale === 'en' ? 'Contact | Fatih Emin Çakıroğlu' : 'İletişim | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Get in touch with Fatih Emin Çakıroğlu. Book a free SEO consulting session.' : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı için randevu alın.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/iletisim' : 'https://fatihemincakiroglu.com/iletisim'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/iletisim" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/iletisim" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/iletisim" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ContactPage", "name": "İletişim", "url": "https://fatihemincakiroglu.com/iletisim", "description": "Fatih Emin Çakıroğlu ile iletişime geçin.", "mainEntity": {"@type": "Person", "name": "Fatih Emin Çakıroğlu", "email": "info@fatihemincakiroglu.com", "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://fatihemincakiroglu.com/iletisim"}]})}</script>
       </Head>
@@ -114,10 +118,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "iletisim"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

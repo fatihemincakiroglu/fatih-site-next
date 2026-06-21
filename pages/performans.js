@@ -1,16 +1,20 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
 export default function Page() {
+    const router = useRouter()
   const neler = ['KPI belirleme ve takip','Dönüşüm oranı optimizasyonu','A/B test stratejisi','Funnel analizi','Landing page optimizasyonu','Büyüme deneyleri'];
   return (
     <>
       <Head>
-        <title>Performans ve Growth | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Organik trafik, dönüşüm oranı ve büyüme hedeflerinizi veriye dayalı SEO stratejisiyle optimize edin. Ölçülebilir sonuçlar." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/performans" />
-
+        <title>{router.locale === 'en' ? 'Performance & Growth | Fatih Emin Çakıroğlu' : 'Performans ve Growth | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Optimize organic traffic, conversion rates and growth goals with data-driven SEO.' : 'Organik trafik, dönüşüm oranı ve büyüme hedeflerini veriye dayalı SEO ile optimize edin.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/performans' : 'https://fatihemincakiroglu.com/performans'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/performans" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/performans" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/performans" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "Performans ve Growth", "url": "https://fatihemincakiroglu.com/performans", "description": "Organik trafik, dönüşüm oranı ve büyüme hedeflerini veriye dayalı SEO ile optimize etme.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["Performans Optimizasyonu", "Growth Hacking", "Dönüşüm Optimizasyonu"]})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "Performans & Growth", "item": "https://fatihemincakiroglu.com/performans"}]})}</script>
       </Head>
@@ -56,10 +60,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "performans"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

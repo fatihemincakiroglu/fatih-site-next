@@ -1,16 +1,20 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
 export default function Page() {
+    const router = useRouter()
   const neler = ['İçerik kümeleme ve pillar page mimarisi','Arama niyeti analizi','Topical Authority inşası','İçerik takvimi yönetimi','SEO uyumlu içerik üretimi','Performans takibi'];
   return (
     <>
       <Head>
-        <title>İçerik Stratejisi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Arama niyetine uygun, topical authority inşa eden içerik stratejisi danışmanlığı. Organik trafiğinizi artıracak içerik planı ve üretim süreci." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/icerik" />
-
+        <title>{router.locale === 'en' ? 'Content Strategy | Fatih Emin Çakıroğlu' : 'İçerik Stratejisi | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Content strategy consulting aligned with search intent and topical authority building.' : 'Arama niyetine uygun, topical authority inşa eden içerik stratejisi danışmanlığı.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/icerik' : 'https://fatihemincakiroglu.com/icerik'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/icerik" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/icerik" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/icerik" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "İçerik Stratejisi", "url": "https://fatihemincakiroglu.com/icerik", "description": "Arama niyetine uygun, topical authority inşa eden içerik stratejisi danışmanlığı.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["İçerik Stratejisi", "Topical Authority", "SEO İçerik Üretimi"]})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "İçerik Stratejisi", "item": "https://fatihemincakiroglu.com/icerik"}]})}</script>
       </Head>
@@ -59,10 +63,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "icerik"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

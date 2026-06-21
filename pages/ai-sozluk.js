@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -62,6 +63,7 @@ const TERIMLER = [
 const ALFABE = 'ABCDEFGHIJKLMNOPRSTUVWXYZ'.split('');
 
 export default function Page() {
+    const router = useRouter()
   const [aktifKat, setAktifKat] = useState('Tümü');
   const [arama, setArama] = useState('');
   const [aktifHarf, setAktifHarf] = useState('Tümü');
@@ -94,10 +96,12 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>AI Sözlük | SEO ve GEO Terimleri | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="125+ SEO, GEO ve AI terimi içeren kapsamlı sözlük. LLM, AI Overview, E-E-A-T, Core Web Vitals ve daha fazlasının Türkçe açıklamaları." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/ai-sozluk" />
-
+        <title>{router.locale === 'en' ? 'AI Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Glossary of 125+ SEO, GEO and AI terms with Turkish and English explanations.' : '125+ SEO, GEO ve AI terimi sözlüğü.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/ai-sozluk' : 'https://fatihemincakiroglu.com/ai-sozluk'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/ai-sozluk" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/ai-sozluk" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/ai-sozluk" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "AI ve SEO Terimleri Sözlüğü", "url": "https://fatihemincakiroglu.com/ai-sozluk", "description": "125+ SEO, GEO ve AI terimi. LLM, AI Overview, E-E-A-T ve daha fazlası.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "AI Sözlük", "item": "https://fatihemincakiroglu.com/ai-sozluk"}]})}</script>
       </Head>
@@ -245,10 +249,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "ai-sozluk"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

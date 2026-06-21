@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
+import { useRouter } from 'next/router'
 
 const HIZMET_TABS = [
   {
@@ -66,6 +67,7 @@ const BLOG_YAZILARI = [
 ]
 
 export default function Page() {
+  const router = useRouter()
   const [aktifTab, setAktifTab] = useState('seo')
   const [domain, setDomain] = useState('')
   const aktif = HIZMET_TABS.find(t => t.id === aktifTab)
@@ -73,9 +75,13 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı</title>
-        <meta name="description" content="8+ yıllık deneyimle 150+ işletmenin organik ve yapay zekâ arama görünürlüğünü artırdım. SEO, GEO ve dijital pazarlama danışmanlığı." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com" />
+        {/* Locale-aware head */}
+        <title>{router.locale === 'en' ? 'Fatih Emin Çakıroğlu | SEO & GEO Consulting' : 'Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı'}</title>
+        <meta name="description" content={router.locale === 'en' ? "With 8+ years of experience, I've grown the SEO and AI search visibility of 150+ businesses. SEO, GEO and digital marketing consulting." : "8+ yıllık deneyimle 150+ işletmenin organik ve yapay zekâ arama görünürlüğünü artırdım. SEO, GEO ve dijital pazarlama danışmanlığı."} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en' : 'https://fatihemincakiroglu.com'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com" />
 
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "WebSite", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "description": "SEO ve GEO danışmanlığı", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "potentialAction": {"@type": "SearchAction", "target": "https://fatihemincakiroglu.com/blog?q={search_term_string}", "query-input": "required name=search_term_string"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Person", "@id": "https://fatihemincakiroglu.com/#person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "jobTitle": "SEO & Dijital Pazarlama Uzmanı", "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]})}</script>
@@ -524,10 +530,6 @@ export default function Page() {
   )
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "index"])),
-    },
-  }
+export async function getServerSideProps() {
+  return { props: {} }
 }

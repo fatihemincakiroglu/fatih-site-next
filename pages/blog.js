@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -67,6 +68,7 @@ const ETIKET_RENKLERI = {
 };
 
 export default function Page() {
+    const router = useRouter()
   const [aktif, setAktif] = useState('Tümü');
   const [arama, setArama] = useState('');
 
@@ -80,10 +82,12 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Blog | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama</title>
-        <meta name="description" content="SEO, GEO ve dijital pazarlama üzerine güncel makaleler. Arama motoru optimizasyonu ve yapay zekâ arama trendleri hakkında pratik içerikler." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/blog" />
-
+        <title>{router.locale === 'en' ? 'Blog | Fatih Emin Çakıroğlu — SEO & Digital Marketing' : 'Blog | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Current articles on SEO, GEO and digital marketing.' : 'SEO, GEO ve dijital pazarlama üzerine güncel makaleler.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/blog' : 'https://fatihemincakiroglu.com/blog'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/blog" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/blog" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/blog" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Blog", "name": "Fatih Emin Çakıroğlu Blog", "url": "https://fatihemincakiroglu.com/blog", "description": "SEO, GEO ve dijital pazarlama üzerine güncel makaleler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fatihemincakiroglu.com/blog"}]})}</script>
       </Head>
@@ -203,10 +207,4 @@ function EtiketBadge({ etiket }) {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "blog"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

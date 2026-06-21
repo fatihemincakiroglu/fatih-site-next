@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -12,13 +13,16 @@ const REFERANSLAR = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>Müşteri Referansları | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Fatih Emin Çakıroğlu ile çalışan 150+ işletmenin deneyimleri. Gerçek müşteri yorumları ve organik büyüme sonuçları." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/referanslar" />
-
+        <title>{router.locale === 'en' ? 'Testimonials | Fatih Emin Çakıroğlu' : 'Referanslar | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'I have worked with 150+ businesses. Real client testimonials and organic growth results.' : '150+ işletmeyle çalıştım. Gerçek müşteri yorumları ve organik büyüme sonuçları.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/referanslar' : 'https://fatihemincakiroglu.com/referanslar'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/referanslar" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/referanslar" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/referanslar" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}, {"@type": "ListItem", "position": 3, "name": "Referanslar", "item": "https://fatihemincakiroglu.com/referanslar"}]})}</script>
 
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"LocalBusiness","name":"Fatih Emin Çakıroğlu SEO Danışmanlığı","url":"https://fatihemincakiroglu.com","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","worstRating":"1","ratingCount":"150","reviewCount":"150"}})}</script>
@@ -71,10 +75,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "referanslar"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

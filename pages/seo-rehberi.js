@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -15,13 +16,16 @@ const REHBERLER = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>SEO Rehberi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Kapsamlı SEO rehberi: Teknik SEO, içerik optimizasyonu, backlink stratejisi ve arama motoru algoritmaları hakkında detaylı bilgi." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/seo-rehberi" />
-
+        <title>{router.locale === 'en' ? 'SEO Guide | Fatih Emin Çakıroğlu' : 'SEO Rehberi | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Comprehensive SEO guide: Technical SEO, content optimization and backlink strategy.' : 'Kapsamlı SEO rehberi: Teknik SEO, içerik optimizasyonu ve backlink stratejisi.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/seo-rehberi' : 'https://fatihemincakiroglu.com/seo-rehberi'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo-rehberi" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo-rehberi" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/seo-rehberi" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Article", "name": "SEO Rehberi", "headline": "Kapsamlı SEO Rehberi", "url": "https://fatihemincakiroglu.com/seo-rehberi", "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisi hakkında kapsamlı rehber.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "SEO Rehberi", "item": "https://fatihemincakiroglu.com/seo-rehberi"}]})}</script>
       </Head>
@@ -66,10 +70,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "seo-rehberi"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -32,13 +33,16 @@ const DEGERLER = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>Hakkımda | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama Uzmanı</title>
-        <meta name="description" content="Fatih Emin Çakıroğlu: 8+ yıllık deneyimli SEO ve dijital pazarlama uzmanı. 150+ işletmeyle çalıştım, organik büyümeyi hızlandırıyorum." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/hakkimda" />
-
+        <title>{router.locale === 'en' ? 'About | Fatih Emin Çakıroğlu' : 'Hakkımda | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'SEO expert with 8+ years of experience accelerating organic growth for 150+ businesses.' : '8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandıran SEO uzmanı.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/hakkimda' : 'https://fatihemincakiroglu.com/hakkimda'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hakkimda" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/hakkimda" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/hakkimda" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "jobTitle": "SEO & Dijital Pazarlama Uzmanı", "description": "8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandıran SEO ve GEO danışmanı.", "worksFor": {"@type": "Organization", "name": "Fatih Emin Çakıroğlu Danışmanlık"}, "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"], "knowsAbout": ["SEO", "GEO", "Dijital Pazarlama", "İçerik Stratejisi", "Core Web Vitals"]})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}]})}</script>
       </Head>
@@ -197,10 +201,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "hakkimda"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

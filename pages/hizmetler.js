@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -11,13 +12,16 @@ const HIZMETLER = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>SEO Hizmetleri | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri. Organik büyümeniz için tam kapsamlı çözümler." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/hizmetler" />
-
+        <title>{router.locale === 'en' ? 'SEO Services | Fatih Emin Çakıroğlu' : 'SEO Hizmetleri | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'SEO consulting, GEO, content strategy, backlink and performance optimization services.' : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/hizmetler' : 'https://fatihemincakiroglu.com/hizmetler'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hizmetler" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/hizmetler" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/hizmetler" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ItemList", "name": "SEO Hizmetleri", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/seo"}, {"@type": "ListItem", "position": 2, "name": "GEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/geo"}, {"@type": "ListItem", "position": 3, "name": "İçerik Stratejisi", "url": "https://fatihemincakiroglu.com/icerik"}, {"@type": "ListItem", "position": 4, "name": "Backlink & Dijital PR", "url": "https://fatihemincakiroglu.com/backlink"}, {"@type": "ListItem", "position": 5, "name": "Performans & Growth", "url": "https://fatihemincakiroglu.com/performans"}]})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}]})}</script>
       </Head>
@@ -62,10 +66,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "hizmetler"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

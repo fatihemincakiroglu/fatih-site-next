@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
 
@@ -12,13 +13,16 @@ const KONULAR = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   return (
     <>
       <Head>
-        <title>GEO Rehberi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Generative Engine Optimization rehberi: Yapay zekâ arama motorlarında görünür olma stratejileri ve LLM optimizasyonu." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/geo-rehberi" />
-
+        <title>{router.locale === 'en' ? 'GEO Guide | Fatih Emin Çakıroğlu' : 'GEO Rehberi | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'Generative Engine Optimization guide: Visibility in AI search engines.' : 'Generative Engine Optimization rehberi: Yapay zekâ arama motorlarında görünürlük.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/geo-rehberi' : 'https://fatihemincakiroglu.com/geo-rehberi'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo-rehberi" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo-rehberi" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/geo-rehberi" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Article", "name": "GEO Rehberi", "headline": "Kapsamlı GEO Rehberi", "url": "https://fatihemincakiroglu.com/geo-rehberi", "description": "Generative Engine Optimization rehberi: Yapay zekâ arama motorlarında görünürlük stratejileri.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "GEO Rehberi", "item": "https://fatihemincakiroglu.com/geo-rehberi"}]})}</script>
       </Head>
@@ -63,10 +67,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "geo-rehberi"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }

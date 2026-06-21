@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
@@ -73,16 +74,19 @@ const SSS = [
 ];
 
 export default function Page() {
+    const router = useRouter()
   const [donem, setDonem] = useState('aylik');
   const [acikSSS, setAcikSSS] = useState(null);
 
   return (
     <>
       <Head>
-        <title>Fiyatlandırma | Fatih Emin Çakıroğlu — SEO Danışmanlık Paketleri</title>
-        <meta name="description" content="SEO danışmanlığı fiyat ve paketleri. Aylık retainer, proje bazlı ve tek seferlik SEO denetim seçenekleri." />
-        <link rel="canonical" href="https://fatihemincakiroglu.com/fiyatlandirma" />
-
+        <title>{router.locale === 'en' ? 'Pricing | Fatih Emin Çakıroğlu' : 'Fiyatlandırma | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.locale === 'en' ? 'SEO consulting packages and pricing information.' : 'SEO danışmanlık paketleri ve fiyatlandırma bilgileri.'} />
+        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/fiyatlandirma' : 'https://fatihemincakiroglu.com/fiyatlandirma'} />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/fiyatlandirma" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/fiyatlandirma" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/fiyatlandirma" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "PriceSpecification", "name": "SEO Danışmanlık Paketleri", "priceCurrency": "TRY", "description": "Aylık retainer, proje bazlı ve tek seferlik SEO danışmanlık paket seçenekleri."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Fiyatlandırma", "item": "https://fatihemincakiroglu.com/fiyatlandirma"}]})}</script>
       </Head>
@@ -231,10 +235,4 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common", "fiyatlandirma"])),
-    },
-  }
-}
+export async function getServerSideProps() { return { props: {} } }
