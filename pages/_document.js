@@ -5,6 +5,9 @@ export default function Document() {
     <Html lang="tr">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en" />
+        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Fatih Emin Çakıroğlu" />
         <meta name="publisher" content="Fatih Emin Çakıroğlu" />

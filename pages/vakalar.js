@@ -1,3 +1,4 @@
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Link from 'next/link';
 import Head from 'next/head';
 import { useState } from 'react';
@@ -257,4 +258,10 @@ export default function Page() {
   );
 }
 
-export async function getServerSideProps() { return { props: {} } }
+export async function getServerSideProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common", "vakalar"])),
+    },
+  }
+}

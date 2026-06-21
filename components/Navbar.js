@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const MENU = [
   { label: 'Hizmetler', url: '/hizmetler', altlar: [
@@ -25,6 +26,7 @@ const MENU = [
 ]
 
 export default function Navbar() {
+  const router = useRouter()
   const [acik, setAcik] = useState(null)
   const [mobil, setMobil] = useState(false)
   const [mobilAcik, setMobilAcik] = useState(null)
@@ -114,6 +116,23 @@ export default function Navbar() {
                 )}
               </div>
             ))}
+          </div>
+
+
+          {/* Dil Değiştirici */}
+          <div className="lang-switcher" style={{ display: 'flex', alignItems: 'center', gap: '4px', marginLeft: '8px' }}>
+            <Link href={router.asPath} locale="tr"
+              style={{ padding: '5px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700,
+                background: router.locale === 'tr' ? 'var(--orange)' : 'transparent',
+                color: router.locale === 'tr' ? '#fff' : '#aaa',
+                border: router.locale === 'tr' ? 'none' : '1px solid #eee',
+                fontFamily: 'var(--font-body)' }}>TR</Link>
+            <Link href={router.asPath} locale="en"
+              style={{ padding: '5px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700,
+                background: router.locale === 'en' ? 'var(--orange)' : 'transparent',
+                color: router.locale === 'en' ? '#fff' : '#aaa',
+                border: router.locale === 'en' ? 'none' : '1px solid #eee',
+                fontFamily: 'var(--font-body)' }}>EN</Link>
           </div>
 
           {/* Desktop CTA */}

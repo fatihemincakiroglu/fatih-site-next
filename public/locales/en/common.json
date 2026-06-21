@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "hizmetler": "Services",
+    "hakkimda": "About",
+    "kaynaklar": "Resources",
+    "araclar": "Tools",
+    "rehber": "Guides",
+    "blog": "Blog",
+    "iletisim": "Contact"
+  },
+  "footer": {
+    "aciklama": "Accelerating your organic growth through SEO and GEO consulting.",
+    "iletisim": "Get in Touch →",
+    "haklar": "All rights reserved."
+  },
+  "cta": {
+    "teklif": "Get a Free Quote",
+    "randevu": "Book a Call",
+    "iletisim": "Get in Touch →",
+    "ucretsiz": "First consultation is completely free"
+  }
+}
