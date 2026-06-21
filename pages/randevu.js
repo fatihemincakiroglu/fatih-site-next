@@ -71,14 +71,8 @@ export default function Page() {
         <meta name="description" content="Ücretsiz SEO keşif görüşmesi için randevu alın. Sitenizi değerlendirip size özel yol haritası sunuyorum." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/randevu" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Randevu", "item": "https://fatihemincakiroglu.com/randevu"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "Ücretsiz SEO Keşif Görüşmesi", "url": "https://fatihemincakiroglu.com/randevu", "description": "Ücretsiz SEO ve GEO keşif görüşmesi için randevu alın.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY", "availability": "https://schema.org/InStock", "name": "Ücretsiz Keşif Görüşmesi"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Randevu", "item": "https://fatihemincakiroglu.com/randevu"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#111', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 'calc(var(--nav-h) + 40px) 32px 96px' }}>

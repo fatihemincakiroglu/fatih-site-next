@@ -83,14 +83,8 @@ export default function Page() {
         <meta name="description" content="SEO danışmanlığı fiyat ve paketleri. Aylık retainer, proje bazlı ve tek seferlik SEO denetim seçenekleri." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/fiyatlandirma" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Fiyatlandırma", "item": "https://fatihemincakiroglu.com/fiyatlandirma"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "PriceSpecification", "name": "SEO Danışmanlık Paketleri", "priceCurrency": "TRY", "description": "Aylık retainer, proje bazlı ve tek seferlik SEO danışmanlık paket seçenekleri."})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Fiyatlandırma", "item": "https://fatihemincakiroglu.com/fiyatlandirma"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

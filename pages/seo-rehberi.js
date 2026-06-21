@@ -22,14 +22,8 @@ export default function Page() {
         <meta name="description" content="Kapsamlı SEO rehberi: Teknik SEO, içerik optimizasyonu, backlink stratejisi ve arama motoru algoritmaları hakkında detaylı bilgi." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/seo-rehberi" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "SEO Rehberi", "item": "https://fatihemincakiroglu.com/seo-rehberi"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Article", "name": "SEO Rehberi", "headline": "Kapsamlı SEO Rehberi", "url": "https://fatihemincakiroglu.com/seo-rehberi", "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisi hakkında kapsamlı rehber.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "SEO Rehberi", "item": "https://fatihemincakiroglu.com/seo-rehberi"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

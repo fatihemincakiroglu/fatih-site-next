@@ -407,14 +407,8 @@ export default function Page() {
         <meta name="description" content="Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması, SEO skor hesaplayıcı ve daha fazlası. Kayıt gerektirmez." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/araclar" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Araçlar", "item": "https://fatihemincakiroglu.com/araclar"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "WebApplication", "name": "Ücretsiz SEO Araçları", "url": "https://fatihemincakiroglu.com/araclar", "description": "Meta tag analizi, anahtar kelime araştırması, SEO skoru ve daha fazlası.", "applicationCategory": "SEO Tool", "operatingSystem": "Web", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Araçlar", "item": "https://fatihemincakiroglu.com/araclar"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

@@ -18,25 +18,11 @@ export default function Page() {
         <title>Müşteri Referansları | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Fatih Emin Çakıroğlu ile çalışan 150+ işletmenin deneyimleri. Gerçek müşteri yorumları ve organik büyüme sonuçları." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/referanslar" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org", "@type": "ItemList",
-          "name": "Müşteri Referansları",
-          "itemListElement": REFERANSLAR.map((r, i) => ({
-            "@type": "Review", "position": i + 1,
-            "author": {"@type": "Person", "name": r.isim},
-            "reviewBody": r.yorum,
-            "itemReviewed": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}
-          }))
-        })}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Referanslar", "item": "https://fatihemincakiroglu.com/referanslar"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}, {"@type": "ListItem", "position": 3, "name": "Referanslar", "item": "https://fatihemincakiroglu.com/referanslar"}]})}</script>
+
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"LocalBusiness","name":"Fatih Emin Çakıroğlu SEO Danışmanlığı","url":"https://fatihemincakiroglu.com","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","worstRating":"1","ratingCount":"150","reviewCount":"150"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Müşteri Yorumları","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5"},"author":{"@type":"Person","name":"Mehmet A."},"reviewBody":"Fatih ile çalışmaya başladıktan 4 ay sonra organik trafiğimiz %280 arttı."}},{"@type":"ListItem","position":2,"item":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5"},"author":{"@type":"Person","name":"Zeynep K."},"reviewBody":"Dijital varlığımızı sıfırdan inşa etti, müvekkil sayımız 3 katına çıktı."}}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

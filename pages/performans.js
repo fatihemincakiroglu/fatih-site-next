@@ -11,14 +11,8 @@ export default function Page() {
         <meta name="description" content="Organik trafik, dönüşüm oranı ve büyüme hedeflerinizi veriye dayalı SEO stratejisiyle optimize edin. Ölçülebilir sonuçlar." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/performans" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Performans & Growth", "item": "https://fatihemincakiroglu.com/performans"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "Performans ve Growth", "url": "https://fatihemincakiroglu.com/performans", "description": "Organik trafik, dönüşüm oranı ve büyüme hedeflerini veriye dayalı SEO ile optimize etme.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["Performans Optimizasyonu", "Growth Hacking", "Dönüşüm Optimizasyonu"]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "Performans & Growth", "item": "https://fatihemincakiroglu.com/performans"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

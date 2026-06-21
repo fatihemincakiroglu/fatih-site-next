@@ -76,6 +76,10 @@ export default function Page() {
         <title>Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı</title>
         <meta name="description" content="8+ yıllık deneyimle 150+ işletmenin organik ve yapay zekâ arama görünürlüğünü artırdım. SEO, GEO ve dijital pazarlama danışmanlığı." />
         <link rel="canonical" href="https://fatihemincakiroglu.com" />
+
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "WebSite", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "description": "SEO ve GEO danışmanlığı", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "potentialAction": {"@type": "SearchAction", "target": "https://fatihemincakiroglu.com/blog?q={search_term_string}", "query-input": "required name=search_term_string"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Person", "@id": "https://fatihemincakiroglu.com/#person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "jobTitle": "SEO & Dijital Pazarlama Uzmanı", "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Fatih Emin Çakıroğlu SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com", "description": "8+ yıllık deneyimle SEO, GEO ve dijital pazarlama danışmanlığı", "founder": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "priceRange": "$$", "currenciesAccepted": "TRY"})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)' }}>

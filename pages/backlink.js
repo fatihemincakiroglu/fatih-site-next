@@ -10,16 +10,9 @@ export default function Page() {
         <title>Backlink ve Dijital PR | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Editoryal backlink, dijital PR ve marka sinyalleriyle domain otoritenizi güçlendirin. Kalıcı ve sürdürülebilir link profili inşası." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/backlink" />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":"Backlink ve Dijital PR","provider":{"@type":"Person","name":"Fatih Emin Çakıroğlu"},"url":"https://fatihemincakiroglu.com/backlink"})}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Backlink & Dijital PR", "item": "https://fatihemincakiroglu.com/backlink"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "Backlink ve Dijital PR", "url": "https://fatihemincakiroglu.com/backlink", "description": "Editoryal backlink, dijital PR ve marka sinyalleriyle domain otoritesi inşası.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["Backlink Stratejisi", "Dijital PR", "Link Building"]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "Backlink & Dijital PR", "item": "https://fatihemincakiroglu.com/backlink"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

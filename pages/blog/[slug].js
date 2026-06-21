@@ -108,10 +108,25 @@ export default function Page() {
     "@type": "Article",
     "headline": baslik,
     "description": ozet,
-    "author": { "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com" },
-    "publisher": { "@type": "Person", "name": "Fatih Emin Çakıroğlu" },
+    "author": { "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "jobTitle": "SEO & Dijital Pazarlama Uzmanı" },
+    "publisher": { "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com" },
     "datePublished": tarih,
-    "url": canonicalUrl
+    "dateModified": tarih,
+    "url": canonicalUrl,
+    "inLanguage": "tr",
+    "articleSection": etiket,
+    "timeRequired": `PT${sure.replace(' dk', '')}M`,
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fatihemincakiroglu.com/blog" },
+      { "@type": "ListItem", "position": 3, "name": baslik, "item": canonicalUrl }
+    ]
   };
 
   return (
@@ -121,6 +136,7 @@ export default function Page() {
         <meta name="description" content={ozet || `${baslik} hakkında kapsamlı rehber ve strateji.`} />
         <link rel="canonical" href={canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

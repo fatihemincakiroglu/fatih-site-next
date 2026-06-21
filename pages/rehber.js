@@ -41,23 +41,9 @@ export default function Page() {
         <title>SEO Rehberleri | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Teknik SEO, GEO, backlink ve içerik stratejisi hakkında 15+ kapsamlı rehber. Her konuyu derinlemesine öğrenin." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/rehber" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org", "@type": "ItemList",
-          "name": "SEO Rehberleri",
-          "itemListElement": REHBERLER.map((r, i) => ({
-            "@type": "ListItem", "position": i + 1, "name": r.baslik,
-            "url": `https://fatihemincakiroglu.com/rehber/${r.slug}`
-          }))
-        })}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Rehber", "item": "https://fatihemincakiroglu.com/rehber"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": "SEO Rehberleri", "url": "https://fatihemincakiroglu.com/rehber", "description": "Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Rehber", "item": "https://fatihemincakiroglu.com/rehber"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

@@ -39,14 +39,8 @@ export default function Page() {
         <meta name="description" content="Fatih Emin Çakıroğlu: 8+ yıllık deneyimli SEO ve dijital pazarlama uzmanı. 150+ işletmeyle çalıştım, organik büyümeyi hızlandırıyorum." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/hakkimda" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com", "jobTitle": "SEO & Dijital Pazarlama Uzmanı", "description": "8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandıran SEO ve GEO danışmanı.", "worksFor": {"@type": "Organization", "name": "Fatih Emin Çakıroğlu Danışmanlık"}, "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"], "knowsAbout": ["SEO", "GEO", "Dijital Pazarlama", "İçerik Stratejisi", "Core Web Vitals"]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

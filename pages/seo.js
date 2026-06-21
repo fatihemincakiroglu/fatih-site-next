@@ -18,23 +18,9 @@ export default function Page() {
         <title>SEO Danışmanlığı | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Fatih Emin Çakıroğlu'ndan teknik SEO, içerik stratejisi ve backlink danışmanlığı. 8+ yıllık deneyim, 150+ başarılı proje ve ölçülebilir organik büyüme." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/seo" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "name": "SEO Danışmanlığı",
-          "provider": { "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com" },
-          "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.",
-          "areaServed": "TR", "url": "https://fatihemincakiroglu.com/seo"
-        })}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "SEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/seo"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/seo", "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["Teknik SEO", "İçerik SEO", "Backlink Stratejisi", "SEO Danışmanlığı"], "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "TRY"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "SEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/seo"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

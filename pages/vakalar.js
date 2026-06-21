@@ -143,14 +143,8 @@ export default function Page() {
         <meta name="description" content="SEO danışmanlığı sonucu elde edilen gerçek başarı hikayeleri. Ölçülebilir trafik artışı, sıralama ve dönüşüm sonuçları." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/vakalar" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Vaka Çalışmaları", "item": "https://fatihemincakiroglu.com/vakalar"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": "Vaka Çalışmaları", "url": "https://fatihemincakiroglu.com/vakalar", "description": "SEO danışmanlığı sonucu elde edilen gerçek başarı hikayeleri ve ölçülebilir sonuçlar.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}, {"@type": "ListItem", "position": 3, "name": "Vaka Çalışmaları", "item": "https://fatihemincakiroglu.com/vakalar"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

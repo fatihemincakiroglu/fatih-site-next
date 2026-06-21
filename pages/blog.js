@@ -84,14 +84,8 @@ export default function Page() {
         <meta name="description" content="SEO, GEO ve dijital pazarlama üzerine güncel makaleler. Arama motoru optimizasyonu ve yapay zekâ arama trendleri hakkında pratik içerikler." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/blog" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fatihemincakiroglu.com/blog"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Blog", "name": "Fatih Emin Çakıroğlu Blog", "url": "https://fatihemincakiroglu.com/blog", "description": "SEO, GEO ve dijital pazarlama üzerine güncel makaleler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fatihemincakiroglu.com/blog"}]})}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

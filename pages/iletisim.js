@@ -18,26 +18,9 @@ export default function Page() {
         <title>İletişim | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı görüşmesi için randevu alın veya mesaj gönderin." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/iletisim" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org", "@type": "ContactPage",
-          "name": "İletişim — Fatih Emin Çakıroğlu",
-          "url": "https://fatihemincakiroglu.com/iletisim",
-          "mainEntity": {
-            "@type": "Person", "name": "Fatih Emin Çakıroğlu",
-            "email": "info@fatihemincakiroglu.com",
-            "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"},
-            "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]
-          }
-        })}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://fatihemincakiroglu.com/iletisim"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ContactPage", "name": "İletişim", "url": "https://fatihemincakiroglu.com/iletisim", "description": "Fatih Emin Çakıroğlu ile iletişime geçin.", "mainEntity": {"@type": "Person", "name": "Fatih Emin Çakıroğlu", "email": "info@fatihemincakiroglu.com", "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://fatihemincakiroglu.com/iletisim"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

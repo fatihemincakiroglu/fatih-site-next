@@ -17,24 +17,9 @@ export default function Page() {
         <title>SEO Hizmetleri | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri. Organik büyümeniz için tam kapsamlı çözümler." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/hizmetler" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          "name": "SEO Danışmanlık Hizmetleri",
-          "itemListElement": HIZMETLER.map((h, i) => ({
-            "@type": "ListItem", "position": i + 1, "name": h.baslik,
-            "url": `https://fatihemincakiroglu.com${h.url}`
-          }))
-        })}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ItemList", "name": "SEO Hizmetleri", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/seo"}, {"@type": "ListItem", "position": 2, "name": "GEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/geo"}, {"@type": "ListItem", "position": 3, "name": "İçerik Stratejisi", "url": "https://fatihemincakiroglu.com/icerik"}, {"@type": "ListItem", "position": 4, "name": "Backlink & Dijital PR", "url": "https://fatihemincakiroglu.com/backlink"}, {"@type": "ListItem", "position": 5, "name": "Performans & Growth", "url": "https://fatihemincakiroglu.com/performans"}]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

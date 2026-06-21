@@ -19,14 +19,8 @@ export default function Page() {
         <meta name="description" content="Generative Engine Optimization rehberi: Yapay zekâ arama motorlarında görünür olma stratejileri ve LLM optimizasyonu." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/geo-rehberi" />
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "GEO Rehberi", "item": "https://fatihemincakiroglu.com/geo-rehberi"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Article", "name": "GEO Rehberi", "headline": "Kapsamlı GEO Rehberi", "url": "https://fatihemincakiroglu.com/geo-rehberi", "description": "Generative Engine Optimization rehberi: Yapay zekâ arama motorlarında görünürlük stratejileri.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}, {"@type": "ListItem", "position": 3, "name": "GEO Rehberi", "item": "https://fatihemincakiroglu.com/geo-rehberi"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}

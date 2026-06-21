@@ -10,16 +10,9 @@ export default function Page() {
         <title>İçerik Stratejisi | Fatih Emin Çakıroğlu</title>
         <meta name="description" content="Arama niyetine uygun, topical authority inşa eden içerik stratejisi danışmanlığı. Organik trafiğinizi artıracak içerik planı ve üretim süreci." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/icerik" />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":"İçerik Stratejisi","provider":{"@type":"Person","name":"Fatih Emin Çakıroğlu","url":"https://fatihemincakiroglu.com"},"description":"Arama niyetine uygun içerik stratejisi danışmanlığı.","areaServed":"TR","url":"https://fatihemincakiroglu.com/icerik"})}</script>
 
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "İçerik Stratejisi", "item": "https://fatihemincakiroglu.com/icerik"}
-          ]
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "Service", "name": "İçerik Stratejisi", "url": "https://fatihemincakiroglu.com/icerik", "description": "Arama niyetine uygun, topical authority inşa eden içerik stratejisi danışmanlığı.", "provider": {"@id": "https://fatihemincakiroglu.com/#person"}, "areaServed": "TR", "serviceType": ["İçerik Stratejisi", "Topical Authority", "SEO İçerik Üretimi"]})}</script>
+        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}, {"@type": "ListItem", "position": 3, "name": "İçerik Stratejisi", "item": "https://fatihemincakiroglu.com/icerik"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}
