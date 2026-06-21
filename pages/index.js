@@ -36,7 +36,7 @@ const BLOG_YAZILARI = [
   { no: '05', baslik_tr: 'Backlink Profili Analizi: Toksik Link Tespiti ve Temizleme', baslik_en: 'Backlink Profile Analysis: Toxic Link Detection and Cleanup', yazar: 'Fatih Emin Çakıroğlu', sure: '8 dk', slug: 'backlink-analizi' },
 ]
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
   const locale = router.locale || 'tr'
   const isEn = locale === 'en'

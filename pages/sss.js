@@ -42,9 +42,9 @@ const SORULAR = [
   },
 ]
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [acik, setAcik] = useState(null)
   const t = {
     title: isEn ? 'FAQ | Fatih Emin Çakıroğlu' : 'SSS | Fatih Emin Çakıroğlu',

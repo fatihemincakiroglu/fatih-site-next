@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const kaynaklar = isEn ? [
     { url: '/seo-rehberi', ikon: '📖', baslik: 'SEO Guide', aciklama: 'Comprehensive guide on technical SEO, content and backlinks.', yeni: false },
     { url: '/geo-rehberi', ikon: '🤖', baslik: 'GEO Guide', aciklama: 'Complete guide on generative engine optimization strategies.', yeni: true },

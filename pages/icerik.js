@@ -41,9 +41,9 @@ const CONTENT = {
   }
 }
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const c = isEn ? CONTENT.en : CONTENT.tr
   return (
     <>

@@ -3,9 +3,9 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '' })
   const t = {
     title: isEn ? 'Contact | Fatih Emin Çakıroğlu' : 'İletişim | Fatih Emin Çakıroğlu',

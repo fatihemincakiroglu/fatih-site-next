@@ -41,9 +41,9 @@ const REFS = [
   },
 ]
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
     title: isEn ? 'Testimonials | Fatih Emin Çakıroğlu' : 'Referanslar | Fatih Emin Çakıroğlu',
     badge: isEn ? 'TESTIMONIALS' : 'REFERANSLAR',

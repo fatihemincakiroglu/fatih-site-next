@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
     title: isEn ? 'Book a Call | Fatih Emin Çakıroğlu' : 'Randevu | Fatih Emin Çakıroğlu',
     h1: isEn ? 'Free Discovery Call' : 'Ücretsiz Keşif Görüşmesi',

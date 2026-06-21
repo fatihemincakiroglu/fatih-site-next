@@ -1,2 +1,10 @@
-export { default } from '../seo'
+import TrPage from '../seo'
+import { useEffect } from 'react'
+import Head from 'next/head'
+
+// Force EN locale for this page
+export default function EnPage(props) {
+  return <TrPage {...props} __forceLocale="en" />
+}
+
 export { getServerSideProps } from '../seo'

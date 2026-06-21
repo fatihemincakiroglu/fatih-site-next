@@ -51,9 +51,9 @@ const VAKALAR = [
   },
 ]
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
     title: isEn ? 'Case Studies | Fatih Emin Çakıroğlu' : 'Vaka Çalışmaları | Fatih Emin Çakıroğlu',
     badge: isEn ? 'CASE STUDIES' : 'VAKA ÇALIŞMALARI',

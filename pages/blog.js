@@ -11,9 +11,9 @@ const YAZILAR = [
   { slug: 'backlink-analizi', baslik_tr: 'Backlink Profili Analizi: Toksik Link Tespiti ve Temizleme', baslik_en: 'Backlink Profile Analysis: Toxic Link Detection and Cleanup', etiket: 'BACKLINK', sure: '8 dk', tarih: '2025' },
 ];
 
-export default function Page() {
+export default function Page(props) {
   const router = useRouter()
-  const isEn = router.pathname.startsWith('/en')
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [arama, setArama] = useState('')
   const filtered = arama ? YAZILAR.filter(y => (isEn ? y.baslik_en : y.baslik_tr).toLowerCase().includes(arama.toLowerCase())) : YAZILAR
   const t = {
