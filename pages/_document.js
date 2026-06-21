@@ -1,9 +1,8 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { useRouter } from 'next/router'
 
-export default function Document() {
-  const router = useRouter()
-  const isEn = router && router.pathname && router.pathname.startsWith('/en')
+export default function Document({ __NEXT_DATA__ }) {
+  const pathname = __NEXT_DATA__?.page || '/'
+  const isEn = pathname.startsWith('/en')
   
   return (
     <Html lang={isEn ? 'en' : 'tr'}>
