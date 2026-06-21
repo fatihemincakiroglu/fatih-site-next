@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import RandevuClient from './RandevuClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'Randevu Al | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/randevu' }
 }
 
-export const dynamic = 'force-dynamic'
+const RandevuClient = dynamic(() => import('./RandevuClient'), { ssr: false })
 
 export default function Page() {
   return <RandevuClient />

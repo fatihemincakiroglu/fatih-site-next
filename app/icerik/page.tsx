@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import IcerikClient from './IcerikClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'İçerik Stratejisi | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/icerik' }
 }
 
-export const dynamic = 'force-dynamic'
+const IcerikClient = dynamic(() => import('./IcerikClient'), { ssr: false })
 
 export default function Page() {
   return <IcerikClient />

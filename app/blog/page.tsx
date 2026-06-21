@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import BlogClient from './BlogClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'Blog | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama',
@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/blog' }
 }
 
-export const dynamic = 'force-dynamic'
+const BlogClient = dynamic(() => import('./BlogClient'), { ssr: false })
 
-export default function BlogPage() {
+export default function Page() {
   return <BlogClient />
 }

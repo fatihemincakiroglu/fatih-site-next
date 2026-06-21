@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import SssClient from './SssClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/sss' }
 }
 
-export const dynamic = 'force-dynamic'
+const SssClient = dynamic(() => import('./SssClient'), { ssr: false })
 
 export default function Page() {
   return <SssClient />

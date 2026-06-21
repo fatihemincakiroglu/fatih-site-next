@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import VakalarClient from './VakalarClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'Vaka Çalışmaları | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/vakalar' }
 }
 
-export const dynamic = 'force-dynamic'
+const VakalarClient = dynamic(() => import('./VakalarClient'), { ssr: false })
 
 export default function Page() {
   return <VakalarClient />

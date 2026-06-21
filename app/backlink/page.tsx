@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import BacklinkClient from './BacklinkClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'Backlink ve Dijital PR | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/backlink' }
 }
 
-export const dynamic = 'force-dynamic'
+const BacklinkClient = dynamic(() => import('./BacklinkClient'), { ssr: false })
 
 export default function Page() {
   return <BacklinkClient />

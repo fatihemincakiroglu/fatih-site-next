@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import GeorehberiClient from './GeorehberiClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'GEO Rehberi | Fatih Emin Çakıroğlu',
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/geo-rehberi' }
 }
 
-export const dynamic = 'force-dynamic'
+const GeorehberiClient = dynamic(() => import('./GeorehberiClient'), { ssr: false })
 
 export default function Page() {
   return <GeorehberiClient />

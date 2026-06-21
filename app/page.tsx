@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import HomeClient from './HomeClient'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
-  title: 'Fatih Emin Çakıroğlu | SEO ve Dijital Pazarlama Uzmani',
-  description: '8+ yillik deneyimle 150+ isletmenin organik buyumesini hizlandirdim. Teknik SEO, GEO ve dijital pazarlama danismanligi.',
+  title: 'Fatih Emin Çakıroğlu | SEO ve Dijital Pazarlama Uzmanı',
+  description: '8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandırdım. Teknik SEO, GEO ve dijital pazarlama danışmanlığı.',
   alternates: { canonical: 'https://fatihemincakiroglu.com' }
 }
 
-export const dynamic = 'force-dynamic'
+const HomeClient = dynamic(() => import('./HomeClient'), { ssr: false })
 
 export default function Page() {
   return <HomeClient />

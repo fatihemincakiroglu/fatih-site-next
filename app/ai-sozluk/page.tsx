@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
 
 export const metadata: Metadata = {
   title: 'AI Sözlük | Fatih Emin Çakıroğlu',
@@ -6,9 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://fatihemincakiroglu.com/ai-sozluk' }
 }
 
-export const dynamic = 'force-dynamic'
-
-import AisozlukClient from './AisozlukClient'
+const AisozlukClient = dynamic(() => import('./AisozlukClient'), { ssr: false })
 
 export default function Page() {
   return <AisozlukClient />
