@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 
 const LINKLER: Record<string, { label: string; url: string }[]> = {
