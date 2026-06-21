@@ -3,164 +3,111 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 
-const SSS_DATA = [
+const SORULAR = [
   {
-    kategori: 'SEO & Danışmanlık',
-    sorular: [
-      { soru: 'SEO danışmanlığı ne kadar sürede sonuç verir?', cevap: 'SEO, uzun vadeli bir yatırımdır. İlk teknik iyileştirmelerin etkileri 4-6 haftada görünebilir. Anlamlı trafik artışı için 3-6 ay, kalıcı ve rekabetçi sıralamalara ulaşmak içinse 6-12 ay öngörmek gerekir. Bu süre; sektörün rekabet yoğunluğuna, sitenin mevcut teknik durumuna ve uygulanan stratejinin kapsamına göre değişir. Kısa vadeli garanti veren hizmetler çoğunlukla sürdürülemez taktiklere dayanır.' },
-      { soru: 'SEO garantisi verilebilir mi?', cevap: 'Belirli bir sıralama veya trafik rakamını garanti eden hizmetler, genellikle manipülatif yöntemlere başvurur ve uzun vadede Google penaltısıyla sonuçlanabilir. Ben ölçülebilir hedefler, şeffaf süreç ve düzenli raporlama sunuyorum; ancak algoritmanın dinamik yapısı nedeniyle kesin sıralama garantisi vermiyorum. Başarıyı trafik artışı, organik dönüşüm oranı ve yatırım geri dönüşü gibi gerçek iş metrikleri üzerinden ölçüyorum.' },
-      { soru: 'Aylık SEO maliyeti ne kadar?', cevap: 'Fiyatlandırma; sitenizin büyüklüğü, hedef anahtar kelime rekabeti, hizmet kapsamı ve mevcut teknik durum gibi faktörlere göre değişir. Başlangıç paketleri aylık 8.500 TL\'den, kurumsal çözümler ise özel teklife göre başlamaktadır. İlk görüşmede sitenizi analiz edip size özel bir fiyat teklifi sunuyorum. Bu görüşme tamamen ücretsiz ve bağlayıcı değildir.' },
-      { soru: 'SEO çalışması yapılırken siteme müdahale gerekir mi?', cevap: 'Teknik SEO uygulamaları için sitenize erişim (CMS, hosting paneli veya geliştirici desteği) gereklidir. İçerik ve backlink çalışmaları ise çoğunlukla sitenize doğrudan müdahale gerektirmeden yürütülebilir. Tüm değişiklikler önceden tarafınıza bildiriliyor ve onayınızla uygulanıyor; süreci her aşamada şeffaf biçimde paylaşıyorum.' },
-    ],
+    s_tr: 'SEO danışmanlığı süreci nasıl başlıyor?',
+    s_en: 'How does the SEO consulting process begin?',
+    c_tr: 'İlk adım ücretsiz bir keşif görüşmesidir. Sitenizi, hedeflerinizi ve rakiplerinizi değerlendirdikten sonra size özel bir SEO yol haritası hazırlarım. Ardından teknik denetim, anahtar kelime araştırması ve strateji geliştirme aşamalarına geçeriz.',
+    c_en: 'The first step is a free discovery call. After evaluating your site, goals and competitors, I prepare a custom SEO roadmap for you. Then we move to technical audit, keyword research and strategy development phases.',
   },
   {
-    kategori: 'Teknik SEO',
-    sorular: [
-      { soru: 'Teknik SEO denetimi (audit) ne içerir?', cevap: 'Teknik SEO denetimi; crawlability (taranabilirlik) analizi, indeksleme sorunları, URL yapısı, canonical etiketler, hız ve Core Web Vitals değerlendirmesi, mobil uyum, yapılandırılmış veri (schema markup), iç link mimarisi, duplicate içerik tespiti ve 301/302 yönlendirme zinciri analizini kapsar. Screaming Frog, Ahrefs, Google Search Console ve PageSpeed Insights araçlarıyla 100+ kontrol noktası incelenir.' },
-      { soru: 'Core Web Vitals sıralamayı doğrudan etkiler mi?', cevap: 'Evet, Core Web Vitals (LCP, INP, CLS) Google\'ın resmi sıralama faktörleri arasındadır ve özellikle benzer kalitedeki içerikler arasında belirleyici rol oynar. LCP\'nin 2.5 saniyenin altında, INP\'nin 200ms\'nin altında ve CLS\'nin 0.1\'in altında olması "iyi" olarak kabul edilir. Bu değerlerin optimizasyonu yalnızca sıralama değil, kullanıcı deneyimi ve dönüşüm oranı açısından da kritik önem taşır.' },
-      { soru: 'Sayfa hızı ne kadar sürede iyileşir?', cevap: 'Teknik hız optimizasyonu çalışmalarının (görsel sıkıştırma, lazy loading, JavaScript optimizasyonu, CDN kurulumu) etkileri genellikle 2-4 hafta içinde PageSpeed Insights skorlarına yansır. Ancak gerçek kullanıcı verilerini ölçen CrUX (Chrome User Experience Report) verileri 28 günlük bir pencerede toplanır, bu nedenle Core Web Vitals iyileştirmelerinin Search Console\'a yansıması 4-6 hafta alabilir.' },
-    ],
+    s_tr: 'SEO sonuçları ne zaman görülür?',
+    s_en: 'When do SEO results appear?',
+    c_tr: 'SEO uzun vadeli bir yatırımdır. Genellikle ilk iyileşmeler 2-3 ayda görülmeye başlar, anlamlı sonuçlar 4-6 ay içinde ortaya çıkar. Teknik sorunların çözümü ve içerik çalışmaları bu süreci hızlandırır.',
+    c_en: 'SEO is a long-term investment. Initial improvements are typically seen within 2-3 months, with meaningful results emerging in 4-6 months. Resolving technical issues and content work accelerate this process.',
   },
   {
-    kategori: 'İçerik & Anahtar Kelime',
-    sorular: [
-      { soru: 'Anahtar kelime araştırması nasıl yapılır?', cevap: 'Etkili anahtar kelime araştırması; hacim ve rekabet güçlüğünün ötesinde arama niyetini (informational, commercial, transactional) merkeze alır. Ahrefs, SEMrush ve Google Search Console verileri, rakip içerik analizi ve "People Also Ask" sorularıyla beslenen bir araştırma, doğru anahtar kelime planlamasının temelini oluşturur. Özellikle long-tail (uzun kuyruklu) kelimeler, dönüşüm potansiyeli yüksek ve rekabetin daha düşük olduğu hedefler sunar.' },
-      { soru: 'Ne sıklıkla içerik üretmeliyim?', cevap: 'İçerik sıklığından çok içerik kalitesi ve tutarlılığı belirleyicidir. Ayda 2-4 derinlemesine, araştırmaya dayalı makale; yüksek hacimde üretilen yüzeysel içerikten çok daha değerlidir. Google\'ın Helpful Content sisteminin odaklandığı kriter, kullanıcı sorusunu gerçekten yanıtlayan, uzman bakış açısı taşıyan içeriklerdir. Mevcut içeriklerinizi düzenli güncellemek de yeni içerik üretmek kadar önemlidir.' },
-      { soru: 'Yapay zeka ile üretilen içerikler SEO için kullanılabilir mi?', cevap: 'Google, yapay zeka ile üretilen içerikleri otomatik olarak cezalandırmaz; önemli olan içeriğin kalitesi ve kullanıcı değeridir. Ancak ham AI çıktısı, uzman revizyonu ve özgün deneyim eklenmeden yayınlandığında E-E-A-T sinyalleri zayıf kalır ve "helpful content" kriterlerini karşılamakta zorlanır. AI, araştırma ve taslak aşamasında verimli bir araç olarak kullanılabilir; ancak son çıktının mutlaka uzman gözünden geçirilmesi şarttır.' },
-    ],
+    s_tr: 'Aylık ücret ne kadar?',
+    s_en: 'What is the monthly fee?',
+    c_tr: 'Fiyatlandırma, sitenizin büyüklüğü, rekabet seviyesi ve ihtiyaç duyulan hizmet kapsamına göre değişir. Keşif görüşmesi sonrası size özel bir teklif hazırlarım. Fiyatlandırma sayfasına da göz atabilirsiniz.',
+    c_en: 'Pricing varies depending on the size of your site, competition level and required service scope. After the discovery call, I prepare a custom proposal for you. You can also check the pricing page.',
   },
-];
+  {
+    s_tr: 'GEO ve SEO arasındaki fark nedir?',
+    s_en: 'What is the difference between GEO and SEO?',
+    c_tr: 'SEO, Google gibi geleneksel arama motorlarında organik sıralama kazanmayı hedefler. GEO (Generative Engine Optimization) ise ChatGPT, Perplexity ve Google AI Overview gibi yapay zekâ sistemlerinde içeriklerin kaynak olarak gösterilmesini sağlar. En etkili yaklaşım her ikisini birlikte uygulamaktır.',
+    c_en: 'SEO aims to gain organic rankings in traditional search engines like Google. GEO (Generative Engine Optimization) ensures your content is cited as a source in AI systems like ChatGPT, Perplexity and Google AI Overview. The most effective approach is implementing both together.',
+  },
+  {
+    s_tr: 'Hangi sektörlerle çalışıyorsunuz?',
+    s_en: 'Which sectors do you work with?',
+    c_tr: 'E-ticaret, SaaS, sağlık, hukuk, finans, gayrimenkul ve daha birçok sektörde 150+ işletmeyle çalıştım. Her sektörün dinamiklerini ve arama davranışlarını iyi bilen bir danışmanla çalışmak büyük avantaj sağlar.',
+    c_en: 'I have worked with 150+ businesses in e-commerce, SaaS, healthcare, legal, finance, real estate and many more sectors. Working with a consultant who understands the dynamics and search behaviors of each sector provides a great advantage.',
+  },
+  {
+    s_tr: 'Raporlama nasıl yapılıyor?',
+    s_en: 'How is reporting done?',
+    c_tr: 'Aylık kapsamlı raporlar sunuyorum. Bu raporlarda organik trafik değişimleri, sıralama hareketleri, teknik iyileştirmeler ve bir sonraki dönem planı yer alır. Google Analytics 4 ve Search Console verileri kullanılır.',
+    c_en: 'I provide comprehensive monthly reports. These reports include organic traffic changes, ranking movements, technical improvements and the next period plan. Google Analytics 4 and Search Console data are used.',
+  },
+]
 
 export default function Page() {
-    const router = useRouter()
-  const [aktifKat, setAktifKat] = useState('Tümü');
-  const [acik, setAcik] = useState(null);
-  const [arama, setArama] = useState('');
-
-  const katlar = ['Tümü', ...SSS_DATA.map(k => k.kategori)];
-  const tumSorular = SSS_DATA.flatMap(k => k.sorular.map(s => ({ ...s, kategori: k.kategori })));
-  const filteredKat = aktifKat === 'Tümü' ? tumSorular : tumSorular.filter(s => s.kategori === aktifKat);
-  const filtered = arama ? filteredKat.filter(s => s.soru.toLowerCase().includes(arama.toLowerCase()) || s.cevap.toLowerCase().includes(arama.toLowerCase())) : filteredKat;
-  const gruplar = SSS_DATA.filter(k => aktifKat === 'Tümü' || k.kategori === aktifKat);
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": tumSorular.map(s => ({
-      "@type": "Question",
-      "name": s.soru,
-      "acceptedAnswer": { "@type": "Answer", "text": s.cevap }
-    }))
-  };
-
+  const router = useRouter()
+  const isEn = router.locale === 'en'
+  const [acik, setAcik] = useState(null)
+  const t = {
+    title: isEn ? 'FAQ | Fatih Emin Çakıroğlu' : 'SSS | Fatih Emin Çakıroğlu',
+    badge: isEn ? 'FAQ' : 'SIK SORULAN SORULAR',
+    h1: isEn ? 'Frequently Asked Questions' : 'Sık Sorulan Sorular',
+    desc: isEn ? 'Everything you need to know about SEO consulting.' : 'SEO danışmanlığı hakkında merak ettiğiniz her şey.',
+    breadcrumb: isEn ? ['Home','Resources','FAQ'] : ['Ana Sayfa','Kaynaklar','SSS'],
+    ctaTitle: isEn ? 'Have another question?' : 'Başka sorunuz mu var?',
+    ctaDesc: isEn ? 'Book a free call and ask directly.' : 'Ücretsiz görüşme ayarlayın ve doğrudan sorun.',
+    ctaBtn: isEn ? 'Get in Touch →' : 'İletişime Geç →',
+  }
   return (
     <>
       <Head>
-        <title>{router.locale === 'en' ? 'FAQ | Fatih Emin Çakıroğlu' : 'Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.locale === 'en' ? 'Most frequently asked questions and answers about SEO consulting.' : 'SEO danışmanlığı hakkında en sık sorulan sorular ve yanıtları.'} />
-        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/sss' : 'https://fatihemincakiroglu.com/sss'} />
+        <title>{t.title}</title>
+        <meta name="description" content={isEn ? 'Most frequently asked questions about SEO consulting. Pricing, process and results.' : 'SEO danışmanlığı hakkında en sık sorulan sorular. Fiyatlandırma, süreç ve sonuçlar.'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/faq' : 'https://fatihemincakiroglu.com/sss'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/sss" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/sss" />
+        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/faq" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/sss" />
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-
         <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
-            {"@type": "ListItem", "position": 2, "name": "SSS", "item": "https://fatihemincakiroglu.com/sss"}
-          ]
+          "@context":"https://schema.org","@type":"FAQPage",
+          "mainEntity": SORULAR.map(s => ({
+            "@type":"Question","name": isEn ? s.s_en : s.s_tr,
+            "acceptedAnswer":{"@type":"Answer","text": isEn ? s.c_en : s.c_tr}
+          }))
         })}</script>
       </Head>
-
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
-        {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
-            <span style={{ color: '#ccc' }}>›</span>
-            <Link href="/kaynaklar" style={{ color: '#aaa', fontSize: '13px' }}>Kaynaklar</Link>
-            <span style={{ color: '#ccc' }}>›</span>
-            <span style={{ color: '#555', fontSize: '13px' }}>SSS</span>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link><span style={{ color: '#ccc' }}>›</span>
+            <Link href={isEn?'/resources':'/kaynaklar'} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[1]}</Link><span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[2]}</span>
           </div>
         </div>
-
-        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 32px' }}>
-          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-            <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>SSS</span>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 800, color: '#111', marginBottom: '12px' }}>
-              Sıkça Sorulan <span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>Sorular</span>
-            </h1>
-            <p style={{ color: '#777', fontSize: '16px', maxWidth: '520px', marginBottom: '24px' }}>
-              {tumSorular.length} soru-cevap · SEO danışmanlığı, teknik SEO ve içerik stratejisi
-            </p>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', background: '#f8f7f5', border: '1px solid #eee', borderRadius: '8px', padding: '10px 16px', maxWidth: '400px' }}>
-              <span style={{ color: '#aaa' }}>🔍</span>
-              <input type="text" placeholder='Soru veya cevap içinde ara...' value={arama} onChange={e => setArama(e.target.value)}
-                style={{ border: 'none', outline: 'none', fontSize: '14px', color: '#333', background: 'transparent', fontFamily: 'var(--font-body)', width: '100%' }} />
-            </div>
-          </div>
-        </div>
-
-        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '32px 32px 96px' }}>
-          {/* Filtre */}
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '32px' }}>
-            {katlar.map(k => (
-              <button key={k} onClick={() => setAktifKat(k)} style={{
-                padding: '7px 16px', borderRadius: '20px', border: 'none',
-                background: aktifKat === k ? 'var(--orange)' : '#fff',
-                color: aktifKat === k ? '#fff' : 'var(--dim)',
-                fontSize: '13px', fontWeight: aktifKat === k ? 700 : 400,
-                cursor: 'pointer', fontFamily: 'var(--font-body)',
-                border: aktifKat === k ? 'none' : '1px solid #eee',
-              }}>{k}</button>
+        <div style={{ maxWidth: '780px', margin: '0 auto', padding: '64px 32px 96px' }}>
+          <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>{t.badge}</span>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 800, color: '#111', marginBottom: '12px' }}>{t.h1}</h1>
+          <p style={{ color: '#777', fontSize: '16px', marginBottom: '40px' }}>{t.desc}</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginBottom: '48px' }}>
+            {SORULAR.map((s, i) => (
+              <div key={i} style={{ background: '#fff', borderRadius: '12px', border: '1px solid #eee', overflow: 'hidden' }}>
+                <button onClick={() => setAcik(acik===i?null:i)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px 24px', background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'var(--font-body)', textAlign: 'left' }}>
+                  <span style={{ fontSize: '16px', fontWeight: 600, color: '#111', flex: 1, lineHeight: 1.4 }}>{isEn ? s.s_en : s.s_tr}</span>
+                  <span style={{ color: 'var(--orange)', fontWeight: 700, fontSize: '18px', flexShrink: 0, marginLeft: '12px', transition: 'transform 0.2s', transform: acik===i?'rotate(45deg)':'none', display: 'inline-block' }}>+</span>
+                </button>
+                {acik === i && (
+                  <div style={{ padding: '0 24px 20px', borderTop: '1px solid #f0f0f0' }}>
+                    <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.75, paddingTop: '16px' }}>{isEn ? s.c_en : s.c_tr}</p>
+                  </div>
+                )}
+              </div>
             ))}
           </div>
-
-          {arama ? (
-            <div>
-              <div style={{ fontSize: '13px', color: '#aaa', marginBottom: '16px' }}>{filtered.length} sonuç</div>
-              {filtered.map((s, i) => <SoruKart key={i} soru={s} acik={acik} setAcik={setAcik} idx={`a-${i}`} />)}
-            </div>
-          ) : (
-            gruplar.map((grup, gi) => (
-              <div key={gi} style={{ marginBottom: '40px' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
-                  <div style={{ width: '3px', height: '20px', background: 'var(--orange)', borderRadius: '2px' }}></div>
-                  <h2 style={{ fontSize: '16px', fontWeight: 700, color: '#111' }}>{grup.kategori}</h2>
-                  <span style={{ fontSize: '12px', color: '#aaa' }}>{grup.sorular.length} soru</span>
-                </div>
-                {grup.sorular.map((s, si) => (
-                  <SoruKart key={si} soru={s} acik={acik} setAcik={setAcik} idx={`${gi}-${si}`} />
-                ))}
-              </div>
-            ))
-          )}
+          <div style={{ background: '#1a1612', borderRadius: '16px', padding: '40px', textAlign: 'center' }}>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', color: '#fff', marginBottom: '12px' }}>{t.ctaTitle}</h2>
+            <p style={{ color: '#6b6b6b', marginBottom: '20px' }}>{t.ctaDesc}</p>
+            <Link href={isEn?'/contact':'/iletisim'}><button style={{ padding: '13px 28px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.ctaBtn}</button></Link>
+          </div>
         </div>
       </div>
     </>
-  );
+  )
 }
-
-function SoruKart({ soru, acik, setAcik, idx }) {
-  const isAcik = acik === idx;
-  return (
-    <div style={{ background: '#fff', borderRadius: '12px', marginBottom: '10px', border: '1px solid #eee', overflow: 'hidden' }}>
-      <button onClick={() => setAcik(isAcik ? null : idx)} style={{
-        width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        padding: '20px 24px', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', gap: '16px',
-      }}>
-        <span style={{ fontSize: '15px', fontWeight: 600, color: '#111', lineHeight: 1.4 }}>{soru.soru}</span>
-        <span style={{ fontSize: '20px', color: '#aaa', transition: 'transform 0.2s', transform: isAcik ? 'rotate(45deg)' : 'none', flexShrink: 0 }}>+</span>
-      </button>
-      {isAcik && (
-        <div style={{ padding: '0 24px 20px', borderTop: '1px solid #f5f5f5' }}>
-          <p style={{ fontSize: '15px', color: '#666', lineHeight: 1.8, marginTop: '12px' }}>{soru.cevap}</p>
-        </div>
-      )}
-    </div>
-  );
-}
-
 export async function getServerSideProps() { return { props: {} } }
