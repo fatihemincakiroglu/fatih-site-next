@@ -65,7 +65,7 @@ export default function Page() {
                     </div>
                   ))}
                 </div>
-                <Link href={isEn?'/contact':'/iletisim'}><button style={{ width: '100%', padding: '12px', borderRadius: '8px', background: p.popular ? 'var(--orange)' : '#f8f7f5', color: p.popular ? '#fff' : '#333', border: p.popular ? 'none' : '1px solid #eee', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)' }}>{p.btn}</button></Link>
+                <Link href={isEn?'/en/contact':'/iletisim'}><button style={{ width: '100%', padding: '12px', borderRadius: '8px', background: p.popular ? 'var(--orange)' : '#f8f7f5', color: p.popular ? '#fff' : '#333', border: p.popular ? 'none' : '1px solid #eee', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)' }}>{p.btn}</button></Link>
               </div>
             ))}
           </div>

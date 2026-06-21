@@ -101,7 +101,7 @@ export default function Page() {
                   </div>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '12px', lineHeight: 1.3 }}>{isEn ? v.baslik_en : v.baslik_tr}</h2>
                   <p style={{ fontSize: '14px', color: '#777', lineHeight: 1.6, marginBottom: '20px' }}>{isEn ? v.ozet_en : v.ozet_tr}</p>
-                  <Link href={isEn?'/contact':'/iletisim'} style={{ color: 'var(--orange)', fontWeight: 600, fontSize: '14px' }}>{t.detay}</Link>
+                  <Link href={isEn?'/en/contact':'/iletisim'} style={{ color: 'var(--orange)', fontWeight: 600, fontSize: '14px' }}>{t.detay}</Link>
                 </div>
                 <div style={{ background: v.renk, padding: '32px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '20px' }}>
                   <div>

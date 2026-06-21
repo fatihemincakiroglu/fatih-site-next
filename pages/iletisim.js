@@ -84,7 +84,7 @@ export default function Page() {
             <div style={{ background: '#111', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', color: '#fff', marginBottom: '8px' }}>{t.randevuTitle}</h3>
               <p style={{ color: '#6b6b6b', fontSize: '13px', marginBottom: '16px' }}>{t.randevuDesc}</p>
-              <Link href="/randevu"><button style={{ width: '100%', padding: '11px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.randevuBtn}</button></Link>
+              <Link href={isEn?'/en/book-a-call':'/randevu'}><button style={{ width: '100%', padding: '11px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.randevuBtn}</button></Link>
             </div>
           </div>
         </div>

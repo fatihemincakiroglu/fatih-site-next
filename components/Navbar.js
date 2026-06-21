@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 
 const URLS = {
   tr: { home:'/', hizmetler:'/hizmetler', seo:'/seo', icerik:'/icerik', performans:'/performans', geo:'/geo', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim' },
-  en: { home:'/', hizmetler:'/services', seo:'/seo-consulting', icerik:'/content-strategy', performans:'/performance-growth', geo:'/geo-consulting', backlink:'/backlink-digital-pr', hakkimda:'/about', referanslar:'/testimonials', vakalar:'/case-studies', kaynaklar:'/resources', seoRehberi:'/seo-guide', geoRehberi:'/geo-guide', aiSozluk:'/ai-glossary', sss:'/faq', araclar:'/tools', rehber:'/guides', blog:'/blog', iletisim:'/contact' },
+  en: { home:'/', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact' },
 }
 
 const getMenu = (isEn, u) => isEn ? [
@@ -62,20 +62,28 @@ export default function Navbar() {
   const navRef = useRef(null)
 
   // TR↔EN URL mapping for lang switcher
-  const TR_EN_MAP = {
-    '/seo': '/seo-consulting', '/geo': '/geo-consulting', '/icerik': '/content-strategy',
-    '/backlink': '/backlink-digital-pr', '/performans': '/performance-growth',
-    '/hakkimda': '/about', '/referanslar': '/testimonials', '/vakalar': '/case-studies',
-    '/blog': '/blog', '/rehber': '/guides', '/araclar': '/tools', '/sss': '/faq',
-    '/fiyatlandirma': '/pricing', '/iletisim': '/contact', '/randevu': '/book-a-call',
-    '/hizmetler': '/services', '/kaynaklar': '/resources', '/seo-rehberi': '/seo-guide',
-    '/geo-rehberi': '/geo-guide', '/ai-sozluk': '/ai-glossary',
+  const TR_TO_EN = {
+    '/seo': '/en/seo-consulting', '/geo': '/en/geo-consulting', '/icerik': '/en/content-strategy',
+    '/backlink': '/en/backlink-digital-pr', '/performans': '/en/performance-growth',
+    '/hakkimda': '/en/about', '/referanslar': '/en/testimonials', '/vakalar': '/en/case-studies',
+    '/blog': '/en/blog', '/rehber': '/en/guides', '/araclar': '/en/tools', '/sss': '/en/faq',
+    '/fiyatlandirma': '/en/pricing', '/iletisim': '/en/contact', '/randevu': '/en/book-a-call',
+    '/hizmetler': '/en/services', '/kaynaklar': '/en/resources', '/seo-rehberi': '/en/seo-guide',
+    '/geo-rehberi': '/en/geo-guide', '/ai-sozluk': '/en/ai-glossary',
   }
-  const EN_TR_MAP = Object.fromEntries(Object.entries(TR_EN_MAP).map(([k,v]) => [v, k]))
+  const EN_TO_TR = {
+    '/en/seo-consulting': '/seo', '/en/geo-consulting': '/geo', '/en/content-strategy': '/icerik',
+    '/en/backlink-digital-pr': '/backlink', '/en/performance-growth': '/performans',
+    '/en/about': '/hakkimda', '/en/testimonials': '/referanslar', '/en/case-studies': '/vakalar',
+    '/en/blog': '/blog', '/en/guides': '/rehber', '/en/tools': '/araclar', '/en/faq': '/sss',
+    '/en/pricing': '/fiyatlandirma', '/en/contact': '/iletisim', '/en/book-a-call': '/randevu',
+    '/en/services': '/hizmetler', '/en/resources': '/kaynaklar', '/en/seo-guide': '/seo-rehberi',
+    '/en/geo-guide': '/geo-rehberi', '/en/ai-glossary': '/ai-sozluk',
+  }
 
   const currentPath = router.asPath.split('?')[0]
-  const trPath = isEn ? (EN_TR_MAP[currentPath] || currentPath) : currentPath
-  const enPath = isEn ? currentPath : (TR_EN_MAP[currentPath] || currentPath)
+  const trPath = isEn ? (EN_TO_TR[currentPath] || currentPath.replace('/en', '')) : currentPath
+  const enPath = isEn ? currentPath : (TR_TO_EN[currentPath] || '/en' + currentPath)
 
   useEffect(() => {
     const h = (e) => { if (navRef.current && !navRef.current.contains(e.target)) setAcik(null) }
