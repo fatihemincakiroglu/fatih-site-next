@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import dynamic from 'next/dynamic'
+
+const Navbar = dynamic(() => import('@/components/Navbar'), { ssr: false })
+const Footer = dynamic(() => import('@/components/Footer'), { ssr: false })
 
 export const metadata: Metadata = {
   title: 'Fatih Emin Çakıroğlu | SEO & Dijital Pazarlama Uzmanı',
