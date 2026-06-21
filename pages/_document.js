@@ -1,8 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { useRouter } from 'next/router'
 
 export default function Document() {
+  const router = useRouter()
+  const isEn = router && router.pathname && router.pathname.startsWith('/en')
+  
   return (
-    <Html lang="tr">
+    <Html lang={isEn ? 'en' : 'tr'}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
