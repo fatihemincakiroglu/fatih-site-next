@@ -29,7 +29,7 @@ export default function Page() {
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
             {KAYNAKLAR.map((k, i) => (
-              <Link key={i} to={k.url} style={{ textDecoration: 'none' }}>
+              <Link key={i} href={k.url} style={{ textDecoration: 'none' }}>
                 <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', transition: 'transform 0.2s, box-shadow 0.2s' }}
                   onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.07)'; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none'; }}

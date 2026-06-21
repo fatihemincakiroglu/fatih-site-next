@@ -58,7 +58,7 @@ export default function Page() {
                 ))}
               </div>
               <div style={{ display: 'flex', gap: '12px' }}>
-                <Link to="/randevu">
+                <Link href="/randevu">
                   <button style={{ padding: '13px 28px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>
                     Birlikte Çalışalım →
                   </button>
@@ -170,7 +170,7 @@ export default function Page() {
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '28px', color: '#fff', marginBottom: '12px' }}>Birlikte çalışalım</h2>
             <p style={{ color: '#6b6b6b', fontSize: '16px', marginBottom: '24px', maxWidth: '400px', margin: '0 auto 24px' }}>İlk görüşmede projenizi değerlendirip size özel bir strateji sunuyorum.</p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
-              <Link to="/randevu">
+              <Link href="/randevu">
                 <button style={{ padding: '13px 28px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>Randevu Al →</button>
               </Link>
               <a href="mailto:info@fatihemincakiroglu.com">

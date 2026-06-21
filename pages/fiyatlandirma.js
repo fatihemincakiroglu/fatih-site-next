@@ -149,7 +149,7 @@ export default function Page() {
                   )}
                 </div>
 
-                <Link to="/randevu">
+                <Link href="/randevu">
                   <button style={{
                     width: '100%', padding: '13px', borderRadius: '8px', border: 'none',
                     background: p.populer ? 'var(--orange)' : '#111',

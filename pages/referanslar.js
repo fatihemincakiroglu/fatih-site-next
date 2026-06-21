@@ -56,7 +56,7 @@ export default function Page() {
             ))}
           </div>
           <div style={{ marginTop: '40px', textAlign: 'center' }}>
-            <Link to="/vakalar"><button style={{ padding: '14px 28px', borderRadius: '8px', background: '#111', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>Vaka Çalışmalarını İncele →</button></Link>
+            <Link href="/vakalar"><button style={{ padding: '14px 28px', borderRadius: '8px', background: '#111', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>Vaka Çalışmalarını İncele →</button></Link>
           </div>
         </div>
       </div>

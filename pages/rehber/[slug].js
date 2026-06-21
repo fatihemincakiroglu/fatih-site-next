@@ -143,7 +143,7 @@ export default function Page() {
         {/* Hero */}
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px' }}>
           <div style={{ maxWidth: '760px', margin: '0 auto' }}>
-            <Link to="/rehber" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Tüm Rehberler</Link>
+            <Link href="/rehber" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Tüm Rehberler</Link>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
               <span style={{ padding: '4px 10px', borderRadius: '4px', background: renk.bg, color: renk.color, fontSize: '11px', fontWeight: 700 }}>{veri.kategori}</span>
               <span style={{ fontSize: '12px', color: '#bbb' }}>· SEO Rehberi</span>
@@ -160,7 +160,7 @@ export default function Page() {
         </div>
 
         {/* İçerik + Sidebar */}
-        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 32px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '40px', alignItems: 'start' }}>
+        <div className="article-grid" style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 16px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '40px', alignItems: 'start' }}>
           {/* Makale */}
           <div style={{ background: '#fff', borderRadius: '16px', padding: '48px', border: '1px solid #eee' }}>
             {veri.bolumler.map((b, bi) => (
@@ -194,7 +194,7 @@ export default function Page() {
               <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '10px' }}>DANIŞMANLIK</div>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '16px', color: '#fff', marginBottom: '8px' }}>Bu konuda yardım almak ister misiniz?</h3>
               <p style={{ color: '#6b6b6b', fontSize: '13px', marginBottom: '14px', lineHeight: 1.5 }}>İlk görüşme tamamen ücretsiz.</p>
-              <Link to="/iletisim">
+              <Link href="/iletisim">
                 <button style={{ width: '100%', padding: '10px', borderRadius: '8px', background: 'var(--orange)', border: 'none', color: '#fff', fontWeight: 700, cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)' }}>
                   İletişime Geç →
                 </button>
@@ -205,7 +205,7 @@ export default function Page() {
             <div style={{ background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee' }}>
               <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>İLGİLİ REHBERLER</div>
               {Object.entries(TÜM_REHBERLER).filter(([s]) => s !== slug).slice(0, 4).map(([s, r]) => (
-                <Link key={s} to={`/rehber/${s}`} style={{ display: 'block', padding: '8px 0', borderBottom: '1px solid #f5f5f5', textDecoration: 'none', color: '#555', fontSize: '13px', transition: 'color 0.15s' }}
+                <Link key={s} href={`/rehber/${s}`} style={{ display: 'block', padding: '8px 0', borderBottom: '1px solid #f5f5f5', textDecoration: 'none', color: '#555', fontSize: '13px', transition: 'color 0.15s' }}
                   onMouseEnter={e => e.currentTarget.style.color = 'var(--orange)'}
                   onMouseLeave={e => e.currentTarget.style.color = '#555'}
                 >{r.baslik} →</Link>
@@ -214,6 +214,11 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <style>{`
+        @media (max-width: 768px) {
+          .article-grid { grid-template-columns: 1fr !important; padding: 20px 16px 60px !important; }
+        }
+      `}</style>
     </>
   );
 }

@@ -89,7 +89,7 @@ export default function Page() {
             {filtered.map((r, i) => {
               const renk = KAT_RENK[r.kategori] || { bg: '#f5f5f5', color: '#555' };
               return (
-                <Link key={i} to={`/rehber/${r.slug}`} style={{ textDecoration: 'none' }}>
+                <Link key={i} href={`/rehber/${r.slug}`} style={{ textDecoration: 'none' }}>
                   <div style={{
                     background: '#fff', borderRadius: '14px', padding: '24px',
                     border: '1px solid #eee', transition: 'transform 0.2s, box-shadow 0.2s',

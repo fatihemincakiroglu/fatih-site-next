@@ -230,7 +230,7 @@ export default function Page() {
           <div style={{ marginTop: '40px', textAlign: 'center', padding: '48px', background: '#1a1612', borderRadius: '16px' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '28px', color: '#fff', marginBottom: '12px' }}>Sizin için ne yapabilirim?</h2>
             <p style={{ color: '#6b6b6b', fontSize: '15px', marginBottom: '24px' }}>İlk görüşmede sitenizi analiz edip potansiyeli birlikte değerlendiririz.</p>
-            <Link to="/randevu">
+            <Link href="/randevu">
               <button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>
                 Ücretsiz Danışma Al →
               </button>

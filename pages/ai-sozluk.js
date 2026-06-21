@@ -33,7 +33,7 @@ export default function Page() {
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '64px 32px 48px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-            <Link to="/kaynaklar" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>← Kaynaklar</Link>
+            <Link href="/kaynaklar" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>← Kaynaklar</Link>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>AI SÖZLÜK</span>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 800, color: '#111', marginBottom: '20px' }}>AI & SEO Sözlüğü</h1>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', background: '#f8f7f5', border: '1px solid #eee', borderRadius: '8px', padding: '10px 16px', maxWidth: '400px' }}>

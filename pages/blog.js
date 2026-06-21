@@ -133,7 +133,7 @@ export default function Page() {
 
           {/* Featured */}
           {featured && (
-            <Link to={`/blog/${featured.slug}`} style={{ display: 'block', marginBottom: '24px', textDecoration: 'none' }}>
+            <Link href={`/blog/${featured.slug}`} style={{ display: 'block', marginBottom: '24px', textDecoration: 'none' }}>
               <article style={{ background: '#fff', borderRadius: '16px', overflow: 'hidden', border: '1px solid #eee', display: 'grid', gridTemplateColumns: '1fr 1fr', transition: 'box-shadow 0.2s' }}
                 onMouseEnter={e => e.currentTarget.style.boxShadow = '0 8px 32px rgba(0,0,0,0.08)'}
                 onMouseLeave={e => e.currentTarget.style.boxShadow = 'none'}
@@ -161,7 +161,7 @@ export default function Page() {
           {/* Grid */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
             {rest.map((post, i) => (
-              <Link key={i} to={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+              <Link key={i} href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
                 <article style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee', height: '100%', display: 'flex', flexDirection: 'column', transition: 'box-shadow 0.2s, transform 0.2s' }}
                   onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.07)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
                   onMouseLeave={e => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}

@@ -27,3 +27,31 @@ body {
 
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
+
+/* Mobile utility classes */
+@media (max-width: 768px) {
+  :root {
+    --nav-h: 56px;
+  }
+}
+
+/* Prevent horizontal overflow globally */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Responsive page containers - used across all pages */
+@media (max-width: 768px) {
+  /* Force single column for 2-column article+sidebar layouts */
+  [style*="gridTemplateColumns: '1fr 280px'"],
+  [style*="gridTemplateColumns: \"1fr 280px\""] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Tighter padding on mobile */
+  [style*="padding: '0 32px'"],
+  [style*='padding: "0 32px"'] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}

@@ -126,7 +126,7 @@ export default function Page() {
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px' }}>
           <div style={{ maxWidth: '760px', margin: '0 auto' }}>
-            <Link to="/blog" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Blog\'a dön</Link>
+            <Link href="/blog" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Blog\'a dön</Link>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
               <span style={{ padding: '4px 12px', borderRadius: '4px', background: '#fff3ee', color: 'var(--orange)', fontSize: '11px', fontWeight: 700 }}>{etiket}</span>
               <span style={{ fontSize: '12px', color: '#bbb' }}>· {tarih} · {sure} okuma</span>
@@ -196,7 +196,7 @@ export default function Page() {
             <div style={{ background: '#1a1612', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
               <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '10px' }}>ÜCRETSİZ DANIŞMA</div>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '15px', color: '#fff', marginBottom: '8px', lineHeight: 1.4 }}>Bu konuda yardım almak ister misiniz?</h3>
-              <Link to="/iletisim">
+              <Link href="/iletisim">
                 <button style={{ width: '100%', padding: '10px', borderRadius: '8px', background: 'var(--orange)', border: 'none', color: '#fff', fontWeight: 700, cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)' }}>
                   İletişime Geç →
                 </button>

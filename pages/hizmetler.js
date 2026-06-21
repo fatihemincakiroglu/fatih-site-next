@@ -39,7 +39,7 @@ export default function Page() {
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '64px 32px 96px' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
             {HIZMETLER.map((h, i) => (
-              <Link key={i} to={h.url} style={{ textDecoration: 'none' }}>
+              <Link key={i} href={h.url} style={{ textDecoration: 'none' }}>
                 <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', transition: 'transform 0.2s, box-shadow 0.2s', height: '100%' }}
                   onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 32px rgba(0,0,0,0.08)'; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none'; }}

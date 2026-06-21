@@ -107,6 +107,15 @@ export default function Page() {
           </div>
         </section>
       </div>
+      <style>{`
+        @media (max-width: 768px) {
+          .hero-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+          .hero-grid > div:last-child { display: none; }
+          .stats-grid { grid-template-columns: 1fr 1fr !important; }
+          .services-grid { grid-template-columns: 1fr !important; }
+          section { padding-left: 16px !important; padding-right: 16px !important; }
+        }
+      `}</style>
     </>
   )
 }
