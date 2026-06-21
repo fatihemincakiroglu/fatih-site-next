@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 
 const MENU = [
   {
@@ -38,11 +37,6 @@ const MENU = [
 export default function Navbar() {
   const [acik, setAcik] = useState<string | null>(null)
   const navRef = useRef<HTMLElement>(null)
-  const pathname = usePathname()
-
-  useEffect(() => {
-    setAcik(null)
-  }, [pathname])
 
   useEffect(() => {
     const h = (e: MouseEvent) => {
@@ -68,21 +62,33 @@ export default function Navbar() {
           {MENU.map(item => (
             <div key={item.label} style={{ position: 'relative' }}>
               {item.altlar.length > 0 ? (
-                <button onClick={() => setAcik(acik === item.label ? null : item.label)} style={{
-                  padding: '7px 12px', borderRadius: '8px', border: 'none',
-                  background: acik === item.label ? '#2a2520' : 'transparent',
-                  color: acik === item.label ? '#fff' : '#9a9a9a',
-                  cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)',
-                  display: 'flex', alignItems: 'center', gap: '4px',
-                }}>
+                <button
+                  onClick={() => setAcik(acik === item.label ? null : item.label)}
+                  style={{
+                    padding: '7px 12px', borderRadius: '8px', border: 'none',
+                    background: acik === item.label ? '#2a2520' : 'transparent',
+                    color: acik === item.label ? '#fff' : '#9a9a9a',
+                    cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)',
+                    display: 'flex', alignItems: 'center', gap: '4px',
+                  }}
+                >
                   {item.label}
-                  <span style={{ fontSize: '10px', transform: acik === item.label ? 'rotate(180deg)' : 'none', display: 'inline-block', transition: 'transform 0.2s' }}>▾</span>
+                  <span style={{
+                    fontSize: '10px',
+                    transform: acik === item.label ? 'rotate(180deg)' : 'none',
+                    display: 'inline-block',
+                    transition: 'transform 0.2s'
+                  }}>▾</span>
                 </button>
               ) : (
-                <Link href={item.url} style={{
-                  padding: '7px 12px', borderRadius: '8px', color: '#9a9a9a',
-                  fontSize: '14px', fontFamily: 'var(--font-body)', display: 'inline-block',
-                }}>
+                <Link
+                  href={item.url}
+                  onClick={() => setAcik(null)}
+                  style={{
+                    padding: '7px 12px', borderRadius: '8px', color: '#9a9a9a',
+                    fontSize: '14px', fontFamily: 'var(--font-body)', display: 'inline-block',
+                  }}
+                >
                   {item.label}
                 </Link>
               )}
@@ -94,18 +100,27 @@ export default function Navbar() {
                   border: '1px solid #2a2520', boxShadow: '0 12px 40px rgba(0,0,0,0.4)',
                   overflow: 'hidden', zIndex: 100,
                 }}>
-                  <Link href={item.url} onClick={() => setAcik(null)} style={{
-                    display: 'block', padding: '12px 16px', fontSize: '12px',
-                    color: '#4a4540', borderBottom: '1px solid #2a2520',
-                    fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase',
-                  }}>
+                  <Link
+                    href={item.url}
+                    onClick={() => setAcik(null)}
+                    style={{
+                      display: 'block', padding: '12px 16px', fontSize: '12px',
+                      color: '#4a4540', borderBottom: '1px solid #2a2520',
+                      fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase' as const,
+                    }}
+                  >
                     Tüm {item.label} →
                   </Link>
                   {item.altlar.map(alt => (
-                    <Link key={alt.label} href={alt.url} onClick={() => setAcik(null)} style={{
-                      display: 'flex', alignItems: 'flex-start', gap: '10px',
-                      padding: '12px 16px',
-                    }}
+                    <Link
+                      key={alt.label}
+                      href={alt.url}
+                      onClick={() => setAcik(null)}
+                      style={{
+                        display: 'flex', alignItems: 'flex-start', gap: '10px',
+                        padding: '12px 16px', background: 'transparent',
+                        transition: 'background 0.15s',
+                      }}
                       onMouseEnter={e => (e.currentTarget.style.background = '#231f1a')}
                       onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
                     >
@@ -122,10 +137,17 @@ export default function Navbar() {
           ))}
         </div>
 
-        <Link href="/iletisim" style={{
-          padding: '9px 20px', borderRadius: '8px', background: 'var(--orange)',
-          color: '#fff', fontSize: '14px', fontWeight: 600,
-        }}>İletişim</Link>
+        <Link
+          href="/iletisim"
+          onClick={() => setAcik(null)}
+          style={{
+            padding: '9px 20px', borderRadius: '8px', background: 'var(--orange)',
+            color: '#fff', fontSize: '14px', fontWeight: 600,
+            fontFamily: 'var(--font-body)',
+          }}
+        >
+          İletişim
+        </Link>
       </div>
     </nav>
   )

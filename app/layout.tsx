@@ -5,13 +5,8 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Fatih Emin Çakıroğlu | SEO & Dijital Pazarlama Uzmanı',
-  description: '8+ yıllık deneyimle 150+ işletmenin Google\'daki görünürlüğünü artırdım. Ücretsiz SEO danışmanlığı için iletişime geçin.',
+  description: '8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandırdım.',
   metadataBase: new URL('https://fatihemincakiroglu.com'),
-  openGraph: {
-    siteName: 'Fatih Emin Çakıroğlu',
-    locale: 'tr_TR',
-    type: 'website',
-  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
