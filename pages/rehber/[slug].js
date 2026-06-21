@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
-
 import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
 
 const REHBER_ICERIKLERI = {
   'teknik-seo': {
@@ -123,6 +123,25 @@ export default function Page() {
   const { slug } = router.query;
   const veri = TÜM_REHBERLER[slug] || DEFAULT_REHBER(slug?.replace(/-/g, ' ') || 'Rehber', 'Strateji');
   const renk = KAT_RENK[veri.kategori] || { bg: '#f5f5f5', color: '#555' };
+  const [aktifBolum, setAktifBolum] = useState(0);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            const idx = parseInt(id.replace('bolum-', ''));
+            if (!isNaN(idx)) setAktifBolum(idx);
+          }
+        });
+      },
+      { rootMargin: '-20% 0px -70% 0px', threshold: 0 }
+    );
+    const els = document.querySelectorAll('[id^="bolum-"]');
+    els.forEach(el => observer.observe(el));
+    return () => observer.disconnect();
+  }, [veri]);
 
   return (
     <>
@@ -198,42 +217,67 @@ export default function Page() {
 
           {/* Sticky Sidebar */}
           <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+
             {/* İçindekiler */}
-            <div style={{ background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee' }}>
-              <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>İÇİNDEKİLER</div>
+            <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee', boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
+                <span style={{ width: '12px', height: '12px', background: 'var(--orange)', borderRadius: '3px', display: 'inline-block', flexShrink: 0 }}></span>
+                <span style={{ fontSize: '11px', color: '#111', fontWeight: 800, letterSpacing: '1.5px', textTransform: 'uppercase' }}>İÇİNDEKİLER</span>
+              </div>
               {veri.bolumler.map((b, i) => (
-                <a key={i} href={`#bolum-${i}`} style={{ display: 'flex', gap: '8px', marginBottom: '10px', textDecoration: 'none', cursor: 'pointer' }}
-                  onMouseEnter={e => e.currentTarget.querySelector('span:last-child').style.color = 'var(--orange)'}
-                  onMouseLeave={e => e.currentTarget.querySelector('span:last-child').style.color = '#666'}
+                <a key={i} href={`#bolum-${i}`}
+                  style={{
+                    display: 'flex', alignItems: 'flex-start', gap: '10px',
+                    padding: '9px 10px', borderRadius: '8px', marginBottom: '4px',
+                    textDecoration: 'none', cursor: 'pointer',
+                    background: aktifBolum === i ? 'rgba(232,86,10,0.08)' : 'transparent',
+                    transition: 'all 0.2s',
+                  }}
                 >
-                  <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 700, flexShrink: 0 }}>{String(i + 1).padStart(2, '0')}</span>
-                  <span style={{ fontSize: '13px', color: '#666', lineHeight: 1.4, transition: 'color 0.15s' }}>{b.baslik}</span>
+                  <span style={{
+                    fontSize: '12px', fontWeight: 700, flexShrink: 0, minWidth: '20px',
+                    color: aktifBolum === i ? 'var(--orange)' : '#ccc',
+                    transition: 'color 0.2s',
+                  }}>{String(i + 1).padStart(2, '0')}</span>
+                  <span style={{
+                    fontSize: '13px', lineHeight: 1.4,
+                    color: aktifBolum === i ? 'var(--orange)' : '#555',
+                    fontWeight: aktifBolum === i ? 600 : 400,
+                    transition: 'color 0.2s',
+                  }}>{b.baslik}</span>
                 </a>
               ))}
             </div>
 
+            {/* Yazar Kartı */}
+            <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee', boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
+                <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '20px', flexShrink: 0 }}>F</div>
+                <div>
+                  <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
+                  <div style={{ fontSize: '12px', color: '#aaa' }}>SEO Uzmanı · İstanbul</div>
+                </div>
+              </div>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: 1.65, marginBottom: '14px' }}>
+                8+ yıl deneyimli SEO ve dijital pazarlama danışmanı.
+              </p>
+              <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer"
+                style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                LinkedIn Profili →
+              </a>
+            </div>
+
             {/* CTA */}
-            <div style={{ background: '#1a1612', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
-              <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '10px' }}>DANIŞMANLIK</div>
-              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '16px', color: '#fff', marginBottom: '8px' }}>Bu konuda yardım almak ister misiniz?</h3>
-              <p style={{ color: '#6b6b6b', fontSize: '13px', marginBottom: '14px', lineHeight: 1.5 }}>İlk görüşme tamamen ücretsiz.</p>
-              <Link href="/iletisim">
-                <button style={{ width: '100%', padding: '10px', borderRadius: '8px', background: 'var(--orange)', border: 'none', color: '#fff', fontWeight: 700, cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)' }}>
-                  İletişime Geç →
-                </button>
+            <div style={{ background: '#111', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 800, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '12px' }}>ÜCRETSİZ DANIŞMA</div>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '17px', color: '#fff', marginBottom: '20px', lineHeight: 1.4 }}>
+                Bu konuda yardım almak ister misiniz?
+              </h3>
+              <Link href="/iletisim" style={{ display: 'block', padding: '12px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', textAlign: 'center' }}>
+                İletişime Geç →
               </Link>
             </div>
 
-            {/* İlgili Rehberler */}
-            <div style={{ background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee' }}>
-              <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>İLGİLİ REHBERLER</div>
-              {Object.entries(TÜM_REHBERLER).filter(([s]) => s !== slug).slice(0, 4).map(([s, r]) => (
-                <Link key={s} href={`/rehber/${s}`} style={{ display: 'block', padding: '8px 0', borderBottom: '1px solid #f5f5f5', textDecoration: 'none', color: '#555', fontSize: '13px', transition: 'color 0.15s' }}
-                  onMouseEnter={e => e.currentTarget.style.color = 'var(--orange)'}
-                  onMouseLeave={e => e.currentTarget.style.color = '#555'}
-                >{r.baslik} →</Link>
-              ))}
-            </div>
           </div>
         </div>
       </div>
