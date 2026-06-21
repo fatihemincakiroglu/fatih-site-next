@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const MENU = [
+const MENU_TR = [
   { label: 'Hizmetler', url: '/hizmetler', altlar: [
     { label: 'SEO', url: '/seo', ikon: '🔍', alt: 'Teknik SEO ve içerik optimizasyonu' },
     { label: 'İçerik', url: '/icerik', ikon: '✍️', alt: 'İçerik stratejisi' },
@@ -25,8 +25,33 @@ const MENU = [
   { label: 'Blog', url: '/blog', altlar: [] },
 ]
 
+const MENU_EN = [
+  { label: 'Services', url: '/hizmetler', altlar: [
+    { label: 'SEO', url: '/seo', ikon: '🔍', alt: 'Technical SEO & content optimization' },
+    { label: 'Content', url: '/icerik', ikon: '✍️', alt: 'Content strategy' },
+    { label: 'Performance', url: '/performans', ikon: '📈', alt: 'Traffic & conversion optimization' },
+    { label: 'GEO', url: '/geo', ikon: '🤖', alt: 'AI search visibility' },
+    { label: 'Backlink', url: '/backlink', ikon: '🔗', alt: 'Editorial links & digital PR' },
+  ]},
+  { label: 'About', url: '/hakkimda', altlar: [
+    { label: 'Testimonials', url: '/referanslar', ikon: '⭐', alt: 'Client testimonials' },
+    { label: 'Case Studies', url: '/vakalar', ikon: '📊', alt: 'Case studies' },
+  ]},
+  { label: 'Resources', url: '/kaynaklar', altlar: [
+    { label: 'SEO Guide', url: '/seo-rehberi', ikon: '📖', alt: 'SEO guides' },
+    { label: 'GEO Guide', url: '/geo-rehberi', ikon: '🤖', alt: 'GEO guide' },
+    { label: 'AI Glossary', url: '/ai-sozluk', ikon: '📚', alt: 'AI terms' },
+    { label: 'FAQ', url: '/sss', ikon: '❓', alt: 'Frequently asked questions' },
+  ]},
+  { label: 'Tools', url: '/araclar', altlar: [] },
+  { label: 'Guides', url: '/rehber', altlar: [] },
+  { label: 'Blog', url: '/blog', altlar: [] },
+]
+
 export default function Navbar() {
   const router = useRouter()
+  const isEn = router.locale === 'en'
+  const MENU = isEn ? MENU_EN : MENU_TR
   const [acik, setAcik] = useState(null)
   const [mobil, setMobil] = useState(false)
   const [mobilAcik, setMobilAcik] = useState(null)
@@ -61,8 +86,7 @@ export default function Navbar() {
         boxShadow: '0 1px 8px rgba(0,0,0,0.04)',
       }}>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', width: '100%', display: 'flex', alignItems: 'center' }}>
-          {/* Logo */}
-          <Link href="/" onClick={() => { setAcik(null); setMobil(false) }} style={{ display: 'flex', alignItems: 'center', marginRight: '32px', flexShrink: 0 }}>
+          <Link href="/" onClick={() => { setAcik(null); setMobil(false) }} style={{ display: 'flex', alignItems: 'center', marginRight: '28px', flexShrink: 0 }}>
             <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height: '32px' }} />
           </Link>
 
@@ -98,7 +122,7 @@ export default function Navbar() {
                       display: 'block', padding: '12px 16px', fontSize: '11px',
                       color: '#bbb', borderBottom: '1px solid #f0f0f0',
                       fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase',
-                    }}>Tüm {item.label} →</Link>
+                    }}>{isEn ? `All ${item.label}` : `Tüm ${item.label}`} →</Link>
                     {item.altlar.map(alt => (
                       <Link key={alt.label} href={alt.url} onClick={() => setAcik(null)}
                         style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '12px 16px' }}
@@ -118,37 +142,32 @@ export default function Navbar() {
             ))}
           </div>
 
-
-          {/* Dil Değiştirici */}
-          <div className="lang-switcher" style={{ display: 'flex', alignItems: 'center', gap: '4px', marginLeft: '8px' }}>
+          {/* Lang switcher + Desktop CTA */}
+          <div className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
             <Link href={router.asPath} locale="tr"
               style={{ padding: '5px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700,
-                background: router.locale === 'tr' ? 'var(--orange)' : 'transparent',
-                color: router.locale === 'tr' ? '#fff' : '#aaa',
-                border: router.locale === 'tr' ? 'none' : '1px solid #eee',
+                background: !isEn ? 'var(--orange)' : 'transparent',
+                color: !isEn ? '#fff' : '#aaa',
+                border: !isEn ? 'none' : '1px solid #eee',
                 fontFamily: 'var(--font-body)' }}>TR</Link>
             <Link href={router.asPath} locale="en"
               style={{ padding: '5px 10px', borderRadius: '6px', fontSize: '12px', fontWeight: 700,
-                background: router.locale === 'en' ? 'var(--orange)' : 'transparent',
-                color: router.locale === 'en' ? '#fff' : '#aaa',
-                border: router.locale === 'en' ? 'none' : '1px solid #eee',
-                fontFamily: 'var(--font-body)' }}>EN</Link>
+                background: isEn ? 'var(--orange)' : 'transparent',
+                color: isEn ? '#fff' : '#aaa',
+                border: isEn ? 'none' : '1px solid #eee',
+                fontFamily: 'var(--font-body)', marginRight: '8px' }}>EN</Link>
+            <Link href="/iletisim" onClick={() => setAcik(null)}
+              style={{ padding: '9px 20px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontSize: '14px', fontWeight: 600, fontFamily: 'var(--font-body)' }}>
+              {isEn ? 'Contact' : 'İletişim'}
+            </Link>
           </div>
 
-          {/* Desktop CTA */}
-          <Link href="/iletisim" onClick={() => setAcik(null)}
-            className="desktop-nav"
-            style={{ padding: '9px 20px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontSize: '14px', fontWeight: 600, fontFamily: 'var(--font-body)', flexShrink: 0 }}>
-            İletişim
-          </Link>
-
-          {/* Mobile: CTA + Hamburger */}
-          <div className="mobile-nav" style={{ display: 'none', alignItems: 'center', gap: '10px', marginLeft: 'auto' }}>
-            <Link href="/iletisim" onClick={() => setMobil(false)} style={{
-              padding: '7px 14px', borderRadius: '8px', background: 'var(--orange)',
-              color: '#fff', fontSize: '13px', fontWeight: 600,
-            }}>İletişim</Link>
-            <button onClick={() => setMobil(!mobil)} aria-label="Menüyü aç/kapat"
+          {/* Mobile */}
+          <div className="mobile-nav" style={{ display: 'none', alignItems: 'center', gap: '8px', marginLeft: 'auto' }}>
+            <Link href={router.asPath} locale="tr" style={{ padding: '4px 8px', borderRadius: '5px', fontSize: '11px', fontWeight: 700, background: !isEn ? 'var(--orange)' : '#f0f0f0', color: !isEn ? '#fff' : '#555' }}>TR</Link>
+            <Link href={router.asPath} locale="en" style={{ padding: '4px 8px', borderRadius: '5px', fontSize: '11px', fontWeight: 700, background: isEn ? 'var(--orange)' : '#f0f0f0', color: isEn ? '#fff' : '#555' }}>EN</Link>
+            <Link href="/iletisim" onClick={() => setMobil(false)} style={{ padding: '7px 14px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontSize: '13px', fontWeight: 600 }}>{isEn ? 'Contact' : 'İletişim'}</Link>
+            <button onClick={() => setMobil(!mobil)} aria-label="Menu"
               style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '6px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
               <span style={{ display: 'block', width: '22px', height: '2px', background: '#333', borderRadius: '2px', transition: 'all 0.2s', transform: mobil ? 'rotate(45deg) translate(5px, 5px)' : 'none' }} />
               <span style={{ display: 'block', width: '22px', height: '2px', background: '#333', borderRadius: '2px', transition: 'all 0.2s', opacity: mobil ? 0 : 1 }} />
@@ -177,7 +196,7 @@ export default function Navbar() {
                   {mobilAcik === item.label && (
                     <div style={{ paddingLeft: '12px', paddingBottom: '8px' }}>
                       <Link href={item.url} onClick={() => setMobil(false)} style={{ display: 'block', padding: '10px 0', color: 'var(--orange)', fontSize: '13px', fontWeight: 700, borderBottom: '1px solid #f0f0f0' }}>
-                        Tüm {item.label} →
+                        {isEn ? `All ${item.label}` : `Tüm ${item.label}`} →
                       </Link>
                       {item.altlar.map(alt => (
                         <Link key={alt.label} href={alt.url} onClick={() => setMobil(false)} style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 0', borderBottom: '1px solid #faf9f7' }}>

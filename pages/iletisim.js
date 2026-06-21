@@ -4,112 +4,87 @@ import Head from 'next/head';
 import { useState } from 'react';
 
 export default function Page() {
-    const router = useRouter()
-  const [form, setForm] = useState({ ad: '', email: '', konu: '', mesaj: '' });
-  const [gonderildi, setGonderildi] = useState(false);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    await new Promise(r => setTimeout(r, 1000));
-    setGonderildi(true);
-  };
-
+  const router = useRouter()
+  const isEn = router.locale === 'en'
+  const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '' })
+  const t = {
+    title: isEn ? 'Contact | Fatih Emin Çakıroğlu' : 'İletişim | Fatih Emin Çakıroğlu',
+    badge: isEn ? 'CONTACT' : 'İLETİŞİM',
+    h1: isEn ? 'Get in Touch' : 'İletişime Geçin',
+    desc: isEn ? 'Book a free SEO discovery call or send a message.' : 'Ücretsiz SEO keşif görüşmesi için randevu alın veya mesaj gönderin.',
+    breadcrumb: isEn ? ['Home', 'Contact'] : ['Ana Sayfa', 'İletişim'],
+    form: {
+      isim: isEn ? 'Full Name' : 'Ad Soyad',
+      email: isEn ? 'Email Address' : 'E-posta Adresi',
+      konu: isEn ? 'Subject' : 'Konu',
+      mesaj: isEn ? 'Your Message' : 'Mesajınız',
+      btn: isEn ? 'Send Message →' : 'Mesaj Gönder →',
+    },
+    info: [
+      { label: isEn ? 'Location' : 'Konum', val: 'İstanbul, Türkiye' },
+      { label: isEn ? 'Response Time' : 'Yanıt Süresi', val: isEn ? 'Within 24 hours' : '24 saat içinde' },
+      { label: isEn ? 'Languages' : 'Diller', val: isEn ? 'Turkish, English' : 'Türkçe, İngilizce' },
+    ],
+    randevuTitle: isEn ? 'Or book a call' : 'Veya randevu alın',
+    randevuDesc: isEn ? 'Free 30-minute discovery call.' : 'Ücretsiz 30 dakikalık keşif görüşmesi.',
+    randevuBtn: isEn ? 'Book a Call →' : 'Randevu Al →',
+  }
   return (
     <>
       <Head>
-        <title>{router.locale === 'en' ? 'Contact | Fatih Emin Çakıroğlu' : 'İletişim | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.locale === 'en' ? 'Get in touch with Fatih Emin Çakıroğlu. Book a free SEO consulting session.' : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı için randevu alın.'} />
-        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/iletisim' : 'https://fatihemincakiroglu.com/iletisim'} />
+        <title>{t.title}</title>
+        <meta name="description" content={isEn ? 'Get in touch with Fatih Emin Çakıroğlu. Book a free SEO consulting session.' : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı için randevu alın.'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/iletisim' : 'https://fatihemincakiroglu.com/iletisim'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/iletisim" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/iletisim" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/iletisim" />
-        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ContactPage", "name": "İletişim", "url": "https://fatihemincakiroglu.com/iletisim", "description": "Fatih Emin Çakıroğlu ile iletişime geçin.", "mainEntity": {"@type": "Person", "name": "Fatih Emin Çakıroğlu", "email": "info@fatihemincakiroglu.com", "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"}, "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]}})}</script>
-        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://fatihemincakiroglu.com/iletisim"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
-        {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
-            <span style={{ color: '#555', fontSize: '13px' }}>İletişim</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[1]}</span>
           </div>
         </div>
-
-        <div style={{ background: '#1a1612', padding: '80px 32px 64px', textAlign: 'center' }}>
-          <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-            <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '16px' }}>İLETİŞİM</span>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(32px, 5vw, 52px)', fontWeight: 800, color: '#fff', lineHeight: 1.1, marginBottom: '16px' }}>
-              Birlikte<br /><span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>çalışalım</span>
-            </h1>
-            <p style={{ color: '#9a9a9a', fontSize: '17px', lineHeight: 1.7 }}>İlk görüşmede projenizi değerlendirip size özel bir strateji sunuyorum. Bağlayıcı değil, tamamen ücretsiz.</p>
+        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 40px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>{t.badge}</span>
+            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 48px)', fontWeight: 800, color: '#111', marginBottom: '12px' }}>{t.h1}</h1>
+            <p style={{ color: '#777', fontSize: '16px' }}>{t.desc}</p>
           </div>
         </div>
-        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '48px 32px 96px' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: '24px' }}>
-            {gonderildi ? (
-              <div style={{ background: '#fff', borderRadius: '16px', padding: '60px', textAlign: 'center', border: '1px solid #eee' }}>
-                <div style={{ fontSize: '56px', marginBottom: '16px' }}>✅</div>
-                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', color: '#111', marginBottom: '10px' }}>Mesajınız alındı!</h2>
-                <p style={{ color: '#777' }}>En kısa sürede size dönüş yapacağım.</p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} style={{ background: '#fff', borderRadius: '16px', padding: '36px', border: '1px solid #eee', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '4px' }}>Mesaj gönderin</h2>
-                {[
-                  { id: 'ad', label: 'Ad Soyad *', type: 'text', placeholder: 'Adınız ve soyadınız' },
-                  { id: 'email', label: 'E-posta *', type: 'email', placeholder: 'ornek@mail.com' },
-                  { id: 'konu', label: 'Konu', type: 'text', placeholder: 'SEO danışmanlığı, Teknik SEO...' },
-                ].map(f => (
-                  <div key={f.id}>
-                    <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
-                    <input type={f.type} placeholder={f.placeholder} required={f.label.includes('*')} value={form[f.id]} onChange={e => setForm({ ...form, [f.id]: e.target.value })}
-                      style={{ width: '100%', padding: '11px 14px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', boxSizing: 'border-box' }} />
-                  </div>
-                ))}
-                <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>Mesajınız *</label>
-                  <textarea required rows={5} placeholder="Projeniz veya hedefiniz hakkında kısaca bilgi verin..." value={form.mesaj} onChange={e => setForm({ ...form, mesaj: e.target.value })}
-                    style={{ width: '100%', padding: '11px 14px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', resize: 'vertical', outline: 'none', boxSizing: 'border-box' }} />
-                </div>
-                <button type="submit" style={{ padding: '14px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>
-                  Gönder →
-                </button>
-              </form>
-            )}
+        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px', display: 'grid', gridTemplateColumns: '1fr 360px', gap: '40px', alignItems: 'start' }}>
+          <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              <div style={{ background: '#1a1612', borderRadius: '12px', padding: '24px' }}>
-                <h3 style={{ fontSize: '14px', fontWeight: 700, color: '#fff', marginBottom: '16px' }}>İLETİŞİM BİLGİLERİ</h3>
-                <a href="mailto:info@fatihemincakiroglu.com" style={{ display: 'flex', gap: '10px', color: '#9a9a9a', fontSize: '14px', textDecoration: 'none', marginBottom: '12px' }}>
-                  <span>✉️</span> info@fatihemincakiroglu.com
-                </a>
-                <div style={{ display: 'flex', gap: '10px', color: '#9a9a9a', fontSize: '14px', marginBottom: '12px' }}>
-                  <span>📍</span> İstanbul
+              {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'konu',label:t.form.konu,type:'text'}].map(f => (
+                <div key={f.id}>
+                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
+                  <input type={f.type} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
+                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
                 </div>
-                <div style={{ display: 'flex', gap: '10px', color: '#9a9a9a', fontSize: '14px', marginBottom: '16px' }}>
-                  <span>⏰</span> Pzt–Cum 09:00–18:00
+              ))}
+              <div>
+                <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
+                <textarea rows={5} value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
+                  style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+              </div>
+              <button style={{ padding: '14px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.form.btn}</button>
+            </div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #eee' }}>
+              {t.info.map((item, i) => (
+                <div key={i} style={{ marginBottom: i < t.info.length-1 ? '16px' : 0, paddingBottom: i < t.info.length-1 ? '16px' : 0, borderBottom: i < t.info.length-1 ? '1px solid #f0f0f0' : 'none' }}>
+                  <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, marginBottom: '4px' }}>{item.label}</div>
+                  <div style={{ fontSize: '14px', color: '#333', fontWeight: 600 }}>{item.val}</div>
                 </div>
-                <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ display: 'flex', gap: '10px', color: '#9a9a9a', fontSize: '14px', textDecoration: 'none' }}>
-                  <span>🔗</span> LinkedIn Profili →
-                </a>
-              </div>
-              <div style={{ background: '#fff', borderRadius: '12px', padding: '24px', border: '1px solid #eee' }}>
-                <h3 style={{ fontSize: '14px', fontWeight: 700, color: '#111', marginBottom: '16px' }}>SÜREÇ</h3>
-                {[
-                  { no: '1', baslik: 'Form Gönderin', alt: '~2 dakika', sure: '~2 dk' },
-                  { no: '2', baslik: 'Ön Değerlendirme', alt: 'Öncelik analizi', sure: '24 saat' },
-                  { no: '3', baslik: 'Keşif Görüşmesi', alt: 'Yol haritası', sure: '30 dk' },
-                ].map((s, i) => (
-                  <div key={i} style={{ display: 'flex', gap: '10px', marginBottom: '14px', alignItems: 'flex-start' }}>
-                    <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 700, fontSize: '11px', flexShrink: 0 }}>{s.no}</div>
-                    <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: '13px', fontWeight: 600, color: '#111' }}>{s.baslik}</div>
-                      <div style={{ fontSize: '12px', color: '#aaa' }}>{s.alt}</div>
-                    </div>
-                    <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 600 }}>{s.sure}</span>
-                  </div>
-                ))}
-              </div>
+              ))}
+            </div>
+            <div style={{ background: '#111', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', color: '#fff', marginBottom: '8px' }}>{t.randevuTitle}</h3>
+              <p style={{ color: '#6b6b6b', fontSize: '13px', marginBottom: '16px' }}>{t.randevuDesc}</p>
+              <Link href="/randevu"><button style={{ width: '100%', padding: '11px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.randevuBtn}</button></Link>
             </div>
           </div>
         </div>
@@ -117,5 +92,4 @@ export default function Page() {
     </>
   );
 }
-
 export async function getServerSideProps() { return { props: {} } }

@@ -2,68 +2,82 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
-
-const HIZMETLER = [
-  { url: '/seo', ikon: '🔍', baslik: 'SEO Danışmanlığı', aciklama: 'Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme.' },
-  { url: '/icerik', ikon: '✍️', baslik: 'İçerik Stratejisi', aciklama: 'Arama niyetine uygun, topical authority inşa eden içerik üretimi.' },
-  { url: '/performans', ikon: '📈', baslik: 'Performans & Growth', aciklama: 'Trafik, dönüşüm ve büyüme hedeflerini birlikte optimize etme.' },
-  { url: '/geo', ikon: '🤖', baslik: 'GEO Danışmanlığı', aciklama: 'ChatGPT, Perplexity ve AI Overview\'da kaynak olarak görünme.' },
-  { url: '/backlink', ikon: '🔗', baslik: 'Backlink & Dijital PR', aciklama: 'Editoryal linkler ve dijital PR kampanyalarıyla otorite inşası.' },
-];
-
 export default function Page() {
-    const router = useRouter()
+  const router = useRouter()
+  const isEn = router.locale === 'en'
+  const hizmetler = isEn ? [
+    { url: '/seo', ikon: '🔍', baslik: 'SEO Consulting', aciklama: 'Technical + strategy + content — end-to-end organic growth.' },
+    { url: '/icerik', ikon: '✍️', baslik: 'Content Strategy', aciklama: 'Content production aligned with search intent, driving conversions.' },
+    { url: '/geo', ikon: '🤖', baslik: 'GEO Consulting', aciklama: 'Be visible in ChatGPT, Perplexity and AI Overview.' },
+    { url: '/backlink', ikon: '🔗', baslik: 'Backlink & Digital PR', aciklama: 'Editorial links, media relations, brand signals.' },
+    { url: '/performans', ikon: '📈', baslik: 'Performance & Growth', aciklama: 'Measurable traffic and revenue growth.' },
+  ] : [
+    { url: '/seo', ikon: '🔍', baslik: 'SEO Danışmanlığı', aciklama: 'Teknik + strateji + içerik — uçtan uca organik büyüme.' },
+    { url: '/icerik', ikon: '✍️', baslik: 'İçerik Stratejisi', aciklama: 'Arama niyetine oturan, dönüşüm getiren içerik üretimi.' },
+    { url: '/geo', ikon: '🤖', baslik: 'GEO Danışmanlığı', aciklama: 'ChatGPT, Perplexity ve AI Overview\u2019da görünür olun.' },
+    { url: '/backlink', ikon: '🔗', baslik: 'Backlink & Dijital PR', aciklama: 'Editoryal link, yayın ilişkileri, marka sinyali.' },
+    { url: '/performans', ikon: '📈', baslik: 'Performans & Growth', aciklama: 'Ölçümlenebilir trafik ve gelir artışı.' },
+  ]
+  const t = {
+    title: isEn ? 'SEO Services | Fatih Emin Çakıroğlu' : 'SEO Hizmetleri | Fatih Emin Çakıroğlu',
+    badge: isEn ? 'SERVICES' : 'HİZMETLER',
+    h1a: isEn ? 'SEO, GEO and organic growth' : 'SEO, GEO ve organik büyüme',
+    h1b: isEn ? 'consulting services' : 'danışmanlık hizmetleri',
+    desc: isEn ? 'End-to-end organic growth consulting for your business with technical SEO, GEO, content strategy and backlink services.' : 'Teknik SEO, GEO, içerik stratejisi ve backlink hizmetleriyle işletmeniz için uçtan uca organik büyüme danışmanlığı.',
+    detay: isEn ? 'Details →' : 'Detaylar →',
+    breadcrumb: isEn ? ['Home', 'Services'] : ['Ana Sayfa', 'Hizmetler'],
+    ctaTitle: isEn ? 'Which service is right for you?' : 'Hangi hizmet size uygun?',
+    ctaDesc: isEn ? 'I evaluate your goals and suggest the best strategy.' : 'Hedeflerinizi değerlendirip en uygun stratejiyi öneririm.',
+    ctaBtn: isEn ? 'Get in Touch →' : 'İletişime Geç →',
+  }
   return (
     <>
       <Head>
-        <title>{router.locale === 'en' ? 'SEO Services | Fatih Emin Çakıroğlu' : 'SEO Hizmetleri | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.locale === 'en' ? 'SEO consulting, GEO, content strategy, backlink and performance optimization services.' : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri.'} />
-        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/hizmetler' : 'https://fatihemincakiroglu.com/hizmetler'} />
+        <title>{t.title}</title>
+        <meta name="description" content={isEn ? 'SEO consulting, GEO, content strategy, backlink and performance optimization services.' : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri.'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/hizmetler' : 'https://fatihemincakiroglu.com/hizmetler'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hizmetler" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/hizmetler" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/hizmetler" />
-        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "ItemList", "name": "SEO Hizmetleri", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/seo"}, {"@type": "ListItem", "position": 2, "name": "GEO Danışmanlığı", "url": "https://fatihemincakiroglu.com/geo"}, {"@type": "ListItem", "position": 3, "name": "İçerik Stratejisi", "url": "https://fatihemincakiroglu.com/icerik"}, {"@type": "ListItem", "position": 4, "name": "Backlink & Dijital PR", "url": "https://fatihemincakiroglu.com/backlink"}, {"@type": "ListItem", "position": 5, "name": "Performans & Growth", "url": "https://fatihemincakiroglu.com/performans"}]})}</script>
-        <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": "https://fatihemincakiroglu.com/hizmetler"}]})}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
-        {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
-            <span style={{ color: '#555', fontSize: '13px' }}>Hizmetler</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[1]}</span>
           </div>
         </div>
-
-        <div style={{ background: '#1a1612', padding: '80px 32px' }}>
-          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', textAlign: 'center' }}>
-            <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '16px' }}>HİZMETLER</span>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(32px, 5vw, 56px)', fontWeight: 800, color: '#fff', lineHeight: 1.1, marginBottom: '20px' }}>
-              Organik büyüme için<br /><span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>kapsamlı danışmanlık</span>
+        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 40px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>{t.badge}</span>
+            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 800, color: '#111', marginBottom: '12px' }}>
+              {t.h1a} <span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
             </h1>
-            <p style={{ color: '#9a9a9a', fontSize: '18px', maxWidth: '540px', margin: '0 auto' }}>SEO\'dan GEO\'ya, içerikten backlink\'e her alanda veri odaklı strateji.</p>
+            <p style={{ color: '#777', fontSize: '16px', maxWidth: '560px' }}>{t.desc}</p>
           </div>
         </div>
-        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '64px 32px 96px' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
-            {HIZMETLER.map((h, i) => (
-              <Link key={i} href={h.url} style={{ textDecoration: 'none' }}>
-                <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', transition: 'transform 0.2s, box-shadow 0.2s', height: '100%' }}
-                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 32px rgba(0,0,0,0.08)'; }}
-                  onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none'; }}
-                >
-                  <div style={{ fontSize: '36px', marginBottom: '16px' }}>{h.ikon}</div>
-                  <h2 style={{ fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '10px', fontFamily: 'var(--font-display)' }}>{h.baslik}</h2>
-                  <p style={{ fontSize: '15px', color: '#777', lineHeight: 1.6, marginBottom: '20px' }}>{h.aciklama}</p>
-                  <span style={{ color: 'var(--orange)', fontWeight: 600, fontSize: '14px' }}>Detayları gör →</span>
-                </div>
+        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px', marginBottom: '48px' }}>
+            {hizmetler.map((h, i) => (
+              <Link key={i} href={h.url} style={{ background: '#fff', borderRadius: '16px', padding: '28px', border: '1px solid #eee', display: 'block', transition: 'transform 0.2s, box-shadow 0.2s' }}
+                onMouseEnter={e => { e.currentTarget.style.transform='translateY(-3px)'; e.currentTarget.style.boxShadow='0 8px 24px rgba(0,0,0,0.07)'; }}
+                onMouseLeave={e => { e.currentTarget.style.transform='none'; e.currentTarget.style.boxShadow='none'; }}>
+                <div style={{ fontSize: '28px', marginBottom: '16px' }}>{h.ikon}</div>
+                <h3 style={{ fontSize: '17px', fontWeight: 700, color: '#111', marginBottom: '8px', fontFamily: 'var(--font-display)' }}>{h.baslik}</h3>
+                <p style={{ fontSize: '14px', color: '#777', lineHeight: 1.6, marginBottom: '16px' }}>{h.aciklama}</p>
+                <span style={{ color: 'var(--orange)', fontWeight: 600, fontSize: '13px' }}>{t.detay}</span>
               </Link>
             ))}
+          </div>
+          <div style={{ background: '#1a1612', borderRadius: '16px', padding: '48px', textAlign: 'center' }}>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '28px', color: '#fff', marginBottom: '12px' }}>{t.ctaTitle}</h2>
+            <p style={{ color: '#6b6b6b', marginBottom: '24px' }}>{t.ctaDesc}</p>
+            <Link href="/iletisim"><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.ctaBtn}</button></Link>
           </div>
         </div>
       </div>
     </>
   );
 }
-
 export async function getServerSideProps() { return { props: {} } }
