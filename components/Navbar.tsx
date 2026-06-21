@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const MENU = [
   {
@@ -37,6 +38,11 @@ const MENU = [
 export default function Navbar() {
   const [acik, setAcik] = useState<string | null>(null)
   const navRef = useRef<HTMLElement>(null)
+  const pathname = usePathname()
+
+  useEffect(() => {
+    setAcik(null)
+  }, [pathname])
 
   useEffect(() => {
     const h = (e: MouseEvent) => {
@@ -54,7 +60,7 @@ export default function Navbar() {
       borderBottom: '1px solid #2a2520',
     }}>
       <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', width: '100%', display: 'flex', alignItems: 'center' }}>
-        <Link href="/" onClick={() => setAcik(null)} style={{ display: 'flex', alignItems: 'center', marginRight: '32px' }}>
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', marginRight: '32px' }}>
           <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height: '38px', filter: 'invert(1) brightness(2)' }} />
         </Link>
 
@@ -73,7 +79,7 @@ export default function Navbar() {
                   <span style={{ fontSize: '10px', transform: acik === item.label ? 'rotate(180deg)' : 'none', display: 'inline-block', transition: 'transform 0.2s' }}>▾</span>
                 </button>
               ) : (
-                <Link href={item.url} onClick={() => setAcik(null)} style={{
+                <Link href={item.url} style={{
                   padding: '7px 12px', borderRadius: '8px', color: '#9a9a9a',
                   fontSize: '14px', fontFamily: 'var(--font-body)', display: 'inline-block',
                 }}>
@@ -98,7 +104,7 @@ export default function Navbar() {
                   {item.altlar.map(alt => (
                     <Link key={alt.label} href={alt.url} onClick={() => setAcik(null)} style={{
                       display: 'flex', alignItems: 'flex-start', gap: '10px',
-                      padding: '12px 16px', transition: 'background 0.15s',
+                      padding: '12px 16px',
                     }}
                       onMouseEnter={e => (e.currentTarget.style.background = '#231f1a')}
                       onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
@@ -116,9 +122,9 @@ export default function Navbar() {
           ))}
         </div>
 
-        <Link href="/iletisim" onClick={() => setAcik(null)} style={{
+        <Link href="/iletisim" style={{
           padding: '9px 20px', borderRadius: '8px', background: 'var(--orange)',
-          color: '#fff', fontSize: '14px', fontWeight: 600, fontFamily: 'var(--font-body)',
+          color: '#fff', fontSize: '14px', fontWeight: 600,
         }}>İletişim</Link>
       </div>
     </nav>
