@@ -3,11 +3,6 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
   images: { unoptimized: true },
-  i18n: {
-    defaultLocale: 'tr',
-    locales: ['tr', 'en'],
-    localeDetection: true,
-  },
 }
 
 export default nextConfig

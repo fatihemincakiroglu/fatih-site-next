@@ -23,7 +23,7 @@ const CONTENT = {
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const c = isEn ? CONTENT.en : CONTENT.tr
   const enUrl = isGeo ? 'https://fatihemincakiroglu.com/en/geo-guide' : 'https://fatihemincakiroglu.com/en/seo-guide'
   const trUrl = isGeo ? 'https://fatihemincakiroglu.com/geo-rehberi' : 'https://fatihemincakiroglu.com/seo-rehberi'

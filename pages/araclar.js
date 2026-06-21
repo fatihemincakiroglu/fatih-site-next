@@ -405,9 +405,9 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>{router.locale === 'en' ? 'Free SEO Tools | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.locale === 'en' ? 'Free SEO tools: Meta tag analysis, keyword research and more. No registration required.' : 'Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması ve daha fazlası.'} />
-        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/araclar' : 'https://fatihemincakiroglu.com/araclar'} />
+        <title>{router.pathname.startsWith('/en') ? 'Free SEO Tools | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.pathname.startsWith('/en') ? 'Free SEO tools: Meta tag analysis, keyword research and more. No registration required.' : 'Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması ve daha fazlası.'} />
+        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/araclar' : 'https://fatihemincakiroglu.com/araclar'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/araclar" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/araclar" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/araclar" />

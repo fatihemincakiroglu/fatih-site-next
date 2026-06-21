@@ -53,7 +53,7 @@ const VAKALAR = [
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const t = {
     title: isEn ? 'Case Studies | Fatih Emin Çakıroğlu' : 'Vaka Çalışmaları | Fatih Emin Çakıroğlu',
     badge: isEn ? 'CASE STUDIES' : 'VAKA ÇALIŞMALARI',

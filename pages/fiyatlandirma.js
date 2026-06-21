@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const t = {
     title: isEn ? 'Pricing | Fatih Emin Çakıroğlu' : 'Fiyatlandırma | Fatih Emin Çakıroğlu',
     badge: isEn ? 'PRICING' : 'FİYATLANDIRMA',

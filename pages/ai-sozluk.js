@@ -96,9 +96,9 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>{router.locale === 'en' ? 'AI Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.locale === 'en' ? 'Glossary of 125+ SEO, GEO and AI terms with Turkish and English explanations.' : '125+ SEO, GEO ve AI terimi sözlüğü.'} />
-        <link rel="canonical" href={router.locale === 'en' ? 'https://fatihemincakiroglu.com/en/ai-sozluk' : 'https://fatihemincakiroglu.com/ai-sozluk'} />
+        <title>{router.pathname.startsWith('/en') ? 'AI Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={router.pathname.startsWith('/en') ? 'Glossary of 125+ SEO, GEO and AI terms with Turkish and English explanations.' : '125+ SEO, GEO ve AI terimi sözlüğü.'} />
+        <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/ai-sozluk' : 'https://fatihemincakiroglu.com/ai-sozluk'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/ai-sozluk" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/ai-sozluk" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/ai-sozluk" />

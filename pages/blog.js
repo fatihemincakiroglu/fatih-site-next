@@ -13,7 +13,7 @@ const YAZILAR = [
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const [arama, setArama] = useState('')
   const filtered = arama ? YAZILAR.filter(y => (isEn ? y.baslik_en : y.baslik_tr).toLowerCase().includes(arama.toLowerCase())) : YAZILAR
   const t = {

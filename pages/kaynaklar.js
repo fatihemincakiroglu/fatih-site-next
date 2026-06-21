@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const kaynaklar = isEn ? [
     { url: '/seo-rehberi', ikon: '📖', baslik: 'SEO Guide', aciklama: 'Comprehensive guide on technical SEO, content and backlinks.', yeni: false },
     { url: '/geo-rehberi', ikon: '🤖', baslik: 'GEO Guide', aciklama: 'Complete guide on generative engine optimization strategies.', yeni: true },

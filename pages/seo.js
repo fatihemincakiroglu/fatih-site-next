@@ -59,7 +59,7 @@ const CONTENT = {
 
 export default function Page() {
   const router = useRouter()
-  const isEn = router.locale === 'en'
+  const isEn = router.pathname.startsWith('/en')
   const c = isEn ? CONTENT.en : CONTENT.tr
 
   return (
