@@ -94,7 +94,11 @@ export default function Footer() {
 
         {/* Alt bar */}
         <div style={{ borderTop: '1px solid #1e1e1e', paddingTop: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
-          <div style={{ color: '#444', fontSize: '13px' }}>© {new Date().getFullYear()} Fatih Emin Çakıroğlu — Tüm hakları saklıdır.</div>
+          <div style={{ color: '#444', fontSize: '13px' }}>© {new Date().getFullYear()} Fatih Emin Çakıroğlu</div>
+          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            <a href="/gizlilik" style={{ color: '#444', fontSize: '12px', transition: 'color 0.15s', textDecoration: 'none' }}>Gizlilik Politikası</a>
+            <a href="/kullanim-kosullari" style={{ color: '#444', fontSize: '12px', transition: 'color 0.15s', textDecoration: 'none' }}>Kullanım Koşulları</a>
+          </div>
           <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer"
             style={{ color: '#555', fontSize: '13px', transition: 'color 0.15s', textDecoration: 'none' }}
             onMouseEnter={e => e.currentTarget.style.color = '#fff'}

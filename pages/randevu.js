@@ -52,6 +52,21 @@ export default function Page(props) {
           <Link href="/iletisim"><button style={{ padding: '16px 36px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)', marginBottom: '16px', display: 'block', width: '100%' }}>{t.btn}</button></Link>
           <p style={{ fontSize: '13px', color: '#aaa' }}>{t.free}</p>
         </div>
+          {/* Calendly Embed */}
+          <div style={{ background: '#fff', borderRadius: '16px', border: '1px solid #eee', overflow: 'hidden', marginTop: '32px' }}>
+            <div style={{ background: '#faf9f7', padding: '16px 24px', borderBottom: '1px solid #eee', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>📅 {isEn ? 'Pick a time' : 'Zaman seçin'}</span>
+            </div>
+            <div style={{ padding: '32px', textAlign: 'center' }}>
+              <p style={{ fontSize: '14px', color: '#aaa', marginBottom: '20px' }}>
+                {isEn ? 'Calendly integration — add your Calendly link below.' : 'Calendly entegrasyonu — Calendly linkinizi aşağıya ekleyin.'}
+              </p>
+              <a href="https://calendly.com/fatihemincakiroglu" target="_blank" rel="noreferrer"
+                style={{ display: 'inline-block', padding: '14px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-body)' }}>
+                {isEn ? 'Book via Calendly →' : 'Calendly ile Randevu Al →'}
+              </a>
+            </div>
+          </div>
       </div>
     </>
   );
