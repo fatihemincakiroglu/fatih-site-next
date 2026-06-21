@@ -16,7 +16,8 @@ export default function Page() {
     <>
       <Head>
         <title>İletişim | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="SEO danışmanlığı için iletişime geçin. İlk görüşme tamamen ücretsiz." />
+        <meta name="description" content="Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı görüşmesi için randevu alın veya mesaj gönderin." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/iletisim" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org", "@type": "ContactPage",
           "name": "İletişim — Fatih Emin Çakıroğlu",
@@ -28,8 +29,26 @@ export default function Page() {
             "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]
           }
         })}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "İletişim", "item": "https://fatihemincakiroglu.com/iletisim"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>İletişim</span>
+          </div>
+        </div>
+
         <div style={{ background: '#1a1612', padding: '80px 32px 64px', textAlign: 'center' }}>
           <div style={{ maxWidth: '600px', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '16px' }}>İLETİŞİM</span>

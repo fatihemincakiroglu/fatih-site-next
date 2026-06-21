@@ -55,12 +55,32 @@ export default function Page() {
     <>
       <Head>
         <title>Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu — SEO Danışmanlığı</title>
-        <meta name="description" content="SEO danışmanlığı, teknik SEO, içerik stratejisi ve GEO hakkında sıkça sorulan sorular ve uzman yanıtları." />
+        <meta name="description" content="SEO danışmanlığı hakkında en sık sorulan sorular ve yanıtları. Fiyatlandırma, süreç ve sonuçlar hakkında her şey." />
         <link rel="canonical" href="https://fatihemincakiroglu.com/sss" />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "SSS", "item": "https://fatihemincakiroglu.com/sss"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/kaynaklar" style={{ color: '#aaa', fontSize: '13px' }}>Kaynaklar</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>SSS</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>SSS</span>

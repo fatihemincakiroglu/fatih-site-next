@@ -128,7 +128,8 @@ export default function Page() {
     <>
       <Head>
         <title>{veri.baslik} | SEO Rehberi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content={`${veri.baslik} hakkında kapsamlı rehber. Teknik detaylar, strateji ve uygulama adımları.`} />
+        <meta name="description" content={`${veri.baslik} rehberi: Fatih Emin Çakıroğlu'nun hazırladığı kapsamlı ${veri.kategori} rehberi. Strateji, teknik detaylar ve uygulama adımları.`} />
+        <link rel="canonical" href={`https://fatihemincakiroglu.com/rehber/${slug}`} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
@@ -137,9 +138,28 @@ export default function Page() {
           "publisher": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"},
           "url": `https://fatihemincakiroglu.com/rehber/${slug}`
         })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Rehber", "item": "https://fatihemincakiroglu.com/rehber"},
+            {"@type": "ListItem", "position": 3, "name": veri.baslik, "item": `https://fatihemincakiroglu.com/rehber/${slug}`}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px', fontSize: '13px', color: '#aaa' }}>
+            <Link href="/" style={{ color: '#aaa' }}>Ana Sayfa</Link>
+            <span>›</span>
+            <Link href="/rehber" style={{ color: '#aaa' }}>Rehber</Link>
+            <span>›</span>
+            <span style={{ color: '#555' }}>{veri.baslik}</span>
+          </div>
+        </div>
         {/* Hero */}
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px' }}>
           <div style={{ maxWidth: '760px', margin: '0 auto' }}>
@@ -164,7 +184,7 @@ export default function Page() {
           {/* Makale */}
           <div style={{ background: '#fff', borderRadius: '16px', padding: '48px', border: '1px solid #eee' }}>
             {veri.bolumler.map((b, bi) => (
-              <div key={bi} style={{ marginBottom: bi < veri.bolumler.length - 1 ? '44px' : '0' }}>
+              <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < veri.bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
                 <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <span style={{ width: '4px', height: '22px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>
                   {b.baslik}
@@ -182,10 +202,13 @@ export default function Page() {
             <div style={{ background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee' }}>
               <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>İÇİNDEKİLER</div>
               {veri.bolumler.map((b, i) => (
-                <div key={i} style={{ display: 'flex', gap: '8px', marginBottom: '10px' }}>
+                <a key={i} href={`#bolum-${i}`} style={{ display: 'flex', gap: '8px', marginBottom: '10px', textDecoration: 'none', cursor: 'pointer' }}
+                  onMouseEnter={e => e.currentTarget.querySelector('span:last-child').style.color = 'var(--orange)'}
+                  onMouseLeave={e => e.currentTarget.querySelector('span:last-child').style.color = '#666'}
+                >
                   <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 700, flexShrink: 0 }}>{String(i + 1).padStart(2, '0')}</span>
-                  <span style={{ fontSize: '13px', color: '#666', lineHeight: 1.4 }}>{b.baslik}</span>
-                </div>
+                  <span style={{ fontSize: '13px', color: '#666', lineHeight: 1.4, transition: 'color 0.15s' }}>{b.baslik}</span>
+                </a>
               ))}
             </div>
 

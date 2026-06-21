@@ -19,9 +19,30 @@ export default function Page() {
     <>
       <Head>
         <title>SEO Rehberi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Teknik SEO, on-page, off-page ve içerik stratejisi hakkında kapsamlı SEO rehberleri." />
+        <meta name="description" content="Kapsamlı SEO rehberi: Teknik SEO, içerik optimizasyonu, backlink stratejisi ve arama motoru algoritmaları hakkında detaylı bilgi." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/seo-rehberi" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "SEO Rehberi", "item": "https://fatihemincakiroglu.com/seo-rehberi"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/kaynaklar" style={{ color: '#aaa', fontSize: '13px' }}>Kaynaklar</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>SEO Rehberi</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '64px 32px 48px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <Link href="/kaynaklar" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>← Kaynaklar</Link>

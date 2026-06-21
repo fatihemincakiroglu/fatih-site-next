@@ -28,56 +28,68 @@ const LINKLER = {
   ],
 };
 
-const ARACLAR = [
-  { isim: 'SEMrush', url: 'https://www.semrush.com' },
-  { isim: 'Ahrefs', url: 'https://ahrefs.com' },
-  { isim: 'ChatGPT', url: 'https://chat.openai.com' },
-  { isim: 'Perplexity', url: 'https://www.perplexity.ai' },
-  { isim: 'Claude', url: 'https://claude.ai' },
-  { isim: 'Google', url: 'https://www.google.com' },
-];
-
 export default function Footer() {
   return (
-    <footer style={{ background: '#1a1612', color: '#fff', borderTop: '1px solid #2a2520' }}>
-      <div style={{ borderBottom: '1px solid #2a2520', padding: '32px' }}>
-        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-          <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', padding: '3px 10px', background: 'rgba(232,86,10,0.12)', borderRadius: '4px', display: 'inline-block', marginBottom: '10px' }}>ÇALIŞMA ORTAMI</span>
-          <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#fff', marginBottom: '16px' }}>Veri, reklam ve <span style={{ color: 'var(--orange)' }}>AI araçları</span></h3>
-          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-            {ARACLAR.map(a => (
-              <a key={a.isim} href={a.url} target="_blank" rel="nofollow noreferrer noopener" style={{ padding: '8px 16px', background: '#231f1a', border: '1px solid #2a2520', borderRadius: '8px', color: '#9a9a9a', fontSize: '13px', fontWeight: 600, textDecoration: 'none' }}>
-                {a.isim}
-              </a>
+    <footer style={{ background: '#111', color: '#fff', borderTop: '1px solid #222' }}>
+      {/* Araçlar bandı */}
+      <div style={{ borderBottom: '1px solid #1e1e1e', padding: '28px 32px' }}>
+        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap' }}>
+          <div style={{ flexShrink: 0 }}>
+            <span style={{ fontSize: '11px', color: '#555', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', display: 'block', marginBottom: '4px' }}>ÇALIŞMA ARAÇLARI</span>
+            <span style={{ fontSize: '15px', color: '#fff', fontWeight: 700 }}>Veri ve <span style={{ color: 'var(--orange)' }}>AI araçları</span></span>
+          </div>
+          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+            {['SEMrush', 'Ahrefs', 'ChatGPT', 'Perplexity', 'Claude', 'Google', 'Search Console'].map(a => (
+              <span key={a} style={{ padding: '6px 14px', background: '#1a1a1a', border: '1px solid #2a2a2a', borderRadius: '6px', color: '#888', fontSize: '12px', fontWeight: 500 }}>{a}</span>
             ))}
           </div>
         </div>
       </div>
+
+      {/* Ana footer */}
       <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 32px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: '40px', marginBottom: '40px' }}>
+        <div className="footer-grid" style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: '40px', marginBottom: '40px' }}>
           <div>
             <Link href="/" style={{ display: 'block', marginBottom: '16px' }}>
-              <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height: '36px', filter: 'invert(1) brightness(2)' }} />
+              <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height: '34px', filter: 'invert(1) brightness(2)' }} />
             </Link>
-            <p style={{ color: '#6b6b6b', fontSize: '14px', lineHeight: 1.7, marginBottom: '16px' }}>SEO danışmanlığı ile organik büyümenizi hızlandırıyorum.</p>
-            <Link href="/iletisim" style={{ display: 'block', padding: '10px', background: 'var(--orange)', borderRadius: '8px', color: '#fff', textAlign: 'center', fontSize: '13px', fontWeight: 600 }}>İletişime Geç →</Link>
+            <p style={{ color: '#555', fontSize: '14px', lineHeight: 1.7, marginBottom: '20px' }}>
+              SEO ve GEO danışmanlığıyla organik büyümenizi hızlandırıyorum.
+            </p>
+            <Link href="/iletisim" style={{ display: 'inline-block', padding: '10px 20px', background: 'var(--orange)', borderRadius: '8px', color: '#fff', fontSize: '13px', fontWeight: 600 }}>
+              İletişime Geç →
+            </Link>
           </div>
           {Object.entries(LINKLER).map(([baslik, linkler]) => (
             <div key={baslik}>
-              <div style={{ fontSize: '11px', color: '#4a4540', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '16px' }}>{baslik}</div>
+              <div style={{ fontSize: '11px', color: '#444', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '16px' }}>{baslik}</div>
               {linkler.map(l => (
                 <div key={l.label} style={{ marginBottom: '10px' }}>
-                  <Link href={l.url} style={{ color: '#6b6b6b', fontSize: '14px' }}>{l.label}</Link>
+                  <Link href={l.url} style={{ color: '#666', fontSize: '14px', transition: 'color 0.15s' }}
+                    onMouseEnter={e => e.currentTarget.style.color = '#fff'}
+                    onMouseLeave={e => e.currentTarget.style.color = '#666'}
+                  >{l.label}</Link>
                 </div>
               ))}
             </div>
           ))}
         </div>
-        <div style={{ borderTop: '1px solid #2a2520', paddingTop: '24px', display: 'flex', justifyContent: 'space-between' }}>
-          <div style={{ color: '#4a4540', fontSize: '13px' }}>© {new Date().getFullYear()} Fatih Emin Çakıroğlu</div>
-          <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ color: '#4a4540', fontSize: '13px' }}>LinkedIn ↗</a>
+        <div style={{ borderTop: '1px solid #1e1e1e', paddingTop: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
+          <div style={{ color: '#444', fontSize: '13px' }}>© {new Date().getFullYear()} Fatih Emin Çakıroğlu — Tüm hakları saklıdır.</div>
+          <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ color: '#555', fontSize: '13px', transition: 'color 0.15s' }}
+            onMouseEnter={e => e.currentTarget.style.color = '#fff'}
+            onMouseLeave={e => e.currentTarget.style.color = '#555'}
+          >LinkedIn ↗</a>
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 768px) {
+          .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 28px !important; }
+          .footer-grid > div:first-child { grid-column: 1 / -1; }
+          footer { padding-left: 16px; padding-right: 16px; }
+        }
+      `}</style>
     </footer>
   );
 }

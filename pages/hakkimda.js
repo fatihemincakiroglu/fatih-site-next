@@ -36,10 +36,29 @@ export default function Page() {
     <>
       <Head>
         <title>Hakkımda | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama Uzmanı</title>
-        <meta name="description" content="8+ yıllık deneyimli SEO uzmanı Fatih Emin Çakıroğlu hakkında. Uzmanlık alanları, deneyim ve başarı hikayeleri." />
+        <meta name="description" content="Fatih Emin Çakıroğlu: 8+ yıllık deneyimli SEO ve dijital pazarlama uzmanı. 150+ işletmeyle çalıştım, organik büyümeyi hızlandırıyorum." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/hakkimda" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Hakkımda", "item": "https://fatihemincakiroglu.com/hakkimda"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Hakkımda</span>
+          </div>
+        </div>
+
 
         {/* Hero */}
         <div style={{ background: '#1a1612', padding: '80px 32px' }}>

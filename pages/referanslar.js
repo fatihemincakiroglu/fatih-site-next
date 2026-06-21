@@ -16,7 +16,8 @@ export default function Page() {
     <>
       <Head>
         <title>Müşteri Referansları | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="150+ müşterinin SEO danışmanlığı deneyimleri. Gerçek sonuçlar, gerçek yorumlar." />
+        <meta name="description" content="Fatih Emin Çakıroğlu ile çalışan 150+ işletmenin deneyimleri. Gerçek müşteri yorumları ve organik büyüme sonuçları." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/referanslar" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org", "@type": "ItemList",
           "name": "Müşteri Referansları",
@@ -27,8 +28,28 @@ export default function Page() {
             "itemReviewed": {"@type": "Person", "name": "Fatih Emin Çakıroğlu"}
           }))
         })}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Referanslar", "item": "https://fatihemincakiroglu.com/referanslar"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/hakkimda" style={{ color: '#aaa', fontSize: '13px' }}>Hakkımda</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Referanslar</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '64px 32px 48px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>REFERANSLAR</span>

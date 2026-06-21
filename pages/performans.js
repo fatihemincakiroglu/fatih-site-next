@@ -8,9 +8,30 @@ export default function Page() {
     <>
       <Head>
         <title>Performans ve Growth | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Trafik, dönüşüm ve büyüme hedeflerini veri odaklı yaklaşımla optimize etme danışmanlığı." />
+        <meta name="description" content="Organik trafik, dönüşüm oranı ve büyüme hedeflerinizi veriye dayalı SEO stratejisiyle optimize edin. Ölçülebilir sonuçlar." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/performans" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Performans & Growth", "item": "https://fatihemincakiroglu.com/performans"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/hizmetler" style={{ color: '#aaa', fontSize: '13px' }}>Hizmetler</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Performans & Growth</span>
+          </div>
+        </div>
+
         <div style={{ background: '#1a1612', padding: '80px 32px' }}>
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <Link href="/hizmetler" style={{ fontSize: '13px', color: '#4a4540', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Tüm Hizmetler</Link>

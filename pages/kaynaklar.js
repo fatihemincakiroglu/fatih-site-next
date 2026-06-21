@@ -14,9 +14,28 @@ export default function Page() {
     <>
       <Head>
         <title>Kaynaklar | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="SEO rehberleri, GEO rehberi, AI sözlük ve SSS. Ücretsiz dijital pazarlama kaynakları." />
+        <meta name="description" content="SEO ve dijital pazarlama için faydalı kaynaklar, araçlar ve rehberler. Alanındaki en güncel bilgiler tek yerde." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/kaynaklar" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Kaynaklar", "item": "https://fatihemincakiroglu.com/kaynaklar"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Kaynaklar</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '64px 32px 48px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>KAYNAKLAR</span>

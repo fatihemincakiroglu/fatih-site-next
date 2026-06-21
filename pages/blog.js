@@ -81,10 +81,29 @@ export default function Page() {
     <>
       <Head>
         <title>Blog | Fatih Emin Çakıroğlu — SEO & Dijital Pazarlama</title>
-        <meta name="description" content="SEO, teknik SEO, e-ticaret ve dijital pazarlama hakkında 50+ güncel yazı ve strateji rehberi." />
+        <meta name="description" content="SEO, GEO ve dijital pazarlama üzerine güncel makaleler. Arama motoru optimizasyonu ve yapay zekâ arama trendleri hakkında pratik içerikler." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/blog" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fatihemincakiroglu.com/blog"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Blog</span>
+          </div>
+        </div>
+
 
         {/* Header — açık tema */}
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 40px' }}>

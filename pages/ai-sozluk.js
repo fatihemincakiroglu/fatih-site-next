@@ -28,9 +28,30 @@ export default function Page() {
     <>
       <Head>
         <title>AI Sözlük | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="SEO, GEO ve yapay zeka terimleri için hızlı başvuru sözlüğü." />
+        <meta name="description" content="Yapay zekâ ve SEO terimleri sözlüğü. GEO, LLM, AI Overview ve diğer temel kavramların açıklamaları." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/ai-sozluk" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "AI Sözlük", "item": "https://fatihemincakiroglu.com/ai-sozluk"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/kaynaklar" style={{ color: '#aaa', fontSize: '13px' }}>Kaynaklar</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>AI Sözlük</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '64px 32px 48px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <Link href="/kaynaklar" style={{ fontSize: '13px', color: '#aaa', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>← Kaynaklar</Link>

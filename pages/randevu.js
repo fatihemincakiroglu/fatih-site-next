@@ -44,6 +44,15 @@ export default function Page() {
 
   if (gonderildi) return (
     <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#1a1612', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Randevu</span>
+          </div>
+        </div>
+
       <div style={{ textAlign: 'center', padding: '60px 40px', maxWidth: '480px' }}>
         <div style={{ fontSize: '64px', marginBottom: '20px' }}>✅</div>
         <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '28px', color: '#fff', marginBottom: '12px' }}>Talebiniz alındı!</h2>
@@ -59,7 +68,17 @@ export default function Page() {
     <>
       <Head>
         <title>Ücretsiz Keşif Görüşmesi | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Ücretsiz SEO keşif görüşmesi için randevu alın. 8+ yıl deneyim, 150+ marka referansı." />
+        <meta name="description" content="Ücretsiz SEO keşif görüşmesi için randevu alın. Sitenizi değerlendirip size özel yol haritası sunuyorum." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/randevu" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Randevu", "item": "https://fatihemincakiroglu.com/randevu"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#111', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 'calc(var(--nav-h) + 40px) 32px 96px' }}>

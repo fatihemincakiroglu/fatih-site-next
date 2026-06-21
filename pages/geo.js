@@ -8,10 +8,31 @@ export default function Page() {
     <>
       <Head>
         <title>GEO Danışmanlığı | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünme. Generative Engine Optimization danışmanlığı." />
+        <meta name="description" content="ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünün. Generative Engine Optimization ile yapay zekâ arama görünürlüğünüzü artırın." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/geo" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":"GEO Danışmanlığı","provider":{"@type":"Person","name":"Fatih Emin Çakıroğlu"},"description":"Yapay zeka arama motorlarında görünürlük optimizasyonu.","url":"https://fatihemincakiroglu.com/geo"})}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "GEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/geo"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/hizmetler" style={{ color: '#aaa', fontSize: '13px' }}>Hizmetler</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>GEO Danışmanlığı</span>
+          </div>
+        </div>
+
         <div style={{ background: '#1a1612', padding: '80px 32px' }}>
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <Link href="/hizmetler" style={{ fontSize: '13px', color: '#4a4540', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Tüm Hizmetler</Link>

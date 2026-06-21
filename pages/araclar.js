@@ -221,10 +221,179 @@ function SkorHesap() {
   );
 }
 
+function MetaUzunlukHesap() {
+  const [baslik, setBaslik] = useState('');
+  const [meta, setMeta] = useState('');
+  const maxBaslik = 60;
+  const maxMeta = 160;
+  const bRenk = baslik.length > maxBaslik ? '#dc2626' : baslik.length >= 40 ? '#15803d' : '#d97706';
+  const mRenk = meta.length > maxMeta ? '#dc2626' : meta.length >= 120 ? '#15803d' : '#d97706';
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+      <div>
+        <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '8px' }}>
+          Title Tag <span style={{ color: bRenk, fontWeight: 700 }}>{baslik.length}/{maxBaslik}</span>
+        </label>
+        <input value={baslik} onChange={e => setBaslik(e.target.value)} placeholder="Sayfa başlığınızı girin..."
+          style={{ width: '100%', padding: '12px', borderRadius: '8px', border: `2px solid ${bRenk}`, fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
+        <div style={{ height: '6px', background: '#eee', borderRadius: '3px', marginTop: '8px', overflow: 'hidden' }}>
+          <div style={{ height: '100%', width: `${Math.min(100, (baslik.length / maxBaslik) * 100)}%`, background: bRenk, borderRadius: '3px', transition: 'all 0.2s' }} />
+        </div>
+        {baslik && <div style={{ marginTop: '12px', padding: '12px', background: '#f8f7f5', borderRadius: '8px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '12px', color: '#aaa', marginBottom: '6px', fontWeight: 600 }}>SERP ÖNİZLEME</div>
+          <div style={{ fontSize: '16px', color: '#1a0dab', fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{baslik.slice(0, maxBaslik)}{baslik.length > maxBaslik ? '...' : ''}</div>
+        </div>}
+      </div>
+      <div>
+        <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '8px' }}>
+          Meta Description <span style={{ color: mRenk, fontWeight: 700 }}>{meta.length}/{maxMeta}</span>
+        </label>
+        <textarea value={meta} onChange={e => setMeta(e.target.value)} placeholder="Meta açıklamanızı girin..." rows={3}
+          style={{ width: '100%', padding: '12px', borderRadius: '8px', border: `2px solid ${mRenk}`, fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+        <div style={{ height: '6px', background: '#eee', borderRadius: '3px', marginTop: '8px', overflow: 'hidden' }}>
+          <div style={{ height: '100%', width: `${Math.min(100, (meta.length / maxMeta) * 100)}%`, background: mRenk, borderRadius: '3px', transition: 'all 0.2s' }} />
+        </div>
+      </div>
+      <div style={{ padding: '14px', background: 'rgba(232,86,10,0.05)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#666', lineHeight: 1.6 }}>
+        💡 <strong>İdeal uzunluklar:</strong> Title: 40–60 karakter · Meta: 120–160 karakter
+      </div>
+    </div>
+  );
+}
+
+function RobotsTxtOlustur() {
+  const [sitemap, setSitemap] = useState('https://siteniz.com/sitemap.xml');
+  const [yasakli, setYasakli] = useState('/admin/\n/private/');
+  const [robots, setRobots] = useState('');
+  const olustur = () => {
+    const yasakliSatirlar = yasakli.split('\n').filter(Boolean).map(y => `Disallow: ${y.trim()}`).join('\n');
+    setRobots(`User-agent: *\nAllow: /\n${yasakliSatirlar}\n\nSitemap: ${sitemap}`);
+  };
+  return (
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <div>
+          <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '6px' }}>Sitemap URL'si</label>
+          <input value={sitemap} onChange={e => setSitemap(e.target.value)}
+            style={{ width: '100%', padding: '10px 14px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
+        </div>
+        <div>
+          <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '6px' }}>Yasaklı Yollar (her satıra bir tane)</label>
+          <textarea value={yasakli} onChange={e => setYasakli(e.target.value)} rows={5}
+            style={{ width: '100%', padding: '10px 14px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+        </div>
+        <button onClick={olustur} style={{ padding: '12px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)' }}>
+          Robots.txt Oluştur
+        </button>
+      </div>
+      <div>
+        {robots ? (
+          <div style={{ background: '#111', borderRadius: '12px', padding: '20px', height: '100%' }}>
+            <div style={{ fontSize: '11px', color: '#555', fontWeight: 700, letterSpacing: '1px', marginBottom: '12px' }}>robots.txt</div>
+            <pre style={{ color: '#e2e8f0', fontSize: '13px', lineHeight: 1.7, whiteSpace: 'pre-wrap', fontFamily: 'monospace', margin: 0 }}>{robots}</pre>
+            <button onClick={() => navigator.clipboard.writeText(robots)} style={{ marginTop: '14px', padding: '8px 16px', borderRadius: '6px', background: 'rgba(255,255,255,0.1)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)', cursor: 'pointer', fontSize: '12px', fontFamily: 'var(--font-body)' }}>
+              Kopyala
+            </button>
+          </div>
+        ) : (
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#ccc', textAlign: 'center', padding: '40px' }}>
+            <div><div style={{ fontSize: '40px', marginBottom: '10px' }}>🤖</div><div style={{ fontSize: '14px' }}>Robots.txt oluşturmak için formu doldurun</div></div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function SlugOlustur() {
+  const [metin, setMetin] = useState('');
+  const slugify = (t) => t.toLowerCase()
+    .replace(/ğ/g,'g').replace(/ü/g,'u').replace(/ş/g,'s').replace(/ı/g,'i').replace(/ö/g,'o').replace(/ç/g,'c')
+    .replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'');
+  const slug = slugify(metin);
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+      <div>
+        <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '8px' }}>Sayfa Başlığı veya Metni</label>
+        <input value={metin} onChange={e => setMetin(e.target.value)} placeholder="SEO Danışmanlığı Nedir ve Nasıl Çalışır?"
+          style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
+      </div>
+      {slug && (
+        <div style={{ background: '#f8f7f5', borderRadius: '12px', padding: '20px', border: '1px solid #eee' }}>
+          <div style={{ fontSize: '12px', color: '#aaa', fontWeight: 700, marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '1px' }}>Oluşturulan Slug</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <code style={{ flex: 1, padding: '10px 14px', background: '#fff', borderRadius: '6px', border: '1px solid #eee', fontSize: '15px', color: 'var(--orange)', fontFamily: 'monospace' }}>{slug}</code>
+            <button onClick={() => navigator.clipboard.writeText(slug)} style={{ padding: '10px 16px', borderRadius: '6px', background: 'var(--orange)', color: '#fff', border: 'none', cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)', fontWeight: 700, whiteSpace: 'nowrap' }}>Kopyala</button>
+          </div>
+          <div style={{ marginTop: '12px', fontSize: '13px', color: '#888' }}>
+            Örnek URL: <span style={{ color: '#555' }}>https://siteniz.com/<strong>{slug}</strong></span>
+          </div>
+        </div>
+      )}
+      <div style={{ padding: '14px', background: 'rgba(232,86,10,0.05)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#666', lineHeight: 1.6 }}>
+        💡 Türkçe karakterler otomatik dönüştürülür. Boşluklar tire (-) ile değiştirilir.
+      </div>
+    </div>
+  );
+}
+
+function ReadabilityAnaliz() {
+  const [icerik, setIcerik] = useState('');
+  const analiz = () => {
+    if (!icerik.trim()) return null;
+    const kelimeler = icerik.trim().split(/\s+/).length;
+    const cumleler = icerik.split(/[.!?]+/).filter(Boolean).length;
+    const paragraflar = icerik.split(/\n\n+/).filter(Boolean).length;
+    const ortKelime = cumleler > 0 ? (kelimeler / cumleler).toFixed(1) : 0;
+    const okumaSure = Math.ceil(kelimeler / 200);
+    const skor = Math.max(0, Math.min(100, 100 - (ortKelime - 15) * 2));
+    return { kelimeler, cumleler, paragraflar, ortKelime, okumaSure, skor: Math.round(skor) };
+  };
+  const sonuc = analiz();
+  return (
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+      <div>
+        <label style={{ fontSize: '13px', fontWeight: 600, color: '#555', display: 'block', marginBottom: '8px' }}>İçeriğinizi Yapıştırın</label>
+        <textarea value={icerik} onChange={e => setIcerik(e.target.value)} rows={12} placeholder="Analiz etmek istediğiniz içeriği buraya yapıştırın..."
+          style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+      </div>
+      <div>
+        {sonuc ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div style={{ textAlign: 'center', padding: '20px', background: '#fff', borderRadius: '12px', border: '1px solid #eee' }}>
+              <div style={{ fontSize: '56px', fontWeight: 800, color: sonuc.skor >= 70 ? '#15803d' : sonuc.skor >= 40 ? '#d97706' : '#dc2626', fontFamily: 'var(--font-display)', lineHeight: 1 }}>{sonuc.skor}</div>
+              <div style={{ fontSize: '13px', color: '#aaa', marginTop: '4px' }}>Okunabilirlik Skoru</div>
+            </div>
+            {[
+              { etiket: 'Toplam Kelime', deger: sonuc.kelimeler.toLocaleString() },
+              { etiket: 'Cümle Sayısı', deger: sonuc.cumleler },
+              { etiket: 'Ortalama Kelime/Cümle', deger: sonuc.ortKelime },
+              { etiket: 'Tahmini Okuma Süresi', deger: `${sonuc.okumaSure} dk` },
+            ].map((item, i) => (
+              <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '12px 16px', background: '#fff', borderRadius: '8px', border: '1px solid #eee' }}>
+                <span style={{ fontSize: '13px', color: '#666' }}>{item.etiket}</span>
+                <span style={{ fontSize: '13px', fontWeight: 700, color: '#111' }}>{item.deger}</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#ccc', textAlign: 'center', padding: '40px' }}>
+            <div><div style={{ fontSize: '40px', marginBottom: '10px' }}>📝</div><div style={{ fontSize: '14px' }}>İçeriğinizi sol alana yapıştırın</div></div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 const ARACLAR = [
   { id: 'meta', isim: 'Meta Tag Analizi', aciklama: 'URL girişiyle başlık, meta açıklama ve teknik faktörleri analiz edin.', ikon: '🔍', component: MetaChecker },
   { id: 'keyword', isim: 'Anahtar Kelime Araştırması', aciklama: 'Hedef kelimeleriniz için hacim, zorluk ve arama niyeti verilerini görün.', ikon: '📊', component: KeywordAnaliz },
   { id: 'skor', isim: 'SEO Skor Hesaplayıcı', aciklama: 'Sayfa bilgilerinizi girerek temel SEO skoru hesaplayın.', ikon: '⚡', component: SkorHesap },
+  { id: 'uzunluk', isim: 'Title & Meta Uzunluk Ölçer', aciklama: 'Başlık ve meta açıklamanızın ideal karakter sınırını anlık kontrol edin.', ikon: '📏', component: MetaUzunlukHesap },
+  { id: 'robots', isim: 'Robots.txt Oluşturucu', aciklama: 'Siteniz için özelleştirilmiş robots.txt dosyası oluşturun.', ikon: '🤖', component: RobotsTxtOlustur },
+  { id: 'slug', isim: 'SEO Slug Oluşturucu', aciklama: 'Başlıktan SEO dostu URL slug\'ı otomatik olarak oluşturun.', ikon: '🔗', component: SlugOlustur },
+  { id: 'okunabilirlik', isim: 'Okunabilirlik Analizi', aciklama: 'İçeriğinizin okunabilirlik skorunu ve kelime istatistiklerini görün.', ikon: '📝', component: ReadabilityAnaliz },
 ];
 
 export default function Page() {
@@ -235,10 +404,29 @@ export default function Page() {
     <>
       <Head>
         <title>Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması ve SEO skor hesaplayıcı." />
+        <meta name="description" content="Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması, SEO skor hesaplayıcı ve daha fazlası. Kayıt gerektirmez." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/araclar" />
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Araçlar", "item": "https://fatihemincakiroglu.com/araclar"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Araçlar</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>ÜCRETSİZ ARAÇLAR</span>
@@ -251,7 +439,7 @@ export default function Page() {
 
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '32px 32px 96px' }}>
           {/* Araç seçici */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '32px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px', marginBottom: '32px' }}>
             {ARACLAR.map(a => (
               <button key={a.id} onClick={() => setAktif(a.id)} style={{
                 padding: '20px', borderRadius: '12px', border: aktif === a.id ? '2px solid var(--orange)' : '2px solid #eee',

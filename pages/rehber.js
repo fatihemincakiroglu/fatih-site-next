@@ -39,7 +39,8 @@ export default function Page() {
     <>
       <Head>
         <title>SEO Rehberleri | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler. Her rehber ayrı sayfada." />
+        <meta name="description" content="Teknik SEO, GEO, backlink ve içerik stratejisi hakkında 15+ kapsamlı rehber. Her konuyu derinlemesine öğrenin." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/rehber" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org", "@type": "ItemList",
           "name": "SEO Rehberleri",
@@ -48,9 +49,27 @@ export default function Page() {
             "url": `https://fatihemincakiroglu.com/rehber/${r.slug}`
           }))
         })}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "Rehber", "item": "https://fatihemincakiroglu.com/rehber"}
+          ]
+        })}</script>
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>Rehber</span>
+          </div>
+        </div>
+
         <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '12px' }}>REHBER</span>

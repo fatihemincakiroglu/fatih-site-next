@@ -16,7 +16,8 @@ export default function Page() {
     <>
       <Head>
         <title>SEO Danışmanlığı | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content="Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle Google'da üst sıralara çıkın. 8+ yıl deneyimli SEO danışmanı." />
+        <meta name="description" content="Fatih Emin Çakıroğlu'ndan teknik SEO, içerik stratejisi ve backlink danışmanlığı. 8+ yıllık deneyim, 150+ başarılı proje ve ölçülebilir organik büyüme." />
+        <link rel="canonical" href="https://fatihemincakiroglu.com/seo" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Service",
@@ -25,8 +26,28 @@ export default function Page() {
           "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejisiyle organik büyüme danışmanlığı.",
           "areaServed": "TR", "url": "https://fatihemincakiroglu.com/seo"
         })}</script>
+
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://fatihemincakiroglu.com"},
+            {"@type": "ListItem", "position": 2, "name": "SEO Danışmanlığı", "item": "https://fatihemincakiroglu.com/seo"}
+          ]
+        })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
+        {/* Breadcrumb */}
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href="/hizmetler" style={{ color: '#aaa', fontSize: '13px' }}>Hizmetler</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px' }}>SEO Danışmanlığı</span>
+          </div>
+        </div>
+
         <div style={{ background: '#1a1612', padding: '80px 32px' }}>
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <Link href="/hizmetler" style={{ fontSize: '13px', color: '#4a4540', textDecoration: 'none', display: 'inline-block', marginBottom: '20px' }}>← Tüm Hizmetler</Link>
