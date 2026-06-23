@@ -114,6 +114,7 @@ export default function App({ Component, pageProps }) {
   return (
     <LocaleContext.Provider value={locale}>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fatih Emin Çakıroğlu" />

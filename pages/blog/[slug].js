@@ -7,81 +7,59 @@ const ICERIKLER = {
   'core-web-vitals-2025': {
     baslik_tr: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi',
     baslik_en: 'Core Web Vitals 2025: Complete LCP, INP and CLS Optimization Guide',
-    etiket: 'Teknik SEO', sure: '12 dk',
+    etiket: 'Teknik SEO', sure: '12',
     bolumler_tr: [
-      { baslik: 'Core Web Vitals Nedir ve Neden Önemlidir?', paragraflar: ['Core Web Vitals, Google\'ın Mayıs 2021\'den itibaren resmi sıralama faktörü olarak kullandığı kullanıcı deneyimi metrikleridir. Üç temel ölçütten oluşur: LCP (Largest Contentful Paint), INP (Interaction to Next Paint) ve CLS (Cumulative Layout Shift). Bu metrikler, sitenizin kullanıcılar için gerçekte nasıl bir deneyim sunduğunu ölçmek amacıyla tasarlanmıştır.', 'Google Search Console\'daki Core Web Vitals raporu, sitenizin bu metriklerde gerçek dünya kullanıcı verisine (field data) dayalı performansını gösterir. Bu veriler, PageSpeed Insights\'ın lab verilerinden farklı olarak gerçek kullanıcı tarayıcılarından toplanan Chrome User Experience Report (CrUX) verilerine dayanır.', 'Teknik açıdan mükemmel bir sitenin bile zayıf CWV skorları nedeniyle rakiplerinin gerisinde kalabileceği anlamına gelen bu durum, her SEO stratejisinin ayrılmaz bir parçası haline gelmiştir. 2024\'te INP\'in FID\'in yerini almasıyla birlikte mevcut stratejilerin güncellenmesi zorunlu oldu.'] },
-      { baslik: 'LCP Optimizasyonu: En Büyük İçerikli Boyama', paragraflar: ['LCP, sayfanın görünür alanındaki en büyük içerik öğesinin (görsel, video veya büyük metin bloğu) yüklenme süresini ölçer. İdeal LCP süresi 2,5 saniyenin altında olmalıdır. 2,5-4 saniye arası "geliştirme gerekli", 4 saniye üstü ise "zayıf" kategorisindedir.', 'LCP\'yi iyileştirmenin en etkili yolları şunlardır: LCP öğesi genellikle hero görseli olduğundan bu görseli preload etmek kritiktir. `<link rel="preload" as="image">` ile sayfa başında önceden yükleyebilirsiniz. Ek olarak, sunucu yanıt süresini (TTFB) azaltmak için CDN kullanımı ve sunucu optimizasyonu yapılmalıdır.', 'Görsel optimizasyonu LCP\'nin en kritik boyutudur. WebP veya AVIF formatına geçiş, doğru boyutlandırma ve lazy loading\'in yalnızca görünür alanın dışındaki görsellere uygulanması (LCP öğesi asla lazy load edilmemeli) temel önlemlerdir. Ayrıca render-blocking CSS ve JavaScript\'in azaltılması da LCP\'yi doğrudan etkiler.'] },
-      { baslik: 'INP Optimizasyonu: Etkileşim Performansı', paragraflar: ['INP (Interaction to Next Paint), Mart 2024\'te FID\'in yerini alarak Core Web Vitals\'ın etkileşim metriği oldu. INP, bir sayfadaki tüm tıklama, dokunma ve klavye etkileşimlerini ölçer ve bunların en kötü yüzdelik dilimini (genellikle 98. persentil) raporlar. İyi INP 200ms altında, zayıf INP ise 500ms üstündedir.', 'Ana thread blokajı INP sorunlarının birincil nedenidir. Uzun JavaScript görevlerini (50ms üzerindeki görevler "uzun görev" sayılır) tespit etmek ve parçalamak için Chrome DevTools\'daki Performance paneli kullanılabilir. `scheduler.yield()` veya `setTimeout(..., 0)` gibi tekniklerle görevler bölenebilir.', 'Third-party scriptler (analitik, chat widget\'ları, reklam kodları) INP sorunlarının sıkça görülen kaynağıdır. Bu scriptlerin yükleme stratejisini `async` veya `defer` ile optimize etmek, mümkünse web worker\'lara taşımak ya da gereksiz third-party entegrasyonları kaldırmak INP\'yi dramatik biçimde iyileştirebilir.'] },
-      { baslik: 'CLS Optimizasyonu: Kümülatif Layout Kayması', paragraflar: ['CLS, sayfa yüklenirken içeriklerin ne kadar beklenmedik biçimde yer değiştirdiğini ölçer. 0,1\'in altındaki skorlar iyi, 0,25 üstü ise zayıf kabul edilir. Kullanıcının tıklamak istediği butonun kayması gibi deneyimler CLS\'nin tipik tezahürüdür.', 'CLS\'nin en yaygın nedeni boyutları belirtilmemiş görsel ve video öğeleridir. HTML\'de `width` ve `height` attribute\'larını belirtmek veya CSS\'de `aspect-ratio` kullanmak, tarayıcının görsel yüklenmeden önce alan ayırmasını sağlar. Bu basit adım büyük CLS sorunlarını çözebilir.', 'Web fontları ve geç yüklenen reklamlar da önemli CLS kaynakları arasındadır. Font yüklenirken yaşanan FOUT (Flash of Unstyled Text) veya FOIT (Flash of Invisible Text) sorunları için `font-display: optional` veya `font-display: swap` stratejileri değerlendirilebilir. Reklam alanları için minimum boyut rezervasyonu yapmak da CLS\'yi azaltır.'] },
-      { baslik: 'CWV Ölçme ve İzleme Araçları', paragraflar: ['Core Web Vitals verilerini ölçmek için birden fazla araç kullanılmalıdır. PageSpeed Insights, hem lab (Lighthouse) hem field (CrUX) verilerini sunar ve URL bazında anlık analiz yapar. Search Console\'daki Core Web Vitals raporu ise sitenizin tamamı için alan bazlı veri sağlar ve sorunlu URL\'leri gruplandırır.', 'Chrome DevTools\'daki Lighthouse paneli geliştirme ortamında anlık testler yaparken kullanılabilir. Web Vitals Chrome uzantısı ise gerçek zamanlı metrik izleme için pratik bir araçtır. Ayrıca `web-vitals` JavaScript kütüphanesi ile kendi analitik sisteminize CWV verisi gönderebilirsiniz.', 'Sürekli izleme için SpeedCurve, Calibre veya Sentry Performance gibi araçlar kullanılabilir. Bu araçlar, performans regresyonlarını anında tespit etmenizi ve deployment\'larla ilişkilendirmenizi sağlar. Özellikle sık güncelleme yapan e-ticaret siteleri için kritik öneme sahiptir.'] },
-      { baslik: 'Sektöre Göre CWV Stratejisi', paragraflar: ['E-ticaret siteleri için LCP genellikle ürün görselleri tarafından belirlenir. Yüksek çözünürlüklü ürün fotoğraflarını CDN üzerinden sunmak, WebP dönüşümü yapmak ve hero görseli olarak kullanılan ilk ürün görselini preload etmek öncelikli adımlardır. Kategori sayfalarında lazy loading\'in doğru uygulanması INP\'yi de iyileştirir.', 'Haber ve blog siteleri için CLS kritik bir sorun olabilir. Reklam alanlarının dinamik yüklenmesi, embed\'lerin geç görünmesi ve sosyal medya widget\'ları CLS\'nin başlıca kaynaklarıdır. Bu tür siteler için yerleşik boyut rezervasyonu ve statik reklam alanları belirlemek etkili çözümlerdir.', 'SaaS ve kurumsal siteler genellikle third-party script yoğunluğu nedeniyle INP sorunuyla karşılaşır. Chat widget\'ları, form entegrasyonları ve analitik araçları ana thread\'i bloke edebilir. Kritik olmayan scriptleri kullanıcı etkileşiminden sonra (`after interaction`) yüklemek önemli INP kazanımları sağlar.'] },
+      { baslik: 'Core Web Vitals Nedir ve Neden Önemlidir?', paragraflar: ['Core Web Vitals, Google\'ın Mayıs 2021\'den itibaren resmi sıralama faktörü olarak kullandığı kullanıcı deneyimi metrikleridir. Üç temel ölçütten oluşur: LCP (Largest Contentful Paint), INP (Interaction to Next Paint) ve CLS (Cumulative Layout Shift). Bu metrikler, sitenizin kullanıcılar için gerçekte nasıl bir deneyim sunduğunu ölçmek amacıyla tasarlanmıştır.', 'Google Search Console\'daki Core Web Vitals raporu, sitenizin bu metriklerde gerçek dünya kullanıcı verisine dayalı performansını gösterir. Bu veriler, PageSpeed Insights\'ın lab verilerinden farklı olarak gerçek kullanıcı tarayıcılarından toplanan Chrome User Experience Report (CrUX) verilerine dayanır.', 'Teknik açıdan mükemmel bir sitenin bile zayıf CWV skorları nedeniyle rakiplerinin gerisinde kalabileceği anlamına gelen bu durum, her SEO stratejisinin ayrılmaz bir parçası haline gelmiştir.'] },
+      { baslik: 'LCP Optimizasyonu: En Büyük İçerikli Boyama', paragraflar: ['LCP, sayfanın görünür alanındaki en büyük içerik öğesinin yüklenme süresini ölçer. İdeal LCP süresi 2,5 saniyenin altında olmalıdır. 2,5-4 saniye arası geliştirme gerektirir, 4 saniye üstü ise zayıf kategorisindedir.', 'LCP\'yi iyileştirmenin en etkili yolları: LCP öğesi genellikle hero görseli olduğundan bu görseli preload etmek kritiktir. Ek olarak, sunucu yanıt süresini azaltmak için CDN kullanımı ve sunucu optimizasyonu yapılmalıdır.', 'Görsel optimizasyonu LCP\'nin en kritik boyutudur. WebP veya AVIF formatına geçiş, doğru boyutlandırma ve lazy loading\'in yalnızca görünür alanın dışındaki görsellere uygulanması temel önlemlerdir.'] },
+      { baslik: 'INP Optimizasyonu: Etkileşim Performansı', paragraflar: ['INP (Interaction to Next Paint), Mart 2024\'te FID\'in yerini alarak Core Web Vitals\'ın etkileşim metriği oldu. INP, bir sayfadaki tüm tıklama, dokunma ve klavye etkileşimlerini ölçer. İyi INP 200ms altında, zayıf INP ise 500ms üstündedir.', 'Ana thread blokajı INP sorunlarının birincil nedenidir. Uzun JavaScript görevlerini tespit etmek ve parçalamak için Chrome DevTools\'daki Performance paneli kullanılabilir.', 'Third-party scriptler INP sorunlarının sıkça görülen kaynağıdır. Bu scriptlerin yükleme stratejisini async veya defer ile optimize etmek INP\'yi dramatik biçimde iyileştirebilir.'] },
+      { baslik: 'CLS Optimizasyonu: Kümülatif Layout Kayması', paragraflar: ['CLS, sayfa yüklenirken içeriklerin ne kadar beklenmedik biçimde yer değiştirdiğini ölçer. 0,1\'in altındaki skorlar iyi, 0,25 üstü ise zayıf kabul edilir.', 'CLS\'nin en yaygın nedeni boyutları belirtilmemiş görsel ve video öğeleridir. HTML\'de width ve height attribute\'larını belirtmek veya CSS\'de aspect-ratio kullanmak büyük CLS sorunlarını çözebilir.', 'Web fontları ve geç yüklenen reklamlar da önemli CLS kaynakları arasındadır. font-display: swap stratejisi ve reklam alanları için minimum boyut rezervasyonu da CLS\'yi azaltır.'] },
+      { baslik: 'CWV Ölçme ve İzleme Araçları', paragraflar: ['Core Web Vitals verilerini ölçmek için birden fazla araç kullanılmalıdır. PageSpeed Insights, hem lab hem field verilerini sunar. Search Console\'daki Core Web Vitals raporu ise sitenizin tamamı için alan bazlı veri sağlar.', 'Chrome DevTools\'daki Lighthouse paneli geliştirme ortamında anlık testler yaparken kullanılabilir. Web Vitals Chrome uzantısı ise gerçek zamanlı metrik izleme için pratik bir araçtır.', 'Sürekli izleme için SpeedCurve veya Sentry Performance gibi araçlar kullanılabilir. Bu araçlar, performans regresyonlarını anında tespit etmenizi sağlar.'] },
+      { baslik: 'Sektöre Göre CWV Stratejisi', paragraflar: ['E-ticaret siteleri için LCP genellikle ürün görselleri tarafından belirlenir. Yüksek çözünürlüklü ürün fotoğraflarını CDN üzerinden sunmak, WebP dönüşümü yapmak öncelikli adımlardır.', 'Haber ve blog siteleri için CLS kritik bir sorun olabilir. Reklam alanlarının dinamik yüklenmesi ve sosyal medya widget\'ları CLS\'nin başlıca kaynaklarıdır.', 'SaaS ve kurumsal siteler genellikle third-party script yoğunluğu nedeniyle INP sorunuyla karşılaşır. Kritik olmayan scriptleri kullanıcı etkileşiminden sonra yüklemek önemli INP kazanımları sağlar.'] },
     ],
     bolumler_en: [
-      { baslik: 'What Are Core Web Vitals and Why Do They Matter?', paragraflar: ['Core Web Vitals are user experience metrics that Google has used as an official ranking factor since May 2021. They consist of three key measures: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift). These metrics are designed to measure what your site actually feels like to real users.', 'The Core Web Vitals report in Google Search Console shows your site\'s performance on these metrics based on real-world user data (field data). Unlike PageSpeed Insights\'s lab data, these are collected from real user browsers through the Chrome User Experience Report (CrUX).', 'This means that even a technically perfect site can fall behind competitors due to poor CWV scores, making this an integral part of every SEO strategy. With INP replacing FID in 2024, existing strategies required updating.' ] },
-      { baslik: 'LCP Optimization: Largest Contentful Paint', paragraflar: ['LCP measures how long it takes for the largest content element in the visible area (image, video, or large text block) to load. Ideal LCP is under 2.5 seconds. Between 2.5-4 seconds needs improvement; above 4 seconds is considered poor.', 'The most effective ways to improve LCP: Since the LCP element is often a hero image, preloading it is critical. Use `<link rel="preload" as="image">` at the top of the page. Additionally, use a CDN and server optimization to reduce server response time (TTFB).', 'Image optimization is the most critical dimension of LCP. Switching to WebP or AVIF format, proper sizing, and ensuring lazy loading is only applied to images outside the viewport (the LCP element should never be lazy loaded) are fundamental measures. Reducing render-blocking CSS and JavaScript also directly impacts LCP.' ] },
-      { baslik: 'INP Optimization: Interaction Performance', paragraflar: ['INP (Interaction to Next Paint) replaced FID as Core Web Vitals\'s interaction metric in March 2024. INP measures all click, touch, and keyboard interactions on a page and reports their worst percentile (typically the 98th). Good INP is under 200ms; poor INP is above 500ms.', 'Main thread blocking is the primary cause of INP issues. Use the Performance panel in Chrome DevTools to identify and break up long JavaScript tasks (tasks over 50ms are considered "long tasks"). Techniques like `scheduler.yield()` or `setTimeout(..., 0)` can split tasks.', 'Third-party scripts (analytics, chat widgets, ad code) are a frequent source of INP issues. Optimizing loading strategy with `async` or `defer`, moving to web workers where possible, or removing unnecessary third-party integrations can dramatically improve INP.' ] },
-      { baslik: 'CLS Optimization: Cumulative Layout Shift', paragraflar: ['CLS measures how much content unexpectedly shifts position while a page loads. Scores below 0.1 are good; above 0.25 is poor. Classic examples include a button moving just as you\'re about to click it.', 'The most common CLS cause is images and videos without specified dimensions. Specifying `width` and `height` attributes in HTML or using CSS `aspect-ratio` lets the browser reserve space before the image loads. This simple step can resolve major CLS problems.', 'Web fonts and late-loading ads are also significant CLS sources. For FOUT or FOIT issues that occur during font loading, strategies like `font-display: optional` or `font-display: swap` can be evaluated. Reserving minimum dimensions for ad slots also reduces CLS.' ] },
-      { baslik: 'CWV Measurement and Monitoring Tools', paragraflar: ['Multiple tools should be used to measure Core Web Vitals data. PageSpeed Insights provides both lab (Lighthouse) and field (CrUX) data and performs instant URL-based analysis. The Core Web Vitals report in Search Console provides field data for your entire site and groups problematic URLs.', 'The Lighthouse panel in Chrome DevTools is useful for instant tests in the development environment. The Web Vitals Chrome extension is a practical tool for real-time metric monitoring. You can also send CWV data to your own analytics system using the `web-vitals` JavaScript library.', 'For continuous monitoring, tools like SpeedCurve, Calibre, or Sentry Performance can be used. These tools let you instantly detect performance regressions and correlate them with deployments — especially critical for e-commerce sites that update frequently.' ] },
-      { baslik: 'CWV Strategy by Industry', paragraflar: ['For e-commerce sites, LCP is usually determined by product images. Priority steps include serving high-resolution product photos via CDN, converting to WebP, and preloading the first product image used as the hero. Proper lazy loading implementation on category pages also improves INP.', 'For news and blog sites, CLS can be a critical issue. Dynamically loading ad units, late-appearing embeds, and social media widgets are the main CLS sources. Embedded dimension reservation and static ad unit definitions are effective solutions.', 'SaaS and enterprise sites often face INP issues due to third-party script density. Chat widgets, form integrations, and analytics tools can block the main thread. Loading non-critical scripts after user interaction (`after interaction`) provides significant INP gains.' ] },
-    ],
-  },
-  'geo-nedir-rehber': {
-    baslik_tr: 'GEO Nedir? Generative Engine Optimization\'a Kapsamlı Giriş',
-    baslik_en: 'What is GEO? A Comprehensive Introduction to Generative Engine Optimization',
-    etiket: 'GEO', sure: '14 dk',
-    bolumler_tr: [
-      { baslik: 'GEO\'nun Tanımı ve Önemi', paragraflar: ['Generative Engine Optimization (GEO), yapay zekâ destekli arama motorlarında ve yanıt sistemlerinde içeriklerinizin kaynak olarak alıntılanmasını sağlayan optimizasyon pratiğidir. Google AI Overview, Perplexity, ChatGPT Search, Bing Copilot ve benzeri sistemler artık arama sonuçlarının büyük bir bölümünü LLM (Large Language Model) tabanlı özet yanıtlar olarak sunmaktadır.', 'Arama davranışındaki bu dönüşüm, GEO\'yu kritik bir dijital pazarlama disiplini haline getirmektedir. AI Overview\'da kaynak olarak gösterilen siteler, doğrudan marka güvenilirliği ve otoritesi açısından önemli kazanımlar elde etmektedir. Ayrıca direct traffic ve branded search artışı da bu kazanımların somut göstergeleridir.', 'Klasik SEO\'dan farklı olarak GEO, LLM\'lerin içeriği nasıl sindirdiğine odaklanır. Anahtar kelime yoğunluğu değil, semantik bütünlük ve bilgi doğruluğu; PageRank değil, E-E-A-T sinyalleri ve entity otoritesi; sıralama algoritmaları değil, vektör benzerliği ve grounding kalitesi GEO\'nun temel parametrelerini oluşturur.' ] },
-      { baslik: 'GEO için İçerik Stratejisi', paragraflar: ['LLM\'lerin tercih ettiği içerik yapısı klasik SEO içeriğinden ayrışır. Yapay zekâ modelleri; net tanımlar içeren, kaynaklara atıfta bulunan, sayısal veriler ve araştırma bulgularına dayanan içerikleri tercih eder. "Nedir", "nasıl çalışır" ve "neden önemlidir" yapısındaki bölümler GEO açısından kritik öneme sahiptir.', 'E-E-A-T sinyalleri GEO için de geçerliliğini korur. Yazar kimliği ve kurumsal otorite sinyalleri, içeriğin LLM tarafından güvenilir kaynak olarak tanınmasını kolaylaştırır. Ayrıca içeriğin özet çıkarılabilir (summarizable) bir yapıda olması, AI Overview gibi sistemlerin içeriği daha kolay işlemesini sağlar.', 'Orijinal veriler, araştırma atıfları ve uzman görüşleri içeren içerikler, LLM\'lerin alıntı kaynağı olarak seçme eğilimini artırır. Bu nedenle anket sonuçları, vaka çalışmaları ve özgün analizler içeren içerikler GEO stratejisinin merkezine yerleştirilmelidir.' ] },
-      { baslik: 'llms.txt Implementasyonu', paragraflar: ['llms.txt, web sitelerinin LLM tabanlı sistemlere içeriklerini nasıl kullanmalarını istediklerini bildirdiği standart bir dosyadır. robots.txt\'in AI eşdeğeri olarak kabul edilir. Site kök dizininde yer alan bu dosya, hangi içeriklerin AI tarafından işleneceğini, hangi sayfaların dışarıda bırakılacağını ve içeriklerin nasıl atıf gösterileceğini belirtir.', 'Temel bir llms.txt dosyası, site adı, açıklaması, izin verilen içerik kategorileri ve önemli sayfaların linklenmesini içermelidir. Ayrıca içeriklerin nasıl atıflandırılmasını istediğinizi belirtebilir, hassas veya gizli içerik alanlarını dışarıda bırakabilirsiniz.', 'llms.txt standardı hâlâ olgunlaşma aşamasında olmakla birlikte, erken dönemde implementasyon yapmak GEO alanında öncü konumu sağlar. Anthropic, OpenAI ve Google\'ın bu standarda yaklaşımı belirleyici olacaktır. Şimdiden hazır olmak, rekabetçi avantaj sunar.' ] },
-      { baslik: 'Yapılandırılmış İçerik Tasarımı', paragraflar: ['"Nedir", "nasıl çalışır" ve "neden önemlidir" yapısındaki içerikler, AI sistemlerinin yanıt üretmek için en sık başvurduğu formatlardır. FAQPage schema ile işaretlenmiş soru-cevap bölümleri, AI Overview\'da doğrudan kaynak olarak kullanılma ihtimalini artırır.', 'Orijinal veriler, araştırma atıfları ve uzman görüşleri içeren içerikler, LLM\'lerin "grounding" kaynağı olarak seçme eğilimini artırır. Bu nedenle anket sonuçları, vaka çalışmaları ve özgün analizler içeren içerikler GEO stratejisinin merkezine yerleştirilmelidir.', 'İçerik uzunluğu ve derinliği de GEO performansını etkiler. Kapsamlı ve derinlikli içerikler, LLM\'lerin tercih ettiği kaynak profiliyle örtüşmektedir. 1500 kelime üzerindeki, iyi yapılandırılmış ve semantik açıdan zengin içerikler bu kriterleri karşılar.' ] },
-      { baslik: 'AI Overview Optimizasyonu', paragraflar: ['Google AI Overview\'da kaynak olmak için içeriğin doğrudan soruyu yanıtlayan, özet çıkarılabilir bir yapıda olması gerekir. Giriş paragrafının soruya net ve doğrudan yanıt vermesi, AI Overview kaynağı seçiminde kritik bir faktördür. "Fluff" içerik (dolgu metin) AI Overview\'da kaynak seçilme olasılığını düşürür.', 'E-E-A-T sinyalleri AI Overview kaynak seçimini doğrudan etkiler. Yazarın uzmanlığını gösteren biyografiler, kurumsal yetkinlik belgeleri ve güvenilir dış kaynaklara yapılan atıflar, içeriğin AI Overview tarafından tercih edilme olasılığını artırır.', 'Schema markup AI Overview optimizasyonunun teknik temelini oluşturur. Article, FAQPage, HowTo ve Person schema türleri AI sistemlerinin içeriği daha doğru yorumlamasını sağlar. Özellikle FAQPage schema, soru-cevap formatındaki içeriklerin AI Overview\'da doğrudan kaynak olarak gösterilme şansını artırır.' ] },
-      { baslik: 'GEO Performansını Ölçme', paragraflar: ['GEO performansı klasik SEO metriklerinden farklı araçlarla ölçülür. AI Overview görünürlüğünü takip etmek için her hedef sorgu için manuel testler yapılabilir veya Semrush AI Overview Tracker, Ahrefs\'in AI Overview raporları gibi araçlar kullanılabilir.', 'Branded arama hacmi değişimi, GEO stratejisinin dolaylı ama güçlü bir göstergesidir. AI sistemlerinde kaynak olarak görünen markaların branded search hacmi artar. Bu nedenle Google Trends ve Search Console\'daki branded kelime hacminin izlenmesi önemlidir.', 'Direct traffic ve referral traffic kaynaklarını analiz etmek de GEO başarısının bir göstergesi olabilir. Perplexity veya ChatGPT\'den gelen referral trafiğin izlenmesi, bu sistemlerdeki kaynak görünürlüğünüzü dolaylı olarak ölçmenize yardımcı olur.' ] },
-    ],
-    bolumler_en: [
-      { baslik: 'Definition and Importance of GEO', paragraflar: ['Generative Engine Optimization (GEO) is the practice of optimizing your content to be cited as a source in AI-powered search engines and response systems. Google AI Overview, Perplexity, ChatGPT Search, Bing Copilot and similar systems now present a significant portion of search results as LLM-based summary answers.', 'This transformation in search behavior makes GEO a critical digital marketing discipline. Sites shown as sources in AI Overview gain significant brand credibility and authority. Direct traffic and branded search increases are concrete indicators of these gains.', 'Unlike classic SEO, GEO focuses on how LLMs digest content. Not keyword density but semantic completeness and information accuracy; not PageRank but E-E-A-T signals and entity authority; not ranking algorithms but vector similarity and grounding quality form the core parameters of GEO.' ] },
-      { baslik: 'Content Strategy for GEO', paragraflar: ['The content structure preferred by LLMs differs from classic SEO content. AI models prefer content that contains clear definitions, cites sources, and is based on numerical data and research findings. Sections structured around "what is", "how it works", and "why it matters" are critical for GEO.', 'E-E-A-T signals remain valid for GEO. Author identity and institutional authority signals help LLMs recognize content as a trusted source. Content that is summarizable also allows AI Overview systems to process it more easily.', 'Content containing original data, research citations, and expert opinions increases the likelihood of being selected as an LLM citation source. Survey results, case studies, and original analyses should therefore be placed at the center of a GEO strategy.' ] },
-      { baslik: 'LLMs.txt Implementation', paragraflar: ['LLMs.txt is a standard file that tells LLM-based systems how a website wants its content used — think of it as robots.txt for AI. Located in the site\'s root directory, this file specifies which content can be processed by AI, which pages should be excluded, and how content should be attributed.', 'A basic llms.txt file should include site name, description, permitted content categories, and links to important pages. You can also specify how you want content attributed and exclude sensitive or confidential content areas.', 'While the llms.txt standard is still maturing, early implementation provides a pioneering position in the GEO space. Anthropic, OpenAI, and Google\'s approach to this standard will be decisive. Being ready now provides a competitive advantage.' ] },
-      { baslik: 'Structured Content Design', paragraflar: ['Content structured around "what is", "how it works", and "why it matters" are the formats AI systems most frequently consult for generating responses. Question-and-answer sections marked with FAQPage schema increase the chance of being used directly as a source in AI Overview.', 'Content containing original data, research citations, and expert opinions increases LLMs\' tendency to select it as a "grounding" source. Survey results, case studies, and original analyses should therefore be placed at the center of a GEO strategy.', 'Content length and depth also affect GEO performance. Comprehensive and in-depth content aligns with the source profile preferred by LLMs. Well-structured, semantically rich content over 1,500 words meets these criteria.' ] },
-      { baslik: 'AI Overview Optimization', paragraflar: ['To become a source in Google AI Overview, content needs to directly answer the query in a summarizable structure. A clear, direct answer to the query in the opening paragraph is a critical factor in AI Overview source selection. "Fluff" content (filler text) reduces the chance of being selected as an AI Overview source.', 'E-E-A-T signals directly influence AI Overview source selection. Author biographies demonstrating expertise, institutional competency documents, and citations to trusted external sources increase the likelihood of content being preferred by AI Overview.', 'Schema markup forms the technical foundation of AI Overview optimization. Article, FAQPage, HowTo, and Person schema types help AI systems interpret content more accurately. FAQPage schema in particular increases the chance of question-and-answer formatted content being shown directly as a source in AI Overview.' ] },
-      { baslik: 'Measuring GEO Performance', paragraflar: ['GEO performance is measured with different tools than classic SEO metrics. To track AI Overview visibility, manual tests can be done for each target query, or tools like Semrush AI Overview Tracker and Ahrefs\' AI Overview reports can be used.', 'Changes in branded search volume are an indirect but powerful indicator of GEO strategy success. Brands appearing as sources in AI systems see their branded search volume increase. Monitoring branded keyword volume in Google Trends and Search Console is therefore important.', 'Analyzing direct traffic and referral traffic sources can also indicate GEO success. Tracking referral traffic from Perplexity or ChatGPT helps indirectly measure your source visibility in these systems.' ] },
+      { baslik: 'What Are Core Web Vitals and Why Do They Matter?', paragraflar: ['Core Web Vitals are user experience metrics that Google has used as an official ranking factor since May 2021. They consist of three key measures: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), and CLS (Cumulative Layout Shift).', 'The Core Web Vitals report in Google Search Console shows your site\'s performance on these metrics based on real-world user data. These are collected from real user browsers through the Chrome User Experience Report (CrUX).', 'Even a technically perfect site can fall behind competitors due to poor CWV scores, making this an integral part of every SEO strategy.'] },
+      { baslik: 'LCP Optimization: Largest Contentful Paint', paragraflar: ['LCP measures how long it takes for the largest content element in the visible area to load. Ideal LCP is under 2.5 seconds. Between 2.5-4 seconds needs improvement; above 4 seconds is poor.', 'The most effective ways to improve LCP: Since the LCP element is often a hero image, preloading it is critical. Additionally, use a CDN and server optimization to reduce server response time (TTFB).', 'Image optimization is the most critical dimension of LCP. Switching to WebP or AVIF format, proper sizing, and ensuring lazy loading is only applied to images outside the viewport are fundamental measures.'] },
+      { baslik: 'INP Optimization: Interaction Performance', paragraflar: ['INP (Interaction to Next Paint) replaced FID as Core Web Vitals\'s interaction metric in March 2024. INP measures all click, touch, and keyboard interactions on a page. Good INP is under 200ms; poor INP is above 500ms.', 'Main thread blocking is the primary cause of INP issues. Use the Performance panel in Chrome DevTools to identify and break up long JavaScript tasks.', 'Third-party scripts are a frequent source of INP issues. Optimizing loading strategy with async or defer can dramatically improve INP.'] },
+      { baslik: 'CLS Optimization: Cumulative Layout Shift', paragraflar: ['CLS measures how much content unexpectedly shifts position while a page loads. Scores below 0.1 are good; above 0.25 is poor.', 'The most common CLS cause is images and videos without specified dimensions. Specifying width and height attributes in HTML or using CSS aspect-ratio lets the browser reserve space.', 'Web fonts and late-loading ads are also significant CLS sources. The font-display: swap strategy and reserving minimum dimensions for ad slots also reduces CLS.'] },
+      { baslik: 'CWV Measurement and Monitoring Tools', paragraflar: ['Multiple tools should be used to measure Core Web Vitals data. PageSpeed Insights provides both lab and field data. The Core Web Vitals report in Search Console provides field data for your entire site.', 'The Lighthouse panel in Chrome DevTools is useful for instant tests. The Web Vitals Chrome extension is a practical tool for real-time metric monitoring.', 'For continuous monitoring, tools like SpeedCurve or Sentry Performance can be used to instantly detect performance regressions.'] },
+      { baslik: 'CWV Strategy by Industry', paragraflar: ['For e-commerce sites, LCP is usually determined by product images. Serving high-resolution product photos via CDN and converting to WebP are priority steps.', 'For news and blog sites, CLS can be a critical issue. Dynamically loading ad units and social media widgets are the main CLS sources.', 'SaaS and enterprise sites often face INP issues due to third-party script density. Loading non-critical scripts after user interaction provides significant INP gains.'] },
     ],
   },
 }
 
-// Default content for articles not yet written
 function getDefaultContent(slug, isEn) {
   const title = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
   return {
     bolumler: [
       { baslik: isEn ? `Introduction to ${title}` : `${title} Hakkında Giriş`, paragraflar: [
-        isEn ? `This comprehensive guide covers everything you need to know about ${title}. As search engines evolve and AI systems become more prevalent in search, understanding this topic is increasingly important for digital marketing professionals.` : `Bu kapsamlı rehber, ${title} hakkında bilmeniz gereken her şeyi ele almaktadır. Arama motorları evrimleşirken ve yapay zekâ sistemleri aramada daha fazla yer alırken, bu konuyu anlamak dijital pazarlama profesyonelleri için giderek daha önemli hale gelmektedir.`,
-        isEn ? `The fundamentals of this topic have changed significantly in recent years. What worked in 2020 may not work the same way in 2025. Staying current with best practices is essential for maintaining and growing organic visibility.` : `Bu konunun temelleri son yıllarda önemli ölçüde değişti. 2020\'de işe yarayan şeyler 2025\'te aynı şekilde çalışmayabilir. Güncel en iyi uygulamaları takip etmek, organik görünürlüğü sürdürmek ve artırmak için çok önemlidir.`,
-        isEn ? `In this guide, we\'ll walk through the most important concepts, practical implementation steps, and measurement strategies to help you achieve better results.` : `Bu rehberde, daha iyi sonuçlar elde etmenize yardımcı olmak için en önemli kavramları, pratik uygulama adımlarını ve ölçüm stratejilerini inceleyeceğiz.`,
+        isEn ? `This comprehensive guide covers everything you need to know about ${title}. As search engines evolve and AI systems become more prevalent in search, understanding this topic is increasingly important for digital marketing professionals.` : `Bu kapsamlı rehber, ${title} hakkında bilmeniz gereken her şeyi ele almaktadır. Arama motorları evrimleşirken bu konuyu anlamak dijital pazarlama profesyonelleri için giderek daha önemli hale gelmektedir.`,
+        isEn ? 'The fundamentals of this topic have changed significantly in recent years. What worked in 2020 may not work the same way in 2025. Staying current with best practices is essential for maintaining and growing organic visibility.' : 'Bu konunun temelleri son yıllarda önemli ölçüde değişti. 2020\'de işe yarayan şeyler 2025\'te aynı şekilde çalışmayabilir.',
+        isEn ? 'In this guide, we will walk through the most important concepts, practical implementation steps, and measurement strategies.' : 'Bu rehberde en önemli kavramları, pratik uygulama adımlarını ve ölçüm stratejilerini inceleyeceğiz.',
       ]},
-      { baslik: isEn ? 'Core Concepts and Principles' : 'Temel Kavramlar ve Prensipler', paragraflar: [
-        isEn ? `Understanding the core principles is essential before diving into tactics. The foundation of any successful strategy in this area relies on three pillars: technical soundness, content quality, and authority signals.` : `Taktiklere dalmadan önce temel prensipleri anlamak şarttır. Bu alandaki başarılı bir stratejinin temeli üç sütuna dayanır: teknik sağlamlık, içerik kalitesi ve otorite sinyalleri.`,
-        isEn ? `Each of these pillars must be addressed systematically. Neglecting any one of them creates weaknesses that can undermine your overall performance, regardless of how well the other areas are optimized.` : `Bu sütunların her biri sistematik olarak ele alınmalıdır. Herhangi birini ihmal etmek, diğer alanların ne kadar iyi optimize edildiğinden bağımsız olarak genel performansınızı zayıflatacak açıklar yaratır.`,
-        isEn ? `The good news is that a structured approach to these fundamentals creates compounding benefits over time. Early investments in technical infrastructure and content quality pay dividends as your site grows in authority and topical coverage.` : `İyi haber şu ki, bu temellere yapısal bir yaklaşım zamanla kümülatif kazanımlar yaratır. Teknik altyapı ve içerik kalitesine yapılan erken yatırımlar, siteniz otorite ve konu kapsamı açısından büyüdükçe kazanımlar sağlar.`,
+      { baslik: isEn ? 'Core Concepts and Principles' : 'Temel Kavramlar', paragraflar: [
+        isEn ? 'Understanding the core principles is essential before diving into tactics. The foundation relies on three pillars: technical soundness, content quality, and authority signals.' : 'Taktiklere dalmadan önce temel prensipleri anlamak şarttır. Temel üç sütuna dayanır: teknik sağlamlık, içerik kalitesi ve otorite sinyalleri.',
+        isEn ? 'Each pillar must be addressed systematically. Neglecting any one creates weaknesses that undermine overall performance.' : 'Her sütun sistematik olarak ele alınmalıdır. Herhangi birini ihmal etmek genel performansı zayıflatır.',
+        isEn ? 'Early investments in technical infrastructure and content quality pay dividends as your site grows in authority.' : 'Teknik altyapı ve içerik kalitesine yapılan erken yatırımlar, site otoritesi büyüdükçe kazanımlar sağlar.',
       ]},
       { baslik: isEn ? 'Implementation Strategy' : 'Uygulama Stratejisi', paragraflar: [
-        isEn ? `A phased implementation approach is typically most effective. Start with a comprehensive audit to understand your current baseline. Identify the highest-impact opportunities and prioritize them based on effort versus potential reward.` : `Aşamalı bir uygulama yaklaşımı genellikle en etkili yoldur. Mevcut referans noktanızı anlamak için kapsamlı bir denetimle başlayın. En yüksek etkili fırsatları belirleyin ve çaba ile potansiyel kazanım ilişkisine göre önceliklendirin.`,
-        isEn ? `Track your progress with meaningful metrics from day one. Vanity metrics (like raw traffic numbers) can be misleading. Focus instead on metrics that directly reflect your business goals: qualified leads, conversions, and revenue from organic channels.` : `İlk günden itibaren anlamlı metriklerle ilerlemenizi takip edin. Boş metrikler (ham trafik sayıları gibi) yanıltıcı olabilir. Bunun yerine iş hedeflerinizi doğrudan yansıtan metriklere odaklanın: nitelikli potansiyel müşteriler, dönüşümler ve organik kanallardan gelen gelir.`,
-        isEn ? `Regular reporting and strategy adjustments are crucial. The digital landscape changes rapidly, and what works today may need refinement tomorrow. Build review cycles into your process to ensure you\'re always optimizing toward current best practices.` : `Düzenli raporlama ve strateji ayarlamaları kritiktir. Dijital ortam hızla değişiyor ve bugün işe yarayan şeyin yarın iyileştirilmesi gerekebilir. Her zaman güncel en iyi uygulamalara göre optimize ettiğinizden emin olmak için sürecinize inceleme döngüleri ekleyin.`,
+        isEn ? 'A phased implementation approach is typically most effective. Start with a comprehensive audit to understand your current baseline.' : 'Aşamalı uygulama yaklaşımı en etkili yoldur. Mevcut durumu anlamak için kapsamlı bir denetimle başlayın.',
+        isEn ? 'Track your progress with meaningful metrics from day one. Focus on metrics that directly reflect your business goals.' : 'İlk günden itibaren anlamlı metriklerle ilerlemenizi takip edin. İş hedeflerinizi doğrudan yansıtan metriklere odaklanın.',
+        isEn ? 'Regular reporting and strategy adjustments are crucial. Build review cycles into your process.' : 'Düzenli raporlama ve strateji ayarlamaları kritiktir. Sürecinize inceleme döngüleri ekleyin.',
       ]},
       { baslik: isEn ? 'Measurement and KPIs' : 'Ölçüm ve KPI\'lar', paragraflar: [
-        isEn ? `Defining the right KPIs is critical to evaluating success. For most SEO initiatives, a combination of leading indicators (keyword rankings, crawl coverage) and lagging indicators (organic traffic, conversions) provides the most complete picture.` : `Doğru KPI\'ları tanımlamak başarıyı değerlendirmek için kritiktir. Çoğu SEO girişimi için öncü göstergeler (anahtar kelime sıralamaları, tarama kapsamı) ve gecikmiş göstergeler (organik trafik, dönüşümler) kombinasyonu en eksiksiz tabloyu sağlar.`,
-        isEn ? `Google Search Console and GA4 are foundational tools for measurement. Search Console provides impression and click data directly from Google, while GA4 ties organic traffic to on-site behavior and business outcomes. Together, they give you a comprehensive view of your SEO performance.` : `Google Search Console ve GA4, ölçüm için temel araçlardır. Search Console doğrudan Google\'dan gösterim ve tıklama verisi sağlarken, GA4 organik trafiği site içi davranış ve iş sonuçlarıyla ilişkilendirir. Birlikte, SEO performansınızın kapsamlı bir görünümünü sunarlar.`,
-        isEn ? `Set realistic benchmarks based on your industry, current performance, and competitive landscape. SEO is a long-term investment, and results compound over time. Typical timelines for meaningful results range from 3-6 months for technical fixes to 6-12 months for content-driven growth.` : `Endüstrinize, mevcut performansınıza ve rekabetçi ortama dayalı gerçekçi referans noktaları belirleyin. SEO uzun vadeli bir yatırımdır ve sonuçlar zamanla birikir. Anlamlı sonuçlar için tipik zaman çizelgeleri, teknik düzeltmeler için 3-6 aydan içerik odaklı büyüme için 6-12 aya kadar uzanır.`,
+        isEn ? 'Defining the right KPIs is critical. A combination of leading indicators and lagging indicators provides the most complete picture.' : 'Doğru KPI\'ları tanımlamak kritiktir. Öncü göstergeler ve gecikmiş göstergeler kombinasyonu en eksiksiz tabloyu sağlar.',
+        isEn ? 'Google Search Console and GA4 are foundational tools for measurement.' : 'Google Search Console ve GA4, ölçüm için temel araçlardır.',
+        isEn ? 'Set realistic benchmarks. SEO is a long-term investment — typical timelines range from 3-6 months for technical fixes to 6-12 months for content-driven growth.' : 'Gerçekçi referans noktaları belirleyin. SEO uzun vadeli yatırımdır — teknik düzeltmeler 3-6 ay, içerik odaklı büyüme 6-12 ay sürer.',
       ]},
       { baslik: isEn ? 'Advanced Techniques' : 'İleri Düzey Teknikler', paragraflar: [
-        isEn ? `Once the fundamentals are in place, advanced techniques can provide additional competitive advantage. These include entity optimization for AI search visibility, advanced schema implementations for rich results, and programmatic approaches to scaling content production.` : `Temel unsurlar yerleştikten sonra, gelişmiş teknikler ek rekabetçi avantaj sağlayabilir. Bunlar arasında AI arama görünürlüğü için entity optimizasyonu, zengin sonuçlar için gelişmiş schema uygulamaları ve içerik üretimini ölçeklendirmek için programatik yaklaşımlar yer alır.`,
-        isEn ? `Competitive intelligence is another advanced area. Systematically monitoring competitor strategies, identifying gaps in their coverage, and building content that fills those gaps can accelerate your authority building significantly.` : `Rekabetçi istihbarat başka bir gelişmiş alandır. Rakip stratejilerini sistematik olarak izlemek, kapsamlarındaki boşlukları belirlemek ve bu boşlukları dolduran içerik oluşturmak otorite inşanızı önemli ölçüde hızlandırabilir.`,
-        isEn ? `Finally, the integration of AI tools into your workflow can create efficiency gains that let you do more with the same resources. From content briefing to technical auditing, AI assistants can accelerate many time-consuming tasks while freeing up your team for higher-level strategic thinking.` : `Son olarak, AI araçlarının iş akışınıza entegrasyonu aynı kaynaklarla daha fazlasını yapmanızı sağlayan verimlilik kazanımları yaratabilir. İçerik özetlemeden teknik denetime kadar, AI asistanları zaman alan birçok görevi hızlandırırken ekibinizi üst düzey stratejik düşünce için serbest bırakabilir.`,
+        isEn ? 'Once the fundamentals are in place, advanced techniques can provide additional competitive advantage including entity optimization for AI search visibility.' : 'Temel unsurlar yerleştikten sonra, gelişmiş teknikler ek rekabetçi avantaj sağlayabilir: AI arama görünürlüğü için entity optimizasyonu.',
+        isEn ? 'Competitive intelligence is another advanced area. Systematically monitoring competitor strategies identifies gaps you can fill.' : 'Rakibetçi istihbarat başka bir gelişmiş alandır. Rakip stratejilerini sistematik olarak izlemek doldurulabilecek boşlukları ortaya çıkarır.',
+        isEn ? 'AI tools integrated into your workflow can create efficiency gains that let you do more with the same resources.' : 'AI araçlarının iş akışınıza entegrasyonu aynı kaynaklarla daha fazlasını yapmanızı sağlayan verimlilik kazanımları yaratır.',
       ]},
       { baslik: isEn ? 'Common Mistakes to Avoid' : 'Yapılan Yaygın Hatalar', paragraflar: [
-        isEn ? `Even experienced SEO professionals make avoidable mistakes. The most common include: focusing on vanity metrics instead of business outcomes, neglecting mobile optimization, and treating technical SEO as a one-time project rather than an ongoing process.` : `Deneyimli SEO profesyonelleri bile kaçınılabilir hatalar yapar. En yaygın olanlar şunlardır: iş sonuçları yerine boş metriklere odaklanmak, mobil optimizasyonu ihmal etmek ve teknik SEO\'yu süregelen bir süreç yerine tek seferlik bir proje olarak ele almak.`,
-        isEn ? `Content-related mistakes often include creating content for search engines rather than users, neglecting to update outdated content, and not properly matching content to search intent. These issues can significantly limit your organic potential even when technical foundations are strong.` : `İçerikle ilgili hatalar genellikle kullanıcılar yerine arama motorları için içerik oluşturmayı, güncel olmayan içeriği güncellemeyi ihmal etmeyi ve içeriği arama niyetiyle doğru biçimde eşleştirmemeyi kapsar. Bu sorunlar, teknik temeller güçlü olduğunda bile organik potansiyelinizi önemli ölçüde sınırlayabilir.`,
-        isEn ? `Link building mistakes remain costly. Buying links, participating in link schemes, or relying heavily on low-quality directories can result in manual penalties or algorithmic devaluations that are difficult and time-consuming to recover from.` : `Link inşa hataları maliyetli olmaya devam ediyor. Link satın almak, link planlarına katılmak veya düşük kaliteli rehberlere aşırı bel bağlamak, toparlanması zor ve zaman alıcı olan manuel cezalara veya algoritmik değer düşürmelere yol açabilir.`,
+        isEn ? 'Even experienced professionals make avoidable mistakes: focusing on vanity metrics instead of business outcomes, neglecting mobile optimization, treating technical SEO as one-time work.' : 'Deneyimli profesyoneller bile kaçınılabilir hatalar yapar: boş metrikler, mobil optimizasyonu ihmal etmek, teknik SEO\'yu tek seferlik görmek.',
+        isEn ? 'Content mistakes include creating content for search engines rather than users and not matching content to search intent.' : 'İçerik hataları arasında kullanıcılar yerine arama motorları için içerik üretmek ve arama niyetiyle eşleşmemek yer alır.',
+        isEn ? 'Link building mistakes remain costly. Buying links or participating in link schemes can result in manual penalties difficult to recover from.' : 'Link inşa hataları maliyetli olmaya devam ediyor. Link satın almak manuel cezalara yol açabilir.',
       ]},
     ]
   }
@@ -92,16 +70,24 @@ export default function BlogPost(props) {
   const { slug } = router.query
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [aktifBolum, setAktifBolum] = useState(0)
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   const veri = ICERIKLER[slug]
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : slug?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
   const bolumler = veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : getDefaultContent(slug || '', isEn).bolumler
   const etiket = veri?.etiket || 'SEO'
-  const sure = veri?.sure || '10 dk'
-
+  const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}blog/${slug}`
 
   useEffect(() => {
+    if (isMobile) return
     const observer = new IntersectionObserver(
       (entries) => { entries.forEach(entry => { if (entry.isIntersecting) { const idx = parseInt(entry.target.id.replace('bolum-', '')); if (!isNaN(idx)) setAktifBolum(idx) } }) },
       { rootMargin: '-20% 0px -70% 0px', threshold: 0 }
@@ -109,9 +95,47 @@ export default function BlogPost(props) {
     const els = document.querySelectorAll('[id^="bolum-"]')
     els.forEach(el => observer.observe(el))
     return () => observer.disconnect()
-  }, [bolumler])
+  }, [bolumler, isMobile])
 
   if (!slug) return null
+
+  const TOC = (
+    <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginBottom: isMobile ? '24px' : '16px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+        <span style={{ width: '12px', height: '12px', background: 'var(--orange)', borderRadius: '3px', display: 'inline-block' }}></span>
+        <span style={{ fontSize: '11px', color: '#111', fontWeight: 800, letterSpacing: '1.5px', textTransform: 'uppercase' }}>{isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}</span>
+      </div>
+      {bolumler.map((b, i) => (
+        <a key={i} href={`#bolum-${i}`}
+          style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', marginBottom: '2px', textDecoration: 'none', background: !isMobile && aktifBolum === i ? 'rgba(232,86,10,0.08)' : 'transparent' }}>
+          <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#ccc', minWidth: '20px' }}>{String(i + 1).padStart(2, '0')}</span>
+          <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik}</span>
+        </a>
+      ))}
+    </div>
+  )
+
+  const AuthorCard = (
+    <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginTop: isMobile ? '24px' : '16px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px' }}>
+        <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '20px', flexShrink: 0 }}>F</div>
+        <div>
+          <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
+          <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
+        </div>
+      </div>
+      <p style={{ fontSize: '13px', color: '#666', lineHeight: 1.65, marginBottom: '12px' }}>{isEn ? '8+ years of SEO and digital marketing expertise.' : '8+ yıl deneyimli SEO ve dijital pazarlama danışmanı.'}</p>
+      <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600 }}>LinkedIn →</a>
+    </div>
+  )
+
+  const CTACard = (
+    <div style={{ background: '#111', borderRadius: '14px', padding: '22px', textAlign: 'center', marginTop: isMobile ? '24px' : '16px' }}>
+      <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 800, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '10px' }}>{isEn ? 'FREE CONSULTING' : 'ÜCRETSİZ DANIŞMA'}</div>
+      <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '16px', color: '#fff', marginBottom: '16px', lineHeight: 1.4 }}>{isEn ? 'Want help with this topic?' : 'Bunu uygulamak ister misiniz?'}</h3>
+      <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ display: 'block', padding: '12px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>{isEn ? 'Get in Touch →' : 'İletişime Geç →'}</Link>
+    </div>
+  )
 
   return (
     <>
@@ -121,88 +145,81 @@ export default function BlogPost(props) {
         <link rel="canonical" href={canonicalUrl} />
         <link rel="alternate" hrefLang="tr" href={`https://fatihemincakiroglu.com/blog/${slug}`} />
         <link rel="alternate" hrefLang="en" href={`https://fatihemincakiroglu.com/en/blog/${slug}`} />
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Article","headline":baslik,"author":{"@type":"Person","name":"Fatih Emin Çakıroğlu","url":"https://fatihemincakiroglu.com"},"publisher":{"@type":"Person","name":"Fatih Emin Çakıroğlu"},"url":canonicalUrl,"articleSection":etiket,"timeRequired":`PT${sure.replace(' dk','').replace(' min','')}M`,"mainEntityOfPage":{"@type":"WebPage","@id":canonicalUrl} })}</script>
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":"Blog","item":`https://fatihemincakiroglu.com/${isEn?'en/':''}blog`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] })}</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         {/* Breadcrumb */}
-        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
-          <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{isEn ? 'Home' : 'Ana Sayfa'}</Link><span style={{ color: '#ccc' }}>›</span>
-            <Link href={isEn ? '/en/blog' : '/blog'} style={{ color: '#aaa', fontSize: '13px' }}>Blog</Link><span style={{ color: '#ccc' }}>›</span>
-            <span style={{ color: '#555', fontSize: '13px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '200px' }}>{baslik}</span>
+        <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 16px' }}>
+          <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{isEn ? 'Home' : 'Ana Sayfa'}</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href={isEn ? '/en/blog' : '/blog'} style={{ color: '#aaa', fontSize: '13px' }}>Blog</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <span style={{ color: '#555', fontSize: '13px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '160px' }}>{baslik}</span>
           </div>
         </div>
+
         {/* Hero */}
-        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px' }}>
+        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '32px 16px' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', flexWrap: 'wrap' }}>
               <span style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '3px 8px', border: '1px solid rgba(232,86,10,0.3)', borderRadius: '4px' }}>{etiket}</span>
-              <span style={{ fontSize: '12px', color: '#aaa' }}>{sure} {isEn ? 'read' : 'okuma'}</span>
+              <span style={{ fontSize: '12px', color: '#aaa' }}>{sure} {isEn ? 'min read' : 'dk okuma'}</span>
             </div>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(26px, 4vw, 44px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '20px' }}>{baslik}</h1>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '16px' }}>F</div>
+            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 4vw, 40px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>{baslik}</h1>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>F</div>
               <div>
-                <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
+                <div style={{ fontSize: '13px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
                 <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Content */}
-        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 32px 96px', display: 'grid', gridTemplateColumns: '1fr 300px', gap: '40px', alignItems: 'start' }}>
-          {/* Makale */}
-          <div style={{ background: '#fff', borderRadius: '16px', padding: '48px', border: '1px solid #eee' }}>
-            {bolumler.map((b, bi) => (
-              <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
-                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <span style={{ width: '4px', height: '22px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
-                </h2>
-                {b.paragraflar.map((p, pi) => (
-                  <p key={pi} style={{ color: '#555', fontSize: '16px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '16px' : '0' }}>{p}</p>
-                ))}
-              </div>
-            ))}
-          </div>
-
-          {/* Sidebar */}
-          <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
-            <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
-                <span style={{ width: '12px', height: '12px', background: 'var(--orange)', borderRadius: '3px', display: 'inline-block' }}></span>
-                <span style={{ fontSize: '11px', color: '#111', fontWeight: 800, letterSpacing: '1.5px', textTransform: 'uppercase' }}>{isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}</span>
-              </div>
-              {bolumler.map((b, i) => (
-                <a key={i} href={`#bolum-${i}`} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '9px 10px', borderRadius: '8px', marginBottom: '4px', textDecoration: 'none', background: aktifBolum === i ? 'rgba(232,86,10,0.08)' : 'transparent', transition: 'all 0.2s' }}>
-                  <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, minWidth: '20px', color: aktifBolum === i ? 'var(--orange)' : '#ccc', transition: 'color 0.2s' }}>{String(i + 1).padStart(2, '0')}</span>
-                  <span style={{ fontSize: '13px', lineHeight: 1.4, color: aktifBolum === i ? 'var(--orange)' : '#555', fontWeight: aktifBolum === i ? 600 : 400, transition: 'color 0.2s' }}>{b.baslik}</span>
-                </a>
+        {/* MOBILE: TOC → Article → Author → CTA */}
+        {isMobile ? (
+          <div style={{ padding: '20px 16px 64px', maxWidth: '1100px', margin: '0 auto' }}>
+            {TOC}
+            <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee' }}>
+              {bolumler.map((b, bi) => (
+                <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
+                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ width: '3px', height: '18px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
+                  </h2>
+                  {b.paragraflar.map((p, pi) => (
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : '0' }}>{p}</p>
+                  ))}
+                </div>
               ))}
             </div>
-            <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
-                <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '20px', flexShrink: 0 }}>F</div>
-                <div>
-                  <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
-                  <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
+            {AuthorCard}
+            {CTACard}
+          </div>
+        ) : (
+          /* DESKTOP: 2-col layout */
+          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '32px', alignItems: 'start' }}>
+            <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
+              {bolumler.map((b, bi) => (
+                <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
+                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
+                  </h2>
+                  {b.paragraflar.map((p, pi) => (
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : '0' }}>{p}</p>
+                  ))}
                 </div>
-              </div>
-              <p style={{ fontSize: '13px', color: '#666', lineHeight: 1.65, marginBottom: '14px' }}>{isEn ? '8+ years of SEO and digital marketing expertise.' : '8+ yıl deneyimli SEO ve dijital pazarlama danışmanı.'}</p>
-              <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600, textDecoration: 'none' }}>LinkedIn →</a>
+              ))}
             </div>
-            <div style={{ background: '#111', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
-              <div style={{ fontSize: '10px', color: 'var(--orange)', fontWeight: 800, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '12px' }}>{isEn ? 'FREE CONSULTING' : 'ÜCRETSİZ DANIŞMA'}</div>
-              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '17px', color: '#fff', marginBottom: '20px', lineHeight: 1.4 }}>{isEn ? 'Want help with this topic?' : 'Bu konuda yardım almak ister misiniz?'}</h3>
-              <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ display: 'block', padding: '12px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>{isEn ? 'Get in Touch →' : 'İletişime Geç →'}</Link>
+            <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              {TOC}
+              {AuthorCard}
+              {CTACard}
             </div>
           </div>
-        </div>
+        )}
       </div>
-      <style>{`
-        @media (max-width: 768px) { .article-grid { grid-template-columns: 1fr !important; } }
-      `}</style>
     </>
   )
 }

@@ -302,6 +302,14 @@ export default function Page(props) {
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const BOLUMLER = isEn ? BOLUMLER_EN : BOLUMLER_TR
   const [aktifBolum, setAktifBolum] = useState(0)
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
   const [aktifFaq, setAktifFaq] = useState(null)
 
   useEffect(() => {
@@ -399,10 +407,10 @@ export default function Page(props) {
         </div>
 
         {/* Content Grid */}
-        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 32px 96px', display: 'grid', gridTemplateColumns: '260px 1fr', gap: '40px', alignItems: 'start' }}>
+        <div className="rehber-grid" style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
 
           {/* Sticky Sidebar */}
-          <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
+          <div className="rehber-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
             {/* TOC */}
             <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
