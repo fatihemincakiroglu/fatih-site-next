@@ -18,14 +18,25 @@ const HIZMET_TABS = {
   ]
 }
 
-const MUSTERILER = ['Kariyer.net', 'Hepsiburada', 'Hepsiemlak', 'Turkish Airlines', 'Obilet', 'Paribu', 'Karaca', 'Sigortam.net', 'Ekşi Sözlük', 'Mynet']
+const MUSTERILER = [
+  { tr: 'İstihdam & Kariyer', en: 'Recruitment & Career' },
+  { tr: 'E-Ticaret', en: 'E-Commerce' },
+  { tr: 'Gayrimenkul', en: 'Real Estate' },
+  { tr: 'Havacılık', en: 'Aviation' },
+  { tr: 'Seyahat & Bilet', en: 'Travel & Ticketing' },
+  { tr: 'Fintech & Kripto', en: 'Fintech & Crypto' },
+  { tr: 'Moda & Yaşam', en: 'Fashion & Lifestyle' },
+  { tr: 'Sigorta', en: 'Insurance' },
+  { tr: 'Sosyal & Medya', en: 'Social & Media' },
+  { tr: 'Haber & Dijital Medya', en: 'News & Digital Media' },
+]
 
 const REFERANSLAR = [
-  { yorum_tr: 'İhtiyaçlarımızı anlayan ve bunları güçlü bir anlatımla somutlaştıran Fatih\'in yaklaşımından çok memnunuz. Markamızın ruhunu bu kadar kısa sürede kavrayıp her aşamada yanımızda olması, bu iş birliğini bizim için çok kıymetli kılıyor.', yorum_en: 'We are very satisfied with Fatih\'s approach to understanding our needs and bringing them to life with compelling narratives. Grasping the essence of our brand so quickly and being with us at every stage makes this collaboration extremely valuable for us.', isim: 'Mehmet A.', unvan: 'Sr. SEO Team Lead', sirket: '@Hepsiburada' },
-  { yorum_tr: '2023 yılında SEO çalışmalarımızı emanet ettik. Her daim SEO departmanımız gibi çalışmayı başardılar. Paribu ailesi olarak bu yolda birlikte yürümesinden çok mutluyuz.', yorum_en: 'We entrusted our SEO operations in 2023. They always worked like our own SEO department. As the Paribu family, we are very happy to walk this path together.', isim: 'Çiğdem Erdem', unvan: 'Manager | Marketing | Digital', sirket: 'PARİBU' },
-  { yorum_tr: 'Kariyer.net projelerinde beraber yürüdüğümüz SEO ajansımızın operasyonel olarak ekip arkadaşlarımız gibi çalışması bizim için büyük avantaj sağlamakta.', yorum_en: 'Our SEO agency working operationally like our own team members on Kariyer.net projects provides us with a great advantage.', isim: 'Ezgi Kargan', unvan: 'CMO', sirket: 'Kariyer.net' },
-  { yorum_tr: 'Sağlık sektöründeki dijital varlığımızı sıfırdan inşa etti. Online randevu sistemimiz hasta memnuniyetini artırdı. Her adımda yanımızda olan güvenilir bir ekip.', yorum_en: 'Built our digital presence in the healthcare sector from scratch. Our online appointment system increased patient satisfaction. A reliable team with us every step of the way.', isim: 'Dr. Ayşe M.', unvan: 'CEO', sirket: 'Massivebio' },
-  { yorum_tr: 'Organik ve Google Discover trafiğindeki sürdürülebilir büyüme ile sıralamayı 2. sıraya taşıdık. Doğru ekibe iş teslim ettiğinizde trafik artıyor.', yorum_en: 'With sustainable growth in organic and Google Discover traffic, we moved to 2nd position in rankings. When you hand the work to the right team, traffic increases.', isim: 'Emre Kurttepeli', unvan: 'Chairperson', sirket: 'Mynet' },
+  { yorum_tr: 'İhtiyaçlarımızı anlayan ve bunları güçlü bir anlatımla somutlaştıran yaklaşımdan çok memnunuz. Markamızın ruhunu bu kadar kısa sürede kavrayıp her aşamada yanımızda olması, bu iş birliğini bizim için çok kıymetli kılıyor.', yorum_en: 'We are very satisfied with the approach to understanding our needs and bringing them to life with compelling narratives. Grasping the essence of our brand so quickly and being with us at every stage makes this collaboration extremely valuable for us.', isim: 'Mehmet A.', unvan: 'Sr. SEO Team Lead', sektor_tr: 'E-Ticaret', sektor_en: 'E-Commerce' },
+  { yorum_tr: '2023 yılında SEO çalışmalarımızı emanet ettik. Her daim kendi SEO departmanımız gibi çalışmayı başardılar. Bu yolda birlikte yürümesinden çok mutluyuz.', yorum_en: 'We entrusted our SEO operations in 2023. They always worked like our own SEO department. We are very happy to walk this path together.', isim: 'Çiğdem E.', unvan: 'Manager | Marketing | Digital', sektor_tr: 'Fintech & Kripto', sektor_en: 'Fintech & Crypto' },
+  { yorum_tr: 'SEO ajansının operasyonel olarak ekip arkadaşlarımız gibi çalışması bizim için büyük avantaj sağlamakta.', yorum_en: 'The SEO agency working operationally like our own team members provides us with a great advantage.', isim: 'Ezgi K.', unvan: 'CMO', sektor_tr: 'İstihdam & Kariyer', sektor_en: 'Recruitment & Career' },
+  { yorum_tr: 'Sağlık sektöründeki dijital varlığımızı sıfırdan inşa etti. Online randevu sistemimiz hasta memnuniyetini artırdı. Her adımda yanımızda olan güvenilir bir ekip.', yorum_en: 'Built our digital presence in the healthcare sector from scratch. Our online appointment system increased patient satisfaction. A reliable team with us every step of the way.', isim: 'Dr. Ayşe M.', unvan: 'CEO', sektor_tr: 'Sağlık', sektor_en: 'Healthcare' },
+  { yorum_tr: 'Organik ve Google Discover trafiğindeki sürdürülebilir büyüme ile sıralamayı 2. sıraya taşıdık. Doğru ekibe iş teslim ettiğinizde trafik artıyor.', yorum_en: 'With sustainable growth in organic and Google Discover traffic, we moved to 2nd position in rankings. When you hand the work to the right team, traffic increases.', isim: 'Emre K.', unvan: 'Chairperson', sektor_tr: 'Haber & Dijital Medya', sektor_en: 'News & Digital Media' },
 ]
 
 const BLOG_YAZILARI = [
@@ -117,7 +128,9 @@ export default function Page(props) {
                 </div>
                 <div style={{ padding: '20px' }}>
                   <div style={{ border: '1px solid #ddd', borderRadius: '24px', padding: '10px 18px', display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-                    <span style={{ fontSize: '14px', color: '#333', flex: 1 }}>{isEn ? 'best seo consultant turkey' : 'en iyi seo danışmanı türkiye'}</span>
+                    <span style={{ fontSize: '14px', color: '#333', flex: 1, transition: 'opacity 0.3s', opacity: fade ? 1 : 0 }}>
+                      {(isEn ? ROTATE_ITEMS_EN : ROTATE_ITEMS_TR)[rotIdx]}
+                    </span>
                   </div>
                   <div style={{ display: 'flex', gap: '4px', marginBottom: '14px', fontSize: '13px' }}>
                     {[isEn ? '+ AI Overview' : '+ AI Overview', isEn ? 'All' : 'Tümü', isEn ? 'Images' : 'Görseller', isEn ? 'News' : 'Haberler'].map((t, i) => (
@@ -182,7 +195,7 @@ export default function Page(props) {
             <div style={{ border: '1px solid #eee', borderRadius: '12px', overflow: 'hidden' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)' }}>
                 {MUSTERILER.map((m, i) => (
-                  <div key={i} style={{ padding: '24px 16px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRight: (i + 1) % 5 !== 0 ? '1px solid #eee' : 'none', borderBottom: i < 5 ? '1px solid #eee' : 'none', fontWeight: 700, fontSize: '13px', color: '#555', textAlign: 'center', filter: 'grayscale(100%)', opacity: 0.6 }}>{m}</div>
+                  <div key={i} style={{ padding: '24px 16px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRight: (i + 1) % 5 !== 0 ? '1px solid #eee' : 'none', borderBottom: i < 5 ? '1px solid #eee' : 'none', fontWeight: 600, fontSize: '12px', color: '#888', textAlign: 'center', letterSpacing: '0.3px' }}>{isEn ? m.en : m.tr}</div>
                 ))}
               </div>
             </div>
@@ -279,7 +292,7 @@ export default function Page(props) {
                     <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{REFERANSLAR[0].isim}</div>
                     <div style={{ fontSize: '12px', color: '#aaa' }}>{REFERANSLAR[0].unvan} · {REFERANSLAR[0].sirket}</div>
                   </div>
-                  <div style={{ marginLeft: 'auto', fontSize: '14px', fontWeight: 800, color: 'var(--orange)' }}>hepsiburada</div>
+                  <span style={{ marginLeft: 'auto', fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '3px 10px', borderRadius: '20px', border: '1px solid rgba(232,86,10,0.3)', background: '#fff7ed' }}>{isEn ? REFERANSLAR[0].sektor_en : REFERANSLAR[0].sektor_tr}</span>
                 </div>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -292,7 +305,7 @@ export default function Page(props) {
                         <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{r.isim}</div>
                         <div style={{ fontSize: '11px', color: '#aaa' }}>{r.unvan}</div>
                       </div>
-                      <span style={{ marginLeft: 'auto', fontSize: '12px', fontWeight: 700, color: '#555' }}>{r.sirket}</span>
+                      <span style={{ marginLeft: 'auto', fontSize: '11px', fontWeight: 700, color: '#777', padding: '2px 8px', borderRadius: '20px', background: '#f5f5f5', border: '1px solid #eee' }}>{isEn ? r.sektor_en : r.sektor_tr}</span>
                     </div>
                   </div>
                 ))}
@@ -307,7 +320,7 @@ export default function Page(props) {
                         <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{r.isim}</div>
                         <div style={{ fontSize: '11px', color: '#aaa' }}>{r.unvan}</div>
                       </div>
-                      <span style={{ marginLeft: 'auto', fontSize: '12px', fontWeight: 700, color: '#555' }}>{r.sirket}</span>
+                      <span style={{ marginLeft: 'auto', fontSize: '11px', fontWeight: 700, color: '#777', padding: '2px 8px', borderRadius: '20px', background: '#f5f5f5', border: '1px solid #eee' }}>{isEn ? r.sektor_en : r.sektor_tr}</span>
                     </div>
                   </div>
                 ))}
