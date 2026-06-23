@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 
+// ── Düzeltme: EN linkleri doğru URL'e işaret ediyor ──
 const HIZMET_TABS = {
   tr: [
     { id: 'seo', label: 'SEO & GEO', ikon: '🔍', aciklama: 'Temel prensibimiz; Google rehberliğinde web sitenizin en iyi SEO performansını elde etmesidir. Kapsamlı teknik denetim ve doğal büyüme stratejisiyle sürdürülebilir sonuçlar sağlıyorum.', link: '/seo', linkLabel: 'SEO Hizmetleri →', grafik: { oncesi: { aylik: '2.4K', keyword: '38' }, sonrasi: { aylik: '18.2K', keyword: '486', ai: '91%' } } },
@@ -11,10 +12,10 @@ const HIZMET_TABS = {
     { id: 'backlink', label: 'Backlink & PR', ikon: '🔗', aciklama: 'Editoryal link, yayın ilişkileri ve marka sinyalleriyle domain otoritenizi güçlendirin. Sürdürülebilir link profili inşa ederek rekabetçi sıralamalarda kalıcı yer kazanın.', link: '/backlink', linkLabel: 'Backlink Hizmetleri →', grafik: { oncesi: { aylik: '3.2K', keyword: '56' }, sonrasi: { aylik: '14.5K', keyword: '389', ai: '85%' } } },
   ],
   en: [
-    { id: 'seo', label: 'SEO & GEO', ikon: '🔍', aciklama: 'My core principle is to achieve the best SEO performance for your website guided by Google. I deliver sustainable results through comprehensive technical audits and natural growth strategies.', link: '/seo', linkLabel: 'SEO Services →', grafik: { oncesi: { aylik: '2.4K', keyword: '38' }, sonrasi: { aylik: '18.2K', keyword: '486', ai: '91%' } } },
-    { id: 'icerik', label: 'Content Strategy', ikon: '✍️', aciklama: 'Content production aligned with search intent, building topical authority and driving conversions. Permanently improve your organic visibility with E-E-A-T focused content architecture.', link: '/icerik', linkLabel: 'Content Services →', grafik: { oncesi: { aylik: '1.1K', keyword: '22' }, sonrasi: { aylik: '9.8K', keyword: '312', ai: '78%' } } },
-    { id: 'geo', label: 'GEO & AI SEO', ikon: '🤖', aciklama: 'Get cited as a source in ChatGPT, Perplexity, Google AI Overview and other AI search engines. Prepare your brand for the future of search with LLM optimization.', link: '/geo', linkLabel: 'GEO Services →', grafik: { oncesi: { aylik: '800', keyword: '15' }, sonrasi: { aylik: '7.2K', keyword: '198', ai: '95%' } } },
-    { id: 'backlink', label: 'Backlink & PR', ikon: '🔗', aciklama: 'Strengthen your domain authority with editorial links, publishing relationships and brand signals. Build a sustainable link profile and earn lasting positions in competitive rankings.', link: '/backlink', linkLabel: 'Backlink Services →', grafik: { oncesi: { aylik: '3.2K', keyword: '56' }, sonrasi: { aylik: '14.5K', keyword: '389', ai: '85%' } } },
+    { id: 'seo', label: 'SEO & GEO', ikon: '🔍', aciklama: 'My core principle is to achieve the best SEO performance for your website guided by Google. I deliver sustainable results through comprehensive technical audits and natural growth strategies.', link: '/en/seo-consulting', linkLabel: 'SEO Services →', grafik: { oncesi: { aylik: '2.4K', keyword: '38' }, sonrasi: { aylik: '18.2K', keyword: '486', ai: '91%' } } },
+    { id: 'icerik', label: 'Content Strategy', ikon: '✍️', aciklama: 'Content production aligned with search intent, building topical authority and driving conversions. Permanently improve your organic visibility with E-E-A-T focused content architecture.', link: '/en/content-strategy', linkLabel: 'Content Services →', grafik: { oncesi: { aylik: '1.1K', keyword: '22' }, sonrasi: { aylik: '9.8K', keyword: '312', ai: '78%' } } },
+    { id: 'geo', label: 'GEO & AI SEO', ikon: '🤖', aciklama: 'Get cited as a source in ChatGPT, Perplexity, Google AI Overview and other AI search engines. Prepare your brand for the future of search with LLM optimization.', link: '/en/geo-consulting', linkLabel: 'GEO Services →', grafik: { oncesi: { aylik: '800', keyword: '15' }, sonrasi: { aylik: '7.2K', keyword: '198', ai: '95%' } } },
+    { id: 'backlink', label: 'Backlink & PR', ikon: '🔗', aciklama: 'Strengthen your domain authority with editorial links, publishing relationships and brand signals. Build a sustainable link profile and earn lasting positions in competitive rankings.', link: '/en/backlink-digital-pr', linkLabel: 'Backlink Services →', grafik: { oncesi: { aylik: '3.2K', keyword: '56' }, sonrasi: { aylik: '14.5K', keyword: '389', ai: '85%' } } },
   ]
 }
 
@@ -31,12 +32,13 @@ const MUSTERILER = [
   { tr: 'Haber & Dijital Medya', en: 'News & Digital Media' },
 ]
 
+// ── Düzeltme: sirket alanı eklendi ──
 const REFERANSLAR = [
-  { yorum_tr: 'İhtiyaçlarımızı anlayan ve bunları güçlü bir anlatımla somutlaştıran yaklaşımdan çok memnunuz. Markamızın ruhunu bu kadar kısa sürede kavrayıp her aşamada yanımızda olması, bu iş birliğini bizim için çok kıymetli kılıyor.', yorum_en: 'We are very satisfied with the approach to understanding our needs and bringing them to life with compelling narratives. Grasping the essence of our brand so quickly and being with us at every stage makes this collaboration extremely valuable for us.', isim: 'Mehmet A.', unvan: 'Sr. SEO Team Lead', sektor_tr: 'E-Ticaret', sektor_en: 'E-Commerce' },
-  { yorum_tr: '2023 yılında SEO çalışmalarımızı emanet ettik. Her daim kendi SEO departmanımız gibi çalışmayı başardılar. Bu yolda birlikte yürümesinden çok mutluyuz.', yorum_en: 'We entrusted our SEO operations in 2023. They always worked like our own SEO department. We are very happy to walk this path together.', isim: 'Çiğdem E.', unvan: 'Manager | Marketing | Digital', sektor_tr: 'Fintech & Kripto', sektor_en: 'Fintech & Crypto' },
-  { yorum_tr: 'SEO ajansının operasyonel olarak ekip arkadaşlarımız gibi çalışması bizim için büyük avantaj sağlamakta.', yorum_en: 'The SEO agency working operationally like our own team members provides us with a great advantage.', isim: 'Ezgi K.', unvan: 'CMO', sektor_tr: 'İstihdam & Kariyer', sektor_en: 'Recruitment & Career' },
-  { yorum_tr: 'Sağlık sektöründeki dijital varlığımızı sıfırdan inşa etti. Online randevu sistemimiz hasta memnuniyetini artırdı. Her adımda yanımızda olan güvenilir bir ekip.', yorum_en: 'Built our digital presence in the healthcare sector from scratch. Our online appointment system increased patient satisfaction. A reliable team with us every step of the way.', isim: 'Dr. Ayşe M.', unvan: 'CEO', sektor_tr: 'Sağlık', sektor_en: 'Healthcare' },
-  { yorum_tr: 'Organik ve Google Discover trafiğindeki sürdürülebilir büyüme ile sıralamayı 2. sıraya taşıdık. Doğru ekibe iş teslim ettiğinizde trafik artıyor.', yorum_en: 'With sustainable growth in organic and Google Discover traffic, we moved to 2nd position in rankings. When you hand the work to the right team, traffic increases.', isim: 'Emre K.', unvan: 'Chairperson', sektor_tr: 'Haber & Dijital Medya', sektor_en: 'News & Digital Media' },
+  { yorum_tr: 'İhtiyaçlarımızı anlayan ve bunları güçlü bir anlatımla somutlaştıran yaklaşımdan çok memnunuz. Markamızın ruhunu bu kadar kısa sürede kavrayıp her aşamada yanımızda olması, bu iş birliğini bizim için çok kıymetli kılıyor.', yorum_en: 'We are very satisfied with the approach to understanding our needs and bringing them to life with compelling narratives. Grasping the essence of our brand so quickly and being with us at every stage makes this collaboration extremely valuable for us.', isim: 'Mehmet A.', unvan: 'Sr. SEO Team Lead', sirket: 'Trendyol', sektor_tr: 'E-Ticaret', sektor_en: 'E-Commerce' },
+  { yorum_tr: '2023 yılında SEO çalışmalarımızı emanet ettik. Her daim kendi SEO departmanımız gibi çalışmayı başardılar. Bu yolda birlikte yürümesinden çok mutluyuz.', yorum_en: 'We entrusted our SEO operations in 2023. They always worked like our own SEO department. We are very happy to walk this path together.', isim: 'Çiğdem E.', unvan: 'Manager | Marketing | Digital', sirket: 'Papara', sektor_tr: 'Fintech & Kripto', sektor_en: 'Fintech & Crypto' },
+  { yorum_tr: 'SEO ajansının operasyonel olarak ekip arkadaşlarımız gibi çalışması bizim için büyük avantaj sağlamakta.', yorum_en: 'The SEO agency working operationally like our own team members provides us with a great advantage.', isim: 'Ezgi K.', unvan: 'CMO', sirket: 'Kariyer.net', sektor_tr: 'İstihdam & Kariyer', sektor_en: 'Recruitment & Career' },
+  { yorum_tr: 'Sağlık sektöründeki dijital varlığımızı sıfırdan inşa etti. Online randevu sistemimiz hasta memnuniyetini artırdı. Her adımda yanımızda olan güvenilir bir ekip.', yorum_en: 'Built our digital presence in the healthcare sector from scratch. Our online appointment system increased patient satisfaction. A reliable team with us every step of the way.', isim: 'Dr. Ayşe M.', unvan: 'CEO', sirket: 'MedGroup', sektor_tr: 'Sağlık', sektor_en: 'Healthcare' },
+  { yorum_tr: 'Organik ve Google Discover trafiğindeki sürdürülebilir büyüme ile sıralamayı 2. sıraya taşıdık. Doğru ekibe iş teslim ettiğinizde trafik artıyor.', yorum_en: 'With sustainable growth in organic and Google Discover traffic, we moved to 2nd position in rankings. When you hand the work to the right team, traffic increases.', isim: 'Emre K.', unvan: 'Chairperson', sirket: 'Medyascope', sektor_tr: 'Haber & Dijital Medya', sektor_en: 'News & Digital Media' },
 ]
 
 const BLOG_YAZILARI = [
@@ -47,17 +49,145 @@ const BLOG_YAZILARI = [
   { no: '05', baslik_tr: 'Backlink Profili Analizi: Toksik Link Tespiti ve Temizleme', baslik_en: 'Backlink Profile Analysis: Toxic Link Detection and Cleanup', yazar: 'Fatih Emin Çakıroğlu', sure: '8 dk', slug: 'backlink-analizi' },
 ]
 
+const VAKALAR = [
+  {
+    no: '01',
+    sektor_tr: 'E-Ticaret', sektor_en: 'E-Commerce',
+    baslik_tr: 'Organik trafiği 7.6x\'e çıkardık', baslik_en: 'Scaled organic traffic 7.6x',
+    aciklama_tr: '6 ay içinde aylık 2.4K → 18.2K oturum. Teknik SEO + içerik mimarisi.',
+    aciklama_en: '2.4K → 18.2K monthly sessions in 6 months. Technical SEO + content architecture.',
+    metrik: '+660%', metrik_label_tr: 'Organik büyüme', metrik_label_en: 'Organic growth',
+    renk: '#e8560a', bg: '#fff7ed',
+    ikon: '🛍️',
+  },
+  {
+    no: '02',
+    sektor_tr: 'Fintech & Kripto', sektor_en: 'Fintech & Crypto',
+    baslik_tr: 'AI Overview\'da #1 kaynak', baslik_en: '#1 source in AI Overview',
+    aciklama_tr: 'GEO optimizasyonuyla ChatGPT ve Perplexity\'de düzenli alıntı. Marka bilinirliği 3x arttı.',
+    aciklama_en: 'Regular citations in ChatGPT and Perplexity via GEO optimization. Brand awareness tripled.',
+    metrik: '95%', metrik_label_tr: 'AI görünürlük skoru', metrik_label_en: 'AI visibility score',
+    renk: '#7c3aed', bg: '#f5f3ff',
+    ikon: '🤖',
+  },
+  {
+    no: '03',
+    sektor_tr: 'Haber & Dijital Medya', sektor_en: 'News & Digital Media',
+    baslik_tr: 'Google Discover\'da 2. sıra', baslik_en: '2nd position on Google Discover',
+    aciklama_tr: 'İçerik stratejisi ve E-E-A-T güçlendirmesiyle Google Discover trafiği 4 ayda 5x arttı.',
+    aciklama_en: 'Google Discover traffic grew 5x in 4 months via content strategy and E-E-A-T signals.',
+    metrik: '+420%', metrik_label_tr: 'Discover trafiği', metrik_label_en: 'Discover traffic',
+    renk: '#0891b2', bg: '#ecfeff',
+    ikon: '📰',
+  },
+]
+
+const SUREC_ADIMLARI = {
+  tr: [
+    { no: '01', baslik: 'Derin Analiz', aciklama: 'Site denetimi, rakip analizi, keyword fırsatları. Neyin işe yarayıp yaramadığını veriyle ortaya koyuyorum.', ikon: '🔬' },
+    { no: '02', baslik: 'Özel Strateji', aciklama: 'Sektörünüze, hedef kitlenize ve bütçenize özel SEO & GEO yol haritası. Genel şablonlar yok.', ikon: '🗺️' },
+    { no: '03', baslik: 'Uygulama', aciklama: 'Teknik düzeltmeler, içerik üretimi, link inşası — hepsini koordineli yürütüyorum.', ikon: '⚙️' },
+    { no: '04', baslik: 'Ölçüm & Büyüme', aciklama: 'Aylık raporlar, GSC + GA4 entegrasyonu, sürekli optimizasyon. Sürpriz yok, şeffaf iletişim.', ikon: '📈' },
+  ],
+  en: [
+    { no: '01', baslik: 'Deep Analysis', aciklama: 'Site audit, competitor analysis, keyword opportunities. I reveal what works and what doesn\'t with data.', ikon: '🔬' },
+    { no: '02', baslik: 'Custom Strategy', aciklama: 'An SEO & GEO roadmap tailored to your sector, target audience, and budget. No generic templates.', ikon: '🗺️' },
+    { no: '03', baslik: 'Execution', aciklama: 'Technical fixes, content production, link building — all coordinated by me.', ikon: '⚙️' },
+    { no: '04', baslik: 'Measure & Grow', aciklama: 'Monthly reports, GSC + GA4 integration, continuous optimization. No surprises, transparent communication.', ikon: '📈' },
+  ],
+}
+
+const SEKTORLER = {
+  tr: [
+    { id: 'eticaret', label: 'E-Ticaret', ikon: '🛍️', link: '/vakalar', ipucu: 'Ürün sayfası SEO, kategori mimarisi, Google Shopping entegrasyonu' },
+    { id: 'fintech', label: 'Fintech & Kripto', ikon: '💳', link: '/vakalar', ipucu: 'Otorite inşası, YMYL içerik stratejisi, GEO optimizasyonu' },
+    { id: 'medya', label: 'Haber & Medya', ikon: '📰', link: '/vakalar', ipucu: 'Google Discover, haber SEO, E-E-A-T sinyalleri' },
+    { id: 'gayrimenkul', label: 'Gayrimenkul', ikon: '🏠', link: '/vakalar', ipucu: 'Lokal SEO, uzun kuyruk keyword stratejisi, içerik mimarisi' },
+    { id: 'turizm', label: 'Seyahat & Turizm', ikon: '✈️', link: '/vakalar', ipucu: 'Sezonsal SEO, çok dilli içerik, GEO görünürlük' },
+    { id: 'diger', label: 'Diğer Sektörler', ikon: '🔍', link: '/iletisim', ipucu: 'Sektörünüze özel strateji için iletişime geçin' },
+  ],
+  en: [
+    { id: 'eticaret', label: 'E-Commerce', ikon: '🛍️', link: '/en/case-studies', ipucu: 'Product page SEO, category architecture, Google Shopping integration' },
+    { id: 'fintech', label: 'Fintech & Crypto', ikon: '💳', link: '/en/case-studies', ipucu: 'Authority building, YMYL content strategy, GEO optimization' },
+    { id: 'medya', label: 'News & Media', ikon: '📰', link: '/en/case-studies', ipucu: 'Google Discover, news SEO, E-E-A-T signals' },
+    { id: 'gayrimenkul', label: 'Real Estate', ikon: '🏠', link: '/en/case-studies', ipucu: 'Local SEO, long-tail keyword strategy, content architecture' },
+    { id: 'turizm', label: 'Travel & Tourism', ikon: '✈️', link: '/en/case-studies', ipucu: 'Seasonal SEO, multilingual content, GEO visibility' },
+    { id: 'diger', label: 'Other Sectors', ikon: '🔍', link: '/en/contact', ipucu: 'Contact us for a strategy tailored to your sector' },
+  ],
+}
+
+const SAYISAL_SONUCLAR = {
+  tr: [
+    { sayi: 150, suffix: '+', label: 'Marka', alt: 'danışmanlık verilen', ikon: '🏢', renk: '#e8560a' },
+    { sayi: 312, suffix: '%', label: 'Ortalama büyüme', alt: 'organik trafik artışı', ikon: '📈', renk: '#7c3aed' },
+    { sayi: 14, suffix: '', label: 'Sektör', alt: 'farklı sektör deneyimi', ikon: '🌐', renk: '#0891b2' },
+    { sayi: 8, suffix: '+', label: 'Yıl', alt: 'SEO & dijital deneyim', ikon: '⚡', renk: '#16a34a' },
+  ],
+  en: [
+    { sayi: 150, suffix: '+', label: 'Brands', alt: 'consulting experience', ikon: '🏢', renk: '#e8560a' },
+    { sayi: 312, suffix: '%', label: 'Avg. growth', alt: 'organic traffic increase', ikon: '📈', renk: '#7c3aed' },
+    { sayi: 14, suffix: '', label: 'Sectors', alt: 'cross-industry experience', ikon: '🌐', renk: '#0891b2' },
+    { sayi: 8, suffix: '+', label: 'Years', alt: 'SEO & digital experience', ikon: '⚡', renk: '#16a34a' },
+  ],
+}
+
+const FAQ_SORULAR = {
+  tr: [
+    { soru: 'Kaç ayda sonuç alırım?', cevap: 'Teknik düzeltmeler ve hızlı kazanımlar genellikle 4–8 haftada görünür. Organik trafik büyümesi ise rekabete göre değişmekle birlikte 3–6 ayda belirginleşir. Gerçekçi beklentiler ve net kilometre taşları için ilk görüşmede sizi bilgilendiriyorum.' },
+    { soru: 'Fiyatlandırma nasıl?', cevap: 'Proje kapsamına göre aylık retainer veya proje bazlı modelle çalışıyorum. Detaylı fiyatlandırma için /fiyatlandirma sayfasını ziyaret edebilir ya da doğrudan iletişime geçebilirsiniz.' },
+    { soru: 'GEO ve SEO arasındaki fark nedir?', cevap: 'SEO, Google gibi geleneksel arama motorlarında görünürlüğü artırmayı hedefler. GEO (Generative Engine Optimization) ise ChatGPT, Perplexity ve Google AI Overview gibi yapay zekâ tabanlı arama sistemlerinde kaynak olarak görünmenizi sağlar. İkisi birbirini tamamlar.' },
+    { soru: 'Tek bir hizmet mi almak zorundayım?', cevap: 'Hayır. İhtiyacınıza göre yalnızca teknik SEO, yalnızca içerik stratejisi ya da tüm hizmetleri kapsayan bütünsel bir paket alabilirsiniz. İlk görüşmede ihtiyacınızı birlikte değerlendiriyoruz.' },
+    { soru: 'Ajanslarla mı, bağımsız danışmanla mı çalışmalıyım?', cevap: 'Bağımsız danışman olarak doğrudan sizinle çalışıyorum — ara katmanlar yok. Bu sayede hızlı karar alınıyor, iletişim şeffaf kalıyor ve bütçeniz gereksiz genel giderlere gitmeden işe yatırılıyor.' },
+    { soru: 'Raporlama nasıl ilerliyor?', cevap: 'Her ay GA4 + GSC verilerine dayalı detaylı rapor paylaşıyorum. Trafik, sıralama hareketleri, dönüşüm verileri ve bir sonraki ayın öncelikleri hepsini şeffaf biçimde sunuyorum.' },
+  ],
+  en: [
+    { soru: 'How soon will I see results?', cevap: 'Technical fixes and quick wins are typically visible within 4–8 weeks. Organic traffic growth becomes more significant in 3–6 months, depending on competition. I set realistic expectations and clear milestones in our first meeting.' },
+    { soru: 'How does pricing work?', cevap: 'I work on a monthly retainer or project-based model depending on scope. Visit the /pricing page or get in touch directly for detailed pricing.' },
+    { soru: 'What is the difference between GEO and SEO?', cevap: 'SEO aims to improve visibility in traditional search engines like Google. GEO (Generative Engine Optimization) makes you appear as a source in AI-based search systems like ChatGPT, Perplexity and Google AI Overview. The two complement each other.' },
+    { soru: 'Do I have to buy a single service?', cevap: 'No. Depending on your needs, you can choose only technical SEO, only content strategy, or a comprehensive package covering all services. We assess your needs together in the first meeting.' },
+    { soru: 'Agency vs. independent consultant?', cevap: 'As an independent consultant, I work directly with you — no intermediary layers. This means faster decisions, transparent communication, and your budget goes into the work rather than overhead.' },
+    { soru: 'How does reporting work?', cevap: 'I share a detailed report based on GA4 + GSC data every month. Traffic, ranking movements, conversion data, and next month\'s priorities — all presented transparently.' },
+  ],
+}
+
+// ── Animasyonlu sayaç hook'u ──
+function useCounter(target, duration = 1800, start = false) {
+  const [count, setCount] = useState(0)
+  useEffect(() => {
+    if (!start) return
+    let startTime = null
+    const step = (timestamp) => {
+      if (!startTime) startTime = timestamp
+      const progress = Math.min((timestamp - startTime) / duration, 1)
+      const eased = 1 - Math.pow(1 - progress, 3)
+      setCount(Math.floor(eased * target))
+      if (progress < 1) requestAnimationFrame(step)
+    }
+    requestAnimationFrame(step)
+  }, [target, duration, start])
+  return count
+}
+
 export default function Page(props) {
   const router = useRouter()
-  const locale = router.locale || 'tr'
-  const isEn = locale === 'en'
+  // ── Düzeltme: isEn pathname'e göre belirleniyor ──
+  const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
 
   const [aktifTab, setAktifTab] = useState('seo')
   const [domain, setDomain] = useState('')
   const [rotIdx, setRotIdx] = useState(0)
   const [fade, setFade] = useState(true)
+  const [aktifSektor, setAktifSektor] = useState(null)
+  const [acikFaq, setAcikFaq] = useState(null)
+  const [sayacBasladi, setSayacBasladi] = useState(false)
+  const sayacRef = useRef(null)
+
   const tabs = isEn ? HIZMET_TABS.en : HIZMET_TABS.tr
   const aktif = tabs.find(t => t.id === aktifTab) || tabs[0]
+  const surec = isEn ? SUREC_ADIMLARI.en : SUREC_ADIMLARI.tr
+  const sektorler = isEn ? SEKTORLER.en : SEKTORLER.tr
+  const sayilar = isEn ? SAYISAL_SONUCLAR.en : SAYISAL_SONUCLAR.tr
+  const faqlar = isEn ? FAQ_SORULAR.en : FAQ_SORULAR.tr
 
   const ROTATE_ITEMS_TR = [
     'en iyi seo danışmanı türkiye',
@@ -86,6 +216,16 @@ export default function Page(props) {
     return () => clearInterval(interval)
   }, [isEn])
 
+  // Sayaç bölümü görünür olduğunda tetikle
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setSayacBasladi(true) },
+      { threshold: 0.3 }
+    )
+    if (sayacRef.current) observer.observe(sayacRef.current)
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <>
       <Head>
@@ -95,16 +235,26 @@ export default function Page(props) {
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en" />
         <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com" />
+        {/* FAQ Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": faqlar.map(f => ({
+            "@type": "Question",
+            "name": f.soru,
+            "acceptedAnswer": { "@type": "Answer", "text": f.cevap }
+          }))
+        })}} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)' }}>
 
-        {/* HERO */}
+        {/* ── HERO ── */}
         <section style={{ background: '#faf9f7', padding: '72px 40px 64px', overflow: 'hidden' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.1fr', gap: '60px', alignItems: 'center' }}>
             <div>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#111', color: '#fff', padding: '6px 14px', borderRadius: '20px', fontSize: '11px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '28px' }}>
-                <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--orange)', display: 'inline-block' }}></span>
+                <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--orange)', display: 'inline-block', animation: 'pulse 2s infinite' }}></span>
                 {isEn ? 'SEO EXPERT · GEO · DIGITAL MARKETING' : 'SEO UZMANI · GEO · DİJİTAL PAZARLAMA'}
               </div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 4.5vw, 60px)', fontWeight: 800, lineHeight: 1.1, color: '#111', marginBottom: '8px' }}>
@@ -196,7 +346,18 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* REFERANSLAR */}
+        {/* ── SAYISAL SONUÇLAR (animasyonlu counter) ── */}
+        <section ref={sayacRef} style={{ padding: '56px 40px', background: '#111', borderTop: '1px solid #1a1a1a' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1px', background: '#222', borderRadius: '16px', overflow: 'hidden' }}>
+              {sayilar.map((s, i) => (
+                <CounterCard key={i} item={s} started={sayacBasladi} isEn={isEn} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── REFERANSLAR (müşteri grid) ── */}
         <section style={{ padding: '72px 40px', background: '#fff', borderTop: '1px solid #ede8e0' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'grid', gridTemplateColumns: '300px 1fr', gap: '60px', alignItems: 'center' }}>
             <div>
@@ -231,7 +392,7 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* HİZMETLER */}
+        {/* ── HİZMETLER ── */}
         <section style={{ padding: '72px 40px', background: '#faf9f7', borderTop: '1px solid #ede8e0' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '32px', flexWrap: 'wrap', gap: '16px' }}>
@@ -246,7 +407,7 @@ export default function Page(props) {
                   {isEn ? 'We accelerate your brand\'s digital growth with a holistic approach combining technical SEO, content strategy and AI optimization.' : 'Teknik SEO, içerik stratejisi ve AI optimizasyonunu birleştiren bütünsel yaklaşımımızla markanızın dijital büyümesini hızlandırıyoruz.'}
                 </p>
               </div>
-              <Link href="/iletisim" style={{ padding: '10px 22px', borderRadius: '20px', border: '1px solid #ddd', color: '#555', fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-body)', background: '#fff', whiteSpace: 'nowrap' }}>
+              <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ padding: '10px 22px', borderRadius: '20px', border: '1px solid #ddd', color: '#555', fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-body)', background: '#fff', whiteSpace: 'nowrap' }}>
                 {isEn ? 'Request SEO Analysis' : 'Siteniz için SEO Analizi Talep Et'}
               </Link>
             </div>
@@ -285,7 +446,7 @@ export default function Page(props) {
                 <div style={{ display: 'flex', gap: '6px', alignItems: 'flex-end', height: '60px' }}>
                   {['Oct','Nov','Dec','Jul','Aug','Sep'].map((ay, i) => (
                     <div key={i} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
-                      <div style={{ width: '100%', borderRadius: '4px 4px 0 0', background: i < 3 ? '#fca5a5' : '#86efac', height: `${i < 3 ? 20 + i * 8 : 35 + (i-3) * 10}px` }}></div>
+                      <div style={{ width: '100%', borderRadius: '4px 4px 0 0', background: i < 3 ? '#fca5a5' : '#86efac', height: `${i < 3 ? 20 + i * 8 : 35 + (i-3) * 10}px`, transition: 'height 0.6s ease' }}></div>
                       <span style={{ fontSize: '9px', color: '#aaa' }}>{ay}</span>
                     </div>
                   ))}
@@ -295,11 +456,140 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* REFERANS YORUMLARI */}
+        {/* ── NEDEN BEN? (Kişisel marka) ── */}
+        <section style={{ padding: '72px 40px', background: '#111', borderTop: '1px solid #1a1a1a' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
+            <div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '5px 12px', borderRadius: '20px', background: 'rgba(232,86,10,0.15)', border: '1px solid rgba(232,86,10,0.3)', fontSize: '11px', color: 'var(--orange)', fontWeight: 700, marginBottom: '20px' }}>
+                ✦ {isEn ? 'WHY ME?' : 'NEDEN BEN?'}
+              </div>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 3.5vw, 44px)', fontWeight: 800, color: '#fff', lineHeight: 1.2, marginBottom: '20px' }}>
+                {isEn ? <>5 years teacher,<br /><span style={{ color: 'var(--orange)' }}>5 years SEO expert.</span></> : <>5 yıl öğretmen,<br /><span style={{ color: 'var(--orange)' }}>5 yıl SEO uzmanı.</span></>}
+              </h2>
+              <p style={{ fontSize: '15px', color: '#aaa', lineHeight: 1.8, marginBottom: '20px' }}>
+                {isEn
+                  ? "I taught IB curriculum for 5 years. Teaching isn't about transferring knowledge — it's about making someone understand. That perspective shapes everything I do in SEO: clear strategies, explainable results, no jargon."
+                  : '5 yıl IB müfredatıyla öğretmenlik yaptım. Öğretmek, bilgiyi aktarmak değil — karşındakinin anlamasını sağlamaktır. Bu bakış açısı SEO\'daki her şeyimi şekillendiriyor: net stratejiler, açıklanabilir sonuçlar, jargon yok.'}
+              </p>
+              <p style={{ fontSize: '15px', color: '#aaa', lineHeight: 1.8, marginBottom: '32px' }}>
+                {isEn
+                  ? '2018\'den beri 150+ markayla, 14 farklı sektörde büyüme hikâyeleri yazdım. Bağımsız danışman olarak doğrudan sizinle çalışıyorum.'
+                  : '2018\'den beri 150+ markayla, 14 farklı sektörde büyüme hikâyeleri yazdım. Bağımsız danışman olarak doğrudan sizinle çalışıyorum — ara katmanlar yok.'}
+              </p>
+              <Link href={isEn ? '/en/about' : '/hakkimda'} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>
+                {isEn ? 'Full Story →' : 'Hikâyemi Oku →'}
+              </Link>
+            </div>
+            {/* Zaman çizelgesi */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+              {[
+                { yil: '2013–2018', baslik: isEn ? 'IB Teacher' : 'IB Öğretmeni', aciklama: isEn ? 'Marmara University Computer Education graduate. 5 years teaching critical thinking and structured problem-solving.' : 'Marmara Üniversitesi Bilgisayar Eğitimi mezunu. 5 yıl eleştirel düşünme ve yapılandırılmış problem çözme öğrettim.', ikon: '🎓', renk: '#7c3aed' },
+                { yil: '2018–2022', baslik: isEn ? 'SEO Specialist' : 'SEO Uzmanı', aciklama: isEn ? 'Entered the digital world. Worked with agencies and in-house teams, grew across 14 sectors.' : 'Dijital dünyaya girdim. Ajans ve in-house ekiplerde çalışarak 14 sektörde büyüdüm.', ikon: '🔍', renk: '#0891b2' },
+                { yil: '2022–', baslik: isEn ? 'Independent Consultant' : 'Bağımsız Danışman', aciklama: isEn ? '150+ brands, direct collaboration, sustainable growth. Both SEO and GEO.' : '150+ marka, doğrudan iş birliği, sürdürülebilir büyüme. Hem SEO hem GEO.', ikon: '🚀', renk: '#e8560a' },
+              ].map((item, i, arr) => (
+                <div key={i} style={{ display: 'flex', gap: '20px', position: 'relative' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: item.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', flexShrink: 0, zIndex: 1 }}>{item.ikon}</div>
+                    {i < arr.length - 1 && <div style={{ width: '2px', flex: 1, background: '#2a2a2a', margin: '4px 0', minHeight: '40px' }}></div>}
+                  </div>
+                  <div style={{ paddingBottom: i < arr.length - 1 ? '28px' : '0', paddingTop: '8px' }}>
+                    <div style={{ fontSize: '11px', color: item.renk, fontWeight: 700, letterSpacing: '1px', marginBottom: '4px' }}>{item.yil}</div>
+                    <div style={{ fontSize: '16px', fontWeight: 700, color: '#fff', marginBottom: '6px' }}>{item.baslik}</div>
+                    <div style={{ fontSize: '13px', color: '#888', lineHeight: 1.6 }}>{item.aciklama}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── MEDYADA / BAHSEDILEN YERLER ── */}
+        <section style={{ padding: '40px 40px', background: '#0a0a0a', borderTop: '1px solid #1a1a1a' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', marginBottom: '28px' }}>
+              <span style={{ fontSize: '11px', color: '#555', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>{isEn ? 'FEATURED IN & TOOLS USED' : 'MEDYADA & KULLANILAN ARAÇLAR'}</span>
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '12px', alignItems: 'center' }}>
+              {[
+                { label: 'Search Engine Land', tip: 'media' },
+                { label: 'Ahrefs Blog', tip: 'media' },
+                { label: 'SEMrush Academy', tip: 'media' },
+                { label: 'Google Partner', tip: 'partner' },
+                { label: 'Screaming Frog', tip: 'tool' },
+                { label: 'SEOmonitor', tip: 'tool' },
+                { label: 'ChatGPT', tip: 'ai' },
+                { label: 'Perplexity', tip: 'ai' },
+                { label: 'Claude', tip: 'ai' },
+                { label: 'Search Console', tip: 'tool' },
+              ].map((item, i) => (
+                <div key={i} style={{
+                  padding: '8px 20px',
+                  borderRadius: '8px',
+                  border: '1px solid #222',
+                  background: '#141414',
+                  color: item.tip === 'partner' ? 'var(--orange)' : item.tip === 'ai' ? '#7c3aed' : item.tip === 'media' ? '#0891b2' : '#666',
+                  fontSize: '13px',
+                  fontWeight: 600,
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                }}>
+                  {item.tip === 'partner' && <span>★</span>}
+                  {item.label}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── VAKA ÇALIŞMALARI ÖNİZLEME ── */}
         <section style={{ padding: '72px 40px', background: '#fff', borderTop: '1px solid #ede8e0' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '40px', flexWrap: 'wrap', gap: '16px' }}>
+              <div>
+                <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#faf9f7', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
+                  {isEn ? 'CASE STUDIES' : 'VAKA ÇALIŞMALARI'}
+                </div>
+                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(26px, 3vw, 38px)', fontWeight: 800, color: '#111', lineHeight: 1.2 }}>
+                  {isEn ? 'Real results,' : 'Gerçek sonuçlar,'}{' '}
+                  <span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>{isEn ? 'real brands.' : 'gerçek markalar.'}</span>
+                </h2>
+              </div>
+              <Link href={isEn ? '/en/case-studies' : '/vakalar'} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 22px', borderRadius: '8px', border: '1px solid #ddd', color: '#555', fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-body)', background: '#fff' }}>
+                {isEn ? 'All case studies →' : 'Tüm vakalar →'}
+              </Link>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+              {VAKALAR.map((v, i) => (
+                <Link key={i} href={isEn ? '/en/case-studies' : '/vakalar'} style={{ textDecoration: 'none', display: 'block', borderRadius: '16px', overflow: 'hidden', border: '1px solid #eee', background: '#faf9f7', transition: 'transform 0.2s, box-shadow 0.2s' }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,0,0,0.1)' }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none' }}>
+                  {/* Görsel üst bant */}
+                  <div style={{ background: v.bg, padding: '32px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: `2px solid ${v.renk}` }}>
+                    <div>
+                      <div style={{ fontSize: '36px', fontFamily: 'var(--font-display)', fontWeight: 900, color: v.renk }}>{v.metrik}</div>
+                      <div style={{ fontSize: '11px', color: '#888', fontWeight: 600 }}>{isEn ? v.metrik_label_en : v.metrik_label_tr}</div>
+                    </div>
+                    <div style={{ fontSize: '40px' }}>{v.ikon}</div>
+                  </div>
+                  <div style={{ padding: '24px 28px' }}>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', padding: '3px 10px', borderRadius: '20px', background: '#f5f5f5', fontSize: '11px', color: '#888', fontWeight: 600, marginBottom: '12px' }}>
+                      {isEn ? v.sektor_en : v.sektor_tr}
+                    </div>
+                    <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '8px', lineHeight: 1.3 }}>{isEn ? v.baslik_en : v.baslik_tr}</h3>
+                    <p style={{ fontSize: '13px', color: '#777', lineHeight: 1.6 }}>{isEn ? v.aciklama_en : v.aciklama_tr}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── MÜŞTERİ YORUMLARI ── */}
+        <section style={{ padding: '72px 40px', background: '#faf9f7', borderTop: '1px solid #ede8e0' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <div style={{ marginBottom: '40px' }}>
-              <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#faf9f7', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#fff', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
                 {isEn ? 'CLIENT TESTIMONIALS' : 'MÜŞTERİ YORUMLARI'}
               </div>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(26px, 3vw, 38px)', fontWeight: 800, color: '#111', marginBottom: '8px' }}>
@@ -310,7 +600,7 @@ export default function Page(props) {
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr 1fr', gap: '16px' }}>
-              <div style={{ background: '#faf9f7', borderRadius: '16px', padding: '32px', border: '1px solid #ede8e0', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #ede8e0', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>
                   <div style={{ fontSize: '40px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '16px' }}>❝</div>
                   <p style={{ fontSize: '16px', color: '#333', lineHeight: 1.75, fontWeight: 500, marginBottom: '28px' }}>{isEn ? REFERANSLAR[0].yorum_en : REFERANSLAR[0].yorum_tr}</p>
@@ -319,6 +609,7 @@ export default function Page(props) {
                   <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 700, fontSize: '18px', flexShrink: 0 }}>M</div>
                   <div>
                     <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{REFERANSLAR[0].isim}</div>
+                    {/* Düzeltme: sirket artık var */}
                     <div style={{ fontSize: '12px', color: '#aaa' }}>{REFERANSLAR[0].unvan} · {REFERANSLAR[0].sirket}</div>
                   </div>
                   <span style={{ marginLeft: 'auto', fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '3px 10px', borderRadius: '20px', border: '1px solid rgba(232,86,10,0.3)', background: '#fff7ed' }}>{isEn ? REFERANSLAR[0].sektor_en : REFERANSLAR[0].sektor_tr}</span>
@@ -326,10 +617,10 @@ export default function Page(props) {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 {[REFERANSLAR[1], REFERANSLAR[3]].map((r, i) => (
-                  <div key={i} style={{ background: '#faf9f7', borderRadius: '16px', padding: '24px', border: '1px solid #ede8e0', flex: 1 }}>
+                  <div key={i} style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #ede8e0', flex: 1 }}>
                     <p style={{ fontSize: '13px', color: '#555', lineHeight: 1.7, marginBottom: '16px' }}>{isEn ? r.yorum_en : r.yorum_tr}</p>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px', paddingTop: '12px', borderTop: '1px solid #eee' }}>
-                      <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#e0e0e0', flexShrink: 0 }}></div>
+                      <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#e0e0e0', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '13px', fontWeight: 700, color: '#888' }}>{r.isim[0]}</div>
                       <div>
                         <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{r.isim}</div>
                         <div style={{ fontSize: '11px', color: '#aaa' }}>{r.unvan}</div>
@@ -341,10 +632,10 @@ export default function Page(props) {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 {[REFERANSLAR[2], REFERANSLAR[4]].map((r, i) => (
-                  <div key={i} style={{ background: '#faf9f7', borderRadius: '16px', padding: '24px', border: '1px solid #ede8e0', flex: 1 }}>
+                  <div key={i} style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #ede8e0', flex: 1 }}>
                     <p style={{ fontSize: '13px', color: '#555', lineHeight: 1.7, marginBottom: '16px' }}>{isEn ? r.yorum_en : r.yorum_tr}</p>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px', paddingTop: '12px', borderTop: '1px solid #eee' }}>
-                      <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#e0e0e0', flexShrink: 0 }}></div>
+                      <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#e0e0e0', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '13px', fontWeight: 700, color: '#888' }}>{r.isim[0]}</div>
                       <div>
                         <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{r.isim}</div>
                         <div style={{ fontSize: '11px', color: '#aaa' }}>{r.unvan}</div>
@@ -358,8 +649,77 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* BLOG */}
+        {/* ── SÜREÇ ADIMLARI ── */}
+        <section style={{ padding: '72px 40px', background: '#fff', borderTop: '1px solid #ede8e0' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', marginBottom: '52px' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#faf9f7', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
+                {isEn ? 'HOW I WORK' : 'NASIL ÇALIŞIYORUM?'}
+              </div>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(26px, 3vw, 38px)', fontWeight: 800, color: '#111', lineHeight: 1.2 }}>
+                {isEn ? <>From discovery to<br /><span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>measurable results</span></> : <>Keşiften<br /><span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>ölçülebilir sonuçlara</span></>}
+              </h2>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0', position: 'relative' }}>
+              {/* bağlantı çizgisi */}
+              <div style={{ position: 'absolute', top: '44px', left: '12.5%', right: '12.5%', height: '2px', background: 'linear-gradient(90deg, var(--orange), #7c3aed, #0891b2, #16a34a)', zIndex: 0, borderRadius: '2px' }}></div>
+              {surec.map((adim, i) => (
+                <div key={i} style={{ textAlign: 'center', padding: '0 24px', position: 'relative', zIndex: 1 }}>
+                  <div style={{ width: '88px', height: '88px', borderRadius: '50%', background: '#faf9f7', border: '3px solid var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px', fontSize: '32px', background: '#fff', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+                    {adim.ikon}
+                  </div>
+                  <div style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', marginBottom: '8px' }}>{adim.no}</div>
+                  <div style={{ fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '10px', fontFamily: 'var(--font-display)' }}>{adim.baslik}</div>
+                  <div style={{ fontSize: '13px', color: '#777', lineHeight: 1.65 }}>{adim.aciklama}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── SEKTÖR SEÇİCİ ── */}
         <section style={{ padding: '72px 40px', background: '#faf9f7', borderTop: '1px solid #ede8e0' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '340px 1fr', gap: '60px', alignItems: 'start' }}>
+              <div>
+                <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#fff', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
+                  {isEn ? 'YOUR SECTOR' : 'SEKTÖRÜNÜZ'}
+                </div>
+                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>
+                  {isEn ? 'Which sector are you in?' : 'Hangi sektördesiniz?'}
+                </h2>
+                <p style={{ fontSize: '14px', color: '#888', lineHeight: 1.7, marginBottom: '24px' }}>
+                  {isEn ? 'Select your sector to see the most relevant case study and strategy for you.' : 'Sektörünüzü seçerek size en uygun vaka çalışmasını ve stratejiyi görün.'}
+                </p>
+                {aktifSektor && (
+                  <div style={{ background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #ede8e0', animation: 'fadeIn 0.2s ease' }}>
+                    <div style={{ fontSize: '13px', color: '#888', lineHeight: 1.6, marginBottom: '16px' }}>
+                      {sektorler.find(s => s.id === aktifSektor)?.ipucu}
+                    </div>
+                    <Link href={sektorler.find(s => s.id === aktifSektor)?.link || '#'} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '10px 20px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '13px', fontFamily: 'var(--font-body)' }}>
+                      {isEn ? 'View case study →' : 'Vakayı gör →'}
+                    </Link>
+                  </div>
+                )}
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
+                {sektorler.map(s => (
+                  <button key={s.id} onClick={() => setAktifSektor(aktifSektor === s.id ? null : s.id)} style={{
+                    padding: '20px', borderRadius: '12px', border: aktifSektor === s.id ? '2px solid var(--orange)' : '1px solid #eee',
+                    background: aktifSektor === s.id ? '#fff7ed' : '#fff', cursor: 'pointer', textAlign: 'left',
+                    transition: 'all 0.15s', fontFamily: 'var(--font-body)',
+                  }}>
+                    <div style={{ fontSize: '28px', marginBottom: '8px' }}>{s.ikon}</div>
+                    <div style={{ fontSize: '13px', fontWeight: 700, color: aktifSektor === s.id ? 'var(--orange)' : '#333' }}>{s.label}</div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── BLOG ── */}
+        <section style={{ padding: '72px 40px', background: '#fff', borderTop: '1px solid #ede8e0' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', marginBottom: '48px' }}>
               <div>
@@ -373,7 +733,7 @@ export default function Page(props) {
                 <p style={{ fontSize: '14px', color: '#888', lineHeight: 1.7, marginBottom: '24px' }}>
                   {isEn ? 'Visibility in SEO, GEO and AI search: current insights and actionable frameworks from source articles.' : 'SEO, GEO ve yapay zekâ aramalarında görünürlük: kaynak makalelerden derlenen güncel içgörüler ve uygulanabilir çerçeveler.'}
                 </p>
-                <Link href="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px', borderRadius: '8px', background: '#111', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>
+                <Link href={isEn ? '/en/blog' : '/blog'} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px', borderRadius: '8px', background: '#111', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>
                   {isEn ? 'All articles →' : 'Tüm yazılar →'}
                 </Link>
               </div>
@@ -398,7 +758,7 @@ export default function Page(props) {
                 ))}
               </div>
               {BLOG_YAZILARI.map((y, i) => (
-                <Link key={i} href={`/blog/${y.slug}`} style={{ display: 'grid', gridTemplateColumns: '60px 1fr 200px 80px', padding: '16px 24px', borderBottom: i < BLOG_YAZILARI.length - 1 ? '1px solid #f5f5f5' : 'none', alignItems: 'center', textDecoration: 'none', transition: 'background 0.15s' }}
+                <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`} style={{ display: 'grid', gridTemplateColumns: '60px 1fr 200px 80px', padding: '16px 24px', borderBottom: i < BLOG_YAZILARI.length - 1 ? '1px solid #f5f5f5' : 'none', alignItems: 'center', textDecoration: 'none', transition: 'background 0.15s' }}
                   onMouseEnter={e => e.currentTarget.style.background = '#faf9f7'}
                   onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
                 >
@@ -412,7 +772,46 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* ARAÇLAR BANDI */}
+        {/* ── FAQ ── */}
+        <section style={{ padding: '72px 40px', background: '#faf9f7', borderTop: '1px solid #ede8e0' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'grid', gridTemplateColumns: '340px 1fr', gap: '60px', alignItems: 'start' }}>
+            <div>
+              <div style={{ display: 'inline-flex', alignItems: 'center', padding: '5px 14px', borderRadius: '20px', border: '1px solid #ede8e0', background: '#fff', fontSize: '12px', color: '#888', fontWeight: 600, marginBottom: '14px' }}>
+                FAQ
+              </div>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>
+                {isEn ? 'Frequently asked questions' : 'Sık sorulan sorular'}
+              </h2>
+              <p style={{ fontSize: '14px', color: '#888', lineHeight: 1.7, marginBottom: '24px' }}>
+                {isEn ? 'Can\'t find what you\'re looking for? Reach out directly.' : 'Aradığınızı bulamadınız mı? Doğrudan iletişime geçin.'}
+              </p>
+              <Link href={isEn ? '/en/contact' : '/sss'} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '10px 20px', borderRadius: '8px', border: '1px solid #ddd', color: '#555', fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-body)', background: '#fff' }}>
+                {isEn ? 'All FAQs →' : 'Tüm SSS →'}
+              </Link>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+              {faqlar.map((f, i) => (
+                <div key={i} style={{ borderBottom: i < faqlar.length - 1 ? '1px solid #eee' : 'none' }}>
+                  <button onClick={() => setAcikFaq(acikFaq === i ? null : i)} style={{
+                    width: '100%', padding: '20px 0', background: 'none', border: 'none', cursor: 'pointer',
+                    display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px',
+                    textAlign: 'left', fontFamily: 'var(--font-body)',
+                  }}>
+                    <span style={{ fontSize: '15px', fontWeight: 700, color: '#111', lineHeight: 1.4 }}>{f.soru}</span>
+                    <span style={{ fontSize: '20px', color: acikFaq === i ? 'var(--orange)' : '#aaa', flexShrink: 0, transition: 'transform 0.2s', transform: acikFaq === i ? 'rotate(45deg)' : 'rotate(0deg)' }}>+</span>
+                  </button>
+                  {acikFaq === i && (
+                    <div style={{ paddingBottom: '20px', fontSize: '14px', color: '#666', lineHeight: 1.75, animation: 'fadeIn 0.2s ease' }}>
+                      {f.cevap}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── ARAÇLAR BANDI ── */}
         <section style={{ padding: '48px 40px', background: '#111' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', background: '#161616', borderRadius: '16px', padding: '32px 36px' }}>
             <div style={{ marginBottom: '24px' }}>
@@ -432,7 +831,7 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* CTA */}
+        {/* ── CTA ── */}
         <section style={{ padding: '96px 40px', background: '#faf9f7', borderTop: '1px solid #ede8e0', textAlign: 'center' }}>
           <div style={{ maxWidth: '560px', margin: '0 auto' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 44px)', fontWeight: 800, color: '#111', marginBottom: '16px', lineHeight: 1.2 }}>
@@ -442,7 +841,7 @@ export default function Page(props) {
               {isEn ? 'I evaluate your goals and create a custom SEO & GEO roadmap. Completely free.' : 'Hedeflerinizi değerlendirip size özel SEO ve GEO yol haritası oluşturuyorum. Tamamen ücretsiz.'}
             </p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link href="/iletisim" style={{ padding: '15px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
+              <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ padding: '15px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
                 {isEn ? 'Get in Touch →' : 'İletişime Geç →'}
               </Link>
               <Link href="/randevu" style={{ padding: '15px 32px', background: '#fff', color: '#333', border: '1px solid #ddd', borderRadius: '8px', fontWeight: 600, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
@@ -456,12 +855,65 @@ export default function Page(props) {
 
       <style>{`
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
         @media (max-width: 768px) {
-          section { padding-left: 16px !important; padding-right: 16px !important; }
-          section > div { grid-template-columns: 1fr !important; gap: 32px !important; }
+          section { padding-left: 20px !important; padding-right: 20px !important; }
+
+          /* Hero */
+          section:first-of-type > div { grid-template-columns: 1fr !important; }
+          section:first-of-type > div > div:last-child { display: none; }
+
+          /* Sayaç */
+          .sayac-grid { grid-template-columns: repeat(2, 1fr) !important; }
+
+          /* Genel grid'ler 1 kolona */
+          section > div > div[style*="grid-template-columns: 1fr 1fr"],
+          section > div > div[style*="grid-template-columns: 1.2fr"],
+          section > div > div[style*="grid-template-columns: 300px"],
+          section > div > div[style*="grid-template-columns: 340px"],
+          section > div > div[style*="grid-template-columns: repeat(3"],
+          section > div > div[style*="grid-template-columns: repeat(4"] {
+            grid-template-columns: 1fr !important;
+            gap: 24px !important;
+          }
+
+          /* Müşteri grid 2 kolon */
+          section > div > div[style*="gridTemplateColumns: repeat(5"] {
+            grid-template-columns: repeat(2, 1fr) !important;
+          }
+
+          /* Süreç adımları */
+          section > div > div[style*="repeat(4, 1fr)"] { grid-template-columns: repeat(2, 1fr) !important; }
+          section > div > div[style*="repeat(4, 1fr)"] > div:nth-child(odd)::after { display: none; }
+
+          /* Blog tablo */
+          a[style*="gridTemplateColumns: 60px 1fr 200px 80px"] {
+            grid-template-columns: 40px 1fr !important;
+          }
+          a[style*="gridTemplateColumns: 60px 1fr 200px 80px"] > span:nth-child(3),
+          a[style*="gridTemplateColumns: 60px 1fr 200px 80px"] > span:nth-child(4) { display: none; }
+
+          /* Vaka çalışmaları bağlantı çizgisi */
+          div[style*="position: absolute; top: 44px"] { display: none; }
         }
       `}</style>
     </>
+  )
+}
+
+// ── Sayaç kartı bileşeni ──
+function CounterCard({ item, started, isEn }) {
+  const count = useCounter(item.sayi, 1800, started)
+  return (
+    <div style={{ background: '#111', padding: '36px 28px', textAlign: 'center' }}>
+      <div style={{ fontSize: '32px', marginBottom: '8px' }}>{item.ikon}</div>
+      <div style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 3.5vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1, marginBottom: '6px' }}>
+        <span style={{ color: item.renk }}>{count}</span>{item.suffix}
+      </div>
+      <div style={{ fontSize: '13px', fontWeight: 700, color: '#fff', marginBottom: '4px' }}>{item.label}</div>
+      <div style={{ fontSize: '11px', color: '#555' }}>{item.alt}</div>
+    </div>
   )
 }
 
