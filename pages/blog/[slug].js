@@ -84,7 +84,7 @@ export default function BlogPost(props) {
   const bolumler = veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : getDefaultContent(slug || '', isEn).bolumler
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
-  const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}blog/${slug}`
+  const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
 
   useEffect(() => {
     if (isMobile) return
