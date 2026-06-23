@@ -250,9 +250,11 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image" content="https://fatihemincakiroglu.com/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://fatihemincakiroglu.com/og-image.jpg" />
-        {/* GA4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');` }} />
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="AN9Hgw1XodseTVx-GX5u_0CXwRxQPaoXmhsnfXX3-QA" />
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WZBHKP34SD');` }} />
       </Head>
       <ReadingProgress />
       <Navbar dark={dark} toggleDark={toggleDark} onSearchOpen={() => setSearchOpen(true)} isEn={isEn} />
