@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 const HIZMET_TABS = {
@@ -54,8 +54,37 @@ export default function Page(props) {
 
   const [aktifTab, setAktifTab] = useState('seo')
   const [domain, setDomain] = useState('')
+  const [rotIdx, setRotIdx] = useState(0)
+  const [fade, setFade] = useState(true)
   const tabs = isEn ? HIZMET_TABS.en : HIZMET_TABS.tr
   const aktif = tabs.find(t => t.id === aktifTab) || tabs[0]
+
+  const ROTATE_ITEMS_TR = [
+    'en iyi seo danışmanı türkiye',
+    'fatihemincakiroglu.com',
+    'geo optimizasyonu nedir',
+    'organik trafik nasıl artırılır',
+    'teknik seo danışmanlığı',
+  ]
+  const ROTATE_ITEMS_EN = [
+    'best seo consultant turkey',
+    'fatihemincakiroglu.com',
+    'what is geo optimization',
+    'how to increase organic traffic',
+    'technical seo consulting',
+  ]
+
+  useEffect(() => {
+    const items = isEn ? ROTATE_ITEMS_EN : ROTATE_ITEMS_TR
+    const interval = setInterval(() => {
+      setFade(false)
+      setTimeout(() => {
+        setRotIdx(i => (i + 1) % items.length)
+        setFade(true)
+      }, 300)
+    }, 2800)
+    return () => clearInterval(interval)
+  }, [isEn])
 
   return (
     <>
