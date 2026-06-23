@@ -63,7 +63,7 @@ const getMenu = (isEn, u) => isEn ? [
   { label:'Blog', url:u.blog, altlar:[] },
 ]
 
-export default function Navbar() {
+export default function Navbar({ dark, toggleDark, onSearchOpen }) {
   const router = useRouter()
   const isEn = router.pathname.startsWith('/en')
   const u = isEn ? URLS_EN : URLS_TR
@@ -96,7 +96,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav ref={navRef} style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'#fff', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)' }}>
+      <nav ref={navRef} style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)' }}>
         <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', width:'100%', display:'flex', alignItems:'center' }}>
           <Link href={u.home} onClick={() => { setAcik(null); setMobil(false) }} style={{ display:'flex', alignItems:'center', marginRight:'28px', flexShrink:0 }}>
             <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height:'32px' }} />
@@ -136,16 +136,26 @@ export default function Navbar() {
           </div>
 
           <div className="desktop-nav" style={{ display:'flex', alignItems:'center', gap:'6px', flexShrink:0 }}>
-            <Link href={trPath} style={{ padding:'5px 10px', borderRadius:'6px', fontSize:'12px', fontWeight:700, background:!isEn?'var(--orange)':'transparent', color:!isEn?'#fff':'#aaa', border:!isEn?'none':'1px solid #eee', fontFamily:'var(--font-body)' }}>TR</Link>
-            <Link href={enPath} style={{ padding:'5px 10px', borderRadius:'6px', fontSize:'12px', fontWeight:700, background:isEn?'var(--orange)':'transparent', color:isEn?'#fff':'#aaa', border:isEn?'none':'1px solid #eee', fontFamily:'var(--font-body)', marginRight:'6px' }}>EN</Link>
+            {/* Search */}
+            <button onClick={onSearchOpen} title="⌘K" style={{ padding:'7px 10px', borderRadius:'8px', border:'1px solid #eee', background:'transparent', cursor:'pointer', fontSize:'13px', color:'#aaa', fontFamily:'var(--font-body)', display:'flex', alignItems:'center', gap:'6px' }}>
+              🔍 <span style={{ fontSize:'11px', opacity:0.6 }}>⌘K</span>
+            </button>
+            {/* Dark mode */}
+            <button onClick={toggleDark} title={dark ? 'Light mode' : 'Dark mode'} style={{ width:'34px', height:'34px', borderRadius:'8px', border:'1px solid #eee', background:'transparent', cursor:'pointer', fontSize:'16px', display:'flex', alignItems:'center', justifyContent:'center' }}>
+              {dark ? '☀️' : '🌙'}
+            </button>
+            <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(trPath) }} style={{ padding:'5px 10px', borderRadius:'6px', fontSize:'12px', fontWeight:700, background:!isEn?'var(--orange)':'transparent', color:!isEn?'#fff':'#aaa', border:!isEn?'none':'1px solid #eee', fontFamily:'var(--font-body)', cursor:'pointer' }}>TR</button>
+            <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(enPath) }} style={{ padding:'5px 10px', borderRadius:'6px', fontSize:'12px', fontWeight:700, background:isEn?'var(--orange)':'transparent', color:isEn?'#fff':'#aaa', border:isEn?'none':'1px solid #eee', fontFamily:'var(--font-body)', marginRight:'4px', cursor:'pointer' }}>EN</button>
             <Link href={u.iletisim} onClick={() => setAcik(null)} style={{ padding:'9px 20px', borderRadius:'8px', background:'var(--orange)', color:'#fff', fontSize:'14px', fontWeight:600, fontFamily:'var(--font-body)' }}>
               {isEn ? 'Contact' : 'İletişim'}
             </Link>
           </div>
 
           <div className="mobile-nav" style={{ display:'none', alignItems:'center', gap:'6px', marginLeft:'auto' }}>
-            <Link href={trPath} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:!isEn?'var(--orange)':'#f0f0f0', color:!isEn?'#fff':'#555' }}>TR</Link>
-            <Link href={enPath} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:isEn?'var(--orange)':'#f0f0f0', color:isEn?'#fff':'#555' }}>EN</Link>
+            <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(trPath); setMobil(false) }} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:!isEn?'var(--orange)':'#f0f0f0', color:!isEn?'#fff':'#555', border:'none', cursor:'pointer', fontFamily:'var(--font-body)' }}>TR</button>
+            <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(enPath); setMobil(false) }} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:isEn?'var(--orange)':'#f0f0f0', color:isEn?'#fff':'#555', border:'none', cursor:'pointer', fontFamily:'var(--font-body)' }}>EN</button>
+            <button onClick={onSearchOpen} style={{ width:'36px', height:'36px', borderRadius:'8px', border:'1px solid #eee', background:'transparent', cursor:'pointer', fontSize:'15px', display:'flex', alignItems:'center', justifyContent:'center' }}>🔍</button>
+            <button onClick={toggleDark} style={{ width:'36px', height:'36px', borderRadius:'8px', border:'1px solid #eee', background:'transparent', cursor:'pointer', fontSize:'15px', display:'flex', alignItems:'center', justifyContent:'center' }}>{dark ? '☀️' : '🌙'}</button>
             <Link href={u.iletisim} onClick={() => setMobil(false)} style={{ padding:'7px 14px', borderRadius:'8px', background:'var(--orange)', color:'#fff', fontSize:'13px', fontWeight:600 }}>{isEn?'Contact':'İletişim'}</Link>
             <button onClick={() => setMobil(!mobil)} style={{ background:'none', border:'none', cursor:'pointer', padding:'6px', display:'flex', flexDirection:'column', gap:'5px' }}>
               <span style={{ display:'block', width:'22px', height:'2px', background:'#333', borderRadius:'2px', transition:'all 0.2s', transform:mobil?'rotate(45deg) translate(5px, 5px)':'none' }} />
