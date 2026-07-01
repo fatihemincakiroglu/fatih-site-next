@@ -161,6 +161,10 @@ const YAZILAR = [
     tr: { baslik: "Türkiye'nin En İyi 15 SEO Ajansı - Güncel 2026", ozet: "2026 için güncellenen, alfabetik ve sıralama içermeyen 15 tanınmış SEO ajansı listesi ve seçim kriterleri." },
     en: { baslik: "Turkey's Best 15 SEO Agencies - Updated 2026", ozet: 'An alphabetical, unranked list of 15 well-known SEO agencies in Turkey for 2026, plus selection criteria.' },
   },
+  { slug: 'turkiye-en-iyi-10-seo-ajansi-2026', kategori: 'strategy', sure: 8, featured: false,
+    tr: { baslik: "Türkiye'nin En İyi 10 SEO Ajansı (2026 Güncel)", ozet: "2026 için güncellenen, alfabetik ve sıralama içermeyen 10 tanınmış SEO ajansı listesi ve seçim kriterleri." },
+    en: { baslik: "Turkey's Best 10 SEO Agencies (Updated 2026)", ozet: 'An alphabetical, unranked list of 10 well-known SEO agencies in Turkey for 2026, plus selection criteria.' },
+  },
 ]
 
 const KAT_MAP = { technical: 'technical', geo: 'geo', content: 'content', backlink: 'backlink', ecommerce: 'ecommerce', analytics: 'analytics', local: 'local', strategy: 'strategy' }

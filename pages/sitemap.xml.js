@@ -75,7 +75,7 @@ const BLOG_SLUGS = [
   'yerel-seo-rehberi','google-business-profile','nap-tutarliligi',
   'seo-strateji-haritasi','rakip-analizi-seo','seo-yatirim-donusu',
   'backlink-stratejisi-2025-2','dijital-pr-seo-2','seo-ajansi-nasil-secilir',
-  'turkiye-en-iyi-15-seo-ajansi-2026',
+  'turkiye-en-iyi-15-seo-ajansi-2026','turkiye-en-iyi-10-seo-ajansi-2026',
 ]
 
 // ── REHBER SLUGS ──────────────────────────────────────────

@@ -142,7 +142,7 @@ const ICERIKLER = {
         { isim: '14. Webtures', aciklama: "2011'de kurulan Webtures, 'kullanıcı merkezli SEO' anlayışıyla tanınıyor; kendi geliştirdiği SEO analiz araçlarını kullanarak dönüşüm oranı optimizasyonuna da odaklanıyor.", url: 'https://www.webtures.com' },
         { isim: '15. ZEO', aciklama: "2012'de kurulan ZEO, gelişmiş crawling, log analizi ve yapısal veri (schema) uygulamalarıyla tanınıyor; düzenlediği Digitalzone etkinliğiyle sektöre bilgi paylaşıyor.", url: 'https://zeo.org' },
       ]},
-      { baslik: 'Sonuç', paragraflar: [
+      { baslik: 'Hangi Ajans Size Uygun?', paragraflar: [
         "Bu derleme bir performans karşılaştırması değildir; sektördeki tanınmış isimleri bir araya getiren bilgilendirici bir kaynaktır. Her ajansın odaklandığı alan farklı olduğu için, işletmenizin büyüklüğüne, sektörüne ve hedeflerine en uygun ortağı belirlemek size kalıyor.",
         "Karar vermeden önce birden fazla ajansla görüşmenizi, teklif edilen stratejiyi somut örneklerle desteklemelerini istemenizi ve sözleşme şartlarını dikkatle incelemenizi öneririz.",
       ]},
@@ -175,9 +175,72 @@ const ICERIKLER = {
         { isim: '14. Webtures', aciklama: "Founded in 2011, Webtures is known for its 'user-centric SEO' philosophy, using its own in-house SEO analysis tools while also focusing on conversion rate optimization.", url: 'https://www.webtures.com' },
         { isim: '15. ZEO', aciklama: 'Founded in 2012, ZEO is known for advanced crawling, log file analysis and structured data (schema) implementations, and shares industry knowledge through its Digitalzone event.', url: 'https://zeo.org' },
       ]},
-      { baslik: 'Conclusion', paragraflar: [
+      { baslik: 'Which Agency Is Right for You?', paragraflar: [
         "This roundup isn't a performance comparison — it's an informational resource bringing together recognized names in the industry. Since each agency focuses on different strengths, choosing the right partner depends on your business size, sector and goals.",
         "Before deciding, we'd recommend talking to more than one agency, asking them to back their proposed strategy with concrete examples, and reviewing contract terms carefully.",
+      ]},
+    ],
+  },
+  'turkiye-en-iyi-10-seo-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 10 SEO Ajansı (2026 Güncel)",
+    baslik_en: "Turkey's Best 10 SEO Agencies (Updated 2026)",
+    meta_desc_tr: "Türkiye'de tanınan 10 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
+    meta_desc_en: "An alphabetical, unranked overview of 10 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
+    etiket: 'Strateji', sure: '8',
+    bolumler_tr: [
+      { baslik: "SEO Ajansı Arayışı Türkiye'de Neden Yaygınlaşıyor?", paragraflar: [
+        "Google'da görünür olmak, artık pek çok işletme için satışların doğrudan bağlı olduğu bir kanal haline geldi. Bununla birlikte SEO'nun teknik derinliği ve zaman gerektirmesi, markaları bu süreci kendi içlerinde değil, uzmanlaşmış bir ekiple yürütmeye yönlendiriyor.",
+        "Bu ihtiyaç, Türkiye'de farklı büyüklükte ve uzmanlık alanında onlarca SEO ajansının ortaya çıkmasına neden oldu. Aşağıda, kamuya açık bilgilerden derlediğimiz 10 tanınmış ismi tanıtıyoruz.",
+      ]},
+      { baslik: 'Bu Liste Nasıl Hazırlandı?', paragraflar: [
+        "Bu içerikteki 'en iyi' ifadesi, ölçülmüş bir performans karşılaştırmasına değil; sektörde bilinen ve kamuya açık bilgilerle tanımlanabilen ajanslara işaret eder. Liste alfabetik sıradadır; numaralar sadece referans amaçlıdır, herhangi bir sıralama veya öneri anlamı taşımaz.",
+        "Bu içerik sponsorlu değildir ve listelenen ajanslarla herhangi bir ticari ilişkimiz bulunmamaktadır. Kendi değerlendirmenizi yaparken 'SEO Ajansı Nasıl Seçilir?' başlıklı rehberimizdeki kriterlere başvurmanızı öneririz.",
+      ]},
+      { baslik: 'Türkiye\'de Tanınan 10 SEO Ajansı (Alfabetik)', paragraflar: [
+        "Sıra numaraları yalnızca listeyi takip etmenizi kolaylaştırmak içindir, bir sıralama ifade etmez.",
+      ], linkler: [
+        { isim: '1. Adverpeak', aciklama: "İstanbul (Maltepe) merkezli Adverpeak; SEO, Google Ads, sosyal medya ve web tasarımını bir arada sunuyor. Sağlık turizmi, eğitim, otomotiv, gayrimenkul ve B2B gibi sektörlerde referansları bulunuyor; çok dilli ve çok lokasyonlu SEO projelerinde deneyimli.", url: 'https://www.adverpeak.com' },
+        { isim: '2. Cremicro', aciklama: "Türkiye'nin köklü SEO ajanslarından biri olan Cremicro, çok dilli ekibiyle uluslararası projelere danışmanlık veriyor; standart web sitelerinin yanı sıra özel altyapılı projelerde de süreç yönetiyor.", url: 'https://www.cremicro.com' },
+        { isim: '3. Digipeak Agency', aciklama: "Digipeak Agency, SEO'yu yalnızca sıralama değil; marka bilinirliği, organik trafik kalitesi ve dönüşüm performansı ekseninde ele alıyor. Teknik SEO, içerik planlaması ve on-page optimizasyonunu bir araya getiriyor." },
+        { isim: '4. Mosanta', aciklama: "Performans odaklı SEO stratejileriyle hem teknik altyapı hem de içerik tarafında projeler yürüten, genç ama etkili bir ekip yapısına sahip İstanbul merkezli bir ajans.", url: 'https://www.mosanta.com' },
+        { isim: '5. Netvent', aciklama: "Ankara merkezli Netvent; kurumsal içerik yönetimi, inbound pazarlama ve SEO'yu birleştiriyor. Özellikle SaaS ve endüstriyel firmalarda B2B alanında çalışıyor." },
+        { isim: '6. ROIBLE', aciklama: "İstanbul merkezli ROIBLE, dönüşüm oranı optimizasyonu ve içerik tabanlı SEO çalışmalarında yükselişte olan ajanslardan biri." },
+        { isim: '7. Sıradışı Digital', aciklama: "İstanbul, Eskişehir ve Ankara'da faaliyet gösteren Sıradışı Digital; SEO'nun yanı sıra web tasarımı, marka kimliği geliştirme ve dijital strateji sunuyor. Özellikle tasarım ve UI/UX çalışmalarıyla öne çıkıyor." },
+        { isim: '8. Türk SEM', aciklama: "1999'da ilk dijital çalışmalarına başlayan Türk SEM, İstanbul merkezli olarak SEO ve Google Ads alanında uzun yıllardır hizmet veriyor; mühendis ekibiyle akademik dünyaya yakın çalışmalar yürütüyor." },
+        { isim: '9. Webonya', aciklama: "İstanbul merkezli Webonya; SEO projelerinde teknik analiz, içerik geliştirme ve kullanıcı deneyimini bir arada ele alıyor, ölçülebilir sonuçlara odaklanıyor." },
+        { isim: '10. Webtures', aciklama: "SEO denildiğinde Türkiye'de akla gelen ilk isimlerden biri olan Webtures; kullanıcı deneyimi, içerik optimizasyonu ve dönüşüm oranı artırımında uzman, kendi SEO analiz araçlarını geliştiren İstanbul merkezli bir ajans.", url: 'https://www.webtures.com' },
+      ]},
+      { baslik: 'Hangi Ajans Size Uygun?', paragraflar: [
+        "Bu derleme bir performans karşılaştırması değildir; sektördeki tanınmış isimleri bir araya getiren bilgilendirici bir kaynaktır. Doğru ortak, işletmenizin sektörüne, bütçesine ve büyüklüğüne göre değişir.",
+        "Karar vermeden önce birden fazla ajansla görüşmenizi, referanslarını doğrulamanızı ve teklif edilen stratejinin somut örneklerle desteklenip desteklenmediğini değerlendirmenizi öneririz.",
+      ]},
+    ],
+    bolumler_en: [
+      { baslik: 'Why Is the Search for an SEO Agency Growing in Turkey?', paragraflar: [
+        "Being visible on Google has become a channel that sales depend on directly for many businesses. At the same time, the technical depth and time SEO requires pushes brands toward running the process with a specialized team rather than entirely in-house.",
+        "This need has led to dozens of SEO agencies of different sizes and specializations emerging in Turkey. Below, we introduce 10 well-known names compiled from publicly available information.",
+      ]},
+      { baslik: 'How This List Was Put Together', paragraflar: [
+        "The term 'best' in this piece doesn't refer to a measured performance comparison — it refers to agencies that are known in the industry and identifiable through public information. The list is alphabetical; the numbers are for reference only and carry no ranking or recommendation.",
+        "This content isn't sponsored, and we have no commercial relationship with any of the agencies listed. For your own evaluation, we'd recommend using the criteria from our guide, 'How to Choose an SEO Agency.'",
+      ]},
+      { baslik: '10 Well-Known SEO Agencies in Turkey (Alphabetical)', paragraflar: [
+        "The numbers below are only there to help you follow the list — they don't represent a ranking.",
+      ], linkler: [
+        { isim: '1. Adverpeak', aciklama: 'Based in Istanbul (Maltepe), Adverpeak offers SEO, Google Ads, social media and web design together, with references in sectors like health tourism, education, automotive, real estate and B2B, and experience running multilingual, multi-location SEO projects.', url: 'https://www.adverpeak.com' },
+        { isim: '2. Cremicro', aciklama: "One of Turkey's more established SEO agencies, Cremicro advises on international projects with its multilingual team and manages custom processes for non-standard technical setups.", url: 'https://www.cremicro.com' },
+        { isim: '3. Digipeak Agency', aciklama: "Digipeak Agency approaches SEO not just as a ranking exercise but around brand awareness, organic traffic quality and conversion performance, bringing together technical SEO, content planning and on-page optimization." },
+        { isim: '4. Mosanta', aciklama: 'An Istanbul-based agency running performance-focused SEO strategies on both the technical and content side, with a young but effective team structure.', url: 'https://www.mosanta.com' },
+        { isim: '5. Netvent', aciklama: 'Based in Ankara, Netvent combines corporate content management, inbound marketing and SEO, working particularly in the B2B space for SaaS and industrial companies.' },
+        { isim: '6. ROIBLE', aciklama: 'An Istanbul-based agency on the rise in conversion rate optimization and content-driven SEO work.' },
+        { isim: '7. Sıradışı Digital', aciklama: 'Operating in Istanbul, Eskişehir and Ankara, Sıradışı Digital offers web design, brand identity development and digital strategy alongside SEO, standing out especially for its design and UI/UX work.' },
+        { isim: '8. Türk SEM', aciklama: 'Having started its first digital work in 1999, Istanbul-based Türk SEM has provided SEO and Google Ads services for many years, running work closely tied to academia through its engineering team.' },
+        { isim: '9. Webonya', aciklama: 'An Istanbul-based agency that combines technical analysis, content development and user experience in its SEO projects, with a focus on measurable results.' },
+        { isim: '10. Webtures', aciklama: 'One of the first names that comes to mind for SEO in Turkey, Webtures is an Istanbul-based agency expert in user experience, content optimization and conversion rate improvement, with its own in-house SEO analysis tools.', url: 'https://www.webtures.com' },
+      ]},
+      { baslik: 'Which Agency Is Right for You?', paragraflar: [
+        "This roundup isn't a performance comparison — it's an informational resource bringing together recognized names in the industry. The right partner depends on your business's sector, budget and size.",
+        "Before deciding, we'd recommend speaking with more than one agency, verifying their references, and evaluating whether their proposed strategy is actually backed by concrete examples.",
       ]},
     ],
   },
