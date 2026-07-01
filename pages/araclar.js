@@ -406,7 +406,7 @@ export default function Page() {
     <>
       <Head>
         <title>{router.pathname.startsWith('/en') ? 'Free SEO Tools | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.pathname.startsWith('/en') ? 'Free SEO tools: Meta tag analysis, keyword research and more. No registration required.' : 'Ücretsiz SEO araçları: Meta tag analizi, anahtar kelime araştırması ve daha fazlası.'} />
+        <meta name="description" content={router.pathname.startsWith('/en') ? 'Free SEO tools: meta tag analysis, keyword research and more. No registration required — quickly analyze and improve your website in just a few clicks.' : 'Ücretsiz SEO araçları: meta tag analizi, anahtar kelime araştırması ve daha fazlası. Kayıt gerektirmeden sitenizi hızlıca analiz edip iyileştirin.'} />
         <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/tools' : 'https://fatihemincakiroglu.com/araclar'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/araclar" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/tools" />

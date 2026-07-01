@@ -6,7 +6,7 @@ export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
-    title: isEn ? 'Book a Call | Fatih Emin Çakıroğlu' : 'Randevu | Fatih Emin Çakıroğlu',
+    title: isEn ? 'Book a Free SEO Call | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Görüşmesi | Fatih Emin Çakıroğlu',
     h1: isEn ? 'Free Discovery Call' : 'Ücretsiz Keşif Görüşmesi',
     desc: isEn ? 'In 30 minutes, I evaluate your site and share a custom SEO & GEO roadmap.' : '30 dakikada sitenizi değerlendirip özel SEO & GEO yol haritanızı paylaşıyorum.',
     breadcrumb: isEn ? ['Home', 'Book a Call'] : ['Ana Sayfa', 'Randevu'],
@@ -21,7 +21,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'Book a free SEO discovery call. I evaluate your site and create a custom roadmap.' : 'Ücretsiz SEO keşif görüşmesi için randevu alın. Sitenizi değerlendirip özel yol haritası oluşturuyorum.'} />
+        <meta name="description" content={isEn ? "Book a free SEO discovery call today. I'll analyze your website and create a custom roadmap that reveals your organic growth opportunities and next steps." : 'Ücretsiz SEO keşif görüşmesi için hemen randevu alın. Sitenizi analiz edip organik büyüme fırsatlarını ortaya çıkaran özel bir yol haritası hazırlıyorum.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/book-a-call' : 'https://fatihemincakiroglu.com/randevu'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/randevu" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/book-a-call" />

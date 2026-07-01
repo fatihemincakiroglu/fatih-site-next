@@ -8,25 +8,6 @@ import Head from 'next/head'
 export const LocaleContext = createContext('tr')
 export function useLocale() { return useContext(LocaleContext) }
 
-// ── DARK MODE ──────────────────────────────────────────────
-function useDarkMode() {
-  const [dark, setDark] = useState(false)
-  useEffect(() => {
-    const saved = localStorage.getItem('theme')
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    const isDark = saved ? saved === 'dark' : prefersDark
-    setDark(isDark)
-    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light')
-  }, [])
-  const toggle = () => {
-    const next = !dark
-    setDark(next)
-    document.documentElement.setAttribute('data-theme', next ? 'dark' : 'light')
-    localStorage.setItem('theme', next ? 'dark' : 'light')
-  }
-  return [dark, toggle]
-}
-
 // ── GLOBAL SEARCH ──────────────────────────────────────────
 const SEARCH_INDEX = [
   { title: 'SEO Danışmanlığı', title_en: 'SEO Consulting', href: '/seo', href_en: '/en/seo-consulting', cat: 'Hizmet' },
@@ -215,7 +196,6 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
   const locale = router.pathname.startsWith('/en/') || router.pathname === '/en' ? 'en' : 'tr'
   const isEn = locale === 'en'
-  const [dark, toggleDark] = useDarkMode()
   const [searchOpen, setSearchOpen] = useState(false)
 
   // Keyboard shortcut: Cmd/Ctrl + K
@@ -257,7 +237,7 @@ export default function App({ Component, pageProps }) {
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WZBHKP34SD');` }} />
       </Head>
       <ReadingProgress />
-      <Navbar dark={dark} toggleDark={toggleDark} onSearchOpen={() => setSearchOpen(true)} isEn={isEn} />
+      <Navbar onSearchOpen={() => setSearchOpen(true)} isEn={isEn} />
       <main>
         <Component {...pageProps} />
       </main>

@@ -220,8 +220,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Backlink & Digital PR | Fatih Emin Çakıroğlu' : 'Backlink & Dijital PR | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Editorial backlink building and digital PR services for organic authority growth and Google rankings.' : 'Editoryal backlink inşası ve dijital PR hizmetleriyle organik otorite büyümesi ve Google sıralaması.'} />
+        <title>{isEn ? 'Backlink & Digital PR Services | Fatih Emin' : 'Backlink & Dijital PR Hizmetleri | Fatih Emin'}</title>
+        <meta name="description" content={isEn ? 'Editorial backlink building and digital PR services to strengthen your domain authority, boost organic visibility and earn lasting positions in Google rankings.' : 'Editoryal backlink inşası ve dijital PR hizmetleriyle domain otoritenizi güçlendirin, organik görünürlüğünüzü artırın ve Google sıralamalarında kalıcı yer kazanın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/backlink-digital-pr' : 'https://fatihemincakiroglu.com/backlink'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/backlink" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/backlink-digital-pr" />

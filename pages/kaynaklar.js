@@ -19,7 +19,7 @@ export default function Page(props) {
     { url: '/rehber', ikon: '🗺️', baslik: 'Rehberler', aciklama: 'Teknik SEO\'dan GEO\'ya tüm konuları kapsayan rehberler.', yeni: false },
   ]
   const t = {
-    title: isEn ? 'Resources | Fatih Emin Çakıroğlu' : 'Kaynaklar | Fatih Emin Çakıroğlu',
+    title: isEn ? 'SEO Resources | Fatih Emin Çakıroğlu' : 'SEO Kaynakları | Fatih Emin Çakıroğlu',
     badge: isEn ? 'RESOURCES' : 'KAYNAKLAR',
     h1: isEn ? 'SEO & GEO Resources' : 'SEO & GEO Kaynakları',
     desc: isEn ? 'Guides, glossaries and tools to improve your SEO and GEO knowledge.' : 'SEO ve GEO bilginizi geliştirmek için rehberler, sözlükler ve araçlar.',
@@ -31,7 +31,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'Useful resources, tools and guides for SEO and digital marketing.' : 'SEO ve dijital pazarlama için faydalı kaynaklar, araçlar ve rehberler.'} />
+        <meta name="description" content={isEn ? 'Useful resources, free tools and comprehensive guides for SEO and digital marketing. Discover content designed to support your organic growth journey.' : 'SEO ve dijital pazarlama için faydalı kaynaklar, ücretsiz araçlar ve kapsamlı rehberler. Organik büyüme yolculuğunuzda size destek olacak içerikleri keşfedin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/resources' : 'https://fatihemincakiroglu.com/kaynaklar'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/kaynaklar" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/resources" />

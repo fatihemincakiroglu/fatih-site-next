@@ -323,6 +323,7 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'SEO GUIDE',
+    title: 'Complete SEO Guide (2025) | Fatih Emin Çakıroğlu',
     h1: 'SEO Guide: Complete Search Engine Optimization Guide from Beginner to Expert (2025)',
     h1alt: 'What is SEO? Complete SEO Guide from Basics to Advanced',
     desc: 'A comprehensive guide covering everything about SEO: technical SEO, keyword research, content strategy, backlinks and more. Updated for 2025.',
@@ -335,6 +336,7 @@ export default function Page(props) {
     dk: 'min read',
   } : {
     badge: 'SEO REHBERİ',
+    title: 'Kapsamlı SEO Rehberi (2025) | Fatih Emin Çakıroğlu',
     h1: 'SEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Arama Motoru Optimizasyonu Kılavuzu (2025)',
     h1alt: 'SEO Nedir? Başlangıçtan İleri Seviyeye Eksiksiz SEO Rehberi',
     desc: 'SEO hakkında bilmeniz gereken her şeyi kapsayan kapsamlı rehber: teknik SEO, anahtar kelime araştırması, içerik stratejisi, backlinkler ve daha fazlası. 2025 güncellenmiş.',
@@ -352,7 +354,7 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{t.h1} | Fatih Emin Çakıroğlu</title>
+        <title>{t.title}</title>
         <meta name="description" content={t.desc} />
         <link rel="canonical" href={canonical} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo-rehberi" />

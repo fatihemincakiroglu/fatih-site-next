@@ -45,7 +45,7 @@ export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
-    title: isEn ? 'Testimonials | Fatih Emin Çakıroğlu' : 'Referanslar | Fatih Emin Çakıroğlu',
+    title: isEn ? 'Client Testimonials | Fatih Emin Çakıroğlu' : 'Müşteri Referansları | Fatih Emin Çakıroğlu',
     badge: isEn ? 'TESTIMONIALS' : 'REFERANSLAR',
     h1a: isEn ? 'Client' : 'Müşterilerin',
     h1b: isEn ? 'Experiences' : 'deneyimleri',
@@ -61,7 +61,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'Real testimonials from 150+ businesses. Measurable organic growth results.' : '150+ işletmeden gerçek referanslar. Ölçülebilir organik büyüme sonuçları.'} />
+        <meta name="description" content={isEn ? "Real testimonials from 150+ businesses and measurable organic growth results. Discover our clients' experiences with SEO and GEO consulting services." : "150'den fazla işletmeden gerçek referanslar ve ölçülebilir organik büyüme sonuçları. Müşterilerimizin SEO ve GEO danışmanlığı deneyimlerini keşfedin."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/testimonials' : 'https://fatihemincakiroglu.com/referanslar'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/referanslar" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/testimonials" />

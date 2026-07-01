@@ -229,8 +229,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Fatih Emin Çakıroğlu | SEO & GEO Consulting' : 'Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı'}</title>
-        <meta name="description" content={isEn ? "With 8+ years of experience, I've grown the search visibility of 150+ businesses. SEO, GEO and digital marketing consulting." : "8+ yıllık deneyimle 150+ işletmenin organik büyümesini hızlandırdım. SEO, GEO ve dijital pazarlama danışmanlığı."} />
+        <title>{isEn ? 'Fatih Emin Çakıroğlu | SEO & GEO Consultant' : 'Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı'}</title>
+        <meta name="description" content={isEn ? "8+ years of experience growing organic traffic for 150+ businesses. SEO, GEO and digital marketing consulting to boost visibility on Google and AI search." : "8+ yıllık deneyimle 150+ işletmenin organik trafiğini büyüttüm. SEO, GEO ve dijital pazarlama danışmanlığıyla Google ve AI aramalarında görünürlük kazanın."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en' : 'https://fatihemincakiroglu.com'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en" />

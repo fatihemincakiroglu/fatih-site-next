@@ -19,7 +19,7 @@ export default function Page(props) {
     { url: '/performans', ikon: '📈', baslik: 'Performans & Growth', aciklama: 'Ölçümlenebilir trafik ve gelir artışı.' },
   ]
   const t = {
-    title: isEn ? 'SEO Services | Fatih Emin Çakıroğlu' : 'SEO Hizmetleri | Fatih Emin Çakıroğlu',
+    title: isEn ? 'SEO & Digital Marketing Services | Fatih Emin' : 'SEO ve Dijital Pazarlama Hizmetleri | Fatih Emin',
     badge: isEn ? 'SERVICES' : 'HİZMETLER',
     h1a: isEn ? 'SEO, GEO and organic growth' : 'SEO, GEO ve organik büyüme',
     h1b: isEn ? 'consulting services' : 'danışmanlık hizmetleri',
@@ -34,7 +34,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'SEO consulting, GEO, content strategy, backlink and performance optimization services.' : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink ve performans optimizasyonu hizmetleri.'} />
+        <meta name="description" content={isEn ? "SEO consulting, GEO, content strategy, backlink building and performance marketing optimization services to accelerate your business's organic growth." : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink inşası ve performans pazarlama optimizasyonu hizmetleriyle işletmenizin organik büyümesini hızlandırıyorum.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/services' : 'https://fatihemincakiroglu.com/hizmetler'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hizmetler" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/services" />

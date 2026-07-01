@@ -163,7 +163,7 @@ export default function Page(props) {
   const toggle = (key) => setAciklar(prev => ({ ...prev, [key]: !prev[key] }))
 
   const t = {
-    title: isEn ? 'FAQ | Fatih Emin Çakıroğlu' : 'SSS | Fatih Emin Çakıroğlu',
+    title: isEn ? 'Frequently Asked Questions | Fatih Emin' : 'Sıkça Sorulan Sorular | Fatih Emin Çakıroğlu',
     badge: isEn ? 'SSS' : 'SSS',
     h1: isEn ? 'Frequently Asked Questions' : 'Sıkça sorulan sorular',
     desc: isEn
@@ -179,7 +179,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? `${SORULAR_EN.length}+ frequently asked questions about SEO, GEO and AI search consulting.` : `${SORULAR_TR.length}+ soru-cevap: SEO, GEO ve AI arama danışmanlığı hakkında her şey.`} />
+        <meta name="description" content={isEn ? `${SORULAR_EN.length}+ frequently asked questions about SEO, GEO and AI search consulting, pricing, timelines and how the collaboration process works from start to finish.` : `${SORULAR_TR.length}+ soru-cevap: SEO, GEO ve AI arama danışmanlığı, fiyatlandırma, süreçler ve iş birliğinin nasıl işlediği hakkında bilmeniz gereken her şey burada.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/faq' : 'https://fatihemincakiroglu.com/sss'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/sss" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/faq" />

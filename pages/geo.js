@@ -177,8 +177,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'GEO Consulting | Fatih Emin Çakıroğlu' : 'GEO Danışmanlığı | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Generative Engine Optimization: appear as a cited source in ChatGPT, Perplexity and Google AI Overview.' : 'Generative Engine Optimization: ChatGPT, Perplexity ve Google AI Overview\'da kaynak olarak görünün.'} />
+        <title>{isEn ? 'GEO Consulting | AI Search Optimization' : 'GEO Danışmanlığı | AI Arama Optimizasyonu'}</title>
+        <meta name="description" content={isEn ? "Generative Engine Optimization to appear as a cited source in ChatGPT, Perplexity and Google AI Overview. Prepare your brand for the future of AI-driven search." : "Generative Engine Optimization ile ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünün. Markanızı yapay zekâ aramalarının geleceğine hazırlayın."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo-consulting' : 'https://fatihemincakiroglu.com/geo'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo-consulting" />

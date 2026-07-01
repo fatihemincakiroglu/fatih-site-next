@@ -324,6 +324,7 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'GEO GUIDE',
+    title: 'Complete GEO Guide (2025) | Fatih Emin Çakıroğlu',
     h1: 'GEO Guide: Complete Generative Engine Optimization Guide from Beginner to Expert (2025)',
     h1alt: 'What is GEO? Complete Guide: How to Appear in ChatGPT, Perplexity and Google AI Overview',
     desc: 'Everything you need to know about GEO: how AI search engines work, content strategy, technical optimization and platform-specific tactics. Updated for 2025.',
@@ -334,6 +335,7 @@ export default function Page(props) {
     cta_btn: 'Book a Free Call →',
   } : {
     badge: 'GEO REHBERİ',
+    title: 'Kapsamlı GEO Rehberi (2025) | Fatih Emin Çakıroğlu',
     h1: 'GEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Generative Engine Optimization Kılavuzu (2025)',
     h1alt: 'GEO Nedir? ChatGPT, Perplexity ve Google AI Overview\'da Nasıl Görünürsünüz?',
     desc: 'GEO hakkında bilmeniz gereken her şey: AI arama motorları nasıl çalışır, içerik stratejisi, teknik optimizasyon ve platform bazlı taktikler. 2025 güncellenmiş.',
@@ -349,7 +351,7 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{t.h1} | Fatih Emin Çakıroğlu</title>
+        <title>{t.title}</title>
         <meta name="description" content={t.desc} />
         <link rel="canonical" href={canonical} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo-rehberi" />

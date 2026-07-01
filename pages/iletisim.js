@@ -8,7 +8,7 @@ export default function Page(props) {
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '' })
   const t = {
-    title: isEn ? 'Contact | Fatih Emin Çakıroğlu' : 'İletişim | Fatih Emin Çakıroğlu',
+    title: isEn ? 'Contact | Fatih Emin Çakıroğlu SEO Consultant' : 'İletişim | Fatih Emin Çakıroğlu SEO Danışmanı',
     badge: isEn ? 'CONTACT' : 'İLETİŞİM',
     h1: isEn ? 'Get in Touch' : 'İletişime Geçin',
     desc: isEn ? 'Book a free SEO discovery call or send a message.' : 'Ücretsiz SEO keşif görüşmesi için randevu alın veya mesaj gönderin.',
@@ -33,7 +33,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'Get in touch with Fatih Emin Çakıroğlu. Book a free SEO consulting session.' : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO danışmanlığı için randevu alın.'} />
+        <meta name="description" content={isEn ? "Get in touch with Fatih Emin Çakıroğlu. Book a free SEO and GEO consulting session today to discover your website's organic growth potential and next steps." : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO ve GEO danışmanlığı görüşmesi için hemen randevu alın ve sitenizin organik büyüme potansiyelini öğrenin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/contact' : 'https://fatihemincakiroglu.com/iletisim'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/iletisim" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/contact" />

@@ -220,8 +220,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Performance Marketing & Growth | Fatih Emin Çakıroğlu' : 'Performans Pazarlama & Growth | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Performance marketing and growth consulting: Google Ads, Meta Ads, CRO, marketing automation for measurable ROI.' : 'Performans pazarlama ve growth danışmanlığı: Google Ads, Meta Ads, CRO, marketing automation ile ölçülebilir ROI.'} />
+        <title>{isEn ? 'Performance Marketing & Growth Consulting' : 'Performans Pazarlama & Growth Danışmanlığı'}</title>
+        <meta name="description" content={isEn ? 'Performance marketing and growth consulting: Google Ads, Meta Ads, CRO and marketing automation for measurable ROI and sustainable customer acquisition growth.' : 'Performans pazarlama ve growth danışmanlığı: Google Ads, Meta Ads, CRO ve marketing automation ile ölçülebilir ROI ve sürdürülebilir müşteri büyümesi sağlayın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/performance-growth' : 'https://fatihemincakiroglu.com/performans'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/performans" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/performance-growth" />

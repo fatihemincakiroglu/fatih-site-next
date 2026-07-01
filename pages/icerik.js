@@ -114,8 +114,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Content Strategy | Fatih Emin Çakıroğlu' : 'İçerik Stratejisi | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Data-driven content strategy: topical authority, E-E-A-T, pillar-cluster model and AI-ready content production.' : 'Veriye dayalı içerik stratejisi: topical authority, E-E-A-T, pillar-cluster modeli ve AI için optimize içerik üretimi.'} />
+        <title>{isEn ? 'Content Strategy Consulting | Fatih Emin' : 'İçerik Stratejisi Danışmanlığı | Fatih Emin'}</title>
+        <meta name="description" content={isEn ? 'Data-driven content strategy: topical authority, E-E-A-T signals, pillar-cluster modeling and AI-ready content production to grow your organic visibility.' : 'Veriye dayalı içerik stratejisi: topical authority, E-E-A-T sinyalleri, pillar-cluster modeli ve AI için optimize içerik üretimiyle organik görünürlüğünüzü artırın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/content-strategy' : 'https://fatihemincakiroglu.com/icerik'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/icerik" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/content-strategy" />

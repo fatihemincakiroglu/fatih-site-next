@@ -6,7 +6,7 @@ export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const t = {
-    title: isEn ? 'Pricing | Fatih Emin Çakıroğlu' : 'Fiyatlandırma | Fatih Emin Çakıroğlu',
+    title: isEn ? 'SEO Consulting Pricing | Fatih Emin Çakıroğlu' : 'SEO Danışmanlığı Fiyatları | Fatih Emin Çakıroğlu',
     badge: isEn ? 'PRICING' : 'FİYATLANDIRMA',
     h1: isEn ? 'Transparent Pricing' : 'Şeffaf Fiyatlandırma',
     desc: isEn ? 'Monthly retainer, project-based or one-time SEO audit options.' : 'Aylık retainer, proje bazlı veya tek seferlik SEO denetim seçenekleri.',
@@ -29,7 +29,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'SEO consulting packages and pricing. Monthly retainer, project-based and one-time audit options.' : 'SEO danışmanlık paketleri ve fiyatları. Aylık retainer, proje bazlı ve tek seferlik seçenekler.'} />
+        <meta name="description" content={isEn ? 'SEO consulting packages and pricing. Monthly retainer, project-based work and one-time technical SEO audit options to fit every budget and business need.' : 'SEO danışmanlık paketleri ve fiyatları. Aylık retainer, proje bazlı çalışma ve tek seferlik teknik SEO denetimi seçenekleriyle bütçenize uygun çözüm bulun.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/pricing' : 'https://fatihemincakiroglu.com/fiyatlandirma'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/fiyatlandirma" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/pricing" />

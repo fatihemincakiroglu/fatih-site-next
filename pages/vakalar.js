@@ -448,8 +448,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Case Studies | Fatih Emin Çakıroğlu' : 'Vaka Çalışmaları | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Real SEO case studies with measurable results. 150+ projects across e-commerce, SaaS, healthcare and legal sectors.' : 'Ölçülebilir sonuçlarla gerçek SEO vaka çalışmaları. E-ticaret, SaaS, sağlık ve hukuk sektörlerinde 150+ proje.'} />
+        <title>{isEn ? 'SEO Case Studies | Fatih Emin Çakıroğlu' : 'SEO Vaka Çalışmaları | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={isEn ? 'Real SEO case studies with measurable results across e-commerce, SaaS, healthcare and legal sectors. 150+ projects showcasing sustainable organic growth.' : "Ölçülebilir sonuçlarla gerçek SEO vaka çalışmaları. E-ticaret, SaaS, sağlık ve hukuk sektörlerinde 150'den fazla projede elde edilen organik büyüme örnekleri."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/case-studies' : 'https://fatihemincakiroglu.com/vakalar'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/vakalar" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/case-studies" />

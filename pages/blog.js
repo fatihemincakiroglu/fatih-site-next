@@ -207,8 +207,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Blog | Fatih Emin Çakıroğlu — SEO & GEO Insights' : 'Blog | Fatih Emin Çakıroğlu — SEO & GEO Rehberleri'}</title>
-        <meta name="description" content={isEn ? `${YAZILAR.length}+ articles on SEO, GEO, technical SEO and digital marketing strategies.` : `${YAZILAR.length}+ makale: Teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine.`} />
+        <title>{isEn ? 'SEO & GEO Blog | Fatih Emin Çakıroğlu' : 'SEO ve GEO Blog | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={isEn ? `${YAZILAR.length}+ in-depth articles on SEO, GEO, technical SEO and digital marketing strategy. Practical, actionable insights to grow your organic search visibility.` : `${YAZILAR.length}+ derinlemesine makale: teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine. Organik görünürlüğünüzü artıracak uygulanabilir içgörüler.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/blog' : 'https://fatihemincakiroglu.com/blog'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/blog" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/blog" />

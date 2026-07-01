@@ -41,7 +41,7 @@ export default function Page() {
     <>
       <Head>
         <title>{router.pathname.startsWith('/en') ? 'SEO Guides | Fatih Emin Çakıroğlu' : 'SEO Rehberleri | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={router.pathname.startsWith('/en') ? 'Comprehensive guides on technical SEO, GEO, backlinks and content strategy.' : 'Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.'} />
+        <meta name="description" content={router.pathname.startsWith('/en') ? 'Comprehensive step-by-step guides on technical SEO, GEO, backlink building and content strategy. Actionable tactics to boost your organic search visibility.' : 'Teknik SEO, GEO, backlink inşası ve içerik stratejisi hakkında adım adım kapsamlı rehberler. Uygulanabilir taktiklerle organik görünürlüğünüzü artırın.'} />
         <link rel="canonical" href={router.pathname.startsWith('/en') ? 'https://fatihemincakiroglu.com/en/guides' : 'https://fatihemincakiroglu.com/rehber'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/rehber" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/guides" />

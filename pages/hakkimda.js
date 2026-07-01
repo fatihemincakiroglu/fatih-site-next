@@ -206,8 +206,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'About | Fatih Emin Çakıroğlu — SEO & GEO Expert' : 'Hakkımda | Fatih Emin Çakıroğlu — SEO & GEO Uzmanı'}</title>
-        <meta name="description" content={isEn ? 'Fatih Emin Çakıroğlu: former IB teacher turned independent SEO & GEO consultant. 10+ years experience, 150+ brands across 14 sectors.' : 'Fatih Emin Çakıroğlu: IB öğretmenliğinden bağımsız SEO & GEO danışmanlığına. 10+ yıl deneyim, 14 sektörde 150+ marka.'} />
+        <title>{isEn ? 'About Me | Fatih Emin Çakıroğlu — SEO Expert' : 'Hakkımda | Fatih Emin Çakıroğlu — SEO Uzmanı'}</title>
+        <meta name="description" content={isEn ? 'Fatih Emin Çakıroğlu: from IB teaching to independent SEO and GEO consulting. 10+ years of experience advising 150+ brands across 14 different industries.' : "Fatih Emin Çakıroğlu: IB öğretmenliğinden bağımsız SEO ve GEO danışmanlığına uzanan yolculuk. 10+ yıl deneyim, 14 sektörde 150'den fazla markaya danışmanlık."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/about' : 'https://fatihemincakiroglu.com/hakkimda'} />
         <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hakkimda" />
         <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/about" />
