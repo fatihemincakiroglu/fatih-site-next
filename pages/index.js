@@ -452,6 +452,170 @@ export default function Page(props) {
           </div>
         </section>
 
+        {/* ── SEO, GEO ve AI GÖRÜNÜRLÜĞÜ REHBERİ ── */}
+        <section style={{ padding: '72px 40px', background: '#0a0a0a' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+
+            {/* Üst kart: badge, başlık, alt başlık, etiketler, CTA */}
+            <div style={{ background: 'linear-gradient(135deg, #141414 0%, #1a1410 100%)', borderRadius: '24px', border: '1px solid #262626', padding: '48px 44px', marginBottom: '40px', textAlign: 'center' }}>
+              <span style={{ display: 'inline-block', fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '2px', textTransform: 'uppercase', padding: '5px 14px', borderRadius: '20px', border: '1px solid rgba(232,86,10,0.35)', background: 'rgba(232,86,10,0.1)', marginBottom: '20px' }}>
+                {isEn ? 'GUIDE' : 'REHBER'}
+              </span>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(26px, 3.2vw, 42px)', fontWeight: 800, color: '#fff', lineHeight: 1.2, marginBottom: '14px' }}>
+                {isEn ? 'Sustainable Growth with SEO, GEO and AI Visibility' : 'SEO, GEO ve AI Görünürlüğü ile Sürdürülebilir Büyüme'}
+              </h2>
+              <p style={{ fontSize: '15px', color: '#9ca3af', maxWidth: '620px', margin: '0 auto 24px', lineHeight: 1.7 }}>
+                {isEn ? "Organic rankings, AI answer engines and LLM citation — strategy, technical execution and measurement, managed under one roof by a single dedicated consultant." : 'Organik sıralamalar, yapay zekâ yanıt motorları ve LLM kaynaklığı — strateji, teknik uygulama ve ölçümleme, tek bir uzman danışman çatısı altında yönetilir.'}
+              </p>
+              <div style={{ display: 'flex', gap: '8px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '28px' }}>
+                {['SEO', 'GEO', isEn ? 'AI SEO' : 'AI SEO'].map(tag => (
+                  <span key={tag} style={{ fontSize: '12px', fontWeight: 700, color: '#ccc', padding: '6px 16px', borderRadius: '20px', border: '1px solid #333', background: '#171717' }}>{tag}</span>
+                ))}
+              </div>
+              <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ display: 'inline-block', padding: '13px 30px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>
+                {isEn ? 'Get a Free Consultation →' : 'Ücretsiz Görüşme Al →'}
+              </Link>
+            </div>
+
+            {/* İçerik: sol TOC + sağ içerik */}
+            <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
+              {/* Sol TOC */}
+              <div className="desktop-nav" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: '100px' }}>
+                <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
+                  {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  {[
+                    { id: 'seo-geo-birlikte', tr: 'SEO ve GEO Neden Birlikte?', en: 'Why SEO and GEO Together?' },
+                    { id: 'seo-gorunurluk', tr: 'SEO ile Görünürlük Artışı', en: 'Growing Visibility with SEO' },
+                    { id: 'geo-ai-kazanim', tr: 'GEO ve AI Kazanımları', en: 'What GEO & AI Bring You' },
+                    { id: 'neden-bagimsiz', tr: 'Neden Bağımsız Danışman?', en: 'Why an Independent Consultant?' },
+                  ].map(item => (
+                    <a key={item.id} href={`#${item.id}`} style={{ fontSize: '13px', color: '#aaa', padding: '9px 12px', borderRadius: '8px', textDecoration: 'none', fontFamily: 'var(--font-body)' }}
+                      onMouseEnter={e => { e.currentTarget.style.background = '#1e1e1e'; e.currentTarget.style.color = '#fff' }}
+                      onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#aaa' }}>
+                      {isEn ? item.en : item.tr}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              {/* Sağ içerik */}
+              <div style={{ background: '#fff', borderRadius: '16px', padding: '40px 44px', border: '1px solid #262626' }}>
+
+                <h3 id="seo-geo-birlikte" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
+                  {isEn ? 'Why SEO and GEO Should Be Handled Together' : 'SEO ve GEO Neden Birlikte Ele Alınmalı?'}
+                </h3>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '16px' }}>
+                  {isEn
+                    ? <>Classic SEO aims to rank in search engine results pages, while <strong>GEO (Generative Engine Optimization)</strong> aims to get your content cited as a source inside AI-generated answers. These two disciplines aren't alternatives — they're complementary. For a brand to appear both in Google's classic results and in the source list of answers from ChatGPT, Perplexity or Google AI Overview, SEO and GEO work needs to move together.</>
+                    : <>Klasik SEO, arama motoru sonuç sayfalarında organik sıralama elde etmeyi hedeflerken; <strong>GEO (Generative Engine Optimization)</strong>, içeriklerin yapay zekâ tarafından üretilen yanıtlarda kaynak olarak alıntılanmasını amaçlar. Bu iki disiplin birbirinin alternatifi değil, tamamlayıcısıdır. Bir markanın hem Google'ın klasik sonuçlarında hem de ChatGPT, Perplexity veya Google AI Overview'ın yanıt kaynaklarında görünmesi için SEO ve GEO çalışmalarının eşgüdümlü yürütülmesi gerekir.</>}
+                </p>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '32px' }}>
+                  {isEn
+                    ? <>My approach rests on three layers: <strong>technical foundation</strong> (site speed, crawlability, structured data, llms.txt, Core Web Vitals), <strong>content architecture</strong> (E-E-A-T signals, topical depth, citable Q&A blocks) and <strong>entity authority</strong> (Knowledge Graph consistency, digital PR mentions, community visibility).</>
+                    : <>Metodolojim üç katman üzerine kuruludur: <strong>teknik altyapı</strong> (site hızı, taranabilirlik, structured data, llms.txt dosyası, Core Web Vitals optimizasyonu), <strong>içerik mimarisi</strong> (E-E-A-T sinyalleri, konu bütünlüğü, soru-cevap formatında alıntılanabilir bilgi blokları) ve <strong>entity otoritesi</strong> (Knowledge Graph tutarlılığı, dijital PR bahsetmeleri, topluluk görünürlüğü).</>}
+                </p>
+
+                <h3 id="seo-gorunurluk" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
+                  {isEn ? 'How SEO Grows Your Search Visibility' : 'SEO ile Arama Görünürlüğü Nasıl Artırılır?'}
+                </h3>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '20px' }}>
+                  {isEn
+                    ? 'Organic traffic alone is just a number. Qualified visibility means results that match real search intent — visitors who convert, not just visit. Here is how that visibility is built in practice:'
+                    : 'Organik trafik tek başına sadece bir sayıdır. Nitelikli görünürlük, arama niyetiyle örtüşen sonuçlar demektir — sadece ziyaret eden değil, dönüşen bir kitle. Bu görünürlük pratikte şu şekilde inşa edilir:'}
+                </p>
+
+                <div style={{ borderRadius: '12px', border: '1px solid #eee', overflow: 'hidden', marginBottom: '32px' }}>
+                  <div style={{ overflowX: 'auto' }}>
+                    <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '520px' }}>
+                      <thead>
+                        <tr style={{ background: '#1a1612' }}>
+                          {(isEn ? ['Focus Area', 'What I Do', 'Impact for Your Brand'] : ['Uygulama Alanı', 'Yapılan Çalışma', 'Markaya Katkısı']).map((s, i) => (
+                            <th key={i} style={{ padding: '14px 18px', textAlign: 'left', fontSize: '11px', fontWeight: 700, color: i === 0 ? '#aaa' : 'var(--orange)', letterSpacing: '1px', textTransform: 'uppercase' }}>{s}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {(isEn ? [
+                          ['Technical Foundation', 'Site speed audit, crawlability fixes and Core Web Vitals optimization.', 'A faster site that search bots can crawl and index without friction.'],
+                          ['Content Architecture', 'Content planning built on search intent and topical authority.', "Content that matches what users are actually looking for."],
+                          ['Competitor & Market Analysis', 'Mapping gaps and opportunities specific to your sector.', 'Keywords with a faster, more realistic path to page one.'],
+                          ['User Experience', 'Mobile responsiveness, page speed and simplified conversion flow.', 'Lower bounce rate and more qualified leads from the same traffic.'],
+                          ['Measurement & Reporting', 'Monthly performance tracking and strategy adjustments.', 'A transparent process where you can see the return on your investment.'],
+                        ] : [
+                          ['Teknik Altyapı', 'Site hızı denetimi, tarama hatalarının giderilmesi ve Core Web Vitals optimizasyonu.', 'Botların sorunsuz tarayıp indeksleyebildiği, hızlı bir site.'],
+                          ['İçerik Mimarisi', 'Arama niyetine ve topical authority\'ye dayalı içerik planlaması.', 'Kullanıcının gerçekte aradığıyla örtüşen içerik.'],
+                          ['Rakip & Pazar Analizi', 'Sektörünüze özgü boşlukların ve fırsatların haritalanması.', 'İlk sayfaya daha hızlı ve gerçekçi bir yol kat eden anahtar kelimeler.'],
+                          ['Kullanıcı Deneyimi', 'Mobil uyumluluk, sayfa hızı ve sadeleştirilmiş dönüşüm akışı.', 'Daha düşük hemen çıkma oranı, aynı trafikten daha fazla nitelikli talep.'],
+                          ['Ölçümleme & Raporlama', 'Aylık performans takibi ve strateji güncellemeleri.', 'Yatırımınızın karşılığını şeffaf biçimde gördüğünüz bir süreç.'],
+                        ]).map((row, i) => (
+                          <tr key={i} style={{ borderBottom: '1px solid #f0f0f0', background: i % 2 === 0 ? '#fff' : '#faf9f7' }}>
+                            {row.map((cell, j) => (
+                              <td key={j} style={{ padding: '13px 18px', fontSize: '13.5px', color: j === 0 ? '#111' : '#555', fontWeight: j === 0 ? 700 : 400, lineHeight: 1.5 }}>{cell}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <h3 id="geo-ai-kazanim" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
+                  {isEn ? 'What GEO and AI Visibility Bring to Your Brand' : 'GEO ve AI Görünürlüğü Markanıza Ne Kazandırır?'}
+                </h3>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '14px' }}>
+                  {isEn
+                    ? 'Search habits are shifting from typed queries to conversational, answer-first interactions. GEO work makes your brand crawlable, understandable and citable by AI systems:'
+                    : 'Arama alışkanlıkları, yazılı sorgulardan sohbet temelli ve doğrudan yanıt odaklı etkileşime kayıyor. GEO çalışması, markanızı yapay zekâ sistemleri tarafından taranabilir, anlaşılabilir ve alıntılanabilir hale getirir:'}
+                </p>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '32px' }}>
+                  {(isEn ? [
+                    'Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy.',
+                    "Classic ranking factors lean on link authority; GEO leans on semantic depth, citability and how directly your content answers a question.",
+                    'A page that ranks lower in classic search can still be the first source an AI system cites — if its answer is the clearest one available.',
+                    'Brands that establish themselves early in AI-driven discovery gain a durable edge as algorithms keep evolving.',
+                  ] : [
+                    "AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır.",
+                    'Klasik sıralama faktörleri link otoritesine yaslanırken; GEO, anlamsal derinliğe, alıntılanabilirliğe ve içeriğin soruyu ne kadar doğrudan yanıtladığına yaslanır.',
+                    'Klasik aramada gerilerde olan bir sayfa, en açık yanıtı verdiği için yapay zekâ tarafından ilk sırada kaynak gösterilebilir.',
+                    'Yapay zekâ destekli keşif sürecinde erken konumlanan markalar, algoritmalar geliştikçe kalıcı bir avantaj elde eder.',
+                  ]).map((txt, i) => (
+                    <div key={i} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', fontSize: '14px', color: '#444', lineHeight: 1.6 }}>
+                      <span style={{ color: 'var(--orange)', fontWeight: 800, flexShrink: 0 }}>→</span>
+                      <span>{txt}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <h3 id="neden-bagimsiz" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
+                  {isEn ? 'Why Work with an Independent Consultant?' : 'Neden Bağımsız Bir SEO Danışmanı?'}
+                </h3>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '28px' }}>
+                  {isEn
+                    ? "With 8+ years of hands-on experience across 150+ brands in 14 sectors, every roadmap I build is tailored to that specific business — not a templated package. There's no account handoff to a junior team member: the person who audits your site is the same person who reports the results to you, every month."
+                    : "8+ yıllık deneyimle 14 sektörde 150+ markaya danışmanlık verdim; hazırladığım her yol haritası o markaya özeldir, standart bir pakete sıkıştırılmaz. Hesabınız bir junior ekip üyesine devredilmez: sitenizi denetleyen kişi ile size her ay sonucu raporlayan kişi aynı kişidir."}
+                </p>
+
+                <div style={{ background: '#faf9f7', borderRadius: '14px', padding: '28px 32px', border: '1px solid #ede8e0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '20px', flexWrap: 'wrap' }}>
+                  <div>
+                    <div style={{ fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '4px' }}>
+                      {isEn ? 'Want a roadmap tailored to your brand?' : 'Markanıza özel bir yol haritası ister misiniz?'}
+                    </div>
+                    <div style={{ fontSize: '14px', color: '#777' }}>
+                      {isEn ? 'Book a free discovery call — no obligation.' : 'Ücretsiz keşif görüşmesi için hemen randevu alın.'}
+                    </div>
+                  </div>
+                  <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '12px 26px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap' }}>
+                    {isEn ? 'Book a Free Call →' : 'Ücretsiz Görüşme →'}
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ── NEDEN BEN? (Kişisel marka) ── */}
         <section style={{ padding: '72px 40px', background: '#111', borderTop: '1px solid #1a1a1a' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
