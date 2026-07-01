@@ -700,30 +700,32 @@ export default function Page(props) {
             </div>
 
             {/* İçerik: sol TOC (scroll ile hareket eden + aktif başlığı takip eden) + sağ içerik */}
-            <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px' }}>
 
-              {/* Sol TOC */}
-              <div className="desktop-nav" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: '100px', maxHeight: 'calc(100vh - 140px)', overflowY: 'auto' }}>
-                <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
-                  {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                  {GUIDE_SECTIONS.map(sec => {
-                    const active = aktifRehberId === sec.id
-                    return (
-                      <a key={sec.id} href={`#${sec.id}`}
-                        style={{
-                          fontSize: '12.5px', lineHeight: 1.4, padding: '8px 12px', borderRadius: '8px', textDecoration: 'none', fontFamily: 'var(--font-body)',
-                          color: active ? '#fff' : '#999',
-                          background: active ? 'rgba(232,86,10,0.18)' : 'transparent',
-                          borderLeft: active ? '2px solid var(--orange)' : '2px solid transparent',
-                          fontWeight: active ? 700 : 400,
-                          transition: 'all 0.15s',
-                        }}>
-                        {isEn ? sec.en.h2 : sec.tr.h2}
-                      </a>
-                    )
-                  })}
+              {/* Sol TOC — dış hücre grid tarafından tam yüksekliğe stretch edilir, sticky iç div'de */}
+              <div className="desktop-nav">
+                <div style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: 'calc(var(--nav-h) + 24px)', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
+                  <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
+                    {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
+                  </div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                    {GUIDE_SECTIONS.map(sec => {
+                      const active = aktifRehberId === sec.id
+                      return (
+                        <a key={sec.id} href={`#${sec.id}`}
+                          style={{
+                            fontSize: '12.5px', lineHeight: 1.4, padding: '8px 12px', borderRadius: '8px', textDecoration: 'none', fontFamily: 'var(--font-body)',
+                            color: active ? '#fff' : '#999',
+                            background: active ? 'rgba(232,86,10,0.18)' : 'transparent',
+                            borderLeft: active ? '2px solid var(--orange)' : '2px solid transparent',
+                            fontWeight: active ? 700 : 400,
+                            transition: 'all 0.15s',
+                          }}>
+                          {isEn ? sec.en.h2 : sec.tr.h2}
+                        </a>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
 
