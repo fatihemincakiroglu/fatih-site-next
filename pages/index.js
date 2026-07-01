@@ -168,7 +168,213 @@ function useCounter(target, duration = 1800, start = false) {
   return count
 }
 
+// ── SEO/GEO REHBERİ: 27 başlıklık kapsamlı içerik (her biri H2) ──
+const GUIDE_SECTIONS = [
+  { id: 'seo-geo-birlikte', type: 'text',
+    tr: { h2: "SEO ve GEO Neden Birlikte Ele Alınmalı?", body: [
+      "Klasik SEO, arama motoru sonuç sayfalarında organik sıralama elde etmeyi hedeflerken; GEO (Generative Engine Optimization), içeriklerin yapay zekâ tarafından üretilen yanıtlarda kaynak olarak alıntılanmasını amaçlar. Bu iki disiplin birbirinin alternatifi değil, tamamlayıcısıdır.",
+      "Bir markanın hem Google'ın klasik sonuçlarında hem de ChatGPT, Perplexity veya Google AI Overview'ın yanıt kaynaklarında görünmesi için SEO ve GEO çalışmalarının eşgüdümlü yürütülmesi gerekir. Danışmanlığımda bu iki alanı ayrı projeler olarak değil, tek bir görünürlük stratejisinin parçaları olarak yönetiyorum.",
+    ]},
+    en: { h2: "Why SEO and GEO Should Be Handled Together", body: [
+      "Classic SEO aims to rank in search engine results pages, while GEO (Generative Engine Optimization) aims to get your content cited as a source inside AI-generated answers. These two disciplines aren't alternatives — they're complementary.",
+      "For a brand to appear both in Google's classic results and in the source list of answers from ChatGPT, Perplexity or Google AI Overview, SEO and GEO work needs to move together. I manage both as one coordinated visibility strategy, not two separate projects.",
+    ]}},
+  { id: 'teknik-seo-temel', type: 'text',
+    tr: { h2: "Teknik SEO Neden Her Şeyin Temelidir?", body: [
+      "En güçlü içerik stratejisi bile, arama motorları ve yapay zekâ botları tarafından sağlıklı bir şekilde taranamayan bir sitede sonuç vermez. Teknik SEO; sunucu yanıt süreleri, URL yapısı, yönlendirmeler ve tarama bütçesi gibi görünmeyen ama belirleyici katmanları kapsar.",
+      "Bir projeye başlarken önceliğim, sitenin teknik sağlığını tam kapsamlı bir denetimle ortaya çıkarmaktır. İçerik ve otorite çalışmaları, sağlam bir teknik temel olmadan beklenen etkiyi göstermez.",
+    ]},
+    en: { h2: "Why Technical SEO Is the Foundation of Everything", body: [
+      "Even the strongest content strategy underperforms on a site that search engines and AI bots can't crawl properly. Technical SEO covers the invisible but decisive layers — server response times, URL structure, redirects and crawl budget.",
+      "At the start of any engagement, my priority is a full technical audit to surface the site's actual health. Content and authority work simply won't deliver their expected impact without a solid technical foundation underneath.",
+    ]}},
+  { id: 'site-hizi-cwv', type: 'text',
+    tr: { h2: "Site Hızı ve Core Web Vitals Neden Önemli?", body: [
+      "Core Web Vitals — LCP, INP ve CLS — hem kullanıcı deneyimini hem de Google'ın sıralama algoritmasını doğrudan etkiler. Yavaş açılan, sayfa içinde beklenmedik kaymalar yaşanan bir site, hem ziyaretçiyi hem de arama motorunu kaybettirir.",
+      "Site hızı optimizasyonunu görüntü sıkıştırma, gereksiz script temizliği ve önbellekleme stratejileriyle birlikte ele alıyorum; amaç sadece skor yükseltmek değil, gerçek kullanıcı deneyimini iyileştirmektir.",
+    ]},
+    en: { h2: "Why Site Speed and Core Web Vitals Matter", body: [
+      "Core Web Vitals — LCP, INP and CLS — directly affect both user experience and Google's ranking algorithm. A slow-loading site with unexpected layout shifts loses both visitors and search engine favor.",
+      "I approach speed optimization holistically — image compression, script cleanup and caching strategy together — because the goal isn't a higher lab score, it's a genuinely better experience for real users.",
+    ]}},
+  { id: 'taranabilirlik', type: 'text',
+    tr: { h2: "Taranabilirlik ve İndeksleme Nasıl Yönetilir?", body: [
+      "Bir sayfanın var olması, arama motorunun onu bulup doğru şekilde indekslemesi anlamına gelmez. Crawl bütçesinin verimli kullanılması, gereksiz parametreli URL'lerin temizlenmesi ve iç link mimarisinin doğru kurulması, büyük sitelerde özellikle kritik hale gelir.",
+      "XML sitemap'lerin güncel tutulması, robots.txt kurallarının doğru yazılması ve canonical etiketlerin tutarlılığı, indekslenme sorunlarının çoğunu önler.",
+    ]},
+    en: { h2: "Managing Crawlability and Indexing", body: [
+      "A page existing doesn't mean a search engine finds and indexes it correctly. Efficient use of crawl budget, cleaning up unnecessary parameterized URLs and a solid internal linking structure become especially critical on larger sites.",
+      "Keeping XML sitemaps current, writing correct robots.txt rules and maintaining canonical tag consistency prevents most indexing problems before they start.",
+    ]}},
+  { id: 'structured-data', type: 'text',
+    tr: { h2: "Structured Data ve Schema Markup Ne İşe Yarar?", body: [
+      "Schema markup, sayfanızdaki bilgiyi arama motorlarına ve yapay zekâ sistemlerine makine tarafından okunabilir bir formatta sunar. Ürün, makale, SSS veya kişi şeması doğru uygulandığında, hem zengin sonuçlarda (rich snippet) görünürlük hem de AI sistemlerinin içeriği doğru bağlamda yorumlaması sağlanır.",
+    ]},
+    en: { h2: "What Structured Data and Schema Markup Do for You", body: [
+      "Schema markup presents your page's information to search engines and AI systems in a machine-readable format. Correctly implemented Product, Article, FAQ or Person schema improves both rich snippet visibility and the odds that AI systems interpret your content in the right context.",
+    ]}},
+  { id: 'icerik-stratejisi', type: 'text',
+    tr: { h2: "İçerik Stratejisi Nasıl Kurulur?", body: [
+      "Nitelikli içerik, önce arama niyetinin doğru sınıflandırılmasıyla başlar: bilgi arayan, karşılaştırma yapan ve satın almaya hazır kullanıcıya farklı içerik biçimleri gerekir. Ardından her içerik parçası, o niyete en doğrudan yanıtı verecek şekilde kurgulanır.",
+      "İçerik takvimini rastgele konu listeleri üzerine değil, sektörünüzdeki gerçek arama davranışı verisine dayanarak oluşturuyorum.",
+    ]},
+    en: { h2: "How a Content Strategy Is Built", body: [
+      "Quality content starts with correctly classifying search intent: users looking for information, comparing options and ready to buy each need a different content format. Every piece is then built to answer that specific intent as directly as possible.",
+      "I build the content calendar not from a random topic list, but from real search behavior data specific to your industry.",
+    ]}},
+  { id: 'topical-authority', type: 'text',
+    tr: { h2: "Topical Authority ve Pillar-Cluster Modeli", body: [
+      "Tek bir konuda dağınık, birbirinden bağımsız yazılar yerine; bir ana konuyu (pillar) çevresinde birbirine iç linklerle bağlı alt başlıklardan (cluster) oluşan bir içerik mimarisi kurmak, hem kullanıcı hem de arama motoru için konudaki uzmanlığınızı somutlaştırır.",
+    ]},
+    en: { h2: "Topical Authority and the Pillar-Cluster Model", body: [
+      "Instead of scattered, disconnected articles on one subject, building a content architecture with a central pillar page linked to supporting cluster articles makes your topical expertise concrete for both users and search engines.",
+    ]}},
+  { id: 'eeat', type: 'text',
+    tr: { h2: "E-E-A-T Sinyalleri İçeriğe Nasıl Yansır?", body: [
+      "Deneyim, Uzmanlık, Otoriterlik ve Güvenilirlik (E-E-A-T), Google'ın kaliteli içeriği değerlendirirken baktığı temel sinyallerdir. Yazar bilgisinin açık olması, kaynakların doğrulanabilir olması ve içerikte gerçek deneyime dayalı detayların yer alması bu sinyalleri güçlendirir.",
+      "Bu prensipleri sadece metin düzeyinde değil, site genelindeki iletişim bilgileri, referanslar ve güncelleme sıklığı gibi unsurlarla da destekliyorum.",
+    ]},
+    en: { h2: "How E-E-A-T Signals Show Up in Content", body: [
+      "Experience, Expertise, Authoritativeness and Trustworthiness (E-E-A-T) are the core signals Google uses to evaluate content quality. Clear author information, verifiable sources and genuinely experience-based detail all strengthen these signals.",
+      "I reinforce these principles not just at the text level, but through site-wide elements like clear contact information, testimonials and a consistent update cadence.",
+    ]}},
+  { id: 'anahtar-kelime', type: 'text',
+    tr: { h2: "Anahtar Kelime Araştırması Nasıl Yapılır?", body: [
+      "Yüksek hacimli ama düşük dönüşüm potansiyeli olan kelimeler yerine, arama niyetiyle işletmenizin ticari hedefleri arasında gerçek bir örtüşme olan kelimeleri önceliklendiriyorum. Uzun kuyruk (long-tail) fırsatlar, genellikle rekabetin düşük olduğu ama dönüşüm oranının yüksek olduğu alanlardır.",
+    ]},
+    en: { h2: "How Keyword Research Is Done", body: [
+      "Rather than chasing high-volume keywords with low conversion potential, I prioritize terms where search intent genuinely overlaps with your business goals. Long-tail opportunities are usually where competition is lower but conversion rates are higher.",
+    ]}},
+  { id: 'rakip-analizi', type: 'text',
+    tr: { h2: "Rakip ve Sektör Analizi Neden Gerekli?", body: [
+      "Sektörünüzdeki en görünür oyuncuların hangi anahtar kelimelerde ve hangi içerik formatlarında öne çıktığını anlamak, sizin için gerçekçi ve hızlı sonuç veren fırsat alanlarını netleştirir. Bu analiz, aynı zamanda içerik boşluklarını da gözler önüne serer.",
+    ]},
+    en: { h2: "Why Competitor and Market Analysis Matters", body: [
+      "Understanding which keywords and content formats the most visible players in your industry rank for clarifies realistic, faster-win opportunities for your own site. This analysis also surfaces content gaps worth filling.",
+    ]}},
+  { id: 'seo-tablo', type: 'table',
+    tr: { h2: "SEO Çalışmalarının Markanıza Katkısı", body: [
+      "Organik trafik tek başına sadece bir sayıdır. Nitelikli görünürlük, arama niyetiyle örtüşen sonuçlar demektir — sadece ziyaret eden değil, dönüşen bir kitle. Bu görünürlük pratikte şu şekilde inşa edilir:",
+    ]},
+    en: { h2: "What SEO Work Delivers for Your Brand", body: [
+      "Organic traffic alone is just a number. Qualified visibility means results that match real search intent — visitors who convert, not just visit. Here is how that visibility is built in practice:",
+    ]}},
+  { id: 'geo-nedir', type: 'text',
+    tr: { h2: "GEO (Generative Engine Optimization) Nedir?", body: [
+      "GEO, içeriğinizin yapay zekâ destekli yanıt motorları (ChatGPT, Perplexity, Google Gemini, Google AI Overview) tarafından anlaşılabilir, taranabilir ve kaynak olarak gösterilebilir hale getirilmesidir. Klasik SERP sıralamasından farklı olarak, GEO'nun ölçütü tıklama değil, yanıt içinde alıntılanma sıklığıdır.",
+    ]},
+    en: { h2: "What Is GEO (Generative Engine Optimization)?", body: [
+      "GEO is the practice of making your content understandable, crawlable and citable by AI-driven answer engines like ChatGPT, Perplexity, Google Gemini and Google AI Overview. Unlike classic SERP ranking, GEO's success metric isn't clicks — it's citation frequency inside generated answers.",
+    ]}},
+  { id: 'ai-yanit-motoru', type: 'text',
+    tr: { h2: "Yapay Zekâ Yanıt Motorlarında Kaynak Olmak", body: [
+      "AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır. Kullanıcı sizin sitenize hiç gelmeden de markanızla tanışabilir — bu da marka bilinirliğinin yeni bir kanalıdır.",
+    ]},
+    en: { h2: "Becoming a Cited Source in AI Answer Engines", body: [
+      "Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy. A user can discover your brand without ever visiting your site — a new channel for brand awareness in itself.",
+    ]}},
+  { id: 'llms-txt', type: 'text',
+    tr: { h2: "LLMs.txt ve Yeni Teknik Standartlar", body: [
+      "LLMs.txt, sitenizin içeriğini büyük dil modelleri için özetleyen, henüz gelişmekte olan bir standarttır. Robots.txt geleneksel arama botlarına yönelikken, LLMs.txt yapay zekâ sistemlerinin sitenizi doğru bağlamda kavramasına yardımcı olur. Projelerimde bu dosyayı, sitenin gerçek yapısını yansıtacak şekilde güncel tutuyorum.",
+    ]},
+    en: { h2: "LLMs.txt and Emerging Technical Standards", body: [
+      "LLMs.txt is an emerging standard that summarizes your site's content specifically for large language models. While robots.txt targets traditional search bots, LLMs.txt helps AI systems grasp your site in the right context. On my projects, I keep this file current and aligned with the site's real structure.",
+    ]}},
+  { id: 'ai-overview', type: 'text',
+    tr: { h2: "AI Overview'da Görünürlük Nasıl Kazanılır?", body: [
+      "Google'ın AI Overview özelliği, kullanıcı sorgusuna doğrudan bir özet yanıt sunar ve bu yanıtın kaynağı olarak sınırlı sayıda site seçilir. Bu seçime girebilmek için içeriğin, soruyu net ve kanıtlanabilir bir şekilde yanıtlaması, güncel verilerle desteklenmesi gerekir.",
+    ]},
+    en: { h2: "How to Earn Visibility in AI Overview", body: [
+      "Google's AI Overview feature gives users a direct summary answer, citing only a limited number of sources. To be selected, content needs to answer the question clearly and verifiably, backed by current, accurate data.",
+    ]}},
+  { id: 'soru-cevap-format', type: 'text',
+    tr: { h2: "Soru-Cevap Formatında İçerik Neden Alıntılanır?", body: [
+      "Yapay zekâ sistemleri, net bir soruya net bir cevap veren blokları daha kolay ayrıştırır ve alıntılar. Bu nedenle sayfalarımda uzun paragraflar yerine, konunun alt başlıklarını doğrudan soru cümleleriyle kurup her birine odaklı bir yanıt veriyorum — tam da bu bölümde uyguladığım format gibi.",
+    ]},
+    en: { h2: "Why Q&A-Formatted Content Gets Cited More", body: [
+      "AI systems parse and cite blocks that answer a clear question with a clear answer far more easily. That's why I structure subheadings as direct questions with focused answers rather than long, undifferentiated paragraphs — exactly the format you're reading in this section.",
+    ]}},
+  { id: 'geo-kazanim', type: 'list',
+    tr: { h2: "GEO ve AI Görünürlüğü Markanıza Ne Kazandırır?", body: [
+      "Arama alışkanlıkları, yazılı sorgulardan sohbet temelli ve doğrudan yanıt odaklı etkileşime kayıyor. GEO çalışması, markanızı yapay zekâ sistemleri tarafından taranabilir, anlaşılabilir ve alıntılanabilir hale getirir:",
+    ]},
+    en: { h2: "What GEO and AI Visibility Bring to Your Brand", body: [
+      "Search habits are shifting from typed queries to conversational, answer-first interactions. GEO work makes your brand crawlable, understandable and citable by AI systems:",
+    ]}},
+  { id: 'entity-otorite', type: 'text',
+    tr: { h2: "Entity Otoritesi ve Knowledge Graph Tutarlılığı", body: [
+      "Arama motorları ve AI sistemleri markanızı bir 'entity' (varlık) olarak tanımlar; adınızın, hizmetlerinizin ve ilişkili kavramların farklı platformlarda tutarlı şekilde geçmesi bu tanımı güçlendirir. Knowledge Graph'ta tutarlı bir varlık olmak, hem klasik aramada hem de AI yanıtlarında güven puanınızı yükseltir.",
+    ]},
+    en: { h2: "Entity Authority and Knowledge Graph Consistency", body: [
+      "Search engines and AI systems identify your brand as an 'entity' — consistent mentions of your name, services and related concepts across platforms strengthen that identity. Being a consistent entity in the Knowledge Graph raises your trust score in both classic search and AI answers.",
+    ]}},
+  { id: 'backlink-pr', type: 'text',
+    tr: { h2: "Backlink ve Dijital PR'ın Rolü", body: [
+      "Kaliteli ve konu ile ilişkili sitelerden gelen backlinkler, arama motorları tarafından bir güven oyu olarak değerlendirilir. Rastgele link biriktirmek yerine, editoryal bağlamda doğal olarak kazanılan bağlantılar ve dijital PR çalışmaları, uzun vadede daha kalıcı bir otorite inşa eder.",
+    ]},
+    en: { h2: "The Role of Backlinks and Digital PR", body: [
+      "Backlinks from quality, topically relevant sites are treated by search engines as a vote of trust. Rather than collecting links at random, naturally earned editorial mentions and digital PR work build far more durable authority over time.",
+    ]}},
+  { id: 'marka-bahsi', type: 'text',
+    tr: { h2: "Marka Bahsetmeleri (Mentions) Neden Değerlidir?", body: [
+      "Bir bağlantı içermese bile, markanızın güvenilir kaynaklarda ve tartışma platformlarında olumlu bağlamda anılması, hem klasik algoritmalar hem de AI sistemleri için bir sinyaldir. Yapay zekâ modelleri, yanıt üretirken gerçek kullanıcı tartışmalarının geçtiği platformlardan da veri toplar.",
+    ]},
+    en: { h2: "Why Brand Mentions Matter, Even Without a Link", body: [
+      "Even without a hyperlink, your brand being mentioned positively on trusted sites and discussion platforms is a signal to both classic algorithms and AI systems. AI models draw on real user discussions across platforms when generating answers.",
+    ]}},
+  { id: 'kullanici-deneyimi', type: 'text',
+    tr: { h2: "Kullanıcı Deneyimi ve Dönüşüm Optimizasyonu", body: [
+      "Görünürlük tek başına yeterli değildir; siteye gelen ziyaretçinin aradığını hızlıca bulup bir eyleme (form doldurma, arama, satın alma) yönelmesi gerekir. Mobil uyum, sayfa hızı ve sade bir dönüşüm akışı, aynı trafikten daha fazla nitelikli talep üretmenin en doğrudan yoludur.",
+    ]},
+    en: { h2: "User Experience and Conversion Optimization", body: [
+      "Visibility alone isn't enough — a visitor needs to quickly find what they're looking for and move toward an action (filling a form, searching, buying). Mobile responsiveness, page speed and a simplified conversion flow are the most direct way to generate more qualified demand from the same traffic.",
+    ]}},
+  { id: 'yerel-seo', type: 'text',
+    tr: { h2: "Yerel SEO ile Bölgesel Görünürlük", body: [
+      "Fiziksel bir konumu veya belirli bir bölgeye hizmet veren işletmeler için Google Business Profile optimizasyonu, NAP (isim-adres-telefon) tutarlılığı ve yerel içerik stratejisi, bölgesel arama sonuçlarında öne çıkmanın temelini oluşturur.",
+    ]},
+    en: { h2: "Regional Visibility Through Local SEO", body: [
+      "For businesses with a physical location or serving a specific region, Google Business Profile optimization, NAP (name-address-phone) consistency and localized content strategy form the foundation of standing out in regional search results.",
+    ]}},
+  { id: 'eticaret-seo', type: 'text',
+    tr: { h2: "E-Ticaret SEO'sunda Özel Yaklaşımlar", body: [
+      "E-ticaret sitelerinde binlerce ürün ve kategori sayfası olabilir; bu ölçekte faceted navigation, ürün sayfası şablonları ve kategori içerik stratejisi klasik SEO'dan farklı bir yaklaşım gerektirir. Stok durumu değişen ürünlerde teknik yönlendirme kurallarının doğru kurulması, sıralamanın istikrarını korur.",
+    ]},
+    en: { h2: "Specialized Approaches for E-Commerce SEO", body: [
+      "E-commerce sites can have thousands of product and category pages; at that scale, faceted navigation, product page templates and category content strategy require a different approach than classic SEO. Correctly configured redirect rules for out-of-stock products protect ranking stability.",
+    ]}},
+  { id: 'olcumleme', type: 'text',
+    tr: { h2: "Ölçümleme, Raporlama ve Veri Analitiği", body: [
+      "Google Analytics 4 ve Search Console verileri düzenli olarak izlenmeden, hangi çalışmanın gerçekten sonuç verdiğini bilmek mümkün değildir. Aylık raporlamada yalnızca trafik sayısını değil, hangi sayfaların hangi kelimelerle ve hangi dönüşüm oranıyla performans gösterdiğini birlikte değerlendiriyorum.",
+    ]},
+    en: { h2: "Measurement, Reporting and Data Analytics", body: [
+      "Without regularly monitoring Google Analytics 4 and Search Console data, it's impossible to know which work is actually paying off. In monthly reporting, I look beyond raw traffic numbers to which pages perform for which keywords and at what conversion rate.",
+    ]}},
+  { id: 'seo-denetimi', type: 'text',
+    tr: { h2: "SEO Denetimi (Audit) Süreci Nasıl İşler?", body: [
+      "Her iş birliği, 100'den fazla kontrol noktasını kapsayan teknik ve içerik denetimiyle başlar: taranabilirlik, indeksleme, site hızı, içerik kalitesi ve backlink profili tek tek incelenir. Bu denetim, önceliklendirilmiş bir aksiyon planına dönüşür.",
+    ]},
+    en: { h2: "How the SEO Audit Process Works", body: [
+      "Every engagement starts with a technical and content audit covering 100+ checkpoints: crawlability, indexing, site speed, content quality and backlink profile are examined one by one. That audit becomes a prioritized action plan.",
+    ]}},
+  { id: 'site-migrasyonu', type: 'text',
+    tr: { h2: "Site Migrasyonu ve Teknik Geçişlerde Risk Yönetimi", body: [
+      "Domain değişikliği, platform geçişi veya site yeniden tasarımı, doğru yönetilmediğinde yıllarca biriken organik otoritenin kaybolmasına yol açabilir. URL eşleştirme, 301 yönlendirme planı ve geçiş sonrası izleme, bu risklerin önüne geçmenin tek yoludur.",
+    ]},
+    en: { h2: "Risk Management in Site Migrations and Technical Transitions", body: [
+      "A domain change, platform migration or site redesign — if mismanaged — can wipe out years of accumulated organic authority. URL mapping, a proper 301 redirect plan and post-migration monitoring are the only way to prevent that loss.",
+    ]}},
+  { id: 'neden-bagimsiz', type: 'cta',
+    tr: { h2: "Neden Bağımsız Bir SEO Danışmanı?", body: [
+      "8+ yıllık deneyimle 14 sektörde 150+ markaya danışmanlık verdim; hazırladığım her yol haritası o markaya özeldir, standart bir pakete sıkıştırılmaz. Hesabınız bir junior ekip üyesine devredilmez: sitenizi denetleyen kişi ile size her ay sonucu raporlayan kişi aynı kişidir.",
+    ]},
+    en: { h2: "Why Work with an Independent Consultant?", body: [
+      "With 8+ years of hands-on experience across 150+ brands in 14 sectors, every roadmap I build is tailored to that specific business — not a templated package. There's no account handoff to a junior team member: the person who audits your site is the same person who reports the results to you, every month.",
+    ]}},
+]
+
 export default function Page(props) {
+
   const router = useRouter()
   // ── Düzeltme: isEn pathname'e göre belirleniyor ──
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
@@ -223,6 +429,22 @@ export default function Page(props) {
       { threshold: 0.3 }
     )
     if (sayacRef.current) observer.observe(sayacRef.current)
+    return () => observer.disconnect()
+  }, [])
+
+  // Rehber bölümü: scroll ilerledikçe aktif başlığı takip eden İçindekiler
+  const [aktifRehberId, setAktifRehberId] = useState(GUIDE_SECTIONS[0].id)
+  const rehberRefs = useRef({})
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) setAktifRehberId(entry.target.id)
+        })
+      },
+      { rootMargin: '-15% 0px -70% 0px', threshold: 0 }
+    )
+    Object.values(rehberRefs.current).forEach(el => { if (el) observer.observe(el) })
     return () => observer.disconnect()
   }, [])
 
@@ -468,7 +690,7 @@ export default function Page(props) {
                 {isEn ? "Organic rankings, AI answer engines and LLM citation — strategy, technical execution and measurement, managed under one roof by a single dedicated consultant." : 'Organik sıralamalar, yapay zekâ yanıt motorları ve LLM kaynaklığı — strateji, teknik uygulama ve ölçümleme, tek bir uzman danışman çatısı altında yönetilir.'}
               </p>
               <div style={{ display: 'flex', gap: '8px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '28px' }}>
-                {['SEO', 'GEO', isEn ? 'AI SEO' : 'AI SEO'].map(tag => (
+                {['SEO', 'GEO', 'AI SEO'].map(tag => (
                   <span key={tag} style={{ fontSize: '12px', fontWeight: 700, color: '#ccc', padding: '6px 16px', borderRadius: '20px', border: '1px solid #333', background: '#171717' }}>{tag}</span>
                 ))}
               </div>
@@ -477,139 +699,130 @@ export default function Page(props) {
               </Link>
             </div>
 
-            {/* İçerik: sol TOC + sağ içerik */}
+            {/* İçerik: sol TOC (scroll ile hareket eden + aktif başlığı takip eden) + sağ içerik */}
             <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
+
               {/* Sol TOC */}
-              <div className="desktop-nav" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: '100px' }}>
+              <div className="desktop-nav" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: '100px', maxHeight: 'calc(100vh - 140px)', overflowY: 'auto' }}>
                 <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
                   {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  {[
-                    { id: 'seo-geo-birlikte', tr: 'SEO ve GEO Neden Birlikte?', en: 'Why SEO and GEO Together?' },
-                    { id: 'seo-gorunurluk', tr: 'SEO ile Görünürlük Artışı', en: 'Growing Visibility with SEO' },
-                    { id: 'geo-ai-kazanim', tr: 'GEO ve AI Kazanımları', en: 'What GEO & AI Bring You' },
-                    { id: 'neden-bagimsiz', tr: 'Neden Bağımsız Danışman?', en: 'Why an Independent Consultant?' },
-                  ].map(item => (
-                    <a key={item.id} href={`#${item.id}`} style={{ fontSize: '13px', color: '#aaa', padding: '9px 12px', borderRadius: '8px', textDecoration: 'none', fontFamily: 'var(--font-body)' }}
-                      onMouseEnter={e => { e.currentTarget.style.background = '#1e1e1e'; e.currentTarget.style.color = '#fff' }}
-                      onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#aaa' }}>
-                      {isEn ? item.en : item.tr}
-                    </a>
-                  ))}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                  {GUIDE_SECTIONS.map(sec => {
+                    const active = aktifRehberId === sec.id
+                    return (
+                      <a key={sec.id} href={`#${sec.id}`}
+                        style={{
+                          fontSize: '12.5px', lineHeight: 1.4, padding: '8px 12px', borderRadius: '8px', textDecoration: 'none', fontFamily: 'var(--font-body)',
+                          color: active ? '#fff' : '#999',
+                          background: active ? 'rgba(232,86,10,0.18)' : 'transparent',
+                          borderLeft: active ? '2px solid var(--orange)' : '2px solid transparent',
+                          fontWeight: active ? 700 : 400,
+                          transition: 'all 0.15s',
+                        }}>
+                        {isEn ? sec.en.h2 : sec.tr.h2}
+                      </a>
+                    )
+                  })}
                 </div>
               </div>
 
               {/* Sağ içerik */}
               <div style={{ background: '#fff', borderRadius: '16px', padding: '40px 44px', border: '1px solid #262626' }}>
 
-                <h3 id="seo-geo-birlikte" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
-                  {isEn ? 'Why SEO and GEO Should Be Handled Together' : 'SEO ve GEO Neden Birlikte Ele Alınmalı?'}
-                </h3>
-                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '16px' }}>
-                  {isEn
-                    ? <>Classic SEO aims to rank in search engine results pages, while <strong>GEO (Generative Engine Optimization)</strong> aims to get your content cited as a source inside AI-generated answers. These two disciplines aren't alternatives — they're complementary. For a brand to appear both in Google's classic results and in the source list of answers from ChatGPT, Perplexity or Google AI Overview, SEO and GEO work needs to move together.</>
-                    : <>Klasik SEO, arama motoru sonuç sayfalarında organik sıralama elde etmeyi hedeflerken; <strong>GEO (Generative Engine Optimization)</strong>, içeriklerin yapay zekâ tarafından üretilen yanıtlarda kaynak olarak alıntılanmasını amaçlar. Bu iki disiplin birbirinin alternatifi değil, tamamlayıcısıdır. Bir markanın hem Google'ın klasik sonuçlarında hem de ChatGPT, Perplexity veya Google AI Overview'ın yanıt kaynaklarında görünmesi için SEO ve GEO çalışmalarının eşgüdümlü yürütülmesi gerekir.</>}
-                </p>
-                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '32px' }}>
-                  {isEn
-                    ? <>My approach rests on three layers: <strong>technical foundation</strong> (site speed, crawlability, structured data, llms.txt, Core Web Vitals), <strong>content architecture</strong> (E-E-A-T signals, topical depth, citable Q&A blocks) and <strong>entity authority</strong> (Knowledge Graph consistency, digital PR mentions, community visibility).</>
-                    : <>Metodolojim üç katman üzerine kuruludur: <strong>teknik altyapı</strong> (site hızı, taranabilirlik, structured data, llms.txt dosyası, Core Web Vitals optimizasyonu), <strong>içerik mimarisi</strong> (E-E-A-T sinyalleri, konu bütünlüğü, soru-cevap formatında alıntılanabilir bilgi blokları) ve <strong>entity otoritesi</strong> (Knowledge Graph tutarlılığı, dijital PR bahsetmeleri, topluluk görünürlüğü).</>}
-                </p>
+                {GUIDE_SECTIONS.map(sec => {
+                  const t = isEn ? sec.en : sec.tr
+                  const isCta = sec.type === 'cta'
+                  return (
+                    <div key={sec.id} id={sec.id}
+                      ref={el => { if (el) rehberRefs.current[sec.id] = el }}
+                      style={{ scrollMarginTop: '100px', marginBottom: isCta ? '0' : '36px' }}>
+                      <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '21px', fontWeight: 800, color: '#111', marginBottom: '12px' }}>
+                        {t.h2}
+                      </h2>
+                      {t.body.map((p, i) => (
+                        <p key={i} style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: i === t.body.length - 1 && sec.type === 'text' ? '0' : '12px' }}>{p}</p>
+                      ))}
 
-                <h3 id="seo-gorunurluk" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
-                  {isEn ? 'How SEO Grows Your Search Visibility' : 'SEO ile Arama Görünürlüğü Nasıl Artırılır?'}
-                </h3>
-                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '20px' }}>
-                  {isEn
-                    ? 'Organic traffic alone is just a number. Qualified visibility means results that match real search intent — visitors who convert, not just visit. Here is how that visibility is built in practice:'
-                    : 'Organik trafik tek başına sadece bir sayıdır. Nitelikli görünürlük, arama niyetiyle örtüşen sonuçlar demektir — sadece ziyaret eden değil, dönüşen bir kitle. Bu görünürlük pratikte şu şekilde inşa edilir:'}
-                </p>
+                      {/* SEO tablosu */}
+                      {sec.type === 'table' && (
+                        <div style={{ borderRadius: '12px', border: '1px solid #eee', overflow: 'hidden', marginTop: '4px' }}>
+                          <div style={{ overflowX: 'auto' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '520px' }}>
+                              <thead>
+                                <tr style={{ background: '#1a1612' }}>
+                                  {(isEn ? ['Focus Area', 'What I Do', 'Impact for Your Brand'] : ['Uygulama Alanı', 'Yapılan Çalışma', 'Markaya Katkısı']).map((s, i) => (
+                                    <th key={i} style={{ padding: '14px 18px', textAlign: 'left', fontSize: '11px', fontWeight: 700, color: i === 0 ? '#aaa' : 'var(--orange)', letterSpacing: '1px', textTransform: 'uppercase' }}>{s}</th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {(isEn ? [
+                                  ['Technical Foundation', 'Site speed audit, crawlability fixes and Core Web Vitals optimization.', 'A faster site that search bots can crawl and index without friction.'],
+                                  ['Content Architecture', 'Content planning built on search intent and topical authority.', 'Content that matches what users are actually looking for.'],
+                                  ['Competitor & Market Analysis', 'Mapping gaps and opportunities specific to your sector.', 'Keywords with a faster, more realistic path to page one.'],
+                                  ['User Experience', 'Mobile responsiveness, page speed and simplified conversion flow.', 'Lower bounce rate and more qualified leads from the same traffic.'],
+                                  ['Measurement & Reporting', 'Monthly performance tracking and strategy adjustments.', 'A transparent process where you can see the return on your investment.'],
+                                ] : [
+                                  ['Teknik Altyapı', 'Site hızı denetimi, tarama hatalarının giderilmesi ve Core Web Vitals optimizasyonu.', 'Botların sorunsuz tarayıp indeksleyebildiği, hızlı bir site.'],
+                                  ['İçerik Mimarisi', "Arama niyetine ve topical authority'ye dayalı içerik planlaması.", 'Kullanıcının gerçekte aradığıyla örtüşen içerik.'],
+                                  ['Rakip & Pazar Analizi', 'Sektörünüze özgü boşlukların ve fırsatların haritalanması.', 'İlk sayfaya daha hızlı ve gerçekçi bir yol kat eden anahtar kelimeler.'],
+                                  ['Kullanıcı Deneyimi', 'Mobil uyumluluk, sayfa hızı ve sadeleştirilmiş dönüşüm akışı.', 'Daha düşük hemen çıkma oranı, aynı trafikten daha fazla nitelikli talep.'],
+                                  ['Ölçümleme & Raporlama', 'Aylık performans takibi ve strateji güncellemeleri.', 'Yatırımınızın karşılığını şeffaf biçimde gördüğünüz bir süreç.'],
+                                ]).map((row, i) => (
+                                  <tr key={i} style={{ borderBottom: '1px solid #f0f0f0', background: i % 2 === 0 ? '#fff' : '#faf9f7' }}>
+                                    {row.map((cell, j) => (
+                                      <td key={j} style={{ padding: '13px 18px', fontSize: '13.5px', color: j === 0 ? '#111' : '#555', fontWeight: j === 0 ? 700 : 400, lineHeight: 1.5 }}>{cell}</td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      )}
 
-                <div style={{ borderRadius: '12px', border: '1px solid #eee', overflow: 'hidden', marginBottom: '32px' }}>
-                  <div style={{ overflowX: 'auto' }}>
-                    <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '520px' }}>
-                      <thead>
-                        <tr style={{ background: '#1a1612' }}>
-                          {(isEn ? ['Focus Area', 'What I Do', 'Impact for Your Brand'] : ['Uygulama Alanı', 'Yapılan Çalışma', 'Markaya Katkısı']).map((s, i) => (
-                            <th key={i} style={{ padding: '14px 18px', textAlign: 'left', fontSize: '11px', fontWeight: 700, color: i === 0 ? '#aaa' : 'var(--orange)', letterSpacing: '1px', textTransform: 'uppercase' }}>{s}</th>
+                      {/* GEO kazanım listesi */}
+                      {sec.type === 'list' && (
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '4px' }}>
+                          {(isEn ? [
+                            'Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy.',
+                            "Classic ranking factors lean on link authority; GEO leans on semantic depth, citability and how directly your content answers a question.",
+                            'A page that ranks lower in classic search can still be the first source an AI system cites — if its answer is the clearest one available.',
+                            'Brands that establish themselves early in AI-driven discovery gain a durable edge as algorithms keep evolving.',
+                          ] : [
+                            'AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır.',
+                            'Klasik sıralama faktörleri link otoritesine yaslanırken; GEO, anlamsal derinliğe, alıntılanabilirliğe ve içeriğin soruyu ne kadar doğrudan yanıtladığına yaslanır.',
+                            'Klasik aramada gerilerde olan bir sayfa, en açık yanıtı verdiği için yapay zekâ tarafından ilk sırada kaynak gösterilebilir.',
+                            'Yapay zekâ destekli keşif sürecinde erken konumlanan markalar, algoritmalar geliştikçe kalıcı bir avantaj elde eder.',
+                          ]).map((txt, i) => (
+                            <div key={i} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', fontSize: '14px', color: '#444', lineHeight: 1.6 }}>
+                              <span style={{ color: 'var(--orange)', fontWeight: 800, flexShrink: 0 }}>→</span>
+                              <span>{txt}</span>
+                            </div>
                           ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {(isEn ? [
-                          ['Technical Foundation', 'Site speed audit, crawlability fixes and Core Web Vitals optimization.', 'A faster site that search bots can crawl and index without friction.'],
-                          ['Content Architecture', 'Content planning built on search intent and topical authority.', "Content that matches what users are actually looking for."],
-                          ['Competitor & Market Analysis', 'Mapping gaps and opportunities specific to your sector.', 'Keywords with a faster, more realistic path to page one.'],
-                          ['User Experience', 'Mobile responsiveness, page speed and simplified conversion flow.', 'Lower bounce rate and more qualified leads from the same traffic.'],
-                          ['Measurement & Reporting', 'Monthly performance tracking and strategy adjustments.', 'A transparent process where you can see the return on your investment.'],
-                        ] : [
-                          ['Teknik Altyapı', 'Site hızı denetimi, tarama hatalarının giderilmesi ve Core Web Vitals optimizasyonu.', 'Botların sorunsuz tarayıp indeksleyebildiği, hızlı bir site.'],
-                          ['İçerik Mimarisi', 'Arama niyetine ve topical authority\'ye dayalı içerik planlaması.', 'Kullanıcının gerçekte aradığıyla örtüşen içerik.'],
-                          ['Rakip & Pazar Analizi', 'Sektörünüze özgü boşlukların ve fırsatların haritalanması.', 'İlk sayfaya daha hızlı ve gerçekçi bir yol kat eden anahtar kelimeler.'],
-                          ['Kullanıcı Deneyimi', 'Mobil uyumluluk, sayfa hızı ve sadeleştirilmiş dönüşüm akışı.', 'Daha düşük hemen çıkma oranı, aynı trafikten daha fazla nitelikli talep.'],
-                          ['Ölçümleme & Raporlama', 'Aylık performans takibi ve strateji güncellemeleri.', 'Yatırımınızın karşılığını şeffaf biçimde gördüğünüz bir süreç.'],
-                        ]).map((row, i) => (
-                          <tr key={i} style={{ borderBottom: '1px solid #f0f0f0', background: i % 2 === 0 ? '#fff' : '#faf9f7' }}>
-                            {row.map((cell, j) => (
-                              <td key={j} style={{ padding: '13px 18px', fontSize: '13.5px', color: j === 0 ? '#111' : '#555', fontWeight: j === 0 ? 700 : 400, lineHeight: 1.5 }}>{cell}</td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+                        </div>
+                      )}
 
-                <h3 id="geo-ai-kazanim" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
-                  {isEn ? 'What GEO and AI Visibility Bring to Your Brand' : 'GEO ve AI Görünürlüğü Markanıza Ne Kazandırır?'}
-                </h3>
-                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '14px' }}>
-                  {isEn
-                    ? 'Search habits are shifting from typed queries to conversational, answer-first interactions. GEO work makes your brand crawlable, understandable and citable by AI systems:'
-                    : 'Arama alışkanlıkları, yazılı sorgulardan sohbet temelli ve doğrudan yanıt odaklı etkileşime kayıyor. GEO çalışması, markanızı yapay zekâ sistemleri tarafından taranabilir, anlaşılabilir ve alıntılanabilir hale getirir:'}
-                </p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '32px' }}>
-                  {(isEn ? [
-                    'Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy.',
-                    "Classic ranking factors lean on link authority; GEO leans on semantic depth, citability and how directly your content answers a question.",
-                    'A page that ranks lower in classic search can still be the first source an AI system cites — if its answer is the clearest one available.',
-                    'Brands that establish themselves early in AI-driven discovery gain a durable edge as algorithms keep evolving.',
-                  ] : [
-                    "AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır.",
-                    'Klasik sıralama faktörleri link otoritesine yaslanırken; GEO, anlamsal derinliğe, alıntılanabilirliğe ve içeriğin soruyu ne kadar doğrudan yanıtladığına yaslanır.',
-                    'Klasik aramada gerilerde olan bir sayfa, en açık yanıtı verdiği için yapay zekâ tarafından ilk sırada kaynak gösterilebilir.',
-                    'Yapay zekâ destekli keşif sürecinde erken konumlanan markalar, algoritmalar geliştikçe kalıcı bir avantaj elde eder.',
-                  ]).map((txt, i) => (
-                    <div key={i} style={{ display: 'flex', gap: '10px', alignItems: 'flex-start', fontSize: '14px', color: '#444', lineHeight: 1.6 }}>
-                      <span style={{ color: 'var(--orange)', fontWeight: 800, flexShrink: 0 }}>→</span>
-                      <span>{txt}</span>
+                      {/* Kapanış CTA */}
+                      {isCta && (
+                        <div style={{ background: '#faf9f7', borderRadius: '14px', padding: '28px 32px', border: '1px solid #ede8e0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '20px', flexWrap: 'wrap', marginTop: '20px' }}>
+                          <div>
+                            <div style={{ fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '4px' }}>
+                              {isEn ? 'Want a roadmap tailored to your brand?' : 'Markanıza özel bir yol haritası ister misiniz?'}
+                            </div>
+                            <div style={{ fontSize: '14px', color: '#777' }}>
+                              {isEn ? 'Book a free discovery call — no obligation.' : 'Ücretsiz keşif görüşmesi için hemen randevu alın.'}
+                            </div>
+                          </div>
+                          <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '12px 26px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap' }}>
+                            {isEn ? 'Book a Free Call →' : 'Ücretsiz Görüşme →'}
+                          </Link>
+                        </div>
+                      )}
                     </div>
-                  ))}
-                </div>
-
-                <h3 id="neden-bagimsiz" style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111', marginBottom: '14px', scrollMarginTop: '100px' }}>
-                  {isEn ? 'Why Work with an Independent Consultant?' : 'Neden Bağımsız Bir SEO Danışmanı?'}
-                </h3>
-                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.8, marginBottom: '28px' }}>
-                  {isEn
-                    ? "With 8+ years of hands-on experience across 150+ brands in 14 sectors, every roadmap I build is tailored to that specific business — not a templated package. There's no account handoff to a junior team member: the person who audits your site is the same person who reports the results to you, every month."
-                    : "8+ yıllık deneyimle 14 sektörde 150+ markaya danışmanlık verdim; hazırladığım her yol haritası o markaya özeldir, standart bir pakete sıkıştırılmaz. Hesabınız bir junior ekip üyesine devredilmez: sitenizi denetleyen kişi ile size her ay sonucu raporlayan kişi aynı kişidir."}
-                </p>
-
-                <div style={{ background: '#faf9f7', borderRadius: '14px', padding: '28px 32px', border: '1px solid #ede8e0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '20px', flexWrap: 'wrap' }}>
-                  <div>
-                    <div style={{ fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '4px' }}>
-                      {isEn ? 'Want a roadmap tailored to your brand?' : 'Markanıza özel bir yol haritası ister misiniz?'}
-                    </div>
-                    <div style={{ fontSize: '14px', color: '#777' }}>
-                      {isEn ? 'Book a free discovery call — no obligation.' : 'Ücretsiz keşif görüşmesi için hemen randevu alın.'}
-                    </div>
-                  </div>
-                  <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '12px 26px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap' }}>
-                    {isEn ? 'Book a Free Call →' : 'Ücretsiz Görüşme →'}
-                  </Link>
-                </div>
+                  )
+                })}
 
               </div>
             </div>
