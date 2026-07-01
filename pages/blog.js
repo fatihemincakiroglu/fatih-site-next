@@ -157,6 +157,10 @@ const YAZILAR = [
     tr: { baslik: "SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye'den Örnekler", ozet: "Referanslar, şeffaflık ve sektör deneyimi gibi kriterlerle SEO ajansı seçimi — Türkiye'den alfabetik, tarafsız örnekler." },
     en: { baslik: 'How to Choose an SEO Agency: Criteria and Examples from Turkey', ozet: 'Choosing an SEO agency based on references, transparency and industry experience — an alphabetical, unranked overview from Turkey.' },
   },
+  { slug: 'turkiye-en-iyi-15-seo-ajansi-2026', kategori: 'strategy', sure: 10, featured: false,
+    tr: { baslik: "Türkiye'nin En İyi 15 SEO Ajansı - Güncel 2026", ozet: "2026 için güncellenen, alfabetik ve sıralama içermeyen 15 tanınmış SEO ajansı listesi ve seçim kriterleri." },
+    en: { baslik: "Turkey's Best 15 SEO Agencies - Updated 2026", ozet: 'An alphabetical, unranked list of 15 well-known SEO agencies in Turkey for 2026, plus selection criteria.' },
+  },
 ]
 
 const KAT_MAP = { technical: 'technical', geo: 'geo', content: 'content', backlink: 'backlink', ecommerce: 'ecommerce', analytics: 'analytics', local: 'local', strategy: 'strategy' }

@@ -108,6 +108,79 @@ const ICERIKLER = {
       ]},
     ],
   },
+  'turkiye-en-iyi-15-seo-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 15 SEO Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 15 SEO Agencies - Updated 2026",
+    meta_desc_tr: "Türkiye'de tanınan 15 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
+    meta_desc_en: "An alphabetical, unranked overview of 15 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
+    etiket: 'Strateji', sure: '10',
+    bolumler_tr: [
+      { baslik: "Türkiye'de SEO Ajansı Piyasası Neden Büyüyor?", paragraflar: [
+        "2026 itibarıyla Türkiye'deki dijital pazarlama bütçelerinin önemli bir kısmı SEO ve arama motoru görünürlüğüne ayrılıyor. Artan reklam maliyetleri ve kullanıcı davranışının klasik aramadan yapay zekâ destekli araçlara doğru genişlemesi, markaları hem SEO'da hem de GEO'da güçlü bir ortakla çalışmaya yönlendiriyor.",
+        "Bu artan talep, kuruluş yılı, hizmet kapsamı ve sektör uzmanlığı birbirinden farklı düzinelerce SEO ajansının Türkiye'de ortaya çıkmasını sağladı. Aşağıda, kamuya açık bilgilerden derlediğimiz 15 tanınmış ismi tanıtıyoruz.",
+      ]},
+      { baslik: 'Bu Liste Nasıl Hazırlandı?', paragraflar: [
+        "Bu içerikte 'en iyi' ifadesi bir performans iddiası değil; sektörde adı sık geçen, kuruluş süresi ve hizmet çeşitliliğiyle dikkat çeken ajansları tanımlamak için kullanılıyor. Liste alfabetik sıradadır; numaralandırma yalnızca okunabilirlik içindir ve herhangi bir üstünlük veya performans sıralaması ifade etmez.",
+        "Hiçbir ajansla ticari bir ilişkimiz bulunmuyor ve bu içerik sponsorlu değildir. Nihai seçiminizi, 'SEO Ajansı Nasıl Seçilir?' başlıklı rehberimizde paylaştığımız kriterlere (referanslar, şeffaflık, sektör deneyimi, sözleşme şartları) göre kendiniz değerlendirmelisiniz.",
+      ]},
+      { baslik: "Türkiye'de Tanınan 15 SEO Ajansı (Alfabetik)", paragraflar: [
+        "Sıra numaraları yalnızca listeyi takip etmenizi kolaylaştırmak içindir, bir sıralama ifade etmez.",
+      ], linkler: [
+        { isim: '1. Adsera', aciklama: "2018'de kurulan Adsera, SEO'yu performans pazarlama ve dönüşüm optimizasyonuyla tek bir sistemde ele alıyor; özellikle e-ticaret ve rekabetin yüksek olduğu sektörlerde arama niyetine dayalı içerik ve çok kanallı reklam stratejileri kuruyor.", url: 'https://adsera.co' },
+        { isim: '2. Analytica House', aciklama: "2016'da kurulan Analytica House, SEO çalışmalarını GA4 ve BigQuery gibi gelişmiş analitik entegrasyonlarla destekleyerek performansı ölçülebilir hale getiren bir yaklaşım benimsiyor.", url: 'https://www.analyticahouse.com' },
+        { isim: '3. Aora Digital Agency', aciklama: "2008'den beri hizmet veren Aora, SEO'nun yanı sıra web tasarımı, mobil uygulama tasarımı, sosyal medya yönetimi ve dijital pazarlama hizmetlerini bir arada sunan köklü bir ajans.", url: 'https://www.aora.com.tr' },
+        { isim: '4. Crabs Media', aciklama: "2007'de kurulan Crabs Media; teknik SEO, içerik optimizasyonu ve anahtar kelime stratejisine odaklanırken, GEO yaklaşımıyla yapay zekâ destekli arama deneyimlerinde de görünürlük çalışmaları yürütüyor.", url: 'https://www.crabsmedia.com' },
+        { isim: '5. Cremicro', aciklama: "Türkiye'nin köklü SEO ajanslarından biri olan Cremicro, çok dilli ekibiyle uluslararası projelere danışmanlık veriyor ve özel altyapılı projelerde de markaya özel süreçler yönetiyor.", url: 'https://www.cremicro.com' },
+        { isim: '6. GroupM Türkiye', aciklama: "2003'te kurulan GroupM, global deneyimi yerel pazar dinamikleriyle birleştiren büyük ölçekli bir medya ve performans ajansı; SEO'yu içerik pazarlaması ve medya planlamasıyla entegre yürütüyor." },
+        { isim: '7. Kriko', aciklama: "2017'de kurulan Kriko, SEO süreçlerinde çevik (agile) bir yaklaşım benimsiyor ve kullanıcı davranışı analiziyle UX-SEO entegrasyonuna odaklanıyor; kurucu ekip e-ticaret alanında deneyimli.", url: 'https://www.kriko.io' },
+        { isim: '8. Magna Dijital', aciklama: "2015'te kurulan Magna Dijital, performans pazarlamasını SEO ile bütünleşik yürüten hibrit bir ajans; Google Partner sertifikalı ölçümleme uzmanlığına sahip.", url: 'https://www.magnadijital.com.tr' },
+        { isim: '9. Mobitek', aciklama: "2003'te kurulan Mobitek, mobil uygulama SEO'su, sayfa hızı optimizasyonu ve App Store görünürlüğü (ASO) konularında uzmanlaşmış bir ajans.", url: 'https://www.mobitek.com' },
+        { isim: '10. Mosanta', aciklama: "Teknik SEO ve organik trafik optimizasyonunda uzmanlaşan Mosanta, algoritma değişimlerine hızlı uyum sağlayabilen adaptif bir yapıya sahip; e-ticaret, finans ve B2B alanlarında deneyimli.", url: 'https://www.mosanta.com' },
+        { isim: '11. Oppmind', aciklama: "2023'te kurulan Oppmind, teknik site optimizasyonu, sayfa hızı iyileştirmesi ve anahtar kelime haritalamasına odaklanan; yapay zekâ destekli analiz araçları kullanan görece genç bir ekip.", url: 'https://www.oppmind.com' },
+        { isim: '12. Sempeak', aciklama: "2012'de kurulan Sempeak, dijital büyüme odaklı bir yaklaşımla çok dilli SEO ve UX optimizasyonuna odaklanıyor; küresel markalarla uluslararası bir referans portföyüne sahip.", url: 'https://www.sempeak.com' },
+        { isim: '13. Stradiji', aciklama: "2009'da kurulan Stradiji, SEO'yu bir büyüme stratejisi olarak konumlandıran butik bir danışmanlık ajansı; anahtar kelime araştırmasını içerik pazarlama planlarına entegre ediyor.", url: 'https://www.stradiji.com' },
+        { isim: '14. Webtures', aciklama: "2011'de kurulan Webtures, 'kullanıcı merkezli SEO' anlayışıyla tanınıyor; kendi geliştirdiği SEO analiz araçlarını kullanarak dönüşüm oranı optimizasyonuna da odaklanıyor.", url: 'https://www.webtures.com' },
+        { isim: '15. ZEO', aciklama: "2012'de kurulan ZEO, gelişmiş crawling, log analizi ve yapısal veri (schema) uygulamalarıyla tanınıyor; düzenlediği Digitalzone etkinliğiyle sektöre bilgi paylaşıyor.", url: 'https://zeo.org' },
+      ]},
+      { baslik: 'Sonuç', paragraflar: [
+        "Bu derleme bir performans karşılaştırması değildir; sektördeki tanınmış isimleri bir araya getiren bilgilendirici bir kaynaktır. Her ajansın odaklandığı alan farklı olduğu için, işletmenizin büyüklüğüne, sektörüne ve hedeflerine en uygun ortağı belirlemek size kalıyor.",
+        "Karar vermeden önce birden fazla ajansla görüşmenizi, teklif edilen stratejiyi somut örneklerle desteklemelerini istemenizi ve sözleşme şartlarını dikkatle incelemenizi öneririz.",
+      ]},
+    ],
+    bolumler_en: [
+      { baslik: "Why Is Turkey's SEO Agency Market Growing?", paragraflar: [
+        "As of 2026, a significant share of digital marketing budgets in Turkey goes toward SEO and search visibility. Rising ad costs, together with user behavior shifting from classic search toward AI-powered tools, is pushing brands to find a strong partner for both classic SEO and GEO.",
+        "This growing demand has led to dozens of SEO agencies emerging in Turkey, each with a different founding year, service scope and industry focus. Below, we introduce 15 well-known names compiled from publicly available information.",
+      ]},
+      { baslik: 'How This List Was Put Together', paragraflar: [
+        "In this piece, 'best' isn't a performance claim — it describes agencies that come up often in the industry and stand out for their longevity and range of services. The list is alphabetical; the numbering is for readability only and carries no ranking or preference.",
+        "We have no commercial relationship with any of these agencies, and this content isn't sponsored. Your final decision should be based on the criteria from our other guide, 'How to Choose an SEO Agency' — references, transparency, industry experience and contract terms.",
+      ]},
+      { baslik: '15 Well-Known SEO Agencies in Turkey (Alphabetical)', paragraflar: [
+        "The numbers below are only there to help you follow the list — they don't represent a ranking.",
+      ], linkler: [
+        { isim: '1. Adsera', aciklama: 'Founded in 2018, Adsera manages SEO and performance marketing within a single system, building search-intent content and multi-channel ad strategies especially for e-commerce and highly competitive sectors.', url: 'https://adsera.co' },
+        { isim: '2. Analytica House', aciklama: 'Founded in 2016, Analytica House takes a data-driven approach, supporting SEO work with advanced analytics integrations like GA4 and BigQuery to make performance measurable.', url: 'https://www.analyticahouse.com' },
+        { isim: '3. Aora Digital Agency', aciklama: 'Operating since 2008, Aora is a well-established agency offering SEO alongside web design, mobile app design, social media management and digital marketing.', url: 'https://www.aora.com.tr' },
+        { isim: '4. Crabs Media', aciklama: 'Founded in 2007, Crabs Media focuses on technical SEO, content optimization and keyword strategy, while also working on visibility in AI-powered search experiences through a GEO-oriented approach.', url: 'https://www.crabsmedia.com' },
+        { isim: '5. Cremicro', aciklama: "One of Turkey's more established SEO agencies, Cremicro advises on international projects with its multilingual team and manages custom processes for non-standard technical setups.", url: 'https://www.cremicro.com' },
+        { isim: '6. GroupM Turkey', aciklama: 'Founded in 2003, GroupM is a large-scale media and performance agency that blends global experience with local market dynamics, running SEO in tandem with content marketing and media planning.' },
+        { isim: '7. Kriko', aciklama: "Founded in 2017, Kriko takes an agile approach to SEO and focuses on UX-SEO integration through user behavior analysis; its founding team has deep e-commerce experience.", url: 'https://www.kriko.io' },
+        { isim: '8. Magna Dijital', aciklama: 'Founded in 2015, Magna Dijital is a hybrid agency that manages performance marketing and SEO together, with Google Partner certified measurement expertise.', url: 'https://www.magnadijital.com.tr' },
+        { isim: '9. Mobitek', aciklama: 'Founded in 2003, Mobitek specializes in mobile app SEO, page speed optimization and App Store Optimization (ASO).', url: 'https://www.mobitek.com' },
+        { isim: '10. Mosanta', aciklama: 'Specialized in technical SEO and organic traffic optimization, Mosanta has an adaptive structure that responds quickly to algorithm changes, with experience in e-commerce, finance and B2B.', url: 'https://www.mosanta.com' },
+        { isim: '11. Oppmind', aciklama: 'Founded in 2023, Oppmind is a relatively young team focused on technical site optimization, page speed improvements and keyword mapping, using AI-assisted analysis tools.', url: 'https://www.oppmind.com' },
+        { isim: '12. Sempeak', aciklama: 'Founded in 2012, Sempeak takes a growth-focused approach centered on multilingual SEO and UX optimization, with an international reference portfolio of global brands.', url: 'https://www.sempeak.com' },
+        { isim: '13. Stradiji', aciklama: 'Founded in 2009, Stradiji is a boutique consultancy that positions SEO as a growth strategy, integrating keyword research into content marketing plans.', url: 'https://www.stradiji.com' },
+        { isim: '14. Webtures', aciklama: "Founded in 2011, Webtures is known for its 'user-centric SEO' philosophy, using its own in-house SEO analysis tools while also focusing on conversion rate optimization.", url: 'https://www.webtures.com' },
+        { isim: '15. ZEO', aciklama: 'Founded in 2012, ZEO is known for advanced crawling, log file analysis and structured data (schema) implementations, and shares industry knowledge through its Digitalzone event.', url: 'https://zeo.org' },
+      ]},
+      { baslik: 'Conclusion', paragraflar: [
+        "This roundup isn't a performance comparison — it's an informational resource bringing together recognized names in the industry. Since each agency focuses on different strengths, choosing the right partner depends on your business size, sector and goals.",
+        "Before deciding, we'd recommend talking to more than one agency, asking them to back their proposed strategy with concrete examples, and reviewing contract terms carefully.",
+      ]},
+    ],
+  },
 }
 
 function getDefaultContent(slug, isEn) {
