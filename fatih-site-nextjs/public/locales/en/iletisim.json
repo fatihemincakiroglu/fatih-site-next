@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "title": "Contact | Fatih Emin Çakıroğlu",
+    "description": "Get in touch with Fatih Emin Çakıroğlu. Book a free SEO consulting session."
+  },
+  "baslik": "Contact",
+  "form": {
+    "isim": "Full Name",
+    "email": "Email Address",
+    "mesaj": "Your Message",
+    "gonder": "Send Message →"
+  }
+}

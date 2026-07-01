@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "hizmetler": "Hizmetler",
+    "hakkimda": "Hakkımda",
+    "kaynaklar": "Kaynaklar",
+    "araclar": "Araçlar",
+    "rehber": "Rehber",
+    "blog": "Blog",
+    "iletisim": "İletişim"
+  },
+  "footer": {
+    "aciklama": "SEO ve GEO danışmanlığıyla organik büyümenizi hızlandırıyorum.",
+    "iletisim": "İletişime Geç →",
+    "haklar": "Tüm hakları saklıdır."
+  },
+  "cta": {
+    "teklif": "Ücretsiz Teklif Al",
+    "randevu": "Randevu Al",
+    "iletisim": "İletişime Geç →",
+    "ucretsiz": "İlk görüşme tamamen ücretsiz"
+  }
+}

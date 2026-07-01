@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "SEO UZMANI · GEO · DİJİTAL PAZARLAMA",
+    "baslik1": "SEO ve GEO ile",
+    "baslik2": "Arama Görünürlüğünüzü",
+    "baslik3": "Baştan Tasarlayın",
+    "aciklama": "150+ işletmenin Google ve yapay zekâ aramalarındaki görünürlüğünü artırdım. Veriye dayalı SEO & GEO stratejisiyle kalıcı büyüme sağlıyorum.",
+    "input": "Alan adınızı girin...",
+    "analiz": "Analiz Et",
+    "teklif": "Ücretsiz Teklif Al",
+    "teklif_alt": "24 saat içinde özel SEO ve GEO stratejiniz",
+    "sosyal": "Domain bilgisi alıp ücretsiz AI audit yapalım."
+  },
+  "referanslar": {
+    "baslik": "Lider markaların",
+    "vurgu": "seçimi.",
+    "aciklama": "SEO, içerik, yapay zekâ ve GEO ile arama ekosisteminde görünürlük; 150+ markaya danışmanlık.",
+    "marka": "Aktif marka",
+    "sektor": "Sektör"
+  },
+  "hizmetler": {
+    "badge": "SEO EN ÖNEMLİ TRAFİK KANALI",
+    "baslik": "Sürdürülebilir SEO ile Rekabetinizde Lider Olun",
+    "aciklama": "Teknik SEO, içerik stratejisi ve AI optimizasyonunu birleştiren bütünsel yaklaşımımızla markanızın dijital büyümesini hızlandırıyoruz.",
+    "analiz_btn": "Siteniz için SEO Analizi Talep Et",
+    "oncesi": "ÖNCESİ",
+    "sonrasi": "SONRASI",
+    "aylik_oturum": "aylık oturum",
+    "ai_visibility": "AI visibility"
+  },
+  "testimonials": {
+    "badge": "MÜŞTERİ YORUMLARI",
+    "baslik": "Müşterilerin Deneyimleri",
+    "aciklama": "Çok farklı sektörlerde, birlikte yürüttüğümüz projelerde elde ettiğimiz etkileri doğrudan ekiplerden dinleyin."
+  },
+  "blog": {
+    "badge": "BLOG",
+    "baslik1": "SEO'nun yeni",
+    "vurgu": "sanatı,",
+    "baslik2": "haftalık notlar.",
+    "aciklama": "SEO, GEO ve yapay zekâ aramalarında görünürlük: güncel içgörüler ve uygulanabilir çerçeveler.",
+    "tum_yazilar": "Tüm yazılar →",
+    "son_eklenenler": "SON EKLENENLER",
+    "yazar": "YAZAR",
+    "sure": "SÜRE"
+  },
+  "araclar_bant": {
+    "baslik": "ÇALIŞMA ARAÇLARI",
+    "alt": "Veri ve",
+    "vurgu": "AI araçları"
+  },
+  "cta_son": {
+    "baslik1": "Siteniz için ücretsiz",
+    "vurgu": "keşif görüşmesi",
+    "aciklama": "Hedeflerinizi değerlendirip size özel SEO ve GEO yol haritası oluşturuyorum. Tamamen ücretsiz."
+  }
+}
