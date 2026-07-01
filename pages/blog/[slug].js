@@ -25,6 +25,89 @@ const ICERIKLER = {
       { baslik: 'CWV Strategy by Industry', paragraflar: ['For e-commerce sites, LCP is usually determined by product images. Serving high-resolution product photos via CDN and converting to WebP are priority steps.', 'For news and blog sites, CLS can be a critical issue. Dynamically loading ad units and social media widgets are the main CLS sources.', 'SaaS and enterprise sites often face INP issues due to third-party script density. Loading non-critical scripts after user interaction provides significant INP gains.'] },
     ],
   },
+  'seo-ajansi-nasil-secilir': {
+    baslik_tr: "SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye'den Örnekler",
+    baslik_en: 'How to Choose an SEO Agency: Criteria and Examples from Turkey',
+    meta_desc_tr: "SEO ajansı seçerken hangi kriterlere bakılmalı? Türkiye'de bilinen SEO ajanslarından alfabetik, tarafsız bir liste ve pratik bir seçim rehberi.",
+    meta_desc_en: 'What to look for when choosing an SEO agency — an alphabetical, unranked overview of well-known SEO agencies in Turkey plus a practical selection guide.',
+    etiket: 'Strateji', sure: '9',
+    bolumler_tr: [
+      { baslik: 'Neden Bir SEO Ajansıyla Çalışmalısınız?', paragraflar: [
+        "Reklam maliyetlerinin yükselmesi ve kullanıcıların arama motorlarına olan bağımlılığının artması, organik görünürlüğü işletmeler için giderek daha kritik hale getiriyor. SEO, tek seferlik bir proje değil; teknik altyapı, içerik ve otorite sinyallerinin sürekli yönetildiği uzun soluklu bir çalışma alanı.",
+        "Bu nedenle birçok marka, süreci kendi bünyesinde yönetmek yerine bu alanda uzmanlaşmış bir ajansla veya bağımsız bir danışmanla çalışmayı tercih ediyor. Doğru seçim, hem zamandan hem de bütçeden tasarruf ettirirken sürdürülebilir bir organik büyüme sağlayabilir.",
+      ]},
+      { baslik: 'SEO Ajansı Seçerken Nelere Dikkat Edilmeli?', paragraflar: [
+        "Bir ajansı değerlendirirken bakılması gereken ilk şey, geçmiş projelerdeki somut sonuçlardır. Vaka çalışmaları, referanslar ve ölçülebilir metrikler (organik trafik artışı, sıralanan anahtar kelime sayısı gibi) iddiaların gerçekliğini test etmenin en güvenilir yoludur.",
+        "Sektör deneyimi de göz ardı edilmemesi gereken bir kriterdir. E-ticaret, sağlık, B2B veya yerel hizmet gibi alanların her biri farklı teknik ve içerik yaklaşımları gerektirir; sizin sektörünüzde çalışmış bir ekip, öğrenme eğrisini kısaltır.",
+        "Şeffaflık da en az bunlar kadar önemlidir: aylık raporlamanın ne içerdiği, hangi metriklerin takip edildiği ve stratejinin nasıl güncellendiği net olmalı. Sözleşme şartlarını, minimum taahhüt süresini ve fiyatlandırma modelini (aylık retainer, proje bazlı, performans bazlı) başlangıçta netleştirmek ileride yaşanabilecek belirsizlikleri önler.",
+        "Son olarak, hesabınızın kim tarafından yönetileceğini sorun. Büyük ajanslarda bazen satış sürecinde görüştüğünüz kişi ile projeyi yürüten ekip farklı olabilir; bu durumun sizin için ne anlama geldiğini değerlendirin.",
+      ]},
+      { baslik: "Türkiye'de Bilinen SEO Ajanslarından Örnekler", paragraflar: [
+        "Aşağıdaki liste, kamuya açık bilgilerden derlenmiştir, alfabetik sıradadır ve herhangi bir sıralama veya öneri iddiası taşımaz. Amaç, araştırma sürecinizde başlangıç noktası olabilecek bilinen isimleri bir arada sunmaktır — nihai değerlendirme yukarıdaki kriterlere göre size aittir.",
+      ], linkler: [
+        { isim: 'Adsera', aciklama: "2018'de kurulan, SEO'yu performans pazarlama ve dönüşüm optimizasyonuyla birlikte ele alan İstanbul merkezli bir ajans.", url: 'https://adsera.co' },
+        { isim: 'Adverpeak', aciklama: "SEO, Google Ads, sosyal medya ve web tasarımını bir arada sunan; sağlık turizmi ve B2B gibi sektörlerde referansları olan İstanbul merkezli bir ajans.", url: 'https://www.adverpeak.com' },
+        { isim: 'Analytica House', aciklama: "2016'da kurulan, SEO çalışmalarını GA4 ve BigQuery gibi analitik entegrasyonlarla destekleyen İstanbul merkezli bir ajans.", url: 'https://www.analyticahouse.com' },
+        { isim: 'Aora Digital Agency', aciklama: "2008'den beri hizmet veren, SEO'nun yanı sıra web ve mobil uygulama tasarımı da sunan İstanbul merkezli bir ajans.", url: 'https://www.aora.com.tr' },
+        { isim: 'Crabs Media', aciklama: "2007'de kurulan, teknik SEO ve GEO odaklı çalışmalar yürüten İstanbul merkezli bir ajans.", url: 'https://www.crabsmedia.com' },
+        { isim: 'Cremicro', aciklama: "2013'te kurulan, çok dilli ekibiyle uluslararası SEO projelerine de danışmanlık veren İstanbul merkezli bir ajans.", url: 'https://www.cremicro.com' },
+        { isim: 'Kriko', aciklama: "2017'de kurulan, e-ticaret SEO'suna odaklanan İstanbul merkezli bir ajans.", url: 'https://www.kriko.io' },
+        { isim: 'Magna Dijital', aciklama: "2015'te kurulan, SEO'yu performans pazarlama kampanyalarıyla birlikte yöneten İstanbul merkezli bir ajans.", url: 'https://www.magnadijital.com.tr' },
+        { isim: 'Mobitek', aciklama: "2003'te kurulan, mobil uygulama SEO'su ve App Store görünürlüğü (ASO) konularında uzmanlaşmış İstanbul merkezli bir ajans.", url: 'https://www.mobitek.com' },
+        { isim: 'Mosanta', aciklama: "Teknik SEO ve organik trafik optimizasyonuna odaklanan, e-ticaret ve B2B alanlarında deneyimli İstanbul merkezli bir ajans.", url: 'https://www.mosanta.com' },
+        { isim: 'Oppmind', aciklama: "2023'te kurulan, teknik site optimizasyonu ve anahtar kelime haritalamasına odaklanan görece yeni bir İstanbul ajansı.", url: 'https://www.oppmind.com' },
+        { isim: 'Sempeak', aciklama: "2012'de kurulan, çok dilli SEO ve kurumsal site yapılandırmalarında deneyimli İstanbul merkezli bir ajans.", url: 'https://www.sempeak.com' },
+        { isim: 'Stradiji', aciklama: "2009'da kurulan, SEO'yu uzun vadeli bir büyüme stratejisi olarak konumlandıran butik bir İstanbul ajansı.", url: 'https://www.stradiji.com' },
+        { isim: 'Webtures', aciklama: "2011'de kurulan, kullanıcı deneyimi ve dönüşüm oranı optimizasyonunu SEO ile birlikte ele alan İstanbul merkezli bir ajans.", url: 'https://www.webtures.com' },
+        { isim: 'ZEO', aciklama: "2012'de kurulan, teknik SEO ve yapısal veri (schema) uygulamalarıyla tanınan Ankara/İstanbul merkezli bir ajans.", url: 'https://zeo.org' },
+      ]},
+      { baslik: 'Diğer Bilinen İsimler', paragraflar: [
+        "Kamuya açık bir web sitesi adresine bu araştırma sırasında ulaşamadığımız için doğrudan bağlantı vermediğimiz, ancak sektörde adı geçen diğer ajanslar arasında Digipeak Agency, GroupM Türkiye, Netvent, ROIBLE, Sıradışı Digital, Türk SEM ve Webonya da yer alıyor.",
+      ]},
+      { baslik: 'Sonuç Olarak Karar Size Ait', paragraflar: [
+        "Bu liste bir tavsiye ya da sıralama değil, araştırmanıza başlangıç noktası olması amaçlanan bilgilendirici bir derlemedir. Her ajansın güçlü olduğu alan farklıdır; sizin için doğru olan, kendi hedefleriniz, bütçeniz ve sektörünüzle en iyi örtüşen ekiptir.",
+        "Karar vermeden önce en az iki veya üç ajansla görüşüp aynı soruları sormanızı, referanslarını doğrulamanızı ve teklif edilen stratejinin sizin iş hedeflerinizle ne kadar örtüştüğünü değerlendirmenizi öneririm.",
+      ]},
+    ],
+    bolumler_en: [
+      { baslik: 'Why Work with an SEO Agency?', paragraflar: [
+        "Rising ad costs and growing dependence on search engines are making organic visibility increasingly critical for businesses. SEO isn't a one-time project — it's an ongoing effort where technical foundation, content and authority signals all need continuous management.",
+        "For this reason, many brands choose to work with a specialized agency or an independent consultant rather than managing the process entirely in-house. The right choice can save both time and budget while delivering sustainable organic growth.",
+      ]},
+      { baslik: 'What to Look for When Choosing an SEO Agency', paragraflar: [
+        "The first thing to evaluate is concrete results from past projects. Case studies, testimonials and measurable metrics — like organic traffic growth or the number of ranking keywords — are the most reliable way to test any claim.",
+        "Industry experience also matters. E-commerce, healthcare, B2B and local service businesses each require different technical and content approaches; a team that has already worked in your industry shortens the learning curve.",
+        "Transparency is just as important: what monthly reporting actually covers, which metrics are tracked, and how strategy gets adjusted should all be clear upfront. Clarifying contract terms, minimum commitment periods and the pricing model (monthly retainer, project-based, performance-based) early on prevents ambiguity later.",
+        "Finally, ask who will actually manage your account. At larger agencies, the person you speak with during sales isn't always the person running your project — it's worth understanding what that means for you.",
+      ]},
+      { baslik: 'Examples of Well-Known SEO Agencies in Turkey', paragraflar: [
+        "The list below is compiled from publicly available information, presented in alphabetical order, and makes no ranking or recommendation claim of any kind. The goal is simply to give you a starting point for your own research — the final evaluation is yours, based on the criteria above.",
+      ], linkler: [
+        { isim: 'Adsera', aciklama: 'Founded in 2018, an Istanbul-based agency that combines SEO with performance marketing and conversion optimization.', url: 'https://adsera.co' },
+        { isim: 'Adverpeak', aciklama: 'An Istanbul-based agency offering SEO, Google Ads, social media and web design, with references in sectors like health tourism and B2B.', url: 'https://www.adverpeak.com' },
+        { isim: 'Analytica House', aciklama: 'Founded in 2016, an Istanbul-based agency that supports SEO work with analytics integrations like GA4 and BigQuery.', url: 'https://www.analyticahouse.com' },
+        { isim: 'Aora Digital Agency', aciklama: 'Operating since 2008, an Istanbul-based agency offering SEO alongside web and mobile app design.', url: 'https://www.aora.com.tr' },
+        { isim: 'Crabs Media', aciklama: 'Founded in 2007, an Istanbul-based agency focused on technical SEO and GEO-oriented work.', url: 'https://www.crabsmedia.com' },
+        { isim: 'Cremicro', aciklama: 'Founded in 2013, an Istanbul-based agency whose multilingual team also advises on international SEO projects.', url: 'https://www.cremicro.com' },
+        { isim: 'Kriko', aciklama: 'Founded in 2017, an Istanbul-based agency focused on e-commerce SEO.', url: 'https://www.kriko.io' },
+        { isim: 'Magna Dijital', aciklama: 'Founded in 2015, an Istanbul-based agency that manages SEO alongside performance marketing campaigns.', url: 'https://www.magnadijital.com.tr' },
+        { isim: 'Mobitek', aciklama: 'Founded in 2003, an Istanbul-based agency specialized in mobile app SEO and App Store Optimization (ASO).', url: 'https://www.mobitek.com' },
+        { isim: 'Mosanta', aciklama: 'An Istanbul-based agency focused on technical SEO and organic traffic optimization, with experience in e-commerce and B2B.', url: 'https://www.mosanta.com' },
+        { isim: 'Oppmind', aciklama: 'Founded in 2023, a relatively new Istanbul agency focused on technical site optimization and keyword mapping.', url: 'https://www.oppmind.com' },
+        { isim: 'Sempeak', aciklama: 'Founded in 2012, an Istanbul-based agency experienced in multilingual SEO and enterprise site structuring.', url: 'https://www.sempeak.com' },
+        { isim: 'Stradiji', aciklama: 'Founded in 2009, a boutique Istanbul agency that positions SEO as a long-term growth strategy.', url: 'https://www.stradiji.com' },
+        { isim: 'Webtures', aciklama: 'Founded in 2011, an Istanbul-based agency that pairs SEO with user experience and conversion rate optimization.', url: 'https://www.webtures.com' },
+        { isim: 'ZEO', aciklama: 'Founded in 2012, an Ankara/Istanbul-based agency known for technical SEO and structured data (schema) work.', url: 'https://zeo.org' },
+      ]},
+      { baslik: 'Other Known Names', paragraflar: [
+        "Other agencies mentioned in the industry that we haven't linked directly, since we weren't able to find a public website for them during this research, include Digipeak Agency, GroupM Turkey, Netvent, ROIBLE, Sıradışı Digital, Türk SEM and Webonya.",
+      ]},
+      { baslik: 'The Decision Is Yours', paragraflar: [
+        "This list isn't a recommendation or a ranking — it's an informational starting point for your own research. Every agency has different strengths; the right one for you is whichever team best matches your goals, budget and industry.",
+        "Before deciding, I'd recommend speaking with at least two or three agencies, asking them the same questions, verifying their references, and evaluating how closely their proposed strategy actually aligns with your business goals.",
+      ]},
+    ],
+  },
 }
 
 function getDefaultContent(slug, isEn) {
@@ -82,6 +165,9 @@ export default function BlogPost(props) {
   const veri = ICERIKLER[slug]
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : slug?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
   const bolumler = veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : getDefaultContent(slug || '', isEn).bolumler
+  const metaDesc = veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
+    ? (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
+    : bolumler[0]?.paragraflar[0]?.substring(0, 155) + '...'
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
@@ -141,7 +227,7 @@ export default function BlogPost(props) {
     <>
       <Head>
         <title>{baslik} | Fatih Emin Çakıroğlu</title>
-        <meta name="description" content={bolumler[0]?.paragraflar[0]?.substring(0, 155) + '...'} />
+        <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <link rel="alternate" hrefLang="tr" href={`https://fatihemincakiroglu.com/blog/${slug}`} />
         <link rel="alternate" hrefLang="en" href={`https://fatihemincakiroglu.com/en/blog/${slug}`} />
@@ -189,8 +275,25 @@ export default function BlogPost(props) {
                     <span style={{ width: '3px', height: '18px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>
                   {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : '0' }}>{p}</p>
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{p}</p>
                   ))}
+                  {b.linkler && (
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
+                      {b.linkler.map((l, li) => (
+                        <div key={li} style={{ background: '#faf9f7', border: '1px solid #ede8e0', borderRadius: '10px', padding: '12px 16px', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '12px', flexWrap: 'wrap' }}>
+                          <div style={{ flex: 1, minWidth: '200px' }}>
+                            <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', marginBottom: '2px' }}>{l.isim}</div>
+                            <div style={{ fontSize: '13px', color: '#777', lineHeight: 1.5 }}>{l.aciklama}</div>
+                          </div>
+                          {l.url && (
+                            <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)', whiteSpace: 'nowrap', flexShrink: 0, paddingTop: '2px' }}>
+                              {isEn ? 'Visit site →' : 'Siteyi ziyaret et →'}
+                            </a>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -207,8 +310,23 @@ export default function BlogPost(props) {
                     <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>
                   {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : '0' }}>{p}</p>
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{p}</p>
                   ))}
+                  {b.linkler && (
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+                      {b.linkler.map((l, li) => (
+                        <div key={li} style={{ background: '#faf9f7', border: '1px solid #ede8e0', borderRadius: '10px', padding: '12px 16px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                          <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{l.isim}</div>
+                          <div style={{ fontSize: '13px', color: '#777', lineHeight: 1.5, flex: 1 }}>{l.aciklama}</div>
+                          {l.url && (
+                            <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)' }}>
+                              {isEn ? 'Visit site →' : 'Siteyi ziyaret et →'}
+                            </a>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

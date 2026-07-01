@@ -74,7 +74,7 @@ const BLOG_SLUGS = [
   'algoritma-guncelleme-rehberi','ctr-optimizasyonu',
   'yerel-seo-rehberi','google-business-profile','nap-tutarliligi',
   'seo-strateji-haritasi','rakip-analizi-seo','seo-yatirim-donusu',
-  'backlink-stratejisi-2025-2','dijital-pr-seo-2',
+  'backlink-stratejisi-2025-2','dijital-pr-seo-2','seo-ajansi-nasil-secilir',
 ]
 
 // ── REHBER SLUGS ──────────────────────────────────────────
