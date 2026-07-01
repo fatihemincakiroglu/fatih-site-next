@@ -257,14 +257,10 @@ export default function Page(props) {
                 <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--orange)', display: 'inline-block', animation: 'pulse 2s infinite' }}></span>
                 {isEn ? 'SEO EXPERT · GEO · DIGITAL MARKETING' : 'SEO UZMANI · GEO · DİJİTAL PAZARLAMA'}
               </div>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 4.5vw, 60px)', fontWeight: 800, lineHeight: 1.1, color: '#111', marginBottom: '8px' }}>
-                {isEn ? 'Redesign Your' : 'SEO ve GEO ile'}
-              </h1>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 4.5vw, 60px)', fontWeight: 800, lineHeight: 1.1, color: '#111', marginBottom: '8px', borderBottom: '4px solid var(--orange)', display: 'inline-block', paddingBottom: '4px' }}>
-                {isEn ? 'Search Visibility' : 'Arama Görünürlüğünüzü'}
-              </h1>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 4.5vw, 60px)', fontWeight: 800, lineHeight: 1.1, color: '#111', marginBottom: '24px' }}>
-                {isEn ? 'with SEO and GEO' : 'Baştan Tasarlayın'}
+                <span style={{ display: 'block', marginBottom: '8px' }}>{isEn ? 'Redesign Your' : 'SEO ve GEO ile'}</span>
+                <span style={{ display: 'inline-block', marginBottom: '8px', borderBottom: '4px solid var(--orange)', paddingBottom: '4px' }}>{isEn ? 'Search Visibility' : 'Arama Görünürlüğünüzü'}</span>
+                <span style={{ display: 'block' }}>{isEn ? 'with SEO and GEO' : 'Baştan Tasarlayın'}</span>
               </h1>
               <p style={{ fontSize: '16px', color: '#666', lineHeight: 1.75, marginBottom: '32px', maxWidth: '480px' }}>
                 {isEn ? "I've grown the Google and AI search visibility of 150+ businesses. Achieving sustainable growth through data-driven SEO & GEO strategy." : '150+ işletmenin Google ve yapay zekâ aramalarındaki görünürlüğünü artırdım. Veriye dayalı SEO & GEO stratejisiyle kalıcı büyüme sağlıyorum.'}

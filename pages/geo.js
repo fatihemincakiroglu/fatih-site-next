@@ -211,8 +211,10 @@ export default function Page(props) {
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 14px', borderRadius: '20px', background: 'rgba(99,102,241,0.2)', border: '1px solid rgba(99,102,241,0.4)', fontSize: '11px', fontWeight: 700, color: '#a5b4fc', letterSpacing: '2px', marginBottom: '24px' }}>
                 {t.badge}
               </div>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900, color: '#a5b4fc', lineHeight: 1.1, marginBottom: '4px' }}>{t.h1a}</h1>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '16px' }}>{t.h1b}</h1>
+              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '16px' }}>
+                <span style={{ display: 'block', marginBottom: '4px', color: '#a5b4fc' }}>{t.h1a}</span>
+                <span style={{ display: 'block' }}>{t.h1b}</span>
+              </h1>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(18px, 2.5vw, 28px)', fontWeight: 700, color: 'var(--orange)', fontStyle: 'italic', marginBottom: '16px', lineHeight: 1.3 }}>{t.h1c}</h2>
               <p style={{ color: '#9ca3af', fontSize: '15px', fontWeight: 600, marginBottom: '12px' }}>{t.subtitle}</p>
               <p style={{ color: '#6b7280', fontSize: '15px', lineHeight: 1.8, marginBottom: '36px', maxWidth: '520px' }}>{t.desc}</p>

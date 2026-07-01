@@ -250,8 +250,10 @@ export default function Page(props) {
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 14px', borderRadius: '20px', background: 'rgba(22,163,74,0.15)', border: '1px solid rgba(22,163,74,0.3)', fontSize: '11px', fontWeight: 700, color: '#4ade80', letterSpacing: '2px', marginBottom: '24px' }}>
                 {t.badge}
               </div>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px, 4.5vw, 58px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '4px' }}>{t.h1a}</h1>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px, 4.5vw, 58px)', fontWeight: 900, color: '#4ade80', lineHeight: 1.1, marginBottom: '12px' }}>{t.h1b}</h1>
+              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px, 4.5vw, 58px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '12px' }}>
+                <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1a}</span>
+                <span style={{ display: 'block', color: '#4ade80' }}>{t.h1b}</span>
+              </h1>
               <p style={{ fontSize: '18px', fontWeight: 600, color: 'var(--orange)', fontStyle: 'italic', marginBottom: '16px' }}>{t.h1alt}</p>
               <p style={{ color: '#6b7280', fontSize: '15px', lineHeight: 1.8, marginBottom: '36px', maxWidth: '520px' }}>{t.desc}</p>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>

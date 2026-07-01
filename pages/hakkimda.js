@@ -234,8 +234,10 @@ export default function Page(props) {
           <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', position:'relative', display:'grid', gridTemplateColumns:'1fr 260px', gap:'40px', alignItems:'center' }}>
             <div>
               <span style={{ display:'inline-block', fontSize:'11px', fontWeight:700, color:'var(--orange)', padding:'5px 16px', borderRadius:'20px', border:'1px solid rgba(232,86,10,0.3)', background:'rgba(232,86,10,0.08)', letterSpacing:'2px', marginBottom:'24px' }}>{t.badge}</span>
-              <h1 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(36px,5.5vw,72px)', fontWeight:900, color:'#fff', lineHeight:1.0, marginBottom:'0' }}>{t.h1a}</h1>
-              <h1 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(36px,5.5vw,72px)', fontWeight:900, color:'var(--orange)', lineHeight:1.0, marginBottom:'20px', fontStyle:'italic' }}>{t.h1b}</h1>
+              <h1 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(36px,5.5vw,72px)', fontWeight:900, color:'#fff', lineHeight:1.0, marginBottom:'20px' }}>
+                <span style={{ display: 'block' }}>{t.h1a}</span>
+                <span style={{ display: 'block', color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
+              </h1>
               {/* tagline pill */}
               <div style={{ display:'flex', alignItems:'center', gap:'6px', marginBottom:'20px', flexWrap:'wrap' }}>
                 {t.tagline.split(' → ').map((step, i, arr) => (

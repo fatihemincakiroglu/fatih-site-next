@@ -269,11 +269,9 @@ export default function Page(props) {
                 {t.badge}
               </div>
 
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 5vw, 64px)', fontWeight: 900, color: '#fff', lineHeight: 1.05, marginBottom: '0' }}>
-                {t.h1}
-              </h1>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 5vw, 64px)', fontWeight: 900, color: 'var(--orange)', fontStyle: 'italic', lineHeight: 1.05, marginBottom: '16px' }}>
-                {t.h1b}
+              <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 5vw, 64px)', fontWeight: 900, color: '#fff', lineHeight: 1.05, marginBottom: '16px' }}>
+                <span style={{ display: 'block' }}>{t.h1}</span>
+                <span style={{ display: 'block', color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
               </h1>
               <p style={{ fontSize: '20px', fontWeight: 600, color: '#c8b8a8', marginBottom: '16px', lineHeight: 1.4 }}>{t.subtitle}</p>
               <p style={{ color: '#6b6b6b', fontSize: '16px', lineHeight: 1.75, marginBottom: '36px', maxWidth: '520px' }}>{t.hero_desc}</p>
