@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
+import { YAZILAR } from '../blog';
 
 const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -307,6 +308,14 @@ export default function BlogPost(props) {
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
+  const guncelleme = veri?.guncelleme || (isEn ? 'July 2026' : 'Temmuz 2026')
+
+  // İlgili yazılar: aynı kategoriden, mevcut yazı hariç, en fazla 3 tane
+  const mevcutYazi = YAZILAR.find(y => y.slug === slug)
+  const ilgiliYazilar = (mevcutYazi
+    ? YAZILAR.filter(y => y.kategori === mevcutYazi.kategori && y.slug !== slug)
+    : YAZILAR.filter(y => y.slug !== slug)
+  ).slice(0, 3)
 
   useEffect(() => {
     if (isMobile) return
@@ -359,6 +368,25 @@ export default function BlogPost(props) {
     </div>
   )
 
+  // Makalenin ortasına yakın bir yerde gösterilecek bağlamsal CTA
+  const midCtaIndex = bolumler.length >= 4 ? Math.floor(bolumler.length / 2) - 1 : -1
+  const MidArticleCTA = (
+    <div style={{ margin: '32px 0', padding: '24px', borderRadius: '14px', background: 'linear-gradient(135deg, rgba(232,86,10,0.08), rgba(232,86,10,0.02))', border: '1px solid rgba(232,86,10,0.2)', display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+      <div style={{ fontSize: '28px' }}>💡</div>
+      <div style={{ flex: 1, minWidth: '200px' }}>
+        <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', marginBottom: '2px' }}>
+          {isEn ? 'Made it this far? You might be dealing with this yourself.' : 'Bu noktaya kadar geldiyseniz, muhtemelen bununla kendiniz uğraşıyorsunuzdur.'}
+        </div>
+        <div style={{ fontSize: '13px', color: '#777' }}>
+          {isEn ? 'Let\'s talk about how this applies to your site — free, no obligation.' : 'Bunun sizin sitenize nasıl uygulanacağını konuşalım — ücretsiz, hiçbir taahhüt yok.'}
+        </div>
+      </div>
+      <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '11px 20px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '13px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', flexShrink: 0 }}>
+        {isEn ? 'Book a free call →' : 'Ücretsiz görüşme al →'}
+      </Link>
+    </div>
+  )
+
   return (
     <>
       <Head>
@@ -388,6 +416,8 @@ export default function BlogPost(props) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', flexWrap: 'wrap' }}>
               <span style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '3px 8px', border: '1px solid rgba(232,86,10,0.3)', borderRadius: '4px' }}>{etiket}</span>
               <span style={{ fontSize: '12px', color: '#aaa' }}>{sure} {isEn ? 'min read' : 'dk okuma'}</span>
+              <span style={{ fontSize: '12px', color: '#ccc' }}>·</span>
+              <span style={{ fontSize: '12px', color: '#aaa' }}>🔄 {isEn ? 'Updated' : 'Son güncelleme'}: {guncelleme}</span>
             </div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 4vw, 40px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>{baslik}</h1>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -430,6 +460,7 @@ export default function BlogPost(props) {
                       ))}
                     </div>
                   )}
+                  {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
             </div>
@@ -463,6 +494,7 @@ export default function BlogPost(props) {
                       ))}
                     </div>
                   )}
+                  {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
             </div>
@@ -473,6 +505,48 @@ export default function BlogPost(props) {
             </div>
           </div>
         )}
+
+        {/* Genişletilmiş Yazar Kutusu (E-E-A-T) — içeriğin hemen altında, tüm görünümlerde */}
+        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 16px 48px' }}>
+          <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+            <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '26px', flexShrink: 0 }}>F</div>
+            <div style={{ flex: 1, minWidth: '240px' }}>
+              <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '6px' }}>{isEn ? 'ABOUT THE AUTHOR' : 'YAZAR HAKKINDA'}</div>
+              <div style={{ fontSize: '18px', fontWeight: 800, color: '#111', fontFamily: 'var(--font-display)', marginBottom: '4px' }}>Fatih Emin Çakıroğlu</div>
+              <div style={{ fontSize: '13px', color: '#aaa', marginBottom: '12px' }}>{isEn ? 'SEO & GEO Consultant · Istanbul' : 'SEO & GEO Danışmanı · İstanbul'}</div>
+              <p style={{ fontSize: '14px', color: '#666', lineHeight: 1.7, marginBottom: '14px' }}>
+                {isEn
+                  ? '8+ years of hands-on SEO and GEO experience across 150+ projects in e-commerce, SaaS, healthcare and local business sectors. Writes based on real client data, not theory.'
+                  : '150+ projede e-ticaret, SaaS, sağlık ve yerel işletme sektörlerinde 8+ yıllık uygulamalı SEO ve GEO deneyimi. Teoriye değil, gerçek müşteri verilerine dayanarak yazıyor.'}
+              </p>
+              <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
+                <a href="https://www.linkedin.com/in/fatihemincakiroglu/" target="_blank" rel="noreferrer" style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600 }}>LinkedIn →</a>
+                <Link href={isEn ? '/en/about' : '/hakkimda'} style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Full bio →' : 'Tüm özgeçmiş →'}</Link>
+                <Link href={isEn ? '/en/testimonials' : '/referanslar'} style={{ fontSize: '13px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Client results →' : 'Müşteri sonuçları →'}</Link>
+              </div>
+            </div>
+          </div>
+
+          {/* İlgili Yazılar */}
+          {ilgiliYazilar.length > 0 && (
+            <div style={{ marginTop: '24px' }}>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '16px' }}>
+                {isEn ? 'Related Articles' : 'İlgili Yazılar'}
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '14px' }}>
+                {ilgiliYazilar.map((y, i) => (
+                  <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee', display: 'block', transition: 'transform 0.2s, box-shadow 0.2s' }}
+                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.06)' }}
+                    onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
+                    <div style={{ fontSize: '11px', color: '#aaa', marginBottom: '6px' }}>{y.sure} {isEn ? 'min read' : 'dk okuma'}</div>
+                    <div style={{ fontSize: '15px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{isEn ? y.en.baslik : y.tr.baslik}</div>
+                    <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read →' : 'Oku →'}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </>
   )

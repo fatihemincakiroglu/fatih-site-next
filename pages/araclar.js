@@ -6,74 +6,84 @@ import { useState } from 'react';
 function MetaChecker() {
   const [url, setUrl] = useState('');
   const [sonuc, setSonuc] = useState(null);
+  const [hata, setHata] = useState(null);
   const [yukleniyor, setYukleniyor] = useState(false);
 
-  const analiz = () => {
+  const analiz = async () => {
     if (!url) return;
     setYukleniyor(true);
-    setTimeout(() => {
-      const domain = url.replace(/https?:\/\//, '').replace(/\/$/, '');
-      setSonuc({
-        domain,
-        baslik: `${domain} - Ana Sayfa`,
-        baslikUzunluk: domain.length + 12,
-        meta: `${domain} hakkında bilgi edinin. Hizmetler, ürünler ve daha fazlası için ziyaret edin.`,
-        metaUzunluk: 87,
-        https: url.startsWith('https') || true,
-        mobile: true,
-        hiz: Math.floor(Math.random() * 30) + 55,
-        skorlar: {
-          baslik: domain.length + 12 < 60 ? 'iyi' : 'uzun',
-          meta: 87 < 160 ? 'iyi' : 'uzun',
-          https: 'iyi',
-          mobile: 'iyi',
-        }
-      });
+    setHata(null);
+    setSonuc(null);
+    try {
+      const res = await fetch(`/api/seo-audit?url=${encodeURIComponent(url)}`);
+      const data = await res.json();
+      if (!res.ok) { setHata(data.error || 'Bir hata oluştu.'); return; }
+      setSonuc(data);
+    } catch {
+      setHata('Sunucuya bağlanılamadı. Lütfen tekrar deneyin.');
+    } finally {
       setYukleniyor(false);
-    }, 1500);
+    }
   };
 
-  const skorRenk = (s) => s === 'iyi' ? '#15803d' : s === 'uzun' ? '#d97706' : '#dc2626';
-  const skorBg = (s) => s === 'iyi' ? '#dcfce7' : s === 'uzun' ? '#fef3c7' : '#fee2e2';
-  const skorEtiket = (s) => s === 'iyi' ? '✓ İyi' : s === 'uzun' ? '⚠ Uzun' : '✕ Hata';
+  const skorRenk = (ok) => ok ? '#15803d' : '#dc2626';
+  const skorBg = (ok) => ok ? '#dcfce7' : '#fee2e2';
+  const skorEtiket = (ok) => ok ? '✓ İyi' : '✕ Kontrol et';
+
+  const CHECK_LABELS = {
+    https: 'HTTPS', title: 'Başlık Etiketi', metaDescription: 'Meta Açıklama',
+    viewport: 'Mobil Viewport', canonical: 'Canonical', h1: 'H1 Etiketi',
+    imagesAlt: 'Görsel Alt Metni', indexable: 'İndekslenebilirlik',
+    speed: 'Yanıt Süresi', pageSize: 'Sayfa Boyutu',
+  };
 
   return (
     <div>
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '20px' }}>
-        <input type="text" placeholder="https://ornek.com" value={url} onChange={e => setUrl(e.target.value)}
+      <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
+        <input type="text" placeholder="ornek.com" value={url} onChange={e => setUrl(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && analiz()}
           style={{ flex: 1, padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
-        <button onClick={analiz} disabled={yukleniyor} style={{ padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)' }}>
+        <button onClick={analiz} disabled={yukleniyor} style={{ padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)', opacity: yukleniyor ? 0.7 : 1 }}>
           {yukleniyor ? 'Analiz ediliyor...' : 'Analiz Et'}
         </button>
       </div>
+      <p style={{ fontSize: '12px', color: '#aaa', marginBottom: '20px' }}>
+        Bu araç girdiğiniz sayfayı gerçek zamanlı olarak sunucu tarafında çeker ve temel on-page SEO sinyallerini kontrol eder — simülasyon değildir.
+      </p>
+
+      {hata && (
+        <div style={{ padding: '14px 16px', background: '#fee2e2', border: '1px solid #fecaca', borderRadius: '10px', color: '#991b1b', fontSize: '14px', marginBottom: '16px' }}>
+          ⚠ {hata}
+        </div>
+      )}
 
       {sonuc && (
         <div style={{ background: '#f8f7f5', borderRadius: '12px', padding: '24px', border: '1px solid #eee' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
-            {[
-              { etiket: 'Başlık Etiketi', deger: skorEtiket(sonuc.skorlar.baslik), durum: sonuc.skorlar.baslik, bilgi: `${sonuc.baslikUzunluk} karakter (ideal: 50-60)` },
-              { etiket: 'Meta Açıklama', deger: skorEtiket(sonuc.skorlar.meta), durum: sonuc.skorlar.meta, bilgi: `${sonuc.metaUzunluk} karakter (ideal: 120-160)` },
-              { etiket: 'HTTPS', deger: '✓ Aktif', durum: 'iyi', bilgi: 'SSL sertifikası mevcut' },
-              { etiket: 'Mobil Uyum', deger: '✓ Uyumlu', durum: 'iyi', bilgi: 'Responsive tasarım algılandı' },
-            ].map((item, i) => (
-              <div key={i} style={{ background: '#fff', borderRadius: '8px', padding: '16px', border: '1px solid #eee' }}>
-                <div style={{ fontSize: '12px', color: '#999', marginBottom: '6px', fontWeight: 600 }}>{item.etiket}</div>
-                <div style={{ display: 'inline-block', padding: '3px 10px', borderRadius: '4px', background: skorBg(item.durum), color: skorRenk(item.durum), fontSize: '13px', fontWeight: 700, marginBottom: '6px' }}>{item.deger}</div>
-                <div style={{ fontSize: '12px', color: '#aaa' }}>{item.bilgi}</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '20px', paddingBottom: '20px', borderBottom: '1px solid #eee' }}>
+            <div style={{ width: '72px', height: '72px', borderRadius: '50%', background: '#fff', border: `4px solid ${sonuc.score >= 70 ? '#15803d' : sonuc.score >= 40 ? '#d97706' : '#dc2626'}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: sonuc.score >= 70 ? '#15803d' : sonuc.score >= 40 ? '#d97706' : '#dc2626', flexShrink: 0 }}>
+              {sonuc.score}
+            </div>
+            <div>
+              <div style={{ fontSize: '13px', color: '#999', wordBreak: 'break-all' }}>{sonuc.url}</div>
+              <div style={{ fontSize: '15px', fontWeight: 700, color: '#111' }}>Genel SEO Skoru: {sonuc.score}/100</div>
+            </div>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+            {Object.entries(sonuc.checks).map(([key, item]) => (
+              <div key={key} style={{ background: '#fff', borderRadius: '8px', padding: '14px 16px', border: '1px solid #eee' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                  <span style={{ fontSize: '12px', color: '#999', fontWeight: 600 }}>{CHECK_LABELS[key] || key}</span>
+                  <span style={{ padding: '2px 8px', borderRadius: '4px', background: skorBg(item.ok), color: skorRenk(item.ok), fontSize: '11px', fontWeight: 700 }}>{skorEtiket(item.ok)}</span>
+                </div>
+                <div style={{ fontSize: '13px', fontWeight: 700, color: '#111', marginBottom: '2px' }}>{item.label}</div>
+                <div style={{ fontSize: '11px', color: '#aaa', lineHeight: 1.4 }}>{item.detail}</div>
               </div>
             ))}
           </div>
 
-          <div style={{ background: '#fff', borderRadius: '8px', padding: '16px', border: '1px solid #eee', marginBottom: '12px' }}>
-            <div style={{ fontSize: '12px', color: '#999', marginBottom: '8px', fontWeight: 600 }}>TAHMINI SERP GÖRÜNÜMÜ</div>
-            <div style={{ fontSize: '14px', color: '#1a0dab', fontWeight: 500, marginBottom: '2px' }}>{sonuc.baslik}</div>
-            <div style={{ fontSize: '12px', color: '#006621', marginBottom: '4px' }}>{sonuc.domain}</div>
-            <div style={{ fontSize: '13px', color: '#555', lineHeight: 1.5 }}>{sonuc.meta}</div>
-          </div>
-
-          <div style={{ padding: '12px 16px', background: 'rgba(232,86,10,0.06)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#555' }}>
-            💡 <strong style={{ color: '#111' }}>Öneri:</strong> Bu ön analiz tahmini sonuçlar içermektedir. Detaylı teknik SEO denetimi için <a href="/randevu" style={{ color: 'var(--orange)', fontWeight: 600 }}>ücretsiz danışma</a> alın.
+          <div style={{ padding: '12px 16px', background: 'rgba(232,86,10,0.06)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#555', marginTop: '16px' }}>
+            💡 <strong style={{ color: '#111' }}>Öneri:</strong> Bu, hızlı bir ön analizdir. Kapsamlı bir teknik SEO denetimi için <a href="/randevu" style={{ color: 'var(--orange)', fontWeight: 600 }}>ücretsiz danışma</a> alın.
           </div>
         </div>
       )}
@@ -388,7 +398,7 @@ function ReadabilityAnaliz() {
 }
 
 const ARACLAR = [
-  { id: 'meta', isim: 'Meta Tag Analizi', aciklama: 'URL girişiyle başlık, meta açıklama ve teknik faktörleri analiz edin.', ikon: '🔍', component: MetaChecker },
+  { id: 'meta', isim: 'Gerçek Zamanlı SEO Denetimi', aciklama: 'URL girişiyle sitenizi anlık çekip başlık, meta açıklama, H1, görsel alt metni ve daha fazlasını gerçek veriyle kontrol edin.', ikon: '🔍', component: MetaChecker },
   { id: 'keyword', isim: 'Anahtar Kelime Araştırması', aciklama: 'Hedef kelimeleriniz için hacim, zorluk ve arama niyeti verilerini görün.', ikon: '📊', component: KeywordAnaliz },
   { id: 'skor', isim: 'SEO Skor Hesaplayıcı', aciklama: 'Sayfa bilgilerinizi girerek temel SEO skoru hesaplayın.', ikon: '⚡', component: SkorHesap },
   { id: 'uzunluk', isim: 'Title & Meta Uzunluk Ölçer', aciklama: 'Başlık ve meta açıklamanızın ideal karakter sınırını anlık kontrol edin.', ikon: '📏', component: MetaUzunlukHesap },

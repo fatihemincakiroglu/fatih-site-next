@@ -28,7 +28,7 @@ const KATEGORILER = {
   ],
 }
 
-const YAZILAR = [
+export const YAZILAR = [
   // Teknik SEO
   { slug: 'core-web-vitals-2025',      kategori: 'technical', sure: 12, featured: true,
     tr: { baslik: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi', ozet: 'Google\'ın sıralama sinyali olarak kullandığı üç kritik metriği nasıl iyileştirirsiniz? Adım adım rehber.' },

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import LeadMagnet from '../components/LeadMagnet';
 
 export default function Page(props) {
   const router = useRouter()
@@ -67,6 +68,9 @@ export default function Page(props) {
                 <span style={{ color: 'var(--orange)', fontWeight: 600, fontSize: '13px' }}>{t.explore}</span>
               </Link>
             ))}
+          </div>
+          <div style={{ marginTop: '32px' }}>
+            <LeadMagnet isEn={isEn} />
           </div>
         </div>
       </div>

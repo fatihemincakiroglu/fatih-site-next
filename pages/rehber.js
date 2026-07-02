@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
+import LeadMagnet from '../components/LeadMagnet';
 
 const REHBERLER = [
   { slug: 'teknik-seo', no: '01', baslik: 'Teknik SEO', kategori: 'Teknik', ikon: '⚙', ozet: 'Crawl bütçesi, site mimarisi, HTTP ve performansla ilgili teknik temel taşlar.' },
@@ -119,6 +120,9 @@ export default function Page() {
                 </Link>
               );
             })}
+          </div>
+          <div style={{ marginTop: '32px' }}>
+            <LeadMagnet />
           </div>
         </div>
       </div>
