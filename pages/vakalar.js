@@ -479,7 +479,7 @@ export default function Page(props) {
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', position: 'relative' }}>
             <span style={{ fontSize: '11px', color: 'var(--orange)', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', display: 'block', marginBottom: '16px' }}>{t.badge}</span>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(32px, 5vw, 60px)', fontWeight: 900, color: '#fff', lineHeight: 1.05, marginBottom: '20px' }}>
-              <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1}</span>
+              <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1}</span>{' '}
               <span style={{ display: 'block', color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
             </h1>
             <p style={{ color: '#6b7280', fontSize: '16px', marginBottom: '36px', maxWidth: '560px', margin: '0 auto 36px' }}>{t.desc}</p>

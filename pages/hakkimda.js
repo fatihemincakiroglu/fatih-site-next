@@ -235,7 +235,7 @@ export default function Page(props) {
             <div>
               <span style={{ display:'inline-block', fontSize:'11px', fontWeight:700, color:'var(--orange)', padding:'5px 16px', borderRadius:'20px', border:'1px solid rgba(232,86,10,0.3)', background:'rgba(232,86,10,0.08)', letterSpacing:'2px', marginBottom:'24px' }}>{t.badge}</span>
               <h1 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(36px,5.5vw,72px)', fontWeight:900, color:'#fff', lineHeight:1.0, marginBottom:'20px' }}>
-                <span style={{ display: 'block' }}>{t.h1a}</span>
+                <span style={{ display: 'block' }}>{t.h1a}</span>{' '}
                 <span style={{ display: 'block', color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
               </h1>
               {/* tagline pill */}

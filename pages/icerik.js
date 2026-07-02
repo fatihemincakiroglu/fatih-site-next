@@ -139,7 +139,7 @@ export default function Page(props) {
             <div>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 14px', borderRadius: '20px', background: 'rgba(14,165,233,0.15)', border: '1px solid rgba(14,165,233,0.3)', fontSize: '11px', fontWeight: 700, color: '#38bdf8', letterSpacing: '2px', marginBottom: '24px' }}>{t.badge}</div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4.5vw, 56px)', fontWeight: 900, color: '#fff', lineHeight: 1.05, marginBottom: '12px' }}>
-                <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1a}</span>
+                <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1a}</span>{' '}
                 <span style={{ display: 'block', color: '#38bdf8', fontStyle: 'italic' }}>{t.h1b}</span>
               </h1>
               <p style={{ color: '#6b7280', fontSize: '15px', lineHeight: 1.8, marginBottom: '32px', maxWidth: '500px' }}>{t.desc}</p>

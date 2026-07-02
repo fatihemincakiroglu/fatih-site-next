@@ -480,8 +480,8 @@ export default function Page(props) {
                 {isEn ? 'SEO EXPERT · GEO · DIGITAL MARKETING' : 'SEO UZMANI · GEO · DİJİTAL PAZARLAMA'}
               </div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 4.5vw, 60px)', fontWeight: 800, lineHeight: 1.1, color: '#111', marginBottom: '24px' }}>
-                <span style={{ display: 'block', marginBottom: '8px' }}>{isEn ? 'Redesign Your' : 'SEO ve GEO ile'}</span>
-                <span style={{ display: 'inline-block', marginBottom: '8px', borderBottom: '4px solid var(--orange)', paddingBottom: '4px' }}>{isEn ? 'Search Visibility' : 'Arama Görünürlüğünüzü'}</span>
+                <span style={{ display: 'block', marginBottom: '8px' }}>{isEn ? 'Redesign Your' : 'SEO ve GEO ile'}</span>{' '}
+                <span style={{ display: 'inline-block', marginBottom: '8px', borderBottom: '4px solid var(--orange)', paddingBottom: '4px' }}>{isEn ? 'Search Visibility' : 'Arama Görünürlüğünüzü'}</span>{' '}
                 <span style={{ display: 'block' }}>{isEn ? 'with SEO and GEO' : 'Baştan Tasarlayın'}</span>
               </h1>
               <p style={{ fontSize: '16px', color: '#666', lineHeight: 1.75, marginBottom: '32px', maxWidth: '480px' }}>

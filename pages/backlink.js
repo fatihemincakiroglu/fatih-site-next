@@ -251,7 +251,7 @@ export default function Page(props) {
                 {t.badge}
               </div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(30px, 4.5vw, 58px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '12px' }}>
-                <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1a}</span>
+                <span style={{ display: 'block', marginBottom: '4px' }}>{t.h1a}</span>{' '}
                 <span style={{ display: 'block', color: '#4ade80' }}>{t.h1b}</span>
               </h1>
               <p style={{ fontSize: '18px', fontWeight: 600, color: 'var(--orange)', fontStyle: 'italic', marginBottom: '16px' }}>{t.h1alt}</p>

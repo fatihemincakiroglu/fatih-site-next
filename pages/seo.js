@@ -270,7 +270,7 @@ export default function Page(props) {
               </div>
 
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 5vw, 64px)', fontWeight: 900, color: '#fff', lineHeight: 1.05, marginBottom: '16px' }}>
-                <span style={{ display: 'block' }}>{t.h1}</span>
+                <span style={{ display: 'block' }}>{t.h1}</span>{' '}
                 <span style={{ display: 'block', color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
               </h1>
               <p style={{ fontSize: '20px', fontWeight: 600, color: '#c8b8a8', marginBottom: '16px', lineHeight: 1.4 }}>{t.subtitle}</p>

@@ -212,7 +212,7 @@ export default function Page(props) {
                 {t.badge}
               </div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '16px' }}>
-                <span style={{ display: 'block', marginBottom: '4px', color: '#a5b4fc' }}>{t.h1a}</span>
+                <span style={{ display: 'block', marginBottom: '4px', color: '#a5b4fc' }}>{t.h1a}</span>{' '}
                 <span style={{ display: 'block' }}>{t.h1b}</span>
               </h1>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(18px, 2.5vw, 28px)', fontWeight: 700, color: 'var(--orange)', fontStyle: 'italic', marginBottom: '16px', lineHeight: 1.3 }}>{t.h1c}</h2>
