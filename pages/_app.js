@@ -138,14 +138,29 @@ function CookieBanner({ isEn }) {
 // ── WHATSAPP ──────────────────────────────────────────────
 function WhatsAppButton() {
   return (
-    <a href="https://wa.me/905412650585?text=Merhaba%2C%20SEO%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+    <a href="https://wa.me/905325766383?text=Merhaba%2C%20SEO%20dan%C4%B1%C5%9Fmanl%C4%B1%C4%9F%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
       target="_blank" rel="noreferrer" aria-label="WhatsApp"
-      style={{ position: 'fixed', bottom: '80px', right: '20px', zIndex: 998, width: '52px', height: '52px', borderRadius: '50%', background: '#25D366', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 20px rgba(37,211,102,0.4)', transition: 'transform 0.2s' }}
+      style={{ position: 'fixed', bottom: 'calc(84px + env(safe-area-inset-bottom, 0px))', right: 'calc(16px + env(safe-area-inset-right, 0px))', zIndex: 998, width: '52px', height: '52px', borderRadius: '50%', background: '#25D366', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 20px rgba(37,211,102,0.4)', transition: 'transform 0.2s' }}
       onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
       onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>
       <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
         <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.553 4.116 1.522 5.847L.057 23.886a.5.5 0 0 0 .613.635l6.163-1.616A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 0 1-5.17-1.438l-.37-.22-3.825 1.003 1.02-3.726-.242-.385A10 10 0 1 1 12 22z"/>
+      </svg>
+    </a>
+  )
+}
+
+// ── PHONE ─────────────────────────────────────────────────
+function PhoneButton() {
+  return (
+    <a href="tel:+905325766383"
+      aria-label="Telefonla Ara"
+      style={{ position: 'fixed', bottom: 'calc(16px + env(safe-area-inset-bottom, 0px))', right: 'calc(16px + env(safe-area-inset-right, 0px))', zIndex: 998, width: '52px', height: '52px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 20px rgba(255,122,0,0.4)', transition: 'transform 0.2s' }}
+      onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
+      onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
       </svg>
     </a>
   )
@@ -185,7 +200,7 @@ function BackToTop() {
   if (!visible) return null
   return (
     <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Yukarı"
-      style={{ position: 'fixed', bottom: '144px', right: '20px', zIndex: 997, width: '44px', height: '44px', borderRadius: '50%', background: 'var(--card-bg)', border: '1px solid var(--card-border)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', boxShadow: '0 2px 12px rgba(0,0,0,0.1)', transition: 'transform 0.2s', color: 'var(--text)' }}
+      style={{ position: 'fixed', bottom: 'calc(148px + env(safe-area-inset-bottom, 0px))', right: 'calc(20px + env(safe-area-inset-right, 0px))', zIndex: 997, width: '44px', height: '44px', borderRadius: '50%', background: 'var(--card-bg)', border: '1px solid var(--card-border)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', boxShadow: '0 2px 12px rgba(0,0,0,0.1)', transition: 'transform 0.2s', color: 'var(--text)' }}
       onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
       onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>↑</button>
   )
@@ -243,6 +258,7 @@ export default function App({ Component, pageProps }) {
       </main>
       <Footer />
       <WhatsAppButton />
+      <PhoneButton />
       <BackToTop />
       <CookieBanner isEn={isEn} />
       {searchOpen && <GlobalSearch isEn={isEn} onClose={() => setSearchOpen(false)} />}
