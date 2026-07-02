@@ -110,19 +110,25 @@ export default function Page(props) {
             <p style={{ color: '#777', fontSize: '16px' }}>{t.desc}</p>
           </div>
         </div>
-        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '36px 32px' }}>
+        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '48px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-            <p style={{ textAlign: 'center', fontSize: '12px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: '#aaa', marginBottom: '28px' }}>{t.brandsTitle}</p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: '16px', alignItems: 'center' }}>
+            <p style={{ textAlign: 'center', fontSize: '13px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: '#aaa', marginBottom: '32px' }}>{t.brandsTitle}</p>
+            <div className="brand-grid">
               {BRAND_LOGOS.map((b, i) => (
-                <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#faf9f7', border: '1px solid #f0ede8', borderRadius: '10px', padding: '14px', height: '76px' }}>
-                  <img src={b.src} alt={b.alt} title={b.alt} loading="lazy"
-                    style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', filter: 'grayscale(100%)', opacity: 0.65, transition: 'filter 0.2s, opacity 0.2s' }}
-                    onMouseEnter={e => { e.currentTarget.style.filter = 'grayscale(0%)'; e.currentTarget.style.opacity = '1' }}
-                    onMouseLeave={e => { e.currentTarget.style.filter = 'grayscale(100%)'; e.currentTarget.style.opacity = '0.65' }} />
+                <div key={i} className="brand-card">
+                  <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" />
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+        <div className="marquee-wrap">
+          <div className="marquee-track">
+            {[...BRAND_LOGOS, ...BRAND_LOGOS].map((b, i) => (
+              <div key={i} className="marquee-item">
+                <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" />
+              </div>
+            ))}
           </div>
         </div>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px' }}>
@@ -153,6 +159,97 @@ export default function Page(props) {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .brand-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 24px;
+        }
+        .brand-card {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #faf9f7;
+          border: 1px solid #f0ede8;
+          border-radius: 14px;
+          padding: 24px;
+          height: 130px;
+          transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        }
+        .brand-card img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          filter: grayscale(100%);
+          opacity: 0.6;
+          transition: filter 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+        }
+        .brand-card:hover {
+          transform: translateY(-4px) scale(1.04);
+          box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+          border-color: var(--orange);
+          background: #fff;
+        }
+        .brand-card:hover img {
+          filter: grayscale(0%);
+          opacity: 1;
+          transform: scale(1.06);
+        }
+        @media (max-width: 900px) {
+          .brand-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 640px) {
+          .brand-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+          .brand-card { height: 100px; padding: 16px; }
+        }
+
+        .marquee-wrap {
+          overflow: hidden;
+          background: #faf9f7;
+          border-bottom: 1px solid #ede8e0;
+          padding: 28px 0;
+        }
+        .marquee-track {
+          display: flex;
+          width: max-content;
+          animation: marquee-scroll 40s linear infinite;
+        }
+        .marquee-wrap:hover .marquee-track {
+          animation-play-state: paused;
+        }
+        .marquee-item {
+          flex: 0 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 160px;
+          height: 90px;
+          margin: 0 16px;
+          background: #fff;
+          border: 1px solid #eee;
+          border-radius: 12px;
+          padding: 16px;
+        }
+        .marquee-item img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+          filter: grayscale(100%);
+          opacity: 0.6;
+          transition: filter 0.25s ease, opacity 0.25s ease;
+        }
+        .marquee-item:hover img {
+          filter: grayscale(0%);
+          opacity: 1;
+        }
+        @keyframes marquee-scroll {
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
+        }
+        @media (max-width: 640px) {
+          .marquee-item { width: 120px; height: 70px; margin: 0 10px; padding: 10px; }
+        }
+      `}</style>
     </>
   )
 }
