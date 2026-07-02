@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
+import CountUp from '../components/CountUp';
+import FadeInOnScroll from '../components/FadeInOnScroll';
+import AnimatedBar from '../components/AnimatedBar';
 
 const VAKALAR = {
   tr: [
@@ -486,10 +489,14 @@ export default function Page(props) {
             {/* Genel metrikler */}
             <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '36px' }}>
               {genelMetrikler.map((m, i) => (
-                <div key={i} style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '20px 28px', minWidth: '130px' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '4px' }}>{m.rakam}</div>
-                  <div style={{ fontSize: '12px', color: '#6b7280', lineHeight: 1.4 }}>{m.etiket}</div>
-                </div>
+                <FadeInOnScroll key={i} delay={i * 100}>
+                  <div style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '20px 28px', minWidth: '130px' }}>
+                    <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '4px' }}>
+                      <CountUp value={m.rakam} locale={isEn ? 'en-US' : 'tr-TR'} />
+                    </div>
+                    <div style={{ fontSize: '12px', color: '#6b7280', lineHeight: 1.4 }}>{m.etiket}</div>
+                  </div>
+                </FadeInOnScroll>
               ))}
             </div>
             <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ display: 'inline-block', padding: '14px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-body)', boxShadow: '0 4px 20px rgba(232,86,10,0.4)' }}>{t.btn1}</Link>
@@ -524,19 +531,23 @@ export default function Page(props) {
 
           {/* Zorluk + Yorum */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '24px' }}>
-            <div style={{ background: '#faf9f7', borderRadius: '16px', padding: '28px', border: '1px solid #ede8e0' }}>
-              <div style={{ fontSize: '11px', fontWeight: 700, color: '#aaa', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>⚡ {t.zorluk_label}</div>
-              <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.75 }}>{vaka.zorluk}</p>
-            </div>
-            <div style={{ background: '#111', borderRadius: '16px', padding: '28px', border: '1px solid #222' }}>
-              <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>💬 {t.yorum_label}</div>
-              <div style={{ fontSize: '32px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '10px' }}>"</div>
-              <p style={{ fontSize: '15px', color: '#c8b8a8', lineHeight: 1.75, fontStyle: 'italic', marginBottom: '16px' }}>{vaka.yorum}</p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>{vaka.yorum_kisi[0]}</div>
-                <div style={{ fontSize: '13px', color: '#6b7280' }}>{vaka.yorum_kisi}</div>
+            <FadeInOnScroll direction="left">
+              <div style={{ background: '#faf9f7', borderRadius: '16px', padding: '28px', border: '1px solid #ede8e0', height: '100%' }}>
+                <div style={{ fontSize: '11px', fontWeight: 700, color: '#aaa', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>⚡ {t.zorluk_label}</div>
+                <p style={{ fontSize: '15px', color: '#555', lineHeight: 1.75 }}>{vaka.zorluk}</p>
               </div>
-            </div>
+            </FadeInOnScroll>
+            <FadeInOnScroll direction="right" delay={100}>
+              <div style={{ background: '#111', borderRadius: '16px', padding: '28px', border: '1px solid #222', height: '100%' }}>
+                <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>💬 {t.yorum_label}</div>
+                <div style={{ fontSize: '32px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '10px' }}>"</div>
+                <p style={{ fontSize: '15px', color: '#c8b8a8', lineHeight: 1.75, fontStyle: 'italic', marginBottom: '16px' }}>{vaka.yorum}</p>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>{vaka.yorum_kisi[0]}</div>
+                  <div style={{ fontSize: '13px', color: '#6b7280' }}>{vaka.yorum_kisi}</div>
+                </div>
+              </div>
+            </FadeInOnScroll>
           </div>
 
           {/* Tab Navigasyon */}
@@ -555,22 +566,28 @@ export default function Page(props) {
             <div>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '16px' }}>
                 {vaka.metrikler.map((m, i) => (
-                  <div key={i} style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee', position: 'relative', overflow: 'hidden' }}>
-                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: vaka.renk }} />
-                    <div style={{ fontSize: '22px', marginBottom: '8px' }}>{m.ikon}</div>
-                    <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>{m.etiket}</div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
-                      <div>
-                        <div style={{ fontSize: '12px', color: '#ccc', marginBottom: '2px' }}>{isEn ? 'Before' : 'Öncesi'}: <span style={{ color: '#999' }}>{m.eski}</span></div>
-                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111' }}>{m.yeni}</div>
+                  <FadeInOnScroll key={i} delay={i * 80}>
+                    <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee', position: 'relative', overflow: 'hidden' }}>
+                      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: vaka.renk }} />
+                      <div style={{ fontSize: '22px', marginBottom: '8px' }}>{m.ikon}</div>
+                      <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '12px' }}>{m.etiket}</div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                        <div>
+                          <div style={{ fontSize: '12px', color: '#ccc', marginBottom: '2px' }}>{isEn ? 'Before' : 'Öncesi'}: <span style={{ color: '#999' }}>{m.eski}</span></div>
+                          <div style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111' }}>
+                            <CountUp value={m.yeni} locale={isEn ? 'en-US' : 'tr-TR'} />
+                          </div>
+                        </div>
+                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: vaka.renk, padding: '4px 10px', background: vaka.bg, borderRadius: '8px' }}>
+                          <CountUp value={m.artis} locale={isEn ? 'en-US' : 'tr-TR'} />
+                        </div>
                       </div>
-                      <div style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: vaka.renk, padding: '4px 10px', background: vaka.bg, borderRadius: '8px' }}>{m.artis}</div>
+                      {/* Mini progress bar */}
+                      <div style={{ marginTop: '12px' }}>
+                        <AnimatedBar percent={m.artis.includes('∞') ? 100 : Math.min(100, parseInt(m.artis) || 100)} color={vaka.renk} />
+                      </div>
                     </div>
-                    {/* Mini progress bar */}
-                    <div style={{ marginTop: '12px', height: '4px', background: '#f0f0f0', borderRadius: '2px', overflow: 'hidden' }}>
-                      <div style={{ height: '100%', width: m.artis.includes('∞') ? '100%' : `${Math.min(100, parseInt(m.artis) || 100)}%`, background: vaka.renk, borderRadius: '2px', maxWidth: '100%' }} />
-                    </div>
-                  </div>
+                  </FadeInOnScroll>
                 ))}
               </div>
             </div>
@@ -582,16 +599,18 @@ export default function Page(props) {
               <div style={{ position: 'relative' }}>
                 <div style={{ position: 'absolute', left: '44px', top: '56px', bottom: '20px', width: '2px', background: `linear-gradient(to bottom, ${vaka.renk}, #eee)`, zIndex: 0 }} />
                 {vaka.zaman.map((z, i) => (
-                  <div key={i} style={{ display: 'flex', gap: '24px', marginBottom: '32px', position: 'relative', zIndex: 1 }}>
-                    <div style={{ width: '88px', flexShrink: 0, textAlign: 'center' }}>
-                      <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', margin: '0 auto 6px', boxShadow: `0 4px 12px ${vaka.renk}50` }}>{i + 1}</div>
-                      <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700 }}>{z.ay}</div>
+                  <FadeInOnScroll key={i} delay={i * 120} direction={i % 2 === 0 ? 'left' : 'right'}>
+                    <div style={{ display: 'flex', gap: '24px', marginBottom: '32px', position: 'relative', zIndex: 1 }}>
+                      <div style={{ width: '88px', flexShrink: 0, textAlign: 'center' }}>
+                        <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', margin: '0 auto 6px', boxShadow: `0 4px 12px ${vaka.renk}50` }}>{i + 1}</div>
+                        <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700 }}>{z.ay}</div>
+                      </div>
+                      <div style={{ flex: 1, background: vaka.bg, borderRadius: '12px', padding: '20px', border: `1px solid ${vaka.renk}20` }}>
+                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '6px' }}>{z.baslik}</div>
+                        <div style={{ fontSize: '14px', color: '#666', lineHeight: 1.65 }}>{z.detay}</div>
+                      </div>
                     </div>
-                    <div style={{ flex: 1, background: vaka.bg, borderRadius: '12px', padding: '20px', border: `1px solid ${vaka.renk}20` }}>
-                      <div style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '6px' }}>{z.baslik}</div>
-                      <div style={{ fontSize: '14px', color: '#666', lineHeight: 1.65 }}>{z.detay}</div>
-                    </div>
-                  </div>
+                  </FadeInOnScroll>
                 ))}
               </div>
             </div>
@@ -637,10 +656,12 @@ export default function Page(props) {
               </h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 {vaka.cozum.map((c, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '14px', padding: '16px 20px', background: vaka.bg, borderRadius: '10px', border: `1px solid ${vaka.renk}15` }}>
-                    <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '12px', flexShrink: 0, marginTop: '1px' }}>{i + 1}</div>
-                    <span style={{ fontSize: '15px', color: '#444', lineHeight: 1.65 }}>{c}</span>
-                  </div>
+                  <FadeInOnScroll key={i} delay={i * 70}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '14px', padding: '16px 20px', background: vaka.bg, borderRadius: '10px', border: `1px solid ${vaka.renk}15` }}>
+                      <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '12px', flexShrink: 0, marginTop: '1px' }}>{i + 1}</div>
+                      <span style={{ fontSize: '15px', color: '#444', lineHeight: 1.65 }}>{c}</span>
+                    </div>
+                  </FadeInOnScroll>
                 ))}
               </div>
             </div>
@@ -693,13 +714,15 @@ export default function Page(props) {
             </h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '12px' }}>
               {vakalar.map((v, i) => (
-                <button key={i} onClick={() => { setAktifVaka(i); setAktifTab('metrikler'); setAktifFaq(null); window.scrollTo({ top: 280, behavior: 'smooth' }) }}
-                  style={{ background: aktifVaka === i ? v.bg : '#faf9f7', borderRadius: '14px', padding: '20px', border: aktifVaka === i ? `2px solid ${v.renk}` : '1px solid #eee', cursor: 'pointer', textAlign: 'left', transition: 'all 0.2s', fontFamily: 'var(--font-body)' }}>
-                  <div style={{ fontSize: '28px', marginBottom: '10px' }}>{v.emoji}</div>
-                  <div style={{ fontSize: '11px', fontWeight: 700, color: v.renk, marginBottom: '6px', textTransform: 'uppercase' }}>{v.sektor}</div>
-                  <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.3 }}>{v.baslik.split(':')[0]}</div>
-                  <div style={{ fontSize: '12px', color: '#aaa', marginTop: '6px' }}>⏱ {v.sure}</div>
-                </button>
+                <FadeInOnScroll key={i} delay={i * 60}>
+                  <button onClick={() => { setAktifVaka(i); setAktifTab('metrikler'); setAktifFaq(null); window.scrollTo({ top: 280, behavior: 'smooth' }) }}
+                    style={{ width: '100%', background: aktifVaka === i ? v.bg : '#faf9f7', borderRadius: '14px', padding: '20px', border: aktifVaka === i ? `2px solid ${v.renk}` : '1px solid #eee', cursor: 'pointer', textAlign: 'left', transition: 'all 0.2s', fontFamily: 'var(--font-body)' }}>
+                    <div style={{ fontSize: '28px', marginBottom: '10px' }}>{v.emoji}</div>
+                    <div style={{ fontSize: '11px', fontWeight: 700, color: v.renk, marginBottom: '6px', textTransform: 'uppercase' }}>{v.sektor}</div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.3 }}>{v.baslik.split(':')[0]}</div>
+                    <div style={{ fontSize: '12px', color: '#aaa', marginTop: '6px' }}>⏱ {v.sure}</div>
+                  </button>
+                </FadeInOnScroll>
               ))}
             </div>
           </div>
