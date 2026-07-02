@@ -41,6 +41,29 @@ const REFS = [
   },
 ]
 
+const BRAND_LOGOS = [
+  { src: '/images/referanslar/emlak-acentesi.png', alt: 'Emlak Acentesi' },
+  { src: '/images/referanslar/botanik-bahce.png', alt: 'Botanik Bahçe' },
+  { src: '/images/referanslar/akallar-et.png', alt: 'Akallar Et & Et Ürünleri' },
+  { src: '/images/referanslar/akallar-otel.png', alt: 'Akallar Otel & Tatil Köyü' },
+  { src: '/images/referanslar/alagoz-ecza.png', alt: 'Alagöz Ecza Deposu' },
+  { src: '/images/referanslar/doga-eczanesi.png', alt: 'Doğa Eczanesi' },
+  { src: '/images/referanslar/neseli-tursucu.png', alt: 'Neşeli Turşucu' },
+  { src: '/images/referanslar/aylin-dagdelen.png', alt: 'Aylin Dağdelen Çiçekçi Dükkanı' },
+  { src: '/images/referanslar/harika-cicekcilik.png', alt: 'Harika Çiçekçilik' },
+  { src: '/images/referanslar/kucuk-ilhamlar.png', alt: 'Küçük İlhamlar' },
+  { src: '/images/referanslar/rimberio-pazarlama.png', alt: 'Rimberio Pazarlama' },
+  { src: '/images/referanslar/hekimoglu-collection.png', alt: 'Hekimoğlu Collection' },
+  { src: '/images/referanslar/ceylin-hatipoglu.png', alt: 'Ceylin Hatipoğlu' },
+  { src: '/images/referanslar/fulya-arda.png', alt: 'Fulya Arda Tasarım Stüdyosu' },
+  { src: '/images/referanslar/lume.png', alt: 'Lumé' },
+  { src: '/images/referanslar/minimalist.png', alt: 'minimalist' },
+  { src: '/images/referanslar/istanbul-studyo.png', alt: 'İstanbul Stüdyo 2030' },
+  { src: '/images/referanslar/meridian-services.png', alt: 'Meridian Services' },
+  { src: '/images/referanslar/cloudlet-systems.png', alt: 'Cloudlet Systems' },
+  { src: '/images/referanslar/circuit-systems.png', alt: 'Circuit Systems' },
+]
+
 export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
@@ -56,6 +79,7 @@ export default function Page(props) {
     ctaTitle: isEn ? 'Want to be next?' : 'Siz de dahil olmak ister misiniz?',
     ctaDesc: isEn ? 'Book a free discovery call and let\'s grow together.' : 'Ücretsiz keşif görüşmesiyle başlayalım.',
     ctaBtn: isEn ? 'Get in Touch →' : 'İletişime Geç →',
+    brandsTitle: isEn ? 'Brands I\'ve worked with' : 'Birlikte Çalıştığım Markalar',
   }
   return (
     <>
@@ -84,6 +108,21 @@ export default function Page(props) {
               {t.h1a} <span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>{t.h1b}</span>
             </h1>
             <p style={{ color: '#777', fontSize: '16px' }}>{t.desc}</p>
+          </div>
+        </div>
+        <div style={{ background: '#fff', borderBottom: '1px solid #eee', padding: '36px 32px' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+            <p style={{ textAlign: 'center', fontSize: '12px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: '#aaa', marginBottom: '28px' }}>{t.brandsTitle}</p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: '16px', alignItems: 'center' }}>
+              {BRAND_LOGOS.map((b, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#faf9f7', border: '1px solid #f0ede8', borderRadius: '10px', padding: '14px', height: '76px' }}>
+                  <img src={b.src} alt={b.alt} title={b.alt} loading="lazy"
+                    style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', filter: 'grayscale(100%)', opacity: 0.65, transition: 'filter 0.2s, opacity 0.2s' }}
+                    onMouseEnter={e => { e.currentTarget.style.filter = 'grayscale(0%)'; e.currentTarget.style.opacity = '1' }}
+                    onMouseLeave={e => { e.currentTarget.style.filter = 'grayscale(100%)'; e.currentTarget.style.opacity = '0.65' }} />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px' }}>
