@@ -591,11 +591,11 @@ export default function Page(props) {
               </p>
               <div style={{ display: 'flex', gap: '32px' }}>
                 <div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 800, color: '#111' }}>150+</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '32px', fontWeight: 800, color: '#111' }}>150+</div>
                   <div style={{ fontSize: '12px', color: '#aaa', fontWeight: 600 }}>{isEn ? 'Active brands' : 'Aktif marka'}</div>
                 </div>
                 <div>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 800, color: '#111' }}>14</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '32px', fontWeight: 800, color: '#111' }}>14</div>
                   <div style={{ fontSize: '12px', color: '#aaa', fontWeight: 600 }}>{isEn ? 'Sectors' : 'Sektör'}</div>
                 </div>
               </div>
@@ -652,12 +652,12 @@ export default function Page(props) {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '20px' }}>
                   <div style={{ background: '#fee2e2', borderRadius: '10px', padding: '16px' }}>
                     <div style={{ fontSize: '11px', color: '#dc2626', fontWeight: 700, marginBottom: '4px' }}>▸ {isEn ? 'BEFORE' : 'ÖNCESİ'}</div>
-                    <div style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111' }}>{aktif.grafik.oncesi.aylik}</div>
+                    <div style={{ fontFamily: 'var(--font-body)', fontSize: '22px', fontWeight: 800, color: '#111' }}>{aktif.grafik.oncesi.aylik}</div>
                     <div style={{ fontSize: '11px', color: '#888' }}>{isEn ? 'monthly sessions' : 'aylık oturum'}</div>
                   </div>
                   <div style={{ background: '#dcfce7', borderRadius: '10px', padding: '16px' }}>
                     <div style={{ fontSize: '11px', color: '#16a34a', fontWeight: 700, marginBottom: '4px' }}>▸ {isEn ? 'AFTER' : 'SONRASI'}</div>
-                    <div style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111' }}>{aktif.grafik.sonrasi.aylik}</div>
+                    <div style={{ fontFamily: 'var(--font-body)', fontSize: '22px', fontWeight: 800, color: '#111' }}>{aktif.grafik.sonrasi.aylik}</div>
                     <div style={{ fontSize: '11px', color: '#888' }}>{isEn ? 'monthly sessions' : 'aylık oturum'}</div>
                   </div>
                 </div>
@@ -951,7 +951,7 @@ export default function Page(props) {
                   {/* Görsel üst bant */}
                   <div style={{ background: v.bg, padding: '32px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: `2px solid ${v.renk}` }}>
                     <div>
-                      <div style={{ fontSize: '36px', fontFamily: 'var(--font-display)', fontWeight: 900, color: v.renk }}>{v.metrik}</div>
+                      <div style={{ fontSize: '36px', fontFamily: 'var(--font-body)', fontWeight: 900, color: v.renk }}>{v.metrik}</div>
                       <div style={{ fontSize: '11px', color: '#888', fontWeight: 600 }}>{isEn ? v.metrik_label_en : v.metrik_label_tr}</div>
                     </div>
                     <div style={{ fontSize: '40px' }}>{v.ikon}</div>
@@ -1292,7 +1292,7 @@ function CounterCard({ item, started, isEn }) {
   return (
     <div style={{ background: '#111', padding: '36px 28px', textAlign: 'center' }}>
       <div style={{ fontSize: '32px', marginBottom: '8px' }}>{item.ikon}</div>
-      <div style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 3.5vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1, marginBottom: '6px' }}>
+      <div style={{ fontFamily: 'var(--font-body)', fontSize: 'clamp(36px, 3.5vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1, marginBottom: '6px' }}>
         <span style={{ color: item.renk }}>{count}</span>{item.suffix}
       </div>
       <div style={{ fontSize: '13px', fontWeight: 700, color: '#fff', marginBottom: '4px' }}>{item.label}</div>

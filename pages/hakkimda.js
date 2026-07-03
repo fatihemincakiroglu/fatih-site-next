@@ -346,7 +346,7 @@ export default function Page(props) {
                 <div key={i} style={{ background:'var(--bg2)', borderRadius:'14px', padding:'22px 14px', border:'1px solid var(--border)', textAlign:'center', transition:'transform 0.2s,box-shadow 0.2s' }}
                   onMouseEnter={e => { e.currentTarget.style.transform='translateY(-4px)'; e.currentTarget.style.boxShadow=`0 8px 24px ${s.renk}20` }}
                   onMouseLeave={e => { e.currentTarget.style.transform='none'; e.currentTarget.style.boxShadow='none' }}>
-                  <div style={{ fontFamily:'var(--font-display)', fontSize:'28px', fontWeight:900, color:s.renk, lineHeight:1, marginBottom:'6px', opacity:statsVisible?1:0, transform:statsVisible?'none':'translateY(8px)', transition:'all 0.6s ease' }}>{s.rakam}</div>
+                  <div style={{ fontFamily:'var(--font-body)', fontSize:'28px', fontWeight:900, color:s.renk, lineHeight:1, marginBottom:'6px', opacity:statsVisible?1:0, transform:statsVisible?'none':'translateY(8px)', transition:'all 0.6s ease' }}>{s.rakam}</div>
                   <div style={{ fontSize:'11px', color:'var(--text3)', lineHeight:1.4 }}>{isEn ? s.en : s.tr}</div>
                 </div>
               ))}

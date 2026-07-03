@@ -264,7 +264,7 @@ export default function Page(props) {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
               {ISTATISTIKLER.map((s, i) => (
                 <div key={i} style={{ background: 'rgba(255,255,255,0.04)', borderRadius: '14px', padding: '22px', border: '1px solid rgba(255,255,255,0.06)' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 900, color: i % 2 === 0 ? '#4ade80' : 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '32px', fontWeight: 900, color: i % 2 === 0 ? '#4ade80' : 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
                   <div style={{ fontSize: '12px', color: '#4b5563', lineHeight: 1.5 }}>{isEn ? s.en : s.tr}</div>
                 </div>
               ))}
@@ -403,7 +403,7 @@ export default function Page(props) {
               ))}
             </div>
             <div style={{ background: 'rgba(22,163,74,0.08)', borderRadius: '20px', padding: '40px', border: '1px solid rgba(22,163,74,0.2)', borderLeft: '4px solid #16a34a', maxWidth: '700px', margin: '0 auto' }}>
-              <div style={{ fontFamily: 'var(--font-display)', fontSize: '48px', fontWeight: 900, color: 'rgba(22,163,74,0.3)', lineHeight: 1, marginBottom: '8px' }}>{surec[aktifSurec].no}</div>
+              <div style={{ fontFamily: 'var(--font-body)', fontSize: '48px', fontWeight: 900, color: 'rgba(22,163,74,0.3)', lineHeight: 1, marginBottom: '8px' }}>{surec[aktifSurec].no}</div>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#4ade80', marginBottom: '16px' }}>{surec[aktifSurec].baslik}</h3>
               <p style={{ fontSize: '16px', color: '#9ca3af', lineHeight: 1.85, margin: 0 }}>{surec[aktifSurec].aciklama}</p>
             </div>

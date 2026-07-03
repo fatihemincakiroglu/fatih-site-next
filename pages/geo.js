@@ -228,7 +228,7 @@ export default function Page(props) {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
               {ISTATISTIKLER.map((s, i) => (
                 <div key={i} style={{ background: 'rgba(255,255,255,0.04)', borderRadius: '14px', padding: '22px', border: '1px solid rgba(255,255,255,0.06)' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '34px', fontWeight: 900, color: i % 2 === 0 ? '#a5b4fc' : 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '34px', fontWeight: 900, color: i % 2 === 0 ? '#a5b4fc' : 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
                   <div style={{ fontSize: '12px', color: '#4b5563', lineHeight: 1.5 }}>{isEn ? s.en : s.tr}</div>
                 </div>
               ))}
@@ -285,7 +285,7 @@ export default function Page(props) {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '48px' }}>
               {t.how_filters.map((f, i) => (
                 <div key={i} style={{ background: '#fff', borderRadius: '16px', padding: '28px', border: '1px solid #eee', textAlign: 'center' }}>
-                  <div style={{ width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(99,102,241,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '22px', fontWeight: 900, color: '#6366f1', fontFamily: 'var(--font-display)' }}>{i + 1}</div>
+                  <div style={{ width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(99,102,241,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '22px', fontWeight: 900, color: '#6366f1', fontFamily: 'var(--font-body)' }}>{i + 1}</div>
                   <p style={{ fontSize: '14px', color: '#555', lineHeight: 1.7, margin: 0 }}>{f}</p>
                 </div>
               ))}
@@ -382,7 +382,7 @@ export default function Page(props) {
               {surec.map((s, i) => (
                 <div key={i} style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
                   <div style={{ width: '88px', height: '88px', borderRadius: '50%', background: 'rgba(99,102,241,0.15)', border: '2px solid rgba(99,102,241,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px', backdropFilter: 'blur(10px)' }}>
-                    <span style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 900, color: '#a5b4fc' }}>{s.no}</span>
+                    <span style={{ fontFamily: 'var(--font-body)', fontSize: '20px', fontWeight: 900, color: '#a5b4fc' }}>{s.no}</span>
                   </div>
                   <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '15px', fontWeight: 800, color: '#e5e7eb', marginBottom: '8px' }}>{s.baslik}</h3>
                   <p style={{ fontSize: '13px', color: '#4b5563', lineHeight: 1.65 }}>{s.aciklama}</p>

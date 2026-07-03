@@ -442,7 +442,7 @@ export default function Page(props) {
               <div key={bi} id={bolum.id} style={{ scrollMarginTop: '90px', marginBottom: '64px' }}>
                 {/* Bölüm başlığı */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '32px', paddingBottom: '16px', borderBottom: '2px solid var(--orange)' }}>
-                  <span style={{ fontFamily: 'var(--font-display)', fontSize: '36px', fontWeight: 900, color: '#f0ede8', lineHeight: 1 }}>{bolum.no}</span>
+                  <span style={{ fontFamily: 'var(--font-body)', fontSize: '36px', fontWeight: 900, color: '#f0ede8', lineHeight: 1 }}>{bolum.no}</span>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(20px, 2.5vw, 28px)', fontWeight: 800, color: '#111', margin: 0 }}>{bolum.baslik}</h2>
                 </div>
 

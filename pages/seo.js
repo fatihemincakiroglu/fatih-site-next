@@ -290,7 +290,7 @@ export default function Page(props) {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
               {ISTATISTIKLER.map((s, i) => (
                 <div key={i} style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '14px', padding: '24px', border: '1px solid rgba(255,255,255,0.08)', backdropFilter: 'blur(10px)' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '36px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '36px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
                   <div style={{ fontSize: '12px', color: '#6b6b6b', lineHeight: 1.5 }}>{isEn ? s.etiket_en : s.etiket_tr}</div>
                 </div>
               ))}
@@ -438,7 +438,7 @@ export default function Page(props) {
               {surec.map((s, i) => (
                 <div key={i} style={{ textAlign: 'center', padding: '0 16px', position: 'relative', zIndex: 1 }}>
                   <div style={{ width: '96px', height: '96px', borderRadius: '50%', background: i % 2 === 0 ? 'var(--orange)' : '#fff', border: i % 2 === 0 ? 'none' : '2px solid var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 24px', boxShadow: '0 4px 20px rgba(232,86,10,0.3)' }}>
-                    <span style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 900, color: i % 2 === 0 ? '#fff' : 'var(--orange)' }}>{s.no}</span>
+                    <span style={{ fontFamily: 'var(--font-body)', fontSize: '22px', fontWeight: 900, color: i % 2 === 0 ? '#fff' : 'var(--orange)' }}>{s.no}</span>
                   </div>
                   <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 800, color: '#111', marginBottom: '8px' }}>{s.baslik}</h3>
                   <p style={{ fontSize: '13px', color: '#777', lineHeight: 1.65 }}>{s.aciklama}</p>

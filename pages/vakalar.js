@@ -491,7 +491,7 @@ export default function Page(props) {
               {genelMetrikler.map((m, i) => (
                 <FadeInOnScroll key={i} delay={i * 100}>
                   <div style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '14px', padding: '20px 28px', minWidth: '130px' }}>
-                    <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '4px' }}>
+                    <div style={{ fontFamily: 'var(--font-body)', fontSize: '32px', fontWeight: 900, color: 'var(--orange)', lineHeight: 1, marginBottom: '4px' }}>
                       <CountUp value={m.rakam} locale={isEn ? 'en-US' : 'tr-TR'} />
                     </div>
                     <div style={{ fontSize: '12px', color: '#6b7280', lineHeight: 1.4 }}>{m.etiket}</div>
@@ -574,11 +574,11 @@ export default function Page(props) {
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
                         <div>
                           <div style={{ fontSize: '12px', color: '#ccc', marginBottom: '2px' }}>{isEn ? 'Before' : 'Öncesi'}: <span style={{ color: '#999' }}>{m.eski}</span></div>
-                          <div style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: '#111' }}>
+                          <div style={{ fontFamily: 'var(--font-body)', fontSize: '22px', fontWeight: 800, color: '#111' }}>
                             <CountUp value={m.yeni} locale={isEn ? 'en-US' : 'tr-TR'} />
                           </div>
                         </div>
-                        <div style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: vaka.renk, padding: '4px 10px', background: vaka.bg, borderRadius: '8px' }}>
+                        <div style={{ fontFamily: 'var(--font-body)', fontSize: '18px', fontWeight: 800, color: vaka.renk, padding: '4px 10px', background: vaka.bg, borderRadius: '8px' }}>
                           <CountUp value={m.artis} locale={isEn ? 'en-US' : 'tr-TR'} />
                         </div>
                       </div>

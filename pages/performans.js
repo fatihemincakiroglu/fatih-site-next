@@ -261,7 +261,7 @@ export default function Page(props) {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
               {ISTATISTIKLER.map((s, i) => (
                 <div key={i} style={{ background: 'rgba(255,255,255,0.04)', borderRadius: '14px', padding: '22px', border: '1px solid rgba(255,255,255,0.06)' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontSize: '32px', fontWeight: 900, color: i % 2 === 0 ? 'var(--orange)' : '#a5b4fc', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '32px', fontWeight: 900, color: i % 2 === 0 ? 'var(--orange)' : '#a5b4fc', lineHeight: 1, marginBottom: '8px' }}>{s.rakam}</div>
                   <div style={{ fontSize: '12px', color: '#4b5563', lineHeight: 1.5 }}>{isEn ? s.en : s.tr}</div>
                 </div>
               ))}
@@ -382,7 +382,7 @@ export default function Page(props) {
               ))}
             </div>
             <div style={{ background: 'rgba(232,86,10,0.08)', borderRadius: '20px', padding: '40px', border: '1px solid rgba(232,86,10,0.2)', borderLeft: '4px solid var(--orange)', maxWidth: '720px', margin: '0 auto' }}>
-              <div style={{ fontFamily: 'var(--font-display)', fontSize: '56px', fontWeight: 900, color: 'rgba(232,86,10,0.2)', lineHeight: 1, marginBottom: '8px' }}>{surec[aktifSurec].no}</div>
+              <div style={{ fontFamily: 'var(--font-body)', fontSize: '56px', fontWeight: 900, color: 'rgba(232,86,10,0.2)', lineHeight: 1, marginBottom: '8px' }}>{surec[aktifSurec].no}</div>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 800, color: 'var(--orange)', marginBottom: '16px' }}>{surec[aktifSurec].baslik}</h3>
               <p style={{ fontSize: '16px', color: '#9ca3af', lineHeight: 1.85, margin: 0 }}>{surec[aktifSurec].aciklama}</p>
             </div>
@@ -404,7 +404,7 @@ export default function Page(props) {
             <div style={{ background: '#faf9f7', borderRadius: '20px', padding: '36px', border: '1px solid #eee', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '24px', marginBottom: '40px' }}>
               <div>
                 <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, letterSpacing: '1px', marginBottom: '8px', textTransform: 'uppercase' }}>{isEn ? 'METRIC' : 'METRİK'}</div>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: '28px', fontWeight: 900, color: '#111', marginBottom: '4px' }}>{metrikler[aktifMetrik].metrik}</div>
+                <div style={{ fontFamily: 'var(--font-body)', fontSize: '28px', fontWeight: 900, color: '#111', marginBottom: '4px' }}>{metrikler[aktifMetrik].metrik}</div>
                 <div style={{ fontSize: '14px', color: '#888' }}>{metrikler[aktifMetrik].acik}</div>
               </div>
               <div>
