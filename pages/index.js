@@ -675,11 +675,11 @@ export default function Page(props) {
         </section>
 
         {/* ── SEO, GEO ve AI GÖRÜNÜRLÜĞÜ REHBERİ ── */}
-        <section style={{ padding: '72px 40px', background: '#0a0a0a' }}>
+        <section className="seo-guide-section" style={{ padding: '72px 40px', background: '#0a0a0a' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
 
             {/* Üst kart: badge, başlık, alt başlık, etiketler, CTA */}
-            <div style={{ background: 'linear-gradient(135deg, #141414 0%, #1a1410 100%)', borderRadius: '24px', border: '1px solid #262626', padding: '48px 44px', marginBottom: '40px', textAlign: 'center' }}>
+            <div className="seo-guide-card" style={{ background: 'linear-gradient(135deg, #141414 0%, #1a1410 100%)', borderRadius: '24px', border: '1px solid #262626', padding: '48px 44px', marginBottom: '40px', textAlign: 'center' }}>
               <span style={{ display: 'inline-block', fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '2px', textTransform: 'uppercase', padding: '5px 14px', borderRadius: '20px', border: '1px solid rgba(232,86,10,0.35)', background: 'rgba(232,86,10,0.1)', marginBottom: '20px' }}>
                 {isEn ? 'GUIDE' : 'REHBER'}
               </span>
@@ -700,10 +700,10 @@ export default function Page(props) {
             </div>
 
             {/* İçerik: sol TOC (scroll ile hareket eden + aktif başlığı takip eden) + sağ içerik */}
-            <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px' }}>
+            <div className="seo-guide-grid" style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px' }}>
 
               {/* Sol TOC — dış hücre grid tarafından tam yüksekliğe stretch edilir, sticky iç div'de */}
-              <div className="desktop-nav">
+              <div className="seo-guide-toc">
                 <div style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: 'calc(var(--nav-h) + 24px)', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
                   <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
                     {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
@@ -730,7 +730,7 @@ export default function Page(props) {
               </div>
 
               {/* Sağ içerik */}
-              <div style={{ background: '#fff', borderRadius: '16px', padding: '40px 44px', border: '1px solid #262626' }}>
+              <div className="seo-guide-content" style={{ background: '#fff', borderRadius: '16px', padding: '40px 44px', border: '1px solid #262626' }}>
 
                 {GUIDE_SECTIONS.map(sec => {
                   const t = isEn ? sec.en : sec.tr
@@ -829,6 +829,15 @@ export default function Page(props) {
               </div>
             </div>
           </div>
+          <style jsx>{`
+            @media (max-width: 860px) {
+              .seo-guide-section { padding: 40px 16px !important; }
+              .seo-guide-card { padding: 32px 22px !important; }
+              .seo-guide-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+              .seo-guide-toc { display: none !important; }
+              .seo-guide-content { padding: 26px 20px !important; }
+            }
+          `}</style>
         </section>
 
         {/* ── NEDEN BEN? (Kişisel marka) ── */}
