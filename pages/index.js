@@ -490,11 +490,11 @@ export default function Page(props) {
               <div style={{ display: 'flex', gap: '8px', marginBottom: '16px', maxWidth: '460px' }}>
                 <input type="text" placeholder={isEn ? 'Enter your domain...' : 'Alan adınızı girin...'} value={domain} onChange={e => setDomain(e.target.value)}
                   style={{ flex: 1, padding: '13px 18px', borderRadius: '8px', border: '1px solid #ddd', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', background: '#fff' }} />
-                <Link href="/iletisim" style={{ padding: '13px 22px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}>
+                <Link href={isEn ? "/en/contact" : "/iletisim"} style={{ padding: '13px 22px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}>
                   {isEn ? 'Analyze' : 'Analiz Et'}
                 </Link>
               </div>
-              <Link href="/randevu" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: '#111', color: '#fff', padding: '12px 20px 12px 12px', borderRadius: '40px', textDecoration: 'none', marginBottom: '20px' }}>
+              <Link href={isEn ? "/en/book-a-call" : "/randevu"} style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: '#111', color: '#fff', padding: '12px 20px 12px 12px', borderRadius: '40px', textDecoration: 'none', marginBottom: '20px' }}>
                 <span style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>→</span>
                 <div>
                   <div style={{ fontSize: '13px', fontWeight: 700 }}>{isEn ? 'Get a Free Quote' : 'Ücretsiz Teklif Al'}</div>
@@ -1228,7 +1228,7 @@ export default function Page(props) {
               <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ padding: '15px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
                 {isEn ? 'Get in Touch →' : 'İletişime Geç →'}
               </Link>
-              <Link href="/randevu" style={{ padding: '15px 32px', background: '#fff', color: '#333', border: '1px solid #ddd', borderRadius: '8px', fontWeight: 600, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
+              <Link href={isEn ? "/en/book-a-call" : "/randevu"} style={{ padding: '15px 32px', background: '#fff', color: '#333', border: '1px solid #ddd', borderRadius: '8px', fontWeight: 600, fontSize: '16px', fontFamily: 'var(--font-body)', display: 'inline-block' }}>
                 {isEn ? 'Book a Call' : 'Randevu Al'}
               </Link>
             </div>

@@ -194,7 +194,7 @@ export default function Page(props) {
         {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 16px' }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap', fontSize: '13px', color: '#aaa' }}>
-            <Link href="/" style={{ color: '#aaa' }}>{isEn ? 'Home' : 'Ana Sayfa'}</Link>
+            <Link href={isEn ? '/en' : '/'} style={{ color: '#aaa' }}>{isEn ? 'Home' : 'Ana Sayfa'}</Link>
             <span>›</span>
             <Link href={isEn ? '/en/guides' : '/rehber'} style={{ color: '#aaa' }}>{isEn ? 'Guides' : 'Rehber'}</Link>
             <span>›</span>

@@ -58,32 +58,28 @@ const EN_PAGES = [
 // ── BLOG SLUGS ────────────────────────────────────────────
 const BLOG_SLUGS = [
   'core-web-vitals-2025','javascript-seo-rehberi','teknik-seo-denetim',
-  'site-migrasyonu-seo','crawl-butce-optimizasyonu','schema-markup-rehberi',
-  'canonical-tag-stratejisi','sayfa-hizi-optimizasyonu','internal-link-stratejisi',
-  'xml-sitemap-optimizasyonu','geo-nedir-rehber','google-ai-overview-optimizasyonu',
-  'llms-txt-rehberi','perplexity-gorünürlük','entity-seo-rehberi',
-  'chatgpt-search-seo','rag-seo-etkisi','ai-icin-icerik-yazma',
-  'zero-click-arama-stratejisi','answer-engine-optimization',
-  'topical-authority-rehberi','pillar-cluster-modeli','eeat-icin-icerik',
-  'anahtar-kelime-arastirmasi','icerik-guncelleme-stratejisi',
-  'backlink-stratejisi-2025','dijital-pr-seo','broken-link-building',
-  'toksik-backlink-temizleme','anchor-text-optimizasyonu',
+  'site-migrasyonu-seo','schema-markup-rehberi','geo-nedir-rehber',
+  'google-ai-overview-optimizasyonu','llms-txt-rehberi','perplexity-gorunurluk',
+  'entity-seo-rehberi','topical-authority-rehberi','eeat-icin-icerik',
+  'anahtar-kelime-arastirmasi','featured-snippet-stratejisi',
+  'backlink-stratejisi-2025','dijital-pr-seo','toksik-backlink-temizleme',
   'e-ticaret-seo-rehberi','shopify-seo-optimizasyonu','programatik-seo-rehberi',
-  'urun-sayfasi-optimizasyonu','faceted-navigation-seo',
   'ga4-seo-takibi','search-console-rehberi','seo-roi-olcumu',
-  'algoritma-guncelleme-rehberi','ctr-optimizasyonu',
-  'yerel-seo-rehberi','google-business-profile','nap-tutarliligi',
+  'algoritma-guncelleme-rehberi','yerel-seo-rehberi','google-business-profile',
   'seo-strateji-haritasi','rakip-analizi-seo','seo-yatirim-donusu',
-  'backlink-stratejisi-2025-2','dijital-pr-seo-2','seo-ajansi-nasil-secilir',
-  'turkiye-en-iyi-15-seo-ajansi-2026','turkiye-en-iyi-10-seo-ajansi-2026',
+  'seo-ajansi-nasil-secilir','turkiye-en-iyi-15-seo-ajansi-2026',
+  'turkiye-en-iyi-10-seo-ajansi-2026',
 ]
+// NOTE: keep this list in sync with the YAZILAR array in pages/blog.js —
+// every slug here must exist there, and vice versa (checked against source on generation).
 
 // ── REHBER SLUGS ──────────────────────────────────────────
 const REHBER_SLUGS = [
-  'teknik-seo','icerik-stratejisi','backlink-rehberi','yerel-seo',
-  'geo-optimizasyonu','performans-pazarlama','e-ticaret-seo',
-  'keyword-research','on-page-seo','off-page-seo',
+  'teknik-seo','icerik-stratejisi','on-page-seo','off-page-seo','keyword-research',
+  'backlink','mobil-seo','core-web-vitals','yerel-seo','seo-101','geo-nedir',
+  'llmstxt','ai-overview','aeo','zero-click','eeat',
 ]
+// NOTE: keep this list in sync with the REHBERLER array in pages/rehber.js
 
 // ── XML BUILDERS ─────────────────────────────────────────
 function buildUrlEntry(url, priority, changefreq, trUrl, enUrl) {

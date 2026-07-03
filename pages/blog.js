@@ -63,7 +63,7 @@ export const YAZILAR = [
     tr: { baslik: 'LLMs.txt Dosyası: Yapay Zekâ Sistemlerine Doğru Sinyal', ozet: 'Robots.txt\'in AI eşdeğeri olan llms.txt dosyasını nasıl oluşturursunuz ve ne işe yarar?' },
     en: { baslik: 'LLMs.txt File: Sending the Right Signal to AI Systems', ozet: 'How to create the llms.txt file, the AI equivalent of robots.txt, and what it does.' },
   },
-  { slug: 'perplexity-gorünürlük',     kategori: 'geo', sure: 10, featured: false,
+  { slug: 'perplexity-gorunurluk',     kategori: 'geo', sure: 10, featured: false,
     tr: { baslik: 'Perplexity AI\'da Görünürlük: Kaynak Seçilmenin Formülü', ozet: 'Perplexity\'nin kaynak seçim algoritması ve içeriklerinizi öne çıkarmak için pratik adımlar.' },
     en: { baslik: 'Visibility in Perplexity AI: The Formula for Being Selected as a Source', ozet: 'Perplexity\'s source selection algorithm and practical steps to get your content featured.' },
   },
@@ -232,7 +232,7 @@ export default function Page(props) {
         {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
+            <Link href={isEn ? "/en" : "/"} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
             <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[1]}</span>
           </div>
@@ -304,7 +304,7 @@ export default function Page(props) {
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
-                        <Link key={i} href={`/blog/${y.slug}`}
+                        <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
                           style={{ background: kat.bg, borderRadius: '20px', padding: '36px', border: `1px solid ${kat.renk}20`, textDecoration: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '260px', transition: 'transform 0.2s, box-shadow 0.2s', position: 'relative', overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = `0 16px 48px ${kat.renk}20` }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
@@ -329,7 +329,7 @@ export default function Page(props) {
                           const kat = getKat(y.kategori)
                           const baslik = isEn ? y.en.baslik : y.tr.baslik
                           return (
-                            <Link key={i} href={`/blog/${y.slug}`}
+                            <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
                               style={{ background: kat.bg, borderRadius: '16px', padding: '24px', border: `1px solid ${kat.renk}20`, textDecoration: 'none', flex: 1, transition: 'transform 0.2s', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
                               onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)' }}
                               onMouseLeave={e => { e.currentTarget.style.transform = 'none' }}>
@@ -364,7 +364,7 @@ export default function Page(props) {
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
-                        <Link key={i} href={`/blog/${y.slug}`}
+                        <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
                           style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #eee', textDecoration: 'none', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s, box-shadow 0.2s', borderTop: `3px solid ${kat.renk}` }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.08)' }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>

@@ -7,11 +7,11 @@ export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const kaynaklar = isEn ? [
-    { url: '/seo-rehberi', ikon: '📖', baslik: 'SEO Guide', aciklama: 'Comprehensive guide on technical SEO, content and backlinks.', yeni: false },
-    { url: '/geo-rehberi', ikon: '🤖', baslik: 'GEO Guide', aciklama: 'Complete guide on generative engine optimization strategies.', yeni: true },
-    { url: '/ai-sozluk', ikon: '📚', baslik: 'AI Glossary', aciklama: '125+ SEO, GEO and AI terms explained.', yeni: false },
-    { url: '/sss', ikon: '❓', baslik: 'FAQ', aciklama: 'Most frequently asked questions about SEO consulting.', yeni: false },
-    { url: '/rehber', ikon: '🗺️', baslik: 'Guides', aciklama: 'Guides covering all topics from technical SEO to GEO.', yeni: false },
+    { url: '/en/seo-guide', ikon: '📖', baslik: 'SEO Guide', aciklama: 'Comprehensive guide on technical SEO, content and backlinks.', yeni: false },
+    { url: '/en/geo-guide', ikon: '🤖', baslik: 'GEO Guide', aciklama: 'Complete guide on generative engine optimization strategies.', yeni: true },
+    { url: '/en/ai-glossary', ikon: '📚', baslik: 'AI Glossary', aciklama: '125+ SEO, GEO and AI terms explained.', yeni: false },
+    { url: '/en/faq', ikon: '❓', baslik: 'FAQ', aciklama: 'Most frequently asked questions about SEO consulting.', yeni: false },
+    { url: '/en/guides', ikon: '🗺️', baslik: 'Guides', aciklama: 'Guides covering all topics from technical SEO to GEO.', yeni: false },
   ] : [
     { url: '/seo-rehberi', ikon: '📖', baslik: 'SEO Rehberi', aciklama: 'Teknik SEO, içerik ve backlink hakkında kapsamlı rehber.', yeni: false },
     { url: '/geo-rehberi', ikon: '🤖', baslik: 'GEO Rehberi', aciklama: 'Generative engine optimization stratejileri hakkında eksiksiz rehber.', yeni: true },
@@ -41,7 +41,7 @@ export default function Page(props) {
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
+            <Link href={isEn ? "/en" : "/"} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
             <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[1]}</span>
           </div>

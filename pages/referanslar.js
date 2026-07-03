@@ -94,7 +94,7 @@ export default function Page(props) {
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
+            <Link href={isEn ? "/en" : "/"} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
             <Link href={`/${t.breadLinks[1]}`} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[1]}</Link>
             <span style={{ color: '#ccc' }}>›</span>

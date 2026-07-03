@@ -219,7 +219,7 @@ export default function Page(props) {
         {/* BREADCRUMB */}
         <div style={{ background:'var(--bg2)', borderBottom:'1px solid var(--border)', padding:'10px 24px' }}>
           <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', display:'flex', gap:'6px', alignItems:'center', fontSize:'13px', color:'var(--text3)', flexWrap:'wrap' }}>
-            <Link href="/" style={{ color:'var(--text3)' }}>{t.breadcrumb[0]}</Link>
+            <Link href={isEn ? "/en" : "/"} style={{ color:'var(--text3)' }}>{t.breadcrumb[0]}</Link>
             <span>›</span>
             <span style={{ color:'var(--text2)' }}>{t.breadcrumb[1]}</span>
           </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo', icerik:'/icerik', performans:'/performans', geo:'/geo', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma' }
-const URLS_EN = { home:'/', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing' }
+const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
@@ -18,6 +18,34 @@ const TR_TO_EN = {
   '/geo-rehberi':'/en/geo-guide', '/ai-sozluk':'/en/ai-glossary',
 }
 const EN_TO_TR = Object.fromEntries(Object.entries(TR_TO_EN).map(([k,v])=>[v,k]))
+
+// Dynamic (slug-based) route pairs: TR prefix <-> EN prefix
+const DYNAMIC_PREFIX_PAIRS = [
+  { tr: '/blog/', en: '/en/blog/' },
+  { tr: '/rehber/', en: '/en/guides/' },
+]
+
+// Resolve the equivalent path in the other language for the CURRENT real URL
+// (asPath includes the actual slug, unlike router.pathname which stays as "/blog/[slug]")
+function resolveAltPath(asPath, isEn) {
+  const cleanPath = asPath.split('?')[0].split('#')[0]
+
+  // Dynamic slug routes: swap prefix, keep slug
+  for (const pair of DYNAMIC_PREFIX_PAIRS) {
+    if (!isEn && cleanPath.startsWith(pair.tr)) {
+      const slug = cleanPath.slice(pair.tr.length)
+      return slug ? pair.en + slug : pair.en.replace(/\/$/, '')
+    }
+    if (isEn && cleanPath.startsWith(pair.en)) {
+      const slug = cleanPath.slice(pair.en.length)
+      return slug ? pair.tr + slug : pair.tr.replace(/\/$/, '')
+    }
+  }
+
+  // Static routes: use the pathname-based map
+  if (isEn) return EN_TO_TR[cleanPath] || '/'
+  return TR_TO_EN[cleanPath] || '/en'
+}
 
 const getMenu = (isEn, u) => isEn ? [
   { label:'Services', url:u.hizmetler, altlar:[
@@ -74,8 +102,8 @@ export default function Navbar({ onSearchOpen }) {
   const navRef = useRef(null)
 
   const currentPath = router.pathname
-  const enPath = isEn ? currentPath : (TR_TO_EN[currentPath] || '/en')
-  const trPath = isEn ? (EN_TO_TR[currentPath] || '/') : currentPath
+  const enPath = isEn ? router.asPath : resolveAltPath(router.asPath, false)
+  const trPath = isEn ? resolveAltPath(router.asPath, true) : router.asPath
 
   useEffect(() => {
     const h = (e) => { if (navRef.current && !navRef.current.contains(e.target)) setAcik(null) }

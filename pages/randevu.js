@@ -30,7 +30,7 @@ export default function Page(props) {
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
+            <Link href={isEn ? "/en" : "/"} style={{ color: '#aaa', fontSize: '13px' }}>{t.breadcrumb[0]}</Link>
             <span style={{ color: '#ccc' }}>›</span>
             <span style={{ color: '#555', fontSize: '13px' }}>{t.breadcrumb[1]}</span>
           </div>
@@ -49,7 +49,7 @@ export default function Page(props) {
               </div>
             ))}
           </div>
-          <Link href="/iletisim"><button style={{ padding: '16px 36px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)', marginBottom: '16px', display: 'block', width: '100%' }}>{t.btn}</button></Link>
+          <Link href={isEn ? "/en/contact" : "/iletisim"}><button style={{ padding: '16px 36px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)', marginBottom: '16px', display: 'block', width: '100%' }}>{t.btn}</button></Link>
           <p style={{ fontSize: '13px', color: '#aaa' }}>{t.free}</p>
         </div>
           {/* Calendly Embed */}
