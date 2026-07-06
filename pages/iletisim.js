@@ -94,22 +94,27 @@ export default function Page(props) {
                 {isEn ? '✓ Thank you! Your message has been sent — we will get back to you within 24 hours.' : '✓ Teşekkürler! Mesajınız gönderildi, 24 saat içinde size dönüş yapacağız.'}
               </div>
             ) : (
-              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <form onSubmit={handleSubmit} autoComplete="off" data-lpignore="true" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                {/* autoComplete="off" + suppressHydrationWarning: Chrome bazen sayfa yenilendiğinde
+                    daha önce forma yazılan metinleri otomatik geri yüklüyor. Bu, React'ın "boş"
+                    olarak render ettiği input ile tarayıcının geri yüklediği metin arasında uyuşmazlığa
+                    (hydration mismatch) yol açıp formu tıklanamaz hale getirebiliyordu. Bu satırlar
+                    hem geri yüklemeyi engelliyor hem de olası bir uyuşmazlıkta React'ın çökmesini önlüyor. */}
                 <input type="text" name="website" value={form.website} onChange={e => setForm({...form, website: e.target.value})}
-                  autoComplete="off" tabIndex={-1}
+                  autoComplete="off" tabIndex={-1} suppressHydrationWarning
                   style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }} aria-hidden="true" />
                 {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'konu',label:t.form.konu,type:'text'}].map(f => (
                   <div key={f.id}>
                     <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
-                    <input type={f.type} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
-                      required={f.id !== 'konu'}
+                    <input type={f.type} name={f.id} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
+                      required={f.id !== 'konu'} autoComplete="off" suppressHydrationWarning
                       style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
                   </div>
                 ))}
                 <div>
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
-                  <textarea rows={5} value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
-                    required
+                  <textarea rows={5} name="mesaj" value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
+                    required autoComplete="off" suppressHydrationWarning
                     style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
                 </div>
                 {status === 'error' && (
