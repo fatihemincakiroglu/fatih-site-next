@@ -6,7 +6,40 @@ import { useState } from 'react';
 export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
-  const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '' })
+  const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '', website: '' })
+  const [status, setStatus] = useState('idle') // idle | sending | done | error
+  const [errorMsg, setErrorMsg] = useState('')
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (!form.isim || !form.email || !form.mesaj) {
+      setStatus('error')
+      setErrorMsg(isEn ? 'Please fill in your name, email and message.' : 'Lütfen ad, e-posta ve mesaj alanlarını doldurun.')
+      return
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+      setStatus('error')
+      setErrorMsg(isEn ? 'Please enter a valid email address.' : 'Lütfen geçerli bir e-posta adresi girin.')
+      return
+    }
+    setStatus('sending')
+    setErrorMsg('')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Failed')
+      setStatus('done')
+      setForm({ isim: '', email: '', konu: '', mesaj: '', website: '' })
+    } catch (err) {
+      setStatus('error')
+      setErrorMsg(isEn ? 'Something went wrong. Please try again or email us directly.' : 'Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.')
+    }
+  }
+
   const t = {
     title: isEn ? 'Contact | Fatih Emin Çakıroğlu SEO Consultant' : 'İletişim | Fatih Emin Çakıroğlu SEO Danışmanı',
     badge: isEn ? 'CONTACT' : 'İLETİŞİM',
@@ -56,21 +89,40 @@ export default function Page(props) {
         </div>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px', display: 'grid', gridTemplateColumns: '1fr 360px', gap: '40px', alignItems: 'start' }}>
           <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'konu',label:t.form.konu,type:'text'}].map(f => (
-                <div key={f.id}>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
-                  <input type={f.type} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
-                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
-                </div>
-              ))}
-              <div>
-                <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
-                <textarea rows={5} value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
-                  style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+            {status === 'done' ? (
+              <div style={{ padding: '18px 20px', background: 'rgba(34,197,94,0.12)', border: '1px solid rgba(34,197,94,0.3)', borderRadius: '10px', color: '#16a34a', fontSize: '15px', fontWeight: 600 }}>
+                {isEn ? '✓ Thank you! Your message has been sent — we will get back to you within 24 hours.' : '✓ Teşekkürler! Mesajınız gönderildi, 24 saat içinde size dönüş yapacağız.'}
               </div>
-              <button style={{ padding: '14px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.form.btn}</button>
-            </div>
+            ) : (
+              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <input type="text" name="website" value={form.website} onChange={e => setForm({...form, website: e.target.value})}
+                  autoComplete="off" tabIndex={-1}
+                  style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }} aria-hidden="true" />
+                {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'konu',label:t.form.konu,type:'text'}].map(f => (
+                  <div key={f.id}>
+                    <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
+                    <input type={f.type} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
+                      required={f.id !== 'konu'}
+                      style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
+                  </div>
+                ))}
+                <div>
+                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
+                  <textarea rows={5} value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
+                    required
+                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
+                </div>
+                {status === 'error' && (
+                  <div style={{ padding: '12px 16px', background: 'rgba(220,38,38,0.08)', border: '1px solid rgba(220,38,38,0.25)', borderRadius: '8px', color: '#dc2626', fontSize: '13px', fontWeight: 600 }}>
+                    {errorMsg}
+                  </div>
+                )}
+                <button type="submit" disabled={status === 'sending'}
+                  style={{ padding: '14px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '15px', cursor: status === 'sending' ? 'not-allowed' : 'pointer', fontFamily: 'var(--font-body)', opacity: status === 'sending' ? 0.7 : 1 }}>
+                  {status === 'sending' ? (isEn ? 'Sending...' : 'Gönderiliyor...') : t.form.btn}
+                </button>
+              </form>
+            )}
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             <div style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #eee' }}>
