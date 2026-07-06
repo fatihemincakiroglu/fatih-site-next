@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function Page(props) {
   const router = useRouter()
@@ -9,6 +9,14 @@ export default function Page(props) {
   const [form, setForm] = useState({ isim: '', email: '', telefon: '', konu: '', mesaj: '', website: '' })
   const [status, setStatus] = useState('idle') // idle | sending | done | error
   const [errorMsg, setErrorMsg] = useState('')
+  const [konuOpen, setKonuOpen] = useState(false)
+  const konuRef = useRef(null)
+
+  useEffect(() => {
+    const h = (e) => { if (konuRef.current && !konuRef.current.contains(e.target)) setKonuOpen(false) }
+    document.addEventListener('mousedown', h)
+    return () => document.removeEventListener('mousedown', h)
+  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -55,6 +63,7 @@ export default function Page(props) {
       konuOptions: isEn
         ? ['SEO', 'GEO', 'Content', 'Performance', 'Backlink']
         : ['SEO', 'GEO', 'İçerik', 'Performans', 'Backlink'],
+      konuIcons: ['🔍', '🤖', '✍️', '📈', '🔗'],
       mesaj: isEn ? 'Your Message' : 'Mesajınız',
       btn: isEn ? 'Send Message →' : 'Mesaj Gönder →',
     },
@@ -116,16 +125,41 @@ export default function Page(props) {
                       style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
                   </div>
                 ))}
-                <div>
+                <div ref={konuRef} style={{ position: 'relative' }}>
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.konu}</label>
-                  <select name="konu" value={form.konu} onChange={e => setForm({...form, konu: e.target.value})}
-                    suppressHydrationWarning
-                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', background: '#fff', color: form.konu ? '#111' : '#999', appearance: 'none', WebkitAppearance: 'none', backgroundImage: 'url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'8\' viewBox=\'0 0 12 8\'><path d=\'M1 1l5 5 5-5\' stroke=\'%23999\' stroke-width=\'1.5\' fill=\'none\' fill-rule=\'evenodd\'/></svg>")', backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}>
-                    <option value="">{t.form.konuSecPlaceholder}</option>
-                    {t.form.konuOptions.map(opt => (
-                      <option key={opt} value={opt}>{opt}</option>
-                    ))}
-                  </select>
+                  {/* Gizli input: form validasyonu ve olası tarayıcı otomasyonları için gerçek değeri tutar */}
+                  <input type="hidden" name="konu" value={form.konu} />
+                  <button type="button" onClick={() => setKonuOpen(o => !o)}
+                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: konuOpen ? '1px solid var(--orange)' : '1px solid #eee', background: '#fff', fontSize: '14px', fontFamily: 'var(--font-body)', color: form.konu ? '#111' : '#999', display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer', textAlign: 'left', boxShadow: konuOpen ? '0 0 0 3px rgba(232,86,10,0.1)' : 'none', transition: 'border-color 0.15s, box-shadow 0.15s' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      {form.konu && <span style={{ fontSize: '15px' }}>{t.form.konuIcons[t.form.konuOptions.indexOf(form.konu)]}</span>}
+                      {form.konu || t.form.konuSecPlaceholder}
+                    </span>
+                    <span style={{ fontSize: '10px', color: '#aaa', transform: konuOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s', flexShrink: 0, marginLeft: '8px' }}>▾</span>
+                  </button>
+                  {konuOpen && (
+                    <div style={{ position: 'absolute', top: 'calc(100% + 8px)', left: 0, right: 0, background: '#fff', borderRadius: '12px', border: '1px solid #ede8e0', boxShadow: '0 16px 48px rgba(0,0,0,0.12)', overflow: 'hidden', zIndex: 50, animation: 'konuDropIn 0.15s ease' }}>
+                      <button type="button" onClick={() => { setForm({...form, konu: ''}); setKonuOpen(false) }}
+                        style={{ width: '100%', display: 'flex', alignItems: 'center', padding: '11px 16px', background: form.konu === '' ? '#faf9f7' : 'transparent', border: 'none', borderBottom: '1px solid #f5f3ef', cursor: 'pointer', fontSize: '13px', color: '#aaa', fontFamily: 'var(--font-body)', textAlign: 'left' }}
+                        onMouseEnter={e => e.currentTarget.style.background = '#faf9f7'}
+                        onMouseLeave={e => e.currentTarget.style.background = form.konu === '' ? '#faf9f7' : 'transparent'}>
+                        {t.form.konuSecPlaceholder}
+                      </button>
+                      {t.form.konuOptions.map((opt, i) => (
+                        <button key={opt} type="button" onClick={() => { setForm({...form, konu: opt}); setKonuOpen(false) }}
+                          style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 16px', background: form.konu === opt ? '#fdf1ea' : 'transparent', border: 'none', borderBottom: i < t.form.konuOptions.length - 1 ? '1px solid #f5f3ef' : 'none', cursor: 'pointer', fontSize: '14px', color: form.konu === opt ? 'var(--orange)' : '#333', fontWeight: form.konu === opt ? 700 : 500, fontFamily: 'var(--font-body)', textAlign: 'left' }}
+                          onMouseEnter={e => { if (form.konu !== opt) e.currentTarget.style.background = '#faf9f7' }}
+                          onMouseLeave={e => { if (form.konu !== opt) e.currentTarget.style.background = 'transparent' }}>
+                          <span style={{ fontSize: '16px' }}>{t.form.konuIcons[i]}</span>
+                          {opt}
+                          {form.konu === opt && <span style={{ marginLeft: 'auto', fontSize: '14px' }}>✓</span>}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  <style jsx>{`
+                    @keyframes konuDropIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+                  `}</style>
                 </div>
                 <div>
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
