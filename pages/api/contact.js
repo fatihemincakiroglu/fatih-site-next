@@ -34,7 +34,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { isim, email, konu, mesaj, website } = req.body || {}
+  const { isim, email, telefon, konu, mesaj, website } = req.body || {}
 
   // Honeypot: bu alan normal kullanıcılara görünmez (bkz. iletisim.js).
   // Bir bot bunu doldurursa sessizce başarı döneriz, mail göndermeyiz.
@@ -71,12 +71,13 @@ export default async function handler(req, res) {
       to: toAddress,
       replyTo: `"${isim}" <${email}>`,
       subject: `[İletişim Formu] ${konu ? konu : 'Yeni Mesaj'} — ${isim}`,
-      text: `Ad Soyad: ${isim}\nE-posta: ${email}\nKonu: ${konu || '-'}\n\nMesaj:\n${mesaj}`,
+      text: `Ad Soyad: ${isim}\nE-posta: ${email}\nTelefon: ${telefon || '-'}\nKonu: ${konu || '-'}\n\nMesaj:\n${mesaj}`,
       html: `
         <div style="font-family: -apple-system, Arial, sans-serif; font-size: 14px; color: #222; line-height: 1.6;">
           <h2 style="color:#e8560a; margin-bottom: 16px;">Yeni İletişim Formu Mesajı</h2>
           <p><strong>Ad Soyad:</strong> ${escapeHtml(isim)}</p>
           <p><strong>E-posta:</strong> ${escapeHtml(email)}</p>
+          <p><strong>Telefon:</strong> ${escapeHtml(telefon || '-')}</p>
           <p><strong>Konu:</strong> ${escapeHtml(konu || '-')}</p>
           <p><strong>Mesaj:</strong></p>
           <p style="white-space: pre-wrap; background:#f8f7f5; padding:12px 16px; border-radius:8px; border:1px solid #eee;">${escapeHtml(mesaj)}</p>

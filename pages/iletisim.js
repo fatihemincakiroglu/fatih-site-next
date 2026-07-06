@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
-  const [form, setForm] = useState({ isim: '', email: '', konu: '', mesaj: '', website: '' })
+  const [form, setForm] = useState({ isim: '', email: '', telefon: '', konu: '', mesaj: '', website: '' })
   const [status, setStatus] = useState('idle') // idle | sending | done | error
   const [errorMsg, setErrorMsg] = useState('')
 
@@ -33,7 +33,7 @@ export default function Page(props) {
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Failed')
       setStatus('done')
-      setForm({ isim: '', email: '', konu: '', mesaj: '', website: '' })
+      setForm({ isim: '', email: '', telefon: '', konu: '', mesaj: '', website: '' })
     } catch (err) {
       setStatus('error')
       setErrorMsg(isEn ? 'Something went wrong. Please try again or email us directly.' : 'Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.')
@@ -49,7 +49,12 @@ export default function Page(props) {
     form: {
       isim: isEn ? 'Full Name' : 'Ad Soyad',
       email: isEn ? 'Email Address' : 'E-posta Adresi',
+      telefon: isEn ? 'Phone Number' : 'Telefon Numarası',
       konu: isEn ? 'Subject' : 'Konu',
+      konuSecPlaceholder: isEn ? 'Select a topic' : 'Bir konu seçin',
+      konuOptions: isEn
+        ? ['SEO', 'GEO', 'Content', 'Performance', 'Backlink']
+        : ['SEO', 'GEO', 'İçerik', 'Performans', 'Backlink'],
       mesaj: isEn ? 'Your Message' : 'Mesajınız',
       btn: isEn ? 'Send Message →' : 'Mesaj Gönder →',
     },
@@ -103,14 +108,25 @@ export default function Page(props) {
                 <input type="text" name="website" value={form.website} onChange={e => setForm({...form, website: e.target.value})}
                   autoComplete="off" tabIndex={-1} suppressHydrationWarning
                   style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }} aria-hidden="true" />
-                {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'konu',label:t.form.konu,type:'text'}].map(f => (
+                {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'telefon',label:t.form.telefon,type:'tel'}].map(f => (
                   <div key={f.id}>
                     <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
                     <input type={f.type} name={f.id} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
-                      required={f.id !== 'konu'} autoComplete="off" suppressHydrationWarning
+                      required={f.id === 'isim' || f.id === 'email'} autoComplete="off" suppressHydrationWarning
                       style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
                   </div>
                 ))}
+                <div>
+                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.konu}</label>
+                  <select name="konu" value={form.konu} onChange={e => setForm({...form, konu: e.target.value})}
+                    suppressHydrationWarning
+                    style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', background: '#fff', color: form.konu ? '#111' : '#999', appearance: 'none', WebkitAppearance: 'none', backgroundImage: 'url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'8\' viewBox=\'0 0 12 8\'><path d=\'M1 1l5 5 5-5\' stroke=\'%23999\' stroke-width=\'1.5\' fill=\'none\' fill-rule=\'evenodd\'/></svg>")', backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}>
+                    <option value="">{t.form.konuSecPlaceholder}</option>
+                    {t.form.konuOptions.map(opt => (
+                      <option key={opt} value={opt}>{opt}</option>
+                    ))}
+                  </select>
+                </div>
                 <div>
                   <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
                   <textarea rows={5} name="mesaj" value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
