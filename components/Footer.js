@@ -1,6 +1,11 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+// Bu tarihi, siteye önemli bir içerik/özellik güncellemesi yaptığınızda elle güncelleyin.
+// AI arama motorları (GEO) ve Google, "içerik ne zaman güncellendi" sinyaline değer verir;
+// bu satır hem insan okuyuculara hem de arama/AI botlarına görünür bir tazelik göstergesi sunar.
+const LAST_UPDATED = { tr: 'Temmuz 2026', en: 'July 2026' }
+
 const AI_TOOLS = [
   { isim: 'Google', emoji: 'G', renk: '#4285f4', bg: '#e8f0fe', desc: 'Search & AI Overview' },
   { isim: 'ChatGPT', emoji: '✦', renk: '#10a37f', bg: '#e6f7f3', desc: 'OpenAI Search' },
@@ -159,8 +164,13 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div style={{ borderTop: '1px solid #1a1a1a', paddingTop: '20px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
-          <div style={{ fontSize: '13px', color: '#444' }}>
-            © {year} Fatih Emin Çakıroğlu
+          <div style={{ fontSize: '13px', color: '#444', display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+            <span>© {year} Fatih Emin Çakıroğlu</span>
+            <span style={{ color: '#2a2a2a' }}>•</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
+              <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', display: 'inline-block', flexShrink: 0 }} />
+              {isEn ? `Last updated: ${LAST_UPDATED.en}` : `Son güncelleme: ${LAST_UPDATED.tr}`}
+            </span>
           </div>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <Link href={isEn ? '/en/privacy' : '/gizlilik'} style={{ fontSize: '12px', color: '#444', transition: 'color 0.15s' }}
