@@ -2,8 +2,10 @@
 
 :root {
   --orange: #e8560a;
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  /* Yedek değerler. Gerçek değerler _app.js'te next/font tarafından
+     :root üzerine yazılır (self-hosted Playfair Display / Inter). */
+  --font-display: Georgia, serif;
+  --font-body: system-ui, -apple-system, sans-serif;
   --nav-h: 64px;
   --max-w: 1200px;
   /* Light mode */

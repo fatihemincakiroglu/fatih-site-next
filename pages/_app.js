@@ -5,7 +5,34 @@ import ExitIntentPopup from '../components/ExitIntentPopup'
 import { useRouter } from 'next/router'
 import { useState, useEffect, createContext, useContext } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
+import { Inter, Playfair_Display } from 'next/font/google'
 import { getAlternates } from '../lib/urls'
+
+// ── Fontlar ─────────────────────────────────────────────
+// Google Fonts artık <link> ile değil next/font ile yükleniyor.
+// Fark: fontlar build sırasında indirilip kendi domainimizden servis
+// ediliyor. Böylece fonts.googleapis.com'a render-blocking bir istek
+// gitmiyor (LCP kazancı) ve boyutlar önceden bilindiği için yazı tipi
+// değişiminden kaynaklanan layout kayması (CLS) ortadan kalkıyor.
+// Değişken isimleri styles/globals.css içindekilerle aynı tutuldu,
+// bu sayede 300+ inline fontFamily kullanımına dokunmaya gerek kalmadı.
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-body',
+  display: 'swap',
+  fallback: ['system-ui', '-apple-system', 'sans-serif'],
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['700', '800'],
+  style: ['normal', 'italic'],
+  variable: '--font-display',
+  display: 'swap',
+  fallback: ['Georgia', 'serif'],
+})
 
 export const SITE_URL = 'https://fatihemincakiroglu.com'
 
@@ -283,10 +310,26 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:image" content="https://fatihemincakiroglu.com/og-image.jpg" />
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content="AN9Hgw1XodseTVx-GX5u_0CXwRxQPaoXmhsnfXX3-QA" />
-        {/* Google Analytics 4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WZBHKP34SD');` }} />
       </Head>
+
+      {/* Google Analytics 4 — next/script ile.
+          afterInteractive: sayfa etkileşime hazır olduktan sonra yüklenir,
+          böylece ölçüm kaybı olmadan ana thread bloklanmaz. */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD"
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">
+        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WZBHKP34SD');`}
+      </Script>
+      {/* next/font değişkenlerini :root'a taşır; sarmalayıcı div gerekmez. */}
+      <style jsx global>{`
+        :root {
+          --font-body: ${inter.style.fontFamily};
+          --font-display: ${playfair.style.fontFamily};
+        }
+      `}</style>
+
       <ReadingProgress />
       <Navbar onSearchOpen={() => setSearchOpen(true)} isEn={isEn} />
       <main>

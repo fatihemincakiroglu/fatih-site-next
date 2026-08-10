@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -5,6 +6,12 @@ export default function NotFound() {
   const router = useRouter()
   const isEn = router.pathname.startsWith('/en')
   return (
+    <>
+      <Head>
+        <title>{isEn ? 'Page Not Found | Fatih Emin Çakıroğlu' : 'Sayfa Bulunamadı | Fatih Emin Çakıroğlu'}</title>
+        {/* Hata sayfalarının indekslenmesi istenmez. */}
+        <meta name="robots" content="noindex, follow" />
+      </Head>
     <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ textAlign: 'center', padding: '40px 20px' }}>
         <div style={{ fontFamily: 'var(--font-display)', fontSize: '120px', fontWeight: 900, color: '#f0ede8', lineHeight: 1, marginBottom: '8px' }}>404</div>
@@ -36,5 +43,6 @@ export default function NotFound() {
         </div>
       </div>
     </div>
+    </>
   )
 }
