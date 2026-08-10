@@ -19,6 +19,19 @@
 //   bölümünden bu özelliği açması gerekir.
 
 import nodemailer from 'nodemailer'
+import { rateLimit, getClientIp } from '../../lib/rate-limit'
+
+// E-posta BAŞLIKLARINA (from / replyTo / subject) giren kullanıcı verisinden
+// satır sonlarını ve tırnakları temizler. Aksi hâlde isim alanına \r\n
+// koyan biri kendi başlığını ekleyebilir (header injection) — nodemailer'ın
+// CRLF açıklarının kaynağı da buydu. Uzunluk da sınırlanıyor.
+function sanitizeHeader(str = '', max = 100) {
+  return String(str)
+    .replace(/[\r\n\t]/g, ' ')
+    .replace(/["<>]/g, '')
+    .trim()
+    .slice(0, max)
+}
 
 function escapeHtml(str = '') {
   return String(str)
@@ -34,6 +47,12 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
+  const limited = rateLimit(`contact:${getClientIp(req)}`, { limit: 5, windowMs: 10 * 60_000 })
+  if (!limited.ok) {
+    res.setHeader('Retry-After', String(limited.retryAfter))
+    return res.status(429).json({ error: 'Çok fazla mesaj gönderdiniz. Lütfen biraz sonra tekrar deneyin.' })
+  }
+
   const { isim, email, telefon, konu, mesaj, website } = req.body || {}
 
   // Honeypot: bu alan normal kullanıcılara görünmez (bkz. iletisim.js).
@@ -45,8 +64,12 @@ export default async function handler(req, res) {
   if (!isim || !email || !mesaj) {
     return res.status(400).json({ error: 'Ad, e-posta ve mesaj alanları zorunludur.' })
   }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254) {
     return res.status(400).json({ error: 'Geçerli bir e-posta adresi girin.' })
+  }
+  // Alan uzunlukları: aşırı büyük gövdelerle kaynak tüketimini engeller.
+  if (String(isim).length > 100 || String(konu || '').length > 150 || String(mesaj).length > 5000) {
+    return res.status(400).json({ error: 'Girdiğiniz metin çok uzun.' })
   }
   if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
     console.error('Contact form: GMAIL_USER / GMAIL_APP_PASSWORD ortam değişkenleri tanımlı değil.')
@@ -67,10 +90,10 @@ export default async function handler(req, res) {
     })
 
     await transporter.sendMail({
-      from: `"${isim} (Web Sitesi Formu)" <${process.env.GMAIL_USER}>`,
+      from: `"${sanitizeHeader(isim)} (Web Sitesi Formu)" <${process.env.GMAIL_USER}>`,
       to: toAddress,
-      replyTo: `"${isim}" <${email}>`,
-      subject: `[İletişim Formu] ${konu ? konu : 'Yeni Mesaj'} — ${isim}`,
+      replyTo: `"${sanitizeHeader(isim)}" <${sanitizeHeader(email, 254)}>`,
+      subject: sanitizeHeader(`[İletişim Formu] ${konu ? konu : 'Yeni Mesaj'} — ${isim}`, 200),
       text: `Ad Soyad: ${isim}\nE-posta: ${email}\nTelefon: ${telefon || '-'}\nKonu: ${konu || '-'}\n\nMesaj:\n${mesaj}`,
       html: `
         <div style="font-family: -apple-system, Arial, sans-serif; font-size: 14px; color: #222; line-height: 1.6;">
