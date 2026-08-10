@@ -5,6 +5,9 @@ import ExitIntentPopup from '../components/ExitIntentPopup'
 import { useRouter } from 'next/router'
 import { useState, useEffect, createContext, useContext } from 'react'
 import Head from 'next/head'
+import { getAlternates } from '../lib/urls'
+
+export const SITE_URL = 'https://fatihemincakiroglu.com'
 
 export const LocaleContext = createContext('tr')
 export function useLocale() { return useContext(LocaleContext) }
@@ -29,7 +32,7 @@ const SEARCH_INDEX = [
   { title: 'Araçlar', title_en: 'Tools', href: '/araclar', href_en: '/en/tools', cat: 'Kaynak' },
   { title: 'SSS', title_en: 'FAQ', href: '/sss', href_en: '/en/faq', cat: 'Kaynak' },
   { title: 'Core Web Vitals Rehberi', title_en: 'Core Web Vitals Guide', href: '/blog/core-web-vitals-2025', href_en: '/en/blog/core-web-vitals-2025', cat: 'Blog' },
-  { title: 'GEO Nedir?', title_en: 'What is GEO?', href: '/blog/geo-nedir-rehber', href_en: '/en/blog/geo-nedir-rehber', cat: 'Blog' },
+  { title: 'SEO Ajansı Nasıl Seçilir?', title_en: 'How to Choose an SEO Agency', href: '/blog/seo-ajansi-nasil-secilir', href_en: '/en/blog/seo-ajansi-nasil-secilir', cat: 'Blog' },
   { title: 'Teknik SEO Rehberi', title_en: 'Technical SEO Guide', href: '/rehber/teknik-seo', href_en: '/en/guides/teknik-seo', cat: 'Rehber' },
   { title: 'İçerik Stratejisi Rehberi', title_en: 'Content Strategy Guide', href: '/rehber/icerik-stratejisi', href_en: '/en/guides/icerik-stratejisi', cat: 'Rehber' },
 ]
@@ -259,9 +262,19 @@ export default function App({ Component, pageProps }) {
     }
   }, [router.pathname])
 
+  // ── hreflang ────────────────────────────────────────────
+  // İki dilli bir sitede her sayfanın diğer dildeki karşılığını bildirmek
+  // gerekir. Tek tek sayfalara eklemek yerine burada merkezî olarak üretiyoruz;
+  // böylece yeni sayfa eklenince unutulma riski kalmıyor.
+  // hreflang karşılıklı (reciprocal) olmalı — getAlternates iki yönü de üretir.
+  const alternates = getAlternates(router.asPath || router.pathname)
+
   return (
     <LocaleContext.Provider value={locale}>
       <Head>
+        {alternates && <link rel="alternate" hrefLang="tr" href={`${SITE_URL}${alternates.tr}`} key="alt-tr" />}
+        {alternates && <link rel="alternate" hrefLang="en" href={`${SITE_URL}${alternates.en}`} key="alt-en" />}
+        {alternates && <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${alternates.tr}`} key="alt-x" />}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fatih Emin Çakıroğlu" />

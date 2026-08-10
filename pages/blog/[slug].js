@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { YAZILAR } from '../blog';
+import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
 
 const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -247,47 +248,10 @@ const ICERIKLER = {
   },
 }
 
-function getDefaultContent(slug, isEn) {
-  const title = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
-  return {
-    bolumler: [
-      { baslik: isEn ? `Introduction to ${title}` : `${title} Hakkında Giriş`, paragraflar: [
-        isEn ? `This comprehensive guide covers everything you need to know about ${title}. As search engines evolve and AI systems become more prevalent in search, understanding this topic is increasingly important for digital marketing professionals.` : `Bu kapsamlı rehber, ${title} hakkında bilmeniz gereken her şeyi ele almaktadır. Arama motorları evrimleşirken bu konuyu anlamak dijital pazarlama profesyonelleri için giderek daha önemli hale gelmektedir.`,
-        isEn ? 'The fundamentals of this topic have changed significantly in recent years. What worked in 2020 may not work the same way in 2025. Staying current with best practices is essential for maintaining and growing organic visibility.' : 'Bu konunun temelleri son yıllarda önemli ölçüde değişti. 2020\'de işe yarayan şeyler 2025\'te aynı şekilde çalışmayabilir.',
-        isEn ? 'In this guide, we will walk through the most important concepts, practical implementation steps, and measurement strategies.' : 'Bu rehberde en önemli kavramları, pratik uygulama adımlarını ve ölçüm stratejilerini inceleyeceğiz.',
-      ]},
-      { baslik: isEn ? 'Core Concepts and Principles' : 'Temel Kavramlar', paragraflar: [
-        isEn ? 'Understanding the core principles is essential before diving into tactics. The foundation relies on three pillars: technical soundness, content quality, and authority signals.' : 'Taktiklere dalmadan önce temel prensipleri anlamak şarttır. Temel üç sütuna dayanır: teknik sağlamlık, içerik kalitesi ve otorite sinyalleri.',
-        isEn ? 'Each pillar must be addressed systematically. Neglecting any one creates weaknesses that undermine overall performance.' : 'Her sütun sistematik olarak ele alınmalıdır. Herhangi birini ihmal etmek genel performansı zayıflatır.',
-        isEn ? 'Early investments in technical infrastructure and content quality pay dividends as your site grows in authority.' : 'Teknik altyapı ve içerik kalitesine yapılan erken yatırımlar, site otoritesi büyüdükçe kazanımlar sağlar.',
-      ]},
-      { baslik: isEn ? 'Implementation Strategy' : 'Uygulama Stratejisi', paragraflar: [
-        isEn ? 'A phased implementation approach is typically most effective. Start with a comprehensive audit to understand your current baseline.' : 'Aşamalı uygulama yaklaşımı en etkili yoldur. Mevcut durumu anlamak için kapsamlı bir denetimle başlayın.',
-        isEn ? 'Track your progress with meaningful metrics from day one. Focus on metrics that directly reflect your business goals.' : 'İlk günden itibaren anlamlı metriklerle ilerlemenizi takip edin. İş hedeflerinizi doğrudan yansıtan metriklere odaklanın.',
-        isEn ? 'Regular reporting and strategy adjustments are crucial. Build review cycles into your process.' : 'Düzenli raporlama ve strateji ayarlamaları kritiktir. Sürecinize inceleme döngüleri ekleyin.',
-      ]},
-      { baslik: isEn ? 'Measurement and KPIs' : 'Ölçüm ve KPI\'lar', paragraflar: [
-        isEn ? 'Defining the right KPIs is critical. A combination of leading indicators and lagging indicators provides the most complete picture.' : 'Doğru KPI\'ları tanımlamak kritiktir. Öncü göstergeler ve gecikmiş göstergeler kombinasyonu en eksiksiz tabloyu sağlar.',
-        isEn ? 'Google Search Console and GA4 are foundational tools for measurement.' : 'Google Search Console ve GA4, ölçüm için temel araçlardır.',
-        isEn ? 'Set realistic benchmarks. SEO is a long-term investment — typical timelines range from 3-6 months for technical fixes to 6-12 months for content-driven growth.' : 'Gerçekçi referans noktaları belirleyin. SEO uzun vadeli yatırımdır — teknik düzeltmeler 3-6 ay, içerik odaklı büyüme 6-12 ay sürer.',
-      ]},
-      { baslik: isEn ? 'Advanced Techniques' : 'İleri Düzey Teknikler', paragraflar: [
-        isEn ? 'Once the fundamentals are in place, advanced techniques can provide additional competitive advantage including entity optimization for AI search visibility.' : 'Temel unsurlar yerleştikten sonra, gelişmiş teknikler ek rekabetçi avantaj sağlayabilir: AI arama görünürlüğü için entity optimizasyonu.',
-        isEn ? 'Competitive intelligence is another advanced area. Systematically monitoring competitor strategies identifies gaps you can fill.' : 'Rakibetçi istihbarat başka bir gelişmiş alandır. Rakip stratejilerini sistematik olarak izlemek doldurulabilecek boşlukları ortaya çıkarır.',
-        isEn ? 'AI tools integrated into your workflow can create efficiency gains that let you do more with the same resources.' : 'AI araçlarının iş akışınıza entegrasyonu aynı kaynaklarla daha fazlasını yapmanızı sağlayan verimlilik kazanımları yaratır.',
-      ]},
-      { baslik: isEn ? 'Common Mistakes to Avoid' : 'Yapılan Yaygın Hatalar', paragraflar: [
-        isEn ? 'Even experienced professionals make avoidable mistakes: focusing on vanity metrics instead of business outcomes, neglecting mobile optimization, treating technical SEO as one-time work.' : 'Deneyimli profesyoneller bile kaçınılabilir hatalar yapar: boş metrikler, mobil optimizasyonu ihmal etmek, teknik SEO\'yu tek seferlik görmek.',
-        isEn ? 'Content mistakes include creating content for search engines rather than users and not matching content to search intent.' : 'İçerik hataları arasında kullanıcılar yerine arama motorları için içerik üretmek ve arama niyetiyle eşleşmemek yer alır.',
-        isEn ? 'Link building mistakes remain costly. Buying links or participating in link schemes can result in manual penalties difficult to recover from.' : 'Link inşa hataları maliyetli olmaya devam ediyor. Link satın almak manuel cezalara yol açabilir.',
-      ]},
-    ]
-  }
-}
 
 export default function BlogPost(props) {
   const router = useRouter()
-  const { slug } = router.query
+  const slug = props.slug || router.query.slug
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const [aktifBolum, setAktifBolum] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
@@ -299,12 +263,14 @@ export default function BlogPost(props) {
     return () => window.removeEventListener('resize', check)
   }, [])
 
-  const veri = ICERIKLER[slug]
-  const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : slug?.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
-  const bolumler = veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : getDefaultContent(slug || '', isEn).bolumler
+  // getStaticPaths yalnızca gerçek içeriği yazılmış slug'ları üretir,
+  // dolayısıyla veri normalde her zaman doludur (savunmacı kontrol aşağıda).
+  const veri = ICERIKLER[slug] || null
+  const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
+  const bolumler = (veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : []) || []
   const metaDesc = veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
     ? (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
-    : bolumler[0]?.paragraflar[0]?.substring(0, 155) + '...'
+    : (bolumler[0]?.paragraflar?.[0]?.substring(0, 155) || '') + '...'
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
@@ -328,7 +294,8 @@ export default function BlogPost(props) {
     return () => observer.disconnect()
   }, [bolumler, isMobile])
 
-  if (!slug) return null
+  // Hook'lardan sonra: React hook sırası bozulmasın diye erken return burada.
+  if (!slug || !veri) return null
 
   const TOC = (
     <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginBottom: isMobile ? '24px' : '16px' }}>
@@ -393,8 +360,6 @@ export default function BlogPost(props) {
         <title>{baslik} | Fatih Emin Çakıroğlu</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="tr" href={`https://fatihemincakiroglu.com/blog/${slug}`} />
-        <link rel="alternate" hrefLang="en" href={`https://fatihemincakiroglu.com/en/blog/${slug}`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -551,4 +516,15 @@ export default function BlogPost(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }
+export async function getStaticPaths() {
+  return {
+    paths: YAYINDAKI_BLOG_SLUGS.map(slug => ({ params: { slug } })),
+    // Listede olmayan slug'lar 404 döner — dolgu içerikli sayfa üretilmez.
+    fallback: false,
+  }
+}
+
+export async function getStaticProps({ params }) {
+  if (!ICERIKLER[params.slug]) return { notFound: true }
+  return { props: { slug: params.slug } }
+}

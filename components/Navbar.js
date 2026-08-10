@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -127,7 +128,7 @@ export default function Navbar({ onSearchOpen }) {
       <nav ref={navRef} style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)' }}>
         <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', width:'100%', display:'flex', alignItems:'center' }}>
           <Link href={u.home} onClick={() => { setAcik(null); setMobil(false) }} style={{ display:'flex', alignItems:'center', marginRight:'28px', flexShrink:0 }}>
-            <img src="/logo.png" alt="Fatih Emin Çakıroğlu" style={{ height:'32px' }} />
+            <Image src="/logo.png" alt="Fatih Emin Çakıroğlu" width={129} height={32} priority style={{ height: '32px', width: 'auto' }} />
           </Link>
 
           <div className="desktop-nav" style={{ display:'flex', alignItems:'center', gap:'2px', flex:1 }}>

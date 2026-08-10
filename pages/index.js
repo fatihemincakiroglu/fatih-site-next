@@ -41,12 +41,13 @@ const REFERANSLAR = [
   { yorum_tr: 'Organik ve Google Discover trafiğindeki sürdürülebilir büyüme ile sıralamayı 2. sıraya taşıdık. Doğru ekibe iş teslim ettiğinizde trafik artıyor.', yorum_en: 'With sustainable growth in organic and Google Discover traffic, we moved to 2nd position in rankings. When you hand the work to the right team, traffic increases.', isim: 'Emre K.', unvan: 'Chairperson', sirket: 'Medyascope', sektor_tr: 'Haber & Dijital Medya', sektor_en: 'News & Digital Media' },
 ]
 
+// Slug'lar lib/content-index.js -> YAYINDAKI_BLOG_SLUGS ile birebir eşleşmeli;
+// aksi hâlde anasayfadan 404'e link verilir. (Önceki liste bu yüzden kırıktı.)
 const BLOG_YAZILARI = [
-  { no: '01', baslik_tr: 'Teknik SEO\'da 2025 Öncelikleri: Core Web Vitals ve Crawl Optimizasyonu', baslik_en: '2025 Technical SEO Priorities: Core Web Vitals and Crawl Optimization', yazar: 'Fatih Emin Çakıroğlu', sure: '8 dk', slug: 'teknik-seo-2025' },
-  { no: '02', baslik_tr: 'GEO Nedir? Google AI Overview\'da Kaynak Olmanın Yolu', baslik_en: 'What is GEO? How to Become a Source in Google AI Overview', yazar: 'Fatih Emin Çakıroğlu', sure: '9 dk', slug: 'geo-nedir' },
-  { no: '03', baslik_tr: 'E-E-A-T Sinyalleri ve Topical Authority İnşası', baslik_en: 'E-E-A-T Signals and Building Topical Authority', yazar: 'Fatih Emin Çakıroğlu', sure: '7 dk', slug: 'eeat-topical-authority' },
-  { no: '04', baslik_tr: 'LLMs.txt ile Yapay Zekâ Arama Görünürlüğü Nasıl Artırılır?', baslik_en: 'How to Boost AI Search Visibility with LLMs.txt', yazar: 'Fatih Emin Çakıroğlu', sure: '6 dk', slug: 'llms-txt' },
-  { no: '05', baslik_tr: 'Backlink Profili Analizi: Toksik Link Tespiti ve Temizleme', baslik_en: 'Backlink Profile Analysis: Toxic Link Detection and Cleanup', yazar: 'Fatih Emin Çakıroğlu', sure: '8 dk', slug: 'backlink-analizi' },
+  { no: '01', baslik_tr: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi', baslik_en: 'Core Web Vitals 2025: Complete LCP, INP and CLS Optimization Guide', yazar: 'Fatih Emin Çakıroğlu', sure: '12 dk', sure_en: '12 min', slug: 'core-web-vitals-2025' },
+  { no: '02', baslik_tr: 'SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye\'den Örnekler', baslik_en: 'How to Choose an SEO Agency: Criteria and Examples from Turkey', yazar: 'Fatih Emin Çakıroğlu', sure: '9 dk', sure_en: '9 min', slug: 'seo-ajansi-nasil-secilir' },
+  { no: '03', baslik_tr: 'Türkiye\'nin En İyi 15 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 15 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '11 dk', sure_en: '11 min', slug: 'turkiye-en-iyi-15-seo-ajansi-2026' },
+  { no: '04', baslik_tr: 'Türkiye\'nin En İyi 10 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 10 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '10 dk', sure_en: '10 min', slug: 'turkiye-en-iyi-10-seo-ajansi-2026' },
 ]
 
 const VAKALAR = [
@@ -454,9 +455,6 @@ export default function Page(props) {
         <title>{isEn ? 'Fatih Emin Çakıroğlu | SEO & GEO Consultant' : 'Fatih Emin Çakıroğlu | SEO ve GEO Danışmanlığı'}</title>
         <meta name="description" content={isEn ? "8+ years of experience growing organic traffic for 150+ businesses. SEO, GEO and digital marketing consulting to boost visibility on Google and AI search." : "8+ yıllık deneyimle 150+ işletmenin organik trafiğini büyüttüm. SEO, GEO ve dijital pazarlama danışmanlığıyla Google ve AI aramalarında görünürlük kazanın."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en' : 'https://fatihemincakiroglu.com'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com" />
         {/* FAQ Schema */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
@@ -1149,7 +1147,7 @@ export default function Page(props) {
                   <span style={{ fontSize: '13px', color: '#ccc', fontWeight: 700 }}>{y.no}</span>
                   <span style={{ fontSize: '14px', fontWeight: 600, color: '#111', lineHeight: 1.4 }}>{isEn ? y.baslik_en : y.baslik_tr}</span>
                   <span style={{ fontSize: '13px', color: '#888' }}>{y.yazar}</span>
-                  <span style={{ fontSize: '13px', color: '#aaa' }}>{y.sure}</span>
+                  <span style={{ fontSize: '13px', color: '#aaa' }}>{isEn ? (y.sure_en || y.sure) : y.sure}</span>
                 </Link>
               ))}
             </div>
@@ -1301,6 +1299,3 @@ function CounterCard({ item, started, isEn }) {
   )
 }
 
-export async function getServerSideProps() {
-  return { props: {} }
-}

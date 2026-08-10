@@ -1,6 +1,17 @@
 // Basit ama GERÇEK bir mini SEO denetimi: verilen URL'yi sunucu tarafında çeker,
 // temel on-page SEO sinyallerini regex ile çıkarır. Rastgele/sahte veri üretmez.
 // CORS kısıtlaması olmadan çalışması için istemci yerine burada (sunucuda) fetch ediyoruz.
+//
+// GÜVENLİK: Kullanıcı girdisiyle sunucu tarafında istek atıldığı için SSRF riski var.
+// Bu yüzden fetch doğrudan yapılmıyor; lib/safe-fetch.js üzerinden yapılıyor:
+//   • yalnızca http/https,
+//   • hostname DNS ile çözülüp özel/iç IP aralıkları reddediliyor,
+//   • yönlendirmeler manuel takip edilip HER adımda yeniden doğrulanıyor,
+//   • yanıt boyutu ve süre sınırlanıyor.
+// Ayrıca IP başına dakikada 5 istekle sınırlanıyor.
+
+import { safeFetchHtml } from '../../lib/safe-fetch'
+import { rateLimit, getClientIp } from '../../lib/rate-limit'
 
 function extractTag(html, regex) {
   const m = html.match(regex)
@@ -18,32 +29,38 @@ function decodeEntities(str) {
 }
 
 export default async function handler(req, res) {
+  if (req.method !== 'GET') {
+    res.setHeader('Allow', ['GET'])
+    return res.status(405).json({ error: 'Method not allowed' })
+  }
+
+  const limited = rateLimit(`seo-audit:${getClientIp(req)}`, { limit: 5, windowMs: 60_000 })
+  if (!limited.ok) {
+    res.setHeader('Retry-After', String(limited.retryAfter))
+    return res.status(429).json({ error: `Çok fazla istek gönderdiniz. ${limited.retryAfter} saniye sonra tekrar deneyin.` })
+  }
+
   const raw = (req.query.url || '').toString().trim()
   if (!raw) return res.status(400).json({ error: 'URL gerekli.' })
+  if (raw.length > 2048) return res.status(400).json({ error: 'URL çok uzun.' })
 
   let target
   try {
-    target = raw.match(/^https?:\/\//i) ? raw : `https://${raw}`
+    target = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`
     target = new URL(target).toString()
   } catch {
     return res.status(400).json({ error: 'Geçerli bir URL girin.' })
   }
 
-  const controller = new AbortController()
-  const timeout = setTimeout(() => controller.abort(), 8000)
   const start = Date.now()
 
   try {
-    const response = await fetch(target, {
-      signal: controller.signal,
-      redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FatihSEOAuditBot/1.0; +https://fatihemincakiroglu.com)' },
+    const { html, status, finalUrl, bytes } = await safeFetchHtml(target, {
+      timeoutMs: 8000,
+      maxRedirects: 3,
+      maxBytes: 2 * 1024 * 1024,
     })
     const responseTimeMs = Date.now() - start
-    clearTimeout(timeout)
-
-    const html = await response.text()
-    const finalUrl = response.url || target
     const isHttps = finalUrl.startsWith('https://')
 
     const title = decodeEntities(extractTag(html, /<title[^>]*>([\s\S]*?)<\/title>/i))
@@ -55,7 +72,7 @@ export default async function handler(req, res) {
     const imgMatches = html.match(/<img\b[^>]*>/gi) || []
     const imgsWithoutAlt = imgMatches.filter(tag => !/\salt=["'][^"']*["']/i.test(tag)).length
     const hasRobotsMeta = /<meta[^>]+name=["']robots["'][^>]+content=["']([^"']*noindex[^"']*)["']/i.test(html)
-    const sizeKb = Math.round(Buffer.byteLength(html, 'utf8') / 1024)
+    const sizeKb = Math.round((bytes || Buffer.byteLength(html, 'utf8')) / 1024)
 
     const titleLength = title ? title.length : 0
     const descLength = metaDescription ? metaDescription.length : 0
@@ -78,15 +95,22 @@ export default async function handler(req, res) {
 
     return res.status(200).json({
       url: finalUrl,
-      status: response.status,
+      status,
       score,
       checks,
     })
   } catch (err) {
-    clearTimeout(timeout)
-    const message = err.name === 'AbortError'
-      ? 'Site zaman aşımına uğradı (8sn). Site çok yavaş olabilir veya erişilemiyor.'
-      : 'Siteye erişilemedi. URL doğru mu ve site herkese açık mı kontrol edin.'
-    return res.status(502).json({ error: message })
+    if (err.name === 'AbortError') {
+      return res.status(504).json({ error: 'Site zaman aşımına uğradı (8sn). Site çok yavaş olabilir veya erişilemiyor.' })
+    }
+    // assertPublicUrl / safeFetchHtml kullanıcıya gösterilebilir mesajlar üretir.
+    const known = [
+      'Yalnızca http', 'Kullanıcı adı', 'Özel/iç ağ', 'Alan adı çözümlenemedi',
+      'Çok fazla yönlendirme', 'Yönlendirme hedefi', 'HTML sayfası',
+    ].some(p => (err.message || '').startsWith(p))
+    if (known) return res.status(400).json({ error: err.message })
+
+    console.error('seo-audit error:', err)
+    return res.status(502).json({ error: 'Siteye erişilemedi. URL doğru mu ve site herkese açık mı kontrol edin.' })
   }
 }

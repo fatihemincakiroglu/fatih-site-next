@@ -3,8 +3,9 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
 import LeadMagnet from '../components/LeadMagnet';
+import { YAYINDAKI_REHBER_SLUGS } from '../lib/content-index';
 
-const REHBERLER = [
+const TUM_REHBERLER_LISTE = [
   { slug: 'teknik-seo', no: '01', ikon: '⚙', kategori: 'Teknik',
     tr: { baslik: 'Teknik SEO', ozet: 'Crawl bütçesi, site mimarisi, HTTP ve performansla ilgili teknik temel taşlar.' },
     en: { baslik: 'Technical SEO', ozet: 'Crawl budget, site architecture, HTTP and performance fundamentals.' } },
@@ -54,6 +55,10 @@ const REHBERLER = [
     tr: { baslik: 'E-E-A-T Rehberi', ozet: 'Deneyim, Uzmanlık, Otorite ve Güvenilirlik sinyalleri.' },
     en: { baslik: 'E-E-A-T Guide', ozet: 'Experience, Expertise, Authoritativeness and Trust signals.' } },
 ];
+
+// Yalnızca gerçek içeriği yazılmış rehberler listelenir / indekslenir.
+// Yeni rehber yayına alınca lib/content-index.js -> YAYINDAKI_REHBER_SLUGS'a eklenir.
+const REHBERLER = TUM_REHBERLER_LISTE.filter(r => YAYINDAKI_REHBER_SLUGS.includes(r.slug))
 
 const KATEGORILER = {
   tr: ['Tümü', 'Strateji', 'Teknik', 'AI & GEO', 'Ölçüm & İçerik'],
@@ -105,9 +110,6 @@ export default function Page(props) {
         <title>{isEn ? 'SEO Guides | Fatih Emin Çakıroğlu' : 'SEO Rehberleri | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Comprehensive step-by-step guides on technical SEO, GEO, backlink building and content strategy. Actionable tactics to boost your organic search visibility.' : 'Teknik SEO, GEO, backlink inşası ve içerik stratejisi hakkında adım adım kapsamlı rehberler. Uygulanabilir taktiklerle organik görünürlüğünüzü artırın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/guides' : 'https://fatihemincakiroglu.com/rehber'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/rehber" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/guides" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/rehber" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": isEn ? "SEO Guides" : "SEO Rehberleri", "url": isEn ? "https://fatihemincakiroglu.com/en/guides" : "https://fatihemincakiroglu.com/rehber", "description": isEn ? "Comprehensive guides on technical SEO, GEO, backlinks and content strategy." : "Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": t.breadcrumbSelf, "item": isEn ? "https://fatihemincakiroglu.com/en/guides" : "https://fatihemincakiroglu.com/rehber"}]})}</script>
       </Head>
@@ -195,4 +197,3 @@ export default function Page(props) {
   );
 }
 
-export async function getServerSideProps() { return { props: {} } }

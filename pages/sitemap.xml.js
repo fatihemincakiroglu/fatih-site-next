@@ -1,3 +1,5 @@
+import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
+
 const BASE = 'https://fatihemincakiroglu.com'
 const TODAY = new Date().toISOString().split('T')[0] + 'T00:00:00Z'
 
@@ -55,31 +57,12 @@ const EN_PAGES = [
   { url: '/en/terms',                priority: '0.3', changefreq: 'yearly'  },
 ]
 
-// ── BLOG SLUGS ────────────────────────────────────────────
-const BLOG_SLUGS = [
-  'core-web-vitals-2025','javascript-seo-rehberi','teknik-seo-denetim',
-  'site-migrasyonu-seo','schema-markup-rehberi','geo-nedir-rehber',
-  'google-ai-overview-optimizasyonu','llms-txt-rehberi','perplexity-gorunurluk',
-  'entity-seo-rehberi','topical-authority-rehberi','eeat-icin-icerik',
-  'anahtar-kelime-arastirmasi','featured-snippet-stratejisi',
-  'backlink-stratejisi-2025','dijital-pr-seo','toksik-backlink-temizleme',
-  'e-ticaret-seo-rehberi','shopify-seo-optimizasyonu','programatik-seo-rehberi',
-  'ga4-seo-takibi','search-console-rehberi','seo-roi-olcumu',
-  'algoritma-guncelleme-rehberi','yerel-seo-rehberi','google-business-profile',
-  'seo-strateji-haritasi','rakip-analizi-seo','seo-yatirim-donusu',
-  'seo-ajansi-nasil-secilir','turkiye-en-iyi-15-seo-ajansi-2026',
-  'turkiye-en-iyi-10-seo-ajansi-2026',
-]
-// NOTE: keep this list in sync with the YAZILAR array in pages/blog.js —
-// every slug here must exist there, and vice versa (checked against source on generation).
-
-// ── REHBER SLUGS ──────────────────────────────────────────
-const REHBER_SLUGS = [
-  'teknik-seo','icerik-stratejisi','on-page-seo','off-page-seo','keyword-research',
-  'backlink','mobil-seo','core-web-vitals','yerel-seo','seo-101','geo-nedir',
-  'llmstxt','ai-overview','aeo','zero-click','eeat',
-]
-// NOTE: keep this list in sync with the REHBERLER array in pages/rehber.js
+// ── BLOG & REHBER SLUGS ───────────────────────────────────
+// Tek kaynak: lib/content-index.js
+// Sitemap'e yalnızca gerçek içeriği yazılmış sayfalar girer. Dolgu/şablon
+// içerikli URL'lerin sitemap'te olması thin-content sinyali yaratır.
+const BLOG_SLUGS = YAYINDAKI_BLOG_SLUGS
+const REHBER_SLUGS = YAYINDAKI_REHBER_SLUGS
 
 // ── XML BUILDERS ─────────────────────────────────────────
 function buildUrlEntry(url, priority, changefreq, trUrl, enUrl) {

@@ -454,8 +454,6 @@ export default function Page(props) {
         <title>{isEn ? 'SEO Case Studies | Fatih Emin Çakıroğlu' : 'SEO Vaka Çalışmaları | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Real SEO case studies with measurable results across e-commerce, SaaS, healthcare and legal sectors. 150+ projects showcasing sustainable organic growth.' : "Ölçülebilir sonuçlarla gerçek SEO vaka çalışmaları. E-ticaret, SaaS, sağlık ve hukuk sektörlerinde 150'den fazla projede elde edilen organik büyüme örnekleri."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/case-studies' : 'https://fatihemincakiroglu.com/vakalar'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/vakalar" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/case-studies" />
         <script type="application/ld+json">{JSON.stringify({
           "@context":"https://schema.org","@type":"CollectionPage",
           "name": isEn ? "SEO Case Studies" : "SEO Vaka Çalışmaları",
@@ -754,4 +752,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

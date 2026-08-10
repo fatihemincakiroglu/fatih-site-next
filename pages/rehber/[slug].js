@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
+import { YAYINDAKI_REHBER_SLUGS } from '../../lib/content-index';
 
 /* ── REHBER VERİSİ (TR + EN) ── */
 function makeRehber(baslik_tr, baslik_en, kategori, bolumler_tr, bolumler_en) {
@@ -63,28 +64,6 @@ const TÜM_REHBERLER = {
   ),
 }
 
-// Default fallback
-function makeDefault(slug) {
-  const title_tr = slug?.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) || 'Rehber'
-  const title_en = title_tr
-  const bols_tr = ['Giriş', 'Temel Prensipler', 'Uygulama Adımları', 'Ölçüm ve Optimizasyon', 'Yaygın Hatalar', 'Gelecek Perspektifi'].map(b => ({
-    baslik: b,
-    paragraflar: [
-      `${title_tr} konusunda başarılı olmak için temel prensipleri anlamak şarttır. Bu rehber, konuyu tüm boyutlarıyla ele almaktadır.`,
-      'Veriye dayalı, kullanıcı odaklı ve sürdürülebilir bir yaklaşım en iyi sonuçları verir.',
-      'Düzenli analiz ve optimizasyon döngüsü, uzun vadeli başarının anahtarıdır.',
-    ]
-  }))
-  const bols_en = ['Introduction', 'Core Principles', 'Implementation Steps', 'Measurement & Optimization', 'Common Mistakes', 'Future Outlook'].map(b => ({
-    baslik: b,
-    paragraflar: [
-      `Understanding the core principles of ${title_en} is essential for success. This guide covers the topic from every angle.`,
-      'A data-driven, user-focused and sustainable approach delivers the best results.',
-      'A regular analysis and optimization cycle is the key to long-term success.',
-    ]
-  }))
-  return makeRehber(title_tr, title_en, 'Strateji', bols_tr, bols_en)
-}
 
 const KAT_RENK = {
   'Teknik':        { bg: '#e0f2fe', color: '#0369a1', accent: '#0ea5e9' },
@@ -96,13 +75,14 @@ const KAT_RENK = {
 
 export default function Page(props) {
   const router = useRouter()
-  const { slug } = router.query
+  const slug = props.slug || router.query.slug
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
 
-  const veri = TÜM_REHBERLER[slug] || makeDefault(slug)
-  const renk = KAT_RENK[veri.kategori] || { bg: '#f5f5f5', color: '#555', accent: '#888' }
-  const bolumler = isEn ? veri.bolumler_en : veri.bolumler_tr
-  const baslik = isEn ? veri.baslik_en : veri.baslik_tr
+  // getStaticPaths yalnızca gerçek içeriği yazılmış rehberleri üretir.
+  const veri = TÜM_REHBERLER[slug] || null
+  const renk = KAT_RENK[veri?.kategori] || { bg: '#f5f5f5', color: '#555', accent: '#888' }
+  const bolumler = (veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : []) || []
+  const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
 
   const [aktifBolum, setAktifBolum] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
@@ -176,14 +156,16 @@ export default function Page(props) {
     </div>
   )
 
+
+  // Hook'lardan sonra: React hook sırası bozulmasın diye erken return burada.
+  if (!slug || !veri) return null
+
   return (
     <>
       <Head>
         <title>{baslik} | {isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu</title>
         <meta name="description" content={`${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="tr" href={`https://fatihemincakiroglu.com/rehber/${slug}`} />
-        <link rel="alternate" hrefLang="en" href={`https://fatihemincakiroglu.com/en/guides/${slug}`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Article","headline":baslik,"author":{"@type":"Person","name":"Fatih Emin Çakıroğlu","url":"https://fatihemincakiroglu.com"},"publisher":{"@type":"Person","name":"Fatih Emin Çakıroğlu"},"url":canonicalUrl,"inLanguage":isEn?"en":"tr" })}</script>
         <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Guides":"Rehber","item":`https://fatihemincakiroglu.com/${isEn?'en/guides':'rehber'}`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] })}</script>
@@ -272,4 +254,15 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }
+export async function getStaticPaths() {
+  return {
+    paths: YAYINDAKI_REHBER_SLUGS.map(slug => ({ params: { slug } })),
+    // Dolgu içerikli rehber üretilmez; listede olmayan slug 404 döner.
+    fallback: false,
+  }
+}
+
+export async function getStaticProps({ params }) {
+  if (!TÜM_REHBERLER[params.slug]) return { notFound: true }
+  return { props: { slug: params.slug } }
+}

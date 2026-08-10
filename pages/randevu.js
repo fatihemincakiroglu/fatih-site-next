@@ -23,9 +23,6 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={isEn ? "Book a free SEO discovery call today. I'll analyze your website and create a custom roadmap that reveals your organic growth opportunities and next steps." : 'Ücretsiz SEO keşif görüşmesi için hemen randevu alın. Sitenizi analiz edip organik büyüme fırsatlarını ortaya çıkaran özel bir yol haritası hazırlıyorum.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/book-a-call' : 'https://fatihemincakiroglu.com/randevu'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/randevu" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/book-a-call" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/randevu" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
@@ -71,4 +68,3 @@ export default function Page(props) {
     </>
   );
 }
-export async function getServerSideProps() { return { props: {} } }

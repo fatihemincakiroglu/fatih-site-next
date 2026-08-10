@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
@@ -87,9 +88,6 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={isEn ? "Real testimonials from 150+ businesses and measurable organic growth results. Discover our clients' experiences with SEO and GEO consulting services." : "150'den fazla işletmeden gerçek referanslar ve ölçülebilir organik büyüme sonuçları. Müşterilerimizin SEO ve GEO danışmanlığı deneyimlerini keşfedin."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/testimonials' : 'https://fatihemincakiroglu.com/referanslar'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/referanslar" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/testimonials" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/referanslar" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
@@ -116,7 +114,7 @@ export default function Page(props) {
             <div className="brand-grid">
               {BRAND_LOGOS.map((b, i) => (
                 <div key={i} className="brand-card">
-                  <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" />
+                  <Image src={b.src} alt={b.alt} title={b.alt} width={200} height={200} sizes="(max-width: 640px) 120px, 200px" style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto', objectFit: 'contain' }} />
                 </div>
               ))}
             </div>
@@ -126,7 +124,7 @@ export default function Page(props) {
           <div className="marquee-track">
             {[...BRAND_LOGOS, ...BRAND_LOGOS].map((b, i) => (
               <div key={i} className="marquee-item">
-                <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" />
+                <Image src={b.src} alt={b.alt} title={b.alt} width={200} height={200} sizes="(max-width: 640px) 120px, 200px" style={{ maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto', objectFit: 'contain' }} />
               </div>
             ))}
           </div>
@@ -253,4 +251,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

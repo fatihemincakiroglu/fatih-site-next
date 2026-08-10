@@ -223,8 +223,6 @@ export default function Page(props) {
         <title>{isEn ? 'Backlink & Digital PR Services | Fatih Emin' : 'Backlink & Dijital PR Hizmetleri | Fatih Emin'}</title>
         <meta name="description" content={isEn ? 'Editorial backlink building and digital PR services to strengthen your domain authority, boost organic visibility and earn lasting positions in Google rankings.' : 'Editoryal backlink inşası ve dijital PR hizmetleriyle domain otoritenizi güçlendirin, organik görünürlüğünüzü artırın ve Google sıralamalarında kalıcı yer kazanın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/backlink-digital-pr' : 'https://fatihemincakiroglu.com/backlink'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/backlink" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/backlink-digital-pr" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"Backlink & Digital PR":"Backlink & Dijital PR","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"description":isEn?"Editorial link building and digital PR for organic authority growth.":"Organik otorite büyümesi için editoryal link inşası ve dijital PR."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))})}</script>
       </Head>
@@ -505,4 +503,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

@@ -1,3 +1,4 @@
+import { YAYINDAKI_BLOG_SLUGS } from '../lib/content-index'
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
@@ -28,7 +29,7 @@ const KATEGORILER = {
   ],
 }
 
-export const YAZILAR = [
+const TUM_YAZILAR = [
   // Teknik SEO
   { slug: 'core-web-vitals-2025',      kategori: 'technical', sure: 12, featured: true,
     tr: { baslik: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi', ozet: 'Google\'ın sıralama sinyali olarak kullandığı üç kritik metriği nasıl iyileştirirsiniz? Adım adım rehber.' },
@@ -167,6 +168,12 @@ export const YAZILAR = [
   },
 ]
 
+
+// Yalnızca gerçek içeriği yazılmış yazılar listelenir / indekslenir.
+// (Tam liste TUM_YAZILAR'da korunur; yeni yazı yayına alınınca
+//  lib/content-index.js içindeki YAYINDAKI_BLOG_SLUGS'a eklenmesi yeterli.)
+export const YAZILAR = TUM_YAZILAR.filter(y => YAYINDAKI_BLOG_SLUGS.includes(y.slug))
+
 const KAT_MAP = { technical: 'technical', geo: 'geo', content: 'content', backlink: 'backlink', ecommerce: 'ecommerce', analytics: 'analytics', local: 'local', strategy: 'strategy' }
 
 export default function Page(props) {
@@ -222,8 +229,6 @@ export default function Page(props) {
         <title>{isEn ? 'SEO & GEO Blog | Fatih Emin Çakıroğlu' : 'SEO ve GEO Blog | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? `${YAZILAR.length}+ in-depth articles on SEO, GEO, technical SEO and digital marketing strategy. Practical, actionable insights to grow your organic search visibility.` : `${YAZILAR.length}+ derinlemesine makale: teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine. Organik görünürlüğünüzü artıracak uygulanabilir içgörüler.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/blog' : 'https://fatihemincakiroglu.com/blog'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/blog" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/blog" />
         <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Blog","name": isEn ? "Fatih Emin Çakıroğlu Blog" : "Fatih Emin Çakıroğlu Blog","url": isEn ? "https://fatihemincakiroglu.com/en/blog" : "https://fatihemincakiroglu.com/blog","author":{"@type":"Person","name":"Fatih Emin Çakıroğlu"} })}</script>
       </Head>
 
@@ -397,4 +402,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

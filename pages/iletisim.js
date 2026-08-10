@@ -82,9 +82,6 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={isEn ? "Get in touch with Fatih Emin Çakıroğlu. Book a free SEO and GEO consulting session today to discover your website's organic growth potential and next steps." : 'Fatih Emin Çakıroğlu ile iletişime geçin. Ücretsiz SEO ve GEO danışmanlığı görüşmesi için hemen randevu alın ve sitenizin organik büyüme potansiyelini öğrenin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/contact' : 'https://fatihemincakiroglu.com/iletisim'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/iletisim" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/contact" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/iletisim" />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 32px' }}>
@@ -199,4 +196,3 @@ export default function Page(props) {
     </>
   );
 }
-export async function getServerSideProps() { return { props: {} } }

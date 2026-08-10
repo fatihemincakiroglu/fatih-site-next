@@ -180,8 +180,6 @@ export default function Page(props) {
         <title>{isEn ? 'GEO Consulting | AI Search Optimization' : 'GEO Danışmanlığı | AI Arama Optimizasyonu'}</title>
         <meta name="description" content={isEn ? "Generative Engine Optimization to appear as a cited source in ChatGPT, Perplexity and Google AI Overview. Prepare your brand for the future of AI-driven search." : "Generative Engine Optimization ile ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünün. Markanızı yapay zekâ aramalarının geleceğine hazırlayın."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo-consulting' : 'https://fatihemincakiroglu.com/geo'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/geo" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/geo-consulting" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"GEO Consulting":"GEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"description":isEn?"Generative Engine Optimization for AI search visibility.":"Yapay zekâ arama görünürlüğü için GEO danışmanlığı."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))})}</script>
       </Head>
@@ -463,4 +461,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

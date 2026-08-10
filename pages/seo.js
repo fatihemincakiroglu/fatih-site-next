@@ -239,8 +239,6 @@ export default function Page(props) {
         <title>{isEn ? 'SEO Consulting Services | Fatih Emin Çakıroğlu' : 'SEO Danışmanlığı İstanbul | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Data-driven SEO consulting: technical audits, content strategy and link building for sustainable organic growth and lasting top rankings on Google search.' : 'Veriye dayalı SEO danışmanlığı: teknik SEO denetimi, içerik stratejisi ve backlink inşasıyla sürdürülebilir organik büyüme ve üst sıralarda kalıcı yer edinin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/seo-consulting' : 'https://fatihemincakiroglu.com/seo'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo-consulting" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"SEO Consulting":"SEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"areaServed":"TR","url":`https://fatihemincakiroglu.com${isEn?'/en/seo-consulting':'/seo'}`,"description":isEn?"Technical SEO, content strategy and link building consulting.":"Teknik SEO, içerik stratejisi ve backlink danışmanlığı."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({  "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c}}))})}</script>
       </Head>
@@ -606,4 +604,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

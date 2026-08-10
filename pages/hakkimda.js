@@ -209,8 +209,6 @@ export default function Page(props) {
         <title>{isEn ? 'About Me | Fatih Emin Çakıroğlu — SEO Expert' : 'Hakkımda | Fatih Emin Çakıroğlu — SEO Uzmanı'}</title>
         <meta name="description" content={isEn ? 'Fatih Emin Çakıroğlu: from IB teaching to independent SEO and GEO consulting. 10+ years of experience advising 150+ brands across 14 different industries.' : "Fatih Emin Çakıroğlu: IB öğretmenliğinden bağımsız SEO ve GEO danışmanlığına uzanan yolculuk. 10+ yıl deneyim, 14 sektörde 150'den fazla markaya danışmanlık."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/about' : 'https://fatihemincakiroglu.com/hakkimda'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/hakkimda" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/about" />
         <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Person","name":"Fatih Emin Çakıroğlu","jobTitle":isEn?"SEO & GEO Consultant":"SEO & GEO Danışmanı","url":"https://fatihemincakiroglu.com","alumniOf":{"@type":"EducationalOrganization","name":"Marmara University"},"knowsAbout":["SEO","GEO","Technical SEO","Content Strategy","Generative Engine Optimization"],"sameAs":["https://www.linkedin.com/in/fatihemincakiroglu/"] })}</script>
       </Head>
 
@@ -570,4 +568,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

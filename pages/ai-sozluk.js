@@ -145,9 +145,6 @@ export default function Page(props) {
         <title>{isEn ? 'AI & SEO Glossary | Fatih Emin Çakıroğlu' : 'AI ve SEO Terimleri Sözlüğü | Fatih Emin'}</title>
         <meta name="description" content={isEn ? `${TERIMLER.length}+ SEO, GEO and AI terms explained in plain English. LLM, AI Overview, E-E-A-T, RAG and more — a practical glossary for the new era of search.` : `${TERIMLER.length}+ SEO, GEO ve AI terimi açık bir dille anlatılıyor. LLM, AI Overview, E-E-A-T, RAG ve daha fazlası — aramanın yeni çağı için pratik bir sözlük.`} />
         <link rel="canonical" href={canonical} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/ai-sozluk" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/ai-glossary" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/ai-sozluk" />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>
@@ -270,4 +267,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

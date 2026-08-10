@@ -504,9 +504,6 @@ export default function Page(props) {
         <title>{isEn ? 'Free SEO Tools | Fatih Emin Çakıroğlu' : 'Ücretsiz SEO Araçları | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Free SEO tools: meta tag analysis, keyword research and more. No registration required — quickly analyze and improve your website in just a few clicks.' : 'Ücretsiz SEO araçları: meta tag analizi, anahtar kelime araştırması ve daha fazlası. Kayıt gerektirmeden sitenizi hızlıca analiz edip iyileştirin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/tools' : 'https://fatihemincakiroglu.com/araclar'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/araclar" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/tools" />
-        <link rel="alternate" hrefLang="x-default" href="https://fatihemincakiroglu.com/araclar" />
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "WebApplication", "name": isEn ? "Free SEO Tools" : "Ücretsiz SEO Araçları", "url": isEn ? "https://fatihemincakiroglu.com/en/tools" : "https://fatihemincakiroglu.com/araclar", "description": isEn ? "Meta tag analysis, keyword research, SEO score and more." : "Meta tag analizi, anahtar kelime araştırması, SEO skoru ve daha fazlası.", "applicationCategory": "SEO Tool", "operatingSystem": "Web", "author": {"@id": "https://fatihemincakiroglu.com/#person"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": isEn ? "USD" : "TRY"}})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": t.breadcrumbSelf, "item": isEn ? "https://fatihemincakiroglu.com/en/tools" : "https://fatihemincakiroglu.com/araclar"}]})}</script>
       </Head>
@@ -564,4 +561,3 @@ export default function Page(props) {
   );
 }
 
-export async function getServerSideProps() { return { props: {} } }

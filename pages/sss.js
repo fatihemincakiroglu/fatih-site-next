@@ -181,8 +181,6 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={isEn ? `${SORULAR_EN.length}+ frequently asked questions about SEO, GEO and AI search consulting, pricing, timelines and how the collaboration process works from start to finish.` : `${SORULAR_TR.length}+ soru-cevap: SEO, GEO ve AI arama danışmanlığı, fiyatlandırma, süreçler ve iş birliğinin nasıl işlediği hakkında bilmeniz gereken her şey burada.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/faq' : 'https://fatihemincakiroglu.com/sss'} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/sss" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/faq" />
         <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"FAQPage","mainEntity": filtered.slice(0,10).map(s => ({"@type":"Question","name":s.soru,"acceptedAnswer":{"@type":"Answer","text":s.cevap}})) })}</script>
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>
@@ -283,4 +281,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }

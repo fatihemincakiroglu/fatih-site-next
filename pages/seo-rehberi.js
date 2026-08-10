@@ -357,8 +357,6 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={t.desc} />
         <link rel="canonical" href={canonical} />
-        <link rel="alternate" hrefLang="tr" href="https://fatihemincakiroglu.com/seo-rehberi" />
-        <link rel="alternate" hrefLang="en" href="https://fatihemincakiroglu.com/en/seo-guide" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org", "@type": "Article",
           "headline": t.h1, "description": t.desc,
@@ -499,4 +497,3 @@ export default function Page(props) {
     </>
   )
 }
-export async function getServerSideProps() { return { props: {} } }
