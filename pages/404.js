@@ -21,6 +21,17 @@ export default function NotFound() {
         <p style={{ color: '#777', fontSize: '16px', marginBottom: '36px', maxWidth: '400px', margin: '0 auto 36px' }}>
           {isEn ? 'The page you\'re looking for doesn\'t exist or has been moved.' : 'Aradığınız sayfa mevcut değil veya taşınmış olabilir.'}
         </p>
+        {/* Arama: 404'e düşen kullanıcıyı link listesine mahkum etmek yerine
+            aradığını doğrudan bulmasına izin verir. Sitede zaten çalışan global
+            aramayı _app'teki 'acik-arama' olayıyla tetikliyoruz. */}
+        <button
+          onClick={() => window.dispatchEvent(new Event('acik-arama'))}
+          style={{ display: 'flex', alignItems: 'center', gap: '10px', width: '100%', maxWidth: '380px', margin: '0 auto 28px', padding: '13px 18px', borderRadius: '10px', border: '1px solid #e2ddd5', background: '#fff', color: '#999', fontSize: '15px', fontFamily: 'var(--font-body)', cursor: 'pointer', textAlign: 'left' }}>
+          <span aria-hidden="true">🔍</span>
+          <span style={{ flex: 1 }}>{isEn ? 'Search the site…' : 'Sitede ara…'}</span>
+          <span style={{ fontSize: '11px', color: '#c4c4c4', border: '1px solid #eee', borderRadius: '4px', padding: '2px 6px' }}>⌘K</span>
+        </button>
+
         <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <Link href="/" style={{ padding: '12px 28px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-body)' }}>
             {isEn ? '← Go Home' : '← Ana Sayfaya Dön'}

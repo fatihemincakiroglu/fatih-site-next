@@ -25,15 +25,42 @@ class MyDocument extends Document {
           <meta name="author" content="Fatih Emin Çakıroğlu" />
           <meta name="publisher" content="Fatih Emin Çakıroğlu" />
           {/* Fontlar next/font ile _app.js'te yükleniyor (self-hosted). */}
+          {/* Person + ProfessionalService tek grafta.
+              @id verilmesi önemli: hizmet sayfalarındaki Service şeması
+              provider olarak "#person" referansı veriyordu ama karşılığında
+              bir @id yoktu, yani referans boşa düşüyordu. */}
           <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
             "@context": "https://schema.org",
+            "@graph": [{
             "@type": "Person",
+            "@id": "https://fatihemincakiroglu.com/#person",
             "name": "Fatih Emin Çakıroğlu",
             "jobTitle": isEn ? "SEO & Digital Marketing Expert" : "SEO & Dijital Pazarlama Uzmanı",
             "url": "https://fatihemincakiroglu.com",
             "email": "info@fatihemincakiroglu.com",
             "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"},
             "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]
+          }, {
+            // Yerel arama sinyali: İstanbul merkezli danışmanlık.
+            "@type": "ProfessionalService",
+            "@id": "https://fatihemincakiroglu.com/#business",
+            "name": "Fatih Emin Çakıroğlu — SEO & GEO Danışmanlığı",
+            "url": "https://fatihemincakiroglu.com",
+            "image": "https://fatihemincakiroglu.com/og-image.jpg",
+            "email": "info@fatihemincakiroglu.com",
+            "founder": { "@id": "https://fatihemincakiroglu.com/#person" },
+            "address": { "@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR" },
+            "areaServed": [
+              { "@type": "Country", "name": "Türkiye" },
+              { "@type": "City", "name": "İstanbul" }
+            ],
+            "priceRange": "$$",
+            "knowsLanguage": ["tr", "en"],
+            "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"],
+            "description": isEn
+              ? "SEO and Generative Engine Optimization consulting for businesses in Turkey and abroad."
+              : "Türkiye ve yurt dışındaki işletmeler için SEO ve Generative Engine Optimization danışmanlığı."
+          }]
           })}} />
         </Head>
         <body>

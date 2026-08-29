@@ -278,7 +278,16 @@ export default function App({ Component, pageProps }) {
       }
     }
     window.addEventListener('keydown', h)
-    return () => window.removeEventListener('keydown', h)
+
+    // Sayfa bileşenleri (ör. 404) aramayı açabilsin diye global bir olay.
+    // Prop geçirmek gerekmiyor; her yerden window.dispatchEvent ile tetiklenir.
+    const openSearch = () => setSearchOpen(true)
+    window.addEventListener('acik-arama', openSearch)
+
+    return () => {
+      window.removeEventListener('keydown', h)
+      window.removeEventListener('acik-arama', openSearch)
+    }
   }, [])
 
   // Restore scroll position after language switch
@@ -306,6 +315,8 @@ export default function App({ Component, pageProps }) {
         {alternates && <link rel="alternate" hrefLang="en" href={`${SITE_URL}${alternates.en}`} key="alt-en" />}
         {alternates && <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${alternates.tr}`} key="alt-x" />}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        {/* RSS: feed okuyucuların ve tarayıcıların keşfedebilmesi için */}
+        <link rel="alternate" type="application/rss+xml" title="Fatih Emin Çakıroğlu — Blog" href={`${SITE_URL}/rss.xml`} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fatih Emin Çakıroğlu" />
         <meta property="og:image" content="https://fatihemincakiroglu.com/og-image.jpg" />
