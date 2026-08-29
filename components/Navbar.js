@@ -125,13 +125,13 @@ export default function Navbar({ onSearchOpen }) {
 
   return (
     <>
-      <nav ref={navRef} className="site-nav" style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)', boxSizing:'border-box', maxWidth:'100vw', overflow:'hidden' }}>
+      <nav ref={navRef} className="site-nav" style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)', boxSizing:'border-box', maxWidth:'100vw' }}>
         <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', width:'100%', display:'flex', alignItems:'center', minWidth:0 }}>
           <Link href={u.home} className="nav-logo" onClick={() => { setAcik(null); setMobil(false) }} style={{ display:'flex', alignItems:'center', marginRight:'28px', flexShrink:0, minWidth:0 }}>
             <Image src="/logo.png" alt="Fatih Emin Çakıroğlu" width={129} height={32} priority style={{ height: '32px', width: 'auto' }} />
           </Link>
 
-          <div className="desktop-nav" style={{ display:'flex', alignItems:'center', gap:'2px', flex:1 }}>
+          <div className="desktop-nav" style={{ display:'flex', alignItems:'center', gap:'2px', flex:1, minWidth:0 }}>
             {MENU.map(item => (
               <div key={item.label} style={{ position:'relative' }}>
                 {item.altlar.length > 0 ? (
@@ -232,7 +232,7 @@ export default function Navbar({ onSearchOpen }) {
              Boşluklar daraltılıp logo küçültülerek 320px'e kadar sığıyor. */
           .site-nav { padding: 0 12px !important; }
           .mobile-nav { gap: 4px !important; }
-          .nav-logo { margin-right: 8px !important; overflow: hidden; }
+          .nav-logo { margin-right: 8px !important; }
           .nav-logo img { height: 26px !important; }
           .nav-cta {
             padding: 7px 10px !important;
