@@ -6,8 +6,8 @@ const TODAY = new Date().toISOString().split('T')[0] + 'T00:00:00Z'
 // ── TR PAGES ──────────────────────────────────────────────
 const TR_PAGES = [
   { url: '/',               priority: '1.0', changefreq: 'weekly' },
-  { url: '/seo',            priority: '0.9', changefreq: 'monthly' },
-  { url: '/geo',            priority: '0.9', changefreq: 'monthly' },
+  { url: '/seo-danismanligi', priority: '0.9', changefreq: 'monthly' },
+  { url: '/geo-danismanligi', priority: '0.9', changefreq: 'monthly' },
   { url: '/icerik',         priority: '0.8', changefreq: 'monthly' },
   { url: '/backlink',       priority: '0.8', changefreq: 'monthly' },
   { url: '/performans',     priority: '0.8', changefreq: 'monthly' },
@@ -81,8 +81,8 @@ function buildUrlEntry(url, priority, changefreq, trUrl, enUrl) {
 // TR↔EN URL mapping
 const TR_EN_MAP = {
   '/': '/en',
-  '/seo': '/en/seo-consulting',
-  '/geo': '/en/geo-consulting',
+  '/seo-danismanligi': '/en/seo-consulting',
+  '/geo-danismanligi': '/en/geo-consulting',
   '/icerik': '/en/content-strategy',
   '/backlink': '/en/backlink-digital-pr',
   '/performans': '/en/performance-growth',

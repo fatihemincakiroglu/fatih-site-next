@@ -13,6 +13,20 @@ const nextConfig = {
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 gün
   },
 
+  // ── 301 YÖNLENDİRMELER ──────────────────────────────────
+  // /seo ve /geo, hedef kelimeyi (SEO/GEO danışmanlığı) içeren adreslere
+  // taşındı. Eski adresler indekslenmiş olabileceği ve dış bağlantı
+  // taşıyabileceği için kalıcı (301) yönlendiriliyor.
+  //
+  // permanent: true  -> 308 (kalıcı, metodu korur; Google 301 gibi işler)
+  // Yönlendirme zinciri oluşmaması için doğrudan nihai adrese gidiyor.
+  async redirects() {
+    return [
+      { source: '/seo', destination: '/seo-danismanligi', permanent: true },
+      { source: '/geo', destination: '/geo-danismanligi', permanent: true },
+    ]
+  },
+
   // Güvenlik başlıkları
   async headers() {
     return [

@@ -6,15 +6,15 @@ export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
   const hizmetler = isEn ? [
-    { url: '/seo', ikon: '🔍', baslik: 'SEO Consulting', aciklama: 'Technical + strategy + content — end-to-end organic growth.' },
+    { url: '/seo-danismanligi', ikon: '🔍', baslik: 'SEO Consulting', aciklama: 'Technical + strategy + content — end-to-end organic growth.' },
     { url: '/icerik', ikon: '✍️', baslik: 'Content Strategy', aciklama: 'Content production aligned with search intent, driving conversions.' },
-    { url: '/geo', ikon: '🤖', baslik: 'GEO Consulting', aciklama: 'Be visible in ChatGPT, Perplexity and AI Overview.' },
+    { url: '/geo-danismanligi', ikon: '🤖', baslik: 'GEO Consulting', aciklama: 'Be visible in ChatGPT, Perplexity and AI Overview.' },
     { url: '/backlink', ikon: '🔗', baslik: 'Backlink & Digital PR', aciklama: 'Editorial links, media relations, brand signals.' },
     { url: '/performans', ikon: '📈', baslik: 'Performance & Growth', aciklama: 'Measurable traffic and revenue growth.' },
   ] : [
-    { url: '/seo', ikon: '🔍', baslik: 'SEO Danışmanlığı', aciklama: 'Teknik + strateji + içerik — uçtan uca organik büyüme.' },
+    { url: '/seo-danismanligi', ikon: '🔍', baslik: 'SEO Danışmanlığı', aciklama: 'Teknik + strateji + içerik — uçtan uca organik büyüme.' },
     { url: '/icerik', ikon: '✍️', baslik: 'İçerik Stratejisi', aciklama: 'Arama niyetine oturan, dönüşüm getiren içerik üretimi.' },
-    { url: '/geo', ikon: '🤖', baslik: 'GEO Danışmanlığı', aciklama: 'ChatGPT, Perplexity ve AI Overview\u2019da görünür olun.' },
+    { url: '/geo-danismanligi', ikon: '🤖', baslik: 'GEO Danışmanlığı', aciklama: 'ChatGPT, Perplexity ve AI Overview\u2019da görünür olun.' },
     { url: '/backlink', ikon: '🔗', baslik: 'Backlink & Dijital PR', aciklama: 'Editoryal link, yayın ilişkileri, marka sinyali.' },
     { url: '/performans', ikon: '📈', baslik: 'Performans & Growth', aciklama: 'Ölçümlenebilir trafik ve gelir artışı.' },
   ]

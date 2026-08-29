@@ -1,4 +1,4 @@
-import TrPage from '../geo'
+import TrPage from '../geo-danismanligi'
 
 // Force EN locale for this page
 export default function EnPage(props) {

@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo', icerik:'/icerik', performans:'/performans', geo:'/geo', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma' }
+const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-danismanligi', icerik:'/icerik', performans:'/performans', geo:'/geo-danismanligi', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma' }
 const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
-  '/':'/en', '/seo':'/en/seo-consulting', '/geo':'/en/geo-consulting',
+  '/':'/en', '/seo-danismanligi':'/en/seo-consulting', '/geo-danismanligi':'/en/geo-consulting',
   '/icerik':'/en/content-strategy', '/backlink':'/en/backlink-digital-pr',
   '/performans':'/en/performance-growth', '/hakkimda':'/en/about',
   '/referanslar':'/en/testimonials', '/vakalar':'/en/case-studies',

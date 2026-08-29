@@ -41,8 +41,8 @@ export function useLocale() { return useContext(LocaleContext) }
 
 // ── GLOBAL SEARCH ──────────────────────────────────────────
 const SEARCH_INDEX = [
-  { title: 'SEO Danışmanlığı', title_en: 'SEO Consulting', href: '/seo', href_en: '/en/seo-consulting', cat: 'Hizmet' },
-  { title: 'GEO Danışmanlığı', title_en: 'GEO Consulting', href: '/geo', href_en: '/en/geo-consulting', cat: 'Hizmet' },
+  { title: 'SEO Danışmanlığı', title_en: 'SEO Consulting', href: '/seo-danismanligi', href_en: '/en/seo-consulting', cat: 'Hizmet' },
+  { title: 'GEO Danışmanlığı', title_en: 'GEO Consulting', href: '/geo-danismanligi', href_en: '/en/geo-consulting', cat: 'Hizmet' },
   { title: 'İçerik Stratejisi', title_en: 'Content Strategy', href: '/icerik', href_en: '/en/content-strategy', cat: 'Hizmet' },
   { title: 'Backlink & Dijital PR', title_en: 'Backlink & Digital PR', href: '/backlink', href_en: '/en/backlink-digital-pr', cat: 'Hizmet' },
   { title: 'Performans & Growth', title_en: 'Performance & Growth', href: '/performans', href_en: '/en/performance-growth', cat: 'Hizmet' },

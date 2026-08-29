@@ -123,7 +123,7 @@ export default function Page(props) {
   const t = isEn ? {
     badge: 'SEO CONSULTING',
     h1: 'Rank Higher, Grow Faster',
-    h1b: 'SEO & Digital Marketing Expert',
+    h1b: 'SEO Consulting',
     subtitle: 'Data-Driven SEO Strategies That Deliver Real Results',
     hero_desc: 'I help businesses across e-commerce, SaaS, healthcare and more achieve sustainable organic growth through technical SEO, content strategy and authority building.',
     btn1: 'Get a Free Audit →',
@@ -176,7 +176,7 @@ export default function Page(props) {
   } : {
     badge: 'SEO DANIŞMANLIĞI',
     h1: 'Google\'da Zirveye Çıkın',
-    h1b: 'SEO & Dijital Pazarlama Uzmanı',
+    h1b: 'SEO Danışmanlığı',
     subtitle: 'Organik Trafiği Artırın, Müşteriye Dönüştürün',
     hero_desc: 'E-ticaret, SaaS, sağlık ve daha birçok sektördeki işletmelerin teknik SEO, içerik stratejisi ve otorite inşasıyla sürdürülebilir organik büyüme elde etmesine yardım ediyorum.',
     btn1: 'Ücretsiz Analiz Al →',
@@ -238,8 +238,8 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'SEO Consulting Services | Fatih Emin Çakıroğlu' : 'SEO Danışmanlığı İstanbul | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? 'Data-driven SEO consulting: technical audits, content strategy and link building for sustainable organic growth and lasting top rankings on Google search.' : 'Veriye dayalı SEO danışmanlığı: teknik SEO denetimi, içerik stratejisi ve backlink inşasıyla sürdürülebilir organik büyüme ve üst sıralarda kalıcı yer edinin.'} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/seo-consulting' : 'https://fatihemincakiroglu.com/seo'} />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"SEO Consulting":"SEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"areaServed":"TR","url":`https://fatihemincakiroglu.com${isEn?'/en/seo-consulting':'/seo'}`,"description":isEn?"Technical SEO, content strategy and link building consulting.":"Teknik SEO, içerik stratejisi ve backlink danışmanlığı."})}</script>
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/seo-consulting' : 'https://fatihemincakiroglu.com/seo-danismanligi'} />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"SEO Consulting":"SEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"areaServed":"TR","url":`https://fatihemincakiroglu.com${isEn?'/en/seo-consulting':'/seo-danismanligi'}`,"description":isEn?"Technical SEO, content strategy and link building consulting.":"Teknik SEO, içerik stratejisi ve backlink danışmanlığı."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({  "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c}}))})}</script>
       </Head>
 

@@ -99,7 +99,7 @@ export default function Page(props) {
   const t = isEn ? {
     badge: 'GEO CONSULTING',
     h1a: 'Get Cited by AI —',
-    h1b: 'Generative Engine Optimization Expert',
+    h1b: 'GEO Consulting',
     h1c: 'Appear in ChatGPT, Gemini & Perplexity Answers',
     subtitle: 'The Future of Search is AI — Is Your Brand Ready?',
     desc: 'AI search engines are rewriting the rules of visibility. I help brands appear as trusted sources in ChatGPT, Perplexity, Google AI Overview and Bing Copilot through proven GEO strategies.',
@@ -131,7 +131,7 @@ export default function Page(props) {
   } : {
     badge: 'GEO DANIŞMANLIĞI',
     h1a: 'Yapay Zeka Aramalarında Öne Çıkın —',
-    h1b: 'GEO Uzmanı',
+    h1b: 'GEO Danışmanlığı',
     h1c: 'ChatGPT, Gemini ve Perplexity\'de Markanızı Gösterin',
     subtitle: 'Generative Engine Optimization ile Geleceğin Aramasına Hazırlanın',
     desc: 'AI arama motorları görünürlüğün kurallarını yeniden yazıyor. Kanıtlanmış GEO stratejileriyle markaların ChatGPT, Perplexity, Google AI Overview ve Bing Copilot\'ta güvenilir kaynak olarak görünmesine yardım ediyorum.',
@@ -179,7 +179,7 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'GEO Consulting | AI Search Optimization' : 'GEO Danışmanlığı | AI Arama Optimizasyonu'}</title>
         <meta name="description" content={isEn ? "Generative Engine Optimization to appear as a cited source in ChatGPT, Perplexity and Google AI Overview. Prepare your brand for the future of AI-driven search." : "Generative Engine Optimization ile ChatGPT, Perplexity ve Google AI Overview'da kaynak olarak görünün. Markanızı yapay zekâ aramalarının geleceğine hazırlayın."} />
-        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo-consulting' : 'https://fatihemincakiroglu.com/geo'} />
+        <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/geo-consulting' : 'https://fatihemincakiroglu.com/geo-danismanligi'} />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":isEn?"GEO Consulting":"GEO Danışmanlığı","provider":{"@id":"https://fatihemincakiroglu.com/#person"},"description":isEn?"Generative Engine Optimization for AI search visibility.":"Yapay zekâ arama görünürlüğü için GEO danışmanlığı."})}</script>
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))})}</script>
       </Head>
