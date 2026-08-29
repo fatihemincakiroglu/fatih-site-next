@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BrandMark, { BRANDS } from './BrandMark'
 import { useRouter } from 'next/router'
 
 // Bu tarihi, siteye önemli bir içerik/özellik güncellemesi yaptığınızda elle güncelleyin.
@@ -6,16 +7,8 @@ import { useRouter } from 'next/router'
 // bu satır hem insan okuyuculara hem de arama/AI botlarına görünür bir tazelik göstergesi sunar.
 const LAST_UPDATED = { tr: 'Temmuz 2026', en: 'July 2026' }
 
-const AI_TOOLS = [
-  { isim: 'Google', emoji: 'G', renk: '#4285f4', bg: '#e8f0fe', desc: 'Search & AI Overview' },
-  { isim: 'ChatGPT', emoji: '✦', renk: '#10a37f', bg: '#e6f7f3', desc: 'OpenAI Search' },
-  { isim: 'Perplexity', emoji: '◈', renk: '#6366f1', bg: '#eef2ff', desc: 'Answer Engine' },
-  { isim: 'Bing', emoji: '⬡', renk: '#0078d4', bg: '#e6f3fc', desc: 'Copilot AI' },
-  { isim: 'Gemini', emoji: '✧', renk: '#9334e6', bg: '#f3e8fd', desc: 'Google AI' },
-  { isim: 'Ahrefs', emoji: 'A', renk: '#f96332', bg: '#fef0eb', desc: 'SEO Data' },
-  { isim: 'SEMrush', emoji: 'S', renk: '#ff642d', bg: '#fff0ea', desc: 'Analytics' },
-  { isim: 'GSC', emoji: '↗', renk: '#ea4335', bg: '#fde8e7', desc: 'Search Console' },
-]
+// Footer'da gösterilecek markalar. Veri tek kaynaktan (BrandMark) geliyor.
+const AI_TOOL_IDS = ['google', 'chatgpt', 'perplexity', 'claude', 'gemini', 'bing', 'ahrefs', 'semrush', 'gsc']
 
 const LINKS = {
   tr: {
@@ -77,23 +70,22 @@ export default function Footer() {
   return (
     <footer style={{ background: '#0f0f0f', color: '#fff', overflowX: 'hidden' }}>
 
-      {/* AI & Data Tools Band */}
-      <div style={{ borderBottom: '1px solid #1f1f1f', padding: '28px 24px' }}>
-        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-          <p style={{ fontSize: '11px', color: '#444', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '16px', textAlign: 'center' }}>
-            {isEn ? 'AI SEARCH & DATA TOOLS' : 'KULLANILAN AI ARAMA & VERİ ARAÇLARI'}
+      {/* ── AI & Veri Araçları Şeridi ──
+           Eskiden her araç iki satırlık (isim + açıklama) bir kutuydu;
+           footer'da bu kadar detay gereksiz yer kaplıyor ve mobilde
+           dokuz kutu alt alta uzuyordu. Artık tek satırlık kompakt bir
+           şerit: simge + isim, açıklama yok. */}
+      <div style={{ borderBottom: '1px solid #1f1f1f', padding: '22px 24px' }}>
+        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <p style={{ fontSize: '10px', color: '#3d3d3d', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', margin: 0, whiteSpace: 'nowrap' }}>
+            {isEn ? 'AI SEARCH & DATA TOOLS' : 'AI ARAMA & VERİ ARAÇLARI'}
           </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
-            {AI_TOOLS.map((tool, i) => (
-              <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '8px', background: '#1a1a1a', border: '1px solid #2a2a2a', borderRadius: '10px', padding: '8px 14px', transition: 'border-color 0.2s', cursor: 'default' }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = tool.renk + '60' }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = '#2a2a2a' }}>
-                <div style={{ width: '28px', height: '28px', borderRadius: '8px', background: tool.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '13px', fontWeight: 900, color: tool.renk, flexShrink: 0 }}>{tool.emoji}</div>
-                <div>
-                  <div style={{ fontSize: '13px', fontWeight: 700, color: '#e5e5e5', lineHeight: 1 }}>{tool.isim}</div>
-                  <div style={{ fontSize: '10px', color: '#555', marginTop: '2px' }}>{tool.desc}</div>
-                </div>
-              </div>
+          <div className="footer-marka-serit">
+            {AI_TOOL_IDS.map(id => (
+              <span key={id} className="footer-marka" title={BRANDS[id].isim}>
+                <BrandMark id={id} boyut={20} />
+                <span>{BRANDS[id].isim}</span>
+              </span>
             ))}
           </div>
         </div>
@@ -193,8 +185,37 @@ export default function Footer() {
       </div>
 
       <style>{`
-        @media (max-width: 768px) {
-          footer > div:first-child .tool-grid { justify-content: flex-start !important; }
+        .footer-marka-serit {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
+          justify-content: center;
+        }
+        .footer-marka {
+          display: inline-flex;
+          align-items: center;
+          gap: 7px;
+          padding: 6px 12px 6px 7px;
+          border-radius: 8px;
+          background: #161616;
+          border: 1px solid #242424;
+          font-size: 12px;
+          font-weight: 600;
+          color: #8a8a8a;
+          white-space: nowrap;
+          transition: color 0.2s, border-color 0.2s;
+        }
+        .footer-marka:hover {
+          color: #d0d0d0;
+          border-color: #333;
+        }
+
+        @media (max-width: 600px) {
+          /* Dar ekranda isimler gizlenir, yalnızca simgeler kalır:
+             dokuz kutunun alt alta uzamasını engeller. */
+          .footer-marka > span:last-child { display: none; }
+          .footer-marka { padding: 6px; }
+          .footer-marka-serit { gap: 8px; }
         }
       `}</style>
     </footer>

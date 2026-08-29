@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import BrandMark, { BRANDS } from '../components/BrandMark'
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 
@@ -885,42 +886,47 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* ── MEDYADA / BAHSEDILEN YERLER ── */}
-        <section style={{ padding: '40px 40px', background: '#0a0a0a', borderTop: '1px solid #1a1a1a' }}>
+        {/* ── MEDYADA & ARAÇLAR ──
+             Eskiden hepsi tek sırada, aynı görünen renkli metin etiketleriydi;
+             hangisinin yayın hangisinin araç olduğu ayırt edilemiyordu.
+             Artık iki ayrı gruba bölünmüş, simgeli ve okunabilir bir şerit. */}
+        <section style={{ padding: '56px 40px', background: '#0a0a0a', borderTop: '1px solid #1a1a1a' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-              <span style={{ fontSize: '11px', color: '#555', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>{isEn ? 'FEATURED IN & TOOLS USED' : 'MEDYADA & KULLANILAN ARAÇLAR'}</span>
-            </div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '12px', alignItems: 'center' }}>
-              {[
-                { label: 'Search Engine Land', tip: 'media' },
-                { label: 'Ahrefs Blog', tip: 'media' },
-                { label: 'SEMrush Academy', tip: 'media' },
-                { label: 'Google Partner', tip: 'partner' },
-                { label: 'Screaming Frog', tip: 'tool' },
-                { label: 'SEOmonitor', tip: 'tool' },
-                { label: 'ChatGPT', tip: 'ai' },
-                { label: 'Perplexity', tip: 'ai' },
-                { label: 'Claude', tip: 'ai' },
-                { label: 'Search Console', tip: 'tool' },
-              ].map((item, i) => (
-                <div key={i} style={{
-                  padding: '8px 20px',
-                  borderRadius: '8px',
-                  border: '1px solid #222',
-                  background: '#141414',
-                  color: item.tip === 'partner' ? 'var(--orange)' : item.tip === 'ai' ? '#7c3aed' : item.tip === 'media' ? '#0891b2' : '#666',
-                  fontSize: '13px',
-                  fontWeight: 600,
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                }}>
-                  {item.tip === 'partner' && <span>★</span>}
-                  {item.label}
+
+            {[
+              {
+                etiket: isEn ? 'FEATURED IN' : 'MEDYADA & YAYINLAR',
+                marka: ['sel', 'ahrefsBlog', 'semrushAcademy'],
+                vurgu: '#0891b2',
+              },
+              {
+                etiket: isEn ? 'TOOLS & PLATFORMS' : 'KULLANILAN ARAÇLAR',
+                marka: ['googlePartner', 'gsc', 'semrush', 'ahrefs', 'seomonitor', 'screamingfrog', 'chatgpt', 'perplexity', 'claude'],
+                vurgu: 'var(--orange)',
+              },
+            ].map((grup, gi) => (
+              <div key={gi} style={{ marginTop: gi ? '36px' : 0 }}>
+
+                {/* Başlık + ince çizgi */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '18px' }}>
+                  <span style={{ width: '6px', height: '6px', borderRadius: '2px', background: grup.vurgu, flexShrink: 0 }} />
+                  <span style={{ fontSize: '11px', color: '#666', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', whiteSpace: 'nowrap' }}>
+                    {grup.etiket}
+                  </span>
+                  <span style={{ flex: 1, height: '1px', background: 'linear-gradient(90deg, #1f1f1f, transparent)' }} />
                 </div>
-              ))}
-            </div>
+
+                <div className="marka-serit">
+                  {grup.marka.map(id => (
+                    <div key={id} className="marka-kutu">
+                      <BrandMark id={id} boyut={26} />
+                      <span className="marka-ad">{BRANDS[id].isim}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+
           </div>
         </section>
 
@@ -1193,23 +1199,56 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* ── ARAÇLAR BANDI ── */}
-        <section style={{ padding: '48px 40px', background: '#111' }}>
-          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', background: '#161616', borderRadius: '16px', padding: '32px 36px' }}>
-            <div style={{ marginBottom: '24px' }}>
-              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '5px 12px', borderRadius: '20px', background: 'rgba(232,86,10,0.15)', border: '1px solid rgba(232,86,10,0.3)', fontSize: '11px', color: 'var(--orange)', fontWeight: 700, marginBottom: '12px' }}>
-                ☀ {isEn ? 'WORK ENVIRONMENT' : 'ÇALIŞMA ORTAMI'}
+        {/* ── ÇALIŞMA ORTAMI ──
+             Eskiden tek tip gri etiket yığınıydı; hangi aracın ne işe
+             yaradığı belli değildi. Artık kategoriye ayrılmış, her aracın
+             ne için kullanıldığını yazan kart ızgarası. */}
+        <section style={{ padding: '64px 40px', background: '#111' }}>
+          <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+
+            <div style={{ marginBottom: '32px' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '5px 12px', borderRadius: '20px', background: 'rgba(232,86,10,0.15)', border: '1px solid rgba(232,86,10,0.3)', fontSize: '11px', color: 'var(--orange)', fontWeight: 700, marginBottom: '14px', letterSpacing: '1px' }}>
+                {isEn ? 'WORK ENVIRONMENT' : 'ÇALIŞMA ORTAMI'}
               </div>
-              <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#fff' }}>
-                {isEn ? 'Data and ' : 'Veri, reklam ve '}<span style={{ color: 'var(--orange)' }}>{isEn ? 'AI tools' : 'AI araçları'}</span>
-              </h3>
-              <div style={{ width: '32px', height: '2px', background: 'var(--orange)', marginTop: '8px' }}></div>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 3vw, 30px)', fontWeight: 800, color: '#fff', lineHeight: 1.25 }}>
+                {isEn ? 'Every project runs on ' : 'Her proje '}
+                <span style={{ color: 'var(--orange)', fontStyle: 'italic' }}>{isEn ? 'these tools' : 'bu araçlarla'}</span>
+                {isEn ? '' : ' yürüyor'}
+              </h2>
             </div>
-            <div style={{ borderTop: '1px solid #222', paddingTop: '20px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-              {['SEMrush', 'Ahrefs', 'SEOmonitor', 'ChatGPT', 'Perplexity', 'Claude', 'Bing', 'Meta Business', 'Google Partner', 'Search Console', 'Screaming Frog'].map((t, i) => (
-                <span key={i} style={{ padding: '8px 18px', background: '#1e1e1e', border: '1px solid #2a2a2a', borderRadius: '8px', color: '#999', fontSize: '13px', fontWeight: 500 }}>{t}</span>
-              ))}
-            </div>
+
+            {[
+              {
+                baslik: isEn ? 'Data & Analysis' : 'Veri & Analiz',
+                marka: ['semrush', 'ahrefs', 'seomonitor', 'gsc'],
+              },
+              {
+                baslik: isEn ? 'AI Search' : 'AI Arama',
+                marka: ['chatgpt', 'perplexity', 'claude', 'gemini'],
+              },
+              {
+                baslik: isEn ? 'Technical & Ads' : 'Teknik & Reklam',
+                marka: ['screamingfrog', 'googlePartner', 'metaBusiness', 'bing'],
+              },
+            ].map((grup, gi) => (
+              <div key={gi} style={{ marginBottom: '28px' }}>
+                <div style={{ fontSize: '11px', color: '#5a5a5a', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
+                  {grup.baslik}
+                </div>
+                <div className="arac-grid">
+                  {grup.marka.map(id => (
+                    <div key={id} className="arac-kart">
+                      <BrandMark id={id} boyut={34} />
+                      <div style={{ minWidth: 0 }}>
+                        <div style={{ fontSize: '14px', fontWeight: 700, color: '#e8e8e8', lineHeight: 1.2 }}>{BRANDS[id].isim}</div>
+                        <div style={{ fontSize: '11px', color: '#5f5f5f', marginTop: '3px' }}>{BRANDS[id].not}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+
           </div>
         </section>
 
@@ -1236,6 +1275,64 @@ export default function Page(props) {
       </div>
 
       <style>{`
+        /* ── Marka şeridi (Medyada & Araçlar) ── */
+        .marka-serit {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .marka-kutu {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 9px 16px 9px 10px;
+          border-radius: 10px;
+          background: #131313;
+          border: 1px solid #202020;
+          transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+        .marka-kutu:hover {
+          background: #171717;
+          border-color: #2e2e2e;
+          transform: translateY(-1px);
+        }
+        .marka-ad {
+          font-size: 13px;
+          font-weight: 600;
+          color: #b4b4b4;
+          white-space: nowrap;
+        }
+
+        /* ── Araç kartları (Çalışma Ortamı) ── */
+        .arac-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 10px;
+        }
+        .arac-kart {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 14px 16px;
+          border-radius: 12px;
+          background: #171717;
+          border: 1px solid #232323;
+          transition: border-color 0.2s, background 0.2s;
+        }
+        .arac-kart:hover {
+          background: #1c1c1c;
+          border-color: #333;
+        }
+
+        @media (max-width: 900px) {
+          .arac-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 520px) {
+          .arac-grid { grid-template-columns: 1fr; }
+          .marka-kutu { padding: 8px 12px 8px 8px; }
+          .marka-ad { font-size: 12px; }
+        }
+
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 
