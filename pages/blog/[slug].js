@@ -7,8 +7,8 @@ import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
 
 const ICERIKLER = {
   'core-web-vitals-2025': {
-    baslik_tr: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi',
-    baslik_en: 'Core Web Vitals 2025: Complete LCP, INP and CLS Optimization Guide',
+    baslik_tr: 'Core Web Vitals 2026: LCP, INP ve CLS Optimizasyon Rehberi',
+    baslik_en: 'Core Web Vitals 2026: Complete LCP, INP and CLS Optimization Guide',
     etiket: 'Teknik SEO', sure: '12',
     bolumler_tr: [
       { baslik: 'Core Web Vitals Nedir ve Neden Önemlidir?', paragraflar: ['Core Web Vitals, Google\'ın Mayıs 2021\'den itibaren resmi sıralama faktörü olarak kullandığı kullanıcı deneyimi metrikleridir. Üç temel ölçütten oluşur: LCP (Largest Contentful Paint), INP (Interaction to Next Paint) ve CLS (Cumulative Layout Shift). Bu metrikler, sitenizin kullanıcılar için gerçekte nasıl bir deneyim sunduğunu ölçmek amacıyla tasarlanmıştır.', 'Google Search Console\'daki Core Web Vitals raporu, sitenizin bu metriklerde gerçek dünya kullanıcı verisine dayalı performansını gösterir. Bu veriler, PageSpeed Insights\'ın lab verilerinden farklı olarak gerçek kullanıcı tarayıcılarından toplanan Chrome User Experience Report (CrUX) verilerine dayanır.', 'Teknik açıdan mükemmel bir sitenin bile zayıf CWV skorları nedeniyle rakiplerinin gerisinde kalabileceği anlamına gelen bu durum, her SEO stratejisinin ayrılmaz bir parçası haline gelmiştir.'] },

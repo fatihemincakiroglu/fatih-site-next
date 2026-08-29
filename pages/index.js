@@ -44,7 +44,7 @@ const REFERANSLAR = [
 // Slug'lar lib/content-index.js -> YAYINDAKI_BLOG_SLUGS ile birebir eşleşmeli;
 // aksi hâlde anasayfadan 404'e link verilir. (Önceki liste bu yüzden kırıktı.)
 const BLOG_YAZILARI = [
-  { no: '01', baslik_tr: 'Core Web Vitals 2025: LCP, INP ve CLS Optimizasyon Rehberi', baslik_en: 'Core Web Vitals 2025: Complete LCP, INP and CLS Optimization Guide', yazar: 'Fatih Emin Çakıroğlu', sure: '12 dk', sure_en: '12 min', slug: 'core-web-vitals-2025' },
+  { no: '01', baslik_tr: 'Core Web Vitals 2026: LCP, INP ve CLS Optimizasyon Rehberi', baslik_en: 'Core Web Vitals 2026: Complete LCP, INP and CLS Optimization Guide', yazar: 'Fatih Emin Çakıroğlu', sure: '12 dk', sure_en: '12 min', slug: 'core-web-vitals-2025' },
   { no: '02', baslik_tr: 'SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye\'den Örnekler', baslik_en: 'How to Choose an SEO Agency: Criteria and Examples from Turkey', yazar: 'Fatih Emin Çakıroğlu', sure: '9 dk', sure_en: '9 min', slug: 'seo-ajansi-nasil-secilir' },
   { no: '03', baslik_tr: 'Türkiye\'nin En İyi 15 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 15 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '11 dk', sure_en: '11 min', slug: 'turkiye-en-iyi-15-seo-ajansi-2026' },
   { no: '04', baslik_tr: 'Türkiye\'nin En İyi 10 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 10 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '10 dk', sure_en: '10 min', slug: 'turkiye-en-iyi-10-seo-ajansi-2026' },
@@ -1125,7 +1125,7 @@ export default function Page(props) {
                   <span style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '2px 8px', borderRadius: '4px', border: '1px solid var(--orange)' }}>{isEn ? 'CONTENT' : 'İÇERİK'}</span>
                 </div>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#fff', marginBottom: '12px', lineHeight: 1.3 }}>
-                  {isEn ? '2025 Technical SEO Priorities: Core Web Vitals and Crawl Optimization' : 'Teknik SEO\'da 2025 Öncelikleri: Core Web Vitals ve Crawl Optimizasyonu'}
+                  {isEn ? '2026 Technical SEO Priorities: Core Web Vitals and Crawl Optimization' : 'Teknik SEO\'da 2026 Öncelikleri: Core Web Vitals ve Crawl Optimizasyonu'}
                 </h3>
                 <div style={{ fontSize: '12px', color: '#555' }}>Fatih Emin Çakıroğlu · ~8 {isEn ? 'min' : 'dk'}</div>
               </div>

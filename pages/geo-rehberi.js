@@ -248,7 +248,7 @@ const BOLUMLER_TR = [
           'Citation mimarisini ölçmek: Ahrefs ve SEMrush\'ta referral alan domain çeşitliliğine bakın. Yüksek DR\'lı akademik, medya ve kurum siteleri sitenize link veriyor mu? Bu metrik, hem SEO hem GEO için domain otoritesinin en güvenilir göstergesidir.'],
       },
       {
-        h: 'Gelecek: GEO 2025 ve Sonrası',
+        h: 'Gelecek: GEO 2026 ve Sonrası',
         p: ['GEO\'nun geleceğini şekillendirecek trendler: (1) AI arama kullanımının artması — 2026\'ya kadar tüm arama sorgularının %30\'undan fazlasının AI sistemleri üzerinden yapılması bekleniyor. (2) Multimodal AI araması — metin, görsel ve sesli aramanın entegrasyonu GEO\'yu daha karmaşık ama daha fırsatlı hale getirecek. (3) Kişiselleştirilmiş AI yanıtları — kullanıcıya özel yanıtlar, kaynak seçimini de kişiselleştirebilir.',
           'Markaların hazırlıklı olması gereken gelişmeler: AI sistemlerinin "abonelik" veya "onaylı kaynak" modeline geçmesi (premium kaynaklar için ayrıcalıklı erişim). Entity-based ranking\'in ağırlık kazanması — Knowledge Graph\'ta iyi konumlanan markalar avantajlı olacak. Kullanıcı doğrudan soru soran değil, AI ile diyalog kuran olduğunda, içerik formatları tamamen dönüşecek.',
           'Genel ilke: GEO, SEO\'nun yerini almıyor; onunla birlikte evrimleşiyor. Bugün en iyi GEO stratejisi, mükemmel SEO temelini korurken AI sistemlerinin tercih ettiği içerik, teknik ve güven sinyallerini katman katman inşa etmektir.'],
@@ -324,10 +324,10 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'GEO GUIDE',
-    title: 'Complete GEO Guide (2025) | Fatih Emin Çakıroğlu',
-    h1: 'GEO Guide: Complete Generative Engine Optimization Guide from Beginner to Expert (2025)',
+    title: 'Complete GEO Guide (2026) | Fatih Emin Çakıroğlu',
+    h1: 'GEO Guide: Complete Generative Engine Optimization Guide from Beginner to Expert (2026)',
     h1alt: 'What is GEO? Complete Guide: How to Appear in ChatGPT, Perplexity and Google AI Overview',
-    desc: 'Everything you need to know about GEO: how AI search engines work, content strategy, technical optimization and platform-specific tactics. Updated for 2025.',
+    desc: 'Everything you need to know about GEO: how AI search engines work, content strategy, technical optimization and platform-specific tactics. Updated for 2026.',
     breadcrumb: ['Home', 'Resources', 'GEO Guide'],
     toc: 'TABLE OF CONTENTS',
     cta_h2: 'Want GEO Consulting?',
@@ -335,10 +335,10 @@ export default function Page(props) {
     cta_btn: 'Book a Free Call →',
   } : {
     badge: 'GEO REHBERİ',
-    title: 'Kapsamlı GEO Rehberi (2025) | Fatih Emin Çakıroğlu',
-    h1: 'GEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Generative Engine Optimization Kılavuzu (2025)',
+    title: 'Kapsamlı GEO Rehberi (2026) | Fatih Emin Çakıroğlu',
+    h1: 'GEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Generative Engine Optimization Kılavuzu (2026)',
     h1alt: 'GEO Nedir? ChatGPT, Perplexity ve Google AI Overview\'da Nasıl Görünürsünüz?',
-    desc: 'GEO hakkında bilmeniz gereken her şey: AI arama motorları nasıl çalışır, içerik stratejisi, teknik optimizasyon ve platform bazlı taktikler. 2025 güncellenmiş.',
+    desc: 'GEO hakkında bilmeniz gereken her şey: AI arama motorları nasıl çalışır, içerik stratejisi, teknik optimizasyon ve platform bazlı taktikler. 2026 güncellenmiş.',
     breadcrumb: ['Ana Sayfa', 'Kaynaklar', 'GEO Rehberi'],
     toc: 'İÇİNDEKİLER',
     cta_h2: 'GEO Danışmanlığı İster misiniz?',
@@ -394,7 +394,7 @@ export default function Page(props) {
           <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
               <span style={{ fontSize: '11px', fontWeight: 700, color: '#a5b4fc', padding: '3px 10px', border: '1px solid rgba(165,180,252,0.3)', borderRadius: '20px', letterSpacing: '1px' }}>{t.badge}</span>
-              <span style={{ fontSize: '12px', color: '#4b5563' }}>{isEn ? '8 sections · 2025 · ~45 min read' : '8 bölüm · 2025 · ~45 dk okuma'}</span>
+              <span style={{ fontSize: '12px', color: '#4b5563' }}>{isEn ? '8 sections · 2026 · ~45 min read' : '8 bölüm · 2026 · ~45 dk okuma'}</span>
             </div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 3.2vw, 38px)', fontWeight: 800, color: '#fff', marginBottom: '8px', lineHeight: 1.2 }}>{t.h1}</h1>
             <p style={{ fontSize: '14px', color: 'var(--orange)', fontStyle: 'italic', marginBottom: '12px' }}>{t.h1alt}</p>

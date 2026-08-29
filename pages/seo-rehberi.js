@@ -323,10 +323,10 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'SEO GUIDE',
-    title: 'Complete SEO Guide (2025) | Fatih Emin Çakıroğlu',
-    h1: 'SEO Guide: Complete Search Engine Optimization Guide from Beginner to Expert (2025)',
+    title: 'Complete SEO Guide (2026) | Fatih Emin Çakıroğlu',
+    h1: 'SEO Guide: Complete Search Engine Optimization Guide from Beginner to Expert (2026)',
     h1alt: 'What is SEO? Complete SEO Guide from Basics to Advanced',
-    desc: 'A comprehensive guide covering everything about SEO: technical SEO, keyword research, content strategy, backlinks and more. Updated for 2025.',
+    desc: 'A comprehensive guide covering everything about SEO: technical SEO, keyword research, content strategy, backlinks and more. Updated for 2026.',
     breadcrumb: ['Home', 'Resources', 'SEO Guide'],
     toc: 'TABLE OF CONTENTS',
     faq_h2: 'Frequently Asked Questions',
@@ -336,10 +336,10 @@ export default function Page(props) {
     dk: 'min read',
   } : {
     badge: 'SEO REHBERİ',
-    title: 'Kapsamlı SEO Rehberi (2025) | Fatih Emin Çakıroğlu',
-    h1: 'SEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Arama Motoru Optimizasyonu Kılavuzu (2025)',
+    title: 'Kapsamlı SEO Rehberi (2026) | Fatih Emin Çakıroğlu',
+    h1: 'SEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Arama Motoru Optimizasyonu Kılavuzu (2026)',
     h1alt: 'SEO Nedir? Başlangıçtan İleri Seviyeye Eksiksiz SEO Rehberi',
-    desc: 'SEO hakkında bilmeniz gereken her şeyi kapsayan kapsamlı rehber: teknik SEO, anahtar kelime araştırması, içerik stratejisi, backlinkler ve daha fazlası. 2025 güncellenmiş.',
+    desc: 'SEO hakkında bilmeniz gereken her şeyi kapsayan kapsamlı rehber: teknik SEO, anahtar kelime araştırması, içerik stratejisi, backlinkler ve daha fazlası. 2026 güncellenmiş.',
     breadcrumb: ['Ana Sayfa', 'Kaynaklar', 'SEO Rehberi'],
     toc: 'İÇİNDEKİLER',
     faq_h2: 'Sıkça Sorulan Sorular',
@@ -391,7 +391,7 @@ export default function Page(props) {
           <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
               <span style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', padding: '3px 10px', border: '1px solid rgba(232,86,10,0.3)', borderRadius: '20px', letterSpacing: '1px' }}>{t.badge}</span>
-              <span style={{ fontSize: '12px', color: '#aaa' }}>2025 · {isEn ? '10 sections · ~60 min read' : '10 bölüm · ~60 dk okuma'}</span>
+              <span style={{ fontSize: '12px', color: '#aaa' }}>2026 · {isEn ? '10 sections · ~60 min read' : '10 bölüm · ~60 dk okuma'}</span>
             </div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(24px, 3.5vw, 42px)', fontWeight: 800, color: '#111', marginBottom: '8px', lineHeight: 1.2 }}>{t.h1}</h1>
             <p style={{ fontSize: '14px', color: 'var(--orange)', fontStyle: 'italic', marginBottom: '12px' }}>{t.h1alt}</p>
