@@ -413,8 +413,8 @@ export default function Page(props) {
         <div className="rehber-grid" style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
 
           {/* Sticky Sidebar */}
-          <div className="rehber-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
-            <div style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee' }}>
+          <div className="rehber-sidebar sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '16px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
+            <div className="toc-box" style={{ background: '#fff', borderRadius: '16px', padding: '20px', border: '1px solid #eee' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
                 <span style={{ width: '12px', height: '12px', background: '#6366f1', borderRadius: '3px', display: 'inline-block' }}></span>
                 <span style={{ fontSize: '11px', color: '#111', fontWeight: 800, letterSpacing: '1.5px', textTransform: 'uppercase' }}>{t.toc}</span>

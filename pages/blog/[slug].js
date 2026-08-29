@@ -463,7 +463,7 @@ export default function BlogPost(props) {
                 </div>
               ))}
             </div>
-            <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div className="sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               {TOC}
               {AuthorCard}
               {CTACard}

@@ -176,7 +176,10 @@ function WhatsAppButton({ isEn }) {
       setBubbleVisible(true)
       sessionStorage.setItem('wa_bubble_shown', '1')
     }, 8000)
-    return () => clearTimeout(timer)
+    // Balon mobilde makale metninin üzerine biniyor ve kapatma butonu küçük.
+    // 10 saniye sonra kendiliğinden kapansın.
+    const hide = setTimeout(() => setBubbleVisible(false), 18000)
+    return () => { clearTimeout(timer); clearTimeout(hide) }
   }, [])
 
   return (

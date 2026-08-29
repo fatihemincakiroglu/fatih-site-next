@@ -125,9 +125,9 @@ export default function Navbar({ onSearchOpen }) {
 
   return (
     <>
-      <nav ref={navRef} style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)' }}>
-        <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', width:'100%', display:'flex', alignItems:'center' }}>
-          <Link href={u.home} onClick={() => { setAcik(null); setMobil(false) }} style={{ display:'flex', alignItems:'center', marginRight:'28px', flexShrink:0 }}>
+      <nav ref={navRef} className="site-nav" style={{ position:'fixed', top:0, left:0, right:0, zIndex:1000, background:'var(--bg2)', height:'var(--nav-h)', display:'flex', alignItems:'center', padding:'0 24px', borderBottom:'1px solid #ede8e0', boxShadow:'0 1px 8px rgba(0,0,0,0.04)', boxSizing:'border-box', maxWidth:'100vw', overflow:'hidden' }}>
+        <div style={{ maxWidth:'var(--max-w)', margin:'0 auto', width:'100%', display:'flex', alignItems:'center', minWidth:0 }}>
+          <Link href={u.home} className="nav-logo" onClick={() => { setAcik(null); setMobil(false) }} style={{ display:'flex', alignItems:'center', marginRight:'28px', flexShrink:0, minWidth:0 }}>
             <Image src="/logo.png" alt="Fatih Emin Çakıroğlu" width={129} height={32} priority style={{ height: '32px', width: 'auto' }} />
           </Link>
 
@@ -176,11 +176,11 @@ export default function Navbar({ onSearchOpen }) {
             </Link>
           </div>
 
-          <div className="mobile-nav" style={{ display:'none', alignItems:'center', gap:'6px', marginLeft:'auto' }}>
+          <div className="mobile-nav" style={{ display:'none', alignItems:'center', gap:'6px', marginLeft:'auto', flexShrink:0, minWidth:0 }}>
             <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(trPath); setMobil(false) }} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:!isEn?'var(--orange)':'#f0f0f0', color:!isEn?'#fff':'#555', border:'none', cursor:'pointer', fontFamily:'var(--font-body)' }}>TR</button>
             <button onClick={() => { sessionStorage.setItem('scrollY', window.scrollY); router.push(enPath); setMobil(false) }} style={{ padding:'4px 8px', borderRadius:'5px', fontSize:'11px', fontWeight:700, background:isEn?'var(--orange)':'#f0f0f0', color:isEn?'#fff':'#555', border:'none', cursor:'pointer', fontFamily:'var(--font-body)' }}>EN</button>
             <button onClick={onSearchOpen} style={{ width:'36px', height:'36px', borderRadius:'8px', border:'1px solid #eee', background:'transparent', cursor:'pointer', fontSize:'15px', display:'flex', alignItems:'center', justifyContent:'center' }}>🔍</button>
-            <Link href={u.iletisim} onClick={() => setMobil(false)} style={{ padding:'7px 14px', borderRadius:'8px', background:'var(--orange)', color:'#fff', fontSize:'13px', fontWeight:600 }}>{isEn?'Contact':'İletişim'}</Link>
+            <Link href={u.iletisim} className="nav-cta" onClick={() => setMobil(false)} style={{ padding:'7px 14px', borderRadius:'8px', background:'var(--orange)', color:'#fff', fontSize:'13px', fontWeight:600, whiteSpace:'nowrap' }}>{isEn?'Contact':'İletişim'}</Link>
             <button onClick={() => setMobil(!mobil)} style={{ background:'none', border:'none', cursor:'pointer', padding:'6px', display:'flex', flexDirection:'column', gap:'5px' }}>
               <span style={{ display:'block', width:'22px', height:'2px', background:'#333', borderRadius:'2px', transition:'all 0.2s', transform:mobil?'rotate(45deg) translate(5px, 5px)':'none' }} />
               <span style={{ display:'block', width:'22px', height:'2px', background:'#333', borderRadius:'2px', transition:'all 0.2s', opacity:mobil?0:1 }} />
@@ -225,6 +225,25 @@ export default function Navbar({ onSearchOpen }) {
         @media (max-width: 768px) {
           .desktop-nav { display: none !important; }
           .mobile-nav { display: flex !important; }
+
+          /* Mobilde logo(129px) + TR + EN + arama + İletişim + hamburger
+             toplamı ~447px yer istiyordu; en geniş telefon bile 414px.
+             Sağdaki grup bu yüzden ekran dışına taşıp kesiliyordu.
+             Boşluklar daraltılıp logo küçültülerek 320px'e kadar sığıyor. */
+          .site-nav { padding: 0 12px !important; }
+          .mobile-nav { gap: 4px !important; }
+          .nav-logo { margin-right: 8px !important; overflow: hidden; }
+          .nav-logo img { height: 26px !important; }
+          .nav-cta {
+            padding: 7px 10px !important;
+            font-size: 12px !important;
+          }
+        }
+
+        /* Çok dar cihazlarda (≤360px) İletişim butonu gizlenir;
+           iletişim bağlantısı hamburger menüsünden erişilebilir durumda. */
+        @media (max-width: 360px) {
+          .mobile-nav .nav-cta { display: none !important; }
         }
       `}</style>
     </>

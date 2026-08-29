@@ -702,7 +702,7 @@ export default function Page(props) {
 
               {/* Sol TOC — dış hücre grid tarafından tam yüksekliğe stretch edilir, sticky iç div'de */}
               <div className="seo-guide-toc">
-                <div style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: 'calc(var(--nav-h) + 24px)', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
+                <div className="sticky-sidebar" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: 'calc(var(--nav-h) + 24px)', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
                   <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
                     {isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}
                   </div>

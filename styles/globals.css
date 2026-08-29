@@ -52,4 +52,24 @@ a { text-decoration: none; color: inherit; }
   [style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
   h1 { font-size: clamp(22px, 7vw, 34px) !important; }
   h2 { font-size: clamp(18px, 5vw, 26px) !important; }
+
+  /* Yan sütunlar mobilde tek sütuna indiğinde sticky kalmaya devam ediyordu.
+     Sonuç: kutu ekranın tepesine sabitlenip altındaki metnin üzerine biniyor,
+     içerik okunamıyordu (rehber sayfalarındaki "İçindekiler" sorunu).
+     Mobilde normal akışa dönsünler. */
+  .sticky-sidebar {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    top: auto !important;
+    margin-bottom: 24px;
+  }
+
+  /* Uzun içindekiler listesi mobilde tüm ekranı doldurup kullanıcıyı
+     içerikten uzaklaştırmasın: sınırlı yükseklikte, kaydırılabilir kutu. */
+  .toc-box {
+    max-height: 45vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
