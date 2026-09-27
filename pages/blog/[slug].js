@@ -110,6 +110,548 @@ const ICERIKLER = {
       ]},
     ],
   },
+  'turkiye-en-iyi-15-sosyal-medya-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 15 Sosyal Medya Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 15 Social Media Agencies - Updated 2026",
+    meta_desc_tr: "İstanbul, Ankara ve İzmir'den 15 sosyal medya ajansına alfabetik, sıralama içermeyen bir bakış. Hizmet kapsamı, seçim kriterleri ve teklif soruları.",
+    meta_desc_en: "An alphabetical, unranked overview of 15 social media agencies from Istanbul, Ankara and Izmir. Service scope, selection criteria and proposal questions.",
+    etiket: 'Strateji', sure: '11',
+    bolumler_tr: [
+      { baslik: "Türkiye'de Sosyal Medya Ajansı Pazarı", paragraflar: [
+        "Sosyal medya, Türkiye'deki işletmeler için uzun süredir yalnızca marka bilinirliği aracı olmaktan çıkmış durumda. Instagram, TikTok, LinkedIn ve YouTube artık birçok sektörde doğrudan müşteri kazanımının, satışın ve müşteri hizmetlerinin parçası.",
+        "Bu nedenle sosyal medya ajansı kavramı da genişledi. Bugün bir ajanstan beklenen şey yalnızca düzenli paylaşım yapmak değil; strateji kurmak, içerik ve video üretmek, topluluk yönetmek, Meta ve TikTok reklamlarını yönetmek ve tüm bunların sonuçlarını ölçmek.",
+        "Pazar da İstanbul'la sınırlı değil. Ankara, İzmir, Antalya ve Bursa'da farklı uzmanlıklara sahip çok sayıda ajans faaliyet gösteriyor. Bazı şehirlerde belirli dikeyler öne çıkıyor: Antalya'da turizm ve gayrimenkul, İzmir'de sağlık ve butik marka çalışmaları, Ankara'da sanayi ve kurumsal iletişim gibi.",
+        "Bu çeşitlilik, doğru ajansı bulmayı hem kolaylaştırıyor hem zorlaştırıyor. Seçenek çok ama ajansların vaatleri birbirine benziyor. Ayrım genellikle vaatte değil kapsamda ortaya çıkıyor: hangi ajans video çekiyor, hangisi yalnızca tasarım yapıyor, hangisi reklam yönetiyor, hangisi sadece içerik planlıyor.",
+      ] },
+      { baslik: "Bu Liste Nasıl Hazırlandı?", paragraflar: [
+        "Aşağıdaki liste bir performans sıralaması değildir. \"En iyi\" ifadesi herhangi bir ajansın diğerinden daha başarılı olduğu yönünde bir iddia taşımaz ve sıra numaraları yalnızca listeyi takip etmeyi kolaylaştırmak içindir.",
+        "Ajanslar alfabetik olarak sıralanmıştır. Listeye alınırken sosyal medya hizmetlerini kamuya açık biçimde tanıtan, hizmet kapsamı web sitesinden doğrulanabilen ve Türkiye pazarında faaliyet gösteren ajanslar dikkate alınmıştır.",
+        "Ajansların kuruluş yılı, konum ve hizmet kapsamı gibi bilgiler kendi web sitelerinde veya kamuya açık ajans dizinlerinde belirttikleri şekilde aktarılmıştır. Ödül, sertifika ve iş ortaklığı beyanları bağımsız olarak doğrulanmamıştır; bunlar ilgili ajansların kendi ifadeleridir.",
+        "Liste yalnızca İstanbul'a odaklanmamış; Ankara ve İzmir merkezli ajanslara da yer verilmiştir. Sosyal medya yönetiminin önemli bölümü uzaktan yürütülebildiği için lokasyon çoğu proje açısından belirleyici değildir. Ancak düzenli fiziksel çekim yapılacaksa aynı şehirde ekip bulunması operasyonu kolaylaştırır.",
+        "Bilgiler zaman içinde değişebilir. Bir ajansla çalışmadan önce hizmet kapsamını, ekip yapısını ve sözleşme şartlarını doğrudan kendisinden teyit etmeniz önerilir.",
+      ] },
+      { baslik: "1. Clicks'us", paragraflar: [
+        "Kendi sitesindeki ifadeye göre 2016'da kurulan Clicks'us, kendisini 360 derece hizmet veren bir dijital performans ajansı olarak tanımlıyor.",
+        "Sosyal medya yönetiminin yanında SEO, GEO, ASO, web geliştirme ve içerik pazarlaması hizmet listesinde yer alıyor. Bu yapı, sosyal medyayı tek başına bir kanal olarak değil performans pazarlamasının bir parçası olarak ele almak isteyen markalara hitap ediyor.",
+        "Sitesinde çeşitli ödül beyanları bulunuyor; bunlar ajansın kendi ifadeleridir. Sosyal medya ile birlikte arama ve uygulama tarafını da aynı ekipten almak isteyen şirketler tarafından incelenebilir.",
+      ], linkler: [
+        { isim: "Clicks'us web sitesi", aciklama: "İstanbul", url: "https://clicksus.com" },
+      ] },
+      { baslik: "2. Collified", paragraflar: [
+        "İzmir merkezli Collified, sağlık sektörü ve sağlık turizmi alanındaki sosyal medya çalışmalarıyla farklılaşan ajanslardan biri.",
+        "Doktorların, kliniklerin ve sağlık turizmi markalarının sosyal medya iletişimini yalnızca paylaşım takvimi üzerinden değil, içerik üretimi, video, Meta reklamları, SEO ve çok dilli dijital pazarlamayla birlikte ele alıyor.",
+        "Sağlık iletişimi Türkiye'de tanıtım kuralları açısından hassas bir alan olduğu için, bu dikeyde deneyimli bir ekiple çalışmak klinikler ve hastaneler açısından belirleyici olabilir.",
+      ], linkler: [
+        { isim: "Collified web sitesi", aciklama: "İzmir", url: "https://collified.com" },
+      ] },
+      { baslik: "3. Crabs Media", paragraflar: [
+        "Sitesinde 2007'den bu yana faaliyet gösterdiğini belirten Crabs Media, sosyal medya yönetimine kurumsal fotoğraf ve video prodüksiyonunu da dahil ediyor.",
+        "Meta ve TikTok reklamları, web geliştirme ve GEO optimizasyonu da hizmet listesinde bulunuyor. Sağlık turizmi ve e-ticaret ayrı hizmet başlıkları olarak öne çıkarılıyor.",
+        "Görsel üretimi ayrı bir prodüksiyon şirketinden almak istemeyen, çekim ve kurguyu da aynı ajanstan bekleyen markalar için tek elden bir kapsam sunuyor.",
+      ], linkler: [
+        { isim: "Crabs Media web sitesi", aciklama: "İstanbul", url: "https://crabsmedia.com" },
+      ] },
+      { baslik: "4. Cremicro", paragraflar: [
+        "İstanbul merkezli Cremicro, sosyal medya pazarlamasını daha geniş bir dijital pazarlama stratejisinin parçası olarak ele alan ajanslardan biri.",
+        "Sosyal medya yönetiminin yanında SEO, GEO, Google ve Meta reklamları, influencer pazarlaması, video prodüksiyon, web tasarımı ve itibar yönetimi hizmet listesinde yer alıyor. Sitesinde çok dilli dijital pazarlama deneyimini de öne çıkarıyor.",
+        "Sosyal medya çalışmalarını reklam ve arama görünürlüğüyle aynı çatı altında yürütmek isteyen orta ve büyük ölçekli şirketler tarafından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Cremicro web sitesi", aciklama: "İstanbul", url: "https://cremicro.com" },
+      ] },
+      { baslik: "5. Digipeak", paragraflar: [
+        "Hakkımızda sayfasındaki ifadeye göre 2020'de kurulan Digipeak, kendisini büyüme odaklı 360 derece dijital pazarlama ajansı olarak tanımlıyor ve SaaS ile B2B dikeylerine odaklandığını açıkça belirtiyor.",
+        "Sosyal medya yönetiminin yanında SEO, PPC, ASO ve e-posta pazarlaması sunuyor. İstanbul'un yanı sıra Londra'da da ofis bulunduğunu belirtiyor.",
+        "Sitesi ağırlıklı olarak İngilizce; yurt dışı pazarına satış yapan yazılım ve B2B markaları için ilgili bir konumlanma sunuyor.",
+      ], linkler: [
+        { isim: "Digipeak web sitesi", aciklama: "İstanbul / Londra", url: "https://digipeak.org" },
+      ] },
+      { baslik: "6. Fevreka", paragraflar: [
+        "Fevreka, sosyal medya yönetimini dijital PR, itibar yönetimi ve kriz yönetimiyle birlikte sunan ajanslardan biri.",
+        "Hizmet listesinde kreatif kampanya, kurumsal kimlik, video prodüksiyon ve içerik üretimi yer alıyor.",
+        "Ayırt edici tarafı PR ve kriz yönetimini sosyal medya kapsamına dahil etmesi. Kamuoyu görünürlüğü yüksek, itibar riski taşıyan markalar için bu birleşim anlamlı olabilir.",
+      ], linkler: [
+        { isim: "Fevreka web sitesi", aciklama: "İstanbul", url: "https://fevreka.com" },
+      ] },
+      { baslik: "7. Growbyshare", paragraflar: [
+        "İzmir merkezli Growbyshare, influencer pazarlaması ve sosyal medya pazarlamasına yoğunlaşan ajanslardan biri.",
+        "Ajans dizinlerinde yayınlanan verilerde hizmetlerinin ağırlıklı bölümünün sosyal medya pazarlamasından, kalanının marka çalışmalarından oluştuğu belirtiliyor.",
+        "Klasik kurumsal hesap yönetiminden çok influencer iş birlikleri ve sosyal medya odaklı marka büyümesi arayan işletmeler için daha uygun bir profil çiziyor.",
+      ], linkler: [
+        { isim: "Growbyshare web sitesi", aciklama: "İzmir", url: "https://growbyshare.com" },
+      ] },
+      { baslik: "8. Hoops", paragraflar: [
+        "Sitesindeki ifadeye göre 2008'den bu yana faaliyet gösteren Hoops; sosyal medya yönetimi, influencer pazarlaması, kreatif tasarım, web geliştirme ve video prodüksiyonu birlikte sunuyor.",
+        "İstanbul dışında Budapeşte ve Malmö'de de ofis bulunduğunu belirtiyor; strateji, içerik ve reklamı tek ritimde yönettiğini ifade ediyor.",
+        "Avrupa pazarına da satış yapan markalar için çok pazarlı yapısı ilgili olabilir.",
+      ], linkler: [
+        { isim: "Hoops web sitesi", aciklama: "İstanbul / Budapeşte / Malmö", url: "https://hoops.com.tr" },
+      ] },
+      { baslik: "9. Kornişon Ajans", paragraflar: [
+        "Kornişon Ajans, hizmet odağının tamamına yakınını sosyal medyaya ayıran İzmir merkezli butik ajanslardan biri.",
+        "Ajans dizinlerindeki verilerde 2018'de kurulduğu ve hizmet dağılımının büyük bölümünün sosyal medya pazarlamasından oluştuğu belirtiliyor.",
+        "Kapsamlı SEO veya yazılım projelerinden ziyade doğrudan sosyal medya yönetimi ve içerik üretimi için uzman bir ekip arayan işletmeler tarafından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Kornişon Ajans web sitesi", aciklama: "İzmir", url: "https://kornisonajans.com" },
+      ] },
+      { baslik: "10. Lein Digital", paragraflar: [
+        "2016'da kurulan Lein Digital, sosyal medya yönetimini içerik üretimi, topluluk yönetimi ve performans reklamıyla birlikte yürütüyor.",
+        "Ajans kendisini GEO alanında konumlandırıyor ve sosyal medya raporlamasını takipçi sayısı yerine erişim, etkileşim oranı ve dönüşüm üzerinden kurduğunu belirtiyor.",
+        "Sosyal medya mesajıyla yapay zekâ arama görünürlüğünü aynı çerçevede ele almak isteyen markalar için ilgili bir yaklaşım sunuyor.",
+      ], linkler: [
+        { isim: "Lein Digital web sitesi", aciklama: "İstanbul", url: "https://leindigital.com" },
+      ] },
+      { baslik: "11. Olabenja", paragraflar: [
+        "Olabenja, stratejiden tasarıma, sosyal medyadan prodüksiyona kadar tüm aşamaları içeride yönettiğini belirten Ankara merkezli bir reklam ajansı.",
+        "Instagram, YouTube ve LinkedIn öne çıkan platformlar arasında. Prodüksiyon gücünü aynı çatı altında tutması ayırt edici beyanı.",
+        "Düzenli video içeriği üretmesi gereken ama dış prodüksiyon koordinasyonuyla uğraşmak istemeyen markalar için değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Olabenja web sitesi", aciklama: "Ankara", url: "https://olabenja.com" },
+      ] },
+      { baslik: "12. ReMedia", paragraflar: [
+        "ReMedia, İzmir'in sosyal medya ekosistemindeki butik ajanslardan biri.",
+        "Ajans dizinlerindeki hizmet dağılımında sosyal medya pazarlaması, reklam, marka yönetimi ve grafik tasarım önemli yer tutuyor. Yayınlanan müşteri değerlendirmelerinde zamanında teslimat ve yaratıcı içerik öne çıkan başlıklar arasında.",
+        "Sosyal medya için görsel kimlik ve içerik üretimini birlikte yürütmek isteyen markalar açısından incelenebilir.",
+      ], linkler: [
+        { isim: "ReMedia web sitesi", aciklama: "İzmir", url: "https://remedia.com.tr" },
+      ] },
+      { baslik: "13. ROIPUBLIC", paragraflar: [
+        "ROIPUBLIC, sosyal medya reklamlarını performans pazarlamasının bir parçası olarak kullanmak isteyen işletmeler için değerlendirilebilecek ajanslardan biri.",
+        "Performans pazarlaması, SEO, GEO, sosyal medya reklamcılığı, içerik pazarlaması ve web tasarım gibi farklı dijital disiplinleri bir arada sunuyor.",
+        "Organik hesap yönetiminden çok Meta reklamları, müşteri edinimi ve dönüşüm performansı tarafına ağırlık veren markalar tarafından incelenebilir.",
+      ], linkler: [
+        { isim: "ROIPUBLIC web sitesi", aciklama: "İstanbul", url: "https://roipublic.com" },
+      ] },
+      { baslik: "14. Sare Medya", paragraflar: [
+        "Sare Medya; sosyal medya yönetimi, Google Ads, SEO, web tasarım ve grafik tasarımı birlikte sunuyor.",
+        "Platform tarafında Instagram, Facebook, LinkedIn, X, TikTok ve YouTube yönetimi listeleniyor. Sitesinde Google Premier Partner statüsü beyan ediliyor; bu ajansın kendi ifadesidir.",
+        "Gayrimenkul, inşaat ve eğitim gibi dikeyleri öne çıkarıyor; bu sektörlerde çalışan markalar için ilgili olabilir.",
+      ], linkler: [
+        { isim: "Sare Medya web sitesi", aciklama: "İstanbul", url: "https://saremedya.com" },
+      ] },
+      { baslik: "15. Vegasis Medya", paragraflar: [
+        "Sitesindeki ifadeye göre 2018'de Ankara merkezli kurulan Vegasis Medya; sosyal medya yönetimi ve reklamları, Google reklamları, e-ticaret sitesi, web tasarımı ve SEO sunuyor.",
+        "Standart paket yaklaşımına açıkça karşı çıktığını ve firmaya özel strateji kurduğunu belirtiyor. Sanayi firmalarına yönelik ayrı bir çözüm başlığı bulunuyor.",
+        "Ankara merkezli ve özellikle sanayi tarafında çalışan markalar için değerlendirilebilecek seçeneklerden biri.",
+      ], linkler: [
+        { isim: "Vegasis Medya web sitesi", aciklama: "Ankara", url: "https://vegasismedya.com" },
+      ] },
+      { baslik: "Sosyal Medya Ajansı Tam Olarak Ne Yapar?", paragraflar: [
+        "Sosyal medya ajansı denildiğinde akla genellikle içerik paylaşımı geliyor, ama hizmet kapsamı ajanstan ajansa ciddi biçimde değişiyor. Teklif karşılaştırırken asıl bakılması gereken de bu.",
+        "Kapsam genellikle şu başlıklardan oluşuyor: sosyal medya stratejisi ve platform seçimi, aylık içerik planı, grafik tasarım, fotoğraf ve video çekimi, Reels ve TikTok içerikleri, metin yazarlığı, paylaşım yönetimi, yorum ve mesaj yönetimi, influencer iş birlikleri, Meta ve TikTok reklam yönetimi, raporlama ve rakip analizi.",
+        "Hiçbir ajans bu başlıkların tamamını aynı fiyata sunmuyor. Bazıları yalnızca içerik ve topluluk yönetimi yapıyor; bazıları buna performans reklamını ekliyor; bazılarının kendi video prodüksiyon ekibi var. Üçü de geçerli modeller ama fiyatları ve size sağladıkları farklı.",
+        "Bu yüzden iki teklifi karşılaştırırken önce kapsamın aynı olup olmadığını kontrol edin. Aradaki fiyat farkı çoğu zaman kaliteden değil, tekliflerin farklı şeyleri kapsamasından kaynaklanıyor.",
+      ] },
+      { baslik: "Sosyal Medya Ajansı Seçerken Nelere Dikkat Edilmeli?", paragraflar: [
+        "Ajansın kendi Instagram hesabının güzel görünmesi tek başına yeterli bir kriter değil. Aşağıdaki başlıklar birlikte değerlendirildiğinde daha sağlıklı bir karar çıkıyor.",
+        "1. Portföyün derinliği — Ajansın örnek hesaplarına bakarken şunu sorun: her markanın ayrı bir iletişim dili var mı, yoksa içerikler birbirinin kopyası gibi mi görünüyor? Tek bir şablonu farklı logolarla tekrarlayan bir portföy, size de aynısının yapılacağını gösterir.",
+        "2. Video üretme kapasitesi — Instagram, TikTok ve YouTube'da dağıtım ağırlıklı olarak videoya kayıyor. Ajansın kendi çekim ekibi var mı, dışarıdan mı alıyor, yoksa video hiç kapsamda değil mi? Bu tek başına bütçeyi belirgin biçimde değiştiren bir değişken.",
+        "3. Sektör deneyimi — Sağlık, finans ve hukuk gibi alanlarda tanıtım kuralları hassastır. Özellikle sağlık iletişiminde kesin tedavi vaadi, yanıltıcı sonuç iddiası veya hasta görseli kullanımı ciddi sorun yaratabilir. Bu sektörlerdeyseniz ajansın o dikeyde çalışmış olması önemli.",
+        "4. Reklam ve organik ayrımı — Ajans Meta reklamlarını yönetiyor mu, yoksa yalnızca içerik mi üretiyor? Reklam yönetimi varsa ajans hizmet bedeliyle reklam bütçesinin ayrı olduğunu teyit edin; bu ikisi çoğu sözleşmede birbirinden bağımsızdır.",
+        "5. Raporlamanın kurgusu — Raporun en üstünde takipçi sayısı varsa bu bir uyarı işaretidir. Takipçi bir iş hedefi değil, bir sayaçtır. Anlamlı metrikler erişim, etkileşim oranı, tıklama ve dönüşümdür.",
+        "6. Hesap ve içerik mülkiyeti — Üretilen içerik arşivi ve hesap yönetimi, ilişki bittiğinde sizde kalıyor mu? Bu sözleşmede yazılı olmalı. Sonradan tartışma çıkan en yaygın konulardan biri budur.",
+        "7. Platform gerekçesi — Ajansa \"bizim hedef kitlemiz için hangi iki platformu önerirsiniz ve neden?\" diye sorun. Beş platformu birden öneren ama gerekçelendiremeyen bir teklif genellikle kapsamı pazarlama amaçlı şişirilmiş bir tekliftir.",
+      ] },
+      { baslik: "Ajans mı, Freelancer mı, İç Ekip mi?", paragraflar: [
+        "Sosyal medya yönetimi için üç model var ve hangisinin doğru olduğu bütçeden çok içerik üretim ihtiyacınıza bağlı.",
+        "Ajans modeli, içerik, tasarım, reklam ve prodüksiyon gibi farklı uzmanlıkların aynı hesap üzerinde çalışmasını sağlar. Ekipte yedeklilik olduğu için birinin izne çıkması süreci durdurmaz. Buna karşılık markanızı tanıması zaman alır ve aylık sabit bir maliyet getirir.",
+        "Freelancer modeli tek platformlu ve sınırlı kapsamlı işlerde verimlidir. Doğrudan iletişim avantajı vardır ama tek kişinin aynı anda strateji, çekim, kurgu, tasarım, metin ve reklam optimizasyonunda uzman olmasını beklemek gerçekçi değildir. Müsaitlik de risk oluşturur.",
+        "İç ekip, markayı en iyi tanıyan seçenektir ve içerik üretimi işinizin merkezindeyse mantıklıdır. Ancak tek bir sosyal medya uzmanından tüm disiplinleri beklemek yaygın bir hatadır; bu genellikle tükenmeyle sonuçlanır.",
+        "Pratikte çoğu markada en verimli olan ara modeldir: strateji ve içerik şablonları ajanstan alınır, günlük yayın ve topluluk yönetimi iç ekipte kalır. Büyük şirketlerde iç pazarlama ekibiyle ajansın birlikte çalıştığı hibrit yapı zaten yaygındır.",
+      ] },
+      { baslik: "Hangi Sosyal Medya Ajansı Size Uygun?", paragraflar: [
+        "Yukarıdaki 15 ajans farklı şehirlerde, farklı dikeylerde ve farklı çalışma modelleriyle faaliyet gösteriyor. Bazıları yalnızca sosyal medyaya odaklanırken bazıları sosyal medyayı SEO, reklam, web ve prodüksiyonla birlikte sunuyor.",
+        "Doğru soru \"en iyi sosyal medya ajansı hangisi?\" değil, \"bizim içerik ihtiyacımız, sektörümüz ve bütçemiz için hangi çalışma modeli uygun?\" olmalı.",
+        "Pratik bir yöntem: kendi durumunuzu üç soruyla netleştirin. Ayda kaç içeriğe ihtiyacınız var ve bunların kaçı video olacak? Reklam yönetimi de gerekiyor mu, yoksa yalnızca organik mi? Çekim yapılacaksa nerede ve kim tarafından yapılacak?",
+        "Bu üç sorunun cevabı, listedeki ajansların hangilerinin sizin için gerçekten uygun olduğunu belirgin biçimde daraltır. Ardından iki veya üç ajansla görüşün ve hazır paket sunmak yerine sizin gerçek sorununuzu anlamaya çalışıp çalışmadıklarını değerlendirin.",
+        "Son olarak: bu listedeki hiçbir bilgi bir tavsiye veya garanti değildir. Çalışmaya karar vermeden önce teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili ajanstan doğrulayın.",
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "The Social Media Agency Market in Turkey", paragraflar: [
+        "For businesses in Turkey, social media long ago stopped being purely a brand awareness tool. In many sectors Instagram, TikTok, LinkedIn and YouTube are now part of direct customer acquisition, sales and customer service.",
+        "The idea of a social media agency has widened accordingly. What is expected of an agency today is not simply regular posting, but building strategy, producing content and video, managing community, running Meta and TikTok advertising, and measuring the results of all of it.",
+        "The market is not confined to Istanbul either. Numerous agencies with different specialisms operate in Ankara, Izmir, Antalya and Bursa. Certain verticals stand out in certain cities: tourism and real estate in Antalya, healthcare and boutique brand work in Izmir, industry and corporate communication in Ankara.",
+        "This variety makes finding the right agency both easier and harder. There are many options, but agency promises resemble one another. The distinction usually emerges not in the promise but in the scope: which agency shoots video, which only does design, which manages advertising, which only plans content.",
+      ] },
+      { baslik: "How Was This List Prepared?", paragraflar: [
+        "The list below is not a performance ranking. The phrase \"best\" carries no claim that any agency is more successful than another, and the numbering exists only to make the list easier to follow.",
+        "The agencies are listed alphabetically. Inclusion considered agencies that publicly present their social media services, whose service scope can be verified from their website, and that operate in the Turkish market.",
+        "Details such as founding year, location and service scope are reported as the agencies state them on their own sites or in public agency directories. Award, certification and partnership claims have not been independently verified; these are the statements of the agencies concerned.",
+        "The list does not focus on Istanbul alone; Ankara and Izmir-based agencies are included. Because much of social media management can be run remotely, location is not decisive for most projects. That said, if regular physical shooting is involved, having a team in the same city simplifies operations.",
+        "Information can change over time. Before working with any agency, verify its service scope, team structure and contract terms directly with them.",
+      ] },
+      { baslik: "1. Clicks'us", paragraflar: [
+        "According to the statement on its own site, Clicks'us was founded in 2016 and describes itself as a 360-degree digital performance agency.",
+        "Alongside social media management, its service list includes SEO, GEO, ASO, web development and content marketing. This structure suits brands that treat social media as part of performance marketing rather than a standalone channel.",
+        "Award claims appear on its site; these are the agency's own statements. Worth reviewing for companies that also want search and app-side work from the same team.",
+      ], linkler: [
+        { isim: "Clicks'us website", aciklama: "Istanbul", url: "https://clicksus.com" },
+      ] },
+      { baslik: "2. Collified", paragraflar: [
+        "İzmir-based Collified is one of the agencies that differentiates through social media work in healthcare and health tourism.",
+        "It approaches social media communication for doctors, clinics and health tourism brands not merely as a posting calendar, but alongside content production, video, Meta ads, SEO and multilingual digital marketing.",
+        "Because health communication is a sensitive area under Turkey's promotional rules, working with a team experienced in this vertical can be decisive for clinics and hospitals.",
+      ], linkler: [
+        { isim: "Collified website", aciklama: "Izmir", url: "https://collified.com" },
+      ] },
+      { baslik: "3. Crabs Media", paragraflar: [
+        "Stating on its site that it has operated since 2007, Crabs Media includes corporate photography and video production within its social media management.",
+        "Meta and TikTok advertising, web development and GEO optimisation also appear in its service list. Health tourism and e-commerce are highlighted as separate service headings.",
+        "It offers single-supplier scope for brands that do not want to source visual production from a separate company and expect shooting and editing from the same agency.",
+      ], linkler: [
+        { isim: "Crabs Media website", aciklama: "Istanbul", url: "https://crabsmedia.com" },
+      ] },
+      { baslik: "4. Cremicro", paragraflar: [
+        "Istanbul-based Cremicro is among the agencies that treat social media marketing as part of a wider digital marketing strategy.",
+        "Alongside social media management, its service list includes SEO, GEO, Google and Meta advertising, influencer marketing, video production, web design and reputation management. It highlights multilingual digital marketing experience on its site.",
+        "Can be considered by mid-size and larger companies that want social media run under the same roof as advertising and search visibility.",
+      ], linkler: [
+        { isim: "Cremicro website", aciklama: "Istanbul", url: "https://cremicro.com" },
+      ] },
+      { baslik: "5. Digipeak", paragraflar: [
+        "According to its About page, Digipeak was founded in 2020, describes itself as a growth-focused 360-degree digital marketing agency and states clearly that it focuses on SaaS and B2B verticals.",
+        "Alongside social media management it offers SEO, PPC, ASO and email marketing. It states that it has offices in London as well as Istanbul.",
+        "Its site is predominantly in English — a relevant positioning for software and B2B brands selling into overseas markets.",
+      ], linkler: [
+        { isim: "Digipeak website", aciklama: "Istanbul / Londra", url: "https://digipeak.org" },
+      ] },
+      { baslik: "6. Fevreka", paragraflar: [
+        "Fevreka is one of the agencies offering social media management together with digital PR, reputation and crisis management.",
+        "Its service list includes creative campaigns, corporate identity, video production and content production.",
+        "Its distinguishing feature is including PR and crisis management within the social media scope. This combination can be meaningful for highly visible brands carrying reputational risk.",
+      ], linkler: [
+        { isim: "Fevreka website", aciklama: "Istanbul", url: "https://fevreka.com" },
+      ] },
+      { baslik: "7. Growbyshare", paragraflar: [
+        "İzmir-based Growbyshare is one of the agencies concentrating on influencer marketing and social media marketing.",
+        "Data published in agency directories indicates that the bulk of its services consists of social media marketing, with the remainder in brand work.",
+        "It fits businesses seeking influencer collaborations and social-led brand growth rather than classic corporate account management.",
+      ], linkler: [
+        { isim: "Growbyshare website", aciklama: "Izmir", url: "https://growbyshare.com" },
+      ] },
+      { baslik: "8. Hoops", paragraflar: [
+        "According to the statement on its site, Hoops has operated since 2008 and offers social media management, influencer marketing, creative design, web development and video production together.",
+        "It states that it has offices in Budapest and Malmö as well as Istanbul, and that it manages strategy, content and advertising in a single rhythm.",
+        "Its multi-market structure may be relevant for brands that also sell into European markets.",
+      ], linkler: [
+        { isim: "Hoops website", aciklama: "Istanbul / Budapeşte / Malmö", url: "https://hoops.com.tr" },
+      ] },
+      { baslik: "9. Kornişon Ajans", paragraflar: [
+        "Kornişon Ajans is one of the İzmir-based boutique agencies devoting nearly all of its service focus to social media.",
+        "Agency directory data indicates it was founded in 2018 and that the bulk of its service mix consists of social media marketing.",
+        "Can be considered by businesses seeking a specialist team for social media management and content production, rather than broad SEO or software projects.",
+      ], linkler: [
+        { isim: "Kornişon Ajans website", aciklama: "Izmir", url: "https://kornisonajans.com" },
+      ] },
+      { baslik: "10. Lein Digital", paragraflar: [
+        "Founded in 2016, Lein Digital runs social media management alongside content production, community management and performance advertising.",
+        "The agency positions itself in the GEO field and states that it builds social media reporting around reach, engagement rate and conversion rather than follower count.",
+        "It offers a relevant approach for brands that want to address social media messaging and AI search visibility within the same framework.",
+      ], linkler: [
+        { isim: "Lein Digital website", aciklama: "Istanbul", url: "https://leindigital.com" },
+      ] },
+      { baslik: "11. Olabenja", paragraflar: [
+        "Olabenja is an Ankara-based advertising agency stating that it manages every stage in-house, from strategy to design and from social media to production.",
+        "Instagram, YouTube and LinkedIn are among its prominent platforms. Keeping production capability under the same roof is its distinguishing claim.",
+        "Worth considering for brands that need regular video content but do not want to coordinate external production.",
+      ], linkler: [
+        { isim: "Olabenja website", aciklama: "Ankara", url: "https://olabenja.com" },
+      ] },
+      { baslik: "12. ReMedia", paragraflar: [
+        "ReMedia is one of the boutique agencies in İzmir's social media ecosystem.",
+        "In agency directory service breakdowns, social media marketing, advertising, brand management and graphic design account for a significant share. Published client reviews highlight on-time delivery and creative content.",
+        "Worth reviewing for brands that want visual identity and content production for social media handled together.",
+      ], linkler: [
+        { isim: "ReMedia website", aciklama: "Izmir", url: "https://remedia.com.tr" },
+      ] },
+      { baslik: "13. ROIPUBLIC", paragraflar: [
+        "ROIPUBLIC is one of the agencies to consider for businesses that want to use social media advertising as part of performance marketing.",
+        "It offers performance marketing, SEO, GEO, social media advertising, content marketing and web design together.",
+        "Can be reviewed by brands weighting Meta advertising, customer acquisition and conversion performance more heavily than organic account management.",
+      ], linkler: [
+        { isim: "ROIPUBLIC website", aciklama: "Istanbul", url: "https://roipublic.com" },
+      ] },
+      { baslik: "14. Sare Medya", paragraflar: [
+        "Sare Medya offers social media management, Google Ads, SEO, web design and graphic design together.",
+        "On the platform side it lists Instagram, Facebook, LinkedIn, X, TikTok and YouTube management. Google Premier Partner status is declared on its site; this is the agency's own statement.",
+        "It highlights verticals such as real estate, construction and education, which may be relevant for brands working in those sectors.",
+      ], linkler: [
+        { isim: "Sare Medya website", aciklama: "Istanbul", url: "https://saremedya.com" },
+      ] },
+      { baslik: "15. Vegasis Medya", paragraflar: [
+        "According to the statement on its site, Vegasis Medya was founded in Ankara in 2018 and offers social media management and advertising, Google advertising, e-commerce sites, web design and SEO.",
+        "It states that it explicitly rejects a standard package approach and builds company-specific strategy. A separate solution heading exists for industrial firms.",
+        "One of the options to consider for Ankara-based brands, particularly those working in industry and manufacturing.",
+      ], linkler: [
+        { isim: "Vegasis Medya website", aciklama: "Ankara", url: "https://vegasismedya.com" },
+      ] },
+      { baslik: "What Exactly Does a Social Media Agency Do?", paragraflar: [
+        "The phrase \"social media agency\" usually brings content posting to mind, but service scope varies considerably from one agency to another. This is what to examine when comparing proposals.",
+        "Scope generally consists of: social media strategy and platform selection, monthly content plan, graphic design, photography and video shooting, Reels and TikTok content, copywriting, posting management, comment and message management, influencer collaborations, Meta and TikTok ad management, reporting and competitor analysis.",
+        "No agency offers all of these at the same price. Some do only content and community management; some add performance advertising; some have their own video production team. All three are valid models, but they differ in price and in what they deliver to you.",
+        "So when comparing two proposals, first check whether the scope is the same. The price difference usually stems not from quality but from the proposals covering different things.",
+      ] },
+      { baslik: "What to Consider When Choosing a Social Media Agency", paragraflar: [
+        "An agency's own Instagram account looking good is not a sufficient criterion on its own. Assessing the following together produces a sounder decision.",
+        "1. Depth of portfolio — When looking at the agency's example accounts, ask: does each brand have its own communication voice, or does the content look like copies of one another? A portfolio repeating a single template with different logos tells you the same will be done for you.",
+        "2. Video production capacity — Distribution on Instagram, TikTok and YouTube is shifting heavily towards video. Does the agency have its own shooting team, does it source externally, or is video not in scope at all? This single variable changes the budget markedly.",
+        "3. Sector experience — Promotional rules are sensitive in fields such as healthcare, finance and law. In health communication in particular, definitive treatment promises, misleading outcome claims or the use of patient imagery can cause serious problems. If you are in these sectors, the agency's experience in that vertical matters.",
+        "4. Separating paid and organic — Does the agency manage Meta advertising, or only produce content? If ad management is included, confirm that the agency fee and the media budget are separate; in most contracts these are independent of one another.",
+        "5. How reporting is framed — If follower count sits at the top of the report, that is a warning sign. Followers are a counter, not a business goal. The meaningful metrics are reach, engagement rate, clicks and conversion.",
+        "6. Account and content ownership — Does the content archive produced, and account access, stay with you when the relationship ends? This should be written into the contract. It is one of the most common sources of later dispute.",
+        "7. Platform rationale — Ask the agency: \"which two platforms would you recommend for our audience, and why?\" A proposal recommending five platforms at once without being able to justify them is usually one whose scope has been inflated for sales purposes.",
+      ] },
+      { baslik: "Agency, Freelancer or In-House Team?", paragraflar: [
+        "There are three models for social media management, and which one is right depends less on budget than on your content production needs.",
+        "The agency model puts different specialisms — content, design, advertising, production — to work on the same account. Because there is redundancy in the team, one person taking leave does not halt the process. On the other hand it takes time for them to learn your brand, and it carries a fixed monthly cost.",
+        "The freelancer model is efficient for single-platform, limited-scope work. There is an advantage of direct communication, but expecting one person to be expert simultaneously in strategy, shooting, editing, design, copy and ad optimisation is not realistic. Availability is also a risk.",
+        "An in-house team knows the brand best and makes sense when content production is central to your business. However, expecting every discipline from a single social media specialist is a common mistake, and usually ends in burnout.",
+        "In practice the hybrid model is the most efficient for most brands: strategy and content templates come from the agency, while daily publishing and community management stay in-house. In larger companies, an in-house marketing team working alongside an agency is already common.",
+      ] },
+      { baslik: "Which Social Media Agency Is Right for You?", paragraflar: [
+        "The 15 agencies above operate in different cities, different verticals and with different engagement models. Some focus solely on social media, while others offer it alongside SEO, advertising, web and production.",
+        "The right question is not \"which is the best social media agency?\" but \"which engagement model suits our content needs, our sector and our budget?\"",
+        "A practical method: clarify your own situation with three questions. How many pieces of content do you need per month, and how many of those will be video? Do you also need ad management, or organic only? If there is shooting, where will it happen and who will do it?",
+        "The answers narrow the list considerably. Then speak to two or three agencies and judge whether they try to understand your actual problem rather than presenting an off-the-shelf package.",
+        "Finally: nothing in this list constitutes a recommendation or a guarantee. Before deciding to work with anyone, verify proposals, references, service scope and contract terms directly with the agency concerned.",
+      ] },
+    ],
+  },
+  'turkiye-en-iyi-10-sosyal-medya-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 10 Sosyal Medya Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 10 Social Media Agencies - Updated 2026",
+    meta_desc_tr: "İstanbul, Ankara, İzmir ve Antalya'dan 10 sosyal medya ajansı. Alfabetik liste, sektöre göre değişen ihtiyaçlar ve fiyatı belirleyen değişkenler.",
+    meta_desc_en: "Ten social media agencies from Istanbul, Ankara, Izmir and Antalya. An alphabetical list, sector-specific needs and the variables that set the price.",
+    etiket: 'Strateji', sure: '9',
+    bolumler_tr: [
+      { baslik: "Sosyal Medya Yönetimi Neden Tek Platformdan İbaret Değil?", paragraflar: [
+        "Türkiye'de sosyal medya yönetimi denildiğinde çoğu işletmenin aklına önce Instagram geliyor. Oysa profesyonel bir strateji tek bir platforma bağımlı olmamalı.",
+        "B2B bir şirket için LinkedIn, Instagram'dan çok daha değerli olabilir. Genç tüketiciye ulaşmak isteyen bir marka için TikTok öncelikli kanal haline gelebilir. Kullanıcıların giderek daha fazla video araması yapması nedeniyle YouTube da birçok sektörde stratejinin parçası.",
+        "Doğru soru \"Instagram'da ayda kaç paylaşım yapacağız?\" değil, \"hedef kitlemiz hangi platformlarda ve o platformlarda hangi içerik formatları çalışıyor?\" olmalı.",
+        "Bu ayrım ajans seçimini de etkiliyor. Bazı ajanslar görsel tasarım ve topluluk yönetiminde güçlü, bazıları performans reklamında, bazıları video prodüksiyonunda, bazıları da belirli sektörlerde derinleşmiş durumda. Aşağıdaki liste bu farkları görünür kılmak için hazırlandı.",
+      ] },
+      { baslik: "Bu Liste Nasıl Hazırlandı?", paragraflar: [
+        "Bu bir performans sıralaması değildir. Sıra numaraları yalnızca listeyi takip etmeyi kolaylaştırmak içindir ve hiçbir ajansın diğerinden üstün olduğu anlamına gelmez.",
+        "Ajanslar alfabetik olarak listelenmiştir. Hizmet kapsamı, konum ve uzmanlık bilgileri ajansların kendi web sitelerinde veya kamuya açık ajans dizinlerinde belirttikleri şekilde aktarılmıştır.",
+        "Liste hazırlanırken şehir çeşitliliği gözetilmiştir: İstanbul'un yanı sıra Ankara, İzmir ve Antalya merkezli ajanslara da yer verilmiştir. Sosyal medya çalışmalarının strateji, tasarım, reklam ve raporlama kısmı uzaktan yürütülebildiği için lokasyon çoğu projede kısıtlayıcı değildir.",
+        "Ödül, sertifika ve iş ortaklığı beyanları bağımsız olarak doğrulanmamıştır; ilgili ajansların kendi ifadeleridir. Bilgiler zaman içinde değişebileceği için çalışmaya başlamadan önce doğrudan ajanstan teyit alınması önerilir.",
+      ] },
+      { baslik: "1. Brand Therapy", paragraflar: [
+        "Ankara'daki sosyal medya ve dijital pazarlama ajansları arasında değerlendirilebilecek seçeneklerden biri Brand Therapy.",
+        "Ajans özellikle sosyal medya danışmanlığı ve dijital görünürlük tarafında konumlanıyor; içerik stratejisi, dijital pazarlama, SEO ve marka iletişimi hizmet listesinde yer alıyor.",
+        "Sosyal medya çalışmalarını SEO ve dijital pazarlamayla birlikte değerlendirmek isteyen Ankara merkezli işletmeler için alternatif oluşturabilir.",
+      ], linkler: [
+        { isim: "Brand Therapy web sitesi", aciklama: "Ankara", url: "https://brandtherapy.com.tr" },
+      ] },
+      { baslik: "2. Cremicro", paragraflar: [
+        "İstanbul merkezli Cremicro, sosyal medya yönetimini SEO, GEO, Google ve Meta reklamları, influencer pazarlaması ve video prodüksiyonla aynı çatı altında sunuyor.",
+        "Sitesinde çok dilli dijital pazarlama deneyimini öne çıkarıyor; estetik, sağlık ve finans gibi farklı dikeylerde çalışma örneklerine yer veriyor.",
+        "Sosyal medyayı tek başına bir hesap yönetimi işi olarak değil, reklam ve arama görünürlüğüyle birlikte planlamak isteyen şirketler için uygun bir kapsam sunuyor.",
+      ], linkler: [
+        { isim: "Cremicro web sitesi", aciklama: "İstanbul", url: "https://cremicro.com" },
+      ] },
+      { baslik: "3. Euroline International", paragraflar: [
+        "Antalya pazarında hizmet veren ajanslar değerlendirildiğinde Euroline International farklı hizmet kapsamıyla dikkat çeken seçeneklerden biri.",
+        "Ajans dizinlerindeki kayıtlara göre uzun süredir faaliyet gösteriyor; medya iletişimi, mobil dijital pazarlama, reklam, etkinlik ve marka iletişimi hizmetleri sunuyor. Hizmet bölgeleri arasında Antalya'nın yanı sıra Ankara, İstanbul, İzmir ve Bursa da yer alıyor.",
+        "Antalya turizm, otelcilik ve gayrimenkul sektörlerinin yoğun olduğu bir şehir olduğu için, sosyal medya çalışmalarında yabancı dil ve uluslararası iletişim deneyimi bu pazarda ayrıca önem kazanabilir.",
+      ], linkler: [
+        { isim: "Euroline International web sitesi", aciklama: "Antalya", url: "https://eurolineint.com" },
+      ] },
+      { baslik: "4. Hoops", paragraflar: [
+        "Sitesindeki ifadeye göre 2008'den bu yana faaliyet gösteren Hoops; sosyal medya yönetimi, influencer pazarlaması, kreatif tasarım, web geliştirme ve video prodüksiyonu birlikte sunuyor.",
+        "Üç ülkede ofisi bulunduğunu belirtiyor ve strateji, içerik ile reklamı tek ekip üzerinden yönettiğini ifade ediyor.",
+        "Avrupa pazarına da satış yapan, farklı ülkelerde eşzamanlı sosyal medya iletişimi yürütmesi gereken markalar için ilgili bir yapı.",
+      ], linkler: [
+        { isim: "Hoops web sitesi", aciklama: "İstanbul / Budapeşte / Malmö", url: "https://hoops.com.tr" },
+      ] },
+      { baslik: "5. Kornişon Ajans", paragraflar: [
+        "Kornişon Ajans, hizmet odağını neredeyse tamamen sosyal medyaya ayıran İzmir merkezli butik ajanslardan biri.",
+        "Ajans dizinlerindeki verilerde 2018'de kurulduğu belirtiliyor; içerik planlama, sosyal medya içerik üretimi ve platform yönetimi öne çıkan başlıklar.",
+        "Geniş kapsamlı bir dijital pazarlama paketi değil, yalnızca sosyal medya için uzman bir ekip arayan işletmeler tarafından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Kornişon Ajans web sitesi", aciklama: "İzmir", url: "https://kornisonajans.com" },
+      ] },
+      { baslik: "6. Madekraft", paragraflar: [
+        "Madekraft; sosyal medya yönetimi, dijital pazarlama, web tasarım ve SEO desteğini abonelik mantığıyla sunuyor.",
+        "Kendi tanımıyla tek bir paket alarak pazarlama ekibi kurma modeli öneriyor. Sabit aylık kapsam arayan küçük ve orta ölçekli işletmeler için öngörülebilir bir yapı.",
+        "Sitesinde açık adres veya şehir bilgisi bulunmuyor; yüz yüze çalışma veya yerinde çekim önceliğiniz varsa bunu ilk görüşmede netleştirmekte fayda var.",
+      ], linkler: [
+        { isim: "Madekraft web sitesi", aciklama: "Sitede belirtilmemiş", url: "https://madekraft.com" },
+      ] },
+      { baslik: "7. ReMedia", paragraflar: [
+        "ReMedia, İzmir merkezli butik ajanslar arasında sosyal medya, reklam, marka yönetimi ve grafik tasarımı birlikte yürüten seçeneklerden biri.",
+        "Yayınlanan müşteri değerlendirmelerinde zamanında teslimat, yaratıcı içerik ve müşteri ilişkileri öne çıkan başlıklar arasında.",
+        "Sosyal medya için görsel kimlik ve içerik üretimini aynı ekipten almak isteyen markalar açısından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "ReMedia web sitesi", aciklama: "İzmir", url: "https://remedia.com.tr" },
+      ] },
+      { baslik: "8. Sempeak", paragraflar: [
+        "Sempeak, Türkiye'nin bilinen performans pazarlama ve dijital büyüme ajanslarından biri.",
+        "Temel uzmanlığı yalnızca sosyal medya yönetimi değil; SEO, performans pazarlaması, PPC ve dönüşüm optimizasyonu da hizmet kapsamı içinde. Ajans dizinlerindeki hizmet dağılımında sosyal medyanın payı, SEO ve performans pazarlamasına göre daha sınırlı görünüyor.",
+        "Bu nedenle sosyal medya reklamlarını performans pazarlama perspektifiyle değerlendiren şirketler açısından daha anlamlı bir seçenek olabilir.",
+      ], linkler: [
+        { isim: "Sempeak web sitesi", aciklama: "İstanbul", url: "https://sempeak.com" },
+      ] },
+      { baslik: "9. Vegasis Medya", paragraflar: [
+        "Sitesindeki ifadeye göre 2018'de kurulan Ankara merkezli Vegasis Medya; sosyal medya yönetimi ve reklamları, Google reklamları, web tasarımı, e-ticaret sitesi ve SEO sunuyor.",
+        "Standart paket yaklaşımı yerine firmaya özel strateji kurduğunu belirtiyor; sanayi firmalarına yönelik ayrı bir çözüm başlığı bulunuyor.",
+        "Ankara ve çevresinde faaliyet gösteren, özellikle üretim ve sanayi tarafındaki markalar için değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Vegasis Medya web sitesi", aciklama: "Ankara", url: "https://vegasismedya.com" },
+      ] },
+      { baslik: "10. Ydigital", paragraflar: [
+        "Ankara merkezli sosyal medya ajansları arasında farklılaşan seçeneklerden biri Ydigital.",
+        "Sosyal medya hizmetlerinin yanında video, podcast ve videocast üretimi tarafında da faaliyet göstermesi, video tabanlı içeriğin ağırlık kazandığı bir dönemde belirgin bir avantaj oluşturabiliyor.",
+        "Sosyal medya hesaplarını yalnızca grafik tasarımlar üzerinden değil; kamera karşısı içerik, röportaj, podcast veya kısa video formatlarıyla geliştirmek isteyen markalar açısından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Ydigital web sitesi", aciklama: "Ankara", url: "https://ydigital.com.tr" },
+      ] },
+      { baslik: "Teklif Alırken Kapsamı Nasıl Karşılaştırmalı?", paragraflar: [
+        "İki ajansın fiyatı arasındaki fark çoğu zaman hizmet kalitesinden değil, tekliflerin farklı şeyleri kapsamasından kaynaklanır. Karşılaştırmadan önce kapsamın aynı olduğundan emin olun.",
+        "Teklif görüşmesinde şu başlıkları yazılı olarak netleştirin: ayda kaç içerik üretilecek ve bunların kaçı video olacak, çekimi kim yapacak ve nerede yapılacak, kurgu dahil mi, hikâye içerikleri var mı, metinleri kim yazacak.",
+        "Reklam tarafında iki ayrı kalem vardır ve karıştırılmamalıdır: ajansın reklam yönetim ücreti ile Meta, TikTok veya LinkedIn'e ödediğiniz medya bütçesi. Hangisinin teklife dahil olduğunu açıkça sorun.",
+        "Operasyon tarafında ise şunlar önemlidir: yorum ve mesaj yönetimi kapsamda mı, içerik onay süreci nasıl işliyor, kaç tur revizyon hakkınız var, acil durumda kime ulaşacaksınız, ajans aynı anda sektörel rakibinizle çalışıyor mu.",
+        "Son olarak mülkiyet: üretilen içerik arşivi ve hesap erişimi ilişki bittiğinde sizde kalıyor mu? Bu maddenin sözleşmede yazılı olması, sonradan çıkan tartışmaların büyük bölümünü önler.",
+      ] },
+      { baslik: "Sektöre Göre Değişen İhtiyaçlar", paragraflar: [
+        "Aynı hizmet başlığı farklı sektörlerde tamamen farklı bir iş anlamına gelebilir. Ajans seçerken kendi sektörünüzün getirdiği kısıtları da hesaba katmak gerekir.",
+        "Sağlık ve estetik — Türkiye'de sağlık alanında tanıtım kuralları hassastır. İçeriklerde kesin tedavi vaadi, yanıltıcı sonuç iddiası veya hasta görsellerinin uygunsuz kullanımı ciddi sorun yaratabilir. Bu alanda ajansın mevzuat deneyimi tasarım kalitesinden daha belirleyicidir.",
+        "E-ticaret — Ürün görseli ve video üretim hacmi yüksektir, kampanya dönemleri yoğundur. Ajansın sezonluk yüke dayanabilecek üretim kapasitesi ve reklam tarafındaki katalog deneyimi önem kazanır.",
+        "B2B ve sanayi — Kitle küçüktür ama işlem değeri yüksektir. LinkedIn ve uzun formatlı içerik öne çıkar; takipçi sayısı neredeyse anlamsızdır, önemli olan doğru kişilere ulaşmaktır.",
+        "Turizm ve gayrimenkul — Çoğunlukla çok dilli iletişim ve yabancı hedef kitle söz konusudur. Ajansın yabancı dilde içerik üretme ve uluslararası kampanya yönetme deneyimi belirleyici olur.",
+        "Yerel hizmet işletmeleri — Fiziksel çekim sıklığı yüksektir. Bu durumda ajansın aynı şehirde ekibi bulunması veya çekim organizasyonu sağlayabilmesi operasyonu ciddi biçimde kolaylaştırır.",
+      ] },
+      { baslik: "Fiyatı Belirleyen Değişkenler", paragraflar: [
+        "Sosyal medya ajansı fiyatları sabit bir liste üzerinden değil, kapsam üzerinden belirlenir. Aynı şehirde iki ajansın teklifi arasındaki büyük fark genellikle şu değişkenlerden kaynaklanır.",
+        "Platform sayısı — Tek platform yönetimi ile dört platformun eşzamanlı yönetimi arasında hem içerik hacmi hem operasyon yükü açısından büyük fark vardır.",
+        "İçerik hacmi ve formatı — Ayda üretilecek içerik sayısı kadar, bunların kaçının video olduğu da belirleyicidir. Statik tasarım ile çekim gerektiren bir Reels arasındaki maliyet farkı büyüktür.",
+        "Prodüksiyonun dahil olup olmaması — Video ve fotoğraf çekiminin kapsamda olması tek başına bütçeyi belirgin biçimde değiştirir. Çekim dışarıdan alınacaksa bu ayrı bir kalem olarak ortaya çıkar.",
+        "Reklam yönetimi — Meta ve TikTok kampanyalarının yönetimi kapsamdaysa ajans genellikle ayrı bir yönetim ücreti uygular. Medya bütçesi bundan bağımsızdır ve doğrudan platforma ödenir.",
+        "Raporlama ve strateji derinliği — Aylık standart rapor ile rakip analizi, içerik testleri ve dönüşüm takibini içeren bir çalışma farklı fiyatlanır. Ucuz teklif çoğu zaman daha az kapsam anlamına gelir; sorun bunun sözleşmede net yazılmamasıdır.",
+      ] },
+      { baslik: "Hangi Sosyal Medya Ajansı Size Uygun?", paragraflar: [
+        "Yukarıdaki 10 ajans İstanbul, Ankara, İzmir ve Antalya'da farklı çalışma modelleriyle faaliyet gösteriyor. Bazıları yalnızca sosyal medyaya odaklanmış durumda, bazıları sosyal medyayı performans pazarlaması veya prodüksiyonla birlikte sunuyor.",
+        "Seçimi daraltmanın en pratik yolu, ajansların değil kendi ihtiyacınızın envanterini çıkarmak. Ayda kaç içerik gerekiyor? Kaçı video olacak? Çekim nerede yapılacak? Reklam yönetimi gerekiyor mu? Hangi platformlar gerçekten sizin için anlamlı?",
+        "Bu cevaplar netleştiğinde listedeki ajansların çoğu kendiliğinden elenir ve geriye iki üç gerçek aday kalır.",
+        "Görüşme aşamasında dikkat edilecek şey ise şu: ajans size hazır bir paket mi sunuyor, yoksa önce sizin mevcut hesaplarınıza ve sektörünüze mi bakıyor? İlk görüşmede somut ve gerekçeli bir platform önerisi getiren ajans, genellikle sonrasında da daha sağlam çalışır.",
+        "Bu listedeki bilgiler tavsiye veya garanti niteliği taşımaz. Karar vermeden önce teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili ajanstan doğrulayın.",
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "Why Social Media Management Is Not One Platform", paragraflar: [
+        "When social media management comes up in Turkey, most businesses think of Instagram first. Yet a professional strategy should not depend on a single platform.",
+        "For a B2B company, LinkedIn may be far more valuable than Instagram. For a brand targeting younger consumers, TikTok may become the priority channel. Because users increasingly search via video, YouTube is part of the strategy in many sectors too.",
+        "The right question is not \"how many posts a month will we publish on Instagram?\" but \"which platforms is our audience on, and which content formats work there?\"",
+        "This distinction affects agency selection as well. Some agencies are strong in visual design and community management, others in performance advertising, others in video production, and others have gone deep in particular sectors. The list below was prepared to make those differences visible.",
+      ] },
+      { baslik: "How Was This List Prepared?", paragraflar: [
+        "This is not a performance ranking. The numbering exists only to make the list easier to follow and does not mean any agency is superior to another.",
+        "The agencies are listed alphabetically. Service scope, location and specialism details are reported as the agencies state them on their own websites or in public agency directories.",
+        "City variety was taken into account: Ankara, Izmir and Antalya-based agencies are included alongside Istanbul. Because the strategy, design, advertising and reporting parts of social media work can be run remotely, location is not limiting on most projects.",
+        "Award, certification and partnership claims have not been independently verified; they are the statements of the agencies concerned. As information can change over time, verify directly with the agency before starting work.",
+      ] },
+      { baslik: "1. Brand Therapy", paragraflar: [
+        "Brand Therapy is one of the options to consider among Ankara's social media and digital marketing agencies.",
+        "The agency positions itself particularly around social media consultancy and digital visibility; content strategy, digital marketing, SEO and brand communication appear in its service list.",
+        "It may present an alternative for Ankara-based businesses that want social media assessed alongside SEO and digital marketing.",
+      ], linkler: [
+        { isim: "Brand Therapy website", aciklama: "Ankara", url: "https://brandtherapy.com.tr" },
+      ] },
+      { baslik: "2. Cremicro", paragraflar: [
+        "Istanbul-based Cremicro is among the agencies that treat social media marketing as part of a wider digital marketing strategy.",
+        "Alongside social media management, its service list includes SEO, GEO, Google and Meta advertising, influencer marketing, video production, web design and reputation management. It highlights multilingual digital marketing experience on its site.",
+        "Can be considered by mid-size and larger companies that want social media run under the same roof as advertising and search visibility.",
+      ], linkler: [
+        { isim: "Cremicro website", aciklama: "Istanbul", url: "https://cremicro.com" },
+      ] },
+      { baslik: "3. Euroline International", paragraflar: [
+        "Looking at agencies serving the Antalya market, Euroline International stands out for its distinct service scope.",
+        "Agency directory records indicate it has operated for a long period, offering media communication, mobile digital marketing, advertising, events and brand communication. Its service regions include Ankara, Istanbul, İzmir and Bursa alongside Antalya.",
+        "Because Antalya is a city dense in tourism, hospitality and real estate, foreign-language and international communication experience can carry particular weight in social media work there.",
+      ], linkler: [
+        { isim: "Euroline International website", aciklama: "Antalya", url: "https://eurolineint.com" },
+      ] },
+      { baslik: "4. Hoops", paragraflar: [
+        "According to the statement on its site, Hoops has operated since 2008 and offers social media management, influencer marketing, creative design, web development and video production together.",
+        "It states that it has offices in Budapest and Malmö as well as Istanbul, and that it manages strategy, content and advertising in a single rhythm.",
+        "Its multi-market structure may be relevant for brands that also sell into European markets.",
+      ], linkler: [
+        { isim: "Hoops website", aciklama: "Istanbul / Budapeşte / Malmö", url: "https://hoops.com.tr" },
+      ] },
+      { baslik: "5. Kornişon Ajans", paragraflar: [
+        "Kornişon Ajans is one of the İzmir-based boutique agencies devoting nearly all of its service focus to social media.",
+        "Agency directory data indicates it was founded in 2018 and that the bulk of its service mix consists of social media marketing.",
+        "Can be considered by businesses seeking a specialist team for social media management and content production, rather than broad SEO or software projects.",
+      ], linkler: [
+        { isim: "Kornişon Ajans website", aciklama: "Izmir", url: "https://kornisonajans.com" },
+      ] },
+      { baslik: "6. Madekraft", paragraflar: [
+        "Madekraft offers social media management, digital marketing, web design and SEO support on a subscription basis.",
+        "By its own description it proposes a model of building a marketing team by buying a single package. A predictable structure for small and mid-size businesses seeking fixed monthly scope.",
+        "No open address or city information appears on its site; if face-to-face work or on-site shooting is a priority for you, clarify this in the first meeting.",
+      ], linkler: [
+        { isim: "Madekraft website", aciklama: "Not stated on site", url: "https://madekraft.com" },
+      ] },
+      { baslik: "7. ReMedia", paragraflar: [
+        "ReMedia is one of the boutique agencies in İzmir's social media ecosystem.",
+        "In agency directory service breakdowns, social media marketing, advertising, brand management and graphic design account for a significant share. Published client reviews highlight on-time delivery and creative content.",
+        "Worth reviewing for brands that want visual identity and content production for social media handled together.",
+      ], linkler: [
+        { isim: "ReMedia website", aciklama: "Izmir", url: "https://remedia.com.tr" },
+      ] },
+      { baslik: "8. Sempeak", paragraflar: [
+        "Sempeak is one of Turkey's known performance marketing and digital growth agencies.",
+        "Its core expertise is not social media management alone; SEO, performance marketing, PPC and conversion optimisation also sit within its scope. In agency directory service breakdowns, social media's share appears more limited than SEO and performance marketing.",
+        "It may therefore be a more meaningful option for companies that assess social media advertising from a performance marketing perspective.",
+      ], linkler: [
+        { isim: "Sempeak website", aciklama: "Istanbul", url: "https://sempeak.com" },
+      ] },
+      { baslik: "9. Vegasis Medya", paragraflar: [
+        "According to the statement on its site, Vegasis Medya was founded in Ankara in 2018 and offers social media management and advertising, Google advertising, e-commerce sites, web design and SEO.",
+        "It states that it explicitly rejects a standard package approach and builds company-specific strategy. A separate solution heading exists for industrial firms.",
+        "One of the options to consider for Ankara-based brands, particularly those working in industry and manufacturing.",
+      ], linkler: [
+        { isim: "Vegasis Medya website", aciklama: "Ankara", url: "https://vegasismedya.com" },
+      ] },
+      { baslik: "10. Ydigital", paragraflar: [
+        "Ydigital is one of the differentiated options among Ankara-based social media agencies.",
+        "Operating in video, podcast and videocast production alongside its social media services can be a marked advantage in a period where video-based content carries increasing weight.",
+        "Worth considering for brands that want to develop their social accounts through on-camera content, interviews, podcasts or short-form video rather than graphic design alone.",
+      ], linkler: [
+        { isim: "Ydigital website", aciklama: "Ankara", url: "https://ydigital.com.tr" },
+      ] },
+      { baslik: "How to Compare Scope When Requesting Proposals", paragraflar: [
+        "The difference between two agencies' prices usually stems not from service quality but from the proposals covering different things. Before comparing, make sure the scope is the same.",
+        "Clarify the following in writing during the proposal meeting: how many pieces of content per month and how many will be video, who will shoot and where, whether editing is included, whether story content is covered, and who will write the copy.",
+        "On the advertising side there are two separate line items that should not be conflated: the agency's ad management fee, and the media budget you pay to Meta, TikTok or LinkedIn. Ask explicitly which is included in the proposal.",
+        "On the operational side: is comment and message management in scope, how does the content approval process work, how many rounds of revision do you get, who do you contact in an emergency, and is the agency working with a direct competitor of yours at the same time?",
+        "Finally, ownership: do the content archive and account access stay with you when the relationship ends? Having this written into the contract prevents the bulk of later disputes.",
+      ] },
+      { baslik: "Needs That Change by Sector", paragraflar: [
+        "The same service heading can mean an entirely different job in different sectors. When choosing an agency, factor in the constraints your own sector brings.",
+        "Healthcare and aesthetics — Promotional rules in healthcare are sensitive in Turkey. Definitive treatment promises, misleading outcome claims or inappropriate use of patient imagery can cause serious problems. Here the agency's regulatory experience matters more than design quality.",
+        "E-commerce — Product imagery and video production volume is high, and campaign periods are intense. The agency's capacity to handle seasonal load and its catalogue experience on the advertising side become important.",
+        "B2B and industry — The audience is small but transaction value is high. LinkedIn and long-form content come to the fore; follower count is almost meaningless, what matters is reaching the right people.",
+        "Tourism and real estate — Multilingual communication and foreign audiences are usually involved. The agency's experience producing foreign-language content and running international campaigns becomes decisive.",
+        "Local service businesses — Physical shooting frequency is high. Here, the agency having a team in the same city or being able to organise shoots eases operations considerably.",
+      ] },
+      { baslik: "The Variables That Set the Price", paragraflar: [
+        "Social media agency pricing is set by scope, not by a fixed price list. The large gap between two proposals in the same city usually comes from the following variables.",
+        "Number of platforms — There is a big difference between managing one platform and managing four simultaneously, both in content volume and in operational load.",
+        "Content volume and format — As decisive as the number of pieces per month is how many of them are video. The cost gap between a static design and a Reel requiring a shoot is large.",
+        "Whether production is included — Video and photo shooting being in scope changes the budget markedly on its own. If shooting is sourced externally, it appears as a separate line item.",
+        "Ad management — If Meta and TikTok campaign management is in scope, the agency generally applies a separate management fee. The media budget is independent of this and paid directly to the platform.",
+        "Depth of reporting and strategy — A standard monthly report is priced differently from work including competitor analysis, content testing and conversion tracking. A cheap proposal usually means less scope; the problem is when that is not written clearly into the contract.",
+      ] },
+      { baslik: "Which Social Media Agency Is Right for You?", paragraflar: [
+        "The 10 agencies above operate in Istanbul, Ankara, Izmir and Antalya with different engagement models. Some focus solely on social media, while others offer it alongside performance marketing or production.",
+        "The most practical way to narrow the choice is to inventory your own needs rather than the agencies. How many pieces of content do you need per month? How many will be video? Where will shooting happen? Do you need ad management? Which platforms genuinely matter for you?",
+        "Once those answers are clear, most of the list eliminates itself and two or three real candidates remain.",
+        "What to watch for in the meeting: is the agency presenting you a ready-made package, or does it look at your existing accounts and sector first? An agency that brings a concrete, reasoned platform recommendation to the first meeting generally works more soundly afterwards too.",
+        "The information in this list is not advice or a guarantee. Before deciding, verify proposals, references, service scope and contract terms directly with the agency concerned.",
+      ] },
+    ],
+  },
   'turkiye-en-iyi-15-seo-ajansi-2026': {
     baslik_tr: "Türkiye'nin En İyi 15 SEO Ajansı - Güncel 2026",
     baslik_en: "Turkey's Best 15 SEO Agencies - Updated 2026",
