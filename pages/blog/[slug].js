@@ -55,7 +55,7 @@ const ICERIKLER = {
         { isim: 'Cremicro', aciklama: "2013'te kurulan, çok dilli ekibiyle uluslararası SEO projelerine de danışmanlık veren İstanbul merkezli bir ajans.", url: 'https://www.cremicro.com' },
         { isim: 'Kriko', aciklama: "2017'de kurulan, e-ticaret SEO'suna odaklanan İstanbul merkezli bir ajans.", url: 'https://www.kriko.io' },
         { isim: 'Magna Dijital', aciklama: "2015'te kurulan, SEO'yu performans pazarlama kampanyalarıyla birlikte yöneten İstanbul merkezli bir ajans.", url: 'https://www.magnadijital.com.tr' },
-        { isim: 'Mobitek', aciklama: "2003'te kurulan, mobil uygulama SEO'su ve App Store görünürlüğü (ASO) konularında uzmanlaşmış İstanbul merkezli bir ajans.", url: 'https://www.mobitek.com' },
+        { isim: 'Mobitek', aciklama: "2003'te kurulan, mobil uygulama SEO'su ve App Store görünürlüğü (ASO) konularında uzmanlaşmış İstanbul merkezli bir ajans.", url: 'https://mobitek.com' },
         { isim: 'Mosanta', aciklama: "Teknik SEO ve organik trafik optimizasyonuna odaklanan, e-ticaret ve B2B alanlarında deneyimli İstanbul merkezli bir ajans.", url: 'https://www.mosanta.com' },
         { isim: 'Oppmind', aciklama: "2023'te kurulan, teknik site optimizasyonu ve anahtar kelime haritalamasına odaklanan görece yeni bir İstanbul ajansı.", url: 'https://www.oppmind.com' },
         { isim: 'Sempeak', aciklama: "2012'de kurulan, çok dilli SEO ve kurumsal site yapılandırmalarında deneyimli İstanbul merkezli bir ajans.", url: 'https://www.sempeak.com' },
@@ -93,7 +93,7 @@ const ICERIKLER = {
         { isim: 'Cremicro', aciklama: 'Founded in 2013, an Istanbul-based agency whose multilingual team also advises on international SEO projects.', url: 'https://www.cremicro.com' },
         { isim: 'Kriko', aciklama: 'Founded in 2017, an Istanbul-based agency focused on e-commerce SEO.', url: 'https://www.kriko.io' },
         { isim: 'Magna Dijital', aciklama: 'Founded in 2015, an Istanbul-based agency that manages SEO alongside performance marketing campaigns.', url: 'https://www.magnadijital.com.tr' },
-        { isim: 'Mobitek', aciklama: 'Founded in 2003, an Istanbul-based agency specialized in mobile app SEO and App Store Optimization (ASO).', url: 'https://www.mobitek.com' },
+        { isim: 'Mobitek', aciklama: 'Founded in 2003, an Istanbul-based agency specialized in mobile app SEO and App Store Optimization (ASO).', url: 'https://mobitek.com' },
         { isim: 'Mosanta', aciklama: 'An Istanbul-based agency focused on technical SEO and organic traffic optimization, with experience in e-commerce and B2B.', url: 'https://www.mosanta.com' },
         { isim: 'Oppmind', aciklama: 'Founded in 2023, a relatively new Istanbul agency focused on technical site optimization and keyword mapping.', url: 'https://www.oppmind.com' },
         { isim: 'Sempeak', aciklama: 'Founded in 2012, an Istanbul-based agency experienced in multilingual SEO and enterprise site structuring.', url: 'https://www.sempeak.com' },
@@ -108,6 +108,556 @@ const ICERIKLER = {
         "This list isn't a recommendation or a ranking — it's an informational starting point for your own research. Every agency has different strengths; the right one for you is whichever team best matches your goals, budget and industry.",
         "Before deciding, I'd recommend speaking with at least two or three agencies, asking them the same questions, verifying their references, and evaluating how closely their proposed strategy actually aligns with your business goals.",
       ]},
+    ],
+  },
+  'turkiye-en-iyi-15-dijital-pazarlama-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 15 Dijital Pazarlama Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 15 Digital Marketing Agencies - Updated 2026",
+    meta_desc_tr: "İstanbul'dan 15 dijital pazarlama ajansına alfabetik, sıralama içermeyen bir bakış. Butik performans ekiplerinden global medya ağlarına, ölçek ve seçim kriterleri.",
+    meta_desc_en: "An alphabetical, unranked overview of 15 digital marketing agencies in Istanbul — from boutique performance teams to global media networks, with selection criteria.",
+    etiket: 'Strateji', sure: '12',
+    bolumler_tr: [
+      { baslik: "Türkiye'de Dijital Pazarlama Ajansı Seçimi Neden Zorlaştı?", paragraflar: [
+        "Türkiye'de dijital pazarlama ekosistemi son yıllarda belirgin biçimde büyüdü. Markalar artık yalnızca reklam vermekle yetinmiyor; veriye dayalı karar almak, kullanıcı deneyimini iyileştirmek ve sürdürülebilir büyüme sağlamak istiyor.",
+        "Bu beklenti ajans tarafını da değiştirdi. Bugün \"dijital pazarlama ajansı\" başlığı altında birbirinden çok farklı yapılar var: yalnızca performans reklamı yöneten butik ekipler, SEO ağırlıklı çalışan ajanslar, medya planlama ve satın alma odaklı büyük yapılar, global ağların Türkiye ofisleri ve her şeyi tek çatı altında sunduğunu söyleyen 360 derece ajanslar.",
+        "Hepsi aynı vaadi veriyor: ölçülebilir büyüme. Ayrım vaatte değil kapsamda ve ölçekte ortaya çıkıyor. 50 kişilik bir medya ajansıyla 10 kişilik bir performans ekibi aynı işi yapmıyor; ikisi de geçerli ama farklı ihtiyaçlara cevap veriyor.",
+        "2026 itibarıyla bir başlık daha eklendi: yapay zekâ destekli aramalarda görünürlük. Google'ın AI Overviews ve AI Mode özellikleriyle birlikte ChatGPT, Gemini ve Perplexity de ürün ve hizmet araştırmasında kullanılıyor. Bu, GEO ve AEO gibi çalışmaları ajans seçiminde yeni bir değerlendirme kalemi haline getirdi.",
+      ] },
+      { baslik: "Bu Liste Nasıl Hazırlandı?", paragraflar: [
+        "Aşağıdaki liste bir performans sıralaması değildir. \"En iyi\" ifadesi herhangi bir ajansın diğerinden daha başarılı olduğu yönünde bir iddia taşımaz; sıra numaraları yalnızca listeyi takip etmeyi kolaylaştırmak içindir.",
+        "Ajanslar alfabetik olarak sıralanmıştır. Kuruluş yılı, konum ve hizmet kapsamı gibi bilgiler ajansların kendi web sitelerinde veya kamuya açık ajans dizinlerinde belirttikleri şekilde aktarılmıştır.",
+        "Ödül, sertifika, iş ortaklığı rozeti ve müşteri sayısı gibi beyanlar bağımsız olarak doğrulanmamıştır. Bu veriler Türkiye pazarında karşılaştırılabilir biçimde yayımlanmadığı için listeye olgu olarak taşınmamış, ilgili ajansın ifadesi olarak belirtilmiştir.",
+        "Liste İstanbul merkezli ajansları kapsıyor ve farklı ölçekleri bir arada gösteriyor: butik performans ekipleri, orta ölçekli entegre ajanslar ve global ağların Türkiye yapıları birlikte yer alıyor. Amaç bir sıralama sunmak değil, seçenek yelpazesini görünür kılmak.",
+        "Bilgiler zaman içinde değişebilir. Bir ajansla çalışmadan önce hizmet kapsamını, ekip yapısını ve sözleşme şartlarını doğrudan kendisinden teyit etmeniz önerilir.",
+      ] },
+      { baslik: "1. Adinteraction", paragraflar: [
+        "2013'ten bu yana faaliyet gösteren Adinteraction, kendisini dijital medya ajansı olarak konumlandırıyor.",
+        "Hizmet kapsamı dijital medya stratejisi, medya planlama ve satın alma, performans pazarlaması, programatik satın alma, influencer pazarlaması ile ölçümleme ve raporlamayı içeriyor.",
+        "Medya planlama tarafı ağır basan bu yapı, reklam bütçesi belirli bir ölçeğe ulaşmış ve kanal dağılımını profesyonel yönetmek isteyen markalar için ilgili olabilir.",
+      ], linkler: [
+        { isim: "Adinteraction web sitesi", aciklama: "Üsküdar / İstanbul", url: "https://www.adinteraction.com/" },
+      ] },
+      { baslik: "2. Analytica House", paragraflar: [
+        "2017'de kurulan Analytica House, teknoloji ve veri odağını merkeze alan bir dijital pazarlama ve performans ajansı olarak tanımlanıyor.",
+        "SEO ve performans reklamcılığının yanında ölçümleme, veri birleştirme ve pazarlama teknolojileri (MarTech) alanında konumlanıyor; çok kanallı veri toplama ve kampanya içgörüsü için kendi geliştirdiği çözümleri öne çıkarıyor.",
+        "Ölçümleme altyapısı zayıf olan ve hangi kanalın gerçekten satış getirdiğini göremeyen markalar için değerlendirilebilecek profillerden biri.",
+      ], linkler: [
+        { isim: "Analytica House web sitesi", aciklama: "Beşiktaş / İstanbul", url: "https://analyticahouse.com/" },
+      ] },
+      { baslik: "3. Clicks'us", paragraflar: [
+        "Hakkımızda sayfasındaki ifadeye göre 2016'da kurulan Clicks'us, kendisini 360 derece hizmet sunan dijital performans ajansı olarak tanımlıyor.",
+        "Hizmet listesinde SEO, GEO, ASO, sosyal medya yönetimi, web geliştirme ve içerik pazarlaması yer alıyor.",
+        "Sitesinde ödül beyanları bulunuyor; bunlar ajansın kendi ifadeleridir. Mobil uygulama tarafı da olan markalar için ASO'nun hizmet kapsamında bulunması ayırt edici olabilir.",
+      ], linkler: [
+        { isim: "Clicks'us web sitesi", aciklama: "Kağıthane / İstanbul", url: "https://clicksus.com" },
+      ] },
+      { baslik: "4. Cremicro", paragraflar: [
+        "2013'te kurulduğu belirtilen Cremicro, büyüme odaklı yaklaşımıyla tanınan dijital pazarlama ajanslarından biri.",
+        "SEO, GEO, performans pazarlaması (Google ve Meta reklamları), sosyal medya yönetimi, influencer pazarlaması, video prodüksiyon, web tasarımı ve itibar yönetimi hizmet listesinde yer alıyor.",
+        "Çok dilli projeler ve farklı pazarlara yönelik dijital büyüme çalışmaları, global hedefleri olan markalar açısından öne çıkan tarafı.",
+      ], linkler: [
+        { isim: "Cremicro web sitesi", aciklama: "Şişli / İstanbul", url: "https://cremicro.com/" },
+      ] },
+      { baslik: "5. Digipeak", paragraflar: [
+        "Hakkımızda sayfasındaki ifadeye göre 2020'de kurulan Digipeak, kendisini büyüme odaklı 360 derece dijital pazarlama ajansı olarak tanımlıyor ve SaaS ile B2B dikeylerine odaklandığını açıkça belirtiyor.",
+        "SEO, PPC, ASO, sosyal medya yönetimi ve e-posta pazarlaması hizmet kapsamında. İstanbul'un yanı sıra Londra'da da ofisi bulunduğunu belirtiyor.",
+        "Sitesi ağırlıklı olarak İngilizce; yurt dışı pazarına satış yapan yazılım ve B2B markaları için ilgili bir konumlanma.",
+      ], linkler: [
+        { isim: "Digipeak web sitesi", aciklama: "İstanbul / Londra", url: "https://digipeak.org" },
+      ] },
+      { baslik: "6. EssenceMediacom", paragraflar: [
+        "EssenceMediacom, 2023'te Essence ve MediaCom'un birleşmesiyle oluşturulmuş, global ölçekte faaliyet gösteren bir medya ve iletişim ajansı.",
+        "Medya stratejisi, medya planlama ve satın alma, veri ve analitik, içerik ve kreatif iş birlikleri ile entegre iletişim çözümleri sunuyor.",
+        "Türkiye ekibi İstanbul merkezli çalışıyor ve global ağdan besleniyor. Büyük bütçeli, çok kanallı medya yatırımı yöneten kurumsal markalar için uygun ölçekte bir yapı.",
+      ], linkler: [
+        { isim: "EssenceMediacom web sitesi", aciklama: "Şişli / İstanbul", url: "https://www.essencemediacom.com/tr" },
+      ] },
+      { baslik: "7. İstanbul Reklam Ajansı", paragraflar: [
+        "Kendi beyanına göre 2016'dan bu yana çalışan İstanbul Reklam Ajansı, kendisini markaların reklam yatırımını ölçülebilir büyümeye çeviren bir dijital pazarlama ajansı olarak tanımlıyor.",
+        "Hizmet kataloğu SEO, GEO, Google ve Meta reklam yönetimi, sosyal medya içeriği, web tasarımı, prodüksiyon, influencer pazarlaması ve PR başlıklarını tek çatı altında topluyor.",
+        "Yapay zekâ aramalarındaki görünürlük ayrı bir hizmet başlığı olarak konumlandırılmış; ölçüm tarafında bağımsız bir SEO raporlama sayfası bulunuyor.",
+      ], linkler: [
+        { isim: "İstanbul Reklam Ajansı web sitesi", aciklama: "Ataşehir / İstanbul", url: "https://istanbulreklamajans.com" },
+      ] },
+      { baslik: "8. Lein Digital", paragraflar: [
+        "2016'da kurulan Lein Digital, kendisini GEO alanında konumlandıran ve arama motoru optimizasyonunu yapay zekâ yanıtlarındaki görünürlükle aynı ölçüm döngüsünde yürüttüğünü belirten bir ajans.",
+        "Google ve Meta reklam yönetimi, sosyal medya, video prodüksiyon ve yapay zekâ danışmanlığı tek ekipte toplanıyor.",
+        "Schema.org ve yapılandırılmış veri tarafındaki teknik çalışmayla marka adının yapay zekâ yanıtlarında kaynak olarak geçmesini hedeflediğini ifade ediyor.",
+      ], linkler: [
+        { isim: "Lein Digital web sitesi", aciklama: "Beşiktaş / İstanbul", url: "https://leindigital.com" },
+      ] },
+      { baslik: "9. Mobitek", paragraflar: [
+        "Sitesinde 20 yılı aşkın tecrübe ve 100'den fazla markayla çalışma beyan eden Mobitek, SEO ağırlıklı bir geçmişten gelen entegre dijital pazarlama ajanslarından biri.",
+        "SEO ve GEO, Google Ads ve performans pazarlaması, sosyal medya yönetimi ile dijital ve TV medya planlamasını tek çatı altında yürüttüğünü belirtiyor. Kurumsal SEO, e-ticaret SEO ve Shopify SEO ayrı hizmet başlıkları olarak bulunuyor.",
+        "Sitesinde Google Premier Partner, Meta, Yandex, LinkedIn, TikTok ve Shopify iş ortaklığı rozetleri yer alıyor; bunlar ajansın kendi beyanıdır. Hem organik hem ücretli kanalları aynı ekipten almak isteyen e-ticaret ve kurumsal markalar için değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Mobitek web sitesi", aciklama: "İstanbul", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "10. OneIngage", paragraflar: [
+        "OneIngage, 2018'de kurulan Ingage'in daha entegre bir yapıya dönüşmesiyle ortaya çıkmış; kendisini pazarlama ve teknolojiyi birlikte ele alan bir çözüm şirketi olarak konumlandırıyor.",
+        "Medya, teknoloji, kreatif servisler ile denetim ve danışmanlık alanlarında hizmet sunuyor; veri, strateji ve inovasyonu aynı çatı altında birleştirmeyi hedeflediğini belirtiyor.",
+        "Yapay zekâ destekli MarTech yetkinlikleri de kapsamda. Pazarlama teknolojisi altyapısını kurmak veya yenilemek isteyen büyük ölçekli şirketler için ilgili bir profil.",
+      ], linkler: [
+        { isim: "OneIngage web sitesi", aciklama: "Üsküdar / İstanbul", url: "https://oneingage.com/" },
+      ] },
+      { baslik: "11. Publicis Groupe", paragraflar: [
+        "1926'da Fransa'da kurulan Publicis Groupe, bugün küresel ölçekte faaliyet gösteren bir iletişim, pazarlama ve reklam grubu.",
+        "Yaratıcı ajans hizmetleri, medya planlama ve satın alma, dijital dönüşüm, veri ve teknoloji çözümleri, performans pazarlaması ve danışmanlık alanlarında uzmanlaşmış ajans ağını bir araya getiriyor.",
+        "Çalışma modeli, büyük ölçekli markaların farklı pazarlama ihtiyaçlarını tek bir yapı altında koordine etmeye odaklanıyor. Küçük ve orta ölçekli işletmeler için ölçek olarak uygun olmayabilir.",
+      ], linkler: [
+        { isim: "Publicis Groupe web sitesi", aciklama: "Bomonti / İstanbul", url: "https://publicisgroupe.com/" },
+      ] },
+      { baslik: "12. ROIPUBLIC", paragraflar: [
+        "2012'de kurulan ROIPUBLIC, dijital pazarlama çalışmalarında yatırım getirisini merkeze alan bir performans ajansı olarak konumlanıyor.",
+        "SEO, GEO, Google Ads ve diğer ücretli reklam yönetimi, sosyal medya yönetimi, içerik pazarlaması ile veri analizi ve strateji geliştirme hizmet kapsamında.",
+        "Yaklaşımı kısa vadeli kazanımlardan çok sürdürülebilir performans üretmeye odaklanıyor; markalarla uzun soluklu iş ortaklığı modelini esas aldığını belirtiyor.",
+      ], linkler: [
+        { isim: "ROIPUBLIC web sitesi", aciklama: "Şişli / İstanbul", url: "https://www.roipublic.com/" },
+      ] },
+      { baslik: "13. SEM", paragraflar: [
+        "2007'de kurulan SEM, büyüme yaklaşımını teknoloji ve veri analitiğiyle birleştiren dijital pazarlama ajanslarından biri.",
+        "SEO, performans pazarlaması, web analitik danışmanlığı, dönüşüm optimizasyonu ve ileri seviye ölçümleme alanlarında uzmanlaştığını belirtiyor.",
+        "Hem ücretli hem organik kanallarda sürdürülebilir gelir artışı hedefleyen uçtan uca çözümler sunuyor; analitik danışmanlığın ayrı bir başlık olması ölçüm tarafına ağırlık verdiğini gösteriyor.",
+      ], linkler: [
+        { isim: "SEM web sitesi", aciklama: "Şişli / İstanbul", url: "https://semtr.com/" },
+      ] },
+      { baslik: "14. Sempeak", paragraflar: [
+        "2011'de kurulan Sempeak, veri odaklı yaklaşımıyla çalışan bir dijital performans ajansı.",
+        "SEO, performans pazarlaması, dönüşüm optimizasyonu (CRO), içerik pazarlaması ile medya planlama ve satın alma alanlarında hizmet veriyor.",
+        "Çalışma modelinde her marka için detaylı ihtiyaç analizi yapılması ve standart çözümler yerine markaya özel stratejiler geliştirilmesi öne çıkıyor.",
+      ], linkler: [
+        { isim: "Sempeak web sitesi", aciklama: "Üsküdar / İstanbul", url: "https://www.sempeak.com/" },
+      ] },
+      { baslik: "15. WPP Media", paragraflar: [
+        "WPP Media, WPP'nin küresel medya yapılanması olan GroupM'in yeniden konumlandırılmasıyla oluşturulmuş entegre bir medya kolektifi.",
+        "Medya planlama ve satın alma, ölçümleme, veri çözümleri ve büyüme stratejileri alanlarında uçtan uca hizmet sunuyor; veri, teknoloji ve insan odağını bir araya getirdiğini belirtiyor.",
+        "Yeni nesil veri ve tahminleme çözümleriyle karar alma süreçlerini hızlandırmaya odaklanıyor. Küresel ölçekte standartlaşmış bir çalışma modeli sunduğu için çok pazarlı kurumsal markalar için uygun.",
+      ], linkler: [
+        { isim: "WPP Media web sitesi", aciklama: "Esentepe / İstanbul", url: "https://www.wppmedia.com/tr" },
+      ] },
+      { baslik: "Dijital Pazarlama Ajansı Ne İş Yapar?", paragraflar: [
+        "Dijital pazarlama ajansı, markanın arama motorlarındaki, sosyal medyadaki ve reklam ağlarındaki görünürlüğünü tek bir plan altında yöneten iş ortağıdır. Ancak bu tanımın altına giren hizmetler ajanstan ajansa değişir.",
+        "Yaygın hizmet başlıkları şunlardır: SEO ve arama motoru görünürlüğü, performans pazarlaması (Google Ads, Meta Ads), sosyal medya yönetimi, içerik pazarlaması, medya planlama ve satın alma, veri analizi ve raporlama, dijital strateji ve danışmanlık.",
+        "2026'da bu listeye GEO ve AEO eklendi: markanın yapay zekâ yanıtlarında kaynak olarak geçip geçmediğiyle ilgilenen çalışmalar. Bunu ayrı bir hizmet başlığı olarak tanımlayan ajans sayısı hızla artıyor.",
+        "Kritik nokta şu: hiçbir ajans bu başlıkların tamamında aynı derinlikte değildir. Medya planlamada güçlü bir ajansın teknik SEO tarafı zayıf olabilir; performans reklamında iyi bir ekip içerik üretiminde dışarıya bağımlı olabilir. Ajansın gerçekten hangi başlıkta derinleştiğini anlamak, hizmet listesinin uzunluğuna bakmaktan daha önemlidir.",
+      ] },
+      { baslik: "Ajans Seçerken Değerlendirilmesi Gereken Başlıklar", paragraflar: [
+        "Dijital pazarlama yatırımından verim almak büyük ölçüde doğru ajansı seçmeye bağlı. Aşağıdaki başlıklar teklif görüşmelerinde sorulması gereken asgari çerçeveyi oluşturuyor.",
+        "1. Hedef ve ihtiyaç uyumu — Ajansın güçlü olduğu alan ile sizin öncelikli ihtiyacınız örtüşüyor mu? Marka bilinirliği mi, nitelikli lead mi, e-ticaret satışı mı hedefliyorsunuz? Bu netleşmeden hizmet listesi karşılaştırmak anlamsız.",
+        "2. Ölçümleme yaklaşımı — Çalışmaların nasıl ölçüleceği, hangi metriklerin takip edileceği ve raporlamanın nasıl kurgulanacağı baştan net olmalı. Analitik kurulumunu ayrı bir iş kalemi olarak ele alan ajanslar genellikle ölçüm tarafına daha ciddi yaklaşıyor.",
+        "3. Sektör deneyimi — Benzer sektörde ve benzer ölçekte proje yürütmüş olmak fark yaratır. E-ticaret SEO'su ile B2B lead üretimi tamamen farklı disiplinlerdir.",
+        "4. Uygulama kapasitesi — Ajans yalnızca strateji mi sunuyor, yoksa teknik değişiklikleri, içerik üretimini ve kampanya optimizasyonunu da kendisi mi yapıyor? Şirketinizde yeterli yazılım ve içerik kaynağı yoksa bu belirleyici olur.",
+        "5. Ekibe erişim — Teklif görüşmesine gelen ekip ile projeyi yürütecek ekip aynı mı? Büyük ajanslarda bu ikisi çoğu zaman farklıdır. Hesabınızdan kimin sorumlu olacağını ve ne sıklıkta görüşeceğinizi baştan netleştirin.",
+        "6. GEO ve yapay zekâ arama — Ajansa şu somut soruları sorabilirsiniz: GEO stratejiniz var mı? AI Overviews görünürlüğünü nasıl takip ediyorsunuz? Entity ve schema çalışmalarını SEO stratejisine dahil ediyor musunuz? Yanıtın muğlak kalması, bu alanın henüz gerçekten çalışılmadığını gösterir.",
+        "7. Bütçe ve şeffaflık — Ajans hizmet bedeli ile reklam bütçesinin ayrı olduğunu teyit edin. Hangi çalışmaların aylık ücrete dahil olduğunu, ek maliyetlerin neler olabileceğini ve sözleşme süresiyle fesih koşullarını yazılı olarak isteyin.",
+      ] },
+      { baslik: "Ajans Ölçeği: Butik mi, Kurumsal mı?", paragraflar: [
+        "Listedeki ajanslar arasında 10 kişilik performans ekipleri de var, yüzlerce kişilik global ağların Türkiye yapıları da. Hangisinin doğru olduğu bütçeden çok işinizin yapısına bağlı.",
+        "Butik ve orta ölçekli ajanslar — Kurucu veya kıdemli ekip genellikle projenin içindedir, iletişim daha doğrudandır ve karar süreçleri hızlıdır. Buna karşılık kapasite sınırlıdır; aynı anda çok sayıda kanalda yoğun operasyon gerektiğinde zorlanabilirler.",
+        "Kurumsal ve global yapılar — Medya satın alma gücü, standartlaşmış süreçler ve çok pazarlı koordinasyon kapasitesi sunarlar. Karşılığında karar süreçleri daha yavaştır ve küçük bütçeli müşteriler kıdemli ekibe daha az erişir.",
+        "Pratik bir ayrım: aylık medya bütçeniz belirli bir ölçeğin altındaysa büyük bir medya ajansının öncelikli müşterisi olmanız zordur. Bu bir kalite meselesi değil, kaynak dağılımı meselesidir.",
+        "Bazı markalar hibrit model tercih ediyor: medya planlama ve satın alma büyük bir ajansta, SEO ve içerik butik bir ekipte. Bu yapı koordinasyon yükü getirir ama her iki tarafın güçlü yanından yararlanmayı sağlar.",
+      ] },
+      { baslik: "Hangi Dijital Pazarlama Ajansı Size Uygun?", paragraflar: [
+        "Yukarıdaki 15 ajans farklı ölçeklerde ve farklı odaklarda çalışıyor. Bazıları performans reklamında, bazıları SEO'da, bazıları medya planlamada, bazıları da pazarlama teknolojisi tarafında derinleşmiş durumda.",
+        "Doğru soru \"en iyi dijital pazarlama ajansı hangisi?\" değil, \"bizim önümüzdeki 12 ayda çözmemiz gereken problem ne ve bunu hangi ajans daha iyi çözer?\" olmalı.",
+        "Bu soruyu netleştirmenin pratik yolu, hedefi tek bir metriğe indirmek. Organik trafikten gelen satışı artırmak mı, müşteri edinme maliyetini düşürmek mi, yeni bir pazara girmek mi, yoksa dağınık kanal yönetimini tek elde toplamak mı? Cevap değiştikçe uygun ajans profili de değişir.",
+        "Görüşme aşamasında ayırt edici olan şudur: ajans size hazır bir paket mi sunuyor, yoksa önce mevcut verilerinize ve sektörünüze mi bakıyor? İlk görüşmede somut ve gerekçeli bir teşhis getiren ekip, genellikle sonrasında da daha sağlam çalışır.",
+        "Bu listedeki bilgiler tavsiye veya garanti niteliği taşımaz. Karar vermeden önce teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili ajanstan doğrulayın.",
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "Why Choosing a Digital Marketing Agency in Turkey Got Harder", paragraflar: [
+        "Turkey's digital marketing ecosystem has grown markedly in recent years. Brands are no longer content simply to advertise; they want data-driven decisions, better user experience and sustainable growth.",
+        "That expectation changed the agency side too. Today, very different structures sit under the heading \"digital marketing agency\": boutique teams running only performance advertising, SEO-weighted agencies, large media planning and buying operations, the Turkish offices of global networks, and 360-degree agencies claiming to offer everything under one roof.",
+        "All of them make the same promise: measurable growth. The distinction emerges not in the promise but in scope and scale. A 50-person media agency and a 10-person performance team are not doing the same job; both are valid, but they answer different needs.",
+        "As of 2026 one more heading has been added: visibility in AI-assisted search. Alongside Google's AI Overviews and AI Mode, ChatGPT, Gemini and Perplexity are also used for product and service research. This has made work such as GEO and AEO a new line item in agency selection.",
+      ] },
+      { baslik: "How Was This List Prepared?", paragraflar: [
+        "The list below is not a performance ranking. The phrase \"best\" carries no claim that any agency is more successful than another; the numbering exists only to make the list easier to follow.",
+        "The agencies are listed alphabetically. Details such as founding year, location and service scope are reported as the agencies state them on their own sites or in public agency directories.",
+        "Claims about awards, certifications, partnership badges and client numbers have not been independently verified. Because this data is not published comparably in the Turkish market, it has not been carried into the list as fact but noted as the agency's own statement.",
+        "The list covers Istanbul-based agencies and deliberately shows different scales together: boutique performance teams, mid-size integrated agencies and the Turkish structures of global networks. The aim is not to rank but to make the range of options visible.",
+        "Information can change over time. Before working with any agency, verify its service scope, team structure and contract terms directly with them.",
+      ] },
+      { baslik: "1. Adinteraction", paragraflar: [
+        "Operating since 2013, Adinteraction positions itself as a digital media agency.",
+        "Its scope covers digital media strategy, media planning and buying, performance marketing, programmatic buying, influencer marketing, measurement and reporting.",
+        "This media-planning-weighted structure may be relevant for brands whose ad budget has reached a certain scale and who want channel allocation managed professionally.",
+      ], linkler: [
+        { isim: "Adinteraction website", aciklama: "Uskudar / Istanbul", url: "https://www.adinteraction.com/" },
+      ] },
+      { baslik: "2. Analytica House", paragraflar: [
+        "Founded in 2017, Analytica House is described as a digital marketing and performance agency placing technology and data at its centre.",
+        "Alongside SEO and performance advertising it positions itself in measurement, data unification and marketing technology (MarTech), highlighting its own solutions for multi-channel data collection and campaign insight.",
+        "One of the profiles worth considering for brands with weak measurement infrastructure that cannot see which channel actually drives sales.",
+      ], linkler: [
+        { isim: "Analytica House website", aciklama: "Beşiktaş / Istanbul", url: "https://analyticahouse.com/" },
+      ] },
+      { baslik: "3. Clicks'us", paragraflar: [
+        "According to its About page, Clicks'us was founded in 2016 and describes itself as a 360-degree digital performance agency.",
+        "Its service list includes SEO, GEO, ASO, social media management, web development and content marketing.",
+        "Award claims appear on its site; these are the agency's own statements. Having ASO in scope may be distinguishing for brands with a mobile app.",
+      ], linkler: [
+        { isim: "Clicks'us website", aciklama: "Kağıthane / Istanbul", url: "https://clicksus.com" },
+      ] },
+      { baslik: "4. Cremicro", paragraflar: [
+        "Stated to have been founded in 2013, Cremicro is among the digital marketing agencies known for a growth-focused approach.",
+        "SEO, GEO, performance marketing (Google and Meta advertising), social media management, influencer marketing, video production, web design and reputation management appear in its service list.",
+        "Multilingual projects and growth work aimed at different markets are its prominent side for brands with global ambitions.",
+      ], linkler: [
+        { isim: "Cremicro website", aciklama: "Şişli / Istanbul", url: "https://cremicro.com/" },
+      ] },
+      { baslik: "5. Digipeak", paragraflar: [
+        "According to its About page, Digipeak was founded in 2020, describes itself as a growth-focused 360-degree digital marketing agency and states clearly that it focuses on SaaS and B2B verticals.",
+        "SEO, PPC, ASO, social media management and email marketing are in scope. It states it has an office in London as well as Istanbul.",
+        "Its site is predominantly in English — a relevant positioning for software and B2B brands selling overseas.",
+      ], linkler: [
+        { isim: "Digipeak website", aciklama: "Istanbul / Londra", url: "https://digipeak.org" },
+      ] },
+      { baslik: "6. EssenceMediacom", paragraflar: [
+        "EssenceMediacom was formed in 2023 from the merger of Essence and MediaCom, and operates as a media and communications agency at global scale.",
+        "It offers media strategy, media planning and buying, data and analytics, content and creative partnerships, and integrated communication solutions.",
+        "Its Turkey team is based in Istanbul and draws on the global network. A structure sized for corporate brands managing large, multi-channel media investment.",
+      ], linkler: [
+        { isim: "EssenceMediacom website", aciklama: "Şişli / Istanbul", url: "https://www.essencemediacom.com/tr" },
+      ] },
+      { baslik: "7. İstanbul Reklam Ajansı", paragraflar: [
+        "By its own statement operating since 2016, İstanbul Reklam Ajansı describes itself as a digital marketing agency turning brands' advertising investment into measurable growth.",
+        "Its catalogue brings SEO, GEO, Google and Meta ad management, social media content, web design, production, influencer marketing and PR under one roof.",
+        "Visibility in AI search is positioned as a separate service heading; there is a standalone SEO reporting page on the measurement side.",
+      ], linkler: [
+        { isim: "İstanbul Reklam Ajansı website", aciklama: "Ataşehir / Istanbul", url: "https://istanbulreklamajans.com" },
+      ] },
+      { baslik: "8. Lein Digital", paragraflar: [
+        "Founded in 2016, Lein Digital positions itself in the GEO field and states that it runs search engine optimisation and visibility in AI answers within the same measurement loop.",
+        "Google and Meta ad management, social media, video production and AI consultancy are gathered in one team.",
+        "It states that its technical work on Schema.org and structured data aims to have the brand name cited as a source in AI answers.",
+      ], linkler: [
+        { isim: "Lein Digital website", aciklama: "Beşiktaş / Istanbul", url: "https://leindigital.com" },
+      ] },
+      { baslik: "9. Mobitek", paragraflar: [
+        "Declaring over 20 years of experience and work with more than 100 brands on its site, Mobitek is one of the integrated digital marketing agencies coming from an SEO-weighted background.",
+        "It states that it runs SEO and GEO, Google Ads and performance marketing, social media management, and digital and TV media planning under one roof. Enterprise SEO, e-commerce SEO and Shopify SEO appear as separate service headings.",
+        "Google Premier Partner, Meta, Yandex, LinkedIn, TikTok and Shopify partnership badges appear on its site; these are the agency's own statements. Worth considering for e-commerce and corporate brands wanting both organic and paid channels from the same team.",
+      ], linkler: [
+        { isim: "Mobitek website", aciklama: "Istanbul", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "10. OneIngage", paragraflar: [
+        "OneIngage emerged from the transformation of Ingage, founded in 2018, into a more integrated structure, and positions itself as a company addressing marketing and technology together.",
+        "It offers services across media, technology, creative services, and audit and consultancy, stating that it unites data, strategy and innovation under one roof.",
+        "AI-supported MarTech capability is also in scope. A relevant profile for large companies looking to build or renew their marketing technology infrastructure.",
+      ], linkler: [
+        { isim: "OneIngage website", aciklama: "Uskudar / Istanbul", url: "https://oneingage.com/" },
+      ] },
+      { baslik: "11. Publicis Groupe", paragraflar: [
+        "Founded in France in 1926, Publicis Groupe is today a communications, marketing and advertising group operating at global scale.",
+        "It brings together a network of agencies specialised in creative services, media planning and buying, digital transformation, data and technology solutions, performance marketing and consultancy.",
+        "Its model focuses on coordinating the varied marketing needs of large-scale brands under a single structure. It may not be an appropriate scale for small and mid-size businesses.",
+      ], linkler: [
+        { isim: "Publicis Groupe website", aciklama: "Bomonti / Istanbul", url: "https://publicisgroupe.com/" },
+      ] },
+      { baslik: "12. ROIPUBLIC", paragraflar: [
+        "Founded in 2012, ROIPUBLIC positions itself as a performance agency placing return on investment at the centre of its digital marketing work.",
+        "SEO, GEO, Google Ads and other paid advertising management, social media management, content marketing, data analysis and strategy development are in scope.",
+        "Its approach focuses on producing sustainable performance rather than short-term gains, and it states that it builds long-term partnership models with brands.",
+      ], linkler: [
+        { isim: "ROIPUBLIC website", aciklama: "Şişli / Istanbul", url: "https://www.roipublic.com/" },
+      ] },
+      { baslik: "13. SEM", paragraflar: [
+        "Founded in 2007, SEM is one of the digital marketing agencies combining a growth approach with technology and data analytics.",
+        "It states that it specialises in SEO, performance marketing, web analytics consultancy, conversion optimisation and advanced measurement.",
+        "It offers end-to-end solutions targeting sustainable revenue growth across both paid and organic channels; analytics consultancy as a separate heading indicates weight on the measurement side.",
+      ], linkler: [
+        { isim: "SEM website", aciklama: "Şişli / Istanbul", url: "https://semtr.com/" },
+      ] },
+      { baslik: "14. Sempeak", paragraflar: [
+        "Founded in 2011, Sempeak is a digital performance agency working with a data-driven approach.",
+        "It serves across SEO, performance marketing, conversion rate optimisation (CRO), content marketing, and media planning and buying.",
+        "Its model emphasises detailed needs analysis for each brand and developing brand-specific strategies rather than standard solutions.",
+      ], linkler: [
+        { isim: "Sempeak website", aciklama: "Uskudar / Istanbul", url: "https://www.sempeak.com/" },
+      ] },
+      { baslik: "15. WPP Media", paragraflar: [
+        "WPP Media was formed from the repositioning of GroupM, WPP's global media organisation, as an integrated media collective.",
+        "It offers end-to-end services in media planning and buying, measurement, data solutions and growth strategy, stating that it brings together data, technology and human focus.",
+        "It focuses on accelerating decision-making through next-generation data and forecasting solutions. Because it offers a standardised model at global scale, it suits multi-market corporate brands.",
+      ], linkler: [
+        { isim: "WPP Media website", aciklama: "Esentepe / Istanbul", url: "https://www.wppmedia.com/tr" },
+      ] },
+      { baslik: "What Does a Digital Marketing Agency Actually Do?", paragraflar: [
+        "A digital marketing agency is a partner managing a brand's visibility across search engines, social media and ad networks under a single plan. But the services falling under that definition vary from agency to agency.",
+        "Common service headings are: SEO and search visibility, performance marketing (Google Ads, Meta Ads), social media management, content marketing, media planning and buying, data analysis and reporting, digital strategy and consultancy.",
+        "In 2026, GEO and AEO were added to this list: work concerned with whether the brand is cited as a source in AI answers. The number of agencies defining this as a separate service heading is rising quickly.",
+        "The critical point: no agency has equal depth across all of these. An agency strong in media planning may be weak on technical SEO; a team good at performance advertising may depend on outside help for content production. Understanding where an agency has genuinely gone deep matters more than the length of its service list.",
+      ] },
+      { baslik: "What to Assess When Choosing an Agency", paragraflar: [
+        "Getting value from digital marketing investment depends largely on choosing the right agency. The headings below form the minimum framework to raise in proposal meetings.",
+        "1. Fit between goals and needs — Does the agency's area of strength overlap with your priority need? Are you targeting brand awareness, qualified leads or e-commerce sales? Comparing service lists before clarifying this is meaningless.",
+        "2. Approach to measurement — How work will be measured, which metrics will be tracked and how reporting will be framed should be clear from the outset. Agencies that treat analytics setup as a separate work item generally take measurement more seriously.",
+        "3. Sector experience — Having run projects in a similar sector and at a similar scale makes a difference. E-commerce SEO and B2B lead generation are entirely different disciplines.",
+        "4. Implementation capacity — Does the agency only provide strategy, or does it also carry out technical changes, content production and campaign optimisation? If your company lacks sufficient development and content resource, this becomes decisive.",
+        "5. Access to the team — Is the team attending the proposal meeting the same team that will run the project? In larger agencies these are often different. Clarify from the start who will own your account and how often you will meet.",
+        "6. GEO and AI search — You can ask concretely: do you have a GEO strategy? How do you track AI Overviews visibility? Do you include entity and schema work in your SEO strategy? A vague answer indicates the area is not genuinely being worked yet.",
+        "7. Budget and transparency — Confirm that the agency fee and the advertising budget are separate. Ask in writing which work is included in the monthly fee, what additional costs may arise, and what the contract term and termination conditions are.",
+      ] },
+      { baslik: "Agency Scale: Boutique or Corporate?", paragraflar: [
+        "The agencies on this list include 10-person performance teams as well as the Turkish structures of global networks with hundreds of staff. Which is right depends less on budget than on the shape of your business.",
+        "Boutique and mid-size agencies — The founder or senior team is usually inside the project, communication is more direct and decisions move faster. On the other hand capacity is limited; they can struggle when intensive operations are needed across many channels at once.",
+        "Corporate and global structures — They offer media buying power, standardised processes and multi-market coordination capacity. In return decision-making is slower, and smaller-budget clients get less access to senior staff.",
+        "A practical distinction: if your monthly media budget is below a certain scale, it is hard to be a priority client of a large media agency. This is not a question of quality but of resource allocation.",
+        "Some brands prefer a hybrid model: media planning and buying at a large agency, SEO and content with a boutique team. This adds coordination overhead but lets you use the strengths of both.",
+      ] },
+      { baslik: "Which Digital Marketing Agency Is Right for You?", paragraflar: [
+        "The 15 agencies above work at different scales and with different focuses. Some have gone deep in performance advertising, some in SEO, some in media planning, and some on the marketing technology side.",
+        "The right question is not \"which is the best digital marketing agency?\" but \"what problem do we need to solve over the next 12 months, and which agency solves it better?\"",
+        "The practical way to clarify that question is to reduce the goal to a single metric. Increasing sales from organic traffic, lowering customer acquisition cost, entering a new market, or consolidating scattered channel management? As the answer changes, so does the suitable agency profile.",
+        "What distinguishes agencies in the meeting stage is this: are they presenting you a ready-made package, or looking first at your existing data and sector? A team that brings a concrete, reasoned diagnosis to the first meeting generally works more soundly afterwards too.",
+        "The information in this list is not advice or a guarantee. Before deciding, verify proposals, references, service scope and contract terms directly with the agency concerned.",
+      ] },
+    ],
+  },
+  'turkiye-en-iyi-10-dijital-pazarlama-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 10 Dijital Pazarlama Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 10 Digital Marketing Agencies - Updated 2026",
+    meta_desc_tr: "İstanbul, Ankara, İzmir, Bursa, Adana, Konya ve Samsun'dan 10 dijital pazarlama ajansı. Bölgesel ajansla çalışmanın artıları, eksileri ve fiyat değişkenleri.",
+    meta_desc_en: "Ten digital marketing agencies from across Turkey. The pros and cons of working with a regional agency, and the variables that set the price.",
+    etiket: 'Strateji', sure: '10',
+    bolumler_tr: [
+      { baslik: "Dijital Pazarlama Ajansı Sadece İstanbul'da mı Var?", paragraflar: [
+        "Türkiye'de dijital pazarlama ajansı denildiğinde akla öncelikle İstanbul geliyor ve bunun somut bir sebebi var: ajans yoğunluğu, büyük bütçeli markalar ve medya ekosistemi büyük ölçüde burada toplanmış durumda.",
+        "Ancak son yıllarda tablo değişti. Ankara, İzmir, Bursa, Antalya, Adana, Konya ve Samsun gibi şehirlerde kendi bölgesinde derinleşmiş, çoğu zaman belirli bir sektöre odaklanmış ajanslar ortaya çıktı.",
+        "Bu şehirlerdeki ajansların bir avantajı var: bölgesel pazarı, yerel rekabeti ve müşteri davranışını yakından biliyorlar. Antalya'da turizm, Bursa'da sanayi ve e-ticaret, Konya'da KOBİ dinamiği, İzmir'de e-ticaret ve sağlık gibi dikeyler bölgesel ajanslarda daha derin karşılık buluyor.",
+        "İkinci avantaj maliyet. İstanbul'daki bir ajansın aylık hizmet bedeli, aynı kapsam için bölgesel bir ajansın teklifinden belirgin biçimde yüksek olabiliyor. Bu her zaman kalite farkı anlamına gelmiyor; ofis maliyeti ve pazar konumlandırması da fiyata yansıyor.",
+        "Aşağıdaki liste bu nedenle yalnızca İstanbul'a odaklanmıyor; Türkiye genelinden ajanslara yer veriyor.",
+      ] },
+      { baslik: "Bu Liste Nasıl Hazırlandı?", paragraflar: [
+        "Bu bir performans sıralaması değildir. Sıra numaraları yalnızca listeyi takip etmeyi kolaylaştırmak içindir ve hiçbir ajansın diğerinden üstün olduğu anlamına gelmez.",
+        "Ajanslar alfabetik olarak listelenmiştir. Konum, hizmet kapsamı ve uzmanlık bilgileri ajansların kendi sitelerinde veya kamuya açık ajans dizinlerinde belirtildiği şekilde aktarılmıştır.",
+        "Liste hazırlanırken coğrafi çeşitlilik gözetilmiştir. İstanbul'un yanı sıra Ankara, İzmir, Bursa, Adana, Konya, Samsun ve Balıkesir merkezli ajanslara yer verilmiştir.",
+        "Bölgesel ajanslar hakkındaki bilgiler, büyük ajanslara kıyasla daha sınırlı kamuya açık kaynağa dayanıyor. Bu nedenle bu listedeki bilgileri bir başlangıç noktası olarak değerlendirip ajansla doğrudan görüşmeniz özellikle önemli.",
+        "Ödül, sertifika ve iş ortaklığı beyanları bağımsız olarak doğrulanmamıştır.",
+      ] },
+      { baslik: "1. 2 Kat Medya", paragraflar: [
+        "Konya merkezli 2 Kat Medya, özellikle KOBİ'lerin dijital büyümesine odaklanan ajanslardan biri olarak listeleniyor.",
+        "Google ve Meta reklamlarında kapsamlı hizmet sunduğu, İç Anadolu bölgesindeki işletmelerin dijital dönüşümünde rol aldığı belirtiliyor.",
+        "Bölgesel pazarını iyi tanıyan bir ekiple çalışmak isteyen, İstanbul ölçeğinde bir ajans bütçesi ayırmayan işletmeler için değerlendirilebilir.",
+      ], linkler: [
+        { isim: "2 Kat Medya web sitesi", aciklama: "Konya", url: "https://2katmedya.com.tr/" },
+      ] },
+      { baslik: "2. Adpix", paragraflar: [
+        "Bursa merkezli Adpix, dijital reklam ve medya planlaması tarafında bölgesinde öne çıkan ajanslar arasında gösteriliyor.",
+        "E-ticaret firmaları için veri analitiğine dayalı stratejiler geliştirdiği; kamu ve özel sektör deneyimiyle geniş bir müşteri portföyüne sahip olduğu belirtiliyor.",
+        "Bursa ve Marmara bölgesindeki sanayi ve e-ticaret şirketleri için yakın çalışma imkânı sunan bir konum.",
+      ], linkler: [
+        { isim: "Adpix web sitesi", aciklama: "Bursa", url: "https://adpix.com.tr/" },
+      ] },
+      { baslik: "3. Blitzar Dijital", paragraflar: [
+        "Balıkesir merkezli Blitzar Dijital, Marmara bölgesinde e-ticaret ve dijital pazarlama tarafında öne çıkan isimler arasında listeleniyor.",
+        "Bölgedeki küçük ve orta ölçekli e-ticaret markalarına yönelik çalışmalar yürüttüğü belirtiliyor.",
+        "Büyük ajans yapısı yerine daha doğrudan iletişim kurulabilen bir ekip arayan bölgesel markalar için alternatif oluşturabilir.",
+      ], linkler: [
+        { isim: "Blitzar Dijital web sitesi", aciklama: "Balıkesir", url: "https://blitzardijital.com/" },
+      ] },
+      { baslik: "4. Digifirst", paragraflar: [
+        "İstanbul Kadıköy merkezli Digifirst, SEO ve dönüşüm oranı optimizasyonu tarafındaki uzmanlığıyla öne çıkan ajanslar arasında gösteriliyor.",
+        "Google, Meta ve TikTok reklamlarında ulusal ve uluslararası markalarla çalışma deneyimi bulunduğu belirtiliyor.",
+        "Veri analitiği odaklı yaklaşımıyla reklam bütçesinden verim almayı hedefleyen markalar için değerlendirilebilecek seçeneklerden biri.",
+      ], linkler: [
+        { isim: "Digifirst web sitesi", aciklama: "Kadıköy / İstanbul", url: "https://www.digifirst.com.tr/" },
+      ] },
+      { baslik: "5. İkomers", paragraflar: [
+        "İkomers, Google Ads ve sosyal medya reklamları tarafında konumlanan İstanbul merkezli ajanslardan biri.",
+        "E-ticaret siteleri için veri odaklı performans pazarlaması stratejileri kurduğu; raporlama ve iletişim şeffaflığını öne çıkardığı belirtiliyor.",
+        "Özellikle e-ticaret tarafında reklam performansını iyileştirmeye odaklanan markalar tarafından incelenebilir.",
+      ], linkler: [
+        { isim: "İkomers web sitesi", aciklama: "Üsküdar / İstanbul", url: "https://www.ikomers.com.tr/" },
+      ] },
+      { baslik: "6. Magnet", paragraflar: [
+        "Adana merkezli Magnet, performans odaklı Google ve sosyal medya reklamları tarafında bölgesinde öne çıkan ajanslardan biri olarak listeleniyor.",
+        "İleri düzey veri analizleriyle e-ticaret işletmeleri için kişiselleştirilmiş stratejiler geliştirdiği belirtiliyor.",
+        "Çukurova bölgesindeki işletmeler için yerinde çalışma imkânı sunan, bölgesel pazarı tanıyan bir alternatif.",
+      ], linkler: [
+        { isim: "Magnet web sitesi", aciklama: "Adana", url: "https://www.mag-net.com.tr/" },
+      ] },
+      { baslik: "7. Mobitek", paragraflar: [
+        "Sitesinde 20 yılı aşkın tecrübe ve 100'den fazla markayla çalışma beyan eden Mobitek, SEO ağırlıklı bir geçmişten gelen entegre dijital pazarlama ajanslarından biri.",
+        "SEO ve GEO, Google Ads ve performans pazarlaması, sosyal medya yönetimi ile dijital ve TV medya planlamasını tek çatı altında yürütüyor. Kurumsal SEO, e-ticaret SEO ve Shopify SEO ayrı hizmet başlıkları olarak yer alıyor.",
+        "Google Premier Partner, Meta, Yandex, LinkedIn, TikTok ve Shopify iş ortaklığı rozetleri sitesinde beyan ediliyor. Organik ve ücretli kanalları aynı ekipten yönetmek isteyen e-ticaret ve kurumsal markalar için uygun bir kapsam.",
+      ], linkler: [
+        { isim: "Mobitek web sitesi", aciklama: "İstanbul", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "8. Nano 360", paragraflar: [
+        "Ankara merkezli Nano 360, şehrin 360 derece dijital performans ajansları arasında öne çıkan isimlerden biri olarak listeleniyor.",
+        "Dijital pazarlamanın farklı başlıklarını tek çatı altında sunduğu belirtiliyor.",
+        "Ankara ve çevresinde faaliyet gösteren, kamu ve kurumsal tarafta iş yapan markalar için coğrafi yakınlık avantajı sunabilir.",
+      ], linkler: [
+        { isim: "Nano 360 web sitesi", aciklama: "Ankara", url: "https://www.nanomedya.com/" },
+      ] },
+      { baslik: "9. Nicemill", paragraflar: [
+        "İzmir merkezli Nicemill, e-ticaret odaklı performans pazarlamasında Ege bölgesinin öne çıkan ajansları arasında gösteriliyor.",
+        "Google Analytics verileriyle optimize edilen kampanyalar üzerinden yatırım getirisini artırmaya odaklandığı belirtiliyor.",
+        "Ege bölgesindeki e-ticaret markaları için hem bölgesel yakınlık hem de performans odaklı bir çalışma modeli sunuyor.",
+      ], linkler: [
+        { isim: "Nicemill web sitesi", aciklama: "İzmir", url: "https://nicemill.com.tr/" },
+      ] },
+      { baslik: "10. Webbeyaz", paragraflar: [
+        "Samsun merkezli Webbeyaz, SEO ve Google Ads çalışmalarını birlikte yürüterek markaların dijital görünürlüğünü artırmaya odaklanan ajanslardan biri olarak listeleniyor.",
+        "Karadeniz bölgesi işletmelerine yönelik özelleştirilmiş çözümler sunduğu; sosyal medya reklamları tarafında da çalıştığı belirtiliyor.",
+        "Bölgesinde dijital pazarlama hizmeti alacak işletmeler için yerel pazar bilgisi olan bir seçenek.",
+      ], linkler: [
+        { isim: "Webbeyaz web sitesi", aciklama: "Samsun", url: "https://www.webbeyaz.com/" },
+      ] },
+      { baslik: "Bölgesel Ajansla Çalışmanın Artıları ve Eksileri", paragraflar: [
+        "Bölgesel bir ajansla çalışmak her marka için doğru değil. Karar vermeden önce iki tarafı da net görmek gerekir.",
+        "Artıları — Yerel pazar bilgisi gerçek bir avantajdır: bölgedeki rekabeti, fiyat hassasiyetini ve müşteri davranışını biliyorlar. Fiziksel yakınlık, düzenli toplantı ve yerinde çekim gerektiren işlerde operasyonu kolaylaştırır. Maliyet genellikle daha düşüktür. Ayrıca küçük ekiplerde kıdemli kişilere doğrudan erişirsiniz; İstanbul'daki büyük bir ajansta aynı bütçeyle bu mümkün olmayabilir.",
+        "Eksileri — Kapasite sınırlı olabilir. Aynı anda SEO, performans reklamı, içerik üretimi ve video prodüksiyonu gerektiren çok kanallı bir operasyonda küçük ekipler zorlanır. Niş dikeylerde (örneğin uluslararası B2B SaaS veya çok dilli e-ihracat) deneyim bulmak daha zordur. Medya satın alma gücü büyük ajanslara göre düşüktür.",
+        "Pratik bir ayrım: işiniz tek bir bölgeye hizmet veriyorsa ve ihtiyacınız iki üç kanalla sınırlıysa bölgesel ajans çoğu zaman daha verimlidir. Ulusal veya uluslararası ölçekte, çok kanallı ve yüksek bütçeli bir operasyon yönetiyorsanız daha büyük bir yapı gerekebilir.",
+        "Unutmayın: dijital pazarlamanın büyük bölümü uzaktan yürütülebiliyor. Ajansın şehri, yalnızca düzenli yüz yüze toplantı veya fiziksel çekim gerektiğinde belirleyici olur.",
+      ] },
+      { baslik: "Ajanstan Teklif Alırken Sorulacak Sorular", paragraflar: [
+        "İki ajansın fiyatı arasındaki fark çoğu zaman hizmet kalitesinden değil, tekliflerin farklı şeyleri kapsamasından kaynaklanır. Karşılaştırmadan önce kapsamın aynı olduğundan emin olun.",
+        "Kapsam — Aylık hizmete tam olarak hangi çalışmalar dahil? Kaç içerik üretilecek, kaç kampanya yönetilecek, hangi raporlar sunulacak? Bunları yazılı isteyin.",
+        "Ekip — Projeyi kim yürütecek ve bu kişinin deneyimi ne? Teklif görüşmesine gelen ekiple çalışacak ekip aynı mı? Hesabınızdan sorumlu kişiye ne sıklıkta ulaşabileceksiniz?",
+        "Ölçüm — Başarı hangi metriklerle ölçülecek? Analitik kurulumu kim yapacak? Dönüşüm takibi mevcut mu, yoksa kurulması mı gerekiyor? Ölçümleme altyapısı yoksa ilk ayların bir kısmı buna gidecektir; bunu baştan bilmek önemli.",
+        "Uygulama — Teknik SEO düzeltmelerini kim yapacak: ajans mı, sizin yazılım ekibiniz mi? Bu soru cevaplanmadan başlayan projelerde aylar kaybedilebiliyor.",
+        "Bütçe — Ajans hizmet bedeli ile reklam bütçesi ayrı mı? Ek maliyet çıkabilecek kalemler neler? Sözleşme süresi ne kadar ve fesih koşulları nasıl?",
+        "Son olarak: \"ilk 3 ayda ne yapacaksınız?\" diye sorun. Somut ve sıralı bir cevap veremeyen ajans, muhtemelen sizin işinize henüz bakmamıştır.",
+      ] },
+      { baslik: "Dijital Pazarlama Ajansı Fiyatlarını Ne Belirler?", paragraflar: [
+        "Türkiye'de dijital pazarlama ajansı fiyatları geniş bir aralıkta değişiyor ve bu farkın büyük bölümü şu değişkenlerden kaynaklanıyor.",
+        "Kanal sayısı — Yalnızca SEO ile SEO, Google Ads, sosyal medya ve içerik üretiminin birlikte yürütüldüğü bir çalışma arasında hem emek hem maliyet açısından büyük fark var.",
+        "Sektör rekabeti — Rekabetin yüksek olduğu sektörlerde (finans, sağlık, e-ticaret) aynı sonuç için daha fazla içerik, daha fazla teknik çalışma ve daha yüksek reklam bütçesi gerekiyor.",
+        "Site ölçeği ve teknik durum — Birkaç yüz sayfalık bir kurumsal site ile on binlerce ürün sayfası olan bir e-ticaret sitesi aynı işi gerektirmez. Teknik altyapının bozuk olduğu projelerde ilk aylar düzeltmeyle geçer.",
+        "İçerik ve prodüksiyon — İçerik üretiminin, görsel tasarımın ve video prodüksiyonunun kapsama dahil olup olmaması fiyatı belirgin biçimde değiştirir.",
+        "Ajans ölçeği ve konumu — İstanbul merkezli büyük bir ajansın maliyet yapısı ile bölgesel bir ekibin maliyet yapısı farklıdır. Bu her zaman kalite farkına karşılık gelmez.",
+        "Genel kural: en ucuz teklif genellikle en dar kapsamlı tekliftir. Sorun ucuz olması değil, kapsamın sözleşmede net yazılmamasıdır. Kapsamı eşitlemeden fiyat karşılaştırmak yanıltıcı sonuç verir.",
+      ] },
+      { baslik: "Hangi Dijital Pazarlama Ajansı Size Uygun?", paragraflar: [
+        "Yukarıdaki 10 ajans İstanbul, Ankara, İzmir, Bursa, Adana, Konya, Samsun ve Balıkesir'de faaliyet gösteriyor. Bazıları e-ticaret performansına, bazıları SEO'ya, bazıları bölgesel KOBİ pazarına odaklanmış durumda.",
+        "Seçimi daraltmanın en pratik yolu üç soruyu cevaplamak: Hedef pazarınız tek bir bölge mi, Türkiye geneli mi, yoksa yurt dışı mı? Kaç kanalda eşzamanlı çalışma gerekiyor? Düzenli yüz yüze toplantı veya yerinde çekim ihtiyacınız var mı?",
+        "Bu üç cevap, listedeki ajansların çoğunu kendiliğinden eler. Tek bölgeye hizmet veren ve iki üç kanalla çalışacak bir işletme için bölgesel bir ajans genellikle daha verimlidir; ulusal ölçekte çok kanallı operasyon yürütüyorsanız daha geniş kapasiteli bir yapı gerekebilir.",
+        "Karar vermeden önce en az iki ajansla görüşün ve aynı soruları sorun. Cevapların somutluk düzeyi, ajansların birbirinden en net ayrıştığı yerdir.",
+        "Bu listedeki bilgiler tavsiye veya garanti niteliği taşımaz. Teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili ajanstan doğrulayın.",
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "Are Digital Marketing Agencies Only in Istanbul?", paragraflar: [
+        "When digital marketing agencies come up in Turkey, Istanbul comes to mind first, and there is a concrete reason: agency density, large-budget brands and the media ecosystem are largely concentrated there.",
+        "In recent years, though, the picture has changed. Agencies that have gone deep in their own region, often focused on a particular sector, have emerged in cities such as Ankara, Izmir, Bursa, Antalya, Adana, Konya and Samsun.",
+        "Agencies in these cities have one advantage: they know the regional market, local competition and customer behaviour closely. Verticals such as tourism in Antalya, industry and e-commerce in Bursa, SME dynamics in Konya, and e-commerce and healthcare in Izmir find deeper expertise in regional agencies.",
+        "The second advantage is cost. An Istanbul agency's monthly fee can be markedly higher than a regional agency's proposal for the same scope. This does not always mean a quality difference; office costs and market positioning also feed into price.",
+        "For this reason, the list below does not focus on Istanbul alone but includes agencies from across Turkey.",
+      ] },
+      { baslik: "How Was This List Prepared?", paragraflar: [
+        "This is not a performance ranking. The numbering exists only to make the list easier to follow and does not mean any agency is superior to another.",
+        "The agencies are listed alphabetically. Location, service scope and specialism details are reported as stated on the agencies' own sites or in public agency directories.",
+        "Geographic variety was taken into account. Agencies based in Ankara, Izmir, Bursa, Adana, Konya, Samsun and Balikesir are included alongside Istanbul.",
+        "Information about regional agencies rests on more limited public sources than for large agencies. It is therefore particularly important to treat this list as a starting point and speak to the agency directly.",
+        "Award, certification and partnership claims have not been independently verified.",
+      ] },
+      { baslik: "1. 2 Kat Medya", paragraflar: [
+        "Konya-based 2 Kat Medya is listed among the agencies focusing particularly on the digital growth of SMEs.",
+        "It is stated to offer comprehensive service in Google and Meta advertising, and to play a role in the digital transformation of businesses in Central Anatolia.",
+        "Worth considering for businesses that want a team familiar with their regional market and are not allocating an Istanbul-scale agency budget.",
+      ], linkler: [
+        { isim: "2 Kat Medya website", aciklama: "Konya", url: "https://2katmedya.com.tr/" },
+      ] },
+      { baslik: "2. Adpix", paragraflar: [
+        "Bursa-based Adpix is cited among the agencies standing out in its region on digital advertising and media planning.",
+        "It is stated to develop data-analytics-based strategies for e-commerce firms, and to hold a broad client portfolio with both public and private sector experience.",
+        "A position offering close working proximity for industrial and e-commerce companies in Bursa and the Marmara region.",
+      ], linkler: [
+        { isim: "Adpix website", aciklama: "Bursa", url: "https://adpix.com.tr/" },
+      ] },
+      { baslik: "3. Blitzar Dijital", paragraflar: [
+        "Balıkesir-based Blitzar Dijital is listed among the names standing out in e-commerce and digital marketing in the Marmara region.",
+        "It is stated to work with small and mid-size e-commerce brands in the region.",
+        "May present an alternative for regional brands wanting a team they can communicate with directly rather than a large agency structure.",
+      ], linkler: [
+        { isim: "Blitzar Dijital website", aciklama: "Balikesir", url: "https://blitzardijital.com/" },
+      ] },
+      { baslik: "4. Digifirst", paragraflar: [
+        "Based in Kadıköy, Istanbul, Digifirst is cited among the agencies standing out for expertise in SEO and conversion rate optimisation.",
+        "It is stated to have experience working with national and international brands on Google, Meta and TikTok advertising.",
+        "One of the options to consider for brands aiming to get value from their ad budget through a data-analytics-focused approach.",
+      ], linkler: [
+        { isim: "Digifirst website", aciklama: "Kadikoy / Istanbul", url: "https://www.digifirst.com.tr/" },
+      ] },
+      { baslik: "5. İkomers", paragraflar: [
+        "İkomers is one of the Istanbul-based agencies positioned around Google Ads and social media advertising.",
+        "It is stated to build data-driven performance marketing strategies for e-commerce sites, and to foreground transparency in reporting and communication.",
+        "Can be reviewed particularly by brands focused on improving advertising performance on the e-commerce side.",
+      ], linkler: [
+        { isim: "İkomers website", aciklama: "Uskudar / Istanbul", url: "https://www.ikomers.com.tr/" },
+      ] },
+      { baslik: "6. Magnet", paragraflar: [
+        "Adana-based Magnet is listed among the agencies standing out in its region on performance-focused Google and social media advertising.",
+        "It is stated to develop personalised strategies for e-commerce businesses through advanced data analysis.",
+        "An alternative familiar with the regional market, offering on-site working for businesses in the Çukurova region.",
+      ], linkler: [
+        { isim: "Magnet website", aciklama: "Adana", url: "https://www.mag-net.com.tr/" },
+      ] },
+      { baslik: "7. Mobitek", paragraflar: [
+        "Declaring over 20 years of experience and work with more than 100 brands on its site, Mobitek is one of the integrated digital marketing agencies coming from an SEO-weighted background.",
+        "It states that it runs SEO and GEO, Google Ads and performance marketing, social media management, and digital and TV media planning under one roof. Enterprise SEO, e-commerce SEO and Shopify SEO appear as separate service headings.",
+        "Google Premier Partner, Meta, Yandex, LinkedIn, TikTok and Shopify partnership badges appear on its site; these are the agency's own statements. Worth considering for e-commerce and corporate brands wanting both organic and paid channels from the same team.",
+      ], linkler: [
+        { isim: "Mobitek website", aciklama: "Istanbul", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "8. Nano 360", paragraflar: [
+        "Ankara-based Nano 360 is listed among the prominent names in the city's 360-degree digital performance agencies.",
+        "It is stated to offer the various headings of digital marketing under one roof.",
+        "May offer a geographical proximity advantage for brands operating in and around Ankara, particularly those working with the public and corporate sectors.",
+      ], linkler: [
+        { isim: "Nano 360 website", aciklama: "Ankara", url: "https://www.nanomedya.com/" },
+      ] },
+      { baslik: "9. Nicemill", paragraflar: [
+        "Izmir-based Nicemill is cited among the Aegean region's prominent agencies in e-commerce-focused performance marketing.",
+        "It is stated to focus on increasing return on investment through campaigns optimised with Google Analytics data.",
+        "Offers both regional proximity and a performance-focused working model for e-commerce brands in the Aegean region.",
+      ], linkler: [
+        { isim: "Nicemill website", aciklama: "Izmir", url: "https://nicemill.com.tr/" },
+      ] },
+      { baslik: "10. Webbeyaz", paragraflar: [
+        "Samsun-based Webbeyaz is listed among the agencies focusing on increasing brands' digital visibility by running SEO and Google Ads together.",
+        "It is stated to offer solutions tailored to Black Sea region businesses, and to work on the social media advertising side as well.",
+        "An option with local market knowledge for businesses in the region seeking digital marketing services.",
+      ], linkler: [
+        { isim: "Webbeyaz website", aciklama: "Samsun", url: "https://www.webbeyaz.com/" },
+      ] },
+      { baslik: "Working with a Regional Agency: Pros and Cons", paragraflar: [
+        "Working with a regional agency is not right for every brand. It helps to see both sides clearly before deciding.",
+        "Pros — Local market knowledge is a real advantage: they know the regional competition, price sensitivity and customer behaviour. Physical proximity eases operations on work requiring regular meetings or on-site shooting. Cost is generally lower. In small teams you also get direct access to senior people, which the same budget may not buy at a large Istanbul agency.",
+        "Cons — Capacity can be limited. Small teams struggle with multi-channel operations requiring SEO, performance advertising, content production and video production simultaneously. Experience in niche verticals (international B2B SaaS or multilingual cross-border e-commerce, for instance) is harder to find. Media buying power is lower than at large agencies.",
+        "A practical distinction: if your business serves a single region and your needs are limited to two or three channels, a regional agency is usually more efficient. If you are running a multi-channel, high-budget operation at national or international scale, a larger structure may be necessary.",
+        "Remember: most digital marketing can be run remotely. The agency's city only becomes decisive when regular face-to-face meetings or physical shooting are required.",
+      ] },
+      { baslik: "Questions to Ask When Requesting a Proposal", paragraflar: [
+        "The difference between two agencies' prices usually stems not from service quality but from the proposals covering different things. Before comparing, make sure the scope is the same.",
+        "Scope — Exactly which work is included in the monthly service? How many pieces of content, how many campaigns, which reports? Ask for this in writing.",
+        "Team — Who will run the project and what is their experience? Is the team at the proposal meeting the team you will work with? How often can you reach the person owning your account?",
+        "Measurement — Which metrics will define success? Who will set up analytics? Is conversion tracking in place, or does it need building? If measurement infrastructure is missing, part of the first months will go to that; it is important to know upfront.",
+        "Implementation — Who will make technical SEO fixes: the agency, or your development team? Projects that start without answering this can lose months.",
+        "Budget — Are the agency fee and advertising budget separate? What items could add cost? What is the contract term and what are the termination conditions?",
+        "Finally, ask: \"what will you do in the first three months?\" An agency that cannot give a concrete, sequenced answer has probably not yet looked at your business.",
+      ] },
+      { baslik: "What Determines Digital Marketing Agency Pricing?", paragraflar: [
+        "Digital marketing agency pricing in Turkey varies across a wide range, and most of that gap comes from the following variables.",
+        "Number of channels — There is a large difference in both effort and cost between SEO alone and work combining SEO, Google Ads, social media and content production.",
+        "Sector competition — In highly competitive sectors (finance, healthcare, e-commerce) the same result requires more content, more technical work and a higher advertising budget.",
+        "Site scale and technical condition — A corporate site of a few hundred pages does not require the same work as an e-commerce site with tens of thousands of product pages. On projects where the technical foundation is broken, the first months go to fixing it.",
+        "Content and production — Whether content production, visual design and video production are in scope changes the price markedly.",
+        "Agency scale and location — The cost structure of a large Istanbul agency differs from that of a regional team. This does not always correspond to a difference in quality.",
+        "A general rule: the cheapest proposal is usually the narrowest in scope. The problem is not that it is cheap, but that the scope is not written clearly into the contract. Comparing prices without equalising scope gives a misleading result.",
+      ] },
+      { baslik: "Which Digital Marketing Agency Is Right for You?", paragraflar: [
+        "The 10 agencies above operate in Istanbul, Ankara, Izmir, Bursa, Adana, Konya, Samsun and Balikesir. Some focus on e-commerce performance, some on SEO, and some on the regional SME market.",
+        "The most practical way to narrow the choice is to answer three questions: Is your target market a single region, Turkey as a whole, or overseas? How many channels need working simultaneously? Do you need regular face-to-face meetings or on-site shooting?",
+        "Those three answers eliminate most of the list by themselves. For a business serving one region and working across two or three channels, a regional agency is usually more efficient; if you are running a multi-channel operation at national scale, a structure with broader capacity may be needed.",
+        "Before deciding, speak to at least two agencies and ask them the same questions. The level of concreteness in their answers is where agencies separate most clearly.",
+        "The information in this list is not advice or a guarantee. Verify proposals, references, service scope and contract terms directly with the agency concerned.",
+      ] },
     ],
   },
   'turkiye-en-iyi-15-sosyal-medya-ajansi-2026': {
@@ -729,7 +1279,7 @@ const ICERIKLER = {
         "Mobitek'in SEO hizmet modeli teknik SEO, içerik optimizasyonu, site dışı SEO, e-ticaret SEO, kurumsal SEO ve ölçümleme çalışmalarını kapsıyor. Ajans ayrıca SEO ve Generative Engine Optimization (GEO) çalışmalarını birlikte ele alarak markaların hem geleneksel arama sonuçlarında hem de yapay zekâ destekli arama deneyimlerinde görünürlüğünü geliştirmeye yönelik çalışmalar yürüttüğünü belirtiyor.",
         "Kurumsal markalar ve e-ticaret şirketlerine yönelik deneyimi bulunan Mobitek, özellikle SEO'yu reklam, içerik ve analitik gibi diğer dijital pazarlama kanallarıyla entegre etmek isteyen Türkiye'deki işletmeler için değerlendirilebilecek seçeneklerden biri.",
       ], linkler: [
-        { isim: "Mobitek web sitesi", aciklama: "www.mobitek.com", url: "https://www.mobitek.com/" },
+        { isim: "Mobitek web sitesi", aciklama: "mobitek.com", url: "https://mobitek.com/" },
       ] },
       { baslik: "9. Online Solutions Group GmbH", paragraflar: [
         "Almanya merkezli Online Solutions Group GmbH, özellikle Almanca konuşulan pazarlarda faaliyet gösteren kapsamlı bir SEO ve online pazarlama ajansı.",
@@ -894,7 +1444,7 @@ const ICERIKLER = {
         "Mobitek's SEO service model covers technical SEO, content optimisation, off-site SEO, e-commerce SEO, enterprise SEO and measurement. The agency also states that it addresses SEO and Generative Engine Optimization (GEO) together, working to improve brand visibility in both traditional search results and AI-assisted search experiences.",
         "With experience serving corporate brands and e-commerce companies, Mobitek may be an option for businesses in Turkey that want SEO integrated with advertising, content and analytics.",
       ], linkler: [
-        { isim: "Mobitek website", aciklama: "www.mobitek.com", url: "https://www.mobitek.com/" },
+        { isim: "Mobitek website", aciklama: "mobitek.com", url: "https://mobitek.com/" },
       ] },
       { baslik: "9. Online Solutions Group GmbH", paragraflar: [
         "Germany-based Online Solutions Group GmbH is a comprehensive SEO and online marketing agency operating particularly in German-speaking markets.",
