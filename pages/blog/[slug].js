@@ -280,14 +280,7 @@ const ICERIKLER = {
         "Ajansa özellikle şunları sorabilirsiniz: İlk 3-6 ayda hangi çalışmalar yapılacak? Teknik SEO problemlerini kim uygulayacak? İçerik üretimini kim yönetecek? Başarı hangi KPI'larla ölçülecek? SEO dışında GEO veya AI arama görünürlüğü takip edilecek mi? Ayda hangi raporları alacağız? Rakip analizi nasıl gerçekleştirilecek? Daha önce bizim sektörümüze benzer projelerde çalıştınız mı? SEO stratejisi satış veya lead verileriyle nasıl ilişkilendirilecek? Sözleşme ve iptal koşulları nelerdir?",
         "Bu sorular farklı ajanslardan gelen teklifleri daha sağlıklı biçimde karşılaştırmanıza yardımcı olabilir.",
       ] },
-      { baslik: "Sonuç", paragraflar: [
-        "SEO, 2026 itibarıyla yalnızca Google'da belirli anahtar kelimelerde üst sıralara çıkma çalışması olmaktan giderek uzaklaşıyor.",
-        "Teknik SEO, kullanıcı deneyimi, içerik kalitesi, otorite, veri analitiği, dönüşüm optimizasyonu ve yapay zekâ destekli arama görünürlüğü artık aynı stratejinin farklı parçaları haline geliyor. Google'ın Türkiye'de AI Mode ve AI Overviews gibi yeni arama deneyimlerini devreye alması da markaların klasik SEO'nun yanında GEO ve AEO gibi yeni görünürlük alanlarını değerlendirmesini daha önemli hale getiriyor.",
-        "Bu nedenle SEO ajansı seçerken yalnızca fiyat veya anahtar kelime sıralaması vaatlerine odaklanmak yerine ajansın teknik kapasitesini, içerik yaklaşımını, ölçümleme sistemini, sektör deneyimini ve yeni nesil arama teknolojilerine ne kadar adapte olduğunu değerlendirmek daha sağlıklı olacaktır.",
-        "Bu içerikte yer alan 2Stallions Digital Marketing Agency, ClickExpose, Kinex Media, Kleosa, Leading Solution Pte. Ltd., Marketer Zilla, Mediaforce, Mobitek, Online Solutions Group GmbH, PienetSEO, SEO Consultant, SEO Roas, Sniro Limited, The Second Floor ve wukonig.com alfabetik olarak listelenmiştir.",
-        "Liste herhangi bir başarı veya performans sıralaması ifade etmez ve içerikte yer alan ajanslar arasında seçim yapmadan önce teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili şirketlerden doğrulamanız önerilir.",
-      ] },
-    ],
+          ],
     bolumler_en: [
       { baslik: "Why Is the SEO Agency Market Growing in Turkey?", paragraflar: [
         "For businesses in Turkey, digital channels have moved beyond brand awareness to become a significant part of direct sales, customer acquisition and growth. With that shift, being visible on Google and other search platforms has become an increasingly strategic concern.",
@@ -452,14 +445,7 @@ const ICERIKLER = {
         "In particular you might ask: What work will be done in the first 3-6 months? Who will implement technical SEO fixes? Who will manage content production? Which KPIs will measure success? Beyond SEO, will GEO or AI search visibility be tracked? Which reports will we receive each month? How will competitor analysis be carried out? Have you worked on projects similar to our sector before? How will SEO strategy be tied to sales or lead data? What are the contract and cancellation terms?",
         "These questions can help you compare proposals from different agencies more soundly.",
       ] },
-      { baslik: "Conclusion", paragraflar: [
-        "As of 2026, SEO is moving steadily away from being purely about ranking at the top of Google for certain keywords.",
-        "Technical SEO, user experience, content quality, authority, data analytics, conversion optimisation and AI-assisted search visibility are now different parts of the same strategy. Google's rollout of new search experiences such as AI Mode and AI Overviews in Turkey makes it more important for brands to consider new visibility areas like GEO and AEO alongside classic SEO.",
-        "When choosing an SEO agency, then, it is sounder to assess its technical capacity, content approach, measurement system, sector experience and how well it has adapted to next-generation search technologies, rather than focusing on price or keyword ranking promises alone.",
-        "The companies featured in this article — 2Stallions Digital Marketing Agency, ClickExpose, Kinex Media, Kleosa, Leading Solution Pte. Ltd., Marketer Zilla, Mediaforce, Mobitek, Online Solutions Group GmbH, PienetSEO, SEO Consultant, SEO Roas, Sniro Limited, The Second Floor and wukonig.com — are listed alphabetically.",
-        "The list does not express any success or performance ranking, and before choosing between the agencies featured, it is advisable to verify proposals, references, service scope and contract terms directly with the companies concerned.",
-      ] },
-    ],
+          ],
   },
 
   'turkiye-en-iyi-10-seo-ajansi-2026': {
