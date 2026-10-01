@@ -237,6 +237,7 @@ const ICERIKLER = {
 
   'turkiye-en-iyi-15-dijital-pazarlama-ajansi-2026': {
     baslik_tr: "Türkiye'nin En İyi 15 Dijital Pazarlama Ajansı - Güncel 2026",
+    meta_baslik_tr: "En İyi 15 Dijital Pazarlama Ajansı - Güncel 2026",
     baslik_en: "Turkey's Best 15 Digital Marketing Agencies - Updated 2026",
     meta_desc_tr: "İstanbul'dan 15 dijital pazarlama ajansına alfabetik, sıralama içermeyen bir bakış. Butik performans ekiplerinden global medya ağlarına, ölçek ve seçim kriterleri.",
     meta_desc_en: "An alphabetical, unranked overview of 15 digital marketing agencies in Istanbul — from boutique performance teams to global media networks, with selection criteria.",
@@ -1667,6 +1668,7 @@ const ICERIKLER = {
 
   'turkiye-en-iyi-10-seo-ajansi-2026': {
     baslik_tr: "Türkiye'nin En İyi 10 SEO Ajansı (2026 Güncel)",
+    meta_baslik_tr: "En İyi 10 SEO Ajansı - Güncel 2026",
     baslik_en: "Turkey's Best 10 SEO Agencies (Updated 2026)",
     meta_desc_tr: "Türkiye'de tanınan 10 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
     meta_desc_en: "An alphabetical, unranked overview of 10 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
@@ -1749,6 +1751,7 @@ export default function BlogPost(props) {
   // dolayısıyla veri normalde her zaman doludur (savunmacı kontrol aşağıda).
   const veri = ICERIKLER[slug] || null
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
+  const metaBaslik = veri ? ((isEn ? veri.meta_baslik_en : veri.meta_baslik_tr) || baslik) : ''
   const bolumler = (veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : []) || []
   const metaDesc = veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
     ? (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
@@ -1839,7 +1842,7 @@ export default function BlogPost(props) {
   return (
     <>
       <Head>
-        <title>{baslik} | Fatih Emin Çakıroğlu</title>
+        <title>{metaBaslik} | Fatih Emin Çakıroğlu</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

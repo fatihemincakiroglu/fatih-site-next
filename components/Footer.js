@@ -13,8 +13,8 @@ const AI_TOOL_IDS = ['google', 'chatgpt', 'perplexity', 'claude', 'gemini', 'bin
 const LINKS = {
   tr: {
     hizmetler: { baslik: 'Hizmetler', items: [
-      { label: 'SEO Danışmanlığı', href: '/seo-danismanligi' },
-      { label: 'GEO Danışmanlığı', href: '/geo-danismanligi' },
+      { label: 'SEO Danışmanlığı', href: '/seo-uzmani' },
+      { label: 'GEO Danışmanlığı', href: '/geo-uzmani' },
       { label: 'İçerik Stratejisi', href: '/icerik' },
       { label: 'Backlink & Dijital PR', href: '/backlink' },
       { label: 'Performans & Growth', href: '/performans' },

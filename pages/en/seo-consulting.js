@@ -1,4 +1,4 @@
-import TrPage from '../seo-danismanligi'
+import TrPage from '../seo-uzmani'
 
 // Force EN locale for this page
 export default function EnPage(props) {

@@ -42,8 +42,8 @@ export default function NotFound() {
         </div>
         <div style={{ marginTop: '48px', display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
           {[
-            { tr: 'SEO Danışmanlığı', en: 'SEO Consulting', href: '/seo-danismanligi' },
-            { tr: 'GEO Danışmanlığı', en: 'GEO Consulting', href: '/geo-danismanligi' },
+            { tr: 'SEO Danışmanlığı', en: 'SEO Consulting', href: '/seo-uzmani' },
+            { tr: 'GEO Danışmanlığı', en: 'GEO Consulting', href: '/geo-uzmani' },
             { tr: 'Blog', en: 'Blog', href: '/blog' },
             { tr: 'SSS', en: 'FAQ', href: '/sss' },
           ].map((l, i) => (

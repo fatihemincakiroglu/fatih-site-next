@@ -22,8 +22,11 @@ const nextConfig = {
   // Yönlendirme zinciri oluşmaması için doğrudan nihai adrese gidiyor.
   async redirects() {
     return [
-      { source: '/seo', destination: '/seo-danismanligi', permanent: true },
-      { source: '/geo', destination: '/geo-danismanligi', permanent: true },
+      { source: '/seo', destination: '/seo-uzmani', permanent: true },
+      { source: '/geo', destination: '/geo-uzmani', permanent: true },
+      // /seo-danismanligi ve /geo-danismanligi, /seo-uzmani ve /geo-uzmani adreslerine taşındı.
+      { source: '/seo-danismanligi', destination: '/seo-uzmani', permanent: true },
+      { source: '/geo-danismanligi', destination: '/geo-uzmani', permanent: true },
     ]
   },
 
