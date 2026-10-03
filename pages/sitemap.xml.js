@@ -1,4 +1,5 @@
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
+import { KONUM_SAYFA_SLUGLARI } from '../lib/geo-konum/ilceler'
 
 const BASE = 'https://fatihemincakiroglu.com'
 const TODAY = new Date().toISOString().split('T')[0] + 'T00:00:00Z'
@@ -78,6 +79,17 @@ function buildUrlEntry(url, priority, changefreq, trUrl, enUrl) {
   </url>`
 }
 
+// Tek dilli (yalnızca TR) sayfalar: hreflang alternatifi basılmaz.
+function buildUrlEntryTR(url, priority, changefreq) {
+  return `
+  <url>
+    <loc>${BASE}${url}</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`
+}
+
 // TR↔EN URL mapping
 const TR_EN_MAP = {
   '/': '/en',
@@ -119,6 +131,11 @@ function buildSitemapTR() {
     buildUrlEntry(`/rehber/${slug}`, '0.6', 'monthly', `/rehber/${slug}`, `/en/guides/${slug}`)
   ).join('')
 
+  // Yerel GEO uzmanı sayfaları (menüye bağlı değil; keşif sitemap üzerinden)
+  const konumUrls = KONUM_SAYFA_SLUGLARI.map(slug =>
+    buildUrlEntryTR(`/${slug}`, '0.6', 'monthly')
+  ).join('')
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -126,6 +143,7 @@ function buildSitemapTR() {
 ${urls}
 ${blogUrls}
 ${rehberUrls}
+${konumUrls}
 </urlset>`
 }
 
