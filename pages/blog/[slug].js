@@ -1730,8 +1730,666 @@ const ICERIKLER = {
       ]},
     ],
   },
+
+  'turkiye-en-iyi-15-geo-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 15 GEO Ajansı - Güncel 2026",
+    meta_baslik_tr: "En İyi 15 GEO Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 15 GEO Agencies - Updated 2026",
+    meta_baslik_en: "Best 15 GEO Agencies - Updated 2026",
+    meta_desc_tr: "ChatGPT, Gemini ve Perplexity görünürlüğü için 15 GEO ajansı: alfabetik liste, ajansa sorulacak 7 soru, teknik GEO unsurları ve sık sorulan sorular.",
+    meta_desc_en: "15 GEO agencies for visibility in ChatGPT, Gemini and Perplexity: an alphabetical list, 7 questions to ask, technical GEO factors and FAQs.",
+    etiket: 'GEO', sure: '12',
+    bolumler_tr: [
+      { baslik: "Arama Görünürlüğünde Yeni Rekabet Alanı", paragraflar: [
+        "Arama dünyasında yeni rekabet alanı yalnızca Google'ın ilk sayfası değil. Bir kullanıcı bugün bir ürünü karşılaştırmak, bir yazılım seçmek, hizmet sağlayıcı araştırmak veya bir marka hakkında bilgi almak istediğinde arama motorunun yanında ChatGPT, Gemini, Perplexity ve Claude gibi üretken yapay zekâ araçlarına da başvurabiliyor.",
+        "Bunun markalar açısından önemli bir sonucu var: **web sitenizin bulunabilir olması kadar markanızın yapay zekâ tarafından nasıl tanımlandığı da önem kazanıyor.**",
+        "Generative Engine Optimization yani GEO tam olarak bu noktada devreye giriyor. GEO çalışmalarında amaç yalnızca web sitesine daha fazla organik trafik çekmek değildir. Markanın belirli konular, ürün kategorileri ve uzmanlık alanlarıyla ilişkilendirilmesi; güvenilir kaynaklar tarafından desteklenmesi ve yapay zekâ sistemlerinin oluşturduğu cevaplarda doğru bağlamda kullanılabilecek bir dijital varlık hâline getirilmesi hedeflenir.",
+        "Bu nedenle 2026'da bir GEO ajansının çalışma alanı içerik optimizasyonunun çok ötesine geçebilir. GEO'nun temel kavramlarını ve uygulama adımlarını henüz incelemediyseniz [GEO rehberi](/geo-rehberi) iyi bir başlangıç noktası olabilir.",
+      ] },
+      { baslik: "GEO Artık Neden Ayrı Bir Uzmanlık Alanı?", paragraflar: [
+        "Geleneksel arama deneyiminde kullanıcı genellikle bir sorgu yapar, karşısına çıkan sonuçları inceler ve farklı sitelere tıklayarak cevabını oluştururdu. Üretken yapay zekâ sistemlerinde ise süreç tersine dönebiliyor: kullanıcı soruyu soruyor ve sistem onlarca farklı kaynaktan topladığı bilgiler üzerinden doğrudan bir cevap üretiyor.",
+        "Bu ortamda marka açısından üç farklı görünürlük seviyesi ortaya çıkıyor:",
+        "**Bulunabilirlik:** Yapay zekâ sistemleri markaya ilişkin bilgilere erişebiliyor mu?",
+        "**Anlaşılabilirlik:** Markanın ne yaptığı, hangi pazarda faaliyet gösterdiği ve hangi ürün veya hizmetleri sunduğu açık mı?",
+        "**Önerilebilirlik:** Marka ilgili kullanıcı sorularında güvenilir ve alakalı bir alternatif olarak değerlendirilebiliyor mu?",
+        "Bu üç katmanın kurulabilmesi; teknik altyapıdan içerik mimarisine, yapılandırılmış verilerden marka otoritesine kadar birçok disiplinin birlikte çalışmasını gerektiriyor.",
+      ] },
+      { baslik: "Bir GEO Ajansı Ne Yapar?", paragraflar: [
+        "GEO ajanslarının hizmet kapsamı şirkete göre değişmekle birlikte olgun bir GEO programında genellikle şu çalışmalar bulunur: AI görünürlük ve marka mention analizi, hedef soru ve prompt kümelerinin belirlenmesi, teknik SEO ve crawl edilebilirlik kontrolleri, entity optimizasyonu, schema ve yapılandırılmış veri çalışmaları, içerik mimarisinin yeniden düzenlenmesi ve doğrudan cevap verebilen içerik bloklarının oluşturulması.",
+        "Bunlara ek olarak marka otoritesi ve dış kaynak sinyallerinin güçlendirilmesi, dijital PR ve citation çalışmaları, ChatGPT, Gemini ve Perplexity görünürlüğünün izlenmesi, rakiplerin AI cevaplarındaki konumlarının takip edilmesi ve sonuçların düzenli raporlanması da kapsamın parçasıdır.",
+        "Uluslararası GEO rehberlerinde de AI visibility audit, query mapping, entity positioning, içerik mimarisi, authority building, teknik optimizasyon ve GEO'ya özgü ölçümleme temel hizmet grupları arasında gösteriliyor.",
+        "Bu kalemlerin önemli bir bölümü klasik SEO'nun temelleriyle örtüşüyor. Taranabilirlik, indeksleme ve site mimarisi gibi teknik başlıkları [SEO rehberinde](/seo-rehberi) ayrıntılı olarak bulabilirsiniz.",
+      ] },
+      { baslik: "Türkiye'nin En İyi 15 GEO Ajansı – 2026 Güncel Liste", paragraflar: [
+        "Aşağıdaki ajanslar farklı ülkelerde, sektörlerde ve hizmet modellerinde faaliyet gösteriyor. Dolayısıyla liste yalnızca Türkiye merkezli şirketleri değil, Türkiye'den hizmet alınabilecek uluslararası alternatifleri de içeriyor.",
+        "Ajanslar alfabetik olarak sıralanmıştır; numaralar yalnızca listeyi takip etmeyi kolaylaştırmak içindir ve bir performans sıralaması ifade etmez.",
+        "Listedeki ajansların klasik SEO tarafındaki hizmet modellerini [Türkiye'nin En İyi 15 SEO Ajansı](/blog/turkiye-en-iyi-15-seo-ajansi-2026) yazısında ayrıca ele aldık. Türkiye merkezli SEO ajanslarına odaklanan bir liste arıyorsanız [Türkiye'nin En İyi 10 SEO Ajansı](/blog/turkiye-en-iyi-10-seo-ajansi-2026) yazısına göz atabilirsiniz.",
+      ] },
+      { baslik: "1. 2Stallions Digital Marketing Agency", paragraflar: [
+        "2Stallions'ın hizmet modeli SEO'yu tek başına bir kanal olarak değerlendirmek yerine daha geniş dijital pazarlama ekosistemine bağlıyor. Singapur merkezli ajansın hizmet portföyünde SEO'nun yanında SEM, içerik pazarlaması, sosyal medya, sosyal reklamlar, web geliştirme ve pazarlama otomasyonu bulunuyor.",
+        "SEO tarafında local SEO, e-ticaret SEO ve video SEO gibi farklı alanlarda çalışması özellikle farklı dijital temas noktalarına sahip markalar için önemli.",
+        "GEO'yu mevcut SEO ve içerik yatırımlarının devamı olarak değerlendirmek isteyen ve özellikle Güneydoğu Asya pazarlarında faaliyet gösteren işletmeler için araştırılabilecek seçeneklerden biri.",
+      ], linkler: [
+        { isim: "2Stallions Digital Marketing Agency web sitesi", aciklama: "2stallions.com", url: "https://2stallions.com/" },
+      ] },
+      { baslik: "2. ClickExpose", paragraflar: [
+        "Birleşik Krallık odaklı ClickExpose'un hizmet modeli özellikle arama pazarlamasına yoğunlaşıyor. Ajans SEO çalışmalarına başlamadan önce mevcut görünürlüğü, rakip ortamını ve hedef anahtar kelimeleri analiz ederek işletmeye özel bir yol haritası oluşturduğunu belirtiyor.",
+        "Google Ads yönetiminin de aynı yapı içerisinde bulunması ClickExpose'u ücretli ve organik arama görünürlüğünü birlikte yönetmek isteyen şirketler açısından farklılaştırıyor.",
+        "Özellikle İngiltere pazarında müşteri kazanmayı hedefleyen şirketlerin değerlendirebileceği alternatifler arasında yer alıyor.",
+      ], linkler: [
+        { isim: "ClickExpose web sitesi", aciklama: "clickexpose.com", url: "https://clickexpose.com/" },
+      ] },
+      { baslik: "3. Kinex Media", paragraflar: [
+        "Kinex Media'nın dikkat çeken yönü, geleneksel SEO hizmetlerinin yanında yeni nesil AI arama alanlarını doğrudan hizmet portföyüne eklemiş olması. Kanada merkezli ajans; SEO, local SEO ve e-ticaret SEO çalışmalarının yanında GEO, AEO, ChatGPT SEO, Gemini ve Perplexity görünürlüğü üzerinde de çalışıyor.",
+        "Bu yapı, Google görünürlüğünü kaybetmeden AI arama ekosistemine geçiş yapmak isteyen markalar açısından önemli.",
+        "Aynı zamanda web tasarım ve geliştirme hizmetlerinin bulunması teknik geliştirme gerektiren SEO ve GEO projelerinde daha bütünleşik bir çalışma modeli sağlayabilir.",
+      ], linkler: [
+        { isim: "Kinex Media web sitesi", aciklama: "www.kinexmedia.com", url: "https://www.kinexmedia.com/" },
+      ] },
+      { baslik: "4. Kleosa", paragraflar: [
+        "B2B şirketlerde GEO stratejisinin yalnızca trafik değil, müşteri kazanımı ile bağlantılı olması özellikle önem taşıyor. Kleosa tam olarak bu alana odaklanan ajanslardan biri.",
+        "B2B SEO ve GEO'nun yanında Google Ads, CRO, analitik, CRM ve pazarlama otomasyonu hizmetlerini de aynı müşteri kazanım sisteminin parçaları olarak değerlendiriyor.",
+        "Teknik SEO, ticari arama niyeti, landing page optimizasyonu, schema, entity yapıları ve otorite geliştirme çalışmalarının bulunması özellikle uzun satış döngüsüne sahip işletmeler için önemli.",
+      ], linkler: [
+        { isim: "Kleosa web sitesi", aciklama: "www.kleosa.com", url: "https://www.kleosa.com/" },
+      ] },
+      { baslik: "5. Leading Solution Pte. Ltd.", paragraflar: [
+        "Leading Solution'ın hizmet yapısı hem klasik SEO hem de AI destekli arama görünürlüğünü kapsıyor. Singapur merkezli şirket teknik SEO'dan uluslararası SEO'ya, içerik üretiminden e-ticaret SEO'ya kadar geniş bir hizmet portföyü sunuyor.",
+        "AI SEO çalışmalarında ise Google AI Overviews, ChatGPT ve diğer üretken arama ortamlarında görünürlüğü geliştirmeye odaklanıyor.",
+        "Uluslararası pazarlara açılmak isteyen ve SEO, içerik, reklam ile web geliştirmeyi aynı sağlayıcı üzerinden yönetmeyi tercih eden markalar açısından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Leading Solution Pte. Ltd. web sitesi", aciklama: "theleadingsolution.com", url: "https://theleadingsolution.com/" },
+      ] },
+      { baslik: "6. Marketer Zilla", paragraflar: [
+        "Marketer Zilla organik büyümeyi trafik rakamlarından ziyade işletme sonuçlarıyla ilişkilendiren bir yaklaşım benimsiyor. Ajansın çalışma modeli B2B, SaaS, e-ticaret, hizmet şirketleri ve yerel işletmeler için farklılaştırılıyor.",
+        "Teknik indeksleme sorunları, ticari sorgular, içerik otoritesi ve dönüşüm takibi SEO stratejisinin temel parçalarını oluştururken AI Overviews, ChatGPT ve Perplexity görünürlüğü de çalışma kapsamına giriyor.",
+        "Bu yaklaşım özellikle GEO yatırımının yalnızca \"AI'da görünme\" metriğiyle değil ticari sonuçlarla değerlendirilmesini isteyen şirketler için anlamlı.",
+      ], linkler: [
+        { isim: "Marketer Zilla web sitesi", aciklama: "marketerzilla.com", url: "https://marketerzilla.com/" },
+      ] },
+      { baslik: "7. Mediaforce", paragraflar: [
+        "Mediaforce, Kanada'da faaliyet gösteren ve dijital pazarlama kanallarını geniş bir hizmet paketi içerisinde sunan ajanslardan biri. SEO hizmetlerinin yanında AEO, GEO ve AI Search Visibility çalışmalarının bulunması yeni nesil arama deneyimlerinin doğrudan hizmet kapsamına alındığını gösteriyor.",
+        "Ajans; teknik SEO, içerik ve otorite çalışmalarını performans pazarlaması, web tasarımı ve dönüşüm optimizasyonu gibi alanlarla destekleyebiliyor.",
+        "Özellikle çok kanallı büyüme stratejisi oluşturan şirketler açısından değerlendirilebilir.",
+      ], linkler: [
+        { isim: "Mediaforce web sitesi", aciklama: "mediaforce.ca", url: "https://mediaforce.ca/" },
+      ] },
+      { baslik: "8. Mobitek", paragraflar: [
+        "Türkiye merkezli Mobitek, 2003 yılından bu yana dijital pazarlama alanında faaliyet gösteriyor. Ajansın uzun süredir SEO, performans pazarlaması, Google Ads, sosyal medya, içerik pazarlaması, medya planlama ve web tasarımı gibi farklı disiplinlerde hizmet sunması GEO çalışmalarının daha geniş bir dijital stratejiyle birlikte ele alınmasına imkân tanıyor.",
+        "Mobitek'in SEO modeli teknik SEO, içerik optimizasyonu, site dışı çalışmalar, e-ticaret SEO, kurumsal SEO ve ölçümlemeyi kapsıyor. Bunun yanında SEO ile Generative Engine Optimization çalışmalarını birlikte yürüterek markaların hem Google gibi klasik arama motorlarında hem de yapay zekâ destekli cevap sistemlerinde daha güçlü dijital görünürlük elde etmesini hedefleyen çalışmalar gerçekleştiriyor.",
+        "Özellikle Türkiye'deki kurumsal şirketler ve e-ticaret markaları için SEO, GEO, içerik, reklam ve analitiğin aynı stratejik çerçevede yönetilebilmesi önemli bir avantaj oluşturabilir.",
+      ], linkler: [
+        { isim: "Mobitek web sitesi", aciklama: "mobitek.com", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "9. Online Solutions Group GmbH", paragraflar: [
+        "Almanya ve DACH bölgesinde görünürlük kazanmak isteyen şirketler için yerel pazar bilgisi oldukça önemli. Online Solutions Group GmbH bu açıdan özellikle Almanca konuşulan pazarlarda güçlü bir uzmanlık profili sunuyor.",
+        "B2B SEO, e-ticaret SEO, local ve enterprise SEO, uluslararası SEO, içerik, link building ve SEO audit hizmetlerinin yanında GEO çalışmalarına da yer veriyor.",
+        "Aynı zamanda şirket içi ekipler için danışmanlık ve workshop hizmetleri sunması, kendi SEO yetkinliğini geliştirmek isteyen kurumsal organizasyonlar açısından dikkat çekici.",
+      ], linkler: [
+        { isim: "Online Solutions Group GmbH web sitesi", aciklama: "www.onlinesolutionsgroup.de", url: "https://www.onlinesolutionsgroup.de/" },
+      ] },
+      { baslik: "10. PienetSEO", paragraflar: [
+        "PienetSEO farklı SEO disiplinlerini tek çatı altında toplamasıyla öne çıkıyor. Teknik SEO, local SEO, on-page ve off-page çalışmalar, enterprise SEO, uluslararası SEO, e-ticaret SEO ve migration projeleri ajansın kapsamı içerisinde.",
+        "AI SEO tarafında ChatGPT, Gemini, Perplexity ve Claude gibi sistemlerde marka görünürlüğünün geliştirilmesine odaklanıyor.",
+        "Geniş web sitesi mimarisine sahip işletmeler ve çok pazarlı uluslararası projeler için incelenebilecek ajanslardan biri.",
+      ], linkler: [
+        { isim: "PienetSEO web sitesi", aciklama: "www.pienetseo.in", url: "https://www.pienetseo.in/" },
+      ] },
+      { baslik: "11. SEO Consultant", paragraflar: [
+        "SEO Consultant, klasik büyük ajans modelinden farklı olarak daha doğrudan senior danışmanla çalışmaya dayalı bir hizmet modeli sunuyor. Yeni Zelanda merkezli yapının hizmet kapsamı anahtar kelime araştırması, teknik SEO audit, Core Web Vitals, site hızı, içerik pazarlaması, link building ve local SEO gibi alanları içeriyor.",
+        "AI ve AEO tarafında schema, entity yapıları ve içerik mimarisinden yararlanılarak Google'ın yapay zekâ özellikleri ile ChatGPT gibi sistemlerdeki görünürlüğün geliştirilmesi hedefleniyor.",
+        "Özellikle Yeni Zelanda ve Okyanusya pazarını hedefleyen şirketler için daha butik bir alternatif sunuyor.",
+      ], linkler: [
+        { isim: "SEO Consultant web sitesi", aciklama: "seoconsultant.co.nz", url: "https://seoconsultant.co.nz/" },
+      ] },
+      { baslik: "12. SEO Roas", paragraflar: [
+        "SEO Roas listedeki Türkiye pazarına odaklanan alternatiflerden biri. Teknik SEO, on-page SEO, link building, local SEO, e-ticaret SEO, içerik SEO, WordPress SEO, Shopify SEO ve kurumsal SEO gibi farklı hizmet alanlarında çalışıyor.",
+        "Google Ads, Meta reklamları, Google Tag Manager ve analitik hizmetlerinin bulunması ise organik trafiğin elde edilmesinden ölçümlenmesine kadar daha geniş bir yapı oluşturuyor.",
+        "Ajansın geleneksel SEO'nun yanında GEO hizmeti de sunması özellikle SEO ve AI görünürlüğünü aynı ekip üzerinden yönetmek isteyen şirketler açısından dikkat çekici.",
+      ], linkler: [
+        { isim: "SEO Roas web sitesi", aciklama: "seoroas.com", url: "https://seoroas.com/" },
+      ] },
+      { baslik: "13. Sniro Limited", paragraflar: [
+        "Sniro Limited'in farklılaştığı alanlardan biri SEO'nun yanında güçlü bir yazılım ve web geliştirme hizmet setine sahip olması. Londra merkezli şirket; WordPress, Shopify, WooCommerce, Magento ve Laravel geliştirme hizmetlerinin yanında UI/UX, branding, SEO, içerik pazarlaması ve farklı reklam platformlarının yönetimini sunuyor.",
+        "Bu model özellikle GEO veya SEO projesinin web sitesinde ciddi teknik geliştirme gerektirdiği senaryolarda anlamlı olabilir.",
+        "E-ticaret altyapısı, kullanıcı deneyimi ve organik görünürlüğü birlikte geliştirmek isteyen şirketler Sniro'yu değerlendirebilir.",
+      ], linkler: [
+        { isim: "Sniro Limited web sitesi", aciklama: "www.sniro.com", url: "https://www.sniro.com/" },
+      ] },
+      { baslik: "14. The Second Floor", paragraflar: [
+        "The Second Floor daha çok marka, kreatif, web geliştirme ve büyüme çalışmalarını aynı sistem içerisinde değerlendiren bir ajans yaklaşımı sunuyor. Ajansın Growth hizmetleri içerisinde SEO, AEO/GEO, içerik stratejisi, paid media ve sosyal medya büyümesi bulunuyor.",
+        "Web geliştirme tarafında ise Webflow, landing page, e-ticaret ve kullanıcı deneyimi projeleri gerçekleştiriliyor.",
+        "SEO ve GEO'nun kreatif marka çalışmalarıyla birlikte ele alınması, özellikle dijital konumlandırmasını yeniden oluşturan şirketler için dikkat çekici bir hizmet modeli ortaya çıkarıyor.",
+      ], linkler: [
+        { isim: "The Second Floor web sitesi", aciklama: "thesecondfloor.io", url: "https://thesecondfloor.io/" },
+      ] },
+      { baslik: "15. wukonig.com", paragraflar: [
+        "Listenin son sırasında özellikle B2B ve DACH pazarı açısından farklı bir uzmanlık sunan wukonig.com bulunuyor. Avusturya merkezli şirket web sitesinde 1999'dan bu yana faaliyet gösterdiğini belirtiyor.",
+        "SEO stratejisini yalnızca organik trafik üretmek üzerine değil, B2B satış süreçlerine nitelikli talep kazandırmak üzerine konumlandırıyor.",
+        "Almanya, Avusturya ve İsviçre gibi Almanca konuşulan pazarlarda müşteri kazanmak isteyen ve özellikle ihracat odaklı çalışan Türkiye merkezli B2B şirketleri açısından değerlendirilebilecek uluslararası alternatiflerden biri.",
+      ], linkler: [
+        { isim: "wukonig.com web sitesi", aciklama: "wukonig.com", url: "https://wukonig.com/" },
+      ] },
+      { baslik: "GEO Ajansı Seçerken Önce Bu 7 Soruyu Sorun", paragraflar: [
+        "Bir ajansın web sitesinde \"GEO hizmeti\" yazması tek başına yeterli bir seçim kriteri değildir. Görüşmeler sırasında daha somut sorular sormak gerekir. Ajans seçiminin genel çerçevesi için [SEO Ajansı Nasıl Seçilir?](/blog/seo-ajansi-nasil-secilir) rehberindeki kriterler büyük ölçüde geçerlidir; aşağıdaki sorular bunlara GEO'ya özgü bir katman ekler.",
+        "**1. Hangi sorgularda görünürlüğümüzü ölçeceksiniz?** \"Hedefimiz ChatGPT'de görünmek\" fazla geniş bir tanımdır. Ajansın müşterilerin satın alma yolculuğunda sorduğu gerçek soruları belirlemesi gerekir.",
+        "**2. Başlangıç ölçümünüz var mı?** Çalışmaya başlamadan önce mevcut AI görünürlüğü kaydedilmelidir. Aksi takdirde birkaç ay sonra gerçekleşen değişimin etkisini ölçmek güçleşir.",
+        "**3. Sadece içerik mi üreteceksiniz?** GEO yalnızca blog üretimi değildir. Teknik SEO, indekslenebilirlik, entity tanımları, schema, iç linkleme, marka otoritesi ve dış kaynak sinyallerinin birlikte değerlendirilmesi gerekir.",
+        "**4. Hangi AI platformlarını takip ediyorsunuz?** ChatGPT'de elde edilen görünürlük Gemini veya Perplexity'de aynı sonucu vermeyebilir. Bu nedenle mümkün olduğunda çoklu platform takibi tercih edilmelidir.",
+        "**5. Marka otoritesini nasıl geliştireceksiniz?** Yalnızca kendi web sitenizde markanız hakkında güçlü ifadeler kullanmanız yeterli olmayabilir. Güvenilir üçüncü taraf kaynaklar, sektör yayınları, dijital PR, citation ve marka mention'ları daha geniş dijital otoritenin parçalarıdır.",
+        "**6. GEO'yu SEO'dan nasıl ayırıyorsunuz?** Ajansın GEO'yu yalnızca yeniden isimlendirilmiş bir SEO paketi olarak sunmaması gerekir. Bununla birlikte GEO'nun mevcut teknik SEO ve içerik altyapısından tamamen bağımsız olduğunu söylemek de doğru değildir; iki disiplin güçlü biçimde bağlantılıdır.",
+        "**7. Başarıyı hangi metriklerle raporlayacaksınız?** GEO performansı için yalnızca organik trafik yeterli değildir. Takip edilebilecek göstergeler arasında AI answer mention oranı, hedef sorgularda görünürlük, kaynak gösterilme oranı, rakiplere karşı share of voice, markalı aramalardaki değişim, AI kaynaklı referral trafik ile lead ve dönüşüm verileri yer alabilir.",
+      ] },
+      { baslik: "GEO İçin En Önemli Teknik Unsurlar", paragraflar: [
+        "2026'da GEO çalışmalarında öne çıkan teknik alanlardan biri yapay zekâ sistemlerinin web sitesindeki içeriği mümkün olduğunca net yorumlayabilmesini sağlamaktır. Bunun için özellikle şu unsurlar önem taşır:",
+        "**İndekslenebilirlik:** Önemli sayfalar botlar tarafından erişilebilir olmalıdır.",
+        "**Schema markup:** Organization, Article, Product, Service ve ilgili diğer yapılandırılmış veri türleri markanın ve içeriğin bağlamını açıklamaya yardımcı olabilir.",
+        "**Entity tutarlılığı:** Marka adı, hizmetleri, lokasyonu, uzmanlığı ve diğer dijital profilleri arasında tutarlılık sağlanmalıdır.",
+        "**Açık içerik yapısı:** Sorulara doğrudan cevap veren bölümler, açıklayıcı başlıklar ve bağlamı güçlü paragraflar kullanılmalıdır.",
+        "**Kanıt:** Vaka çalışmaları, gerçek veriler, araştırmalar ve doğrulanabilir iddialar içeriğin güvenilirliğini güçlendirebilir. Bu yaklaşımla yürütülen çalışmalardan örnekleri [referanslar](/referanslar) sayfasında görebilirsiniz.",
+        "**Dış kaynaklar:** Markanın güvenilir üçüncü taraf kaynaklarda doğru bağlamda yer alması önemlidir.",
+        "Güncel GEO içeriklerinde bu katmanların birlikte çalışması gerektiği sıkça vurgulanıyor.",
+      ] },
+      { baslik: "GEO ve AEO Aynı Şey mi?", paragraflar: [
+        "Birbirine yakın kavramlar olmalarına rağmen tamamen aynı değiller. AEO, yani Answer Engine Optimization, içeriğin kullanıcı sorularına doğrudan ve anlaşılır yanıt vermesine odaklanır.",
+        "GEO ise daha geniş bir perspektifle markanın üretken yapay zekâ sistemleri tarafından anlaşılması, kaynak olarak kullanılması ve belirli kategorilerle ilişkilendirilmesini hedefler.",
+        "AEO, iyi bir GEO stratejisinin parçalarından biri olabilir; ancak GEO genellikle entity, marka otoritesi, citation, teknik yapı ve AI görünürlüğünün ölçümü gibi daha geniş alanları da kapsar. Bu kavramların kısa tanımlarını [AI sözlüğünde](/ai-sozluk) bulabilirsiniz.",
+      ] },
+      { baslik: "GEO Sonuçları Ne Kadar Sürede Alınır?", paragraflar: [
+        "GEO için tüm markalarda geçerli sabit bir süre vermek doğru değildir. Mevcut teknik altyapı, markanın internetteki otoritesi, sektör rekabeti, içerik hacmi ve hedeflenen sorgular sonucu doğrudan etkileyebilir.",
+        "Yeni bir markayla yıllardır dijital otorite oluşturan kurumsal bir şirketin aynı hızda sonuç almasını beklemek gerçekçi değildir.",
+        "Bu nedenle GEO projesine tek seferlik bir optimizasyon olarak değil; ölçüm, uygulama, yeniden ölçüm ve geliştirme döngüsü olarak yaklaşmak daha sağlıklıdır. Bu döngüyü ajans yerine doğrudan bir uzmanla kurmak isteyen markalar, çalışma modelini [GEO uzmanı](/geo-uzmani) sayfasında inceleyebilir.",
+      ] },
+      { baslik: "Sık Sorulan Sorular", paragraflar: [
+        "**GEO ajansı ne iş yapar?** GEO ajansı, markanın ChatGPT, Gemini, Perplexity ve diğer yapay zekâ destekli sistemler tarafından daha kolay anlaşılmasına ve ilgili cevaplarda görünme ihtimalinin geliştirilmesine yönelik teknik, içerik ve otorite çalışmaları yürütür.",
+        "**GEO sadece içerik optimizasyonu mudur?** Hayır. İçerik önemli olsa da teknik SEO, schema, entity optimizasyonu, otorite sinyalleri, dijital PR ve görünürlük ölçümü de çalışmanın parçalarıdır.",
+        "**SEO yapan her ajans GEO yapabilir mi?** Güçlü SEO yetkinliği önemli bir temel oluşturur. Ancak GEO için AI görünürlük ölçümü, entity yaklaşımı, generative engine araştırması ve yapay zekâ cevap sistemlerine özgü içerik stratejileri gibi ek yetkinliklerin bulunması gerekir.",
+        "**GEO e-ticaret siteleri için önemli midir?** Evet. Kullanıcıların ürün karşılaştırmaları, alternatif araştırmaları ve satın alma öncesi soruları yapay zekâ platformlarında gerçekleştirmesi e-ticaret markaları için yeni bir görünürlük alanı oluşturuyor.",
+        "**B2B şirketler GEO'dan faydalanabilir mi?** Özellikle B2B satın alma süreçlerinde kullanıcılar ürün, yazılım, tedarikçi ve hizmet sağlayıcı karşılaştırmalarını yapay zekâ araçları üzerinden yapabildiğinden GEO B2B şirketler için önemli bir alan hâline gelebilir.",
+        "**GEO ve SEO birlikte yürütülmeli mi?** Çoğu durumda evet. Sağlam teknik SEO, erişilebilir içerik ve güçlü web otoritesi GEO için de önemli bir temel oluşturduğu için iki çalışma birbirini tamamlar. Organik görünürlüğün klasik arama tarafı [SEO uzmanı](/seo-uzmani) sayfasında ayrıca ele alınıyor.",
+      ], linkler: [
+        { isim: "Türkiye'nin En İyi 10 GEO Ajansı", aciklama: "GEO ajansı seçim kriterleriyle 10 ajanslık liste", url: "/blog/turkiye-en-iyi-10-geo-ajansi-2026" },
+        { isim: "Türkiye'nin En İyi 15 SEO Ajansı", aciklama: "Aynı ajansların SEO hizmet modelleri", url: "/blog/turkiye-en-iyi-15-seo-ajansi-2026" },
+        { isim: "Türkiye'nin En İyi 10 SEO Ajansı", aciklama: "Türkiye merkezli 10 SEO ajansı", url: "/blog/turkiye-en-iyi-10-seo-ajansi-2026" },
+        { isim: "SEO Ajansı Nasıl Seçilir?", aciklama: "Teklif görüşmesinde sorulacak somut sorular", url: "/blog/seo-ajansi-nasil-secilir" },
+        { isim: "GEO Rehberi", aciklama: "Yapay zekâ aramalarında görünürlüğün temelleri", url: "/geo-rehberi" },
+        { isim: "GEO Uzmanı", aciklama: "ChatGPT, Gemini ve AI Overviews görünürlüğü için danışmanlık", url: "/geo-uzmani" },
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "A New Arena for Search Visibility", paragraflar: [
+        "The new competitive arena in search is no longer just Google's first page. Today, when a user wants to compare a product, choose software, research a service provider or learn about a brand, they may turn to generative AI tools such as ChatGPT, Gemini, Perplexity and Claude alongside a search engine.",
+        "This has an important consequence for brands: **how AI describes your brand now matters as much as whether your website can be found.**",
+        "This is exactly where Generative Engine Optimization, or GEO, comes in. The goal of GEO work is not simply to drive more organic traffic to a website. It aims to associate the brand with specific topics, product categories and areas of expertise, to have it backed by trusted sources, and to turn it into a digital entity that AI systems can use in the right context when generating answers.",
+        "For that reason, a GEO agency's scope in 2026 can extend well beyond content optimisation. If you have not yet looked at the core concepts and steps of GEO, the [GEO guide](/en/geo-guide) is a good place to start.",
+      ] },
+      { baslik: "Why Has GEO Become a Separate Discipline?", paragraflar: [
+        "In the traditional search experience, a user typically entered a query, scanned the results and clicked through to different sites to piece together an answer. In generative AI systems the process can be reversed: the user asks a question and the system produces a direct answer from information gathered across dozens of sources.",
+        "In this environment, three distinct levels of visibility emerge for a brand:",
+        "**Findability:** Can AI systems access information about the brand?",
+        "**Understandability:** Is it clear what the brand does, which market it operates in and which products or services it offers?",
+        "**Recommendability:** Can the brand be considered a trustworthy, relevant option in response to related user questions?",
+        "Building these three layers requires many disciplines working together, from technical infrastructure to content architecture and from structured data to brand authority.",
+      ] },
+      { baslik: "What Does a GEO Agency Do?", paragraflar: [
+        "Although the scope varies by agency, a mature GEO programme usually includes: AI visibility and brand mention analysis, defining target question and prompt clusters, technical SEO and crawlability checks, entity optimisation, schema and structured data work, restructuring content architecture and creating content blocks that answer questions directly.",
+        "On top of these, strengthening brand authority and external source signals, digital PR and citation work, monitoring visibility in ChatGPT, Gemini and Perplexity, tracking competitors' positions in AI answers and reporting results regularly are also part of the scope.",
+        "International GEO guides likewise list AI visibility audits, query mapping, entity positioning, content architecture, authority building, technical optimisation and GEO-specific measurement among the core service groups.",
+        "A large share of these items overlaps with classic SEO fundamentals. You can find technical topics such as crawlability, indexing and site architecture covered in detail in the [SEO guide](/en/seo-guide).",
+      ] },
+      { baslik: "Turkey's Best 15 GEO Agencies – 2026 List", paragraflar: [
+        "The agencies below operate in different countries, sectors and service models. The list therefore includes not only Turkey-based companies but also international alternatives that can serve clients from Turkey.",
+        "The agencies are listed alphabetically; the numbering only makes the list easier to follow and does not represent a performance ranking.",
+        "We cover the classic SEO side of these agencies separately in [Turkey's Best 15 SEO Agencies](/en/blog/turkiye-en-iyi-15-seo-ajansi-2026). If you are looking for a list focused on Turkey-based SEO agencies, see [Turkey's Best 10 SEO Agencies](/en/blog/turkiye-en-iyi-10-seo-ajansi-2026).",
+      ] },
+      { baslik: "1. 2Stallions Digital Marketing Agency", paragraflar: [
+        "Rather than treating SEO as a standalone channel, 2Stallions ties it into a wider digital marketing ecosystem. Alongside SEO, the Singapore-based agency's portfolio includes SEM, content marketing, social media, social advertising, web development and marketing automation.",
+        "Its work across local SEO, e-commerce SEO and video SEO is particularly relevant for brands with many different digital touchpoints.",
+        "One of the options worth researching for businesses that want to treat GEO as a continuation of their existing SEO and content investment, especially those operating in Southeast Asian markets.",
+      ], linkler: [
+        { isim: "2Stallions Digital Marketing Agency website", aciklama: "2stallions.com", url: "https://2stallions.com/" },
+      ] },
+      { baslik: "2. ClickExpose", paragraflar: [
+        "UK-focused ClickExpose concentrates its service model on search marketing. The agency states that before starting SEO work it analyses current visibility, the competitive landscape and target keywords to build a business-specific roadmap.",
+        "Having Google Ads management within the same structure sets ClickExpose apart for companies that want to manage paid and organic search visibility together.",
+        "Among the alternatives worth considering for companies aiming to win customers in the UK market.",
+      ], linkler: [
+        { isim: "ClickExpose website", aciklama: "clickexpose.com", url: "https://clickexpose.com/" },
+      ] },
+      { baslik: "3. Kinex Media", paragraflar: [
+        "What stands out about Kinex Media is that it has added next-generation AI search directly to its portfolio alongside traditional SEO. The Canada-based agency works on GEO, AEO, ChatGPT SEO and Gemini and Perplexity visibility as well as SEO, local SEO and e-commerce SEO.",
+        "This structure matters for brands that want to move into the AI search ecosystem without losing their Google visibility.",
+        "Its web design and development services can also provide a more integrated working model for SEO and GEO projects that require technical development.",
+      ], linkler: [
+        { isim: "Kinex Media website", aciklama: "www.kinexmedia.com", url: "https://www.kinexmedia.com/" },
+      ] },
+      { baslik: "4. Kleosa", paragraflar: [
+        "For B2B companies, it is especially important that GEO strategy is tied to customer acquisition rather than traffic alone. Kleosa is one of the agencies focused on exactly this.",
+        "Alongside B2B SEO and GEO, it treats Google Ads, CRO, analytics, CRM and marketing automation as parts of the same customer acquisition system.",
+        "Its work on technical SEO, commercial search intent, landing page optimisation, schema, entity structures and authority building is particularly relevant for businesses with long sales cycles.",
+      ], linkler: [
+        { isim: "Kleosa website", aciklama: "www.kleosa.com", url: "https://www.kleosa.com/" },
+      ] },
+      { baslik: "5. Leading Solution Pte. Ltd.", paragraflar: [
+        "Leading Solution's service structure covers both classic SEO and AI-assisted search visibility. The Singapore-based company offers a broad portfolio from technical SEO to international SEO and from content production to e-commerce SEO.",
+        "In its AI SEO work it focuses on improving visibility in Google AI Overviews, ChatGPT and other generative search environments.",
+        "Worth considering for brands that want to expand into international markets and prefer to manage SEO, content, advertising and web development through a single provider.",
+      ], linkler: [
+        { isim: "Leading Solution Pte. Ltd. website", aciklama: "theleadingsolution.com", url: "https://theleadingsolution.com/" },
+      ] },
+      { baslik: "6. Marketer Zilla", paragraflar: [
+        "Marketer Zilla takes an approach that ties organic growth to business outcomes rather than traffic figures. Its working model is tailored for B2B, SaaS, e-commerce, service companies and local businesses.",
+        "Technical indexing issues, commercial queries, content authority and conversion tracking form the core of its SEO strategy, while visibility in AI Overviews, ChatGPT and Perplexity is also within scope.",
+        "This approach makes particular sense for companies that want GEO investment judged on commercial results rather than an \"appearing in AI\" metric alone.",
+      ], linkler: [
+        { isim: "Marketer Zilla website", aciklama: "marketerzilla.com", url: "https://marketerzilla.com/" },
+      ] },
+      { baslik: "7. Mediaforce", paragraflar: [
+        "Mediaforce is one of the agencies operating in Canada that offers digital marketing channels within a broad service package. Having AEO, GEO and AI Search Visibility work alongside SEO shows that next-generation search experiences are directly within its scope.",
+        "The agency can support technical SEO, content and authority work with performance marketing, web design and conversion optimisation.",
+        "Worth considering especially for companies building a multi-channel growth strategy.",
+      ], linkler: [
+        { isim: "Mediaforce website", aciklama: "mediaforce.ca", url: "https://mediaforce.ca/" },
+      ] },
+      { baslik: "8. Mobitek", paragraflar: [
+        "Turkey-based Mobitek has operated in digital marketing since 2003. Its long track record across SEO, performance marketing, Google Ads, social media, content marketing, media planning and web design allows GEO work to be handled as part of a wider digital strategy.",
+        "Mobitek's SEO model covers technical SEO, content optimisation, off-site work, e-commerce SEO, enterprise SEO and measurement. It also runs SEO and Generative Engine Optimization together, aiming to give brands stronger visibility both in classic search engines like Google and in AI-assisted answer systems.",
+        "For corporate companies and e-commerce brands in Turkey in particular, being able to manage SEO, GEO, content, advertising and analytics within the same strategic framework can be a significant advantage.",
+      ], linkler: [
+        { isim: "Mobitek website", aciklama: "mobitek.com", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "9. Online Solutions Group GmbH", paragraflar: [
+        "For companies that want to gain visibility in Germany and the DACH region, local market knowledge matters a great deal. Online Solutions Group GmbH offers a strong specialist profile in German-speaking markets in this respect.",
+        "Alongside B2B SEO, e-commerce SEO, local and enterprise SEO, international SEO, content, link building and SEO audits, it also includes GEO work.",
+        "Its consultancy and workshop services for in-house teams are notable for corporate organisations that want to build their own SEO capability.",
+      ], linkler: [
+        { isim: "Online Solutions Group GmbH website", aciklama: "www.onlinesolutionsgroup.de", url: "https://www.onlinesolutionsgroup.de/" },
+      ] },
+      { baslik: "10. PienetSEO", paragraflar: [
+        "PienetSEO stands out for bringing different SEO disciplines under one roof. Technical SEO, local SEO, on-page and off-page work, enterprise SEO, international SEO, e-commerce SEO and migration projects are all within its scope.",
+        "On the AI SEO side it focuses on improving brand visibility in systems such as ChatGPT, Gemini, Perplexity and Claude.",
+        "One of the agencies worth examining for businesses with large website architectures and multi-market international projects.",
+      ], linkler: [
+        { isim: "PienetSEO website", aciklama: "www.pienetseo.in", url: "https://www.pienetseo.in/" },
+      ] },
+      { baslik: "11. SEO Consultant", paragraflar: [
+        "Unlike the classic large-agency model, SEO Consultant offers a service model based on working more directly with a senior consultant. The New Zealand-based practice covers keyword research, technical SEO audits, Core Web Vitals, site speed, content marketing, link building and local SEO.",
+        "On the AI and AEO side, it uses schema, entity structures and content architecture to improve visibility in Google's AI features and in systems such as ChatGPT.",
+        "A more boutique alternative, especially for companies targeting New Zealand and Oceania.",
+      ], linkler: [
+        { isim: "SEO Consultant website", aciklama: "seoconsultant.co.nz", url: "https://seoconsultant.co.nz/" },
+      ] },
+      { baslik: "12. SEO Roas", paragraflar: [
+        "SEO Roas is one of the alternatives on the list focused on the Turkish market. It works across technical SEO, on-page SEO, link building, local SEO, e-commerce SEO, content SEO, WordPress SEO, Shopify SEO and enterprise SEO.",
+        "Its Google Ads, Meta advertising, Google Tag Manager and analytics services create a broader structure that runs from acquiring organic traffic to measuring it.",
+        "That the agency offers GEO alongside traditional SEO is notable for companies that want to manage SEO and AI visibility through the same team.",
+      ], linkler: [
+        { isim: "SEO Roas website", aciklama: "seoroas.com", url: "https://seoroas.com/" },
+      ] },
+      { baslik: "13. Sniro Limited", paragraflar: [
+        "One area where Sniro Limited differs is its strong software and web development service set alongside SEO. The London-based company offers WordPress, Shopify, WooCommerce, Magento and Laravel development as well as UI/UX, branding, SEO, content marketing and management of various advertising platforms.",
+        "This model can make sense particularly where a GEO or SEO project requires substantial technical development on the website.",
+        "Companies that want to improve e-commerce infrastructure, user experience and organic visibility together could consider Sniro.",
+      ], linkler: [
+        { isim: "Sniro Limited website", aciklama: "www.sniro.com", url: "https://www.sniro.com/" },
+      ] },
+      { baslik: "14. The Second Floor", paragraflar: [
+        "The Second Floor offers an agency approach that treats brand, creative, web development and growth work within the same system. Its Growth services include SEO, AEO/GEO, content strategy, paid media and social media growth.",
+        "On the web development side it delivers Webflow, landing page, e-commerce and user experience projects.",
+        "Handling SEO and GEO together with creative brand work produces a notable service model, especially for companies rebuilding their digital positioning.",
+      ], linkler: [
+        { isim: "The Second Floor website", aciklama: "thesecondfloor.io", url: "https://thesecondfloor.io/" },
+      ] },
+      { baslik: "15. wukonig.com", paragraflar: [
+        "Last on the list is wukonig.com, which offers a distinct specialism for B2B and the DACH market. The Austria-based company states on its website that it has been operating since 1999.",
+        "It positions SEO strategy not merely around generating organic traffic but around bringing qualified demand into B2B sales processes.",
+        "One of the international alternatives worth considering for Turkey-based B2B companies, especially export-focused ones, that want to win customers in German-speaking markets such as Germany, Austria and Switzerland.",
+      ], linkler: [
+        { isim: "wukonig.com website", aciklama: "wukonig.com", url: "https://wukonig.com/" },
+      ] },
+      { baslik: "Ask These 7 Questions Before Choosing a GEO Agency", paragraflar: [
+        "An agency listing a \"GEO service\" on its website is not a sufficient selection criterion on its own. You need to ask more concrete questions in meetings. The criteria in [How to Choose an SEO Agency](/en/blog/seo-ajansi-nasil-secilir) largely apply as the general framework; the questions below add a GEO-specific layer on top.",
+        "**1. Which queries will you measure our visibility on?** \"Our goal is to appear in ChatGPT\" is too broad a definition. The agency needs to identify the real questions customers ask along their buying journey.",
+        "**2. Do you take a baseline measurement?** Current AI visibility should be recorded before work begins. Otherwise it becomes hard to measure the effect of any change a few months later.",
+        "**3. Will you only produce content?** GEO is not just blog production. Technical SEO, indexability, entity definitions, schema, internal linking, brand authority and external source signals need to be assessed together.",
+        "**4. Which AI platforms do you track?** Visibility achieved in ChatGPT may not carry over to Gemini or Perplexity. Multi-platform tracking should therefore be preferred wherever possible.",
+        "**5. How will you build brand authority?** Making strong claims about your brand on your own website may not be enough. Trusted third-party sources, industry publications, digital PR, citations and brand mentions are all part of wider digital authority.",
+        "**6. How do you distinguish GEO from SEO?** The agency should not present GEO as a merely renamed SEO package. At the same time, it is not accurate to say GEO is entirely independent of existing technical SEO and content infrastructure; the two disciplines are closely linked.",
+        "**7. Which metrics will you report success on?** Organic traffic alone is not enough for GEO performance. Indicators worth tracking can include AI answer mention rate, visibility on target queries, citation rate, share of voice against competitors, changes in branded search, AI referral traffic, and lead and conversion data.",
+      ] },
+      { baslik: "The Most Important Technical Factors for GEO", paragraflar: [
+        "One of the key technical areas in GEO work in 2026 is making sure AI systems can interpret the content on a website as clearly as possible. The following factors matter in particular:",
+        "**Indexability:** Important pages must be accessible to bots.",
+        "**Schema markup:** Organization, Article, Product, Service and other relevant structured data types can help explain the context of the brand and its content.",
+        "**Entity consistency:** The brand name, services, location, expertise and other digital profiles should be consistent with one another.",
+        "**Clear content structure:** Use sections that answer questions directly, descriptive headings and paragraphs with strong context.",
+        "**Evidence:** Case studies, real data, research and verifiable claims can strengthen the credibility of content. You can see examples of work carried out with this approach on the [testimonials](/en/testimonials) page.",
+        "**External sources:** It matters that the brand appears in the right context on trusted third-party sources.",
+        "Current GEO literature frequently stresses that these layers need to work together.",
+      ] },
+      { baslik: "Are GEO and AEO the Same Thing?", paragraflar: [
+        "Although they are closely related, they are not identical. AEO, or Answer Engine Optimization, focuses on content giving direct, clear answers to user questions.",
+        "GEO takes a broader perspective, aiming for the brand to be understood by generative AI systems, used as a source and associated with specific categories.",
+        "AEO can be one part of a good GEO strategy, but GEO usually also covers wider areas such as entities, brand authority, citations, technical structure and measuring AI visibility. You can find short definitions of these terms in the [AI glossary](/en/ai-glossary).",
+      ] },
+      { baslik: "How Long Does GEO Take to Show Results?", paragraflar: [
+        "It is not right to give a fixed timeframe that applies to every brand. Existing technical infrastructure, the brand's authority online, sector competition, content volume and the queries targeted can all directly affect the outcome.",
+        "It is not realistic to expect a new brand to see results at the same pace as a corporate company that has been building digital authority for years.",
+        "It is therefore healthier to approach a GEO project not as a one-off optimisation but as a cycle of measurement, implementation, re-measurement and improvement. Brands that would rather set up this cycle directly with a specialist than with an agency can review the working model on the [GEO consulting](/en/geo-consulting) page.",
+      ] },
+      { baslik: "Frequently Asked Questions", paragraflar: [
+        "**What does a GEO agency do?** A GEO agency carries out technical, content and authority work so that a brand is more easily understood by ChatGPT, Gemini, Perplexity and other AI-assisted systems, and so that its chances of appearing in relevant answers improve.",
+        "**Is GEO just content optimisation?** No. Content matters, but technical SEO, schema, entity optimisation, authority signals, digital PR and visibility measurement are also part of the work.",
+        "**Can every SEO agency do GEO?** Strong SEO capability provides an important foundation. But GEO also requires additional capabilities such as AI visibility measurement, an entity-based approach, generative engine research and content strategies specific to AI answer systems.",
+        "**Does GEO matter for e-commerce sites?** Yes. Users running product comparisons, researching alternatives and asking pre-purchase questions on AI platforms creates a new visibility arena for e-commerce brands.",
+        "**Can B2B companies benefit from GEO?** Because buyers in B2B purchasing processes can compare products, software, suppliers and service providers through AI tools, GEO can become an important area for B2B companies.",
+        "**Should GEO and SEO be run together?** In most cases, yes. Solid technical SEO, accessible content and strong web authority are also an important foundation for GEO, so the two complement each other. The classic search side of organic visibility is covered separately on the [SEO consulting](/en/seo-consulting) page.",
+      ], linkler: [
+        { isim: "Turkey's Best 10 GEO Agencies", aciklama: "A list of 10 agencies with GEO selection criteria", url: "/en/blog/turkiye-en-iyi-10-geo-ajansi-2026" },
+        { isim: "Turkey's Best 15 SEO Agencies", aciklama: "The SEO service models of the same agencies", url: "/en/blog/turkiye-en-iyi-15-seo-ajansi-2026" },
+        { isim: "Turkey's Best 10 SEO Agencies", aciklama: "10 Turkey-based SEO agencies", url: "/en/blog/turkiye-en-iyi-10-seo-ajansi-2026" },
+        { isim: "How to Choose an SEO Agency", aciklama: "Concrete questions for the proposal meeting", url: "/en/blog/seo-ajansi-nasil-secilir" },
+        { isim: "GEO Guide", aciklama: "The fundamentals of visibility in AI search", url: "/en/geo-guide" },
+        { isim: "GEO Consulting", aciklama: "Consulting for ChatGPT, Gemini and AI Overviews visibility", url: "/en/geo-consulting" },
+      ] },
+    ],
+  },
+
+  'turkiye-en-iyi-10-geo-ajansi-2026': {
+    baslik_tr: "Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026",
+    meta_baslik_tr: "En İyi 10 GEO Ajansı - Güncel 2026",
+    baslik_en: "Turkey's Best 10 GEO Agencies - Updated 2026",
+    meta_baslik_en: "Best 10 GEO Agencies - Updated 2026",
+    meta_desc_tr: "GEO ajansı nedir, 2026'da neden önemli? Yapay zekâ arama görünürlüğü için 10 ajans, ajans seçim kriterleri ve SEO ile GEO arasındaki fark.",
+    meta_desc_en: "What is a GEO agency and why does it matter in 2026? 10 agencies for AI search visibility, selection criteria and the difference between SEO and GEO.",
+    etiket: 'GEO', sure: '10',
+    bolumler_tr: [
+      { baslik: "Google Sıralaması Artık Tek Görünürlük Ölçüsü Değil", paragraflar: [
+        "Google'da üst sıralarda görünmek dijital görünürlüğün önemli bir parçası olmaya devam ediyor. Ancak 2026 itibarıyla markaların karşısında yeni bir görünürlük alanı daha bulunuyor: ChatGPT, Gemini, Perplexity, Google AI Overviews ve benzeri yapay zekâ destekli cevap sistemleri.",
+        "Kullanıcıların arama alışkanlıkları değiştikçe markalar açısından soru da değişiyor. Artık yalnızca \"Google'da kaçıncı sıradayız?\" değil, \"Yapay zekâ markamızı biliyor mu, doğru tanımlıyor mu ve ilgili sorularda kaynak olarak kullanıyor mu?\" soruları da önem kazanıyor. Bu değişim **GEO (Generative Engine Optimization)** kavramını dijital pazarlamanın önemli çalışma alanlarından biri hâline getiriyor.",
+        "GEO; bir markanın, ürünün, hizmetin veya uzmanlık alanının üretken yapay zekâ sistemleri tarafından daha doğru anlaşılmasını, güvenilir bir kaynak olarak değerlendirilmesini ve uygun sorgularda cevapların içerisinde yer alma ihtimalinin artırılmasını hedefleyen optimizasyon çalışmalarını ifade eder. Kavramın ayrıntılı açıklaması ve uygulama adımları için [GEO rehberine](/geo-rehberi) göz atabilirsiniz.",
+        "Başarılı bir GEO stratejisinde yalnızca içerik üretmek yeterli değildir. Teknik SEO altyapısı, marka varlığının doğru tanımlanması, yapılandırılmış veriler, içerik mimarisi, dış kaynaklarda marka görünürlüğü, otorite sinyalleri ve AI görünürlüğünün ölçümlenmesi birlikte değerlendirilmelidir.",
+      ] },
+      { baslik: "GEO Ajansı Nedir?", paragraflar: [
+        "GEO ajansı; markaların geleneksel arama motorlarının yanında üretken yapay zekâ tabanlı arama ve cevap platformlarında görünürlüğünü geliştirmek amacıyla strateji oluşturan uzman ekipleri ifade eder.",
+        "Klasik SEO çalışmalarında sıralama, organik trafik ve tıklamalar önemli performans göstergeleriyken GEO çalışmalarında farklı sorular ortaya çıkar: Marka hangi AI sorgularında görünmektedir? ChatGPT veya Gemini markayı hangi kategoride değerlendirmektedir? Marka kaynak olarak gösteriliyor mu? Rakipler hangi sorularda daha sık önerilmektedir?",
+        "Bunlara ek olarak web sitesindeki bilgilerin yapay zekâ sistemleri tarafından kolayca anlaşılıp anlaşılamadığı, marka hakkındaki bilgilerin farklı web kaynaklarında tutarlı olup olmadığı ve içeriklerin yapay zekânın doğrudan kullanabileceği net cevaplar içerip içermediği de incelenir.",
+        "Bu nedenle GEO, SEO'nun alternatifi olarak değil; organik görünürlük stratejisini yeni arama deneyimlerine genişleten tamamlayıcı bir alan olarak değerlendirilmelidir. Bu genişlemenin dayandığı temel sağlam bir SEO altyapısıdır; temel adımları [SEO rehberinde](/seo-rehberi) bulabilirsiniz.",
+      ] },
+      { baslik: "2026'da GEO Neden Önemli?", paragraflar: [
+        "Kullanıcıların ürün araştırması, marka karşılaştırması, hizmet sağlayıcı seçimi ve satın alma öncesi bilgi toplama süreçlerinin bir bölümü artık yapay zekâ araçlarının içerisinde gerçekleşiyor.",
+        "Örneğin kullanıcı Google'da tek tek \"en iyi CRM programları\" sayfalarını incelemek yerine ChatGPT veya Perplexity'ye **\"50 kişilik satış ekibi için hangi CRM sistemlerini değerlendirmeliyim?\"** diye sorabiliyor.",
+        "Bu noktada görünürlüğün anlamı değişiyor. Marka yalnızca bir web sayfasının sıralamasını değil, yapay zekânın oluşturduğu cevabın içerisinde temsil edilmeyi hedefliyor.",
+        "GEO çalışmalarında bu nedenle genel görünürlük kadar **doğru satın alma sorularında görünürlük** önem taşıyor.",
+      ] },
+      { baslik: "Türkiye'nin En İyi 10 GEO Ajansı – 2026", paragraflar: [
+        "Aşağıdaki liste, GEO ve yapay zekâ arama görünürlüğü alanında değerlendirilebilecek farklı hizmet modellerine sahip 10 ajansı içeriyor. Ajanslar alfabetik olarak sıralanmıştır; numaralar bir performans sıralaması ifade etmez.",
+        "Beş ek alternatifle genişletilmiş liste için [Türkiye'nin En İyi 15 GEO Ajansı](/blog/turkiye-en-iyi-15-geo-ajansi-2026) yazısına bakabilirsiniz. Aynı ajansların klasik SEO hizmetlerine odaklanan değerlendirme [Türkiye'nin En İyi 15 SEO Ajansı](/blog/turkiye-en-iyi-15-seo-ajansi-2026) yazısında, Türkiye merkezli SEO ajansları ise [Türkiye'nin En İyi 10 SEO Ajansı](/blog/turkiye-en-iyi-10-seo-ajansi-2026) yazısında yer alıyor.",
+      ] },
+      { baslik: "1. 2Stallions Digital Marketing Agency", paragraflar: [
+        "Singapur merkezli 2Stallions, yalnızca SEO hizmeti sunan bir yapıdan ziyade farklı dijital pazarlama kanallarını aynı strateji içerisinde değerlendiren bir ajans modeliyle faaliyet gösteriyor.",
+        "SEO hizmetlerinin içerisinde yerel SEO, e-ticaret SEO ve video SEO gibi farklı çalışma alanlarının bulunması; organik görünürlüğün içerik, reklam ve genel dijital pazarlama stratejisinden bağımsız ele alınmadığını gösteriyor. Ajansın SEM, içerik pazarlaması, sosyal medya, web geliştirme ve pazarlama otomasyonu gibi alanlarda da hizmet sunması, farklı dijital kanalları tek ekip üzerinden yürütmek isteyen şirketler açısından önemli.",
+        "GEO tarafında değerlendirme yapan şirketler için 2Stallions'ın çok kanallı yapısı, özellikle Güneydoğu Asya pazarlarında büyümeyi hedefleyen markalar açısından incelenebilir.",
+      ], linkler: [
+        { isim: "2Stallions Digital Marketing Agency web sitesi", aciklama: "2stallions.com", url: "https://2stallions.com/" },
+      ] },
+      { baslik: "2. ClickExpose", paragraflar: [
+        "ClickExpose özellikle Birleşik Krallık pazarında organik ve ücretli Google görünürlüğünü birlikte geliştirmek isteyen şirketlere yönelik hizmet modeliyle öne çıkıyor.",
+        "Ajansın SEO yaklaşımında mevcut görünürlüğün analiz edilmesi, rakip araştırmaları, anahtar kelime stratejisinin oluşturulması ve işletmenin hedeflerine göre özel yol haritasının hazırlanması bulunuyor. SEO ile Google Ads çalışmalarının aynı ekip tarafından yürütülebilmesi ise markaların organik ve ücretli arama stratejilerini daha bütüncül değerlendirmesine imkân tanıyor.",
+        "Özellikle Birleşik Krallık pazarını hedefleyen ve GEO çalışmalarını mevcut arama pazarlaması stratejisinin üzerine inşa etmek isteyen şirketler ClickExpose'u inceleyebilir.",
+      ], linkler: [
+        { isim: "ClickExpose web sitesi", aciklama: "clickexpose.com", url: "https://clickexpose.com/" },
+      ] },
+      { baslik: "3. Kinex Media", paragraflar: [
+        "Kanada merkezli Kinex Media, klasik SEO çalışmalarının yanında yapay zekâ destekli arama görünürlüğüne yönelik hizmetlerini genişleten ajanslardan biri. Ajans; local SEO ve e-ticaret SEO gibi geleneksel hizmetlerin yanı sıra GEO, AEO, ChatGPT SEO, Gemini ve Perplexity görünürlüğü gibi alanlarda da çalışmalar sunuyor.",
+        "Bu yaklaşım Kinex Media'yı özellikle Google organik görünürlüğü ile yapay zekâ platformlarındaki görünürlüğü aynı strateji içerisinde değerlendirmek isteyen şirketler için dikkat çekici hâle getiriyor.",
+        "Web tasarım ve geliştirme hizmetlerinin de bulunması, teknik altyapı ile organik görünürlük çalışmalarının aynı yapı içerisinde yürütülebilmesine katkı sağlıyor.",
+      ], linkler: [
+        { isim: "Kinex Media web sitesi", aciklama: "www.kinexmedia.com", url: "https://www.kinexmedia.com/" },
+      ] },
+      { baslik: "4. Kleosa", paragraflar: [
+        "Kleosa'nın yaklaşımı özellikle B2B şirketlerin dijital müşteri kazanım süreçleri üzerine kurulu. Ajans; B2B SEO, GEO, Google Ads, dönüşüm optimizasyonu, analitik, CRM ve pazarlama otomasyonu gibi farklı alanları birbirinden bağımsız çalışmalar yerine ortak bir müşteri kazanım sistemi içerisinde değerlendiriyor.",
+        "SEO çalışmalarında teknik SEO, arama niyeti araştırması, ticari landing page optimizasyonu, içerik stratejisi, schema ve entity optimizasyonu, otorite geliştirme ve Generative Engine Optimization gibi alanların bulunması GEO açısından dikkat çekici.",
+        "Özellikle B2B, profesyonel hizmetler, üretim ve yüksek müşteri değerine sahip sektörlerde faaliyet gösteren markalar Kleosa'nın yaklaşımını değerlendirebilir.",
+      ], linkler: [
+        { isim: "Kleosa web sitesi", aciklama: "www.kleosa.com", url: "https://www.kleosa.com/" },
+      ] },
+      { baslik: "5. Leading Solution Pte. Ltd.", paragraflar: [
+        "Singapur merkezli Leading Solution, geleneksel SEO ile yapay zekâ destekli arama görünürlüğünü aynı organik büyüme yaklaşımı içerisinde ele alan ajanslardan biri. Teknik SEO, on-page SEO, off-page SEO, local SEO, uluslararası SEO, e-ticaret SEO, SEO audit ve içerik üretimi gibi kapsamlı hizmetlerinin yanında AI SEO çalışmaları da bulunuyor.",
+        "Ajans özellikle Google AI Overviews, ChatGPT ve diğer yapay zekâ destekli arama ortamlarında markaların görünürlüğünü geliştirmeye yönelik çalışmalar yürüttüğünü belirtiyor.",
+        "Google Ads ve web geliştirme hizmetlerinin de bulunması, çok kanallı bir dijital büyüme modeli arayan şirketler açısından ek avantaj oluşturabiliyor.",
+      ], linkler: [
+        { isim: "Leading Solution Pte. Ltd. web sitesi", aciklama: "theleadingsolution.com", url: "https://theleadingsolution.com/" },
+      ] },
+      { baslik: "6. Marketer Zilla", paragraflar: [
+        "Marketer Zilla'nın SEO yaklaşımındaki temel farklardan biri, organik görünürlüğü yalnızca trafik veya pozisyon artışı üzerinden değerlendirmemesi. Ajans SEO çalışmalarını lead, satış ve gelir gibi işletme sonuçlarıyla ilişkilendirmeye odaklanıyor.",
+        "B2B şirketler, SaaS işletmeleri, e-ticaret markaları, hizmet şirketleri ve yerel işletmelere yönelik farklı SEO modelleri sunuyor. Teknik indeksleme sorunlarının çözülmesi, ticari arama niyetine sahip sorguların hedeflenmesi, içerik otoritesinin geliştirilmesi ve dönüşüm takibi öne çıkan çalışma alanları arasında.",
+        "Ayrıca AI Overviews, ChatGPT ve Perplexity gibi platformlardaki görünürlük de stratejinin bir parçası olarak değerlendiriliyor.",
+      ], linkler: [
+        { isim: "Marketer Zilla web sitesi", aciklama: "marketerzilla.com", url: "https://marketerzilla.com/" },
+      ] },
+      { baslik: "7. Mediaforce", paragraflar: [
+        "Kanada merkezli Mediaforce; SEO, dijital reklam, web tasarımı, sosyal medya ve yapay zekâ otomasyonu gibi farklı disiplinleri aynı hizmet yapısı içerisinde sunuyor. Ajansın SEO yaklaşımı geleneksel organik görünürlüğün yanında AEO, GEO ve AI Search Visibility çalışmalarını da kapsıyor.",
+        "Teknik SEO, içerik optimizasyonu ve otorite geliştirme çalışmalarını yapay zekâ destekli analizlerle birleştiren yaklaşımı, klasik arama ile yeni nesil AI arama deneyimleri arasında köprü oluşturuyor.",
+        "SEO'nun yanında performans pazarlaması ve dönüşüm optimizasyonuna ihtiyaç duyan işletmeler için Mediaforce geniş kapsamlı alternatiflerden biri olarak incelenebilir.",
+      ], linkler: [
+        { isim: "Mediaforce web sitesi", aciklama: "mediaforce.ca", url: "https://mediaforce.ca/" },
+      ] },
+      { baslik: "8. Mobitek", paragraflar: [
+        "2003 yılından bu yana dijital pazarlama alanında faaliyet gösteren Mobitek, listedeki Türkiye merkezli ajanslardan biri. İstanbul merkezli ajans; SEO, performans pazarlaması, Google Ads, sosyal medya, içerik pazarlaması, web tasarımı, medya planlama ve stratejik planlama gibi farklı dijital pazarlama disiplinlerini aynı çatı altında sunuyor.",
+        "SEO hizmetleri teknik SEO, içerik optimizasyonu, site dışı SEO, e-ticaret SEO, kurumsal SEO ve ölçümleme çalışmalarını kapsıyor. Mobitek aynı zamanda SEO ile Generative Engine Optimization çalışmalarını birlikte değerlendirerek markaların hem klasik arama motorlarında hem de yapay zekâ destekli arama deneyimlerinde görünürlüğünün geliştirilmesini hedefliyor.",
+        "Özellikle kurumsal şirketler ve e-ticaret markaları için SEO, GEO, reklam, içerik ve analitiğin entegre yönetilebilmesi Mobitek'in hizmet modelinde öne çıkan noktalardan biri.",
+      ], linkler: [
+        { isim: "Mobitek web sitesi", aciklama: "mobitek.com", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "9. Online Solutions Group GmbH", paragraflar: [
+        "Online Solutions Group GmbH, özellikle Almanca konuşulan pazarlara yönelik kapsamlı SEO hizmetleri sunan Almanya merkezli bir ajans. Hizmetleri arasında B2B SEO, local SEO, e-ticaret SEO, enterprise SEO, uluslararası SEO, SEO audit, link building, içerik ve site relaunch projeleri bulunuyor.",
+        "Ajans aynı zamanda şirketlerin kendi SEO ekiplerine yönelik danışmanlık ve workshop çalışmaları gerçekleştiriyor. SEO ve SEA faaliyetlerinin birlikte yürütülmesinin yanında yapay zekâ tabanlı arama sistemlerindeki görünürlüğü geliştirmek amacıyla GEO çalışmalarına da yer veriliyor.",
+        "Özellikle Almanya, Avusturya ve İsviçre pazarlarını hedefleyen şirketlerin değerlendirebileceği alternatiflerden biri.",
+      ], linkler: [
+        { isim: "Online Solutions Group GmbH web sitesi", aciklama: "www.onlinesolutionsgroup.de", url: "https://www.onlinesolutionsgroup.de/" },
+      ] },
+      { baslik: "10. PienetSEO", paragraflar: [
+        "Hindistan merkezli PienetSEO, geniş SEO hizmet portföyüyle farklı ölçekteki işletmelere hizmet veren ajanslardan biri. AI SEO, teknik SEO, local SEO, on-page ve off-page SEO, enterprise SEO, uluslararası SEO, e-ticaret SEO ve site migration SEO ajansın çalışma alanları arasında bulunuyor.",
+        "Yapay zekâ tarafında ise ChatGPT, Gemini, Perplexity ve Claude gibi platformlarda marka görünürlüğünü artırmaya yönelik AI SEO çalışmalarını öne çıkarıyor.",
+        "Bu geniş kapsam PienetSEO'yu özellikle büyük web siteleri, uluslararası projeler ve farklı SEO uzmanlıklarını tek ekip üzerinden yürütmek isteyen şirketler için incelenebilir bir seçenek hâline getiriyor.",
+      ], linkler: [
+        { isim: "PienetSEO web sitesi", aciklama: "www.pienetseo.in", url: "https://www.pienetseo.in/" },
+      ] },
+      { baslik: "GEO Ajansı Seçerken Nelere Dikkat Edilmeli?", paragraflar: [
+        "GEO henüz hızla gelişen bir alan olduğu için yalnızca hizmet sayfasında \"GEO\" ifadesinin bulunması ajans seçimi için yeterli değildir. Bir ajansı değerlendirirken şu konuların açık şekilde konuşulması faydalıdır:",
+        "**Teknik SEO bilgisi:** Yapay zekâ görünürlüğünün temelinde erişilebilir ve indekslenebilir bir web sitesi bulunmalıdır.",
+        "**Entity ve schema yaklaşımı:** Arama motorlarının ve yapay zekâ sistemlerinin markanın kim olduğunu, ne sunduğunu ve hangi konularda uzman olduğunu doğru anlayabilmesi gerekir. Entity, schema ve benzeri terimlerin kısa tanımları için [AI sözlüğüne](/ai-sozluk) bakabilirsiniz.",
+        "**AI görünürlük ölçümü:** ChatGPT, Gemini veya Perplexity gibi platformlarda belirlenen sorgular düzenli olarak takip edilmelidir.",
+        "**İçerik stratejisi:** İçerik yalnızca anahtar kelime hedeflememeli; kullanıcıların gerçek sorularına açık, anlaşılır ve kaynak gösterilebilir cevaplar üretmelidir.",
+        "**Otorite çalışmaları:** Dijital PR, güvenilir dış kaynaklar, marka mention'ları ve backlink yapısı GEO stratejisinin önemli parçaları olabilir.",
+        "**İş sonucu odaklılık:** AI platformunda görünmek tek başına yeterli değildir. Oluşan görünürlüğün doğru müşteri sorgularıyla ve mümkün olduğunda lead, satış ya da marka talebiyle ilişkilendirilmesi gerekir.",
+        "Güncel GEO rehberlerinde de teknik altyapı, entity yapılanması, AI görünürlük takibi, içerik otoritesi ve ölçümleme ortak seçim kriterleri arasında gösteriliyor. Teklif görüşmesinde sorulacak somut sorular için [SEO Ajansı Nasıl Seçilir?](/blog/seo-ajansi-nasil-secilir) rehberi de bu kriterleri tamamlıyor.",
+      ] },
+      { baslik: "SEO ve GEO Arasındaki Fark Nedir?", paragraflar: [
+        "SEO ile GEO birbirinin rakibi değildir. SEO; Google ve diğer arama motorlarında web sayfalarının bulunabilirliğini ve organik sıralamasını geliştirmeye odaklanır.",
+        "GEO ise bu altyapıyı genişleterek markanın üretken yapay zekâ sistemleri tarafından anlaşılması, kaynak olarak kullanılabilmesi ve ilgili cevaplarda yer alabilmesi üzerine yoğunlaşır.",
+        "Bu nedenle güçlü bir GEO stratejisinin temelinde çoğunlukla güçlü bir SEO altyapısı bulunur. İki alanın ayrı ayrı nasıl ele alındığını [SEO uzmanı](/seo-uzmani) ve [GEO uzmanı](/geo-uzmani) sayfalarında inceleyebilirsiniz.",
+      ] },
+      { baslik: "Sık Sorulan Sorular", paragraflar: [
+        "**GEO nedir?** GEO, Generative Engine Optimization'ın kısaltmasıdır. Markaların ChatGPT, Gemini, Perplexity ve benzeri yapay zekâ tabanlı arama ve cevap sistemlerinde daha doğru anlaşılması ve ilgili cevaplarda görünür hâle gelmesi için yapılan optimizasyon çalışmalarını ifade eder.",
+        "**GEO SEO'nun yerine geçer mi?** Hayır. GEO genel olarak güçlü SEO temellerinin üzerine eklenen yeni bir görünürlük katmanı olarak değerlendirilmektedir.",
+        "**GEO çalışmalarında hangi platformlar önemlidir?** ChatGPT, Google Gemini, Google AI Overviews, Perplexity, Claude ve Microsoft Copilot gibi üretken yapay zekâ tabanlı platformlar GEO stratejilerinde takip edilebilecek önemli alanlardır.",
+        "**GEO başarısı nasıl ölçülür?** Markanın hedef sorgularda AI cevaplarında görünmesi, hangi bağlamda anıldığı, kaynak olarak kullanılıp kullanılmadığı, rakiplere göre görünürlük payı ve mümkün olduğunda oluşan trafik, lead ve dönüşümler birlikte değerlendirilebilir.",
+        "**Her şirketin GEO çalışmasına ihtiyacı var mı?** Özellikle müşterileri satın alma öncesinde internet üzerinden araştırma ve karşılaştırma yapan markalar için GEO giderek daha önemli hâle geliyor. Ancak çalışma kapsamı şirketin sektörüne, hedef kitlesine ve mevcut dijital görünürlüğüne göre belirlenmelidir. Farklı sektörlerden örnekleri [referanslar](/referanslar) sayfasında görebilirsiniz.",
+      ], linkler: [
+        { isim: "Türkiye'nin En İyi 15 GEO Ajansı", aciklama: "Ajansa sorulacak 7 soruyla genişletilmiş liste", url: "/blog/turkiye-en-iyi-15-geo-ajansi-2026" },
+        { isim: "Türkiye'nin En İyi 15 SEO Ajansı", aciklama: "Aynı ajansların SEO hizmet modelleri", url: "/blog/turkiye-en-iyi-15-seo-ajansi-2026" },
+        { isim: "Türkiye'nin En İyi 10 SEO Ajansı", aciklama: "Türkiye merkezli 10 SEO ajansı", url: "/blog/turkiye-en-iyi-10-seo-ajansi-2026" },
+        { isim: "SEO Ajansı Nasıl Seçilir?", aciklama: "Teklif görüşmesinde sorulacak somut sorular", url: "/blog/seo-ajansi-nasil-secilir" },
+        { isim: "GEO Uzmanı", aciklama: "ChatGPT, Gemini ve AI Overviews görünürlüğü için danışmanlık", url: "/geo-uzmani" },
+        { isim: "AI Sözlük", aciklama: "GEO, AEO, entity ve LLM terimlerinin kısa tanımları", url: "/ai-sozluk" },
+      ] },
+    ],
+    bolumler_en: [
+      { baslik: "Google Rankings Are No Longer the Only Measure of Visibility", paragraflar: [
+        "Ranking high on Google remains an important part of digital visibility. But as of 2026, brands face another visibility arena: ChatGPT, Gemini, Perplexity, Google AI Overviews and similar AI-assisted answer systems.",
+        "As users' search habits change, so does the question brands need to ask. It is no longer just \"where do we rank on Google?\" but also \"does AI know our brand, describe it accurately and use it as a source for relevant questions?\" This shift has made **GEO (Generative Engine Optimization)** one of the important areas of digital marketing.",
+        "GEO refers to optimisation work aimed at helping generative AI systems understand a brand, product, service or area of expertise more accurately, treat it as a trusted source and include it in answers to relevant queries. For a detailed explanation and the practical steps, see the [GEO guide](/en/geo-guide).",
+        "Producing content alone is not enough for a successful GEO strategy. Technical SEO infrastructure, accurately defining the brand entity, structured data, content architecture, brand visibility on external sources, authority signals and measuring AI visibility all need to be considered together.",
+      ] },
+      { baslik: "What Is a GEO Agency?", paragraflar: [
+        "A GEO agency is a specialist team that builds strategy to improve a brand's visibility on generative AI-based search and answer platforms alongside traditional search engines.",
+        "In classic SEO, rankings, organic traffic and clicks are the key performance indicators; GEO raises different questions: Which AI queries does the brand appear in? Which category do ChatGPT or Gemini place the brand in? Is the brand cited as a source? Which questions are competitors recommended for more often?",
+        "Beyond these, GEO also examines whether the information on the website can be easily understood by AI systems, whether information about the brand is consistent across different web sources, and whether content contains clear answers that AI can use directly.",
+        "GEO should therefore be seen not as an alternative to SEO but as a complementary area that extends organic visibility strategy into new search experiences. The foundation of that extension is solid SEO infrastructure; you can find the basic steps in the [SEO guide](/en/seo-guide).",
+      ] },
+      { baslik: "Why Does GEO Matter in 2026?", paragraflar: [
+        "Part of users' product research, brand comparison, service provider selection and pre-purchase information gathering now takes place inside AI tools.",
+        "For example, instead of going through \"best CRM software\" pages on Google one by one, a user might ask ChatGPT or Perplexity: **\"Which CRM systems should I consider for a 50-person sales team?\"**",
+        "At this point the meaning of visibility changes. A brand aims not just for a web page to rank, but to be represented inside the answer AI generates.",
+        "In GEO work, then, **visibility on the right buying questions** matters as much as general visibility.",
+      ] },
+      { baslik: "Turkey's Best 10 GEO Agencies – 2026", paragraflar: [
+        "The list below includes 10 agencies with different service models that can be considered for GEO and AI search visibility. The agencies are listed alphabetically; the numbering does not represent a performance ranking.",
+        "For an expanded list with five more alternatives, see [Turkey's Best 15 GEO Agencies](/en/blog/turkiye-en-iyi-15-geo-ajansi-2026). A review of the same agencies focused on classic SEO services is in [Turkey's Best 15 SEO Agencies](/en/blog/turkiye-en-iyi-15-seo-ajansi-2026), and Turkey-based SEO agencies are covered in [Turkey's Best 10 SEO Agencies](/en/blog/turkiye-en-iyi-10-seo-ajansi-2026).",
+      ] },
+      { baslik: "1. 2Stallions Digital Marketing Agency", paragraflar: [
+        "Singapore-based 2Stallions operates with an agency model that treats different digital marketing channels within the same strategy, rather than offering SEO alone.",
+        "Its SEO services span local SEO, e-commerce SEO and video SEO, showing that organic visibility is not handled separately from content, advertising and overall digital marketing strategy. Its services in SEM, content marketing, social media, web development and marketing automation matter for companies that want to run different digital channels through a single team.",
+        "For companies evaluating GEO, 2Stallions' multi-channel structure is worth examining, particularly for brands targeting growth in Southeast Asian markets.",
+      ], linkler: [
+        { isim: "2Stallions Digital Marketing Agency website", aciklama: "2stallions.com", url: "https://2stallions.com/" },
+      ] },
+      { baslik: "2. ClickExpose", paragraflar: [
+        "ClickExpose stands out with a service model aimed at companies that want to grow organic and paid Google visibility together, especially in the UK market.",
+        "Its SEO approach includes analysing current visibility, competitor research, building a keyword strategy and preparing a custom roadmap based on business goals. Running SEO and Google Ads through the same team lets brands assess their organic and paid search strategies more holistically.",
+        "Companies targeting the UK market that want to build GEO work on top of their existing search marketing strategy could look at ClickExpose.",
+      ], linkler: [
+        { isim: "ClickExpose website", aciklama: "clickexpose.com", url: "https://clickexpose.com/" },
+      ] },
+      { baslik: "3. Kinex Media", paragraflar: [
+        "Canada-based Kinex Media is one of the agencies that has expanded its services toward AI-assisted search visibility alongside classic SEO. In addition to traditional services such as local SEO and e-commerce SEO, it offers work on GEO, AEO, ChatGPT SEO and Gemini and Perplexity visibility.",
+        "This approach makes Kinex Media notable for companies that want to treat Google organic visibility and visibility on AI platforms within the same strategy.",
+        "Its web design and development services also help technical infrastructure and organic visibility work run within the same structure.",
+      ], linkler: [
+        { isim: "Kinex Media website", aciklama: "www.kinexmedia.com", url: "https://www.kinexmedia.com/" },
+      ] },
+      { baslik: "4. Kleosa", paragraflar: [
+        "Kleosa's approach is built around the digital customer acquisition processes of B2B companies. Rather than treating B2B SEO, GEO, Google Ads, conversion optimisation, analytics, CRM and marketing automation as separate pieces of work, it brings them together in a shared customer acquisition system.",
+        "Its SEO work covering technical SEO, search intent research, commercial landing page optimisation, content strategy, schema and entity optimisation, authority building and Generative Engine Optimization is notable from a GEO perspective.",
+        "Brands in B2B, professional services, manufacturing and other high-customer-value sectors could consider Kleosa's approach.",
+      ], linkler: [
+        { isim: "Kleosa website", aciklama: "www.kleosa.com", url: "https://www.kleosa.com/" },
+      ] },
+      { baslik: "5. Leading Solution Pte. Ltd.", paragraflar: [
+        "Singapore-based Leading Solution is one of the agencies that handles traditional SEO and AI-assisted search visibility within the same organic growth approach. Alongside comprehensive services such as technical SEO, on-page SEO, off-page SEO, local SEO, international SEO, e-commerce SEO, SEO audits and content production, it also offers AI SEO work.",
+        "The agency states that it works specifically on improving brand visibility in Google AI Overviews, ChatGPT and other AI-assisted search environments.",
+        "Its Google Ads and web development services can be an added advantage for companies looking for a multi-channel digital growth model.",
+      ], linkler: [
+        { isim: "Leading Solution Pte. Ltd. website", aciklama: "theleadingsolution.com", url: "https://theleadingsolution.com/" },
+      ] },
+      { baslik: "6. Marketer Zilla", paragraflar: [
+        "One of the key differences in Marketer Zilla's SEO approach is that it does not judge organic visibility on traffic or ranking gains alone. The agency focuses on tying SEO work to business outcomes such as leads, sales and revenue.",
+        "It offers different SEO models for B2B companies, SaaS businesses, e-commerce brands, service companies and local businesses. Resolving technical indexing issues, targeting queries with commercial intent, building content authority and conversion tracking are among its main areas of work.",
+        "Visibility on platforms such as AI Overviews, ChatGPT and Perplexity is also treated as part of the strategy.",
+      ], linkler: [
+        { isim: "Marketer Zilla website", aciklama: "marketerzilla.com", url: "https://marketerzilla.com/" },
+      ] },
+      { baslik: "7. Mediaforce", paragraflar: [
+        "Canada-based Mediaforce offers disciplines such as SEO, digital advertising, web design, social media and AI automation within the same service structure. Its SEO approach covers AEO, GEO and AI Search Visibility work alongside traditional organic visibility.",
+        "Its approach of combining technical SEO, content optimisation and authority building with AI-assisted analysis builds a bridge between classic search and next-generation AI search experiences.",
+        "For businesses that need performance marketing and conversion optimisation alongside SEO, Mediaforce is worth examining as one of the broader-scope alternatives.",
+      ], linkler: [
+        { isim: "Mediaforce website", aciklama: "mediaforce.ca", url: "https://mediaforce.ca/" },
+      ] },
+      { baslik: "8. Mobitek", paragraflar: [
+        "Operating in digital marketing since 2003, Mobitek is one of the Turkey-based agencies on the list. The Istanbul-based agency offers disciplines such as SEO, performance marketing, Google Ads, social media, content marketing, web design, media planning and strategic planning under one roof.",
+        "Its SEO services cover technical SEO, content optimisation, off-site SEO, e-commerce SEO, enterprise SEO and measurement. Mobitek also treats SEO and Generative Engine Optimization together, aiming to improve brands' visibility both in classic search engines and in AI-assisted search experiences.",
+        "For corporate companies and e-commerce brands in particular, the ability to manage SEO, GEO, advertising, content and analytics in an integrated way is one of the standout points of Mobitek's service model.",
+      ], linkler: [
+        { isim: "Mobitek website", aciklama: "mobitek.com", url: "https://mobitek.com/" },
+      ] },
+      { baslik: "9. Online Solutions Group GmbH", paragraflar: [
+        "Online Solutions Group GmbH is a Germany-based agency offering comprehensive SEO services aimed especially at German-speaking markets. Its services include B2B SEO, local SEO, e-commerce SEO, enterprise SEO, international SEO, SEO audits, link building, content and site relaunch projects.",
+        "The agency also runs consultancy and workshops for companies' in-house SEO teams. Alongside running SEO and SEA together, it includes GEO work to improve visibility in AI-based search systems.",
+        "One of the alternatives worth considering for companies targeting Germany, Austria and Switzerland.",
+      ], linkler: [
+        { isim: "Online Solutions Group GmbH website", aciklama: "www.onlinesolutionsgroup.de", url: "https://www.onlinesolutionsgroup.de/" },
+      ] },
+      { baslik: "10. PienetSEO", paragraflar: [
+        "India-based PienetSEO is one of the agencies serving businesses of different sizes with a broad SEO portfolio. AI SEO, technical SEO, local SEO, on-page and off-page SEO, enterprise SEO, international SEO, e-commerce SEO and site migration SEO are among its areas of work.",
+        "On the AI side, it highlights AI SEO work aimed at increasing brand visibility on platforms such as ChatGPT, Gemini, Perplexity and Claude.",
+        "This broad scope makes PienetSEO an option worth examining, especially for large websites, international projects and companies that want to run different SEO specialisms through a single team.",
+      ], linkler: [
+        { isim: "PienetSEO website", aciklama: "www.pienetseo.in", url: "https://www.pienetseo.in/" },
+      ] },
+      { baslik: "What to Look for When Choosing a GEO Agency", paragraflar: [
+        "Because GEO is still evolving quickly, the word \"GEO\" appearing on a service page is not enough to choose an agency. When assessing an agency, it helps to discuss the following openly:",
+        "**Technical SEO knowledge:** AI visibility rests on an accessible, indexable website.",
+        "**Entity and schema approach:** Search engines and AI systems need to understand accurately who the brand is, what it offers and what it is expert in. For short definitions of entity, schema and similar terms, see the [AI glossary](/en/ai-glossary).",
+        "**AI visibility measurement:** Defined queries on platforms such as ChatGPT, Gemini or Perplexity should be tracked regularly.",
+        "**Content strategy:** Content should not just target keywords; it should give clear, understandable and citable answers to users' real questions.",
+        "**Authority work:** Digital PR, trusted external sources, brand mentions and backlink profile can be important parts of a GEO strategy.",
+        "**Focus on business outcomes:** Appearing on an AI platform is not enough on its own. The visibility gained needs to be tied to the right customer queries and, where possible, to leads, sales or brand demand.",
+        "Current GEO guides likewise list technical infrastructure, entity structuring, AI visibility tracking, content authority and measurement among the shared selection criteria. For concrete questions to ask in the proposal meeting, [How to Choose an SEO Agency](/en/blog/seo-ajansi-nasil-secilir) complements these criteria.",
+      ] },
+      { baslik: "What Is the Difference Between SEO and GEO?", paragraflar: [
+        "SEO and GEO are not rivals. SEO focuses on improving the findability and organic ranking of web pages on Google and other search engines.",
+        "GEO extends that infrastructure, concentrating on the brand being understood by generative AI systems, used as a source and included in relevant answers.",
+        "That is why a strong GEO strategy is usually built on strong SEO infrastructure. You can see how each area is handled on the [SEO consulting](/en/seo-consulting) and [GEO consulting](/en/geo-consulting) pages.",
+      ] },
+      { baslik: "Frequently Asked Questions", paragraflar: [
+        "**What is GEO?** GEO stands for Generative Engine Optimization. It refers to optimisation work that helps brands be understood more accurately by ChatGPT, Gemini, Perplexity and similar AI-based search and answer systems, and become visible in relevant answers.",
+        "**Does GEO replace SEO?** No. GEO is generally seen as a new visibility layer added on top of strong SEO foundations.",
+        "**Which platforms matter in GEO work?** Generative AI-based platforms such as ChatGPT, Google Gemini, Google AI Overviews, Perplexity, Claude and Microsoft Copilot are important areas to track in GEO strategies.",
+        "**How is GEO success measured?** Whether the brand appears in AI answers for target queries, in what context it is mentioned, whether it is used as a source, its share of visibility against competitors and, where possible, the resulting traffic, leads and conversions can be assessed together.",
+        "**Does every company need GEO?** GEO is becoming increasingly important, especially for brands whose customers research and compare online before buying. But the scope of work should be set according to the company's sector, target audience and existing digital visibility. You can see examples from different sectors on the [testimonials](/en/testimonials) page.",
+      ], linkler: [
+        { isim: "Turkey's Best 15 GEO Agencies", aciklama: "An expanded list with 7 questions to ask an agency", url: "/en/blog/turkiye-en-iyi-15-geo-ajansi-2026" },
+        { isim: "Turkey's Best 15 SEO Agencies", aciklama: "The SEO service models of the same agencies", url: "/en/blog/turkiye-en-iyi-15-seo-ajansi-2026" },
+        { isim: "Turkey's Best 10 SEO Agencies", aciklama: "10 Turkey-based SEO agencies", url: "/en/blog/turkiye-en-iyi-10-seo-ajansi-2026" },
+        { isim: "How to Choose an SEO Agency", aciklama: "Concrete questions for the proposal meeting", url: "/en/blog/seo-ajansi-nasil-secilir" },
+        { isim: "GEO Consulting", aciklama: "Consulting for ChatGPT, Gemini and AI Overviews visibility", url: "/en/geo-consulting" },
+        { isim: "AI Glossary", aciklama: "Short definitions of GEO, AEO, entity and LLM terms", url: "/en/ai-glossary" },
+      ] },
+    ],
+  },
 }
 
+
+// ─────────────────────────────────────────────────────────────
+// Paragraf içi biçimlendirme (yalnızca iki kalıp):
+//   [metin](/url)  → link. "/" ile başlayan iç linkler Next Link olur
+//                    (nofollow yok, aynı sekme); dış linkler yeni sekme + nofollow.
+//   **metin**      → kalın
+// Mevcut yazılarda bu kalıplar geçmediği için eski içerik etkilenmez.
+// ─────────────────────────────────────────────────────────────
+const INLINE_RE = /\[([^\]]+)\]\(([^)\s]+)\)|\*\*([^*]+)\*\*/g
+const inlineLinkStyle = { color: 'var(--orange)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px' }
+
+function renderInline(text) {
+  if (typeof text !== 'string' || (!text.includes('](') && !text.includes('**'))) return text
+  const parts = []
+  let last = 0
+  let m
+  INLINE_RE.lastIndex = 0
+  while ((m = INLINE_RE.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index))
+    const key = `i${m.index}`
+    if (m[1] !== undefined) {
+      const url = m[2]
+      parts.push(url.startsWith('/')
+        ? <Link key={key} href={url} style={inlineLinkStyle}>{m[1]}</Link>
+        : <a key={key} href={url} target="_blank" rel="nofollow noopener noreferrer" style={inlineLinkStyle}>{m[1]}</a>)
+    } else {
+      parts.push(<strong key={key} style={{ color: '#222', fontWeight: 700 }}>{m[3]}</strong>)
+    }
+    last = INLINE_RE.lastIndex
+  }
+  if (last < text.length) parts.push(text.slice(last))
+  return parts
+}
+
+// Link kartı etiketi: blog yazısı mı, site sayfası mı?
+const kartEtiketi = (url, isEn) => (url.startsWith('/blog/') || url.startsWith('/en/blog/'))
+  ? (isEn ? 'Read →' : 'Yazıyı oku →')
+  : (isEn ? 'View page →' : 'Sayfaya git →')
 
 export default function BlogPost(props) {
   const router = useRouter()
@@ -1891,7 +2549,7 @@ export default function BlogPost(props) {
                     <span style={{ width: '3px', height: '18px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>
                   {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{p}</p>
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{renderInline(p)}</p>
                   ))}
                   {b.linkler && (
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
@@ -1906,7 +2564,7 @@ export default function BlogPost(props) {
                                kendi sayfalarımıza nofollow vermek link akışını boşa harcar. */
                             l.url.startsWith('/') ? (
                               <Link href={l.url} style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)', whiteSpace: 'nowrap', flexShrink: 0, paddingTop: '2px' }}>
-                                {isEn ? 'Read →' : 'Yazıyı oku →'}
+                                {kartEtiketi(l.url, isEn)}
                               </Link>
                             ) : (
                               <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)', whiteSpace: 'nowrap', flexShrink: 0, paddingTop: '2px' }}>
@@ -1935,7 +2593,7 @@ export default function BlogPost(props) {
                     <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>
                   {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{p}</p>
+                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{renderInline(p)}</p>
                   ))}
                   {b.linkler && (
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
@@ -1946,7 +2604,7 @@ export default function BlogPost(props) {
                           {l.url && (
                             l.url.startsWith('/') ? (
                               <Link href={l.url} style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)' }}>
-                                {isEn ? 'Read →' : 'Yazıyı oku →'}
+                                {kartEtiketi(l.url, isEn)}
                               </Link>
                             ) : (
                               <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)' }}>
