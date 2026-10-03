@@ -163,7 +163,7 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{baslik} | {isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu</title>
+        <title>{`${baslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu`}</title>
         <meta name="description" content={`${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

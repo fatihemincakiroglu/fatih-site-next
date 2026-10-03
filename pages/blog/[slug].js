@@ -1733,7 +1733,7 @@ const ICERIKLER = {
 
   'turkiye-en-iyi-15-geo-ajansi-2026': {
     baslik_tr: "Türkiye'nin En İyi 15 GEO Ajansı - Güncel 2026",
-    meta_baslik_tr: "En İyi 15 GEO Ajansı - Güncel 2026",
+    meta_baslik_tr: "Türkiye'nin En İyi 15 GEO Ajansı - Güncel 2026",
     baslik_en: "Turkey's Best 15 GEO Agencies - Updated 2026",
     meta_baslik_en: "Best 15 GEO Agencies - Updated 2026",
     meta_desc_tr: "ChatGPT, Gemini ve Perplexity görünürlüğü için 15 GEO ajansı: alfabetik liste, ajansa sorulacak 7 soru, teknik GEO unsurları ve sık sorulan sorular.",
@@ -2097,7 +2097,7 @@ const ICERIKLER = {
 
   'turkiye-en-iyi-10-geo-ajansi-2026': {
     baslik_tr: "Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026",
-    meta_baslik_tr: "En İyi 10 GEO Ajansı - Güncel 2026",
+    meta_baslik_tr: "Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026",
     baslik_en: "Turkey's Best 10 GEO Agencies - Updated 2026",
     meta_baslik_en: "Best 10 GEO Agencies - Updated 2026",
     meta_desc_tr: "GEO ajansı nedir, 2026'da neden önemli? Yapay zekâ arama görünürlüğü için 10 ajans, ajans seçim kriterleri ve SEO ile GEO arasındaki fark.",
@@ -2500,7 +2500,7 @@ export default function BlogPost(props) {
   return (
     <>
       <Head>
-        <title>{metaBaslik} | Fatih Emin Çakıroğlu</title>
+        <title>{`${metaBaslik} | Fatih Emin Çakıroğlu`}</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
