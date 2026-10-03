@@ -225,7 +225,7 @@ export default function Page(props) {
     cta_h2: 'Ücretsiz SEO Analizi Alın',
     cta_desc: 'Sitenizi analiz edip en büyük fırsatları tespit edeceğim ve sıralamalarınızı geri tutan engelleri net biçimde göstereceğim — hiçbir yükümlülük olmadan.',
     cta_btn: 'Ücretsiz Görüşme Başlat →',
-    breadcrumb: ['Ana Sayfa', 'Hizmetler', 'SEO Danışmanlığı'],
+    breadcrumb: ['Ana Sayfa', 'Hizmetler', 'SEO Uzmanı'],
   }
 
   const hizmetler = isEn ? HIZMETLER.en : HIZMETLER.tr

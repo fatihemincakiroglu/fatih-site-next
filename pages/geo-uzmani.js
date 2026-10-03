@@ -158,7 +158,7 @@ export default function Page(props) {
     cta_h2: 'Ücretsiz GEO Analizi Alın',
     cta_desc: 'Markanızın AI arama sonuçlarında mevcut durumunu analiz edip kaynak görünürlüğü kazanmak için atmanız gereken adımları net biçimde göstereceğim.',
     cta_btn: 'Ücretsiz GEO Analizi Başlat →',
-    breadcrumb: ['Ana Sayfa', 'Hizmetler', 'GEO Danışmanlığı'],
+    breadcrumb: ['Ana Sayfa', 'Hizmetler', 'GEO Uzmanı'],
     kriter: 'Kriter', seo_col: 'Klasik SEO', geo_col: 'GEO',
   }
 
