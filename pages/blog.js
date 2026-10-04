@@ -1,4 +1,6 @@
 import { YAYINDAKI_BLOG_SLUGS } from '../lib/content-index'
+import { getBlogKapak } from '../lib/blog-kapaklar'
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
@@ -208,6 +210,23 @@ export const YAZILAR = TUM_YAZILAR.filter(y => YAYINDAKI_BLOG_SLUGS.includes(y.s
 
 const KAT_MAP = { technical: 'technical', geo: 'geo', content: 'content', backlink: 'backlink', ecommerce: 'ecommerce', analytics: 'analytics', local: 'local', strategy: 'strategy' }
 
+// Kart görseli: kapak varsa 16:9 görsel, yoksa kategori renginde yer tutucu.
+// Böylece görseli olan ve olmayan kartlar aynı hizada durur.
+function KartGorseli({ slug, kat, alt, sizes, priority = false }) {
+  const kapak = getBlogKapak(slug)
+  return (
+    <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: kat.bg, overflow: 'hidden', flexShrink: 0 }}>
+      {kapak ? (
+        <Image src={kapak} alt={alt} fill sizes={sizes} priority={priority} style={{ objectFit: 'cover' }} />
+      ) : (
+        <div aria-hidden="true" style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '56px', opacity: 0.35, background: `linear-gradient(135deg, ${kat.bg}, ${kat.renk}22)` }}>
+          {kat.emoji}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function Page(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
@@ -335,17 +354,19 @@ export default function Page(props) {
                     </span>
                     <div style={{ flex: 1, height: '1px', background: '#eee' }} />
                   </div>
-                  <div style={{ display: 'grid', gridTemplateColumns: featured.length >= 2 ? '2fr 1fr' : '1fr', gap: '16px' }}>
+                  <div className="blog-featured" style={{ display: 'grid', gridTemplateColumns: featured.length >= 2 ? '2fr 1fr' : '1fr', gap: '16px' }}>
                     {featured.slice(0, 1).map((y, i) => {
                       const kat = getKat(y.kategori)
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
                         <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
-                          style={{ background: kat.bg, borderRadius: '20px', padding: '36px', border: `1px solid ${kat.renk}20`, textDecoration: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: '260px', transition: 'transform 0.2s, box-shadow 0.2s', position: 'relative', overflow: 'hidden' }}
+                          className={featured.length >= 2 ? undefined : 'blog-featured-card'}
+                          style={{ background: kat.bg, borderRadius: '20px', padding: 0, border: `1px solid ${kat.renk}20`, textDecoration: 'none', display: 'grid', gridTemplateColumns: featured.length >= 2 ? '1fr' : '1fr 1fr', alignItems: 'stretch', minHeight: '260px', transition: 'transform 0.2s, box-shadow 0.2s', position: 'relative', overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = `0 16px 48px ${kat.renk}20` }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
-                          <div style={{ position: 'absolute', top: '-20px', right: '-20px', fontSize: '120px', opacity: 0.06 }}>{kat.emoji}</div>
+                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} sizes="(max-width: 768px) 100vw, 760px" priority />
+                          <div style={{ padding: '32px 36px 36px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', flex: 1 }}>
                           <div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
                               <span style={{ fontSize: '13px', fontWeight: 700, color: kat.renk, padding: '4px 12px', background: '#fff', borderRadius: '20px', border: `1px solid ${kat.renk}30` }}>{kat.emoji} {kat.label}</span>
@@ -356,6 +377,7 @@ export default function Page(props) {
                           </div>
                           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '20px', color: kat.renk, fontWeight: 700, fontSize: '14px' }}>
                             {t.read} <span style={{ fontSize: '18px' }}>→</span>
+                          </div>
                           </div>
                         </Link>
                       )
@@ -395,16 +417,18 @@ export default function Page(props) {
                       <div style={{ flex: 1, height: '1px', background: '#eee' }} />
                     </div>
                   )}
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
+                  <div className="blog-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
                     {(arama ? filtered : rest).map((y, i) => {
                       const kat = getKat(y.kategori)
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
                         <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
-                          style={{ background: '#fff', borderRadius: '16px', padding: '24px', border: '1px solid #eee', textDecoration: 'none', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s, box-shadow 0.2s', borderTop: `3px solid ${kat.renk}` }}
+                          style={{ background: '#fff', borderRadius: '16px', padding: 0, border: '1px solid #eee', textDecoration: 'none', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s, box-shadow 0.2s', borderTop: `3px solid ${kat.renk}`, overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.08)' }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
+                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} sizes="(max-width: 768px) 100vw, 400px" />
+                          <div style={{ padding: '20px 24px 24px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                             <span style={{ fontSize: '18px' }}>{kat.emoji}</span>
                             <span style={{ fontSize: '11px', fontWeight: 700, color: kat.renk, letterSpacing: '0.5px' }}>{kat.label}</span>
@@ -413,6 +437,7 @@ export default function Page(props) {
                           <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '15px', fontWeight: 700, color: '#111', lineHeight: 1.35, marginBottom: '10px', flex: 1 }}>{baslik}</h3>
                           <p style={{ fontSize: '13px', color: '#888', lineHeight: 1.6, marginBottom: '14px' }}>{ozet.slice(0, 80)}...</p>
                           <div style={{ color: kat.renk, fontWeight: 700, fontSize: '13px' }}>{t.read} →</div>
+                          </div>
                         </Link>
                       )
                     })}
@@ -429,6 +454,10 @@ export default function Page(props) {
         @media (max-width: 768px) {
           .blog-featured { grid-template-columns: 1fr !important; }
           .blog-grid { grid-template-columns: 1fr !important; }
+          .blog-featured-card { grid-template-columns: 1fr !important; }
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+          .blog-grid { grid-template-columns: repeat(2, 1fr) !important; }
         }
       `}</style>
     </>

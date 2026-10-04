@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { YAZILAR } from '../blog';
 import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
+import { getBlogKapak } from '../../lib/blog-kapaklar';
 
 const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -34,7 +35,6 @@ const ICERIKLER = {
     meta_desc_tr: "Sosyal medya ajansı seçerken platform seçimi, içerik ve video kapasitesi, reklam yönetimi, raporlama ve sözleşme nasıl değerlendirilir?",
     meta_desc_en: "How to assess platform selection, content and video capacity, ad management, reporting and contracts when choosing a social media agency.",
     etiket: 'Strateji', sure: '9',
-    kapak: '/images/blog/sosyal-medya-ajansi-nasil-secilir.png',
     bolumler_tr: [
       { baslik: "Sosyal Medya Ajansı Tam Olarak Neyi Satar?", paragraflar: [
         "Sosyal medya ajansı ifadesi, altında birbirinden çok farklı iş modellerini barındırır ve teklif karşılaştırmayı zorlaştıran asıl neden budur. Kabaca üç model vardır. Birincisi yalnızca içerik ve topluluk yönetimi sunar: tasarım yapar, metin yazar, paylaşır, yorum ve mesajları yönetir. İkincisi buna performans reklamını ekler; Meta ve TikTok kampanyalarını kurar ve optimize eder. Üçüncüsü ise kendi video prodüksiyon ekibini içeride tutar ve çekim, kurgu, senaryo işlerini de üstlenir. Bu üç modelin maliyeti de size sağladığı da farklıdır; aynı fiyat aralığında görünmeleri sizi yanıltmasın.",
@@ -173,7 +173,6 @@ const ICERIKLER = {
     meta_desc_tr: "SEO ajansı seçerken teknik yetkinlik, içerik stratejisi, raporlama ve sözleşme nasıl değerlendirilir? Teklif görüşmesinde sorulacak somut sorular.",
     meta_desc_en: "How to assess technical capability, content strategy, reporting and contracts when choosing an SEO agency, plus concrete questions for the proposal meeting.",
     etiket: 'Strateji', sure: '9',
-    kapak: '/images/blog/seo-ajansi-nasil-secilir.png',
     bolumler_tr: [
       { baslik: "SEO Ajansına Ne Zaman İhtiyaç Duyulur?", paragraflar: [
         "SEO ajansı arayışı çoğu zaman bir kriz anında başlar: sıralamalar düşmüştür, rakipler öne geçmiştir ya da yeni bir site yayına alınmış ama organik trafik gelmemiştir. Oysa ajans ihtiyacını belirleyen asıl şey kriz değil, kapasite açığıdır. SEO üç ayrı disiplini aynı anda gerektirir — teknik altyapı, içerik üretimi ve otorite geliştirme — ve bu üçünün hepsinde yetkin bir ekibi şirket içinde kurmak çoğu işletme için ekonomik değildir. Bir yazılımcının teknik SEO'yu, bir içerik editörünün arama niyetini ve bir pazarlamacının dijital PR'ı aynı anda yürütmesini beklemek gerçekçi olmaz. Ajans modeli tam olarak bu noktada anlam kazanır: farklı uzmanlıkları aynı proje üzerinde, sürekli bir operasyon olarak çalıştırır.",
@@ -1337,7 +1336,6 @@ const ICERIKLER = {
     meta_desc_tr: "Türkiye'de tanınan 15 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
     meta_desc_en: "An alphabetical, unranked overview of 15 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
     etiket: 'Strateji', sure: '10',
-    kapak: '/images/blog/turkiye-en-iyi-15-seo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Türkiye'de SEO Ajansı Piyasası Neden Büyüyor?", paragraflar: [
         "Dijital kanallar, Türkiye'deki işletmeler için yalnızca marka bilinirliği sağlayan bir alan olmaktan çıkarak doğrudan satış, müşteri kazanımı ve büyümenin önemli parçalarından biri haline geldi. Bu dönüşümle birlikte markaların Google ve diğer arama platformlarında görünür olma ihtiyacı da giderek daha stratejik bir konuya dönüşüyor.",
@@ -1677,7 +1675,6 @@ const ICERIKLER = {
     meta_desc_tr: "Türkiye'de tanınan 10 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
     meta_desc_en: "An alphabetical, unranked overview of 10 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
     etiket: 'Strateji', sure: '8',
-    kapak: '/images/blog/turkiye-en-iyi-10-seo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "SEO Ajansı Arayışı Türkiye'de Neden Yaygınlaşıyor?", paragraflar: [
         "Google'da görünür olmak, artık pek çok işletme için satışların doğrudan bağlı olduğu bir kanal haline geldi. Bununla birlikte SEO'nun teknik derinliği ve zaman gerektirmesi, markaları bu süreci kendi içlerinde değil, uzmanlaşmış bir ekiple yürütmeye yönlendiriyor.",
@@ -1744,7 +1741,6 @@ const ICERIKLER = {
     meta_desc_tr: "ChatGPT, Gemini ve Perplexity görünürlüğü için 15 GEO ajansı: alfabetik liste, ajansa sorulacak 7 soru, teknik GEO unsurları ve sık sorulan sorular.",
     meta_desc_en: "15 GEO agencies for visibility in ChatGPT, Gemini and Perplexity: an alphabetical list, 7 questions to ask, technical GEO factors and FAQs.",
     etiket: 'GEO', sure: '12',
-    kapak: '/images/blog/turkiye-en-iyi-15-geo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Arama Görünürlüğünde Yeni Rekabet Alanı", paragraflar: [
         "Arama dünyasında yeni rekabet alanı yalnızca Google'ın ilk sayfası değil. Bir kullanıcı bugün bir ürünü karşılaştırmak, bir yazılım seçmek, hizmet sağlayıcı araştırmak veya bir marka hakkında bilgi almak istediğinde arama motorunun yanında ChatGPT, Gemini, Perplexity ve Claude gibi üretken yapay zekâ araçlarına da başvurabiliyor.",
@@ -2109,7 +2105,6 @@ const ICERIKLER = {
     meta_desc_tr: "GEO ajansı nedir, 2026'da neden önemli? Yapay zekâ arama görünürlüğü için 10 ajans, ajans seçim kriterleri ve SEO ile GEO arasındaki fark.",
     meta_desc_en: "What is a GEO agency and why does it matter in 2026? 10 agencies for AI search visibility, selection criteria and the difference between SEO and GEO.",
     etiket: 'GEO', sure: '10',
-    kapak: '/images/blog/turkiye-en-iyi-10-geo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Google Sıralaması Artık Tek Görünürlük Ölçüsü Değil", paragraflar: [
         "Google'da üst sıralarda görünmek dijital görünürlüğün önemli bir parçası olmaya devam ediyor. Ancak 2026 itibarıyla markaların karşısında yeni bir görünürlük alanı daha bulunuyor: ChatGPT, Gemini, Perplexity, Google AI Overviews ve benzeri yapay zekâ destekli cevap sistemleri.",
@@ -2425,8 +2420,8 @@ export default function BlogPost(props) {
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
   const guncelleme = veri?.guncelleme || (isEn ? 'July 2026' : 'Temmuz 2026')
-  // Kapak görseli (opsiyonel): public/ altındaki yol. Yoksa site geneli og-image kullanılır.
-  const kapak = veri?.kapak || null
+  // Kapak görseli (opsiyonel): lib/blog-kapaklar.js. Yoksa site geneli og-image kullanılır.
+  const kapak = getBlogKapak(slug)
   const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
 
   // İlgili yazılar: aynı kategoriden, mevcut yazı hariç, en fazla 3 tane
