@@ -34,6 +34,7 @@ const ICERIKLER = {
     meta_desc_tr: "Sosyal medya ajansı seçerken platform seçimi, içerik ve video kapasitesi, reklam yönetimi, raporlama ve sözleşme nasıl değerlendirilir?",
     meta_desc_en: "How to assess platform selection, content and video capacity, ad management, reporting and contracts when choosing a social media agency.",
     etiket: 'Strateji', sure: '9',
+    kapak: '/images/blog/sosyal-medya-ajansi-nasil-secilir.png',
     bolumler_tr: [
       { baslik: "Sosyal Medya Ajansı Tam Olarak Neyi Satar?", paragraflar: [
         "Sosyal medya ajansı ifadesi, altında birbirinden çok farklı iş modellerini barındırır ve teklif karşılaştırmayı zorlaştıran asıl neden budur. Kabaca üç model vardır. Birincisi yalnızca içerik ve topluluk yönetimi sunar: tasarım yapar, metin yazar, paylaşır, yorum ve mesajları yönetir. İkincisi buna performans reklamını ekler; Meta ve TikTok kampanyalarını kurar ve optimize eder. Üçüncüsü ise kendi video prodüksiyon ekibini içeride tutar ve çekim, kurgu, senaryo işlerini de üstlenir. Bu üç modelin maliyeti de size sağladığı da farklıdır; aynı fiyat aralığında görünmeleri sizi yanıltmasın.",
@@ -172,6 +173,7 @@ const ICERIKLER = {
     meta_desc_tr: "SEO ajansı seçerken teknik yetkinlik, içerik stratejisi, raporlama ve sözleşme nasıl değerlendirilir? Teklif görüşmesinde sorulacak somut sorular.",
     meta_desc_en: "How to assess technical capability, content strategy, reporting and contracts when choosing an SEO agency, plus concrete questions for the proposal meeting.",
     etiket: 'Strateji', sure: '9',
+    kapak: '/images/blog/seo-ajansi-nasil-secilir.png',
     bolumler_tr: [
       { baslik: "SEO Ajansına Ne Zaman İhtiyaç Duyulur?", paragraflar: [
         "SEO ajansı arayışı çoğu zaman bir kriz anında başlar: sıralamalar düşmüştür, rakipler öne geçmiştir ya da yeni bir site yayına alınmış ama organik trafik gelmemiştir. Oysa ajans ihtiyacını belirleyen asıl şey kriz değil, kapasite açığıdır. SEO üç ayrı disiplini aynı anda gerektirir — teknik altyapı, içerik üretimi ve otorite geliştirme — ve bu üçünün hepsinde yetkin bir ekibi şirket içinde kurmak çoğu işletme için ekonomik değildir. Bir yazılımcının teknik SEO'yu, bir içerik editörünün arama niyetini ve bir pazarlamacının dijital PR'ı aynı anda yürütmesini beklemek gerçekçi olmaz. Ajans modeli tam olarak bu noktada anlam kazanır: farklı uzmanlıkları aynı proje üzerinde, sürekli bir operasyon olarak çalıştırır.",
