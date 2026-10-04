@@ -1,5 +1,6 @@
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
 import { KONUM_SAYFA_SLUGLARI } from '../lib/geo-konum/ilceler'
+import { SEO_KONUM_SLUGLARI } from '../lib/seo-konum'
 
 const BASE = 'https://fatihemincakiroglu.com'
 const TODAY = new Date().toISOString().split('T')[0] + 'T00:00:00Z'
@@ -131,8 +132,8 @@ function buildSitemapTR() {
     buildUrlEntry(`/rehber/${slug}`, '0.6', 'monthly', `/rehber/${slug}`, `/en/guides/${slug}`)
   ).join('')
 
-  // Yerel GEO uzmanı sayfaları (menüye bağlı değil; keşif sitemap üzerinden)
-  const konumUrls = KONUM_SAYFA_SLUGLARI.map(slug =>
+  // Yerel GEO ve SEO uzmanı sayfaları (menüye bağlı değil; keşif sitemap üzerinden)
+  const konumUrls = [...KONUM_SAYFA_SLUGLARI, ...SEO_KONUM_SLUGLARI].map(slug =>
     buildUrlEntryTR(`/${slug}`, '0.6', 'monthly')
   ).join('')
 
