@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { YAZILAR } from '../blog';
 import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
@@ -1334,6 +1335,7 @@ const ICERIKLER = {
     meta_desc_tr: "Türkiye'de tanınan 15 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
     meta_desc_en: "An alphabetical, unranked overview of 15 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
     etiket: 'Strateji', sure: '10',
+    kapak: '/images/blog/turkiye-en-iyi-15-seo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Türkiye'de SEO Ajansı Piyasası Neden Büyüyor?", paragraflar: [
         "Dijital kanallar, Türkiye'deki işletmeler için yalnızca marka bilinirliği sağlayan bir alan olmaktan çıkarak doğrudan satış, müşteri kazanımı ve büyümenin önemli parçalarından biri haline geldi. Bu dönüşümle birlikte markaların Google ve diğer arama platformlarında görünür olma ihtiyacı da giderek daha stratejik bir konuya dönüşüyor.",
@@ -1673,6 +1675,7 @@ const ICERIKLER = {
     meta_desc_tr: "Türkiye'de tanınan 10 SEO ajansına alfabetik, sıralama içermeyen bir bakış. 2026 güncel liste, seçim kriterleri ve her ajansın web sitesine link.",
     meta_desc_en: "An alphabetical, unranked overview of 10 well-known SEO agencies in Turkey. Updated for 2026, with selection criteria and links to each agency's site.",
     etiket: 'Strateji', sure: '8',
+    kapak: '/images/blog/turkiye-en-iyi-10-seo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "SEO Ajansı Arayışı Türkiye'de Neden Yaygınlaşıyor?", paragraflar: [
         "Google'da görünür olmak, artık pek çok işletme için satışların doğrudan bağlı olduğu bir kanal haline geldi. Bununla birlikte SEO'nun teknik derinliği ve zaman gerektirmesi, markaları bu süreci kendi içlerinde değil, uzmanlaşmış bir ekiple yürütmeye yönlendiriyor.",
@@ -1739,6 +1742,7 @@ const ICERIKLER = {
     meta_desc_tr: "ChatGPT, Gemini ve Perplexity görünürlüğü için 15 GEO ajansı: alfabetik liste, ajansa sorulacak 7 soru, teknik GEO unsurları ve sık sorulan sorular.",
     meta_desc_en: "15 GEO agencies for visibility in ChatGPT, Gemini and Perplexity: an alphabetical list, 7 questions to ask, technical GEO factors and FAQs.",
     etiket: 'GEO', sure: '12',
+    kapak: '/images/blog/turkiye-en-iyi-15-geo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Arama Görünürlüğünde Yeni Rekabet Alanı", paragraflar: [
         "Arama dünyasında yeni rekabet alanı yalnızca Google'ın ilk sayfası değil. Bir kullanıcı bugün bir ürünü karşılaştırmak, bir yazılım seçmek, hizmet sağlayıcı araştırmak veya bir marka hakkında bilgi almak istediğinde arama motorunun yanında ChatGPT, Gemini, Perplexity ve Claude gibi üretken yapay zekâ araçlarına da başvurabiliyor.",
@@ -2103,6 +2107,7 @@ const ICERIKLER = {
     meta_desc_tr: "GEO ajansı nedir, 2026'da neden önemli? Yapay zekâ arama görünürlüğü için 10 ajans, ajans seçim kriterleri ve SEO ile GEO arasındaki fark.",
     meta_desc_en: "What is a GEO agency and why does it matter in 2026? 10 agencies for AI search visibility, selection criteria and the difference between SEO and GEO.",
     etiket: 'GEO', sure: '10',
+    kapak: '/images/blog/turkiye-en-iyi-10-geo-ajansi-2026.png',
     bolumler_tr: [
       { baslik: "Google Sıralaması Artık Tek Görünürlük Ölçüsü Değil", paragraflar: [
         "Google'da üst sıralarda görünmek dijital görünürlüğün önemli bir parçası olmaya devam ediyor. Ancak 2026 itibarıyla markaların karşısında yeni bir görünürlük alanı daha bulunuyor: ChatGPT, Gemini, Perplexity, Google AI Overviews ve benzeri yapay zekâ destekli cevap sistemleri.",
@@ -2418,6 +2423,9 @@ export default function BlogPost(props) {
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
   const guncelleme = veri?.guncelleme || (isEn ? 'July 2026' : 'Temmuz 2026')
+  // Kapak görseli (opsiyonel): public/ altındaki yol. Yoksa site geneli og-image kullanılır.
+  const kapak = veri?.kapak || null
+  const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
 
   // İlgili yazılar: aynı kategoriden, mevcut yazı hariç, en fazla 3 tane
   const mevcutYazi = YAZILAR.find(y => y.slug === slug)
@@ -2478,6 +2486,22 @@ export default function BlogPost(props) {
     </div>
   )
 
+  // Kapak görseli: makale kartının en üstünde. Sayfanın LCP öğesi olduğu için
+  // priority ile önceden yüklenir; width/height oranı CLS'yi önler.
+  const KapakGorseli = kapak ? (
+    <figure style={{ margin: isMobile ? '0 0 24px' : '0 0 36px' }}>
+      <Image
+        src={kapak}
+        alt={baslik}
+        width={1280}
+        height={720}
+        priority
+        sizes="(max-width: 768px) 100vw, 720px"
+        style={{ width: '100%', height: 'auto', display: 'block', borderRadius: isMobile ? '10px' : '12px' }}
+      />
+    </figure>
+  ) : null
+
   // Makalenin ortasına yakın bir yerde gösterilecek bağlamsal CTA
   const midCtaIndex = bolumler.length >= 4 ? Math.floor(bolumler.length / 2) - 1 : -1
   const MidArticleCTA = (
@@ -2504,6 +2528,11 @@ export default function BlogPost(props) {
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {kapakUrl && <meta property="og:image" content={kapakUrl} key="og-image" />}
+        {kapakUrl && <meta property="og:image:width" content="1280" key="og-image-width" />}
+        {kapakUrl && <meta property="og:image:height" content="720" key="og-image-height" />}
+        {kapakUrl && <meta property="og:image:alt" content={baslik} key="og-image-alt" />}
+        {kapakUrl && <meta name="twitter:image" content={kapakUrl} key="twitter-image" />}
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
@@ -2543,6 +2572,7 @@ export default function BlogPost(props) {
           <div style={{ padding: '20px 16px 64px', maxWidth: '1100px', margin: '0 auto' }}>
             {TOC}
             <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee' }}>
+              {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -2587,6 +2617,7 @@ export default function BlogPost(props) {
           /* DESKTOP: 2-col layout */
           <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '32px', alignItems: 'start' }}>
             <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
+              {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
