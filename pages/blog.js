@@ -192,7 +192,7 @@ const TUM_YAZILAR = [
     tr: { baslik: 'Sosyal Medya Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular', ozet: 'Platform seçimi, içerik ve video kapasitesi, reklam yönetimi, raporlama ve sözleşme — teklif görüşmesinde sorulacak somut sorular.' },
     en: { baslik: 'How to Choose a Social Media Agency: Criteria and Questions to Ask', ozet: 'Platform selection, content and video capacity, ad management, reporting and contracts — concrete questions for the proposal meeting.' },
   },
-  { slug: 'dijital-pazarlama-ajansi-nasil-secilir', kategori: 'strategy', sure: 9, featured: false,
+  { slug: 'dijital-pazarlama-ajansi-nasil-secilir', kategori: 'strategy', sure: 10, featured: false,
     tr: { baslik: 'Dijital Pazarlama Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular', ozet: 'Ajans ölçeği, kanal derinliği, ölçümleme altyapısı, ekip erişimi ve sözleşme — nelere bakmalı, ne sormalı?' },
     en: { baslik: 'How to Choose a Digital Marketing Agency: Criteria and Questions to Ask', ozet: 'Agency scale, channel depth, measurement infrastructure, team access and contracts — what to look at and what to ask.' },
   },
