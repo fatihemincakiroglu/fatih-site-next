@@ -164,7 +164,7 @@ const TUM_YAZILAR = [
     tr: { baslik: 'SEO\'ya Ne Kadar Yatırım Yapmalı? Bütçe Planlama Rehberi', ozet: 'Sektöre ve rekabete göre SEO bütçesini belirleme ve yatırımın geri dönüşünü tahmin etme.' },
     en: { baslik: 'How Much to Invest in SEO? Budget Planning Guide', ozet: 'Determining the SEO budget based on sector and competition, and estimating the return on investment.' },
   },
-  { slug: 'seo-ajansi-nasil-secilir',  kategori: 'strategy', sure: 9, featured: false,
+  { slug: 'seo-ajansi-nasil-secilir',  kategori: 'strategy', sure: 19, featured: false,
     tr: { baslik: "SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye'den Örnekler", ozet: "Referanslar, şeffaflık ve sektör deneyimi gibi kriterlerle SEO ajansı seçimi — Türkiye'den alfabetik, tarafsız örnekler." },
     en: { baslik: 'How to Choose an SEO Agency: Criteria and Questions to Ask', ozet: 'Choosing an SEO agency based on references, transparency and industry experience — an alphabetical, unranked overview from Turkey.' },
   },

@@ -172,31 +172,446 @@ const ICERIKLER = {
     baslik_en: "How to Choose an SEO Agency: Criteria and Questions to Ask",
     meta_desc_tr: "SEO ajansı seçerken teknik yetkinlik, içerik stratejisi, raporlama ve sözleşme nasıl değerlendirilir? Teklif görüşmesinde sorulacak somut sorular.",
     meta_desc_en: "How to assess technical capability, content strategy, reporting and contracts when choosing an SEO agency, plus concrete questions for the proposal meeting.",
-    etiket: 'Strateji', sure: '9',
+    etiket: 'Strateji', sure: '19',
     bolumler_tr: [
-      { baslik: "SEO Ajansına Ne Zaman İhtiyaç Duyulur?", paragraflar: [
-        "SEO ajansı arayışı çoğu zaman bir kriz anında başlar: sıralamalar düşmüştür, rakipler öne geçmiştir ya da yeni bir site yayına alınmış ama organik trafik gelmemiştir. Oysa ajans ihtiyacını belirleyen asıl şey kriz değil, kapasite açığıdır. SEO üç ayrı disiplini aynı anda gerektirir — teknik altyapı, içerik üretimi ve otorite geliştirme — ve bu üçünün hepsinde yetkin bir ekibi şirket içinde kurmak çoğu işletme için ekonomik değildir. Bir yazılımcının teknik SEO'yu, bir içerik editörünün arama niyetini ve bir pazarlamacının dijital PR'ı aynı anda yürütmesini beklemek gerçekçi olmaz. Ajans modeli tam olarak bu noktada anlam kazanır: farklı uzmanlıkları aynı proje üzerinde, sürekli bir operasyon olarak çalıştırır.",
-        "Buna karşılık her işletmenin ajansa ihtiyacı yoktur ve bunu baştan kabul etmek gerekir. Tek bir hizmeti tek bir şehirde sunan küçük bir işletme için kapsamlı bir SEO çalışması yerine düzgün bir Google Business Profile, temiz bir site ve birkaç yerel içerik çoğu zaman yeterli sonucu verir. Benzer şekilde, ürünü henüz netleşmemiş veya talep hacmi çok düşük bir nişte faaliyet gösteren şirketler için SEO yatırımının geri dönüşü uzun ve belirsizdir; bu durumda önce talebin var olup olmadığını ölçmek daha doğrudur. Ajansla görüşmeden önce şu soruyu net cevaplayın: aradığınız şey bir eksikliğin kapatılması mı, yoksa mevcut bir potansiyelin ölçeklendirilmesi mi? Cevap, hangi profilde bir ekibe ihtiyacınız olduğunu da belirler.",
+      { baslik: null, paragraflar: [
+        "SEO yatırımı yapmaya karar veren bir işletmenin karşısına çıkan en önemli sorulardan biri, **“SEO ajansı nasıl seçilir?”** sorusudur. Çünkü SEO hizmetinin başarısını yalnızca kullanılan araçlar, hazırlanan içerikler veya alınan backlinkler belirlemez. Çalışacağınız ekibin stratejik yaklaşımı, teknik yeterliliği, iş modelinizi anlayabilmesi ve sonuçları doğru metriklerle ölçmesi de doğrudan performansı etkiler.",
+        "Doğru SEO ajansı; yalnızca belirli anahtar kelimelerde sıralama kazandırmaya çalışan bir hizmet sağlayıcı değildir. Web sitenizin teknik altyapısını, içerik yapısını, rakiplerinizi, kullanıcıların arama davranışlarını, dönüşüm sürecinizi ve işletmenin ticari hedeflerini birlikte değerlendirir.",
+        "Yanlış ajans seçimi ise aylarca zaman kaybetmenize, gereksiz bütçe harcamanıza ve bazı durumlarda web sitenizin organik görünürlüğünün gerilemesine yol açabilir.",
+        "Bu nedenle SEO hizmeti almadan önce yalnızca teklif fiyatlarını karşılaştırmak yerine ajansın metodolojisini, deneyimini, raporlama sistemini ve ortaya koyduğu sonuçları değerlendirmek gerekir.",
+        "Bu rehberde bir **SEO ajansı nasıl seçilir?** sorusuna karar verme sürecinin tüm aşamalarını kapsayacak şekilde yanıt vereceğiz.",
       ] },
-      { baslik: "Teknik SEO Yetkinliğini Nasıl Ölçersiniz?", paragraflar: [
-        "Teknik SEO, bir ajansın gerçekte ne kadar derinleştiğini anlamanın en hızlı yoludur; çünkü bu alanda blöf yapmak zordur. Görüşmede soyut sorular yerine somut senaryolar sorun: sitenizde JavaScript ile yüklenen içerik varsa Google'ın bunu nasıl işlediğini nasıl kontrol ederler? Kategori sayfalarındaki filtre kombinasyonları binlerce URL üretiyorsa bunu canonical ile mi, robots ile mi, yoksa parametre yönetimiyle mi çözerler ve neden? Site taşıma yapılacaksa yönlendirme haritasını kim çıkarır ve hangi kontrolleri yapar? Bu sorulara verilen cevapların somutluk düzeyi, hizmet listesinin uzunluğundan çok daha fazla bilgi verir.",
-        "İkinci bir test, ajansın uygulama kapasitesini anlamaktır. Bazı ajanslar yalnızca denetim raporu üretir ve düzeltmeleri sizin yazılım ekibinize bırakır; bazıları ise doğrudan kod tarafına girebilir. İkisi de geçerli modeldir ama sizin durumunuza uymayan model aylarca kayıp anlamına gelir. Şirketinizde SEO düzeltmelerini önceliklendirecek bir geliştirici yoksa, size 80 maddelik bir denetim raporu veren ajans pratikte hiçbir şey değiştirmemiş olur. Bu yüzden teklif aşamasında şunu yazılı olarak netleştirin: teknik değişiklikleri kim uygulayacak, hangi sıklıkta ve kimin onayıyla? Bu sorunun cevabı belirsizse, proje başlamadan tıkanmıştır.",
+      { baslik: "SEO Ajansı Nedir?", paragraflar: [
+        "SEO ajansı; markaların Google ve diğer arama motorlarında organik görünürlüğünü artırmak amacıyla teknik SEO, içerik optimizasyonu, anahtar kelime araştırması, rakip analizi, site dışı SEO ve performans ölçümleme çalışmaları gerçekleştiren profesyonel ekip veya kuruluşlardır.",
+        "Ancak modern SEO artık yalnızca Google'da birkaç kelimenin sıralamasını yükseltmekten ibaret değildir.",
+        "Bir SEO ajansının;",
+        {"liste": ["teknik SEO,", "içerik stratejisi,", "kullanıcı deneyimi,", "bilgi mimarisi,", "anahtar kelime analizi,", "dijital PR,", "backlink yönetimi,", "veri analizi,", "dönüşüm optimizasyonu,", "yapay zekâ destekli arama sistemleri"]},
+        "gibi birçok alanı birlikte değerlendirmesi gerekir.",
+        "SEO konusunda işletmenin kendi ekibinde yeterli uzmanlık bulunuyorsa çalışmalar şirket içinde de yürütülebilir. Ancak bu durumda süreci yönetecek deneyimli bir [SEO uzmanı](/seo-uzmani) bulunması büyük önem taşır.",
+        "Ajans modelinin temel avantajı ise farklı uzmanlık alanlarında çalışan kişilerin aynı proje üzerinde birlikte çalışabilmesidir.",
       ] },
-      { baslik: "İçerik Stratejisi: Hacim mi, Arama Niyeti mi?", paragraflar: [
-        "Türkiye'de SEO tekliflerinin önemli bir kısmı hâlâ içerik hacmi üzerinden fiyatlanıyor: ayda on içerik, yirmi içerik, elli içerik. Bu ölçü yanıltıcıdır çünkü içeriğin sayısı değil, hangi arama niyetine karşılık geldiği sonucu belirler. Bir kullanıcı \"nedir\" diye ararken bilgi arıyordur; \"fiyat\" veya \"karşılaştırma\" diye ararken satın almaya yaklaşmıştır; marka adıyla ararken zaten karar vermiştir. Bu üç niyet üç farklı sayfa tipi gerektirir ve hepsini aynı blog şablonuyla karşılamaya çalışan bir strateji, trafik getirse bile satış getirmez. Ajansa sorulacak doğru soru \"ayda kaç içerik üreteceksiniz?\" değil, \"hangi sorgular için hangi sayfa tipini üreteceksiniz ve neden?\" olmalıdır.",
-        "İkinci kritik nokta mevcut içeriğin yönetimidir. Çoğu sitede asıl fırsat yeni içerikte değil, hâlihazırda yayında olan ama zayıf performans gösteren sayfalardadır. İyi bir ajans işe yeni yazı planı çıkararak değil, mevcut sayfaların hangilerinin gösterim aldığı ama tıklama almadığını, hangilerinin birbiriyle yarıştığını ve hangilerinin artık güncelliğini yitirdiğini tespit ederek başlar. Aynı konuda iki ayrı sayfanın aynı sorguda yarışması — yaygın adıyla anahtar kelime yamyamlığı — birçok sitede sessizce performans kaybettirir. Ajansın ilk üç ayda ne yapacağını sorduğunuzda cevabın içinde mevcut içerik envanteri geçmiyorsa, muhtemelen sitenize henüz bakmamışlardır.",
+      { baslik: "SEO Ajansı Ne İş Yapar?", paragraflar: [
+        "Profesyonel bir SEO ajansı projeye yalnızca anahtar kelime listesi hazırlayarak başlamaz.",
+        "İlk olarak web sitesinin mevcut durumunu anlamaya çalışır.",
+        "Bu analiz genellikle şu alanları kapsar:",
+        {"liste": ["organik trafik performansı,", "indekslenme durumu,", "site mimarisi,", "URL yapısı,", "teknik hatalar,", "içerik kalitesi,", "rakip görünürlüğü,", "backlink profili,", "dönüşüm verileri,", "marka ve marka dışı aramalar."]},
+        "Ardından işletmenin hedefleriyle SEO fırsatları arasında bir strateji oluşturulur.",
+        "SEO'nun temel mantığını daha kapsamlı anlamak isteyen işletmeler için kapsamlı bir [SEO rehberi](/seo-rehberi) incelemek, ajansın yapacağı çalışmaların neden gerekli olduğunu anlamayı da kolaylaştırır.",
+        "Bir SEO ajansının görevi yalnızca tavsiye vermek değil; mümkün olduğu ölçüde bu önerilerin uygulanmasını sağlamak ve sonuçlarını takip etmektir.",
       ] },
-      { baslik: "Raporlama: Hangi Metrik Gerçekten Anlamlı?", paragraflar: [
-        "SEO raporlaması, ajansların birbirinden en net ayrıştığı alandır ve aynı zamanda en kolay manipüle edilen alandır. Raporun en üstünde anahtar kelime pozisyonları varsa dikkatli olun: sıralama tek başına bir iş sonucu değildir ve hangi kelimelerin raporlandığı seçilebilir. Rekabeti düşük, hacmi sıfıra yakın yüz kelimede birinci sırada olmak etkileyici bir grafik üretir ama ciroya dokunmaz. Anlamlı bir rapor organik trafiğin hangi sayfalara geldiğini, bu trafiğin dönüşüme ne kadar katkı verdiğini, Search Console'da gösterim alan ama tıklama alamayan sorguları ve teknik tarafta açık kalan sorunları birlikte gösterir.",
-        "İkinci mesele, ölçümleme altyapısının kimde olduğudur. Birçok projede ilk aylar analitik kurulumunun düzeltilmesiyle geçer çünkü dönüşüm takibi ya hiç yoktur ya da yanlış kurulmuştur. Bu normaldir ama baştan bilinmesi gerekir; aksi halde ajansın ilk iki ayda \"görünür bir şey yapmadığı\" hissi oluşur. Görüşmede şunu sorun: mevcut ölçümleme altyapımızı değerlendirdiniz mi, eksikler neler ve bunları kim kuracak? Ayrıca hesapların mülkiyeti kritik bir başlıktır — Google Analytics, Search Console ve Tag Manager hesapları sizin adınıza açılmalı, ajans yalnızca erişim almalıdır. İlişki bittiğinde veri geçmişinin sizde kalması, sonradan pazarlık konusu olmaktan çıkarılmalıdır.",
+      { baslik: "SEO Ajansı Seçmeden Önce Hedeflerinizi Belirleyin", paragraflar: [
+        "Ajans araştırmasına başlamadan önce şirketinizin SEO'dan ne beklediğini belirlemeniz gerekir.",
+        "Örneğin hedefiniz:",
+        {"liste": ["daha fazla organik trafik almak,", "e-ticaret satışlarını artırmak,", "belirli ürün kategorilerinde görünür olmak,", "daha fazla form doldurma veya telefon araması elde etmek,", "B2B lead üretmek,", "uluslararası pazarlarda görünür olmak,", "yerel aramalarda öne çıkmak,", "marka bilinirliğini artırmak"]},
+        "olabilir.",
+        "Bu hedeflerin her biri farklı bir SEO stratejisi gerektirir.",
+        "Örneğin e-ticaret sitesi için kategori sayfalarının performansı kritik olabilirken, B2B bir şirket için hizmet sayfaları ve bilgi odaklı içerikler daha önemli olabilir.",
+        "Bu nedenle ajansa yalnızca:",
+        {"alinti": "“Google'da üst sıralara çıkmak istiyoruz.”"},
+        "demek yeterli değildir.",
+        "Bunun yerine:",
+        {"alinti": "“Organik kanaldan gelen nitelikli potansiyel müşteri sayısını artırmak istiyoruz.”"},
+        "gibi ölçülebilir ve işletme sonucuyla bağlantılı hedefler belirlemek daha sağlıklıdır.",
       ] },
-      { baslik: "Sözleşme, Kapsam ve Çalışma Modeli", paragraflar: [
-        "SEO birkaç haftada tamamlanan bir proje değildir; teknik düzeltmelerin etkisi genellikle bir ile üç ay içinde, içerik ve otorite çalışmalarının etkisi dört ile altı ay içinde görünür hale gelir. Bu gerçek, uzun süreli sözleşmeleri makul kılar ama kapsamı anlamadan taahhüt vermeyi haklı çıkarmaz. Teklifte şu kalemler açıkça yazılı olmalıdır: aylık hizmete hangi çalışmalar dahil, içerik üretimi varsa hangi hacimde ve kim yazacak, teknik uygulamaları kim yapacak, link geliştirme kapsamda mı ve hangi yöntemle, raporlama hangi sıklıkta ve hangi formatta sunulacak.",
-        "Sözleşmenin ikinci yarısı çıkış koşullarıyla ilgilidir ve çoğu zaman atlanır. Fesih süresi nedir, hangi durumlarda erken çıkılabilir, üretilen içeriklerin ve yapılan teknik çalışmaların mülkiyeti kimdedir? Ajansla çalışırken üretilen blog içerikleri, hazırlanan şemalar ve kurulan ölçümleme yapısı sizin varlığınızdır; ilişki bittiğinde bunların devri tartışma konusu olmamalıdır. Bir başka önemli madde rakip çakışmasıdır: ajansın aynı sektörde doğrudan rakibinizle çalışıp çalışmadığını sorun. Bu her zaman engel değildir ama bilinmeden ilerlenmemelidir.",
+      { baslik: "İyi Bir SEO Ajansı Nasıl Anlaşılır?", paragraflar: [
+        "İyi bir SEO ajansını yalnızca web sitesinin tasarımından veya satış toplantısındaki sunumundan anlamak mümkün değildir.",
+        "Asıl değerlendirilmesi gereken konu ajansın SEO'ya nasıl yaklaştığıdır.",
+        {"alt": "İşletmenizi anlamaya çalışır"},
+        "Profesyonel bir ajans çalışmaya başlamadan önce şirketinizle ilgili sorular sorar.",
+        "Örneğin:",
+        {"liste": ["En kârlı ürün veya hizmetleriniz hangileri?", "Hedef kitleniz kim?", "Öncelikli pazarlarınız hangileri?", "En önemli rakipleriniz kim?", "Ortalama müşteri değeri nedir?", "Organik kanaldan hangi dönüşümleri bekliyorsunuz?"]},
+        "Bu sorular önemlidir çünkü SEO stratejisi işletmenin ekonomik gerçeklerinden bağımsız hazırlanmamalıdır.",
+        {"alt": "Hazır SEO paketi yerine özel strateji oluşturur"},
+        "Her web sitesi aynı değildir.",
+        "50 sayfalık kurumsal bir site ile yüz binlerce URL'ye sahip bir e-ticaret sitesinin SEO ihtiyacı tamamen farklıdır.",
+        "Bu nedenle:",
+        "**“10 kelime SEO paketi”**",
+        "veya",
+        "**“20 backlink + 4 blog içeriği”**",
+        "gibi standartlaştırılmış paketler çoğu zaman gerçek bir SEO stratejisini yansıtmaz.",
+        "Profesyonel yaklaşım, web sitesinin mevcut durumuna ve hedeflerine göre yol haritası oluşturmaktır.",
+        {"alt": "Ne yaptığını açık şekilde anlatır"},
+        "SEO teknik bir alan olsa da ajansın yaptığı çalışmaları anlaşılmaz terimlerin arkasına saklamaması gerekir.",
+        "Müşteri şu soruların cevabını bilmelidir:",
+        {"liste": ["Bu ay ne yapıldı?", "Neden yapıldı?", "Hangi sorun çözüldü?", "Sonuç ne oldu?", "Bir sonraki adım ne?"]},
+        "Şeffaflık, uzun vadeli ajans ilişkilerinin en önemli unsurlarından biridir.",
       ] },
-      { baslik: "Teklif Görüşmesinde Sorulacak Sorular", paragraflar: [
-        "İyi bir teklif görüşmesi, ajansın sizi değil sizin ajansı değerlendirdiğiniz bir görüşmedir. Somut ve karşılaştırılabilir cevap almak için şu soruları sorun: İlk üç ayda sırasıyla ne yapacaksınız? Sitemize baktınız mı, ilk gözünüze çarpan üç sorun ne? Hangi sorgularda büyüme potansiyeli görüyorsunuz ve bu tahmini neye dayandırıyorsunuz? Başarıyı hangi metriklerle ölçeceğiz ve bu metrikleri kim raporlayacak? Teknik düzeltmeleri kim uygulayacak? İçerikleri kim yazacak ve sektörümüzde yazmış örnekleriniz var mı? Link geliştirme yapıyor musunuz, hangi yöntemle?",
-        "Bu soruların cevaplarını iki üç ajanstan aynı biçimde alın ve yan yana koyun. Fark genellikle fiyatta değil, cevapların somutluk düzeyinde ortaya çıkar. Hazır bir sunum açıp genel geçer bir metodoloji anlatan ajansla, görüşmeye gelmeden önce sitenize bakıp iki üç somut tespit getiren ajans arasındaki mesafe, sonraki aylarda alacağınız hizmetin de habercisidir. Son olarak fiyat karşılaştırırken kapsamı eşitlemeyi unutmayın: iki teklif arasındaki fark çoğu zaman kaliteden değil, birinin içerik üretimini veya teknik uygulamayı kapsam dışı bırakmasından kaynaklanır.",
+      { baslik: "SEO Ajansının Referanslarını İnceleyin", paragraflar: [
+        "Ajans seçiminde ilk bakılan alanlardan biri genellikle referanslardır.",
+        "Ancak yalnızca müşteri logolarına bakmak yeterli değildir.",
+        "Bir ajans çok sayıda büyük marka ile çalışmış olabilir fakat bu markalarda hangi hizmetleri verdiği veya ne kadar başarılı olduğu bilinmeyebilir.",
+        "Bu nedenle mümkünse ajansın [referanslar](/referanslar) bölümünü inceleyin ve hangi sektörlerde deneyim kazandığını anlamaya çalışın.",
+        "Özellikle sizin sektörünüze benzeyen projeler değerlidir.",
+        "Ancak burada küçük bir ayrım yapmak gerekir.",
+        "Ajansın daha önce sizin sektörünüzde çalışmamış olması otomatik olarak kötü bir seçim olduğu anlamına gelmez.",
+        "Bazen farklı sektörlerde geliştirilen yöntemler yeni projelerde önemli avantajlar sağlayabilir.",
+        "Önemli olan ajansın problemi analiz etme ve yeni bir sektöre adapte olma kapasitesidir.",
+      ] },
+      { baslik: "Vaka Analizlerine Bakın", paragraflar: [
+        "Referanslardan daha değerli olan şey çoğu zaman vaka analizleridir.",
+        "Çünkü iyi hazırlanmış bir [vaka analizi](/vakalar), ajansın yalnızca kiminle çalıştığını değil, **nasıl çalıştığını ve hangi sonucu elde ettiğini** gösterir.",
+        "Bir vaka analizinde ideal olarak şu bilgiler bulunmalıdır:",
+        {"liste": ["projenin başlangıç durumu,", "temel sorunlar,", "uygulanan SEO stratejisi,", "yapılan teknik çalışmalar,", "içerik stratejisi,", "uygulama süresi,", "organik görünürlük değişimi,", "trafik değişimi,", "dönüşüm veya gelir değişimi."]},
+        "Örneğin:",
+        {"alinti": "“Organik trafik %200 arttı.”"},
+        "tek başına yeterli değildir.",
+        "Trafiğin hangi aramalardan geldiği ve işletmeye gerçek değer üretip üretmediği de önemlidir.",
+      ] },
+      { baslik: "SEO Ajansının Kendi Organik Görünürlüğünü İnceleyin", paragraflar: [
+        "SEO hizmeti veren bir ajansın veya uzmanın kendi dijital görünürlüğü de değerlendirme kriterlerinden biri olabilir.",
+        "Ajansın;",
+        {"liste": ["SEO ile ilgili aramalarda görünürlüğü,", "yayınladığı içeriklerin kalitesi,", "uzmanlık gösterdiği konu kümeleri,", "sektör hakkında ürettiği kaynaklar"]},
+        "incelenebilir.",
+        "Ancak yalnızca Google'daki sıralamasına bakarak karar vermek de doğru değildir.",
+        "Bazı ajanslar müşteri projelerine yoğunlaşırken kendi sitelerine daha az yatırım yapabilir.",
+        "Yine de düzenli içerik üreten ve kendi alanında görünürlük oluşturan bir ekip, metodolojisini değerlendirebilmeniz açısından daha fazla veri sunar.",
+        "Türkiye'deki farklı seçenekleri görmek isteyenler güncel [En İyi 10 SEO Ajansı](/blog/turkiye-en-iyi-10-seo-ajansi-2026) karşılaştırmalarını da başlangıç noktası olarak değerlendirebilir.",
+      ] },
+      { baslik: "SEO Ajansının Teknik SEO Yetkinliğini Değerlendirin", paragraflar: [
+        "SEO'nun en kritik alanlarından biri teknik SEO'dur.",
+        "İçerik üretmek veya backlink almak, teknik açıdan ciddi problemler yaşayan bir sitenin performansını tek başına düzeltemeyebilir.",
+        "Ajansın en azından şu konulara hâkim olması gerekir:",
+        {"liste": ["crawlability,", "indexability,", "canonical etiketleri,", "robots.txt,", "XML sitemap,", "HTTP durum kodları,", "yönlendirmeler,", "JavaScript SEO,", "Core Web Vitals,", "sayfa hızları,", "yapılandırılmış veri,", "hreflang,", "site mimarisi,", "faceted navigation,", "duplicate content,", "log analizi,", "crawl budget."]},
+        "Özellikle büyük e-ticaret sitelerinde teknik SEO çoğu zaman projenin en önemli bölümünü oluşturur.",
+        "Bu nedenle ajansa teklif aşamasında:",
+        {"alinti": "“Teknik SEO audit süreciniz nasıl ilerliyor?”"},
+        "diye sormak oldukça faydalıdır.",
+      ] },
+      { baslik: "İçerik Stratejisi Nasıl Oluşturuluyor?", paragraflar: [
+        "SEO ile içerik birbirinden ayrı düşünülemez.",
+        "Ancak içerik stratejisi yalnızca her ay belirli sayıda blog yazısı yayınlamak değildir.",
+        "Profesyonel bir [içerik stratejisi](/icerik), kullanıcının arama niyetini ve satın alma yolculuğunu dikkate almalıdır.",
+        "İçerikler genellikle farklı amaçlara hizmet eder:",
+        {"alt": "Bilgilendirici içerikler"},
+        "Kullanıcı henüz ürün veya hizmet araştırma aşamasındadır.",
+        "Örneğin:",
+        {"liste": ["SEO nedir?", "Teknik SEO nedir?", "Backlink nedir?"]},
+        {"alt": "Karşılaştırma içerikleri"},
+        "Kullanıcı alternatifleri değerlendirmektedir.",
+        "Örneğin:",
+        {"liste": ["SEO ajansı mı freelancer mı?", "En iyi SEO araçları hangileri?", "SEO ve Google Ads arasındaki fark nedir?"]},
+        {"alt": "Ticari içerikler"},
+        "Kullanıcı hizmet almaya daha yakındır.",
+        "Örneğin:",
+        {"liste": ["SEO danışmanlığı", "SEO ajansı", "SEO fiyatları"]},
+        "Başarılı içerik stratejisi bu arama niyetlerini birbirine bağlar.",
+      ] },
+      { baslik: "Ajans Anahtar Kelime Seçimini Nasıl Yapıyor?", paragraflar: [
+        "Anahtar kelime araştırması SEO'nun temel süreçlerinden biridir fakat yalnızca yüksek arama hacimli kelimeleri seçmek doğru değildir.",
+        "Örneğin aylık 50.000 kez aranan genel bir kelime işletmeniz için düşük ticari değere sahip olabilir.",
+        "Buna karşılık aylık 500 kez aranan daha spesifik bir sorgu çok daha yüksek dönüşüm üretebilir.",
+        "Ajansın anahtar kelimeleri değerlendirirken şu kriterleri dikkate alması gerekir:",
+        {"liste": ["arama hacmi,", "arama niyeti,", "rekabet,", "ticari değer,", "mevcut sıralama,", "SERP yapısı,", "dönüşüm potansiyeli,", "işletmenin ürün ve hizmetleriyle ilişkisi."]},
+        "Bu nedenle SEO raporunda yalnızca “X kelimesinde 4. sıraya yükseldik” bilgisinin bulunması yeterli değildir.",
+      ] },
+      { baslik: "Backlink Stratejisini Mutlaka Sorun", paragraflar: [
+        "Backlinkler hâlâ SEO'nun önemli unsurlarından biridir.",
+        "Ancak önemli olan yalnızca backlink sayısı değildir.",
+        "Kalitesiz ve alakasız bağlantılar uzun vadede hiçbir değer sağlamayabilir.",
+        "İyi bir [backlink](/backlink) stratejisi;",
+        {"liste": ["sektörle alakalı kaynakları,", "kaliteli yayınları,", "doğal anchor text dağılımını,", "marka görünürlüğünü,", "dijital PR çalışmalarını"]},
+        "dikkate almalıdır.",
+        "Ajansa şu soruları sorabilirsiniz:",
+        {"liste": ["Backlinkleri nasıl elde ediyorsunuz?", "Yayın seçim kriteriniz nedir?", "Linklerin kalitesini nasıl değerlendiriyorsunuz?", "Her ay zorunlu sayıda backlink alıyor musunuz?", "Dijital PR çalışması yapıyor musunuz?"]},
+        "Sadece “aylık 50 backlink” gibi sayısal vaatlere temkinli yaklaşmak gerekir.",
+      ] },
+      { baslik: "“Google'da 1. Sıra Garantisi” Veren Ajanslara Dikkat Edin", paragraflar: [
+        "SEO sektöründeki en belirgin kırmızı bayraklardan biri sıralama garantisidir.",
+        "Hiçbir SEO ajansı Google'ın algoritmasını kontrol edemez.",
+        "Bu nedenle:",
+        {"alinti": "“30 günde birinci sıra garantisi”"},
+        "veya",
+        {"alinti": "“3 ayda kesin ilk sayfa”"},
+        "gibi vaatler gerçekçi değildir.",
+        "Profesyonel SEO ajansı garanti vermek yerine;",
+        {"liste": ["mevcut durumu analiz eder,", "ulaşılabilir hedefler belirler,", "olası büyüme alanlarını gösterir,", "belirli KPI'lar üzerinden performansı takip eder."]},
+        "SEO'daki başarı olasılığı artırılabilir fakat organik sıralamalar mutlak şekilde garanti edilemez.",
+      ] },
+      { baslik: "SEO Ajansına Sorulması Gereken Sorular", paragraflar: [
+        "Ajansla görüşme yaparken satış sunumunu dinlemekle yetinmeyin.",
+        "Doğrudan süreçle ilgili sorular sorun.",
+        {"alt": "1. İlk 90 günde ne yapacaksınız?"},
+        "Bu soru ajansın çalışma metodolojisini anlamanızı sağlar.",
+        "İlk dönem genellikle;",
+        {"liste": ["audit,", "veri analizi,", "rakip analizi,", "keyword research,", "teknik önceliklendirme,", "içerik planlaması"]},
+        "ile geçer.",
+        {"alt": "2. Başarıyı hangi KPI'larla ölçeceksiniz?"},
+        "Cevap yalnızca “keyword ranking” ise dikkatli olun.",
+        "SEO performansı;",
+        {"liste": ["organik kullanıcı,", "organik oturum,", "non-brand trafik,", "lead,", "satış,", "ciro,", "görünürlük,", "tıklama,", "dönüşüm oranı"]},
+        "gibi birçok göstergeyle değerlendirilmelidir.",
+        {"alt": "3. Hangi araçları kullanıyorsunuz?"},
+        "Profesyonel SEO ekipleri genellikle birden fazla araç kullanır.",
+        "Bunlar arasında:",
+        {"liste": ["Google Search Console,", "Google Analytics,", "Screaming Frog,", "Ahrefs,", "Semrush,", "Looker Studio"]},
+        "gibi çözümler bulunabilir.",
+        "Temel kontrolleri kendiniz yapmak istiyorsanız farklı [ücretsiz SEO araçları](/araclar) kullanarak sitenizin bazı temel metriklerini de inceleyebilirsiniz.",
+      ] },
+      { baslik: "SEO Raporlarında Neler Bulunmalıdır?", paragraflar: [
+        "Ajansın her ay onlarca sayfalık rapor göndermesi raporun kaliteli olduğu anlamına gelmez.",
+        "İyi bir raporun amacı veri göstermekten çok, veriyi yorumlamaktır.",
+        "Raporda şu soruların cevapları bulunmalıdır:",
+        "**Ne değişti?**",
+        "Örneğin organik trafik %18 arttı.",
+        "**Neden değişti?**",
+        "Kategori sayfalarının görünürlüğü yükseldi.",
+        "**Hangi çalışma etkili oldu?**",
+        "Teknik düzenlemeler ve kategori içerik optimizasyonları.",
+        "**Sonraki adım ne?**",
+        "Yüksek potansiyelli kategorilerin genişletilmesi.",
+        "Bu yaklaşım raporu karar alma aracına dönüştürür.",
+      ] },
+      { baslik: "SEO Ajansının İletişim Sürecini Değerlendirin", paragraflar: [
+        "SEO uzun vadeli bir süreçtir.",
+        "Bu nedenle iletişim kalitesi önemlidir.",
+        "Ajansla çalışırken;",
+        {"liste": ["sorularınıza kim cevap verecek,", "proje yöneticisi olacak mı,", "toplantılar ne sıklıkta yapılacak,", "teknik talepler nasıl iletilecek,", "raporlar hangi tarihte gönderilecek"]},
+        "gibi konular önceden netleştirilmelidir.",
+        "SEO projelerindeki gecikmelerin önemli bir bölümü yalnızca ajans kaynaklı değildir.",
+        "Ajans öneri hazırlar ancak müşterinin yazılım ekibi uygulamayı 2 ay geciktirirse SEO performansı da gecikir.",
+        "Bu nedenle ajans ve şirket ekiplerinin birlikte çalışabileceği bir sistem kurulmalıdır.",
+      ] },
+      { baslik: "SEO Ajansı Fiyatları Nasıl Belirlenir?", paragraflar: [
+        "SEO fiyatlarının tek bir standart rakamı yoktur.",
+        "Çünkü projenin kapsamı büyük ölçüde değişebilir.",
+        "Fiyatı etkileyen başlıca faktörler şunlardır:",
+        {"alt": "Web sitesinin büyüklüğü"},
+        "100 URL'lik bir web sitesi ile 500.000 URL'lik e-ticaret sitesinin iş yükü aynı değildir.",
+        {"alt": "Sektör rekabeti"},
+        "Finans, sağlık, turizm veya e-ticaret gibi rekabetin yüksek olduğu alanlarda daha kapsamlı çalışmalar gerekebilir.",
+        {"alt": "İçerik ihtiyacı"},
+        "Her ay yüksek miktarda içerik üretilecek projelerde maliyet artabilir.",
+        {"alt": "Uluslararası SEO"},
+        "Birden fazla dil veya ülkeyi hedefleyen projeler daha fazla kaynak gerektirir.",
+        {"alt": "Teknik geliştirme ihtiyacı"},
+        "Bazı projelerde SEO ajansı yalnızca öneri verirken bazı projelerde uygulama desteği de sunabilir.",
+        "Bu nedenle SEO ajanslarını yalnızca aylık ücret üzerinden karşılaştırmak sağlıklı değildir.",
+      ] },
+      { baslik: "Ucuz SEO Ajansı Seçmek Mantıklı mı?", paragraflar: [
+        "SEO'da düşük fiyat tek başına avantaj değildir.",
+        "Çünkü çok düşük bütçeli hizmet modellerinde ölçek yaratabilmek için çoğu zaman standartlaştırılmış süreçler kullanılır.",
+        "Bunun sonucu olarak:",
+        {"liste": ["otomatik SEO raporları,", "yüzeysel analizler,", "düşük kaliteli içerikler,", "kontrolsüz backlink çalışmaları,", "sınırlı teknik destek"]},
+        "ortaya çıkabilir.",
+        "Bu, pahalı ajansın mutlaka iyi olduğu anlamına da gelmez.",
+        "Önemli olan fiyat ile sunulan kapsam arasındaki dengedir.",
+        "Teklifleri karşılaştırırken “kaç blog yazısı veriliyor?” sorusundan önce “bu çalışma hangi iş sonucunu hedefliyor?” sorusunu sorun.",
+      ] },
+      { baslik: "Büyük SEO Ajansı mı Butik SEO Ajansı mı?", paragraflar: [
+        "Her iki modelin de avantajları vardır.",
+        {"alt": "Büyük ajansların avantajları"},
+        "Büyük ekiplerde farklı alanlarda uzman kişiler bulunabilir:",
+        {"liste": ["teknik SEO,", "içerik,", "proje yönetimi,", "dijital PR,", "veri analizi."]},
+        "Bu özellikle büyük ölçekli projelerde avantaj sağlayabilir.",
+        {"alt": "Butik ajansların avantajları"},
+        "Daha küçük ekiplerde;",
+        {"liste": ["daha doğrudan iletişim,", "kıdemli uzmanlara erişim,", "proje bazında yüksek esneklik"]},
+        "görülebilir.",
+        "Burada önemli olan ajansın büyüklüğü değil, sizin projenize hangi ekibin atanacağıdır.",
+        "Satış görüşmesinde kıdemli kişilerle görüşüp proje başladıktan sonra tamamen junior bir ekibe devredilmek istemiyorsanız bunu önceden netleştirin.",
+      ] },
+      { baslik: "Freelancer SEO Uzmanı mı SEO Ajansı mı?", paragraflar: [
+        "SEO hizmeti almak isteyen şirketler için bir diğer seçenek freelancer veya bağımsız uzmanlarla çalışmaktır.",
+        "Freelancer modelinde;",
+        {"liste": ["iletişim daha hızlı olabilir,", "maliyet daha düşük olabilir,", "uzmanla doğrudan çalışabilirsiniz."]},
+        "Ajans modelinde ise;",
+        {"liste": ["daha geniş ekip,", "farklı uzmanlık alanları,", "operasyonel devamlılık"]},
+        "avantaj sağlayabilir.",
+        "Doğru tercih şirketinizin büyüklüğüne, projenin karmaşıklığına ve ihtiyaç duyduğunuz hizmet kapsamına göre değişir.",
+      ] },
+      { baslik: "E-Ticaret Siteleri SEO Ajansı Seçerken Nelere Dikkat Etmeli?", paragraflar: [
+        "E-ticaret SEO'su klasik kurumsal SEO çalışmalarından önemli ölçüde farklıdır.",
+        "Binlerce ürün ve kategori URL'si bulunan sitelerde;",
+        {"liste": ["filtre sayfaları,", "ürün varyasyonları,", "stoktan kalkan ürünler,", "pagination,", "duplicate content,", "canonical,", "indeks şişmesi,", "crawl budget"]},
+        "gibi konular kritik hale gelir.",
+        "Bu nedenle e-ticaret şirketlerinin ajans seçerken benzer büyüklükte projelerde deneyim araması önemlidir.",
+        "Ayrıca başarı yalnızca trafik üzerinden değil;",
+        {"liste": ["organik gelir,", "ürün görüntüleme,", "sepete ekleme,", "dönüşüm oranı,", "kategori bazlı gelir"]},
+        "gibi metrikler üzerinden takip edilmelidir.",
+      ] },
+      { baslik: "B2B Şirketler İçin SEO Ajansı Seçimi", paragraflar: [
+        "B2B SEO projelerinde süreç çoğu zaman daha farklı ilerler.",
+        "Çünkü satın alma döngüsü uzundur.",
+        "Bir kullanıcı bugün bir makale okuyabilir, iki ay sonra demo talep edebilir ve altı ay sonra müşteri olabilir.",
+        "Bu nedenle B2B SEO'da yalnızca son tıklama dönüşümüne bakmak yanıltıcı olabilir.",
+        "İçerikler;",
+        {"liste": ["farkındalık,", "değerlendirme,", "karar"]},
+        "aşamalarına göre planlanmalıdır.",
+        "Ayrıca konu uzmanlığı ve otorite oluşturmak daha fazla önem kazanır.",
+      ] },
+      { baslik: "SEO ile Performans Pazarlama Birlikte Düşünülmeli mi?", paragraflar: [
+        "SEO ve ücretli reklamlar farklı kanallar olsa da birbirinden tamamen bağımsız değildir.",
+        "SEO uzun vadeli organik büyüme sağlarken [performans pazarlama](/performans) faaliyetleri kısa ve orta vadede daha hızlı trafik ve dönüşüm üretmeye yardımcı olabilir.",
+        "Örneğin Google Ads verileri;",
+        {"liste": ["hangi kelimelerin daha yüksek dönüşüm ürettiğini,", "hangi ürünlerin daha fazla talep gördüğünü,", "hangi mesajların kullanıcıları harekete geçirdiğini"]},
+        "gösterebilir.",
+        "Bu veriler SEO stratejisinde de kullanılabilir.",
+        "Aynı şekilde organik aramadaki yüksek performanslı sayfalar ücretli kampanyaların landing page stratejisine katkı sağlayabilir.",
+      ] },
+      { baslik: "Yapay Zekâ Arama Deneyimini Değiştiriyor", paragraflar: [
+        "SEO ajansı seçerken artık yalnızca klasik Google sonuçlarını değerlendirmek yeterli olmayabilir.",
+        "ChatGPT, Google AI deneyimleri ve farklı üretken yapay zekâ sistemleri kullanıcıların bilgiye ulaşma biçimini değiştirmektedir.",
+        "Bu nedenle SEO stratejisinde giderek daha fazla;",
+        {"liste": ["entity optimizasyonu,", "bilgi doğruluğu,", "kaynak gösterilebilirlik,", "marka otoritesi,", "içerik yapısı"]},
+        "önem kazanmaktadır.",
+        "Bu alanın temel kavramlarını anlamak isteyenler için [GEO rehberi](/geo-rehberi) iyi bir başlangıç noktası olabilir.",
+      ] },
+      { baslik: "GEO Uzmanlığı Neden Önem Kazanıyor?", paragraflar: [
+        "GEO yani Generative Engine Optimization, markaların yapay zekâ destekli cevap motorlarında daha görünür ve referans alınabilir hale gelmesine odaklanan yeni bir çalışma alanıdır.",
+        "Bu nedenle ileriye dönük SEO stratejisi oluştururken yalnızca klasik organik arama uzmanlığı değil, üretken arama sistemlerini anlayan bir [GEO uzmanı](/geo-uzmani) ile çalışmak da önem kazanabilir.",
+        "Buradaki amaç SEO'yu tamamen değiştirmek değildir.",
+        "Aksine:",
+        {"liste": ["teknik erişilebilirlik,", "kaliteli içerik,", "güvenilir kaynaklar,", "marka otoritesi,", "semantik yapı"]},
+        "gibi klasik SEO prensiplerinin yeni arama deneyimlerine uyarlanmasıdır.",
+      ] },
+      { baslik: "Yapay Zekâ Terminolojisine Hakim Bir Ajans Tercih Edilmeli mi?", paragraflar: [
+        "Her yeni terimin peşinden koşan bir ajans tercih etmek zorunda değilsiniz.",
+        "Ancak SEO sektöründeki teknolojik değişimleri takip eden bir ekip önemli avantaj sağlayabilir.",
+        "Özellikle;",
+        {"liste": ["LLM,", "RAG,", "entity,", "vector search,", "AI Overviews,", "generative search"]},
+        "gibi kavramların arama dünyasıyla ilişkisini anlamak giderek daha değerli hale gelmektedir.",
+        "Bu kavramlarla yeni tanışıyorsanız kapsamlı bir [AI sözlük](/ai-sozluk) üzerinden temel terminolojiyi incelemek ajans görüşmelerinde anlatılanları değerlendirmenizi kolaylaştırabilir.",
+      ] },
+      { baslik: "SEO Ajansı Seçerken Rakip Analizi Nasıl Yapılmalı?", paragraflar: [
+        "Ajansınızın yalnızca sizin sitenizi incelemesi yeterli değildir.",
+        "SERP'teki gerçek rakiplerin de analiz edilmesi gerekir.",
+        "Burada ticari rakiplerle SEO rakiplerinin her zaman aynı olmadığını unutmamak önemlidir.",
+        "Örneğin fiziksel dünyada rakibiniz olan bir marka Google'da güçlü olmayabilir.",
+        "Buna karşılık doğrudan ticari rakibiniz olmayan bir yayın sitesi birçok hedef kelimenizde ilk sırada bulunabilir.",
+        "Rakip analizi şu alanları kapsayabilir:",
+        {"liste": ["ortak anahtar kelimeler,", "keyword gap,", "içerik gap,", "backlink profilleri,", "site mimarileri,", "kategori yapıları,", "SERP görünürlüğü."]},
+        "Bu analiz sonunda rakibin yaptığı her şeyi kopyalamak yerine henüz karşılanmamış fırsatlar bulunmalıdır.",
+      ] },
+      { baslik: "SEO Ajansının Başarısı Nasıl Ölçülür?", paragraflar: [
+        "SEO performansını tek metrikle ölçmek doğru değildir.",
+        "En yaygın KPI'lar şu şekilde değerlendirilebilir:",
+        {"alt": "Organik trafik"},
+        "Genel büyümeyi gösterir ancak tek başına ticari başarı anlamına gelmez.",
+        {"alt": "Non-brand trafik"},
+        "Marka adınızı zaten bilen kişilerin dışında yeni kullanıcı kazanımını görmek açısından önemlidir.",
+        {"alt": "Anahtar kelime görünürlüğü"},
+        "Web sitesinin hedef sorgu havuzundaki toplam görünürlüğünü anlamaya yardımcı olur.",
+        {"alt": "Organik dönüşüm"},
+        "Form, telefon, üyelik veya satış gibi gerçek iş sonuçlarını gösterir.",
+        {"alt": "Organik gelir"},
+        "Özellikle e-ticaret siteleri için en kritik metriklerden biridir.",
+        {"alt": "Search Console tıklamaları"},
+        "Google'ın organik arama sonuçlarından gelen gerçek tıklamaların takibini sağlar.",
+        "Bu metriklerin birlikte değerlendirilmesi gerekir.",
+      ] },
+      { baslik: "Sadece Anahtar Kelime Sıralamalarına Bakmayın", paragraflar: [
+        "Eskiden SEO raporları çoğunlukla şöyle görünürdü:",
+        {"tablo": {"basliklar": ["Anahtar Kelime", "Eski Sıra", "Yeni Sıra"], "satirlar": [["Kelime A", "18", "7"], ["Kelime B", "9", "4"], ["Kelime C", "22", "11"]], "sag": [1, 2]}},
+        "Bu bilgi yararlı olsa da artık tek başına yeterli değildir.",
+        "Çünkü bir kelimede 1. sıraya çıkmak, o kelimenin işletmeye gelir sağladığı anlamına gelmez.",
+        "SEO'nun asıl amacı mümkün olduğunca fazla kelimede sıralama kazanmak değil, işletmenin hedef kitlesinin yaptığı değerli aramalarda görünür olmaktır.",
+      ] },
+      { baslik: "SEO Ajansı Seçerken Sektör Listelerinden Nasıl Yararlanılmalı?", paragraflar: [
+        "Ajans araştırmasının ilk aşamasında karşılaştırma içerikleri faydalı olabilir.",
+        "Örneğin Türkiye pazarındaki seçenekleri daha geniş perspektifte değerlendirmek isteyen işletmeler [En İyi 15 SEO Ajansı](/blog/turkiye-en-iyi-15-seo-ajansi-2026) listesini inceleyebilir.",
+        "Ancak herhangi bir “en iyi” listesini kesin karar mekanizması olarak görmek doğru değildir.",
+        "Sizin için [en iyi SEO ajansı](/blog/turkiye-en-iyi-15-seo-ajansi-2026), başka bir şirket için en doğru ajans olmayabilir.",
+        "Çünkü ideal ajans;",
+        {"liste": ["sektörünüze,", "şirket büyüklüğünüze,", "bütçenize,", "teknik altyapınıza,", "hedeflerinize"]},
+        "göre değişir.",
+      ] },
+      { baslik: "SEO ve GEO Birlikte Değerlendirilmeli mi?", paragraflar: [
+        "Özellikle içerik yatırımı yüksek markalar için bu iki alan giderek birbirine yaklaşmaktadır.",
+        "SEO, web sitesinin klasik arama motorlarında görünürlüğünü güçlendirirken GEO markanın üretken yapay zekâ sistemlerindeki görünürlüğüne odaklanır.",
+        "Bu konuda hizmet sağlayıcı araştırıyorsanız [en iyi GEO ajansı](/blog/turkiye-en-iyi-15-geo-ajansi-2026) karşılaştırmalarını incelerken de SEO ajanslarında kullandığınız kriterlere benzer kriterler uygulayın:",
+        {"liste": ["metodoloji,", "ölçümleme,", "vaka analizleri,", "kullanılan veri kaynakları,", "somut çıktılar."]},
+        "Yeni olduğu için yalnızca trend terimler kullanan sağlayıcılarla gerçek uzmanlığı birbirinden ayırmak özellikle önemlidir.",
+      ] },
+      { baslik: "Dijital Pazarlama Ajansı mı SEO Ajansı mı?", paragraflar: [
+        "Bazı şirketler yalnızca SEO desteğine ihtiyaç duyarken bazıları;",
+        {"liste": ["SEO,", "Google Ads,", "Meta Ads,", "içerik,", "CRO,", "analitik"]},
+        "gibi hizmetleri tek bir yapıdan almak isteyebilir.",
+        "Bu durumda kapsamlı hizmet sunan bir dijital pazarlama ajansı tercih edilebilir.",
+        "Farklı kanal ihtiyaçlarını birlikte değerlendiren şirketler, Türkiye'deki [en iyi dijital pazarlama ajansı](/blog/turkiye-en-iyi-15-dijital-pazarlama-ajansi-2026) alternatiflerini karşılaştırırken her hizmet alanındaki gerçek ekip kapasitesini ayrıca incelemelidir.",
+        "Bir ajansın 15 farklı hizmeti web sitesinde listelemesi, bu hizmetlerin tamamında aynı uzmanlığa sahip olduğu anlamına gelmez.",
+      ] },
+      { baslik: "SEO Ajansı ile Çalışmaya Başladıktan Sonra Süreç Nasıl İlerlemeli?", paragraflar: [
+        "Profesyonel bir SEO projesi genellikle birkaç aşamada ilerler.",
+        {"alt": "1. Veri ve erişimlerin alınması"},
+        "Google Search Console, Analytics ve gerekiyorsa diğer araçlara erişimler sağlanır.",
+        {"alt": "2. SEO audit"},
+        "Teknik yapı ve mevcut organik performans incelenir.",
+        {"alt": "3. Rakip ve kelime analizi"},
+        "Pazar fırsatları belirlenir.",
+        {"alt": "4. SEO yol haritası"},
+        "Görevler etki ve önceliğe göre sıralanır.",
+        {"alt": "5. Uygulama"},
+        "Teknik, içerik ve site dışı çalışmalar hayata geçirilir.",
+        {"alt": "6. Ölçümleme"},
+        "Sonuçlar takip edilir.",
+        {"alt": "7. Optimizasyon"},
+        "Yeni veriler geldikçe strateji güncellenir.",
+        "SEO bir kez yapılan ve biten çalışma değildir.",
+        "Sürekli iyileştirme sürecidir.",
+      ] },
+      { baslik: "SEO Ne Kadar Sürede Sonuç Verir?", paragraflar: [
+        "Bu sorunun herkese uygulanabilecek tek cevabı yoktur.",
+        "Sonuç süresini etkileyen faktörler arasında;",
+        {"liste": ["domain geçmişi,", "mevcut otorite,", "teknik durum,", "içerik kalitesi,", "sektör rekabeti,", "uygulama hızı,", "rakiplerin gücü"]},
+        "bulunur.",
+        "Genel olarak ilk birkaç ay teknik düzenlemeler ve altyapı çalışmalarının etkisi görülebilir.",
+        "Daha rekabetçi projelerde anlamlı sonuçların ortaya çıkması daha uzun sürebilir.",
+        "Bu nedenle SEO ajansı seçiminde çok kısa sürede olağanüstü sonuçlar vaat eden şirketlere dikkat edilmelidir.",
+      ] },
+      { baslik: "SEO Ajansı ile Çalışırken Müşterinin Sorumluluğu Var mı?", paragraflar: [
+        "Evet.",
+        "SEO yalnızca ajansın sorumluluğunda olan bir süreç değildir.",
+        "Müşteri tarafında;",
+        {"liste": ["gerekli erişimlerin verilmesi,", "teknik taleplerin uygulanması,", "içeriklerin onaylanması,", "ürün ve hizmet bilgilerinin paylaşılması,", "karar süreçlerinin hızlandırılması"]},
+        "gibi sorumluluklar bulunabilir.",
+        "Örneğin ajans kritik teknik hataları belirlemiş ancak yazılım ekibi bunları altı ay uygulamamışsa sonuçların gecikmesi kaçınılmazdır.",
+        "En başarılı SEO projeleri ajans ve müşteri ekiplerinin aynı hedef doğrultusunda çalıştığı projelerdir.",
+      ] },
+      { baslik: "SEO Ajansı ile Sözleşme Yaparken Nelere Dikkat Edilmeli?", paragraflar: [
+        "Sözleşmede hizmet kapsamının açık şekilde tanımlanması gerekir.",
+        "Özellikle şu maddeleri kontrol edin:",
+        {"liste": ["hangi hizmetlerin dahil olduğu,", "içerik üretiminin kapsamı,", "teknik SEO sorumlulukları,", "toplantı sıklığı,", "raporlama,", "sözleşme süresi,", "fesih koşulları,", "hesap sahipliği,", "üretilen içeriklerin hakları."]},
+        "Google Analytics, Search Console ve diğer kritik hesapların şirketin kendi mülkiyetinde olması sağlıklı bir yaklaşımdır.",
+        "Ajans değiştiğinde verilerinize erişmeye devam edebilmelisiniz.",
+      ] },
+      { baslik: "Doğru SEO Ajansını Seçmek İçin Kontrol Listesi", paragraflar: [
+        "Bir SEO ajansına karar vermeden önce aşağıdaki kontrol listesini kullanabilirsiniz:",
+        {"kontrol": ["İş modelimizi anlamaya çalışıyor mu?", "Özel SEO stratejisi hazırlıyor mu?", "Teknik SEO konusunda güçlü mü?", "İçerik stratejisi sunuyor mu?", "Anahtar kelime seçiminde ticari değeri dikkate alıyor mu?", "Backlink sürecini şeffaf şekilde açıklıyor mu?", "Referansları incelenebilir mi?", "Vaka analizleri bulunuyor mu?", "KPI'ları net şekilde tanımlıyor mu?", "Organik dönüşümleri ölçüyor mu?", "Düzenli raporlama yapıyor mu?", "Raporları yorumluyor mu?", "Gerçekçi beklentiler oluşturuyor mu?", "Sıralama garantisi vermiyor mu?", "İletişim süreçleri net mi?", "Güncel SEO gelişmelerini takip ediyor mu?", "Yapay zekâ destekli arama dönüşümünü izliyor mu?"]},
+        "Bu soruların büyük bölümüne olumlu cevap verebildiğiniz ajanslar daha güçlü adaylar olabilir.",
+      ] },
+      { baslik: "SEO Ajansı Seçerken Yapılan En Yaygın Hatalar", paragraflar: [
+        {"alt": "Sadece fiyata göre karar vermek"},
+        "En ucuz teklif her zaman en düşük toplam maliyet anlamına gelmez.",
+        "Yanlış SEO çalışmasının düzeltilmesi çok daha maliyetli olabilir.",
+        {"alt": "Sadece referans logolarına bakmak"},
+        "Marka logoları yerine elde edilen sonuçları inceleyin.",
+        {"alt": "Sıralama garantisine inanmak"},
+        "Google sonuçları hiçbir ajans tarafından garanti edilemez.",
+        {"alt": "SEO'yu sadece backlink olarak görmek"},
+        "SEO teknik yapıdan içeriğe kadar çok geniş bir disiplindir.",
+        {"alt": "Çok kısa vadeli düşünmek"},
+        "SEO sürdürülebilir büyüme stratejisidir.",
+        {"alt": "KPI belirlememek"},
+        "Ne ölçüleceği bilinmiyorsa başarının değerlendirilmesi de mümkün değildir.",
+      ] },
+      { baslik: "SEO Ajanslarını Puanlayarak Karşılaştırabilirsiniz", paragraflar: [
+        "Karar vermekte zorlanıyorsanız basit bir puanlama sistemi oluşturabilirsiniz.",
+        {"tablo": {"basliklar": ["Kriter", "Ağırlık"], "satirlar": [["Teknik SEO yetkinliği", "%20"], ["Strateji yaklaşımı", "%15"], ["Referans ve vaka analizleri", "%15"], ["İçerik yetkinliği", "%10"], ["Raporlama", "%10"], ["İletişim", "%10"], ["Backlink yaklaşımı", "%10"], ["Fiyat / değer dengesi", "%10"]], "sag": [1]}},
+        "Her ajansa 10 üzerinden puan vererek ağırlıklı skor oluşturabilirsiniz.",
+        "Bu yöntem özellikle 3-5 farklı ajans arasında seçim yapılırken karar sürecini daha objektif hale getirir.",
+      ] },
+      { baslik: "SEO Ajansı Seçerken Sık Sorulan Sorular", paragraflar: [
+        {"alt": "SEO ajansı seçerken en önemli kriter nedir?"},
+        "Tek bir kriter yoktur. Teknik yetkinlik, stratejik düşünme, şeffaflık, ölçümleme ve iletişim birlikte değerlendirilmelidir.",
+        {"alt": "SEO ajansı kaç ayda sonuç verir?"},
+        "Projenin mevcut durumuna ve rekabet seviyesine bağlıdır. Bazı teknik iyileştirmelerin etkisi kısa sürede görülebilirken rekabetçi kelimelerde güçlü sonuçlar almak daha uzun sürebilir.",
+        {"alt": "SEO ajansı Google'da birinci sıra garantisi verebilir mi?"},
+        "Hayır. Google sonuçlarını hiçbir ajans doğrudan kontrol edemez. Bu nedenle kesin sıralama garantileri güvenilir bir SEO yaklaşımı değildir.",
+        {"alt": "SEO ajansı mı freelancer mı daha iyi?"},
+        "Projenin büyüklüğüne bağlıdır. Küçük projelerde deneyimli bir freelancer yeterli olabilirken kapsamlı projelerde farklı uzmanlıklara sahip ajans ekipleri avantaj sağlayabilir.",
+        {"alt": "SEO ajansının çalışmalarını nasıl kontrol edebilirim?"},
+        "Search Console, Analytics, organik dönüşüm verileri, tamamlanan görevler ve düzenli SEO raporları üzerinden süreci takip edebilirsiniz.",
+        "SEO ile ilgili proje öncesi temel sorularınızı genişletmek isterseniz [sık sorulan sorular](/sss) bölümünü de inceleyebilirsiniz.",
       ], linkler: [
         { isim: "Türkiye'nin En İyi 15 SEO Ajansı", aciklama: "Alfabetik, sıralama içermeyen 15 ajanslık liste", url: "/blog/turkiye-en-iyi-15-seo-ajansi-2026" },
         { isim: "Türkiye'nin En İyi 10 SEO Ajansı", aciklama: "Seçim kriterleriyle birlikte 10 ajanslık liste", url: "/blog/turkiye-en-iyi-10-seo-ajansi-2026" },
@@ -2388,6 +2803,62 @@ function renderInline(text) {
   return parts
 }
 
+// ─────────────────────────────────────────────────────────────
+// Paragraf blokları: paragraflar dizisindeki her öğe ya düz metin (string)
+// ya da aşağıdaki tiplerden biridir. Eski yazılar yalnızca string kullanır.
+//   { alt: '...' }                         → h3 alt başlık
+//   { liste: ['...', ...] }                → madde listesi
+//   { kontrol: ['...', ...] }              → kontrol listesi (☐)
+//   { alinti: '...' }                      → vurgulu alıntı satırı
+//   { tablo: { basliklar, satirlar, sag } } → tablo (sag: sağa hizalı sütunlar)
+// ─────────────────────────────────────────────────────────────
+function renderBlok(p, key, isMobile, mb) {
+  const metin = { color: '#555', fontSize: '15px', lineHeight: isMobile ? 1.8 : 1.85, marginBottom: mb }
+  if (typeof p === 'string') return <p key={key} style={metin}>{renderInline(p)}</p>
+  if (p.alt) return (
+    <h3 key={key} style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '16px' : '17px', fontWeight: 800, color: '#222', margin: `10px 0 ${mb === '0' ? '0' : '10px'}` }}>{renderInline(p.alt)}</h3>
+  )
+  if (p.liste || p.kontrol) {
+    const kontrol = !!p.kontrol
+    return (
+      <ul key={key} style={{ listStyle: 'none', padding: 0, margin: `0 0 ${mb}` }}>
+        {(p.liste || p.kontrol).map((li, j) => (
+          <li key={j} style={{ ...metin, marginBottom: '6px', display: 'flex', gap: '10px', alignItems: 'flex-start' }}>
+            {kontrol
+              ? <span aria-hidden="true" style={{ flexShrink: 0, width: '16px', height: '16px', marginTop: '5px', border: '2px solid var(--orange)', borderRadius: '4px' }} />
+              : <span aria-hidden="true" style={{ flexShrink: 0, width: '6px', height: '6px', marginTop: '11px', background: 'var(--orange)', borderRadius: '50%' }} />}
+            <span>{renderInline(li)}</span>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+  if (p.alinti) return (
+    <p key={key} style={{ ...metin, color: '#222', fontWeight: 600, borderLeft: '3px solid var(--orange)', background: '#faf9f7', padding: '10px 16px', borderRadius: '0 8px 8px 0' }}>{renderInline(p.alinti)}</p>
+  )
+  if (p.tablo) {
+    const { basliklar, satirlar, sag = [] } = p.tablo
+    const hucre = (i) => ({ padding: '10px 14px', textAlign: sag.includes(i) ? 'right' : 'left', borderBottom: '1px solid #eee', fontSize: '14px' })
+    return (
+      <div key={key} style={{ overflowX: 'auto', marginBottom: mb, border: '1px solid #eee', borderRadius: '10px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: '320px' }}>
+          <thead>
+            <tr style={{ background: '#faf9f7' }}>
+              {basliklar.map((h, i) => <th key={i} style={{ ...hucre(i), color: '#111', fontWeight: 700 }}>{h}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {satirlar.map((r, ri) => (
+              <tr key={ri}>{r.map((c, i) => <td key={i} style={{ ...hucre(i), color: '#555' }}>{renderInline(c)}</td>)}</tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )
+  }
+  return null
+}
+
 // Link kartı etiketi: blog yazısı mı, site sayfası mı?
 const kartEtiketi = (url, isEn) => (url.startsWith('/blog/') || url.startsWith('/en/blog/'))
   ? (isEn ? 'Read →' : 'Yazıyı oku →')
@@ -2442,6 +2913,19 @@ export default function BlogPost(props) {
     return () => observer.disconnect()
   }, [bolumler, isMobile])
 
+  // Uzun içindekiler listesinde aktif başlığı listenin görünür alanında tut
+  // (yalnızca liste kutusu kayar, sayfa kaymaz).
+  useEffect(() => {
+    if (isMobile) return
+    const kutu = document.querySelector('[data-toc-scroll]')
+    const oge = kutu?.querySelector(`a[href="#bolum-${aktifBolum}"]`)
+    if (!kutu || !oge || kutu.scrollHeight <= kutu.clientHeight) return
+    const ust = oge.offsetTop - kutu.offsetTop
+    if (ust < kutu.scrollTop || ust + oge.offsetHeight > kutu.scrollTop + kutu.clientHeight) {
+      kutu.scrollTo({ top: Math.max(0, ust - kutu.clientHeight / 3), behavior: 'smooth' })
+    }
+  }, [aktifBolum, isMobile])
+
   // Hook'lardan sonra: React hook sırası bozulmasın diye erken return burada.
   if (!slug || !veri) return null
 
@@ -2451,13 +2935,15 @@ export default function BlogPost(props) {
         <span style={{ width: '12px', height: '12px', background: 'var(--orange)', borderRadius: '3px', display: 'inline-block' }}></span>
         <span style={{ fontSize: '11px', color: '#111', fontWeight: 800, letterSpacing: '1.5px', textTransform: 'uppercase' }}>{isEn ? 'CONTENTS' : 'İÇİNDEKİLER'}</span>
       </div>
-      {bolumler.map((b, i) => (
+      <div data-toc-scroll style={{ maxHeight: isMobile ? '320px' : '45vh', overflowY: 'auto', overscrollBehavior: 'contain' }}>
+      {bolumler.map((b, i) => ({ b, i })).filter(x => x.b.baslik).map(({ b, i }, sira) => (
         <a key={i} href={`#bolum-${i}`}
           style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', marginBottom: '2px', textDecoration: 'none', background: !isMobile && aktifBolum === i ? 'rgba(232,86,10,0.08)' : 'transparent' }}>
-          <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#ccc', minWidth: '20px' }}>{String(i + 1).padStart(2, '0')}</span>
+          <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#ccc', minWidth: '20px' }}>{String(sira + 1).padStart(2, '0')}</span>
           <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik}</span>
         </a>
       ))}
+      </div>
     </div>
   )
 
@@ -2572,12 +3058,10 @@ export default function BlogPost(props) {
               {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
-                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  {b.baslik && <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <span style={{ width: '3px', height: '18px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
-                  </h2>
-                  {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{renderInline(p)}</p>
-                  ))}
+                  </h2>}
+                  {b.paragraflar.map((p, pi) => renderBlok(p, pi, true, pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0')))}
                   {b.linkler && (
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
                       {b.linkler.map((l, li) => (
@@ -2617,12 +3101,10 @@ export default function BlogPost(props) {
               {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
-                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  {b.baslik && <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
-                  </h2>
-                  {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0') }}>{renderInline(p)}</p>
-                  ))}
+                  </h2>}
+                  {b.paragraflar.map((p, pi) => renderBlok(p, pi, false, pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0')))}
                   {b.linkler && (
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
                       {b.linkler.map((l, li) => (
