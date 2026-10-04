@@ -46,7 +46,7 @@ const REFERANSLAR = [
 // aksi hâlde anasayfadan 404'e link verilir. (Önceki liste bu yüzden kırıktı.)
 const BLOG_YAZILARI = [
   { no: '01', baslik_tr: 'Core Web Vitals 2026: LCP, INP ve CLS Optimizasyon Rehberi', baslik_en: 'Core Web Vitals 2026: Complete LCP, INP and CLS Optimization Guide', yazar: 'Fatih Emin Çakıroğlu', sure: '12 dk', sure_en: '12 min', slug: 'core-web-vitals-2025' },
-  { no: '02', baslik_tr: 'SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye\'den Örnekler', baslik_en: 'How to Choose an SEO Agency: Criteria and Examples from Turkey', yazar: 'Fatih Emin Çakıroğlu', sure: '9 dk', sure_en: '9 min', slug: 'seo-ajansi-nasil-secilir' },
+  { no: '02', baslik_tr: 'SEO Ajansı Nasıl Seçilir? Kriterler ve Türkiye\'den Örnekler', baslik_en: 'How to Choose an SEO Agency: Criteria and Examples from Turkey', yazar: 'Fatih Emin Çakıroğlu', sure: '19 dk', sure_en: '9 min', slug: 'seo-ajansi-nasil-secilir' },
   { no: '03', baslik_tr: 'Türkiye\'nin En İyi 15 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 15 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '11 dk', sure_en: '11 min', slug: 'turkiye-en-iyi-15-seo-ajansi-2026' },
   { no: '04', baslik_tr: 'Türkiye\'nin En İyi 10 SEO Ajansı (2026 Güncel)', baslik_en: 'Turkey\'s Best 10 SEO Agencies (Updated 2026)', yazar: 'Fatih Emin Çakıroğlu', sure: '10 dk', sure_en: '10 min', slug: 'turkiye-en-iyi-10-seo-ajansi-2026' },
 ]

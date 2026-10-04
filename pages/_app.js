@@ -60,6 +60,7 @@ const SEARCH_INDEX = [
   { title: 'SSS', title_en: 'FAQ', href: '/sss', href_en: '/en/faq', cat: 'Kaynak' },
   { title: 'Core Web Vitals Rehberi', title_en: 'Core Web Vitals Guide', href: '/blog/core-web-vitals-2025', href_en: '/en/blog/core-web-vitals-2025', cat: 'Blog' },
   { title: 'SEO Ajansı Nasıl Seçilir?', title_en: 'How to Choose an SEO Agency', href: '/blog/seo-ajansi-nasil-secilir', href_en: '/en/blog/seo-ajansi-nasil-secilir', cat: 'Blog' },
+  { title: 'GEO Ajansı Nasıl Seçilir?', title_en: 'How to Choose a GEO Agency', href: '/blog/geo-ajansi-nasil-secilir', href_en: '/en/blog/geo-ajansi-nasil-secilir', cat: 'Blog' },
   { title: 'Teknik SEO Rehberi', title_en: 'Technical SEO Guide', href: '/rehber/teknik-seo', href_en: '/en/guides/teknik-seo', cat: 'Rehber' },
   { title: 'İçerik Stratejisi Rehberi', title_en: 'Content Strategy Guide', href: '/rehber/icerik-stratejisi', href_en: '/en/guides/icerik-stratejisi', cat: 'Rehber' },
 ]
