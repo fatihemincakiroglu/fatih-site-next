@@ -70,7 +70,7 @@ const TUM_YAZILAR = [
     tr: { baslik: "Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026", ozet: "GEO ajansı nedir, 2026'da neden önemli? 10 ajans, seçim kriterleri ve SEO ile GEO arasındaki fark." },
     en: { baslik: "Turkey's Best 10 GEO Agencies - Updated 2026", ozet: 'What a GEO agency does and why it matters in 2026: ten agencies, selection criteria and how GEO differs from SEO.' },
   },
-  { slug: 'geo-ajansi-nasil-secilir', kategori: 'geo', sure: 13, featured: false,
+  { slug: 'geo-ajansi-nasil-secilir', kategori: 'geo', sure: 12, featured: false,
     tr: { baslik: 'GEO Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular', ozet: 'Metodoloji, SEO altyapısı, entity ve dijital PR yaklaşımı, AI görünürlüğü ölçümü ve garanti vaatleri — GEO ajansı seçerken nelere bakılmalı?' },
     en: { baslik: 'How to Choose a GEO Agency: Criteria and Questions to Ask', ozet: 'Methodology, SEO foundations, entity and digital PR work, AI visibility measurement and guarantee claims — what to look for in a GEO agency.' },
   },
