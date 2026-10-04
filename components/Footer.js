@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 // Bu tarihi, siteye önemli bir içerik/özellik güncellemesi yaptığınızda elle güncelleyin.
 // AI arama motorları (GEO) ve Google, "içerik ne zaman güncellendi" sinyaline değer verir;
 // bu satır hem insan okuyuculara hem de arama/AI botlarına görünür bir tazelik göstergesi sunar.
-const LAST_UPDATED = { tr: 'Temmuz 2026', en: 'July 2026' }
+const LAST_UPDATED = { tr: 'Eylül 2026', en: 'September 2026' }
 
 // Footer'da gösterilecek markalar. Veri tek kaynaktan (BrandMark) geliyor.
 const AI_TOOL_IDS = ['google', 'chatgpt', 'perplexity', 'claude', 'gemini', 'bing', 'ahrefs', 'semrush', 'gsc']
@@ -13,8 +13,8 @@ const AI_TOOL_IDS = ['google', 'chatgpt', 'perplexity', 'claude', 'gemini', 'bin
 const LINKS = {
   tr: {
     hizmetler: { baslik: 'Hizmetler', items: [
-      { label: 'SEO Danışmanlığı', href: '/seo-uzmani' },
-      { label: 'GEO Danışmanlığı', href: '/geo-uzmani' },
+      { label: 'SEO Uzmanı', href: '/seo-uzmani' },
+      { label: 'GEO Uzmanı', href: '/geo-uzmani' },
       { label: 'İçerik Stratejisi', href: '/icerik' },
       { label: 'Backlink & Dijital PR', href: '/backlink' },
       { label: 'Performans & Growth', href: '/performans' },
@@ -27,12 +27,13 @@ const LINKS = {
       { label: 'Blog', href: '/blog' },
       { label: 'SSS', href: '/sss' },
     ]},
-    sirket: { baslik: 'Şirket', items: [
-      { label: 'Hakkımda', href: '/hakkimda' },
-      { label: 'Referanslar', href: '/referanslar' },
-      { label: 'Vaka Çalışmaları', href: '/vakalar' },
-      { label: 'Fiyatlandırma', href: '/fiyatlandirma' },
-      { label: 'İletişim', href: '/iletisim' },
+    sirket: { baslik: 'Blog', items: [
+      { label: 'En İyi 10 SEO Ajansı', href: '/blog/turkiye-en-iyi-10-seo-ajansi-2026' },
+      { label: 'En İyi 15 SEO Ajansı', href: '/blog/turkiye-en-iyi-15-seo-ajansi-2026' },
+      { label: 'En İyi 10 GEO Ajansı', href: '/blog/turkiye-en-iyi-10-geo-ajansi-2026' },
+      { label: 'En İyi 15 GEO Ajansı', href: '/blog/turkiye-en-iyi-15-geo-ajansi-2026' },
+      { label: 'En İyi SEO Ajansı', href: '/blog/turkiye-en-iyi-15-seo-ajansi-2026' },
+      { label: 'En İyi GEO Ajansı', href: '/blog/turkiye-en-iyi-15-geo-ajansi-2026' },
     ]},
   },
   en: {
@@ -51,12 +52,13 @@ const LINKS = {
       { label: 'Blog', href: '/en/blog' },
       { label: 'FAQ', href: '/en/faq' },
     ]},
-    sirket: { baslik: 'Company', items: [
-      { label: 'About', href: '/en/about' },
-      { label: 'Testimonials', href: '/en/testimonials' },
-      { label: 'Case Studies', href: '/en/case-studies' },
-      { label: 'Pricing', href: '/en/pricing' },
-      { label: 'Contact', href: '/en/contact' },
+    sirket: { baslik: 'Blog', items: [
+      { label: 'Best 10 SEO Agencies', href: '/en/blog/turkiye-en-iyi-10-seo-ajansi-2026' },
+      { label: 'Best 15 SEO Agencies', href: '/en/blog/turkiye-en-iyi-15-seo-ajansi-2026' },
+      { label: 'Best 10 GEO Agencies', href: '/en/blog/turkiye-en-iyi-10-geo-ajansi-2026' },
+      { label: 'Best 15 GEO Agencies', href: '/en/blog/turkiye-en-iyi-15-geo-ajansi-2026' },
+      { label: 'Best SEO Agency', href: '/en/blog/turkiye-en-iyi-15-seo-ajansi-2026' },
+      { label: 'Best GEO Agency', href: '/en/blog/turkiye-en-iyi-15-geo-ajansi-2026' },
     ]},
   },
 }
