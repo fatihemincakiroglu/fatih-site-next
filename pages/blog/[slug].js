@@ -4001,6 +4001,11 @@ export default function BlogPost(props) {
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
+  // Sayfa başlığı: ek, yalnızca toplam 65 karakteri aşmıyorsa eklenir.
+  // Uzun başlıklarda Google sonuçları sondan keser; kesilen kısım marka eki
+  // olacağına başlığın kendisinin tam görünmesi daha değerli.
+  const BASLIK_EKI = ' | Fatih Emin Çakıroğlu'
+  const sayfaBasligi = (metaBaslik + BASLIK_EKI).length <= 65 ? metaBaslik + BASLIK_EKI : metaBaslik
   // Yayın ve güncelleme tarihleri: lib/blog-meta.js
   const meta = getBlogMeta(slug)
   const guncelleme = meta ? ayYil(meta.guncelleme || meta.yayin, isEn) : (isEn ? 'July 2026' : 'Temmuz 2026')
@@ -4155,7 +4160,7 @@ export default function BlogPost(props) {
   return (
     <>
       <Head>
-        <title>{`${metaBaslik} | Fatih Emin Çakıroğlu`}</title>
+        <title>{sayfaBasligi}</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
