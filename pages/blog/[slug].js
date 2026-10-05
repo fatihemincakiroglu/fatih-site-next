@@ -8,6 +8,7 @@ import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
 import { getBlogKapak } from '../../lib/blog-kapaklar';
 import AiOzetle from '../../components/AiOzetle';
 import { getBlogMeta, ayYil } from '../../lib/blog-meta';
+import YazarFoto from '../../components/YazarFoto';
 
 export const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -4063,7 +4064,7 @@ export default function BlogPost(props) {
   const AuthorCard = (
     <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginTop: isMobile ? '24px' : '16px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px' }}>
-        <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '20px', flexShrink: 0 }}>F</div>
+        <YazarFoto size={44} />
         <div>
           <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
           <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
@@ -4117,6 +4118,7 @@ export default function BlogPost(props) {
       '@id': 'https://fatihemincakiroglu.com/#person',
       name: 'Fatih Emin Çakıroğlu',
       url: `https://fatihemincakiroglu.com${isEn ? '/en/about' : '/hakkimda'}`,
+      image: 'https://fatihemincakiroglu.com/images/fatih-emin-cakiroglu.jpg',
       sameAs: ['https://www.linkedin.com/in/fatihemincakiroglu/'],
     },
     publisher: { '@id': 'https://fatihemincakiroglu.com/#person' },
@@ -4190,7 +4192,7 @@ export default function BlogPost(props) {
             </div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 4vw, 40px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>{baslik}</h1>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>F</div>
+              <YazarFoto size={36} />
               <div>
                 <div style={{ fontSize: '13px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
                 <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
@@ -4292,7 +4294,7 @@ export default function BlogPost(props) {
         {/* Genişletilmiş Yazar Kutusu (E-E-A-T) — içeriğin hemen altında, tüm görünümlerde */}
         <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 16px 48px' }}>
           <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-            <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '26px', flexShrink: 0 }}>F</div>
+            <YazarFoto size={64} />
             <div style={{ flex: 1, minWidth: '240px' }}>
               <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '6px' }}>{isEn ? 'ABOUT THE AUTHOR' : 'YAZAR HAKKINDA'}</div>
               <div style={{ fontSize: '18px', fontWeight: 800, color: '#111', fontFamily: 'var(--font-display)', marginBottom: '4px' }}>Fatih Emin Çakıroğlu</div>

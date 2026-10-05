@@ -3,6 +3,9 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import { YAYINDAKI_REHBER_SLUGS } from '../../lib/content-index';
+import AiOzetle from '../../components/AiOzetle';
+import { getRehberMeta, ayYil } from '../../lib/blog-meta';
+import YazarFoto from '../../components/YazarFoto';
 
 /* ── REHBER VERİSİ (TR + EN) ── */
 function makeRehber(baslik_tr, baslik_en, kategori, bolumler_tr, bolumler_en) {
@@ -25,7 +28,7 @@ function defaultBolum(baslik_tr, baslik_en) {
   }
 }
 
-const TÜM_REHBERLER = {
+export const TUM_REHBERLER = {
   'teknik-seo': makeRehber('Teknik SEO Temelleri', 'Technical SEO Fundamentals', 'Teknik',
     [
       { baslik: 'Teknik SEO Nedir?', paragraflar: ['Teknik SEO, web sitenizin arama motorları tarafından doğru biçimde taranabilmesi, indexlenebilmesi ve sıralanabilmesi için gereken teknik altyapı çalışmalarının tümüdür. İçeriğiniz ne kadar kaliteli olursa olsun, teknik sorunlar organik büyümenizi engelleyebilir.', 'Teknik SEO\'nun üç temel katmanı vardır: Erişilebilirlik (crawlability), indexleme ve sıralama sinyal gücü. Her katmanın eksiksiz çalışması gereklidir.', 'Düzenli teknik SEO denetimleri (audit) bu sorunları erkenden tespit etmenizi sağlar. Screaming Frog, Ahrefs Site Audit ve Google Search Console bu süreçte en değerli araçlardır.'] },
@@ -79,7 +82,7 @@ export default function Page(props) {
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
 
   // getStaticPaths yalnızca gerçek içeriği yazılmış rehberleri üretir.
-  const veri = TÜM_REHBERLER[slug] || null
+  const veri = TUM_REHBERLER[slug] || null
   const renk = KAT_RENK[veri?.kategori] || { bg: '#f5f5f5', color: '#555', accent: '#888' }
   const bolumler = (veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : []) || []
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
@@ -108,6 +111,34 @@ export default function Page(props) {
   const canonicalUrl = isEn
     ? `https://fatihemincakiroglu.com/en/guides/${slug}`
     : `https://fatihemincakiroglu.com/rehber/${slug}`
+  const mdUrl = `${canonicalUrl}.md`
+  const meta = getRehberMeta(slug)
+  const metaDesc = `${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
+
+  // Article şeması. Yazar ve yayıncı, _document.js'teki global Person
+  // grafiğine @id ile bağlanır. Tarihler: lib/blog-meta.js → REHBER_META
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${canonicalUrl}#article`,
+    mainEntityOfPage: canonicalUrl,
+    headline: baslik,
+    description: metaDesc,
+    image: 'https://fatihemincakiroglu.com/og-image.jpg',
+    inLanguage: isEn ? 'en' : 'tr-TR',
+    articleSection: veri?.kategori,
+    ...(meta?.yayin && { datePublished: meta.yayin }),
+    ...((meta?.guncelleme || meta?.yayin) && { dateModified: meta.guncelleme || meta.yayin }),
+    author: {
+      '@type': 'Person',
+      '@id': 'https://fatihemincakiroglu.com/#person',
+      name: 'Fatih Emin Çakıroğlu',
+      url: `https://fatihemincakiroglu.com${isEn ? '/en/about' : '/hakkimda'}`,
+      image: 'https://fatihemincakiroglu.com/images/fatih-emin-cakiroglu.jpg',
+      sameAs: ['https://www.linkedin.com/in/fatihemincakiroglu/'],
+    },
+    publisher: { '@id': 'https://fatihemincakiroglu.com/#person' },
+  }
 
   const TOC = (
     <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginBottom: '16px' }}>
@@ -129,7 +160,7 @@ export default function Page(props) {
   const AuthorCard = (
     <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginBottom: '12px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '10px' }}>
-        <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '20px', flexShrink: 0 }}>F</div>
+        <YazarFoto size={44} />
         <div>
           <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
           <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>
@@ -164,11 +195,12 @@ export default function Page(props) {
     <>
       <Head>
         <title>{`${baslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu`}</title>
-        <meta name="description" content={`${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`} />
+        <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Article","headline":baslik,"author":{"@type":"Person","name":"Fatih Emin Çakıroğlu","url":"https://fatihemincakiroglu.com"},"publisher":{"@type":"Person","name":"Fatih Emin Çakıroğlu"},"url":canonicalUrl,"inLanguage":isEn?"en":"tr" })}</script>
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Guides":"Rehber","item":`https://fatihemincakiroglu.com/${isEn?'en/guides':'rehber'}`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] })}</script>
+        <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Guides":"Rehber","item":`https://fatihemincakiroglu.com/${isEn?'en/guides':'rehber'}`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] }) }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5', overflowX: 'hidden' }}>
@@ -193,10 +225,11 @@ export default function Page(props) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px', flexWrap: 'wrap' }}>
               <span style={{ padding: '4px 10px', borderRadius: '4px', background: renk.bg, color: renk.color, fontSize: '11px', fontWeight: 700 }}>{veri.kategori}</span>
               <span style={{ fontSize: '12px', color: '#bbb' }}>· {isEn ? 'SEO Guide' : 'SEO Rehberi'}</span>
+              {meta && <span style={{ fontSize: '12px', color: '#bbb' }}>· {isEn ? 'Updated' : 'Son güncelleme'}: {ayYil(meta.guncelleme || meta.yayin, isEn)}</span>}
             </div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 4vw, 40px)', fontWeight: 800, color: '#111', lineHeight: 1.2, marginBottom: '16px' }}>{baslik}</h1>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>F</div>
+              <YazarFoto size={36} />
               <div>
                 <div style={{ fontSize: '13px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
                 <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO & Digital Marketing Expert' : 'SEO & Dijital Pazarlama Uzmanı'}</div>
@@ -210,6 +243,7 @@ export default function Page(props) {
           <div style={{ padding: '20px 16px 64px', maxWidth: '1100px', margin: '0 auto' }}>
             {TOC}
             <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee', marginBottom: '16px' }}>
+              <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '17px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
@@ -236,6 +270,7 @@ export default function Page(props) {
             </div>
             {/* Article */}
             <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
+              <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
                   <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
@@ -263,6 +298,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  if (!TÜM_REHBERLER[params.slug]) return { notFound: true }
+  if (!TUM_REHBERLER[params.slug]) return { notFound: true }
   return { props: { slug: params.slug } }
 }

@@ -223,7 +223,7 @@ export default function Page(props) {
         <title>{isEn ? 'Performance Marketing & Growth Consulting' : 'Performans Pazarlama & Growth Danışmanlığı'}</title>
         <meta name="description" content={isEn ? 'Performance marketing and growth consulting: Google Ads, Meta Ads, CRO and marketing automation for measurable ROI and sustainable customer acquisition growth.' : 'Performans pazarlama ve growth danışmanlığı: Google Ads, Meta Ads, CRO ve marketing automation ile ölçülebilir ROI ve sürdürülebilir müşteri büyümesi sağlayın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/performance-growth' : 'https://fatihemincakiroglu.com/performans'} />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))})}</script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))}) }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh' }}>

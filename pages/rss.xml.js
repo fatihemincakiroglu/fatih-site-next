@@ -8,6 +8,7 @@
 // ile duyuruluyor (pages/_app.js).
 
 import { YAZILAR } from './blog'
+import { getBlogMeta } from '../lib/blog-meta'
 
 const BASE = 'https://fatihemincakiroglu.com'
 
@@ -21,15 +22,20 @@ const esc = (str = '') =>
     .replace(/'/g, '&apos;')
 
 function buildFeed() {
-  const now = new Date().toUTCString()
+  // Yeniden eskiye sıralı; lastBuildDate en yeni yazının tarihi.
+  const yayinOf = (y) => getBlogMeta(y.slug)?.yayin || ''
+  const sirali = [...YAZILAR].sort((a, b) => yayinOf(b).localeCompare(yayinOf(a)))
+  const enYeni = yayinOf(sirali[0])
+  const now = (enYeni ? new Date(`${enYeni}T09:00:00+03:00`) : new Date()).toUTCString()
 
-  const items = YAZILAR.map(y => {
+  const items = sirali.map(y => {
     const url = `${BASE}/blog/${y.slug}`
     const baslik = y.tr?.baslik || y.slug
     const ozet = y.tr?.ozet || ''
-    // Yazıda tarih alanı yoksa yayın tarihi olarak bugünü vermiyoruz;
-    // yanlış tarih, feed okuyucularda yanlış sıralamaya yol açar.
-    const tarih = y.tarih ? new Date(y.tarih).toUTCString() : null
+    // Yayın tarihi: lib/blog-meta.js. Tarihi olmayan yazıya bugünü
+    // vermiyoruz; yanlış tarih, feed okuyucularda yanlış sıralamaya yol açar.
+    const yayin = getBlogMeta(y.slug)?.yayin
+    const tarih = yayin ? new Date(`${yayin}T09:00:00+03:00`).toUTCString() : null
 
     return `    <item>
       <title>${esc(baslik)}</title>

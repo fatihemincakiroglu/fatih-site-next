@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
+import YazarFoto from '../components/YazarFoto';
 
 const BOLUMLER_TR = [
   {
@@ -357,21 +358,21 @@ export default function Page(props) {
         <title>{t.title}</title>
         <meta name="description" content={t.desc} />
         <link rel="canonical" href={canonical} />
-        <script type="application/ld+json">{JSON.stringify({
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org", "@type": "Article",
           "headline": t.h1, "description": t.desc,
           "author": { "@type": "Person", "name": "Fatih Emin Çakıroğlu", "url": "https://fatihemincakiroglu.com" },
           "publisher": { "@type": "Person", "name": "Fatih Emin Çakıroğlu" },
           "url": canonical, "inLanguage": isEn ? "en" : "tr"
-        })}</script>
-        <script type="application/ld+json">{JSON.stringify({
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org", "@type": "BreadcrumbList",
           "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": t.breadcrumb[0], "item": "https://fatihemincakiroglu.com" },
             { "@type": "ListItem", "position": 2, "name": t.breadcrumb[1], "item": `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}kaynaklar` },
             { "@type": "ListItem", "position": 3, "name": t.breadcrumb[2], "item": canonical },
           ]
-        })}</script>
+        }) }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>
@@ -397,7 +398,7 @@ export default function Page(props) {
             <p style={{ fontSize: '14px', color: 'var(--orange)', fontStyle: 'italic', marginBottom: '12px' }}>{t.h1alt}</p>
             <p style={{ color: '#777', fontSize: '15px', lineHeight: 1.65, maxWidth: '680px', marginBottom: '20px' }}>{t.desc}</p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '16px', flexShrink: 0 }}>F</div>
+              <YazarFoto size={40} />
               <div>
                 <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>Fatih Emin Çakıroğlu</div>
                 <div style={{ fontSize: '12px', color: '#aaa' }}>{isEn ? 'SEO Expert · Istanbul' : 'SEO Uzmanı · İstanbul'}</div>

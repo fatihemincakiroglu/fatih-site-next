@@ -37,6 +37,7 @@ class MyDocument extends Document {
             "name": "Fatih Emin Çakıroğlu",
             "jobTitle": isEn ? "SEO & Digital Marketing Expert" : "SEO & Dijital Pazarlama Uzmanı",
             "url": "https://fatihemincakiroglu.com",
+            "image": "https://fatihemincakiroglu.com/images/fatih-emin-cakiroglu.jpg",
             "email": "info@fatihemincakiroglu.com",
             "address": {"@type": "PostalAddress", "addressLocality": "İstanbul", "addressCountry": "TR"},
             "sameAs": ["https://www.linkedin.com/in/fatihemincakiroglu/"]

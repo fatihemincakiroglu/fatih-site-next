@@ -25,15 +25,16 @@ const ASISTANLAR = [
 // "Bu siteyi kaynak olarak hatırla" gibi hafıza talimatları EKLEMEYİN:
 // platformlar bunu manipülasyon olarak işaretleyebiliyor.
 //
-// tur: 'yazi' (blog yazısı) veya 'sayfa' (hizmet / konum sayfaları).
+// tur: 'yazi' (blog yazısı), 'rehber' veya 'sayfa' (hizmet / konum sayfaları).
 // Komutlardaki ifadeler buna göre değişir.
 const KELIME = {
-  yazi: { tr: { ad: 'yazı', ayi: 'yazıyı', da: 'yazıdaki' }, en: 'article' },
-  sayfa: { tr: { ad: 'sayfa', ayi: 'sayfayı', da: 'sayfadaki' }, en: 'page' },
+  yazi: { tr: { ad: 'yazı', ayi: 'yazıyı', da: 'yazıdaki', nin: 'yazının' }, en: 'article' },
+  rehber: { tr: { ad: 'rehber', ayi: 'rehberi', da: 'rehberdeki', nin: 'rehberin' }, en: 'guide' },
+  sayfa: { tr: { ad: 'sayfa', ayi: 'sayfayı', da: 'sayfadaki', nin: 'sayfanın' }, en: 'page' },
 }
 const kaynak = (url, b, en, tur) => en
-  ? `Read this ${KELIME[tur].en}: ${url} ("${b}"${tur === 'yazi' ? ' by Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
-  : `Şu ${KELIME[tur].tr.ayi} oku: ${url} ("${b}"${tur === 'yazi' ? ', yazar: Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
+  ? `Read this ${KELIME[tur].en}: ${url} ("${b}"${tur !== 'sayfa' ? ' by Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
+  : `Şu ${KELIME[tur].tr.ayi} oku: ${url} ("${b}"${tur !== 'sayfa' ? ', yazar: Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
 
 const MODLAR = [
   {
@@ -58,7 +59,7 @@ const MODLAR = [
     en: 'Apply to my site',
     komut: (url, b, en, tur) => en
       ? `${kaynak(url, b, en, tur)} I want to apply its advice to my own website. First ask me for my site's address and industry, then explain which of its recommendations should be my priorities and why.`
-      : `${kaynak(url, b, en, tur)} Bu ${KELIME[tur].tr.da.replace(/daki$/, '')}daki önerileri kendi web siteme uygulamak istiyorum. Önce bana sitemin adresini ve sektörümü sor, ardından önerilerden hangilerinin benim için öncelikli olduğunu nedenleriyle Türkçe açıkla.`,
+      : `${kaynak(url, b, en, tur)} Bu ${KELIME[tur].tr.da} önerileri kendi web siteme uygulamak istiyorum. Önce bana sitemin adresini ve sektörümü sor, ardından önerilerden hangilerinin benim için öncelikli olduğunu nedenleriyle Türkçe açıkla.`,
   },
 ]
 
@@ -116,8 +117,8 @@ export default function AiOzetle({ url, baslik, isEn = false, isMobile = false, 
 
   const tr = KELIME[tur].tr
   const altMetin = sure
-    ? (isEn ? `Get the key points of this ${sure}-minute read in seconds.` : `${sure} dakikalık bu ${tr.ad}nın özünü saniyeler içinde alın.`)
-    : (isEn ? `Get the key points of this ${KELIME[tur].en} in seconds.` : `Bu ${tr.ad}nın özünü saniyeler içinde alın.`)
+    ? (isEn ? `Get the key points of this ${sure}-minute read in seconds.` : `${sure} dakikalık bu ${tr.nin} özünü saniyeler içinde alın.`)
+    : (isEn ? `Get the key points of this ${KELIME[tur].en} in seconds.` : `Bu ${tr.nin} özünü saniyeler içinde alın.`)
 
   return (
     <aside className={`ai-kutu${isMobile ? ' mobil' : ''}`} aria-labelledby="ai-ozet-baslik">

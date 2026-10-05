@@ -284,7 +284,7 @@ export default function Page(props) {
         <title>{isEn ? 'SEO & GEO Blog | Fatih Emin Çakıroğlu' : 'SEO ve GEO Blog | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? `${YAZILAR.length}+ in-depth articles on SEO, GEO, technical SEO and digital marketing strategy. Practical, actionable insights to grow your organic search visibility.` : `${YAZILAR.length}+ derinlemesine makale: teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine. Organik görünürlüğünüzü artıracak uygulanabilir içgörüler.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/blog' : 'https://fatihemincakiroglu.com/blog'} />
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Blog","name": isEn ? "Fatih Emin Çakıroğlu Blog" : "Fatih Emin Çakıroğlu Blog","url": isEn ? "https://fatihemincakiroglu.com/en/blog" : "https://fatihemincakiroglu.com/blog","author":{"@type":"Person","name":"Fatih Emin Çakıroğlu"} })}</script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"Blog","name": isEn ? "Fatih Emin Çakıroğlu Blog" : "Fatih Emin Çakıroğlu Blog","url": isEn ? "https://fatihemincakiroglu.com/en/blog" : "https://fatihemincakiroglu.com/blog","author":{"@type":"Person","name":"Fatih Emin Çakıroğlu"} }) }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

@@ -98,14 +98,16 @@ const nextConfig = {
     ]
   },
 
-  // ── BLOG YAZILARININ MARKDOWN SÜRÜMLERİ ─────────────────
-  // /blog/slug.md → sade metin (yapay zekâ araçları için).
+  // ── BLOG VE REHBERLERİN MARKDOWN SÜRÜMLERİ ──────────────
+  // /blog/slug.md, /rehber/slug.md → sade metin (yapay zekâ araçları için).
   // beforeFiles: [slug].js dinamik rotasından önce eşleşsin diye.
   async rewrites() {
     return {
       beforeFiles: [
         { source: '/blog/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr' },
         { source: '/en/blog/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en' },
+        { source: '/rehber/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr&tur=rehber' },
+        { source: '/en/guides/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en&tur=rehber' },
       ],
     }
   },

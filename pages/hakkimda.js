@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState, useEffect, useRef } from 'react';
+import YazarFoto from '../components/YazarFoto';
 
 /* ═══════════════════════════════════════════════════
    VERİ KATMANI
@@ -209,7 +210,7 @@ export default function Page(props) {
         <title>{isEn ? 'About Me | Fatih Emin Çakıroğlu — SEO Expert' : 'Hakkımda | Fatih Emin Çakıroğlu — SEO Uzmanı'}</title>
         <meta name="description" content={isEn ? 'Fatih Emin Çakıroğlu: from IB teaching to independent SEO and GEO consulting. 10+ years of experience advising 150+ brands across 14 different industries.' : "Fatih Emin Çakıroğlu: IB öğretmenliğinden bağımsız SEO ve GEO danışmanlığına uzanan yolculuk. 10+ yıl deneyim, 14 sektörde 150'den fazla markaya danışmanlık."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/about' : 'https://fatihemincakiroglu.com/hakkimda'} />
-        <script type="application/ld+json">{JSON.stringify({ "@context":"https://schema.org","@type":"Person","name":"Fatih Emin Çakıroğlu","jobTitle":isEn?"SEO & GEO Consultant":"SEO & GEO Danışmanı","url":"https://fatihemincakiroglu.com","alumniOf":{"@type":"EducationalOrganization","name":"Marmara University"},"knowsAbout":["SEO","GEO","Technical SEO","Content Strategy","Generative Engine Optimization"],"sameAs":["https://www.linkedin.com/in/fatihemincakiroglu/"] })}</script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"Person","name":"Fatih Emin Çakıroğlu","jobTitle":isEn?"SEO & GEO Consultant":"SEO & GEO Danışmanı","url":"https://fatihemincakiroglu.com","alumniOf":{"@type":"EducationalOrganization","name":"Marmara University"},"knowsAbout":["SEO","GEO","Technical SEO","Content Strategy","Generative Engine Optimization"],"sameAs":["https://www.linkedin.com/in/fatihemincakiroglu/"] }) }} />
       </Head>
 
       <div style={{ paddingTop:'var(--nav-h)', background:'var(--bg)', overflowX:'hidden' }}>
@@ -260,7 +261,7 @@ export default function Page(props) {
             {/* Avatar card */}
             <div style={{ display:'flex', flexDirection:'column', gap:'16px', alignItems:'center' }}>
               <div style={{ position:'relative' }}>
-                <div style={{ width:'180px', height:'180px', borderRadius:'50%', background:'linear-gradient(135deg,var(--orange),#c44408)', display:'flex', alignItems:'center', justifyContent:'center', fontSize:'72px', fontWeight:900, color:'#fff', fontFamily:'var(--font-display)', boxShadow:'0 0 0 6px rgba(232,86,10,0.15),0 0 0 12px rgba(232,86,10,0.06)' }}>F</div>
+                <YazarFoto size={180} priority style={{ boxShadow: '0 0 0 6px rgba(232,86,10,0.15),0 0 0 12px rgba(232,86,10,0.06)' }} />
                 <div style={{ position:'absolute', bottom:'4px', right:'-4px', background:'#fff', borderRadius:'10px', padding:'6px 12px', boxShadow:'0 4px 16px rgba(0,0,0,0.25)', display:'flex', alignItems:'center', gap:'6px' }}>
                   <span style={{ width:'7px', height:'7px', borderRadius:'50%', background:'#22c55e', display:'inline-block', flexShrink:0 }} />
                   <span style={{ fontSize:'11px', fontWeight:700, color:'#111', whiteSpace:'nowrap' }}>{t.available}</span>

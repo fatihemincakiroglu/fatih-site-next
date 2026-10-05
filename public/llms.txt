@@ -42,3 +42,7 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [Türkiye'nin En İyi 15 GEO Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-15-geo-ajansi-2026.md)
 - [Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-10-geo-ajansi-2026.md)
 - [GEO Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular](https://fatihemincakiroglu.com/blog/geo-ajansi-nasil-secilir.md)
+
+## Guides (Markdown)
+- [Teknik SEO Temelleri](https://fatihemincakiroglu.com/rehber/teknik-seo.md)
+- [İçerik Stratejisi](https://fatihemincakiroglu.com/rehber/icerik-stratejisi.md)
