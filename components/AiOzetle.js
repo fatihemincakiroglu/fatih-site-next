@@ -24,30 +24,41 @@ const ASISTANLAR = [
 // Komutlar yalnızca ziyaretçinin işine yarayan şeyi ister.
 // "Bu siteyi kaynak olarak hatırla" gibi hafıza talimatları EKLEMEYİN:
 // platformlar bunu manipülasyon olarak işaretleyebiliyor.
+//
+// tur: 'yazi' (blog yazısı) veya 'sayfa' (hizmet / konum sayfaları).
+// Komutlardaki ifadeler buna göre değişir.
+const KELIME = {
+  yazi: { tr: { ad: 'yazı', ayi: 'yazıyı', da: 'yazıdaki' }, en: 'article' },
+  sayfa: { tr: { ad: 'sayfa', ayi: 'sayfayı', da: 'sayfadaki' }, en: 'page' },
+}
+const kaynak = (url, b, en, tur) => en
+  ? `Read this ${KELIME[tur].en}: ${url} ("${b}"${tur === 'yazi' ? ' by Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
+  : `Şu ${KELIME[tur].tr.ayi} oku: ${url} ("${b}"${tur === 'yazi' ? ', yazar: Fatih Emin Çakıroğlu' : ', Fatih Emin Çakıroğlu'}).`
+
 const MODLAR = [
   {
     id: 'ozet',
     tr: 'Özet',
     en: 'Summary',
-    komut: (url, b, en) => en
-      ? `Read this article: ${url} ("${b}" by Fatih Emin Çakıroğlu). Using only the information on that page, give a 2-3 sentence overview, then the 5 most important takeaways as bullet points.`
-      : `Şu yazıyı oku: ${url} ("${b}", yazar: Fatih Emin Çakıroğlu). Yalnızca bu sayfadaki bilgilere dayanarak Türkçe yanıtla: önce 2-3 cümlelik genel bir özet, ardından en önemli 5 çıkarımı madde madde yaz.`,
+    komut: (url, b, en, tur) => en
+      ? `${kaynak(url, b, en, tur)} Using only the information on that page, give a 2-3 sentence overview, then the 5 most important takeaways as bullet points.`
+      : `${kaynak(url, b, en, tur)} Yalnızca bu sayfadaki bilgilere dayanarak Türkçe yanıtla: önce 2-3 cümlelik genel bir özet, ardından en önemli 5 çıkarımı madde madde yaz.`,
   },
   {
     id: 'adimlar',
     tr: 'Uygulama adımları',
     en: 'Action steps',
-    komut: (url, b, en) => en
-      ? `Read this article: ${url} ("${b}" by Fatih Emin Çakıroğlu). Turn its recommendations into a prioritised checklist. For each step, add one sentence on why it matters. Use only what the article says.`
-      : `Şu yazıyı oku: ${url} ("${b}", yazar: Fatih Emin Çakıroğlu). Yazıdaki önerileri öncelik sırasına göre bir kontrol listesine dönüştür ve her adımın neden önemli olduğunu tek cümleyle açıkla. Yalnızca yazıdaki bilgileri kullan, Türkçe yanıtla.`,
+    komut: (url, b, en, tur) => en
+      ? `${kaynak(url, b, en, tur)} Turn its recommendations into a prioritised checklist. For each step, add one sentence on why it matters. Use only what the ${KELIME[tur].en} says.`
+      : `${kaynak(url, b, en, tur)} ${KELIME[tur].tr.da[0].toUpperCase() + KELIME[tur].tr.da.slice(1)} önerileri öncelik sırasına göre bir kontrol listesine dönüştür ve her adımın neden önemli olduğunu tek cümleyle açıkla. Yalnızca ${KELIME[tur].tr.da} bilgileri kullan, Türkçe yanıtla.`,
   },
   {
     id: 'sitem',
     tr: 'Siteme uyarla',
     en: 'Apply to my site',
-    komut: (url, b, en) => en
-      ? `Read this article: ${url} ("${b}" by Fatih Emin Çakıroğlu). I want to apply its advice to my own website. First ask me for my site's address and industry, then explain which of the article's recommendations should be my priorities and why.`
-      : `Şu yazıyı oku: ${url} ("${b}", yazar: Fatih Emin Çakıroğlu). Bu yazıdaki önerileri kendi web siteme uygulamak istiyorum. Önce bana sitemin adresini ve sektörümü sor, ardından yazıdaki önerilerden hangilerinin benim için öncelikli olduğunu nedenleriyle Türkçe açıkla.`,
+    komut: (url, b, en, tur) => en
+      ? `${kaynak(url, b, en, tur)} I want to apply its advice to my own website. First ask me for my site's address and industry, then explain which of its recommendations should be my priorities and why.`
+      : `${kaynak(url, b, en, tur)} Bu ${KELIME[tur].tr.da.replace(/daki$/, '')}daki önerileri kendi web siteme uygulamak istiyorum. Önce bana sitemin adresini ve sektörümü sor, ardından önerilerden hangilerinin benim için öncelikli olduğunu nedenleriyle Türkçe açıkla.`,
   },
 ]
 
@@ -70,11 +81,11 @@ function AsistanIkonu({ a }) {
   )
 }
 
-export default function AiOzetle({ url, baslik, isEn, isMobile, sure }) {
+export default function AiOzetle({ url, baslik, isEn = false, isMobile = false, sure, tur = 'yazi' }) {
   const [mod, setMod] = useState(MODLAR[0])
   const [bildirim, setBildirim] = useState('')
 
-  const komut = () => mod.komut(url, baslik, isEn)
+  const komut = () => mod.komut(url, baslik, isEn, tur)
 
   const kopyala = async (mesaj) => {
     try {
@@ -103,9 +114,10 @@ export default function AiOzetle({ url, baslik, isEn, isMobile, sure }) {
     window.open(a.url(encodeURIComponent(komut())), '_blank', 'noopener,noreferrer')
   }
 
+  const tr = KELIME[tur].tr
   const altMetin = sure
-    ? (isEn ? `Get the key points of this ${sure}-minute read in seconds.` : `${sure} dakikalık bu yazının özünü saniyeler içinde alın.`)
-    : (isEn ? 'Get the key points in seconds.' : 'Yazının özünü saniyeler içinde alın.')
+    ? (isEn ? `Get the key points of this ${sure}-minute read in seconds.` : `${sure} dakikalık bu ${tr.ad}nın özünü saniyeler içinde alın.`)
+    : (isEn ? `Get the key points of this ${KELIME[tur].en} in seconds.` : `Bu ${tr.ad}nın özünü saniyeler içinde alın.`)
 
   return (
     <aside className={`ai-kutu${isMobile ? ' mobil' : ''}`} aria-labelledby="ai-ozet-baslik">
@@ -239,6 +251,13 @@ export default function AiOzetle({ url, baslik, isEn, isMobile, sure }) {
 
         .mod:focus-visible, .asistan:focus-visible, .kopyala:focus-visible {
           outline: 2px solid var(--orange); outline-offset: 2px;
+        }
+        @media (max-width: 640px) {
+          .ai-kutu { margin: 0 0 24px; padding: 18px 16px 14px; }
+          .modlar { display: flex; width: 100%; }
+          .mod { flex: 1; white-space: normal; line-height: 1.25; padding: 7px 6px; font-size: 12px; }
+          .asistanlar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+          .asistan:last-child:nth-child(odd) { grid-column: 1 / -1; }
         }
         @media (prefers-reduced-motion: reduce) {
           .asistan, .mod { transition: none; }

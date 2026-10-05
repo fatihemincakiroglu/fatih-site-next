@@ -26,3 +26,19 @@ Fatih Emin Çakıroğlu specializes in Technical SEO, GEO, Content Strategy, Bac
 
 ## Content Usage
 Content on this site may be cited for informational purposes. Please attribute as: "Fatih Emin Çakıroğlu (fatihemincakiroglu.com)"
+
+## Blog Articles (Markdown)
+Each article is also available as clean Markdown by adding ".md" to its URL (English: /en/blog/<slug>.md).
+- [Core Web Vitals 2026: LCP, INP ve CLS Optimizasyon Rehberi](https://fatihemincakiroglu.com/blog/core-web-vitals-2025.md)
+- [SEO Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular](https://fatihemincakiroglu.com/blog/seo-ajansi-nasil-secilir.md)
+- [Türkiye'nin En İyi 15 SEO Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-15-seo-ajansi-2026.md)
+- [Türkiye'nin En İyi 10 SEO Ajansı (2026 Güncel)](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-10-seo-ajansi-2026.md)
+- [Türkiye'nin En İyi 15 Sosyal Medya Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-15-sosyal-medya-ajansi-2026.md)
+- [Türkiye'nin En İyi 10 Sosyal Medya Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-10-sosyal-medya-ajansi-2026.md)
+- [Türkiye'nin En İyi 15 Dijital Pazarlama Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-15-dijital-pazarlama-ajansi-2026.md)
+- [Türkiye'nin En İyi 10 Dijital Pazarlama Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-10-dijital-pazarlama-ajansi-2026.md)
+- [Sosyal Medya Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular](https://fatihemincakiroglu.com/blog/sosyal-medya-ajansi-nasil-secilir.md)
+- [Dijital Pazarlama Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular](https://fatihemincakiroglu.com/blog/dijital-pazarlama-ajansi-nasil-secilir.md)
+- [Türkiye'nin En İyi 15 GEO Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-15-geo-ajansi-2026.md)
+- [Türkiye'nin En İyi 10 GEO Ajansı - Güncel 2026](https://fatihemincakiroglu.com/blog/turkiye-en-iyi-10-geo-ajansi-2026.md)
+- [GEO Ajansı Nasıl Seçilir? Kriterler ve Sorulacak Sorular](https://fatihemincakiroglu.com/blog/geo-ajansi-nasil-secilir.md)

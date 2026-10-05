@@ -7,8 +7,9 @@ import { YAZILAR } from '../blog';
 import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
 import { getBlogKapak } from '../../lib/blog-kapaklar';
 import AiOzetle from '../../components/AiOzetle';
+import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 
-const ICERIKLER = {
+export const ICERIKLER = {
   'core-web-vitals-2025': {
     baslik_tr: 'Core Web Vitals 2026: LCP, INP ve CLS Optimizasyon Rehberi',
     baslik_en: 'Core Web Vitals 2026: Complete LCP, INP and CLS Optimization Guide',
@@ -3999,7 +4000,10 @@ export default function BlogPost(props) {
   const etiket = veri?.etiket || 'SEO'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
-  const guncelleme = veri?.guncelleme || (isEn ? 'July 2026' : 'Temmuz 2026')
+  // Yayın ve güncelleme tarihleri: lib/blog-meta.js
+  const meta = getBlogMeta(slug)
+  const guncelleme = meta ? ayYil(meta.guncelleme || meta.yayin, isEn) : (isEn ? 'July 2026' : 'Temmuz 2026')
+  const mdUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}.md`
   // Kapak görseli (opsiyonel): lib/blog-kapaklar.js. Yoksa site geneli og-image kullanılır.
   const kapak = getBlogKapak(slug)
   const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
@@ -4094,6 +4098,39 @@ export default function BlogPost(props) {
     </figure>
   ) : null
 
+  // Article (BlogPosting) şeması. Yazar ve yayıncı, _document.js'teki
+  // global Person grafiğine @id ile bağlanır.
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${canonicalUrl}#article`,
+    mainEntityOfPage: canonicalUrl,
+    headline: baslik.length > 110 ? baslik.slice(0, 107) + '...' : baslik,
+    description: metaDesc,
+    image: kapakUrl || 'https://fatihemincakiroglu.com/og-image.jpg',
+    inLanguage: isEn ? 'en' : 'tr-TR',
+    articleSection: etiket,
+    ...(meta?.yayin && { datePublished: meta.yayin }),
+    ...((meta?.guncelleme || meta?.yayin) && { dateModified: meta.guncelleme || meta.yayin }),
+    author: {
+      '@type': 'Person',
+      '@id': 'https://fatihemincakiroglu.com/#person',
+      name: 'Fatih Emin Çakıroğlu',
+      url: `https://fatihemincakiroglu.com${isEn ? '/en/about' : '/hakkimda'}`,
+      sameAs: ['https://www.linkedin.com/in/fatihemincakiroglu/'],
+    },
+    publisher: { '@id': 'https://fatihemincakiroglu.com/#person' },
+  }
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: isEn ? 'Home' : 'Ana Sayfa', item: `https://fatihemincakiroglu.com${isEn ? '/en' : ''}` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://fatihemincakiroglu.com${isEn ? '/en/blog' : '/blog'}` },
+      { '@type': 'ListItem', position: 3, name: baslik, item: canonicalUrl },
+    ],
+  }
+
   // Makalenin ortasına yakın bir yerde gösterilecek bağlamsal CTA
   const midCtaIndex = bolumler.length >= 4 ? Math.floor(bolumler.length / 2) - 1 : -1
   const MidArticleCTA = (
@@ -4119,6 +4156,9 @@ export default function BlogPost(props) {
         <title>{`${metaBaslik} | Fatih Emin Çakıroğlu`}</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
+        <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {kapakUrl && <meta property="og:image" content={kapakUrl} key="og-image" />}
         {kapakUrl && <meta property="og:image:width" content="1280" key="og-image-width" />}

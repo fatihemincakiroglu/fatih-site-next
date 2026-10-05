@@ -17,6 +17,7 @@ import { KONUM_SAYFA_SLUGLARI, konumBul } from '../lib/geo-konum/ilceler'
 import { konumIcerigi, konumSSS, konumMeta } from '../lib/geo-konum/icerik'
 import { SEO_KONUM_SLUGLARI, seoKonumBul, seoKonumMeta } from '../lib/seo-konum'
 import SEO_ICERIK from '../lib/seo-konum/icerik.json'
+import AiOzetle from '../components/AiOzetle'
 
 // Sayfa tipine göre değişen metinler
 const TIP = {
@@ -179,6 +180,7 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
         {/* İçerik */}
         <main style={{ maxWidth: '900px', margin: '0 auto', padding: '32px 16px 24px' }}>
           <article style={{ background: '#fff', borderRadius: '16px', padding: 'clamp(22px, 4vw, 44px)', border: '1px solid #eee' }}>
+            <AiOzetle url={canonical} baslik={meta.h1} tur="sayfa" />
             {bloklar.map((b, i) => <Blok key={i} b={b} />)}
 
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(20px, 3vw, 26px)', fontWeight: 800, color: '#111', lineHeight: 1.3, margin: '44px 0 16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
