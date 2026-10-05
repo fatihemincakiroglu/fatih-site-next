@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import { YAZILAR } from '../blog';
 import { YAYINDAKI_BLOG_SLUGS } from '../../lib/content-index';
 import { getBlogKapak } from '../../lib/blog-kapaklar';
+import AiOzetle from '../../components/AiOzetle';
 
 const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -4163,6 +4164,7 @@ export default function BlogPost(props) {
           <div style={{ padding: '20px 16px 64px', maxWidth: '1100px', margin: '0 auto' }}>
             {TOC}
             <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee' }}>
+              <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} />
               {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
@@ -4206,6 +4208,7 @@ export default function BlogPost(props) {
           /* DESKTOP: 2-col layout */
           <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '32px', alignItems: 'start' }}>
             <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
+              <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} />
               {KapakGorseli}
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
