@@ -91,6 +91,9 @@ const nextConfig = {
       // /istanbul-geo-uzmani kaldırıldı (/geo-uzmani ile aynı sorguyu hedefliyordu).
       { source: '/istanbul-geo-uzmani', destination: '/geo-uzmani', statusCode: 301 },
       { source: '/istanbul-geo-uzmani/', destination: '/geo-uzmani', statusCode: 301 },
+      // /istanbul-seo-uzmani kaldırıldı (/seo-uzmani ile aynı sorguyu hedefliyordu).
+      { source: '/istanbul-seo-uzmani', destination: '/seo-uzmani', statusCode: 301 },
+      { source: '/istanbul-seo-uzmani/', destination: '/seo-uzmani', statusCode: 301 },
       // Kaldırılmış eski adresler → ana sayfa. statusCode: 301 (permanent: true 308 verir).
       ...ANASAYFAYA_YONLENEN.flatMap(u => [
         { source: u, destination: '/', statusCode: 301 },
