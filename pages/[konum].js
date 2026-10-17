@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────
 // Yerel GEO ve SEO uzmanı sayfaları:
 //   /istanbul-geo-uzmani, /kartal-geo-uzmani ...  (içerik: lib/geo-konum)
-//   /istanbul-seo-uzmani, /kartal-seo-uzmani ...  (içerik: lib/seo-konum)
+//   /kadikoy-seo-uzmani, /kartal-seo-uzmani ...    (içerik: lib/seo-konum/ilceler.json)
 //
 // • Yalnızca lib/geo-konum/ilceler.js'teki 40 konum × 2 adres üretilir (fallback: false);
 //   kök dizindeki diğer tüm adresler eskisi gibi 404 döner. Statik sayfalar
@@ -15,20 +15,22 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { KONUM_SAYFA_SLUGLARI, konumBul } from '../lib/geo-konum/ilceler'
 import { konumIcerigi, konumSSS, konumMeta } from '../lib/geo-konum/icerik'
-import { SEO_KONUM_SLUGLARI, seoKonumBul, seoKonumMeta } from '../lib/seo-konum'
-import SEO_ICERIK from '../lib/seo-konum/icerik.json'
+import { SEO_KONUM_SLUGLARI, seoKonumBul, seoKonumSayfasi } from '../lib/seo-konum'
+import SEO_ILCELER from '../lib/seo-konum/ilceler.json'
 import AiOzetle from '../components/AiOzetle'
 
 // Sayfa tipine göre değişen metinler
 const TIP = {
   geo: {
     rozet: 'GEO UZMANI', serviceType: 'Generative Engine Optimization (GEO) danışmanlığı',
+    katalog: ['Yapay zekâ görünürlük analizi', 'Varlık (entity) ve şema optimizasyonu', 'Alıntılanabilir içerik yapısı', 'Marka bahsi ve dijital PR', 'ChatGPT, Gemini ve Perplexity görünürlük takibi'],
     heroCta: 'Ücretsiz GEO Analizi Al →', ctaRozet: 'ÜCRETSİZ GEO ANALİZİ',
     ctaBaslik: 'Markanız yapay zekâ cevaplarında nasıl görünüyor?',
     ctaMetin: "ChatGPT, Gemini ve Perplexity'de markanızın bugünkü görünürlüğünü birlikte inceleyelim.",
   },
   seo: {
     rozet: 'SEO UZMANI', serviceType: 'SEO danışmanlığı',
+    katalog: ['Teknik SEO denetimi', 'Yerel SEO ve Google Business Profile', 'Anahtar kelime ve içerik stratejisi', 'Hizmet bölgesi ve şube sayfaları', 'Site içi bağlantı ve şema işaretlemesi', 'Search Console ve GA4 ile ölçümleme'],
     heroCta: 'Ücretsiz SEO Analizi Al →', ctaRozet: 'ÜCRETSİZ SEO ANALİZİ',
     ctaBaslik: 'Siteniz Google aramalarında neden geride kalıyor?',
     ctaMetin: 'Teknik altyapınızı, içerik fırsatlarınızı ve yerel görünürlüğünüzü birlikte inceleyip ilk 90 günün önceliklerini çıkaralım.',
@@ -113,30 +115,45 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
   const canonical = `${BASE}/${slug}`
   const T = TIP[tip]
 
-  const schema = [
-    {
-      '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: BASE },
-        { '@type': 'ListItem', position: 2, name: meta.h1, item: canonical },
-      ],
-    },
-    {
-      '@context': 'https://schema.org', '@type': 'Service',
-      name: meta.h1,
-      serviceType: T.serviceType,
-      description: meta.desc,
-      url: canonical,
-      provider: { '@id': `${BASE}/#person` },
-      areaServed: konumAdi === 'İstanbul'
-        ? { '@type': 'City', name: 'İstanbul' }
-        : { '@type': 'AdministrativeArea', name: `${konumAdi}, İstanbul` },
-    },
-    {
-      '@context': 'https://schema.org', '@type': 'FAQPage',
-      mainEntity: sss.map(f => ({ '@type': 'Question', name: f.s, acceptedAnswer: { '@type': 'Answer', text: duzMetin(f.c) } })),
-    },
-  ]
+  // Tek @graph: WebPage + BreadcrumbList + Service + FAQPage birbirine @id ile bağlı.
+  // Person / WebSite düğümleri _document.js'te tanımlı (#person, #website).
+  const alan = { '@type': 'AdministrativeArea', name: `${konumAdi}, İstanbul`, containedInPlace: { '@type': 'City', name: 'İstanbul', addressCountry: 'TR' } }
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical, name: meta.title,
+        description: meta.desc, inLanguage: 'tr-TR',
+        isPartOf: { '@id': `${BASE}/#website` },
+        breadcrumb: { '@id': `${canonical}#breadcrumb` },
+        about: { '@id': `${canonical}#service` },
+        author: { '@id': `${BASE}/#person` },
+      },
+      {
+        '@type': 'BreadcrumbList', '@id': `${canonical}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: BASE },
+          { '@type': 'ListItem', position: 2, name: tip === 'seo' ? 'SEO Uzmanı' : 'GEO Uzmanı', item: `${BASE}/${tip === 'seo' ? 'seo-uzmani' : 'geo-uzmani'}` },
+          { '@type': 'ListItem', position: 3, name: meta.h1, item: canonical },
+        ],
+      },
+      {
+        '@type': 'Service', '@id': `${canonical}#service`,
+        name: meta.h1, serviceType: T.serviceType, description: meta.desc, url: canonical,
+        provider: { '@id': `${BASE}/#person` },
+        areaServed: alan,
+        audience: { '@type': 'BusinessAudience', name: `${konumAdi} bölgesindeki işletmeler` },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog', name: `${meta.h1} hizmetleri`,
+          itemListElement: T.katalog.map(n => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: n, areaServed: alan } })),
+        },
+      },
+      {
+        '@type': 'FAQPage', '@id': `${canonical}#faq`,
+        mainEntity: sss.map(f => ({ '@type': 'Question', name: f.s, acceptedAnswer: { '@type': 'Answer', text: duzMetin(f.c) } })),
+      },
+    ],
+  }
 
   return (
     <>
@@ -147,9 +164,7 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
         <meta property="og:title" content={meta.title} key="og-title" />
         <meta property="og:description" content={meta.desc} key="og-description" />
         <meta property="og:url" content={canonical} key="og-url" />
-        {schema.map((s, i) => (
-          <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
-        ))}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>
@@ -157,6 +172,8 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
         <nav aria-label="breadcrumb" style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 16px' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
             <Link href="/" style={{ color: '#aaa', fontSize: '13px' }}>Ana Sayfa</Link>
+            <span style={{ color: '#ccc' }}>›</span>
+            <Link href={tip === 'seo' ? '/seo-uzmani' : '/geo-uzmani'} style={{ color: '#aaa', fontSize: '13px' }}>{tip === 'seo' ? 'SEO Uzmanı' : 'GEO Uzmanı'}</Link>
             <span style={{ color: '#ccc' }}>›</span>
             <span style={{ color: '#555', fontSize: '13px' }} aria-current="page">{meta.h1}</span>
           </div>
@@ -220,18 +237,18 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const s = seoKonumBul(params.konum)
   if (s) {
-    const v = SEO_ICERIK[params.konum]
+    const v = SEO_ILCELER[s.slug]
     if (!v) return { notFound: true }
+    const sayfa = seoKonumSayfasi(s, v)
     return {
       props: {
         tip: 'seo',
         slug: params.konum,
         konumAdi: s.ad,
-        meta: seoKonumMeta(s, v.h1),
-        alt: v.alt,
-        bloklar: v.bloklar,
-        sss: v.sss,
-        sssNot: v.sssNot,
+        meta: sayfa.meta,
+        alt: sayfa.alt,
+        bloklar: sayfa.bloklar,
+        sss: sayfa.sss,
       },
     }
   }
