@@ -1,7 +1,7 @@
 // Markdown sürümleri. next.config.mjs içindeki rewrite'lar buraya getirir:
 //   /blog/slug.md, /en/blog/slug.md         → tur=blog
 //   /rehber/slug.md, /en/guides/slug.md     → tur=rehber
-import { ICERIKLER } from '../blog/[slug]'
+import { ICERIKLER } from '../../lib/blog-icerikler'
 import { TUM_REHBERLER } from '../rehber/[slug]'
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../../lib/content-index'
 import { blogMarkdown, rehberMarkdown } from '../../lib/blog-markdown'

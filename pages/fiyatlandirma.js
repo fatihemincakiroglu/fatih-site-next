@@ -69,7 +69,7 @@ export default function Page(props) {
           <div style={{ background: '#1a1612', borderRadius: '16px', padding: '40px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', color: '#fff', marginBottom: '12px' }}>{t.notitle}</h2>
             <p style={{ color: '#6b6b6b', marginBottom: '24px', maxWidth: '500px', margin: '0 auto 24px' }}>{t.nodesc}</p>
-            <Link href={isEn?'/contact':'/iletisim'}><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.nobtn}</button></Link>
+            <Link href={isEn?'/en/contact':'/iletisim'}><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.nobtn}</button></Link>
           </div>
         </div>
       </div>

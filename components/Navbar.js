@@ -221,7 +221,7 @@ export default function Navbar({ onSearchOpen }) {
         </div>
       )}
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
           .desktop-nav { display: none !important; }
           .mobile-nav { display: flex !important; }
@@ -245,7 +245,7 @@ export default function Navbar({ onSearchOpen }) {
         @media (max-width: 360px) {
           .mobile-nav .nav-cta { display: none !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

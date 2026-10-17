@@ -186,7 +186,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .footer-marka-serit {
           display: flex;
           flex-wrap: wrap;
@@ -219,7 +219,7 @@ export default function Footer() {
           .footer-marka { padding: 6px; }
           .footer-marka-serit { gap: 8px; }
         }
-      `}</style>
+      ` }} />
     </footer>
   )
 }

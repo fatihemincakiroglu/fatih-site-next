@@ -1,12 +1,51 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Document from 'next/document'
+import { createElement } from 'react'
+
+// ── OPEN GRAPH: MERKEZÎ ÜRETİM ───────────────────────────────
+// Sayfalar zaten <title>, meta description ve canonical veriyor; og:title,
+// og:description ve og:url bunların birebir kopyası olmalı. 40+ sayfaya tek
+// tek eklemek yerine, next/head'in topladığı etiketleri burada (sunucuda)
+// okuyup eksik OG etiketlerini tamamlıyoruz. Bir sayfa kendi og:* etiketini
+// verdiyse (ör. [konum].js, blog yazıları) ona dokunulmaz.
+// next-head-count bu dizinin uzunluğundan hesaplandığı için istemci tarafı
+// head yönetimi de tutarlı kalır.
+function textOf(children) {
+  if (children == null || typeof children === 'boolean') return ''
+  if (Array.isArray(children)) return children.map(textOf).join('')
+  return String(children)
+}
+
+function withOpenGraph(head = []) {
+  let title, description, canonical
+  const present = new Set()
+  for (const el of head) {
+    if (!el || !el.props) continue
+    const { props, type } = el
+    if (type === 'title') title = textOf(props.children).trim()
+    if (type === 'meta' && props.name === 'description') description = props.content
+    if (type === 'meta' && props.property) present.add(props.property)
+    if (type === 'meta' && props.name && props.name.startsWith('twitter:')) present.add(props.name)
+    if (type === 'link' && props.rel === 'canonical') canonical = props.href
+  }
+  const extra = []
+  const add = (attr, key, content) => {
+    if (content && !present.has(key)) extra.push(createElement('meta', { [attr]: key, content, key: `og-auto-${key}` }))
+  }
+  add('property', 'og:title', title)
+  add('property', 'og:description', description)
+  add('property', 'og:url', canonical)
+  add('name', 'twitter:title', title)
+  add('name', 'twitter:description', description)
+  return extra.length ? [...head, ...extra] : head
+}
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     const pathname = ctx.pathname || ctx.asPath || '/'
     const isEn = pathname.startsWith('/en')
-    return { ...initialProps, isEn }
+    return { ...initialProps, head: withOpenGraph(initialProps.head), isEn }
   }
 
   render() {

@@ -486,13 +486,24 @@ export default function Page(props) {
               <p style={{ fontSize: '16px', color: '#666', lineHeight: 1.75, marginBottom: '32px', maxWidth: '480px' }}>
                 {isEn ? "I've grown the Google and AI search visibility of 150+ businesses. Achieving sustainable growth through data-driven SEO & GEO strategy." : '150+ işletmenin Google ve yapay zekâ aramalarındaki görünürlüğünü artırdım. Veriye dayalı SEO & GEO stratejisiyle kalıcı büyüme sağlıyorum.'}
               </p>
-              <div style={{ display: 'flex', gap: '8px', marginBottom: '16px', maxWidth: '460px' }}>
-                <input type="text" placeholder={isEn ? 'Enter your domain...' : 'Alan adınızı girin...'} value={domain} onChange={e => setDomain(e.target.value)}
-                  style={{ flex: 1, padding: '13px 18px', borderRadius: '8px', border: '1px solid #ddd', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', background: '#fff' }} />
-                <Link href={isEn ? "/en/contact" : "/iletisim"} style={{ padding: '13px 22px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center' }}>
+              {/* Girilen domain /araclar?url=... adresine taşınır ve SEO denetimi orada
+                  otomatik başlar. Alan boşsa doğrudan araç sayfası açılır. */}
+              <form
+                onSubmit={e => {
+                  e.preventDefault()
+                  const d = domain.trim()
+                  const yol = isEn ? '/en/tools' : '/araclar'
+                  router.push(d ? `${yol}?url=${encodeURIComponent(d)}` : yol)
+                }}
+                style={{ display: 'flex', gap: '8px', marginBottom: '16px', maxWidth: '460px' }}>
+                <input type="text" inputMode="url" autoCapitalize="none" spellCheck={false}
+                  aria-label={isEn ? 'Your domain' : 'Alan adınız'}
+                  placeholder={isEn ? 'Enter your domain...' : 'Alan adınızı girin...'} value={domain} onChange={e => setDomain(e.target.value)}
+                  style={{ flex: 1, minWidth: 0, padding: '13px 18px', borderRadius: '8px', border: '1px solid #ddd', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', background: '#fff' }} />
+                <button type="submit" style={{ padding: '13px 22px', background: 'var(--orange)', color: '#fff', border: 'none', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', cursor: 'pointer', flexShrink: 0 }}>
                   {isEn ? 'Analyze' : 'Analiz Et'}
-                </Link>
-              </div>
+                </button>
+              </form>
               <Link href={isEn ? "/en/book-a-call" : "/randevu"} style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: '#111', color: '#fff', padding: '12px 20px 12px 12px', borderRadius: '40px', textDecoration: 'none', marginBottom: '20px' }}>
                 <span style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px' }}>→</span>
                 <div>
@@ -502,7 +513,7 @@ export default function Page(props) {
               </Link>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: '#aaa' }}>
                 <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#22c55e', display: 'inline-block' }}></span>
-                {isEn ? 'Share your domain for a free AI audit.' : 'Domain bilgisi alıp ücretsiz AI audit yapalım.'}
+                {isEn ? 'Enter your site for an instant, free SEO audit.' : 'Sitenizi girin, anında ücretsiz SEO denetimi yapalım.'}
               </div>
             </div>
 
@@ -832,7 +843,7 @@ export default function Page(props) {
             @media (max-width: 860px) {
               .seo-guide-section { padding: 40px 16px !important; }
               .seo-guide-card { padding: 32px 22px !important; }
-              .seo-guide-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+              .seo-guide-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 20px !important; }
               .seo-guide-toc { display: none !important; }
               .seo-guide-content { padding: 26px 20px !important; }
             }
@@ -1274,7 +1285,7 @@ export default function Page(props) {
 
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         /* ── Marka şeridi (Medyada & Araçlar) ── */
         .marka-serit {
           display: flex;
@@ -1340,7 +1351,7 @@ export default function Page(props) {
           section { padding-left: 20px !important; padding-right: 20px !important; }
 
           /* Hero */
-          section:first-of-type > div { grid-template-columns: 1fr !important; }
+          section:first-of-type > div { grid-template-columns: minmax(0, 1fr) !important; }
           section:first-of-type > div > div:last-child { display: none; }
 
           /* Sayaç */
@@ -1353,7 +1364,7 @@ export default function Page(props) {
           section > div > div[style*="grid-template-columns: 340px"],
           section > div > div[style*="grid-template-columns: repeat(3"],
           section > div > div[style*="grid-template-columns: repeat(4"] {
-            grid-template-columns: 1fr !important;
+            grid-template-columns: minmax(0, 1fr) !important;
             gap: 24px !important;
           }
 
@@ -1376,7 +1387,7 @@ export default function Page(props) {
           /* Vaka çalışmaları bağlantı çizgisi */
           div[style*="position: absolute; top: 44px"] { display: none; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

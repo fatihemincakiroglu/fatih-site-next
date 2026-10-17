@@ -189,7 +189,7 @@ export default function Page(props) {
             })}
           </div>
           <div style={{ marginTop: '32px' }}>
-            <LeadMagnet />
+            <LeadMagnet isEn={isEn} />
           </div>
         </div>
       </div>

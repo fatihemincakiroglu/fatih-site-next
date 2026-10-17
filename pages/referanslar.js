@@ -75,7 +75,7 @@ export default function Page(props) {
     h1b: isEn ? 'Experiences' : 'deneyimleri',
     desc: isEn ? 'I have worked with 150+ businesses. Here is what some of them say.' : '150+ işletmeyle çalıştım. İşte bazıları ne diyor.',
     breadcrumb: isEn ? ['Home','About','Testimonials'] : ['Ana Sayfa','Hakkımda','Referanslar'],
-    breadLinks: isEn ? ['/','about','testimonials'] : ['/','hakkimda','referanslar'],
+    breadLinks: isEn ? ['/','en/about','en/testimonials'] : ['/','hakkimda','referanslar'],
     sektor: isEn ? 'Sector' : 'Sektör',
     ctaTitle: isEn ? 'Want to be next?' : 'Siz de dahil olmak ister misiniz?',
     ctaDesc: isEn ? 'Book a free discovery call and let\'s grow together.' : 'Ücretsiz keşif görüşmesiyle başlayalım.',
@@ -134,7 +134,7 @@ export default function Page(props) {
             {REFS.map((r, i) => (
               <div key={i} style={{ background: '#fff', borderRadius: '16px', padding: '28px', border: '1px solid #eee', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>
-                  <div style={{ fontSize: '36px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '14px' }}>"</div>
+                  <div style={{ fontSize: '36px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '14px' }}>&quot;</div>
                   <p style={{ fontSize: '15px', color: '#444', lineHeight: 1.75, marginBottom: '20px' }}>{isEn ? r.yorum_en : r.yorum_tr}</p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '16px', borderTop: '1px solid #f0f0f0' }}>
@@ -153,7 +153,7 @@ export default function Page(props) {
           <div style={{ background: '#1a1612', borderRadius: '16px', padding: '48px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '28px', color: '#fff', marginBottom: '12px' }}>{t.ctaTitle}</h2>
             <p style={{ color: '#6b6b6b', marginBottom: '24px' }}>{t.ctaDesc}</p>
-            <Link href={isEn ? '/contact' : '/iletisim'}><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.ctaBtn}</button></Link>
+            <Link href={isEn ? '/en/contact' : '/iletisim'}><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.ctaBtn}</button></Link>
           </div>
         </div>
       </div>

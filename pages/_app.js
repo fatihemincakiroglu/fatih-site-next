@@ -318,8 +318,9 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         {/* RSS: feed okuyucuların ve tarayıcıların keşfedebilmesi için */}
         <link rel="alternate" type="application/rss+xml" title="Fatih Emin Çakıroğlu — Blog" href={`${SITE_URL}/rss.xml`} />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Fatih Emin Çakıroğlu" />
+        <meta property="og:type" content="website" key="og-type" />
+        <meta property="og:site_name" content="Fatih Emin Çakıroğlu" key="og-site-name" />
+        <meta property="og:locale" content={isEn ? 'en_US' : 'tr_TR'} key="og-locale" />
         <meta property="og:image" content="https://fatihemincakiroglu.com/og-image.jpg" key="og-image" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://fatihemincakiroglu.com/og-image.jpg" key="twitter-image" />

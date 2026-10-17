@@ -1,57 +1,75 @@
 import { useState } from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-// NOT: Bu bileşen e-postayı şu an tarayıcının localStorage'ında saklıyor ve
-// ardından PDF indirmesini tetikliyor. Gerçek bir e-posta listesi biriktirmek
-// için buraya Mailchimp / ConvertKit / Brevo gibi bir servisin API isteğini
-// eklemeniz gerekir (bkz. handleSubmit içindeki yorum).
+// Ücretsiz PDF formu. E-posta /api/lead üzerinden size iletilir (bkz.
+// pages/api/lead.js), ardından PDF indirmesi başlar. Kayıt başarısız olursa
+// ziyaretçi engellenmez: hata mesajıyla birlikte doğrudan indirme linki gösterilir.
+const PDF_URL = '/downloads/2025-teknik-seo-kontrol-listesi.pdf'
+
 export default function LeadMagnet({ isEn = false, compact = false }) {
+  const router = useRouter()
   const [email, setEmail] = useState('')
-  const [status, setStatus] = useState('idle') // idle | sending | done | error
+  const [website, setWebsite] = useState('') // honeypot
+  const [status, setStatus] = useState('idle') // idle | sending | done | error | failed
 
   const t = isEn ? {
     badge: 'FREE PDF',
-    title: '2025 Technical SEO Checklist',
-    desc: '30 practical checkpoints across 5 categories — audit your own site in minutes.',
+    title: 'Technical SEO Checklist',
+    desc: '30 practical checkpoints across 5 categories — audit your own site in minutes. (The PDF is in Turkish.)',
     placeholder: 'Your email address',
     btn: 'Send me the PDF →',
     sending: 'Sending...',
-    done: '✓ Check your downloads — enjoy!',
+    done: '✓ Your download has started — enjoy!',
     error: 'Please enter a valid email address.',
-    note: 'No spam. Unsubscribe anytime.',
+    failed: 'We could not save your email right now, but you can still download the PDF:',
+    download: 'Download the PDF',
+    note: 'No spam. Your email is only used to contact you about SEO.',
+    privacy: 'Privacy Policy',
+    privacyHref: '/en/privacy',
   } : {
     badge: 'ÜCRETSİZ PDF',
-    title: '2025 Teknik SEO Kontrol Listesi',
+    title: 'Teknik SEO Kontrol Listesi',
     desc: '5 kategoride 30 pratik kontrol maddesiyle sitenizi birkaç dakikada denetleyin.',
     placeholder: 'E-posta adresiniz',
     btn: 'PDF\'i Gönder →',
     sending: 'Gönderiliyor...',
     done: '✓ İndirme başladı, afiyet olsun!',
     error: 'Lütfen geçerli bir e-posta adresi girin.',
-    note: 'Spam yok. İstediğiniz zaman çıkabilirsiniz.',
+    failed: 'E-postanızı şu an kaydedemedik, ama PDF\'i yine de indirebilirsiniz:',
+    download: 'PDF\'i indir',
+    note: 'Spam yok. E-postanız yalnızca SEO konusunda size ulaşmak için kullanılır.',
+    privacy: 'Gizlilik Politikası',
+    privacyHref: '/gizlilik',
   }
 
-  const handleSubmit = (e) => {
+  const indir = () => {
+    const link = document.createElement('a')
+    link.href = PDF_URL
+    link.download = '2025-teknik-seo-kontrol-listesi.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
+  const handleSubmit = async (e) => {
     e.preventDefault()
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setStatus('error'); return }
     setStatus('sending')
-
-    // TODO: Gerçek e-posta listesi entegrasyonu için burada servis API'nize istek atın, örn:
-    // await fetch('https://api.brevo.com/v3/contacts', { method: 'POST', headers: {...}, body: JSON.stringify({ email }) })
     try {
-      const saved = JSON.parse(localStorage.getItem('lead_emails') || '[]')
-      saved.push({ email, date: new Date().toISOString() })
-      localStorage.setItem('lead_emails', JSON.stringify(saved))
-    } catch {}
-
-    setTimeout(() => {
+      const res = await fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, website, kaynak: router.asPath }),
+      })
+      if (res.status === 400) { setStatus('error'); return }
+      if (!res.ok) throw new Error('lead_failed')
+      if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { form: 'pdf_checklist' })
       setStatus('done')
-      const link = document.createElement('a')
-      link.href = '/downloads/2025-teknik-seo-kontrol-listesi.pdf'
-      link.download = '2025-teknik-seo-kontrol-listesi.pdf'
-      document.body.appendChild(link)
-      link.click()
-      document.body.removeChild(link)
-    }, 600)
+      indir()
+    } catch {
+      setStatus('failed')
+    }
   }
 
   return (
@@ -77,9 +95,13 @@ export default function LeadMagnet({ isEn = false, compact = false }) {
             {t.done}
           </div>
         ) : (
-          <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+          <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', position: 'relative' }}>
+            <input type="text" name="website" value={website} onChange={e => setWebsite(e.target.value)}
+              tabIndex={-1} autoComplete="off" aria-hidden="true"
+              style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }} />
             <input
               type="email"
+              aria-label={t.placeholder}
               required
               value={email}
               onChange={e => { setEmail(e.target.value); if (status === 'error') setStatus('idle') }}
@@ -92,7 +114,18 @@ export default function LeadMagnet({ isEn = false, compact = false }) {
           </form>
         )}
         {status === 'error' && <p style={{ color: '#f87171', fontSize: '12px', marginTop: '8px' }}>{t.error}</p>}
-        {status !== 'done' && <p style={{ fontSize: '11px', color: '#6b6459', marginTop: '10px' }}>{t.note}</p>}
+        {status === 'failed' && (
+          <p style={{ color: '#fbbf24', fontSize: '13px', marginTop: '10px' }}>
+            {t.failed}{' '}
+            <a href={PDF_URL} download style={{ color: 'var(--orange)', fontWeight: 700 }}>{t.download}</a>
+          </p>
+        )}
+        {status !== 'done' && (
+          <p style={{ fontSize: '11px', color: '#6b6459', marginTop: '10px' }}>
+            {t.note}{' '}
+            <Link href={t.privacyHref} style={{ color: '#8a8278', textDecoration: 'underline' }}>{t.privacy}</Link>
+          </p>
+        )}
       </div>
     </div>
   )

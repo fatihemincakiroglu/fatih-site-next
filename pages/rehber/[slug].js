@@ -197,7 +197,8 @@ export default function Page(props) {
         <title>{`${baslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu`}</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:type" content="article" key="og-type" />
+        <meta property="article:author" content="Fatih Emin Çakıroğlu" key="article-author" />
         <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Guides":"Rehber","item":`https://fatihemincakiroglu.com/${isEn?'en/guides':'rehber'}`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] }) }} />

@@ -538,7 +538,7 @@ export default function Page(props) {
             <FadeInOnScroll direction="right" delay={100}>
               <div style={{ background: '#111', borderRadius: '16px', padding: '28px', border: '1px solid #222', height: '100%' }}>
                 <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--orange)', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>💬 {t.yorum_label}</div>
-                <div style={{ fontSize: '32px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '10px' }}>"</div>
+                <div style={{ fontSize: '32px', color: 'var(--orange)', fontFamily: 'Georgia', lineHeight: 1, marginBottom: '10px' }}>&quot;</div>
                 <p style={{ fontSize: '15px', color: '#c8b8a8', lineHeight: 1.75, fontStyle: 'italic', marginBottom: '16px' }}>{vaka.yorum}</p>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <div style={{ width: '36px', height: '36px', borderRadius: '50%', background: vaka.renk, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: '14px', flexShrink: 0 }}>{vaka.yorum_kisi[0]}</div>
@@ -743,12 +743,12 @@ export default function Page(props) {
         </section>
 
       </div>
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
           section > div { gap: 16px !important; }
           section { padding-left: 16px !important; padding-right: 16px !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

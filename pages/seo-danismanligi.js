@@ -592,15 +592,15 @@ export default function Page(props) {
 
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
-          section > div { grid-template-columns: 1fr !important; gap: 32px !important; }
+          section > div { grid-template-columns: minmax(0, 1fr) !important; gap: 32px !important; }
           section { padding-left: 16px !important; padding-right: 16px !important; }
         }
         @media (min-width: 769px) and (max-width: 1024px) {
           section > div { grid-template-columns: 1fr 1fr !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

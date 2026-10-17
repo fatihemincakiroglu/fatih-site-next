@@ -490,11 +490,11 @@ export default function Page(props) {
           </div>
         </div>
       </div>
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
-          .rehber-grid { grid-template-columns: 1fr !important; }
+          .rehber-grid { grid-template-columns: minmax(0, 1fr) !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

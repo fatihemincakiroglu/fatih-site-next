@@ -144,9 +144,9 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
         <title>{meta.title}</title>
         <meta name="description" content={meta.desc} />
         <link rel="canonical" href={canonical} />
-        <meta property="og:title" content={meta.title} />
-        <meta property="og:description" content={meta.desc} />
-        <meta property="og:url" content={canonical} />
+        <meta property="og:title" content={meta.title} key="og-title" />
+        <meta property="og:description" content={meta.desc} key="og-description" />
+        <meta property="og:url" content={canonical} key="og-url" />
         {schema.map((s, i) => (
           <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }} />
         ))}

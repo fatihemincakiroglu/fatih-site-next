@@ -693,16 +693,16 @@ export default function Page(props) {
         </section>
 
       </div>
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .sss-ikon::before { content: '+'; }
         @media (max-width: 768px) {
-          section > div { grid-template-columns: 1fr !important; gap: 28px !important; }
-          section > div > div { grid-template-columns: 1fr !important; }
-          .geo-grid { grid-template-columns: 1fr !important; }
+          section > div { grid-template-columns: minmax(0, 1fr) !important; gap: 28px !important; }
+          section > div > div { grid-template-columns: minmax(0, 1fr) !important; }
+          .geo-grid { grid-template-columns: minmax(0, 1fr) !important; }
           section { padding-left: 16px !important; padding-right: 16px !important; }
           section [style*="sticky"] { position: static !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

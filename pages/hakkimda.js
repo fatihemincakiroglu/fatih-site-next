@@ -481,7 +481,7 @@ export default function Page(props) {
           <div style={{ maxWidth:'760px', margin:'0 auto' }}>
             <h2 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(22px,3vw,34px)', fontWeight:800, color:'var(--text)', marginBottom:'36px', textAlign:'center' }}>{t.testimonials_h2}</h2>
             <div style={{ background:'var(--bg2)', borderRadius:'20px', padding:'40px', border:'1px solid var(--border)', minHeight:'220px', position:'relative', overflow:'hidden' }}>
-              <div style={{ position:'absolute', top:'20px', left:'24px', fontSize:'64px', color:'var(--orange)', fontFamily:'Georgia', lineHeight:1, opacity:0.25 }}>"</div>
+              <div style={{ position:'absolute', top:'20px', left:'24px', fontSize:'64px', color:'var(--orange)', fontFamily:'Georgia', lineHeight:1, opacity:0.25 }}>&quot;</div>
               <p style={{ fontSize:'18px', color:'var(--text)', lineHeight:1.75, fontWeight:500, marginBottom:'28px', fontStyle:'italic', position:'relative', paddingLeft:'16px' }}>
                 {isEn ? TESTIMONIALS[slideIdx].en : TESTIMONIALS[slideIdx].tr}
               </p>
@@ -559,13 +559,13 @@ export default function Page(props) {
 
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
-          section > div[style*="grid-template-columns"] { grid-template-columns: 1fr !important; gap: 24px !important; }
+          section > div[style*="grid-template-columns"] { grid-template-columns: minmax(0, 1fr) !important; gap: 24px !important; }
           section { padding-left: 16px !important; padding-right: 16px !important; }
           [style*="repeat(6,1fr)"] { grid-template-columns: repeat(3,1fr) !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

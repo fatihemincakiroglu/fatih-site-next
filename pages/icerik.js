@@ -267,7 +267,7 @@ export default function Page(props) {
           </div>
         </section>
       </div>
-      <style>{`@media(max-width:768px){section>div{grid-template-columns:1fr!important;gap:24px!important;}section{padding-left:16px!important;padding-right:16px!important;}}`}</style>
+      <style dangerouslySetInnerHTML={{ __html: `@media(max-width:768px){section>div{grid-template-columns: minmax(0, 1fr) !important;gap:24px!important;}section{padding-left:16px!important;padding-right:16px!important;}}` }} />
     </>
   )
 }

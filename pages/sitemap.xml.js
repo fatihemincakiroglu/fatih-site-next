@@ -28,9 +28,10 @@ const TR_PAGES = [
   { url: '/fiyatlandirma',  priority: '0.6', changefreq: 'monthly' },
   { url: '/iletisim',       priority: '0.6', changefreq: 'monthly' },
   { url: '/randevu',        priority: '0.6', changefreq: 'monthly' },
-  { url: '/gizlilik',       priority: '0.3', changefreq: 'yearly'  },
-  { url: '/kullanim-kosullari', priority: '0.3', changefreq: 'yearly' },
 ]
+
+// NOT: /gizlilik, /kullanim-kosullari, /en/privacy ve /en/terms sayfaları
+// noindex olduğu için sitemap'e EKLENMEZ (noindex + sitemap çelişkili sinyaldir).
 
 // ── EN PAGES ──────────────────────────────────────────────
 const EN_PAGES = [
@@ -55,8 +56,6 @@ const EN_PAGES = [
   { url: '/en/pricing',              priority: '0.6', changefreq: 'monthly' },
   { url: '/en/contact',              priority: '0.6', changefreq: 'monthly' },
   { url: '/en/book-a-call',          priority: '0.6', changefreq: 'monthly' },
-  { url: '/en/privacy',              priority: '0.3', changefreq: 'yearly'  },
-  { url: '/en/terms',                priority: '0.3', changefreq: 'yearly'  },
 ]
 
 // ── BLOG & REHBER SLUGS ───────────────────────────────────

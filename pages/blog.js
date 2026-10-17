@@ -464,18 +464,18 @@ export default function Page(props) {
           )}
         </div>
       </div>
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         input::placeholder { color: #6b7280; }
         ::-webkit-scrollbar { height: 0; }
         @media (max-width: 768px) {
-          .blog-featured { grid-template-columns: 1fr !important; }
-          .blog-grid { grid-template-columns: 1fr !important; }
-          .blog-featured-card { grid-template-columns: 1fr !important; }
+          .blog-featured { grid-template-columns: minmax(0, 1fr) !important; }
+          .blog-grid { grid-template-columns: minmax(0, 1fr) !important; }
+          .blog-featured-card { grid-template-columns: minmax(0, 1fr) !important; }
         }
         @media (min-width: 769px) and (max-width: 1024px) {
           .blog-grid { grid-template-columns: repeat(2, 1fr) !important; }
         }
-      `}</style>
+      ` }} />
     </>
   )
 }

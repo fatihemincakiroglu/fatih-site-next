@@ -1,21 +1,24 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function MetaChecker({ isEn }) {
   const [url, setUrl] = useState('');
   const [sonuc, setSonuc] = useState(null);
   const [hata, setHata] = useState(null);
   const [yukleniyor, setYukleniyor] = useState(false);
+  const router = useRouter();
+  const kutuRef = useRef(null);
+  const otomatikCalisti = useRef(false);
 
-  const analiz = async () => {
-    if (!url) return;
+  const analiz = async (hedef = url) => {
+    if (!hedef) return;
     setYukleniyor(true);
     setHata(null);
     setSonuc(null);
     try {
-      const res = await fetch(`/api/seo-audit?url=${encodeURIComponent(url)}`);
+      const res = await fetch(`/api/seo-audit?url=${encodeURIComponent(hedef)}`);
       const data = await res.json();
       if (!res.ok) { setHata(data.error || (isEn ? 'An error occurred.' : 'Bir hata oluştu.')); return; }
       setSonuc(data);
@@ -25,6 +28,19 @@ function MetaChecker({ isEn }) {
       setYukleniyor(false);
     }
   };
+
+  // Ana sayfadaki "Analiz Et" formu buraya ?url=ornek.com ile gelir:
+  // alanı doldurup denetimi bir kez otomatik başlatıyoruz.
+  useEffect(() => {
+    if (!router.isReady || otomatikCalisti.current) return;
+    const q = typeof router.query.url === 'string' ? router.query.url.trim().slice(0, 2048) : '';
+    if (!q) return;
+    otomatikCalisti.current = true;
+    setUrl(q);
+    analiz(q);
+    kutuRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady, router.query.url]);
 
   const skorRenk = (ok) => ok ? '#15803d' : '#dc2626';
   const skorBg = (ok) => ok ? '#dcfce7' : '#fee2e2';
@@ -43,12 +59,12 @@ function MetaChecker({ isEn }) {
   };
 
   return (
-    <div>
+    <div ref={kutuRef} style={{ scrollMarginTop: 'calc(var(--nav-h) + 16px)' }}>
       <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
-        <input type="text" placeholder={isEn ? 'example.com' : 'ornek.com'} value={url} onChange={e => setUrl(e.target.value)}
+        <input type="text" aria-label={isEn ? 'Website address' : 'Site adresi'} placeholder={isEn ? 'example.com' : 'ornek.com'} value={url} onChange={e => setUrl(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && analiz()}
-          style={{ flex: 1, padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
-        <button onClick={analiz} disabled={yukleniyor} style={{ padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)', opacity: yukleniyor ? 0.7 : 1 }}>
+          style={{ flex: 1, minWidth: 0, padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
+        <button onClick={() => analiz()} disabled={yukleniyor} style={{ padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)', opacity: yukleniyor ? 0.7 : 1 }}>
           {yukleniyor ? (isEn ? 'Analyzing...' : 'Analiz ediliyor...') : (isEn ? 'Analyze' : 'Analiz Et')}
         </button>
       </div>
@@ -89,9 +105,9 @@ function MetaChecker({ isEn }) {
 
           <div style={{ padding: '12px 16px', background: 'rgba(232,86,10,0.06)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#555', marginTop: '16px' }}>
             💡 <strong style={{ color: '#111' }}>{isEn ? 'Tip:' : 'Öneri:'}</strong> {isEn ? (
-              <>This is a quick preliminary analysis. For a comprehensive technical SEO audit, get a <a href="/en/book-a-call" style={{ color: 'var(--orange)', fontWeight: 600 }}>free consultation</a>.</>
+              <>This is a quick preliminary analysis. For a comprehensive technical SEO audit, get a <Link href="/en/book-a-call" style={{ color: 'var(--orange)', fontWeight: 600 }}>free consultation</Link>.</>
             ) : (
-              <>Bu, hızlı bir ön analizdir. Kapsamlı bir teknik SEO denetimi için <a href="/randevu" style={{ color: 'var(--orange)', fontWeight: 600 }}>ücretsiz danışma</a> alın.</>
+              <>Bu, hızlı bir ön analizdir. Kapsamlı bir teknik SEO denetimi için <Link href="/randevu" style={{ color: 'var(--orange)', fontWeight: 600 }}>ücretsiz danışma</Link> alın.</>
             )}
           </div>
         </div>
