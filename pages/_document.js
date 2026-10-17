@@ -32,6 +32,14 @@ class MyDocument extends Document {
           <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
             "@context": "https://schema.org",
             "@graph": [{
+            // Sayfa şemalarındaki WebPage.isPartOf bu @id'ye bağlanır.
+            "@type": "WebSite",
+            "@id": "https://fatihemincakiroglu.com/#website",
+            "url": "https://fatihemincakiroglu.com",
+            "name": "Fatih Emin Çakıroğlu",
+            "inLanguage": ["tr", "en"],
+            "publisher": { "@id": "https://fatihemincakiroglu.com/#person" }
+          }, {
             "@type": "Person",
             "@id": "https://fatihemincakiroglu.com/#person",
             "name": "Fatih Emin Çakıroğlu",
