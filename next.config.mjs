@@ -8,7 +8,6 @@ const ANASAYFAYA_YONLENEN = [
   '/blog/icerik-guncelleme-stratejisi',
   '/blog/programatik-seo-rehberi',
   '/2025/12',
-  '/blog/google-business-profile',
   '/category/performans-pazarlamasi',
   '/analitik-raporlama',
   '/blog/eeat-icin-icerik',

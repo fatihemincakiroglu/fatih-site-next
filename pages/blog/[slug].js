@@ -9,6 +9,7 @@ import { getBlogKapak } from '../../lib/blog-kapaklar';
 import AiOzetle from '../../components/AiOzetle';
 import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
+import { YENI_YAZILAR } from '../../lib/blog-yazilar';
 
 export const ICERIKLER = {
   'core-web-vitals-2025': {
@@ -3889,6 +3890,9 @@ export const ICERIKLER = {
 // Mevcut yazılarda bu kalıplar geçmediği için eski içerik etkilenmez.
 // ─────────────────────────────────────────────────────────────
 const INLINE_RE = /\[([^\]]+)\]\(([^)\s]+)\)|\*\*([^*]+)\*\*/g
+// Ayrı dosyalardaki yazılar (lib/blog-yazilar) ICERIKLER'e eklenir.
+Object.assign(ICERIKLER, YENI_YAZILAR)
+
 const inlineLinkStyle = { color: 'var(--orange)', fontWeight: 600, textDecoration: 'underline', textUnderlineOffset: '3px' }
 
 function renderInline(text) {
@@ -3922,6 +3926,7 @@ function renderInline(text) {
 //   { kontrol: ['...', ...] }              → kontrol listesi (☐)
 //   { alinti: '...' }                      → vurgulu alıntı satırı
 //   { tablo: { basliklar, satirlar, sag } } → tablo (sag: sağa hizalı sütunlar)
+//   { kod: '...' }                         → kod bloğu (robots.txt, llms.txt örnekleri)
 // ─────────────────────────────────────────────────────────────
 function renderBlok(p, key, isMobile, mb) {
   const metin = { color: '#555', fontSize: '15px', lineHeight: isMobile ? 1.8 : 1.85, marginBottom: mb }
@@ -3946,6 +3951,9 @@ function renderBlok(p, key, isMobile, mb) {
   }
   if (p.alinti) return (
     <p key={key} style={{ ...metin, color: '#222', fontWeight: 600, borderLeft: '3px solid var(--orange)', background: '#faf9f7', padding: '10px 16px', borderRadius: '0 8px 8px 0' }}>{renderInline(p.alinti)}</p>
+  )
+  if (p.kod) return (
+    <pre key={key} style={{ background: '#1a1612', color: '#f5efe8', padding: '16px 18px', borderRadius: '10px', overflowX: 'auto', fontSize: '13px', lineHeight: 1.65, margin: `0 0 ${mb}`, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace', whiteSpace: 'pre' }}><code>{p.kod}</code></pre>
   )
   if (p.tablo) {
     const { basliklar, satirlar, sag = [] } = p.tablo
