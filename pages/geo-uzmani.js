@@ -200,9 +200,9 @@ export default function Page(props) {
     kriter: 'Criterion', seo_col: 'Classic SEO', geo_col: 'GEO',
   } : {
     badge: 'GEO DANIŞMANLIĞI',
-    h1a: 'İstanbul GEO Uzmanı –',
-    h1b: 'Yapay Zekâ Aramalarında Markanızı Öne Çıkarın',
-    h1c: 'ChatGPT, Gemini ve Perplexity\'de Markanızı Gösterin',
+    h1a: null,
+    h1b: 'İstanbul GEO Uzmanı',
+    h1c: 'Yapay Zekâ Aramalarında Markanızı Öne Çıkarın',
     subtitle: 'Generative Engine Optimization ile Geleceğin Aramasına Hazırlanın',
     desc: 'AI arama motorları görünürlüğün kurallarını yeniden yazıyor. Kanıtlanmış GEO stratejileriyle markaların ChatGPT, Perplexity, Google AI Overview ve Bing Copilot\'ta güvenilir kaynak olarak görünmesine yardım ediyorum.',
     btn1: 'Ücretsiz GEO Analizi Al →',
@@ -354,7 +354,7 @@ export default function Page(props) {
                 {t.badge}
               </div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 52px)', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '16px' }}>
-                <span style={{ display: 'block', marginBottom: '4px', color: '#a5b4fc' }}>{t.h1a}</span>{' '}
+                {t.h1a && <><span style={{ display: 'block', marginBottom: '4px', color: '#a5b4fc' }}>{t.h1a}</span>{' '}</>}
                 <span style={{ display: 'block' }}>{t.h1b}</span>
               </h1>
               {/* Alt başlık: bölüm başlığı değil, bu yüzden <h2> yerine <p> */}
