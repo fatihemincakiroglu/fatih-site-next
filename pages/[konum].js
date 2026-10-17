@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 // Yerel GEO ve SEO uzmanı sayfaları:
-//   /istanbul-geo-uzmani, /kartal-geo-uzmani ...  (içerik: lib/geo-konum)
+//   /kadikoy-geo-uzmani, /kartal-geo-uzmani ...    (içerik: lib/geo-konum/ilceler-icerik.json)
 //   /kadikoy-seo-uzmani, /kartal-seo-uzmani ...    (içerik: lib/seo-konum/ilceler.json)
 //
 // • Yalnızca lib/geo-konum/ilceler.js'teki 40 konum × 2 adres üretilir (fallback: false);
@@ -14,7 +14,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import { KONUM_SAYFA_SLUGLARI, konumBul } from '../lib/geo-konum/ilceler'
-import { konumIcerigi, konumSSS, konumMeta } from '../lib/geo-konum/icerik'
+import GEO_ILCELER from '../lib/geo-konum/ilceler-icerik.json'
+import { ilceSayfasi } from '../lib/ilce-sayfa'
 import { SEO_KONUM_SLUGLARI, seoKonumBul, seoKonumSayfasi } from '../lib/seo-konum'
 import SEO_ILCELER from '../lib/seo-konum/ilceler.json'
 import AiOzetle from '../components/AiOzetle'
@@ -254,14 +255,18 @@ export async function getStaticProps({ params }) {
   }
   const d = konumBul(params.konum)
   if (!d) return { notFound: true }
+  const v = GEO_ILCELER[d.slug]
+  if (!v) return { notFound: true }
+  const sayfa = ilceSayfasi(d, v, 'geo', KONUM_SAYFA_SLUGLARI)
   return {
     props: {
       tip: 'geo',
       slug: params.konum,
       konumAdi: d.ad,
-      meta: konumMeta(d),
-      bloklar: konumIcerigi(d),
-      sss: konumSSS(d),
+      meta: sayfa.meta,
+      alt: sayfa.alt,
+      bloklar: sayfa.bloklar,
+      sss: sayfa.sss,
     },
   }
 }
