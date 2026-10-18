@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma' }
-const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing' }
+const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/araclar/schema-olusturucu', yonlendirmeArac:'/araclar/yonlendirme-olusturucu', guncellemeler:'/google-guncellemeleri' }
+const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/tools/schema-generator', yonlendirmeArac:'/en/tools/redirect-generator', guncellemeler:'/en/google-updates' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
@@ -17,6 +17,15 @@ const TR_TO_EN = {
   '/randevu':'/en/book-a-call', '/hizmetler':'/en/services',
   '/kaynaklar':'/en/resources', '/seo-rehberi':'/en/seo-guide',
   '/geo-rehberi':'/en/geo-guide', '/ai-sozluk':'/en/ai-glossary',
+  '/sektorler':'/en/industries',
+  '/araclar/schema-olusturucu':'/en/tools/schema-generator',
+  '/araclar/yonlendirme-olusturucu':'/en/tools/redirect-generator',
+  '/google-guncellemeleri':'/en/google-updates',
+  '/sektorler/klinik-seo':'/en/industries/healthcare-seo',
+  '/sektorler/avukat-seo':'/en/industries/law-firm-seo',
+  '/sektorler/e-ticaret-seo-danismanligi':'/en/industries/ecommerce-seo-consulting',
+  '/sektorler/otel-turizm-seo':'/en/industries/hotel-tourism-seo',
+  '/sektorler/b2b-uretici-seo':'/en/industries/b2b-manufacturer-seo',
 }
 const EN_TO_TR = Object.fromEntries(Object.entries(TR_TO_EN).map(([k,v])=>[v,k]))
 
@@ -55,6 +64,7 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'Performance', url:u.performans, ikon:'📈', alt:'Traffic & conversion optimization' },
     { label:'GEO', url:u.geo, ikon:'🤖', alt:'AI search visibility' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editorial links & digital PR' },
+    { label:'Industries', url:u.sektorler, ikon:'🏢', alt:'Clinics, law, e-commerce, tourism, B2B' },
   ]},
   { label:'About', url:u.hakkimda, altlar:[
     { label:'Testimonials', url:u.referanslar, ikon:'⭐', alt:'Client testimonials' },
@@ -65,8 +75,13 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'GEO Guide', url:u.geoRehberi, ikon:'🤖', alt:'GEO guide' },
     { label:'AI Glossary', url:u.aiSozluk, ikon:'📚', alt:'AI terms' },
     { label:'FAQ', url:u.sss, ikon:'❓', alt:'FAQ' },
+    { label:'Google Updates', url:u.guncellemeler, ikon:'📅', alt:'Algorithm updates log' },
   ]},
-  { label:'Tools', url:u.araclar, altlar:[] },
+  { label:'Tools', url:u.araclar, altlar:[
+    { label:'All tools', url:u.araclar, ikon:'🧰', alt:'Free SEO tools' },
+    { label:'Schema Generator', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD code' },
+    { label:'Redirect Generator', url:u.yonlendirmeArac, ikon:'🔀', alt:'301 rules' },
+  ]},
   { label:'Guides', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },
 ] : [
@@ -76,6 +91,7 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'Performans', url:u.performans, ikon:'📈', alt:'Trafik ve dönüşüm optimizasyonu' },
     { label:'GEO', url:u.geo, ikon:'🤖', alt:'AI arama görünürlüğü' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editoryal link ve dijital PR' },
+    { label:'Sektörler', url:u.sektorler, ikon:'🏢', alt:'Klinik, hukuk, e-ticaret, turizm, B2B' },
   ]},
   { label:'Hakkımda', url:u.hakkimda, altlar:[
     { label:'Referanslar', url:u.referanslar, ikon:'⭐', alt:'Müşteri yorumları' },
@@ -86,8 +102,13 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'GEO Rehberi', url:u.geoRehberi, ikon:'🤖', alt:'GEO rehberi' },
     { label:'AI Sözlük', url:u.aiSozluk, ikon:'📚', alt:'AI terimleri' },
     { label:'SSS', url:u.sss, ikon:'❓', alt:'Sık sorulan sorular' },
+    { label:'Google Güncellemeleri', url:u.guncellemeler, ikon:'📅', alt:'Algoritma güncellemeleri günlüğü' },
   ]},
-  { label:'Araçlar', url:u.araclar, altlar:[] },
+  { label:'Araçlar', url:u.araclar, altlar:[
+    { label:'Tüm araçlar', url:u.araclar, ikon:'🧰', alt:'Ücretsiz SEO araçları' },
+    { label:'Schema Oluşturucu', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD kodu' },
+    { label:'301 Yönlendirme', url:u.yonlendirmeArac, ikon:'🔀', alt:'Yönlendirme kuralları' },
+  ]},
   { label:'Rehber', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },
 ]

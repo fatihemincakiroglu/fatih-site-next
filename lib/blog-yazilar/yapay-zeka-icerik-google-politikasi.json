@@ -1,0 +1,313 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 9,
+ "baslik_tr": "Yapay Zekâ ile Üretilen İçerik ve Google: Resmi Politika Ne Diyor?",
+ "baslik_en": "AI-Generated Content and Google: What Does the Official Policy Say?",
+ "meta_baslik_tr": "Yapay Zekâ İçerik ve Google: Resmi Politika",
+ "meta_baslik_en": "AI-Generated Content and Google: Official Policy",
+ "meta_desc_tr": "Google yapay zekâ içeriğini cezalandırır mı? Search Central rehberi, ölçeklenmiş içerik spam politikası ve güvenli bir yayın süreci tek yazıda.",
+ "meta_desc_en": "Does Google penalize AI content? Search Central guidance, the scaled content abuse spam policy and a safe publishing workflow, explained in one post.",
+ "ozet_tr": "Google yapay zekâ içeriğine nasıl bakıyor? Resmi açıklamalar, spam politikası ve güvenli bir yayın akışı.",
+ "ozet_en": "How Google treats AI-generated content: official statements, the spam policy and a safe publishing workflow.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yapay zekâ araçlarıyla taslak yazmak, başlık önermek ya da ürün açıklaması üretmek artık birçok ekibin günlük işi. Danışmanlık görüşmelerinde en sık duyduğum soru da bu yüzden hep aynı: “Google yapay zekâyla yazılmış içeriği cezalandırıyor mu?” Resmi cevap hayır; ama bu, her yöntemin serbest olduğu anlamına gelmiyor.",
+    "Bu yazıda Google'ın kendi kaynaklarını sırayla ele alıyorum: Şubat 2023 tarihli Search Central blog yazısı, üretken yapay zekâ içeriğine dair Search Central dokümanı ve Mart 2024'te spam politikalarına eklenen ölçeklenmiş içerik kötüye kullanımı (scaled content abuse) maddesi. Ardından bunları uygulanabilir bir yayın sürecine çeviriyorum. Bu yazının yazıldığı Ekim 2026 itibarıyla ilgili doküman en son Ekim 2026 başında güncellenmiş durumda.",
+    {
+     "alinti": "Kısa cevap: Google içeriğin nasıl üretildiğine değil, kullanıcıya fayda sağlayıp sağlamadığına bakar; yapay zekâ kullanmak tek başına politikaya aykırı değildir. Ancak arama sıralamasını manipüle etmek amacıyla, kullanıcıya değer katmadan çok sayıda sayfa üretmek ölçeklenmiş içerik kötüye kullanımı spam politikasını ihlal eder. Google, yapay zekâyla üretilen her içeriğin yayından önce insan tarafından doğruluk açısından kontrol edilmesini açıkça tavsiye eder."
+    }
+   ]
+  },
+  {
+   "baslik": "Google yapay zekâ içeriği hakkında resmi olarak ne söylüyor?",
+   "paragraflar": [
+    "Google'ın Şubat 2023'te yayımladığı açıklamanın özü şu: Arama sistemleri, nasıl üretildiğinden bağımsız olarak yüksek kaliteli içeriği ödüllendirmeyi hedefler. Değişmeyen kural, otomasyonun (yapay zekâ dahil) asıl amacı sıralamayı manipüle etmek olan içerik üretmek için kullanılmasının spam sayılması.",
+    "Aynı açıklama, içeriği değerlendirirken deneyim, uzmanlık, yetkinlik ve güvenilirlik (E-E-A-T) çerçevesine ve “Kim, Nasıl, Neden” sorularına yönlendiriyor: İçeriği kim üretti, nasıl üretti ve neden üretti? Bu sorulara dürüst cevap veremediğiniz bir sayfa, yapay zekâ kullanmasanız da risklidir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Resmi kaynak",
+       "Tarih",
+       "Ana mesaj"
+      ],
+      "satirlar": [
+       [
+        "Search Central blogu: yapay zekâ içeriğine dair rehberlik",
+        "Şubat 2023",
+        "Kalite ödüllendirilir, üretim yöntemi değil; sıralama manipülasyonu için otomasyon spamdir"
+       ],
+       [
+        "Mart 2024 çekirdek güncellemesi ve yeni spam politikaları",
+        "Mart 2024",
+        "Ölçeklenmiş içerik kötüye kullanımı politikası; insan, yapay zekâ veya karışık üretim fark etmez"
+       ],
+       [
+        "Üretken yapay zekâ içeriği dokümanı (Search Central)",
+        "Düzenli güncelleniyor; son güncelleme Ekim 2026",
+        "Doğruluk kontrolü, meta veri kontrolü, kullanıcıya bağlam verme, Merchant Center etiketleri"
+       ],
+       [
+        "Arama Kalite Değerlendirici Yönergeleri",
+        "Güncellenen doküman",
+        "Ölçeklenmiş ve az emekle üretilmiş ana içerik bölümleri; değerlendirici puanları sıralamayı doğrudan etkilemez"
+       ]
+      ]
+     }
+    },
+    "Son satırdaki yönergeler, Google'ın neyi düşük kalite saydığını anlamak için iyi bir pusula; ama doğrudan bir sıralama kuralı değil."
+   ]
+  },
+  {
+   "baslik": "Ölçeklenmiş içerik kötüye kullanımı (scaled content abuse) nedir?",
+   "paragraflar": [
+    "Google'ın spam politikalarına göre ölçeklenmiş içerik kötüye kullanımı, asıl amacı kullanıcılara yardım etmek değil arama sıralamasını manipüle etmek olan çok sayıda sayfanın üretilmesidir. Politikanın kilit noktası yöntemden bağımsız olması: Sayfaları bir ekip elle yazsa da, yapay zekâ üretse de ya da ikisi birlikte çalışsa da sonuç değerlendirilir. Politikada sayılan örnekler (liste sınırlı değil):",
+    {
+     "liste": [
+      "Kullanıcıya hiçbir değer katmayan çok sayıda sayfayı üretken yapay zekâ veya benzeri araçlarla oluşturmak.",
+      "Beslemeleri, arama sonuçlarını veya başka içerikleri kazıyıp otomatik yeniden yazma, çeviri ya da gizleme yoluyla çok sayıda sayfa üretmek.",
+      "Farklı sayfalardaki içerikleri katma değer olmadan birleştirip yeni sayfa gibi sunmak.",
+      "İçeriğin ölçeklenmiş yapısını gizlemek için birden fazla site açmak.",
+      "Okuyucu için neredeyse anlamsız olan ama arama anahtar kelimeleri içeren çok sayıda sayfa oluşturmak."
+     ]
+    },
+    "Sahada en sık gördüğüm risk, şehir ya da hizmet adlarını değiştirerek yüzlerce şablon sayfa açmak. Bu yaklaşımın hangi noktada meşru, hangi noktada sorunlu olduğunu [programatik SEO ve doorway sayfa sınırı](/blog/programatik-seo) yazısında ayrıntılı anlattım. Spam politikası ihlallerinde Google otomatik sistemler kullanabildiği gibi elle işlem (manual action) de uygulayabilir; elle işlemler Search Console'daki ilgili raporda görünür."
+   ]
+  },
+  {
+   "baslik": "Üretken yapay zekâ rehberi yayın sürecine ne getiriyor?",
+   "paragraflar": [
+    "Search Central'daki üretken yapay zekâ dokümanı, politikayı somut kurallara dönüştürüyor. Doküman, yapay zekânın konu araştırmak ve özgün içeriğe yapı kazandırmak için faydalı olabileceğini kabul ediyor; ardından şu beklentileri sıralıyor.",
+    {
+     "alt": "Doğruluk ve “halüsinasyon” kontrolü"
+    },
+    "Üretken modeller gerçekleri bir veritabanından çekmez, olası kelime dizilerini tahmin eder; bu yüzden ürettikleri metin yanlış bilgi içerebilir. Google, yapay zekâyla üretilen tüm içeriğin yayından önce doğruluk ve güvenilirlik açısından elle kontrol edilmesini tavsiye ediyor. Bu kontrol yalnızca gövde metniyle sınırlı değil: Arama sonuçlarında görünebilecek title etiketi, meta açıklama, yapısal veri ve görsel alt metni de kapsamda.",
+    {
+     "alt": "Yapısal veri ve kullanıcıya bağlam"
+    },
+    "Yapısal veri ekliyorsanız genel yönergelere ve ilgili arama özelliğinin kurallarına uymanız, işaretlemeyi test etmeniz bekleniyor; temel kurallar için [yapısal veri (schema) rehberine](/rehber/schema-yapisal-veri) bakabilirsiniz. Doküman ayrıca içeriğin nasıl oluşturulduğunu, özellikle otomatik üretildiyse, okuyucuya uygun biçimde açıklamayı ve uygun yerlerde görsel meta verisi eklemeyi öneriyor.",
+    {
+     "alt": "E-ticaret siteleri için ek kurallar"
+    },
+    "Google Merchant Center kullanan siteler için kurallar daha net: Yapay zekâyla üretilmiş görseller IPTC DigitalSourceType meta verisinde TrainedAlgorithmicMedia değerini taşımalı; yapay zekâyla üretilmiş ürün başlıkları ve açıklamaları ayrı belirtilmeli ve yapay zekâ üretimi olarak etiketlenmeli. Ürün sayfalarının genel optimizasyonu için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir başlangıç."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ kullandığınızı belirtmeli misiniz?",
+   "paragraflar": [
+    "Google'ın 2023 tarihli açıklamasındaki soru-cevap bölümü, yapay zekâ veya otomasyon açıklamalarının okuyucunun “Bu içerik nasıl üretildi?” diye merak edebileceği durumlarda faydalı olduğunu söylüyor. Yani her blog yazısına zorunlu bir etiket koymanız gerekmiyor; ama okuyucunun üretim yöntemini bilmesinin güveni etkileyeceği yerlerde açık olmak doğru tercih.",
+    "Yazar bilgisi konusunda Google, okuyucunun makul olarak beklediği yerlerde doğru yazar bilgisi vermeyi öneriyor ve yapay zekâyı yazar olarak göstermenin bu tavsiyeye uymanın iyi bir yolu olmadığını belirtiyor. Benim önerim: İçeriği gerçekten kontrol eden ve sorumluluğunu alan kişiyi yazar ya da editör olarak gösterin, gerekiyorsa sayfanın altında yapay zekânın hangi aşamada kullanıldığını kısaca açıklayın."
+   ]
+  },
+  {
+   "baslik": "Google yapay zekâ içeriğini tespit edip cezalandırıyor mu?",
+   "paragraflar": [
+    "Google'ın politika metinlerinde ölçüt üretim yöntemi değil, içeriğin değeri ve amacı. “Yapay zekâ cezası” diye ayrı bir politika yok. Üçüncü taraf yapay zekâ dedektörlerinin verdiği skorları Google'ın kullandığına dair resmi bir açıklama da yok; ben bu skorları yayın kararı için güvenilir bir ölçüt olarak görmüyorum.",
+    "Pratikte asıl etki çekirdek güncellemelerinde görülüyor. Google, Mart 2024'te faydalı içerik sistemini çekirdek sıralama sistemlerinin bir parçası hâline getirdi; dolayısıyla az emekle üretilmiş, birbirinin kopyası sayfalar ayrı bir “yapay zekâ filtresi” yerine genel kalite değerlendirmesinden etkileniyor. Bir güncelleme sonrası düşüş yaşadıysanız [çekirdek güncelleme sonrası trafik düşüşü teşhis listesini](/blog/cekirdek-guncelleme-trafik-dususu) ve tarihleri karşılaştırmak için [Google güncellemeleri günlüğünü](/google-guncellemeleri) kullanabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ destekli içerik için güvenli yayın akışı",
+   "paragraflar": [
+    "Müşterilerimle kullandığım akış, yapay zekâyı yazarın yerine değil, yazarın hızlandırıcısı olarak konumlandırıyor:",
+    {
+     "kontrol": [
+      "Brief'i insan hazırlar: arama niyeti, hedef okuyucu ve sayfanın cevaplayacağı sorular baştan belirlenir.",
+      "Taslağa yapay zekânın bilemeyeceği unsurlar eklenir: kendi deneyiminiz, örnekleriniz, verileriniz, fotoğraflarınız.",
+      "Her sayı, tarih, isim ve teknik iddia birincil kaynaktan doğrulanır.",
+      "Title, meta açıklama, alt metin ve yapısal veri ayrı ayrı gözden geçirilir.",
+      "Sağlık, hukuk ve finans gibi alanlarda içerik konunun uzmanına onaylatılır.",
+      "Yayın hızı, ekibin kontrol kapasitesini aşmayacak şekilde planlanır.",
+      "Yayımlanan içerik belirli aralıklarla güncellenir; değer üretmeyen sayfalar birleştirilir veya kaldırılır."
+     ]
+    },
+    "Bu akışın içerik planıyla nasıl birleşeceğini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım. Ekibiniz yayın hacmini kontrol kapasitesiyle dengeleyemiyorsa, [içerik stratejisi danışmanlığı](/icerik) kapsamında brief ve editör sürecini birlikte kurabiliriz."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ içeriği ve GEO: asistanlar neyi alıntılar?",
+   "paragraflar": [
+    "Konunun bir de yapay zekâ asistanları tarafı var. ChatGPT, Gemini veya Perplexity gibi asistanlar cevap üretirken kaynak gösterebiliyor; internette zaten bulunan bilgiyi yeniden paketleyen genel bir metnin alıntılanacak özgün bir yanı yoktur. Alıntıyı kazandıran şey net tanımlar, özgün veri ve uzman görüşüdür.",
+    "Markanızın asistan cevaplarında nasıl göründüğünü ölçmek için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına göz atabilirsiniz. Mevcut içerik envanterinizi politika riski ve kalite açısından bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Drafting with AI tools has become routine for many teams, so the question I hear most in consulting calls never changes: “Does Google penalize AI-written content?” The official answer is no, but that does not mean every method is acceptable.",
+    "In this post I walk through Google's own sources in order: the February 2023 Search Central blog post, the Search Central documentation on generative AI content, and the scaled content abuse policy added to the spam policies in March 2024. Then I turn them into a workable process. As of October 2026, when this post was written, the relevant documentation was last updated in early October 2026.",
+    {
+     "alinti": "Short answer: Google looks at whether content helps users, not at how it was produced; using AI is not against its policies on its own. However, generating many pages that add no value for users, mainly to manipulate search rankings, violates the scaled content abuse spam policy. Google explicitly recommends that a person fact-checks every piece of AI-generated content before it is published."
+    }
+   ]
+  },
+  {
+   "baslik": "What does Google officially say about AI-generated content?",
+   "paragraflar": [
+    "The core of Google's February 2023 statement is simple: its ranking systems aim to reward high-quality content, however it is produced. What has not changed is the rule that using automation, AI included, to generate content whose primary purpose is manipulating rankings counts as spam.",
+    "The same statement points to the experience, expertise, authoritativeness and trustworthiness framework (E-E-A-T) and to the “Who, How and Why” questions: who created the content, how was it created, and why? A page that cannot answer those questions honestly is risky whether or not AI was involved.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Official source",
+       "Date",
+       "Key message"
+      ],
+      "satirlar": [
+       [
+        "Search Central blog: guidance about AI-generated content",
+        "February 2023",
+        "Quality is rewarded, not the production method; automation for ranking manipulation is spam"
+       ],
+       [
+        "March 2024 core update and new spam policies",
+        "March 2024",
+        "Scaled content abuse policy; human, AI or mixed production makes no difference"
+       ],
+       [
+        "Generative AI content documentation (Search Central)",
+        "Updated regularly; last update October 2026",
+        "Fact-checking, metadata review, giving users context, Merchant Center labels"
+       ],
+       [
+        "Search Quality Rater Guidelines",
+        "Living document",
+        "Sections on scaled and low-effort main content; rater scores do not directly affect rankings"
+       ]
+      ]
+     }
+    },
+    "The rater guidelines in the last row are a useful compass for what Google considers low quality, but they are not a direct ranking rule."
+   ]
+  },
+  {
+   "baslik": "What is scaled content abuse?",
+   "paragraflar": [
+    "Under Google's spam policies, scaled content abuse means generating many pages primarily to manipulate search rankings rather than to help users. The key point is that the policy is method-agnostic: whether a team writes the pages by hand, AI generates them, or both work together, the outcome is what gets judged. Examples listed in the policy (not an exhaustive list):",
+    {
+     "liste": [
+      "Using generative AI or similar tools to create many pages that add no value for users.",
+      "Scraping feeds, search results or other content to produce many pages, including through automated rewording, translation or obfuscation.",
+      "Stitching together content from different pages without adding value.",
+      "Running multiple sites to hide the scaled nature of the content.",
+      "Creating many pages that contain search keywords but make little or no sense to a reader."
+     ]
+    },
+    "The most common risk I see is hundreds of template pages with swapped city or service names; see my post on [programmatic SEO and the doorway page line](/en/blog/programatik-seo). Google can act on spam policy violations through automated systems and through manual actions; manual actions are shown in the corresponding Search Console report."
+   ]
+  },
+  {
+   "baslik": "What the generative AI guidance means for your publishing process",
+   "paragraflar": [
+    "The generative AI documentation on Search Central turns the policy into concrete rules. It acknowledges that AI can be useful for researching a topic and adding structure to original content, then lists the following expectations.",
+    {
+     "alt": "Accuracy and hallucination checks"
+    },
+    "Generative models do not pull facts from a database; they predict likely word sequences, so their output can contain errors. Google recommends manually fact-checking all AI-generated content for accuracy and trustworthiness before publishing. The review is not limited to body copy: title elements, meta descriptions, structured data and image alt text that can appear in search results are in scope too.",
+    {
+     "alt": "Structured data and context for users"
+    },
+    "If you add structured data, you are expected to follow the general guidelines and the rules of the specific search feature, and to validate your markup; the basics are covered in my [structured data (schema) guide](/en/guides/schema-yapisal-veri). The documentation also suggests telling readers how the content was created, especially when it was generated automatically, and adding image metadata where relevant.",
+    {
+     "alt": "Extra rules for ecommerce sites"
+    },
+    "For sites using Google Merchant Center the rules are stricter: AI-generated images must carry the TrainedAlgorithmicMedia value in the IPTC DigitalSourceType metadata, and AI-generated product titles and descriptions must be specified separately and labelled as AI-generated. For product page optimization in general, my [ecommerce SEO guide](/en/guides/e-ticaret-seo) is a good starting point."
+   ]
+  },
+  {
+   "baslik": "Should you disclose that you used AI?",
+   "paragraflar": [
+    "The FAQ in Google's 2023 statement says AI or automation disclosures are useful for content where readers might reasonably ask “How was this created?” So you do not need a mandatory label on every blog post, but being open is the right call wherever knowing the production method would affect trust.",
+    "On bylines, Google recommends accurate author information where readers would reasonably expect it and says that listing AI as the author is not a good way to follow that advice. My recommendation: credit the person who actually reviewed the content and takes responsibility for it as author or editor, and, where useful, briefly explain at the end of the page at which stage AI was used."
+   ]
+  },
+  {
+   "baslik": "Does Google detect and penalize AI content?",
+   "paragraflar": [
+    "In Google's policy texts the criterion is the value and purpose of the content, not the production method. There is no separate “AI penalty” policy. There is also no official statement that Google uses scores from third-party AI detectors, and I do not treat those scores as a reliable basis for publishing decisions.",
+    "In practice, the real impact shows up in core updates. In March 2024 Google made the helpful content system part of its core ranking systems, so low-effort, near-duplicate pages are affected by overall quality assessment rather than by a dedicated “AI filter.” If you saw a drop after an update, use my [core update traffic drop diagnosis checklist](/en/blog/cekirdek-guncelleme-trafik-dususu) and compare dates in the [Google updates log](/en/google-updates)."
+   ]
+  },
+  {
+   "baslik": "A safe publishing workflow for AI-assisted content",
+   "paragraflar": [
+    "The workflow I use with clients positions AI as an accelerator for the writer, not a replacement:",
+    {
+     "kontrol": [
+      "A person writes the brief: search intent, target reader and the questions the page must answer are set up front.",
+      "The draft gets what AI cannot know: your own experience, examples, data and photos.",
+      "Every number, date, name and technical claim is checked against a primary source.",
+      "Title, meta description, alt text and structured data are reviewed separately.",
+      "In health, legal and finance topics, a subject-matter expert signs off the content.",
+      "Publishing pace is planned so it never exceeds the team's review capacity.",
+      "Published content is updated periodically; pages that add no value are merged or removed."
+     ]
+    },
+    "I explain how this workflow fits into a content plan in my [content strategy guide](/en/guides/icerik-stratejisi). If your team cannot balance publishing volume with review capacity, we can set up the brief and editing process together as part of [content strategy consulting](/en/content-strategy)."
+   ]
+  },
+  {
+   "baslik": "AI content and GEO: what do assistants cite?",
+   "paragraflar": [
+    "There is also the AI assistant side of the story. Assistants such as ChatGPT, Gemini or Perplexity can cite sources in their answers, and a generic text that repackages what is already online has nothing original worth citing. Clear definitions, original data and expert opinion are what earn citations.",
+    "To measure how your brand appears in assistant answers, see my post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). If you would like your current content inventory reviewed for policy risk and quality by an [SEO consultant](/en/seo-consulting), you can [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Otomatik çeviri araçlarıyla çevrilmiş sayfalar spam sayılır mı?",
+   "c": "Ölçeklenmiş içerik politikası, kazınmış içeriğin katma değer olmadan otomatik çeviriyle çoğaltılmasını örnek olarak sayıyor. Kendi içeriğinizi çevirip bir uzmana ya da ana dili o dil olan bir editöre kontrol ettirmek bu kapsama girmez."
+  },
+  {
+   "s": "Ürün açıklamalarını yapay zekâyla yazdırmak sorun olur mu?",
+   "c": "Açıklamalar doğru, ürüne özgü ve kullanıcıya yardımcı olduğu sürece Google'ın genel politikası açısından sorun değil. Merchant Center kullanıyorsanız yapay zekâyla üretilmiş ürün başlığı ve açıklamalarını ayrı belirtip etiketlemeniz gerekiyor. Yüzlerce ürüne aynı kalıp metni koymak ise kullanıcıya bir şey katmaz."
+  },
+  {
+   "s": "Eski yazılarımı yapay zekâyla güncellemem riskli mi?",
+   "c": "Hayır, güncelleme sırasında içeriği gerçekten iyileştiriyorsanız risk oluşturmaz. Yalnızca tarihi değiştirip birkaç cümleyi yeniden yazdırmak ise okuyucuya değer katmaz. Yeni bilgileri doğrulayın, eskiyen bölümleri çıkarın ve meta verileri de gözden geçirin."
+  },
+  {
+   "s": "Elle işlem (manual action) aldığımı nasıl anlarım, ne yapmalıyım?",
+   "c": "Elle işlemler Search Console'daki ilgili raporda listelenir ve hangi politikanın ihlal edildiği belirtilir. Sorunlu sayfaları düzeltip veya kaldırıp aynı rapordan yeniden inceleme talebi gönderebilirsiniz."
+  },
+  {
+   "s": "Yapay zekâyla üretilmiş görselleri sitemde kullanabilir miyim?",
+   "c": "Evet. Google'ın dokümanı uygun yerlerde görsel meta verisi eklemenizi öneriyor; Merchant Center'daki ürün görselleri için IPTC DigitalSourceType meta verisi zorunlu."
+  },
+  {
+   "s": "Ayda kaç yapay zekâ destekli yazı yayımlamak güvenli?",
+   "c": "Google böyle bir sayı belirlemiyor; ölçüt sayı değil, her sayfanın kullanıcıya değer katıp katmadığı. Pratikte güvenli üst sınır, ekibinizin doğruluk kontrolü ve editörlük kapasitesidir. Kontrol edemeyeceğiniz kadar hızlı yayımlamak ölçeklenmiş içerik riskini artırır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do machine-translated pages count as spam?",
+   "c": "The scaled content abuse policy lists multiplying scraped content through automated translation without adding value as an example. Translating your own content and having it reviewed by an expert or a native-speaking editor does not fall into that category."
+  },
+  {
+   "s": "Is it a problem to have AI write product descriptions?",
+   "c": "As long as the descriptions are accurate, product-specific and helpful, it is fine under Google's general policies. If you use Merchant Center, AI-generated product titles and descriptions must be specified separately and labelled. Putting the same template text on hundreds of products, however, adds nothing for users."
+  },
+  {
+   "s": "Is it risky to update old posts with AI?",
+   "c": "No, not if the update genuinely improves the content. Changing only the date and having a few sentences rewritten adds no value for readers. Verify new information, remove outdated sections and review the metadata as well."
+  },
+  {
+   "s": "How do I know if I received a manual action, and what should I do?",
+   "c": "Manual actions are listed in the corresponding Search Console report, along with the policy that was violated. You can fix or remove the affected pages and submit a reconsideration request from the same report."
+  },
+  {
+   "s": "Can I use AI-generated images on my site?",
+   "c": "Yes. Google's documentation suggests adding image metadata where relevant, and for product images in Merchant Center the IPTC DigitalSourceType metadata is required."
+  },
+  {
+   "s": "How many AI-assisted posts per month is safe to publish?",
+   "c": "Google sets no such number; the criterion is whether each page adds value for users, not volume. In practice the safe upper limit is your team's fact-checking and editing capacity. Publishing faster than you can review increases scaled content risk."
+  }
+ ]
+}

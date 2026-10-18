@@ -8,7 +8,7 @@ import { getBlogKapak } from '../../lib/blog-kapaklar';
 import AiOzetle from '../../components/AiOzetle';
 import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
-import { renderBlok } from '../../components/IcerikBlok';
+import { renderBlok, renderInline } from '../../components/IcerikBlok';
 import IlgiliRehberler from '../../components/IlgiliRehberler';
 import { blogStaticPaths, blogStaticProps } from '../../lib/blog-icerikler';
 
@@ -45,6 +45,8 @@ export default function BlogPost(props) {
     ? (isEn ? veri.meta_desc_en : veri.meta_desc_tr)
     : (bolumler[0]?.paragraflar?.[0]?.substring(0, 155) || '') + '...'
   const etiket = veri?.etiket || 'SEO'
+  const sss = (veri ? (isEn ? veri.sss_en : veri.sss_tr) : null) || []
+  const sssBaslik = isEn ? 'Frequently Asked Questions' : 'Sıkça Sorulan Sorular'
   const sure = veri?.sure || '10'
   const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
   // Sayfa başlığı: ek, yalnızca toplam 65 karakteri aşmıyorsa eklenir.
@@ -72,6 +74,21 @@ export default function BlogPost(props) {
     'llms-txt-rehberi': ['geo-uygulama', 'schema-yapisal-veri', 'teknik-seo'],
     'seo-uzmani-mi-seo-ajansi-mi': ['seo-raporlama', 'anahtar-kelime-arastirmasi', 'site-tasima-seo'],
     'google-business-profile': ['yerel-seo', 'saglik-seo', 'schema-yapisal-veri'],
+    'tarandi-dizine-eklenmemis': ["teknik-seo", "e-ticaret-seo", "icerik-stratejisi"],
+    'cekirdek-guncelleme-trafik-dususu': ["seo-raporlama", "icerik-stratejisi", "backlink-dijital-pr"],
+    'programatik-seo': ["anahtar-kelime-arastirmasi", "yerel-seo", "schema-yapisal-veri"],
+    'e-ticaret-altyapisi-seo-karsilastirma': ["e-ticaret-seo", "site-tasima-seo", "schema-yapisal-veri"],
+    'trendyol-magazasi-mi-kendi-site-mi': ["geo-uygulama", "e-ticaret-seo", "backlink-dijital-pr"],
+    'avukatlar-icin-seo': ["teknik-seo", "schema-yapisal-veri", "geo-uygulama"],
+    'dis-klinikleri-yerel-seo': ["saglik-seo", "yerel-seo", "seo-raporlama"],
+    'google-ai-mode-turkiye': ["geo-uygulama", "schema-yapisal-veri", "seo-raporlama"],
+    'perplexity-kaynak-gosterilme': ["geo-uygulama", "teknik-seo", "icerik-stratejisi"],
+    'marka-bahsi-brand-mention': ["backlink-dijital-pr", "geo-uygulama", "yerel-seo"],
+    'yoast-mu-rank-math-mi': ["site-tasima-seo", "teknik-seo", "schema-yapisal-veri"],
+    'yapay-zeka-icerik-google-politikasi': ["schema-yapisal-veri", "e-ticaret-seo", "icerik-stratejisi"],
+    'ga4-yapay-zeka-trafigi': ["seo-raporlama", "geo-uygulama"],
+    'seo-mu-google-ads-mi': ["anahtar-kelime-arastirmasi", "seo-raporlama"],
+    'google-yorumlarina-cevap': ["geo-uygulama", "yerel-seo", "saglik-seo"],
   }
   const ilgiliRehberSluglari = REHBER_ESLESME[slug]
     || (slug?.includes('geo') ? ['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr']
@@ -126,6 +143,12 @@ export default function BlogPost(props) {
           <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik}</span>
         </a>
       ))}
+      {sss.length > 0 && (
+        <a href="#sss" style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', textDecoration: 'none' }}>
+          <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, color: '#ccc', minWidth: '20px' }}>{String(bolumler.filter(b => b.baslik).length + 1).padStart(2, '0')}</span>
+          <span style={{ fontSize: '13px', lineHeight: 1.4, color: '#555' }}>{sssBaslik}</span>
+        </a>
+      )}
       </div>
     </div>
   )
@@ -192,6 +215,17 @@ export default function BlogPost(props) {
     },
     publisher: { '@id': 'https://fatihemincakiroglu.com/#person' },
   }
+  const faqSchema = sss.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${canonicalUrl}#faq`,
+    mainEntity: sss.map(f => ({
+      '@type': 'Question',
+      name: f.s,
+      acceptedAnswer: { '@type': 'Answer', text: f.c.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '') },
+    })),
+  } : null
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -203,6 +237,22 @@ export default function BlogPost(props) {
   }
 
   // Makalenin ortasına yakın bir yerde gösterilecek bağlamsal CTA
+  // SSS bölümü (yeni yazılarda sss_tr / sss_en; eski yazılarda yok)
+  const SssBolumu = sss.length > 0 ? (
+    <section id="sss" style={{ marginTop: '44px', scrollMarginTop: '90px' }}>
+      <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '17px' : '20px', fontWeight: 800, color: '#111', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>
+        {sssBaslik}
+      </h2>
+      {sss.map((f, i) => (
+        <div key={i} style={{ borderTop: '1px solid #f0ece6', padding: '16px 0' }}>
+          <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#111', marginBottom: '6px', lineHeight: 1.45 }}>{f.s}</h3>
+          <p style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, margin: 0 }}>{renderInline(f.c)}</p>
+        </div>
+      ))}
+    </section>
+  ) : null
+
   const midCtaIndex = bolumler.length >= 4 ? Math.floor(bolumler.length / 2) - 1 : -1
   const MidArticleCTA = (
     <div style={{ margin: '32px 0', padding: '24px', borderRadius: '14px', background: 'linear-gradient(135deg, rgba(232,86,10,0.08), rgba(232,86,10,0.02))', border: '1px solid rgba(232,86,10,0.2)', display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
@@ -230,6 +280,7 @@ export default function BlogPost(props) {
         <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
         {/* og:title / og:description / og:url _document.js'te merkezî üretilir. */}
         <meta property="og:type" content="article" key="og-type" />
         {meta?.yayin && <meta property="article:published_time" content={meta.yayin} key="article-published" />}
@@ -316,6 +367,7 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {SssBolumu}
             </div>
             {AuthorCard}
             {CTACard}
@@ -356,6 +408,7 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {SssBolumu}
             </div>
             <div className="sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               {TOC}

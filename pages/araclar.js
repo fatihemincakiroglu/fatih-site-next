@@ -545,6 +545,22 @@ export default function Page(props) {
         </div>
 
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '32px 32px 96px' }}>
+          {/* Ayrı sayfalı araçlar */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px', marginBottom: '28px' }}>
+            {[
+              { href: isEn ? '/en/tools/schema-generator' : '/araclar/schema-olusturucu', ikon: '{ }', ad: isEn ? 'Schema Generator (JSON-LD)' : 'Schema Oluşturucu (JSON-LD)', aciklama: isEn ? 'LocalBusiness, Organization, FAQPage and Article markup in seconds.' : 'LocalBusiness, Organization, FAQPage ve Article işaretlemesini saniyeler içinde üretin.' },
+              { href: isEn ? '/en/tools/redirect-generator' : '/araclar/yonlendirme-olusturucu', ikon: '🔀', ad: isEn ? '301 Redirect Generator' : '301 Yönlendirme Oluşturucu', aciklama: isEn ? 'Rules for .htaccess, Nginx, Vercel, Next.js and Netlify; flags chains and loops.' : '.htaccess, Nginx, Vercel, Next.js ve Netlify kuralları; zincir ve döngüleri yakalar.' },
+            ].map(a => (
+              <Link key={a.href} href={a.href} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start', padding: '18px 20px', borderRadius: '12px', background: '#111', color: '#fff', textDecoration: 'none' }}>
+                <span aria-hidden="true" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--orange)', minWidth: '34px' }}>{a.ikon}</span>
+                <span>
+                  <span style={{ display: 'block', fontSize: '15px', fontWeight: 700, marginBottom: '4px' }}>{a.ad} →</span>
+                  <span style={{ display: 'block', fontSize: '13px', color: '#aaa', lineHeight: 1.5 }}>{a.aciklama}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+
           {/* Araç seçici */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px', marginBottom: '32px' }}>
             {ARACLAR.map(a => {

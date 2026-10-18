@@ -47,6 +47,21 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [llms.txt Nedir? Nasıl Oluşturulur ve 2026'da Gerçekten İşe Yarıyor mu?](https://fatihemincakiroglu.com/blog/llms-txt-rehberi.md)
 - [SEO Uzmanı mı, SEO Ajansı mı? Doğru Seçim İçin Kapsamlı Karşılaştırma](https://fatihemincakiroglu.com/blog/seo-uzmani-mi-seo-ajansi-mi.md)
 - [Google Business Profile Optimizasyonu: 2026 İçin Eksiksiz Rehber](https://fatihemincakiroglu.com/blog/google-business-profile.md)
+- [Search Console'da "Tarandı – şu anda dizine eklenmemiş" Hatası Nasıl Çözülür?](https://fatihemincakiroglu.com/blog/tarandi-dizine-eklenmemis.md)
+- [Google Çekirdek Güncellemesi Sonrası Trafik Düştü: Adım Adım Teşhis Listesi](https://fatihemincakiroglu.com/blog/cekirdek-guncelleme-trafik-dususu.md)
+- [Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman "Doorway" Sayfaya Dönüşür?](https://fatihemincakiroglu.com/blog/programatik-seo.md)
+- [ikas, IdeaSoft, T-Soft ve Shopify: SEO Açısından Karşılaştırma](https://fatihemincakiroglu.com/blog/e-ticaret-altyapisi-seo-karsilastirma.md)
+- [Trendyol Mağazası mı, Kendi E-ticaret Siteniz mi? Organik Trafik Açısından Değerlendirme](https://fatihemincakiroglu.com/blog/trendyol-magazasi-mi-kendi-site-mi.md)
+- [Avukatlar İçin SEO: Reklam Yasağına Uyarak Dijital Görünürlük](https://fatihemincakiroglu.com/blog/avukatlar-icin-seo.md)
+- [Diş Klinikleri İçin Yerel SEO: Haritalarda Öne Çıkmanın Yolları](https://fatihemincakiroglu.com/blog/dis-klinikleri-yerel-seo.md)
+- [Google AI Mode Türkiye'de: İşletmeler İçin Ne Değişti?](https://fatihemincakiroglu.com/blog/google-ai-mode-turkiye.md)
+- [Perplexity'de Markanız Nasıl Kaynak Gösterilir?](https://fatihemincakiroglu.com/blog/perplexity-kaynak-gosterilme.md)
+- [Marka Bahsi (Brand Mention) Nedir? Linksiz Bahsin SEO ve GEO'daki Yeri](https://fatihemincakiroglu.com/blog/marka-bahsi-brand-mention.md)
+- [Yoast mu Rank Math mi? 2026'da WordPress SEO Eklentisi Seçimi](https://fatihemincakiroglu.com/blog/yoast-mu-rank-math-mi.md)
+- [Yapay Zekâ ile Üretilen İçerik ve Google: Resmi Politika Ne Diyor?](https://fatihemincakiroglu.com/blog/yapay-zeka-icerik-google-politikasi.md)
+- [GA4'te ChatGPT ve Perplexity Trafiğini Ayrı Görmek](https://fatihemincakiroglu.com/blog/ga4-yapay-zeka-trafigi.md)
+- [SEO mu Google Ads mi? Bütçeyi Nasıl Bölmeli?](https://fatihemincakiroglu.com/blog/seo-mu-google-ads-mi.md)
+- [Google Yorumlarına Nasıl Cevap Verilir? Olumsuz Yorum Örnekleriyle](https://fatihemincakiroglu.com/blog/google-yorumlarina-cevap.md)
 
 ## Guides (Markdown)
 - [Teknik SEO Temelleri](https://fatihemincakiroglu.com/rehber/teknik-seo.md)
@@ -60,3 +75,15 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [Schema (Yapısal Veri) Rehberi: JSON-LD, @id Grafı ve Test Araçları](https://fatihemincakiroglu.com/rehber/schema-yapisal-veri.md)
 - [SEO Raporlama Rehberi: Search Console ve GA4 ile Ölçüm, KPI'lar ve Rapor Şablonu](https://fatihemincakiroglu.com/rehber/seo-raporlama.md)
 - [Sağlık Sektörü SEO Rehberi: Klinik ve Hekim Siteleri için YMYL, E-E-A-T ve Sağlık Turizmi](https://fatihemincakiroglu.com/rehber/saglik-seo.md)
+
+## Industry services
+- [Klinikler İçin SEO Danışmanlığı](https://fatihemincakiroglu.com/sektorler/klinik-seo)
+- [Hukuk Büroları İçin Dijital Görünürlük ve Uyum Danışmanlığı](https://fatihemincakiroglu.com/sektorler/avukat-seo)
+- [E-ticaret SEO Danışmanlığı](https://fatihemincakiroglu.com/sektorler/e-ticaret-seo-danismanligi)
+- [Otel ve Turizm İşletmeleri İçin SEO Danışmanlığı](https://fatihemincakiroglu.com/sektorler/otel-turizm-seo)
+- [B2B Üretici ve Sanayi Firmaları İçin SEO Danışmanlığı](https://fatihemincakiroglu.com/sektorler/b2b-uretici-seo)
+
+## Tools
+- [Schema Oluşturucu (JSON-LD)](https://fatihemincakiroglu.com/araclar/schema-olusturucu)
+- [301 Yönlendirme Oluşturucu](https://fatihemincakiroglu.com/araclar/yonlendirme-olusturucu)
+- [Google Güncellemeleri Günlüğü](https://fatihemincakiroglu.com/google-guncellemeleri)

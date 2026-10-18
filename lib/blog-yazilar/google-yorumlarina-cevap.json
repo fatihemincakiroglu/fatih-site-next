@@ -1,0 +1,407 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Google Yorumlarına Nasıl Cevap Verilir? Olumsuz Yorum Örnekleriyle",
+ "baslik_en": "How to Respond to Google Reviews, With Negative Review Examples",
+ "meta_baslik_tr": "Google Yorumlarına Nasıl Cevap Verilir? Örneklerle",
+ "meta_baslik_en": "How to Respond to Google Reviews: With Examples",
+ "meta_desc_tr": "Google yorumlarına cevap verirken nelere dikkat edilmeli? Olumsuz yorum cevap örnekleri, kaldırılabilen yorumlar, sahte yorum politikası ve haftalık rutin.",
+ "meta_desc_en": "How should you reply to Google reviews? Negative review reply examples, which reviews can be removed, Google's fake review policy and a weekly routine.",
+ "ozet_tr": "Olumlu ve olumsuz Google yorumlarına cevap verme ilkeleri, kurgusal cevap örnekleri ve yorum bildirme süreci.",
+ "ozet_en": "Principles for replying to positive and negative Google reviews, fictional reply examples and the review reporting process.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir işletmenin Google yorumlarını okuyan kişi, yalnızca yıldızlara değil işletmenin cevaplarına da bakar. Olumsuz bir yoruma verilen sakin, çözüm odaklı bir cevap, çoğu zaman yorumun kendisinden daha çok şey anlatır. Savunmacı ya da kopyala-yapıştır cevaplar ise tersini yapar.",
+    "Bu yazıda yorum cevaplarının nasıl yazılacağını, olumsuz yorumlara kurgusal örneklerle nasıl yaklaşılacağını, hangi yorumların Google'a bildirilebileceğini ve sahte yorumların neden risk olduğunu anlatıyorum. Profil kurulumu ve yorum isteme yöntemleri [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında ayrıca var.",
+    {
+     "alinti": "Kısa cevap: Google yorumlarına kısa, nazik, kişiselleştirilmiş ve tanıtım içermeyen cevaplar verin. Olumsuz yorumlarda teşekkür edin, gerçek bir hata varsa kabul edip özür dileyin, ayrıntıyı telefon veya e-postaya taşıyın ve müşterinin kişisel bilgisini asla paylaşmayın. Yalnızca Google politikalarını ihlal eden yorumlar kaldırılır; gerçek ama olumsuz bir deneyim silinmez."
+    }
+   ]
+  },
+  {
+   "baslik": "Yorumlara cevap vermek neden önemli?",
+   "paragraflar": [
+    "Google'ın kendi yardım dokümanı, yorumlara verilen faydalı cevapların işletmenin müşterilerine karşı ilgili olduğunu gösterdiğini belirtiyor. Cevap yalnızca yorumu yazana değil, profili inceleyen her potansiyel müşteriye yazılır.",
+    "Bu yazının hazırlandığı Ekim 2026 itibarıyla Google'ın dokümanında yer alan birkaç pratik ayrıntı şöyle:",
+    {
+     "liste": [
+      "Yorumlara cevap verebilmek için işletme profilinin doğrulanmış olması gerekir.",
+      "Cevaplar yayınlanmadan önce Google'ın içerik politikalarına göre kontrol edilir; bu kontrol genellikle birkaç dakika sürer, bazen çok daha uzun sürebilir. Onaylanmayan bir cevabı düzenlemeniz istenir.",
+      "Cevap, kişisel adınızla değil işletme adına görünür.",
+      "Yorumu yazan kişiye cevabınız bildirilir ve kişi cevabı okuduktan sonra yorumunu değiştirebilir.",
+      "Cevaplarınızı sonradan düzenleyebilir veya silebilirsiniz."
+     ]
+    },
+    "Yorumlar ve cevaplar, Google'ın yapay zekâ özelliklerinin işletme hakkında bilgi toplarken başvurduğu kaynaklar arasında da yer alıyor. İşletmenizin yapay zekâ cevaplarında nasıl anlatıldığını anlamak için [GEO uygulama rehberine](/rehber/geo-uygulama) göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Google'ın önerdiği cevap ilkeleri",
+   "paragraflar": [
+    "Google, yorum cevapları için birkaç basit ilke öneriyor. Sahada gördüğüm hatalarla birlikte özetliyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "İlke",
+       "Pratikte ne demek?",
+       "Sık yapılan hata"
+      ],
+      "satirlar": [
+       [
+        "Kısa ve net olun",
+        "Birkaç cümlede teşekkür, cevap ve gerekiyorsa sonraki adım",
+        "Paragraflarca savunma yazmak"
+       ],
+       [
+        "Kişiselleştirin",
+        "Yorumdaki somut ayrıntıya değinmek, isimle hitap edip imza atmak",
+        "Her yoruma aynı “Teşekkürler” metnini yapıştırmak"
+       ],
+       [
+        "Tanıtım yapmayın",
+        "Konuşur gibi yazmak, kampanya duyurmamak",
+        "Cevaba indirim kodu ya da anahtar kelime doldurmak"
+       ],
+       [
+        "Gizliliği koruyun",
+        "Kişisel bilgi, sipariş veya randevu ayrıntısı paylaşmamak",
+        "“Siparişinizi kontrol ettik, adresiniz yanlıştı” gibi ifşa"
+       ],
+       [
+        "Dürüst olun",
+        "Gerçek hatayı kabul etmek, sınırlarınızı açıklamak",
+        "Kontrolünüz dışındaki her şeyi üstlenmek ya da her şeyi reddetmek"
+       ],
+       [
+        "Hızlı cevap verin",
+        "Yorumları düzenli takip etmek",
+        "Haftalarca cevapsız bırakmak"
+       ]
+      ]
+     }
+    },
+    "Cevaba “İstanbul'un en iyi kuaförü” gibi anahtar kelimeler eklemenin yerel sıralamaya katkı sağladığına dair güvenilir bir dayanak bilmiyorum; okuyana ise yapay ve tanıtım kokan bir izlenim verir."
+   ]
+  },
+  {
+   "baslik": "Olumlu yorumlara nasıl cevap verilir?",
+   "paragraflar": [
+    "Olumlu yorumlarda amaç teşekkür etmek ve yorumu yazanın bahsettiği ayrıntıyı karşılık vererek göstermek. Kısa tutun; her yoruma aynı cümleyi yazmayın. Yıldız verip metin yazmayan yorumlar için tek cümlelik bir teşekkür yeterlidir.",
+    {
+     "alinti": "Örnek (kurgusal bir kafe): “Merhaba Elif Hanım, güzel yorumunuz için teşekkür ederiz. Bahçe bölümünü beğenmenize sevindik; hafta sonu kahvaltısı için de bekleriz. — Kafe ekibi adına Murat”"
+    }
+   ]
+  },
+  {
+   "baslik": "Olumsuz yorumlara nasıl cevap verilir? Örneklerle",
+   "paragraflar": [
+    "Olumsuz yorumlarda işe yarayan yapı genellikle aynıdır:",
+    {
+     "liste": [
+      "Yorum için teşekkür edin ve yaşanan sorunu kendi cümlelerinizle kısaca kabul edin.",
+      "Gerçek bir hata varsa savunmaya geçmeden özür dileyin.",
+      "Kontrolünüz dışındaki konularda ne yapabileceğinizi ve ne yapamayacağınızı dürüstçe açıklayın.",
+      "Ayrıntıyı telefon veya e-posta gibi özel bir kanala taşıyın.",
+      "Adınız veya baş harflerinizle imzalayın."
+     ]
+    },
+    "Aşağıdaki örneklerin tamamı kurgusaldır ve kendi işletmenize uyarlanmalıdır.",
+    {
+     "alt": "Örnek 1: Uzun bekleme şikâyeti"
+    },
+    {
+     "alinti": "Yorum: “Rezervasyonumuz olmasına rağmen 40 dakika bekledik, kimse bilgi vermedi.” Cevap: “Merhaba, yaşadığınız bekleme ve bilgilendirme eksikliği için özür dileriz; bu bizim hatamızdı. Yoğun akşamlarda rezervasyonlu misafirlerimize gecikmeyi önceden haber verecek şekilde düzen değiştirdik. Deneyiminizi dinlemek isteriz, dilerseniz bize iletişim numaramızdan ulaşabilirsiniz. — Ayşe, işletme müdürü”"
+    },
+    {
+     "alt": "Örnek 2: Yanlış bilgi içeren yorum"
+    },
+    {
+     "alinti": "Yorum: “Kartla ödeme kabul etmiyorlar.” Cevap: “Merhaba, geri bildiriminiz için teşekkür ederiz. Tüm banka kartlarıyla ödeme alıyoruz; ziyaretiniz sırasında cihazla ilgili bir sorun yaşanmış olabilir. Bunu yaşattığımız için üzgünüz, ekibimizle konuştuk. — Kerem”"
+    },
+    {
+     "alt": "Örnek 3: Müşteri kaydı bulunamayan yorum"
+    },
+    {
+     "alinti": "Yorum: “Berbat hizmet, bir daha asla.” Cevap: “Merhaba, yorumunuz için teşekkür ederiz. Kayıtlarımızda yaşadığınız deneyimi bulamadık ve ne olduğunu anlamak istiyoruz. Bize e-posta adresimizden ulaşırsanız konuyu birebir inceleriz. — Destek ekibi”"
+    },
+    {
+     "alt": "Örnek 4: Kaba dil veya hakaret içeren yorum"
+    },
+    "Hakaret, nefret söylemi ya da kişisel saldırı içeren bir yoruma cevapta aynı tonla karşılık vermeyin. Yorumu Google'a bildirin; cevap verecekseniz tek cümlelik, sakin bir dil kullanın. Kaba bir yoruma verilen sakin cevap, okuyan diğer müşterilerin gözünde işletmenin lehine işler."
+   ]
+  },
+  {
+   "baslik": "Hangi yorumlar kaldırılabilir, hangileri kaldırılmaz?",
+   "paragraflar": [
+    "Google, işletme ile müşteri arasındaki anlaşmazlıklara taraf olmadığını açıkça belirtiyor. Gerçek bir müşterinin olumsuz deneyimini anlatan yorum, beğenmeseniz de yerinde kalır. Kaldırılabilen yorumlar, Google'ın içerik politikalarını ihlal edenlerdir: sahte etkileşim, spam, konu dışı içerik, hakaret, çıkar çatışması gibi.",
+    "Bu tür bir yorumu profilinizdeki yorumlar bölümünden ya da Google'ın yorum yönetimi aracından bildirebilirsiniz. Değerlendirme genellikle birkaç gün sürer; araçta bildirimin durumunu görebilirsiniz. İhlal bulunmazsa, araç üzerinden bir kez itiraz hakkınız var.",
+    "Ayrı bir durum da şantaj: Kısa sürede gelen bir dizi düşük puanlı yorumun ardından, yorumların kaldırılması karşılığında para ya da hizmet isteniyorsa Google'ın bu durum için özel bir bildirim formu bulunuyor. Google bu durumda ödeme yapmamanızı, şantajcıyla iletişime girmemenizi ve ekran görüntüsü gibi kanıtları hemen toplamanızı öneriyor."
+   ]
+  },
+  {
+   "baslik": "Sahte ve teşvikli yorumlar neden risklidir?",
+   "paragraflar": [
+    "Olumsuz yorumları dengelemek için kestirme yollara başvurmak, profilin kendisini riske atar. Google'ın içerik politikalarına göre şunlar yasaktır:",
+    {
+     "liste": [
+      "Para veya karşılık verilerek yazdırılan yorumlar",
+      "İndirim, hediye ya da başka bir teşvik karşılığında alınan yorumlar",
+      "Olumsuz yorumları engellemek veya yalnızca memnun müşterilerden seçici biçimde yorum istemek",
+      "Mevcut ya da eski çalışanlar gibi çıkar çatışması olan kişilerin yazdığı yorumlar",
+      "Olumsuz bir yorumun silinmesi ya da değiştirilmesi karşılığında teşvik sunmak"
+     ]
+    },
+    "Bu tür yorumlar kaldırılır ve işletme profili için ek yaptırımlara yol açabilir. Sürekli ve kurallara uygun yorum akışı kurmanın yerel görünürlüğe etkisini [yerel SEO rehberinde](/rehber/yerel-seo) anlattım."
+   ]
+  },
+  {
+   "baslik": "Sağlık ve hukuk gibi hassas sektörlerde yorum cevapları",
+   "paragraflar": [
+    "Klinikler, avukatlar ve danışmanlar gibi meslek sırrı taşıyan işletmelerde cevap yazmanın kuralı bir adım daha sıkıdır: Cevapta kişinin hastanız ya da müvekkiliniz olduğunu doğrulayan hiçbir ifade yer almamalıdır. “Tedaviniz” ya da “dosyanız” yerine “paylaştığınız deneyim” gibi genel bir dil kullanın ve görüşmeyi özel kanala davet edin.",
+    "Bu sektörlerde mesleki düzenlemeler yorumların tanıtımda kullanılmasını da sınırlayabilir. Diş klinikleri için ayrıntıları [diş klinikleri için yerel SEO](/blog/dis-klinikleri-yerel-seo) yazısında, hukuk büroları için [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında ele aldım; sağlık kurumlarının genel çerçevesi ise [sağlık sektörü SEO rehberinde](/rehber/saglik-seo). Klinik ve sağlık kuruluşlarıyla nasıl çalıştığımı [klinik SEO danışmanlığı](/sektorler/klinik-seo) sayfasında bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Haftalık yorum cevaplama rutini",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Yeni yorum bildirimlerini açın ve yorumları haftada en az bir kez kontrol edin",
+      "Cevapsız tüm yorumlara, önce olumsuz olanlardan başlayarak cevap verin",
+      "Politika ihlali içeren yorumları bildirin ve bildirim durumunu takip edin",
+      "Tekrar eden şikâyetleri not alıp ilgili ekiple paylaşın",
+      "Yorum isteme sürecinin tüm müşterilere eşit uygulandığını kontrol edin",
+      "Cevap yazan kişiler için kısa bir üslup ve gizlilik rehberi hazırlayın"
+     ]
+    },
+    "Tekrar eden şikâyetler, işletmenin düzeltmesi gereken asıl konuyu gösterir; cevap yazmak bu işin yarısıdır. Yorum yönetimini daha kapsamlı bir yerel görünürlük çalışmasının parçası olarak ele almak isterseniz [SEO uzmanı](/seo-uzmani) hizmet kapsamına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "People reading a business's Google reviews look not only at the stars but at the owner's replies. A calm, solution-focused reply to a negative review often says more than the review itself. Defensive or copy-paste replies do the opposite.",
+    "This article covers how to write review replies, how to approach negative reviews with fictional examples, which reviews you can report to Google and why fake reviews are a risk. Profile setup and ways to ask for reviews are covered separately in the [Google Business Profile optimization](/en/blog/google-business-profile) article.",
+    {
+     "alinti": "Short answer: Reply to Google reviews with short, polite, personalised replies that contain no promotion. For negative reviews, thank the reviewer, acknowledge and apologise if there was a real mistake, move details to phone or email and never share the customer's personal information. Only reviews that violate Google's policies are removed; a genuine negative experience stays."
+    }
+   ]
+  },
+  {
+   "baslik": "Why does replying to reviews matter?",
+   "paragraflar": [
+    "Google's own help documentation says helpful replies to reviews show that a business is responsive to its customers. A reply is written not only for the reviewer but for every potential customer reading the profile.",
+    "As of October 2026, when this article was written, Google's documentation includes a few practical details:",
+    {
+     "liste": [
+      "Your Business Profile must be verified before you can reply to reviews.",
+      "Replies are checked against Google's content policies before they appear; this usually takes a few minutes but can sometimes take much longer. If a reply isn't approved, you'll be asked to edit it.",
+      "Replies appear under the business name, not your personal name.",
+      "The reviewer is notified of your reply and can change their review after reading it.",
+      "You can edit or delete your replies later."
+     ]
+    },
+    "Reviews and replies are also among the sources Google's AI features draw on when gathering information about a business. To understand how your business is described in AI answers, see the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Google's recommended reply principles",
+   "paragraflar": [
+    "Google suggests a few simple principles for review replies. Here they are, alongside mistakes I see in practice:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Principle",
+       "What it means in practice",
+       "Common mistake"
+      ],
+      "satirlar": [
+       [
+        "Keep it short and clear",
+        "A few sentences: thanks, response and next step if needed",
+        "Writing paragraphs of defence"
+       ],
+       [
+        "Personalise",
+        "Mention a specific detail, use the reviewer's name and sign off",
+        "Pasting the same “Thanks” text under every review"
+       ],
+       [
+        "Don't promote",
+        "Write conversationally and skip offers",
+        "Stuffing discount codes or keywords into replies"
+       ],
+       [
+        "Protect privacy",
+        "Share no personal, order or appointment details",
+        "Disclosures like “We checked your order, your address was wrong”"
+       ],
+       [
+        "Be honest",
+        "Admit real mistakes and explain your limits",
+        "Taking the blame for everything, or denying everything"
+       ],
+       [
+        "Respond promptly",
+        "Monitor reviews regularly",
+        "Leaving reviews unanswered for weeks"
+       ]
+      ]
+     }
+    },
+    "I know of no reliable basis for the idea that adding keywords like “best hairdresser in Istanbul” to replies helps local rankings; to readers it simply looks artificial and promotional."
+   ]
+  },
+  {
+   "baslik": "How to reply to positive reviews",
+   "paragraflar": [
+    "With positive reviews, the goal is to say thank you and show you noticed what the reviewer mentioned. Keep it short and don't reuse the same sentence. For star-only reviews with no text, a one-line thank you is enough.",
+    {
+     "alinti": "Example (fictional café): “Hi Elif, thank you for the kind review. We're glad you enjoyed the garden; we'd love to see you for weekend breakfast too. — Murat, for the café team”"
+    }
+   ]
+  },
+  {
+   "baslik": "How to reply to negative reviews, with examples",
+   "paragraflar": [
+    "The structure that works for negative reviews is usually the same:",
+    {
+     "liste": [
+      "Thank the reviewer and briefly acknowledge the issue in your own words.",
+      "If there was a real mistake, apologise without getting defensive.",
+      "Be honest about what you can and cannot do for issues outside your control.",
+      "Move the details to a private channel such as phone or email.",
+      "Sign with your name or initials."
+     ]
+    },
+    "All of the examples below are fictional and should be adapted to your business.",
+    {
+     "alt": "Example 1: Long wait complaint"
+    },
+    {
+     "alinti": "Review: “We had a reservation but waited 40 minutes and nobody told us anything.” Reply: “Hello, we're sorry for the wait and the lack of updates; that was our mistake. On busy evenings we now let guests with reservations know about delays in advance. We'd like to hear more, so please contact us on our phone number. — Ayşe, manager”"
+    },
+    {
+     "alt": "Example 2: Review with incorrect information"
+    },
+    {
+     "alinti": "Review: “They don't accept card payments.” Reply: “Hello, thank you for the feedback. We accept all bank cards; there may have been a problem with the terminal during your visit. We're sorry about that and have spoken to the team. — Kerem”"
+    },
+    {
+     "alt": "Example 3: Review you can't match to a customer"
+    },
+    {
+     "alinti": "Review: “Terrible service, never again.” Reply: “Hello, thank you for your review. We couldn't find your experience in our records and would like to understand what happened. If you email us, we'll look into it personally. — Support team”"
+    },
+    {
+     "alt": "Example 4: Rude or abusive review"
+    },
+    "Don't answer insults, hate speech or personal attacks in the same tone. Report the review to Google; if you reply, keep it to one calm sentence. A calm reply to a rude review works in the business's favour with other customers reading it."
+   ]
+  },
+  {
+   "baslik": "Which reviews can be removed and which cannot?",
+   "paragraflar": [
+    "Google states plainly that it doesn't get involved in conflicts between businesses and customers. A review describing a genuine customer's negative experience stays, even if you dislike it. Reviews that can be removed are those that violate Google's content policies: fake engagement, spam, off-topic content, abuse, conflicts of interest and similar.",
+    "You can report such a review from the reviews section of your profile or from Google's review management tool. Evaluation usually takes several days, and the tool shows the report's status. If no violation is found, you get a one-time appeal through the tool.",
+    "Extortion is a separate case: if a wave of low ratings arrives in a short time, followed by a demand for money or services to remove them, Google has a dedicated report form for this. Google advises not paying, not engaging with the scammer and collecting evidence such as screenshots straight away."
+   ]
+  },
+  {
+   "baslik": "Why are fake and incentivised reviews risky?",
+   "paragraflar": [
+    "Taking shortcuts to balance out negative reviews puts the profile itself at risk. Under Google's content policies, the following are prohibited:",
+    {
+     "liste": [
+      "Reviews paid for, directly or in kind",
+      "Reviews obtained in exchange for discounts, gifts or other incentives",
+      "Discouraging negative reviews or selectively asking only happy customers",
+      "Reviews from people with a conflict of interest, such as current or former employees",
+      "Offering incentives for removing or changing a negative review"
+     ]
+    },
+    "Such reviews are removed and can lead to further restrictions on the business profile. I explain how a steady, policy-compliant flow of reviews supports local visibility in the [local SEO guide](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Review replies in sensitive sectors such as healthcare and law",
+   "paragraflar": [
+    "For businesses bound by professional confidentiality, such as clinics, lawyers and advisers, the rule is one step stricter: a reply must never confirm that the person is your patient or client. Use general wording like “the experience you shared” instead of “your treatment” or “your case”, and invite them to a private channel.",
+    "In these sectors, professional rules may also restrict using reviews for promotion. I cover the details for dental clinics in [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo) and for law firms in [SEO for lawyers](/en/blog/avukatlar-icin-seo); the general framework for healthcare providers is in the [healthcare SEO guide](/en/guides/saglik-seo). You can see how I work with clinics on the [healthcare SEO consulting](/en/industries/healthcare-seo) page."
+   ]
+  },
+  {
+   "baslik": "A weekly review reply routine",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Turn on new review notifications and check reviews at least once a week",
+      "Reply to all unanswered reviews, starting with negative ones",
+      "Report reviews that violate policy and track the report status",
+      "Note recurring complaints and share them with the relevant team",
+      "Check that the review request process is applied equally to all customers",
+      "Prepare a short tone and privacy guide for whoever writes replies"
+     ]
+    },
+    "Recurring complaints point to what the business actually needs to fix; writing replies is only half the job. If you want to handle review management as part of a broader local visibility project, see the scope of my [SEO consulting](/en/seo-consulting) service or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yalnızca yıldız verilmiş, metinsiz yorumlara cevap vermeli miyim?",
+   "c": "Evet, kısa bir teşekkür yeterlidir. Düşük puanlı ve metinsiz bir yorumda ise ne yaşandığını anlamak için iletişim kanalınızı paylaşan tek cümlelik bir cevap yazabilirsiniz."
+  },
+  {
+   "s": "Yorum cevaplarını yapay zekâ ile yazmak sorun olur mu?",
+   "c": "Taslak için kullanılabilir, ama çıktıyı her zaman kişiselleştirin. Yapay zekâ cevapları kolayca birbirine benzer, yorumdaki somut ayrıntıyı atlar ve okuyana şablon izlenimi verir."
+  },
+  {
+   "s": "Yorum hangi dilde yazıldıysa o dilde mi cevap vermeliyim?",
+   "c": "Mümkünse evet. Yabancı bir müşterinin yorumuna onun dilinde cevap vermek hem ona hem de aynı dili konuşan diğer okuyuculara özen gösterdiğinizi anlatır."
+  },
+  {
+   "s": "Olumsuz yorum yapan müşteriden yorumunu değiştirmesini isteyebilir miyim?",
+   "c": "Sorunu çözdükten sonra müşteri yorumunu kendiliğinden güncelleyebilir. Ancak bunun karşılığında indirim, iade veya hediye teklif etmek Google politikalarına aykırıdır."
+  },
+  {
+   "s": "Profilde yorumları kimler cevaplayabilir?",
+   "c": "Profile sahip veya yönetici olarak eklenmiş kişiler cevap verebilir ve cevap işletme adına görünür. Birden fazla kişi cevap yazıyorsa ortak bir üslup ve gizlilik kuralı belirleyin."
+  },
+  {
+   "s": "Eski yorumlara şimdi cevap vermenin anlamı var mı?",
+   "c": "Var, özellikle profilin ilk sayfalarında görünen olumsuz yorumlar için. Geç cevap verdiğinizi kabul eden kısa bir not eklemek samimi bir izlenim bırakır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I reply to star-only reviews with no text?",
+   "c": "Yes, a short thank you is enough. For a low rating with no text, you can write one sentence sharing your contact channel so you can find out what happened."
+  },
+  {
+   "s": "Is it a problem to write review replies with AI?",
+   "c": "It can help with a draft, but always personalise the result. AI replies easily start to sound alike, skip the specific detail in the review and come across as templates."
+  },
+  {
+   "s": "Should I reply in the language the review was written in?",
+   "c": "Where possible, yes. Replying to an international customer in their language shows care to them and to other readers who speak it."
+  },
+  {
+   "s": "Can I ask a customer to change their negative review?",
+   "c": "Once you've resolved the issue, the customer may update the review on their own. Offering discounts, refunds or gifts in return, however, violates Google's policies."
+  },
+  {
+   "s": "Who can reply to reviews on the profile?",
+   "c": "People added to the profile as owners or managers can reply, and replies appear under the business name. If several people write replies, agree on a shared tone and privacy rule."
+  },
+  {
+   "s": "Is it worth replying to old reviews now?",
+   "c": "Yes, especially negative reviews visible on the first pages of the profile. A short note acknowledging the late reply comes across as sincere."
+  }
+ ]
+}

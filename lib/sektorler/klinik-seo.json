@@ -1,0 +1,394 @@
+{
+ "slug": "klinik-seo",
+ "slug_en": "healthcare-seo",
+ "ad_tr": "Klinikler İçin SEO",
+ "ad_en": "SEO for Clinics",
+ "h1_tr": "Klinikler İçin SEO Danışmanlığı",
+ "h1_en": "SEO Consulting for Clinics",
+ "alt_tr": "Hekim profilleri, tedavi sayfaları, şube bazlı yerel görünürlük ve yapay zekâ cevapları için mevzuata duyarlı SEO danışmanlığı.",
+ "alt_en": "Regulation-aware SEO consulting for doctor profiles, treatment pages, branch-level local visibility and AI answers.",
+ "meta_baslik_tr": "Klinik SEO Danışmanlığı | Fatih Emin Çakıroğlu",
+ "meta_baslik_en": "SEO Consulting for Clinics | Fatih Emin Çakıroğlu",
+ "meta_desc_tr": "Klinikler için SEO ve GEO danışmanlığı: hekim profilleri, tedavi sayfaları, şube bazlı yerel SEO ve yapay zekâ görünürlüğü. Mevzuata duyarlı ve ölçülebilir.",
+ "meta_desc_en": "SEO and GEO consulting for clinics: doctor profiles, treatment pages, branch-level local SEO and AI visibility. Regulation-aware and measurable.",
+ "ozet_tr": "Diş, estetik ve poliklinikler için hekim odaklı, mevzuata duyarlı SEO ve GEO danışmanlığı.",
+ "ozet_en": "Doctor-led, regulation-aware SEO and GEO consulting for dental, aesthetic and multi-specialty clinics.",
+ "hizmetler_tr": [
+  "Klinik SEO denetimi",
+  "Hekim profili ve E-E-A-T düzenlemesi",
+  "Tedavi sayfası optimizasyonu",
+  "Şube bazlı yerel SEO",
+  "Sağlık sitesi yapısal veri kurulumu",
+  "Yapay zekâ cevaplarında görünürlük (GEO)"
+ ],
+ "hizmetler_en": [
+  "Clinic SEO audit",
+  "Doctor profiles and E-E-A-T",
+  "Treatment page optimisation",
+  "Branch-level local SEO",
+  "Structured data for healthcare sites",
+  "Visibility in AI answers (GEO)"
+ ],
+ "rehberler": [
+  "saglik-seo",
+  "yerel-seo",
+  "schema-yapisal-veri",
+  "geo-uygulama"
+ ],
+ "ilceler": [
+  "sisli",
+  "atasehir",
+  "kadikoy",
+  "besiktas",
+  "bakirkoy",
+  "uskudar"
+ ],
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir hasta klinik ararken genellikle iki yoldan gelir: “Ataşehir diş kliniği” gibi yakınlık içeren bir aramadan harita sonuçlarına ya da “implant tedavisi ne kadar sürer” gibi bir sorudan bir tedavi sayfasına. Bu soruların bir kısmı artık Google AI Overviews, ChatGPT veya Gemini gibi asistanlara da soruluyor. Kliniğin görünürlüğü bu üç kapıda birden kuruluyor: harita, organik sonuç ve yapay zekâ cevabı.",
+    "Bu sayfa, kliniklere sunduğum SEO ve GEO danışmanlığının kapsamını anlatıyor. YMYL, hekim profilleri, tedavi sayfası yapısı ve şema gibi konuların “nasıl yapılır” tarafını [sağlık sektörü SEO rehberinde](/rehber/saglik-seo) ayrıntılı yazdım; burada o çerçeveyi bir kliniğe nasıl uyguladığımı, neyi ölçtüğümü ve kimlerle çalıştığımı bulacaksınız.",
+    {
+     "alinti": "Kısa cevap: Klinikler için SEO danışmanlığım; hekim profillerinin ve tedavi sayfalarının güven sinyalleriyle yeniden kurulmasını, şube bazlı yerel görünürlüğü, teknik altyapıyı, yapısal veriyi ve yapay zekâ cevaplarında görünürlüğü kapsar. İçerik kararlarını sağlık tanıtım mevzuatının sınırları içinde, kliniğin hukuk danışmanıyla birlikte veririz; sonuç ya da sıralama sözü vermem."
+    }
+   ]
+  },
+  {
+   "baslik": "Kliniklerin SEO'da en sık yaşadığı sorunlar",
+   "paragraflar": [
+    "Diş, estetik, göz, fizik tedavi ya da çok branşlı poliklinik fark etmeksizin, ilk incelemede karşıma çıkan sorunlar büyük ölçüde benzer:",
+    {
+     "liste": [
+      "**Hekimi görünmeyen içerik:** Tedavi yazılarında yazar ya da tıbbi inceleme bilgisi yok; hekim sayfaları bir fotoğraf ve iki cümleden ibaret.",
+      "**Birbirine benzeyen tedavi sayfaları:** Aynı şablonla çoğaltılmış, kimler için uygun olduğunu ve riskleri anlatmayan, yalnızca randevu butonu taşıyan sayfalar.",
+      "**Şube karmaşası:** Birden fazla şubesi olan klinikte tek bir iletişim sayfası, birbirini tutmayan adres ve telefon bilgileri, şubeye özgü sayfa yok.",
+      "**Toplu üretilmiş içerik:** Hekim kontrolünden geçmemiş, hızla üretilmiş ve birbirini tekrar eden blog yazıları.",
+      "**Mevzuata takılabilecek ifadeler:** “En iyi”, “kesin sonuç”, “acısız” gibi üstünlük ya da sonuç vaadi içeren başlıklar; izin süreci belirsiz hasta görselleri.",
+      "**Ölçümsüz büyüme:** Trafik artıyor ama telefon, WhatsApp ve form talepleri ayrı izlenmediği için hangi sayfanın randevu getirdiği bilinmiyor."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Klinik SEO hizmetinin kapsamı",
+   "paragraflar": [
+    "Her klinikte işe aynı yerden başlamıyoruz; denetimden sonra öncelik sırası değişiyor. Kapsamın ana parçaları şunlar:",
+    {
+     "alt": "Güven ve uzmanlık katmanı"
+    },
+    "Hekim profillerini eğitim, uzmanlık, üyelikler ve konuşulan dillerle yeniden yapılandırıyor, her sağlık içeriğini yazan ya da inceleyen hekime bağlıyoruz. Yayın ve güncelleme tarihleri, kaynaklar ve tıbbi inceleme döngüsü için basit bir editoryal süreç kuruyoruz.",
+    {
+     "alt": "Tedavi sayfaları ve içerik planı"
+    },
+    "Hastaların gerçekte kullandığı ifadeleri tıbbi terimlerle eşleştirip her tedavi için tek bir güçlü sayfa hedefliyoruz. Mevcut sayfalarda birleştirme, yeniden yazma ve kaldırma kararlarını birlikte veriyoruz; yeni içerikleri hekimin vaktini en az alacak biçimde (soru listesi, kısa görüşme, hekim onayı) planlıyoruz.",
+    {
+     "alt": "Şube bazlı yerel görünürlük"
+    },
+    "Her şube için ayrı sayfa, tutarlı ad-adres-telefon bilgisi, doğru Google Business Profile kategorileri ve hekim profilleri üzerinde çalışıyoruz. Diş kliniklerine özgü harita stratejisini [diş klinikleri için yerel SEO](/blog/dis-klinikleri-yerel-seo) yazısında ayrıca ele aldım; şube sayfası mantığının genel çerçevesi [yerel SEO rehberinde](/rehber/yerel-seo) var.",
+    {
+     "alt": "Teknik altyapı, şema ve yapay zekâ görünürlüğü"
+    },
+    "Hız, taranabilirlik, çok dilli yapı ve MedicalClinic, Person, MedicalWebPage gibi yapısal veri türlerini kontrol ediyoruz; işaretlemenin ayrıntıları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) anlatılıyor. Yapay zekâ asistanlarında kliniğinizin nasıl anlatıldığını belirli bir soru setiyle düzenli olarak test ediyoruz; bu tarafın yöntemi [GEO uzmanı](/geo-uzmani) hizmetimde ayrıntılı."
+   ]
+  },
+  {
+   "baslik": "Klinik SEO çalışma tablosu: ne yapıyoruz, neyi ölçüyoruz?",
+   "paragraflar": [
+    "Raporlamada ham trafikten çok randevuya yakın sinyallere bakıyorum. Aşağıdaki tablo, çalışma alanlarını ve her birinde neyi takip ettiğimizi özetliyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Çalışma alanı",
+       "Ne yapıyoruz",
+       "Neyi ölçüyoruz"
+      ],
+      "satirlar": [
+       [
+        "Hekim profilleri ve E-E-A-T",
+        "Profilleri zenginleştirme, içerik–hekim bağlantısı, tıbbi inceleme süreci",
+        "Profil sayfalarının organik görüntülenmesi, hekim adıyla yapılan aramalar"
+       ],
+       [
+        "Tedavi sayfaları",
+        "Sayfa yapısı, arama niyeti eşleşmesi, birleştirme ve yeniden yazım",
+        "Tedavi sorgularında gösterim ve tıklama, sayfadan gelen randevu talebi"
+       ],
+       [
+        "Yerel SEO ve şubeler",
+        "Şube sayfaları, profil kategorileri, NAP tutarlılığı, yorum süreci",
+        "Profilden telefon araması, yol tarifi ve web sitesi tıklamaları"
+       ],
+       [
+        "Teknik SEO",
+        "Core Web Vitals, dizinleme, iç linkleme, çok dilli yapı",
+        "LCP, INP ve CLS değerleri; dizine eklenen sayfa durumu"
+       ],
+       [
+        "Yapısal veri",
+        "MedicalClinic, Person ve MedicalWebPage işaretlemeleri",
+        "Search Console yapısal veri raporları ve hatalar"
+       ],
+       [
+        "Yapay zekâ görünürlüğü",
+        "Soru seti testi, alıntılanabilir içerik, marka bahsi",
+        "Asistan cevaplarında anılma ve kaynak gösterilme, yapay zekâ kaynaklı ziyaretler"
+       ]
+      ]
+     }
+    },
+    "Telefon, WhatsApp ve form taleplerini ayrı dönüşümler olarak kuruyoruz. Böylece “trafik arttı” yerine “hangi tedavi sayfası kaç talep getirdi” sorusuna cevap verebiliyoruz."
+   ]
+  },
+  {
+   "baslik": "İlk görüşmeden ilk 90 güne çalışma süreci",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Ön görüşme (30 dakika):** Kliniğin branşları, şube sayısı, hedef hasta profili, mevcut ajans ve altyapı durumu konuşulur. Birlikte çalışmamız uygun değilse bunu ilk görüşmede söylerim.",
+      "**Denetim (ilk 2-3 hafta):** Teknik tarama, içerik envanteri, hekim profilleri, Google Business Profile ve Search Console verisi incelenir; mevzuat açısından riskli görünen ifadeler ayrı bir listeye alınır.",
+      "**Önceliklendirme:** Bulgular etki ve emek açısından sıralanır; klinik yönetimi ve hukuk danışmanıyla ilk 90 günün iş listesi netleştirilir.",
+      "**Uygulama (1-2. ay):** Teknik düzeltmeler, hekim profilleri, en çok talep gören tedavi sayfaları ve şube sayfaları ele alınır.",
+      "**İçerik ve yerel çalışmalar (2-3. ay):** Hekim onaylı yeni içerikler yayına alınır, yorum yanıt süreci ve yapısal veri tamamlanır.",
+      "**90. gün değerlendirmesi:** Ölçüm tablosundaki göstergeler ilk durumla karşılaştırılır, sonraki dönemin planı birlikte belirlenir."
+     ]
+    },
+    "Sağlık aramalarında anlamlı değişim çoğu zaman birkaç ay sürer. 90 günün sonunda beklediğim şey yerleşmiş bir altyapı ve yön gösteren ilk veriler; kesin bir sıralama değil."
+   ]
+  },
+  {
+   "baslik": "Sağlık tanıtım mevzuatı ve YMYL: klinik sitelerinde hassas noktalar",
+   "paragraflar": [
+    "Türkiye'de sağlık hizmetlerinde reklam yasaktır; tanıtım ve bilgilendirme ise mevzuatın çizdiği ilkeler içinde yapılabilir. 2023'te yürürlüğe giren güncel yönetmelik, hasta görsellerinin kullanımı gibi konularda açık rıza gibi koşullar arıyor ve kurallar sağlık kuruluşunun türüne göre farklılaşabiliyor. Ben avukat değilim; bu yüzden içerik ve pazarlama kararlarında kliniğin hukuk danışmanının görüşünü esas alıyorum ve sitenin bu açıdan da gözden geçirilmesini öneriyorum.",
+    "SEO tarafında bu hassasiyetin pratik karşılıkları şunlar:",
+    {
+     "kontrol": [
+      "Başlık ve meta açıklamalarda üstünlük ya da sonuç vaadi içeren ifadelerden kaçınmak",
+      "Tedavi sayfalarında riskleri ve işlemin herkes için uygun olmadığını açıkça yazmak",
+      "Hasta görsellerinin ve yorumlarının tanıtım amaçlı kullanımını hukuki görüşe bağlamak",
+      "Yorum yanıtlarında kişinin hasta olduğunu ya da tedavisini doğrulayan bilgi vermemek",
+      "Randevu formlarında gereğinden fazla sağlık verisi toplamamak"
+     ]
+    },
+    "Google'ın sağlık içeriklerinde doğruluk ve güven sinyallerine daha fazla önem vermesi de aynı yöne işaret ediyor: abartısız, hekim imzalı ve kaynaklı içerik hem mevzuat hem arama görünürlüğü açısından daha sağlam bir zemin. Olumsuz yorumlara gizliliği koruyarak nasıl yanıt verileceğini [Google yorumlarına cevap](/blog/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+   ]
+  },
+  {
+   "baslik": "Bağımsız danışmanla çalışmak kimler için uygun, kimler için değil?",
+   "paragraflar": [
+    "Bağımsız danışman olarak aynı anda sınırlı sayıda klinikle çalışıyorum ve işi doğrudan ben yürütüyorum. Bu model her klinik için doğru değil.",
+    {
+     "liste": [
+      "**Uygun:** Tek ya da birkaç şubeli, hekimlerinin içerik sürecine zaman ayırabildiği, uzun vadeli görünürlük isteyen klinikler.",
+      "**Uygun:** Mevcut ajansıyla çalışırken bağımsız bir denetim ya da stratejik yön arayan klinikler.",
+      "**Uygun:** Yurt dışından hasta kabul eden ve çok dilli sitesini düzene sokmak isteyen sağlık turizmi kuruluşları.",
+      "**Uygun değil:** Birkaç hafta içinde sıralama ya da hasta sayısı sözü bekleyen klinikler.",
+      "**Uygun değil:** İçerik üretimini tamamen hekimsiz, toplu üretimle yürütmek isteyen yapılar.",
+      "**Uygun değil:** Yalnızca sosyal medya ya da reklam yönetimi arayanlar; bu hizmet organik arama ve yapay zekâ görünürlüğü üzerine."
+     ]
+    },
+    "Çalışma modelimin genel kapsamını [SEO uzmanı](/seo-uzmani) sayfamda bulabilirsiniz. Kliniğinizin durumunu konuşmak isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Klinik SEO hizmetinin ücreti nasıl belirleniyor?",
+   "c": "Ücret; şube sayısına, branş çeşitliliğine, sitenin teknik durumuna ve içerik ihtiyacına göre değişir, bu yüzden burada sabit bir rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz. Denetimden sonra kapsamı netleştirip yazılı bir teklif sunuyorum."
+  },
+  {
+   "s": "Mevcut ajansımızla çalışırken danışmanlık alabilir miyiz?",
+   "c": "Evet, bu sık karşılaştığım bir durum. Ajans uygulamaya devam ederken ben denetim, önceliklendirme ve kontrol tarafını üstlenebilirim. Rollerin baştan yazılı olarak netleşmesi, iki tarafın aynı işi tekrar etmesini önler."
+  },
+  {
+   "s": "Hekimlerimizin içerik için ne kadar zaman ayırması gerekir?",
+   "c": "Hekimlerin içerikleri baştan sona yazmasını genellikle beklemiyorum. Her içerik için kısa bir soru listesi ya da görüşme, ardından taslağın tıbbi kontrolü çoğu zaman yeterli olur. Hekim onayı olmadan hiçbir sağlık içeriği yayına alınmaz."
+  },
+  {
+   "s": "Web sitemizi yeniden yaptırmamız gerekir mi?",
+   "c": "Çoğu zaman gerekmez; mevcut altyapıda yapılacak düzeltmeler sorunların önemli bir kısmını çözer. Altyapı hızı, dizinlemeyi ya da çok dilli yapıyı ciddi biçimde kısıtlıyorsa yeniden yapımı öneririm. Bu durumda taşıma sürecini yönlendirmeleri ve ölçümü baştan planlayarak yürütürüz."
+  },
+  {
+   "s": "Sağlık turizmi için ayrı bir çalışma mı yapılıyor?",
+   "c": "Yurt dışından hasta kabul eden kliniklerde her dil ayrı bir pazar gibi ele alınır: o ülkede kullanılan arama ifadeleri, hreflang yapısı ve tıbbi çeviri kalitesi ayrıca planlanır. Bu, kapsamı genişlettiği için denetim aşamasında ayrıca değerlendirilir."
+  },
+  {
+   "s": "İstanbul dışındaki kliniklerle de çalışıyor musunuz?",
+   "c": "Evet. İstanbul merkezliyim ama çalışmanın büyük bölümü çevrim içi yürüyor ve görüşmeleri video ile yapıyoruz. İstanbul içindeki kliniklerde gerekirse yüz yüze görüşme de planlayabiliriz."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Patients usually reach a clinic through one of two doors: a proximity search such as “dentist in Ataşehir” that leads to the map, or a question such as “how long does implant treatment take” that leads to a treatment page. Many of those questions now also go to Google AI Overviews, ChatGPT or Gemini. Visibility is built across all three: the map, the organic results and the AI answer.",
+    "This page describes the SEO and GEO consulting I offer to clinics. I have covered the how-to side of YMYL, doctor profiles, treatment page structure and schema in detail in the [healthcare SEO guide](/en/guides/saglik-seo); here you will find how I apply that framework to a clinic, what I measure and who I work with.",
+    {
+     "alinti": "Short answer: My SEO consulting for clinics covers rebuilding doctor profiles and treatment pages around trust signals, branch-level local visibility, technical foundations, structured data and visibility in AI answers. Content decisions are made within the limits of Turkey's healthcare promotion rules, together with the clinic's legal adviser, and I make no promises about results or rankings."
+    }
+   ]
+  },
+  {
+   "baslik": "The SEO problems clinics run into most often",
+   "paragraflar": [
+    "Across dental, aesthetic, eye and multi-specialty clinics, a first review usually finds the same problems:",
+    {
+     "liste": [
+      "**Content without a visible doctor:** Treatment articles show no author or medical reviewer, and doctor pages consist of a photo and two sentences.",
+      "**Look-alike treatment pages:** Pages cloned from one template that never explain who the treatment suits or what the risks are, and only carry a booking button.",
+      "**Branch confusion:** A clinic with several branches has a single contact page, conflicting addresses and phone numbers, and no page for each branch.",
+      "**Mass-produced content:** Blog posts written quickly, never checked by a doctor and repeating one another.",
+      "**Wording that may breach the rules:** Headlines promising “the best”, “guaranteed results” or “painless” treatment, and patient images with an unclear consent process.",
+      "**Growth without measurement:** Traffic is rising, but calls, WhatsApp messages and form requests are not tracked separately, so nobody knows which page brings appointments."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "What clinic SEO consulting covers",
+   "paragraflar": [
+    "We do not start from the same place in every clinic; priorities change after the audit. The main building blocks are:",
+    {
+     "alt": "The trust and expertise layer"
+    },
+    "We rebuild doctor profiles with education, specialty, memberships and languages spoken, and link every piece of health content to the doctor who wrote or reviewed it. We set up a simple editorial process for publication and update dates, sources and the medical review cycle.",
+    {
+     "alt": "Treatment pages and the content plan"
+    },
+    "We map the phrases patients actually use to the medical terms and aim for one strong page per treatment. We decide together which existing pages to merge, rewrite or remove, and plan new content to take as little of the doctor's time as possible.",
+    {
+     "alt": "Branch-level local visibility"
+    },
+    "We work on a separate page for each branch, consistent name-address-phone details, the right Google Business Profile categories and doctor listings. I cover map strategy for dental practices separately in [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo), and the general logic of location pages is in the [local SEO guide](/en/guides/yerel-seo).",
+    {
+     "alt": "Technical foundations, schema and AI visibility"
+    },
+    "We check speed, crawlability, multilingual setup and structured data types such as MedicalClinic, Person and MedicalWebPage; the markup details are in the [schema and structured data guide](/en/guides/schema-yapisal-veri). We regularly test how AI assistants describe your clinic using a fixed question set; the method is explained on my [GEO consulting](/en/geo-consulting) page."
+   ]
+  },
+  {
+   "baslik": "Clinic SEO work plan: what we do and what we measure",
+   "paragraflar": [
+    "In reporting I look at signals close to an appointment rather than raw traffic. The table below summarises each area of work and what we track in it.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Area of work",
+       "What we do",
+       "What we measure"
+      ],
+      "satirlar": [
+       [
+        "Doctor profiles and E-E-A-T",
+        "Richer profiles, content-to-doctor links, a medical review process",
+        "Organic views of profile pages, searches for doctors' names"
+       ],
+       [
+        "Treatment pages",
+        "Page structure, search intent match, merging and rewriting",
+        "Impressions and clicks on treatment queries, appointment requests from the page"
+       ],
+       [
+        "Local SEO and branches",
+        "Branch pages, profile categories, NAP consistency, review process",
+        "Calls, direction requests and website clicks from the profile"
+       ],
+       [
+        "Technical SEO",
+        "Core Web Vitals, indexing, internal linking, multilingual setup",
+        "LCP, INP and CLS values; indexing status"
+       ],
+       [
+        "Structured data",
+        "MedicalClinic, Person and MedicalWebPage markup",
+        "Search Console structured data reports and errors"
+       ],
+       [
+        "AI visibility",
+        "Question set testing, quotable content, brand mentions",
+        "Mentions and citations in assistant answers, AI-referred visits"
+       ]
+      ]
+     }
+    },
+    "Calls, WhatsApp messages and form requests are tracked as separate conversions, so we can see which treatment page brings requests."
+   ]
+  },
+  {
+   "baslik": "From the first call to the first 90 days",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Intro call (30 minutes):** We discuss the clinic's specialties, number of branches, target patients, and any current agency and platform. If we are not a good fit, I will say so on that call.",
+      "**Audit (first 2-3 weeks):** A technical crawl, content inventory, doctor profiles, Google Business Profile and Search Console data; wording that looks risky from a regulatory point of view goes on a separate list.",
+      "**Prioritisation:** Findings are ranked by impact and effort, and the 90-day task list is agreed with clinic management and the legal adviser.",
+      "**Implementation (months 1-2):** Technical fixes, doctor profiles, the most requested treatment pages and branch pages.",
+      "**Content and local work (months 2-3):** New doctor-approved content goes live, and the review response process and structured data are completed.",
+      "**Day-90 review:** The indicators in the work plan are compared with the starting point, and the next period is planned together."
+     ]
+    },
+    "Meaningful change in health searches usually takes a few months. What I expect at day 90 is solid foundations and early data that shows direction, not a fixed ranking."
+   ]
+  },
+  {
+   "baslik": "Healthcare promotion rules and YMYL: sensitive points for clinic websites",
+   "paragraflar": [
+    "In Turkey, advertising healthcare services is prohibited, while promotion and information are allowed within the principles the regulations set out. The current regulation, in force since 2023, sets conditions such as explicit consent for using patient images, and the rules can differ by type of healthcare facility. I am not a lawyer, so for content and marketing decisions I rely on the clinic's legal adviser and recommend having the site reviewed from that angle too.",
+    "In SEO terms, this translates into a few practical habits:",
+    {
+     "kontrol": [
+      "Avoid superiority claims or promised outcomes in titles and meta descriptions",
+      "State the risks on treatment pages and make clear the procedure is not right for everyone",
+      "Make any promotional use of patient images and reviews subject to legal advice",
+      "Never confirm in a review reply that someone is a patient or what treatment they had",
+      "Do not collect more health data than necessary in booking forms"
+     ]
+    },
+    "Google's extra weight on accuracy and trust in health content points the same way: measured, doctor-signed, sourced content is safer ground for both compliance and visibility. I show how to reply to negative reviews while protecting privacy in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap)."
+   ]
+  },
+  {
+   "baslik": "Who an independent consultant suits, and who it does not",
+   "paragraflar": [
+    "As an independent consultant I work with a limited number of clinics at a time and do the work myself. That model is not right for every clinic.",
+    {
+     "liste": [
+      "**Good fit:** Clinics with one or a few branches whose doctors can give time to the content process and who want long-term visibility.",
+      "**Good fit:** Clinics that work with an agency but want an independent audit or strategic direction.",
+      "**Good fit:** Medical tourism providers that treat international patients and want to sort out their multilingual site.",
+      "**Not a fit:** Clinics expecting ranking or patient-number promises within a few weeks.",
+      "**Not a fit:** Organisations that want content produced in bulk with no doctor involvement.",
+      "**Not a fit:** Anyone looking only for social media or ad management; this service is about organic search and AI visibility."
+     ]
+    },
+    "You can see the general scope of how I work on my [SEO consulting](/en/seo-consulting) page. If you would like to discuss your clinic, [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How is the fee for clinic SEO set?",
+   "c": "It depends on the number of branches, the range of specialties, the site's technical condition and content needs, so I do not quote a fixed figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari). After the audit I define the scope and send a written proposal."
+  },
+  {
+   "s": "Can we get consulting while keeping our current agency?",
+   "c": "Yes, this is a common setup. The agency keeps implementing while I take on audit, prioritisation and quality control. Agreeing roles in writing from the start stops both sides doing the same work twice."
+  },
+  {
+   "s": "How much time do our doctors need to give to content?",
+   "c": "I usually do not expect doctors to write articles from scratch. A short question list or interview per piece, followed by a medical check of the draft, is normally enough. No health content goes live without a doctor's approval."
+  },
+  {
+   "s": "Do we need to rebuild our website?",
+   "c": "Usually not; fixes on the existing platform solve most problems. If the platform seriously limits speed, indexing or multilingual setup, I recommend a rebuild and we plan the migration with redirects mapped out in advance."
+  },
+  {
+   "s": "Is medical tourism handled as a separate project?",
+   "c": "For clinics treating international patients, each language is treated as its own market: the search phrases used in that country, the hreflang setup and the quality of medical translation are planned separately. Because this widens the scope, we assess it separately during the audit."
+  },
+  {
+   "s": "Do you work with clinics outside Istanbul?",
+   "c": "Yes. I am based in Istanbul, but most of the work runs online and meetings happen by video."
+  }
+ ]
+}

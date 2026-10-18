@@ -1,0 +1,329 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 9,
+ "baslik_tr": "Perplexity'de Markanız Nasıl Kaynak Gösterilir?",
+ "baslik_en": "How Does Your Brand Get Cited in Perplexity?",
+ "meta_baslik_tr": "Perplexity'de Markanız Nasıl Kaynak Gösterilir?",
+ "meta_baslik_en": "How to Get Your Brand Cited in Perplexity",
+ "meta_desc_tr": "Perplexity cevaplarında kaynak gösterilmek için erişim, PerplexityBot ayarı, alıntılanabilir içerik, üçüncü taraf kaynaklar ve ölçüm yöntemi.",
+ "meta_desc_en": "What it takes to be cited in Perplexity answers: crawler access, PerplexityBot settings, citable content, third-party sources and a way to measure it.",
+ "ozet_tr": "Perplexity'nin kaynak gösterme mantığı, PerplexityBot erişimi ve markanızın cevaplarda kaynak olarak yer alma yolları.",
+ "ozet_en": "How Perplexity cites sources, how PerplexityBot access works and how your brand can show up as a cited source.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Perplexity, soruları web'de arama yaparak yanıtlayan bir cevap motorudur. Resmi yardım merkezine göre içerik soru sorulduğu anda web'den gerçek zamanlı olarak alınır ve her cevapta, bilgiyi doğrulayabilmeniz için orijinal kaynaklara giden atıflar ve bağlantılar bulunur. Bu yapı, markalar için somut bir fırsat sunar: Perplexity cevabında kaynak olarak gösterilmek, hem görünürlük hem de nitelikli bir ziyaret anlamına gelebilir.",
+    "Bu yazıda Perplexity'ye özgü kısmı anlatıyorum: tarayıcı erişimi, kaynak gösterilmeye uygun sayfa yapısı ve ölçüm. Genel GEO sürecini, yani soru seti, varlık netliği ve marka bahsi adımlarını [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı ele aldığım için burada tekrar etmiyorum.",
+    {
+     "alinti": "Kısa cevap: Perplexity'de kaynak gösterilmek için önce sitenizin PerplexityBot'a açık olması, ardından soruları doğrudan ve doğrulanabilir biçimde yanıtlayan sayfalarınızın bulunması gerekir. Perplexity kaynak seçim formülünü kamuya açıklamıyor; bu yüzden kendi sitenizin yanında markanızın anıldığı üçüncü taraf kaynakları da güçlendirmek ve sonucu düzenli test etmek en sağlıklı yoldur."
+    }
+   ]
+  },
+  {
+   "baslik": "Perplexity cevaplarında kaynakları nasıl gösterir?",
+   "paragraflar": [
+    "Perplexity, cevap metninin içinde ve yanında kullandığı kaynakları bağlantılarıyla listeler; kullanıcı bir iddianın hangi sayfadan geldiğine tıklayarak bakabilir. Yardım merkezi, cevapların haber kuruluşları, akademik yayınlar ve yerleşik içerik kaynaklarından gelen atıflarla desteklendiğini belirtiyor.",
+    "Kaynağın nasıl seçildiği ve sıralandığı ise resmi olarak ayrıntılandırılmış değil. Piyasada “Perplexity şu beş sinyale bakar” diyen pek çok yazı var; bunların çoğu gözleme dayalı çıkarımlardır, resmi doküman değildir. Ben müşterilerime yalnızca doğrulanabilen şeyleri söylüyorum: Perplexity'nin sayfanızı alıntılayabilmesi için sayfaya erişebilmesi ve sayfanın sorulan soruya net bir cevap içermesi gerekir. Geri kalanı test ederek öğreniyoruz."
+   ]
+  },
+  {
+   "baslik": "PerplexityBot ve Perplexity-User: siteniz erişime açık mı?",
+   "paragraflar": [
+    "Perplexity'nin geliştirici dokümanında iki ayrı kullanıcı aracısı tanımlanıyor. Farkı bilmek, robots.txt kararını doğru vermek için önemli:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kullanıcı aracısı",
+       "Amacı (resmi dokümana göre)",
+       "robots.txt davranışı"
+      ],
+      "satirlar": [
+       [
+        "PerplexityBot",
+        "Web sitelerini Perplexity arama sonuçlarında göstermek ve bağlantı vermek; yapay zekâ temel modellerinin eğitimi için kullanılmadığı belirtiliyor",
+        "robots.txt kurallarına göre çalışır; Perplexity izin verilmesini öneriyor"
+       ],
+       [
+        "Perplexity-User",
+        "Kullanıcının sorusu sırasında bir sayfayı getirip cevabı iyileştirmek ve o sayfaya bağlantı vermek",
+        "Getirme isteği kullanıcıdan geldiği için robots.txt kurallarını genellikle dikkate almadığı belirtiliyor"
+       ]
+      ]
+     }
+    },
+    "Kaynak gösterilmek istiyorsanız robots.txt dosyanızda PerplexityBot'u engellememelisiniz. Basit bir izin örneği:",
+    {
+     "kod": "User-agent: PerplexityBot\nAllow: /"
+    },
+    "Sahada en sık gördüğüm sorun robots.txt değil, CDN ya da güvenlik duvarındaki bot koruma kurallarıdır: site sahibi farkında olmadan tüm yapay zekâ tarayıcılarını engelleyen bir ayarı açık bırakır. Perplexity, iki aracı için de IP aralıklarını yayımlıyor; güvenlik ekibiniz izin kurallarını bu listelere göre yazabilir. Tarama erişiminin genel kontrolünü [teknik SEO rehberinde](/rehber/teknik-seo) anlattım."
+   ]
+  },
+  {
+   "baslik": "Perplexity'nin alıntılayacağı sayfa nasıl yazılır?",
+   "paragraflar": [
+    "Perplexity bir cevap üretirken çoğu zaman bir sayfanın tamamını değil, belirli bir bölümünü kullanır. Bu yüzden sayfayı, bir parçası tek başına okunduğunda da doğru ve anlamlı kalacak biçimde yazıyorum:",
+    {
+     "liste": [
+      "**Başlığın hemen altında cevap:** soru biçimli başlığın altındaki ilk iki üç cümle sorunun doğrudan cevabını verir.",
+      "**Doğrulanabilir somut bilgi:** tarih, kapsam, koşul ve süreç gibi ayrıntılar; belirsiz pazarlama cümleleri yerine.",
+      "**Karşılaştırma tabloları:** “A mı B mi” sorularında satır satır karşılaştırma, cevaba doğrudan taşınabilir.",
+      "**Güncellik işareti:** sayfada son güncelleme tarihi ve değişen bilginin açıkça belirtilmesi.",
+      "**Yazar ve kurum bilgisi:** içeriği kimin, hangi uzmanlıkla yazdığını gösteren profil ve kurum sayfaları."
+     ]
+    },
+    "Bu kuralların hangi sayfa tiplerinde önceliklendirileceğini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) ele aldım. Sık kullanılan terimler için kısa tanımlar içeren bir sözlük sayfası da iyi bir alıntı adayıdır; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Üçüncü taraf kaynaklar Perplexity'de neden belirleyici?",
+   "paragraflar": [
+    "“İstanbul'da hangi firmayı seçmeliyim” gibi öneri sorularında Perplexity yalnızca sizin sitenize bakmaz; karşılaştırma yazıları, sektör listeleri, haberler, forumlar ve yorum platformları da kaynak olarak görünebilir. Kendi sayfanızda kendinizi övmeniz, bağımsız bir yayının sizi anmasıyla aynı ağırlığı taşımaz.",
+    "Bu yüzden Perplexity'de test yaparken yalnızca “markam kaynak gösterildi mi” diye değil, “hangi siteler kaynak gösterildi ve onlarda ben var mıyım” diye de bakıyorum. Linkli ya da linksiz bu bahislerin nasıl kazanılacağını [marka bahsi (brand mention) yazısında](/blog/marka-bahsi-brand-mention) anlattım."
+   ]
+  },
+  {
+   "baslik": "Perplexity'de markanızın kaynak gösterilip gösterilmediğini nasıl test edersiniz?",
+   "paragraflar": [
+    "Tek bir sorguyu bir kez denemek yanıltıcıdır; cevaplar zamana, soru biçimine ve bağlama göre değişebilir. Ben sabit bir soru setini aylık olarak çalıştırıp sonuçları aynı şablona kaydediyorum. Soru setinin nasıl kurulduğunu [ChatGPT'de marka görünürlüğünü test etme](/blog/chatgpt-marka-gorunurlugu) yazısında anlattım; aynı yöntem Perplexity için de geçerli.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Gösterge",
+       "Ne ölçer?",
+       "Nasıl kaydedilir?"
+      ],
+      "satirlar": [
+       [
+        "Anılma",
+        "Markanız cevap metninde geçiyor mu?",
+        "Her soru için evet/hayır"
+       ],
+       [
+        "Kaynak gösterilme",
+        "Sitenizin bir sayfası kaynaklar arasında mı?",
+        "Kaynak gösterilen URL"
+       ],
+       [
+        "Üçüncü taraf kaynaklar",
+        "Hangi dış siteler gösterildi, sizi anıyorlar mı?",
+        "Site listesi ve not"
+       ],
+       [
+        "Tanım doğruluğu",
+        "Markanız hakkında söylenenler doğru mu?",
+        "Hatalı bilgi ve olası kaynağı"
+       ],
+       [
+        "Ses payı",
+        "Rakiplerinize göre ne sıklıkla anılıyorsunuz?",
+        "Soru başına anılan markalar"
+       ]
+      ]
+     }
+    },
+    "Perplexity'den sitenize gelen ziyaretleri ayrıca GA4'te görmek için referrer bazlı bir kanal tanımı gerekir; yöntemi [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/blog/ga4-yapay-zeka-trafigi) yazısında bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Perplexity için sık yapılan hatalar nelerdir?",
+   "paragraflar": [
+    {
+     "liste": [
+      "Güvenlik ayarları yüzünden PerplexityBot'u bilmeden engellemek ve bunu hiç kontrol etmemek.",
+      "Önemli bilgiyi yalnızca görsel, PDF ya da etkileşimli bileşen içinde sunmak; metin olarak erişilebilir tutmamak.",
+      "Kaynak seçimi hakkında doğrulanmamış “sinyal listelerine” göre içerik üretmek.",
+      "Forum ve yorum platformlarına sahte ya da teşvikli içerik yerleştirmek; bu hem platform kurallarına aykırıdır hem itibar riski taşır.",
+      "Yalnızca Perplexity'ye odaklanıp Google tarafını ihmal etmek; [Google AI Modu'nun Türkiye'deki etkisi](/blog/google-ai-mode-turkiye) de aynı içerik temeline dayanıyor."
+     ]
+    },
+    "Bu hataların çoğu küçük ayarlarla düzelir; zor olan, alıntılanmaya değer içeriği ve bağımsız kaynaklardaki varlığı sabırla inşa etmektir. Bunu bir plana bağlamak isterseniz [GEO danışmanlığı](/geo-uzmani) ve [içerik stratejisi hizmeti](/icerik) sayfalarına göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Perplexity is an answer engine that responds to questions by searching the web. According to its official help centre, content is sourced from the web in real time as you ask, and every answer includes citations and links to original sources so you can verify the information. That gives brands a concrete opportunity: being cited in a Perplexity answer can mean both visibility and a qualified visit.",
+    "In this post I cover the Perplexity-specific part: crawler access, page structure that is ready to be cited, and measurement. I cover the general GEO process, meaning the question set, entity clarity and brand mentions, in detail in the [GEO implementation guide](/en/guides/geo-uygulama), so I won't repeat it here.",
+    {
+     "alinti": "Short answer: To be cited by Perplexity, your site first has to be open to PerplexityBot, and then you need pages that answer questions directly and verifiably. Perplexity does not publish its source-selection formula, so the soundest approach is to strengthen the third-party sources that mention your brand alongside your own site, and to test the results regularly."
+    }
+   ]
+  },
+  {
+   "baslik": "How does Perplexity show sources in its answers?",
+   "paragraflar": [
+    "Perplexity lists the sources it uses, with links, inside and alongside the answer text; users can click to see which page a claim came from. The help centre says answers are supported by citations from news organisations, academic publications and established content sources.",
+    "How sources are selected and ranked, however, is not officially documented in detail. Plenty of articles claim \"Perplexity looks at these five signals\"; most of them are inferences from observation, not official documentation. I only tell clients what can be verified: for Perplexity to cite your page it has to be able to access it, and the page has to contain a clear answer to the question asked. The rest we learn by testing."
+   ]
+  },
+  {
+   "baslik": "PerplexityBot and Perplexity-User: is your site accessible?",
+   "paragraflar": [
+    "Perplexity's developer documentation defines two separate user agents. Knowing the difference matters for getting the robots.txt decision right:",
+    {
+     "tablo": {
+      "basliklar": [
+       "User agent",
+       "Purpose (per official documentation)",
+       "robots.txt behaviour"
+      ],
+      "satirlar": [
+       [
+        "PerplexityBot",
+        "Surfacing and linking websites in Perplexity search results; stated not to be used to crawl content for AI foundation models",
+        "Follows robots.txt; Perplexity recommends allowing it"
+       ],
+       [
+        "Perplexity-User",
+        "Fetching a page during a user's question to improve the answer and link to that page",
+        "Stated to generally ignore robots.txt, because the fetch is user-requested"
+       ]
+      ]
+     }
+    },
+    "If you want to be cited, do not block PerplexityBot in your robots.txt. A simple allow rule looks like this:",
+    {
+     "kod": "User-agent: PerplexityBot\nAllow: /"
+    },
+    "The problem I see most often in client work is not robots.txt but bot-protection rules at the CDN or firewall: site owners leave a setting on that blocks every AI crawler without realising it. Perplexity publishes IP ranges for both agents, so your security team can write allow rules against those lists. I cover crawl access checks in general in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "How do you write a page Perplexity will cite?",
+   "paragraflar": [
+    "When Perplexity builds an answer, it often uses a specific section rather than a whole page. So I write pages in a way that each part stays accurate and meaningful when read on its own:",
+    {
+     "liste": [
+      "**Answer right under the heading:** the first two or three sentences under a question-style heading answer it directly.",
+      "**Verifiable, concrete facts:** dates, scope, conditions and process details instead of vague marketing lines.",
+      "**Comparison tables:** for \"A or B\" questions, a row-by-row comparison can be carried straight into an answer.",
+      "**Freshness signals:** a visible last-updated date and a clear note of what changed.",
+      "**Author and organisation details:** profile and company pages that show who wrote the content and with what expertise."
+     ]
+    },
+    "I explain which page types to prioritise with these rules in the [content strategy guide](/en/guides/icerik-stratejisi). A glossary with short definitions of common terms is also a good citation candidate; see the [AI and SEO glossary](/en/ai-glossary) for an example."
+   ]
+  },
+  {
+   "baslik": "Why do third-party sources matter so much in Perplexity?",
+   "paragraflar": [
+    "For recommendation questions such as \"which firm should I choose in Istanbul\", Perplexity does not only look at your site; comparison articles, industry lists, news, forums and review platforms can all appear as sources. Praising yourself on your own page does not carry the same weight as an independent publication mentioning you.",
+    "So when I test in Perplexity, I don't only ask \"was my brand cited\" but also \"which sites were cited, and am I on them\". I explain how to earn these mentions, linked or unlinked, in the post on [brand mentions](/en/blog/marka-bahsi-brand-mention)."
+   ]
+  },
+  {
+   "baslik": "How do you test whether Perplexity cites your brand?",
+   "paragraflar": [
+    "Trying a single query once is misleading; answers can vary with time, phrasing and context. I run a fixed question set every month and record results in the same template. I describe how to build that question set in the post on [testing brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu); the same method applies to Perplexity.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Metric",
+       "What it measures",
+       "How to record it"
+      ],
+      "satirlar": [
+       [
+        "Mention",
+        "Does your brand appear in the answer text?",
+        "Yes/no per question"
+       ],
+       [
+        "Citation",
+        "Is one of your pages among the sources?",
+        "The cited URL"
+       ],
+       [
+        "Third-party sources",
+        "Which external sites were shown, and do they mention you?",
+        "Site list and notes"
+       ],
+       [
+        "Description accuracy",
+        "Is what's said about your brand correct?",
+        "The error and its likely source"
+       ],
+       [
+        "Share of voice",
+        "How often are you mentioned versus competitors?",
+        "Brands mentioned per question"
+       ]
+      ]
+     }
+    },
+    "To see visits from Perplexity to your site in GA4, you need a referrer-based channel definition; the method is in the post on [separating ChatGPT and Perplexity traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+   ]
+  },
+  {
+   "baslik": "What are the common mistakes with Perplexity?",
+   "paragraflar": [
+    {
+     "liste": [
+      "Blocking PerplexityBot unknowingly through security settings and never checking.",
+      "Putting key information only inside images, PDFs or interactive widgets instead of accessible text.",
+      "Producing content based on unverified \"signal lists\" about source selection.",
+      "Planting fake or incentivised content on forums and review platforms; it breaks platform rules and carries reputational risk.",
+      "Focusing only on Perplexity and neglecting Google; [Google AI Mode in Türkiye](/en/blog/google-ai-mode-turkiye) rests on the same content foundation."
+     ]
+    },
+    "Most of these mistakes are fixed with small settings; the hard part is patiently building citable content and a presence in independent sources. If you want to turn that into a plan, see the [GEO consulting](/en/geo-consulting) and [content strategy service](/en/content-strategy) pages, or reach me through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Perplexity'de kaynak gösterilmek için ücret ödemek gerekir mi?",
+   "c": "Hayır. Cevaplardaki kaynaklar, Perplexity'nin web'de bulduğu ve soruyla ilgili gördüğü sayfalardır. Organik kaynak gösterilme için resmi bir ücretli yöntem bulunmuyor; reklam ya da iş ortaklığı seçenekleri için Perplexity'nin güncel resmi sayfalarını kontrol edin."
+  },
+  {
+   "s": "PerplexityBot'u engellersem sitem Perplexity'de hiç görünmez mi?",
+   "c": "Resmi dokümana göre PerplexityBot, siteleri arama sonuçlarında göstermek ve bağlantı vermek için kullanılıyor; engellemek bu görünürlüğü olumsuz etkiler. Kullanıcı tetiklemeli Perplexity-User aracının robots.txt'yi genellikle dikkate almadığı belirtiliyor, ama görünürlük stratejinizi buna dayandırmamanızı öneririm."
+  },
+  {
+   "s": "Perplexity Türkçe içerikleri kaynak gösteriyor mu?",
+   "c": "Perplexity Türkçe sorulara cevap verebiliyor ve Türkçe sayfaları kaynak olarak gösterebiliyor. Hangi dilde kaynağın seçileceği soruya ve bulunan içeriğe göre değişir; bu yüzden hedef müşterinizin sorduğu dilde net içerik bulundurmanız önemlidir."
+  },
+  {
+   "s": "Perplexity'de kaynak gösterilmek Google sıralamasıyla ilişkili mi?",
+   "c": "Perplexity, kaynak seçiminde hangi arama altyapısını ve sinyalleri kullandığını ayrıntılı olarak açıklamıyor; bu yüzden doğrudan bir ilişki iddia etmek doğru olmaz. Ancak taranabilir, net ve güvenilir içerik iki tarafta da işe yarar."
+  },
+  {
+   "s": "Değişikliklerin Perplexity cevaplarına yansıması ne kadar sürer?",
+   "c": "Perplexity içeriği soru anında web'den aldığını belirtiyor; bu yüzden bazı değişiklikler hızlı yansıyabilir. Yine de üçüncü taraf kaynaklardaki değişiklikler ve genel kaynak tercihi zaman alır; sonucu tek denemeyle değil, aylık testle değerlendirin."
+  },
+  {
+   "s": "Perplexity markam hakkında yanlış bilgi verirse ne yapmalıyım?",
+   "c": "Cevaptaki kaynak bağlantılarına bakarak yanlış bilginin hangi sayfadan geldiğini bulun. O kaynağı güncelletmeye çalışın ve kendi sitenizde doğru bilgiyi açık, tarihli biçimde yayımlayın. Perplexity arayüzündeki geri bildirim seçeneklerini de kullanabilirsiniz."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do you have to pay to be cited in Perplexity?",
+   "c": "No. The sources in answers are pages Perplexity finds on the web and considers relevant to the question. There is no official paid route to organic citations; for advertising or partnership options, check Perplexity's current official pages."
+  },
+  {
+   "s": "If I block PerplexityBot, will my site disappear from Perplexity?",
+   "c": "According to the official documentation, PerplexityBot is used to surface and link sites in search results, so blocking it hurts that visibility. The user-triggered Perplexity-User agent is stated to generally ignore robots.txt, but I would not base a visibility strategy on that."
+  },
+  {
+   "s": "Does Perplexity cite Turkish-language content?",
+   "c": "Perplexity can answer questions in Turkish and cite Turkish pages as sources. Which language's sources get chosen depends on the question and the content available, so it matters to have clear content in the language your target customers use."
+  },
+  {
+   "s": "Is being cited in Perplexity related to Google rankings?",
+   "c": "Perplexity does not disclose in detail which search infrastructure or signals it uses for source selection, so claiming a direct link would be wrong. Crawlable, clear and trustworthy content works on both sides, though."
+  },
+  {
+   "s": "How long do changes take to show up in Perplexity answers?",
+   "c": "Perplexity says it sources content from the web at the time of the question, so some changes can show up quickly. Changes in third-party sources and overall source preference take longer, so judge results with monthly testing rather than a single try."
+  },
+  {
+   "s": "What should I do if Perplexity gets facts about my brand wrong?",
+   "c": "Use the source links in the answer to find which page the wrong information came from. Try to get that source updated, and publish the correct information clearly, with a date, on your own site. You can also use the feedback options in Perplexity's interface."
+  }
+ ]
+}

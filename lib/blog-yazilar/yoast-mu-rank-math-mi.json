@@ -1,0 +1,333 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 9,
+ "baslik_tr": "Yoast mu Rank Math mi? 2026'da WordPress SEO Eklentisi Seçimi",
+ "baslik_en": "Yoast or Rank Math? Choosing a WordPress SEO Plugin in 2026",
+ "meta_baslik_tr": "Yoast mu Rank Math mi? 2026 WordPress SEO Eklentisi",
+ "meta_baslik_en": "Yoast or Rank Math? WordPress SEO Plugin Choice 2026",
+ "meta_desc_tr": "Yoast SEO ve Rank Math'i resmi dokümanlardaki özelliklerle karşılaştırdım: ücretsiz sürümler, yönlendirme, schema, llms.txt ve hangi site için hangisi.",
+ "meta_desc_en": "Yoast SEO and Rank Math compared on documented features: free tiers, redirects, schema, llms.txt, switching safely and which plugin suits which WordPress site",
+ "ozet_tr": "Yoast SEO ve Rank Math'in resmi dokümanlardaki özellikleri, eklenti değiştirme adımları ve hangi site için hangisi.",
+ "ozet_en": "Yoast SEO and Rank Math compared on documented features, with safe switching steps and a which-fits-when view.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "WordPress sitesi kuran herkes er geç aynı soruya gelir: Yoast SEO mu, Rank Math mi? İkisi de yaygın kullanılan, düzenli güncellenen ve temel SEO işlerini ücretsiz sürümde karşılayan eklentiler. Danışmanlık yaptığım sitelerde ikisiyle de iyi sonuç alındığını görüyorum; seçimi belirleyen, sitenin ihtiyacı ve ekibin çalışma alışkanlığı.",
+    "Bu yazıdaki özellik bilgilerini Ekim 2026 itibarıyla iki eklentinin resmi sitelerinden ve WordPress.org eklenti sayfalarından derledim. Fiyat yazmıyorum; ücretli sürümlerin güncel fiyatını resmi sitelerinden kontrol edin. İki eklentiyle de sponsorluk ya da ortaklık ilişkim yok.",
+    {
+     "alinti": "Kısa cevap: Yoast SEO ve Rank Math, ücretsiz sürümlerinde XML site haritası, breadcrumb, temel schema ve llms.txt gibi temel ihtiyaçları karşılıyor. Rank Math'in ücretsiz sürümü yönlendirme yöneticisi, 404 izleyici ve Search Console entegrasyonu da içeriyor; Yoast'ta yönlendirme yöneticisi ve iç link önerileri Premium'da. Okunabilirlik analizi ve sade bir akış istiyorsanız Yoast, tek eklentide çok modül istiyorsanız Rank Math öne çıkar."
+    }
+   ]
+  },
+  {
+   "baslik": "Yoast SEO ve Rank Math ücretsiz sürümleri karşılaştırma tablosu",
+   "paragraflar": [
+    "Tablodaki “resmi dokümanda doğrulayın” ifadesi özelliğin olmadığı anlamına gelmiyor; incelediğim resmi sayfalarda o sürüm için açıkça belirtilmediğini gösteriyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Özellik",
+       "Yoast SEO (ücretsiz)",
+       "Rank Math (ücretsiz)"
+      ],
+      "satirlar": [
+       [
+        "Odak anahtar kelime",
+        "Tek odak kelime; Premium'da 5'e kadar",
+        "Varsayılan 5; PRO'da sınırsız"
+       ],
+       [
+        "XML site haritası",
+        "Var",
+        "Var"
+       ],
+       [
+        "Breadcrumb",
+        "Var (blok)",
+        "Var"
+       ],
+       [
+        "Schema",
+        "Organization, WebSite, WebPage, Article gibi temel tipler, bağlı graf",
+        "16'dan fazla schema tipi"
+       ],
+       [
+        "Yönlendirme yöneticisi",
+        "Premium'da",
+        "Var; CSV içe/dışa aktarma PRO'da"
+       ],
+       [
+        "404 izleme",
+        "Resmi dokümanda doğrulayın",
+        "Var"
+       ],
+       [
+        "Search Console",
+        "Site Kit entegrasyonu üzerinden",
+        "Yerleşik entegrasyon"
+       ],
+       [
+        "llms.txt",
+        "Var (Haziran 2025'ten beri ücretsiz)",
+        "Modül var; resmi karşılaştırmada ücretsiz listede"
+       ],
+       [
+        "Okunabilirlik analizi",
+        "Var",
+        "Resmi dokümanda doğrulayın"
+       ],
+       [
+        "Başka eklentiden veri aktarma",
+        "Yerleşik içe/dışa aktarma araçları",
+        "Yoast'tan tek tıkla içe aktarma"
+       ]
+      ]
+     }
+    },
+    "Yoast'ın ücretsiz sürümü ayrıca canonical URL yönetimi ve toplu düzenleyici sunuyor. Rank Math'in WordPress.org sayfası ise ücretsiz sürümde yerel SEO araçlarını ve otomatik schema ile meta etiketleri içeren WooCommerce desteğini listeliyor."
+   ]
+  },
+  {
+   "baslik": "Yoast Premium ve Rank Math PRO neler ekliyor?",
+   "paragraflar": [
+    "Ücretli sürümler, temel işlerin ötesinde zaman kazandıran özellikler ekliyor. Resmi sayfalarda öne çıkanlar:",
+    {
+     "liste": [
+      "Yoast Premium: toplu araçlar ve CSV içe/dışa aktarma içeren yönlendirme yöneticisi, iç link önerileri, 5'e kadar anahtar kelime, AI Generate ve AI Optimize gibi yapay zekâ araçları, IndexNow ve daha fazla schema tipi.",
+      "Yoast ek modülleri: Local SEO ve Video SEO ayrı ücretli modüller olarak sunuluyor.",
+      "Rank Math PRO: sınırsız odak kelime, yönlendirmelerde CSV içe/dışa aktarma, zamanlanmış yönlendirme ve .htaccess senkronizasyonu.",
+      "Rank Math PRO ayrıca Google News ve video site haritaları, gelişmiş GA4 entegrasyonu ve Google verisinin daha sık çekilmesini listeliyor."
+     ]
+    },
+    "Benim önerim, ücretli sürüme geçmeden önce ücretsiz sürümü birkaç ay kullanmanız ve gerçekten hangi eksikliği hissettiğinizi not etmeniz. Pek çok kurumsal site için ücretsiz sürümler yeterli oluyor."
+   ]
+  },
+  {
+   "baslik": "Hangi durumda Yoast, hangi durumda Rank Math?",
+   "paragraflar": [
+    "İçerik ekibi kalabalık olan ve yazarların yazarken okunabilirlik ve anahtar kelime geri bildirimi almasını isteyen sitelerde Yoast'ın yerleşik okunabilirlik analizi ve sade akışı işe yarıyor. Yoast'ın otomatik kurduğu bağlı schema grafı da kurumsal kimliği tutarlı tanımlamak isteyenler için sağlam bir temel.",
+    "Ek eklenti kurmadan yönlendirme, 404 takibi ve Search Console verisini tek panelde görmek isteyen küçük ekipler için Rank Math'in ücretsiz sürümündeki modüller pratik. Ürün sayfası çok olan WooCommerce mağazalarında her iki eklentinin de e-ticaret tarafında sunduklarını resmi sayfalarından karşılaştırın. Altyapı kararı henüz verilmediyse [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) farklı seçenekleri ele alıyor.",
+    "Halihazırda biri kurulu ve sorunsuz çalışıyorsa, yalnızca diğeri “daha popüler” diye değiştirmenin SEO'ya doğrudan bir katkısı yok. Eklenti, sıralamayı değil sizin ayar yapma kolaylığınızı belirler."
+   ]
+  },
+  {
+   "baslik": "SEO eklentisi değiştirirken nelere dikkat etmeli?",
+   "paragraflar": [
+    "Eklenti değişikliği küçük bir site taşıması gibidir; dikkat edilmezse başlıklar, meta açıklamalar ya da noindex ayarları kaybolabilir. Uyguladığım kontrol listesi:",
+    {
+     "kontrol": [
+      "Değişiklikten önce veritabanı ve dosya yedeği alın.",
+      "Önemli sayfaların başlık, meta açıklama, canonical ve robots etiketlerini bir tabloya kaydedin.",
+      "Yeni eklentinin içe aktarma aracını kullanın, ardından örnek sayfalarda kaynak kodu karşılaştırın.",
+      "Yönlendirmeleri dışa aktarıp yeni sisteme taşıyın; eksik kalanları kontrol edin.",
+      "İki SEO eklentisini aynı anda aktif bırakmayın; çift meta etiketi ve çift schema çıktısı oluşabilir.",
+      "Site haritası adresi değiştiyse yenisini Search Console'a gönderin."
+     ]
+    },
+    "Yönlendirme listesini düzenlemek için [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) işinizi kolaylaştırır. Değişiklik sonrası bazı sayfalar dizinden düşerse [“Tarandı – şu anda dizine eklenmemiş” hatasının çözümü](/blog/tarandi-dizine-eklenmemis) teşhiste yardımcı olur. URL yapısı da değişecekse [site taşıma SEO rehberini](/rehber/site-tasima-seo) okuyun."
+   ]
+  },
+  {
+   "baslik": "Eklenti tek başına yetmez: WordPress'te teknik SEO'nun geri kalanı",
+   "paragraflar": [
+    "SEO eklentisi meta etiketleri, site haritasını ve temel schema'yı yönetir; ama hosting kalitesi, tema kodu, önbellekleme, görsel optimizasyonu ve iç link yapısı eklentinin dışında kalır. Bir eklentinin “yeşil ışık” vermesi sayfanın iyi sıralanacağı anlamına gelmez. Bütün resim için [teknik SEO rehberi](/rehber/teknik-seo) ve [Core Web Vitals](/blog/core-web-vitals-2025) yazısı iyi bir başlangıç.",
+    "Eklentinin ürettiği schema'yı genişletmek, örneğin LocalBusiness ya da kişi profillerini ayrıntılandırmak istiyorsanız [schema ve yapısal veri rehberi](/rehber/schema-yapisal-veri) ile [schema oluşturucu](/araclar/schema-olusturucu) aracına göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "llms.txt ve yapay zekâ özellikleri seçimi etkilemeli mi?",
+   "paragraflar": [
+    "İki eklenti de llms.txt dosyası üretebiliyor; Yoast bu özelliği Haziran 2025'te ücretsiz sürüme ekledi, Rank Math'te ise panelden açılan bir modül olarak yer alıyor. llms.txt henüz yaygın kabul görmüş bir standart değil, bu yüzden etkisini abartmamak gerekiyor. Ne işe yaradığını ve sınırlarını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım.",
+    "Yapay zekâ ile metin üretme özellikleri ise zaman kazandırabilir ama editoryal kontrolün yerini tutmaz. Bu özellikler bir eklentiyi seçmek için tek başına yeterli sebep değil. WordPress sitenizin teknik kurulumunu birlikte gözden geçirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmet sayfasına bakabilir ya da [iletişim](/iletisim) formundan yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Anyone building a WordPress site eventually hits the same question: Yoast SEO or Rank Math? Both are widely used, regularly updated and cover the core SEO tasks in their free versions. Across the sites I consult on, I see good results with either; what decides it is the site's needs and how the team prefers to work.",
+    "The feature details here come from both plugins' official sites and WordPress.org plugin pages as of October 2026. I don't quote prices; check current pricing for the paid tiers on their official sites. I have no sponsorship or partnership with either plugin.",
+    {
+     "alinti": "Short answer: In their free versions, Yoast SEO and Rank Math both cover the essentials, including XML sitemaps, breadcrumbs, basic schema and llms.txt. Rank Math's free version also includes a redirect manager, a 404 monitor and Search Console integration, while Yoast keeps its redirect manager and internal linking suggestions in Premium. Choose Yoast for readability analysis and a simple workflow, Rank Math for many modules in one plugin."
+    }
+   ]
+  },
+  {
+   "baslik": "Yoast SEO vs Rank Math: free versions compared",
+   "paragraflar": [
+    "“Verify in official docs” in the table doesn't mean the feature is missing; it means the official pages I reviewed didn't state it clearly for that tier.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Feature",
+       "Yoast SEO (free)",
+       "Rank Math (free)"
+      ],
+      "satirlar": [
+       [
+        "Focus keywords",
+        "One focus keyphrase; up to 5 in Premium",
+        "5 by default; unlimited in PRO"
+       ],
+       [
+        "XML sitemap",
+        "Yes",
+        "Yes"
+       ],
+       [
+        "Breadcrumbs",
+        "Yes (block)",
+        "Yes"
+       ],
+       [
+        "Schema",
+        "Core types such as Organization, WebSite, WebPage, Article in a connected graph",
+        "16+ schema types"
+       ],
+       [
+        "Redirect manager",
+        "Premium",
+        "Yes; CSV import/export in PRO"
+       ],
+       [
+        "404 monitoring",
+        "Verify in official docs",
+        "Yes"
+       ],
+       [
+        "Search Console",
+        "Via the Site Kit integration",
+        "Built-in integration"
+       ],
+       [
+        "llms.txt",
+        "Yes (free since June 2025)",
+        "Module available; listed under free in the official comparison"
+       ],
+       [
+        "Readability analysis",
+        "Yes",
+        "Verify in official docs"
+       ],
+       [
+        "Importing from other plugins",
+        "Built-in import/export tools",
+        "One-click import from Yoast"
+       ]
+      ]
+     }
+    },
+    "Yoast's free version also offers canonical URL management and a bulk editor. Rank Math's WordPress.org page lists local SEO tools and WooCommerce support with automatic schema and meta tags in the free version."
+   ]
+  },
+  {
+   "baslik": "What do Yoast Premium and Rank Math PRO add?",
+   "paragraflar": [
+    "The paid tiers add features that save time beyond the basics. The highlights from the official pages:",
+    {
+     "liste": [
+      "Yoast Premium: a redirect manager with bulk tools and CSV import/export, internal linking suggestions, up to 5 keyphrases, AI tools such as AI Generate and AI Optimize, IndexNow and more schema types.",
+      "Yoast add-ons: Local SEO and Video SEO are offered as separate paid modules.",
+      "Rank Math PRO: unlimited focus keywords, CSV import/export for redirects, scheduled redirects and .htaccess sync.",
+      "Rank Math PRO also lists Google News and video sitemaps, advanced GA4 integration and more frequent Google data fetching."
+     ]
+    },
+    "My advice: use the free version for a few months before upgrading and note which gaps you actually feel. For many business websites the free versions are enough."
+   ]
+  },
+  {
+   "baslik": "When should you choose Yoast, and when Rank Math?",
+   "paragraflar": [
+    "On sites with larger content teams, where writers benefit from readability and keyword feedback as they write, Yoast's built-in readability analysis and simple workflow work well. The connected schema graph Yoast builds automatically is also a solid base if you want your organisation described consistently.",
+    "For small teams that want redirects, 404 tracking and Search Console data in one panel without extra plugins, the modules in Rank Math's free version are practical. For WooCommerce stores with many product pages, compare what each plugin offers for e-commerce on its official pages. If the platform decision is still open, the [e-commerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) covers other options.",
+    "If one of them is already installed and working well, switching just because the other seems more popular brings no direct SEO gain. The plugin determines how easily you configure things, not how you rank."
+   ]
+  },
+  {
+   "baslik": "What should you watch for when switching SEO plugins?",
+   "paragraflar": [
+    "Switching plugins is like a small site migration; without care you can lose titles, meta descriptions or noindex settings. My checklist:",
+    {
+     "kontrol": [
+      "Back up the database and files before the switch.",
+      "Record titles, meta descriptions, canonicals and robots tags for key pages in a spreadsheet.",
+      "Use the new plugin's import tool, then compare source code on sample pages.",
+      "Export redirects, move them to the new system and check for gaps.",
+      "Don't leave two SEO plugins active at once; you may get duplicate meta tags and duplicate schema output.",
+      "If the sitemap URL changed, submit the new one in Search Console."
+     ]
+    },
+    "A [301 redirect generator](/en/tools/redirect-generator) makes it easier to tidy up the redirect list. If some pages drop out of the index after the switch, the post on [fixing “Crawled – currently not indexed”](/en/blog/tarandi-dizine-eklenmemis) helps with diagnosis. If URLs are changing too, read the [site migration SEO guide](/en/guides/site-tasima-seo)."
+   ]
+  },
+  {
+   "baslik": "A plugin isn't enough: the rest of technical SEO on WordPress",
+   "paragraflar": [
+    "An SEO plugin manages meta tags, the sitemap and basic schema, but hosting quality, theme code, caching, image optimisation and internal linking sit outside it. A plugin's “green light” doesn't mean the page will rank well. For the full picture, the [technical SEO guide](/en/guides/teknik-seo) and the [Core Web Vitals](/en/blog/core-web-vitals-2025) post are good starting points.",
+    "If you want to extend the schema your plugin outputs, for instance by detailing LocalBusiness or author profiles, see the [schema and structured data guide](/en/guides/schema-yapisal-veri) and the [schema generator](/en/tools/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "Should llms.txt and AI features influence your choice?",
+   "paragraflar": [
+    "Both plugins can generate an llms.txt file; Yoast added it to the free version in June 2025, and Rank Math offers it as a module you switch on in the dashboard. llms.txt isn't a widely adopted standard yet, so its impact shouldn't be overstated. I cover what it does and its limits in the [llms.txt guide](/en/blog/llms-txt-rehberi).",
+    "AI writing features can save time but don't replace editorial review, and on their own they aren't a reason to pick one plugin over the other. If you'd like to review your WordPress site's technical setup together, see [SEO consulting](/en/seo-consulting) or get in touch through the [contact](/en/contact) page."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yoast ve Rank Math'i aynı anda kullanabilir miyim?",
+   "c": "Önermem. İki eklenti de başlık, meta açıklama, canonical ve schema çıktısı üretir; ikisi birden aktifken aynı etiketler sayfada iki kez yer alabilir. Geçiş sırasında bile içe aktarma bitince eskisini devre dışı bırakın."
+  },
+  {
+   "s": "Eklenti değiştirmek sıralamamı etkiler mi?",
+   "c": "Ayarlar doğru taşınırsa doğrudan bir etkisi olmaz, çünkü Google eklentiyi değil sayfadaki çıktıyı görür. Sorun genellikle kaybolan meta verilerden, değişen site haritası adresinden ya da yanlışlıkla eklenen noindex etiketlerinden çıkar."
+  },
+  {
+   "s": "Ücretsiz sürüm kurumsal bir site için yeterli mi?",
+   "c": "Çoğu kurumsal site için evet. Site haritası, meta yönetimi, temel schema ve breadcrumb ücretsiz sürümlerde var. Yoğun yönlendirme yönetimi, çok sayıda anahtar kelime takibi ya da ek schema tipleri gerekiyorsa ücretli sürümü değerlendirin."
+  },
+  {
+   "s": "Eklentinin verdiği SEO puanı yeşilse sayfa üst sıralara çıkar mı?",
+   "c": "Hayır. Eklentinin puanı, sayfada belirli kontrollerin yapılıp yapılmadığını gösteren bir yardımcıdır; Google'ın değerlendirmesi değildir. İçeriğin aramayı gerçekten karşılayıp karşılamadığı ve sitenin genel otoritesi çok daha belirleyicidir."
+  },
+  {
+   "s": "WordPress dışında Yoast kullanılabiliyor mu?",
+   "c": "Yoast'ın Shopify için ayrı bir uygulaması bulunuyor ve resmi yardım sayfalarında Shopify sürümüne dair dokümanlar yer alıyor. Özellik setinin WordPress sürümüyle aynı olup olmadığını resmi sayfasından kontrol edin."
+  },
+  {
+   "s": "Hangi eklenti daha hızlı?",
+   "c": "Hız, eklentiden çok hosting, tema ve açık olan modüllerin sayısına bağlıdır. Hangisini seçerseniz seçin kullanmadığınız modülleri kapatın ve değişiklik öncesi ile sonrasını PageSpeed Insights ile ölçün."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can I run Yoast and Rank Math at the same time?",
+   "c": "I don't recommend it. Both output titles, meta descriptions, canonicals and schema, so with both active the same tags may appear twice on a page. Even during a switch, deactivate the old one once the import is done."
+  },
+  {
+   "s": "Will switching plugins affect my rankings?",
+   "c": "Not directly, if settings are carried over correctly, because Google sees the page output rather than the plugin. Problems usually come from lost metadata, a changed sitemap URL or noindex tags added by mistake."
+  },
+  {
+   "s": "Is the free version enough for a business website?",
+   "c": "For most business sites, yes. Sitemaps, meta management, basic schema and breadcrumbs are all in the free versions. Consider a paid tier if you need heavy redirect management, many tracked keywords or extra schema types."
+  },
+  {
+   "s": "If the plugin's SEO score is green, will the page rank?",
+   "c": "No. The score is a helper showing whether certain on-page checks are met; it isn't Google's assessment. Whether the content genuinely answers the search and the site's overall authority matter far more."
+  },
+  {
+   "s": "Can Yoast be used outside WordPress?",
+   "c": "Yoast has a separate app for Shopify, and its official help pages include documentation for the Shopify version. Check its official page to see whether the feature set matches the WordPress version."
+  },
+  {
+   "s": "Which plugin is faster?",
+   "c": "Speed depends more on hosting, theme and the number of active modules than on the plugin itself. Whichever you choose, turn off modules you don't use and measure before and after with PageSpeed Insights."
+  }
+ ]
+}

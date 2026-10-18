@@ -210,10 +210,10 @@ const GUIDE_SECTIONS = [
     ]}},
   { id: 'structured-data', type: 'text',
     tr: { h2: "Structured Data ve Schema Markup Ne İşe Yarar?", body: [
-      "Schema markup, sayfanızdaki bilgiyi arama motorlarına ve yapay zekâ sistemlerine makine tarafından okunabilir bir formatta sunar. Ürün, makale, SSS veya kişi şeması doğru uygulandığında, hem zengin sonuçlarda (rich snippet) görünürlük hem de AI sistemlerinin içeriği doğru bağlamda yorumlaması sağlanır.",
+      "Schema markup, sayfanızdaki bilgiyi arama motorlarına ve yapay zekâ sistemlerine makine tarafından okunabilir bir formatta sunar. Ürün, makale, kurum veya kişi şeması doğru uygulandığında, desteklenen türlerde zengin sonuçlara (rich snippet) uygunluk sağlar ve AI sistemlerinin içeriği doğru bağlamda yorumlamasına yardımcı olur.",
     ]},
     en: { h2: "What Structured Data and Schema Markup Do for You", body: [
-      "Schema markup presents your page's information to search engines and AI systems in a machine-readable format. Correctly implemented Product, Article, FAQ or Person schema improves both rich snippet visibility and the odds that AI systems interpret your content in the right context.",
+      "Schema markup presents your page's information to search engines and AI systems in a machine-readable format. Correctly implemented Product, Article, Organization or Person schema can make supported pages eligible for rich results and helps AI systems interpret your content in the right context.",
     ]}},
   { id: 'icerik-stratejisi', type: 'text',
     tr: { h2: "İçerik Stratejisi Nasıl Kurulur?", body: [

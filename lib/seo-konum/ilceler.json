@@ -264,10 +264,10 @@
  },
  "atasehir": {
   "alt": "Plazalar, finans merkezi ve rezidans kuleleri arasında hizmet veren profesyonel firmalar için kurumsal odaklı arama görünürlüğü.",
-  "desc": "Ataşehir SEO uzmanı: finans merkezi çevresindeki hukuk, muhasebe, sağlık ve kurumsal hizmet firmaları için B2B ve yerel arama stratejisi.",
+  "desc": "Ataşehir SEO uzmanı: finans merkezi çevresindeki muhasebe, sağlık ve kurumsal hizmet firmaları için B2B ve yerel arama stratejisi.",
   "giris": [
    "Ataşehir, Anadolu Yakası'nda plaza ofislerinin, banka genel müdürlüklerinin ve yüksek katlı konut projelerinin en yoğun toplandığı yerlerden biri. İstanbul Finans Merkezi'nin bu ilçede yükselmesiyle birlikte, bölgede faaliyet gösteren firmaların profili de değişti. Mahalle bakkalından çok danışmanlık şirketi, hukuk bürosu, mali müşavirlik ofisi ve özel sağlık kuruluşu görülüyor.",
-   "Bu yapı, arama davranışına da doğrudan yansıyor. Ataşehir'deki bir firmayı arayan kişi çoğunlukla bir sorunu çözmek isteyen bir şirket yöneticisi ya da bir hizmet için randevu almak isteyen bir rezidans sakini. Sorgular kısa ama ticari niyeti yüksek: \"ataşehir vergi danışmanı\", \"ataşehir iş hukuku avukatı\" gibi. Bu tür aramalarda karar, birkaç sonucun karşılaştırılmasıyla veriliyor.",
+   "Bu yapı, arama davranışına da doğrudan yansıyor. Ataşehir'deki bir firmayı arayan kişi çoğunlukla bir sorunu çözmek isteyen bir şirket yöneticisi ya da bir hizmet için randevu almak isteyen bir rezidans sakini. Sorgular kısa ama ticari niyeti yüksek: \"ataşehir vergi danışmanı\", \"ataşehir kurumsal temizlik firması\" gibi. Bu tür aramalarda karar, birkaç sonucun karşılaştırılmasıyla veriliyor.",
    "Dolayısıyla Ataşehir'de SEO, vitrin aramalarından çok güven inşasına dayanıyor. Uzman kadronun görünür olması, hizmet sayfalarının derinliği, kurumsal bilgilerin tutarlılığı ve hızlı açılan bir site, ilçedeki profesyonel firmalar için asıl farkı yaratan unsurlar. Bu sayfada ilçenin yerleşim yapısı ve sektörleri üzerinden somut bir yol haritası bulacaksınız."
   ],
   "pazar": {
@@ -302,8 +302,8 @@
    "satirlar": [
     [
      "Hukuk büroları",
-     "ataşehir avukat, ataşehir ticaret hukuku, ataşehir iş davası avukatı",
-     "Uzmanlık alanı sayfaları, avukat profilleri, LegalService şeması"
+     "büro adı + ataşehir, avukat adı + büro adı, büro adı + adres",
+     "Büro adıyla aramada tutarlı bilgi, avukat profilleri, LegalService şeması; baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Mali müşavirlik ve denetim",
@@ -353,7 +353,7 @@
   "hatalar": {
    "baslik": "Ataşehir'deki Profesyonel Firmalarda Sık Rastlanan Hatalar",
    "maddeler": [
-    "**Her şeyi tek bir hizmetler sayfasına sığdırmak:** Bir hukuk bürosunun iş hukuku, ticaret hukuku ve gayrimenkul hukukunu aynı sayfada saymak, bu alanların hiçbirinde güçlü bir sinyal vermiyor.",
+    "**Her şeyi tek bir hizmetler sayfasına sığdırmak:** Bir hukuk bürosunun iş hukuku, ticaret hukuku ve gayrimenkul hukukunu aynı sayfada saymak, ziyaretçiye hiçbir alan hakkında yeterli bilgi vermiyor; bu bilgi baronun reklam yasağı düzenlemesine uygun, uzmanlık iddiası taşımayan bir dille verilmeli.",
     "**Plaza adresini farklı biçimlerde yazmak:** Bina adı, blok ve kat bilgisinin sitede, profilde ve dizinlerde farklı yazılması, arama motorunun firmayı tek bir varlık olarak tanımasını zorlaştırıyor.",
     "**Ekibi gizlemek:** Kurumsal karar vericiler kiminle çalışacaklarını görmek istiyor. Profil sayfası olmayan uzmanlar hem kullanıcı güvenini hem de içeriğin otoritesini zayıflatıyor.",
     "**Yalnızca ilçe adına odaklanmak:** B2B aramalarının önemli bir kısmı lokasyon içermiyor. Yalnızca \"ataşehir\" ekli sorgulara çalışmak, sektörel aramalardaki fırsatları kaçırmak demek.",
@@ -369,8 +369,8 @@
   ],
   "sss": [
    {
-    "s": "Ataşehir'deki bir hukuk bürosu her uzmanlık alanı için ayrı sayfa açmalı mı?",
-    "c": "Evet. İş hukuku, aile hukuku ya da ticaret hukuku gibi alanların her biri farklı sorgularla aranıyor. Ayrı sayfalar hem arama motoruna net sinyal verir hem de kullanıcının doğru avukata ulaşmasını kolaylaştırır. Meslek kurallarına uygun, reklam niteliği taşımayan bir dil kullanmak gerekiyor."
+    "s": "Ataşehir'deki bir hukuk bürosu her çalışma alanı için ayrı sayfa açmalı mı?",
+    "c": "Çalışma alanlarını ayrı sayfalarda bilgilendirici biçimde anlatmak, ziyaretçinin doğru bilgiye ulaşmasını kolaylaştırabilir. Ancak avukatlar için amaç bu sayfalarla anahtar kelimede üst sıraya çıkmak olmamalı; baronun reklam yasağı düzenlemesi bu tür yöntemleri yasak kapsamında sayıyor. Sayfalar uzmanlık iddiası ve reklam niteliği taşımamalı; sınırı baronun güncel düzenlemesi ve hukuki görüş belirler. Çerçeveyi [avukatlar için SEO ve reklam yasağı](/blog/avukatlar-icin-seo) yazısında anlattım."
    },
    {
     "s": "Plazadaki ofisimiz haritada başka bir firmanın konumunda görünüyor, ne yapmalıyız?",
@@ -803,8 +803,8 @@
   ]
  },
  "bakirkoy": {
-  "alt": "Adliye çevresindeki avukatlar, Ataköy marinası, Yeşilköy otelleri ve İstanbul Caddesi mağazaları için güven odaklı SEO.",
-  "desc": "Bakırköy SEO uzmanı: adliye çevresi hukuk büroları, klinikler, Yeşilköy ve Florya otelleri, Ataköy işletmeleri için uzmanlık sinyali güçlü içerik planı.",
+  "alt": "Ataköy marinası, Yeşilköy otelleri ve İstanbul Caddesi mağazaları için güven odaklı SEO; adliye çevresindeki avukatlar için reklam yasağına uygun site düzeni.",
+  "desc": "Bakırköy SEO uzmanı: klinikler, Yeşilköy ve Florya otelleri ile Ataköy işletmeleri için uzmanlık sinyali güçlü yerel içerik ve arama planı.",
   "giris": [
    "Bakırköy'de çalıştığım işletmelerin ortak noktası, müşterilerinin karar vermeden önce uzun süre araştırma yapması. Bir boşanma avukatı, bir ortopedi uzmanı ya da Ataköy'de bir daire satan emlak danışmanı seçilirken kimse ilk sonuca tıklayıp geçmiyor; birkaç siteyi açıyor, yorumları okuyor, uzmanın kim olduğunu öğrenmek istiyor.",
    "Bu nedenle Bakırköy'de SEO benim için önce güven inşası. İlçe; adliyesi, köklü hastaneleri, İstanbul Caddesi'nin mağazaları, Ataköy'ün marinası ve Yeşilköy ile Florya'nın sahil dokusuyla zaten tanınmış bir adres. Burada sıradan bir hizmet sayfası, rakiplerin yanında silik kalıyor.",
@@ -813,7 +813,7 @@
   "pazar": {
    "baslik": "Adliye, Hastane ve Çarşı: Bakırköy'de Uzmanlık Arayan Kullanıcı",
    "paragraflar": [
-    "Bakırköy Adliyesi, Avrupa Yakası'nın en yoğun adliyelerinden biri ve çevresinde çok sayıda hukuk bürosu, arabulucu, bilirkişi ve tercüme bürosu kümelenmiş durumda. Bu alanda arama yapan kişi çoğunlukla zor bir dönemden geçiyor: boşanma, iş davası, miras ya da ceza süreci. Arama sonuçlarında öne çıkmak kadar, sayfayı açan kişiye sakin, bilgilendirici ve meslek kurallarına uygun bir dil sunmak da önemli.",
+    "Bakırköy Adliyesi, Avrupa Yakası'nın en yoğun adliyelerinden biri ve çevresinde çok sayıda hukuk bürosu, arabulucu, bilirkişi ve tercüme bürosu kümelenmiş durumda. Bu alanda arama yapan kişi çoğunlukla zor bir dönemden geçiyor: boşanma, iş davası, miras ya da ceza süreci. Hukuk bürolarında amaç arama sonuçlarında öne çıkmak değil; büro adıyla arandığında sayfayı açan kişiye sakin, bilgilendirici ve baronun reklam yasağı düzenlemesine uygun bir dil sunmak.",
     "Sağlık tarafında ilçe uzun yıllardır bir merkez. Büyük devlet ve özel hastanelerin yanı sıra muayenehaneler, psikoterapi merkezleri, fizik tedavi ve diş klinikleri Bakırköy'ü çevre ilçelerden gelen hastalar için de bir başvuru noktası yapıyor. Hasta, hekimin uzmanlık alanını ve deneyimini görmek istiyor; Google da sağlık içeriklerinde yazarın yetkinliğine özellikle dikkat ediyor.",
     "Perakende ve yaşam tarafında İstanbul Caddesi ile çevresindeki sokaklar, Capacity ve Carousel gibi alışveriş merkezleri, Ataköy'deki marina ve Galleria çevresi ile Yeşilköy'ün kafe ve restoranları farklı bir kitleye hitap ediyor. Marmaray'ın ilçeyi baştan sona kat etmesi, bu noktalara ulaşımı kolaylaştırıyor ve ulaşım bilgisini yerel içerikte kullanmaya değer kılıyor."
    ]
@@ -823,7 +823,7 @@
    "giris": "Bakırköy denince çoğu kişinin aklına çarşı gelir; oysa ilçe sahil boyunca birbirinden belirgin biçimde ayrılan semtlerden oluşuyor. Her birinde kullanıcının beklentisi ve arama dili farklı:",
    "maddeler": [
     "**Bakırköy Merkez ve İstanbul Caddesi:** Yaya çarşısı, mağazalar, kafeler, optikçiler, kuyumcular. Sorgular kısa ve anlık; Google Business Profile fotoğrafları, saatler ve yorumlar ziyareti doğrudan etkiliyor.",
-    "**Adliye çevresi ve Osmaniye:** Hukuk büroları, arabulucular, tercüme ve noter hizmetleri. Uzmanlık alanına göre ayrılmış sayfalar, avukat profilleri ve meslek kurallarına uygun bilgilendirici makaleler belirleyici.",
+    "**Adliye çevresi ve Osmaniye:** Hukuk büroları, arabulucular, tercüme ve noter hizmetleri. Büro adıyla aramada doğru bilgi, avukat profilleri ve baronun reklam yasağı düzenlemesine uygun bilgilendirici makaleler öncelikli.",
     "**Ataköy:** Marina, rezidanslar, alışveriş merkezi ve iş merkezleri. Emlak, yat hizmetleri, butik spor salonları ve üst segment restoranlar için semt adlı içerik ve görsel kalitesi önemli.",
     "**Yeşilköy ve Yeşilyurt:** Sahil, köklü konutlar, oteller, fuar merkezi ve eski havalimanı çevresi. Oteller ve kongre hizmetleri için İngilizce sayfalar; restoranlar için hafta sonu aramalarına uygun profil yönetimi.",
     "**Florya:** Sahil, Atatürk Köşkü çevresi ve konut alanı. Balık restoranları, spor kulüpleri ve sahil kafeleri için mevsimsellik ve fotoğraf ağırlıklı içerik ön planda.",
@@ -841,8 +841,8 @@
    "satirlar": [
     [
      "Hukuk büroları",
-     "\"bakırköy boşanma avukatı\", \"bakırköy adliyesi iş hukuku avukatı\"",
-     "Uzmanlık alanı sayfaları, avukat profilleri, bilgilendirici makaleler, meslek kurallarına uygun dil"
+     "\"büro adı + bakırköy\", \"avukat adı + büro adı\"",
+     "Büro adıyla aramada tutarlı bilgi, avukat profilleri, bilgilendirici makaleler; baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Hastane ve muayenehaneler",
@@ -876,7 +876,7 @@
    "paragraflar": [
     "Örnek bir senaryo düşünelim: Bakırköy Adliyesi'ne yürüme mesafesinde, aile hukuku ve miras davalarına odaklanan iki avukatlı bir büro. Sitesinde genel bir \"Faaliyet Alanlarımız\" listesi var; her alan için birkaç satır yazılmış, avukatların kim olduğu belirsiz.",
     "İlk adımda büronun gerçekten uzmanlaştığı konular belirlenir: anlaşmalı boşanma, çekişmeli boşanma, velayet, nafaka, mirasın paylaşımı gibi. Her biri için süreci, gerekli belgeleri ve sık sorulan soruları anlatan ayrı sayfalar hazırlanır. Reklam yasağı ve meslek kuralları gözetilerek abartılı ifadelerden kaçınılır; yalnızca bilgilendirme yapılır.",
-    "Avukatlar için eğitim, baro sicili ve çalışma alanlarını içeren profil sayfaları oluşturulur ve makalelere yazar olarak bağlanır. Google Business Profile'da doğru kategori, adliyeye yakınlık ve çalışma saatleri netleştirilir. İzlenecek gösterge, hangi uzmanlık sayfasından iletişim talebi geldiği olur."
+    "Avukatlar için eğitim, baro sicili ve çalışma alanlarını içeren profil sayfaları oluşturulur ve makalelere yazar olarak bağlanır. Google Business Profile'da doğru kategori, adliyeye yakınlık ve çalışma saatleri netleştirilir. İzlenecek gösterge, büro adıyla yapılan aramalarda bilgilerin doğru ve tutarlı görünmesi olur."
    ]
   },
   "plan": {
@@ -893,7 +893,7 @@
   "hatalar": {
    "baslik": "Bakırköy'de Güven Kaybettiren SEO Hataları",
    "maddeler": [
-    "Hukuk bürolarının başka sitelerden kopyalanmış genel makaleler yayımlaması. Özgün olmayan içerik hem sıralamayı hem de büronun saygınlığını zedeliyor.",
+    "Hukuk bürolarının başka sitelerden kopyalanmış genel makaleler yayımlaması. Özgün olmayan içerik hem okuyucuya değer katmıyor hem de büronun saygınlığını zedeliyor.",
     "Hekim ve avukat sayfalarında yazar bilgisinin olmaması; uzmanlık gerektiren konularda Google kimin yazdığını görmek istiyor.",
     "Ataköy, Yeşilköy ve Bakırköy Merkez'deki şubelerin tek bir sayfa ve tek bir profille yönetilmesi; kullanıcı yakınındaki şubeyi bulamıyor.",
     "Sahil restoranlarının kış kapanışlarını ve saat değişikliklerini profile işlememesi; yanlış bilgi olumsuz yorumlara yol açıyor.",
@@ -911,7 +911,7 @@
   "sss": [
    {
     "s": "Avukatlık reklam yasağı varken hukuk büromuz SEO yapabilir mi?",
-    "c": "Evet, bilgilendirme amaçlı içerik üretmek ve sitenin teknik altyapısını düzeltmek reklam yasağıyla çelişmez. Dikkat edilmesi gereken, vaat ve karşılaştırma içeren ifadelerden kaçınmak ve barolar birliğinin kurallarına uygun bir dil kullanmaktır."
+    "c": "Bilgilendirme amaçlı içerik ve sitenin teknik sağlığı makul görünen alanlar; ancak baronun reklam yasağı düzenlemesi arama motorlarında üst sıralara çıkmaya yönelik anahtar sözcük ve benzeri yöntemleri yasak kapsamında sayıyor. Bu yüzden çalışma, büronun adıyla arandığında doğru ve tutarlı bilginin bulunmasıyla sınırlı tutulmalı; vaat ve karşılaştırma içeren ifadelerden kaçınılmalı, baronun güncel düzenlemesi ve hukuki görüş esas alınmalı. Ayrıntıları [avukatlar için SEO ve reklam yasağı](/blog/avukatlar-icin-seo) yazısında anlattım."
    },
    {
     "s": "Bakırköy Adliyesi'ne yakın olmamızı sitemizde nasıl kullanabiliriz?",
@@ -1222,7 +1222,7 @@
   "pazar": {
    "baslik": "Plaza Kulesiyle Çarşı Esnafı Aynı Arama Sonucunda: Beşiktaş Pazarının Yapısı",
    "paragraflar": [
-    "Levent ve Gayrettepe çevresinde holding merkezleri, danışmanlık şirketleri, hukuk ve mali müşavirlik büroları yoğun. Bu firmaların müşterisi çoğunlukla karar vermeden önce birkaç kaynağı karşılaştıran, LinkedIn profiline ve web sitesindeki uzmanlık sayfalarına dikkatle bakan biri. Buradaki aramalar kısa değil; \"levent iş hukuku avukatı\" ya da \"gayrettepe şirket kuruluşu mali müşavir\" gibi niyeti açık, uzun sorgular.",
+    "Levent ve Gayrettepe çevresinde holding merkezleri, danışmanlık şirketleri, hukuk ve mali müşavirlik büroları yoğun. Bu firmaların müşterisi çoğunlukla karar vermeden önce birkaç kaynağı karşılaştıran, LinkedIn profiline ve web sitesindeki uzmanlık sayfalarına dikkatle bakan biri. Buradaki aramalar kısa değil; \"levent kurumsal eğitim danışmanlığı\" ya da \"gayrettepe şirket kuruluşu mali müşavir\" gibi niyeti açık, uzun sorgular.",
     "Sahile indikçe tablo değişiyor. Beşiktaş Çarşı'daki balıkçılar, meyhaneler ve kahvaltı salonları, Ortaköy meydanındaki kafeler, Bebek'teki restoranlar harita sonuçlarında birbirine çok yakın konumlanıyor. Kullanıcı genellikle telefondan, o an bulunduğu yerin yakınını arıyor. Burada Google Business Profile fotoğrafları, güncel çalışma saatleri ve yorumlara verilen yanıtlar, çoğu zaman web sitesinden bile önce kararı belirliyor.",
     "Etiler ve Nispetiye Caddesi hattında diş klinikleri, estetik merkezleri, güzellik salonları ve özel eğitim kurumları var. Bu sektörlerde güven sinyali belirleyici: hekim biyografisi, kurum yetkileri, adres netliği ve hasta yorumlarının doğallığı. Abartılı vaat içeren sayfalar hem kullanıcıyı hem de sağlık içeriklerine hassas bakan arama motorunu uzaklaştırıyor."
    ]
@@ -1251,8 +1251,8 @@
    "satirlar": [
     [
      "Hukuk ve mali müşavirlik büroları",
-     "levent ticaret hukuku avukatı, beşiktaş mali müşavir",
-     "Uzmanlık alanı başına ayrı hizmet sayfası, avukat/uzman profil sayfaları, Organization ve Person şeması"
+     "büro adı + levent (hukuk), beşiktaş mali müşavir",
+     "Uzmanlık alanı başına ayrı hizmet sayfası, avukat/uzman profil sayfaları, Organization ve Person şeması; hukuk bürolarında baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Diş ve estetik klinikleri",
@@ -1306,7 +1306,7 @@
     "Levent'teki ofis adresiyle Beşiktaş merkezdeki eski adresin farklı platformlarda birlikte yaşaması. Bu tutarsızlık harita sıralamasını zayıflatıyor ve kullanıcıyı yanlış kapıya yolluyor.",
     "Restoran ve kafelerin menüyü yalnızca PDF ya da görsel olarak yüklemesi. Arama motoru içeriği okuyamıyor, telefondaki kullanıcı da zoom yapmaktan yoruluyor.",
     "Klinik sitelerinde kaynak göstermeyen, kopyalanmış tedavi metinleri. Sağlık konularında güven sinyali zayıf içerik görünürlük kazanmakta zorlanıyor.",
-    "Hukuk bürolarının tüm uzmanlık alanlarını tek bir \"faaliyet alanlarımız\" sayfasına sıkıştırması. Uzun ve net sorgulara karşılık verecek ayrı bir sayfa kalmıyor.",
+    "Hukuk bürolarının tüm uzmanlık alanlarını tek bir \"faaliyet alanlarımız\" sayfasına sıkıştırması. Ziyaretçiye çalışma alanları hakkında net bilgi verecek ayrı bir sayfa kalmıyor; bu sayfalar da baronun reklam yasağı düzenlemesine uygun, bilgilendirici bir dille yazılmalı.",
     "Ortaköy ve Bebek'teki mekânların hafta sonu ve bayram çalışma saatlerini güncellememesi. Kapıya gelip kapalı bulan müşterinin bıraktığı yorum, aylarca profilde duruyor."
    ]
   },
@@ -3105,7 +3105,7 @@
  },
  "kagithane": {
   "alt": "Çağlayan Adliyesi çevresindeki hukuk bürolarından Cendere hattındaki ofislere, eski sanayi dokusundan yeni konutlara uzanan bir arama haritası.",
-  "desc": "Kağıthane SEO uzmanı: Çağlayan hukuk büroları, Cendere ofis firmaları, matbaa ve baskı atölyeleri ile mahalle işletmeleri için yerel ve B2B arama planı.",
+  "desc": "Kağıthane SEO uzmanı: Cendere ofis firmaları, matbaa ve baskı atölyeleri ile mahalle işletmeleri için yerel ve B2B arama planı.",
   "giris": [
    "Adını Osmanlı döneminde kurulan kâğıt imalathanesinden alan Kağıthane, uzun yıllar fabrikaları, atölyeleri ve işçi mahalleleriyle tanındı. Bugün aynı ilçede Levent ve Mecidiyeköy iş merkezlerine yürüme ya da kısa metro mesafesinde ofis blokları, yeni konut projeleri ve hâlâ çalışan baskı atölyeleri yan yana duruyor. Bu katmanlı yapı, aramalara da birebir yansıyor.",
    "Kağıthane'de bir işletmenin arama görünürlüğünü değerlendirirken ilk bakılan şey, müşterinin nereden geldiği. Çağlayan'daki bir avukatın müşterisi İstanbul'un her yerinden olabilir; Cendere tarafındaki bir yazılım firması müşterisini başka şehirlerde bulabilir; Nurtepe'deki bir fırının müşterisi ise birkaç sokak ötede oturuyor. Üçü de Kağıthane'de, ama üçünün SEO önceliği farklı.",
@@ -3114,7 +3114,7 @@
   "pazar": {
    "baslik": "Adliye, Ofis ve Atölye: Kağıthane'nin Üç Ticari Damarı",
    "paragraflar": [
-    "Çağlayan'daki İstanbul Adalet Sarayı, çevresinde güçlü bir profesyonel hizmet kümesi oluşturmuş durumda. Hukuk büroları, arabuluculuk ofisleri, yeminli tercüme büroları, kırtasiye ve fotokopi noktaları adliyeye yakın sokaklarda yoğunlaşıyor. Bu alandaki aramalar çoğu zaman hizmet adı ve semt birlikte yapılıyor; \"çağlayan boşanma avukatı\" ya da \"çağlayan yeminli tercüme\" gibi sorgular hem harita hem de organik sonuçları tetikliyor.",
+    "Çağlayan'daki İstanbul Adalet Sarayı, çevresinde güçlü bir profesyonel hizmet kümesi oluşturmuş durumda. Hukuk büroları, arabuluculuk ofisleri, yeminli tercüme büroları, kırtasiye ve fotokopi noktaları adliyeye yakın sokaklarda yoğunlaşıyor. Bu alandaki aramalar çoğu zaman hizmet adı ve semt birlikte yapılıyor; \"çağlayan yeminli tercüme\" ya da \"çağlayan fotokopi\" gibi sorgular hem harita hem de organik sonuçları tetikliyor. Hukuk bürolarında ise çalışma anahtar kelimeyle sıralamaya değil, büro adıyla arandığında doğru ve tutarlı bilginin bulunmasına odaklanmalı; baronun reklam yasağı düzenlemesi bunu gerektiriyor.",
     "Cendere Caddesi ve Kağıthane Deresi boyunca yükselen ofis binaları ise ilçeye farklı bir kitle taşıdı. Ajanslar, yazılım şirketleri, danışmanlık firmaları ve bölgesel müdürlükler buraya yerleşti. Bu firmaların müşterisi genellikle Kağıthane'de değil; aramalar hizmet ve sektör odaklı. Ofis çalışanlarının günlük ihtiyaçları ise öğle yemeği, kahve, spor salonu ve kuru temizleme gibi yerel aramaları canlı tutuyor.",
     "İlçenin sanayi geçmişinden kalan bölgelerde matbaa, ambalaj, tabela ve reklam baskı atölyeleri hâlâ önemli yer tutuyor. Bu işletmeler hem Kağıthane çevresindeki ofislere hem de şehrin geneline hizmet veriyor. Burada \"kartvizit baskı\", \"katalog basımı\" veya \"kağıthane matbaa\" gibi aramalarda ürün odaklı sayfalar ve hızlı teklif akışı belirleyici oluyor."
    ]
@@ -3123,7 +3123,7 @@
    "baslik": "Çağlayan'dan Nurtepe'ye: Kağıthane'de Aksa Göre Değişen Talepler",
    "giris": "M7 metro hattının Çağlayan, Kağıthane ve Nurtepe istasyonları, ilçenin farklı bölgelerini hem Mecidiyeköy'e hem de batıdaki ilçelere bağlıyor. Bu ulaşım ekseni, işletmelerin hangi semtten müşteri çekebileceğini de etkiliyor.",
    "maddeler": [
-    "**Çağlayan:** Adliye çevresinde hukuk, arabuluculuk, tercüme ve kırtasiye hizmetleri. Aramalar hizmet alanı ve semt adıyla yapılıyor; uzmanlık alanı başına ayrı sayfa ve doğru LegalService işaretlemesi işe yarıyor.",
+    "**Çağlayan:** Adliye çevresinde hukuk, arabuluculuk, tercüme ve kırtasiye hizmetleri. Hukuk bürolarında anahtar kelimeyle sıralama yerine büro adıyla aramada doğru bilgi, çalışma alanlarını anlatan sayfalar ve doğru LegalService işaretlemesi öne çıkıyor; tümü baronun reklam yasağı düzenlemesine uygun biçimde.",
     "**Cendere Caddesi hattı:** Ofis binaları, ajanslar, teknoloji firmaları ve bunlara hizmet veren yeme içme işletmeleri. B2B firmalar için hizmet sayfaları ve vaka anlatımları; restoranlar için öğle menüsü ve paket servis bilgisi öncelikli.",
     "**Gültepe ve Ortabayır:** Levent'e komşu, konut dönüşümünün belirgin olduğu bölgeler. Emlak danışmanları, tadilat firmaları ve mahalle hizmetleri öne çıkıyor; semt adının Levent'le karıştırılmadan doğru kullanılması önemli.",
     "**Merkez ve Hamidiye:** İlçenin idari ve ticari merkezine yakın, çarşı karakterli bölgeler. Giyim, gözlük, eczane, diş kliniği gibi işletmelerde harita kaydının bütünlüğü ve yorum yönetimi ön planda.",
@@ -3143,8 +3143,8 @@
    "satirlar": [
     [
      "Hukuk ve arabuluculuk büroları",
-     "çağlayan ceza avukatı, kağıthane arabulucu",
-     "Uzmanlık alanı sayfaları, LegalService şeması, harita kaydı"
+     "büro adı + çağlayan, avukat adı + büro adı, kağıthane arabulucu",
+     "Çalışma alanı sayfaları, LegalService şeması, harita kaydı; baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Yeminli tercüme ve kırtasiye",
@@ -3196,7 +3196,7 @@
    "baslik": "Kağıthane'deki İşletmelerin Aramada Geri Kalma Sebepleri",
    "maddeler": [
     "Ofis binasındaki işletmelerin adres bilgisinde kat, blok veya bağımsız bölüm numarasını yazmaması. Kullanıcı binaya gelip ofisi bulamıyor, harita kaydının doğruluğu da sorgulanıyor.",
-    "Hukuk bürolarının tüm uzmanlık alanlarını tek sayfada toplaması. Belirli bir konuda avukat arayan kullanıcı eşleşen bir sayfa bulamadığı için siteye gelmiyor.",
+    "Hukuk bürolarının tüm uzmanlık alanlarını tek sayfada toplaması. Siteyi açan kişi büronun çalışma alanları hakkında açık bilgi bulamıyor; bu bilgi baronun reklam yasağı düzenlemesine uygun, bilgilendirici bir dille verilmeli.",
     "Gültepe veya Ortabayır'daki işletmelerin kendini Levent'te gibi göstermesi. Gerçek adresle çelişen bilgi kullanıcıyı yanıltıyor ve profil kurallarına aykırı düşüyor.",
     "Matbaaların ürün fiyatı ya da teslim süresi hakkında hiçbir bilgi vermemesi. Acil baskı arayan kullanıcı daha net bilgi veren rakibi tercih ediyor.",
     "Yeni taşınan firmaların eski adresini dizinlerde ve sosyal hesaplarda güncellememesi. Tutarsız konum bilgisi harita sonuçlarında güveni zayıflatıyor."
@@ -3212,7 +3212,7 @@
   "sss": [
    {
     "s": "Çağlayan'da avukatım, reklam yasağı varken SEO yapabilir miyim?",
-    "c": "Avukatlık meslek kuralları reklamı kısıtlıyor, ancak bilgilendirici içerik yayınlamak ve işletme bilgilerini doğru sunmak bu kapsamda değerlendirilmiyor. Uzmanlık alanlarını tarafsız bir dille açıklayan sayfalar, doğru harita kaydı ve teknik olarak sağlıklı bir site, kurallara uygun bir SEO çalışmasının temelini oluşturuyor. Başarı vaadi ve müvekkil sonucu paylaşmaktan kaçınılmalı."
+    "c": "Baronun reklam yasağı düzenlemesi, arama motorlarında üst sıralara çıkmaya yönelik anahtar sözcük ve benzeri yöntemleri ile çevrimiçi reklamı yasak kapsamında sayıyor; bu yüzden anahtar kelimeyle sıralama hedefi konmamalı. Makul alan, büro adıyla arandığında doğru ve tutarlı bilgi, doğru harita kaydı, teknik olarak sağlıklı bir site ve çalışma alanlarını tarafsız bir dille anlatan bilgilendirici sayfalar. Başarı vaadi ve müvekkil sonucu paylaşmaktan kaçınılmalı; sınırı baronun güncel düzenlemesi ve hukuki görüş belirler. Çerçeveyi [avukatlar için SEO ve reklam yasağı](/blog/avukatlar-icin-seo) yazısında anlattım."
    },
    {
     "s": "Cendere'deki ofisimize müşteri gelmiyor, yine de harita kaydı açmalı mıyız?",
@@ -3242,7 +3242,7 @@
  },
  "kartal": {
   "alt": "Anadolu Adliyesi çevresindeki hukuk bürolarından sahildeki yeni konut projelerine, Kartal'ın değişen yapısına göre arama görünürlüğü.",
-  "desc": "Kartal SEO uzmanı: Anadolu Adliyesi yakınındaki avukatlar, hastane çevresi sağlık işletmeleri ve sahil projelerindeki emlak firmaları için yerel SEO.",
+  "desc": "Kartal SEO uzmanı: hastane çevresi sağlık işletmeleri ve sahil projelerindeki emlak firmaları için yerel SEO ve Google Haritalar görünürlüğü.",
   "giris": [
    "Kartal'ın arama haritasını anlamak için iki büyük kamu yapısına bakmak yeterli: İstanbul Anadolu Adliyesi ve ilçedeki büyük hastaneler. Anadolu Yakası'nın dört bir yanından insanlar dava takibi, duruşma, muayene ya da tedavi için her gün Kartal'a geliyor. Bu hareket, çevresinde avukatlık bürolarından arabuluculuk ofislerine, eczanelerden medikal ürün satıcılarına kadar geniş bir hizmet ekonomisi doğurmuş durumda.",
    "İkinci büyük dinamik, ilçenin kıyı şeridinde yaşanan dönüşüm. Eski sanayi ve taş ocağı alanları zamanla yerini yüksek katlı konut ve karma kullanımlı projelere bıraktı. Sahile yakın yeni yaşam alanları, emlak danışmanlarından iç mimarlara, kafelerden spor salonlarına kadar yeni işletme türlerini ilçeye taşıdı.",
@@ -3260,7 +3260,7 @@
    "baslik": "Adliyeden Yakacık'a Kartal'ın Ticari Noktaları",
    "giris": "Kartal'ın her bölgesi farklı bir ihtiyaç etrafında şekillenmiş. Semt bilgisinin içerikte ve profillerde doğru kullanımı, hangi aramalarda görünüleceğini doğrudan etkiliyor.",
    "maddeler": [
-    "**Adliye çevresi:** Avukatlık büroları, arabulucular, bilirkişi destek hizmetleri ve tercüme büroları. Sorgular hem ilçe adı hem adliye adı içeriyor; \"anadolu adliyesi yakını avukat\" gibi ifadeler içerikte doğal biçimde yer almalı.",
+    "**Adliye çevresi:** Avukatlık büroları, arabulucular, bilirkişi destek hizmetleri ve tercüme büroları. Sorgular hem ilçe adı hem adliye adı içeriyor; avukatlık bürolarında bu tür ifadeleri anahtar kelime olarak yerleştirmek yerine büronun adliyeye uzaklığı ve ulaşım bilgisi, baronun reklam yasağı düzenlemesine uygun biçimde iletişim sayfasında belirtilmeli.",
     "**Kartal merkez ve meydan:** Çarşı esnafı, bankalar, kafeler, giyim mağazaları ve klinikler. Marmaray ve M4 bağlantısı yaya trafiğini artırıyor; harita profili ve çalışma saatleri öncelikli.",
     "**Sahil şeridi ve Kordonboyu:** Kafe, restoran, spor ve rekreasyon işletmeleri ile yeni konut projeleri. Akşam ve hafta sonu aramaları yoğun; mekân fotoğrafları ve menü sayfaları belirleyici.",
     "**Hastaneler çevresi:** Poliklinikler, medikal ürün satıcıları, eczaneler ve hasta yakınlarına yönelik hizmetler. Hastane adına göre hazırlanan bilgilendirici içerikler bu aramaları karşılıyor.",
@@ -3280,8 +3280,8 @@
    "satirlar": [
     [
      "Avukatlık büroları",
-     "kartal avukat, kartal boşanma avukatı, anadolu adliyesi ceza avukatı",
-     "Uzmanlık alanı sayfaları, avukat profilleri, mesleki kurallara uygun bilgilendirici içerik"
+     "büro adı + kartal, avukat adı + büro adı, büro adı + adres",
+     "Büro adıyla aramada tutarlı bilgi, avukat profilleri, baronun reklam yasağı düzenlemesine uygun bilgilendirici içerik"
     ],
     [
      "Arabuluculuk ve tercüme",
@@ -3348,7 +3348,7 @@
   "sss": [
    {
     "s": "Kartal'daki bir avukatlık bürosu Anadolu Adliyesi adını içeriklerinde kullanabilir mi?",
-    "c": "Büronun adliyeye uzaklığını ve ulaşım bilgisini belirtmek kullanıcı için faydalı bir bilgi ve içerikte doğal biçimde yer alabilir. Ancak adliyeyle bir bağ varmış izlenimi verecek ifadelerden kaçınılmalı. Mesleki kurallar her zaman öncelikli."
+    "c": "Büronun adliyeye uzaklığını ve ulaşım bilgisini belirtmek kullanıcı için faydalı bir bilgi ve içerikte doğal biçimde yer alabilir. Ancak adliyeyle bir bağ varmış izlenimi verecek ifadelerden kaçınılmalı. Bu bilgi anahtar kelime amacıyla değil ulaşım bilgisi olarak verilmeli; baronun güncel reklam yasağı düzenlemesi her zaman öncelikli."
    },
    {
     "s": "Şehir hastanesi yakınındaki medikal mağazam aramalarda nasıl öne çıkabilir?",
@@ -3920,7 +3920,7 @@
   "pazar": {
    "baslik": "Plaza ile Sahil Arasında: Sarıyer'de Aramanın İki Dili",
    "paragraflar": [
-    "Maslak ve Ayazağa tarafında karar vericiler genellikle bir satın alma sürecinin içindedir. \"kurumsal muhasebe hizmeti\", \"ERP danışmanlığı\", \"ticaret hukuku avukatı\" gibi sorgular yazar, birkaç firmanın sitesini karşılaştırır, ardından form doldurur. Burada başarıyı belirleyen şey harita sonucundan çok hizmet sayfalarının derinliği, vaka anlatımlarının açıklığı ve sitenin teknik sağlığıdır. Plaza adresli bir firmanın Google profili yine önemlidir ama asıl iş web sitesinde döner.",
+    "Maslak ve Ayazağa tarafında karar vericiler genellikle bir satın alma sürecinin içindedir. \"kurumsal muhasebe hizmeti\", \"ERP danışmanlığı\", \"bordro dış kaynak hizmeti\" gibi sorgular yazar, birkaç firmanın sitesini karşılaştırır, ardından form doldurur. Burada başarıyı belirleyen şey harita sonucundan çok hizmet sayfalarının derinliği, vaka anlatımlarının açıklığı ve sitenin teknik sağlığıdır. Plaza adresli bir firmanın Google profili yine önemlidir ama asıl iş web sitesinde döner.",
     "Sahil şeridinde tablo tersine dönüyor. Tarabya, Büyükdere ve Rumelikavağı'nda bir restoranın müşterisi çoğu zaman telefondan, akşam yemeği planlarken arama yapar. Fotoğraflar, yorumların tazeliği, menünün görünür olması ve rezervasyon bağlantısı belirleyici hale gelir. Hafta sonu ve yaz aylarında talep belirgin biçimde artar, kışın ise yalnızca belirli mekânlar akla gelir.",
     "Kuzey Sarıyer'de, yani Zekeriyaköy, Kilyos ve Bahçeköy çevresinde aramalar daha seyrek ama daha yüksek değerlidir. Villa kiralama, özel okul, at binicilik tesisi ya da peyzaj firması arayan biri uzun düşünür, çok sayfa gezer. Bu kitleye güven veren, ayrıntılı ve güncel içerik sunmak gerekir."
    ]
@@ -3954,8 +3954,8 @@
     ],
     [
      "Hukuk ve mali müşavirlik",
-     "maslak avukat, şirket kuruluşu mali müşavir sarıyer",
-     "Uzmanlık alanı sayfaları, yazar profilleri, LegalService şeması"
+     "büro adı + maslak (hukuk), şirket kuruluşu mali müşavir sarıyer",
+     "Uzmanlık alanı sayfaları, yazar profilleri, LegalService şeması; hukuk bürolarında baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Boğaz balık restoranları",
@@ -4198,7 +4198,7 @@
    "baslik": "Selimpaşa'dan Değirmenköy'e Silivri'nin Ticari Haritası",
    "giris": "Silivri geniş bir alana yayıldığı için her yerleşimin ayrı ele alınması gerekir. Aşağıda ilçenin başlıca bölgeleri, buradaki işletme tipleri ve her biri için yerel arama notu yer alıyor.",
    "maddeler": [
-    "**Silivri merkez ve çarşı:** Alipaşa, Piri Mehmet Paşa ve Mimar Sinan çevresindeki esnaf, muayenehaneler, avukatlık büroları ve kafeler. \"silivri diş hekimi\", \"silivri avukat\" gibi sorgular yoğun; Google profili ile hizmet sayfası birlikte çalışmalı.",
+    "**Silivri merkez ve çarşı:** Alipaşa, Piri Mehmet Paşa ve Mimar Sinan çevresindeki esnaf, muayenehaneler, avukatlık büroları ve kafeler. \"silivri diş hekimi\", \"silivri eczane\" gibi sorgular yoğun; Google profili ile hizmet sayfası birlikte çalışmalı. Avukatlık bürolarında hedef sıralama değil, büro adıyla aranınca Google profilinde doğru ve güncel bilgi; baronun reklam yasağı düzenlemesine uygun biçimde.",
     "**Selimpaşa ve Kavaklı:** Yazlık siteler, sahil restoranları, market ve küçük servisler. Sezonluk talep yüksek; yaz saatlerinin profile işlenmesi ve site adlarını içeren hizmet bölgesi bilgisi işe yarar.",
     "**Gümüşyaka ve Ortaköy sahili:** Sahil boyunca yazlık konutlar, kamp ve piknik alanlarına yakın işletmeler. Yol tarifi aramaları ve \"denize yakın\" gibi nitelik içeren sorgular belirleyici.",
     "**D-100 karayolu kenarı:** Yapı marketler, oto servisleri, lastikçiler, galericiler ve akaryakıt istasyonlarına bağlı işletmeler. Yoldan geçen sürücüye hitap eden net kategori seçimi ve doğru harita işaretlemesi şart.",
@@ -4366,7 +4366,7 @@
     ],
     [
      "Kurumsal hizmetler",
-     "mecidiyeköy mali müşavir, esentepe iş avukatı, şişli insan kaynakları danışmanlığı",
+     "mecidiyeköy mali müşavir, esentepe bordro hizmeti, şişli insan kaynakları danışmanlığı",
      "Hizmet sayfası mimarisi, uzman yazar bilgisi, ProfessionalService şeması"
     ],
     [

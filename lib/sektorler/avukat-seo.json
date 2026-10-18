@@ -1,0 +1,442 @@
+{
+ "slug": "avukat-seo",
+ "slug_en": "law-firm-seo",
+ "ad_tr": "Hukuk Büroları İçin Dijital Görünürlük ve Uyum",
+ "ad_en": "Digital Presence and Compliance for Law Firms",
+ "h1_tr": "Hukuk Büroları İçin Dijital Görünürlük ve Uyum Danışmanlığı",
+ "h1_en": "Digital Presence and Compliance Consulting for Law Firms",
+ "alt_tr": "Reklam yasağını esas alan danışmanlık: büro adıyla doğru bilgi, sağlam teknik altyapı ve yapay zekâ cevaplarında doğru büro kaydı.",
+ "alt_en": "Consulting built around the advertising ban: accurate firm details, a sound technical site and correct firm information in AI answers.",
+ "meta_baslik_tr": "Avukat SEO ve Dijital Uyum | Fatih Emin Çakıroğlu",
+ "meta_baslik_en": "Law Firm SEO and Compliance | Fatih Emin Çakıroğlu",
+ "meta_desc_tr": "Hukuk büroları için reklam yasağına uyumlu dijital görünürlük danışmanlığı: tutarlı büro bilgisi, işletme profili, teknik site sağlığı ve yapay zekâ.",
+ "meta_desc_en": "Digital presence consulting for law firms in Turkey, built around the advertising ban: consistent firm details, Business Profile, site health and AI.",
+ "ozet_tr": "Hukuk büroları için sıralama vaadi olmadan, reklam yasağına uyumlu doğru büro bilgisi ve teknik site sağlığı danışmanlığı.",
+ "ozet_en": "Ad-ban-compliant consulting for law firms: accurate firm details and site health, with no ranking promises.",
+ "hizmetler_tr": [
+  "Büro bilgisi ve NAP tutarlılığı",
+  "Google Business Profile doğruluk kontrolü",
+  "Teknik site sağlığı denetimi",
+  "Bilgilendirici içeriğin mevzuata uygun yapılandırılması",
+  "Yorum ve itibar yönetiminde mevzuat uyumu",
+  "Yapay zekâ asistanlarında doğru büro bilgisi",
+  "Reklam yasağı uyum kontrolü"
+ ],
+ "hizmetler_en": [
+  "Firm details and NAP consistency",
+  "Google Business Profile accuracy review",
+  "Technical site health audit",
+  "Compliant structuring of informational content",
+  "Compliant review and reputation handling",
+  "Accurate firm details in AI assistants",
+  "Advertising ban compliance check"
+ ],
+ "rehberler": [
+  "schema-yapisal-veri",
+  "teknik-seo",
+  "icerik-stratejisi",
+  "geo-uygulama"
+ ],
+ "ilceler": [
+  "sisli",
+  "kadikoy",
+  "kartal",
+  "besiktas",
+  "bakirkoy",
+  "atasehir"
+ ],
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir avukatı arayan kişi çoğu zaman önce bir tavsiye alır, sonra o adı Google'a ya da bir yapay zekâ asistanına yazar. Karşısına eski bir adres, dağılmış bir ortaklık ya da yanlış bir telefon çıkarsa tavsiye orada kaybolur. Hukuk büroları için dijital görünürlüğün asıl meselesi budur: büro adıyla arandığında doğru ve tutarlı bilginin bulunması.",
+    "Türkiye'de avukatlar reklam yasağına tabidir. Türkiye Barolar Birliği'nin Reklam Yasağı Yönetmeliği'nde 9 Ağustos 2024'te yapılan değişiklik, arama motorlarında üst sıralarda yer almaya yönelik anahtar sözcük, yönlendirici kod ve benzeri yöntemleri ve çevrimiçi mecralarda reklamı açıkça yasak kapsamında sayıyor. Bu yüzden bu sayfada anahtar kelimeyle sıralama, rakip büroları geçme ya da müvekkil kazandırma amaçlı bir SEO hizmeti sunmuyorum. Sunduğum şey, büronun dijital kimliğinin doğru, teknik olarak sağlam ve mevzuata uyumlu olması için danışmanlık. Çerçevenin ayrıntısını [avukatlar için SEO ve reklam yasağı](/blog/avukatlar-icin-seo) yazısında anlattım.",
+    {
+     "alinti": "Kısa cevap: Hukuk büroları için dijital görünürlük ve uyum danışmanlığım; büro adıyla aranınca doğru ve tutarlı bilginin bulunması, Google Business Profile kaydının doğruluğu, teknik site sağlığı, bilgilendirici içeriğin doğru yapılandırılması, yorumların mevzuata uygun yönetimi ve yapay zekâ asistanlarında büro bilgilerinin doğru görünmesi üzerine kuruludur. Anahtar kelimeyle sıralama, müvekkil kazanımı ya da çevrimiçi reklam vaat etmem; her adım baronuzun güncel düzenlemesine ve hukuki görüşe göre kontrol edilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Hukuk bürolarının dijital kimliğinde en sık gördüğüm sorunlar",
+   "paragraflar": [
+    "İlk incelemede en sık karşılaştığım sorunlar:",
+    {
+     "liste": [
+      "**Kendi adıyla bulunamayan büro:** Büro ya da avukat adıyla arandığında site yerine eski bir dizin kaydı ya da benzer adlı başka bir büro görünüyor.",
+      "**Tutarsız iletişim bilgileri:** Taşınmadan sonra eski adres ve telefonlar dizinlerde, sosyal profillerde ve harita kaydında kalmış.",
+      "**Hatalı işletme profili:** Yanlış kategori, eski çalışma saatleri ya da işletme adına eklenmiş “Boşanma Avukatı” gibi ifadeler.",
+      "**Mevzuat açısından riskli metinler:** “En iyi” ifadeleri, başarı oranı, referans sayfası, “uzman avukat” iddiası, “hemen arayın” çağrıları, anahtar kelime yığınları ve ilçe adlarıyla çoğaltılmış sayfalar; çoğu zaman önceki bir ajanstan kalma.",
+      "**Teknik zayıflık:** Yavaş açılan, mobilde bozulan, erişilebilirlik sorunları olan ya da kişisel veri toplayan formunda aydınlatma metni bulunmayan siteler.",
+      "**Yapay zekâ cevaplarında yanlış bilgi:** Asistanların eski adresi, ayrılmış bir ortağı ya da büronun çalışmadığı bir alanı aktarması."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Hizmet kapsamı: hukuk büroları için dijital görünürlük ve uyum",
+   "paragraflar": [
+    {
+     "alt": "Büro adıyla aramada doğru ve tutarlı bilgi (NAP)"
+    },
+    "Büro adı, avukatların adı ve unvanı, adres, telefon ve baro sicil bilgisi sitede, harita kayıtlarında, dizinlerde ve baro kaydında aynı biçimde yer almalı. Bu tutarlılığı sağlıyor, ardından Organization, LegalService ve Person işaretlemeleriyle bilgiyi makinelerin okuyabileceği biçimde sunuyoruz; yöntemi [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) anlattım. Buradaki amaç sıralama hilesi değil, mevcut kimlik bilgisini doğru tanımlamak.",
+    {
+     "alt": "Google Business Profile doğruluğu"
+    },
+    "Profilde gerçek büro adı, doğru kategori, adres ve çalışma saatleri yer almalı; açıklama ve gönderiler kimlik bilgisini aşan, iş elde etmeye yönelik bir metne dönüşmemeli. Kurulum ve doğrulamanın teknik tarafı [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında var.",
+    {
+     "alt": "Teknik site sağlığı"
+    },
+    "Hız, mobil uyum, erişilebilirlik ve güvenliği (HTTPS, form güvenliği, güncel yazılım) kontrol ediyoruz. Core Web Vitals için iyi eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms ve CLS ≤ 0,1. Bunlar tanıtım değil, kimlik ve iletişim bilgisi sunan bir sitenin temel kalitesi; kontrol listesi [teknik SEO temelleri](/rehber/teknik-seo) rehberinde.",
+    {
+     "alt": "Bilgilendirici içeriğin doğru yapılandırılması"
+    },
+    "Faaliyet alanlarını uzmanlık iddiası taşımayan sade bir listeyle, avukat sayfalarını eğitim, dil ve sicil bilgisiyle düzenliyoruz. Sayfa başlıkları büro adını ve sayfanın konusunu sade biçimde anlatır. Yeni içerik üretimi ancak baro görüşü ve hukuki değerlendirmeyle gündeme gelir; anahtar kelime hedefli içerik planlamam.",
+    {
+     "alt": "Yorumların ve itibarın mevzuata uygun yönetimi"
+    },
+    "Yorum toplama kampanyası önermem; yorumların tanıtım amacıyla kullanılmaması ve cevaplarda kişinin müvekkil olduğunu doğrulayan hiçbir bilginin yer almaması için yazılı cevap ilkeleri hazırlıyoruz. Ölçülü cevap örnekleri [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında.",
+    {
+     "alt": "Yapay zekâ asistanlarında doğru büro bilgisi"
+    },
+    "“X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” gibi sorulardan bir test seti kurup asistanların cevaplarını düzenli kontrol ediyoruz; yanlış bilginin kaynağını bulup düzeltiyoruz. Yöntem [GEO uygulama rehberinde](/rehber/geo-uygulama) anlatılıyor.",
+    {
+     "alt": "Her adımda uyum kontrolü"
+    },
+    "Her öneri, baronun güncel düzenlemesi açısından işaretlenmiş bir uyum listesiyle büroya sunulur. Onaylanmayan hiçbir değişiklik uygulanmaz."
+   ]
+  },
+  {
+   "baslik": "Çalışma tablosu: ne yapıyor, neyi ölçüyoruz?",
+   "paragraflar": [
+    "Bu hizmette hedef trafik ya da sıralama değil; büro hakkındaki bilginin her yerde doğru, sitenin sağlam ve yayındaki her şeyin mevzuata uygun olması. Raporu da buna göre kuruyorum.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Çalışma alanı",
+       "Ne yapıyoruz",
+       "Neyi ölçüyoruz"
+      ],
+      "satirlar": [
+       [
+        "Büro bilgisi (NAP)",
+        "Site, harita kayıtları, dizinler ve baro kaydında ad, adres, telefon birliği",
+        "Büro ve avukat adıyla aramada doğru sitenin ve bilgilerin görünmesi"
+       ],
+       [
+        "Google Business Profile",
+        "Ad, kategori, adres, saat ve açıklamanın düzeltilmesi",
+        "Profil bilgilerinin doğruluğu, bekleyen düzenleme önerileri"
+       ],
+       [
+        "Teknik site sağlığı",
+        "Hız, mobil uyum, HTTPS, erişilebilirlik, dizinleme",
+        "Core Web Vitals, erişilebilirlik bulguları, Search Console hataları"
+       ],
+       [
+        "Bilgilendirici içerik",
+        "Faaliyet alanı ve avukat sayfalarının sade yapısı, yapısal veri",
+        "Uyum listesindeki riskli ifadelerin kapanması"
+       ],
+       [
+        "Yorumlar ve itibar",
+        "Yazılı cevap ilkeleri, gizlilik kontrolü",
+        "İlkelere uymayan cevap ve içeriklerin sayısı"
+       ],
+       [
+        "Yapay zekâ asistanları",
+        "Soru seti testi, yanlış bilginin kaynağını düzeltme",
+        "Asistan cevaplarında büro bilgisinin doğruluğu"
+       ],
+       [
+        "Uyum kontrolü",
+        "Her öneriyi düzenleme açısından işaretleme, büro onayına sunma",
+        "Onay bekleyen ve onaylanan değişiklikler"
+       ]
+      ]
+     }
+    },
+    "Raporda sıralama, tıklama ya da müvekkil sayısı hedefi yer almaz; bu hizmetin amacı bunlar değil."
+   ]
+  },
+  {
+   "baslik": "İlk görüşmeden ilk 90 güne çalışma süreci",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Ön görüşme (30 dakika):** Büronun yapısı, avukat sayısı, mevcut site ve varsa önceki ajans çalışmaları konuşulur.",
+      "**Denetim (ilk 2-3 hafta):** Teknik tarama, içerik envanteri, harita ve dizin kayıtları ve yapay zekâ soru seti incelenir; mevzuat açısından soru işareti taşıyan ifadeler ayrı bir uyum listesinde raporlanır.",
+      "**Hukuki kontrol:** Uyum listesi ve öneriler büroya ve hukuk danışmanına sunulur, gerekirse baro görüşü alınır. Son karar her zaman büronundur.",
+      "**Uygulama (1-2. ay):** Teknik düzeltmeler, NAP ve profil düzeltmeleri, riskli metinlerin kaldırılması ve yapısal veri kurulur.",
+      "**Kontrol (2-3. ay):** Yorum cevap ilkeleri yazılı hâle getirilir, onaylanan içerik düzenlemeleri yayına alınır, yapay zekâ cevapları yeniden test edilir.",
+      "**90. gün değerlendirmesi:** Göstergeler ilk durumla karşılaştırılır; sonrasında hafif bir bakım ve düzenleme değişikliklerine karşı periyodik gözden geçirme planlanır."
+     ]
+    },
+    "Sonrasında çoğu büro için yılda en az bir kez sitenin güncel düzenlemeye göre gözden geçirilmesi yeterli olur."
+   ]
+  },
+  {
+   "baslik": "Reklam yasağı ve bu hizmetin sınırları",
+   "paragraflar": [
+    "Avukatlık Kanunu ve Türkiye Barolar Birliği'nin Reklam Yasağı Yönetmeliği, avukatların reklam yoluyla iş elde etmesini yasaklar. 2024 değişikliği internet sitesi içeriğini sınırladı, referans paylaşımını yasakladı ve arama motorlarında üst sıralara çıkmaya yönelik anahtar sözcük ve yönlendirici kod kullanımını ve çevrimiçi reklamı yasak kapsamında saydı. Mayıs 2026'daki değişiklikle Birlik bünyesinde, çevrimiçi mecralar dahil ihlalleri takip eden bir merkez kuruldu. Ben avukat değilim; burada yalnızca genel çerçeveyi anlatıyorum. Baronuzun güncel düzenlemesini esas alın.",
+    {
+     "alinti": "Uyum notu: Bu hizmet, Türkiye Barolar Birliği'nin reklam yasağı düzenlemesine uyumu esas alır. Önerilerim hukuki görüş değildir; nihai uygunluk değerlendirmesi büronuzun ve hukuk danışmanınızın sorumluluğundadır."
+    },
+    "Bu nedenle yapmadığım ve önermediğim işler:",
+    {
+     "kontrol": [
+      "Anahtar kelimeyle üst sıralara çıkma ya da rakip büroları geçme hedefli çalışma",
+      "Arama motorlarında ve sosyal medyada ücretli ya da ücretsiz reklam",
+      "“En iyi” gibi üstünlük ifadeleri, “uzman” iddiası, başarı oranı ve sonuç vaadi",
+      "Referans sayfası, müvekkil yorumlarını veya dava sonuçlarını tanıtım amacıyla kullanmak",
+      "İlçe ya da şehir adıyla çoğaltılmış, iş toplama amaçlı sayfalar ve bağlantı satın alma",
+      "Müvekkillerden yorum toplama kampanyası"
+     ]
+    },
+    "Bu sınırlar içinde de doğru büro bilgisi, sağlam bir site ve doğru yapay zekâ cevapları reklam niteliği taşımayan değerli bir iştir."
+   ]
+  },
+  {
+   "baslik": "Bu danışmanlık kimler için uygun, kimler için değil?",
+   "paragraflar": [
+    "Hukuk bürolarıyla çalışmayı doğrudan ben yürütüyorum; işi bir ekibe devretmiyorum. Bu yaklaşım her büro için doğru değil.",
+    {
+     "liste": [
+      "**Uygun:** Sitesini ve dijital kayıtlarını mesleki kurallara uygun, sade ve sağlam bir yapıya kavuşturmak isteyen bürolar.",
+      "**Uygun:** Önceki bir ajansın bıraktığı riskli metinleri ve teknik sorunları temizlemek isteyen bürolar.",
+      "**Uygun:** Yapay zekâ asistanlarında büro hakkında yanlış ya da eksik bilgi görülmesinden endişe edenler.",
+      "**Uygun değil:** Sıralama, trafik ya da müvekkil kazanımı hedefleyen bir kampanya bekleyen bürolar.",
+      "**Uygun değil:** Sıralama ya da dosya sayısı sözü isteyenler; böyle bir söz vermiyorum."
+     ]
+    },
+    "Genel danışmanlık yaklaşımım [SEO uzmanı](/seo-uzmani) sayfamda var. Büronuzun durumunu konuşmak isterseniz [ön görüşme randevusu](/randevu) alabilir ya da [iletişim](/iletisim) sayfasından yazabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Hukuk bürosu dijital uyum danışmanlığının ücreti nasıl belirleniyor?",
+   "c": "Ücret; büronun büyüklüğüne, sitenin teknik durumuna ve kapsamın genişliğine göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+  },
+  {
+   "s": "Anahtar kelime çalışması yapılabilir mi?",
+   "c": "Düzenleme, arama motorlarında üst sıralarda yer almaya yönelik anahtar sözcük ve yönlendirici kod kullanımını yasak kapsamında sayıyor; bu yüzden sıralama hedefli anahtar kelime çalışması yapmıyor ve önermiyorum. Sayfa başlıklarının büro adını ve konusunu sade biçimde anlatması ya da Search Console verisine büro adıyla bulunup bulunmadığınızı görmek için bakmak farklı nitelikte işler. Bunların da nerede durduğuna baronuz ve hukuk danışmanınız karar verir."
+  },
+  {
+   "s": "Bu çalışma Google'da üst sıralara çıkmamızı sağlar mı?",
+   "c": "Hedef bu değil ve sıralama vaat etmiyorum. Ölçtüğüm şey; büro adıyla aramada doğru bilginin görünmesi, sitenin teknik sağlığı ve yapay zekâ cevaplarında büro bilgisinin doğruluğu. Kayıt ve profil düzeltmelerinin etkisi çoğu zaman birkaç hafta içinde görülür."
+  },
+  {
+   "s": "Avukatlar Google Ads kullanabilir mi?",
+   "c": "Düzenleme çevrimiçi mecralarda reklam verilmesini yasak kapsamında sayıyor; arama reklamları da bu çerçevede değerlendirilir. Bu yüzden ücretli reklam önermiyorum. Kesin değerlendirme için baronuza danışın."
+  },
+  {
+   "s": "Google Business Profile açıp müvekkillerden yorum isteyebilir miyiz?",
+   "c": "Büronun gerçek adresine ait doğru bir profil, insanların büroyu bulmasına yardım eden bir bilgi kaydıdır. Müvekkilden yorum istemek ve yorumları tanıtım amacıyla kullanmak ise meslek kuralları açısından ayrıca değerlendirilmeli; bu yüzden yorum toplama kampanyası önermiyorum. Gelen yorumlara cevapta gizlilik her zaman önce gelir."
+  },
+  {
+   "s": "Büro sitesinde makale ya da blog yayınlamak mümkün mü?",
+   "c": "Düzenleme mesleki yayını tümüyle kapatmıyor, ancak iş elde etmeye yönelik genel ve soyut içerik paylaşımını sınırlıyor; tek cümlelik bir cevabı yok. Başlamadan önce yazılı baro görüşü ya da hukuki değerlendirme almanızı öneririm. Konuyu [avukatların içerik yayınlaması](/blog/avukatlar-icin-seo) başlığı altında ayrıntılı ele aldım."
+  },
+  {
+   "s": "Bir danışmanla bu kapsamda çalışmak reklam yasağına aykırı mı?",
+   "c": "Bu, yapılan işin içeriğine bağlıdır. Teknik bakım, hız ve bilgi tutarlılığı tanıtımdan çok kalite meselesidir; sıralama amaçlı anahtar kelime çalışması ise düzenlemede açıkça anılıyor. Sözleşmeden önce kapsamı yazılı olarak belirleyip hukuk danışmanınızın değerlendirmesine sunmanızı öneririm."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "People looking for a lawyer usually get a recommendation, then type the name into Google or an AI assistant. An old address or a wrong phone number ends it there. For law firms, the real issue is accurate, consistent information when someone searches by name.",
+    "Lawyers in Turkey work under an advertising ban. The 9 August 2024 amendment to the Union of Turkish Bar Associations' Advertising Ban Regulation explicitly brings keywords, redirecting code and similar methods aimed at ranking high in search engines, as well as online advertising, within the ban. So I do not offer SEO aimed at keyword rankings, outranking competitors or winning clients; I offer consulting that keeps the firm's online identity accurate, sound and compliant. The framework is covered in [SEO for lawyers and the advertising ban](/en/blog/avukatlar-icin-seo).",
+    {
+     "alinti": "Short answer: My consulting for law firms covers accurate details in name searches, an accurate Google Business Profile, technical site health, well-structured informational content, compliant review handling and correct firm details in AI assistants. I promise no rankings, clients or online ads; every step is checked against your bar's current rules and legal advice."
+    }
+   ]
+  },
+  {
+   "baslik": "The problems I see most often in law firms' online identity",
+   "paragraflar": [
+    "A first review, from solo practices to larger firms, usually finds:",
+    {
+     "liste": [
+      "**Not found by name:** A name search shows an old directory listing or a similarly named firm.",
+      "**Inconsistent details:** Old addresses and phone numbers linger in directories and map listings.",
+      "**An inaccurate Business Profile:** Wrong category, outdated hours or “Divorce Lawyer” added to the name.",
+      "**Risky copy:** “Best” claims, success rates, a references page, “specialist” titles, keyword stuffing and pages multiplied by district name, often left by a previous agency.",
+      "**Technical weakness:** Slow pages, broken mobile layouts, accessibility gaps or forms without a privacy notice.",
+      "**Wrong AI answers:** Assistants repeating an old address or a former partner."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Scope: digital presence and compliance for law firms",
+   "paragraflar": [
+    {
+     "alt": "Accurate, consistent details in name searches (NAP)"
+    },
+    "Firm and lawyer names, titles, address, phone and bar registration should match across the site, map listings, directories and bar records. We fix that, then add Organization, LegalService and Person markup, as described in the [schema and structured data guide](/en/guides/schema-yapisal-veri). The aim is describing identity details correctly, not a ranking trick.",
+    {
+     "alt": "Google Business Profile accuracy"
+    },
+    "The profile needs the real name, right category, address and hours, with no description or posts aimed at bringing in work. Setup is covered in [Google Business Profile optimization](/en/blog/google-business-profile).",
+    {
+     "alt": "Technical site health"
+    },
+    "We check speed, mobile usability, accessibility and security (HTTPS, secure forms, updated software); good Core Web Vitals thresholds are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. That is basic quality, not promotion. See [technical SEO fundamentals](/en/guides/teknik-seo).",
+    {
+     "alt": "Properly structured informational content"
+    },
+    "Practice areas go in a plain list with no claim of specialisation; lawyer pages show education, languages and registration. New content is considered only after the bar's view and a legal review, and I do not plan keyword-targeted content.",
+    {
+     "alt": "Compliant handling of reviews and reputation"
+    },
+    "I do not recommend review campaigns. We write reply guidelines so reviews are not used promotionally and no reply confirms someone is a client; see [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap).",
+    {
+     "alt": "Correct firm details in AI assistants"
+    },
+    "We test questions such as “Where is X Law Firm?” regularly and fix the source of wrong answers, using the [GEO implementation guide](/en/guides/geo-uygulama) method.",
+    {
+     "alt": "A compliance check at every step"
+    },
+    "Every recommendation is flagged against the bar's current rules; nothing goes live without approval."
+   ]
+  },
+  {
+   "baslik": "Work plan: what we do and what we measure",
+   "paragraflar": [
+    "The goal is not traffic or rankings but accurate information, a sound site and compliant content.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Area of work",
+       "What we do",
+       "What we measure"
+      ],
+      "satirlar": [
+       [
+        "Firm details (NAP)",
+        "Matching name, address and phone everywhere",
+        "Correct site and details in name searches"
+       ],
+       [
+        "Google Business Profile",
+        "Correcting name, category, hours and description",
+        "Profile accuracy, pending edits"
+       ],
+       [
+        "Technical site health",
+        "Speed, mobile usability, HTTPS, accessibility, indexing",
+        "Core Web Vitals, accessibility, Search Console errors"
+       ],
+       [
+        "Informational content",
+        "Plain practice area and lawyer pages",
+        "Risky wording resolved"
+       ],
+       [
+        "Reviews and reputation",
+        "Reply guidelines, confidentiality",
+        "Replies breaching the guidelines"
+       ],
+       [
+        "AI assistants",
+        "Question testing, fixing sources",
+        "Accuracy of assistant answers"
+       ],
+       [
+        "Compliance check",
+        "Flagging recommendations for approval",
+        "Changes pending and approved"
+       ]
+      ]
+     }
+    },
+    "There are no ranking, click or client targets."
+   ]
+  },
+  {
+   "baslik": "From the first call to the first 90 days",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Intro call (30 minutes):** The firm, its site and any previous agency work.",
+      "**Audit (weeks 1-3):** Crawl, content inventory, listings and AI questions; questionable wording goes on a compliance list.",
+      "**Legal check:** The list goes to the firm and its legal adviser; the final call is the firm's.",
+      "**Implementation (months 1-2):** Technical, NAP and profile fixes, risky copy removed.",
+      "**Review (months 2-3):** Reply guidelines, approved content changes, AI retest.",
+      "**Day-90 review:** Compare with the baseline and plan light maintenance."
+     ]
+    },
+    "After that, a yearly review against current rules is usually enough."
+   ]
+  },
+  {
+   "baslik": "The advertising ban and the limits of this service",
+   "paragraflar": [
+    "Turkey's Attorneyship Law and the Union of Turkish Bar Associations' Advertising Ban Regulation prohibit lawyers from obtaining work through advertising. The 2024 amendment limited website content, banned client references and covered ranking-oriented keywords, redirecting code and online ads. A May 2026 amendment set up a unit to monitor breaches, including online. I am not a lawyer; rely on your bar's current rules.",
+    {
+     "alinti": "Compliance note: This service is built around compliance with the Union of Turkish Bar Associations' advertising ban rules. My recommendations are not legal advice; the final assessment of what is permissible rests with your firm and your legal adviser."
+    },
+    "For that reason, these are things I do not do or recommend:",
+    {
+     "kontrol": [
+      "Work aimed at ranking for keywords or outranking competing firms",
+      "Paid or unpaid advertising on search engines or social media",
+      "Superiority claims such as “best”, “specialist” titles, success rates and promised outcomes",
+      "A references page, or using client reviews or case results for promotion",
+      "Pages multiplied by district or city name to solicit work, and buying links",
+      "Campaigns to collect reviews from clients"
+     ]
+    },
+    "Accurate name searches, a sound site and correct AI answers are still valuable work that is not advertising."
+   ]
+  },
+  {
+   "baslik": "Who this consulting suits, and who it does not",
+   "paragraflar": [
+    "I run law firm projects myself rather than handing them to a team. That approach is not right for every firm.",
+    {
+     "liste": [
+      "**Good fit:** Firms wanting a simple, solid, compliant site.",
+      "**Good fit:** Firms cleaning up a previous agency's risky copy.",
+      "**Good fit:** Firms worried about wrong AI answers.",
+      "**Not a fit:** Firms wanting rankings, traffic or clients.",
+      "**Not a fit:** Anyone wanting promises about rankings or case numbers; I do not make them."
+     ]
+    },
+    "My general consulting approach is on the [SEO consulting](/en/seo-consulting) page. To discuss your firm, [book an intro call](/en/book-a-call) or write via the [contact](/en/contact) page."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How is the fee for law firm compliance consulting set?",
+   "c": "It depends on the firm's size, the site's technical condition and the breadth of scope, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+  },
+  {
+   "s": "Can you do keyword work for a law firm?",
+   "c": "The rules bring keywords and redirecting code aimed at ranking high in search engines within the ban, so I neither do nor recommend ranking-driven keyword work. Plain page titles, or checking Search Console for name searches, differ in nature, but your bar and legal adviser decide where those stand."
+  },
+  {
+   "s": "Will this work move us up in Google?",
+   "c": "That is not the goal and I do not promise rankings. I measure accurate name-search details, site health and AI answer accuracy; listing fixes often show within weeks."
+  },
+  {
+   "s": "Can lawyers in Turkey use Google Ads?",
+   "c": "The rules bring advertising on online channels within the ban, and search ads are assessed in that context. So I do not recommend paid ads. Ask your bar association for a definitive view."
+  },
+  {
+   "s": "Can we have a Google Business Profile and ask clients for reviews?",
+   "c": "An accurate profile is an information listing. Asking clients for reviews needs a separate assessment under professional rules, so I do not recommend review campaigns, and confidentiality comes first in replies."
+  },
+  {
+   "s": "Can a law firm publish articles or a blog on its site?",
+   "c": "The rules restrict general, abstract content shared to obtain work; get a written opinion from your bar first. I cover this in detail under [lawyers publishing content](/en/blog/avukatlar-icin-seo)."
+  },
+  {
+   "s": "Does working with a consultant on this scope breach the advertising ban?",
+   "c": "It depends on the work. Technical maintenance, speed and information consistency are quality issues rather than promotion, while keyword work aimed at ranking is explicitly mentioned in the rules. Define the scope in writing before signing and have your legal adviser review it."
+  }
+ ]
+}

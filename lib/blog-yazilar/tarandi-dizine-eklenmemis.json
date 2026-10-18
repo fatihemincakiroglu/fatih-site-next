@@ -1,0 +1,281 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" Hatası Nasıl Çözülür?",
+ "baslik_en": "How to Fix \"Crawled – Currently Not Indexed\" in Google Search Console",
+ "meta_baslik_tr": "\"Tarandı – şu anda dizine eklenmemiş\" Nasıl Çözülür?",
+ "meta_baslik_en": "How to Fix \"Crawled – Currently Not Indexed\"",
+ "meta_desc_tr": "Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" ne demek? Nedenleri, URL tiplerine göre teşhis tablosu, yapılacaklar ve beklenmesi gereken süre.",
+ "meta_desc_en": "What \"Crawled – currently not indexed\" means in Search Console, why it happens, a diagnosis table by URL type, what to fix and how long to wait.",
+ "ozet_tr": "Google sayfanızı taradı ama dizine eklemedi: nedenini URL tipine göre bulun, düzeltin ve doğru süre bekleyin.",
+ "ozet_en": "Google crawled your page but did not index it: find the cause by URL type, fix it and wait the right amount of time.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Search Console'daki Sayfa dizine ekleme (Page indexing) raporunda \"Tarandı – şu anda dizine eklenmemiş\" satırını görmek, site sahiplerini en çok endişelendiren durumlardan biri. Googlebot sayfaya gelmiş, içeriği okumuş ama sayfayı arama sonuçlarında göstermeye değer bulmamış. Teknik bir engel yok; ortada bir karar var.",
+    "Bu yazıda bu durumun ne anlama geldiğini, \"Keşfedildi – şu anda dizine eklenmemiş\" ile farkını, hangi URL tipinde neye bakmanız gerektiğini ve düzeltmeden sonra ne kadar beklemeniz gerektiğini anlatıyorum. Genel tarama ve indeksleme mantığı için [teknik SEO rehberi](/rehber/teknik-seo) iyi bir başlangıç noktası.",
+    {
+     "alinti": "Kısa cevap: \"Tarandı – şu anda dizine eklenmemiş\", Google'ın sayfayı taradığı ama dizine eklememeyi seçtiği anlamına gelir. Çözüm genellikle teknik bir ayar değil; sayfanın benzersiz değer taşıması, kopya ve ince sayfaların birleştirilmesi ve önemli sayfaların iç linklerle güçlendirilmesidir. Düzeltmeden sonra tekrar tekrar dizine ekleme istemek süreci hızlandırmaz."
+    }
+   ]
+  },
+  {
+   "baslik": "\"Tarandı – şu anda dizine eklenmemiş\" tam olarak ne demek?",
+   "paragraflar": [
+    "Google'ın Search Console yardım dokümanına göre bu durumdaki sayfa taranmış ama dizine eklenmemiştir; gelecekte dizine eklenebilir de eklenmeyebilir de ve URL'yi yeniden göndermenize gerek yoktur. Yani rapor size bir hata değil, bir değerlendirme sonucunu gösteriyor.",
+    "Bu ayrım önemli. robots.txt engeli, noindex etiketi ya da 404 gibi durumlar raporda ayrı nedenler olarak listelenir. Bu satıra düşen URL'lerde Google teknik olarak sayfaya erişebilmiş, ama ya içeriği yeterince farklı ya da yeterince önemli bulmamış, ya da sitenin bütününe dair sinyaller o URL'yi öncelikli kılmamış.",
+    "Her sitede bu satırda birkaç URL görmek normaldir. Asıl soru şu: Bu listede gerçekten sıralanmasını istediğiniz sayfalar var mı?"
+   ]
+  },
+  {
+   "baslik": "\"Keşfedildi – şu anda dizine eklenmemiş\" ile farkı nedir?",
+   "paragraflar": [
+    "İki durum sık karıştırılıyor ama farklı sorunlara işaret ediyor. Google'ın dokümanına göre \"Keşfedildi\" durumunda sayfa bulunmuş ama henüz taranmamıştır; Google çoğunlukla siteyi aşırı yüklememek için taramayı ertelemiştir. \"Tarandı\" durumunda ise tarama gerçekleşmiş ve dizine ekleme kararı olumsuz çıkmıştır.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Durum",
+       "Ne oldu?",
+       "Önce neye bakılır?"
+      ],
+      "satirlar": [
+       [
+        "Keşfedildi – şu anda dizine eklenmemiş",
+        "URL biliniyor, henüz taranmadı",
+        "Sunucu yanıt süresi, tarama israfı, iç link derinliği"
+       ],
+       [
+        "Tarandı – şu anda dizine eklenmemiş",
+        "Tarandı, dizine eklenmedi",
+        "İçerik değeri, kopya/benzer sayfalar, iç link sinyali"
+       ],
+       [
+        "Kopya, kullanıcı tarafından standart seçilmemiş",
+        "Google başka URL'yi standart seçti",
+        "Canonical ve URL varyantları"
+       ],
+       [
+        "Soft 404",
+        "Sayfa \"bulunamadı\" gibi görünüyor ama 200 dönüyor",
+        "Boş kategori, stoksuz ürün, hata şablonu"
+       ]
+      ]
+     }
+    },
+    "Kısacası \"Keşfedildi\" çoğunlukla kapasite ve öncelik, \"Tarandı\" çoğunlukla kalite ve benzersizlik sorunudur."
+   ]
+  },
+  {
+   "baslik": "Sahada en sık gördüğüm nedenler",
+   "paragraflar": [
+    "Google bir sayfayı neden dizine eklemediğini tek tek açıklamaz. Aşağıdaki liste, denetimlerde bu satırı inceledikçe en sık karşılaştığım örüntülerden oluşuyor:",
+    {
+     "liste": [
+      "Birbirine çok benzeyen sayfalar: yalnızca şehir adı ya da renk değişen şablon sayfalar, filtre ve sıralama parametreli URL'ler.",
+      "İnce içerik: birkaç cümlelik etiket sayfaları, boş ya da tek ürünlü kategoriler, otomatik oluşturulmuş arşiv sayfaları.",
+      "Zayıf iç link: sayfaya yalnızca sitemap üzerinden ulaşılıyor, menüden ya da ilgili içeriklerden link almıyor.",
+      "Render sorunu: asıl içerik JavaScript ile yükleniyor ve URL Denetimi'ndeki işlenmiş HTML'de görünmüyor.",
+      "Site genelinde düşük kalite sinyali: düşük değerli sayfaların oranı yüksek olduğunda yeni sayfalar da daha seçici değerlendiriliyor.",
+      "Yeni site ya da yeni bölüm: Google henüz siteye güven oluşturmamışken dizine eklemeyi sınırlı tutabiliyor."
+     ]
+    },
+    "Bu desenler arasında en sık karşılaştığım, ölçekli şablon sayfalardır. Yüzlerce benzer sayfayı aynı anda yayına aldıysanız [programatik SEO ile doorway sayfa arasındaki çizgi](/blog/programatik-seo) yazısına da göz atın."
+   ]
+  },
+  {
+   "baslik": "Adım adım teşhis: listeyi nasıl okumalı?",
+   "paragraflar": [
+    "Rapordaki örnek URL'leri dışa aktarın ve URL kalıplarına göre gruplayın: ürün, kategori, blog, etiket, parametreli URL, sayfalama. Tek tek URL'lere bakmak yerine hangi şablonun sorunlu olduğunu görmek çok daha hızlı sonuç verir.",
+    {
+     "kontrol": [
+      "Gruplardan hangileri gerçekten sıralanması gereken sayfalar? Gerekmeyenleri ayrı bir listeye alın.",
+      "Önemli gruplardan birkaç örneği URL Denetimi aracında canlı test edin; işlenmiş HTML'de ana içerik görünüyor mu?",
+      "Sayfa sitemap'te mi, ve iç linklerle kaç tıklama derinlikte?",
+      "Aynı konuyu işleyen daha güçlü bir sayfa var mı? Varsa iki sayfa birbirinin rakibi olabilir.",
+      "Sayfayı aramadan gelen biri olarak okuyun: rakip sonuçlarda olmayan ne sunuyor?"
+     ]
+    },
+    "E-ticaret sitelerinde bu satır genellikle filtre kombinasyonları ve varyant URL'leriyle şişer; bu yapıyı nasıl kurmanız gerektiğini [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) ayrıntılı anlatıyor."
+   ]
+  },
+  {
+   "baslik": "Düzeltme: birleştir, güçlendir ya da bilinçli olarak dışarıda bırak",
+   "paragraflar": [
+    "Her URL için üç karardan birini verin. Birincisi birleştirmek: aynı niyete hizmet eden benzer sayfaları tek ve güçlü bir sayfada toplayın, eskilerini 301 ile yönlendirin. Çok sayıda kural yazmanız gerekiyorsa [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) işinizi kolaylaştırır.",
+    "İkincisi güçlendirmek: sıralanmasını istediğiniz sayfaya özgün bilgi, örnek, tablo, sık sorulan sorular gibi rakipte olmayan değer ekleyin; ilgili kategori, rehber ve blog yazılarından anahtar kelimeli iç link verin. Neyi ekleyeceğinize karar verirken [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet eşleştirme yaklaşımı işe yarar.",
+    "Üçüncüsü bilinçli olarak dışarıda bırakmak: arama trafiği beklemediğiniz sayfaları (iç arama sonuçları, sıralama parametreleri, ince etiket arşivleri) noindex ile işaretleyin ya da üretmeyi durdurun ve sitemap'ten çıkarın. Sitemap'te yalnızca standart (canonical) ve dizine eklenmesini istediğiniz URL'ler kalmalı.",
+    "Değişikliklerden sonra birkaç kritik URL için URL Denetimi'nden dizine eklemeyi isteyebilirsiniz. Google'ın dokümanına göre tek tek URL gönderimi için bir kota var, aynı URL'yi defalarca istemek taramayı hızlandırmıyor ve tarama birkaç günden birkaç haftaya kadar sürebiliyor."
+   ]
+  },
+  {
+   "baslik": "Ne zaman endişelenmeli, ne zaman beklemeli?",
+   "paragraflar": [
+    "Satırdaki sayı tek başına anlamlı değil; önemli olan, hangi sayfaların orada olduğu ve trendin yönü. Ürün ya da hizmet sayfalarınız, para kazandıran kategorileriniz bu listede kalıcı olarak duruyorsa sorun ciddidir. Etiket arşivleri ve parametreli URL'ler duruyorsa çoğu zaman sistem doğru çalışıyordur.",
+    "Toplam sayının çekirdek güncellemesi dönemlerinde belirgin biçimde artması, sitenin genel kalite değerlendirmesiyle ilgili olabilir; bu durumda [çekirdek güncellemesi sonrası trafik düşüşü teşhis listesini](/blog/cekirdek-guncelleme-trafik-dususu) birlikte uygulayın. Sayfa hızının dizine eklemeyi tek başına çözmesini beklemeyin, ama ağır şablonlar için [Core Web Vitals değerlendirmesi](/blog/core-web-vitals-2025) yine de faydalı olur.",
+    "Büyük bir mağazada bu satırın binlerce URL'ye ulaştığı projelerde [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir temizlik planı çıkarıyorum. Kendi sitenizde nereden başlayacağınızdan emin değilseniz [SEO uzmanı](/seo-uzmani) olarak birlikte bakabiliriz; kısa bir [ön görüşme randevusu](/randevu) almanız yeterli."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Seeing \"Crawled – currently not indexed\" in the Page indexing report of Google Search Console worries site owners more than almost any other status. Googlebot visited the page, read it, and decided it was not worth showing in search results. There is no technical block here; there is a decision.",
+    "This article explains what the status means, how it differs from \"Discovered – currently not indexed\", what to check for each type of URL, and how long to wait after fixing it. For the broader crawling and indexing logic, the [technical SEO guide](/en/guides/teknik-seo) is a good starting point.",
+    {
+     "alinti": "Short answer: \"Crawled – currently not indexed\" means Google crawled the page but chose not to index it. The fix is usually not a technical setting; it is giving the page unique value, consolidating duplicate and thin pages, and strengthening important pages with internal links. Requesting indexing again and again after a fix does not speed anything up."
+    }
+   ]
+  },
+  {
+   "baslik": "What does \"Crawled – currently not indexed\" actually mean?",
+   "paragraflar": [
+    "According to Google's Search Console help documentation, a page with this status was crawled but not indexed; it may or may not be indexed in the future, and there is no need to resubmit the URL. In other words, the report is showing you an evaluation result, not an error.",
+    "That distinction matters. A robots.txt block, a noindex tag or a 404 is listed as a separate reason in the report. For URLs in this bucket, Google could technically reach the page but did not find it distinct enough or important enough, or site-wide signals did not make that URL a priority.",
+    "Every site has a few URLs here, and that is normal. The real question is whether this list contains pages you actually want to rank."
+   ]
+  },
+  {
+   "baslik": "How is it different from \"Discovered – currently not indexed\"?",
+   "paragraflar": [
+    "The two statuses are often confused but point to different problems. Google's documentation says a \"Discovered\" page has been found but not yet crawled, usually because Google rescheduled the crawl to avoid overloading the site. With \"Crawled\", the crawl happened and the indexing decision was negative.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Status",
+       "What happened",
+       "Check first"
+      ],
+      "satirlar": [
+       [
+        "Discovered – currently not indexed",
+        "URL known, not crawled yet",
+        "Server response time, crawl waste, internal link depth"
+       ],
+       [
+        "Crawled – currently not indexed",
+        "Crawled, not indexed",
+        "Content value, duplicate or similar pages, internal link signals"
+       ],
+       [
+        "Duplicate without user-selected canonical",
+        "Google picked another URL as canonical",
+        "Canonical tags and URL variants"
+       ],
+       [
+        "Soft 404",
+        "Page looks like \"not found\" but returns 200",
+        "Empty categories, out-of-stock products, error templates"
+       ]
+      ]
+     }
+    },
+    "In short, \"Discovered\" is mostly about capacity and priority, while \"Crawled\" is mostly about quality and uniqueness."
+   ]
+  },
+  {
+   "baslik": "The causes I see most often in audits",
+   "paragraflar": [
+    "Google does not explain why it skipped a specific page. The list below comes from the patterns I run into most when I review this bucket during audits:",
+    {
+     "liste": [
+      "Near-identical pages: template pages where only the city or colour changes, and filter or sort parameter URLs.",
+      "Thin content: tag pages with a few sentences, empty or single-product categories, auto-generated archives.",
+      "Weak internal linking: the page is reachable only through the sitemap and gets no links from menus or related content.",
+      "Rendering problems: the main content loads with JavaScript and does not appear in the rendered HTML in URL Inspection.",
+      "Low site-wide quality signals: when a large share of pages is low value, new pages are evaluated more selectively too.",
+      "A new site or section: Google may keep indexing limited until it builds confidence in the site."
+     ]
+    },
+    "The pattern I meet most is templated pages at scale. If you launched hundreds of similar pages at once, also read [where programmatic SEO turns into doorway pages](/en/blog/programatik-seo)."
+   ]
+  },
+  {
+   "baslik": "Step-by-step diagnosis: how to read the list",
+   "paragraflar": [
+    "Export the example URLs from the report and group them by URL pattern: product, category, blog, tag, parameter URL, pagination. Seeing which template is the problem is far faster than inspecting URLs one by one.",
+    {
+     "kontrol": [
+      "Which groups are pages that genuinely should rank? Move the rest to a separate list.",
+      "Run a live test in URL Inspection on a few examples from the important groups; does the main content show in the rendered HTML?",
+      "Is the page in the sitemap, and how many clicks deep is it through internal links?",
+      "Is there a stronger page covering the same topic? If so, the two may be competing with each other.",
+      "Read the page as a searcher would: what does it offer that the competing results do not?"
+     ]
+    },
+    "On ecommerce sites this bucket usually swells with filter combinations and variant URLs; the [ecommerce SEO guide](/en/guides/e-ticaret-seo) explains how to structure them."
+   ]
+  },
+  {
+   "baslik": "Fixing it: consolidate, strengthen or deliberately exclude",
+   "paragraflar": [
+    "Make one of three decisions for every URL. The first is to consolidate: merge similar pages that serve the same intent into one strong page and 301-redirect the old ones. If you need to write many rules, the [301 redirect generator](/en/tools/redirect-generator) saves time.",
+    "The second is to strengthen: add value the competition lacks to the page you want to rank, such as original information, examples, tables or frequently asked questions, and link to it with descriptive anchors from related categories, guides and articles. The intent-matching approach in the [content strategy guide](/en/guides/icerik-stratejisi) helps you decide what to add.",
+    "The third is to exclude deliberately: mark pages you do not expect search traffic for (internal search results, sort parameters, thin tag archives) with noindex or stop generating them, and remove them from the sitemap. Only canonical URLs you want indexed should stay in the sitemap.",
+    "After the changes, you can request indexing for a few critical URLs in URL Inspection. Google's documentation notes that there is a quota for individual URL submissions, that requesting the same URL repeatedly will not get it crawled faster, and that crawling can take from a few days to a few weeks."
+   ]
+  },
+  {
+   "baslik": "When to worry and when to wait",
+   "paragraflar": [
+    "The number on its own means little; what matters is which pages are listed and which way the trend is going. If your product or service pages and revenue-driving categories sit in this list for good, the problem is serious. If it holds tag archives and parameter URLs, the system is often working as intended.",
+    "A clear jump in the total around a core update may relate to the overall quality assessment of the site; in that case, work through the [core update traffic drop diagnosis checklist](/en/blog/cekirdek-guncelleme-trafik-dususu) as well. Do not expect page speed alone to fix indexing, though a [Core Web Vitals review](/en/blog/core-web-vitals-2025) still helps on heavy templates.",
+    "For large stores where this bucket reaches thousands of URLs, I build a template-level clean-up plan as part of [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting). If you are unsure where to start on your own site, we can look at it together through [SEO consulting](/en/seo-consulting); just [book a short intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "\"Tarandı – şu anda dizine eklenmemiş\" bir ceza mı?",
+   "c": "Hayır. Bu durum manuel işlem ya da spam cezası değildir; Google'ın o URL'yi şimdilik dizine eklememeyi seçtiğini gösterir. Manuel işlemler Search Console'da ayrı bir raporda görünür."
+  },
+  {
+   "s": "Dizine ekleme isteğini her gün tekrarlamalı mıyım?",
+   "c": "Hayır. Google'ın dokümanına göre aynı URL için tekrar tekrar tarama istemek süreci hızlandırmaz ve tek tek URL gönderimi kotaya tabidir. Önce sayfayı gerçekten iyileştirin, sonra bir kez isteyin."
+  },
+  {
+   "s": "Sayfa önce dizindeydi, şimdi bu satıra düştü. Neden?",
+   "c": "Google dizindeki sayfaları zaman içinde yeniden değerlendirir. Benzer ve daha güçlü bir sayfa ortaya çıktıysa, içerik eskidiyse ya da site genelindeki kalite değerlendirmesi değiştiyse sayfa dizinden çıkarılabilir."
+  },
+  {
+   "s": "Bu satırdaki URL'leri silmeli miyim?",
+   "c": "Toptan silmek doğru değil. Gerçek bir ihtiyaca karşılık gelen sayfaları güçlendirin, aynı niyete hizmet edenleri 301 ile birleştirin; hiçbir değer taşımayanları kaldırmak ya da noindex yapmak ise makul bir son adımdır."
+  },
+  {
+   "s": "Düzeltmeden sonra ne kadar beklemeliyim?",
+   "c": "Tarama birkaç günden birkaç haftaya kadar sürebilir; dizine ekleme kararının değişmesi daha uzun zaman alabilir. Raporu haftalık izleyin ve kararı tek URL'ye değil, şablon grubunun genel eğilimine göre verin."
+  },
+  {
+   "s": "Rapordaki rakamla site: aramasındaki sonuç sayısı neden farklı?",
+   "c": "site: operatörü yaklaşık bir değer gösterir ve teşhis aracı olarak güvenilir değildir. Dizine ekleme durumunu takip etmek için Search Console'daki Sayfa dizine ekleme raporunu ve URL Denetimi aracını esas alın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is \"Crawled – currently not indexed\" a penalty?",
+   "c": "No. It is not a manual action or a spam penalty; it shows that Google chose not to index that URL for now. Manual actions appear in a separate report in Search Console."
+  },
+  {
+   "s": "Should I request indexing every day?",
+   "c": "No. Google's documentation says requesting a recrawl of the same URL repeatedly does not speed it up, and individual URL submissions are subject to a quota. Improve the page first, then request once."
+  },
+  {
+   "s": "The page used to be indexed and now sits in this bucket. Why?",
+   "c": "Google re-evaluates indexed pages over time. If a similar, stronger page appeared, the content became outdated, or the site-wide quality assessment changed, the page can drop out of the index."
+  },
+  {
+   "s": "Should I delete the URLs in this bucket?",
+   "c": "Mass deletion is the wrong move. Strengthen pages that meet a real need and merge those serving the same intent with 301 redirects; removing or noindexing pages with no value is a reasonable final step."
+  },
+  {
+   "s": "How long should I wait after fixing it?",
+   "c": "Crawling can take from a few days to a few weeks, and a changed indexing decision can take longer. Check the report weekly and judge by the trend of the template group rather than a single URL."
+  },
+  {
+   "s": "Why does the report differ from the number of results in a site: search?",
+   "c": "The site: operator shows a rough estimate and is not reliable as a diagnostic tool. Use the Page indexing report and the URL Inspection tool in Search Console to track indexing status."
+  }
+ ]
+}

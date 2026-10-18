@@ -28,6 +28,15 @@ const TR_PAGES = [
   { url: '/fiyatlandirma',  priority: '0.6', changefreq: 'monthly' },
   { url: '/iletisim',       priority: '0.6', changefreq: 'monthly' },
   { url: '/randevu',        priority: '0.6', changefreq: 'monthly' },
+  { url: '/sektorler',      priority: '0.8', changefreq: 'monthly' },
+  { url: '/sektorler/klinik-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/sektorler/avukat-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/sektorler/e-ticaret-seo-danismanligi', priority: '0.8', changefreq: 'monthly' },
+  { url: '/sektorler/otel-turizm-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/sektorler/b2b-uretici-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/araclar/schema-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/araclar/yonlendirme-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
 // NOT: /gizlilik, /kullanim-kosullari, /en/privacy ve /en/terms sayfaları
@@ -56,6 +65,15 @@ const EN_PAGES = [
   { url: '/en/pricing',              priority: '0.6', changefreq: 'monthly' },
   { url: '/en/contact',              priority: '0.6', changefreq: 'monthly' },
   { url: '/en/book-a-call',          priority: '0.6', changefreq: 'monthly' },
+  { url: '/en/industries',           priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/industries/healthcare-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/industries/law-firm-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/industries/ecommerce-seo-consulting', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/industries/hotel-tourism-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/industries/b2b-manufacturer-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/tools/schema-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/tools/redirect-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
 // ── BLOG & REHBER SLUGS ───────────────────────────────────
@@ -115,6 +133,15 @@ const TR_EN_MAP = {
   '/randevu': '/en/book-a-call',
   '/gizlilik': '/en/privacy',
   '/kullanim-kosullari': '/en/terms',
+  '/sektorler': '/en/industries',
+  '/araclar/schema-olusturucu': '/en/tools/schema-generator',
+  '/araclar/yonlendirme-olusturucu': '/en/tools/redirect-generator',
+  '/google-guncellemeleri': '/en/google-updates',
+  '/sektorler/klinik-seo': '/en/industries/healthcare-seo',
+  '/sektorler/avukat-seo': '/en/industries/law-firm-seo',
+  '/sektorler/e-ticaret-seo-danismanligi': '/en/industries/ecommerce-seo-consulting',
+  '/sektorler/otel-turizm-seo': '/en/industries/hotel-tourism-seo',
+  '/sektorler/b2b-uretici-seo': '/en/industries/b2b-manufacturer-seo',
 }
 
 function buildSitemapTR() {

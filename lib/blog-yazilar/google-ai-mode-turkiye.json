@@ -1,0 +1,309 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 9,
+ "baslik_tr": "Google AI Mode Türkiye'de: İşletmeler İçin Ne Değişti?",
+ "baslik_en": "Google AI Mode in Türkiye: What Changed for Businesses?",
+ "meta_baslik_tr": "Google AI Mode Türkiye'de: İşletmeler İçin Ne Değişti?",
+ "meta_baslik_en": "Google AI Mode in Türkiye: What It Means for Businesses",
+ "meta_desc_tr": "Google AI Modu Türkiye'de kullanıma açıldı. AI Bakışı'ndan farkı, görünmek için gerekenler, Search Console'da ölçüm ve işletmeler için ilk adımlar.",
+ "meta_desc_en": "Google AI Mode is rolling out in Türkiye. How it differs from AI Overviews, what it takes to appear, how to measure it and what businesses should do first.",
+ "ozet_tr": "AI Modu Türkiye'de: arama davranışında ne değişti, görünmek için ne gerekiyor ve etkisi nasıl ölçülür?",
+ "ozet_en": "AI Mode in Türkiye: how search behaviour shifts, what it takes to appear and how to measure the impact.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Google, 18 Şubat 2026'da Google Türkiye blogunda yaptığı duyuruyla AI Modu (AI Mode) ve AI Bakışı (AI Overviews) özelliklerini Türkiye'deki kullanıcılara kademeli olarak sunmaya başladığını açıkladı. Duyuruya göre iki özellik de Gemini 3 model ailesiyle çalışıyor ve Android ile iOS'taki Google uygulamasında ve arama sonuçları sayfasında deneyimlenebiliyor. Kademeli açılış nedeniyle her kullanıcı özelliği aynı anda görmeyebilir.",
+    "Bu yazıda AI Modu'nun ne olduğunu, işletmeler açısından neyi değiştirdiğini ve Google'ın resmi dokümanına göre görünmek için neyin gerçekten gerektiğini anlatıyorum. Markanızı yapay zekâ cevaplarına taşımanın adım adım uygulamasını [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıca ele aldım; burada yalnızca Google'ın bu yeni yüzeyine odaklanıyorum.",
+    {
+     "alinti": "Kısa cevap: Google AI Modu, Şubat 2026'dan itibaren Türkiye'de kademeli olarak kullanıma açıldı. Google'a göre AI Modu'nda görünmek için ek bir teknik gereklilik yok; sayfanın dizine eklenmiş ve snippet ile gösterilmeye uygun olması yeterli koşuldur. İşletmeler için asıl değişiklik, kullanıcıların daha uzun ve takipli sorular sorması ve tıklamaların daha az sayıda kaynağa dağılmasıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Google AI Modu nedir, AI Bakışı'ndan farkı ne?",
+   "paragraflar": [
+    "AI Bakışı, klasik arama sonuçlarının üstünde bağlantılarla birlikte kısa bir özet gösterir. AI Modu ise ayrı bir sohbet benzeri arama deneyimidir: kullanıcı takip soruları sorarak konuyu derinleştirebilir, metnin yanında sesle ya da kamerayla çektiği bir fotoğrafla da arama yapabilir. Google'ın açıklamasına göre AI Modu, bir soruyu alt konulara bölüp bunlar için eş zamanlı aramalar yapan \"sorgu yelpazesi\" (query fan-out) tekniğini kullanabiliyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Özellik",
+       "Klasik arama",
+       "AI Bakışı",
+       "AI Modu"
+      ],
+      "satirlar": [
+       [
+        "Nerede görünür?",
+        "Sonuç sayfasında bağlantı listesi",
+        "Sonuçların üstünde özet panel",
+        "Ayrı, sohbet benzeri arama görünümü"
+       ],
+       [
+        "Sorgu biçimi",
+        "Kısa anahtar kelimeler",
+        "Klasik sorgu, özet otomatik gelir",
+        "Uzun, bağlamlı ve takip sorulu"
+       ],
+       [
+        "Kaynaklar",
+        "Sıralanmış sonuçlar",
+        "Özette bağlantılar",
+        "Cevap içinde ve yanında bağlantılar"
+       ],
+       [
+        "Reklamlar",
+        "Belirlenmiş reklam alanları",
+        "Google'a göre panelin üstünde ve altında",
+        "Resmi dokümanda güncel durumu kontrol edin"
+       ]
+      ]
+     }
+    },
+    "Pratikte bu, kullanıcının artık “İstanbul'da hafta sonu açık çocuk diş hekimi” gibi tek bir aramayı değil, ardından gelen “fiyatlar neye göre değişir, ilk muayenede ne yapılır” gibi bir soru zincirini Google içinde sürdürebilmesi demektir."
+   ]
+  },
+  {
+   "baslik": "AI Modu Türkiye'de nasıl kullanıma açıldı?",
+   "paragraflar": [
+    "AI Modu 2025 boyunca birçok ülkeye ve dile genişledi; Türkiye bu ilk genişleme dalgalarında yer almadı. Türkiye için resmi duyuru, Google Türkiye Ülke Direktörü imzasıyla 18 Şubat 2026'da yapıldı. Duyuru, özelliklerin kademeli açıldığını, Google uygulamasında ve arama sonuç sayfasında kullanılabildiğini ve reklamların AI Bakışı panelinin üstündeki ve altındaki özel alanlarda gösterilmeye devam edeceğini belirtiyor.",
+    "Duyuruda yaş, hesap türü ya da desteklenen sorgu dilleri hakkında ayrıntılı bir liste yer almıyor. Bu yüzden müşterilerime “herkes görüyor” demek yerine kendi sektörlerindeki sorguları farklı cihaz ve hesaplarla düzenli kontrol etmelerini öneriyorum. Bu yazının yazıldığı Ekim 2026 itibarıyla kullanılabilirlik ayrıntıları için Google'ın resmi yardım sayfalarını esas alın. Google tarafındaki büyük değişiklikleri [Google güncellemeleri günlüğünde](/google-guncellemeleri) takip ediyorum."
+   ]
+  },
+  {
+   "baslik": "AI Modu işletmeler için arama davranışında neyi değiştiriyor?",
+   "paragraflar": [
+    "Sahada gördüğüm en belirgin değişiklik sorguların biçimi. Kullanıcı AI Modu'nda karşılaştırma, koşul ve bağlam içeren sorular soruyor; Google da bu soruyu birden çok alt aramaya bölüp farklı kaynakları bir araya getirebiliyor. Bu durum işletmeler için üç sonuç doğuruyor:",
+    {
+     "liste": [
+      "**Tek sayfa yerine konu kapsamı önem kazanıyor:** bir hizmetin fiyat etkenleri, süreci, uygun olduğu durumlar ve sık sorulan soruları net biçimde yanıtlanmış olmalı.",
+      "**Bilgi parçaları öne çıkıyor:** cevap çoğu zaman sayfanın tamamından değil, tek bir paragraftan ya da tablo satırından beslenir; kendi başına anlamlı kalan bölümler bu yüzden değerlidir.",
+      "**Tıklama kalitesi değişebilir:** özeti okuyup gelen ziyaretçi daha bilinçli gelir; tıklama sayısı ile dönüşüm arasındaki ilişkiyi yeniden izlemek gerekir."
+     ]
+    },
+    "Google, Türkiye duyurusunda bu deneyimlerin açık web'i desteklemek için tasarlandığını ve her gün web sitelerine milyarlarca tıklama yönlendirmeye devam ettiğini belirtiyor. Sizin siteniz için etkinin yönünü ise ancak kendi verinizle görebilirsiniz; aşağıda bunun nasıl ölçüleceğine değiniyorum."
+   ]
+  },
+  {
+   "baslik": "AI Modu'nda görünmek için ne gerekiyor?",
+   "paragraflar": [
+    "Google Search Central'daki yapay zekâ özellikleri dokümanı bu konuda net: AI Bakışı ve AI Modu'nda bağlantı olarak gösterilmek için sayfanın dizine eklenmiş ve Google Arama'da snippet ile gösterilmeye uygun olması gerekir; bunun dışında ek bir teknik gereklilik yok. Doküman ayrıca yeni bir makine okunabilir dosya, yapay zekâya özel metin dosyası ya da özel işaretleme gerekmediğini söylüyor. Bu, [llms.txt dosyasının gerçek etkisini](/blog/llms-txt-rehberi) tartışırken vardığım sonuçla da örtüşüyor.",
+    "Google'ın önerdiği temel uygulamalar klasik SEO'nun kendisi:",
+    {
+     "kontrol": [
+      "robots.txt ve CDN/barındırma ayarları Googlebot'un taramasına izin veriyor",
+      "Önemli sayfalar iç linklerle kolayca bulunabiliyor",
+      "Sayfa deneyimi iyi; önemli içerik görsel içine gömülü değil, metin olarak var",
+      "Yapısal veri sayfada görünen metinle birebir uyumlu",
+      "Google Business Profile ve (varsa) Merchant Center bilgileri güncel"
+     ]
+    },
+    "Yapısal verinin doğru kurulumu için [schema ve yapısal veri rehberine](/rehber/schema-yapisal-veri) bakabilirsiniz. Yine de Google'ın kendi ifadesiyle, tüm koşullar karşılansa bile dizine ekleme ve gösterim kesin değildir."
+   ]
+  },
+  {
+   "baslik": "AI Modu trafiği Search Console ve GA4'te nasıl ölçülür?",
+   "paragraflar": [
+    "Google'ın dokümanına göre AI özelliklerinden gelen görünürlük ve tıklamalar, Search Console Performans raporunda \"Web\" arama türü içinde raporlanıyor. Bu yazının yazıldığı tarihte resmi dokümanda AI Modu için ayrı bir filtre tanımlanmış değil; dolayısıyla AI Modu etkisini doğrudan değil, dolaylı işaretlerle okuyorum: uzun ve soru biçimli sorgulardaki gösterim artışı, gösterimi artıp tıklaması değişmeyen sayfalar ve dönüşüm oranındaki farklar.",
+    "Google içinden gelen ziyaretler GA4'te organik arama olarak görünür; ChatGPT ve Perplexity gibi platformlardan gelen trafiği ayırmak ise ayrı bir iş. Bunun yöntemini [GA4'te yapay zekâ trafiğini ayırma](/blog/ga4-yapay-zeka-trafigi) yazısında, aylık rapora nasıl bağlanacağını ise [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım."
+   ]
+  },
+  {
+   "baslik": "İçeriğinizin AI Modu'nda nasıl kullanılacağını kontrol edebilir misiniz?",
+   "paragraflar": [
+    "Evet, ama araçlar klasik arama ile aynı. Google'a göre aramada sayfanızdan gösterilen bilgiyi sınırlamak için nosnippet, data-nosnippet, max-snippet ve noindex kullanılır; bunlar AI özelliklerini de kapsar. Google-Extended ise resmi dokümana göre Arama'daki AI özelliklerini değil, Google'ın bazı diğer sistemlerindeki eğitim ve dayanak kullanımını sınırlamak içindir.",
+    "Buradaki ödünleşimi iyi tartmak gerekir: snippet'i kısıtlamak, sayfanın hem klasik sonuçlarda hem de AI cevaplarında daha az bilgiyle temsil edilmesi anlamına gelir. Çoğu işletme için doğru yaklaşım kısıtlamak değil, alıntılanmaya değer ve doğru içerik sunmaktır. Perplexity gibi diğer asistanların kaynak seçimi farklı işlediği için [Perplexity'de kaynak gösterilme](/blog/perplexity-kaynak-gosterilme) yazısına da göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "İşletmeler AI Modu için ilk 30 günde ne yapmalı?",
+   "paragraflar": [
+    "Projelerde uyguladığım kısa başlangıç planı şöyle:",
+    {
+     "liste": [
+      "**1. hafta:** Sektörünüzde müşterilerin sorduğu 20-30 soruyu yazın ve AI Modu'nda deneyin; hangi kaynakların gösterildiğini not edin.",
+      "**2. hafta:** Search Console'da soru biçimli sorguları ayırın, gösterimi artan sayfaları listeleyin.",
+      "**3. hafta:** En kritik hizmet ve kategori sayfalarına doğrudan cevap veren paragraflar, karşılaştırma tabloları ve SSS ekleyin.",
+      "**4. hafta:** Marka adı, adres ve hizmet tanımlarının site, Business Profile ve dış kaynaklarda tutarlı olduğunu kontrol edin."
+     ]
+    },
+    "Bu adımların bir kısmı klasik [SEO danışmanlığı](/seo-uzmani) kapsamında zaten yapılması gereken işler; farkı, ölçümü yapay zekâ cevaplarına göre de kurmanız. Kendi sektörünüz için bir yol haritası isterseniz [GEO danışmanlığı](/geo-uzmani) sayfasını inceleyebilir ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "On 18 February 2026, Google announced on its Türkiye blog that it had started gradually rolling out AI Mode and AI Overviews to users in Türkiye. According to the announcement, both features run on the Gemini 3 model family and are available in the Google app on Android and iOS and on the search results page. Because the rollout is gradual, not every user sees the features at the same time.",
+    "In this post I explain what AI Mode is, what it changes for businesses and what Google's official documentation says you actually need in order to appear. I cover the step-by-step work of getting a brand into AI answers in the [GEO implementation guide](/en/guides/geo-uygulama); here I focus only on this new Google surface.",
+    {
+     "alinti": "Short answer: Google AI Mode has been rolling out gradually in Türkiye since February 2026. According to Google, there are no additional technical requirements for AI Mode; a page needs to be indexed and eligible to appear in Search with a snippet. The real change for businesses is that users ask longer, multi-step questions and clicks are spread across fewer sources."
+    }
+   ]
+  },
+  {
+   "baslik": "What is Google AI Mode and how is it different from AI Overviews?",
+   "paragraflar": [
+    "AI Overviews shows a short summary with links above the classic results. AI Mode is a separate, conversational search experience: users can ask follow-up questions and search by voice or with a photo as well as text. Google says AI Mode may use a \"query fan-out\" technique, splitting a question into subtopics and running several related searches at once.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Feature",
+       "Classic search",
+       "AI Overviews",
+       "AI Mode"
+      ],
+      "satirlar": [
+       [
+        "Where it appears",
+        "List of links on the results page",
+        "Summary panel above results",
+        "Separate, conversational view"
+       ],
+       [
+        "Query style",
+        "Short keywords",
+        "Classic query, summary appears automatically",
+        "Long, contextual, with follow-ups"
+       ],
+       [
+        "Sources",
+        "Ranked results",
+        "Links within the summary",
+        "Links inside and beside the answer"
+       ],
+       [
+        "Ads",
+        "Designated ad slots",
+        "Above and below the panel, per Google",
+        "Check official documentation for current status"
+       ]
+      ]
+     }
+    },
+    "In practice, a user no longer runs a single search like \"paediatric dentist open on weekends in Istanbul\" and leaves. They can continue the chain inside Google with \"what affects the price\" and \"what happens at the first visit\"."
+   ]
+  },
+  {
+   "baslik": "How did AI Mode launch in Türkiye?",
+   "paragraflar": [
+    "AI Mode expanded to many countries and languages during 2025, but Türkiye was not part of those early waves. The official announcement for Türkiye came on 18 February 2026, signed by Google's country director. It says the features are rolling out gradually, are available in the Google app and on the results page, and that ads will keep appearing in dedicated spaces above and below the AI Overviews panel.",
+    "The announcement does not include a detailed list of age, account type or supported query languages. So rather than telling clients \"everyone sees it\", I ask them to check their own sector's queries regularly from different devices and accounts. As of October 2026, when this post was written, treat Google's official help pages as the reference for availability details. I track major Google-side changes in the [Google updates log](/en/google-updates)."
+   ]
+  },
+  {
+   "baslik": "How does AI Mode change search behaviour for businesses?",
+   "paragraflar": [
+    "The clearest change I see in client work is the shape of queries. In AI Mode people ask questions that include comparisons, conditions and context, and Google can split them into multiple sub-searches and combine different sources. That has three consequences for businesses:",
+    {
+     "liste": [
+      "**Topic coverage matters more than a single page:** price factors, process, suitable cases and common questions for a service should all be answered clearly.",
+      "**Passages stand out:** an answer is often built from a single paragraph or table row rather than a whole page, so sections that make sense on their own are valuable.",
+      "**Click quality may shift:** visitors who read a summary first arrive better informed, so the relationship between clicks and conversions needs fresh monitoring."
+     ]
+    },
+    "In its Türkiye announcement, Google says these experiences are designed to support the open web and that it continues to send billions of clicks to websites every day. The direction of the impact on your own site, however, only shows up in your own data; I cover how to measure it below."
+   ]
+  },
+  {
+   "baslik": "What does it take to appear in AI Mode?",
+   "paragraflar": [
+    "Google Search Central's documentation on AI features is clear: to be shown as a link in AI Overviews or AI Mode, a page must be indexed and eligible to be shown in Google Search with a snippet, and there are no additional technical requirements. It also states that you don't need new machine-readable files, AI text files or special markup. That matches the conclusion I reached when looking at the [real impact of llms.txt](/en/blog/llms-txt-rehberi).",
+    "The best practices Google lists are classic SEO:",
+    {
+     "kontrol": [
+      "robots.txt and CDN/hosting settings allow Googlebot to crawl",
+      "Important pages are easy to find through internal links",
+      "Good page experience; key content is in text, not locked in images",
+      "Structured data matches the visible text on the page",
+      "Google Business Profile and, where relevant, Merchant Center details are up to date"
+     ]
+    },
+    "For setting up structured data correctly, see the [schema and structured data guide](/en/guides/schema-yapisal-veri). Even so, in Google's own words, meeting every requirement does not mean indexing or serving is assured."
+   ]
+  },
+  {
+   "baslik": "How do you measure AI Mode traffic in Search Console and GA4?",
+   "paragraflar": [
+    "According to Google's documentation, impressions and clicks from AI features are reported in the Search Console Performance report under the \"Web\" search type. At the time of writing, the official documentation does not describe a separate AI Mode filter, so I read its impact indirectly: rising impressions on long, question-style queries, pages whose impressions grow while clicks stay flat, and changes in conversion rate.",
+    "Visits from within Google appear as organic search in GA4; separating traffic from platforms such as ChatGPT and Perplexity is a different task. I explain the method in [separating AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi), and how to fold it into a monthly report in the [SEO reporting guide](/en/guides/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "Can you control how your content is used in AI Mode?",
+   "paragraflar": [
+    "Yes, but the tools are the same as for classic search. Google says nosnippet, data-nosnippet, max-snippet and noindex limit what Search shows from your pages, and these apply to AI features too. Google-Extended, according to the official documentation, is not for AI features in Search; it limits training and grounding use in some other Google systems.",
+    "Weigh the trade-off carefully: restricting snippets means your page is represented with less information in both classic results and AI answers. For most businesses the right approach is not to restrict but to offer accurate content worth citing. Other assistants choose sources differently, so the post on [getting cited by Perplexity](/en/blog/perplexity-kaynak-gosterilme) is worth a read too."
+   ]
+  },
+  {
+   "baslik": "What should businesses do for AI Mode in the first 30 days?",
+   "paragraflar": [
+    "This is the short starting plan I use with clients:",
+    {
+     "liste": [
+      "**Week 1:** Write down 20-30 questions customers ask in your sector, try them in AI Mode and note which sources are shown.",
+      "**Week 2:** Filter question-style queries in Search Console and list pages with growing impressions.",
+      "**Week 3:** Add direct-answer paragraphs, comparison tables and FAQs to your most important service and category pages.",
+      "**Week 4:** Check that your brand name, address and service descriptions are consistent across your site, Business Profile and external sources."
+     ]
+    },
+    "Some of these steps are work that [SEO consulting](/en/seo-consulting) should already cover; the difference is that measurement now has to include AI answers as well. If you want a roadmap for your sector, see the [GEO consulting](/en/geo-consulting) page or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "AI Modu Türkçe sorularda çalışıyor mu?",
+   "c": "Google'ın Türkiye duyurusu özelliğin Türkiye'deki kullanıcılara açıldığını belirtiyor ve Türkçe arama deneyimini hedefliyor. Ancak duyuruda desteklenen sorgu dillerinin ayrıntılı listesi yok. Kendi sektörünüzdeki Türkçe sorguları düzenli deneyerek ve Google'ın güncel yardım sayfalarını kontrol ederek ilerlemenizi öneririm."
+  },
+  {
+   "s": "AI Modu organik trafiğimi düşürür mü?",
+   "c": "Bunu genel olarak söylemek mümkün değil; etki sektöre, sorgu tipine ve sayfanıza göre değişir. Bilgi amaçlı sorgularda tıklama azalabilirken satın alma ya da randevu niyetli sorgularda gelen ziyaretçi daha nitelikli olabilir. Search Console ve GA4'te sorgu tipine göre ayrılmış bir karşılaştırma yapmak en sağlıklı yoldur."
+  },
+  {
+   "s": "AI Modu için ayrı bir içerik mi yazmalıyım?",
+   "c": "Hayır. Google ayrı bir optimizasyon gerekmediğini belirtiyor. Mevcut sayfalarınızı soruları doğrudan yanıtlayan, kendi başına anlamlı paragraflar ve net tablolarla güçlendirmek hem klasik arama hem de AI cevapları için işe yarar."
+  },
+  {
+   "s": "AI Modu'nda reklam gösteriliyor mu?",
+   "c": "Google'ın Türkiye duyurusu, reklamların AI Bakışı panelinin üstündeki ve altındaki özel alanlarda gösterilmeye devam edeceğini belirtiyor. AI Modu içindeki reklam formatları ve kullanılabilirlikleri için Google Ads'in güncel resmi dokümanını kontrol edin."
+  },
+  {
+   "s": "Yerel işletmeler AI Modu'nda nasıl görünür?",
+   "c": "Google'ın önerileri arasında Business Profile bilgilerinin güncel tutulması da yer alıyor. Adres, çalışma saatleri, hizmet kategorileri ve yorumlarınızın tutarlı ve güncel olması, yerel sorgularda doğru temsil edilmenin temelidir."
+  },
+  {
+   "s": "AI Modu'nda markamın yanlış tanımlandığını görürsem ne yapmalıyım?",
+   "c": "Önce yanlış bilginin hangi kaynaktan geldiğini bulun; çoğu zaman eski bir dizin kaydı, güncellenmemiş bir sayfa ya da tutarsız bir profil sorumludur. Kaynağı düzeltip kendi sitenizde doğru bilgiyi net biçimde yazdıktan sonra, değişikliğin yansıması için yeniden tarama süresini bekleyin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does AI Mode work with Turkish queries?",
+   "c": "Google's Türkiye announcement says the feature is being rolled out to users in Türkiye and targets the Turkish search experience. However, it does not include a detailed list of supported query languages. I recommend testing Turkish queries in your sector regularly and checking Google's current help pages."
+  },
+  {
+   "s": "Will AI Mode reduce my organic traffic?",
+   "c": "There is no general answer; the impact depends on your sector, query type and pages. Informational queries may see fewer clicks, while visitors from purchase or booking queries may be better qualified. Comparing Search Console and GA4 data split by query type is the most reliable approach."
+  },
+  {
+   "s": "Should I write separate content for AI Mode?",
+   "c": "No. Google says no special optimisation is needed. Strengthening existing pages with self-contained paragraphs that answer questions directly and with clear tables works for both classic search and AI answers."
+  },
+  {
+   "s": "Are ads shown in AI Mode?",
+   "c": "Google's Türkiye announcement says ads will continue to appear in dedicated spaces above and below the AI Overviews panel. For ad formats and availability inside AI Mode, check Google Ads' current official documentation."
+  },
+  {
+   "s": "How do local businesses appear in AI Mode?",
+   "c": "Keeping Business Profile information up to date is among Google's recommendations. Consistent, current details for address, opening hours, service categories and reviews are the foundation of being represented correctly in local queries."
+  },
+  {
+   "s": "What should I do if AI Mode describes my brand incorrectly?",
+   "c": "First find which source the wrong information comes from; often an old directory listing, an outdated page or an inconsistent profile is responsible. Fix the source, state the correct information clearly on your own site, then allow time for recrawling before the change shows up."
+  }
+ ]
+}

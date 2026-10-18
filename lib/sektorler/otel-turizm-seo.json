@@ -1,0 +1,396 @@
+{
+ "slug": "otel-turizm-seo",
+ "slug_en": "hotel-tourism-seo",
+ "ad_tr": "Otel ve Turizm SEO",
+ "ad_en": "Hotel and Tourism SEO",
+ "h1_tr": "Otel ve Turizm İşletmeleri İçin SEO Danışmanlığı",
+ "h1_en": "SEO Consulting for Hotels and Tourism Businesses",
+ "alt_tr": "Çok dilli site, mevsime göre içerik planı ve yapay zekâ görünürlüğüyle doğrudan rezervasyon payını büyütmeye odaklı SEO danışmanlığı.",
+ "alt_en": "SEO consulting focused on growing direct bookings through multilingual sites, seasonal content planning and AI visibility.",
+ "meta_baslik_tr": "Otel ve Turizm SEO Danışmanlığı | Fatih Emin Çakıroğlu",
+ "meta_baslik_en": "Hotel and Tourism SEO Consulting | F. E. Çakıroğlu",
+ "meta_desc_tr": "Oteller ve turizm işletmeleri için SEO ve GEO danışmanlığı: çok dilli site, marka araması, sezon planı ve OTA bağımlılığını azaltan doğrudan rezervasyon.",
+ "meta_desc_en": "SEO and GEO consulting for hotels and tourism businesses: multilingual sites, brand search, seasonal planning and more direct bookings beyond the OTAs.",
+ "ozet_tr": "Oteller, butik oteller ve tur işletmeleri için çok dilli, sezona duyarlı ve doğrudan rezervasyon odaklı SEO danışmanlığı.",
+ "ozet_en": "Multilingual, season-aware SEO consulting for hotels, boutique hotels and tour operators, focused on direct bookings.",
+ "hizmetler_tr": [
+  "Otel SEO denetimi",
+  "Çok dilli SEO ve hreflang kurulumu",
+  "Marka araması ve doğrudan rezervasyon optimizasyonu",
+  "Otel yerel SEO ve harita kaydı",
+  "Sezon bazlı içerik planı",
+  "Yapay zekâ cevaplarında görünürlük (GEO)"
+ ],
+ "hizmetler_en": [
+  "Hotel SEO audit",
+  "Multilingual SEO and hreflang setup",
+  "Brand search and direct booking optimisation",
+  "Hotel local SEO and map listing",
+  "Seasonal content planning",
+  "Visibility in AI answers (GEO)"
+ ],
+ "rehberler": [
+  "yerel-seo",
+  "teknik-seo",
+  "geo-uygulama",
+  "seo-raporlama"
+ ],
+ "ilceler": [
+  "fatih",
+  "beyoglu",
+  "besiktas",
+  "sisli",
+  "kadikoy",
+  "adalar"
+ ],
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir gezgin İstanbul'da otel ararken yolculuk çoğu zaman Google'da başlar: “Sultanahmet butik otel”, “Boğaz manzaralı otel”, “hotel near Galata Tower”. Karşısına önce harita ve otel sonuçları, rezervasyon platformları (OTA'lar), ardından gezi içerikleri çıkar. Bir kısmı ise planını doğrudan ChatGPT, Gemini ya da Google'ın yapay zekâ özelliklerine danışarak yapar. Otelin kendi sitesi bu zincirde çoğu zaman en zayıf halkadır.",
+    "Bu sayfa otel, butik otel, pansiyon ve tur ya da deneyim işletmelerine sunduğum SEO ve GEO danışmanlığını anlatıyor. Amaç OTA'ları devre dışı bırakmak değil; doğrudan rezervasyon payını büyütecek kendi görünürlüğünüzü kurmak.",
+    {
+     "alinti": "Kısa cevap: Otel ve turizm SEO danışmanlığım; otelin kendi sitesinin her pazarın dilinde doğru kurgulanmasını, harita ve otel sonuçlarında eksiksiz bilgiyi, mevsime göre planlanan içeriği, teknik altyapıyı ve yapay zekâ asistanlarında doğru tanınmayı kapsar. Hedef, OTA'lara bağımlılığı azaltıp doğrudan rezervasyona giden yolu güçlendirmektir; sıralama ya da doluluk sözü vermem."
+    }
+   ]
+  },
+  {
+   "baslik": "Otellerin ve turizm işletmelerinin SEO'da en sık yaşadığı sorunlar",
+   "paragraflar": [
+    "Şehir otelinden sahil pansiyonuna kadar, ilk incelemede en sık karşılaştığım sorunlar şunlar:",
+    {
+     "liste": [
+      "**Kendi adıyla bile OTA'nın gerisinde kalmak:** Otel adıyla yapılan aramada rezervasyon platformları resmi siteden daha görünür.",
+      "**Otomatik çeviri:** İngilizce, Almanca, Arapça ya da Rusça sayfalar makine çevirisiyle yayınlanmış; hreflang yok ya da hatalı.",
+      "**Rezervasyon akışı sorunları:** Ayrı alan adında çalışan, yavaş açılan ya da analitik takibi kırılan rezervasyon motoru.",
+      "**Mevsimsel kopukluk:** Sezon içerikleri sezon başlarken yayınlanıyor; arama talebinin yükseldiği aylar kaçırılıyor.",
+      "**Görsel ağırlığı:** Yüksek çözünürlüklü galeri ve videolar sayfa hızını düşürüyor.",
+      "**Tutarsız bilgiler:** Harita kaydında, OTA profillerinde ve sitede farklı oda adları, olanaklar ya da iletişim bilgileri."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Otel ve turizm SEO hizmetinin kapsamı",
+   "paragraflar": [
+    {
+     "alt": "Marka araması ve doğrudan rezervasyon"
+    },
+    "Otel adıyla yapılan aramalarda resmi sitenin, harita kaydının ve bilgi panelinin doğru ve güncel olmasını sağlıyoruz. Doğrudan rezervasyonun misafire sunduğu gerçek avantajlar varsa (iletişim kolaylığı, esnek koşullar gibi) bunları sitede açıkça anlatıyoruz.",
+    {
+     "alt": "Çok dilli yapı"
+    },
+    "Her pazar için ayrı URL, doğru hreflang, o dili ana dili olarak konuşan biri tarafından kontrol edilmiş içerik ve o ülkedeki arama alışkanlıklarına göre sayfa kurgusu. Altyapı tarafını [teknik SEO temelleri](/rehber/teknik-seo) rehberinde ayrıntılı anlattım.",
+    {
+     "alt": "Yerel ve deneyim içerikleri"
+    },
+    "Otelin çevresini gerçekten bilen birinin yazabileceği içerikler üretiyoruz: ulaşım, yürüme mesafesindeki yerler, sezona göre öneriler. Bu içerikler uzun kuyruklu aramalarda ve yapay zekâ cevaplarında kaynak olma şansını artırır; aramadaki bu değişimi [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısında ele aldım. Harita kaydı, yorumlar ve NAP tutarlılığı için [yerel SEO rehberini](/rehber/yerel-seo) temel alıyoruz.",
+    {
+     "alt": "Teknik performans ve yapısal veri"
+    },
+    "Görsel optimizasyonu, Core Web Vitals, rezervasyon motoru entegrasyonu ve Hotel ya da LodgingBusiness yapısal verisi üzerinde çalışıyoruz. Rezervasyon motoru farklı bir alan adındaysa alanlar arası takibin doğru kurulmasına özellikle dikkat ediyoruz."
+   ]
+  },
+  {
+   "baslik": "Çalışma tablosu: otel SEO'sunda ne yapıyor, neyi ölçüyoruz?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Çalışma alanı",
+       "Ne yapıyoruz",
+       "Neyi ölçüyoruz"
+      ],
+      "satirlar": [
+       [
+        "Marka araması",
+        "Resmi site, harita kaydı ve bilgi tutarlılığı",
+        "Otel adıyla yapılan aramalarda resmi sitenin tıklama payı"
+       ],
+       [
+        "Çok dilli SEO",
+        "URL yapısı, hreflang, yerelleştirilmiş içerik",
+        "Ülke ve dil bazında gösterim, tıklama ve rezervasyon başlatma"
+       ],
+       [
+        "Yerel görünürlük",
+        "Harita kaydı, fotoğraflar, yorum yanıt süreci",
+        "Profilden web sitesi tıklamaları, yol tarifi ve aramalar"
+       ],
+       [
+        "İçerik ve sezon planı",
+        "Destinasyon, deneyim ve sezon içerikleri",
+        "Sezon öncesi dönemde uzun kuyruklu sorgulardaki gösterim"
+       ],
+       [
+        "Teknik performans",
+        "Görsel optimizasyonu, Core Web Vitals, rezervasyon akışı",
+        "LCP, INP ve CLS değerleri; rezervasyon adımlarındaki kayıp"
+       ],
+       [
+        "Yapay zekâ görünürlüğü",
+        "Pazar diline göre soru seti testi, marka bahsi",
+        "Asistan cevaplarında anılma ve bilgilerin doğruluğu"
+       ]
+      ]
+     }
+    },
+    "Doluluk tek başına SEO'ya bağlanamayacak kadar çok etkene bağlıdır: fiyat, sezon, OTA kampanyaları, ekonomik koşullar. Bu yüzden raporda organik kanaldan başlayan rezervasyonları ve talepleri ayrı izliyoruz; kurulumu [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım."
+   ]
+  },
+  {
+   "baslik": "İlk görüşmeden ilk 90 güne çalışma süreci",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Ön görüşme (30 dakika):** Oda sayısı, hedef pazarlar, sezon yapısı, OTA dağılımı ve rezervasyon motoru konuşulur.",
+      "**Denetim (ilk 2-3 hafta):** Teknik tarama, dil sürümleri, marka araması görünümü, harita kaydı ve ölçüm kurulumu incelenir.",
+      "**Sezon takvimi:** Hedef pazarlarda arama talebinin yükseldiği dönemler çıkarılır; işler bu takvime göre sıralanır.",
+      "**Uygulama (1-2. ay):** Teknik düzeltmeler, hreflang, rezervasyon takibi, yapısal veri ve marka araması sorunları ele alınır.",
+      "**İçerik (2-3. ay):** Öncelikli pazarlar için yerelleştirilmiş sayfalar ve sezon içerikleri hazırlanır, yorum yanıt süreci kurulur.",
+      "**90. gün değerlendirmesi:** Göstergeler ilk durumla karşılaştırılır ve bir sonraki sezona hazırlık planı yapılır."
+     ]
+    },
+    "Sezona birkaç hafta kala başlanan çalışmalar o sezona çoğu zaman yetişmez. En verimli başlangıç, bir önceki sezon kapanırken yapılan çalışmadır."
+   ]
+  },
+  {
+   "baslik": "Turizm SEO'suna özgü hassasiyetler: çok dil, mevsimsellik ve OTA bağımlılığı",
+   "paragraflar": [
+    {
+     "alt": "Çok dilli içerik"
+    },
+    "Her dil ayrı bir pazardır. Alman bir gezginle Körfez'den gelen bir aile aynı oteli farklı sorularla arar; bu yüzden çeviri değil yerelleştirme gerekir. Ziyaretçiyi IP adresine göre otomatik olarak başka dile yönlendirmemek, dil seçimini kullanıcıya bırakmak da önemlidir.",
+    {
+     "alt": "Mevsimsellik"
+    },
+    "Arama talebi sezondan aylar önce yükselir. Search Console'da geçen yılın aynı dönemiyle karşılaştırma yapmak, sezon dalgalanmasını başarısızlık sanmanızı önler.",
+    {
+     "alt": "OTA bağımlılığı"
+    },
+    "OTA'lar önemli bir satış kanalıdır ve çoğu otel için vazgeçilecek bir şey değildir. Sorun, tek kanala bağımlı kalmaktır. SEO, kendi sitenizi marka aramalarında güçlendirerek ve rezervasyon öncesi araştırma aşamasında görünür kılarak bu dengeyi kurmaya yardım eder.",
+    {
+     "alt": "Fiyat, kampanya ve yorumlar"
+    },
+    "Kampanya ve indirim duyuruları, yorumların sitede gösterilmesi ve sosyal medya iş birlikleri tüketici mevzuatına tabidir; Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde 2026'da indirim gösterimi, tüketici yorumları ve sosyal medya tanıtımlarıyla ilgili değişiklikler yapıldı. Bu sayfaları hukuk danışmanınızla gözden geçirmenizi öneririm. Misafir yorumlarına nasıl yanıt verileceğini [Google yorumlarına cevap](/blog/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+   ]
+  },
+  {
+   "baslik": "Bağımsız danışmanla çalışmak kimler için uygun, kimler için değil?",
+   "paragraflar": [
+    "İşi doğrudan ben yürütüyorum ve aynı anda sınırlı sayıda işletmeyle çalışıyorum. Bu model her turizm işletmesi için doğru değil.",
+    {
+     "liste": [
+      "**Uygun:** Kendi sitesinden doğrudan rezervasyon payını artırmak isteyen butik oteller ve şehir otelleri.",
+      "**Uygun:** Yabancı pazarlara açılan ve çok dilli sitesini düzene sokmak isteyen işletmeler.",
+      "**Uygun:** Tur, deneyim ve transfer gibi hizmetleri kendi sitesi üzerinden satan turizm işletmeleri.",
+      "**Uygun değil:** Bu sezon için hızlı doluluk artışı bekleyenler; bu hedefe [performans pazarlama](/performans) gibi ücretli kanallar daha uygun olabilir.",
+      "**Uygun değil:** Çok sayıda tesisi yöneten büyük zincirler; bu ölçekte genellikle şirket içi ekip ve ajans birlikte çalışır."
+     ]
+    },
+    "Çalışma kapsamını [SEO uzmanı](/seo-uzmani) sayfamda bulabilirsiniz. İşletmenizi konuşmak için [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Otel SEO danışmanlığının ücreti nasıl belirleniyor?",
+   "c": "Ücret; dil sayısına, sitenin teknik durumuna, tesis sayısına ve içerik ihtiyacına göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+  },
+  {
+   "s": "OTA'lardan tamamen vazgeçmeli miyiz?",
+   "c": "Hayır, çoğu otel için bu gerçekçi değil. OTA'lar özellikle yeni pazarlara ulaşmada değerli bir kanal. SEO çalışmasının hedefi, kendi sitenizin payını büyütüp kanal dengesini iyileştirmek."
+  },
+  {
+   "s": "Kaç dilde site açmalıyız?",
+   "c": "Misafirlerinizin gerçekte hangi ülkelerden geldiğine ve hangi pazarları hedeflediğinize göre karar verilir. Kalitesini koruyamayacağınız bir dil sürümü, hiç olmamasından daha çok zarar verebilir. Genellikle en güçlü iki-üç pazarla başlayıp genişlemeyi öneririm."
+  },
+  {
+   "s": "Rezervasyon motorumuz ayrı bir alan adında, bu SEO'yu etkiler mi?",
+   "c": "Rezervasyon sayfalarının sıralanması genellikle hedef değildir; asıl etki ölçüm tarafındadır. Alanlar arası takip doğru kurulmazsa organik kanaldan gelen rezervasyonlar başka bir kanala yazılır. Denetimde bu akışı özellikle kontrol ediyorum."
+  },
+  {
+   "s": "Yapay zekâ asistanları otel önerirken nelere bakıyor?",
+   "c": "Hangi asistanın kaynakları nasıl seçtiğine dair kesin bir formül yok. Pratikte resmi sitede açık ve tutarlı bilgi, güvenilir kaynaklarda marka bahsi ve güncel yorumlar asistanların oteli doğru tanımasına yardım ediyor. Yöntemi [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım."
+  },
+  {
+   "s": "Tur ve deneyim işletmeleriyle de çalışıyor musunuz?",
+   "c": "Evet. Tur, aktivite ve transfer işletmelerinde de çok dilli yapı, mevsimsellik ve platform bağımlılığı benzer biçimde öne çıkar. Kapsam, satışın kendi sitenizden mi yoksa platformlardan mı yapıldığına göre değişir."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When a traveller looks for a hotel in Istanbul, the journey usually starts on Google: “boutique hotel Sultanahmet”, “hotel with Bosphorus view”, “hotel near Galata Tower”. First come the map and hotel results and the booking platforms (OTAs), then travel content. Some travellers plan directly with ChatGPT, Gemini or Google's AI features. The hotel's own website is often the weakest link in that chain.",
+    "This page describes the SEO and GEO consulting I offer to hotels, boutique hotels, guesthouses and tour or experience businesses. The aim is not to cut out the OTAs but to build your own visibility so that a larger share of bookings comes direct.",
+    {
+     "alinti": "Short answer: My hotel and tourism SEO consulting covers structuring the hotel's own site correctly in each market's language, complete information in map and hotel results, seasonally planned content, technical foundations and accurate representation in AI assistants. The goal is to reduce dependence on OTAs and strengthen the path to direct bookings; I make no promises about rankings or occupancy."
+    }
+   ]
+  },
+  {
+   "baslik": "The SEO problems hotels and tourism businesses face most often",
+   "paragraflar": [
+    "From city hotels to coastal guesthouses, these are the problems I see most in a first review:",
+    {
+     "liste": [
+      "**Losing to OTAs even on your own name:** Booking platforms are more visible than the official site when people search the hotel's name.",
+      "**Machine translation:** English, German, Arabic or Russian pages published straight from machine translation, with missing or broken hreflang.",
+      "**Booking flow issues:** A booking engine on a separate domain that loads slowly or breaks analytics tracking.",
+      "**Seasonal mismatch:** Seasonal content goes live as the season starts, missing the months when search demand rises.",
+      "**Heavy media:** High-resolution galleries and videos slow pages down.",
+      "**Inconsistent information:** Different room names, amenities or contact details on the map listing, OTA profiles and the site."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "What hotel and tourism SEO consulting covers",
+   "paragraflar": [
+    {
+     "alt": "Brand search and direct bookings"
+    },
+    "We make sure the official site, the map listing and the knowledge panel are accurate and current for searches on the hotel's name. If booking direct offers guests real advantages (easier communication, flexible terms), we state them clearly on the site.",
+    {
+     "alt": "Multilingual structure"
+    },
+    "A separate URL for each market, correct hreflang, content checked by a native speaker and page structure that follows search habits in that country. I cover the infrastructure side in [technical SEO fundamentals](/en/guides/teknik-seo).",
+    {
+     "alt": "Local and experience content"
+    },
+    "We produce content that only someone who knows the area could write: transport, places within walking distance, seasonal tips. This content improves the chance of being a source in long-tail searches and AI answers; I discuss that shift in [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye). For the map listing, reviews and NAP consistency we follow the [local SEO guide](/en/guides/yerel-seo).",
+    {
+     "alt": "Technical performance and structured data"
+    },
+    "We work on image optimisation, Core Web Vitals, booking engine integration and Hotel or LodgingBusiness structured data. If the booking engine runs on another domain, we pay particular attention to cross-domain tracking."
+   ]
+  },
+  {
+   "baslik": "Work plan: what we do and what we measure in hotel SEO",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Area of work",
+       "What we do",
+       "What we measure"
+      ],
+      "satirlar": [
+       [
+        "Brand search",
+        "Official site, map listing and consistent information",
+        "The official site's click share on searches for the hotel's name"
+       ],
+       [
+        "Multilingual SEO",
+        "URL structure, hreflang, localised content",
+        "Impressions, clicks and booking starts by country and language"
+       ],
+       [
+        "Local visibility",
+        "Map listing, photos, review response process",
+        "Website clicks, direction requests and calls from the profile"
+       ],
+       [
+        "Content and seasonal plan",
+        "Destination, experience and seasonal content",
+        "Pre-season impressions on long-tail queries"
+       ],
+       [
+        "Technical performance",
+        "Image optimisation, Core Web Vitals, booking flow",
+        "LCP, INP and CLS values; drop-off in booking steps"
+       ],
+       [
+        "AI visibility",
+        "Question set testing in each market's language, brand mentions",
+        "Mentions and accuracy of details in assistant answers"
+       ]
+      ]
+     }
+    },
+    "Occupancy depends on too many factors to be tied to SEO alone: price, season, OTA promotions, economic conditions. So we track bookings and enquiries that start from organic search separately; the setup is explained in the [SEO reporting guide](/en/guides/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "From the first call to the first 90 days",
+   "paragraflar": [
+    {
+     "liste": [
+      "**Intro call (30 minutes):** We discuss room count, target markets, season structure, OTA mix and the booking engine.",
+      "**Audit (first 2-3 weeks):** A technical crawl, language versions, brand search results, the map listing and measurement setup.",
+      "**Season calendar:** We identify when search demand rises in each target market and order the work around that calendar.",
+      "**Implementation (months 1-2):** Technical fixes, hreflang, booking tracking, structured data and brand search issues.",
+      "**Content (months 2-3):** Localised pages and seasonal content for priority markets, plus a review response process.",
+      "**Day-90 review:** Indicators are compared with the starting point and we plan preparation for the next season."
+     ]
+    },
+    "Work that starts a few weeks before the season rarely pays off in that season. The most productive start is as the previous season closes."
+   ]
+  },
+  {
+   "baslik": "What makes tourism SEO different: languages, seasonality and OTA dependence",
+   "paragraflar": [
+    {
+     "alt": "Multilingual content"
+    },
+    "Each language is a separate market. A German traveller and a family from the Gulf search for the same hotel with different questions, so you need localisation, not translation. Do not redirect visitors to another language based on IP; let them choose.",
+    {
+     "alt": "Seasonality"
+    },
+    "Search demand rises months before the season. Comparing with the same period last year in Search Console keeps you from mistaking seasonal swings for failure.",
+    {
+     "alt": "OTA dependence"
+    },
+    "OTAs are an important sales channel, and most hotels should not abandon them. The problem is relying on a single channel. SEO helps restore balance by strengthening your own site on brand searches and making it visible during the research stage before booking.",
+    {
+     "alt": "Prices, promotions and reviews"
+    },
+    "Discount announcements, reviews displayed on the site and social media partnerships fall under consumer protection rules; in 2026 Turkey's Regulation on Commercial Advertising and Unfair Commercial Practices was amended on how discounts, consumer reviews and social media promotions are presented. I recommend reviewing these pages with your legal adviser. I show how to reply to guest reviews in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap)."
+   ]
+  },
+  {
+   "baslik": "Who an independent consultant suits, and who it does not",
+   "paragraflar": [
+    "I do the work myself and take on a limited number of businesses at a time. That model is not right for every tourism business.",
+    {
+     "liste": [
+      "**Good fit:** Boutique and city hotels that want to grow the share of direct bookings from their own site.",
+      "**Good fit:** Businesses entering foreign markets that want to sort out their multilingual site.",
+      "**Good fit:** Tourism businesses selling tours, experiences or transfers through their own site.",
+      "**Not a fit:** Anyone expecting a quick occupancy boost this season; paid channels such as [performance marketing](/en/performance-growth) may suit that goal better.",
+      "**Not a fit:** Large chains running many properties; at that scale an in-house team usually works alongside an agency."
+     ]
+    },
+    "You can see the scope of my work on the [SEO consulting](/en/seo-consulting) page. To talk about your business, [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How is the fee for hotel SEO set?",
+   "c": "It depends on the number of languages, the site's technical condition, the number of properties and content needs, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+  },
+  {
+   "s": "Should we drop the OTAs altogether?",
+   "c": "No, for most hotels that is not realistic. OTAs are a valuable channel, especially for reaching new markets. The goal of SEO is to grow your own site's share and improve the channel balance."
+  },
+  {
+   "s": "How many languages should our site have?",
+   "c": "That depends on where your guests actually come from and which markets you target. A language version you cannot keep at good quality can do more harm than having none. I usually suggest starting with the two or three strongest markets and expanding."
+  },
+  {
+   "s": "Our booking engine is on a separate domain. Does that affect SEO?",
+   "c": "Ranking booking pages is usually not the goal; the real impact is on measurement. If cross-domain tracking is not set up correctly, bookings from organic search get credited to another channel. I check this flow specifically during the audit."
+  },
+  {
+   "s": "What do AI assistants look at when recommending hotels?",
+   "c": "There is no exact formula for how each assistant picks its sources. In practice, clear and consistent information on the official site, brand mentions on trusted sources and recent reviews help assistants describe the hotel correctly. I explain the method in the [GEO implementation guide](/en/guides/geo-uygulama)."
+  },
+  {
+   "s": "Do you work with tour and experience businesses?",
+   "c": "Yes. Multilingual structure, seasonality and platform dependence matter in the same way for tour, activity and transfer businesses. The scope depends on whether you sell through your own site or through platforms."
+  }
+ ]
+}

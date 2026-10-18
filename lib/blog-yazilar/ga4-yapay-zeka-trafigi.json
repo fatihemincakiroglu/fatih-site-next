@@ -1,0 +1,283 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "GA4'te ChatGPT ve Perplexity Trafiğini Ayrı Görmek",
+ "baslik_en": "Seeing ChatGPT and Perplexity Traffic Separately in GA4",
+ "meta_baslik_tr": "GA4'te ChatGPT ve Perplexity Trafiğini Ayırmak",
+ "meta_baslik_en": "Separate ChatGPT and Perplexity Traffic in GA4",
+ "meta_desc_tr": "GA4'ün AI Assistant kanalı, oturum kaynağı kırılımı ve özel kanal grubuyla ChatGPT ve Perplexity trafiğini ayrı görün. Örnek regex ve sınırlar.",
+ "meta_desc_en": "See ChatGPT and Perplexity traffic separately with GA4's AI Assistant channel, session source breakdowns and custom channel groups. Regex and limits.",
+ "ozet_tr": "GA4'te yapay zekâ asistanlarından gelen ziyaretleri referrer bazlı ayırmanın pratik yolları ve verinin sınırları.",
+ "ozet_en": "Practical, referrer-based ways to separate AI assistant visits in GA4, plus the limits of the data.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Müşterilerimden gelen en somut GEO sorusu şu: “ChatGPT ve Perplexity bize gerçekten ziyaretçi gönderiyor mu, gönderiyorsa bu ziyaretçiler ne yapıyor?” Google Analytics 4 (GA4) bu soruya kısmen cevap verebilir; yeter ki trafiğin GA4'e nasıl düştüğünü ve hangi kısmının hiç görünmediğini bilin.",
+    "Bu yazıda yalnızca yapay zekâ asistanı trafiğini ayırmaya odaklanıyorum. KPI seçimi, Search Console ile GA4 farkı ve aylık rapor şablonu gibi genel konuları [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım; burada onları tekrarlamayacağım. GA4 arayüzü sık değiştiği için menü yollarını kesin adımlar olarak değil, kavram olarak veriyorum.",
+    {
+     "alinti": "Kısa cevap: GA4, Mayıs 2026'dan beri tanıdığı yapay zekâ asistanlarından gelen ziyaretleri varsayılan kanal grubunda “AI Assistant” kanalına atıyor. ChatGPT ve Perplexity'yi birbirinden ayrı görmek için oturum kaynağı boyutuna bakmanız ya da her asistan için ayrı kanal tanımlayan özel bir kanal grubu oluşturmanız gerekir. Referrer taşımayan tıklamalar ise doğrudan trafik olarak görünür; bu yüzden rakamlar alt sınır olarak okunmalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "GA4 yapay zekâ trafiğini nasıl tanır? Referrer mantığı",
+   "paragraflar": [
+    "Bir kullanıcı ChatGPT veya Perplexity cevabındaki kaynak bağlantısına tıkladığında tarayıcı çoğu zaman sitenize yönlendiren adresi (referrer) iletir. GA4 bu bilgiyi oturum kaynağı (session source) ve oturum aracı (session medium) boyutlarına yazar; örneğin kaynak chatgpt.com, araç referral olabilir. Bağlantıda utm_source gibi kampanya parametreleri varsa GA4 kaynağı bu parametrelerden okur.",
+    "Bazı asistanların bağlantılarına kendi utm_source değerini eklediği gözleniyor; bu, ölçüm açısından işinizi kolaylaştırır ama asistan şirketlerinin her zaman sürdüreceği bir davranış değildir. Kalıcı kurgunuzu tek bir yönteme bağlamayın: hem referrer alan adlarını hem bilinen utm değerlerini kapsayan bir tanım kurun."
+   ]
+  },
+  {
+   "baslik": "Yerleşik AI Assistant kanalı ne sağlar, nerede yetmez?",
+   "paragraflar": [
+    "Google, 13 Mayıs 2026 tarihli GA4 sürüm notunda yapay zekâ asistanı trafiği için özel bir ölçüm getirdi. Referrer tanınan bir asistanla eşleştiğinde oturum aracı “ai-assistant”, kampanya adı “(ai-assistant)” olarak atanıyor ve ziyaret varsayılan kanal grubundaki “AI Assistant” kanalında görünüyor. Sürüm notu örnek olarak ChatGPT, Gemini ve Claude'u sayıyor; varsayılan kanal tanımlarını anlatan yardım sayfası ise Google'ın AI Overviews ve AI Mode'unu bu kanalın dışında tutuyor.",
+    "Bu yazının yazıldığı Ekim 2026 itibarıyla Google tanınan asistanların tam listesini yayımlamış değil ve değişikliğin geçmiş veriye uygulanıp uygulanmadığını belirtmiyor. Perplexity'nin bu kanala düşüp düşmediğini kendi mülkünüzde oturum kaynağına bakarak kontrol etmenizi öneririm.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yaklaşım",
+       "Ne gösterir?",
+       "Güçlü yanı",
+       "Sınırı"
+      ],
+      "satirlar": [
+       [
+        "Varsayılan kanal grubu: AI Assistant",
+        "Tanınan asistanlardan gelen toplam trafik",
+        "Kurulum gerektirmez",
+        "Asistanları birbirinden ayırmaz; tam liste yayımlanmadı"
+       ],
+       [
+        "Oturum kaynağı / aracı kırılımı",
+        "Her asistanın alan adı ayrı satırda",
+        "Hızlı, esnek",
+        "Her raporda filtreyi yeniden kurmak gerekir"
+       ],
+       [
+        "Özel kanal grubu",
+        "ChatGPT, Perplexity ve diğerleri ayrı kanallar",
+        "Tüm edinme raporlarında kalıcı görünüm",
+        "Standart mülkte en fazla 2 özel grup"
+       ],
+       [
+        "Keşif raporu ve segment",
+        "Asistan trafiğinin açılış sayfası ve etkinlik davranışı",
+        "Derinlemesine analiz",
+        "Rapor bazlı; ekiple paylaşımı daha zahmetli"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "ChatGPT ve Perplexity için özel kanal grubu kurmak",
+   "paragraflar": [
+    "Kalıcı ve ekipçe okunabilir bir görünüm istiyorsanız en iyi yol özel kanal grubu. Google'ın yardım dokümanına göre standart mülklerde varsayılan gruba ek olarak 2 özel kanal grubu, her grupta 50'ye kadar kanal tanımlanabiliyor. Özel kanal grupları raporlara geriye dönük uygulanabiliyor ve kanal tanımları büyük/küçük harfe duyarlı değil.",
+    "En önemli kural sıralama: GA4 bir oturumu, gruptaki sıraya göre tanımına uyan ilk kanala atar. Bu yüzden yapay zekâ kanallarınızı Referral kanalının üstüne yerleştirmelisiniz; aksi hâlde ziyaretler Referral içinde kaybolur. Varsayılan grubu kopyalayıp üstüne şu üç kanalı eklemek pratik bir başlangıç:",
+    {
+     "kod": "1) ChatGPT       — Oturum kaynağı normal ifadeyle eşleşir:\n   .*(chatgpt\\.com|chat\\.openai\\.com).*\n\n2) Perplexity    — Oturum kaynağı normal ifadeyle eşleşir:\n   .*perplexity.*\n\n3) Diğer AI      — Oturum aracı tam olarak eşleşir: ai-assistant\n   VEYA oturum kaynağı normal ifadeyle eşleşir:\n   .*(gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai).*\n\n4) Varsayılan kanallar (Organic Search, Referral, Direct ...)"
+    },
+    "Baştaki ve sondaki .* ifadeleri bilinçli: GA4 yardım dokümanı, normal ifadelerin varsayılan olarak tam eşleşme aradığını belirtiyor; bu ekler hem alt alan adlarını hem utm değerlerindeki küçük farkları yakalar. Asistan listesi değiştikçe ifadeyi güncellemeyi takviminize ekleyin. Bu kanalları bir mülke kurarken teknik bir destek isterseniz [GEO uzmanı](/geo-uzmani) olarak ölçüm kurgusunu birlikte yapabiliriz."
+   ]
+  },
+  {
+   "baslik": "Kanal grubu kurmadan hızlı kontrol: rapor filtresi ve keşif",
+   "paragraflar": [
+    "Önce verinin var olup olmadığını görmek istiyorsanız kanal grubuna gerek yok. Trafik edinme raporunda birincil boyutu oturum kaynağı / aracı yapıp yukarıdaki ifadelerle filtrelemek birkaç dakikanızı alır. Daha derin analiz için bir keşif raporunda “Yapay zekâ asistanları” segmenti tanımlayıp şu boyutlarla birleştirebilirsiniz:",
+    {
+     "liste": [
+      "Açılış sayfası: Asistanlar hangi sayfalarınızı kaynak gösteriyor?",
+      "Önemli etkinlikler (key events): Bu ziyaretler form, arama veya satışa dönüşüyor mu?",
+      "Etkileşimli oturumlar: Ziyaretçi sayfada kalıyor mu, hemen mi çıkıyor?",
+      "Cihaz kategorisi: Masaüstü ve mobil arasında belirgin fark var mı?",
+      "İlk kullanıcı kaynağı: Asistan, kullanıcıyı siteye ilk kez mi getirdi?"
+     ]
+    },
+    "Son madde önemli bir ayrım: Oturum kaynağı her ziyaretin nereden geldiğini, ilk kullanıcı kaynağı ise kullanıcının siteyi ilk kez nereden bulduğunu gösterir. Asistanların yeni kitle getirip getirmediğini anlamak için ikisine birlikte bakın."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ trafiğinde neyi asla göremezsiniz?",
+   "paragraflar": [
+    "GA4 verisi, yapay zekâ görünürlüğünüzün yalnızca tıklamaya dönüşen ve referrer taşıyan kısmını gösterir. Raporda şu sınırları açıkça yazmanızı öneririm:",
+    {
+     "liste": [
+      "Mobil uygulamalardan gelen bazı tıklamalar referrer taşımaz ve doğrudan (Direct) trafik olarak görünür.",
+      "Kullanıcı bağlantıyı kopyalayıp tarayıcıya yapıştırırsa kaynak bilgisi kaybolur.",
+      "Google AI Overviews ve AI Mode tıklamaları Google kaynaklı olduğu için AI Assistant kanalına değil, organik aramaya düşer.",
+      "Çerez onayı vermeyen kullanıcıların ziyaretleri, onay ayarlarınıza bağlı olarak eksik ölçülür.",
+      "Asistanın markanızdan tıklama olmadan bahsettiği cevaplar GA4'te hiç görünmez."
+     ]
+    },
+    "Bu yüzden asistan trafiğini kesin bir toplam değil, alt sınır olarak yorumlayın. Google tarafındaki yapay zekâ özelliklerinin etkisini ayrıca [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ trafiği verisini GEO kararlarına çevirmek",
+   "paragraflar": [
+    "Ayrıştırılmış veri asıl değerini, hangi içeriklerin asistanlarda kaynak gösterildiğini ortaya çıkardığında kazanır. Açılış sayfası listesinde öne çıkan sayfaların ortak özelliklerine bakın: net tanımlar mı, karşılaştırma tabloları mı, özgün veri mi? Bu özellikleri diğer önemli sayfalarınıza taşıyın.",
+    "Perplexity trafiği zayıfsa [Perplexity'de kaynak gösterilme](/blog/perplexity-kaynak-gosterilme) yazısındaki adımlar, ChatGPT tarafında tıklama olmadan bahsi ölçmek için de [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısındaki soru seti yöntemi işe yarar. Ölçümü strateji ile bağlamak için [GEO uygulama rehberi](/rehber/geo-uygulama) iyi bir çerçeve sunar.",
+    "Kendi mülkünüzde kanal grubunu kurmak veya mevcut kurgunuzu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) desteği için [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The most concrete GEO question my clients ask is this: “Are ChatGPT and Perplexity actually sending us visitors, and if so, what do those visitors do?” Google Analytics 4 (GA4) can partly answer that, as long as you understand how the traffic lands in GA4 and which part of it never shows up at all.",
+    "This post focuses only on separating AI assistant traffic. General topics such as choosing KPIs, the difference between Search Console and GA4, and a monthly report template are covered in my [SEO reporting guide](/en/guides/seo-raporlama), so I will not repeat them here. Because the GA4 interface changes often, I describe menu locations as concepts rather than exact click paths.",
+    {
+     "alinti": "Short answer: since May 2026, GA4 assigns visits from the AI assistants it recognizes to an “AI Assistant” channel in the default channel group. To see ChatGPT and Perplexity separately, look at the session source dimension or create a custom channel group with a separate channel for each assistant. Clicks without a referrer appear as direct traffic, so treat the numbers as a lower bound."
+    }
+   ]
+  },
+  {
+   "baslik": "How does GA4 recognize AI traffic? The referrer logic",
+   "paragraflar": [
+    "When a user clicks a source link in a ChatGPT or Perplexity answer, the browser usually passes along the address that sent them (the referrer). GA4 records this in the session source and session medium dimensions; for example, the source might be chatgpt.com and the medium referral. If the link carries campaign parameters such as utm_source, GA4 reads the source from those parameters instead.",
+    "Some assistants have been observed adding their own utm_source value to links. That makes measurement easier, but it is not a behaviour the assistant companies are bound to keep. Do not tie your setup to a single method: build a definition that covers both referrer domains and known utm values."
+   ]
+  },
+  {
+   "baslik": "What the built-in AI Assistant channel gives you, and where it falls short",
+   "paragraflar": [
+    "In its May 13, 2026 GA4 release note, Google introduced dedicated measurement for AI assistant traffic. When the referrer matches a recognized assistant, the session medium is set to “ai-assistant”, the campaign name to “(ai-assistant)”, and the visit appears in the “AI Assistant” channel of the default channel group. The release note names ChatGPT, Gemini and Claude as examples, while the help page describing default channel definitions excludes Google's AI Overviews and AI Mode from this channel.",
+    "As of October 2026, when this post was written, Google has not published the full list of recognized assistants and does not state whether the change applies to historical data. I recommend checking in your own property, via session source, whether Perplexity lands in this channel.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Approach",
+       "What it shows",
+       "Strength",
+       "Limitation"
+      ],
+      "satirlar": [
+       [
+        "Default channel group: AI Assistant",
+        "Total traffic from recognized assistants",
+        "No setup needed",
+        "Does not separate assistants; full list unpublished"
+       ],
+       [
+        "Session source / medium breakdown",
+        "Each assistant's domain on its own row",
+        "Fast and flexible",
+        "Filters must be rebuilt in each report"
+       ],
+       [
+        "Custom channel group",
+        "ChatGPT, Perplexity and others as separate channels",
+        "Persistent view across acquisition reports",
+        "Max 2 custom groups on a standard property"
+       ],
+       [
+        "Exploration and segment",
+        "Landing page and event behaviour of AI traffic",
+        "In-depth analysis",
+        "Report-specific; harder to share with a team"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Building a custom channel group for ChatGPT and Perplexity",
+   "paragraflar": [
+    "If you want a persistent view your team can read, a custom channel group is the best option. According to Google's help documentation, standard properties can have 2 custom channel groups in addition to the default one, each with up to 50 channels. Custom channel groups can be applied to reports retroactively, and channel definitions are not case sensitive.",
+    "The most important rule is order: GA4 assigns a session to the first channel in the group whose definition it matches. That is why your AI channels must sit above Referral; otherwise the visits disappear into Referral. A practical start is to copy the default group and add these three channels at the top:",
+    {
+     "kod": "1) ChatGPT       — Session source matches regex:\n   .*(chatgpt\\.com|chat\\.openai\\.com).*\n\n2) Perplexity    — Session source matches regex:\n   .*perplexity.*\n\n3) Other AI      — Session medium exactly matches: ai-assistant\n   OR session source matches regex:\n   .*(gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai).*\n\n4) Default channels (Organic Search, Referral, Direct ...)"
+    },
+    "The leading and trailing .* are deliberate: GA4's help documentation says regular expressions look for a full match by default, and these wrappers catch subdomains and small variations in utm values. Put a recurring reminder in your calendar to update the expression as the list of assistants changes. If you want help setting these channels up, I can build the measurement setup with you as a [GEO consultant](/en/geo-consulting)."
+   ]
+  },
+  {
+   "baslik": "A quick check without a channel group: report filters and explorations",
+   "paragraflar": [
+    "If you first want to see whether there is any data at all, you do not need a channel group. Setting the primary dimension of the traffic acquisition report to session source / medium and filtering with the expressions above takes a few minutes. For deeper analysis, define an “AI assistants” segment in an exploration and combine it with these dimensions:",
+    {
+     "liste": [
+      "Landing page: which of your pages do assistants cite?",
+      "Key events: do these visits turn into form submissions, calls or sales?",
+      "Engaged sessions: do visitors stay or leave immediately?",
+      "Device category: is there a clear difference between desktop and mobile?",
+      "First user source: did the assistant bring the user to the site for the first time?"
+     ]
+    },
+    "The last item is an important distinction: session source shows where each visit came from, while first user source shows where the user first found the site. Look at both together to tell whether assistants bring in a new audience."
+   ]
+  },
+  {
+   "baslik": "What you will never see in AI traffic data",
+   "paragraflar": [
+    "GA4 data only shows the part of your AI visibility that turns into a click and carries a referrer. I recommend stating these limits clearly in your reports:",
+    {
+     "liste": [
+      "Some clicks from mobile apps carry no referrer and appear as Direct traffic.",
+      "If the user copies the link and pastes it into a browser, the source is lost.",
+      "Clicks from Google AI Overviews and AI Mode come from Google, so they land in organic search, not the AI Assistant channel.",
+      "Visits from users who decline cookies are under-measured, depending on your consent settings.",
+      "Answers in which an assistant mentions your brand without a click never appear in GA4."
+     ]
+    },
+    "So read assistant traffic as a lower bound, not a precise total. I cover the impact of Google's own AI features separately in my post on [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye)."
+   ]
+  },
+  {
+   "baslik": "Turning AI traffic data into GEO decisions",
+   "paragraflar": [
+    "Separated data earns its real value when it reveals which content assistants cite. Look at what the top pages in your landing page list have in common: clear definitions, comparison tables, original data? Bring those qualities to your other important pages.",
+    "If Perplexity traffic is weak, the steps in my post on [getting cited in Perplexity](/en/blog/perplexity-kaynak-gosterilme) help; to measure clickless mentions in ChatGPT, use the question-set method from [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). For linking measurement to strategy, my [GEO implementation guide](/en/guides/geo-uygulama) offers a solid framework.",
+    "If you would like the channel group set up in your property or your current setup audited by an [SEO consultant](/en/seo-consulting), you can reach me through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "ChatGPT trafiği Search Console'da görünür mü?",
+   "c": "Hayır. Search Console yalnızca Google aramadaki görünürlüğü ölçer; ChatGPT veya Perplexity'den gelen ziyaretler orada yer almaz. Google, AI Overviews ve AI Mode görünümlerinin ise Performans raporunun toplam verisine dahil olduğunu açıklamıştır."
+  },
+  {
+   "s": "AI Assistant kanalı Mayıs 2026 öncesindeki verilerde görünür mü?",
+   "c": "Google'ın sürüm notu bunu belirtmiyor; kendi mülkünüzde tarih aralığını genişleterek kontrol edebilirsiniz. Özel kanal grupları ise Google'ın dokümanına göre raporlara geriye dönük uygulanabildiği için geçmiş dönemi incelemek isterseniz daha güvenilir bir yol sunar."
+  },
+  {
+   "s": "BigQuery dışa aktarımında özel kanal grubunu kullanabilir miyim?",
+   "c": "Google'ın yardım dokümanına göre özel kanal grupları BigQuery dışa aktarım şemasında yer almıyor. BigQuery'de aynı ayrımı trafik kaynağı alanları üzerinde benzer bir normal ifadeyle yeniden kurmanız gerekir."
+  },
+  {
+   "s": "Asistanların sitemi taraması GA4'te ziyaret olarak görünür mü?",
+   "c": "Genellikle hayır. GA4 bilinen bot ve örümcek trafiğini otomatik olarak hariç tutar ve tarayıcıların çoğu ölçüm etiketini çalıştırmaz. Yapay zekâ tarayıcılarının sitenize ne sıklıkla geldiğini görmek için sunucu günlüklerine bakmanız gerekir."
+  },
+  {
+   "s": "Kendi bağlantılarıma utm ekleyerek asistan trafiğini işaretleyebilir miyim?",
+   "c": "Asistanların cevaplarda hangi bağlantıyı göstereceğini kontrol edemezsiniz; bu yüzden bu yöntem pratikte işe yaramaz. Site içi bağlantılara utm eklemek ise oturumları böler ve kaynak verisini bozar. Referrer bazlı tanım en sağlıklı yoldur."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does ChatGPT traffic show up in Search Console?",
+   "c": "No. Search Console only measures visibility in Google Search, so visits from ChatGPT or Perplexity are not there. Google has said that AI Overviews and AI Mode appearances, on the other hand, are included in the Performance report totals."
+  },
+  {
+   "s": "Does the AI Assistant channel appear in data from before May 2026?",
+   "c": "Google's release note does not say; you can check by widening the date range in your own property. Custom channel groups, according to Google's documentation, can be applied to reports retroactively, so they are a more reliable way to examine past periods."
+  },
+  {
+   "s": "Can I use a custom channel group in the BigQuery export?",
+   "c": "According to Google's help documentation, custom channel groups are not part of the BigQuery export schema. In BigQuery you need to rebuild the same split on the traffic source fields with a similar regular expression."
+  },
+  {
+   "s": "Do AI crawlers visiting my site show up as visits in GA4?",
+   "c": "Usually not. GA4 automatically excludes known bot and spider traffic, and most crawlers do not run the measurement tag. To see how often AI crawlers visit your site, you need to check your server logs."
+  },
+  {
+   "s": "Can I tag assistant traffic by adding UTMs to my own links?",
+   "c": "You cannot control which link an assistant shows in its answer, so this does not work in practice. Adding UTMs to internal links splits sessions and corrupts source data. A referrer-based definition is the healthiest approach."
+  }
+ ]
+}

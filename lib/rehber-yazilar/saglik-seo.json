@@ -102,7 +102,7 @@
       "**FAQPage**: sayfada gerçekten soru-cevap bölümü varsa"
      ]
     },
-    "FAQ konusunda beklentiyi doğru kurmak gerekiyor: Google, Ağustos 2023'ten beri SSS zengin sonuçlarını yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriyor. Bir klinik sitesinin bu kapsama girdiğini varsaymayın; FAQPage işaretlemesini zengin sonuç için değil, içeriğin anlaşılması için kullanın. Varlıkları @id ile birbirine bağlamanın ayrıntıları [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde."
+    "FAQ konusunda beklentiyi doğru kurmak gerekiyor: Google, SSS zengin sonuçlarını 2023'te yetkili devlet ve sağlık siteleriyle sınırladı, 7 Mayıs 2026'dan itibaren ise hiç göstermiyor. Bu yüzden zengin sonuç beklemeyin; FAQPage işaretlemesini zengin sonuç için değil, içeriğin anlaşılması için kullanın. Varlıkları @id ile birbirine bağlamanın ayrıntıları [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde."
    ]
   },
   {
@@ -225,7 +225,7 @@
       "**FAQPage**: only where the page genuinely has a Q&A section"
      ]
     },
-    "Set expectations on FAQ correctly: since August 2023, Google shows FAQ rich results only for well-known, authoritative government and health websites. Do not assume a clinic site qualifies; use FAQPage markup to help machines understand the content, not to win a rich result. Connecting entities with @id is covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+    "Set expectations on FAQ correctly: Google limited FAQ rich results to authoritative government and health sites in 2023 and has not shown them at all since May 7, 2026. So do not expect a rich result; use FAQPage markup to help machines understand the content, not to win a rich result. Connecting entities with @id is covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
    ]
   },
   {

@@ -1,0 +1,373 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 8,
+ "baslik_tr": "SEO mu Google Ads mi? Bütçeyi Nasıl Bölmeli?",
+ "baslik_en": "SEO or Google Ads? How Should You Split Your Budget?",
+ "meta_baslik_tr": "SEO mu Google Ads mi? Bütçe Nasıl Bölünür?",
+ "meta_baslik_en": "SEO or Google Ads? How to Split Your Budget",
+ "meta_desc_tr": "SEO ile Google Ads arasındaki farklar, hangi durumda hangisinin öne çıktığı ve bütçeyi aşamalara göre bölmek için pratik bir karar çerçevesi.",
+ "meta_desc_en": "The differences between SEO and Google Ads, when each one makes more sense, and a practical framework for splitting your budget by growth stage.",
+ "ozet_tr": "SEO ve Google Ads'i rakip değil, aşamalara göre ağırlığı değişen iki kanal olarak planlamak için karar çerçevesi.",
+ "ozet_en": "A decision framework for treating SEO and Google Ads as two channels whose weight shifts by stage, not as rivals.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“SEO'ya mı yatırım yapalım, Google Ads'e mi?” sorusu, ilk görüşmelerde en çok duyduğum sorulardan biri. İkisi de aynı arama sonuç sayfasında görünür ama çalışma mantıkları farklıdır: Google Ads'te tıklama başına ödeme yapar ve bütçe bittiğinde görünürlüğü kaybedersiniz; SEO'da ise içerik ve teknik emek zamanla birikir, ama sonuç gelmesi aylar alabilir.",
+    "Her işletmeye uyan sabit bir bütçe oranı yok. Bu yazıda size bir yüzde vermek yerine, kendi rakamlarınızla karar verebileceğiniz bir çerçeve sunuyorum: talebin nerede olduğu, tıklama maliyetinin ne olduğu ve işletmenizin hangi aşamada bulunduğu.",
+    {
+     "alinti": "Kısa cevap: Hızlı sonuç, test ve kısa süreli kampanyalar için Google Ads; uzun vadede birikimli görünürlük ve tıklama başına maliyetin yüksek olduğu konular için SEO daha uygundur. Çoğu işletme için doğru yanıt ikisinden birini seçmek değil, yeni bir sitede ağırlığı Ads'e verip organik görünürlük büyüdükçe bütçeyi kademeli olarak SEO'ya kaydırmaktır. Oranı sektör ortalamasına göre değil, kendi tıklama maliyetiniz ve dönüşüm değerinize göre belirleyin."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO ile Google Ads arasındaki temel farklar",
+   "paragraflar": [
+    "İki kanalı aynı ölçütlerle yan yana koyduğunuzda neden birbirinin alternatifi değil tamamlayıcısı olduğu daha net görünür:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Ölçüt",
+       "SEO",
+       "Google Ads"
+      ],
+      "satirlar": [
+       [
+        "Maliyet modeli",
+        "İçerik, teknik çalışma ve uzman emeği; tıklama başına ödeme yok",
+        "Açık artırmada tıklama başına ödeme"
+       ],
+       [
+        "Sonuç hızı",
+        "Genellikle aylar",
+        "Kampanya onaylanınca hemen"
+       ],
+       [
+        "Süreklilik",
+        "Çalışma durunca etkisi yavaş azalır",
+        "Bütçe durunca görünürlük biter"
+       ],
+       [
+        "Kontrol",
+        "Sıralama ve snippet Google'ın elinde",
+        "Mesaj, açılış sayfası ve hedefleme sizin elinizde"
+       ],
+       [
+        "Test hızı",
+        "Yavaş; değişikliklerin etkisi gecikmeli",
+        "Hızlı; mesaj ve anahtar kelime denemesi kolay"
+       ],
+       [
+        "Yapay zekâ görünürlüğü",
+        "Organik içerik asistan cevaplarında kaynak gösterilebilir",
+        "Reklam bütçesi organik sıralamayı ve kaynak seçimini etkilemez"
+       ]
+      ]
+     }
+    },
+    "Son satırı ayrıca vurgulamak istiyorum: Google, reklam vermenin organik sıralamayı etkilemediğini açıkça belirtir. Reklam harcaması organik görünürlüğü satın almaz; ama reklamdan gelen veri organik stratejiyi besleyebilir."
+   ]
+  },
+  {
+   "baslik": "Google Ads hangi durumlarda öne çıkar?",
+   "paragraflar": [
+    "Ads'in en güçlü olduğu yer, zamanın para olduğu durumlardır:",
+    {
+     "liste": [
+      "Yeni bir site veya yeni bir hizmet: Organik görünürlük oluşana kadar talebi kaçırmamak için.",
+      "Mevsimsel ve kısa süreli kampanyalar: Birkaç haftalık bir indirim dönemi için SEO'nun yetişmesini bekleyemezsiniz.",
+      "Test ihtiyacı: Hangi mesajın, fiyat sunumunun veya anahtar kelimenin dönüşüm getirdiğini hızla öğrenmek için.",
+      "Organik olarak zor rekabet edilen, satın alma niyeti çok yüksek sorgular.",
+      "Acil yerel hizmetler: Kullanıcının hemen arayıp karar verdiği çilingir, tesisatçı gibi alanlar."
+     ]
+    },
+    "Ads'te maliyeti yalnızca teklif belirlemez. Google, Kalite Puanı'nı beklenen tıklama oranı, reklam alaka düzeyi ve açılış sayfası deneyimi üzerinden açıklar. Hızlı, net ve sorguya gerçekten cevap veren bir açılış sayfası hem reklam performansını hem organik başarıyı destekler; reklam yönetimi tarafını [performans pazarlama hizmeti](/performans) kapsamında ele alıyorum."
+   ]
+  },
+  {
+   "baslik": "SEO'ya ağırlık vermek ne zaman daha mantıklı?",
+   "paragraflar": [
+    "SEO, sabır gerektiren ama biriken bir varlıktır. Şu durumlarda bütçenin ağırlığını organik tarafa vermek genellikle daha verimli olur:",
+    {
+     "liste": [
+      "Uzun satın alma döngüsü: B2B üretici veya yüksek tutarlı hizmetlerde kullanıcı karar vermeden önce çok sayıda bilgi araması yapar.",
+      "Bilgi amaçlı talep: “Nasıl yapılır”, “nedir”, “hangisi daha iyi” gibi sorgularda reklam tıklaması genellikle satışa dönüşmez.",
+      "Tıklama başına maliyetin çok yüksek olduğu sektörler.",
+      "Reklamın yasal veya platform kuralları nedeniyle kısıtlı olduğu alanlar."
+     ]
+    },
+    "Son madde Türkiye'de özellikle önemli. Avukatlar için meslek kuralları reklamı yasaklar; sağlık hizmetlerinin tanıtımı da mevzuatla sınırlandırılmıştır ve Google Ads'in sağlıkla ilgili kendi politikaları vardır. Bu alanlarda bilgilendirici organik içerik ana kanal olur; ayrıntıları [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında anlattım. Uzun satış döngüsüne sahip işletmeler için [B2B üretici SEO](/sektorler/b2b-uretici-seo) sayfasına da göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Bütçeyi bölmek için dört adımlı karar çerçevesi",
+   "paragraflar": [
+    {
+     "alt": "1. Talebi haritalayın"
+    },
+    "Hedef kitlenizin aradığı sorguları niyetlerine göre gruplayın: bilgi, karşılaştırma, satın alma ve marka. Bu işi [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yöntemiyle yapabilirsiniz.",
+    {
+     "alt": "2. Mevcut organik gücünüzü işaretleyin"
+    },
+    "Search Console'da her grubun ortalama konumuna ve tıklamalarına bakın. Zaten ilk sıralarda olduğunuz gruplarda reklama daha az ihtiyaç duyarsınız; hiç görünmediğiniz satın alma sorgularında ise Ads kısa vadeli köprü işlevi görür.",
+    {
+     "alt": "3. Ekonomiyi hesaplayın"
+    },
+    "Google Ads anahtar kelime planlayıcısındaki tahmini tıklama maliyetlerini, sitenizin dönüşüm oranı ve bir müşterinin size kazandırdığı değerle karşılaştırın. Tıklama maliyetinin kârı erittiği sorgular, SEO yatırımı için en güçlü adaylardır.",
+    {
+     "alt": "4. Aşamaya göre ağırlığı belirleyin"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Aşama",
+       "Durum",
+       "Google Ads'in rolü",
+       "SEO'nun rolü"
+      ],
+      "satirlar": [
+       [
+        "Başlangıç",
+        "Yeni site, organik görünürlük yok",
+        "Ağırlıklı kanal; talep ve mesaj testi",
+        "Teknik altyapı ve temel sayfalar"
+       ],
+       [
+        "Büyüme",
+        "Bazı gruplarda organik sıralama oluşuyor",
+        "Organik zayıf gruplara odaklanır",
+        "İçerik kümeleri ve bağlantı kazanımı"
+       ],
+       [
+        "Olgunluk",
+        "Ana gruplarda güçlü organik görünürlük",
+        "Kampanya, rekabet ve yeni ürün dönemleri",
+        "Ağırlıklı kanal; koruma ve genişleme"
+       ]
+      ]
+     }
+    },
+    "Bu tabloyu yılda bir değil, çeyrek bazında gözden geçirin. Organik konumlar yükseldikçe ilgili reklam gruplarının bütçesini kontrollü biçimde azaltıp sonucu ölçmek, ezbere kesintiden daha güvenlidir."
+   ]
+  },
+  {
+   "baslik": "SEO ve Google Ads birlikte nasıl daha iyi çalışır?",
+   "paragraflar": [
+    "İki kanalı ayrı ekiplerin ayrı raporlarla yönettiği işletmelerde en büyük kayıp, verinin paylaşılmaması. Ads'teki arama terimleri raporu, hangi sorguların gerçekten dönüşüm getirdiğini birkaç haftada gösterir; bu sorgular organik içerik planı için çok değerli bir girdidir.",
+    "Google Ads hesabını Search Console mülküyle bağladığınızda ücretli ve organik sonuçları aynı sorgu düzeyinde karşılaştıran raporu kullanabilirsiniz. Böylece organik olarak zaten güçlü olduğunuz sorgularda reklamın ek katkısını tartışmak için somut bir zemin elde edersiniz.",
+    "Marka adınıza reklam verip vermemek de bu veriyle cevaplanmalı. Rakipler marka sorgularınızda reklam veriyorsa marka kampanyası savunma işlevi görebilir; vermiyorsa, kontrollü bir dönem reklamı durdurup toplam marka tıklamalarındaki değişimi ölçmek en dürüst testtir."
+   ]
+  },
+  {
+   "baslik": "Bütçe kararını hangi metriklerle ölçmeli?",
+   "paragraflar": [
+    "Kanalları karşılaştırırken tıklama sayısı yerine iş sonucuna bakın. Her iki kanal için de GA4'teki önemli etkinlik (key event) başına maliyeti, müşteri edinme maliyetini ve dönüşüm yolundaki destekleyici rolü izleyin. Rapor kurgusunun ayrıntılarını [SEO raporlama rehberinde](/rehber/seo-raporlama), yapay zekâ asistanlarından gelen ziyaretleri ayrı bir kanal olarak görmeyi de [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım.",
+    "SEO maliyetini değerlendirirken bunu aylık bir gider değil, birikimli bir yatırım olarak hesaplayın; piyasadaki fiyat yapısı için [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısı, benim çalışma modelim için [fiyatlandırma](/fiyatlandirma) sayfası fikir verir.",
+    "Kendi rakamlarınızla bir bütçe dağılımı kurmak isterseniz, mevcut Search Console ve Ads verinizi birlikte inceleyerek bir [SEO uzmanı](/seo-uzmani) gözüyle yol haritası çıkarabiliriz; [ön görüşme randevusu](/randevu) almanız yeterli."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“Should we invest in SEO or Google Ads?” is one of the questions I hear most in first calls. Both appear on the same search results page, but they work differently: with Google Ads you pay per click and lose visibility when the budget runs out; with SEO, content and technical work accumulate over time, but results can take months.",
+    "There is no fixed budget ratio that fits every business. Instead of giving you a percentage, this post offers a framework you can use with your own numbers: where demand sits, what a click costs, and which stage your business is in.",
+    {
+     "alinti": "Short answer: Google Ads suits fast results, testing and short campaigns; SEO suits compounding long-term visibility and topics where cost per click is high. For most businesses the right answer is not choosing one, but weighting Ads on a new site and gradually shifting budget to SEO as organic visibility grows. Set the ratio by your own cost per click and conversion value, not by an industry average."
+    }
+   ]
+  },
+  {
+   "baslik": "The key differences between SEO and Google Ads",
+   "paragraflar": [
+    "Put the two channels side by side on the same criteria and it becomes clear why they complement rather than replace each other:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Criterion",
+       "SEO",
+       "Google Ads"
+      ],
+      "satirlar": [
+       [
+        "Cost model",
+        "Content, technical work and expert time; no pay-per-click",
+        "Pay per click in an auction"
+       ],
+       [
+        "Speed of results",
+        "Usually months",
+        "As soon as the campaign is approved"
+       ],
+       [
+        "Persistence",
+        "Impact fades slowly when work stops",
+        "Visibility ends when budget stops"
+       ],
+       [
+        "Control",
+        "Rankings and snippets are up to Google",
+        "Message, landing page and targeting are up to you"
+       ],
+       [
+        "Testing speed",
+        "Slow; changes take effect with a delay",
+        "Fast; easy to test messages and keywords"
+       ],
+       [
+        "AI visibility",
+        "Organic content can be cited in assistant answers",
+        "Ad spend does not affect organic rankings or source selection"
+       ]
+      ]
+     }
+    },
+    "I want to stress the last row: Google states clearly that advertising does not influence organic rankings. Ad spend does not buy organic visibility, but data from ads can feed your organic strategy."
+   ]
+  },
+  {
+   "baslik": "When does Google Ads make more sense?",
+   "paragraflar": [
+    "Ads is strongest where time is money:",
+    {
+     "liste": [
+      "A new site or a new service: so you do not miss demand while organic visibility builds.",
+      "Seasonal and short campaigns: you cannot wait for SEO to catch up for a sale that lasts a few weeks.",
+      "Testing: to learn quickly which message, price framing or keyword converts.",
+      "Queries with very high purchase intent that are hard to compete for organically.",
+      "Urgent local services: locksmiths, plumbers and similar fields where users call and decide immediately."
+     ]
+    },
+    "In Ads, cost is not set by the bid alone. Google explains Quality Score through expected clickthrough rate, ad relevance and landing page experience. A fast, clear landing page that genuinely answers the query supports both ad performance and organic success; I handle the ads side as part of my [performance marketing service](/en/performance-growth)."
+   ]
+  },
+  {
+   "baslik": "When is it smarter to lean on SEO?",
+   "paragraflar": [
+    "SEO takes patience, but it is an asset that compounds. In these situations, putting more of the budget into organic usually pays off better:",
+    {
+     "liste": [
+      "Long buying cycles: in B2B manufacturing or high-ticket services, users run many informational searches before deciding.",
+      "Informational demand: for “how to”, “what is” and “which is better” queries, ad clicks rarely turn into sales.",
+      "Industries where cost per click is very high.",
+      "Fields where advertising is restricted by law or platform rules."
+     ]
+    },
+    "The last point matters especially in Turkey. Professional rules prohibit lawyers from advertising, the promotion of healthcare services is restricted by law, and Google Ads has its own healthcare-related policies. In these fields informative organic content becomes the main channel; I go into detail in my post on [SEO for law firms](/en/blog/avukatlar-icin-seo). Businesses with long sales cycles may also want to see my [B2B manufacturer SEO](/en/industries/b2b-manufacturer-seo) page."
+   ]
+  },
+  {
+   "baslik": "A four-step framework for splitting the budget",
+   "paragraflar": [
+    {
+     "alt": "1. Map the demand"
+    },
+    "Group the queries your audience searches for by intent: informational, comparison, transactional and brand. You can do this with the clustering method in my [keyword research guide](/en/guides/anahtar-kelime-arastirmasi).",
+    {
+     "alt": "2. Mark your current organic strength"
+    },
+    "In Search Console, check each group's average position and clicks. Where you already rank at the top, you need ads less; for transactional queries where you do not appear at all, Ads acts as a short-term bridge.",
+    {
+     "alt": "3. Do the economics"
+    },
+    "Compare the estimated cost per click in the Google Ads Keyword Planner with your site's conversion rate and the value a customer brings you. Queries where click costs eat away your margin are the strongest candidates for SEO investment.",
+    {
+     "alt": "4. Set the weighting by stage"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Stage",
+       "Situation",
+       "Role of Google Ads",
+       "Role of SEO"
+      ],
+      "satirlar": [
+       [
+        "Launch",
+        "New site, no organic visibility",
+        "Main channel; demand and message testing",
+        "Technical foundation and core pages"
+       ],
+       [
+        "Growth",
+        "Organic rankings forming in some groups",
+        "Focuses on groups where organic is weak",
+        "Content clusters and link earning"
+       ],
+       [
+        "Maturity",
+        "Strong organic visibility in core groups",
+        "Campaigns, competitive and launch periods",
+        "Main channel; defend and expand"
+       ]
+      ]
+     }
+    },
+    "Review this table quarterly, not once a year. As organic positions improve, reducing the budget of the related ad groups in a controlled way and measuring the result is safer than cutting by rule of thumb."
+   ]
+  },
+  {
+   "baslik": "How do SEO and Google Ads work better together?",
+   "paragraflar": [
+    "In businesses where separate teams run the two channels with separate reports, the biggest loss is unshared data. The search terms report in Ads shows within a few weeks which queries actually convert, and those queries are valuable input for the organic content plan.",
+    "When you link your Google Ads account with your Search Console property, you can use the report that compares paid and organic results at query level. That gives you a concrete basis for discussing the incremental value of ads on queries where you are already strong organically.",
+    "Whether to bid on your own brand name should be answered with the same data. If competitors bid on your brand queries, a brand campaign can work as defence; if they do not, pausing brand ads for a controlled period and measuring the change in total brand clicks is the most honest test."
+   ]
+  },
+  {
+   "baslik": "Which metrics should drive the budget decision?",
+   "paragraflar": [
+    "When comparing channels, look at business outcomes rather than clicks. For both channels, track the cost per key event in GA4, customer acquisition cost and the assisting role along the conversion path. I cover report setup in detail in my [SEO reporting guide](/en/guides/seo-raporlama), and seeing AI assistant visits as a separate channel in my post on [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi).",
+    "When assessing SEO cost, treat it as a compounding investment rather than a monthly expense; my post on [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari) explains market pricing, and the [pricing](/en/pricing) page shows how I work.",
+    "If you want to build a budget split with your own numbers, we can review your Search Console and Ads data together and draw up a roadmap from an [SEO consultant](/en/seo-consulting)'s perspective; just [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Google Ads'e para harcamak SEO sıralamamı yükseltir mi?",
+   "c": "Hayır. Google, reklam vermenin organik sıralamayı etkilemediğini açıkça belirtir. Dolaylı fayda ise reklamdan öğrendiğiniz dönüşen sorgular ve mesajlardır; bunları organik içerikte kullanabilirsiniz."
+  },
+  {
+   "s": "Reklamı durdurursam organik trafiğim artar mı?",
+   "c": "Bazı tıklamalar organik sonuca kayabilir, ama bu otomatik bir telafi değildir. Özellikle organik olarak ilk sırada olmadığınız sorgularda reklamı kesmek toplam trafiği düşürebilir. Kararı kontrollü bir test dönemiyle ölçerek verin."
+  },
+  {
+   "s": "Küçük bir bütçeyle ikisini birden yapmak mantıklı mı?",
+   "c": "Bütçe çok sınırlıysa iki kanalı yarım yarım yürütmek yerine birine odaklanmak genellikle daha verimlidir. Acil nakit akışı gerekiyorsa dar hedefli bir Ads kampanyası, zamanınız varsa temel SEO çalışması öncelik olabilir. Teknik altyapıyı düzgün kurmak her iki senaryoda da faydalıdır."
+  },
+  {
+   "s": "SEO ne kadar sürede sonuç verir?",
+   "c": "Sitenin geçmişine, rekabete ve yapılan işin kapsamına göre değişir; genellikle aylarla ölçülür. Kimse belirli bir tarihte belirli bir sıralama sözü veremez. İlk aylarda gösterim ve sorgu çeşitliliğindeki artış, ilerlemenin erken göstergesidir."
+  },
+  {
+   "s": "Google Ads'i kendim mi yönetmeliyim, uzmana mı vermeliyim?",
+   "c": "Küçük ve basit bir hesapta temel kampanyaları kendiniz yönetebilirsiniz. Bütçe büyüdükçe, dönüşüm takibi, negatif anahtar kelimeler ve açılış sayfası testleri uzmanlık gerektirir. Hangi seçeneği tercih ederseniz edin, dönüşüm ölçümünü baştan doğru kurun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Will spending on Google Ads improve my SEO rankings?",
+   "c": "No. Google states clearly that advertising does not influence organic rankings. The indirect benefit is what you learn from ads about converting queries and messages, which you can use in organic content."
+  },
+  {
+   "s": "If I stop ads, will my organic traffic go up?",
+   "c": "Some clicks may shift to the organic result, but that is not an automatic replacement. Especially on queries where you are not first organically, cutting ads can reduce total traffic. Make the decision based on a controlled test period."
+  },
+  {
+   "s": "Does it make sense to do both on a small budget?",
+   "c": "If the budget is very tight, focusing on one channel usually works better than running both halfway. If you need cash flow urgently, a narrowly targeted Ads campaign may come first; if you have time, foundational SEO work. A sound technical foundation helps in both scenarios."
+  },
+  {
+   "s": "How long does SEO take to show results?",
+   "c": "It depends on the site's history, competition and the scope of the work; it is usually measured in months. No one can promise a specific ranking by a specific date. In the first months, growth in impressions and query variety is an early sign of progress."
+  },
+  {
+   "s": "Should I manage Google Ads myself or hire a specialist?",
+   "c": "You can run basic campaigns yourself on a small, simple account. As budget grows, conversion tracking, negative keywords and landing page tests require expertise. Whichever you choose, set up conversion measurement correctly from the start."
+  }
+ ]
+}

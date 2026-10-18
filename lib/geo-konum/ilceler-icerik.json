@@ -272,7 +272,7 @@
   ]
  },
  "atasehir": {
-  "alt": "Plaza ofislerindeki danışmanlık, hukuk ve mali müşavirlik firmalarının yapay zekâ asistanlarında tedarikçi olarak önerilmesi için çalışma.",
+  "alt": "Plaza ofislerindeki danışmanlık ve mali müşavirlik firmalarının yapay zekâ asistanlarında tedarikçi olarak önerilmesi, hukuk bürolarının doğru anılması için çalışma.",
   "desc": "Ataşehir GEO uzmanı: finans merkezi çevresindeki hukuk, mali müşavirlik ve kurumsal hizmet firmalarının yapay zekâ cevaplarında doğru anılması.",
   "giris": [
    "Bir şirketin finans müdürü yeni bir bağımsız denetim firması ararken eskisi gibi önce arama kutusuna iki kelime yazıp sonuçları tek tek açmıyor olabilir. Giderek daha sık rastladığım tablo şu: \"Anadolu Yakası'nda, orta ölçekli üretim şirketleriyle çalışmış, İngilizce raporlama yapabilen denetim firmaları hangileri?\" gibi uzun bir soru bir asistana yöneltiliyor ve gelen kısa liste, görüşme yapılacak firmaları belirliyor. Ataşehir'deki profesyonel hizmet firmaları için GEO, o kısa listeye girebilmekle ilgili.",
@@ -310,8 +310,8 @@
    "satirlar": [
     [
      "Hukuk bürosu",
-     "Ataşehir'de şirketler hukuku ve sözleşme incelemesi yapan, yabancı ortaklı şirketlerle çalışmış bir büro hangisi?",
-     "Uzmanlık alanı başına tanım sayfası, avukat profilleri, meslek kurallarına uygun bilgilendirici soru-cevap"
+     "Ataşehir'deki X Hukuk Bürosu hangi çalışma alanlarında hizmet veriyor, ofisi hangi plazada?",
+     "Çalışma alanı başına tanım sayfası, avukat profilleri, baronun reklam yasağı düzenlemesine uygun bilgilendirici soru-cevap"
     ],
     [
      "Mali müşavirlik ve denetim",
@@ -343,9 +343,9 @@
   "senaryo": {
    "baslik": "Kurgusal Bir Örnek: Batı Ataşehir'de Bir İş Hukuku Bürosu",
    "paragraflar": [
-    "Örnek bir senaryo üzerinden düşünelim: Batı Ataşehir'deki bir plazada, ağırlıklı olarak işverenlere iş hukuku danışmanlığı veren dört avukatlı bir büro var. Bir insan kaynakları yöneticisinin \"Ataşehir'de toplu işten çıkarma süreçlerinde işverene danışmanlık veren bir hukuk bürosu\" diye sorduğunu düşünelim. Bu senaryoda asistan cevabında büyük büroları ve genel avukat dizinlerini sıralıyor; bizim büro ya hiç geçmiyor ya da yalnızca \"genel hukuk hizmetleri veren bir büro\" diye anılıyor.",
+    "Örnek bir senaryo üzerinden düşünelim: Batı Ataşehir'deki bir plazada, ağırlıklı olarak işverenlere iş hukuku danışmanlığı veren dört avukatlı bir büro var. Bir insan kaynakları yöneticisinin asistana büronun adını yazıp \"Bu büro toplu işten çıkarma süreçlerinde işverenlere danışmanlık veriyor mu?\" diye sorduğunu düşünelim. Bu senaryoda asistan, adıyla sorulduğu hâlde büroyu yalnızca \"genel hukuk hizmetleri veren bir büro\" diye anıyor ya da eski bilgilerle tarif ediyor.",
     "Benim ilk adımım bu boşluğun nedenini anlamak olur. Sitede iş hukuku tek bir maddeyle geçiyorsa, avukatların uzmanlık alanları belirtilmemişse ve büro hiçbir sektör yayınında ya da etkinlik listesinde anılmıyorsa, asistanın büroyu bu alanla ilişkilendirmesi için elinde malzeme yok demektir. Bu noktada işveren tarafına odaklı bir uzmanlık sayfası, her avukat için baro sicili ve çalışma alanlarını içeren profil, sık sorulan sorulara meslek kurallarına uygun, sade cevaplar hazırlanır.",
-    "Sonraki aşamada büronun adı, unvanı ve adresi tüm dizinlerde aynı biçime getirilir; avukatların katıldığı seminerler veya yazdığı makaleler kendi sitede tarihleriyle listelenir. Aynı soru seti her ay birkaç asistana sorulur ve büronun anılıp anılmadığı, nasıl tarif edildiği kaydedilir. Hedef, büronun işveren tarafındaki iş hukuku sorularında doğru alanla eşleşmesi; reklam niteliği taşıyan bir vaat ise hiçbir aşamada yer almaz."
+    "Sonraki aşamada büronun adı, unvanı ve adresi tüm dizinlerde aynı biçime getirilir; avukatların katıldığı seminerler veya yazdığı makaleler kendi sitede tarihleriyle listelenir. Aynı soru seti her ay birkaç asistana sorulur ve büronun anılıp anılmadığı, nasıl tarif edildiği kaydedilir. Hedef, büronun adıyla sorulduğunda doğru alanla ve güncel bilgilerle tarif edilmesi; çalışma baronun reklam yasağı düzenlemesine uygun biçimde yürütülür, reklam niteliği taşıyan bir vaat hiçbir aşamada yer almaz."
    ]
   },
   "plan": {
@@ -383,7 +383,7 @@
    },
    {
     "s": "Hukuk büroları meslek kurallarına uyarak GEO çalışması yapabilir mi?",
-    "c": "Evet. Çalışmanın özü reklam değil, bilgilendirme: uzmanlık alanlarının sade tanımı, süreçlerin genel anlatımı, avukat profilleri ve tutarlı büro bilgisi. Vaat, karşılaştırmalı üstünlük iddiası ve müvekkil sonucu içermeyen bir dil, hem meslek kurallarına hem de alıntılanabilir içerik ilkesine uygun."
+    "c": "Çalışmanın özü reklam değil bilgilendirme olduğunda makul bir alan kalıyor: uzmanlık alanlarının sade tanımı, süreçlerin genel anlatımı, avukat profilleri ve tutarlı büro bilgisi. Vaat, karşılaştırmalı üstünlük iddiası ve müvekkil sonucu içermeyen bir dil gerekli. Ancak baronun reklam yasağı düzenlemesi çevrimiçi tanıtımı geniş biçimde sınırlıyor; sınırı baronun güncel düzenlemesi ve hukuki görüş belirler."
    },
    {
     "s": "Plazadaki ofisimiz asistan cevaplarında aynı binadaki başka bir firmayla karıştırılıyor, ne yapmalıyız?",
@@ -814,7 +814,7 @@
   "pazar": {
    "baslik": "Karar Öncesi Danışma: Bakırköy'de Asistana Yöneltilen Sorular",
    "paragraflar": [
-    "Adliyenin varlığı Bakırköy'ü hukuki soruların yoğunlaştığı bir ilçe yapıyor. İnsanlar asistanlara önce süreci soruyor: anlaşmalı boşanmada hangi belgeler gerekiyor, kira tespit davası nasıl açılıyor, arabuluculuk zorunlu mu. Ardından \"Bakırköy'de bu konuda deneyimli bir avukat önerir misin?\" sorusu geliyor. Avukatlık meslek kuralları reklam niteliğindeki tanıtımı sınırladığı için hukuk bürolarının bu soruya cevap olabilmesi, bilgilendirici ve ölçülü içerikle mümkün oluyor.",
+    "Adliyenin varlığı Bakırköy'ü hukuki soruların yoğunlaştığı bir ilçe yapıyor. İnsanlar asistanlara önce süreci soruyor: anlaşmalı boşanmada hangi belgeler gerekiyor, kira tespit davası nasıl açılıyor, arabuluculuk zorunlu mu. Ardından \"Bakırköy'de bu konuda deneyimli bir avukat önerir misin?\" sorusu geliyor. Avukatlık meslek kuralları reklam niteliğindeki tanıtımı sınırladığı için hukuk bürolarında hedef bu soruda öne çıkarılmak değil; büro adıyla sorulduğunda doğru bilginin bulunması ve süreç sorularına baronun reklam yasağı düzenlemesine uygun, bilgilendirici içerik sunulması.",
     "Sağlık tarafında Bakırköy, büyük hastanelerin yanında çok sayıda muayenehane ve tıp merkezini barındırıyor. Sorular genellikle belirli bir şikâyet veya tedaviyle başlıyor ve konuma bağlanıyor. Asistanlar sağlık konularında temkinli bir dil kullanıp hekime danışmayı öneriyor; ama hekim ya da klinik ismi istendiğinde, kimin hangi alanda çalıştığını açıkça anlatan kaynaklara yöneliyor gibi görünüyor.",
     "Yeşilköy, Florya ve Ataköy ise farklı bir kitleye hitap ediyor: fuar ve kongre ziyaretçileri, marina kullanıcıları, hafta sonu sahile inen aileler. Bu soruların bir kısmı yabancı dilde, bir kısmı da mevsime bağlı. \"Florya'da çocuklu aileler için deniz kenarında öğle yemeği yenebilecek sakin bir yer\" gibi bir soru, yorumların içeriği, fotoğraflar ve mekânın yerel listelerde nasıl anlatıldığıyla cevaplanıyor."
    ]
@@ -823,7 +823,7 @@
    "baslik": "Bakırköy'ün Semtlerinde Asistanların Karşılaştığı Soru Türleri",
    "giris": "Bakırköy'ün semtleri birbirine yakın olsa da her birinde asistanlara yöneltilen sorular farklı bir karakter taşıyor. Öne çıkan kümeleri şöyle sıralayabilirim:",
    "maddeler": [
-    "**Adliye çevresi ve Osmaniye:** Hukuk büroları, arabulucular, yeminli tercümanlar ve bilirkişilik hizmetleri. Süreç sorularına açık, güncel ve tarihli cevaplar veren içerikler, asistanların hem bilgi hem de öneri kısmında kaynak olarak kullanılmaya uygun.",
+    "**Adliye çevresi ve Osmaniye:** Hukuk büroları, arabulucular, yeminli tercümanlar ve bilirkişilik hizmetleri. Süreç sorularına açık, güncel ve tarihli cevaplar veren içerikler, asistanların bilgi kısmında kaynak olarak kullanılmaya uygun; hukuk bürolarında içerik baronun reklam yasağı düzenlemesine uygun kalmalı.",
     "**Zuhuratbaba, Cevizlik ve Kartaltepe:** Muayenehaneler, fizik tedavi merkezleri, eczaneler ve kurslar. Hekim ve uzman bilgilerinin net olması, hizmetin kapsamının yazılı olması ve adresin tüm platformlarda birebir aynı geçmesi önemli.",
     "**İstanbul Caddesi ve çarşı:** Optik, kuyumcu, ayakkabı ve giyim mağazaları, kafeler. Sorular genellikle anlık ve özellik odaklı; profil bilgileri ve yorumlarda geçen ürün çeşitliliği, asistanın tavsiye cümlesine taşınıyor.",
     "**Yeşilköy ve Yeşilyurt:** Oteller, kongre hizmetleri ve köklü restoranlar. Fuar alanına, sahile ve ulaşım hatlarına göre konumu açıkça anlatan, İngilizce içerik sunan işletmeler yabancı dildeki sorularda daha kolay tarif ediliyor.",
@@ -842,8 +842,8 @@
    "satirlar": [
     [
      "Hukuk büroları",
-     "Bakırköy Adliyesi'nde görülecek bir velayet davası için süreç nasıl işliyor ve aile hukukunda çalışan avukatlara nasıl ulaşabilirim?",
-     "Meslek kurallarına uygun, tarihli ve yazarlı bilgilendirici makaleler; avukat profillerinin ve çalışma alanlarının net yazılması"
+     "Bakırköy Adliyesi'nde görülecek bir velayet davası için süreç nasıl işliyor, hangi belgeler gerekiyor?",
+     "Baronun reklam yasağı düzenlemesine uygun, tarihli ve yazarlı bilgilendirici makaleler; avukat profillerinin ve çalışma alanlarının net yazılması"
     ],
     [
      "Fizik tedavi ve muayenehaneler",
@@ -895,7 +895,7 @@
    "baslik": "Bakırköy'de Asistan Cevaplarını Yanıltan Eski ve Dağınık Bilgiler",
    "maddeler": [
     "Taşınan bir büro ya da muayenehanenin eski adresinin rehberlerde ve eski haberlerde kalması. Asistan eski adresi aktardığında kullanıcı yanlış binaya gidiyor ve güven daha ilk adımda zedeleniyor.",
-    "Hukuk bürolarının sitelerinde yalnızca \"tüm davalara bakılır\" gibi genel ifadeler kullanması. Uzmanlık alanı belirsiz olan büro, belirli bir konudaki soruda cevaba girecek dayanak sunmuyor.",
+    "Hukuk bürolarının sitelerinde yalnızca \"tüm davalara bakılır\" gibi genel ifadeler kullanması. Çalışma alanı belirsiz olan büro, adıyla sorulduğunda bile doğru tarif edilemiyor.",
     "Otellerin konumlarını hâlâ eski havalimanına yakınlık üzerinden anlatması. Güncel ulaşım seçeneklerini ve fuar alanına mesafeyi anlatmayan içerik, bugünün sorularıyla eşleşmiyor.",
     "Florya ve Yeşilköy'deki restoranların mevsimsel saat değişikliğini yalnızca kapıya asması. Profil ve site güncellenmediğinde asistan yanlış saati aktarabiliyor.",
     "Klinik ve muayenehane sitelerinde hekim adının, uzmanlık alanının ve güncelleme tarihinin bulunmaması. Sağlık sorularında temkinli cevap veren asistanlar için bu eksiklik güven sinyalini zayıflatıyor."
@@ -911,7 +911,7 @@
   "sss": [
    {
     "s": "Hukuk büromuz reklam yapamıyor; yapay zekâ cevaplarında anılmak meslek kurallarıyla çelişir mi?",
-    "c": "Bilgilendirici ve ölçülü içerik üretmek meslek kurallarının izin verdiği bir alanda kalıyor; asistanlar da çoğunlukla bu tür içerikleri kaynak olarak kullanıyor. Önemli olan, iddialı ve övücü ifadelerden kaçınıp süreçleri doğru ve tarihli biçimde anlatmak. Hangi içeriğin uygun olduğu konusunda baronuzun düzenlemelerini esas almak gerekir."
+    "c": "Bilgilendirici ve ölçülü içerik üretmek makul görünen bir alan; ancak baronun reklam yasağı düzenlemesi çevrimiçi tanıtımı geniş biçimde sınırlıyor. Önemli olan, iddialı ve övücü ifadelerden kaçınıp süreçleri doğru ve tarihli biçimde anlatmak; amaç öneri listelerine girmek değil, büro adıyla sorulduğunda doğru bilginin bulunması. Hangi içeriğin uygun olduğu konusunda baronuzun güncel düzenlemesini ve hukuki görüşü esas almak gerekir."
    },
    {
     "s": "Asistanlar büromuzu eski adresimizle gösteriyor; bunu nasıl düzeltiriz?",
@@ -1203,7 +1203,7 @@
   "alt": "Beşiktaş'ta sohbet asistanlarına sorulan tavsiye sorularında, Levent'ten Bebek'e işletmenizin doğru anlatılması için yöntem.",
   "desc": "Beşiktaş GEO uzmanı: Levent, Etiler, Ortaköy ve Bebek işletmelerinin ChatGPT, Gemini ve Google yapay zekâ özetlerinde doğru anılması için çalışma.",
   "giris": [
-   "Birisi telefonuna “Levent'te şirket birleşmelerinde deneyimli bir avukat önerir misin?” diye yazdığında, karşısına on mavi bağlantı yerine birkaç isim ve kısa gerekçeler içeren bir paragraf çıkabiliyor. Beşiktaş'taki bir işletme için yapay zekâ görünürlüğü, o paragrafta adının geçmesi ve doğru tarif edilmesi demek. Adınız geçse bile yanlış semtte, yanlış uzmanlıkla ya da eski bir adresle anılıyorsanız kazanılmış bir şey yok.",
+   "Birisi telefonuna “Levent'te şirket birleşmelerinde deneyimli bir mali danışmanlık firması önerir misin?” diye yazdığında, karşısına on mavi bağlantı yerine birkaç isim ve kısa gerekçeler içeren bir paragraf çıkabiliyor. Beşiktaş'taki bir işletme için yapay zekâ görünürlüğü, o paragrafta adının geçmesi ve doğru tarif edilmesi demek. Adınız geçse bile yanlış semtte, yanlış uzmanlıkla ya da eski bir adresle anılıyorsanız kazanılmış bir şey yok.",
    "Beşiktaş bu açıdan ilginç bir ilçe, çünkü aynı ilçe adı altında birbirine hiç benzemeyen sorular toplanıyor. Plaza hattında çalışan biri öğle arasında toplantı için sakin bir restoran soruyor, Etiler'de yaşayan bir veli çocuk diş hekimi arıyor, Ortaköy'e gelen bir turist İngilizce olarak Boğaz manzaralı bir kahvaltı yeri istiyor. Asistan her birine farklı kaynaklardan derlediği bir cevap kuruyor ve bu kaynakların ne söylediği belirleyici oluyor.",
    "Bu ilçedeki işim, o kaynakları sizin lehinize netleştirmek: işletmenizin kim olduğunu, ne yaptığını ve hangi semtte hizmet verdiğini tek ve tutarlı bir hikâyeye dönüştürmek. Aşağıda Beşiktaş'a özgü soru tiplerini, semtlere göre değişen sinyalleri ve ölçümü nasıl kurduğumu anlatıyorum. Sıralama ya da anılma sözü vermiyorum; bu cevaplar asistandan asistana, hatta günden güne değişebiliyor."
   ],
@@ -1239,8 +1239,8 @@
    "satirlar": [
     [
      "Ticaret hukuku büroları",
-     "Levent'te yabancı ortaklı şirketlerle çalışmış, İngilizce sözleşme hazırlayabilen bir avukatlık bürosu önerir misin?",
-     "Avukat bazında Person şeması, uzmanlık alanlarını tanımlayan ayrı sayfalar, baro ve yayın bilgisinin tutarlı sunumu"
+     "X Hukuk Bürosu'nun Levent ofisi hangi çalışma alanlarında hizmet veriyor, İngilizce sözleşme hazırlıyor mu?",
+     "Avukat bazında Person şeması, uzmanlık alanlarını tanımlayan ayrı sayfalar, baro ve yayın bilgisinin tutarlı sunumu; baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Diş ve estetik klinikleri",
@@ -1307,7 +1307,7 @@
   "sss": [
    {
     "s": "Levent'teki bir hukuk bürosunun yapay zekâ cevaplarında anılması için reklam vermesi gerekir mi?",
-    "c": "Asistanların organik cevapları genellikle erişebildikleri içerikten kuruluyor; reklam alanı sunulup sunulmadığı platforma göre değişebilir ve ayrı bir konudur. Bu yüzden büroların uzmanlık sayfaları, yayınlar, röportajlar ve tutarlı profil bilgileri üzerinde çalışmak daha kalıcı bir zemin oluşturuyor."
+    "c": "Asistanların organik cevapları genellikle erişebildikleri içerikten kuruluyor. Avukatlar için çevrimiçi reklam, baronun reklam yasağı düzenlemesinde yasak kapsamında anılıyor; bu yüzden reklam bir seçenek olarak düşünülmemeli. Büronun çalışma alanlarını anlatan sayfalar, yayınlar ve tutarlı profil bilgileri, büro adıyla sorulduğunda doğru tarif edilmesi için daha kalıcı bir zemin oluşturuyor; sınırı baronun güncel düzenlemesi belirler."
    },
    {
     "s": "Ortaköy'deki kafem İngilizce sorularda görünmüyor, nereden başlamalıyım?",
@@ -3115,7 +3115,7 @@
   "pazar": {
    "baslik": "İş Merkezlerine Komşu Bir İlçede Asistana Sorulan Sorular",
    "paragraflar": [
-    "Kağıthane'den ya da Kağıthane hakkında sorulan soruların önemli kısmı iş günü içinde, zaman baskısıyla soruluyor. \"Çağlayan Adliyesi'ne yürüme mesafesinde, iş hukukunda deneyimli bir avukatla görüşmek istiyorum, nasıl bir yol izlemeliyim?\" gibi bir soru, asistanı hem süreç hem de kaynak önermeye yönlendiriyor. Avukatlık alanında reklam kuralları sıkı olduğu için bu noktada bilgilendirici, yayın niteliğinde içerik üretmek öne çıkan bir yöntem.",
+    "Kağıthane'den ya da Kağıthane hakkında sorulan soruların önemli kısmı iş günü içinde, zaman baskısıyla soruluyor. \"Çağlayan Adliyesi'ne yürüme mesafesinde, iş hukukunda deneyimli bir avukatla görüşmek istiyorum, nasıl bir yol izlemeliyim?\" gibi bir soru, asistanı hem süreç hem de kaynak önermeye yönlendiriyor. Avukatlık alanında reklam kuralları sıkı olduğu için hukuk bürolarında hedef öneri listesine girmek değil; baronun reklam yasağı düzenlemesine uygun, bilgilendirici içerik ve büro adıyla sorulduğunda doğru bilgi.",
     "Cendere hattındaki ofislerde çalışanlar ise öğle yemeği, toplantı salonu, kurumsal ikram ve hızlı baskı gibi pratik ihtiyaçları soruyor. \"Cendere'de on kişilik bir ekip için rezervasyon alan, sessiz bir öğle yemeği yeri önerir misin?\" türü sorular, işletmenin kapasite, rezervasyon ve ortam bilgisini yazılı olarak bulundurmasını gerektiriyor. Bu bilgiler yalnızca telefonla verildiğinde cevapta yer almak zorlaşıyor.",
     "Gültepe, Çeliktepe, Nurtepe ve Talatpaşa gibi yoğun yerleşimli mahallelerde sorular gündelik hayata dair. Kentsel dönüşümle değişen semtlerde emlak, tadilat ve taşınma soruları da sıklaşıyor: \"Gültepe'de dönüşüm projelerini bilen, kira sözleşmesi konusunda dürüst bir emlak danışmanı var mı?\" Asistanların bu tür sorularda güven unsurunu yorumlardan ve bağımsız kaynaklardan çıkarmaya çalıştığı izlenimini veriyor."
    ]
@@ -3144,8 +3144,8 @@
    "satirlar": [
     [
      "Hukuk bürosu",
-     "Çağlayan'da kira uyuşmazlıkları konusunda deneyimli avukatlara nasıl ulaşabilirim, ilk görüşmede ne sormalıyım?",
-     "Reklam kurallarına uygun bilgilendirici makaleler, avukat adı ve uzmanlık alanının tutarlılığı, LegalService şeması"
+     "Kira uyuşmazlığında dava öncesi arabuluculuk zorunlu mu, avukatla ilk görüşmede ne sormalıyım?",
+     "Baronun reklam yasağı düzenlemesine uygun bilgilendirici makaleler, avukat adı ve uzmanlık alanının tutarlılığı, LegalService şeması"
     ],
     [
      "Yeminli tercüme bürosu",
@@ -3213,7 +3213,7 @@
   "sss": [
    {
     "s": "Avukatlık bürosu olarak yapay zekâ cevaplarında görünmek reklam kurallarına aykırı mı?",
-    "c": "Asistanların bir büroyu anması, büronun kendi reklamı değil; ancak büronun ürettiği içeriklerin meslek kurallarına uygun olması gerekiyor. Bilgilendirici makaleler, hukuki kavramların sade açıklamaları ve avukat bilgisinin doğru yer alması bu sınırlar içinde kalabilir. Ayrıntıları baronuzun güncel düzenlemeleriyle birlikte değerlendirmek gerekir."
+    "c": "Asistanların bir büroyu anması kendi başına büronun reklamı sayılmayabilir; ancak büronun ürettiği içeriklerin meslek kurallarına uygun olması gerekiyor. Bilgilendirici makaleler, hukuki kavramların sade açıklamaları ve avukat bilgisinin doğru yer alması bu sınırlar içinde kalabilir. Ayrıntıları baronuzun güncel düzenlemeleriyle birlikte değerlendirmek gerekir."
    },
    {
     "s": "İşletmemin Levent ya da Mecidiyeköy sorularında anılması mümkün mü?",
@@ -3253,7 +3253,7 @@
    "baslik": "Acele Eden Ziyaretçi ile Yerleşik Sakin: Kartal'da İki Soru Temposu",
    "paragraflar": [
     "Kartal'daki soruların bir bölümü dakikalarla ölçülen bir aciliyet taşıyor. Adliyeye gelen biri \"Duruşmam öğleden sonra, adliyenin yakınında fotokopi ve dilekçe yazımı yapılan bir yer\" diye sorabiliyor; hastaneye yakınını getiren biri \"Şehir hastanesine yakın, yürüteç kiralayan bir medikal mağaza açık mı?\" diye yazabiliyor. Bu sorularda asistanın verebileceği en yararlı cevap, açık olduğu kesin, konumu belli ve hizmeti net bir işletme. Bu üç bilgiden biri eksikse önerilme ihtimali düşüyor.",
-    "Hukuki sorular ise ayrı bir hassasiyet taşıyor. \"Kartal'da kira tespit davalarına bakan bir avukat\" ya da \"iş uyuşmazlığı için arabuluculuk süreci nasıl işliyor, Kartal'da arabulucu nasıl bulunur?\" gibi sorularda asistanlar genellikle temkinli bir dil kullanıyor, süreci genel hatlarıyla anlatıyor ve bazen baro ya da resmi kaynakları gösteriyor. Bu bağlamda bir büronun öne çıkması, uzmanlık alanlarını meslek kurallarına uygun biçimde, sade ve bilgilendirici bir dille anlatmasına bağlı.",
+    "Hukuki sorular ise ayrı bir hassasiyet taşıyor. \"Kartal'da kira tespit davalarına bakan bir avukat\" ya da \"iş uyuşmazlığı için arabuluculuk süreci nasıl işliyor, Kartal'da arabulucu nasıl bulunur?\" gibi sorularda asistanlar genellikle temkinli bir dil kullanıyor, süreci genel hatlarıyla anlatıyor ve bazen baro ya da resmi kaynakları gösteriyor. Bu bağlamda hukuk bürolarında amaç öne çıkmak değil; çalışma alanlarını baronun reklam yasağı düzenlemesine uygun biçimde, sade ve bilgilendirici bir dille anlatmak.",
     "Diğer tarafta ilçede yaşayan ve uzun vadeli karar veren bir kitle var. Sahil projelerine taşınan aileler, Yakacık ve Soğanlık'taki yerleşik sakinler \"Kartal sahilde, deniz manzaralı ve çocuk oyun alanı olan bir kafe\" ya da \"Yakacık'ta yaşlı annem için evde fizik tedavi hizmeti veren bir merkez\" gibi sorular soruyor. Bu kitlenin sorularında aciliyet daha az, güven ve ayrıntı ihtiyacı daha fazla."
    ]
   },
@@ -3285,8 +3285,8 @@
     ],
     [
      "Avukatlık bürosu",
-     "Kartal'da kira tespiti ve tahliye davalarına bakan, ilk görüşmede süreci anlatan bir avukat önerir misin?",
-     "Uzmanlık alanı tanımları, avukat profilleri, meslek kurallarına uygun bilgilendirici soru-cevap"
+     "Kira tespiti ve tahliye davası hangi aşamalardan geçiyor, Anadolu Adliyesi'nde süreç nasıl işliyor?",
+     "Çalışma alanı tanımları, avukat profilleri, baronun reklam yasağı düzenlemesine uygun bilgilendirici soru-cevap"
     ],
     [
      "Medikal mağaza",
@@ -3353,7 +3353,7 @@
    },
    {
     "s": "Avukatlar meslek kurallarını ihlal etmeden GEO çalışması yapabilir mi?",
-    "c": "Yapılabilir, çünkü burada istenen şey tanıtım değil açıklık. Bir boşanma ya da kira davasının hangi aşamalardan geçtiğini genel hatlarıyla anlatan sayfalar, baro sicil bilgisi görünen avukat profilleri ve her yerde aynı yazılmış büro bilgisi, kurallarla çelişmeyen sinyaller. Kazanılmış dava sayısı, başarı vaadi ya da başka bürolarla kıyas ise bu çalışmanın hiçbir parçasında yer almıyor."
+    "c": "Makul bir alan kalıyor, çünkü burada istenen şey tanıtım değil açıklık. Bir boşanma ya da kira davasının hangi aşamalardan geçtiğini genel hatlarıyla anlatan sayfalar, baro sicil bilgisi görünen avukat profilleri ve her yerde aynı yazılmış büro bilgisi, kurallarla çelişmeyen sinyaller. Kazanılmış dava sayısı, başarı vaadi ya da başka bürolarla kıyas ise bu çalışmanın hiçbir parçasında yer almıyor. Sınırı baronun güncel reklam yasağı düzenlemesi ve hukuki görüş belirler."
    },
    {
     "s": "Hastane yakınındaki işletmem hastane adını sitede kullanabilir mi?",
@@ -3922,7 +3922,7 @@
   "desc": "Sarıyer GEO uzmanı: Maslak firmaları, Boğaz kıyısı mekânları ve Zekeriyaköy okulları için ChatGPT, Gemini ve AI Overviews cevaplarında anılma çalışması.",
   "giris": [
    "Birisi telefonuna \"Cumartesi akşamı Boğaz'a bakan, çok gürültülü olmayan bir balık restoranı öner, Sarıyer tarafı olsun\" yazdığında karşısına on mavi bağlantı çıkmıyor; birkaç mekân adı, kısa gerekçeler ve bazen kaynak bağlantıları çıkıyor. Sarıyer'de GEO çalışmasını ben tam olarak bu kısa listeye girme meselesi olarak görüyorum. Liste kısa olduğu için orada yer almayan işletme, kullanıcının gözünde o an hiç var olmuyor.",
-   "İlçenin yapısı bu işi ilginç kılıyor. Maslak'ta bir satın alma müdürü asistana \"Avrupa yakasında ofisi olan, KVKK uyum projelerinde deneyimli hukuk büroları hangileri?\" diye sorabiliyor. Aynı gün Tarabya'da nişan yeri arayan bir çift ya da Zekeriyaköy'de anaokulu karşılaştıran bir veli de benzer bir sohbet başlatıyor. Üç sorunun ortak noktası, cevabın tek bir web sitesinden değil, işletme hakkında farklı yerlerde yazılmış bilgilerin toplamından üretilmesi.",
+   "İlçenin yapısı bu işi ilginç kılıyor. Maslak'ta bir satın alma müdürü asistana \"Avrupa yakasında ofisi olan, KVKK uyum projelerinde deneyimli danışmanlık firmaları hangileri?\" diye sorabiliyor. Aynı gün Tarabya'da nişan yeri arayan bir çift ya da Zekeriyaköy'de anaokulu karşılaştıran bir veli de benzer bir sohbet başlatıyor. Üç sorunun ortak noktası, cevabın tek bir web sitesinden değil, işletme hakkında farklı yerlerde yazılmış bilgilerin toplamından üretilmesi.",
    "Bu yüzden Sarıyer'deki bir işletme için yaptığım iş yalnızca kendi sitesini düzeltmekle bitmiyor. İşletmenin adı, adresi ve ne yaptığı her platformda aynı mı; yorumlarda hangi özellikler tekrar tekrar anılıyor; yerel rehberlerde, listelerde ve haberlerde nasıl geçiyor? Aşağıda bu soruları ilçenin akslarına ve sektörlerine göre ele alıyorum. Rakam ya da sonuç vaadi yok; yöntemi ve gerekçesini anlatıyorum."
   ],
   "pazar": {
@@ -4321,7 +4321,7 @@
   "alt": "Nişantaşı kliniklerine yabancı dilde gelen sorulardan Osmanbey toptancılarına, Şişli işletmelerinin asistan cevaplarında anılması.",
   "desc": "Şişli GEO uzmanı: Nişantaşı klinikleri, Osmanbey toptancıları, Mecidiyeköy ofisleri ve Bomonti mekânları için yapay zekâ cevaplarında çok dilli görünürlük.",
   "giris": [
-   "Londra'da yaşayan biri bir asistana \"Is there a dermatology clinic in Nişantaşı where I can book an appointment in English?\" diye yazıyor; Mecidiyeköy'de çalışan bir insan kaynakları müdürü ise \"Şişli'de ofisi olan, yabancı çalışan izni konusunda deneyimli bir iş hukuku bürosu önerir misin?\" diye soruyor. İki soru da Şişli'deki bir işletmeye çıkıyor ama ikisinin cevabı da birkaç isim ve kısa gerekçeden ibaret. Şişli'de GEO çalışması, bu kısa cevaplarda doğru bilgiyle yer almanın yollarını aramak demek.",
+   "Londra'da yaşayan biri bir asistana \"Is there a dermatology clinic in Nişantaşı where I can book an appointment in English?\" diye yazıyor; Mecidiyeköy'de çalışan bir insan kaynakları müdürü ise \"Şişli'de ofisi olan, yabancı çalışan izni konusunda deneyimli bir danışmanlık firması önerir misin?\" diye soruyor. İki soru da Şişli'deki bir işletmeye çıkıyor ama ikisinin cevabı da birkaç isim ve kısa gerekçeden ibaret. Şişli'de GEO çalışması, bu kısa cevaplarda doğru bilgiyle yer almanın yollarını aramak demek.",
    "İlçenin yoğunluğu burada iki yönlü çalışıyor. Bir yandan Şişli'de hemen her sektörde çok sayıda işletme var ve bunların bir kısmı yıllardır basında, listelerde, forumlarda anılıyor; asistanlar da cevap oluştururken bu birikimden yararlanabiliyor. Öte yandan işletmeler çoğu zaman aynı caddede, hatta aynı binada bulunduğu için ad ve adres karışıklıkları sık yaşanıyor. Yeni bir işletme için hem bilinirlik açığını kapatmak hem de komşularından ayırt edilebilmek gerekiyor.",
    "Aşağıda Şişli'nin akslarında asistanlara sorulan soru tiplerini, öne çıkan sinyalleri, varsayımsal bir senaryoyu ve sık rastladığım hataları anlatıyorum. Herhangi bir sonuç rakamı ya da müşteri adı vermiyorum; yöntemi ve gerekçesini paylaşıyorum."
   ],
@@ -4366,8 +4366,8 @@
     ],
     [
      "Hukuk ve danışmanlık",
-     "Esentepe ya da Mecidiyeköy'de yabancı şirketlere iş hukuku danışmanlığı veren, İngilizce çalışan bürolar önerir misin?",
-     "Uzmanlık alanı tanımları, avukat profilleri, yazar ve tarih bilgisi taşıyan rehber yazılar"
+     "Yabancı çalışan izni başvurusu hangi aşamalardan geçiyor, Esentepe'deki X Hukuk Bürosu İngilizce çalışıyor mu?",
+     "Çalışma alanı tanımları, avukat profilleri, yazar ve tarih bilgisi taşıyan rehber yazılar; baronun reklam yasağı düzenlemesine uygun biçimde"
     ],
     [
      "Otel ve etkinlik mekânları",
@@ -4444,7 +4444,7 @@
    },
    {
     "s": "Şişli'deki bir hukuk bürosu yapay zekâ cevaplarında kaynak olarak gösterilebilecek içeriği nasıl yazar?",
-    "c": "Belirli bir soruyu doğrudan cevaplayan, yazarı ve güncelleme tarihi belli, kısa tanımlar ve adım adım açıklamalar içeren yazılar bu tür cevaplarda alıntılanmaya daha elverişli. Genel tanıtım metinleri yerine, örneğin yabancı çalışan izni sürecinin aşamalarını anlatan bir rehber daha işe yarar. Meslek kurallarına uygun, reklam niteliği taşımayan bir dil korunmalı."
+    "c": "Belirli bir soruyu doğrudan cevaplayan, yazarı ve güncelleme tarihi belli, kısa tanımlar ve adım adım açıklamalar içeren yazılar bu tür cevaplarda alıntılanmaya daha elverişli. Genel tanıtım metinleri yerine, örneğin yabancı çalışan izni sürecinin aşamalarını anlatan bir rehber daha işe yarar. Baronun reklam yasağı düzenlemesine uygun, reklam niteliği taşımayan bir dil korunmalı; sınırı baronun güncel düzenlemesi belirler."
    },
    {
     "s": "Şişli'deki işletmemin yapay zekâ kaynaklı trafiğini GA4'te nasıl görebilirim?",

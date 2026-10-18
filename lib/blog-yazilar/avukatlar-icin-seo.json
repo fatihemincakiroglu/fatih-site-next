@@ -1,0 +1,337 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 8,
+ "baslik_tr": "Avukatlar İçin SEO: Reklam Yasağına Uyarak Dijital Görünürlük",
+ "baslik_en": "SEO for Lawyers in Turkey: Online Visibility Within the Advertising Ban",
+ "meta_baslik_tr": "Avukatlar İçin SEO: Reklam Yasağına Uygun Görünürlük",
+ "meta_baslik_en": "SEO for Lawyers: Visibility Within the Advertising Ban",
+ "meta_desc_tr": "Avukat ve hukuk büroları reklam yasağını aşmadan internette nasıl bulunur? Bilgilendirme ile reklam farkı, web sitesi, işletme profili ve isim aramaları.",
+ "meta_desc_en": "How can lawyers in Turkey be found online without breaching the advertising ban? Information vs advertising, websites, business profiles and name searches.",
+ "ozet_tr": "Reklam yasağı altında avukatlar için neyin mümkün, neyin riskli olduğunu ayıran dürüst bir dijital görünürlük çerçevesi.",
+ "ozet_en": "An honest framework for lawyers in Turkey: what is workable online under the advertising ban and what carries risk.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir avukatı arayan kişi çoğu zaman önce bir tavsiye alır, sonra o ismi Google'a yazar. Karşısına çıkan sayfa eksik, eski ya da yanlışsa, tavsiye orada kaybolur. Bu yüzden hukuk büroları için dijital görünürlük, klasik “sıralama yarışı”ndan çok, doğru bilginin doğru yerde bulunması meselesidir.",
+    "Türkiye'de avukatlar için ayrıca bir reklam yasağı var ve bu yasak yalnızca tabela ya da gazete ilanıyla sınırlı değil. Türkiye Barolar Birliği'nin düzenlemesi, son yıllardaki değişikliklerle internet siteleri, sosyal medya ve arama motorlarını da açıkça kapsıyor. Bu yazıda bir SEO danışmanı olarak bu çerçevede neyi makul, neyi riskli gördüğümü anlatıyorum. Hukuki görüş değildir; her adımda baronuzun güncel düzenlemesini ve bir hukuki değerlendirmeyi esas alın.",
+    {
+     "alinti": "Kısa cevap: Türkiye'de avukatlar için SEO, reklam yasağı nedeniyle anahtar kelimeyle üst sıralara çıkma çalışması değil; büronun adıyla aranınca doğru, güncel ve teknik olarak sağlam bir sitenin ve tutarlı kimlik bilgilerinin bulunmasıdır. Üstünlük iddiası, sonuç vaadi, referans listesi ve ücretli çevrimiçi reklam düzenlemeyle sorun yaratabilir; sınırı baronuzun güncel düzenlemesi belirler."
+    }
+   ]
+  },
+  {
+   "baslik": "Avukatlar için reklam yasağı internette neyi kapsıyor?",
+   "paragraflar": [
+    "Avukatlık Kanunu avukatların iş elde etmek için reklam yapmasını yasaklar; Türkiye Barolar Birliği'nin reklam yasağına ilişkin yönetmeliği de bu yasağın ayrıntılarını belirler. Yönetmelikte 2024'te yapılan değişiklik, internetle ilgili hükümleri belirgin biçimde sıkılaştırdı. Genel düzeyde öne çıkan noktalar şunlar:",
+    {
+     "liste": [
+      "Arama motorlarında üst sıralarda yer almaya yönelik anahtar sözcük, yönlendirici kod ve benzeri yöntemlerin kullanılması düzenlemede açıkça anılıyor.",
+      "Çevrimiçi mecralarda ücretli ya da ücretsiz reklam vermek ve almak yasak kapsamında değerlendiriliyor.",
+      "İnternet sitesinde “referanslar” ya da benzer adla müvekkil bilgisi paylaşılmaması isteniyor.",
+      "Büronun faaliyet alanları, uzmanlık iddiası anlamına gelmeyecek biçimde belirtilebiliyor.",
+      "İş elde etmeye yönelik genel ve soyut içerikli paylaşımlar ile mesleki kimlikle ilişkilendirilen tanıtım amaçlı sosyal medya paylaşımları sınırlanıyor."
+     ]
+    },
+    "2026'da Türkiye Barolar Birliği bünyesinde, internet dahil iletişim araçlarındaki reklam yasağı ihlallerini takip etmek üzere bir merkez kuruldu. Düzenlemenin bazı hükümlerine karşı yargı yoluna başvurulduğu da kamuoyuna yansıdı. Yani bu alan hem hareketli hem de denetimi artan bir alan; bir yıl önce makul görünen bir uygulama bugün farklı değerlendirilebilir."
+   ]
+  },
+  {
+   "baslik": "Bilgilendirme ile reklam arasındaki çizgi nerede?",
+   "paragraflar": [
+    "Sahada en sık gördüğüm karışıklık, “bilgi veriyorum” denilen sayfanın aslında bir satış metni gibi kurgulanmış olması. Çizgiyi tek bir kelime değil, sayfanın bütün amacı ve dili belirler. Aşağıdaki tablo kesin bir hukuki sınıflandırma değil; bir site incelemesinde dikkat çektiğim örnekler:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Örnek ifade veya uygulama",
+       "Neden dikkat gerektirir?",
+       "Daha ölçülü yaklaşım"
+      ],
+      "satirlar": [
+       [
+        "“İstanbul'un en iyi boşanma avukatı”",
+        "Meslektaşlara karşı üstünlük iddiası",
+        "Büro adı ve faaliyet alanlarının sade listesi"
+       ],
+       [
+        "“Davaların yüzde 95'ini kazanıyoruz”, “kesin sonuç”",
+        "Başarı oranı ve sonuç vaadi yanıltıcı ve tanıtım amaçlı sayılabilir",
+        "Sonuçla ilgili hiçbir vaatte bulunmamak"
+       ],
+       [
+        "Müvekkil logoları, “referanslarımız” sayfası",
+        "Düzenleme bu tür bölümleri doğrudan sınırlıyor",
+        "Bu bölümü hiç kullanmamak"
+       ],
+       [
+        "“Uzman avukat” unvanı",
+        "Faaliyet alanı ile uzmanlık iddiası ayrı tutuluyor",
+        "“Çalışma alanlarımız” gibi nötr bir ifade"
+       ],
+       [
+        "Sponsorlu sosyal medya gönderisi, arama reklamı",
+        "Çevrimiçi reklam yasak kapsamında anılıyor",
+        "Reklam bütçesi ayırmadan önce baro görüşü almak"
+       ],
+       [
+        "Ad, unvan, adres, telefon, baro sicil bilgisi",
+        "Kimlik ve iletişim bilgisi niteliğinde",
+        "Her yerde aynı biçimde ve güncel tutmak"
+       ]
+      ]
+     }
+    },
+    "“Hemen arayın”, “ücretsiz ön görüşme” gibi eylem çağrıları, indirim ve paket fiyat duyuruları ile müvekkil memnuniyeti alıntıları da tanıtım niteliği taşıyabilir. Böyle bir ifadeyi kullanmadan önce kendime sorduğum soru şu: Bu cümle bilgi mi veriyor, yoksa iş getirmeye mi çalışıyor?"
+   ]
+  },
+  {
+   "baslik": "Hukuk bürosu web sitesi teknik olarak nasıl olmalı?",
+   "paragraflar": [
+    "Düzenleme avukatların kimlik ve iletişim bilgilerini içeren bir internet sitesine sahip olmasına izin veriyor. Bu sitenin hızlı açılması, mobilde düzgün görünmesi ve arama motorlarınca taranabilmesi tanıtım değil, temel kalite meselesidir. Bir hukuk bürosu sitesinde kontrol ettiğim noktalar:",
+    {
+     "kontrol": [
+      "Site HTTPS ile açılıyor, mobilde okunaklı ve hızlı",
+      "Sayfa başlıkları büro adını ve sayfanın konusunu sade biçimde taşıyor; anahtar kelime yığını yok",
+      "Avukat sayfalarında ad, unvan, eğitim, bildiği diller ve baro sicil bilgisi var",
+      "Adres, telefon ve çalışma saatleri tüm sayfalarda ve diğer platformlarda aynı",
+      "Eski kampanya, referans ya da “en iyi” ifadeleri içeren sayfalar temizlenmiş",
+      "Kişisel veri içeren formlar için aydınlatma metni ve güvenli iletim var"
+     ]
+    },
+    "Altyapı tarafındaki ayrıntılar için [teknik SEO temelleri rehberine](/rehber/teknik-seo) bakabilirsiniz. Büronun kimliğini makinelere net anlatmak için schema.org'daki LegalService türüyle ad, adres ve telefonu işaretlemek yeterli olur; işaretlemenin taslağını [schema oluşturucu aracıyla](/araclar/schema-olusturucu) hazırlayıp [yapısal veri rehberindeki](/rehber/schema-yapisal-veri) kontrollerle test edebilirsiniz. Burada amaç sıralama hilesi değil, mevcut bilgiyi doğru tanımlamaktır."
+   ]
+  },
+  {
+   "baslik": "İsim aramaları ve yapay zekâ cevaplarında doğru görünmek",
+   "paragraflar": [
+    "Avukatlar için en değerli arama çoğu zaman büro ya da avukat adıyla yapılan aramadır. Bu aramada sitenizin ilk sırada çıkması, eski bir adresin ya da kapanmış bir ortaklığın görünmemesi, telefonun doğru olması gerekir. Bu iş anahtar kelime hedeflemesi gerektirmez; tutarlılık gerektirir.",
+    "Aynı durum Google'ın yapay zekâ özellikleri ve ChatGPT gibi asistanlar için de geçerli. Bir kullanıcı “X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” diye sorduğunda asistan, internette bulduğu bilgileri birleştirir. Bilgiler çelişkiliyse cevap da çelişkili olur. Markanızın bu cevaplarda nasıl anlatıldığını anlamak için [GEO uygulama rehberindeki](/rehber/geo-uygulama) test yöntemini, linksiz anılmaların rolü için [marka bahsi (brand mention) yazısını](/blog/marka-bahsi-brand-mention) okuyabilirsiniz. Avukatlar için bu bahislerin kaynağı tanıtım içeriği değil; akademik yayınlar, baro ve üniversite sayfaları gibi doğal kayıtlardır."
+   ]
+  },
+  {
+   "baslik": "Google işletme profili ve yorumlar avukatlar için uygun mu?",
+   "paragraflar": [
+    "Google'ın kuralları açısından avukatlar işletme profili açabilir. Birden fazla avukatın çalıştığı bir büroda büronun kendi profili, müvekkil kabul eden avukatların ise ayrı profilleri olabilir; destek personeli profil açmaz. Profil kurulumu, kategori ve doğrulama adımlarını [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında ayrıntılı anlattım.",
+    "Reklam yasağı açısından ise profilin dikkat gerektiren alanları var:",
+    {
+     "liste": [
+      "**İşletme adı:** Google zaten adın gerçek tabela adıyla aynı olmasını istiyor; “Boşanma Avukatı Kadıköy” gibi eklemeler hem Google kurallarına hem de meslek kurallarına aykırı düşebilir.",
+      "**Açıklama ve gönderiler:** Kimlik bilgisini aşan, iş elde etmeye yönelik metinler tanıtım sayılabilir.",
+      "**Yorum istemek:** Müvekkilden yorum talep etmenin ve yorumları tanıtım amaçlı kullanmanın meslek kuralları karşısındaki durumu ayrıca değerlendirilmeli.",
+      "**Yorumlara cevap:** Cevapta kişinin müvekkiliniz olduğunu doğrulayan ya da dosya ayrıntısı içeren hiçbir bilgi yer almamalı."
+     ]
+    },
+    "Yorum cevaplarında gizliliği korurken nasıl ölçülü yazılacağını [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında örneklerle ele aldım. Profilin yerel aramalardaki yerini anlamak için [yerel SEO rehberi](/rehber/yerel-seo) genel resmi veriyor; ancak oradaki yorum toplama ve yerel bağlantı önerilerini avukatlar için doğrudan uygulamadan önce baronuza danışın."
+   ]
+  },
+  {
+   "baslik": "Makale ve içerik yayınlamak hâlâ mümkün mü?",
+   "paragraflar": [
+    "Bu, avukatlarla yaptığım görüşmelerde en çok sorulan konu. Düzenleme internet sitesinde mesleki yayın ve makale bulundurmayı tümüyle kapatmıyor; ancak iş elde etmeye yönelik genel ve soyut içerik paylaşımını sınırlıyor. Hangi yazının bu kapsama girdiğine dair kesin bir liste yok. Benim önerim, içerik üretimine başlamadan önce yazılı bir baro görüşü ya da meslek hukuku alanında çalışan bir meslektaştan değerlendirme almak.",
+    "Bu değerlendirme olumlu çıkarsa bile ton önemli: eylem çağrısı içermeyen, belirli bir arama ifadesini tekrar etmek için yazılmamış, tarih ve kaynak bilgisi taşıyan, akademik ya da mevzuat değişikliği notu niteliğinde yazılar. Yoğun anahtar kelime tekrarı, şehir adlarıyla çoğaltılmış sayfalar ve “avukat tutmadan önce bilmeniz gerekenler” gibi müvekkil kazanmaya dönük kurgular bu alanda risklidir."
+   ]
+  },
+  {
+   "baslik": "Hukuk büroları için dijital görünürlük kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Baronuzun güncel reklam yasağı düzenlemesini okuyun ve gerektiğinde yazılı görüş alın",
+      "Sitedeki üstünlük iddialarını, başarı oranlarını, referans bölümlerini ve eylem çağrılarını kaldırın",
+      "Büro ve avukat adıyla arama yapıp çıkan sonuçları, eski adres ve telefonları kontrol edin",
+      "Ad, adres ve telefonu site, işletme profili ve baro kaydında aynı yazın",
+      "Sitenin hızını, mobil görünümünü ve taranabilirliğini düzeltin",
+      "Yorum cevaplarında gizlilik kuralını yazılı hâle getirin",
+      "Yılda en az bir kez, düzenleme değişikliklerine karşı sitenin tamamını gözden geçirin"
+     ]
+    },
+    "Bir SEO danışmanının bu alanda yapabileceği iş sınırlı ama değerli: teknik altyapıyı düzeltmek, tutarsız bilgileri temizlemek ve sitenin reklam niteliği taşıyan öğelerini sizinle birlikte tespit etmek. Hukuk bürolarıyla nasıl çalıştığımı [avukat SEO danışmanlığı](/sektorler/avukat-seo) sayfasında anlattım; mevcut sitenizi bu gözle incelememi isterseniz [iletişim sayfasından](/iletisim) yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "People looking for a lawyer usually get a recommendation, then type that name into Google. If what they find is outdated or wrong, the recommendation dies there. For law firms, visibility is about correct information in the right place, not a ranking race.",
+    "Lawyers in Turkey also work under an advertising ban, and it is not limited to signs or newspaper ads. Through recent amendments, the Union of Turkish Bar Associations' rules explicitly cover websites, social media and search engines. In this article I explain, as an SEO consultant, what I consider reasonable and what I consider risky within that framework. This is not legal advice; at every step, rely on your bar's current rules and a proper legal review.",
+    {
+     "alinti": "Short answer: Because of the advertising ban, SEO for lawyers in Turkey is not about using keywords to climb the rankings. It is about making sure a correct, current and technically sound website and consistent identity details appear when people search for the firm by name. Superiority claims, promised outcomes, client reference lists and paid online ads can cause problems; your bar's current rules set the boundary."
+    }
+   ]
+  },
+  {
+   "baslik": "What does the lawyer advertising ban cover online?",
+   "paragraflar": [
+    "The Attorneys' Act prohibits lawyers from advertising to obtain work, and the Union of Turkish Bar Associations' regulation on the advertising ban sets out the details. A 2024 amendment noticeably tightened the internet-related provisions. At a general level, the key points are:",
+    {
+     "liste": [
+      "Using keywords, redirecting code or similar methods aimed at ranking high in search engines is explicitly mentioned.",
+      "Giving or receiving paid or unpaid advertising on online channels falls within the ban.",
+      "Websites should not share client information under a “references” section or any similar label.",
+      "A firm may describe its practice areas, provided this does not amount to a claim of specialisation.",
+      "General, abstract content shared to obtain work, and promotional social media posts tied to one's professional identity, are restricted."
+     ]
+    },
+    "In 2026, the Union of Turkish Bar Associations set up a unit to monitor advertising ban violations across communication channels, including the internet. It has also been reported that some provisions of the regulation have been challenged in court. A practice that seemed reasonable a year ago may be judged differently today."
+   ]
+  },
+  {
+   "baslik": "Where is the line between information and advertising?",
+   "paragraflar": [
+    "The most common confusion is an “informational” page built like a sales page. The line is drawn by the page's purpose and tone, not a single word. The table is not a legal classification; it lists examples I flag in site reviews:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Example wording or practice",
+       "Why it needs care",
+       "A more measured approach"
+      ],
+      "satirlar": [
+       [
+        "“Istanbul's best divorce lawyer”",
+        "A claim of superiority over colleagues",
+        "A plain list of the firm's name and practice areas"
+       ],
+       [
+        "“We win 95% of our cases”, “certain outcome”",
+        "Success rates and promised outcomes can be misleading and promotional",
+        "Make no promises about outcomes at all"
+       ],
+       [
+        "Client logos, an “our references” page",
+        "The regulation restricts such sections directly",
+        "Do not use this section"
+       ],
+       [
+        "“Specialist lawyer” title",
+        "Practice areas and claims of specialisation are treated separately",
+        "Neutral wording such as “areas of practice”"
+       ],
+       [
+        "Sponsored social posts, search ads",
+        "Online advertising is named within the ban",
+        "Get your bar's view before setting any ad budget"
+       ],
+       [
+        "Name, title, address, phone, bar registration",
+        "Identity and contact information",
+        "Keep it identical and current everywhere"
+       ]
+      ]
+     }
+    },
+    "Calls to action such as “call now” or “free first consultation”, discounts and package prices, and client satisfaction quotes can also read as promotion. Before using such a line, I ask myself one question: is this sentence informing, or is it trying to bring in work?"
+   ]
+  },
+  {
+   "baslik": "How should a law firm website be built technically?",
+   "paragraflar": [
+    "The rules allow lawyers to have a website containing their identity and contact details. That site loading quickly, displaying properly on mobile and being crawlable by search engines is basic quality, not promotion. These are the points I check on a law firm site:",
+    {
+     "kontrol": [
+      "The site loads over HTTPS, is readable and fast on mobile",
+      "Page titles carry the firm name and the page topic plainly, with no keyword stuffing",
+      "Lawyer pages include name, title, education, languages and bar registration details",
+      "Address, phone and hours are identical across all pages and other platforms",
+      "Old campaign, reference or “best” wording has been removed",
+      "Forms collecting personal data have a privacy notice and secure transmission"
+     ]
+    },
+    "For the infrastructure side, see the [technical SEO fundamentals guide](/en/guides/teknik-seo). To describe the firm's identity clearly to machines, marking up name, address and phone with schema.org's LegalService type is enough; you can draft the markup with the [schema generator tool](/en/tools/schema-generator) and test it using the checks in the [structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Appearing correctly in name searches and AI answers",
+   "paragraflar": [
+    "For lawyers, the most valuable search is usually for the firm's or lawyer's name. That search needs to show your site first, no old address or dissolved partnership, and the right phone number. This does not require keyword targeting; it requires consistency.",
+    "The same applies to Google's AI features and assistants such as ChatGPT. When a user asks “Where is X Law Firm and what areas does it work in?”, the assistant combines what it finds online. If the information conflicts, so does the answer. To see how your brand is described in these answers, use the testing method in the [GEO implementation guide](/en/guides/geo-uygulama), and for the role of unlinked mentions read the [brand mention article](/en/blog/marka-bahsi-brand-mention). For lawyers, those mentions should come from natural records such as academic publications, bar and university pages, not promotional content."
+   ]
+  },
+  {
+   "baslik": "Are Google Business Profiles and reviews suitable for lawyers?",
+   "paragraflar": [
+    "Under Google's rules, lawyers can have a Business Profile. In a firm with several lawyers, the firm can have its own profile and client-facing lawyers can have separate ones; support staff should not. I cover setup, categories and verification in detail in the [Google Business Profile optimization](/en/blog/google-business-profile) article.",
+    "From the advertising ban's perspective, some parts of the profile need care:",
+    {
+     "liste": [
+      "**Business name:** Google already requires the real-world name; additions like “Divorce Lawyer Kadıköy” may breach both Google's rules and professional rules.",
+      "**Description and posts:** Text that goes beyond identity details and aims to bring in work can count as promotion.",
+      "**Asking for reviews:** Whether requesting reviews from clients, and using them promotionally, fits professional rules needs a separate assessment.",
+      "**Replying to reviews:** A reply must never confirm that the person is a client or include any case details."
+     ]
+    },
+    "I cover how to keep replies measured while protecting confidentiality, with examples, in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap). The [local SEO guide](/en/guides/yerel-seo) gives the broader picture of the profile's role in local search, but check with your bar before applying its review and local link advice to a law firm."
+   ]
+  },
+  {
+   "baslik": "Can lawyers still publish articles and content?",
+   "paragraflar": [
+    "The rules do not fully rule out professional publications and articles on a website, but they restrict general, abstract content shared to obtain work. There is no definitive list of which articles fall into that category. My advice is to get a written opinion from your bar, or a review from a colleague working in professional ethics law, before starting any content production.",
+    "Even if that review is positive, tone matters: articles without calls to action, not written to repeat a particular search phrase, carrying dates and sources, closer to academic notes or updates on legislative changes. Heavy keyword repetition, pages multiplied by city name and client-acquisition pieces such as “what to know before hiring a lawyer” are risky here."
+   ]
+  },
+  {
+   "baslik": "Online visibility checklist for law firms",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Read your bar's current advertising rules and get a written opinion where needed",
+      "Remove superiority claims, success rates, reference sections and calls to action from the site",
+      "Search for the firm and lawyer names and check for old addresses and phone numbers",
+      "Write name, address and phone identically on the site, Business Profile and bar records",
+      "Fix the site's speed, mobile display and crawlability",
+      "Put a confidentiality rule for review replies in writing",
+      "Review the whole site against regulatory changes at least once a year"
+     ]
+    },
+    "An SEO consultant's role here is limited but useful: fixing the technical foundation, cleaning up inconsistent information and identifying, with you, what reads as advertising. I describe how I work with law firms on the [law firm SEO consulting](/en/industries/law-firm-seo) page; if you would like me to review your current site with this lens, get in touch via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Avukatlar Google Ads ile reklam verebilir mi?",
+   "c": "Düzenleme çevrimiçi mecralarda reklam verilmesini yasak kapsamında anıyor; arama reklamları da bu çerçevede değerlendirilir. Herhangi bir ücretli dijital kampanyaya başlamadan önce baronuzun güncel görüşünü almanızı öneririm."
+  },
+  {
+   "s": "Avukat olarak sosyal medya hesabı kullanabilir miyim?",
+   "c": "Kişisel hesap kullanmak yasak değil; ancak mesleki kimlikle ilişkilendirilen, tanıtım ya da iş elde etme amacı taşıyan paylaşımlar sınırlanıyor. Kazanç, dava başarısı veya müvekkil bilgisi içeren paylaşımlardan uzak durmak ve sınırı baronuzla netleştirmek gerekir."
+  },
+  {
+   "s": "Bir SEO danışmanıyla çalışmak reklam yasağına aykırı mı?",
+   "c": "Bu, yapılan işin içeriğine bağlıdır. Teknik bakım, hız ve bilgi tutarlılığı gibi işler tanıtımdan çok kalite meselesidir; üst sıralara çıkmaya yönelik anahtar kelime çalışmaları ise düzenlemede açıkça anılıyor. Sözleşmeden önce kapsamı yazılı olarak belirleyip hukuki değerlendirmeye sunun."
+  },
+  {
+   "s": "Rakip bir büro açıkça reklam yapıyorsa ne yapmalıyım?",
+   "c": "Benzer bir uygulamaya geçmek sizi de aynı riske sokar. Bir ihlal olduğunu düşünüyorsanız değerlendirme ve şikâyet yolu baroya aittir; bu konuda bir meslektaşınızdan hukuki destek alabilirsiniz."
+  },
+  {
+   "s": "Yabancı müvekkiller için İngilizce site hazırlayabilir miyim?",
+   "c": "Kimlik ve iletişim bilgilerini farklı dillerde sunmak ayrı bir tanıtım iddiası taşımaz. Yine de İngilizce metinlerin de aynı kurallara tabi olduğunu, çeviride üstünlük iddiası veya eylem çağrısı eklenmemesi gerektiğini unutmayın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can lawyers in Turkey advertise with Google Ads?",
+   "c": "The rules name advertising on online channels within the ban, and search ads are assessed in that context. Before starting any paid digital campaign, I recommend getting your bar's current view."
+  },
+  {
+   "s": "Can I use social media as a lawyer?",
+   "c": "Having a personal account is not prohibited, but posts tied to your professional identity that promote you or aim to bring in work are restricted. Stay away from posts about earnings, case wins or clients, and clarify the boundary with your bar."
+  },
+  {
+   "s": "Does working with an SEO consultant breach the advertising ban?",
+   "c": "It depends on the work. Technical maintenance, speed and information consistency are quality issues rather than promotion, while keyword work aimed at ranking higher is explicitly mentioned in the rules. Define the scope in writing before signing and have it legally reviewed."
+  },
+  {
+   "s": "What should I do if a competing firm is openly advertising?",
+   "c": "Copying the practice puts you at the same risk. If you believe there is a violation, assessment and complaints are a matter for the bar; a colleague can advise you on that process."
+  },
+  {
+   "s": "Can I build an English site for international clients?",
+   "c": "Presenting identity and contact details in other languages does not add a promotional claim. Remember, though, that English text is subject to the same rules, so translations should not introduce superiority claims or calls to action."
+  }
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 9,
+ "baslik_tr": "ikas, IdeaSoft, T-Soft ve Shopify: SEO Açısından Karşılaştırma",
+ "baslik_en": "ikas, IdeaSoft, T-Soft and Shopify: An SEO Comparison",
+ "meta_baslik_tr": "ikas, IdeaSoft, T-Soft, Shopify: SEO Karşılaştırması",
+ "meta_baslik_en": "ikas vs IdeaSoft vs T-Soft vs Shopify: SEO Comparison",
+ "meta_desc_tr": "ikas, IdeaSoft, T-Soft ve Shopify'ı resmi dokümanlardaki SEO özellikleriyle karşılaştırdım: meta alanları, 301, site haritası, çok dil ve hangisi ne zaman.",
+ "meta_desc_en": "Comparing ikas, IdeaSoft, T-Soft and Shopify on documented SEO features: meta fields, 301 redirects, sitemaps, multilingual setup and which fits which store.",
+ "ozet_tr": "Dört e-ticaret altyapısının resmi dokümanlardaki SEO özellikleri ve hangi durumda hangisinin uygun olduğu.",
+ "ozet_en": "Four e-commerce platforms compared on the SEO features their own documentation lists, with a which-fits-when framework.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-ticarete başlayan ya da altyapı değiştirmeyi düşünen işletmelerin bana en sık sorduğu sorulardan biri şu: ikas mı, IdeaSoft mu, T-Soft mu, Shopify mı? SEO açısından cevabım çoğu zaman aynı: dördüyle de sıralama alınabilir, ama her birinde farklı ayarlara dikkat etmek gerekir. Asıl fark, platformun size hangi teknik kontrolleri verdiği ve bunların ne kadar kolay kullanıldığıdır.",
+    "Bu yazıda dört altyapıyı yalnızca kendi resmi SEO ve yardım sayfalarında yazan özellikler üzerinden karşılaştırıyorum. Fiyat vermiyorum; paketler sık değiştiği için güncel fiyatı her platformun resmi sitesinden kontrol edin. Hiçbir platformla sponsorluk ya da ortaklık ilişkim yok. Mağaza tarafındaki genel işler için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) bu yazının tamamlayıcısı.",
+    {
+     "alinti": "Kısa cevap: ikas, IdeaSoft, T-Soft ve Shopify'ın dördü de resmi dokümanlarında meta başlık ve açıklama düzenleme, URL özelleştirme, 301 yönlendirme ve otomatik XML site haritası sunuyor. Seçimi belirleyen; toplu düzenleme ihtiyacı, çok dilli satış planı, robots.txt ve canonical gibi ileri ayarlara erişim ve ekibinizin hangi panelde rahat çalıştığıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "E-ticaret altyapısını SEO açısından değerlendirirken hangi kriterlere bakmalı?",
+   "paragraflar": [
+    "Bir altyapının kendini “SEO uyumlu” diye tanımlaması tek başına bir şey anlatmaz. Demo hesabında ya da satış görüşmesinde şu soruları tek tek sormanızı öneririm:",
+    {
+     "liste": [
+      "Ürün, kategori, marka ve blog sayfalarında meta başlık ve açıklama ayrı ayrı düzenlenebiliyor mu, toplu güncelleme var mı?",
+      "URL'ler elle değiştirilebiliyor mu, değişince eski adres otomatik yönlendiriliyor mu?",
+      "301 yönlendirmeler tek tek ve toplu (Excel/CSV) eklenebiliyor mu?",
+      "XML site haritası otomatik üretilip güncelleniyor mu?",
+      "robots.txt ve canonical etiketlerine müdahale edilebiliyor mu?",
+      "Çok dilli satışta her dil için ayrı URL ve dil başına SEO alanları var mı?",
+      "Filtreli kategori sayfalarının ürettiği parametreli URL'ler nasıl yönetiliyor?"
+     ]
+    },
+    "Son madde özellikle önemli; filtre ve varyant kaynaklı URL şişmesi, sahada en sık gördüğüm tarama sorunlarından biri."
+   ]
+  },
+  {
+   "baslik": "ikas, IdeaSoft, T-Soft ve Shopify SEO özellikleri karşılaştırma tablosu",
+   "paragraflar": [
+    "Tablo, Ekim 2026 itibarıyla her platformun resmi SEO özellik sayfasında ve yardım dokümanlarında yazanları özetliyor. “Resmi dokümanda doğrulayın” ifadesi özelliğin olmadığı anlamına gelmiyor; yalnızca incelediğim resmi sayfalarda açıkça yer almadığını gösteriyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Özellik",
+       "ikas",
+       "IdeaSoft",
+       "T-Soft",
+       "Shopify"
+      ],
+      "satirlar": [
+       [
+        "Meta başlık ve açıklama",
+        "Ürün, kategori, blog; otomatik şablonlar",
+        "Ürün, kategori, marka; Excel ile toplu",
+        "Ürün, kategori, marka; Excel/CSV ile toplu",
+        "Ürün, koleksiyon, sayfa, blog"
+       ],
+       [
+        "URL düzenleme",
+        "SEO dostu URL oluşturma",
+        "Otomatik üretim, elle düzenleme",
+        "Otomatik üretim, elle veya toplu",
+        "Düzenlenebilir; /products/, /collections/ gibi sabit yollar"
+       ],
+       [
+        "301 yönlendirme",
+        "301 ve 302 yönetimi",
+        "Ayrı uygulama, Excel ile toplu",
+        "URL değişince otomatik 301, toplu ekleme",
+        "Tekil ve CSV ile toplu"
+       ],
+       [
+        "XML site haritası",
+        "Otomatik güncellenir",
+        "Tek tıkla oluşturma",
+        "Otomatik güncellenir",
+        "Otomatik üretilir"
+       ],
+       [
+        "robots.txt",
+        "Otomatik, elle düzenlenebilir",
+        "Resmi dokümanda doğrulayın",
+        "Resmi dokümanda doğrulayın",
+        "Otomatik; robots.txt.liquid ile özelleştirme"
+       ],
+       [
+        "Canonical",
+        "Resmi dokümanda doğrulayın",
+        "Resmi dokümanda doğrulayın",
+        "Resmi dokümanda doğrulayın",
+        "Otomatik canonical etiketi"
+       ],
+       [
+        "Yapısal veri",
+        "Resmi dokümanda doğrulayın",
+        "Rich Snippets uyumlu altyapı",
+        "Rich Snippets uyumlu altyapı",
+        "Temalarda yerleşik"
+       ],
+       [
+        "Çok dil",
+        "Dil başına alt klasör",
+        "E-ihracat paketinde çoklu dil",
+        "Dile göre ürün SEO içeriği",
+        "Pazarlara göre otomatik hreflang"
+       ]
+      ]
+     }
+    },
+    "Tablodaki ifadeler platformların kendi beyanıdır. Kendi mağazanızda kaynak kodu ve Search Console verisiyle kontrol etmeden hiçbir maddeyi kesin kabul etmeyin; örneğin yapısal verinin doğru üretildiğini Google'ın Zengin Sonuç Testi ile birkaç dakikada görebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Platform platform: resmi dokümanlar neyi öne çıkarıyor?",
+   "paragraflar": [
+    {
+     "alt": "ikas"
+    },
+    "ikas'ın SEO sayfası; ürün, kategori ve blog sayfalarında başlık ve meta açıklama alanlarını, otomatik meta şablonlarını, 301 ve 302 yönlendirme yönetimini, otomatik güncellenen site haritasını ve elle de düzenlenebilen robots.txt dosyasını anlatıyor. Panelden noindex verme ve yüklenen JPEG/PNG görselleri otomatik olarak WebP'ye çevirme de listede. Yerelleştirme ayarlarında her dil için alt klasör yolu (ör. /de) tanımlanabiliyor.",
+    {
+     "alt": "IdeaSoft"
+    },
+    "IdeaSoft; ürün, kategori ve marka sayfalarında özel başlık, açıklama ve URL tanımlamayı ve meta alanlarını Excel şablonuyla toplu güncellemeyi öne çıkarıyor. 301 yönlendirmeler ayrı bir “301 URL Yönlendirme” uygulamasıyla yapılıyor; uygulama Excel ile toplu yüklemeyi ve işlenemeyen satırlar için hata kayıtlarını sunuyor. E-ihracat paketlerinde çoklu dil ve “Çoklu Dil SEO Özellikleri” başlığı yer alıyor.",
+    {
+     "alt": "T-Soft"
+    },
+    "T-Soft; ürün, kategori ve marka sayfalarında başlık, açıklama ve URL düzenlemeyi, Excel veya CSV ile toplu güncellemeyi ve ürün SEO içeriğini dile göre ayrı ayrı özelleştirmeyi anlatıyor. URL değiştiğinde otomatik 301 oluşturulması ve 404 veren bağlantıların kaynaklarıyla analiz edilmesi dikkat çekiyor. Search Console ve Merchant Center entegrasyonları da listede.",
+    {
+     "alt": "Shopify"
+    },
+    "Shopify'ın yardım merkezi; sitemap.xml ve robots.txt dosyalarının otomatik üretildiğini, sayfalara otomatik canonical etiketi eklendiğini ve temalarda yapısal verinin yerleşik geldiğini söylüyor. robots.txt, robots.txt.liquid şablonuyla özelleştirilebiliyor; Shopify bunu destek kapsamı dışında bir özelleştirme sayıyor ve hatalı kullanımın trafik kaybına yol açabileceği uyarısını yapıyor. Ayrı alan adı, alt alan adı veya alt klasör tanımlanan pazarlar için hreflang etiketleri otomatik oluşturuluyor."
+   ]
+  },
+  {
+   "baslik": "Hangi durumda hangi e-ticaret altyapısı daha uygun olabilir?",
+   "paragraflar": [
+    "Dört platformun da temel SEO ihtiyaçlarını karşıladığını varsayarsak, seçim iş modelinize göre şekilleniyor. Binlerce ürünü olan ve meta alanlarını sık güncelleyen mağazalar için toplu düzenleme ve URL değişikliğinde otomatik yönlendirme zaman kazandırır; IdeaSoft ve T-Soft bu konuları resmi sayfalarında açıkça anlatıyor. robots.txt'ye panelden erişim ve otomatik WebP dönüştürme gibi kolaylıklar arıyorsanız ikas'ın listesini kendi ihtiyaçlarınızla eşleştirin.",
+    "Birden fazla ülkeye satış önceliğinizse Shopify'ın pazar bazlı hreflang yönetimi değerlendirmeye değer; sabit URL yollarının sizin için sorun olup olmadığını önceden düşünün. Pazaryeri ağırlıklı satış yapan markalar için önce [Trendyol mağazası mı kendi e-ticaret sitesi mi](/blog/trendyol-magazasi-mi-kendi-site-mi) sorusunu netleştirmek altyapı seçiminden önce gelir. WooCommerce gibi açık kaynak bir yol düşünüyorsanız [WordPress SEO eklentisi seçimi](/blog/yoast-mu-rank-math-mi) farklı bir kontrol düzeyini anlatıyor.",
+    "Ödeme, kargo, e-fatura ve pazaryeri entegrasyonları SEO dışı ama karar için belirleyici kriterler; bunları da aynı listeye ekleyin."
+   ]
+  },
+  {
+   "baslik": "Altyapı değiştirirken SEO kaybı nasıl önlenir?",
+   "paragraflar": [
+    "Altyapı değişikliğinde trafik kaybının en yaygın sebebi platformun kendisi değil, eski URL'lerin yeni adreslere doğru yönlendirilmemesi. Taşımadan önce şu listeyi uyguluyorum:",
+    {
+     "kontrol": [
+      "Eski sitedeki dizine eklenmiş tüm ürün, kategori, marka ve blog URL'lerini dışa aktarın.",
+      "Her eski URL için yeni karşılığını belirleyen bire bir 301 haritası hazırlayın.",
+      "Yönlendirmeleri toplu içe aktarıp örneklem üzerinden test edin.",
+      "Meta başlık, açıklama ve kategori metinlerini eksiksiz taşıyın.",
+      "Yayından sonra yeni site haritasını Search Console'a gönderip dizin raporlarını haftalık izleyin."
+     ]
+    },
+    "Yönlendirme listesini hazırlarken [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) işinizi hızlandırabilir. Sürecin tamamını [site taşıma SEO rehberinde](/rehber/site-tasima-seo) adım adım anlattım."
+   ]
+  },
+  {
+   "baslik": "Altyapıdan bağımsız olarak e-ticaret sıralamasını ne belirler?",
+   "paragraflar": [
+    "Altyapı zemini hazırlar ama sıralamayı tek başına getirmez. Aynı platformu kullanan iki mağazadan birinin çok daha iyi performans göstermesinin sebebi genellikle kategori sayfalarındaki özgün içerik, ürün açıklamalarının kalitesi, iç linkleme ve sayfa hızıdır. Hız tarafında altyapı kadar tema, uygulamalar ve görsel boyutları da [Core Web Vitals](/blog/core-web-vitals-2025) metriklerini etkiler.",
+    "Ürün sayfalarındaki yapısal verinin eksiklerini görmek için [ürün yapısal verisi (schema) rehberi](/rehber/schema-yapisal-veri) ve [schema oluşturucu](/araclar/schema-olusturucu) iyi bir başlangıç. Mevcut altyapınızda neyin eksik olduğunu birlikte incelemek isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "One of the questions I hear most from businesses launching an online store in Turkey, or thinking about switching platforms, is simple: ikas, IdeaSoft, T-Soft or Shopify? From an SEO point of view my answer is usually the same: you can rank with any of the four, but each needs attention in different places. The real difference is which technical controls the platform gives you and how easy they are to use.",
+    "In this post I compare the four platforms only on features listed in their own official SEO pages and help documentation. I don't quote prices; plans change often, so check current pricing on each platform's official site. I have no sponsorship or partnership with any of them. For store-wide SEO work, the [e-commerce SEO guide](/en/guides/e-ticaret-seo) is the companion to this post.",
+    {
+     "alinti": "Short answer: According to their official documentation, ikas, IdeaSoft, T-Soft and Shopify all offer editable meta titles and descriptions, URL customisation, 301 redirects and automatic XML sitemaps. The choice comes down to bulk editing needs, multilingual plans, access to advanced settings such as robots.txt and canonicals, and which admin panel your team works best in."
+    }
+   ]
+  },
+  {
+   "baslik": "Which criteria matter when evaluating an e-commerce platform for SEO?",
+   "paragraflar": [
+    "A platform calling itself “SEO friendly” tells you very little. During a demo or sales call, I recommend asking these questions one by one:",
+    {
+     "liste": [
+      "Can meta titles and descriptions be edited separately for product, category, brand and blog pages, and is there bulk editing?",
+      "Can URLs be changed manually, and is the old address redirected automatically?",
+      "Can 301 redirects be added one by one and in bulk (Excel/CSV)?",
+      "Is the XML sitemap generated and updated automatically?",
+      "Can you control robots.txt and canonical tags?",
+      "For multilingual selling, does each language get its own URLs and SEO fields?",
+      "How are the parameterised URLs created by filtered category pages handled?"
+     ]
+    },
+    "The last point matters most; URL bloat from filters and variants is one of the crawl problems I see most often in practice."
+   ]
+  },
+  {
+   "baslik": "ikas, IdeaSoft, T-Soft and Shopify SEO features compared",
+   "paragraflar": [
+    "The table summarises what each platform's official SEO feature page and help documentation say as of October 2026. “Verify in official docs” does not mean the feature is missing; it only means I couldn't find it stated clearly on the official pages I reviewed.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Feature",
+       "ikas",
+       "IdeaSoft",
+       "T-Soft",
+       "Shopify"
+      ],
+      "satirlar": [
+       [
+        "Meta title and description",
+        "Product, category, blog; automatic templates",
+        "Product, category, brand; bulk via Excel",
+        "Product, category, brand; bulk via Excel/CSV",
+        "Product, collection, page, blog"
+       ],
+       [
+        "URL editing",
+        "SEO-friendly URL creation",
+        "Auto-generated, manually editable",
+        "Auto-generated, manual or bulk",
+        "Editable; fixed paths such as /products/ and /collections/"
+       ],
+       [
+        "301 redirects",
+        "301 and 302 management",
+        "Separate app, bulk via Excel",
+        "Automatic 301 on URL change, bulk adding",
+        "Single and bulk via CSV"
+       ],
+       [
+        "XML sitemap",
+        "Updated automatically",
+        "One-click generation",
+        "Updated automatically",
+        "Generated automatically"
+       ],
+       [
+        "robots.txt",
+        "Automatic, manually editable",
+        "Verify in official docs",
+        "Verify in official docs",
+        "Automatic; customisable via robots.txt.liquid"
+       ],
+       [
+        "Canonical",
+        "Verify in official docs",
+        "Verify in official docs",
+        "Verify in official docs",
+        "Automatic canonical tags"
+       ],
+       [
+        "Structured data",
+        "Verify in official docs",
+        "Rich Snippets compatible",
+        "Rich Snippets compatible",
+        "Built into themes"
+       ],
+       [
+        "Multilingual",
+        "Subfolder per language",
+        "Multilingual in export plans",
+        "Per-language product SEO",
+        "Automatic hreflang by market"
+       ]
+      ]
+     }
+    },
+    "Everything in the table is the platforms' own description. Don't treat any item as settled until you've checked it in your own store's source code and Search Console data; for example, Google's Rich Results Test shows in minutes whether structured data is output correctly."
+   ]
+  },
+  {
+   "baslik": "Platform by platform: what does the official documentation highlight?",
+   "paragraflar": [
+    {
+     "alt": "ikas"
+    },
+    "ikas's SEO page describes title and meta description fields for product, category and blog pages, automatic meta templates, 301 and 302 redirect management, an automatically updated sitemap and a robots.txt file you can also edit manually. Setting noindex from the panel and automatic conversion of uploaded JPEG/PNG images to WebP are also listed. Localisation settings let you define a subfolder path per language (e.g. /de).",
+    {
+     "alt": "IdeaSoft"
+    },
+    "IdeaSoft highlights custom titles, descriptions and URLs for product, category and brand pages, plus bulk meta updates through an Excel template. 301 redirects run through a separate “301 URL Yönlendirme” app, which supports bulk uploads via Excel and error logs for rows it couldn't process. Its export plans list multilingual storefronts and a “Multilingual SEO features” item.",
+    {
+     "alt": "T-Soft"
+    },
+    "T-Soft describes title, description and URL editing for product, category and brand pages, bulk updates via Excel or CSV, and per-language product SEO content. Two items stand out: automatic 301 redirects when a URL changes, and analysis of links returning 404 errors along with their sources. Search Console and Merchant Center integrations are listed too.",
+    {
+     "alt": "Shopify"
+    },
+    "Shopify's help centre says sitemap.xml and robots.txt are generated automatically, canonical tags are added to pages automatically and structured data is built into themes. robots.txt can be customised through a robots.txt.liquid template; Shopify treats this as an unsupported customisation and warns that incorrect use can cause traffic loss. Hreflang tags are generated automatically for markets with their own domain, subdomain or subfolder."
+   ]
+  },
+  {
+   "baslik": "Which e-commerce platform fits which situation?",
+   "paragraflar": [
+    "Assuming all four cover the SEO basics, the choice follows your business model. For stores with thousands of products and frequent meta updates, bulk editing and automatic redirects on URL changes save real time; IdeaSoft and T-Soft document these clearly. If you want panel access to robots.txt and conveniences like automatic WebP conversion, match ikas's list against your own requirements.",
+    "If selling to several countries is the priority, Shopify's market-based hreflang handling is worth a look; think ahead about whether its fixed URL paths matter to you. For brands that sell mostly on marketplaces, settling the [Trendyol store vs own website](/en/blog/trendyol-magazasi-mi-kendi-site-mi) question comes before choosing a platform. If you're considering an open-source route such as WooCommerce, the post on [choosing a WordPress SEO plugin](/en/blog/yoast-mu-rank-math-mi) covers a different level of control.",
+    "Payment, shipping, e-invoicing and marketplace integrations sit outside SEO but often decide the matter; add them to the same checklist."
+   ]
+  },
+  {
+   "baslik": "How do you avoid SEO losses when switching platforms?",
+   "paragraflar": [
+    "When traffic drops after a platform switch, the usual cause isn't the platform itself but old URLs that weren't redirected properly. Before any migration I run through this list:",
+    {
+     "kontrol": [
+      "Export every indexed product, category, brand and blog URL from the old site.",
+      "Build a one-to-one 301 map assigning each old URL its new equivalent.",
+      "Bulk-import the redirects and test a sample.",
+      "Carry over meta titles, descriptions and category copy in full.",
+      "After launch, submit the new sitemap in Search Console and review indexing reports weekly."
+     ]
+    },
+    "A [301 redirect generator](/en/tools/redirect-generator) can speed up building the redirect list. I cover the whole process step by step in the [site migration SEO guide](/en/guides/site-tasima-seo)."
+   ]
+  },
+  {
+   "baslik": "What drives e-commerce rankings regardless of platform?",
+   "paragraflar": [
+    "A platform lays the groundwork but doesn't deliver rankings on its own. When one of two stores on the same platform performs far better, the reason is usually original category content, product description quality, internal linking and page speed. On speed, your theme, apps and image sizes affect [Core Web Vitals](/en/blog/core-web-vitals-2025) as much as the platform does.",
+    "To spot gaps in product structured data, the [product schema guide](/en/guides/schema-yapisal-veri) and the [schema generator](/en/tools/schema-generator) are good starting points. If you'd like to review what your current platform is missing together, see [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting) or simply [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "ikas, IdeaSoft, T-Soft veya Shopify'dan biri Google'da daha üst sıralarda mı çıkar?",
+   "c": "Google sitenin hangi altyapıyla kurulduğuna göre sıralama yapmaz; içeriğin kalitesine, sayfanın teknik olarak erişilebilir olmasına ve kullanıcı deneyimine bakar. Altyapı yalnızca bu işleri ne kadar kolay yapabileceğinizi belirler. Doğru yapılandırılmış dört platformla da organik trafik elde edilebilir."
+  },
+  {
+   "s": "Altyapı değiştirirsem sıralamalarım düşer mi?",
+   "c": "Geçici dalgalanma görülebilir; kalıcı kayıp çoğunlukla eksik 301 yönlendirmeden, silinen içerikten ya da değişen URL yapısından kaynaklanır. Bire bir yönlendirme haritası ve taşıma sonrası düzenli Search Console takibiyle risk ciddi ölçüde azalır."
+  },
+  {
+   "s": "Hazır temalar e-ticaret SEO'sunu etkiler mi?",
+   "c": "Evet. Başlık hiyerarşisi, görsel yükleme şekli, yapısal veri çıktısı ve sayfa hızı büyük ölçüde temaya bağlıdır. Tema seçerken demo sayfasını PageSpeed Insights ve Zengin Sonuç Testi ile kontrol etmenizi öneririm."
+  },
+  {
+   "s": "Kategori sayfalarına metin eklemek gerekli mi?",
+   "c": "Kategori sayfaları genellikle en değerli ticari aramaları hedefler. Ürün listesinin yanında kullanıcıya gerçekten yardımcı olan kısa bir seçim rehberi, sayfanın konusunu netleştirir. Ek içerik alanlarının nerede gösterildiğini temanızda kontrol edin."
+  },
+  {
+   "s": "Mağazaya blog eklemek SEO'ya katkı sağlar mı?",
+   "c": "Bilgilendirici aramaları yakalamak ve bu ziyaretçileri ilgili kategorilere yönlendirmek için faydalıdır. Önemli olan blog yazılarının satış sayfalarıyla aynı kelimeyi hedeflememesi ve iç linklerle kategorilere bağlanmasıdır."
+  },
+  {
+   "s": "Platformların fiyatlarını neden yazmadınız?",
+   "c": "Paket içerikleri ve ücretler sık güncellendiği için yazdığım bir rakam kısa sürede yanlış olur. Aynı ürün sayısı, dil sayısı ve entegrasyon ihtiyacı için her platformun resmi sitesinden güncel teklif alarak karşılaştırın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does one of ikas, IdeaSoft, T-Soft or Shopify rank higher on Google?",
+   "c": "Google doesn't rank sites by the platform they're built on; it looks at content quality, technical accessibility and user experience. The platform only determines how easily you can do that work. All four can earn organic traffic when configured properly."
+  },
+  {
+   "s": "Will my rankings drop if I switch platforms?",
+   "c": "Some short-term fluctuation is normal; lasting losses usually come from missing 301 redirects, deleted content or a changed URL structure. A one-to-one redirect map and regular Search Console monitoring after launch reduce the risk considerably."
+  },
+  {
+   "s": "Do ready-made themes affect e-commerce SEO?",
+   "c": "Yes. Heading hierarchy, image loading, structured data output and page speed depend heavily on the theme. When choosing one, I recommend testing its demo with PageSpeed Insights and the Rich Results Test."
+  },
+  {
+   "s": "Do category pages need written content?",
+   "c": "Category pages usually target the most valuable commercial searches. A short buying guide that genuinely helps shoppers, placed alongside the product grid, clarifies what the page is about. Check where your theme displays extra content blocks."
+  },
+  {
+   "s": "Does adding a blog to an online store help SEO?",
+   "c": "It helps capture informational searches and send those visitors to relevant categories. The key is that blog posts shouldn't target the same keywords as sales pages and should link to categories internally."
+  },
+  {
+   "s": "Why didn't you include platform prices?",
+   "c": "Plans and fees change often, so any figure I quote would soon be wrong. Request current quotes from each platform's official site for the same product count, number of languages and integration needs, then compare."
+  }
+ ]
+}

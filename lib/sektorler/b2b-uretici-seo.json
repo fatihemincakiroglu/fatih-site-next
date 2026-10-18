@@ -1,0 +1,360 @@
+{
+ "slug": "b2b-uretici-seo",
+ "slug_en": "b2b-manufacturer-seo",
+ "ad_tr": "B2B Üretici ve Sanayi SEO",
+ "ad_en": "B2B Manufacturer SEO",
+ "h1_tr": "B2B Üretici ve Sanayi Firmaları İçin SEO Danışmanlığı",
+ "h1_en": "SEO Consulting for B2B Manufacturers and Industrial Companies",
+ "alt_tr": "Satın almacıların ve mühendislerin aradığı teknik bilgiyi, yurt içi ve ihracat pazarlarında bulunur hâle getiriyorum.",
+ "alt_en": "I make the technical information buyers and engineers search for easy to find, in your home market and your export markets.",
+ "meta_baslik_tr": "B2B Üretici ve Sanayi SEO Danışmanlığı | Fatih Emin",
+ "meta_baslik_en": "B2B Manufacturer SEO Consulting | Fatih Emin Çakıroğlu",
+ "meta_desc_tr": "Üretici ve sanayi firmaları için SEO: teknik ürün sayfaları, uzun satın alma süreci, ihracat pazarları ve çok dilli site yapısı. Kapsam ve süreç burada.",
+ "meta_desc_en": "SEO for manufacturers and industrial firms: technical product pages, long buying cycles, export markets and multilingual sites. See scope and process.",
+ "ozet_tr": "Teknik ürün içeriği, ihracat ve çok dilli yapı ile üreticilerin doğru alıcıya organik aramada ulaşmasını sağlayan danışmanlık.",
+ "ozet_en": "Consulting that helps manufacturers reach the right buyers through technical content, export markets and multilingual sites.",
+ "hizmetler_tr": [
+  "B2B teknik SEO denetimi",
+  "Ürün ve uygulama sayfası mimarisi",
+  "Teknik içerik planlaması",
+  "Çok dilli ve ihracat SEO'su (hreflang)",
+  "Yapısal veri ve varlık netliği",
+  "Teklif talebi ölçümü"
+ ],
+ "hizmetler_en": [
+  "B2B technical SEO audit",
+  "Product and application page architecture",
+  "Technical content planning",
+  "Multilingual and export SEO (hreflang)",
+  "Structured data and entity clarity",
+  "Quote request tracking"
+ ],
+ "rehberler": [
+  "anahtar-kelime-arastirmasi",
+  "icerik-stratejisi",
+  "schema-yapisal-veri",
+  "geo-uygulama"
+ ],
+ "ilceler": [
+  "tuzla",
+  "basaksehir",
+  "umraniye",
+  "pendik",
+  "esenyurt",
+  "beylikduzu"
+ ],
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Sanayide arama, tüketici aramasından farklı işler. Bir satın alma uzmanı ya da proje mühendisi \"paslanmaz flanş DN50 PN16\", \"CNC lazer kesim fason\" veya bir standart numarası yazarak arar; aynı firmayı aylar içinde defalarca ziyaret eder, teknik föyü indirir, sonra ekibiyle karşılaştırma yapar. Arama hacimleri küçüktür ama tek bir doğru ziyaret, yıllık bir tedarik ilişkisinin başlangıcı olabilir.",
+    "Çoğu üretici sitesi ise bir kurumsal tanıtım broşürü gibi kurgulanır: hakkımızda, makine parkı, birkaç ürün görseli ve iletişim formu. Ürünlerin teknik özellikleri PDF içinde kalır, uygulama alanları anlatılmaz, yabancı dil sürümleri ya otomatik çeviridir ya da yıllardır güncellenmemiştir. Sonuçta firma, gerçekten üretebildiği işler için aranırken görünmez.",
+    {
+     "alinti": "Kısa cevap: B2B üretici SEO'sunda ürün, malzeme, standart ve uygulama alanına göre yapılan teknik aramaları karşılayan sayfalar kuruyor, ihracat pazarları için doğru dil ve hreflang yapısını oturtuyor, başarıyı trafik yerine teklif talebi ve nitelikli iletişim üzerinden ölçüyorum. Çalışma bir denetimle başlar ve ilk 90 günde öncelikli ürün grupları ele alınır."
+    }
+   ]
+  },
+  {
+   "baslik": "Üretici ve sanayi sitelerinde en sık görülen SEO sorunları",
+   "paragraflar": [
+    "Tuzla, İkitelli ya da Dudullu'daki bir fabrikanın sitesiyle ihracat yapan büyük bir grubun sitesi arasında ölçek farkı olsa da, denetimlerde benzer eksiklikleri görüyorum:",
+    {
+     "liste": [
+      "Teknik özelliklerin yalnızca PDF katalogda olması; sayfada ölçü, malzeme, tolerans, standart bilgisinin metin olarak bulunmaması.",
+      "Tüm ürünlerin tek bir \"Ürünlerimiz\" sayfasında, ayrı URL'leri olmadan listelenmesi.",
+      "Uygulama alanı ve sektör sayfalarının hiç olmaması; alıcının \"bu firma benim işimi yapabilir mi\" sorusunun cevapsız kalması.",
+      "Yabancı dil sürümlerinin otomatik çeviri olması, hreflang etiketlerinin eksik ya da hatalı kurulması.",
+      "Sertifika, kapasite, makine parkı gibi güven bilgilerinin görselde kalması ve aranamaması.",
+      "Sitenin yalnızca firma adıyla bulunması; ürün ve hizmet aramalarında hiç görünmemesi.",
+      "Teklif formlarının ölçülmemesi, organik aramanın satışa katkısının bilinmemesi."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "B2B üretici SEO hizmetinin kapsamı",
+   "paragraflar": [
+    "Kapsamı ürün yelpazenize, hedef pazarlarınıza ve iç ekibinize göre belirliyorum. Çalışma genellikle şu başlıklarda ilerler.",
+    {
+     "alt": "Teknik altyapı ve site mimarisi"
+    },
+    "Sitenin taranabilirliği, hız, mobil uyum ve URL yapısı denetlenir. Ürün grupları, ürünler, uygulama alanları ve sektörler için mantıklı bir hiyerarşi kurulur; her ürünün kendine ait, aranabilir bir sayfası olur.",
+    {
+     "alt": "Teknik arama talebinin çıkarılması"
+    },
+    "Satın almacının kullandığı terimleri, malzeme ve standart adlarını, ürün kodlarını [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ile çıkarıyorum. B2B'de araçların gösterdiği hacim çoğu zaman sıfıra yakındır; bu yüzden satış ekibinizin sahada duyduğu soruları ve gelen teklif taleplerini de veri kaynağı olarak kullanıyoruz.",
+    {
+     "alt": "Teknik içerik ve uygulama sayfaları"
+    },
+    "Ürün sayfalarına metin olarak teknik tablo, uygulama örnekleri ve sık sorulan teknik sorular eklenir. Hangi içeriğin hangi satın alma aşamasına hizmet ettiğini [içerik stratejisi](/rehber/icerik-stratejisi) çerçevesinde planlıyoruz; yazım desteği gerekiyorsa [içerik hizmeti](/icerik) devreye girer.",
+    {
+     "alt": "Yapısal veri ve varlık netliği"
+    },
+    "Organization ve Product işaretlemesi ile firmanın kim olduğunu, ne ürettiğini ve nerede bulunduğunu makinelerin net anlamasını sağlıyoruz. Uygulama ayrıntıları için [schema ve yapısal veri rehberi](/rehber/schema-yapisal-veri) başlangıç noktasıdır."
+   ]
+  },
+  {
+   "baslik": "Çalışma alanları ve ölçüm",
+   "paragraflar": [
+    "B2B'de organik trafiğin miktarından çok kimden geldiği önemlidir. Bu yüzden ölçüm, teklif talebi ve nitelikli iletişim etrafında kurulur.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Çalışma alanı",
+       "Ne yapıyoruz",
+       "Neyi ölçüyoruz"
+      ],
+      "satirlar": [
+       [
+        "Site mimarisi",
+        "Ürün grubu, ürün, uygulama ve sektör sayfalarını ayrı URL'lerle kuruyoruz",
+        "Dizine giren ürün sayfası sayısı, sayfa tipi bazında gösterim"
+       ],
+       [
+        "Teknik ürün içeriği",
+        "PDF'teki özellikleri sayfaya metin ve tablo olarak taşıyoruz",
+        "Ürün ve standart adı içeren aramalarda görünürlük"
+       ],
+       [
+        "Uygulama ve sektör sayfaları",
+        "Ürünün hangi işte, hangi sektörde kullanıldığını anlatıyoruz",
+        "Bu sayfalardan başlayan oturumlar ve teklif formuna geçiş"
+       ],
+       [
+        "Çok dilli yapı",
+        "Hedef pazar dillerini ayrı URL'lerle ve hreflang ile kuruyoruz",
+        "Ülke bazında gösterim ve tıklama, hreflang hataları"
+       ],
+       [
+        "Güven bilgileri",
+        "Sertifika, kapasite ve makine parkını aranabilir metne çeviriyoruz",
+        "Kurumsal sayfaların görüntülenmesi, marka aramaları"
+       ],
+       [
+        "Dönüşüm ölçümü",
+        "Teklif formu, telefon ve e-posta tıklamalarını GA4'te olay olarak işaretliyoruz",
+        "Organik kaynaklı teklif talebi sayısı ve niteliği"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "İlk görüşmeden ilk 90 güne çalışma süreci",
+   "paragraflar": [
+    "Üretici firmalarda karar süreci uzundur ve SEO çalışmasına genellikle pazarlama, satış ve üretim tarafından birer kişi katılır. Süreci buna göre planlıyorum:",
+    {
+     "liste": [
+      "Ön görüşme: ürün grupları, hedef pazarlar, ihracat ülkeleri ve satış ekibinin en çok duyduğu sorular konuşulur.",
+      "İlk 2-3 hafta, denetim: teknik altyapı, mevcut sayfalar, dil sürümleri ve rakip üreticilerin arama görünürlüğü incelenir.",
+      "Öncelikli ürün gruplarının seçimi: satış ekibiyle birlikte en kârlı ya da en çok büyütülmek istenen 2-3 grup belirlenir.",
+      "1. ay: teknik düzeltmeler, ölçüm kurulumu ve öncelikli gruplar için sayfa yapısının netleşmesi.",
+      "2. ay: öncelikli ürün ve uygulama sayfalarının teknik içerikle yeniden yazılması, yapısal veri.",
+      "3. ay: ilk hedef ihracat dilinde sayfaların kurulması ya da düzeltilmesi, ilk rapor ve sonraki dönemin planı."
+     ]
+    },
+    "B2B aramalarda hacim düşük olduğundan değişikliklerin etkisi rakamlara yavaş yansır; ilk değerlendirmeyi teklif taleplerinin niteliğiyle birlikte yapıyoruz."
+   ]
+  },
+  {
+   "baslik": "Uzun satın alma süreci, teknik içerik ve ihracat",
+   "paragraflar": [
+    "Sanayi alıcısı genellikle tek ziyarette karar vermez. İlk aramada bir çözüm arar, sonraki ziyaretlerde teknik föy, sertifika ve referans sektörlere bakar, en sonunda teklif ister. Bu yüzden sitenin her satın alma aşamasına bir cevabı olmalı: sorunu tanımlayan uygulama sayfası, karşılaştırmayı kolaylaştıran teknik tablo, güveni destekleyen kurumsal bilgi.",
+    "Teknik içeriği yazarken mühendislik ekibinizin onayı şarttır. Yanlış bir tolerans değeri ya da hatalı bir standart numarası, hiç içerik olmamasından daha zararlıdır. Benim rolüm, bu bilgiyi aranabilir ve okunabilir bir yapıya oturtmak; teknik doğruluğun sahibi sizin ekibinizdir.",
+    "İhracatta ise her pazarın kendi arama dili vardır. Almanca konuşan bir alıcının kullandığı terim, İngilizce karşılığının çevirisi olmayabilir. Hedef dillerde terim araştırmasını ayrı yapıyor, mümkünse anadili o dil olan bir çevirmen ya da distribütörünüzle kontrol ettiriyoruz. Yapay zekâ asistanları da tedarikçi araştırmasında kullanılmaya başladı; firmanızın bu cevaplarda nasıl anlatıldığını [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlatılan yöntemlerle izleyebilir, kapsamlı çalışmayı [GEO danışmanlığı](/geo-uzmani) ile planlayabiliriz."
+   ]
+  },
+  {
+   "baslik": "Kimler için uygun, kimler için değil?",
+   "paragraflar": [
+    "Bağımsız bir danışman olarak denetimi, satış ve mühendislik ekibinizle yapılan görüşmeleri ve raporlamayı doğrudan yürütüyorum. Teknik bir sektörde bu önemlidir: sorulan soruların ve verilen cevapların arada kaybolmaması gerekir.",
+    "Bu çalışma; ürettiği işleri tanımlayabilen, teknik bilgiyi paylaşmaya hazır, yurt içinde ya da ihracatta yeni alıcıya ulaşmak isteyen üreticiler için uygundur. Satışın tamamen birkaç büyük müşteriyle kişisel ilişkiler üzerinden yürüdüğü ve yeni alıcı aranmadığı durumlarda SEO'ya yatırım yapmak öncelik olmayabilir. Kısa vadede hızlı talep gerekiyorsa reklamın daha uygun olup olmadığını [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısındaki çerçeveyle değerlendirebilirsiniz.",
+    "Çalışma modellerini [SEO danışmanlığı](/seo-uzmani) sayfasında bulabilirsiniz. Ürün gruplarınız ve hedef pazarlarınız için neyin öncelikli olduğunu konuşmak isterseniz bir [ön görüşme randevusu](/randevu) alın."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "B2B SEO danışmanlığı ne kadar tutar?",
+   "c": "Ücret ürün grubu sayısına, dil sürümlerine ve içerik yazımının kapsama girip girmediğine göre değişir. Çalışma modellerini [fiyatlandırma sayfasında](/fiyatlandirma), piyasadaki genel aralıkları [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+  },
+  {
+   "s": "Arama hacmi çok düşük terimler için SEO yapmaya değer mi?",
+   "c": "B2B'de çoğu zaman değer. Ayda birkaç kez aranan teknik bir terim, onu arayan kişi bir satın almacı ise yüksek değerli olabilir. Araçların sıfır gösterdiği terimler de gerçekte aranıyor olabilir; Search Console verisi zamanla bunu gösterir."
+  },
+  {
+   "s": "Ürün kataloğumuzu PDF olarak yayınlamak yeterli değil mi?",
+   "c": "PDF'ler taranabilir, ama ürün başına ayrı sayfa kadar iyi çalışmaz: belirli bir ürün aramasına kalabalık bir katalog dosyasıyla cevap verilir, iç bağlantı ve ölçüm zorlaşır. PDF'i indirilebilir ek olarak tutup temel bilgileri sayfada metin olarak vermek daha sağlıklıdır."
+  },
+  {
+   "s": "Hangi dillerde site açmalıyız?",
+   "c": "Mevcut ihracat ülkeleriniz ve büyümek istediğiniz pazarlarla başlayın. Az sayıda dili iyi yönetmek, çok sayıda dili otomatik çeviriyle açmaktan daha iyi sonuç verir. Her dil için içeriği güncel tutabilecek bir kaynağınız olup olmadığını da hesaba katın."
+  },
+  {
+   "s": "Teknik içerikleri kim yazıyor?",
+   "c": "Yapıyı, başlıkları ve içerik planını ben hazırlıyorum; teknik bilgiyi mühendislik ya da üretim ekibiniz sağlıyor. Metinleri birlikte son hâline getirip teknik onayı ekibinize bırakıyoruz. Bu iş bölümü hem doğruluğu hem aranabilirliği korur."
+  },
+  {
+   "s": "Fuarlar ve sektörel dizinler SEO'ya katkı sağlar mı?",
+   "c": "Fuar katılımcı listeleri, sektör dernekleri ve tedarikçi dizinlerinde firmanızın doğru ve tutarlı bilgilerle yer alması, hem bağlantı hem marka bahsi olarak işe yarar. Burada önemli olan rastgele dizin kaydı değil, alıcılarınızın gerçekten baktığı kaynaklarda bulunmaktır."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Search works differently in industry than it does for consumers. A procurement specialist or project engineer types \"stainless flange DN50 PN16\", \"contract CNC laser cutting\" or a standard number; they visit the same supplier several times over months, download the datasheet and then compare options with their team. Search volumes are small, but a single right visit can be the start of a supply relationship lasting years.",
+    "Most manufacturer websites, however, are built like a corporate brochure: about us, machinery, a few product photos and a contact form. Technical specifications stay inside PDFs, application areas are never explained, and foreign-language versions are either machine translated or have not been updated in years. The result is a company that stays invisible for the very jobs it can actually deliver.",
+    {
+     "alinti": "Short answer: In B2B manufacturer SEO, I build pages that answer technical searches by product, material, standard and application, set up the right language and hreflang structure for export markets, and measure success through quote requests and qualified enquiries rather than traffic. The work starts with an audit, and priority product groups are handled in the first 90 days."
+    }
+   ]
+  },
+  {
+   "baslik": "The most common SEO problems on manufacturer and industrial sites",
+   "paragraflar": [
+    "Whether it is a factory in an Istanbul industrial zone such as Tuzla, İkitelli or Dudullu or a large exporting group, audits tend to reveal similar gaps:",
+    {
+     "liste": [
+      "Technical specifications only in a PDF catalog, with no dimensions, materials, tolerances or standards written as text on the page.",
+      "All products listed on a single \"Our Products\" page without their own URLs.",
+      "No application or industry pages, leaving the buyer's question \"can this company do my job?\" unanswered.",
+      "Machine-translated language versions and missing or broken hreflang tags.",
+      "Trust information such as certificates, capacity and machinery locked in images and impossible to search.",
+      "A site that can only be found by company name and never appears for product or service searches.",
+      "Quote forms that are not tracked, so nobody knows what organic search contributes to sales."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "What B2B manufacturer SEO covers",
+   "paragraflar": [
+    "I set the scope based on your product range, target markets and in-house team. The work usually runs under these headings.",
+    {
+     "alt": "Technical foundation and site architecture"
+    },
+    "Crawlability, speed, mobile usability and URL structure are audited. A logical hierarchy is built for product groups, products, applications and industries, so every product gets its own searchable page.",
+    {
+     "alt": "Mapping technical search demand"
+    },
+    "I use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to identify the terms, material and standard names and product codes buyers actually use. In B2B, tools often show volumes close to zero, so we also treat the questions your sales team hears in the field and incoming quote requests as data sources.",
+    {
+     "alt": "Technical content and application pages"
+    },
+    "Product pages gain technical tables as text, application examples and common technical questions. We plan which content serves which stage of the buying process within a [content strategy](/en/guides/icerik-stratejisi) framework, and if you need writing support, the [content strategy service](/en/content-strategy) comes in.",
+    {
+     "alt": "Structured data and entity clarity"
+    },
+    "Organization and Product markup help machines understand clearly who the company is, what it makes and where it is located. The [schema and structured data guide](/en/guides/schema-yapisal-veri) is the starting point for implementation details."
+   ]
+  },
+  {
+   "baslik": "Work areas and measurement",
+   "paragraflar": [
+    "In B2B, who the organic traffic comes from matters more than how much of it there is. Measurement is therefore built around quote requests and qualified enquiries.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Work area",
+       "What we do",
+       "What we measure"
+      ],
+      "satirlar": [
+       [
+        "Site architecture",
+        "Build product group, product, application and industry pages on separate URLs",
+        "Number of indexed product pages, impressions by page type"
+       ],
+       [
+        "Technical product content",
+        "Move specifications from PDFs onto the page as text and tables",
+        "Visibility for searches containing product and standard names"
+       ],
+       [
+        "Application and industry pages",
+        "Explain which jobs and industries the product is used in",
+        "Sessions starting on these pages and moves to the quote form"
+       ],
+       [
+        "Multilingual structure",
+        "Set up target-market languages on separate URLs with hreflang",
+        "Impressions and clicks by country, hreflang errors"
+       ],
+       [
+        "Trust information",
+        "Turn certificates, capacity and machinery into searchable text",
+        "Views of company pages, branded searches"
+       ],
+       [
+        "Conversion tracking",
+        "Mark quote forms, phone and email clicks as events in GA4",
+        "Number and quality of organic quote requests"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "The process from the first call to day 90",
+   "paragraflar": [
+    "Decision-making at manufacturers takes time, and SEO work usually involves one person each from marketing, sales and production. I plan the process accordingly:",
+    {
+     "liste": [
+      "Intro call: product groups, target markets, export countries and the questions your sales team hears most are discussed.",
+      "Weeks 1-3, audit: technical foundation, existing pages, language versions and the search visibility of competing manufacturers are reviewed.",
+      "Choosing priority product groups: together with sales, we pick the 2-3 groups that are most profitable or that you most want to grow.",
+      "Month 1: technical fixes, tracking setup and a clear page structure for the priority groups.",
+      "Month 2: priority product and application pages rewritten with technical content, plus structured data.",
+      "Month 3: pages built or fixed in the first target export language, the first report and the plan for the next period."
+     ]
+    },
+    "Because B2B search volumes are low, the effect of changes shows up slowly in the numbers; we make the first assessment together with the quality of quote requests."
+   ]
+  },
+  {
+   "baslik": "Long buying cycles, technical content and export markets",
+   "paragraflar": [
+    "Industrial buyers rarely decide in a single visit. On the first search they look for a solution, on later visits they check datasheets, certificates and reference industries, and finally they ask for a quote. Your site therefore needs an answer for each stage: an application page that defines the problem, a technical table that makes comparison easy, and company information that supports trust.",
+    "Sign-off from your engineering team is essential when writing technical content. A wrong tolerance value or an incorrect standard number does more harm than having no content at all. My role is to put this information into a searchable, readable structure; your team owns the technical accuracy.",
+    "In export markets, each market has its own search language. The term a German-speaking buyer uses may not be a translation of the English one. We research terms separately in each target language and, where possible, have them checked by a native-speaking translator or your distributor. AI assistants have also started to play a part in supplier research; we can track how your company is described in their answers using the methods in the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu), and plan broader work through [GEO consulting](/en/geo-consulting)."
+   ]
+  },
+  {
+   "baslik": "Who this is for, and who it is not for",
+   "paragraflar": [
+    "As an independent consultant, I run the audit, the conversations with your sales and engineering teams and the reporting myself. In a technical industry this matters: questions and answers should not get lost along the way.",
+    "This work suits manufacturers that can define what they make, are ready to share technical information and want to reach new buyers at home or abroad. If your sales run entirely on personal relationships with a few large customers and you are not looking for new buyers, SEO may not be a priority. If you need fast demand in the short term, you can assess whether ads are a better fit using the framework in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi).",
+    "You can find the working models on the [SEO consulting](/en/seo-consulting) page. If you want to discuss what matters most for your product groups and target markets, [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How much does B2B SEO consulting cost?",
+   "c": "The fee depends on the number of product groups, the language versions and whether content writing is in scope. You can find the working models on the [pricing page](/en/pricing) and general market ranges in the post on [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+  },
+  {
+   "s": "Is SEO worth it for terms with very low search volume?",
+   "c": "In B2B it usually is. A technical term searched only a few times a month can be very valuable if the person searching is a buyer. Terms that tools show as zero may in fact be searched; Search Console data reveals this over time."
+  },
+  {
+   "s": "Isn't publishing our product catalog as a PDF enough?",
+   "c": "PDFs can be crawled, but they do not work as well as a separate page per product: a specific product search gets answered with a crowded catalog file, and internal linking and tracking become harder. Keeping the PDF as a downloadable attachment while giving the key information as text on the page works better."
+  },
+  {
+   "s": "Which languages should our site be in?",
+   "c": "Start with your current export countries and the markets you want to grow in. Managing a few languages well works better than opening many through machine translation. Also consider whether you have someone who can keep each language's content up to date."
+  },
+  {
+   "s": "Who writes the technical content?",
+   "c": "I prepare the structure, headings and content plan; your engineering or production team supplies the technical information. We finalise the texts together and leave technical approval to your team. This division of work protects both accuracy and findability."
+  },
+  {
+   "s": "Do trade fairs and industry directories help SEO?",
+   "c": "Being listed with accurate, consistent details on trade fair exhibitor lists, industry association sites and supplier directories helps both as links and as brand mentions. What matters is not registering in random directories but being present in the sources your buyers actually look at."
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 9,
+ "baslik_tr": "Google Çekirdek Güncellemesi Sonrası Trafik Düştü: Adım Adım Teşhis Listesi",
+ "baslik_en": "Traffic Dropped After a Google Core Update: A Step-by-Step Diagnosis Checklist",
+ "meta_baslik_tr": "Çekirdek Güncelleme Sonrası Trafik Düşüşü: Teşhis Listesi",
+ "meta_baslik_en": "Traffic Drop After a Core Update: Diagnosis Checklist",
+ "meta_desc_tr": "Google çekirdek güncellemesinden sonra trafiğiniz mi düştü? Doğru dönem karşılaştırması, ölçüm ve teknik kontroller, sayfa bazlı analiz ve toparlanma süreci.",
+ "meta_desc_en": "Did traffic drop after a Google core update? Compare the right periods, rule out tracking and technical issues, analyse pages and plan a realistic recovery.",
+ "ozet_tr": "Panik yapmadan önce: dönemi doğru seçin, ölçüm ve teknik hataları eleyin, düşüşün hangi sayfa ve sorgularda olduğunu bulun.",
+ "ozet_en": "Before you panic: pick the right periods, rule out tracking and technical errors, and find which pages and queries lost.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir çekirdek güncellemesi duyurulduktan birkaç gün sonra Search Console grafiğinin aşağı kıvrıldığını görmek, çoğu site sahibinde aynı refleksi tetikliyor: hemen bir şeyleri değiştirmek. Sahada en sık gördüğüm hata da bu. Yanlış dönemi karşılaştırıp, aslında ölçüm ya da teknik bir sorundan kaynaklanan düşüşü güncellemeye bağlayıp, iyi çalışan sayfaları bozmak.",
+    "Bu yazı, bir müşteri \"güncellemeden sonra trafiğimiz düştü\" dediğinde izlediğim sırayı adım adım veriyor. Dayanağı, Google'ın çekirdek güncellemelerine dair Search Central dokümanı (Ekim 2026 itibarıyla son güncellemesi Aralık 2025) ve denetimlerde biriken deneyim.",
+    {
+     "alinti": "Kısa cevap: Önce güncellemenin yayılımının bittiğini doğrulayın, ardından bitişten sonraki tam bir haftayı başlangıçtan önceki haftayla karşılaştırın. Ölçüm, teknik ve mevsimsel nedenleri eledikten sonra düşüşün hangi sayfa ve sorgularda olduğunu bulun; küçük sıra kayıplarında acele değişiklik yapmayın, büyük ve kalıcı kayıplarda içeriği kullanıcı açısından dürüstçe yeniden değerlendirin."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Çekirdek güncellemesi gerçekten neden mi? Tarihleri doğrulayın",
+   "paragraflar": [
+    "Google çekirdek güncellemelerini yılda birkaç kez yapar ve duyurduklarını Google Search Status Dashboard'da başlangıç ve bitiş tarihleriyle listeler. 2026'da Mart ve Mayıs aylarında birer çekirdek güncellemesi duyuruldu; Eylül sonunda başlayan bir spam güncellemesi de Ekim başında tamamlandı. Düşüşün başladığı günü bu tarihlerle yan yana koyun. Tarihleri tek yerde görmek için [Google güncellemeleri günlüğü](/google-guncellemeleri) sayfasını kullanabilirsiniz.",
+    "Dokümana göre Google ayrıca duyurmadığı, daha küçük çekirdek güncellemeleri de yapıyor. Yani duyurulu bir tarihe denk gelmeyen dalgalanma da algoritmik olabilir; ama böyle bir düşüşte önce aşağıdaki diğer nedenleri elemek daha da önemli hale gelir."
+   ]
+  },
+  {
+   "baslik": "2. Doğru dönemleri karşılaştırın",
+   "paragraflar": [
+    "Google'ın önerisi net: Yayılım tamamlandıktan sonra en az bir tam hafta bekleyin ve o haftayı, yayılım başlamadan önceki haftayla karşılaştırın. Yayılım sürerken alınan ölçümler yanıltıcıdır; sıralamalar bu dönemde ileri geri oynayabilir.",
+    "Search Console'un Performans raporunda tarih karşılaştırmasını açın ve Web, Görsel, Video, Haberler arama türlerini ayrı ayrı inceleyin. Düşüş yalnızca bir arama türündeyse sorun farklı bir yerde olabilir. KPI ve dönem karşılaştırma mantığını [SEO raporlama rehberinde](/rehber/seo-raporlama) daha ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "3. Ölçüm, teknik ve mevsimsel nedenleri eleyin",
+   "paragraflar": [
+    "Güncellemeyle aynı haftaya denk gelen her düşüş güncellemeden kaynaklanmaz. Teşhise başlamadan önce şu tabloyu satır satır kontrol ediyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Belirti",
+       "Olası neden",
+       "Nereye bakılır?"
+      ],
+      "satirlar": [
+       [
+        "GA4'te düşüş var, Search Console tıklamaları sabit",
+        "Ölçüm etiketi, çerez onayı ya da kanal ayarı",
+        "Etiket kurulumu, son site değişiklikleri"
+       ],
+       [
+        "Tıklamalar ve gösterimler birlikte, aniden sıfıra yakın",
+        "noindex, robots.txt ya da sunucu hatası",
+        "Sayfa dizine ekleme raporu, Tarama istatistikleri"
+       ],
+       [
+        "Gösterimler sabit, tıklamalar düştü",
+        "Arama sonucu görünümü değişti (ör. AI Overviews, yeni özellikler)",
+        "Sorgu bazında TO ve ortalama konum"
+       ],
+       [
+        "Her yıl aynı dönemde düşüş",
+        "Mevsimsellik",
+        "Geçen yılın aynı dönemi"
+       ],
+       [
+        "Tek bir bölüm ya da şablon düştü",
+        "Taşıma, şablon veya iç link değişikliği",
+        "Değişiklik kaydı, yönlendirmeler"
+       ],
+       [
+        "Search Console'da uyarı var",
+        "Manuel işlem ya da güvenlik sorunu",
+        "Manuel işlemler ve Güvenlik sorunları raporları"
+       ]
+      ]
+     }
+    },
+    "Gösterimler sabitken tıklamalar düşüyorsa bunun bir kısmı yapay zekâ özetlerinden ve yapay zekâ asistanlarından gelen davranış değişikliği olabilir. Bu trafiği ayrı izlemek için [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/blog/ga4-yapay-zeka-trafigi) yazısına bakın. İndeksleme tarafında belirti varsa [\"Tarandı – şu anda dizine eklenmemiş\" sorununu çözme](/blog/tarandi-dizine-eklenmemis) yazısı işinize yarar."
+   ]
+  },
+  {
+   "baslik": "4. Kayıp hangi sayfa ve sorgularda? Büyüklüğü ölçün",
+   "paragraflar": [
+    "Performans raporunda sayfalar ve sorgular sekmelerini, iki dönem arasındaki tıklama farkına göre sıralayın. Kaybın büyük kısmı genellikle birkaç sayfa ya da tek bir şablonda toplanır. Google dokümanı burada bir ayrım yapıyor: 2. sıradan 4. sıraya inmek gibi küçük düşüşlerde köklü değişiklik gerekmez ve iyi performans gösteren içeriği değiştirmekten kaçınmak önerilir; 4. sıradan 29. sıraya inmek gibi büyük düşüşler ise daha derin bir değerlendirme ister.",
+    {
+     "kontrol": [
+      "En çok tıklama kaybeden 20 sayfayı ve 50 sorguyu listeleyin.",
+      "Her sayfayı bir şablona ve konu kümesine etiketleyin; kayıp bir kümede mi yoğunlaşıyor?",
+      "Kaybedilen sorgularda artık hangi sonuçlar üstte? Bu sayfalar sizinkinden neyi daha iyi yapıyor?",
+      "Kaybedilen sayfalar konuyu ilk elden deneyimle mi, yoksa başka kaynakların özeti olarak mı anlatıyor?",
+      "Aynı dönemde kazanan sayfalarınız var mı? Kazananlar ile kaybedenler arasındaki farkı not edin."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "5. İçeriği kullanıcı gözüyle dürüstçe değerlendirin",
+   "paragraflar": [
+    "Büyük ve kalıcı bir düşüşte Google, siteyi tarafsız biçimde (gerekirse siteyle bağı olmayan kişilere) değerlendirmeyi ve faydalı, güvenilir, insan odaklı içerik için yayımladığı öz değerlendirme sorularını kullanmayı öneriyor. Benim pratikte sorduğum sorular şunlar: Sayfa, aramayı yapan kişinin asıl sorusunu ilk ekranda yanıtlıyor mu? Rakiplerde olmayan özgün bilgi, veri ya da deneyim var mı? Yazarın kim olduğu ve neden güvenilir olduğu açık mı? İçerik arama motoru için mi, okur için mi yazılmış?",
+    "Yapay zekâ ile toplu üretilmiş sayfalar bu değerlendirmede en sık takıldığım konu. Google'ın bu konudaki resmi tutumunu [yapay zekâ ile üretilen içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ayrıca ele alıyorum. Konu kümelerini ve içerik boşluklarını sistematik biçimde çıkarmak için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) kullanılabilir.",
+    "Otorite ve marka sinyalleri de tabloya dahil. Rakipler daha çok anılan, daha çok referans alan kaynaklarsa bunu [backlink ve dijital PR rehberindeki](/rehber/backlink-dijital-pr) yöntemlerle ele almak uzun vadede işe yarar."
+   ]
+  },
+  {
+   "baslik": "6. Değişiklik planı ve gerçekçi toparlanma süresi",
+   "paragraflar": [
+    "Dokümanın uyarısı açık: Algılanan SEO etkisi için sayfa öğelerini kaldırmak gibi hızlı çözümlerden kaçının. Anlamlı iyileştirme; içeriği okunabilirlik ve gezinme açısından yeniden yazmak ya da yapılandırmak, eksik bilgiyi tamamlamak demek. Silmek son çare; yalnızca okur yerine arama motoru için oluşturulmuş bölümler için mantıklı olabilir.",
+    "Süre beklentisini de doğru kurun. Google'a göre bazı değişiklikler birkaç gün içinde etki gösterebilir, ama sistemlerin sitenin iyileştiğini öğrenip doğrulaması birkaç ay sürebilir; birkaç ay sonra hâlâ etki yoksa bir sonraki çekirdek güncellemesini beklemek gerekebilir. Yaptığınız değişikliklerin belirgin bir etki yaratacağının bir güvencesi de yok; bu yüzden değişiklik tarihlerini kaydedin ve etkisini haftalık izleyin.",
+    "İçerik tarafındaki yeniden yazım işini [içerik stratejisi hizmeti](/icerik) kapsamında, teşhis ve önceliklendirmeyi [SEO uzmanı](/seo-uzmani) olarak birlikte yürütebiliriz. Verilerinizi birlikte okumak isterseniz bir [teşhis görüşmesi için randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Seeing the Search Console graph bend downward a few days after a core update announcement triggers the same reflex in most site owners: change something right now. That is the mistake I see most in practice. People compare the wrong periods, blame the update for a drop actually caused by tracking or technical issues, and end up breaking pages that were performing well.",
+    "This article walks through the order I follow when a client says \"our traffic dropped after the update\". It is based on Google's Search Central documentation on core updates (last updated December 2025 as of October 2026) and on what I have learned from audits.",
+    {
+     "alinti": "Short answer: First confirm the update has finished rolling out, then compare a full week after completion with the week before it started. After ruling out tracking, technical and seasonal causes, find which pages and queries lost traffic; do not rush changes for small position drops, and for large, lasting drops reassess your content honestly from the user's point of view."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Is the core update really the cause? Check the dates",
+   "paragraflar": [
+    "Google runs core updates several times a year and lists the announced ones with start and end dates on the Google Search Status Dashboard. In 2026, core updates were announced in March and May, and a spam update that started in late September completed in early October. Put the day your drop began next to these dates. The [Google updates log](/en/google-updates) shows them in one place.",
+    "According to the documentation, Google also makes smaller core updates that it does not announce. So a fluctuation that does not match an announced date can still be algorithmic, but in that case ruling out the other causes below becomes even more important."
+   ]
+  },
+  {
+   "baslik": "2. Compare the right periods",
+   "paragraflar": [
+    "Google's advice is clear: wait at least one full week after the rollout completes, then compare that week with the week before the rollout began. Data taken during the rollout is misleading, because rankings can move back and forth.",
+    "Turn on date comparison in the Search Console Performance report and look at the Web, Image, Video and News search types separately. If the drop is limited to one search type, the problem may lie elsewhere. I explain KPI and period comparison in more detail in the [SEO reporting guide](/en/guides/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "3. Rule out tracking, technical and seasonal causes",
+   "paragraflar": [
+    "Not every drop in the same week as an update is caused by it. Before diagnosing, I check this table row by row:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Symptom",
+       "Likely cause",
+       "Where to look"
+      ],
+      "satirlar": [
+       [
+        "GA4 shows a drop, Search Console clicks are flat",
+        "Tracking tag, cookie consent or channel settings",
+        "Tag setup, recent site changes"
+       ],
+       [
+        "Clicks and impressions fall together, suddenly near zero",
+        "noindex, robots.txt or server errors",
+        "Page indexing report, Crawl stats"
+       ],
+       [
+        "Impressions flat, clicks down",
+        "Search results layout changed (e.g. AI Overviews, new features)",
+        "CTR and average position per query"
+       ],
+       [
+        "Drop in the same period every year",
+        "Seasonality",
+        "Same period last year"
+       ],
+       [
+        "A single section or template dropped",
+        "Migration, template or internal linking change",
+        "Change log, redirects"
+       ],
+       [
+        "A warning in Search Console",
+        "Manual action or security issue",
+        "Manual actions and Security issues reports"
+       ]
+      ]
+     }
+    },
+    "If impressions hold while clicks fall, part of it may be behaviour shifting to AI summaries and AI assistants. To track that traffic separately, see [separating ChatGPT and Perplexity traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi). If you see indexing symptoms, [fixing \"Crawled – currently not indexed\"](/en/blog/tarandi-dizine-eklenmemis) will help."
+   ]
+  },
+  {
+   "baslik": "4. Which pages and queries lost? Measure the size",
+   "paragraflar": [
+    "In the Performance report, sort the pages and queries tabs by the click difference between the two periods. Most of the loss usually sits in a few pages or a single template. Google's documentation draws a line here: for small drops, such as from position 2 to 4, no drastic action is needed and it advises against changing content that already performs well; large drops, such as from position 4 to 29, call for a deeper assessment.",
+    {
+     "kontrol": [
+      "List the 20 pages and 50 queries that lost the most clicks.",
+      "Tag each page by template and topic cluster; is the loss concentrated in one cluster?",
+      "Which results now rank above you for the lost queries? What do they do better?",
+      "Do the losing pages draw on first-hand experience, or do they summarise other sources?",
+      "Did any of your pages gain in the same period? Note how winners differ from losers."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "5. Assess your content honestly from the user's point of view",
+   "paragraflar": [
+    "For a large, lasting drop, Google recommends reviewing the site objectively (if needed, by people unaffiliated with it) and using its self-assessment questions on helpful, reliable, people-first content. The questions I ask in practice are these: Does the page answer the searcher's real question on the first screen? Does it offer original information, data or experience that competitors lack? Is it clear who wrote it and why they are trustworthy? Was it written for the search engine or for the reader?",
+    "Pages mass-produced with AI are where I get stuck most often in this review. I cover Google's official position separately in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi). To map topic clusters and content gaps systematically, use the [content strategy guide](/en/guides/icerik-stratejisi).",
+    "Authority and brand signals belong in the picture too. If competitors are mentioned and cited more often, the methods in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr) pay off over time."
+   ]
+  },
+  {
+   "baslik": "6. Change plan and a realistic recovery timeline",
+   "paragraflar": [
+    "The documentation is explicit: avoid quick fixes such as removing page elements because of perceived SEO effects. Meaningful improvement means rewriting or restructuring content for readability and navigation and filling in missing information. Deletion is a last resort and makes sense mainly for sections created for search engines rather than readers.",
+    "Set the right expectations on timing. Google says some changes can take effect within a few days, but it can take several months for its systems to learn and confirm that a site has improved; if there is still no effect after a few months, you may need to wait for the next core update. There is also no assurance that your changes will have a noticeable impact, so log change dates and track their effect weekly.",
+    "We can handle the rewriting through [content strategy services](/en/content-strategy) and the diagnosis and prioritisation through [SEO consulting](/en/seo-consulting). If you would like to read your data together, [book a diagnosis call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yayılım sürerken değişiklik yapmalı mıyım?",
+   "c": "Hayır. Yayılım sırasında sıralamalar ileri geri oynayabilir ve bu dönemin verisi yanıltıcıdır. Google da bitişten sonra en az bir hafta bekleyip karşılaştırma yapmayı öneriyor."
+  },
+  {
+   "s": "Düşüş bir cezanın işareti mi?",
+   "c": "Çekirdek güncellemeleri belirli siteleri hedef almaz ve ceza değildir. Ceza niteliğindeki manuel işlemler Search Console'daki Manuel işlemler raporunda görünür; orada kayıt yoksa durum algoritmik bir yeniden değerlendirmedir."
+  },
+  {
+   "s": "Backlink almak düşüşü düzeltir mi?",
+   "c": "Tek başına çoğu zaman düzeltmez. Kayıp içerik kalitesi ya da niyet uyumundan kaynaklanıyorsa önce sayfayı iyileştirmek gerekir; otorite çalışması bunu tamamlayan, uzun vadeli bir adımdır."
+  },
+  {
+   "s": "Düşen sayfaları silip yeniden mi yayımlamalıyım?",
+   "c": "Hayır. Aynı içeriği yeni URL'de yayımlamak sorunu çözmez, mevcut sinyalleri de kaybettirir. Sayfayı aynı adreste anlamlı biçimde iyileştirin."
+  },
+  {
+   "s": "Toparlanma için bir sonraki çekirdek güncellemesini mi beklemek gerekir?",
+   "c": "Her zaman değil. Google'a göre bazı iyileşmeler birkaç gün içinde görülebilir, ama sistemlerin değişikliği doğrulaması aylar sürebilir; aylar sonra etki yoksa bir sonraki çekirdek güncellemesinde yeniden değerlendirilebilirsiniz."
+  },
+  {
+   "s": "Rakiplerim yükseldi, ben düştüm. Onları kopyalamalı mıyım?",
+   "c": "Kopyalamak işe yaramaz. Kazanan sayfaların hangi kullanıcı ihtiyacını daha iyi karşıladığını anlayın ve kendi deneyiminizle, özgün bilgiyle daha iyisini sunun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I make changes while the update is still rolling out?",
+   "c": "No. Rankings can swing back and forth during the rollout, and data from that period is misleading. Google also recommends waiting at least a week after completion before comparing."
+  },
+  {
+   "s": "Is the drop a sign of a penalty?",
+   "c": "Core updates do not target specific sites and are not penalties. Penalty-like manual actions appear in the Manual actions report in Search Console; if nothing is listed there, you are looking at an algorithmic re-evaluation."
+  },
+  {
+   "s": "Will building backlinks fix the drop?",
+   "c": "On its own, usually not. If the loss comes from content quality or intent mismatch, improve the page first; authority work complements that over the longer term."
+  },
+  {
+   "s": "Should I delete the pages that dropped and republish them?",
+   "c": "No. Republishing the same content on a new URL does not solve the problem and throws away existing signals. Improve the page meaningfully at the same address."
+  },
+  {
+   "s": "Do I have to wait for the next core update to recover?",
+   "c": "Not always. Google says some improvements can show within days, but confirming them can take months; if there is no effect after a few months, you may be reassessed in the next core update."
+  },
+  {
+   "s": "My competitors went up and I went down. Should I copy them?",
+   "c": "Copying does not work. Understand which user need the winning pages meet better, then offer something better with your own experience and original information."
+  }
+ ]
+}

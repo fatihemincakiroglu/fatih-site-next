@@ -1,0 +1,305 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 8,
+ "baslik_tr": "Diş Klinikleri İçin Yerel SEO: Haritalarda Öne Çıkmanın Yolları",
+ "baslik_en": "Local SEO for Dental Clinics: How to Stand Out on Google Maps",
+ "meta_baslik_tr": "Diş Klinikleri İçin Yerel SEO: Haritalarda Öne Çıkın",
+ "meta_baslik_en": "Local SEO for Dental Clinics: Stand Out on Google Maps",
+ "meta_desc_tr": "Diş kliniği haritada nasıl öne çıkar? Hekim profilleri, şube ve tedavi sayfaları, hasta yorumları, sağlık tanıtım kuralları ve ölçüm için yerel SEO planı.",
+ "meta_desc_en": "How can a dental clinic stand out on Google Maps? A practical local SEO plan: dentist profiles, branch and treatment pages, patient reviews, promotion rules.",
+ "ozet_tr": "Diş kliniklerinin harita ve yerel aramalarda görünürlüğü için hekim profili, şube sayfası, yorum ve ölçüm odaklı plan.",
+ "ozet_en": "A local search plan for dental clinics: dentist profiles, branch pages, patient reviews and measurement on Google Maps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Diş ağrısı çeken biri genellikle uzak bir şehirdeki en ünlü kliniği değil, evine ya da işine yakın, bugün randevu verebilecek bir hekimi arar. Bu yüzden diş kliniklerinde yerel arama, yeni hasta kazanımının en doğrudan kanalıdır: harita sonuçları, “ilçe + tedavi” aramaları ve hekim adıyla yapılan aramalar.",
+    "Bu yazıda diş kliniklerine özgü yerel SEO konularına odaklanıyorum: klinik ve hekim profilleri arasındaki denge, şube ve tedavi sayfaları, hasta yorumları ve sağlık tanıtım kurallarının yerel çalışmaya etkisi. Profil kurulumu ve genel yerel SEO adımlarını burada tekrar etmeyeceğim; onlara ilgili bölümlerde bağlantı veriyorum.",
+    {
+     "alinti": "Kısa cevap: Diş kliniğinin haritada öne çıkması; doğru kategoriyle kurulmuş bir klinik profili, gerektiğinde hasta kabul eden hekimler için ayrı profiller, her şube ve tedavi için hekim bilgisi taşıyan özgün sayfalar, düzenli ve kurallara uygun hasta yorumları ve tutarlı adres-telefon bilgisiyle olur. Türkiye'de sağlık tanıtım mevzuatı yorumların, görsellerin ve fiyatların kullanımını sınırladığı için her adım bu çerçevede planlanmalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Diş kliniği aramaları nasıl işler?",
+   "paragraflar": [
+    "Hasta niyeti arama ifadesine göre çok farklıdır ve her biri farklı bir alanda karşılanır. Planı kurmadan önce bu ayrımı yapmak, emeğin doğru yere gitmesini sağlar.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Arama türü",
+       "Örnek",
+       "Sonuç nerede çıkar?",
+       "Ne gerekir?"
+      ],
+      "satirlar": [
+       [
+        "Yakınlık aramaları",
+        "“yakınımdaki diş hekimi”",
+        "Harita paketi",
+        "Doğru kategori, eksiksiz profil, yorumlar"
+       ],
+       [
+        "İlçe + tedavi",
+        "“Kadıköy implant”, “Şişli ortodonti”",
+        "Harita ve organik sonuçlar",
+        "Şube ve tedavi sayfaları, profilde hizmetler"
+       ],
+       [
+        "Acil durum",
+        "“açık diş kliniği”, “diş ağrısı acil”",
+        "Harita paketi",
+        "Doğru ve güncel çalışma saatleri, telefon"
+       ],
+       [
+        "Hekim adı",
+        "“Dr. Ad Soyad diş hekimi”",
+        "Organik sonuçlar, hekim profili",
+        "Hekim sayfası ve hekim profili"
+       ],
+       [
+        "Yabancı dilde arama",
+        "“dentist Istanbul”",
+        "Organik sonuçlar, harita",
+        "Ayrı dil sürümleri, sağlık turizmi kuralları"
+       ]
+      ]
+     }
+    },
+    "Acil aramalarda en sık kaybedilen hasta, çalışma saatleri yanlış girilmiş profilden gelir. Bayram ve tatil günleri için özel saat girmek küçük ama doğrudan etkisi olan bir iştir."
+   ]
+  },
+  {
+   "baslik": "Klinik profili mi, hekim profilleri mi?",
+   "paragraflar": [
+    "Google'ın kurallarına göre birden fazla hekimin çalıştığı bir klinikte kliniğin kendi profili olur; düzenli olarak hasta kabul eden hekimler ise ayrı profil açabilir. Hekim profilinin adında klinik adı yer almaz, bir hekim uzmanlık alanları için birden fazla profil açmaz ve asistan, sekreter gibi destek personeli profil açmaz. Kliniğin tek hekimi varsa, klinik ile hekim çoğu durumda tek profili paylaşır.",
+    "Hekim profilleri hem fırsat hem yönetim yükü getirir: Her profilin yorumları, fotoğrafları ve bilgileri ayrı ayrı güncel tutulmalıdır. Hekim klinikten ayrıldığında profilin ne olacağını önceden konuşmak, ileride sahiplik sorunu yaşamamak için önemlidir.",
+    "Kategori seçiminde birincil kategori olarak kliniğinizi en iyi tanımlayanı seçin; ortodonti gibi ayrı bir uzmanlık hizmeti gerçekten veriliyorsa ek kategori olarak ekleyin. Profil kurulumu, doğrulama ve askıya alınma riskleri için [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısındaki adımları izleyebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Şube ve tedavi sayfaları nasıl kurgulanmalı?",
+   "paragraflar": [
+    "Harita profili, web sitesindeki sayfalarla desteklenmediğinde “ilçe + tedavi” aramalarında zayıf kalır. Diş kliniklerinde iki sayfa türü öne çıkar:",
+    {
+     "liste": [
+      "**Şube sayfaları:** Her şube için adres, telefon, çalışma saatleri, ulaşım ve otopark bilgisi, o şubede çalışan hekimler ve gerçek fotoğraflar. Profil, o şubenin sayfasına bağlanmalı.",
+      "**Tedavi sayfaları:** İmplant, ortodonti, kanal tedavisi gibi işlemler için kimlere uygun olduğu, süreç, olası riskler ve işlemi yapan hekim. Yazan ya da inceleyen hekimin adı ve güncelleme tarihi görünür olmalı.",
+      "**Hekim sayfaları:** Eğitim, uzmanlık (diplomadaki ana dal ve yan dala uygun biçimde), bildiği diller ve yazdığı içerikler."
+     ]
+    },
+    "Sık gördüğüm hata, her ilçe için yalnızca ilçe adı değiştirilmiş tedavi sayfaları üretmek. Fiziksel şubeniz olmayan ilçeler için çoğaltılan bu sayfalar Google'ın spam politikalarındaki doorway sayfa tanımına yaklaşır; bu riskin nasıl ayırt edileceğini [programatik SEO ve doorway sayfa](/blog/programatik-seo) yazısında anlattım. Bölge sayfalarının iyi bir örneğini görmek için kendi sitemdeki [Kadıköy SEO uzmanı](/kadikoy-seo-uzmani) sayfasına bakabilirsiniz: her ilçe sayfası o bölgeye özgü bilgiyle ayrışmak zorundadır."
+   ]
+  },
+  {
+   "baslik": "Hasta yorumları: Google kuralları ve gizlilik",
+   "paragraflar": [
+    "Yorumlar, diş kliniği seçiminde hastanın en çok baktığı unsurlardan biridir ve harita görünürlüğünü de etkiler. Google tarafında kurallar nettir: Yorum karşılığında indirim, hediye ya da ücretsiz kontrol vermek, yalnızca memnun hastalardan yorum istemek ve çalışanlara yorum yazdırmak Google'ın politikalarına aykırıdır.",
+    "Sağlık tarafında ise ek bir hassasiyet var. Yorumlara cevap verirken kişinin hastanız olduğunu doğrulayan, tanı ya da tedavi ayrıntısı içeren hiçbir bilgi yazmayın. “Tedaviniz sırasında...” yerine “Paylaştığınız deneyim için teşekkür ederiz, konuyu görüşmek için kliniğimizi arayabilirsiniz” gibi genel bir dil kullanın. Olumsuz yorumlara nasıl cevap verileceğini örneklerle [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında ele aldım.",
+    "Bir uyarı daha: Hasta teşekkür ve memnuniyet ifadelerinin tanıtım amacıyla kullanılması sağlık mevzuatında ayrıca sınırlandırılmıştır. Google yorumlarını web sitenize ya da sosyal medya gönderilerinize taşımadan önce hukuki görüş alın."
+   ]
+  },
+  {
+   "baslik": "Sağlık tanıtım kuralları yerel SEO'yu nasıl etkiler?",
+   "paragraflar": [
+    "Türkiye'de sağlık hizmetlerinin tanıtımı mevzuatla sınırlandırılmıştır ve ilgili düzenleme 2025 sonunda yenilendi. Ayrıntılara girmeden, yerel SEO çalışmasını doğrudan etkileyen başlıklar genel olarak şunlar:",
+    {
+     "liste": [
+      "Arama motoru ve platform kayıtlarının ücretli, sponsorlu ya da öne çıkarılmış biçimde yapılması kısıtlanıyor; anahtar kelimeler ve arama sonucunda görünen bilgiler de aynı kurallara tabi.",
+      "Fiyat, indirim ve kampanya duyuruları tanıtım içeriklerinde sınırlanıyor.",
+      "Önce-sonra görselleri hasta onayı, tarih ve düzenlenmemiş görüntü gibi şartlara bağlı.",
+      "Bir kliniği, cihazı ya da hekimi diğerlerinden üstün gösteren ifadeler sorun yaratabilir.",
+      "Uzmanlık unvanları diplomaya dayalı ana dal ve yan dal ile sınırlı."
+     ]
+    },
+    "Bu yüzden profil açıklamasına “en iyi implant merkezi” yazmak, gönderilerde kampanya duyurmak ya da hizmet adlarına fiyat eklemek hem Google hem mevzuat açısından risklidir. Kuralların daha geniş çerçevesini [sağlık sektörü SEO rehberinde](/rehber/saglik-seo) özetledim; kliniğinize özgü uygulamalar için sağlık hukuku alanında hukuki danışmanlık alın."
+   ]
+  },
+  {
+   "baslik": "Adres tutarlılığı, yapısal veri ve ölçüm",
+   "paragraflar": [
+    "Klinik adı, adresi ve telefonu; profilde, sitede, sosyal medya hesaplarında ve rehber platformlarında aynı biçimde yazılmalıdır. Taşınma ya da telefon değişikliğinden sonra eski bilgilerin internette kalması, hem haritada hem yapay zekâ cevaplarında karışıklığa yol açar. Hangi platformlarda kayıt açılacağını ve tutarlılığın nasıl korunacağını [yerel SEO rehberinde](/rehber/yerel-seo) anlattım.",
+    "Web sitesinde kliniği schema.org'daki Dentist türüyle, hekimleri Person türüyle işaretlemek bilgiyi makinelerin okuyacağı biçimde sunar. Taslağı [schema oluşturucu aracıyla](/araclar/schema-olusturucu) hazırlayabilirsiniz. Ölçümde ise aylık olarak şunlara bakıyorum:",
+    {
+     "kontrol": [
+      "Profilden gelen telefon aramaları ve yol tarifi istekleri",
+      "Profil bağlantısına eklenen UTM parametresiyle GA4'te ayrılan web sitesi trafiği",
+      "Search Console'da ilçe ve tedavi adı içeren sorgular",
+      "Online randevu formu ve telefonla gelen randevuların kaynağı",
+      "Yeni yorum sayısı ve cevaplanmamış yorumlar"
+     ]
+    },
+    "Bu verileri tek bir aylık raporda birleştirmek için [SEO raporlama rehberindeki](/rehber/seo-raporlama) şablonu kullanabilirsiniz. Kliniğinizin yerel görünürlüğünü birlikte değerlendirmek isterseniz [klinikler için SEO danışmanlığı](/sektorler/klinik-seo) sayfasında çalışma biçimimi bulabilir, doğrudan [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Someone with toothache rarely looks for the most famous clinic in another city. They look for a dentist near home or work who can see them today. That makes local search the most direct channel for new patients at dental clinics: map results, “district + treatment” searches and searches for a dentist's name.",
+    "This article focuses on local SEO topics specific to dental clinics: the balance between clinic and dentist profiles, branch and treatment pages, patient reviews and how health promotion rules in Turkey affect local work. I won't repeat profile setup or general local SEO steps here; I link to them in the relevant sections.",
+    {
+     "alinti": "Short answer: A dental clinic stands out on the map with a clinic profile set up under the right category, separate profiles for dentists who see patients where appropriate, original pages for each branch and treatment that carry dentist information, steady and policy-compliant patient reviews, and consistent address and phone details. In Turkey, health promotion rules limit how reviews, images and prices can be used, so every step should be planned within that framework."
+    }
+   ]
+  },
+  {
+   "baslik": "How do dental clinic searches work?",
+   "paragraflar": [
+    "Patient intent varies a lot by search phrase, and each type is served in a different place. Making this distinction before you plan ensures effort goes where it counts.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Search type",
+       "Example",
+       "Where results appear",
+       "What you need"
+      ],
+      "satirlar": [
+       [
+        "Proximity searches",
+        "“dentist near me”",
+        "Map pack",
+        "Right category, complete profile, reviews"
+       ],
+       [
+        "District + treatment",
+        "“Kadıköy implant”, “Şişli orthodontics”",
+        "Map and organic results",
+        "Branch and treatment pages, services on profile"
+       ],
+       [
+        "Emergency",
+        "“dentist open now”, “emergency toothache”",
+        "Map pack",
+        "Accurate, current opening hours and phone"
+       ],
+       [
+        "Dentist name",
+        "“Dr. First Last dentist”",
+        "Organic results, dentist profile",
+        "Dentist page and dentist profile"
+       ],
+       [
+        "Foreign-language search",
+        "“dentist Istanbul”",
+        "Organic results, map",
+        "Separate language versions, health tourism rules"
+       ]
+      ]
+     }
+    },
+    "The patient most often lost in emergency searches comes from a profile with wrong opening hours. Entering special hours for holidays is a small task with a direct effect."
+   ]
+  },
+  {
+   "baslik": "Clinic profile or dentist profiles?",
+   "paragraflar": [
+    "Under Google's rules, a clinic with several dentists has its own profile, and dentists who regularly see patients can have separate profiles. A dentist's profile name should not include the clinic name, a dentist should not create multiple profiles for different specialties, and support staff such as assistants or receptionists should not create profiles. If the clinic has a single dentist, the clinic and dentist usually share one profile.",
+    "Dentist profiles bring both opportunity and workload: each profile's reviews, photos and details must be kept current separately. Agreeing in advance what happens to a profile when a dentist leaves helps avoid ownership disputes later.",
+    "For categories, choose the primary category that best describes your clinic, and add a separate specialty such as orthodontics as an additional category only if you genuinely offer it. For setup, verification and suspension risks, follow the steps in the [Google Business Profile optimization](/en/blog/google-business-profile) article."
+   ]
+  },
+  {
+   "baslik": "How should branch and treatment pages be structured?",
+   "paragraflar": [
+    "A map profile without supporting website pages stays weak for “district + treatment” searches. Two page types matter most for dental clinics:",
+    {
+     "liste": [
+      "**Branch pages:** for each branch, address, phone, hours, transport and parking, the dentists working there and real photos. The profile should link to that branch's page.",
+      "**Treatment pages:** for procedures such as implants, orthodontics or root canal treatment, who they suit, the process, possible risks and the dentist who performs them. The author or reviewing dentist and the update date should be visible.",
+      "**Dentist pages:** education, specialty (in line with the main and sub-specialty on the diploma), languages and articles they wrote."
+     ]
+    },
+    "A common mistake is producing treatment pages for every district with only the district name changed. Pages multiplied for districts where you have no physical branch come close to the doorway page definition in Google's spam policies; I explain how to tell the difference in the [programmatic SEO and doorway pages](/en/blog/programatik-seo) article. Each regional page has to stand apart with information specific to that area."
+   ]
+  },
+  {
+   "baslik": "Patient reviews: Google's rules and confidentiality",
+   "paragraflar": [
+    "Reviews are among the first things patients check when choosing a dentist, and they also affect map visibility. On Google's side the rules are clear: offering discounts, gifts or free check-ups for reviews, asking only satisfied patients for reviews and having staff write reviews all violate Google's policies.",
+    "Healthcare adds another layer. When replying, never write anything that confirms the person is your patient or includes diagnosis or treatment details. Instead of “During your treatment…”, use general language such as “Thank you for sharing your experience; please call the clinic so we can discuss it.” I cover how to reply to negative reviews, with examples, in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap).",
+    "One more caution: Turkish health regulations separately restrict using patient thanks and satisfaction statements for promotion. Get legal advice before moving Google reviews onto your website or social media posts."
+   ]
+  },
+  {
+   "baslik": "How do health promotion rules affect local SEO?",
+   "paragraflar": [
+    "In Turkey, the promotion of health services is restricted by regulation, and the relevant rules were renewed in late 2025. Without going into detail, the areas that most directly affect local SEO work are, in general terms:",
+    {
+     "liste": [
+      "Paid, sponsored or boosted listings on search engines and platforms are restricted; keywords and the information shown in search results follow the same rules.",
+      "Prices, discounts and campaign announcements are limited in promotional content.",
+      "Before-and-after images are subject to conditions such as patient consent, dates and unedited images.",
+      "Wording that presents a clinic, device or dentist as superior to others can cause problems.",
+      "Specialty titles are limited to diploma-based main and sub-specialties."
+     ]
+    },
+    "So writing “the best implant centre” in the profile description, announcing campaigns in posts or adding prices to service names is risky from both Google's and the regulator's perspective. I summarise the wider framework in the [healthcare SEO guide](/en/guides/saglik-seo); for practices specific to your clinic, get advice from a health law specialist."
+   ]
+  },
+  {
+   "baslik": "Address consistency, structured data and measurement",
+   "paragraflar": [
+    "The clinic's name, address and phone should be written identically on the profile, the website, social accounts and directory platforms. Old details left online after a move or phone change cause confusion both on the map and in AI answers. I cover which platforms to list on and how to keep details consistent in the [local SEO guide](/en/guides/yerel-seo).",
+    "Marking up the clinic with schema.org's Dentist type and dentists with the Person type presents the information in a machine-readable way. You can draft it with the [schema generator tool](/en/tools/schema-generator). For measurement, these are what I review each month:",
+    {
+     "kontrol": [
+      "Calls and direction requests from the profile",
+      "Website traffic separated in GA4 via a UTM parameter on the profile link",
+      "Search Console queries containing district and treatment names",
+      "The source of online booking forms and phone appointments",
+      "New review count and unanswered reviews"
+     ]
+    },
+    "To combine these into one monthly report, use the template in the [SEO reporting guide](/en/guides/seo-raporlama). If you would like to review your clinic's local visibility together, see how I work on the [healthcare SEO consulting](/en/industries/healthcare-seo) page or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Haritada üst sıralara çıkmak ne kadar sürer?",
+   "c": "Kesin bir süre vermek mümkün değil; rekabet, mevcut profilin durumu ve yorum geçmişi belirleyicidir. Kategori ve profil düzeltmelerinin etkisi genellikle daha hızlı görülürken, yorum ve sayfa çalışmalarının etkisi aylara yayılır."
+  },
+  {
+   "s": "Klinik taşınırsa profil ve yorumlar ne olur?",
+   "c": "Yeni profil açmak yerine mevcut profilin adresini güncellemek, yorum geçmişini korumanın doğru yoludur. Adres değişikliği yeniden doğrulama isteyebilir; sitedeki ve diğer platformlardaki adresleri de aynı gün güncelleyin."
+  },
+  {
+   "s": "Birden fazla şube için tek web sitesi yeterli mi?",
+   "c": "Evet, tek site çoğu klinik için daha yönetilebilirdir. Önemli olan her şubenin kendi sayfasına sahip olması ve her şube profilinin o sayfaya bağlanmasıdır."
+  },
+  {
+   "s": "Profilde 7/24 açık yazmak aramalarda avantaj sağlar mı?",
+   "c": "Yalnızca gerçekten öyleyse yazın. Gerçeğe uymayan çalışma saatleri hasta şikâyetine ve olumsuz yoruma dönüşür, profilin güvenilirliğini de zedeler."
+  },
+  {
+   "s": "Yabancı hastalar için ayrı profil açmalı mıyım?",
+   "c": "Hayır, aynı lokasyon için tek profil olur. Yabancı hastalara yönelik görünürlük, sitenin ayrı dil sürümleri ve sağlık turizmine ilişkin kurallara uygun içeriklerle sağlanır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How long does it take to rank higher on the map?",
+   "c": "There is no fixed timeline; competition, the current state of the profile and review history decide it. Category and profile fixes usually show results sooner, while review and page work pays off over months."
+  },
+  {
+   "s": "What happens to the profile and reviews if the clinic moves?",
+   "c": "Updating the existing profile's address, rather than opening a new one, is the right way to keep the review history. An address change may trigger re-verification; update the address on the site and other platforms on the same day."
+  },
+  {
+   "s": "Is one website enough for several branches?",
+   "c": "Yes, a single site is more manageable for most clinics. What matters is that each branch has its own page and each branch profile links to it."
+  },
+  {
+   "s": "Does listing “open 24 hours” help in searches?",
+   "c": "Only list it if it is true. Inaccurate hours turn into patient complaints and negative reviews, and they damage the profile's credibility."
+  },
+  {
+   "s": "Should I open a separate profile for international patients?",
+   "c": "No, one location has one profile. Visibility for international patients comes from separate language versions of the site and content that follows health tourism rules."
+  }
+ ]
+}

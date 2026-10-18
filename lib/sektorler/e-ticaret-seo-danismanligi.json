@@ -1,0 +1,375 @@
+{
+ "slug": "e-ticaret-seo-danismanligi",
+ "slug_en": "ecommerce-seo-consulting",
+ "ad_tr": "E-ticaret SEO Danışmanlığı",
+ "ad_en": "E-commerce SEO Consulting",
+ "h1_tr": "E-ticaret SEO Danışmanlığı",
+ "h1_en": "E-commerce SEO Consulting",
+ "alt_tr": "Kategori, ürün ve filtre sayfalarını Google'ın doğru taradığı, doğru sıraladığı bir mağaza yapısına dönüştürüyorum.",
+ "alt_en": "I help online stores turn category, product and filter pages into a structure Google crawls, indexes and ranks properly.",
+ "meta_baslik_tr": "E-ticaret SEO Danışmanlığı | Fatih Emin Çakıroğlu",
+ "meta_baslik_en": "E-commerce SEO Consulting | Fatih Emin Çakıroğlu",
+ "meta_desc_tr": "Büyük katalog, filtreli gezinme, varyant ve stok sorunlarına odaklanan e-ticaret SEO danışmanlığı. Kapsam, süreç ve ilk 90 gün planı bu sayfada.",
+ "meta_desc_en": "E-commerce SEO consulting focused on large catalogs, faceted navigation, variants and stock logic. See the scope, the process and the first 90 days.",
+ "ozet_tr": "Kategori, ürün ve filtre sayfalarında tarama israfını durdurup gelir getiren sayfaları güçlendiren danışmanlık.",
+ "ozet_en": "Consulting that stops crawl waste on filters and strengthens the category and product pages that drive revenue.",
+ "hizmetler_tr": [
+  "E-ticaret teknik SEO denetimi",
+  "Kategori mimarisi ve anahtar kelime eşleştirme",
+  "Filtreli gezinme (faceted navigation) yönetimi",
+  "Ürün şeması ve yapısal veri",
+  "Stok ve ürün yaşam döngüsü kuralları",
+  "Platform geçişi SEO desteği"
+ ],
+ "hizmetler_en": [
+  "E-commerce technical SEO audit",
+  "Category architecture and keyword mapping",
+  "Faceted navigation management",
+  "Product schema and structured data",
+  "Stock and product lifecycle rules",
+  "Platform migration SEO support"
+ ],
+ "rehberler": [
+  "e-ticaret-seo",
+  "teknik-seo",
+  "site-tasima-seo",
+  "anahtar-kelime-arastirmasi"
+ ],
+ "ilceler": [
+  "sisli",
+  "besiktas",
+  "kagithane",
+  "atasehir",
+  "umraniye"
+ ],
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-ticarette organik trafiğin büyük kısmı iki tür aramadan gelir: \"erkek deri bot\" gibi seçenek görmek isteyen geniş ticari aramalar ve model adı, ölçü ya da kod içeren, ne aradığını bilen kullanıcının yaptığı spesifik aramalar. İlkini kategori sayfaları, ikincisini ürün sayfaları karşılar. Sorun şu ki bir mağaza bu iki sayfa tipinin yanında filtre, sıralama, sayfalama ve varyant kombinasyonlarından binlerce ek URL üretir. Google'ın zamanı bu gereksiz adreslere harcandığında satış yapan sayfalar geç taranır, geç güncellenir ya da hiç dizine girmez.",
+    "Bu sayfa, mağazanızla nasıl çalıştığımı anlatıyor. Kategori sayfasının nasıl kurgulanacağı, filtre yöntemlerinin karşılaştırması ve ürün şemasının alanları gibi konuların ayrıntılı anlatımını [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) topladım; burada aynı bilgiyi tekrarlamak yerine bunları sizin sitenizde nasıl uyguladığımı ve neyi ölçtüğümü anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: E-ticaret SEO danışmanlığında önce filtre, varyant ve stok mekaniklerinin ürettiği tarama israfını durduruyor, ardından gelir getiren kategori ve ürün sayfalarını doğru aramalarla eşleştirip güçlendiriyorum. Çalışma bir teknik denetimle başlar, ilk 90 günde öncelikli düzeltmeler uygulanır ve sonuçlar sayfa tipi bazında Search Console ile izlenir."
+    }
+   ]
+  },
+  {
+   "baslik": "E-ticaret sitelerinde en sık gördüğüm SEO sorunları",
+   "paragraflar": [
+    "Mağazanın büyüklüğü ya da altyapısı fark etmeksizin denetimlerde aynı sorun grupları tekrar tekrar karşıma çıkıyor:",
+    {
+     "liste": [
+      "Filtre ve sıralama parametrelerinin sınırsız URL üretmesi; Search Console'da \"taranmış, dizine eklenmemiş\" listesinin bu adreslerle dolması.",
+      "Kategori ve ürün sayfalarının aynı kelimeyi hedeflemesi, Google'ın hangisini göstereceğine karar verememesi.",
+      "Üreticiden gelen ürün açıklamalarının aynen kullanılması; yüzlerce mağazada birebir aynı metin.",
+      "Stoktan çıkan ürünlerin silinip ana sayfaya yönlendirilmesi, biriken sinyallerin kaybolması.",
+      "Her beden veya renk için ayrı ama içerik olarak aynı sayfa açılması.",
+      "Ürün şemasındaki fiyat ve stok bilgisinin sayfada görünenle uyuşmaması.",
+      "Kategori sayfalarının yalnızca ürün ızgarasından ibaret olması; başlık, giriş metni ve alt kategori bağlantılarının eksikliği.",
+      "Liste sayfalarında çok sayıda görselin yavaş yüklenmesi ve mobil hız sorunları."
+     ]
+    },
+    "Bu sorunların çoğu tek başına küçük görünür; ama binlerce URL'ye çarpıldığında mağazanın arama görünürlüğünü belirleyen asıl etkene dönüşür."
+   ]
+  },
+  {
+   "baslik": "E-ticaret SEO danışmanlığı kapsamında neler yapıyorum?",
+   "paragraflar": [
+    "Kapsamı mağazanın büyüklüğüne ve ekibinize göre şekillendiriyorum, ama çalışma genellikle dört ana başlık altında ilerler.",
+    {
+     "alt": "Teknik denetim ve tarama kontrolü"
+    },
+    "Sitenin taranma biçimini URL kalıplarına göre analiz ediyorum: hangi parametreler dizine giriyor, hangi sayfalar canonical ile birleşiyor, robots.txt ve noindex nerede çakışıyor. Altyapıdaki genel konular için [teknik SEO temellerini](/rehber/teknik-seo) referans alıyor, mağazaya özgü kuralları tek tek yazıyorum.",
+    {
+     "alt": "Kategori mimarisi ve anahtar kelime eşleştirmesi"
+    },
+    "Hangi aramanın hangi kategoriye, hangisinin bir filtre sayfasına ya da ürüne düşmesi gerektiğini [anahtar kelime araştırması ve kümeleme](/rehber/anahtar-kelime-arastirmasi) ile netleştiriyorum. Arama talebi olan filtre kombinasyonları indekslenebilir sayfaya dönüşür, gerisi kontrol altına alınır.",
+    {
+     "alt": "Ürün sayfaları ve yapısal veri"
+    },
+    "Ürün başlığı şablonları, açıklama yaklaşımı, teknik özelliklerin metin olarak yazılması ve Product işaretlemesinin sayfadaki bilgiyle tutarlılığı bu başlık altında ele alınır. Amaç her ürüne uzun metin yazmak değil, öncelikli ürünlerde farkı yaratacak bilgiyi eklemektir.",
+    {
+     "alt": "Ürün yaşam döngüsü ve geçişler"
+    },
+    "Stoktan çıkan, kalıcı olarak kaldırılan ya da yeni modelle değişen ürünler için ekibinizin uygulayacağı net kurallar yazıyorum. Platform değişikliği planlıyorsanız yönlendirme haritasını [site taşıma SEO](/rehber/site-tasima-seo) adımlarıyla birlikte hazırlıyoruz; toplu kurallar için [yönlendirme oluşturucu aracı](/araclar/yonlendirme-olusturucu) işinizi kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "Çalışma alanları ve ölçüm tablosu",
+   "paragraflar": [
+    "Her çalışma alanının çıktısı ve başarıyı nasıl izlediğimiz baştan belli olur. Raporlarda genel trafik grafiği yerine sayfa tipi bazında ilerlemeye bakıyoruz.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Çalışma alanı",
+       "Ne yapıyoruz",
+       "Neyi ölçüyoruz"
+      ],
+      "satirlar": [
+       [
+        "Tarama ve dizin kontrolü",
+        "Filtre, sıralama ve sayfalama URL'leri için canonical, noindex ve robots.txt kurallarını belirliyoruz",
+        "Dizine eklenmeyen URL'lerin kalıp bazında değişimi, tarama istatistikleri"
+       ],
+       [
+        "Kategori sayfaları",
+        "Başlık, H1, giriş metni ve alt kategori bağlantılarını aramalarla eşleştiriyoruz",
+        "Kategori URL grubunun gösterim, tıklama ve ortalama konumu"
+       ],
+       [
+        "Filtre sayfaları",
+        "Talep gören kombinasyonları indekslenebilir sayfaya çeviriyoruz",
+        "Yeni filtre sayfalarının dizine girmesi ve aldığı aramalar"
+       ],
+       [
+        "Ürün sayfaları",
+        "Başlık şablonu, açıklama ve teknik özellik yapısını düzenliyoruz",
+        "Ürün URL grubunun tıklamaları, spesifik aramalardaki görünürlük"
+       ],
+       [
+        "Yapısal veri",
+        "Product ve ProductGroup işaretlemesini sayfa verisiyle tutarlı kuruyoruz",
+        "Search Console'daki ürün raporlarında hata ve uyarı sayısı"
+       ],
+       [
+        "Stok ve yaşam döngüsü",
+        "Stokta yok, kaldırıldı ve muadil durumları için kurallar yazıyoruz",
+        "Soft 404 ve 404 sayısı, yönlendirme zincirleri"
+       ],
+       [
+        "Organik gelir",
+        "Organik açılış sayfalarını gelir ve dönüşümle ilişkilendiriyoruz",
+        "GA4'te organik kaynaklı gelir ve dönüşüm, açılış sayfası bazında"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "İlk görüşmeden ilk 90 güne süreç nasıl işliyor?",
+   "paragraflar": [
+    "Süreci, ekibinizin ve geliştiricinizin takvimine uyacak şekilde planlıyorum. Tipik akış şöyle:",
+    {
+     "liste": [
+      "Ön görüşme (30-45 dakika): mağazanın altyapısı, katalog büyüklüğü, ekip yapısı ve hedefleri konuşulur; Search Console ve GA4 erişimi istenir.",
+      "İlk 2-3 hafta, denetim: URL kalıpları, dizin durumu, kategori-arama eşleşmesi, ürün şeması ve hız tek tek incelenir.",
+      "Öncelik listesi: her bulgu etkisi ve uygulama zorluğuyla birlikte yazılır; geliştiriciye gidecek maddeler teknik detayıyla hazırlanır.",
+      "1. ay sonu: tarama israfını durduran kurallar (filtre, sıralama, parametre) uygulamaya alınır.",
+      "2. ay: gelir getiren kategori sayfalarının başlık, metin ve iç bağlantı düzenlemeleri, ürün şeması düzeltmeleri.",
+      "3. ay: stok ve yaşam döngüsü kuralları, öncelikli ürün sayfalarında içerik iyileştirmesi, ilk sayfa tipi bazlı rapor.",
+      "90. gün değerlendirmesi: neyin işe yaradığına bakılır ve sonraki dönemin planı birlikte çıkarılır."
+     ]
+    },
+    "Dizin ve sıralama değişiklikleri Google'ın sayfaları yeniden taramasına bağlı olduğundan, büyük kataloglarda etkinin tamamını görmek 90 günden uzun sürebilir. Bunu baştan açıkça konuşuyoruz."
+   ]
+  },
+  {
+   "baslik": "Büyük katalog, filtreleme ve platform kısıtları",
+   "paragraflar": [
+    "E-ticarette SEO kararlarının çoğu teoride değil, altyapının izin verdiği ölçüde uygulanır. Bu yüzden ilk iş olarak platformunuzun neyi değiştirmeye izin verdiğini çıkarıyorum: robots.txt düzenlenebiliyor mu, filtre URL'leri nasıl üretiliyor, canonical etiketi sayfa bazında ayarlanabiliyor mu, yapısal veri tema içinden mi yoksa eklentiyle mi geliyor.",
+    "Hazır altyapılarda bazı ayarlar kısıtlı olabiliyor; bu durumda en çok fayda sağlayacak çözümü o sınırlar içinde arıyoruz. Altyapı seçimi henüz kesinleşmediyse [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) karar vermenize yardımcı olur. Pazaryeri ile kendi siteniz arasında bütçe dengesi kuruyorsanız [Trendyol mağazası mı kendi site mi](/blog/trendyol-magazasi-mi-kendi-site-mi) yazısındaki değerlendirme de işinize yarar.",
+    "On binlerce ürünlü kataloglarda her sayfaya elle dokunmak mümkün değildir. Bu yüzden kuralları şablon düzeyinde yazıyor, elle çalışmayı en çok gelir getiren kategori ve ürünlere ayırıyorum."
+   ]
+  },
+  {
+   "baslik": "Neden bağımsız danışman ve kimler için uygun?",
+   "paragraflar": [
+    "Bağımsız çalıştığım için denetimi de, geliştiriciyle yapılan teknik görüşmeyi de, raporu da doğrudan ben yürütüyorum. Bilgi bir hesap yöneticisinden geçerek kaybolmaz; ekibinize sorulan soruyu soran kişi, çözümü yazan kişiyle aynıdır.",
+    "Bu model, kendi geliştiricisi ya da çalıştığı bir yazılım ekibi olan, kataloğu büyüyen ve organik kanalı ciddiye alan mağazalar için uygundur. Uygulamayı yapacak kimse yoksa ve birinin her şeyi sizin yerinize kodlamasını bekliyorsanız, geliştirme hizmeti de veren bir ekip daha doğru olabilir. Birkaç ürünlü, yeni açılmış bir mağaza için ise kapsamlı danışmanlık yerine kısa bir kurulum kontrolü genellikle yeterlidir.",
+    "Kapsamı ve çalışma modellerini [SEO danışmanlığı](/seo-uzmani) sayfasında ayrıntılı bulabilirsiniz. Mağazanız için neyin öncelikli olduğunu konuşmak isterseniz bir [ön görüşme randevusu](/randevu) alın; birlikte sitenize bakalım."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "E-ticaret SEO danışmanlığı ücreti nasıl belirleniyor?",
+   "c": "Ücret katalog büyüklüğüne, kapsamın yalnızca denetim mi yoksa aylık destek mi olduğuna ve ekibinizin uygulama kapasitesine göre değişir. Çalışma modellerini [fiyatlandırma sayfasında](/fiyatlandirma) bulabilir, piyasadaki genel aralıklar için [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Değişiklikleri kim uyguluyor?",
+   "c": "Kuralları, şablon önerilerini ve teknik açıklamaları ben hazırlıyorum; kod tarafındaki uygulamayı sizin geliştiriciniz ya da altyapı sağlayıcınız yapıyor. Panel üzerinden yapılabilen ayarlarda ekibinizle birlikte çalışabiliriz. Uygulama sonrası her değişikliği kontrol ediyorum."
+  },
+  {
+   "s": "Pazaryerinde satıyorum, kendi sitem için SEO'ya yine de ihtiyacım var mı?",
+   "c": "Pazaryeri trafiği platformun kurallarına bağlıdır ve müşteri ilişkisi büyük ölçüde platformda kalır. Kendi sitenize organik trafik çekmek bu bağımlılığı azaltır. Hangi kanala ne kadar emek ayıracağınız ürün grubunuza ve marjınıza bağlıdır; bunu ilk görüşmede birlikte değerlendiririz."
+  },
+  {
+   "s": "Mağazamın altyapısını değiştirmem gerekir mi?",
+   "c": "Çoğu durumda hayır. Önce mevcut altyapının sınırları içinde yapılabilecekleri uyguluyoruz. Altyapı, temel bir SEO ihtiyacını (örneğin canonical ya da robots.txt kontrolünü) hiç karşılamıyorsa bunu gerekçesiyle raporluyorum ve kararı size bırakıyorum."
+  },
+  {
+   "s": "Çalışmaya başlamak için hangi erişimler gerekiyor?",
+   "c": "Search Console ve GA4 için okuma erişimi başlangıç için yeterlidir. Denetim sırasında sitenin taranması için ayrıca bir izin gerekmez. Uygulama aşamasında mağaza paneline sınırlı bir kullanıcı hesabı işleri hızlandırabilir."
+  },
+  {
+   "s": "Yapay zekâ asistanlarında ürünlerimin görünmesi de kapsama giriyor mu?",
+   "c": "Ürün bilgilerinin metin olarak net yazılması ve yapısal verinin tutarlı olması, hem arama motorlarına hem de yapay zekâ asistanlarına yardımcı olur; bu temel kısım danışmanlığın içindedir. Marka bahsi ve soru seti takibi gibi daha kapsamlı çalışmaları GEO hizmeti kapsamında ayrıca planlıyoruz."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most organic traffic to an online store comes from two kinds of searches: broad commercial queries such as \"men's leather boots\", where people want to compare options, and specific queries containing a model name, size or product code, typed by someone who already knows what they want. Category pages answer the first, product pages the second. The trouble is that on top of these two page types, a store generates thousands of extra URLs from filters, sorting, pagination and variant combinations. When Google spends its time on those addresses, the pages that actually sell get crawled late, refreshed late or never indexed at all.",
+    "This page explains how I work with your store. I have collected the detailed material on structuring category pages, comparing filter-handling methods and product schema fields in the [e-commerce SEO guide](/en/guides/e-ticaret-seo); rather than repeat it here, I focus on how I apply it to your site and what we measure.",
+    {
+     "alinti": "Short answer: In e-commerce SEO consulting, I first stop the crawl waste created by filters, variants and stock mechanics, then match the category and product pages that drive revenue to the right searches and strengthen them. The work starts with a technical audit, priority fixes are implemented in the first 90 days, and results are tracked by page type in Search Console."
+    }
+   ]
+  },
+  {
+   "baslik": "The most common SEO problems I see on e-commerce sites",
+   "paragraflar": [
+    "Regardless of store size or platform, the same groups of issues come up again and again in audits:",
+    {
+     "liste": [
+      "Filter and sort parameters producing unlimited URLs, filling the \"Crawled, currently not indexed\" list in Search Console.",
+      "Category and product pages targeting the same keyword, leaving Google unsure which one to show.",
+      "Manufacturer descriptions copied word for word, so the same text appears on hundreds of stores.",
+      "Out-of-stock products deleted and redirected to the homepage, wasting the signals they had built up.",
+      "A separate but identical page for every size or colour.",
+      "Price and availability in product schema that do not match what the page shows.",
+      "Category pages that are nothing more than a product grid, with no proper title, intro copy or subcategory links.",
+      "Slow-loading listing pages full of images, and mobile speed problems."
+     ]
+    },
+    "Each of these looks small on its own; multiplied across thousands of URLs, they become the main factor holding back a store's search visibility."
+   ]
+  },
+  {
+   "baslik": "What does my e-commerce SEO consulting cover?",
+   "paragraflar": [
+    "I shape the scope around the size of the store and your team, but the work usually falls under four headings.",
+    {
+     "alt": "Technical audit and crawl control"
+    },
+    "I analyse how the site is crawled by URL pattern: which parameters get indexed, which pages are consolidated by canonical tags, where robots.txt and noindex conflict. For general platform issues I rely on [technical SEO fundamentals](/en/guides/teknik-seo), and I write store-specific rules one by one.",
+    {
+     "alt": "Category architecture and keyword mapping"
+    },
+    "Using [keyword research and clustering](/en/guides/anahtar-kelime-arastirmasi), I decide which search belongs to a category, which to a filter page and which to a product. Filter combinations with real demand become indexable pages; the rest are kept under control.",
+    {
+     "alt": "Product pages and structured data"
+    },
+    "This covers product title templates, the approach to descriptions, writing specifications as text and keeping Product markup consistent with what the page shows. The goal is not long copy for every product but adding the information that makes a difference on priority products.",
+    {
+     "alt": "Product lifecycle and migrations"
+    },
+    "I write clear rules your team can apply for products that go out of stock, are permanently discontinued or are replaced by a new model. If you are planning a platform change, we build the redirect map alongside the [site migration SEO](/en/guides/site-tasima-seo) steps, and the [redirect generator tool](/en/tools/redirect-generator) helps with bulk rules."
+   ]
+  },
+  {
+   "baslik": "Work areas and how we measure them",
+   "paragraflar": [
+    "The output of each work area and how we track success are agreed from the start. Reports look at progress by page type rather than a single overall traffic chart.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Work area",
+       "What we do",
+       "What we measure"
+      ],
+      "satirlar": [
+       [
+        "Crawl and index control",
+        "Define canonical, noindex and robots.txt rules for filter, sort and pagination URLs",
+        "Change in non-indexed URLs by pattern, crawl stats"
+       ],
+       [
+        "Category pages",
+        "Match titles, H1s, intro copy and subcategory links to searches",
+        "Impressions, clicks and average position for the category URL group"
+       ],
+       [
+        "Filter pages",
+        "Turn in-demand combinations into indexable pages",
+        "Indexing of new filter pages and the queries they receive"
+       ],
+       [
+        "Product pages",
+        "Rework title templates, descriptions and specification structure",
+        "Clicks for the product URL group, visibility on specific queries"
+       ],
+       [
+        "Structured data",
+        "Build Product and ProductGroup markup consistent with page data",
+        "Errors and warnings in Search Console product reports"
+       ],
+       [
+        "Stock and lifecycle",
+        "Write rules for out-of-stock, discontinued and replacement cases",
+        "Soft 404 and 404 counts, redirect chains"
+       ],
+       [
+        "Organic revenue",
+        "Tie organic landing pages to revenue and conversions",
+        "Organic revenue and conversions in GA4, by landing page"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How the process runs from the first call to day 90",
+   "paragraflar": [
+    "I plan the process to fit your team's and your developer's schedule. A typical flow looks like this:",
+    {
+     "liste": [
+      "Intro call (30-45 minutes): we discuss the platform, catalog size, team structure and goals, and I request Search Console and GA4 access.",
+      "Weeks 1-3, audit: URL patterns, index status, category-to-query mapping, product schema and speed are reviewed one by one.",
+      "Priority list: every finding is written up with its impact and implementation effort; items for the developer come with technical detail.",
+      "End of month 1: rules that stop crawl waste (filters, sorting, parameters) go live.",
+      "Month 2: title, copy and internal linking changes on revenue-driving category pages, plus product schema fixes.",
+      "Month 3: stock and lifecycle rules, content improvements on priority product pages, and the first page-type report.",
+      "Day 90 review: we look at what worked and plan the next period together."
+     ]
+    },
+    "Because indexing and ranking changes depend on Google recrawling pages, seeing the full effect on a large catalog can take longer than 90 days. We discuss this openly from the start."
+   ]
+  },
+  {
+   "baslik": "Large catalogs, filtering and platform constraints",
+   "paragraflar": [
+    "Most SEO decisions in e-commerce are applied as far as the platform allows, not in theory. So my first step is to map what your platform lets you change: can robots.txt be edited, how are filter URLs generated, can canonical tags be set per page, does structured data come from the theme or from an app or plugin.",
+    "Some settings can be limited on hosted platforms; in that case we look for the most useful solution within those limits. If you have not settled on a platform yet, the [SEO comparison of e-commerce platforms](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) can help you decide. If you are balancing budget between a marketplace and your own site, the analysis in [Trendyol store or your own website](/en/blog/trendyol-magazasi-mi-kendi-site-mi) is also worth reading.",
+    "With catalogs of tens of thousands of products, touching every page by hand is not possible. I therefore write rules at template level and save the manual work for the categories and products that bring in the most revenue."
+   ]
+  },
+  {
+   "baslik": "Why an independent consultant, and who is this for?",
+   "paragraflar": [
+    "Because I work independently, I run the audit, the technical conversations with your developer and the reporting myself. Nothing gets lost passing through an account manager; the person asking your team questions is the same person writing the solution.",
+    "This model suits stores that have their own developer or an agency for development, a growing catalog and a serious commitment to the organic channel. If nobody can implement changes and you expect someone to code everything for you, a team that also offers development may be a better fit. For a newly launched store with a handful of products, a short setup check is usually enough instead of full consulting.",
+    "You can find the scope and working models on the [SEO consulting](/en/seo-consulting) page. If you want to talk about what matters most for your store, [book an intro call](/en/book-a-call) and we will look at your site together."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How is the fee for e-commerce SEO consulting set?",
+   "c": "It depends on catalog size, whether the scope is a one-off audit or monthly support, and how much your team can implement. You can see the working models on the [pricing page](/en/pricing), and for general market ranges read the post on [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+  },
+  {
+   "s": "Who implements the changes?",
+   "c": "I prepare the rules, template recommendations and technical explanations; your developer or platform provider implements the code side. For settings that can be changed in the admin panel, we can work through them with your team. I check every change after it goes live."
+  },
+  {
+   "s": "I sell on marketplaces. Do I still need SEO for my own site?",
+   "c": "Marketplace traffic depends on the platform's rules, and the customer relationship largely stays on the platform. Bringing organic traffic to your own site reduces that dependence. How much effort each channel deserves depends on your product range and margins; we assess that together on the first call."
+  },
+  {
+   "s": "Do I need to change my store's platform?",
+   "c": "In most cases, no. We first do everything possible within the current platform's limits. If the platform cannot meet a basic SEO need at all, such as control over canonical tags or robots.txt, I report it with the reasons and leave the decision to you."
+  },
+  {
+   "s": "What access do you need to get started?",
+   "c": "Read access to Search Console and GA4 is enough to begin. No separate permission is needed to crawl the site during the audit. During implementation, a limited user account in the store admin can speed things up."
+  },
+  {
+   "s": "Does the scope include visibility for my products in AI assistants?",
+   "c": "Clearly written product information and consistent structured data help both search engines and AI assistants, and that foundation is part of the consulting. Broader work such as brand mention and question-set tracking is planned separately under the GEO service."
+  }
+ ]
+}

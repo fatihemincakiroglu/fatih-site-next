@@ -128,7 +128,7 @@
   {
    "baslik": "FAQPage ve HowTo şemasının zengin sonuç durumu nedir?",
    "paragraflar": [
-    "Bu konuda hâlâ çok eski bilgi dolaşıyor, o yüzden net yazayım. Google, Ağustos 2023'ten beri FAQ zengin sonuçlarını yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriyor. HowTo zengin sonuçları ise tamamen kaldırıldı.",
+    "Bu konuda hâlâ çok eski bilgi dolaşıyor, o yüzden net yazayım. Google, Ağustos 2023'te FAQ zengin sonuçlarını yalnızca iyi bilinen, yetkili devlet ve sağlık siteleriyle sınırladı; 7 Mayıs 2026'dan itibaren ise FAQ zengin sonuçlarını Google Arama'da hiç göstermiyor ve Haziran 2026'da bu özelliğin dokümantasyonunu kaldırdı. HowTo zengin sonuçları 2023'te kaldırılmıştı. Tarihli liste için [Google güncellemeleri günlüğüne](/google-guncellemeleri) bakabilirsiniz.",
     {
      "tablo": {
       "basliklar": [
@@ -139,12 +139,12 @@
       "satirlar": [
        [
         "FAQPage",
-        "Yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriliyor",
-        "Sayfada gerçek bir SSS varsa evet; geçerli işaretlemedir ve içeriğin anlaşılmasına yardımcı olur"
+        "Mayıs 2026'dan beri zengin sonuç olarak gösterilmiyor",
+        "Zengin sonuç için değil; sayfada gerçek bir SSS varsa geçerli işaretlemedir ve içeriğin makineler tarafından anlaşılmasına yardımcı olabilir"
        ],
        [
         "HowTo",
-        "Zengin sonuç özelliği tamamen kaldırıldı",
+        "Zengin sonuç özelliği 2023'te kaldırıldı",
         "Google'da görünüm beklentisiyle öncelik değil"
        ]
       ]
@@ -362,7 +362,7 @@
   {
    "baslik": "What is the rich result status of FAQPage and HowTo schema?",
    "paragraflar": [
-    "A lot of outdated advice still circulates here, so let me be clear. Since August 2023, Google shows FAQ rich results only for well-known, authoritative government and health websites. HowTo rich results have been removed entirely.",
+    "A lot of outdated advice still circulates here, so let me be clear. In August 2023 Google limited FAQ rich results to well-known, authoritative government and health websites; since May 7, 2026 it no longer shows FAQ rich results in Google Search at all, and it removed the feature's documentation in June 2026. HowTo rich results were removed in 2023. For a dated list, see the [Google updates log](/en/google-updates).",
     {
      "tablo": {
       "basliklar": [
@@ -373,12 +373,12 @@
       "satirlar": [
        [
         "FAQPage",
-        "Shown only for well-known, authoritative government and health sites",
-        "Yes, if the page has a real FAQ; it is valid markup and helps machines understand the content"
+        "No longer shown as a rich result since May 2026",
+        "Not for rich results; if the page has a real FAQ it is still valid markup and can help machines understand the content"
        ],
        [
         "HowTo",
-        "Removed as a rich result",
+        "Removed as a rich result in 2023",
         "Not a priority if the goal is a Google search feature"
        ]
       ]

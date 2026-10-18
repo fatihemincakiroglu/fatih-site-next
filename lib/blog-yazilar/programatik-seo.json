@@ -1,0 +1,287 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 9,
+ "baslik_tr": "Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman \"Doorway\" Sayfaya Dönüşür?",
+ "baslik_en": "Programmatic SEO: When It Works and When It Turns into Doorway Pages",
+ "meta_baslik_tr": "Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman Doorway Olur?",
+ "meta_baslik_en": "Programmatic SEO: When It Works, When It Becomes Doorway",
+ "meta_desc_tr": "Programatik SEO nedir, hangi durumda değer üretir? Google'ın doorway ve ölçeklenmiş içerik spam politikaları, yayın öncesi kontrol listesi ve aşamalı yayın.",
+ "meta_desc_en": "What programmatic SEO is and when it creates value: Google's doorway and scaled content abuse policies, a pre-launch checklist and a phased rollout plan.",
+ "ozet_tr": "Şablonla binlerce sayfa üretmek ne zaman değer katar, ne zaman spam politikasına takılır? Karar kriterleri ve kontrol listesi.",
+ "ozet_en": "When does generating thousands of templated pages add value, and when does it hit spam policies? Criteria and a checklist.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Programatik SEO, bir veri kaynağını bir sayfa şablonuyla birleştirip çok sayıda sayfayı otomatik olarak üretme yaklaşımı. \"İstanbul'dan Antalya'ya uçuşlar\", \"Kadıköy'de diş kliniği\", \"X ile Y karşılaştırması\" gibi aynı kalıpta binlerce arama varsa, her biri için elle sayfa yazmak yerine yapılandırılmış veriyi sayfaya dönüştürürsünüz.",
+    "Doğru kurulduğunda uzun kuyruktaki talebi verimli biçimde karşılar. Yanlış kurulduğunda ise Google'ın spam politikalarındaki iki maddeye, doorway (köprü sayfa) ve ölçeklenmiş içerik kötüye kullanımına doğrudan takılır. Bu yazıda ikisi arasındaki çizgiyi, Google'ın resmi tanımlarına dayanarak netleştiriyorum.",
+    {
+     "alinti": "Kısa cevap: Programatik SEO, her sayfa o sorgu için gerçekten farklı ve yararlı bilgi (fiyat, stok, konum, hizmet, karşılaştırma verisi gibi) sunduğunda işe yarar. Sayfalar yalnızca anahtar kelime değişen, kullanıcıyı başka bir sayfaya yönlendirmek için var olan kopyalarsa Google bunu doorway ya da ölçeklenmiş içerik kötüye kullanımı olarak değerlendirebilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Programatik SEO nedir, nasıl çalışır?",
+   "paragraflar": [
+    "Üç parçası var: tekrarlanan bir arama kalıbı (baş terim + değişken), her değişken için ayrı veri tutan bir kaynak (veritabanı, ürün akışı, envanter, API) ve bu veriyi okunur bir sayfaya çeviren şablon. Kalıbı bulmak için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yöntemi iyi bir başlangıç; aynı niyetteki sorguları gruplayıp hangi değişkenin gerçekten farklı bir ihtiyaç doğurduğunu görürsünüz.",
+    "Kritik soru şablon değil, veri: Her sayfa için başka hiçbir yerde toplu halde bulunmayan, o sayfaya özgü bilgi var mı? Yoksa şablon ne kadar iyi olursa olsun sayfalar birbirinin kopyası olur."
+   ]
+  },
+  {
+   "baslik": "Google'ın doorway ve ölçeklenmiş içerik politikaları ne diyor?",
+   "paragraflar": [
+    "Google'ın spam politikaları dokümanına göre doorway kötüye kullanımı, belirli ve birbirine benzer arama sorgularında sıralanmak için site ya da sayfa oluşturulmasıdır. Verilen örnekler arasında kullanıcıları tek bir hedefe yönlendiren bölge ya da şehir odaklı sayfalar, ziyaretçiyi sitenin asıl yararlı bölümüne itmek için var olan sayfalar ve düzenli bir site yapısının önüne geçen neredeyse aynı sayfalar var.",
+    "Ölçeklenmiş içerik kötüye kullanımı ise çok sayıda sayfanın, esas amacı arama sıralamalarını manipüle etmek olacak şekilde üretilmesi. Burada üretim yöntemi belirleyici değil: Yapay zekâ, şablon, kazıma ya da insan emeği fark etmez; ölçüt kullanıcıya değer katılıp katılmadığı. Google'ın üretken yapay zekâ içeriğine dair rehberi de kullanıcıya değer katmadan çok sayıda sayfa üretmenin bu politikayı ihlal edebileceğini açıkça belirtiyor. Ayrıntıları [yapay zekâ ile üretilen içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ele alıyorum."
+   ]
+  },
+  {
+   "baslik": "İşe yarayan programatik SEO ile doorway sayfa arasındaki fark",
+   "paragraflar": [
+    "Aynı şablon yaklaşımı iki farklı sonuca gidebilir. Denetimlerde kullandığım ayrım tablosu şu:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kriter",
+       "Değer üreten programatik sayfa",
+       "Doorway riski taşıyan sayfa"
+      ],
+      "satirlar": [
+       [
+        "Sayfaya özgü veri",
+        "Fiyat, stok, adres, çalışma saati, puan, teknik özellik gibi gerçek veri",
+        "Yalnızca şehir ya da anahtar kelime değişiyor"
+       ],
+       [
+        "Kullanıcı görevi",
+        "Kullanıcı aradığını sayfada tamamlayabiliyor",
+        "Sayfa kullanıcıyı başka bir sayfaya itmek için var"
+       ],
+       [
+        "Gerçek karşılık",
+        "Hizmet ya da ürün o konumda veya varyantta gerçekten var",
+        "O şehirde hizmet, şube ya da stok yok"
+       ],
+       [
+        "Site yapısı",
+        "Kategori ve filtrelerle gezilebilir bir yapının parçası",
+        "Menüden ulaşılamayan, yalnızca aramaya açık sayfa yığını"
+       ],
+       [
+        "Benzerlik",
+        "Sayfalar okuyucu için belirgin biçimde farklı",
+        "Metinlerin büyük kısmı birebir aynı"
+       ]
+      ]
+     }
+    },
+    "En sık gördüğüm örnek, hizmet verilmeyen onlarca ilçe için açılan \"[ilçe] SEO hizmeti\" türü sayfalar. Yerel sayfaların doğru kurgusunu [yerel SEO rehberinde](/rehber/yerel-seo) anlattım: Her sayfanın o bölgeye özgü gerçek bilgisi olmalı."
+   ]
+  },
+  {
+   "baslik": "Hangi durumlarda programatik SEO işe yarar?",
+   "paragraflar": [
+    "Genel kural şu: Kullanıcının aradığı yanıt, sizin elinizdeki yapılandırılmış veriden doğrudan üretilebiliyorsa programatik yaklaşım doğal bir seçimdir. Uygun senaryolar:",
+    {
+     "liste": [
+      "Büyük ürün kataloglarında kategori ve filtre kombinasyonları; yalnızca gerçek arama talebi olan ve yeterli ürün içerenler.",
+      "Gerçek şubesi ya da hizmet alanı olan işletmelerde konum sayfaları; adres, ekip, çalışma saati, bölgeye özgü bilgilerle.",
+      "Rota, tarife, kur, hava durumu gibi her sorguda verisi değişen bilgi sayfaları.",
+      "Teknik özelliklere dayanan ürün ya da yazılım karşılaştırmaları.",
+      "Otel, tur ve destinasyon sayfaları; oda tipi, konum, mesafe ve güncel uygunluk verisiyle."
+     ]
+    },
+    "Turizm ve konaklamada bu yapıyı sıkça kuruyoruz; [otel ve turizm SEO'su](/sektorler/otel-turizm-seo) sayfasında yaklaşımı anlattım. Ürün tarafında platformun şablon esnekliği belirleyici; [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) bu açıdan yardımcı olur."
+   ]
+  },
+  {
+   "baslik": "Yayın öncesi kontrol listesi",
+   "paragraflar": [
+    "Şablonu yayına almadan önce şu soruların her birine \"evet\" diyebilmelisiniz:",
+    {
+     "kontrol": [
+      "Her sayfa, aynı şablonun diğer sayfalarından okuyucu için anlamlı biçimde farklı mı?",
+      "Veri kaynağı doğru ve güncel mi; güncelleme sıklığı belli mi?",
+      "Talep olmayan ya da veri yetersiz kombinasyonlar için sayfa üretilmiyor mu (ya da noindex mi)?",
+      "Sayfalar kategori ve iç linklerle gezilebilir bir yapının parçası mı?",
+      "Başlık, meta açıklama ve giriş metni değişkene göre gerçekten anlamlı mı, yoksa yalnızca kelime mi değişiyor?",
+      "Yapılandırılmış veri sayfadaki görünür içerikle birebir uyumlu mu?",
+      "Rastgele seçilen 10 sayfayı bir uzmana gösterdiğinizde \"bu sayfa işime yarar\" der mi?"
+     ]
+    },
+    "Yapısal veri tarafında Product, LocalBusiness ya da Event gibi işaretlemeleri şablona bağlamak mantıklı; kuralları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilir, örnek kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Aşamalı yayın ve indeksleme takibi",
+   "paragraflar": [
+    "Binlerce sayfayı tek seferde yayına almak yerine küçük bir partiyle başlayın; birkaç yüz sayfa, en güçlü veriye sahip kombinasyonlardan seçilmiş olsun. Search Console'da bu partinin dizine eklenme oranını, gösterimlerini ve tıklamalarını birkaç hafta izleyin.",
+    "Sayfaların önemli bir kısmı \"Tarandı – şu anda dizine eklenmemiş\" durumunda kalıyorsa Google size sayfaların yeterince farklı bulunmadığını söylüyor olabilir. Bu sinyali nasıl okuyacağınızı [\"Tarandı – şu anda dizine eklenmemiş\" hatasını çözme](/blog/tarandi-dizine-eklenmemis) yazısında anlattım. Bu durumda yeni parti açmak yerine şablonu ve veriyi güçlendirin.",
+    "Programatik bir projeyi veri modeli ve şablon kurgusundan başlayarak planlamak isterseniz [içerik stratejisi hizmeti](/icerik) ve [SEO uzmanı](/seo-uzmani) olarak teknik tarafı birlikte ele alabiliriz. Projenizi anlatmak için [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Programmatic SEO is the practice of combining a data source with a page template to generate a large number of pages automatically. When thousands of searches follow the same pattern, such as \"flights from Istanbul to Antalya\", \"dental clinic in Kadıköy\" or \"X vs Y\", you turn structured data into pages instead of writing each one by hand.",
+    "Done well, it serves long-tail demand efficiently. Done badly, it runs straight into two items in Google's spam policies: doorway abuse and scaled content abuse. This article draws the line between the two, based on Google's official definitions.",
+    {
+     "alinti": "Short answer: Programmatic SEO works when every page offers information that is genuinely different and useful for its query, such as prices, stock, location, services or comparison data. If the pages are copies where only the keyword changes and they exist to push users to another page, Google may treat them as doorway abuse or scaled content abuse."
+    }
+   ]
+  },
+  {
+   "baslik": "What is programmatic SEO and how does it work?",
+   "paragraflar": [
+    "It has three parts: a repeating search pattern (head term plus variable), a source holding separate data for each variable (a database, product feed, inventory or API), and a template that turns this data into a readable page. To find the pattern, the clustering method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) is a good start; grouping queries with the same intent shows which variable truly creates a different need.",
+    "The critical question is not the template but the data: is there information specific to each page that is not available in aggregate anywhere else? If not, the pages become copies of each other no matter how good the template is."
+   ]
+  },
+  {
+   "baslik": "What do Google's doorway and scaled content policies say?",
+   "paragraflar": [
+    "According to Google's spam policies documentation, doorway abuse is when sites or pages are created to rank for specific, similar search queries. The examples include region- or city-targeted pages that funnel users to one destination, pages that exist only to push visitors into the useful part of a site, and near-identical pages that rank above a clear, browsable site structure.",
+    "Scaled content abuse is when many pages are generated for the primary purpose of manipulating search rankings. The production method is not what decides it: AI, templates, scraping or human effort all count; the test is whether the pages add value for users. Google's guidance on generative AI content also states plainly that generating many pages without adding value for users may violate this policy. I cover the details in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+   ]
+  },
+  {
+   "baslik": "The difference between programmatic SEO that works and doorway pages",
+   "paragraflar": [
+    "The same template approach can lead to two very different outcomes. This is the comparison table I use in audits:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Criterion",
+       "Programmatic page that adds value",
+       "Page at doorway risk"
+      ],
+      "satirlar": [
+       [
+        "Page-specific data",
+        "Real data such as price, stock, address, opening hours, ratings, specs",
+        "Only the city or keyword changes"
+       ],
+       [
+        "User task",
+        "The user can complete their task on the page",
+        "The page exists to push users elsewhere"
+       ],
+       [
+        "Real-world match",
+        "The service or product truly exists at that location or variant",
+        "No service, branch or stock in that city"
+       ],
+       [
+        "Site structure",
+        "Part of a browsable structure with categories and filters",
+        "A pile of pages reachable only from search"
+       ],
+       [
+        "Similarity",
+        "Pages are clearly different for the reader",
+        "Most of the text is identical"
+       ]
+      ]
+     }
+    },
+    "The example I see most is \"[district] SEO services\" pages opened for dozens of districts the business does not actually serve. I explain how to build local pages properly in the [local SEO guide](/en/guides/yerel-seo): every page needs real information specific to that area."
+   ]
+  },
+  {
+   "baslik": "When does programmatic SEO work?",
+   "paragraflar": [
+    "The general rule: if the answer a user is looking for can be generated directly from structured data you hold, a programmatic approach is a natural fit. Suitable scenarios:",
+    {
+     "liste": [
+      "Category and filter combinations in large product catalogues, limited to those with real search demand and enough products.",
+      "Location pages for businesses with real branches or service areas, with address, team, opening hours and local details.",
+      "Information pages where the data changes per query, such as routes, timetables, exchange rates or weather.",
+      "Product or software comparisons based on technical specifications.",
+      "Hotel, tour and destination pages with room types, location, distances and current availability."
+     ]
+    },
+    "We build this structure often in travel and hospitality; I describe the approach on the [hotel and tourism SEO](/en/industries/hotel-tourism-seo) page. On the product side, template flexibility of the platform is decisive, and the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) helps with that."
+   ]
+  },
+  {
+   "baslik": "Pre-launch checklist",
+   "paragraflar": [
+    "Before you launch the template, you should be able to answer \"yes\" to each of these:",
+    {
+     "kontrol": [
+      "Is every page meaningfully different for the reader from the other pages using the same template?",
+      "Is the data source accurate and current, with a defined update frequency?",
+      "Are pages skipped (or noindexed) for combinations with no demand or too little data?",
+      "Are the pages part of a structure users can browse through categories and internal links?",
+      "Do the title, meta description and intro genuinely change with the variable, or does only a word change?",
+      "Does the structured data match the visible content on the page exactly?",
+      "If you showed 10 random pages to an expert, would they say \"this page is useful to me\"?"
+     ]
+    },
+    "On the structured data side, it makes sense to bind markup such as Product, LocalBusiness or Event to the template; you can find the rules in the [schema structured data guide](/en/guides/schema-yapisal-veri) and prepare sample code with the [schema generator](/en/tools/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "Phased rollout and indexing monitoring",
+   "paragraflar": [
+    "Instead of launching thousands of pages at once, start with a small batch: a few hundred pages chosen from the combinations with the strongest data. Track that batch's indexing rate, impressions and clicks in Search Console for a few weeks.",
+    "If a large share of the pages stays in \"Crawled – currently not indexed\", Google may be telling you the pages are not distinct enough. I explain how to read that signal in [fixing \"Crawled – currently not indexed\"](/en/blog/tarandi-dizine-eklenmemis). In that case, strengthen the template and the data rather than opening a new batch.",
+    "If you want to plan a programmatic project starting from the data model and template design, we can work through it together with [content strategy services](/en/content-strategy) and [SEO consulting](/en/seo-consulting) on the technical side. You can tell me about your project via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Programatik SEO yapay zekâ ile içerik üretmekle aynı şey mi?",
+   "c": "Hayır. Programatik SEO yapılandırılmış veriyi şablonla sayfaya dönüştürür; metin üretiminde yapay zekâ kullanılabilir ama zorunlu değildir. Google'ın değerlendirmesi üretim yönteminden çok sayfanın kullanıcıya kattığı değere bakar."
+  },
+  {
+   "s": "Kaç sayfadan sonra risk başlar?",
+   "c": "Resmi bir sayı yok. Belirleyici olan sayfa sayısı değil, sayfaların birbirinden ne kadar farklı ve yararlı olduğu. Yüz sayfalık bir kopya yığını da risklidir, gerçek veriye dayanan on binlerce sayfa da sorunsuz olabilir."
+  },
+  {
+   "s": "Hizmet vermediğim şehirler için sayfa açabilir miyim?",
+   "c": "Bu, Google'ın doorway örnekleriyle doğrudan örtüşür ve kullanıcıyı yanıltır. Yalnızca gerçekten hizmet verdiğiniz, o bölgeye özgü bilgi sunabildiğiniz konumlar için sayfa açın."
+  },
+  {
+   "s": "Programatik sayfalara canonical vermek sorunu çözer mi?",
+   "c": "Benzer sayfaları tek bir standart URL'ye işaret etmek kopya sinyalini azaltır, ama o sayfalar zaten sıralanmayacağı için neden üretildikleri sorusunu da beraberinde getirir. Çoğu durumda talep ve veri olmayan kombinasyonları hiç üretmemek daha temiz bir çözümdür."
+  },
+  {
+   "s": "Mevcut programatik sayfalarım spam olarak değerlendirildiyse ne yapmalıyım?",
+   "c": "Search Console'daki Manuel işlemler raporunu kontrol edin. Değer katmayan sayfaları kaldırın, birleştirin ya da noindex yapın, kalanları gerçek veriyle güçlendirin; manuel işlem varsa düzeltmeden sonra yeniden inceleme isteyin."
+  },
+  {
+   "s": "Programatik sayfalar yapay zekâ cevaplarında kaynak gösterilir mi?",
+   "c": "Kesin bir kural yok. Özgün, doğrulanabilir veri sunan ve net yapılandırılmış sayfalar alıntılanmaya daha uygundur; birbirinin kopyası olan sayfaların öne çıkması ise beklenmez."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is programmatic SEO the same as generating content with AI?",
+   "c": "No. Programmatic SEO turns structured data into pages through a template; AI may be used for text but is not required. Google's assessment looks at the value a page adds for users more than at how it was produced."
+  },
+  {
+   "s": "How many pages before it becomes risky?",
+   "c": "There is no official number. What matters is not the page count but how different and useful the pages are. A pile of a hundred copies is risky, while tens of thousands of pages built on real data can be fine."
+  },
+  {
+   "s": "Can I create pages for cities I do not serve?",
+   "c": "That maps directly onto Google's doorway examples and misleads users. Create pages only for locations you genuinely serve and can describe with area-specific information."
+  },
+  {
+   "s": "Does adding a canonical to programmatic pages solve the problem?",
+   "c": "Pointing similar pages to one canonical URL reduces duplicate signals, but it also raises the question of why pages that will never rank were created. In most cases, not generating combinations without demand or data is the cleaner fix."
+  },
+  {
+   "s": "What if my existing programmatic pages were judged as spam?",
+   "c": "Check the Manual actions report in Search Console. Remove, merge or noindex pages that add no value and strengthen the rest with real data; if there is a manual action, request a review after fixing."
+  },
+  {
+   "s": "Do programmatic pages get cited in AI answers?",
+   "c": "There is no fixed rule. Pages with original, verifiable data and clear structure are better suited to being cited, while pages that copy each other are unlikely to stand out."
+  }
+ ]
+}

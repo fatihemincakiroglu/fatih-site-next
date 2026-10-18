@@ -1,0 +1,297 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 9,
+ "baslik_tr": "Marka Bahsi (Brand Mention) Nedir? Linksiz Bahsin SEO ve GEO'daki Yeri",
+ "baslik_en": "What Is a Brand Mention? The Role of Unlinked Mentions in SEO and GEO",
+ "meta_baslik_tr": "Marka Bahsi (Brand Mention) Nedir? SEO ve GEO'daki Yeri",
+ "meta_baslik_en": "What Is a Brand Mention? Unlinked Mentions in SEO and GEO",
+ "meta_desc_tr": "Marka bahsi nedir, backlinkten farkı ne? Linksiz bahsin SEO ve yapay zekâ cevaplarındaki yeri, değerli bahsin özellikleri, izleme ve riskler.",
+ "meta_desc_en": "What a brand mention is and how it differs from a backlink: the role of unlinked mentions in SEO and AI answers, what makes one valuable, tracking and risks.",
+ "ozet_tr": "Linksiz marka bahsi SEO'da ve yapay zekâ cevaplarında ne işe yarar, hangi bahis değerlidir, nasıl izlenir?",
+ "ozet_en": "What unlinked brand mentions do for SEO and AI answers, which mentions are valuable and how to track them.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Marka bahsi (brand mention), markanızın, ürününüzün ya da kurucunuzun adının başka bir sitede, haberde, forumda veya yorum platformunda anılmasıdır. Bu anma bir bağlantıyla birlikte gelebilir; ama çoğu zaman gelmez. Bir gazeteci sizden alıntı yapar, bir sektör listesi firmanızı sayar, bir forum kullanıcısı hizmetinizi önerir; hiçbirinde link yoktur.",
+    "Uzun süre SEO'da yalnızca linkli bahisler önemsendi. Yapay zekâ asistanlarının cevaplarını birden çok kaynaktan sentezlemesiyle, linksiz bahis de daha çok konuşulur oldu. Bu yazıda konunun abartısız bir çerçevesini çiziyorum. Link kazanma yöntemlerini [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ayrıntılı anlattığım için burada tekrar etmiyorum.",
+    {
+     "alinti": "Kısa cevap: Marka bahsi, markanızın başka bir kaynakta link verilerek ya da verilmeden anılmasıdır. Google, linksiz bahsin doğrudan bir sıralama sinyali olduğunu kamuya açık biçimde söylemiyor; ancak bağımsız kaynaklardaki tutarlı bahisler itibarı, marka aramalarını ve yapay zekâ cevaplarında markanın doğru tanınmasını destekleyebilir. Değerli olan bahis sayısı değil, bağlamı ve kaynağıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Marka bahsi ile backlink arasındaki fark nedir?",
+   "paragraflar": [
+    "Üç durumu ayırmak işi netleştiriyor: linkli bahis, linksiz bahis ve işaretli (nofollow ya da sponsored) link içeren bahis.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tür",
+       "Ne olur?",
+       "SEO açısından",
+       "GEO açısından"
+      ],
+      "satirlar": [
+       [
+        "Linkli bahis",
+        "Marka adı anılır ve sitenize bağlantı verilir",
+        "Google'ın bağlantıları sinyal olarak kullandığı belgelenmiştir; trafik de getirir",
+        "Kaynak metinde marka ve konu birlikte geçer"
+       ],
+       [
+        "Linksiz bahis",
+        "Marka adı anılır, bağlantı yoktur",
+        "Doğrudan etkisi Google tarafından açıklanmış değil; dolaylı etkileri olabilir",
+        "Metni okuyan bir sistem markayı konuyla ilişkilendirebilir"
+       ],
+       [
+        "İşaretli link içeren bahis",
+        "rel=\"sponsored\", \"nofollow\" veya \"ugc\" ile bağlantı",
+        "Google bu nitelikleri ipucu olarak değerlendirir",
+        "Bahis metni yine okunabilir durumdadır"
+       ]
+      ]
+     }
+    },
+    "Buradaki ayrım önemli: SEO'da link, belgelenmiş bir sinyaldir. Linksiz bahsin SEO etkisi ise çoğunlukla dolaylıdır. GEO tarafında durum farklı; çünkü bir yapay zekâ cevabı, kaynakların metnini okuyarak oluşur ve metinde markanın adı geçiyorsa bağlantının olup olmaması bu okumayı engellemez."
+   ]
+  },
+  {
+   "baslik": "Linksiz marka bahsi SEO'yu etkiler mi? Google ne söylüyor?",
+   "paragraflar": [
+    "Kısa ve dürüst cevap: Google, linksiz bahsin sıralamada doğrudan kullanıldığını resmi olarak açıklamış değil. Bu konuda kesin rakam ya da formül veren yazılara temkinli yaklaşın.",
+    "Yine de bahsin dolaylı olarak işe yaradığı yerler var. Google'ın arama kalitesi değerlendirici yönergeleri, bir sitenin itibarını araştırırken sitenin kendi söylediklerine değil, bağımsız kaynakların o site ve marka hakkında söylediklerine bakılmasını ister. Değerlendiricilerin puanları sıralamayı doğrudan etkilemez; ama Google'ın neyi kaliteli saydığını gösterir. Bunun dışında bir haberde anılmak marka aramalarını, doğrudan ziyaretleri ve ileride link kazanma ihtimalini artırabilir.",
+    "Bu yüzden müşterilerime linksiz bahsi bir sıralama taktiği olarak değil, itibar ve bilinirlik çalışmasının doğal çıktısı olarak sunuyorum."
+   ]
+  },
+  {
+   "baslik": "GEO'da marka bahsi neden önemli?",
+   "paragraflar": [
+    "ChatGPT, Gemini, Perplexity, Copilot ve Google'ın AI özellikleri gibi asistanlar cevap üretirken web kaynaklarına başvurabiliyor. “Kimi önerirsin” ya da “A mı B mi” gibi sorularda cevabın hammaddesi çoğu zaman karşılaştırma yazıları, sektör listeleri, haberler ve forumlardır. Bu kaynaklarda anılmayan bir markanın cevaba girmesi zorlaşır.",
+    "Kaynak seçiminin kamuya açık bir formülü yok; dolayısıyla “şu kadar bahis, şu kadar görünürlük” demek doğru olmaz. Gözlemlediğim şu: bir marka güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda cevap üreten sistemin markayı tanıma ve doğru tanımlama ihtimali artabilir. Bunun Perplexity tarafındaki pratik karşılığını [Perplexity'de kaynak gösterilme](/blog/perplexity-kaynak-gosterilme) yazısında, test yöntemini ise [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlattım. Genel çerçeve için [GEO uygulama rehberindeki](/rehber/geo-uygulama) marka bahsi adımına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Hangi marka bahsi değerlidir?",
+   "paragraflar": [
+    "Her bahis aynı değeri taşımaz. Bir bahsi değerlendirirken şu soruları soruyorum:",
+    {
+     "kontrol": [
+      "Kaynak, hedef kitlenizin gerçekten okuduğu ve sektörünüzle ilgili bir yayın mı?",
+      "Marka, doğru konu ve hizmetle birlikte mi anılıyor? (“İstanbul'da yerel SEO” gibi bağlam)",
+      "Bahisteki bilgi doğru ve güncel mi; ad, adres ve hizmet tanımı sizin anlattığınızla tutarlı mı?",
+      "Bahis bağımsız bir değerlendirme mi, yoksa ücretli bir yerleşim mi; ücretliyse açıkça belirtilmiş mi?",
+      "Kaynak tek seferlik bir sayfa değil, düzenli yayın yapan ve kendi itibarı olan bir site mi?"
+     ]
+    },
+    "Yerel işletmelerde Google yorumları ve yerel haber siteleri de bu tablonun parçasıdır. Yorumlarla ilgili doğru yaklaşımı [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında, yerel kaynakları ise [yerel SEO rehberinde](/rehber/yerel-seo) ele aldım."
+   ]
+  },
+  {
+   "baslik": "Marka bahisleri nasıl izlenir?",
+   "paragraflar": [
+    "Search Console'daki Bağlantılar raporu yalnızca linkleri gösterir; linksiz bahisleri görmek için ayrı bir izleme düzeni gerekir. Kullandığım yöntem şu:",
+    {
+     "liste": [
+      "**Arama operatörleri:** marka adınızı tırnak içinde aratıp kendi sitenizi hariç tutarak yeni bahisleri düzenli kontrol edin.",
+      "**İzleme araçları:** web ve haber bahislerini bildiren izleme araçlarını kurun; hangi aracın hangi kaynakları kapsadığını kendi dokümanından doğrulayın.",
+      "**Yapay zekâ testleri:** sabit bir soru setiyle asistanların markanızı nasıl tanımladığını ve hangi kaynakları gösterdiğini aylık kaydedin.",
+      "**Kayıt şablonu:** kaynak, tarih, bağlam, link var mı, bilgi doğru mu sütunlarıyla tek bir tabloda tutun."
+     ]
+    },
+    "Bu kayıtları aylık rapora bağlamak, bahis çalışmasının etkisini marka aramaları ve yapay zekâ kaynaklı ziyaretlerle birlikte okumanızı sağlar."
+   ]
+  },
+  {
+   "baslik": "Linksiz bahsi linke çevirmek için ne zaman iletişime geçmeli?",
+   "paragraflar": [
+    "Linksiz bir bahis bulduğunuzda her seferinde link istemek gerekmez. Bağlantının okuyucuya gerçekten fayda sağlayacağı durumlarda kibar bir istek mantıklıdır: alıntılanan veri sizin sayfanızdaysa, bahis yanlış ya da eski bir bilgiyi içeriyorsa veya okuyucu sizi bulmakta zorlanacaksa.",
+    "İsteği kısa tutun, düzeltilmesi gereken bilgiyi net yazın ve karşılığında ödeme ya da karşılıklı link teklif etmeyin; bu Google'ın link spam politikasıyla çelişir. Editör bağlantı vermek istemezse, doğru bilgiyle anılmanız da kazançtır."
+   ]
+  },
+  {
+   "baslik": "Marka bahsi çalışmasında hangi uygulamalar risklidir?",
+   "paragraflar": [
+    {
+     "liste": [
+      "Forumlara, yorum platformlarına ya da soru-cevap sitelerine sahte hesaplarla marka bahsi yerleştirmek.",
+      "Ücretli yerleşimleri bağımsız değerlendirme gibi sunmak; reklam niteliğini gizlemek.",
+      "Alakasız sitelerde toplu “bahis paketi” satın almak.",
+      "Teşvikli ya da sahte yorum toplamak; bu Google'ın yorum politikalarına aykırıdır."
+     ]
+    },
+    "Bu uygulamalar kısa vadede görünürlük üretse bile itibar riski taşır ve platform kurallarıyla çelişir. Sağlıklı yol, haber değeri taşıyan veri, uzman görüşü ve gerçek müşteri deneyimiyle anılmaktır. Bunu sistemli bir plana dönüştürmek isterseniz [backlink ve dijital PR hizmeti](/backlink) ile [GEO danışmanlığı](/geo-uzmani) sayfalarını inceleyebilir, terimlerin tanımları için [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilir ya da doğrudan [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A brand mention is when your brand, product or founder's name is mentioned on another site, in the news, on a forum or on a review platform. The mention may come with a link, but often it doesn't. A journalist quotes you, an industry list includes your firm, a forum user recommends your service, and none of them link.",
+    "For a long time SEO cared only about linked mentions. Now that AI assistants synthesise answers from multiple sources, unlinked mentions get far more attention. In this post I draw a sober frame around the topic. I cover link-earning methods in detail in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr), so I won't repeat them here.",
+    {
+     "alinti": "Short answer: A brand mention is when your brand is named on another source, with or without a link. Google does not publicly say that unlinked mentions are a direct ranking signal; however, consistent mentions in independent sources can support reputation, branded searches and accurate recognition of the brand in AI answers. What matters is not the number of mentions but their context and source."
+    }
+   ]
+  },
+  {
+   "baslik": "What is the difference between a brand mention and a backlink?",
+   "paragraflar": [
+    "Separating three cases makes things clearer: a linked mention, an unlinked mention, and a mention with a qualified (nofollow or sponsored) link.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Type",
+       "What happens",
+       "For SEO",
+       "For GEO"
+      ],
+      "satirlar": [
+       [
+        "Linked mention",
+        "Brand is named and links to your site",
+        "Google documents that it uses links as a signal; also sends traffic",
+        "Brand and topic appear together in the source text"
+       ],
+       [
+        "Unlinked mention",
+        "Brand is named, no link",
+        "Direct effect not disclosed by Google; indirect effects possible",
+        "A system reading the text can associate the brand with the topic"
+       ],
+       [
+        "Mention with a qualified link",
+        "Link with rel=\"sponsored\", \"nofollow\" or \"ugc\"",
+        "Google treats these attributes as hints",
+        "The mention text is still readable"
+       ]
+      ]
+     }
+    },
+    "The distinction matters: in SEO a link is a documented signal, while the SEO effect of an unlinked mention is mostly indirect. GEO is different, because an AI answer is built by reading source text, and if your brand name is in that text, the absence of a link doesn't stop it being read."
+   ]
+  },
+  {
+   "baslik": "Do unlinked brand mentions affect SEO? What does Google say?",
+   "paragraflar": [
+    "The short, honest answer: Google has not officially stated that unlinked mentions are used directly in ranking. Be cautious with articles that give precise numbers or formulas on this.",
+    "There are still places where mentions help indirectly. Google's search quality rater guidelines ask raters researching a site's reputation to look at what independent sources say about the site and brand, not at what the site says about itself. Rater scores don't directly affect rankings, but they show what Google considers quality. Beyond that, being mentioned in the news can increase branded searches, direct visits and the chance of earning links later.",
+    "That's why I present unlinked mentions to clients not as a ranking tactic but as a natural output of reputation and awareness work."
+   ]
+  },
+  {
+   "baslik": "Why do brand mentions matter for GEO?",
+   "paragraflar": [
+    "Assistants such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI features can draw on web sources when generating answers. For questions like \"who would you recommend\" or \"A or B\", the raw material is often comparison articles, industry lists, news and forums. A brand that isn't mentioned in these sources has a harder time getting into the answer.",
+    "There is no public formula for source selection, so saying \"this many mentions, this much visibility\" would be wrong. What I observe is this: when a brand is consistently mentioned together with a specific topic in trustworthy, independent sources, a system answering questions on that topic may be more likely to recognise and describe the brand correctly. I cover the practical side for Perplexity in the post on [getting cited by Perplexity](/en/blog/perplexity-kaynak-gosterilme) and the testing method in the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). For the overall frame, see the brand mention step in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Which brand mentions are valuable?",
+   "paragraflar": [
+    "Not every mention carries the same value. When assessing one, I ask these questions:",
+    {
+     "kontrol": [
+      "Is the source a publication your target audience actually reads, relevant to your sector?",
+      "Is the brand mentioned with the right topic and service? (context such as \"local SEO in Istanbul\")",
+      "Is the information accurate and current; are name, address and service description consistent with yours?",
+      "Is it an independent assessment or a paid placement, and if paid, is that clearly disclosed?",
+      "Is the source a regularly publishing site with its own reputation, not a one-off page?"
+     ]
+    },
+    "For local businesses, Google reviews and local news sites are part of this picture too. I cover the right approach to reviews in the post on [responding to Google reviews](/en/blog/google-yorumlarina-cevap) and local sources in the [local SEO guide](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "How do you track brand mentions?",
+   "paragraflar": [
+    "The Links report in Search Console shows only links; seeing unlinked mentions needs a separate tracking routine. This is the method I use:",
+    {
+     "liste": [
+      "**Search operators:** search your brand name in quotes, excluding your own site, to check for new mentions regularly.",
+      "**Monitoring tools:** set up tools that alert you to web and news mentions; verify which sources each tool covers in its own documentation.",
+      "**AI tests:** record monthly, with a fixed question set, how assistants describe your brand and which sources they show.",
+      "**Logging template:** keep one table with columns for source, date, context, link yes/no and accuracy."
+     ]
+    },
+    "Feeding these logs into a monthly report lets you read the effect of mention work alongside branded searches and AI-referred visits."
+   ]
+  },
+  {
+   "baslik": "When should you reach out to turn an unlinked mention into a link?",
+   "paragraflar": [
+    "You don't need to ask for a link every time you find an unlinked mention. A polite request makes sense when a link would genuinely help the reader: when the quoted data lives on your page, when the mention contains wrong or outdated information, or when readers would struggle to find you.",
+    "Keep the request short, state clearly what needs correcting, and don't offer payment or a reciprocal link in return; that conflicts with Google's link spam policy. If the editor prefers not to link, being mentioned with accurate information is still a win."
+   ]
+  },
+  {
+   "baslik": "Which brand mention practices are risky?",
+   "paragraflar": [
+    {
+     "liste": [
+      "Planting brand mentions on forums, review platforms or Q&A sites with fake accounts.",
+      "Presenting paid placements as independent reviews and hiding their advertising nature.",
+      "Buying bulk \"mention packages\" on irrelevant sites.",
+      "Collecting incentivised or fake reviews, which violates Google's review policies."
+     ]
+    },
+    "Even if these produce short-term visibility, they carry reputational risk and conflict with platform rules. The healthy route is to be mentioned for newsworthy data, expert commentary and real customer experience. If you want to turn that into a systematic plan, see the [backlink and digital PR service](/en/backlink-digital-pr) and [GEO consulting](/en/geo-consulting) pages, check the [AI and SEO glossary](/en/ai-glossary) for definitions, or simply [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Linksiz marka bahsi backlink kadar değerli mi?",
+   "c": "SEO açısından genellikle hayır; link, Google'ın belgelenmiş bir sinyalidir ve trafik de getirir. Ancak yapay zekâ cevaplarında ve itibar açısından linksiz bahis de değer taşır. İkisini rakip değil, aynı dijital PR çalışmasının iki çıktısı olarak görmek daha doğru."
+  },
+  {
+   "s": "Olumsuz marka bahisleri SEO'ya zarar verir mi?",
+   "c": "Google'ın olumsuz bahsi doğrudan bir sıralama cezası olarak kullandığına dair resmi bir açıklama yok. Ancak itibar araştırmasında ve yapay zekâ cevaplarında olumsuz bilgi görünebilir. Haklı eleştirilere çözümle, yanlış bilgilere ise kaynağıyla iletişime geçerek yaklaşın."
+  },
+  {
+   "s": "Sosyal medyadaki bahisler de marka bahsi sayılır mı?",
+   "c": "Evet, markanızın anıldığı her yer bir bahistir. Ancak sosyal medya içeriklerinin arama motorları ve yapay zekâ sistemleri tarafından ne ölçüde erişilebilir olduğu platforma göre değişir. Bu yüzden kalıcı, herkese açık web kaynaklarındaki bahisleri ayrıca takip etmenizi öneririm."
+  },
+  {
+   "s": "Rakiplerimin marka bahislerini analiz etmeli miyim?",
+   "c": "Evet, faydalı bir başlangıç noktasıdır. Rakiplerinizin hangi sektör listelerinde, haberlerde ve karşılaştırma yazılarında anıldığını görmek, sizin de yer alabileceğiniz kaynakları ortaya çıkarır. Amaç taklit değil, eksik olduğunuz bağımsız kaynakları belirlemektir."
+  },
+  {
+   "s": "Ücretli bir yayında anılmak sorun yaratır mı?",
+   "c": "Ücretli yayın kendi başına yasak değildir. Önemli olan reklam niteliğinin okuyucuya açıkça belirtilmesi ve varsa linkin rel=\"sponsored\" ile işaretlenmesidir. Ücretli bahsi bağımsız değerlendirme gibi göstermek ise hem itibar hem politika riski taşır."
+  },
+  {
+   "s": "Marka bahsi çalışmasının sonuçları ne zaman görülür?",
+   "c": "Kesin bir süre vermek doğru olmaz; yayın takvimi, kaynakların taranma sıklığı ve platformlar arasındaki farklar etkiler. Ben ilk değerlendirmeyi üç aylık bir dönemin sonunda, marka aramaları, yeni bahisler ve yapay zekâ test sonuçlarını birlikte okuyarak yapıyorum."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is an unlinked brand mention as valuable as a backlink?",
+   "c": "For SEO, usually not; a link is a documented Google signal and also sends traffic. But for AI answers and reputation, unlinked mentions carry value too. It's more accurate to see them as two outputs of the same digital PR work rather than rivals."
+  },
+  {
+   "s": "Can negative brand mentions hurt SEO?",
+   "c": "There is no official statement that Google uses negative mentions as a direct ranking penalty. Negative information can, however, surface in reputation research and AI answers. Respond to fair criticism with a fix, and contact the source about factually wrong information."
+  },
+  {
+   "s": "Do social media mentions count as brand mentions?",
+   "c": "Yes, anywhere your brand is named is a mention. How accessible social content is to search engines and AI systems varies by platform, though. That's why I recommend tracking mentions on permanent, publicly accessible web sources separately."
+  },
+  {
+   "s": "Should I analyse my competitors' brand mentions?",
+   "c": "Yes, it's a useful starting point. Seeing which industry lists, news stories and comparison articles mention your competitors reveals sources where you could appear too. The goal isn't imitation but identifying independent sources where you're missing."
+  },
+  {
+   "s": "Is being mentioned in a paid publication a problem?",
+   "c": "Paid publication is not forbidden in itself. What matters is that its advertising nature is clearly disclosed to readers and that any link is marked with rel=\"sponsored\". Presenting a paid mention as an independent review carries both reputational and policy risk."
+  },
+  {
+   "s": "When do brand mention efforts show results?",
+   "c": "Giving a fixed timeframe wouldn't be accurate; publishing schedules, how often sources are crawled and differences between platforms all play a part. I do a first review at the end of a three-month period, reading branded searches, new mentions and AI test results together."
+  }
+ ]
+}
