@@ -38,13 +38,18 @@ export default function Page(props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       })
-      const data = await res.json()
+      const data = await res.json().catch(() => ({}))
+      if (res.status === 429) {
+        setStatus('error')
+        setErrorMsg(isEn ? 'You have sent several messages in a short time. Please wait a few minutes and try again.' : (data.error || 'Çok fazla mesaj gönderdiniz. Lütfen birkaç dakika sonra tekrar deneyin.'))
+        return
+      }
       if (!res.ok) throw new Error(data.error || 'Failed')
       setStatus('done')
       setForm({ isim: '', email: '', telefon: '', konu: '', mesaj: '', website: '' })
     } catch (err) {
       setStatus('error')
-      setErrorMsg(isEn ? 'Something went wrong. Please try again or email us directly.' : 'Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan e-posta gönderin.')
+      setErrorMsg(isEn ? 'Something went wrong. Please try again or email info@fatihemincakiroglu.com directly.' : 'Bir şeyler ters gitti. Lütfen tekrar deneyin veya doğrudan info@fatihemincakiroglu.com adresine e-posta gönderin.')
     }
   }
 
@@ -68,6 +73,7 @@ export default function Page(props) {
       btn: isEn ? 'Send Message →' : 'Mesaj Gönder →',
     },
     info: [
+      { label: isEn ? 'Email' : 'E-posta', val: 'info@fatihemincakiroglu.com', href: 'mailto:info@fatihemincakiroglu.com' },
       { label: isEn ? 'Location' : 'Konum', val: 'İstanbul, Türkiye' },
       { label: isEn ? 'Response Time' : 'Yanıt Süresi', val: isEn ? 'Within 24 hours' : '24 saat içinde' },
       { label: isEn ? 'Languages' : 'Diller', val: isEn ? 'Turkish, English' : 'Türkçe, İngilizce' },
@@ -101,7 +107,7 @@ export default function Page(props) {
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '48px 32px 96px', display: 'grid', gridTemplateColumns: '1fr 360px', gap: '40px', alignItems: 'start' }}>
           <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
             {status === 'done' ? (
-              <div style={{ padding: '18px 20px', background: 'rgba(34,197,94,0.12)', border: '1px solid rgba(34,197,94,0.3)', borderRadius: '10px', color: '#16a34a', fontSize: '15px', fontWeight: 600 }}>
+              <div role="status" style={{ padding: '18px 20px', background: 'rgba(34,197,94,0.12)', border: '1px solid rgba(34,197,94,0.3)', borderRadius: '10px', color: '#16a34a', fontSize: '15px', fontWeight: 600 }}>
                 {isEn ? '✓ Thank you! Your message has been sent — we will get back to you within 24 hours.' : '✓ Teşekkürler! Mesajınız gönderildi, 24 saat içinde size dönüş yapacağız.'}
               </div>
             ) : (
@@ -116,34 +122,37 @@ export default function Page(props) {
                   style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }} aria-hidden="true" />
                 {[{id:'isim',label:t.form.isim,type:'text'},{id:'email',label:t.form.email,type:'email'},{id:'telefon',label:t.form.telefon,type:'tel'}].map(f => (
                   <div key={f.id}>
-                    <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}</label>
-                    <input type={f.type} name={f.id} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
-                      required={f.id === 'isim' || f.id === 'email'} autoComplete="off" suppressHydrationWarning
+                    <label htmlFor={`iletisim-${f.id}`} style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{f.label}{(f.id === 'isim' || f.id === 'email') && <span aria-hidden="true" style={{ color: 'var(--orange)' }}> *</span>}</label>
+                    <input id={`iletisim-${f.id}`} type={f.type} name={f.id}
+                      autoComplete={f.id === 'isim' ? 'name' : f.id === 'email' ? 'email' : 'tel'} value={form[f.id]} onChange={e => setForm({...form, [f.id]: e.target.value})}
+                      required={f.id === 'isim' || f.id === 'email'} aria-invalid={status === 'error' && !form[f.id] && (f.id === 'isim' || f.id === 'email') ? true : undefined} suppressHydrationWarning
                       style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none' }} />
                   </div>
                 ))}
                 <div ref={konuRef} style={{ position: 'relative' }}>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.konu}</label>
+                  <span id="iletisim-konu-etiket" style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.konu}</span>
                   {/* Gizli input: form validasyonu ve olası tarayıcı otomasyonları için gerçek değeri tutar */}
                   <input type="hidden" name="konu" value={form.konu} />
                   <button type="button" onClick={() => setKonuOpen(o => !o)}
+                    aria-haspopup="listbox" aria-expanded={konuOpen} aria-labelledby="iletisim-konu-etiket iletisim-konu-deger"
+                    onKeyDown={e => { if (e.key === 'Escape') setKonuOpen(false) }}
                     style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: konuOpen ? '1px solid var(--orange)' : '1px solid #eee', background: '#fff', fontSize: '14px', fontFamily: 'var(--font-body)', color: form.konu ? '#111' : '#999', display: 'flex', alignItems: 'center', justifyContent: 'space-between', cursor: 'pointer', textAlign: 'left', boxShadow: konuOpen ? '0 0 0 3px rgba(232,86,10,0.1)' : 'none', transition: 'border-color 0.15s, box-shadow 0.15s' }}>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                       {form.konu && <span style={{ fontSize: '15px' }}>{t.form.konuIcons[t.form.konuOptions.indexOf(form.konu)]}</span>}
-                      {form.konu || t.form.konuSecPlaceholder}
+                      <span id="iletisim-konu-deger">{form.konu || t.form.konuSecPlaceholder}</span>
                     </span>
                     <span style={{ fontSize: '10px', color: '#aaa', transform: konuOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s', flexShrink: 0, marginLeft: '8px' }}>▾</span>
                   </button>
                   {konuOpen && (
-                    <div style={{ position: 'absolute', top: 'calc(100% + 8px)', left: 0, right: 0, background: '#fff', borderRadius: '12px', border: '1px solid #ede8e0', boxShadow: '0 16px 48px rgba(0,0,0,0.12)', overflow: 'hidden', zIndex: 50, animation: 'konuDropIn 0.15s ease' }}>
-                      <button type="button" onClick={() => { setForm({...form, konu: ''}); setKonuOpen(false) }}
+                    <div role="listbox" aria-labelledby="iletisim-konu-etiket" onKeyDown={e => { if (e.key === 'Escape') setKonuOpen(false) }} style={{ position: 'absolute', top: 'calc(100% + 8px)', left: 0, right: 0, background: '#fff', borderRadius: '12px', border: '1px solid #ede8e0', boxShadow: '0 16px 48px rgba(0,0,0,0.12)', overflow: 'hidden', zIndex: 50, animation: 'konuDropIn 0.15s ease' }}>
+                      <button type="button" role="option" aria-selected={form.konu === ''} onClick={() => { setForm({...form, konu: ''}); setKonuOpen(false) }}
                         style={{ width: '100%', display: 'flex', alignItems: 'center', padding: '11px 16px', background: form.konu === '' ? '#faf9f7' : 'transparent', border: 'none', borderBottom: '1px solid #f5f3ef', cursor: 'pointer', fontSize: '13px', color: '#aaa', fontFamily: 'var(--font-body)', textAlign: 'left' }}
                         onMouseEnter={e => e.currentTarget.style.background = '#faf9f7'}
                         onMouseLeave={e => e.currentTarget.style.background = form.konu === '' ? '#faf9f7' : 'transparent'}>
                         {t.form.konuSecPlaceholder}
                       </button>
                       {t.form.konuOptions.map((opt, i) => (
-                        <button key={opt} type="button" onClick={() => { setForm({...form, konu: opt}); setKonuOpen(false) }}
+                        <button key={opt} type="button" role="option" aria-selected={form.konu === opt} onClick={() => { setForm({...form, konu: opt}); setKonuOpen(false) }}
                           style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 16px', background: form.konu === opt ? '#fdf1ea' : 'transparent', border: 'none', borderBottom: i < t.form.konuOptions.length - 1 ? '1px solid #f5f3ef' : 'none', cursor: 'pointer', fontSize: '14px', color: form.konu === opt ? 'var(--orange)' : '#333', fontWeight: form.konu === opt ? 700 : 500, fontFamily: 'var(--font-body)', textAlign: 'left' }}
                           onMouseEnter={e => { if (form.konu !== opt) e.currentTarget.style.background = '#faf9f7' }}
                           onMouseLeave={e => { if (form.konu !== opt) e.currentTarget.style.background = 'transparent' }}>
@@ -159,13 +168,13 @@ export default function Page(props) {
                   `}</style>
                 </div>
                 <div>
-                  <label style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}</label>
-                  <textarea rows={5} name="mesaj" value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
+                  <label htmlFor="iletisim-mesaj" style={{ display: 'block', fontSize: '13px', fontWeight: 600, color: '#555', marginBottom: '6px' }}>{t.form.mesaj}<span aria-hidden="true" style={{ color: 'var(--orange)' }}> *</span></label>
+                  <textarea id="iletisim-mesaj" rows={5} name="mesaj" value={form.mesaj} onChange={e => setForm({...form, mesaj: e.target.value})}
                     required autoComplete="off" suppressHydrationWarning
                     style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid #eee', fontSize: '14px', fontFamily: 'var(--font-body)', outline: 'none', resize: 'vertical' }} />
                 </div>
                 {status === 'error' && (
-                  <div style={{ padding: '12px 16px', background: 'rgba(220,38,38,0.08)', border: '1px solid rgba(220,38,38,0.25)', borderRadius: '8px', color: '#dc2626', fontSize: '13px', fontWeight: 600 }}>
+                  <div role="alert" style={{ padding: '12px 16px', background: 'rgba(220,38,38,0.08)', border: '1px solid rgba(220,38,38,0.25)', borderRadius: '8px', color: '#dc2626', fontSize: '13px', fontWeight: 600 }}>
                     {errorMsg}
                   </div>
                 )}
@@ -181,14 +190,14 @@ export default function Page(props) {
               {t.info.map((item, i) => (
                 <div key={i} style={{ marginBottom: i < t.info.length-1 ? '16px' : 0, paddingBottom: i < t.info.length-1 ? '16px' : 0, borderBottom: i < t.info.length-1 ? '1px solid #f0f0f0' : 'none' }}>
                   <div style={{ fontSize: '11px', color: '#aaa', fontWeight: 700, marginBottom: '4px' }}>{item.label}</div>
-                  <div style={{ fontSize: '14px', color: '#333', fontWeight: 600 }}>{item.val}</div>
+                  <div style={{ fontSize: '14px', color: '#333', fontWeight: 600, overflowWrap: 'anywhere' }}>{item.href ? <a href={item.href} style={{ color: 'var(--orange)' }}>{item.val}</a> : item.val}</div>
                 </div>
               ))}
             </div>
             <div style={{ background: '#111', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', color: '#fff', marginBottom: '8px' }}>{t.randevuTitle}</h3>
               <p style={{ color: '#6b6b6b', fontSize: '13px', marginBottom: '16px' }}>{t.randevuDesc}</p>
-              <Link href={isEn?'/en/book-a-call':'/randevu'}><button style={{ width: '100%', padding: '11px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.randevuBtn}</button></Link>
+              <Link href={isEn?'/en/book-a-call':'/randevu'} style={{ display: 'block', width: '100%', padding: '11px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontFamily: 'var(--font-body)', textAlign: 'center' }}>{t.randevuBtn}</Link>
             </div>
           </div>
         </div>

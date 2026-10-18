@@ -46,7 +46,7 @@ export default function Page(props) {
               </div>
             ))}
           </div>
-          <Link href={isEn ? "/en/contact" : "/iletisim"}><button style={{ padding: '16px 36px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)', marginBottom: '16px', display: 'block', width: '100%' }}>{t.btn}</button></Link>
+          <Link href={isEn ? "/en/contact" : "/iletisim"} style={{ display: 'block', textAlign: 'center', padding: '16px 36px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-body)', marginBottom: '16px', display: 'block', width: '100%' }}>{t.btn}</Link>
           <p style={{ fontSize: '13px', color: '#aaa' }}>{t.free}</p>
         </div>
           {/* Calendly Embed */}

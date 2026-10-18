@@ -76,6 +76,7 @@ const SEARCH_INDEX = [
 
 function GlobalSearch({ isEn, onClose }) {
   const [q, setQ] = useState('')
+  const [aktif, setAktif] = useState(0) // klavye ile seçili sonuç
   const router = useRouter()
   const results = q.length > 1
     ? SEARCH_INDEX.filter(item => {
@@ -95,26 +96,37 @@ function GlobalSearch({ isEn, onClose }) {
     onClose()
   }
 
+  // ↑ ↓ ile sonuçlar arasında gezin, Enter ile aç (alt bilgide yazdığı gibi)
+  useEffect(() => { setAktif(0) }, [q])
+  const onInputKey = (e) => {
+    if (!results.length) return
+    if (e.key === 'ArrowDown') { e.preventDefault(); setAktif(i => (i + 1) % results.length) }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setAktif(i => (i - 1 + results.length) % results.length) }
+    else if (e.key === 'Enter') { e.preventDefault(); go(results[aktif] || results[0]) }
+  }
+
   return (
-    <div style={{ position: 'fixed', inset: 0, zIndex: 9998, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', paddingTop: '80px', padding: '80px 16px 16px' }}
+    <div role="dialog" aria-modal="true" aria-label={isEn ? 'Site search' : 'Site içi arama'} style={{ position: 'fixed', inset: 0, zIndex: 9998, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', paddingTop: '80px', padding: '80px 16px 16px' }}
       onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
       <div style={{ background: 'var(--card-bg)', borderRadius: '16px', width: '100%', maxWidth: '560px', border: '1px solid var(--card-border)', boxShadow: '0 24px 80px rgba(0,0,0,0.3)', overflow: 'hidden' }}>
         {/* Input */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '16px 20px', borderBottom: '1px solid var(--border)' }}>
           <span style={{ fontSize: '18px', color: 'var(--text3)' }}>🔍</span>
-          <input autoFocus type="text" value={q} onChange={e => setQ(e.target.value)}
+          <input autoFocus type="text" value={q} onChange={e => setQ(e.target.value)} onKeyDown={onInputKey}
+            role="combobox" aria-expanded={results.length > 0} aria-controls="arama-sonuclari" aria-autocomplete="list"
+            aria-activedescendant={results.length ? `arama-sonuc-${aktif}` : undefined}
+            aria-label={isEn ? 'Search the site' : 'Sitede ara'}
             placeholder={isEn ? 'Search pages, guides, blog...' : 'Sayfa, rehber, blog ara...'}
             style={{ flex: 1, border: 'none', outline: 'none', fontSize: '16px', background: 'transparent', fontFamily: 'var(--font-body)', color: 'var(--text)' }} />
-          <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '18px', color: 'var(--text3)', padding: '4px' }}>✕</button>
+          <button onClick={onClose} aria-label={isEn ? 'Close search' : 'Aramayı kapat'} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '18px', color: 'var(--text3)', padding: '4px' }}>✕</button>
         </div>
         {/* Results */}
         {results.length > 0 ? (
-          <div style={{ maxHeight: '400px', overflowY: 'auto' }}>
+          <div id="arama-sonuclari" role="listbox" style={{ maxHeight: '400px', overflowY: 'auto' }}>
             {results.map((item, i) => (
-              <button key={i} onClick={() => go(item)}
-                style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '12px', padding: '14px 20px', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', borderBottom: '1px solid var(--border)', fontFamily: 'var(--font-body)', transition: 'background 0.15s' }}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--input-bg)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'none'}>
+              <button key={i} id={`arama-sonuc-${i}`} role="option" aria-selected={i === aktif} tabIndex={-1} onClick={() => go(item)}
+                style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '12px', padding: '14px 20px', background: i === aktif ? 'var(--input-bg)' : 'none', border: 'none', cursor: 'pointer', textAlign: 'left', borderBottom: '1px solid var(--border)', fontFamily: 'var(--font-body)', transition: 'background 0.15s' }}
+                onMouseEnter={() => setAktif(i)}>
                 <span style={{ fontSize: '10px', fontWeight: 700, color: 'var(--orange)', padding: '3px 8px', borderRadius: '4px', border: '1px solid rgba(232,86,10,0.3)', flexShrink: 0 }}>
                   {item.cat}
                 </span>
@@ -153,19 +165,34 @@ function GlobalSearch({ isEn, onClose }) {
 }
 
 // ── COOKIE BANNER ──────────────────────────────────────────
+// Kabul de ret de kaydedilir (cookie_accepted: '1' | '0'); banner bir daha çıkmaz.
+// Banner açıkken <html data-cerez-banner="acik"> işaretlenir: mobilde yüzen
+// butonlar (WhatsApp, telefon, yukarı) banner'ın üzerine binmesin diye gizlenir
+// ve çıkış popup'ı açılmaz.
 function CookieBanner({ isEn }) {
   const [visible, setVisible] = useState(false)
-  useEffect(() => { if (!localStorage.getItem('cookie_accepted')) setVisible(true) }, [])
-  const accept = () => { localStorage.setItem('cookie_accepted', '1'); setVisible(false) }
+  useEffect(() => {
+    let kayit = null
+    try { kayit = localStorage.getItem('cookie_accepted') } catch {}
+    if (kayit === null) setVisible(true)
+  }, [])
+  useEffect(() => {
+    const kok = document.documentElement
+    if (visible) kok.dataset.cerezBanner = 'acik'
+    else delete kok.dataset.cerezBanner
+  }, [visible])
+  const karar = (deger) => { try { localStorage.setItem('cookie_accepted', deger) } catch {} setVisible(false) }
+  const accept = () => karar('1')
+  const decline = () => karar('0')
   if (!visible) return null
   return (
-    <div style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 9999, background: '#111', padding: '14px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', flexWrap: 'wrap', boxShadow: '0 -4px 24px rgba(0,0,0,0.2)' }}>
+    <div role="region" aria-label={isEn ? 'Cookie notice' : 'Çerez bildirimi'} style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 9999, background: '#111', padding: '14px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', flexWrap: 'wrap', boxShadow: '0 -4px 24px rgba(0,0,0,0.2)' }}>
       <p style={{ color: '#ccc', fontSize: '13px', margin: 0, flex: 1 }}>
         {isEn ? 'We use cookies to improve your experience. ' : 'Deneyiminizi geliştirmek için çerezler kullanıyoruz. '}
         <a href={isEn ? '/en/privacy' : '/gizlilik'} style={{ color: 'var(--orange)' }}>{isEn ? 'Privacy Policy' : 'Gizlilik Politikası'}</a>
       </p>
       <div style={{ display: 'flex', gap: '8px' }}>
-        <button onClick={() => setVisible(false)} style={{ padding: '7px 14px', borderRadius: '6px', background: 'transparent', color: '#888', border: '1px solid #333', cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)' }}>
+        <button onClick={decline} style={{ padding: '7px 14px', borderRadius: '6px', background: 'transparent', color: '#888', border: '1px solid #333', cursor: 'pointer', fontSize: '13px', fontFamily: 'var(--font-body)' }}>
           {isEn ? 'Decline' : 'Reddet'}
         </button>
         <button onClick={accept} style={{ padding: '7px 18px', borderRadius: '6px', background: 'var(--orange)', color: '#fff', border: 'none', cursor: 'pointer', fontSize: '13px', fontWeight: 700, fontFamily: 'var(--font-body)' }}>
@@ -181,10 +208,14 @@ function WhatsAppButton({ isEn }) {
   const [bubbleVisible, setBubbleVisible] = useState(false)
 
   useEffect(() => {
-    if (sessionStorage.getItem('wa_bubble_shown')) return
+    // Balon yalnızca geniş ekranda gösterilir: mobilde makale metninin üzerine
+    // biniyordu. Çerez banner'ı veya çıkış popup'ı açıkken de çıkmaz.
+    if (window.matchMedia('(max-width: 768px)').matches) return
+    try { if (sessionStorage.getItem('wa_bubble_shown')) return } catch { return }
     const timer = setTimeout(() => {
+      if (document.documentElement.dataset.cerezBanner || document.querySelector('[data-cikis-popup]')) return
       setBubbleVisible(true)
-      sessionStorage.setItem('wa_bubble_shown', '1')
+      try { sessionStorage.setItem('wa_bubble_shown', '1') } catch {}
     }, 8000)
     // Balon mobilde makale metninin üzerine biniyor ve kapatma butonu küçük.
     // 10 saniye sonra kendiliğinden kapansın.
@@ -193,7 +224,7 @@ function WhatsAppButton({ isEn }) {
   }, [])
 
   return (
-    <div style={{ position: 'fixed', bottom: 'calc(84px + env(safe-area-inset-bottom, 0px))', right: 'calc(16px + env(safe-area-inset-right, 0px))', zIndex: 998, display: 'flex', alignItems: 'center', gap: '10px' }}>
+    <div className="yuzen-buton" style={{ position: 'fixed', bottom: 'calc(84px + env(safe-area-inset-bottom, 0px))', right: 'calc(16px + env(safe-area-inset-right, 0px))', zIndex: 998, display: 'flex', alignItems: 'center', gap: '10px' }}>
       {bubbleVisible && (
         <div style={{ position: 'relative', background: '#fff', borderRadius: '14px', padding: '12px 16px', boxShadow: '0 6px 24px rgba(0,0,0,0.15)', maxWidth: '220px', fontSize: '13px', color: '#333', lineHeight: 1.5, animation: 'waBubbleIn 0.3s ease', order: -1 }}>
           <button onClick={() => setBubbleVisible(false)} aria-label="Kapat" style={{ position: 'absolute', top: '-6px', right: '-6px', width: '20px', height: '20px', borderRadius: '50%', border: 'none', background: '#ddd', color: '#666', fontSize: '11px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', lineHeight: 1 }}>✕</button>
@@ -220,7 +251,7 @@ function WhatsAppButton({ isEn }) {
 // ── PHONE ─────────────────────────────────────────────────
 function PhoneButton() {
   return (
-    <a href="tel:+905325766383"
+    <a href="tel:+905325766383" className="yuzen-buton"
       aria-label="Telefonla Ara"
       style={{ position: 'fixed', bottom: 'calc(16px + env(safe-area-inset-bottom, 0px))', right: 'calc(16px + env(safe-area-inset-right, 0px))', zIndex: 998, width: '52px', height: '52px', borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 20px rgba(255,122,0,0.4)', transition: 'transform 0.2s' }}
       onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
@@ -265,7 +296,7 @@ function BackToTop() {
   }, [])
   if (!visible) return null
   return (
-    <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Yukarı"
+    <button className="yuzen-buton" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Yukarı"
       style={{ position: 'fixed', bottom: 'calc(148px + env(safe-area-inset-bottom, 0px))', right: 'calc(20px + env(safe-area-inset-right, 0px))', zIndex: 997, width: '44px', height: '44px', borderRadius: '50%', background: 'var(--card-bg)', border: '1px solid var(--card-border)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', boxShadow: '0 2px 12px rgba(0,0,0,0.1)', transition: 'transform 0.2s', color: 'var(--text)' }}
       onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
       onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}>↑</button>
@@ -352,6 +383,9 @@ export default function App({ Component, pageProps }) {
         :root {
           --font-body: ${inter.style.fontFamily};
           --font-display: ${playfair.style.fontFamily};
+        }
+        @media (max-width: 768px) {
+          html[data-cerez-banner="acik"] .yuzen-buton { display: none !important; }
         }
       `}</style>
 

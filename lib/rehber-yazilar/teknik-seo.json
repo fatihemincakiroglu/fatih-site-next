@@ -1,0 +1,459 @@
+{
+ "kategori": "Teknik",
+ "baslik_tr": "Teknik SEO Rehberi: Tarama, İndeksleme, Core Web Vitals ve Denetim Süreci",
+ "baslik_en": "Technical SEO Guide: Crawling, Indexing, Core Web Vitals and Audits",
+ "meta_baslik_tr": "Teknik SEO Rehberi: Tarama, İndeksleme ve Denetim",
+ "meta_baslik_en": "Technical SEO Guide: Crawling, Indexing and Audits",
+ "meta_desc_tr": "Teknik SEO nasıl yapılır? robots.txt, canonical, noindex, sitemap, Core Web Vitals, mobil öncelikli dizine ekleme, JavaScript, hreflang ve denetim önceliği.",
+ "meta_desc_en": "How to do technical SEO: robots.txt, canonical, noindex, sitemaps, Core Web Vitals, mobile-first indexing, JavaScript, hreflang and audit priorities.",
+ "ozet_tr": "Tarama, indeksleme, site mimarisi, Core Web Vitals, JavaScript ve hreflang: teknik SEO denetimini adım adım yapın.",
+ "ozet_en": "Crawling, indexing, site architecture, Core Web Vitals, JavaScript and hreflang: run a technical SEO audit step by step.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Teknik SEO, arama motorlarının sitenizi sorunsuz tarayabilmesi, doğru sayfaları dizine ekleyebilmesi ve içeriği hızlı, güvenli bir deneyimle sunabilmesi için yapılan altyapı çalışmasıdır. Google bir sayfaya ulaşamıyor ya da yanlış sürümünü dizine ekliyorsa, içerik ne kadar iyi olursa olsun o sayfa rekabet edemez.",
+    "Bu rehber, bir teknik denetimde baktığım sırayı izliyor. Yapısal veri, site taşıma ve e-ticaret filtreleri gibi derin konular ayrı rehberlerde; ilgili yerde bağlantısını verdim.",
+    {
+     "alinti": "Kısa cevap: Teknik SEO; sitenizin taranabilir, doğru biçimde dizine eklenebilir, hızlı, mobilde eksiksiz ve güvenli olmasını sağlayan çalışmadır. Temel araçları robots.txt, canonical, noindex, XML sitemap ve Search Console'dur; Core Web Vitals için iyi eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms ve CLS ≤ 0,1'dir."
+    }
+   ]
+  },
+  {
+   "baslik": "Taranabilirlik: robots.txt ve tarama bütçesi nasıl yönetilir?",
+   "paragraflar": [
+    "robots.txt hangi yolların taranmayacağını söyler ama dizine eklemeyi kontrol etmez. Bir sayfanın dizinden çıkmasını istiyorsanız noindex kullanın ve sayfayı taramaya açık bırakın; robots.txt ile engellenen sayfadaki noindex etiketini Google göremez.",
+    {
+     "kod": "# Örnek robots.txt\nUser-agent: *\nDisallow: /sepet/\nDisallow: /hesabim/\nDisallow: /*?siralama=\n\nSitemap: https://www.example.com/sitemap.xml"
+    },
+    "Tarama bütçesi, Google'ın dokümantasyonuna göre esas olarak çok büyük sitelerde (yaklaşık bir milyonun üzerinde sayfa) ya da 10.000'den fazla sayfası olup içeriği her gün değişen sitelerde önemlidir. Küçük sitelerde asıl sorun, önemli sayfaların keşfedilememesidir. Büyük sitelerde israf genellikle şuradan gelir:",
+    {
+     "liste": [
+      "Filtre, sıralama ve oturum parametreleriyle çoğalan URL'ler (yönetimi [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlatılıyor).",
+      "Yönlendirme zincirleri ve iç linklerden verilen 404'ler.",
+      "Yumuşak 404 üreten boş arama ve kategori sayfaları.",
+      "Yavaş sunucu yanıtları; Google zorlanan sunucuda tarama hızını düşürür."
+     ]
+    },
+    "Bunları Search Console'daki Tarama istatistikleri raporundan izleyebilirsiniz. Sık karıştırılan llms.txt dosyasının robots.txt'nin yerini neden tutmadığını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+   ]
+  },
+  {
+   "baslik": "İndeksleme: canonical, noindex ve XML sitemap nasıl birlikte çalışır?",
+   "paragraflar": [
+    "Taranan her sayfa dizine eklenmez. Google yinelenen sürümler arasından birini standart (canonical) URL olarak seçer; sizin işiniz bunu tutarlı sinyallerle yönlendirmektir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sinyal",
+       "Ne yapar?",
+       "Dikkat"
+      ],
+      "satirlar": [
+       [
+        "rel=canonical",
+        "Benzer sayfalar arasında tercih ettiğiniz URL'yi belirtir",
+        "Komut değil ipucudur; iç linkler ve sitemap aynı URL'yi göstermeli"
+       ],
+       [
+        "noindex",
+        "Sayfanın dizine eklenmemesini ister",
+        "robots.txt ile engellenmemeli; PDF'lerde X-Robots-Tag başlığı kullanılır"
+       ],
+       [
+        "XML sitemap",
+        "Dizine eklenmesini istediğiniz URL'leri listeler",
+        "Yalnızca 200 dönen canonical URL'ler; dosya başına en fazla 50.000 URL"
+       ],
+       [
+        "301 yönlendirme",
+        "Eski URL'yi kalıcı olarak yenisine bağlar",
+        "Canonical'dan güçlü sinyaldir; zincir oluşturmamalı"
+       ]
+      ]
+     }
+    },
+    "Sitemap'teki lastmod alanını yalnızca içerik gerçekten değiştiğinde güncelleyin; Google priority ve changefreq alanlarını dikkate almıyor.",
+    {
+     "alt": "Search Console Sayfa dizine ekleme raporu"
+    },
+    "Rapor, dizine eklenmeyen sayfaları nedenlerine göre gruplar. Noindex verdiğiniz ya da yönlendirdiğiniz sayfaların burada görünmesi normaldir. Asıl dikkat edilecekler: “Tarandı, şu anda dizine eklenmedi” (genellikle içerik zayıf veya benzer sayfalarla çakışıyor), “Keşfedildi, şu anda dizine eklenmedi” (iç linkleme veya sunucu kapasitesi) ve Google'ın sizin belirttiğinizden farklı bir standart sayfa seçtiği durumlar (çelişkili sinyaller). Tek bir URL için URL Denetimi aracı, oluşturulan HTML'i ve Google'ın seçtiği canonical'ı gösterir. Bu raporları [SEO raporlama rehberindeki](/rehber/seo-raporlama) aylık şablona ekleyin."
+   ]
+  },
+  {
+   "baslik": "Site mimarisi ve iç linkleme taramayı nasıl etkiler?",
+   "paragraflar": [
+    "Google yeni sayfaları büyük ölçüde bağlantıları izleyerek bulur. Hiç iç link almayan bir sayfa sitemap'te olsa bile önemsiz görünür.",
+    {
+     "kontrol": [
+      "Önemli sayfalara ana sayfadan birkaç tıkla ulaşılıyor.",
+      "Bağlantılar href içeren gerçek <a> etiketleri.",
+      "Bağlantı metni hedef sayfanın konusunu anlatıyor.",
+      "İç linkler yönlendirmeden geçmeden son URL'yi gösteriyor."
+     ]
+    },
+    "Hangi konunun hangi sayfada toplanacağını içerik planı belirler; konu kümesi mimarisini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım."
+   ]
+  },
+  {
+   "baslik": "Core Web Vitals: LCP, INP ve CLS için hedefler neler?",
+   "paragraflar": [
+    "INP, Mart 2024'te FID'in yerini aldı. Google eşikleri gerçek kullanıcı verisinin 75. yüzdelik dilimine göre değerlendirir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Metrik",
+       "Ne ölçer?",
+       "İyi",
+       "Sık görülen neden"
+      ],
+      "satirlar": [
+       [
+        "LCP",
+        "Ana içeriğin yüklenme süresi",
+        "≤ 2,5 sn",
+        "Ağır hero görseli, yavaş sunucu, oluşturmayı engelleyen CSS/JS"
+       ],
+       [
+        "INP",
+        "Etkileşimlere yanıt süresi",
+        "≤ 200 ms",
+        "Uzun JavaScript görevleri, üçüncü taraf etiketler"
+       ],
+       [
+        "CLS",
+        "Beklenmedik görsel kayma",
+        "≤ 0,1",
+        "Boyutu belirtilmemiş görseller, sonradan yüklenen banner'lar"
+       ]
+      ]
+     }
+    },
+    "Kararı saha verisine (Search Console Core Web Vitals raporu, PageSpeed Insights) göre verin; Lighthouse laboratuvar aracıdır ve INP'yi doğrudan ölçmez. CWV iyileştirmesi zayıf içeriği öne çıkarmaz ama sayfayı kullanılabilir kılar. Metrik bazında adımları [Core Web Vitals yazısında](/blog/core-web-vitals-2025) topladım."
+   ]
+  },
+  {
+   "baslik": "Mobil öncelikli dizine ekleme, HTTPS ve yönlendirme zincirleri",
+   "paragraflar": [
+    "Google siteleri ağırlıklı olarak akıllı telefon tarayıcısıyla dizine ekler; mobil sürümde eksik olan metin, link veya yapısal veri Google için yoktur. Mobil Kullanılabilirlik raporu ve Mobil Uyumluluk Testi 2023 sonunda kaldırıldı; kontrolleri artık Lighthouse, Chrome DevTools cihaz emülasyonu ve URL Denetimi aracıyla yapıyorum.",
+    "HTTPS, sayfa deneyimi sinyalleri arasındadır. Tüm HTTP adresleri tek adımda HTTPS'e 301 ile yönlenmeli, karışık içerik (HTTP'den yüklenen görsel veya script) kalmamalıdır.",
+    "Kalıcı taşımada 301 veya 308, geçici durumda 302 veya 307 kullanılır. A → B → C gibi zincirler taramayı yavaşlatır; her eski URL tek adımda son adrese gitmelidir. Domain veya URL yapısı değişikliğinde yönlendirme haritası için [site taşıma SEO rehberine](/rehber/site-tasima-seo) bakın."
+   ]
+  },
+  {
+   "baslik": "JavaScript ile oluşturulan içerik Google'da nasıl görünür?",
+   "paragraflar": [
+    "Google JavaScript'i işleyebilir, ama önce HTML'i tarar, oluşturmayı (rendering) sonra yapar. Yalnızca tarayıcıda oluşan içerik geç keşfedilebilir; her arama motorunun ve yapay zekâ tarayıcısının JavaScript'i Google kadar işlediğini de varsaymayın.",
+    {
+     "liste": [
+      "Mümkünse sunucu tarafı oluşturma (SSR) veya statik üretim kullanın; ana içerik ilk HTML'de gelsin.",
+      "Title, canonical ve robots etiketlerini JavaScript ile sonradan değiştirmeyin.",
+      "Sekme veya “daha fazla” butonu arkasındaki içerik yüklemede DOM'da olsun; Googlebot butonlara tıklamaz.",
+      "URL Denetimi aracında oluşturulmuş HTML'de ana metnin ve linklerin göründüğünü doğrulayın."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Uluslararası siteler için hreflang nasıl kurulur?",
+   "paragraflar": [
+    "hreflang, aynı içeriğin dil veya bölge sürümlerini Google'a bildirir. Sıralama sinyali değildir; doğru sürümü doğru kullanıcıyla eşleştirir.",
+    {
+     "kod": "<link rel=\"alternate\" hreflang=\"tr\" href=\"https://www.example.com/rehber/ornek/\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.example.com/en/guides/ornek/\" />\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.example.com/en/guides/ornek/\" />"
+    },
+    {
+     "liste": [
+      "Her sürüm kendini ve diğer sürümleri listeler; bağlantılar karşılıklı olmalı.",
+      "Kodlar ISO 639-1 dil ve isteğe bağlı ISO 3166-1 bölge koduyla yazılır (tr, en, en-GB); “uk” Ukraynaca'dır.",
+      "Yalnızca canonical URL'ler listelenir.",
+      "Kullanıcıyı IP'ye göre zorla yönlendirmeyin; Googlebot çoğunlukla ABD'den tarar."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Teknik SEO denetimi nasıl yapılır, bulgular nasıl önceliklendirilir?",
+   "paragraflar": [
+    "Search Console verisini Screaming Frog veya Sitebulb gibi bir tarayıcının çıktısıyla karşılaştırarak başlıyorum: sitemap'te olup dizinde olmayan ya da hiç iç link almayan URL'ler en hızlı bulguları verir. Ardından her şablondan örnek sayfalarda CWV, mobil görünüm ve oluşturulmuş HTML kontrol edilir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Öncelik",
+       "Bulgu türü",
+       "Örnek"
+      ],
+      "satirlar": [
+       [
+        "Kritik",
+        "Tarama veya dizine eklemeyi engelleyen hatalar",
+        "Yanlışlıkla eklenmiş site geneli noindex, engellenen kategori klasörü, 5xx hataları"
+       ],
+       [
+        "Yüksek",
+        "Sinyal karmaşası ve tarama israfı",
+        "Çelişkili canonical, yönlendirme zincirleri, parametre çoğalması"
+       ],
+       [
+        "Orta",
+        "Deneyim ve performans",
+        "Zayıf CWV şablonları, mobilde eksik içerik"
+       ],
+       [
+        "Düşük",
+        "Bakım",
+        "Eksik alt metinler, yapısal veri uyarıları"
+       ]
+      ]
+     }
+    },
+    "Her bulguya etkilenen URL sayısı, sorumlu ve efor eklenince liste bir plana döner. Yapısal veriyi [schema yapısal veri rehberindeki](/rehber/schema-yapisal-veri) test adımlarıyla kontrol ediyorum. Denetimi birlikte yürütmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Technical SEO is the infrastructure work that lets search engines crawl your site, index the right pages and serve them with a fast, secure experience. If Google cannot reach a page or indexes the wrong version of it, the quality of the content does not matter.",
+    "This guide follows the order I use in a technical audit. Deeper topics such as structured data, site migrations and e-commerce filters have their own guides, linked where they come up.",
+    {
+     "alinti": "Short answer: Technical SEO makes sure your site is crawlable, correctly indexable, fast, complete on mobile and secure. Its core tools are robots.txt, canonical tags, noindex, XML sitemaps and Search Console; the good thresholds for Core Web Vitals are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1."
+    }
+   ]
+  },
+  {
+   "baslik": "Crawlability: how do you manage robots.txt and crawl budget?",
+   "paragraflar": [
+    "robots.txt tells crawlers which paths not to fetch, but it does not control indexing. To keep a page out of the index, use noindex and leave the page crawlable; Google cannot see a noindex tag on a page blocked in robots.txt.",
+    {
+     "kod": "# Example robots.txt\nUser-agent: *\nDisallow: /cart/\nDisallow: /account/\nDisallow: /*?sort=\n\nSitemap: https://www.example.com/sitemap.xml"
+    },
+    "According to Google's documentation, crawl budget mainly matters for very large sites (roughly a million pages or more) or sites with over 10,000 pages whose content changes daily. On smaller sites the real problem is important pages that never get discovered. On large sites, waste usually comes from:",
+    {
+     "liste": [
+      "URLs multiplied by filter, sort and session parameters (handled in the [e-commerce SEO guide](/en/guides/e-ticaret-seo)).",
+      "Redirect chains and internal links to 404s.",
+      "Empty search and category pages returning soft 404s.",
+      "Slow server responses; Google crawls a struggling server more slowly."
+     ]
+    },
+    "You can watch this in the Crawl stats report in Search Console. Why the often-confused llms.txt file is no substitute for robots.txt is covered in my [llms.txt guide](/en/blog/llms-txt-rehberi)."
+   ]
+  },
+  {
+   "baslik": "Indexing: how do canonical tags, noindex and XML sitemaps work together?",
+   "paragraflar": [
+    "Not every crawled page is indexed. Google picks one canonical URL among duplicate versions; your job is to guide that choice with consistent signals.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Signal",
+       "What it does",
+       "Watch out"
+      ],
+      "satirlar": [
+       [
+        "rel=canonical",
+        "Names your preferred URL among similar pages",
+        "A hint, not a directive; internal links and sitemap should agree"
+       ],
+       [
+        "noindex",
+        "Asks for the page to stay out of the index",
+        "Must not be blocked in robots.txt; use the X-Robots-Tag header for PDFs"
+       ],
+       [
+        "XML sitemap",
+        "Lists the URLs you want indexed",
+        "Only 200-status canonical URLs; at most 50,000 URLs per file"
+       ],
+       [
+        "301 redirect",
+        "Permanently moves an old URL to a new one",
+        "Stronger than canonical; avoid chains"
+       ]
+      ]
+     }
+    },
+    "Update lastmod only when content has genuinely changed; Google ignores priority and changefreq.",
+    {
+     "alt": "The Page indexing report in Search Console"
+    },
+    "The report groups non-indexed pages by reason. Pages you set to noindex or redirected are expected there. Focus on \"Crawled – currently not indexed\" (often thin content or overlap with similar pages), \"Discovered – currently not indexed\" (internal linking or server capacity) and cases where Google chose a different canonical than yours (conflicting signals). For a single URL, the URL Inspection tool shows the rendered HTML and the canonical Google selected. Add these reports to the monthly template in the [SEO reporting guide](/en/guides/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "How do site architecture and internal linking affect crawling?",
+   "paragraflar": [
+    "Google finds new pages largely by following links. A page with no internal links looks unimportant even if it is in your sitemap.",
+    {
+     "kontrol": [
+      "Important pages are a few clicks from the home page.",
+      "Links are real <a> elements with an href.",
+      "Anchor text describes the target page.",
+      "Internal links point to the final URL, not through redirects."
+     ]
+    },
+    "The content plan decides which topic lives on which page; I cover topic cluster architecture in the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "Core Web Vitals: what are the targets for LCP, INP and CLS?",
+   "paragraflar": [
+    "INP replaced FID in March 2024. Google assesses the thresholds at the 75th percentile of real-user data.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Metric",
+       "What it measures",
+       "Good",
+       "Common cause"
+      ],
+      "satirlar": [
+       [
+        "LCP",
+        "Load time of the main content",
+        "≤ 2.5 s",
+        "Heavy hero image, slow server, render-blocking CSS/JS"
+       ],
+       [
+        "INP",
+        "Response time to interactions",
+        "≤ 200 ms",
+        "Long JavaScript tasks, third-party tags"
+       ],
+       [
+        "CLS",
+        "Unexpected layout shifts",
+        "≤ 0.1",
+        "Images without dimensions, late-loading banners"
+       ]
+      ]
+     }
+    },
+    "Decide based on field data (the Search Console Core Web Vitals report, PageSpeed Insights); Lighthouse is a lab tool and does not measure INP directly. Better vitals will not lift weak content, but they make the page usable. Metric-by-metric steps are in my [Core Web Vitals article](/en/blog/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "Mobile-first indexing, HTTPS and redirect chains",
+   "paragraflar": [
+    "Google indexes sites primarily with its smartphone crawler; text, links or structured data missing on mobile do not exist for Google. The Mobile Usability report and the Mobile-Friendly Test were retired at the end of 2023, so I now check with Lighthouse, Chrome DevTools device emulation and the URL Inspection tool.",
+    "HTTPS is one of the page experience signals. Every HTTP address should 301 to HTTPS in one hop, with no mixed content (images or scripts loaded over HTTP).",
+    "Use 301 or 308 for permanent moves and 302 or 307 for temporary ones. Chains such as A → B → C slow crawling; every old URL should reach its destination in one hop. For redirect maps during domain or URL changes, see the [site migration SEO guide](/en/guides/site-tasima-seo)."
+   ]
+  },
+  {
+   "baslik": "How does Google see JavaScript-generated content?",
+   "paragraflar": [
+    "Google can process JavaScript, but it crawls the HTML first and renders later. Content that only exists after rendering may be discovered late, and you should not assume every search engine or AI crawler handles JavaScript as well as Google.",
+    {
+     "liste": [
+      "Use server-side rendering or static generation where possible so the main content is in the initial HTML.",
+      "Do not change title, canonical or robots tags with JavaScript after load.",
+      "Content behind tabs or \"load more\" buttons should be in the DOM on load; Googlebot does not click.",
+      "Confirm in the URL Inspection tool that the rendered HTML contains the main text and links."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How do you set up hreflang for international sites?",
+   "paragraflar": [
+    "hreflang tells Google about language or regional versions of the same content. It is not a ranking signal; it matches the right version with the right user.",
+    {
+     "kod": "<link rel=\"alternate\" hreflang=\"tr\" href=\"https://www.example.com/rehber/ornek/\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.example.com/en/guides/ornek/\" />\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.example.com/en/guides/ornek/\" />"
+    },
+    {
+     "liste": [
+      "Each version lists itself and the others; links must be reciprocal.",
+      "Use ISO 639-1 language codes with optional ISO 3166-1 regions (tr, en, en-GB); \"uk\" means Ukrainian.",
+      "List canonical URLs only.",
+      "Do not force IP-based redirects; Googlebot mostly crawls from the US."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How do you run a technical SEO audit and prioritise the findings?",
+   "paragraflar": [
+    "I start by comparing Search Console data with a crawl from a tool such as Screaming Frog or Sitebulb: URLs in the sitemap but not indexed, or with no internal links, give the quickest findings. Then I check vitals, mobile rendering and rendered HTML on sample pages from each template.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Priority",
+       "Type of finding",
+       "Example"
+      ],
+      "satirlar": [
+       [
+        "Critical",
+        "Errors blocking crawling or indexing",
+        "Accidental site-wide noindex, blocked category folder, 5xx errors"
+       ],
+       [
+        "High",
+        "Conflicting signals and crawl waste",
+        "Conflicting canonicals, redirect chains, parameter bloat"
+       ],
+       [
+        "Medium",
+        "Experience and performance",
+        "Templates with poor vitals, content missing on mobile"
+       ],
+       [
+        "Low",
+        "Maintenance",
+        "Missing alt text, structured data warnings"
+       ]
+      ]
+     }
+    },
+    "Add affected URL counts, an owner and effort to each finding and the list becomes a plan. I check structured data with the steps in the [schema structured data guide](/en/guides/schema-yapisal-veri). To work through an audit together, see my [SEO consulting](/en/seo-consulting) scope or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Robots.txt ile engellediğim sayfa neden Google'da hâlâ görünüyor?",
+   "c": "robots.txt yalnızca taramayı engeller; bağlantı alan bir URL, içeriği okunmadan adresiyle dizinde kalabilir. Sayfayı çıkarmak için engeli kaldırın, noindex ekleyin ve yeniden taranmasını bekleyin. Acil durumlarda Search Console'daki Kaldırmalar aracı sonucu geçici olarak gizler."
+  },
+  {
+   "s": "Lighthouse skoru 100 olmazsa sıralama kaybeder miyim?",
+   "c": "Hayır. Lighthouse skoru laboratuvar ortamında hesaplanan bir özet puandır ve Google sıralamada bu puanı kullanmaz. Değerlendirmede gerçek kullanıcı verisine dayanan Core Web Vitals esas alınır; skoru teşhis aracı olarak kullanın."
+  },
+  {
+   "s": "Teknik SEO denetimi ne sıklıkla yapılmalı?",
+   "c": "Kapsamlı denetimi yılda bir ya da iki kez, ayrıca büyük bir tasarım, altyapı veya URL değişikliğinden önce ve sonra öneririm. Arada Sayfa dizine ekleme ve Core Web Vitals raporlarına ayda bir bakmak çoğu sorunu erken yakalar."
+  },
+  {
+   "s": "Teknik SEO için hangi araçlar yeterli?",
+   "c": "Search Console, PageSpeed Insights, Lighthouse ve Zengin Sonuçlar Testi ücretsizdir ve çoğu sorunu gösterir. Site geneli tarama için Screaming Frog veya Sitebulb gibi bir tarayıcı gerekir. Kullandığım ücretsiz yardımcıları [SEO araçları](/araclar) sayfasında topladım."
+  },
+  {
+   "s": "Yapay zekâ tarayıcılarını robots.txt ile engellemeli miyim?",
+   "c": "Bu bir iş kararıdır: bir yapay zekâ tarayıcısını engellemek, o sistemin içeriğinizi kullanmasını ve sizi kaynak göstermesini sınırlayabilir. Karar vermeden önce şirketin tarayıcı belgelerini okuyun; örneğin Google-Extended belirteci Google Arama'daki görünürlüğü etkilemez. Yapay zekâ görünürlüğü için [GEO uygulama rehberine](/rehber/geo-uygulama) bakın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why does a page I blocked in robots.txt still appear in Google?",
+   "c": "robots.txt only blocks crawling; a linked URL can stay indexed by its address without its content being read. To remove it, lift the block, add noindex and wait for a recrawl. In urgent cases, the Removals tool in Search Console hides the result temporarily."
+  },
+  {
+   "s": "Will I lose rankings if my Lighthouse score is not 100?",
+   "c": "No. The Lighthouse score is a lab summary, and Google does not use it for ranking. Page experience is assessed with Core Web Vitals from real-user data, so treat the score as a diagnostic tool."
+  },
+  {
+   "s": "How often should you run a technical SEO audit?",
+   "c": "I recommend a full audit once or twice a year, plus before and after any major redesign, platform or URL change. In between, a monthly look at the Page indexing and Core Web Vitals reports catches most problems early."
+  },
+  {
+   "s": "Which tools are enough for technical SEO?",
+   "c": "Search Console, PageSpeed Insights, Lighthouse and the Rich Results Test are free and surface most issues. A site-wide crawl needs a crawler such as Screaming Frog or Sitebulb. I gathered the free helpers I use on my [SEO tools](/en/tools) page."
+  },
+  {
+   "s": "Should I block AI crawlers in robots.txt?",
+   "c": "It is a business decision: blocking an AI crawler can limit how that system uses your content and whether it cites you. Read the company's crawler documentation first; for example, the Google-Extended token does not affect visibility in Google Search. For AI visibility, see the [GEO implementation guide](/en/guides/geo-uygulama)."
+  }
+ ]
+}

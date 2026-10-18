@@ -1,0 +1,391 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "İçerik Stratejisi Rehberi: Arama Niyeti, Konu Kümeleri, E-E-A-T ve İçerik Güncelleme",
+ "baslik_en": "Content Strategy Guide: Search Intent, Topic Clusters, E-E-A-T and Content Updates",
+ "meta_baslik_tr": "İçerik Stratejisi Rehberi: Niyet, Konu Kümesi, E-E-A-T",
+ "meta_baslik_en": "Content Strategy Guide: Intent, Topic Clusters, E-E-A-T",
+ "meta_desc_tr": "SEO içerik stratejisi nasıl kurulur? Arama niyeti, pillar-cluster mimarisi, E-E-A-T, içerik brief'i, yayın takvimi, güncelleme ve budama kararları, ölçüm.",
+ "meta_desc_en": "How to build an SEO content strategy: search intent, pillar-cluster architecture, E-E-A-T, content briefs, calendars, updates, pruning and measurement.",
+ "ozet_tr": "Hedef kitleden ölçüme: niyete uygun format, konu kümeleri, E-E-A-T, brief, takvim ve içerik güncelleme kararları.",
+ "ozet_en": "From audience to measurement: intent-matched formats, topic clusters, E-E-A-T, briefs, calendars and content update decisions.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "İçerik stratejisi, hangi içeriği kimin için, hangi formatta ve hangi iş hedefine hizmet etmek üzere üreteceğinize; yayından sonra da onu nasıl güncelleyip ölçeceğinize dair verdiğiniz kararların bütünüdür. Takvimi doldurmak için yazılan yazılar trafik getirse bile çoğu zaman satışa, randevuya ya da marka güvenine dönüşmez.",
+    "Bu rehberde bir içerik planını kurarken izlediğim sırayı anlatıyorum: hedef, niyet, mimari, güven sinyalleri, üretim süreci, güncelleme ve ölçüm. Kelime bulma kısmı [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi), yapay zekâ görünürlüğünün ayrıntısı ise GEO rehberinde.",
+    {
+     "alinti": "Kısa cevap: İçerik stratejisi; hedef kitlenin sorularını iş hedefiyle eşleştirip her arama niyetine uygun formatta, konu kümeleri hâlinde içerik üretme ve bu içerikleri düzenli güncelleyip ölçme planıdır. Güçlü bir stratejide her sayfanın bir hedef sorgusu, bir görevi ve bir ölçütü vardır."
+    }
+   ]
+  },
+  {
+   "baslik": "İçerik stratejisi hedef kitle ve iş hedefiyle nasıl başlar?",
+   "paragraflar": [
+    "Konu listesinden önce iki soruyu netleştiriyorum: kimin hangi sorununu çözüyoruz ve bu içerik işletmeye ne kazandıracak? Bir diş kliniği için hedef randevu, bir yazılım şirketi için demo talebi, bir danışman için güven ve görüşme olabilir.",
+    {
+     "liste": [
+      "**Kitle:** Karar veren kim, hangi aşamada, hangi kaygılarla arama yapıyor?",
+      "**Sorular:** Satış ve müşteri hizmetleri ekiplerine en sık hangi sorular geliyor?",
+      "**İş hedefi:** Her içerik hangi dönüşüme ya da bir sonraki adıma bağlanacak?",
+      "**Fark:** Rakiplerde olmayan hangi deneyimi, veriyi ya da bakış açısını sunabiliriz?"
+     ]
+    },
+    "Son soru en çok atlanan sorudur. Aynı bilgiyi başka biçimde tekrar eden bir içerik, ne aramada ne de yapay zekâ cevaplarında kaynak olmak için bir gerekçe sunar."
+   ]
+  },
+  {
+   "baslik": "Arama niyeti türlerine göre içerik formatı nasıl seçilir?",
+   "paragraflar": [
+    "Arama niyeti, formatı belirler. Hedef sorguyu aratıp ilk sayfada hangi sayfa tiplerinin sıralandığına bakmak, en güvenilir kontroldür: listeler mi, ürün sayfaları mı, rehberler mi, harita sonuçları mı?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Niyet",
+       "Kullanıcı ne istiyor?",
+       "Uygun format"
+      ],
+      "satirlar": [
+       [
+        "Bilgilendirici",
+        "Bir konuyu anlamak, nasıl yapılacağını öğrenmek",
+        "Rehber, açıklayıcı makale, sözlük maddesi"
+       ],
+       [
+        "Ticari araştırma",
+        "Seçenekleri karşılaştırmak",
+        "Karşılaştırma, seçim rehberi, vaka çalışması"
+       ],
+       [
+        "İşlemsel",
+        "Satın almak, teklif veya randevu almak",
+        "Hizmet, ürün, kategori ve fiyat sayfaları"
+       ],
+       [
+        "Yönlendirici",
+        "Belirli bir markaya ulaşmak",
+        "Ana sayfa, marka ve iletişim sayfaları"
+       ],
+       [
+        "Yerel",
+        "Yakındaki bir işletmeyi bulmak",
+        "Lokasyon sayfaları ve Google Business Profile"
+       ]
+      ]
+     }
+    },
+    "Sahada en sık gördüğüm hata, işlemsel bir sorguyu blog yazısıyla, bilgilendirici bir sorguyu satış sayfasıyla hedeflemek. Niyetin nasıl tespit edileceği ve kelimelerin nasıl kümeleneceği [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) tarafında; burada önemli olan her kümeye doğru sayfa tipini atamaktır."
+   ]
+  },
+  {
+   "baslik": "Pillar-cluster (konu kümesi) mimarisi nasıl kurulur?",
+   "paragraflar": [
+    "Konu kümesi modelinde geniş bir konuyu özetleyen bir ana sayfa (pillar) ve alt soruları derinlemesine işleyen destek sayfaları (cluster) bulunur. Ana sayfa her destek sayfasına, destek sayfaları da ana sayfaya ve birbirine anahtar kelimeli iç linklerle bağlanır.",
+    "Bu sitedeki yapı örnek olabilir: SEO rehberi genel çerçeveyi verir; teknik, yerel ve e-ticaret gibi rehberler alt konuları derinleştirir. Her destek sayfası tek bir ana soruya odaklanmalı; iki sayfa aynı sorguyu hedefliyorsa birbirinin rakibi olur ve birleştirilmeleri gerekir.",
+    "Mimarinin teknik tarafı, yani tıklama derinliği, bağlantı yapısı ve yetim sayfalar [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor. Kategori ve ürün sayfalarında aynı mantığın nasıl uygulandığını [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "E-E-A-T içerikte nasıl gösterilir?",
+   "paragraflar": [
+    "E-E-A-T (deneyim, uzmanlık, otorite, güvenilirlik), Google'ın arama kalitesi değerlendirici yönergelerinde yer alan bir çerçevedir; tek başına ölçülen bir sıralama faktörü değildir. Yönergelerde en önemli unsur güvenilirlik olarak tanımlanır. Pratikte şu soruların cevabı sayfada görünmelidir: Bu içeriği kim yazdı, nasıl hazırladı ve neden yayınladı?",
+    {
+     "liste": [
+      "**Deneyim:** Kendi uygulamanızdan gözlemler, süreç fotoğrafları, gerçek örnekler.",
+      "**Uzmanlık:** Yazar adı, uzmanlığını gösteren biyografi ve profil sayfası.",
+      "**Otorite:** Sektördeki başka kaynakların sizden bahsetmesi; bu taraf [backlink ve dijital PR](/rehber/backlink-dijital-pr) çalışmasıyla güçlenir.",
+      "**Güvenilirlik:** Doğru ve kaynaklı bilgi, açık iletişim bilgileri, görünür güncelleme tarihi."
+     ]
+    },
+    "Sağlık ve finans gibi YMYL alanlarında beklenti en yüksek düzeydedir; hekim onayı ve yasal sınırlar için [sağlık sektörü SEO rehberine](/rehber/saglik-seo) bakın."
+   ]
+  },
+  {
+   "baslik": "İçerik brief'i ve yayın takvimi: üretim süreci nasıl işler?",
+   "paragraflar": [
+    "Brief, yazarın ne yazacağını tahmin etmek zorunda kalmamasını sağlar. Kullandığım brief şablonunda şu alanlar var:",
+    {
+     "kontrol": [
+      "Hedef sorgu, yan sorgular ve arama niyeti",
+      "Sayfanın görevi ve bağlanacağı dönüşüm",
+      "İlk sayfadaki rakiplerin ortak noktaları ve onların eksik bıraktığı konular",
+      "Cevaplanacak sorular ve önerilen başlık yapısı",
+      "Eklenecek özgün bilgi: deneyim, veri, örnek",
+      "Verilecek ve alınacak iç linkler",
+      "Uzman incelemesi gerekip gerekmediği"
+     ]
+    },
+    "Üretim akışı brief → taslak → uzman ve editör incelemesi → SEO kontrolü → yayın → iç linklerin eklenmesi şeklinde ilerler. Takvimde sıklık yerine sürdürülebilirliği esas alıyorum: ayda iki iyi rehber, haftada dört yüzeysel yazıdan daha değerlidir. Takvime yeni içerikler kadar güncellemeleri de yazın."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ cevaplarında alıntılanabilir içerik nasıl yazılır?",
+   "paragraflar": [
+    "Google AI Overviews, ChatGPT veya Perplexity gibi sistemler bir sayfanın tamamını değil, çoğu zaman tek bir paragrafını ya da tablo satırını kullanır. Bu yüzden her ana başlığın altına sorunun doğrudan cevabını veren iki üç cümlelik bir blok koyuyorum; bu rehberin başındaki kısa cevap da bunun örneği.",
+    "Net tanımlar, karşılaştırma tabloları ve bağlama muhtaç olmayan paragraflar hem okuyucuya hem de makinelere yardımcı olur. Soru setinin çıkarılması, varlık netliği ve ölçüm gibi konular [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı; markanızın sohbet asistanlarında nasıl göründüğünü kontrol etmek için [ChatGPT marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına bakabilirsiniz. Terimlerde zorlanıyorsanız [yapay zekâ ve SEO sözlüğü](/ai-sozluk) işinize yarar."
+   ]
+  },
+  {
+   "baslik": "Mevcut içerik güncellensin mi, birleştirilsin mi, kaldırılsın mı?",
+   "paragraflar": [
+    "Yerleşik bir sitede en hızlı kazanç çoğu zaman yeni yazıdan değil, mevcut içerikten gelir. Her sayfa için trafik, gösterim, dönüşüm, aldığı backlink'ler ve konunun hâlâ geçerli olup olmadığına bakarak karar veriyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Durum",
+       "Karar",
+       "Uygulama"
+      ],
+      "satirlar": [
+       [
+        "Gösterim var, tıklama ve sıra düşüyor",
+        "Güncelle",
+        "Eskimiş bilgiyi düzelt, eksik soruları ekle, başlığı niyete göre yenile"
+       ],
+       [
+        "Aynı sorguyu hedefleyen birden fazla sayfa",
+        "Birleştir",
+        "En güçlü sayfada topla, diğerlerini 301 ile ona yönlendir"
+       ],
+       [
+        "Konu artık geçersiz ama link ve trafik alıyor",
+        "Yeniden yaz veya yönlendir",
+        "Güncel karşılığına dönüştür ya da en yakın sayfaya 301 ver"
+       ],
+       [
+        "Trafik, link ve iş değeri yok",
+        "Kaldır",
+        "Karşılığı yoksa 404 veya 410 döndür, iç linkleri temizle"
+       ],
+       [
+        "Kullanıcıya gerekli ama aramada değeri yok",
+        "Tut, noindex ekle",
+        "Kampanya koşulları, teşekkür sayfaları gibi"
+       ]
+      ]
+     }
+    },
+    "Budama kararını yalnızca trafiğe göre vermeyin; az ziyaret alan ama satışa yakın bir sayfa çok değerli olabilir. Güncellemede de içeriği gerçekten değiştirmeden tarihi yenilemek okuyucuyu yanıltır."
+   ]
+  },
+  {
+   "baslik": "İçerik stratejisinin başarısı nasıl ölçülür?",
+   "paragraflar": [
+    "Her sayfayı görevine göre ölçüyorum. Bilgilendirici rehberlerde Search Console gösterim ve tıklamaları, sorgu çeşitliliği ve iç linkle hizmet sayfalarına geçiş; işlemsel sayfalarda GA4'teki önemli etkinlikler (form, arama, randevu) esas alınır. Konu kümesini toplu izlemek, tek tek sayfalara bakmaktan daha doğru bir tablo verir.",
+    "Kurulum ve aylık rapor şablonu [SEO raporlama rehberinde](/rehber/seo-raporlama) var. Planı birlikte kurmak isterseniz [içerik stratejisi hizmeti](/icerik) kapsamını inceleyebilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Content strategy is the set of decisions about what content you produce, for whom, in which format and in service of which business goal, plus how you update and measure it after publishing. Posts written to fill a calendar may bring traffic, but they rarely turn into sales, bookings or brand trust.",
+    "This guide follows the order I use to build a content plan: goals, intent, architecture, trust signals, production, updates and measurement. Finding the keywords is covered in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi), and the details of AI visibility in the GEO guide.",
+    {
+     "alinti": "Short answer: A content strategy is a plan that matches your audience's questions with business goals, produces content in the format each search intent calls for, organises it into topic clusters, and keeps it updated and measured. In a strong strategy every page has a target query, a job and a metric."
+    }
+   ]
+  },
+  {
+   "baslik": "How does a content strategy start with audience and business goals?",
+   "paragraflar": [
+    "Before any topic list, I settle two questions: whose problem are we solving, and what will this content earn the business? For a dental clinic the goal may be appointments, for a software company demo requests, for a consultant trust and calls.",
+    {
+     "liste": [
+      "**Audience:** Who makes the decision, at what stage, and with what concerns?",
+      "**Questions:** What do your sales and support teams hear most often?",
+      "**Business goal:** Which conversion or next step does each piece lead to?",
+      "**Difference:** What experience, data or perspective can you offer that competitors do not?"
+     ]
+    },
+    "The last question is the one most often skipped. Content that restates what already exists gives neither search engines nor AI answers a reason to use you as a source."
+   ]
+  },
+  {
+   "baslik": "How do you choose content formats by search intent?",
+   "paragraflar": [
+    "Search intent decides the format. The most reliable check is to search the target query and look at which page types rank on page one: lists, product pages, guides or map results?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Intent",
+       "What the user wants",
+       "Suitable format"
+      ],
+      "satirlar": [
+       [
+        "Informational",
+        "To understand a topic or learn how to do something",
+        "Guide, explainer, glossary entry"
+       ],
+       [
+        "Commercial investigation",
+        "To compare options",
+        "Comparison, buying guide, case study"
+       ],
+       [
+        "Transactional",
+        "To buy, get a quote or book",
+        "Service, product, category and pricing pages"
+       ],
+       [
+        "Navigational",
+        "To reach a specific brand",
+        "Home page, brand and contact pages"
+       ],
+       [
+        "Local",
+        "To find a nearby business",
+        "Location pages and Google Business Profile"
+       ]
+      ]
+     }
+    },
+    "The most common mistake I see is targeting a transactional query with a blog post, or an informational query with a sales page. How to identify intent and cluster keywords belongs to [keyword research](/en/guides/anahtar-kelime-arastirmasi); here the point is to assign the right page type to each cluster."
+   ]
+  },
+  {
+   "baslik": "How do you build a pillar-cluster (topic cluster) architecture?",
+   "paragraflar": [
+    "A topic cluster has one pillar page that summarises a broad topic and supporting cluster pages that answer sub-questions in depth. The pillar links to every cluster page, and cluster pages link back to the pillar and to each other with descriptive anchor text.",
+    "This site is an example: the SEO guide sets out the overall framework, while guides on technical, local and e-commerce SEO go deeper. Each cluster page should focus on one main question; if two pages target the same query they compete with each other and should be merged.",
+    "The technical side of the architecture, such as click depth, link structure and orphan pages, is covered in the [technical SEO guide](/en/guides/teknik-seo). For the same logic applied to category and product pages, see the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "How do you show E-E-A-T in your content?",
+   "paragraflar": [
+    "E-E-A-T (experience, expertise, authoritativeness, trustworthiness) is a framework from Google's search quality rater guidelines; it is not a single measurable ranking factor. The guidelines describe trust as the most important element. In practice, the page should answer three questions: who created this content, how was it made, and why was it published?",
+    {
+     "liste": [
+      "**Experience:** Observations from your own work, process photos, real examples.",
+      "**Expertise:** An author name, a bio showing relevant expertise and a profile page.",
+      "**Authoritativeness:** Other sources in your field mentioning you, which grows through [backlinks and digital PR](/en/guides/backlink-dijital-pr).",
+      "**Trustworthiness:** Accurate, sourced information, clear contact details and a visible update date."
+     ]
+    },
+    "In YMYL areas such as health and finance the bar is highest; for medical review and legal limits, see the [healthcare SEO guide](/en/guides/saglik-seo)."
+   ]
+  },
+  {
+   "baslik": "Content briefs and publishing calendars: how does production work?",
+   "paragraflar": [
+    "A brief means the writer never has to guess what to write. The brief template I use covers:",
+    {
+     "kontrol": [
+      "Target query, secondary queries and search intent",
+      "The page's job and the conversion it links to",
+      "What top-ranking competitors share and what they leave out",
+      "Questions to answer and a proposed heading structure",
+      "Original input to add: experience, data, examples",
+      "Internal links to give and to receive",
+      "Whether expert review is required"
+     ]
+    },
+    "The workflow runs brief → draft → expert and editorial review → SEO check → publication → adding internal links. I plan the calendar for sustainability rather than frequency: two strong guides a month are worth more than four shallow posts a week. Put updates on the calendar alongside new content."
+   ]
+  },
+  {
+   "baslik": "How do you write content that AI answers can cite?",
+   "paragraflar": [
+    "Systems such as Google AI Overviews, ChatGPT or Perplexity usually use a single paragraph or table row rather than a whole page. That is why I put a two-to-three-sentence block under each main heading that answers the question directly; the short answer at the top of this guide is an example.",
+    "Clear definitions, comparison tables and paragraphs that make sense on their own help readers and machines alike. Building a question set, entity clarity and measurement are covered in detail in the [GEO implementation guide](/en/guides/geo-uygulama); to check how your brand appears in chat assistants, read my article on [ChatGPT brand visibility](/en/blog/chatgpt-marka-gorunurlugu). If the terminology is new, the [AI and SEO glossary](/en/ai-glossary) helps."
+   ]
+  },
+  {
+   "baslik": "Should existing content be updated, merged or removed?",
+   "paragraflar": [
+    "On an established site, the fastest gains often come from existing content rather than new posts. For each page I look at traffic, impressions, conversions, backlinks and whether the topic is still valid:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Situation",
+       "Decision",
+       "How"
+      ],
+      "satirlar": [
+       [
+        "Impressions remain, clicks and position falling",
+        "Update",
+        "Fix outdated facts, add missing questions, align the title with intent"
+       ],
+       [
+        "Several pages target the same query",
+        "Merge",
+        "Consolidate into the strongest page and 301 the others to it"
+       ],
+       [
+        "Topic is obsolete but earns links and traffic",
+        "Rewrite or redirect",
+        "Turn it into the current equivalent or 301 to the closest page"
+       ],
+       [
+        "No traffic, links or business value",
+        "Remove",
+        "Return 404 or 410 if there is no equivalent and clean up internal links"
+       ],
+       [
+        "Needed by users but worthless in search",
+        "Keep, add noindex",
+        "Campaign terms, thank-you pages and similar"
+       ]
+      ]
+     }
+    },
+    "Do not prune on traffic alone; a low-traffic page close to the sale can be very valuable. And refreshing the date without genuinely changing the content misleads readers."
+   ]
+  },
+  {
+   "baslik": "How do you measure the success of a content strategy?",
+   "paragraflar": [
+    "I measure each page against its job. For informational guides that means Search Console impressions and clicks, query breadth and clicks through to service pages; for transactional pages it means GA4 key events such as forms, calls and bookings. Tracking a topic cluster as a group gives a truer picture than looking at pages one by one.",
+    "The setup and a monthly report template are in the [SEO reporting guide](/en/guides/seo-raporlama). If you want to build the plan together, see the scope of my [content strategy service](/en/content-strategy) or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Ne sıklıkla yeni içerik yayınlamalıyım?",
+   "c": "Google belirli bir yayın sıklığını ödüllendirmez; önemli olan içeriğin kalitesi ve kitlenin ihtiyacını karşılamasıdır. Ekibinizin kaliteyi düşürmeden sürdürebileceği bir tempo seçin. Yerleşik sitelerde takvimin bir kısmını mevcut içeriklerin güncellenmesine ayırın."
+  },
+  {
+   "s": "İdeal içerik uzunluğu kaç kelimedir?",
+   "c": "Google'ın tercih ettiği bir kelime sayısı yoktur. Doğru uzunluk, sorunun kapsamına ve arama niyetine göre değişir: bir tanım sorusu kısa bir cevap ister, bir karar rehberi daha fazla ayrıntı. Uzunluğu artırmak için tekrar eklemek okuyucuyu yorar."
+  },
+  {
+   "s": "Yapay zekâ ile içerik üretmek Google'da sorun yaratır mı?",
+   "c": "Google, içeriğin nasıl üretildiğinden çok faydalı olup olmadığına bakar. Ancak sıralamayı etkilemek amacıyla çok sayıda düşük değerli sayfa üretmek spam politikalarına aykırıdır. Yapay zekâyı taslak ve araştırma için kullanıp uzman kontrolü, özgün deneyim ve doğrulama eklemenizi öneririm."
+  },
+  {
+   "s": "Önce blog yazısı mı, hizmet sayfası mı hazırlanmalı?",
+   "c": "Çoğu işletmede önce satışa en yakın hizmet ve kategori sayfalarını güçlendirmek daha hızlı iş sonucu verir. Ardından bu sayfaları besleyen bilgilendirici içerikler eklenir ve iç linklerle bağlanır. Hangi konuların öncelikli olduğuna kelime verisi ve müşteri soruları birlikte karar verir."
+  },
+  {
+   "s": "İçerik stratejisinin sonuç vermesi ne kadar sürer?",
+   "c": "Sitenin mevcut otoritesine, rekabete ve yayın temposuna göre değişir; kesin bir süre vermek dürüst olmaz. Mevcut sayfaların güncellenmesi genellikle yeni sayfalardan daha erken etki gösterir. Değerlendirmeyi tek tek yazılarla değil, konu kümelerinin birkaç aylık eğilimiyle yapın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How often should I publish new content?",
+   "c": "Google does not reward a particular publishing frequency; what matters is quality and meeting your audience's needs. Choose a pace your team can sustain without lowering quality. On established sites, reserve part of the calendar for updating existing content."
+  },
+  {
+   "s": "What is the ideal content length?",
+   "c": "Google has no preferred word count. The right length depends on the scope of the question and the search intent: a definition needs a short answer, a decision guide needs more detail. Padding a page with repetition to make it longer only tires the reader."
+  },
+  {
+   "s": "Is AI-generated content a problem for Google?",
+   "c": "Google looks at whether content is helpful rather than how it was produced. However, mass-producing low-value pages to manipulate rankings violates its spam policies. I suggest using AI for drafts and research, then adding expert review, original experience and fact-checking."
+  },
+  {
+   "s": "Should I start with blog posts or service pages?",
+   "c": "For most businesses, strengthening the service and category pages closest to the sale brings business results sooner. Informational content that supports those pages comes next, connected with internal links. Keyword data and customer questions together decide which topics come first."
+  },
+  {
+   "s": "How long does a content strategy take to show results?",
+   "c": "It depends on the site's existing authority, the competition and the publishing pace, so giving a fixed timeframe would not be honest. Updates to existing pages usually show an effect sooner than new pages. Judge progress by the trend of topic clusters over several months rather than by individual posts."
+  }
+ ]
+}

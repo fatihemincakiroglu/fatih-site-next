@@ -62,14 +62,14 @@ export default function Page(props) {
                     </div>
                   ))}
                 </div>
-                <Link href={isEn?'/en/contact':'/iletisim'}><button style={{ width: '100%', padding: '12px', borderRadius: '8px', background: p.popular ? 'var(--orange)' : '#f8f7f5', color: p.popular ? '#fff' : '#333', border: p.popular ? 'none' : '1px solid #eee', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'var(--font-body)' }}>{p.btn}</button></Link>
+                <Link href={isEn?'/en/contact':'/iletisim'} style={{ display: 'block', textAlign: 'center', width: '100%', padding: '12px', borderRadius: '8px', background: p.popular ? 'var(--orange)' : '#f8f7f5', color: p.popular ? '#fff' : '#333', border: p.popular ? 'none' : '1px solid #eee', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>{p.btn}</Link>
               </div>
             ))}
           </div>
           <div style={{ background: '#1a1612', borderRadius: '16px', padding: '40px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', color: '#fff', marginBottom: '12px' }}>{t.notitle}</h2>
             <p style={{ color: '#6b6b6b', marginBottom: '24px', maxWidth: '500px', margin: '0 auto 24px' }}>{t.nodesc}</p>
-            <Link href={isEn?'/en/contact':'/iletisim'}><button style={{ padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', border: 'none', fontWeight: 700, fontSize: '16px', cursor: 'pointer', fontFamily: 'var(--font-body)' }}>{t.nobtn}</button></Link>
+            <Link href={isEn?'/en/contact':'/iletisim'} style={{ display: 'inline-block', textAlign: 'center', padding: '14px 32px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '16px', fontFamily: 'var(--font-body)' }}>{t.nobtn}</Link>
           </div>
         </div>
       </div>
