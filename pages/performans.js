@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import IlgiliRehberler from '../components/IlgiliRehberler';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
@@ -472,6 +473,8 @@ export default function Page(props) {
           </div>
         </section>
 
+        {/* İlgili rehberler (components/IlgiliRehberler.js) */}
+        <IlgiliRehberler sluglar={['seo-raporlama', 'e-ticaret-seo', 'anahtar-kelime-arastirmasi']} isEn={isEn} stil={{ padding: '56px 16px 24px' }} />
         {/* ─── PAKETLER & CTA ─── */}
         <section style={{ padding: '96px 32px', background: '#faf9f7', borderTop: '1px solid #ede8e0' }}>
           <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>

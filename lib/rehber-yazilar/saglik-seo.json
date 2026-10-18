@@ -1,0 +1,301 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "Sağlık Sektörü SEO Rehberi: Klinik ve Hekim Siteleri için YMYL, E-E-A-T ve Sağlık Turizmi",
+ "baslik_en": "Healthcare SEO Guide: YMYL, E-E-A-T and Medical Tourism for Clinic and Doctor Websites",
+ "meta_baslik_tr": "Sağlık SEO Rehberi: Klinik ve Hekim Siteleri",
+ "meta_baslik_en": "Healthcare SEO Guide: Clinic and Doctor Websites",
+ "meta_desc_tr": "Klinik ve hekim siteleri için sağlık SEO: YMYL ve E-E-A-T, hekim profilleri, tedavi sayfaları, yerel SEO, çok dilli sağlık turizmi ve yasal hassasiyetler.",
+ "meta_desc_en": "Healthcare SEO for clinics and doctors: YMYL and E-E-A-T, physician profiles, treatment pages, local SEO, multilingual medical tourism and legal risks.",
+ "ozet_tr": "Klinik ve hekim siteleri için güven odaklı SEO: uzman profilleri, tedavi sayfaları, yerel görünürlük, çok dilli yapı ve mevzuat.",
+ "ozet_en": "Trust-first SEO for clinics and doctors: expert profiles, treatment pages, local visibility, multilingual setup and regulation.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Sağlık, arama motorlarının en titiz davrandığı alanlardan biri. Bir kullanıcının tedavi kararı, okuduğu sayfadaki bilgiye dayanabilir; bu yüzden Google sağlık içeriklerinde doğruluk ve güven sinyallerine diğer konulardan daha fazla önem verir. Klinik ve hekim sitelerinde SEO, anahtar kelime yerleştirmekten çok “bu bilgiyi kim yazdı, neden güvenilmeli?” sorusuna net cevap vermektir.",
+    "Bu rehberde klinik, poliklinik, muayenehane ve sağlık turizmi sitelerinde uyguladığım çerçeveyi anlatıyorum: uzmanlığın görünür kılınması, tedavi sayfalarının yapısı, yerel görünürlük, çok dilli kurgu ve Türkiye'deki yasal hassasiyetler.",
+    {
+     "alinti": "Kısa cevap: Sağlık SEO'su, içeriklerin gerçek hekimler tarafından yazıldığını veya incelendiğini açıkça gösteren, hasta sorularına doğru ve güncel cevap veren, yerel ve çok dilli aramalarda teknik olarak sağlam bir site kurmaktır. Türkiye'de sağlık hizmetlerinin tanıtımı mevzuatla sınırlandırıldığı için içerik ve pazarlama kararları hukuki danışmanlıkla birlikte verilmelidir."
+    }
+   ]
+  },
+  {
+   "baslik": "Sağlık siteleri neden YMYL kapsamında ve E-E-A-T ne anlama gelir?",
+   "paragraflar": [
+    "Google'ın arama kalitesi değerlendirici yönergelerinde YMYL (Your Money or Your Life), kişinin sağlığını, maddi durumunu veya güvenliğini etkileyebilecek konular için kullanılır. Sağlık bu kapsamın merkezindedir. Aynı yönergelerdeki E-E-A-T kavramı ise deneyim (Experience), uzmanlık (Expertise), otorite (Authoritativeness) ve güvenilirlik (Trust) anlamına gelir; güvenilirlik bunların en önemlisi olarak tanımlanır.",
+    "Değerlendiricilerin puanları sıralamayı doğrudan değiştirmez; Google bu yönergeleri sistemlerinin hedeflediği kaliteyi tarif etmek için kullanır. Pratikte bunun anlamı şu: Sağlık sitesinde yazarı belirsiz, kaynaksız, güncellenmemiş içerik, rakip sitelerdeki hekim imzalı ve kaynaklı içerik karşısında zayıf kalır. İçerik planını bu çerçeveye göre kurmanın genel yöntemini [içerik stratejisi rehberi](/rehber/icerik-stratejisi) anlatıyor."
+   ]
+  },
+  {
+   "baslik": "Hekim profilleri ve yazar bilgisi nasıl kurgulanır?",
+   "paragraflar": [
+    "Sahada en sık gördüğüm eksik, hekim sayfalarının yalnızca bir fotoğraf ve iki cümleden ibaret olması. Hekim profili, sitenin uzmanlık iddiasını taşıyan sayfadır ve her sağlık içeriği bir hekim profiline bağlanmalıdır.",
+    {
+     "kontrol": [
+      "Ad, unvan ve uzmanlık alanı",
+      "Eğitim bilgileri: tıp fakültesi, uzmanlık eğitimi, yan dal",
+      "Çalıştığı kurumlar ve klinikteki rolü",
+      "Üyesi olduğu meslek dernekleri ve varsa yayınları",
+      "Konuştuğu diller (sağlık turizmi için önemli)",
+      "Yazdığı veya tıbbi olarak incelediği içeriklerin listesi",
+      "Gerçek ve güncel fotoğraf"
+     ]
+    },
+    "İçerik sayfalarında da yazar ve tıbbi inceleme bilgisi görünür olmalı: “Yazan” ve “Tıbbi olarak inceleyen” hekim adı, profil bağlantısıyla birlikte; yayın ve son güncelleme tarihi; yararlanılan kaynaklar. İçeriği bir editör yazıp hekim inceliyorsa bunu açıkça belirtmek, hekim yazmış gibi göstermekten daha dürüst ve daha savunulabilirdir."
+   ]
+  },
+  {
+   "baslik": "Tedavi ve hastalık sayfaları: hangi içerik, hangi yapı?",
+   "paragraflar": [
+    "Sağlık sitelerinde sayfa türlerini karıştırmak, hem kullanıcıyı hem arama motorunu yorar. Bir tedavi sayfası ile bir hastalık bilgilendirme yazısının amacı farklıdır.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sayfa türü",
+       "Amacı",
+       "Mutlaka içermesi gerekenler"
+      ],
+      "satirlar": [
+       [
+        "Tedavi / hizmet sayfası",
+        "Klinikte sunulan işlemi anlatmak",
+        "Kimler için uygun olduğu, süreç, iyileşme, olası riskler, işlemi yapan hekim"
+       ],
+       [
+        "Hastalık / durum yazısı",
+        "Bilgilendirmek, soruları cevaplamak",
+        "Belirtiler, ne zaman hekime başvurulmalı, tanı ve tedavi seçenekleri, kaynaklar"
+       ],
+       [
+        "Hekim profili",
+        "Uzmanlığı kanıtlamak",
+        "Eğitim, deneyim alanı, üyelikler, yazdığı içerikler"
+       ],
+       [
+        "Lokasyon sayfası",
+        "Yerel aramada bulunmak",
+        "Adres, ulaşım, çalışma saatleri, o şubedeki hekimler"
+       ]
+      ]
+     }
+    },
+    "Tedavi sayfalarında riskleri ve herkes için uygun olmadığını açıkça yazmak, hem etik hem de güven açısından doğru olandır. Kesin sonuç vaadi, abartılı başarı ifadeleri ve korkutucu dil kullanmayın. Hangi konulara sayfa açılacağını belirlerken hastaların gerçekten aradığı ifadeleri bulmak için [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) yapın; tıbbi terim ile halkın kullandığı ifade çoğu zaman farklıdır."
+   ]
+  },
+  {
+   "baslik": "Klinikler için yerel SEO: harita, şubeler ve hasta yorumları",
+   "paragraflar": [
+    "Hastaların büyük kısmı kliniği yakınlığa göre seçtiği için yerel görünürlük sağlık SEO'sunun temel parçasıdır. Profil kurulumu ve kategori seçimi için [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısını, şube sayfaları ve NAP tutarlılığı için [yerel SEO rehberini](/rehber/yerel-seo) izleyebilirsiniz. Google'ın yönergeleri, kurum profilinin yanı sıra belirli koşullarda hekimler için ayrı profil açılmasına da izin verir; bu kararı yönergeleri inceleyerek verin.",
+    "Hasta yorumlarına yanıt verirken en kritik kural gizliliktir. Yanıtta kişinin hasta olduğunu doğrulayan, tanı veya tedavi ayrıntısı içeren hiçbir bilgi yer almamalı. Olumsuz yorumlarda genel, saygılı bir yanıt verip görüşmeyi telefon veya e-posta gibi özel bir kanala taşımak en güvenli yoldur.",
+    "İstanbul'da birden fazla ilçede hizmet veren kliniklerde her şubenin kendi sayfası ve profili olmalı. Bu yapının bir danışmanlık sitesindeki karşılığını [Şişli SEO uzmanı](/sisli-seo-uzmani) gibi ilçe sayfalarında görebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Sağlık siteleri için yapısal veri: hangi şema, ne beklenmeli?",
+   "paragraflar": [
+    "Yapısal veri, kliniği, hekimleri ve içerikleri makinelerin net biçimde anlamasına yardım eder. Sağlık siteleri için sık kullandığım türler:",
+    {
+     "liste": [
+      "**MedicalClinic** veya **MedicalOrganization**: klinik ya da hastane bilgileri, adres, telefon, çalışma saatleri",
+      "**Person**: hekimler için; jobTitle, alumniOf, memberOf, knowsLanguage gibi özelliklerle",
+      "**MedicalWebPage**: sağlık içerikleri için; lastReviewed ve reviewedBy ile tıbbi inceleme bilgisi",
+      "**FAQPage**: sayfada gerçekten soru-cevap bölümü varsa"
+     ]
+    },
+    "FAQ konusunda beklentiyi doğru kurmak gerekiyor: Google, Ağustos 2023'ten beri SSS zengin sonuçlarını yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriyor. Bir klinik sitesinin bu kapsama girdiğini varsaymayın; FAQPage işaretlemesini zengin sonuç için değil, içeriğin anlaşılması için kullanın. Varlıkları @id ile birbirine bağlamanın ayrıntıları [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde."
+   ]
+  },
+  {
+   "baslik": "Çok dilli sağlık turizmi siteleri nasıl kurulur?",
+   "paragraflar": [
+    "Yurt dışından hasta kabul eden kliniklerde her dil, ayrı bir pazar gibi ele alınmalı. Sık gördüğüm hata, Türkçe sayfaların otomatik çevirisini yayına almak. Tıbbi içerikte çeviri hatası hem güveni hem de hasta güvenliğini etkiler; her dil sürümü, o dili bilen bir sağlık profesyoneli veya tıbbi çevirmen tarafından kontrol edilmeli.",
+    {
+     "liste": [
+      "Her dil için ayrı URL kullanın (ör. /en/, /de/, /ar/) ve hreflang etiketleriyle sürümleri birbirine bağlayın.",
+      "Ziyaretçiyi IP'ye göre otomatik olarak başka dile yönlendirmeyin; dil seçimini kullanıcıya bırakın.",
+      "Her pazarın arama dilini ayrı araştırın: hastaların aradığı ifade ülkeden ülkeye değişir.",
+      "Konaklama, transfer, tercüman desteği ve kontrol süreci gibi sağlık turizmine özgü soruları cevaplayın.",
+      "Sağdan sola yazılan diller için tasarımın doğru çalıştığını test edin."
+     ]
+    },
+    "Hreflang, taranabilirlik ve hız gibi altyapı konuları için [teknik SEO temelleri](/rehber/teknik-seo) rehberine bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yasal hassasiyet, kişisel veriler ve yapay zekâ cevapları",
+   "paragraflar": [
+    "Türkiye'de sağlık hizmetlerinin tanıtımı ve reklamı mevzuatla sınırlandırılmıştır ve kurallar sağlık kuruluşunun türüne göre farklılaşabilir. Hasta yorumlarının tanıtım amaçlı kullanımı, önce-sonra görselleri, fiyat ve kampanya duyuruları, üstünlük iddiaları gibi konular bu açıdan ayrıca değerlendirilmesi gereken alanlardır. Burada genel bir çerçeve çiziyorum; site içeriği ve pazarlama planı için mutlaka sağlık hukuku alanında hukuki danışmanlık alın.",
+    "Sağlık verileri, kişisel verilerin korunması mevzuatında özel nitelikli veri olarak ayrıca korunur. Randevu formları, WhatsApp yönlendirmeleri ve analitik araçlarının hangi bilgileri topladığını gözden geçirin; formlarda gereğinden fazla sağlık bilgisi istemeyin.",
+    "Hastalar sorularını giderek daha fazla Google AI Overviews, ChatGPT veya Gemini gibi asistanlara da soruyor. Bu cevaplarda kaynak gösterilen site olmak için hekim imzalı, net ve alıntılanabilir içerikler gerekir; yöntemini [GEO uygulama rehberi](/rehber/geo-uygulama) ve [GEO uzmanı](/geo-uzmani) hizmet sayfası anlatıyor. Randevu talepleri ve organik trafiği birlikte izlemek için [SEO raporlama rehberini](/rehber/seo-raporlama) kullanın.",
+    "Kliniğinizin sitesini bu çerçevede değerlendirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmet kapsamına göz atabilir ya da [bir ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Health is one of the areas where search engines are most careful. A person may base a treatment decision on what they read, so Google gives accuracy and trust signals more weight in medical content than in most other topics. SEO for clinic and doctor websites is less about placing keywords and more about clearly answering one question: who wrote this, and why should anyone trust it?",
+    "This guide walks through the framework I use for clinics, outpatient centres, private practices and medical tourism sites: making expertise visible, structuring treatment pages, local visibility, multilingual setup and the legal sensitivities in Turkey.",
+    {
+     "alinti": "Short answer: Healthcare SEO means building a technically sound site that clearly shows its content is written or reviewed by real physicians, answers patient questions accurately and with current information, and performs in local and multilingual search. Because the promotion of healthcare services in Turkey is restricted by regulation, content and marketing decisions should be made together with legal counsel."
+    }
+   ]
+  },
+  {
+   "baslik": "Why healthcare sites fall under YMYL and what E-E-A-T means",
+   "paragraflar": [
+    "Google's Search Quality Rater Guidelines use YMYL (Your Money or Your Life) for topics that can affect a person's health, finances or safety, and health sits at the centre of that category. The same guidelines describe E-E-A-T: Experience, Expertise, Authoritativeness and Trust, with trust defined as the most important of the four.",
+    "Rater scores do not change rankings directly; Google uses the guidelines to describe the quality its systems aim for. In practice, unattributed, unsourced and outdated medical content struggles against competitors' physician-signed, referenced pages. The general method for building a content plan around this is in the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "How to structure physician profiles and author information",
+   "paragraflar": [
+    "The gap I find most often is a doctor page that consists of a photo and two sentences. The physician profile carries the site's claim to expertise, and every piece of medical content should link to one.",
+    {
+     "kontrol": [
+      "Name, title and specialty",
+      "Education: medical school, residency, subspecialty",
+      "Institutions worked at and role in the clinic",
+      "Professional associations and any publications",
+      "Languages spoken (important for medical tourism)",
+      "A list of content they wrote or medically reviewed",
+      "A real, current photo"
+     ]
+    },
+    "Content pages should show authorship and medical review too: the names of the author and the medical reviewer linked to their profiles, publication and last-updated dates, and sources used. If an editor writes and a physician reviews, saying so openly is more honest and more defensible than presenting it as physician-written."
+   ]
+  },
+  {
+   "baslik": "Treatment and condition pages: what content, what structure?",
+   "paragraflar": [
+    "Mixing page types confuses both users and search engines. A treatment page and a condition explainer serve different purposes.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Page type",
+       "Purpose",
+       "Must include"
+      ],
+      "satirlar": [
+       [
+        "Treatment / service page",
+        "Describe a procedure offered at the clinic",
+        "Who it suits, the process, recovery, possible risks, the performing physician"
+       ],
+       [
+        "Condition article",
+        "Inform and answer questions",
+        "Symptoms, when to see a doctor, diagnosis and treatment options, sources"
+       ],
+       [
+        "Physician profile",
+        "Demonstrate expertise",
+        "Education, areas of experience, memberships, content authored"
+       ],
+       [
+        "Location page",
+        "Be found in local search",
+        "Address, transport, opening hours, physicians at that branch"
+       ]
+      ]
+     }
+    },
+    "Stating risks plainly on treatment pages, and that a procedure is not right for everyone, is the ethical choice and builds trust. Avoid promising definite outcomes, exaggerated success claims and fear-driven language. Use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to find the phrases patients actually search; the medical term and the everyday phrase often differ."
+   ]
+  },
+  {
+   "baslik": "Local SEO for clinics: maps, branches and patient reviews",
+   "paragraflar": [
+    "Many patients choose a clinic by proximity, so local visibility is a core part of healthcare SEO. For profile setup and categories, see the [Google Business Profile optimization](/en/blog/google-business-profile) article; for branch pages and NAP consistency, follow the [local SEO guide](/en/guides/yerel-seo). Google's guidelines also allow separate profiles for individual practitioners under certain conditions, so check them before deciding.",
+    "The most important rule when replying to patient reviews is confidentiality. A reply should never confirm that someone is a patient or mention any diagnosis or treatment detail. For negative reviews, a general, respectful reply that moves the conversation to a private channel such as phone or email is the safest approach.",
+    "Clinics with branches in several districts should give each branch its own page and profile."
+   ]
+  },
+  {
+   "baslik": "Structured data for healthcare sites: which schema, what to expect",
+   "paragraflar": [
+    "Structured data helps machines clearly understand the clinic, its physicians and its content. Types I use most often on healthcare sites:",
+    {
+     "liste": [
+      "**MedicalClinic** or **MedicalOrganization**: clinic or hospital details, address, phone, opening hours",
+      "**Person**: for physicians, with properties such as jobTitle, alumniOf, memberOf and knowsLanguage",
+      "**MedicalWebPage**: for medical content, with lastReviewed and reviewedBy for medical review details",
+      "**FAQPage**: only where the page genuinely has a Q&A section"
+     ]
+    },
+    "Set expectations on FAQ correctly: since August 2023, Google shows FAQ rich results only for well-known, authoritative government and health websites. Do not assume a clinic site qualifies; use FAQPage markup to help machines understand the content, not to win a rich result. Connecting entities with @id is covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "How to build a multilingual medical tourism website",
+   "paragraflar": [
+    "For clinics that treat patients from abroad, each language should be handled as a separate market. A mistake I see often is publishing machine translations of the Turkish pages. In medical content, translation errors affect both trust and patient safety; every language version should be checked by a healthcare professional or medical translator fluent in that language.",
+    {
+     "liste": [
+      "Use a separate URL for each language (for example /en/, /de/, /ar/) and connect the versions with hreflang annotations.",
+      "Do not automatically redirect visitors to another language based on IP; let them choose.",
+      "Research search language per market: the phrases patients use vary by country.",
+      "Answer medical-tourism-specific questions such as accommodation, transfers, interpreter support and follow-up care.",
+      "Test that the design works properly for right-to-left languages."
+     ]
+    },
+    "For infrastructure topics such as hreflang, crawlability and speed, see the [technical SEO fundamentals](/en/guides/teknik-seo) guide."
+   ]
+  },
+  {
+   "baslik": "Legal sensitivities, personal data and AI answers",
+   "paragraflar": [
+    "In Turkey, the promotion and advertising of healthcare services is restricted by regulation, and the rules can differ by type of healthcare provider. Using patient testimonials for promotion, before-and-after images, price and campaign announcements, and superiority claims are areas that need separate review. This is only a general outline; get legal advice from a healthcare law specialist for your site content and marketing plan.",
+    "Health data is treated as a special category of personal data under Turkish data protection law. Review what your appointment forms, WhatsApp links and analytics tools collect, and do not ask for more health information on forms than you need.",
+    "Patients increasingly put their questions to Google AI Overviews and assistants such as ChatGPT or Gemini as well. Being a cited source there requires physician-signed, clear and quotable content; the [GEO implementation guide](/en/guides/geo-uygulama) and my [GEO consulting](/en/geo-consulting) page explain the approach. To track appointment requests alongside organic traffic, use the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "If you would like your clinic's site assessed against this framework, see the scope of my [SEO consulting](/en/seo-consulting) service or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Sağlık sitesinde blog yazılarını hekimin kendisi mi yazmalı?",
+   "c": "Zorunlu değil, ama içeriğin tıbbi doğruluğundan bir hekimin sorumlu olması gerekir. Yaygın ve sağlıklı model, editörün yazıp ilgili uzmanlıktaki hekimin incelemesidir. Önemli olan bu süreci sayfada dürüstçe göstermektir."
+  },
+  {
+   "s": "Sağlık içerikleri ne sıklıkla güncellenmeli?",
+   "c": "Sabit bir takvim yerine, tedavi yöntemleri, kılavuzlar veya klinikteki uygulamalar değiştiğinde güncellenmelidir. Pratikte önemli sayfaları yılda en az bir kez hekime yeniden inceletmek iyi bir rutindir. Güncelleme yapıldığında son inceleme tarihini de yenileyin."
+  },
+  {
+   "s": "Hekimin kişisel sitesi mi, kliniğin sitesi mi daha iyi sıralanır?",
+   "c": "Bunun tek bir cevabı yok; sıralamayı sitenin türü değil, içeriğin kalitesi, otoritesi ve teknik durumu belirler. Hekim kliniğe bağlı çalışıyorsa, kliniğin sitesinde güçlü bir profil sayfası çoğu zaman daha verimli olur. Ayrı bir kişisel site açılacaksa iki sitenin aynı içeriği tekrar etmemesine dikkat edin."
+  },
+  {
+   "s": "Yapay zekâ ile sağlık içeriği üretmek riskli mi?",
+   "c": "Yapay zekâ taslak ve yapı oluşturmada yardımcı olabilir, ancak tıbbi bilgilerde hata yapabilir. Yayın öncesinde içeriğin bir hekim tarafından satır satır kontrol edilmesi ve kaynaklarla doğrulanması gerekir. Hekim incelemesinden geçmemiş yapay zekâ metni, sağlık sitesi için ciddi bir güven riskidir."
+  },
+  {
+   "s": "Sağlık turizmi için hangi dillerde site açılmalı?",
+   "c": "Kliniğin gerçekten hizmet verebildiği, iletişimi o dilde yürütebildiği pazarlarla başlayın. Talep olmayan ya da hasta ile o dilde iletişim kurulamayan dil sürümleri, bakım yükü getirir ve güveni zayıflatır. Az sayıda dili iyi yönetmek, çok sayıda yarım sürümden daha değerlidir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should physicians write the blog posts themselves?",
+   "c": "Not necessarily, but a physician must be responsible for the medical accuracy of the content. A common and sound model is an editor writing and a physician in the relevant specialty reviewing. What matters is showing that process honestly on the page."
+  },
+  {
+   "s": "How often should medical content be updated?",
+   "c": "Rather than on a fixed calendar, update it when treatment methods, clinical guidelines or the clinic's own practice change. In practice, having a physician re-review key pages at least once a year is a good routine. Refresh the last-reviewed date whenever you update."
+  },
+  {
+   "s": "Does a doctor's personal site or the clinic's site rank better?",
+   "c": "There is no single answer; rankings depend on content quality, authority and technical health, not on the type of site. If the physician works within a clinic, a strong profile page on the clinic's site is often more efficient. If a separate personal site is created, make sure the two sites do not duplicate each other's content."
+  },
+  {
+   "s": "Is it risky to produce medical content with AI?",
+   "c": "AI can help with drafts and structure, but it can make mistakes with medical information. Before publishing, a physician should check the content line by line and verify it against sources. AI text that has not passed physician review is a serious trust risk for a healthcare site."
+  },
+  {
+   "s": "Which languages should a medical tourism site offer?",
+   "c": "Start with the markets the clinic can genuinely serve and communicate with in that language. Language versions without demand, or without staff who can talk to patients in that language, add maintenance work and weaken trust. Managing a few languages well is worth more than many half-finished versions."
+  }
+ ]
+}

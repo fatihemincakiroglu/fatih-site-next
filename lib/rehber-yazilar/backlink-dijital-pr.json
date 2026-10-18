@@ -1,0 +1,383 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "Backlink ve Dijital PR Rehberi: Kaliteli Link Kazanmak, Riskleri Yönetmek",
+ "baslik_en": "Backlink and Digital PR Guide: Earning Quality Links and Managing Risk",
+ "meta_baslik_tr": "Backlink ve Dijital PR Rehberi | Link Kazanma",
+ "meta_baslik_en": "Backlink and Digital PR Guide | Earning Links",
+ "meta_desc_tr": "Backlink kalitesi, dijital PR ve link kazanma yöntemleri; Google link spam politikaları, rel nitelikleri, disavow ve marka bahsinin GEO'daki rolü.",
+ "meta_desc_en": "Backlink quality, digital PR and link earning tactics; Google's link spam policies, rel attributes, disavow and the role of brand mentions in GEO.",
+ "ozet_tr": "Kaliteli backlink nasıl kazanılır, dijital PR nasıl yürütülür ve Google'ın link spam politikalarına nasıl uyulur?",
+ "ozet_en": "How to earn quality backlinks, run digital PR and stay within Google's link spam policies.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Backlink, başka bir sitenin sizin sayfanıza verdiği bağlantıdır. Google, bağlantıları bir sayfanın ne kadar ilgili ve güvenilir olduğunu anlamak için kullandığı önemli sinyallerden biri olarak tanımlıyor. Ama burada belirleyici olan link sayısı değil; linkin kimden, hangi bağlamda ve neden geldiği.",
+    "Sahada en sık gördüğüm hata, backlink çalışmasının bir satın alma kalemine dönüşmesi: paket hâlinde alınan yazılar, alakasız bloglarda anahtar kelimeli bağlantılar, karşılıklı link anlaşmaları. Bunlar Google'ın link spam politikalarıyla doğrudan çelişir. Bu rehberde dijital PR ile link kazanmayı, riskli uygulamaları ve marka bahsinin yapay zekâ cevaplarıyla ilişkisini anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Kaliteli backlink, konuyla ilgili ve güvenilir bir sitenin içeriğinizi kendi okuyucusuna faydalı bulduğu için verdiği bağlantıdır. Bu tür linkler en sağlıklı biçimde dijital PR, özgün veri ve uzman içerikle kazanılır. Sıralamayı etkilemek için link satın almak veya satmak ise Google'ın spam politikalarına aykırıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Backlink nedir, kaliteli bir link nasıl anlaşılır?",
+   "paragraflar": [
+    "Bir linkin değeri tek bir metrikle ölçülemez; üçüncü taraf otorite puanları yön gösterir ama Google'ın kullandığı bir ölçü değildir. İlk sorum şu: Bu link Google olmasaydı da verilir miydi ve bir okuyucu ona tıklar mıydı?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kriter",
+       "Güçlü sinyal",
+       "Zayıf veya riskli sinyal"
+      ],
+      "satirlar": [
+       [
+        "Konu uyumu",
+        "Sektörünüzle ya da hedef kitlenizle ilgili yayın",
+        "Her konuda yazı yayımlayan, odaksız site"
+       ],
+       [
+        "Bağlam",
+        "Metnin içinde, okuyucuya kaynak olarak sunulan link",
+        "Altbilgi, kenar çubuğu veya toplu link listesi"
+       ],
+       [
+        "Bağlantı metni",
+        "Marka adı, doğal ifade veya sayfa başlığı",
+        "Her seferinde aynı, tam eşleşen anahtar kelime"
+       ],
+       [
+        "Sitenin kendisi",
+        "Gerçek okuru, editörü ve trafiği olan yayın",
+        "Yalnızca link satmak için var olan site"
+       ],
+       [
+        "Elde ediliş",
+        "Editoryal karar sonucu verilmiş",
+        "Ödeme, takas veya zorunluluk karşılığı"
+       ]
+      ]
+     }
+    },
+    "Link, teknik olarak sağlıklı ve faydalı bir sayfaya gitmeli; bu yüzden backlink çalışmasından önce [teknik SEO denetimi](/rehber/teknik-seo) ve net bir [içerik stratejisi](/rehber/icerik-stratejisi) gerekir."
+   ]
+  },
+  {
+   "baslik": "Dijital PR nedir, klasik link kurulumundan farkı ne?",
+   "paragraflar": [
+    "Dijital PR, markanızı haber değeri taşıyan bir hikâye, veri ya da uzman görüşüyle gazetecilerin, editörlerin ve sektör yayınlarının gündemine sokma işidir. Hedef doğrudan \"link almak\" değil, yayımlanmaya değer bir şey sunmaktır; link çoğu zaman bunun doğal sonucu olarak gelir.",
+    "Klasik link kurulumunda pazarlık konusu linkin kendisidir; dijital PR'da ise içeriktir ve editör, okuyucusuna faydalı olduğu için kaynak gösterir. Bu fark hem Google'ın politikaları hem de itibar açısından önemlidir. Bazı yayınlar markayı link vermeden anar; bu da bilinirlik ve güven üretir, GEO tarafında da işe yarayabilir.",
+    "Türkiye'de ulusal haber sitelerinin yanında sektör portallarını, meslek örgütlerini, üniversiteleri ve yerel basını da listeye koyun. Yerel işletmeler için yerel haber siteleri, [yerel SEO stratejisi](/rehber/yerel-seo) ile birlikte iyi çalışır."
+   ]
+  },
+  {
+   "baslik": "Link kazanma yöntemleri: hangi taktikler güvenle işe yarar?",
+   "paragraflar": [
+    "Bu yöntemler linki ödemeye değil değere bağlar; hangisinin uyduğu sektöre, veriye ve uzmanlara göre değişir.",
+    {
+     "liste": [
+      "Özgün veri: anonimleştirilmiş müşteri verisi, anket veya kamuya açık veri setlerinden çıkan bulgular gazeteciler için alıntılanabilir kaynaktır.",
+      "Uzman yorumu: gündemdeki konuda hızlı ve net görüş sunmak, kaynak olarak anılmanın en doğrudan yoludur.",
+      "Kaynak niteliğinde içerik: kapsamlı rehberler, sözlükler, hesaplayıcılar ve araçlar zamanla kendiliğinden link toplar.",
+      "Bağlantısız bahisler: markanızı anan ama link vermeyen yayınlardan kaynak bağlantısı istemek.",
+      "Kırık linkler: taşınan sayfalara giden linkleri 301 ile yönlendirmek veya yayıncıdan güncelleme istemek.",
+      "İş ortaklıkları ve etkinlikler: konuşmalar, sponsorluklar, ortak projeler; ücretli sponsorluk linkleri rel=\"sponsored\" ile işaretlenmeli."
+     ]
+    },
+    "Eski URL'lere giden linkleri korumak [site taşıma SEO](/rehber/site-tasima-seo) sürecinde kritiktir; [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ise hangi kaynak içeriği üreteceğinize karar vermenizi kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "Google'ın link spam politikaları: hangi uygulamalar risklidir?",
+   "paragraflar": [
+    "Google'ın spam politikaları, arama sıralamasını manipüle etmeye yönelik linkleri link spam olarak tanımlar. Politikada sayılan örneklerin başlıcaları şunlar:",
+    {
+     "liste": [
+      "Sıralama amacıyla link satın almak veya satmak: para, ürün ya da hizmet karşılığı link vermek, ücretsiz ürün göndererek link içeren yazı istemek dahil.",
+      "Aşırı link değişimi: \"sen bana link ver, ben sana vereyim\" anlaşmaları veya yalnızca karşılıklı bağlantı için oluşturulmuş partner sayfaları.",
+      "Link ağları: yalnızca başka sitelere bağlantı aktarmak için kurulmuş site grupları (özel blog ağları gibi) ve otomatik link üreten programlar.",
+      "Sıralama değeri aktaran ücretli metin reklamları ve advertorial içerikler.",
+      "Başka sitelerde dağıtılan makale ve basın bültenlerinde optimize edilmiş, anahtar kelimeli bağlantı metinleri.",
+      "Düşük kaliteli dizin ve yer imi sitelerinden linkler, widget'lara gömülü gizli linkler, şablonlara ve altbilgilere yayılan linkler, forum yorumlarına bırakılan optimize linkler."
+     ]
+    },
+    "Google, SpamBrain sistemini link spamini tespit etmek için de kullandığını açıkladı; bu yüzden spam linklerin çoğu etkisiz bırakılabilir. Sistematik bir link alım satımı ise Search Console'da \"yapay bağlantılar\" türünde manuel işlemle de sonuçlanabilir."
+   ]
+  },
+  {
+   "baslik": "rel=\"sponsored\", \"nofollow\" ve \"ugc\": hangi linke hangi nitelik?",
+   "paragraflar": [
+    "Ücretli bir ilişki varsa link yasak değildir; yeter ki sıralama değeri aktarmayacak şekilde işaretlensin. Google bunun için üç rel niteliği tanır:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Nitelik",
+       "Ne zaman kullanılır?",
+       "Örnek"
+      ],
+      "satirlar": [
+       [
+        "rel=\"sponsored\"",
+        "Reklam, sponsorluk veya herhangi bir ücretli ya da karşılıklı ilişki sonucu verilen linkler",
+        "Sponsorlu içerik, affiliate linki, ürün karşılığı yazılan inceleme"
+       ],
+       [
+        "rel=\"ugc\"",
+        "Kullanıcıların oluşturduğu içerikteki linkler",
+        "Blog yorumları, forum gönderileri"
+       ],
+       [
+        "rel=\"nofollow\"",
+        "Diğer nitelikler uymadığında ve bağlantıyla sitenizi ilişkilendirmek istemediğinizde",
+        "Güvenmediğiniz bir kaynağa zorunlu olarak verilen link"
+       ]
+      ]
+     }
+    },
+    "Nitelikler birlikte de kullanılabilir (örneğin rel=\"ugc nofollow\"). Ücretli linkler için nofollow da kabul edilir, ama Google sponsored kullanımını tercih ettiğini belirtiyor. Google bu nitelikleri kesin bir komut olarak değil, bir ipucu olarak değerlendirir. Ücretli bir yazıda niteliksiz link, satın alan kadar satan için de risktir."
+   ]
+  },
+  {
+   "baslik": "Disavow aracı ne zaman gerekir?",
+   "paragraflar": [
+    "Disavow (bağlantıları reddetme) aracı, Google'dan belirli linkleri değerlendirmeye almamasını istemenizi sağlar. Google, sitelerin çoğunun bu araca ihtiyaç duymadığını ve yanlış kullanımın performansa zarar verebileceğini açıkça belirtiyor. Araç yalnızca şu durumda öneriliyor: sitenize işaret eden kayda değer sayıda spam, yapay veya düşük kaliteli link varsa ve bu linkler manuel işleme yol açmışsa ya da yol açması muhtemelse.",
+    "Yani araç taramasında gördüğünüz her \"toksik\" etiketli link için disavow dosyası hazırlamak gerekmez; Google bu tür linklerin çoğunu zaten görmezden gelir. Geçmişte link satın alınmış, manuel işlem almış veya almak üzere olan bir sitede ise önce linkleri kaldırtmaya çalışın, kaldırılamayanları alan adı düzeyinde (domain: öneki ile) dosyaya ekleyin, ardından manuel işlem varsa yeniden inceleme talebi gönderin."
+   ]
+  },
+  {
+   "baslik": "Marka bahsi ve GEO: backlink yapay zekâ cevaplarını nasıl etkiler?",
+   "paragraflar": [
+    "Google AI Overviews, ChatGPT, Gemini, Perplexity ve Copilot gibi asistanlar cevap üretirken web kaynaklarını alıntılayabiliyor. Kaynak seçiminin kamuya açık bir formülü yok; dolayısıyla \"şu kadar bahis, şu kadar görünürlük\" demek doğru olmaz.",
+    "Yine de mantık şunu söylüyor: Bir marka, güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda bir cevap üreten sistemin markayı tanıma ve anma ihtimali artabilir. Bu yüzden dijital PR'ın ürettiği linksiz marka bahislerini de değerli görüyorum. Bu yaklaşımın ayrıntılarını [GEO uygulama rehberi](/rehber/geo-uygulama) ve [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlatıyorum; terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) iyi bir başlangıç noktası."
+   ]
+  },
+  {
+   "baslik": "Backlink ve dijital PR çalışması nasıl ölçülür?",
+   "paragraflar": [
+    "Link sayısını tek başına hedef yapmak, ekipleri yanlış davranışa iter. Ben aşağıdaki kontrol listesini kullanıyorum:",
+    {
+     "kontrol": [
+      "Search Console'daki Bağlantılar raporunda en çok link veren siteler, en çok link alan sayfalar ve bağlantı metinleri nasıl değişiyor?",
+      "Yeni linkler hedef kitlenizin okuduğu yayınlardan mı geliyor?",
+      "Link alan sayfaların arama görünürlüğü ve tıklamaları artıyor mu?",
+      "Linkten gelen yönlendirme trafiği GA4'te etkileşim ve dönüşüm üretiyor mu?",
+      "Marka adıyla yapılan aramalar ve yapay zekâ cevaplarındaki marka anılmaları zaman içinde değişiyor mu?"
+     ]
+    },
+    "Bu verileri düzenli bir rapora bağlamak için [SEO raporlama rehberi](/rehber/seo-raporlama) yol gösterir. Kendi sitenizin link profilini değerlendirmek ve politikalara uygun bir dijital PR planı kurmak isterseniz [backlink ve dijital PR danışmanlığı](/backlink) sayfasına göz atabilir ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A backlink is a link from another website to one of your pages. Google describes links as one of the important signals it uses to understand how relevant and trustworthy a page is. What matters, though, is not the number of links but who gives them, in what context and why.",
+    "The most common mistake I see in client work is treating link building as a purchasing line item: bundles of paid posts, keyword-stuffed links on unrelated blogs, reciprocal link deals. These run straight into Google's link spam policies. This guide covers earning links through digital PR, risky practices, and how brand mentions relate to AI answers.",
+    {
+     "alinti": "Short answer: A quality backlink is a link from a relevant, trustworthy site that finds your content genuinely useful for its own readers. Links like this are best earned through digital PR, original data and expert content. Buying or selling links to influence rankings violates Google's spam policies."
+    }
+   ]
+  },
+  {
+   "baslik": "What is a backlink, and how do you recognize a quality one?",
+   "paragraflar": [
+    "No single metric captures a link's value; third-party authority scores are a rough guide, not something Google uses. My first question is: would this link exist without Google, and would a reader click it?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Criterion",
+       "Strong signal",
+       "Weak or risky signal"
+      ],
+      "satirlar": [
+       [
+        "Topical fit",
+        "A publication related to your industry or audience",
+        "A site that publishes on any topic with no focus"
+       ],
+       [
+        "Context",
+        "In the body text, offered to readers as a source",
+        "Footer, sidebar or a bulk list of links"
+       ],
+       [
+        "Anchor text",
+        "Brand name, natural phrasing or the page title",
+        "The same exact-match keyword every time"
+       ],
+       [
+        "The site itself",
+        "A publication with real readers, editors and traffic",
+        "A site that exists only to sell links"
+       ],
+       [
+        "How it was obtained",
+        "An editorial decision",
+        "Payment, exchange or a contractual requirement"
+       ]
+      ]
+     }
+    },
+    "Links should point to pages that are technically sound and useful, so a [technical SEO audit](/en/guides/teknik-seo) and a clear [content strategy](/en/guides/icerik-stratejisi) should come before link work."
+   ]
+  },
+  {
+   "baslik": "What is digital PR, and how does it differ from traditional link building?",
+   "paragraflar": [
+    "Digital PR means getting your brand onto the agenda of journalists, editors and trade publications with a newsworthy story, data or expert opinion. The goal is not \"getting a link\" as such but offering something worth publishing; the link usually follows as a natural result.",
+    "In traditional link building, the link itself is negotiated; in digital PR, the content is, and an editor cites you because it serves their readers. That difference matters for Google's policies and for reputation. Some outlets mention your brand without linking, which still builds awareness and trust and can help with GEO.",
+    "Whether in Turkey or elsewhere, look beyond national news sites to industry portals, professional associations, universities and local press. For local businesses, local news sites pair well with a [local SEO strategy](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Link earning tactics: what works safely?",
+   "paragraflar": [
+    "These tactics tie the link to value rather than payment; which fit depends on your industry, data and experts.",
+    {
+     "liste": [
+      "Original data: findings from anonymized customer data, surveys or public datasets give journalists something quotable.",
+      "Expert commentary: fast, clear input on a topical story is the most direct way to be cited.",
+      "Reference-quality content: in-depth guides, glossaries, calculators and tools attract links on their own over time.",
+      "Unlinked mentions: asking publications that mention your brand to add a source link.",
+      "Broken links: 301-redirecting links to moved pages or asking publishers to update them.",
+      "Partnerships and events: talks, sponsorships, joint projects; mark paid sponsorship links rel=\"sponsored\"."
+     ]
+    },
+    "Keeping links to old URLs is critical during a [site migration SEO](/en/guides/site-tasima-seo) project, and [keyword research](/en/guides/anahtar-kelime-arastirmasi) helps you decide which reference asset to build."
+   ]
+  },
+  {
+   "baslik": "Google's link spam policies: which practices are risky?",
+   "paragraflar": [
+    "Google's spam policies define links intended to manipulate search rankings as link spam. The main examples listed in the policy are:",
+    {
+     "liste": [
+      "Buying or selling links for ranking purposes: exchanging money, goods or services for links, including sending free products in exchange for a post with a link.",
+      "Excessive link exchanges: \"link to me and I'll link to you\" deals, or partner pages built only for cross-linking.",
+      "Link networks: groups of sites built solely to pass links to other sites (such as private blog networks), and automated programs that create links.",
+      "Paid text ads and advertorials that pass ranking credit.",
+      "Optimized, keyword-rich anchor text in articles or press releases distributed on other sites.",
+      "Links from low-quality directory or bookmark sites, hidden links embedded in widgets, links widely distributed in templates and footers, and optimized links left in forum comments."
+     ]
+    },
+    "Google has said it also uses its SpamBrain system to detect link spam, so many spammy links are simply neutralized. A systematic pattern of buying or selling links can also lead to a manual action for unnatural links in Search Console."
+   ]
+  },
+  {
+   "baslik": "rel=\"sponsored\", \"nofollow\" and \"ugc\": which attribute for which link?",
+   "paragraflar": [
+    "A paid relationship does not make a link forbidden, as long as it is marked so it passes no ranking credit. Google recognizes three rel attributes for this:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Attribute",
+       "When to use it",
+       "Example"
+      ],
+      "satirlar": [
+       [
+        "rel=\"sponsored\"",
+        "Links that are ads, sponsorships or the result of any paid or compensated arrangement",
+        "Sponsored content, affiliate links, a review written in exchange for a product"
+       ],
+       [
+        "rel=\"ugc\"",
+        "Links inside user-generated content",
+        "Blog comments, forum posts"
+       ],
+       [
+        "rel=\"nofollow\"",
+        "When the other values don't apply and you'd rather not associate your site with the link",
+        "A link you're required to give to a source you don't vouch for"
+       ]
+      ]
+     }
+    },
+    "Attributes can be combined (for example rel=\"ugc nofollow\"). Nofollow is still acceptable for paid links, but Google says it prefers sponsored. Google treats these attributes as hints rather than strict directives. An unqualified link in a paid post is a risk for the seller as much as the buyer."
+   ]
+  },
+  {
+   "baslik": "When do you need the disavow tool?",
+   "paragraflar": [
+    "The disavow tool lets you ask Google not to take certain links into account. Google states plainly that most sites don't need it and that using it incorrectly can harm performance. It is recommended only when you have a considerable number of spammy, artificial or low-quality links pointing to your site and those links have caused a manual action, or are likely to.",
+    "So you don't need to disavow every link a tool labels \"toxic\"; Google already ignores most of them. If a site with bought links has, or is likely to get, a manual action, first try to have the links removed, disavow the rest at domain level (domain: prefix), then submit a reconsideration request if there is a manual action."
+   ]
+  },
+  {
+   "baslik": "Brand mentions and GEO: how do backlinks affect AI answers?",
+   "paragraflar": [
+    "Assistants such as Google AI Overviews, ChatGPT, Gemini, Perplexity and Copilot can cite web sources when they generate answers. How they choose sources has no public formula, so claiming \"this many mentions, this much visibility\" would be wrong.",
+    "The reasoning still holds, though: if a brand is mentioned consistently alongside a topic in trustworthy, independent sources, a system answering a question on that topic may be more likely to recognize and mention it. That is why I also value the unlinked brand mentions digital PR produces. I cover this approach in more detail in the [GEO implementation guide](/en/guides/geo-uygulama) and the article on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu); if the terms are new to you, the [AI glossary](/en/ai-glossary) is a good starting point."
+   ]
+  },
+  {
+   "baslik": "How do you measure backlink and digital PR work?",
+   "paragraflar": [
+    "Making link count the sole target pushes teams toward the wrong behavior. This is the checklist I use:",
+    {
+     "kontrol": [
+      "In Search Console's Links report, how are top linking sites, top linked pages and linking text changing?",
+      "Are new links coming from publications your audience actually reads?",
+      "Are the linked pages gaining search visibility and clicks?",
+      "Does referral traffic from those links produce engagement and conversions in GA4?",
+      "Are branded searches and brand mentions in AI answers changing over time?"
+     ]
+    },
+    "The [SEO reporting guide](/en/guides/seo-raporlama) shows how to report on this regularly. For a link profile review and a policy-compliant digital PR plan, see the [backlink and digital PR consulting](/en/backlink-digital-pr) page or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Kaç backlink'e ihtiyacım var?",
+   "c": "Bunun evrensel bir sayısı yok. İhtiyaç, rekabet ettiğiniz sayfaların link profiline, sektörünüze ve içeriğinizin kalitesine göre değişir. Rakip sayfaları inceleyip hangi tür yayınlardan link aldıklarına bakmak, sayı hedefinden daha faydalı bir başlangıçtır."
+  },
+  {
+   "s": "Nofollow linklerin bir faydası var mı?",
+   "c": "Nofollow linkler sıralama değeri aktarmayabilir, ancak Google bu niteliği bir ipucu olarak değerlendirir. Ayrıca bu linkler gerçek okur trafiği, marka bilinirliği ve yeni editoryal linklere zemin hazırlayabilir."
+  },
+  {
+   "s": "Rakiplerim sitemi spam linklerle batırabilir mi?",
+   "c": "Google, sistemlerinin spam linkleri genellikle tanıyıp görmezden gelecek şekilde tasarlandığını belirtiyor. Bu yüzden çoğu durumda bir şey yapmanız gerekmez. Search Console'da yapay bağlantılarla ilgili bir manuel işlem görürseniz, o zaman link temizliği ve disavow seçeneklerini değerlendirin."
+  },
+  {
+   "s": "Basın bülteni dağıtmak backlink için işe yarar mı?",
+   "c": "Dağıtım servisleriyle yayılan bültenlerdeki anahtar kelimeli linkler Google'ın link spam örnekleri arasında sayılıyor. Bülten, gerçek bir haberi gazetecilere ulaştırmak için kullanıldığında anlamlıdır."
+  },
+  {
+   "s": "Misafir yazarlık (guest post) yasak mı?",
+   "c": "Misafir yazarlığın kendisi yasak değil; uzmanlığınızı yeni bir kitleye sunmanın meşru bir yolu olabilir. Sorun, link kazanmak amacıyla büyük ölçekte yürütülen ve anahtar kelimeli bağlantı metinleri içeren kampanyalardır. Yazının değeri yayının okuruna dönük olmalı, ücret veya karşılık varsa linkler uygun şekilde işaretlenmelidir."
+  },
+  {
+   "s": "Dijital PR'ın sonuçları ne kadar sürede görülür?",
+   "c": "Bir haberin yayımlanması günler içinde olabilir, ancak bunun arama görünürlüğüne yansıması daha uzun sürer ve kesin bir süre vermek mümkün değil. Bu yüzden dijital PR'ı tek seferlik kampanya yerine düzenli bir çalışma olarak planlamanızı öneririm."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many backlinks do I need?",
+   "c": "There is no universal number. It depends on the link profiles of the pages you compete with, your industry and the quality of your content. Reviewing which publications link to competing pages is a better starting point than a numeric target."
+  },
+  {
+   "s": "Are nofollow links worth anything?",
+   "c": "Nofollow links may not pass ranking credit, but Google treats the attribute as a hint. They can also bring real referral traffic, build brand awareness and lead to new editorial links."
+  },
+  {
+   "s": "Can competitors hurt my site with spammy links?",
+   "c": "Google says its systems are designed to recognize and generally ignore spammy links. In most cases you don't need to do anything. If you see a manual action for unnatural links in Search Console, that's the point to consider link cleanup and disavow."
+  },
+  {
+   "s": "Do press releases help with backlinks?",
+   "c": "Keyword-rich links in press releases distributed through wire services are listed among Google's link spam examples. A press release makes sense when it is used to get a real story in front of journalists."
+  },
+  {
+   "s": "Is guest posting against the rules?",
+   "c": "Guest posting itself isn't forbidden and can be a legitimate way to reach a new audience. The problem is large-scale campaigns run to gain links, with keyword-rich anchor text. The article should serve the publication's readers, and links should be marked appropriately if there is payment or compensation."
+  },
+  {
+   "s": "How long does digital PR take to show results?",
+   "c": "A story can be published within days, but its effect on search visibility takes longer, and no exact timeline can be promised. That's why I recommend planning digital PR as an ongoing effort rather than a one-off campaign."
+  }
+ ]
+}

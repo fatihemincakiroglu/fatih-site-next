@@ -1,0 +1,479 @@
+{
+ "kategori": "Teknik",
+ "baslik_tr": "Schema (Yapısal Veri) Rehberi: JSON-LD, @id Grafı ve Test Araçları",
+ "baslik_en": "Schema (Structured Data) Guide: JSON-LD, @id Graphs and Testing Tools",
+ "meta_baslik_tr": "Schema Yapısal Veri Rehberi: JSON-LD ve Test Araçları",
+ "meta_baslik_en": "Schema Structured Data Guide: JSON-LD and Testing Tools",
+ "meta_desc_tr": "Schema yapısal veri nasıl eklenir? JSON-LD ile Organization, Person, Article, Product, LocalBusiness ve FAQPage işaretlemesi, @id grafı ve test araçları.",
+ "meta_desc_en": "How to add schema structured data: JSON-LD markup for Organization, Person, Article, Product, LocalBusiness and FAQPage, @id graphs and testing tools.",
+ "ozet_tr": "JSON-LD ile doğru schema işaretlemesi: hangi türü nerede kullanacağınız, @id grafı ve test adımları.",
+ "ozet_en": "Correct schema markup with JSON-LD: which type goes where, how to build an @id graph and how to test it.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yapısal veri (schema), sayfanızdaki bilgileri schema.org sözlüğünü kullanarak makinelerin okuyabileceği biçimde etiketlemektir. Bir insan sayfaya baktığında fiyatı, yazarı ya da adresi hemen anlar; arama motoru ise bu bilgiyi yapısal veri sayesinde tahmin etmeden, açıkça okur.",
+    "Bu rehberde formatı seçmekten @id ile birbirine bağlı bir schema grafı kurmaya ve işaretlemeyi test etmeye kadar sahada uyguladığım yöntemi anlatıyorum. Yapısal veri [teknik SEO denetiminin](/rehber/teknik-seo) bir parçası olarak ele alınmalı; tek başına bir sıralama hilesi değildir.",
+    {
+     "alinti": "Kısa cevap: Schema, sayfadaki bilgiyi schema.org sözlüğüyle etiketleyen yapısal veridir ve Google'ın önerdiği format JSON-LD'dir. Doğru işaretleme bazı zengin sonuç türleri için uygunluk sağlar; ancak zengin sonucu gösterip göstermemek Google'ın kararıdır ve işaretleme sayfada görünen içerikle birebir uyumlu olmalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "JSON-LD, Microdata ve RDFa: hangi schema formatı seçilmeli?",
+   "paragraflar": [
+    "Google üç formatı da destekliyor, ama önerdiği format JSON-LD. Yeni projelerde başka bir format kullanmam için neredeyse hiç sebep görmüyorum.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Format",
+       "Nasıl eklenir?",
+       "Ne zaman tercih edilir?"
+      ],
+      "satirlar": [
+       [
+        "JSON-LD",
+        "HTML'den ayrı bir script type=application/ld+json bloğu olarak",
+        "Çoğu site için ilk tercih; Google'ın önerdiği format"
+       ],
+       [
+        "Microdata",
+        "HTML etiketlerine itemscope ve itemprop öznitelikleri eklenerek",
+        "Eski temalarda karşılaşılır; tasarım değiştikçe bakımı zorlaşır"
+       ],
+       [
+        "RDFa",
+        "HTML'e typeof ve property öznitelikleri eklenerek",
+        "Bazı içerik yönetim sistemlerinde; yeni projede nadiren gerekir"
+       ]
+      ]
+     }
+    },
+    "JSON-LD'nin asıl avantajı şablondan bağımsız olmasıdır: tasarım değişse de işaretleme bozulmaz ve veritabanındaki bilgiden otomatik üretilebilir. Google, JavaScript ile sonradan eklenen JSON-LD'yi de okuyabiliyor; yine de diğer sistemlerin de sorunsuz görebilmesi için işaretlemeyi sunucu tarafında HTML'e yazmayı tercih ediyorum."
+   ]
+  },
+  {
+   "baslik": "Hangi sayfada hangi schema türü kullanılır?",
+   "paragraflar": [
+    "Sahada en sık gördüğüm hata, her sayfaya aynı genel işaretlemeyi basmak. Her türün doğal bir yeri var:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tür",
+       "Nerede kullanılır?",
+       "Önemli özellikler"
+      ],
+      "satirlar": [
+       [
+        "Organization",
+        "Ana sayfa veya Hakkımızda",
+        "name, url, logo, sameAs, contactPoint"
+       ],
+       [
+        "Person",
+        "Yazar ve uzman profil sayfaları",
+        "name, jobTitle, worksFor, sameAs, image"
+       ],
+       [
+        "Article / BlogPosting",
+        "Blog yazıları ve rehberler",
+        "headline, author, datePublished, dateModified, image"
+       ],
+       [
+        "Product",
+        "Ürün detay sayfaları",
+        "name, image, offers (price, priceCurrency, availability), varsa review veya aggregateRating"
+       ],
+       [
+        "LocalBusiness ve alt türleri",
+        "Fiziksel adresi olan işletmeler",
+        "address, telephone, openingHoursSpecification, geo"
+       ],
+       [
+        "BreadcrumbList",
+        "Hiyerarşik yapıdaki sayfalar",
+        "itemListElement içinde sıralı position, name, item"
+       ],
+       [
+        "FAQPage",
+        "Görünür bir soru-cevap bölümü olan sayfalar",
+        "mainEntity içinde Question ve acceptedAnswer"
+       ]
+      ]
+     }
+    },
+    "Ürün sayfalarında fiyat, para birimi ve stok durumunun sayfada görünen bilgiyle aynı olması kritik; varyantlar ve stokta olmayan ürünler için yaklaşımı [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlattım. Fiziksel işletmelerde LocalBusiness yerine mümkünse Dentist, Restaurant gibi daha özel bir alt tür seçin ve adres-telefon bilgisini [Google Business Profile kaydınızla](/blog/google-business-profile) birebir eşleştirin; konunun tamamı [yerel SEO rehberinde](/rehber/yerel-seo) var.",
+    "Bir uyarı: işletmenin kendi sitesinde kendisi hakkında gösterdiği yorumlar (self-serving reviews), LocalBusiness ve Organization için yıldızlı zengin sonuç almaz. Bu yüzden ana sayfaya aggregateRating eklemek fayda sağlamaz, yorumlar sayfada görünmüyorsa yönergelere de aykırıdır."
+   ]
+  },
+  {
+   "baslik": "@id ile schema grafı nasıl kurulur?",
+   "paragraflar": [
+    "Birçok sitede her eklenti kendi bağımsız bloğunu üretir: bir yerde Organization, başka bir yerde yazarın adı düz metin, makalede ise publisher olarak farklı yazılmış bir şirket adı. Arama motoru bunların aynı varlık olduğunu tahmin etmek zorunda kalır. @id bu sorunu çözer.",
+    "@id, bir varlığa verdiğiniz kalıcı ve benzersiz bir kimliktir; genellikle sayfanın kanonik adresi ile bir parça tanımlayıcı birleştirilir. Varlığı bir kez tam olarak tanımlarsınız, diğer bloklarda yalnızca bu kimliğe atıf yaparsınız. Aşağıdaki örnekte makalenin yazarı ve yayıncısı, aynı grafın içindeki Person ve Organization düğümlerine bağlanıyor:",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://example.com/#organization\",\n      \"name\": \"Örnek Danışmanlık\",\n      \"url\": \"https://example.com/\",\n      \"logo\": \"https://example.com/logo.png\",\n      \"sameAs\": [\"https://www.linkedin.com/company/ornek-danismanlik\"]\n    },\n    {\n      \"@type\": \"Person\",\n      \"@id\": \"https://example.com/hakkimda/#person\",\n      \"name\": \"Ayşe Yılmaz\",\n      \"jobTitle\": \"SEO Danışmanı\",\n      \"worksFor\": { \"@id\": \"https://example.com/#organization\" }\n    },\n    {\n      \"@type\": \"Article\",\n      \"@id\": \"https://example.com/blog/ornek-yazi/#article\",\n      \"headline\": \"Örnek Yazı Başlığı\",\n      \"datePublished\": \"2026-09-01\",\n      \"dateModified\": \"2026-10-10\",\n      \"author\": { \"@id\": \"https://example.com/hakkimda/#person\" },\n      \"publisher\": { \"@id\": \"https://example.com/#organization\" },\n      \"mainEntityOfPage\": \"https://example.com/blog/ornek-yazi/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+     "liste": [
+      "**Kalıcı olsun:** @id değerlerini bir kez belirleyin ve değiştirmeyin; tüm sayfalarda aynı varlık için aynı @id kullanılmalı.",
+      "**Kanonik adrese dayansın:** Organization için ana sayfa, Person için profil sayfası adresi en mantıklı temeldir.",
+      "**Tek kaynak olsun:** Organization bilgisi tek bir yerde tam tanımlanır; diğer sayfalar yalnızca @id ile bağlanır.",
+      "**sameAs'i doğru kullanın:** yalnızca markanın ya da kişinin resmî profillerini ekleyin."
+     ]
+    },
+    "Bu yapı, markanın kim olduğunu tutarlı biçimde tanımladığı için [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattığım varlık netliği çalışmasının da teknik temelidir."
+   ]
+  },
+  {
+   "baslik": "FAQPage ve HowTo şemasının zengin sonuç durumu nedir?",
+   "paragraflar": [
+    "Bu konuda hâlâ çok eski bilgi dolaşıyor, o yüzden net yazayım. Google, Ağustos 2023'ten beri FAQ zengin sonuçlarını yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriyor. HowTo zengin sonuçları ise tamamen kaldırıldı.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Şema",
+       "Google'daki zengin sonuç durumu",
+       "Kullanmaya değer mi?"
+      ],
+      "satirlar": [
+       [
+        "FAQPage",
+        "Yalnızca iyi bilinen, yetkili devlet ve sağlık sitelerinde gösteriliyor",
+        "Sayfada gerçek bir SSS varsa evet; geçerli işaretlemedir ve içeriğin anlaşılmasına yardımcı olur"
+       ],
+       [
+        "HowTo",
+        "Zengin sonuç özelliği tamamen kaldırıldı",
+        "Google'da görünüm beklentisiyle öncelik değil"
+       ]
+      ]
+     }
+    },
+    "FAQPage işaretlemesini, sayfada kullanıcının gerçekten gördüğü soru-cevaplar varsa ekliyorum; çünkü içeriğin yapısını makineler için netleştiriyor. Ama müşterilere “SSS şeması ekleyelim, arama sonucunda yer kaplasın” vaadiyle sunmuyorum. Sağlık sitesi olmak da tek başına yeterli değil; [sağlık sektörü SEO rehberinde](/rehber/saglik-seo) bu tür sitelerin öncelikleri ayrıca anlatılıyor.",
+    {
+     "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Siparişler ne zaman kargoya verilir?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Siparişler iki iş günü içinde kargoya verilir.\"\n    }\n  }]\n}"
+    },
+    "Google desteklediği zengin sonuç türlerini zaman zaman sadeleştiriyor; FAQ ve HowTo bunun en bilinen örnekleri. Bir türü uygulamadan önce Google Search Central'daki güncel yapısal veri galerisine bakmanızı öneririm."
+   ]
+  },
+  {
+   "baslik": "Schema işaretlemesi nasıl test edilir ve izlenir?",
+   "paragraflar": [
+    "Test iki farklı soruyu cevaplar: işaretleme schema.org açısından geçerli mi, ve Google'ın zengin sonuç gereksinimlerini karşılıyor mu? Bu yüzden iki aracı birlikte kullanıyorum.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Araç",
+       "Ne işe yarar?"
+      ],
+      "satirlar": [
+       [
+        "Zengin Sonuç Testi (Rich Results Test)",
+        "Google'ın desteklediği türler için uygunluğu, hataları ve uyarıları gösterir; URL ya da kod ile çalışır"
+       ],
+       [
+        "Schema Markup Validator (validator.schema.org)",
+        "Tüm schema.org türlerini sözdizimi ve sözlük açısından doğrular; Google'a özgü değildir"
+       ],
+       [
+        "Search Console geliştirme raporları",
+        "Site genelinde tespit edilen öğeleri, geçerli ve geçersiz sayılarını izler"
+       ],
+       [
+        "Search Console URL Denetleme",
+        "Google'ın sayfada tespit ettiği yapısal veri öğelerini gösterir"
+       ]
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Yayından önce her sayfa şablonundan birkaç örneği test edin",
+      "Sayfada görünen fiyat, tarih, yazar ve adresin işaretlemeyle aynı olduğunu kontrol edin",
+      "Kaynak kodda aynı türden tekrar eden blok olup olmadığına bakın",
+      "Yayından sonra Search Console raporlarını birkaç hafta izleyin",
+      "Tema, eklenti veya platform güncellemelerinden sonra testi tekrarlayın"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "En sık yapılan schema hataları",
+   "paragraflar": [
+    "Denetimlerde karşılaştığım hataların çoğu teknik değil, içerikle işaretleme arasındaki uyumsuzluktan kaynaklanıyor:",
+    {
+     "liste": [
+      "**Görünmeyen bilgiyi işaretlemek:** sayfada olmayan yorumları, puanları veya SSS'leri işaretlemek Google'ın yönergelerine aykırıdır ve yapısal veriyle ilgili manuel işleme yol açabilir.",
+      "**Çakışan eklentiler:** tema ve SEO eklentisinin ayrı ayrı Organization üretmesi, iki farklı logo ve isim.",
+      "**Uyuşmayan ürün bilgisi:** indirim bitmiş ama işaretlemede eski fiyat, tükenmiş ürün için InStock.",
+      "**Tarih oyunları:** içerik değişmeden dateModified güncellemek; ya da tersine, büyük güncellemeden sonra tarihi eski bırakmak.",
+      "**Kopyalanmış şablonlar:** başka bir siteden alınan örnekte kalan yabancı URL'ler ve @id değerleri.",
+      "**Yer tutucu değerler:** zorunlu alanları boş ya da “örnek” gibi değerlerle doldurmak."
+     ]
+    },
+    "Site taşıma ve platform değişikliklerinde yapısal verinin sessizce kaybolması da sık görülür; bu yüzden [site taşıma SEO](/rehber/site-tasima-seo) kontrol listenize yapısal veri testini de ekleyin. Kendi sitenizdeki işaretlemenin bir uzman gözüyle incelenmesini isterseniz [SEO uzmanı](/seo-uzmani) hizmetime göz atabilir veya [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Schema sıralamayı doğrudan yükseltir mi?",
+   "c": "Google, yapısal verinin genel bir sıralama faktörü olmadığını belirtiyor. Etkisi dolaylıdır: sayfanın daha doğru anlaşılmasını sağlar ve uygun türlerde zengin sonuç için aday olmanızı mümkün kılar. Zengin sonuç da tıklama oranını etkileyebilir."
+  },
+  {
+   "s": "WordPress eklentisinin ürettiği schema yeterli mi?",
+   "c": "Yaygın SEO eklentileri iyi bir başlangıç grafı üretir. Yine de Organization bilgilerini, yazar profillerini ve sameAs bağlantılarını elle tamamlamak, tema veya başka eklentilerle oluşan tekrarları temizlemek gerekir. Eklentinin ürettiği çıktıyı mutlaka test araçlarıyla kontrol edin."
+  },
+  {
+   "s": "Search Console'daki uyarılar sorun mu?",
+   "c": "Uyarılar genellikle önerilen ama zorunlu olmayan bir özelliğin eksik olduğunu gösterir; öğe yine geçerlidir. Hatalar ise öğeyi zengin sonuç için uygunsuz kılar ve öncelikle düzeltilmelidir. Uyarıları, eksik bilgiyi gerçekten sağlayabiliyorsanız giderin."
+  },
+  {
+   "s": "Yapısal veri ChatGPT gibi asistanlarda görünmeye yardım eder mi?",
+   "c": "Yapay zekâ asistanlarının yapısal veriyi nasıl kullandığına dair kesin, doğrulanmış bir bilgi yok. Ben yapısal veriyi marka bilgisini tutarlı ve makine tarafından okunabilir hâle getirdiği için GEO çalışmasında da kullanıyorum, ama tek başına bir çözüm olarak görmüyorum. Ölçüm için [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemini](/blog/chatgpt-marka-gorunurlugu) kullanabilirsiniz."
+  },
+  {
+   "s": "Çok dilli bir sitede schema nasıl kurulmalı?",
+   "c": "Her dil sayfası kendi dilinde, o sayfada görünen içeriği yansıtan işaretlemeye sahip olmalı; inLanguage özelliği dili belirtmek için kullanılabilir. Organization ise tek bir varlık olduğu için tüm dillerde aynı @id ile tanımlanmalıdır."
+  },
+  {
+   "s": "Schema değişikliklerinin arama sonuçlarına yansıması ne kadar sürer?",
+   "c": "Sabit bir süre yok; Google'ın sayfayı yeniden taraması ve işlemesi gerekir. Önemli sayfalar için Search Console'daki URL Denetleme aracından yeniden tarama isteyebilirsiniz. Zengin sonuç uygunluğu oluşsa bile gösterim kararı Google'a aittir."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Structured data (schema) means labelling the information on your page with the schema.org vocabulary so machines can read it. A person looking at a page sees the price, the author or the address instantly; a search engine reads that information explicitly through structured data instead of inferring it.",
+    "This guide covers the method I use in practice, from choosing a format to building an @id-linked schema graph and testing the markup. Structured data belongs inside a [technical SEO audit](/en/guides/teknik-seo); on its own it is not a ranking trick.",
+    {
+     "alinti": "Short answer: Schema is structured data that labels page information with the schema.org vocabulary, and JSON-LD is the format Google recommends. Correct markup makes a page eligible for some rich result types, but whether a rich result appears is Google's decision, and the markup must match the visible content of the page."
+    }
+   ]
+  },
+  {
+   "baslik": "JSON-LD, Microdata or RDFa: which schema format should you use?",
+   "paragraflar": [
+    "Google supports all three formats but recommends JSON-LD. On new projects I almost never see a reason to use anything else.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Format",
+       "How it is added",
+       "When to use it"
+      ],
+      "satirlar": [
+       [
+        "JSON-LD",
+        "As a separate script type=application/ld+json block, apart from the HTML",
+        "First choice for most sites; the format Google recommends"
+       ],
+       [
+        "Microdata",
+        "By adding itemscope and itemprop attributes to HTML tags",
+        "Found in older themes; hard to maintain as the design changes"
+       ],
+       [
+        "RDFa",
+        "By adding typeof and property attributes to HTML",
+        "Used by some CMSs; rarely needed on new projects"
+       ]
+      ]
+     }
+    },
+    "The real advantage of JSON-LD is that it is independent of the template: redesigns don't break it, and it can be generated automatically from your database. Google can read JSON-LD injected with JavaScript, but I still prefer to render it server-side in the HTML so other systems can see it reliably too."
+   ]
+  },
+  {
+   "baslik": "Which schema type belongs on which page?",
+   "paragraflar": [
+    "The most common mistake I see is stamping the same generic markup on every page. Each type has a natural home:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Type",
+       "Where to use it",
+       "Key properties"
+      ],
+      "satirlar": [
+       [
+        "Organization",
+        "Home page or About page",
+        "name, url, logo, sameAs, contactPoint"
+       ],
+       [
+        "Person",
+        "Author and expert profile pages",
+        "name, jobTitle, worksFor, sameAs, image"
+       ],
+       [
+        "Article / BlogPosting",
+        "Blog posts and guides",
+        "headline, author, datePublished, dateModified, image"
+       ],
+       [
+        "Product",
+        "Product detail pages",
+        "name, image, offers (price, priceCurrency, availability), review or aggregateRating if available"
+       ],
+       [
+        "LocalBusiness and subtypes",
+        "Businesses with a physical location",
+        "address, telephone, openingHoursSpecification, geo"
+       ],
+       [
+        "BreadcrumbList",
+        "Pages in a hierarchy",
+        "Ordered position, name and item inside itemListElement"
+       ],
+       [
+        "FAQPage",
+        "Pages with a visible Q&A section",
+        "Question and acceptedAnswer inside mainEntity"
+       ]
+      ]
+     }
+    },
+    "On product pages, price, currency and availability must match what the page shows; I cover variants and out-of-stock products in the [e-commerce SEO guide](/en/guides/e-ticaret-seo). For physical businesses, pick a more specific subtype such as Dentist or Restaurant where one fits, and match address and phone details exactly with your [Google Business Profile listing](/en/blog/google-business-profile); the full picture is in the [local SEO guide](/en/guides/yerel-seo).",
+    "One caveat: reviews a business shows about itself on its own site (self-serving reviews) are not eligible for star rich results for LocalBusiness and Organization. Adding aggregateRating to your home page brings no benefit, and if the reviews are not visible on the page it also breaks the guidelines."
+   ]
+  },
+  {
+   "baslik": "How do you build a schema graph with @id?",
+   "paragraflar": [
+    "On many sites each plugin outputs its own isolated block: an Organization in one place, the author's name as plain text in another, and a differently spelled company name as the article's publisher. The search engine has to guess that these are the same entity. @id solves this.",
+    "An @id is a stable, unique identifier you assign to an entity, usually the canonical URL of a page plus a fragment. You define the entity fully once and only reference that identifier elsewhere. In the example below, the article's author and publisher point to the Person and Organization nodes in the same graph:",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://example.com/#organization\",\n      \"name\": \"Example Consulting\",\n      \"url\": \"https://example.com/\",\n      \"logo\": \"https://example.com/logo.png\",\n      \"sameAs\": [\"https://www.linkedin.com/company/example-consulting\"]\n    },\n    {\n      \"@type\": \"Person\",\n      \"@id\": \"https://example.com/about/#person\",\n      \"name\": \"Jane Doe\",\n      \"jobTitle\": \"SEO Consultant\",\n      \"worksFor\": { \"@id\": \"https://example.com/#organization\" }\n    },\n    {\n      \"@type\": \"Article\",\n      \"@id\": \"https://example.com/blog/sample-post/#article\",\n      \"headline\": \"Sample Post Title\",\n      \"datePublished\": \"2026-09-01\",\n      \"dateModified\": \"2026-10-10\",\n      \"author\": { \"@id\": \"https://example.com/about/#person\" },\n      \"publisher\": { \"@id\": \"https://example.com/#organization\" },\n      \"mainEntityOfPage\": \"https://example.com/blog/sample-post/\"\n    }\n  ]\n}\n</script>"
+    },
+    {
+     "liste": [
+      "**Keep it stable:** set @id values once and don't change them; the same entity should use the same @id on every page.",
+      "**Base it on the canonical URL:** the home page for Organization and the profile page for Person are the most logical anchors.",
+      "**Use a single source:** define the Organization fully in one place; other pages connect to it only through @id.",
+      "**Use sameAs correctly:** list only the official profiles of the brand or person."
+     ]
+    },
+    "Because this structure describes who the brand is consistently, it is also the technical foundation of the entity clarity work described in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "What is the rich result status of FAQPage and HowTo schema?",
+   "paragraflar": [
+    "A lot of outdated advice still circulates here, so let me be clear. Since August 2023, Google shows FAQ rich results only for well-known, authoritative government and health websites. HowTo rich results have been removed entirely.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Schema",
+       "Rich result status in Google",
+       "Worth using?"
+      ],
+      "satirlar": [
+       [
+        "FAQPage",
+        "Shown only for well-known, authoritative government and health sites",
+        "Yes, if the page has a real FAQ; it is valid markup and helps machines understand the content"
+       ],
+       [
+        "HowTo",
+        "Removed as a rich result",
+        "Not a priority if the goal is a Google search feature"
+       ]
+      ]
+     }
+    },
+    "I add FAQPage markup when the page has questions and answers that users actually see, because it clarifies the content's structure for machines. But I don't pitch it to clients as a way to take up more space in search results. Being a health site is not enough on its own either; the [healthcare SEO guide](/en/guides/saglik-seo) covers the priorities for those sites separately.",
+    {
+     "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"When are orders shipped?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Orders are shipped within two business days.\"\n    }\n  }]\n}"
+    },
+    "Google periodically trims the rich result types it supports; FAQ and HowTo are the best-known examples. Before implementing a type, check the current structured data gallery on Google Search Central."
+   ]
+  },
+  {
+   "baslik": "How do you test and monitor schema markup?",
+   "paragraflar": [
+    "Testing answers two different questions: is the markup valid schema.org, and does it meet Google's rich result requirements? That is why I use two tools together.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tool",
+       "What it does"
+      ],
+      "satirlar": [
+       [
+        "Rich Results Test",
+        "Shows eligibility, errors and warnings for the types Google supports; works with a URL or a code snippet"
+       ],
+       [
+        "Schema Markup Validator (validator.schema.org)",
+        "Validates syntax and vocabulary for all schema.org types; not specific to Google"
+       ],
+       [
+        "Search Console enhancement reports",
+        "Track detected items, valid and invalid counts across the site"
+       ],
+       [
+        "Search Console URL Inspection",
+        "Shows the structured data items Google detected on a page"
+       ]
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Test a few samples from each page template before launch",
+      "Check that price, date, author and address on the page match the markup",
+      "Look for duplicate blocks of the same type in the source code",
+      "Monitor Search Console reports for a few weeks after launch",
+      "Retest after theme, plugin or platform updates"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "The most common schema mistakes",
+   "paragraflar": [
+    "Most errors I find in audits are not technical; they come from a mismatch between the content and the markup:",
+    {
+     "liste": [
+      "**Marking up invisible information:** marking up reviews, ratings or FAQs that are not on the page violates Google's guidelines and can lead to a structured data manual action.",
+      "**Conflicting plugins:** the theme and the SEO plugin each output an Organization, with two different logos and names.",
+      "**Mismatched product data:** the sale has ended but the markup shows the old price, or a sold-out product is marked InStock.",
+      "**Date games:** updating dateModified without changing the content, or leaving the old date after a major update.",
+      "**Copied templates:** foreign URLs and @id values left over from an example taken from another site.",
+      "**Placeholder values:** filling required fields with empty or dummy values such as “example”."
+     ]
+    },
+    "Structured data also tends to disappear quietly during migrations and platform changes, so add a structured data test to your [site migration SEO](/en/guides/site-tasima-seo) checklist. If you want an expert review of the markup on your own site, see my [SEO consulting](/en/seo-consulting) service or reach out through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does schema directly improve rankings?",
+   "c": "Google states that structured data is not a general ranking factor. Its effect is indirect: it helps the page be understood correctly and makes it eligible for rich results in supported types. A rich result can in turn affect click-through rate."
+  },
+  {
+   "s": "Is the schema generated by a WordPress plugin enough?",
+   "c": "Popular SEO plugins produce a good starting graph. You still need to complete Organization details, author profiles and sameAs links by hand and clean up duplicates created by the theme or other plugins. Always check the plugin's output with the testing tools."
+  },
+  {
+   "s": "Are warnings in Search Console a problem?",
+   "c": "Warnings usually mean a recommended but optional property is missing; the item is still valid. Errors make the item ineligible for rich results and should be fixed first. Resolve warnings when you can genuinely provide the missing information."
+  },
+  {
+   "s": "Does structured data help with visibility in assistants like ChatGPT?",
+   "c": "There is no confirmed, verified information on how AI assistants use structured data. I use it in GEO work because it makes brand information consistent and machine-readable, but I don't treat it as a solution on its own. To measure where you stand, use the [method for testing how your brand appears in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu)."
+  },
+  {
+   "s": "How should schema be set up on a multilingual site?",
+   "c": "Each language version should carry markup in its own language that reflects the content visible on that page; the inLanguage property can state the language. The Organization is a single entity, so it should use the same @id across all languages."
+  },
+  {
+   "s": "How long do schema changes take to show in search results?",
+   "c": "There is no fixed timeline; Google has to recrawl and process the page. For important pages you can request recrawling with the URL Inspection tool in Search Console. Even when a page becomes eligible, whether a rich result is shown is up to Google."
+  }
+ ]
+}

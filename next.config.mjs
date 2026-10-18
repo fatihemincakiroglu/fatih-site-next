@@ -21,7 +21,6 @@ const ANASAYFAYA_YONLENEN = [
   '/en/guides/mobil-seo',
   '/en/blog/site-migrasyonu-seo',
   '/blog/teknik-seo-2025',
-  '/rehber/yerel-seo',
   '/portfolio_category/design',
   '/2024/04/05/leveraging-feedback-on-insights-best-seo',
   '/portfolio-slider',

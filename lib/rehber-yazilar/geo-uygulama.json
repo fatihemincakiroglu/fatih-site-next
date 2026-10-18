@@ -1,0 +1,469 @@
+{
+ "kategori": "AI & GEO",
+ "baslik_tr": "GEO Uygulama Rehberi: Markanızı Yapay Zekâ Cevaplarına Taşımak",
+ "baslik_en": "GEO Implementation Guide: Getting Your Brand into AI Answers",
+ "meta_baslik_tr": "GEO Uygulama Rehberi: Yapay Zekâ Cevaplarında Görünmek",
+ "meta_baslik_en": "GEO Implementation Guide: Get Your Brand into AI Answers",
+ "meta_desc_tr": "GEO nasıl uygulanır? Soru seti, varlık netliği, alıntılanabilir içerik, marka bahsi ve ölçümle markanızı ChatGPT, Gemini ve AI Overviews cevaplarına taşıyın.",
+ "meta_desc_en": "How to implement GEO: question sets, entity clarity, citable content, brand mentions and measurement to get your brand into ChatGPT, Gemini and AI Overviews.",
+ "ozet_tr": "Soru setinden ölçüme, markanızı yapay zekâ cevaplarına taşıyan beş adımlı GEO uygulama planı.",
+ "ozet_en": "A five-step GEO plan, from question set to measurement, for getting your brand cited in AI answers.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "GEO (Generative Engine Optimization), markanızın ChatGPT, Gemini, Perplexity, Copilot ve Google AI Overviews / AI Mode gibi yapay zekâ cevaplarında doğru bilgiyle anılması ve kaynak gösterilmesi için yapılan çalışmadır. Kavramın genel çerçevesini [GEO rehberinde](/geo-rehberi) anlattım; bu sayfa uygulama tarafına, yani bir projede hangi sırayla ne yaptığıma odaklanıyor.",
+    "Konuyla ilgili iki yazı daha var ve burada tekrar etmeyeceğim: [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemi](/blog/chatgpt-marka-gorunurlugu) ölçüm adımlarını ve OpenAI botlarının robots.txt ayarını, [llms.txt dosyasının gerçek etkisini](/blog/llms-txt-rehberi) anlatan yazı ise bu dosyanın neden öncelik olmadığını ele alıyor. Bu rehber, testten çıkan bulguları bir iş planına çevirmek için yazıldı.",
+    {
+     "alinti": "Kısa cevap: GEO uygulaması beş adımdan oluşur: müşterilerin yapay zekâya sorduğu soruları belirlemek, markanızı her yerde aynı ve net biçimde tanımlamak, bu soruları doğrudan yanıtlayan alıntılanabilir içerik üretmek, üçüncü taraf kaynaklarda anılmak ve sonucu düzenli ölçmek. Ayrı bir teknik hile yoktur; çalışma sağlam bir SEO temeli üzerine kurulur."
+    }
+   ]
+  },
+  {
+   "baslik": "GEO ile SEO arasındaki fark nedir, neler ortaktır?",
+   "paragraflar": [
+    "Pratikte GEO, SEO'nun yerini almıyor; onun üzerine ekleniyor. Google, AI Overviews ve AI Mode'da görünmek için ayrı bir teknik gereklilik olmadığını, temel SEO uygulamalarının geçerli olduğunu belirtiyor. Diğer asistanlar da cevap üretirken web kaynaklarına başvurabiliyor. Taranamayan ya da indekslenmeyen bir sayfanın kaynak gösterilme şansı olmadığı için işe her zaman [teknik SEO temelleri](/rehber/teknik-seo) ile başlıyorum.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Boyut",
+       "Klasik SEO",
+       "GEO"
+      ],
+      "satirlar": [
+       [
+        "Hedef",
+        "Arama sonuçlarında sıralama ve tıklama",
+        "Cevapta anılma, doğru tanımlanma ve kaynak gösterilme"
+       ],
+       [
+        "Sorgu biçimi",
+        "Kısa anahtar kelimeler",
+        "Uzun, bağlamlı, çoğu zaman karşılaştırmalı sorular"
+       ],
+       [
+        "Çalışma birimi",
+        "Sayfa",
+        "Sayfa, marka (varlık) ve hakkınızda yazılanlar"
+       ],
+       [
+        "Başarı ölçüsü",
+        "Gösterim, tıklama, sıralama",
+        "Görünme oranı, kaynak gösterilme, tanım doğruluğu, yapay zekâ kaynaklı trafik"
+       ],
+       [
+        "Ortak zemin",
+        "Taranabilirlik, kaliteli içerik, otorite",
+        "Aynı"
+       ]
+      ]
+     }
+    },
+    "Farkın özü şu: klasik SEO'da bir sayfayı sıralatırsınız; yapay zekâ cevabında ise sistem birden fazla kaynağı okuyup tek bir cevap sentezler. Bu yüzden kendi sitenizin dışında markanız hakkında söylenenler de işin doğrudan parçasıdır."
+   ]
+  },
+  {
+   "baslik": "Adım 1: GEO için soru seti ve konu haritası nasıl çıkarılır?",
+   "paragraflar": [
+    "Test yazısında soru setinin nasıl kurulduğunu ve puanlandığını anlattım. Uygulama aşamasında aynı seti bir içerik haritasına çeviriyorum: her soru için “Bu soruya sitede doğrudan cevap veren bir sayfa var mı, yoksa hangi sayfa bu cevabı vermeli?” diye soruyorum.",
+    {
+     "liste": [
+      "**Soru kaynakları:** satış ve müşteri hizmetleri ekibinin duyduğu sorular, Search Console'daki uzun sorgular, teklif görüşmelerinde gelen itirazlar.",
+      "**Niyet katmanları:** tanım (“X nedir”), seçim (“kimi seçmeliyim”), karşılaştırma (“A mı B mi”), fiyat ve süreç (“ne kadar sürer, neye göre fiyatlanır”).",
+      "**Eşleştirme:** her soru kümesi tek bir hedef sayfaya bağlanır; iki sayfa aynı soruyu yanıtlıyorsa birini güçlendirip diğerini sadeleştiriyorum."
+     ]
+    },
+    "Bu eşleştirme, [anahtar kelime araştırmasında](/rehber/anahtar-kelime-arastirmasi) yaptığımız kümeleme çalışmasının sohbet diline uyarlanmış hâlidir. Fark, soruların daha uzun olması ve sayfanın da karşılaması gereken “İstanbul'da”, “küçük işletme için”, “bütçem kısıtlı” gibi bağlam ifadeleri taşımasıdır."
+   ]
+  },
+  {
+   "baslik": "Adım 2: Varlık netliği, yapay zekâ markanızı doğru tanıyor mu?",
+   "paragraflar": [
+    "Yapay zekâ cevaplarında sahada en sık gördüğüm sorun görünmemek değil, yanlış tanımlanmaktır: eski adres, artık verilmeyen bir hizmet, başka bir firmayla karışan isim. Bunun kökünde çoğu zaman markanın farklı yerlerde farklı anlatılması yatar. Varlık netliği için kullandığım kontrol listesi şu:",
+    {
+     "kontrol": [
+      "Marka adının yazımı her yerde aynı (kısaltma ve şirket türü eki dâhil)",
+      "Ana sayfada ve Hakkımızda sayfasında markanın ne yaptığı, kime hizmet verdiği ve nerede olduğu tek cümlede net",
+      "Kurucu ya da uzmanlar için gerçek bilgilerle dolu ayrı profil sayfaları var",
+      "Organization veya Person yapısal verisi, sameAs ile resmî sosyal profillere bağlanmış",
+      "Google Business Profile, LinkedIn, sektör rehberleri ve sitedeki adres-telefon bilgileri birebir aynı",
+      "Eski marka adı, birleşme veya taşınma gibi değişiklikler sitede açıkça anlatılmış"
+     ]
+    },
+    "Yapısal verinin nasıl kurulacağını [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri) @id grafiğiyle birlikte anlattım. Fiziksel adresi olan işletmelerde [yerel SEO çalışması](/rehber/yerel-seo) ile varlık netliği aynı işin iki yüzüdür."
+   ]
+  },
+  {
+   "baslik": "Adım 3: Yapay zekânın alıntılayacağı içerik nasıl yazılır?",
+   "paragraflar": [
+    "Yapay zekâ cevabı bir sayfanın tamamını değil, çoğu zaman tek bir paragrafını ya da bir tablo satırını kullanır. Bu yüzden içeriği, bir parçası tek başına okunduğunda da anlamlı kalacak biçimde yazıyorum.",
+    {
+     "alt": "Uyguladığım yazım kuralları"
+    },
+    {
+     "liste": [
+      "**Önce cevap:** başlığın altındaki ilk iki üç cümle sorunun doğrudan cevabını verir; ayrıntı sonra gelir.",
+      "**Kendi kendine yeten paragraflar:** “yukarıda belirttiğimiz gibi” gibi bağlama muhtaç ifadeler yerine özneyi yeniden adlandırın.",
+      "**Somut bilgi:** fiyatın neye göre değiştiği, süreç adımları, süreler ve koşullar; doğrulayamadığınız rakamı ise hiç yazmayın.",
+      "**Karşılaştırma tabloları:** seçenekleri aynı ölçütlerle kıyaslayan tablolar, karşılaştırma sorularına hazır cevap sunar.",
+      "**Yazar ve tarih:** kimin yazdığı, uzmanlığı ve son güncelleme tarihi sayfada görünür olsun.",
+      "**Özgün bilgi:** kendi süreciniz, saha gözlemleriniz ve kendi verileriniz; başka yerde bulunmayan bilgi, kaynak gösterilmek için en güçlü gerekçedir."
+     ]
+    },
+    "Bu kuralların içerik takvimine nasıl yerleşeceğini ve hangi sayfa tiplerinin öne alınacağını [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) ele aldım. Sık kullanılan terimleri kısa tanımlarla açıklayan sözlük sayfaları da bu açıdan değerlidir; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Adım 4: Marka bahsi ve üçüncü taraf kaynaklarda yer almak",
+   "paragraflar": [
+    "Bir asistan “kimi önerirsin” sorusunu cevaplarken yalnızca sizin sitenize bakmaz; sektör listeleri, karşılaştırma yazıları, haberler, yorum platformları ve forumlar da cevabın hammaddesidir. Test sırasında kaynak gösterilen üçüncü taraf siteleri listelemenizi önermiştim; uygulamada bu liste bir hedef listesine dönüşür.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kaynak tipi",
+       "Ne yapılır?",
+       "Dikkat edilecek nokta"
+      ],
+      "satirlar": [
+       [
+        "Sektör listeleri ve karşılaştırma yazıları",
+        "Yayıncıya güncel, doğrulanabilir bilgi sunmak",
+        "Ücretli yerleşimi açıkça belirtmeyen listeler itibar riski taşır"
+       ],
+       [
+        "Haber ve sektör yayınları",
+        "Uzman görüşü, özgün veri, açıklama sunmak",
+        "Bağlantısız bir marka bahsi de değerlidir"
+       ],
+       [
+        "Yorum platformları ve haritalar",
+        "Müşterilerden düzenli yorum istemek",
+        "Sahte yorum platform kurallarına aykırıdır ve itibarı zedeler"
+       ],
+       [
+        "Forum ve topluluklar",
+        "Gerçek sorulara uzman olarak cevap vermek",
+        "Gizli tanıtım hızla fark edilir ve geri teper"
+       ],
+       [
+        "İş ortakları ve dernekler",
+        "Üye ve partner sayfalarında doğru kayıt",
+        "Bilgilerin sitedekiyle aynı olması"
+       ]
+      ]
+     }
+    },
+    "Bu çalışma klasik link kazanımına çok benzer; tek fark, bağlantısız marka bahsinin de değer taşımasıdır. Yöntemleri ve kaçınılması gereken riskli uygulamaları [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Adım 5: GEO sonuçları nasıl ölçülür ve raporlanır?",
+   "paragraflar": [
+    "Ölçümün temel yöntemi, yani soru setini düzenli çalıştırmak ve GA4'te yapay zekâ kaynaklarını ayırmak, test yazısında var. Burada bunları aylık bir rapora nasıl bağladığımı özetliyorum:",
+    {
+     "liste": [
+      "**Görünürlük göstergeleri:** görünme oranı, kaynak gösterilme oranı, rakiplere göre ses payı ve tanım doğruluğu; her ay aynı soru setiyle.",
+      "**Trafik göstergeleri:** GA4'te yapay zekâ platformlarından gelen oturumlar, giriş yapılan sayfalar ve dönüşümler.",
+      "**Google tarafı:** Search Console performans verileri AI Overviews ve AI Mode'dan gelen tıklamaları da içerir; bu yüzden soru setiyle eşleşen sayfaların gösterim ve tıklama eğilimini ayrıca izliyorum.",
+      "**Dolaylı sinyaller:** markalı aramalardaki değişim ve yeni müşterilerin “bizi nereden duydunuz” sorusuna verdiği cevaplar."
+     ]
+    },
+    "Bu göstergelerin genel raporla nasıl birleştirileceğini [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Yapay zekâ kaynaklı ziyaretlerin bir kısmı doğrudan trafik olarak göründüğü için GA4'teki rakamları gerçek etkinin alt sınırı olarak okuyun."
+   ]
+  },
+  {
+   "baslik": "İlk 90 günde GEO uygulama planı",
+   "paragraflar": [
+    "Projelerde izlediğim sıra aşağıdaki gibi. Dönemler kısmen üst üste biner; önemli olan erişim ve başlangıç ölçümünün her şeyden önce gelmesidir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Dönem",
+       "Odak",
+       "Çıktı"
+      ],
+      "satirlar": [
+       [
+        "1.–2. hafta",
+        "Erişim kontrolü ve başlangıç ölçümü",
+        "robots.txt ve CDN raporu, ilk soru seti sonuçları"
+       ],
+       [
+        "3.–6. hafta",
+        "Varlık netliği",
+        "Güncellenmiş Hakkımızda ve profil sayfaları, yapısal veri, eşitlenmiş dış kayıtlar"
+       ],
+       [
+        "5.–10. hafta",
+        "Alıntılanabilir içerik",
+        "Öncelikli sorulara cevap veren yeni ve güncellenmiş sayfalar"
+       ],
+       [
+        "6.–12. hafta",
+        "Marka bahsi",
+        "Üçüncü taraf hedef listesi, ilk yayıncı ve platform çalışmaları"
+       ],
+       [
+        "12. hafta",
+        "İkinci ölçüm",
+        "Başlangıçla karşılaştırmalı rapor ve sonraki çeyreğin öncelikleri"
+       ]
+      ]
+     }
+    },
+    "Değişikliklerin cevaplara yansıma süresi platforma ve kaynağa göre değişir; bu yüzden ilk çeyreği bir öğrenme dönemi olarak görüyorum. Bu planı kendi projenize uyarlamak isterseniz [GEO uzmanı olarak nasıl çalıştığımı](/geo-uzmani) inceleyebilir ya da doğrudan [GEO danışmanlığı için randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "GEO çalışmasının sonuçları ne zaman görülür?",
+   "c": "Kesin bir süre vermek doğru olmaz. Web aramasıyla çalışan cevaplar yeni içeriği görece hızlı yansıtabilirken modelin genel bilgisinin değişmesi çok daha uzun sürer. İlk anlamlı karşılaştırmayı genellikle üç aylık ölçümde yapıyorum; süre sektörün rekabetine ve başlangıçtaki dijital varlığa bağlıdır."
+  },
+  {
+   "s": "Küçük bir işletme GEO'ya ayrı bütçe ayırmalı mı?",
+   "c": "Çoğu küçük işletmede ayrı bir bütçe yerine mevcut SEO çalışmasına GEO bakış açısı eklemek yeterlidir: soru seti, varlık tutarlılığı ve güncel bir Business Profile. Yerel sorgularda Business Profile ve yorumlar öne çıkabilir. Rekabet yoğunsa ve müşteri kararları karşılaştırma sorularıyla şekilleniyorsa ayrı bir çalışma anlamlı hâle gelir."
+  },
+  {
+   "s": "Yapay zekâ için ayrı sayfalar ya da gizli metinler oluşturmalı mıyım?",
+   "c": "Hayır. Kullanıcıya gösterilmeyen, yalnızca botlara yönelik metinler Google'ın spam politikalarıyla çelişir ve güven kaybına yol açar. Google da AI özellikleri için ayrı dosya veya sayfa gerekmediğini belirtiyor. İnsan için yazılmış ve soruyu net yanıtlayan sayfa, iki taraf için de doğru sayfadır."
+  },
+  {
+   "s": "Yapay zekâ araçlarıyla yazılmış içerik GEO'da işe yarar mı?",
+   "c": "Belirleyici olan araç değil, içeriğin özgün bilgi taşıyıp taşımadığıdır. Başka kaynakların özetini tekrar eden bir metin, kaynak gösterilmek için güçlü bir gerekçe sunmaz. Araçları taslak için kullanıp uzman bilgisi, gerçek örnek ve doğrulama eklemek daha sağlıklıdır."
+  },
+  {
+   "s": "Olumsuz bir haber ya da yorum yapay zekâ cevabına yansıyorsa ne yapmalıyım?",
+   "c": "Önce cevabın hangi kaynağa dayandığını bulun. Kaynak gerçekten yanlışsa yayıncıyla iletişime geçip düzeltme isteyin; doğru ama eskiyse güncel durumu kendi sitenizde ve güvenilir üçüncü taraf kaynaklarda açıkça anlatın. Olumsuz içeriği bastırmaya çalışmak yerine güncel ve doğru bilgiyi çoğaltmak daha kalıcı bir yoldur."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "GEO (Generative Engine Optimization) is the work of getting your brand mentioned accurately and cited as a source in AI answers such as ChatGPT, Gemini, Perplexity, Copilot and Google AI Overviews / AI Mode. I covered the concept in the [GEO guide](/en/geo-guide); this page covers implementation: what I do on a project, and in what order.",
+    "Two related articles cover ground I won't repeat: [testing how your brand appears in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) explains measurement and OpenAI crawler settings, and [what llms.txt really does](/en/blog/llms-txt-rehberi) explains why that file is not a priority. This guide turns the test findings into a working plan.",
+    {
+     "alinti": "Short answer: GEO implementation has five steps: identify the questions customers ask AI assistants, describe your brand clearly and consistently everywhere, publish citable content that answers those questions, get mentioned in third-party sources, and measure regularly. There is no technical trick; it builds on a solid SEO foundation."
+    }
+   ]
+  },
+  {
+   "baslik": "How is GEO different from SEO, and what do they share?",
+   "paragraflar": [
+    "GEO does not replace SEO; it builds on it. Google states that appearing in AI Overviews and AI Mode has no extra technical requirements and that standard SEO practices apply, and other assistants also draw on web sources. A page that cannot be crawled or indexed cannot be cited, so I always start with [technical SEO fundamentals](/en/guides/teknik-seo).",
+    {
+     "tablo": {
+      "basliklar": [
+       "Dimension",
+       "Classic SEO",
+       "GEO"
+      ],
+      "satirlar": [
+       [
+        "Goal",
+        "Rankings and clicks in search results",
+        "Being mentioned, described correctly and cited in the answer"
+       ],
+       [
+        "Query style",
+        "Short keywords",
+        "Long, contextual, often comparative questions"
+       ],
+       [
+        "Unit of work",
+        "The page",
+        "The page, the brand (entity) and what others write about you"
+       ],
+       [
+        "Success metrics",
+        "Impressions, clicks, rankings",
+        "Mention rate, citations, description accuracy, AI-referred traffic"
+       ],
+       [
+        "Shared ground",
+        "Crawlability, quality content, authority",
+        "The same"
+       ]
+      ]
+     }
+    },
+    "In classic SEO you rank a page; an AI answer synthesizes several sources into one response. So what others say about your brand is a direct part of the job."
+   ]
+  },
+  {
+   "baslik": "Step 1: How do you build a GEO question set and topic map?",
+   "paragraflar": [
+    "The test article covers building and scoring a question set. Here I turn that set into a content map: for each question, which page answers it directly, or which page should?",
+    {
+     "liste": [
+      "**Question sources:** questions your sales and support teams hear, long queries in Search Console, objections raised during sales calls.",
+      "**Intent layers:** definition (“what is X”), selection (“who should I choose”), comparison (“A or B”), price and process (“how long does it take, how is it priced”).",
+      "**Mapping:** each question cluster points to one target page; if two pages answer the same question, I strengthen one and trim the other."
+     ]
+    },
+    "This mapping is the conversational version of the clustering we do in [keyword research](/en/guides/anahtar-kelime-arastirmasi). The questions are just longer and carry context such as “in Istanbul”, “for a small business” or “on a tight budget”, which the page should address."
+   ]
+  },
+  {
+   "baslik": "Step 2: Entity clarity — does AI recognize your brand correctly?",
+   "paragraflar": [
+    "The most common problem I see in AI answers is not invisibility but misidentification: an old address, a discontinued service, a name confused with another company. It usually happens because the brand is described differently in different places. My checklist:",
+    {
+     "kontrol": [
+      "The brand name is spelled the same way everywhere (including abbreviations and legal suffixes)",
+      "The home page and About page state in one sentence what the brand does, who it serves and where it is based",
+      "Founders or experts have separate profile pages with real, specific information",
+      "Organization or Person structured data links to official profiles via sameAs",
+      "Address and phone details match exactly across Google Business Profile, LinkedIn, industry directories and the site",
+      "Changes such as a former brand name, a merger or a relocation are explained clearly on the site"
+     ]
+    },
+    "I explain how to set up the markup, including an @id graph, in the [schema and structured data guide](/en/guides/schema-yapisal-veri). For businesses with a physical location, [local SEO](/en/guides/yerel-seo) and entity clarity are two sides of the same task."
+   ]
+  },
+  {
+   "baslik": "Step 3: How do you write content that AI will cite?",
+   "paragraflar": [
+    "An AI answer rarely uses a whole page; it usually draws on one paragraph or table row. So each section should make sense on its own.",
+    {
+     "alt": "The writing rules I apply"
+    },
+    {
+     "liste": [
+      "**Answer first:** the first two or three sentences under a heading answer the question directly; detail comes after.",
+      "**Self-contained paragraphs:** instead of phrases like “as mentioned above”, name the subject again.",
+      "**Concrete information:** what drives the price, process steps, timelines and conditions; never publish a number you cannot verify.",
+      "**Comparison tables:** tables that compare options on the same criteria give comparison questions a ready-made answer.",
+      "**Author and date:** who wrote it, their expertise and the last updated date should be visible on the page.",
+      "**Original information:** your own process, field observations and data; information that exists nowhere else is the strongest reason to be cited."
+     ]
+    },
+    "How these rules fit into an editorial calendar is covered in the [content strategy guide](/en/guides/icerik-stratejisi). Glossary pages with short definitions of common terms are also useful; see the [AI and SEO glossary](/en/ai-glossary) as an example."
+   ]
+  },
+  {
+   "baslik": "Step 4: Earning brand mentions in third-party sources",
+   "paragraflar": [
+    "When an assistant answers “who would you recommend”, industry lists, comparison articles, news, review platforms and forums all feed the answer, not just your site. The list of cited third-party sites from your test becomes a target list.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Source type",
+       "What to do",
+       "What to watch"
+      ],
+      "satirlar": [
+       [
+        "Industry lists and comparison articles",
+        "Give publishers current, verifiable information",
+        "Lists that hide paid placement carry reputational risk"
+       ],
+       [
+        "News and trade publications",
+        "Offer expert commentary, original data, statements",
+        "An unlinked brand mention still has value"
+       ],
+       [
+        "Review platforms and maps",
+        "Ask customers for reviews consistently",
+        "Fake reviews break platform rules and damage reputation"
+       ],
+       [
+        "Forums and communities",
+        "Answer real questions as an expert",
+        "Covert promotion is spotted quickly and backfires"
+       ],
+       [
+        "Partners and associations",
+        "Accurate listings on member and partner pages",
+        "Details must match your site"
+       ]
+      ]
+     }
+    },
+    "This work is very close to classic link earning; the only difference is that an unlinked brand mention also counts. I go through the methods and the risky tactics to avoid in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr)."
+   ]
+  },
+  {
+   "baslik": "Step 5: How do you measure and report GEO results?",
+   "paragraflar": [
+    "The test article covers the basic method. This is how I turn it into a monthly report:",
+    {
+     "liste": [
+      "**Visibility indicators:** mention rate, citation rate, share of voice against competitors and description accuracy, using the same question set every month.",
+      "**Traffic indicators:** sessions from AI platforms in GA4, their landing pages and conversions.",
+      "**The Google side:** Search Console performance data includes clicks from AI Overviews and AI Mode, so I also track impression and click trends for the pages mapped to the question set.",
+      "**Indirect signals:** changes in branded searches and how new customers answer “where did you hear about us”."
+     ]
+    },
+    "I explain how to combine these with your overall reporting in the [SEO reporting guide](/en/guides/seo-raporlama). Some AI-referred visits show up as direct traffic, so read the GA4 numbers as a lower bound of the real impact."
+   ]
+  },
+  {
+   "baslik": "A 90-day GEO implementation plan",
+   "paragraflar": [
+    "This is the order I follow on projects; phases overlap, but access checks and the baseline always come first.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Period",
+       "Focus",
+       "Output"
+      ],
+      "satirlar": [
+       [
+        "Weeks 1–2",
+        "Access checks and baseline measurement",
+        "robots.txt and CDN report, first question set results"
+       ],
+       [
+        "Weeks 3–6",
+        "Entity clarity",
+        "Updated About and profile pages, structured data, aligned external listings"
+       ],
+       [
+        "Weeks 5–10",
+        "Citable content",
+        "New and updated pages answering priority questions"
+       ],
+       [
+        "Weeks 6–12",
+        "Brand mentions",
+        "Third-party target list, first publisher and platform outreach"
+       ],
+       [
+        "Week 12",
+        "Second measurement",
+        "Report compared with the baseline and next quarter's priorities"
+       ]
+      ]
+     }
+    },
+    "How fast changes show up in answers varies by platform and source, so I treat the first quarter as a learning period. To adapt this plan to your project, read how I work as a [GEO consultant](/en/geo-consulting) or simply [book a GEO consultation call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How long does it take to see GEO results?",
+   "c": "A fixed timeline would be misleading. Answers based on web search can reflect new content fairly quickly, while a model's general knowledge changes far more slowly. I usually make the first meaningful comparison at three months, depending on competition and the brand's starting footprint."
+  },
+  {
+   "s": "Should a small business set aside a separate GEO budget?",
+   "c": "For most small businesses, adding a GEO perspective to existing SEO work is enough: a question set, consistent entity details and an up-to-date Business Profile, which along with reviews can carry weight in local queries. A separate project makes sense when competition is intense and buyers decide through comparison questions."
+  },
+  {
+   "s": "Should I create separate pages or hidden text just for AI?",
+   "c": "No. Text shown to bots but not to users conflicts with Google's spam policies and erodes trust, and Google states that its AI features need no special files or pages. A page written for people that answers the question clearly serves both audiences."
+  },
+  {
+   "s": "Does AI-written content work for GEO?",
+   "c": "What matters is not the tool but whether the content carries original information. A text that restates what other sources already say gives little reason to be cited. Using tools for drafts and then adding expert knowledge, real examples and fact-checking is the healthier approach."
+  },
+  {
+   "s": "What should I do if a negative article or review shows up in AI answers?",
+   "c": "First find the source behind the answer. If it is factually wrong, ask the publisher for a correction; if it is accurate but outdated, explain the current situation on your site and in credible third-party sources. Spreading accurate, current information lasts longer than trying to suppress negative content."
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "Anahtar Kelime Araştırması Rehberi: Arama Niyeti, Kümeleme, Öncelik ve Araçlar",
+ "baslik_en": "Keyword Research Guide: Search Intent, Clustering, Prioritisation and Tools",
+ "meta_baslik_tr": "Anahtar Kelime Araştırması Rehberi: Niyet, Kümeleme, Araçlar",
+ "meta_baslik_en": "Keyword Research Guide: Intent, Clustering and Tools",
+ "meta_desc_tr": "Anahtar kelime araştırması rehberi: arama niyeti, Search Console, Anahtar Kelime Planlayıcı ve Google Trends kullanımı, kümeleme ve içerik planı.",
+ "meta_desc_en": "Keyword research guide: search intent, using Search Console, Keyword Planner and Google Trends, keyword clustering and turning lists into a content plan.",
+ "ozet_tr": "Arama niyetini okuyun, doğru araçlarla kelime bulun, kümeleyin, önceliklendirin ve içerik planına dönüştürün.",
+ "ozet_en": "Read search intent, find keywords with the right tools, cluster and prioritise them, and turn them into a content plan.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Anahtar kelime araştırması, hedef kitlenizin bir ihtiyacı aramaya nasıl döktüğünü anlamak ve her aramayı doğru sayfayla eşleştirmektir. Amaç en yüksek hacimli kelimeleri toplamak değil; işinize dönüş getirecek, karşılayabileceğiniz aramaları bulmaktır.",
+    "Sahada en sık gördüğüm hata, araçtan dışa aktarılan uzun bir listeyi doğrudan yazı başlıklarına çevirmek. Sonuçta aynı niyete hizmet eden beş ayrı sayfa birbiriyle yarışır, asıl ticari aramayı karşılayan sayfa ise hiç yazılmaz. Bu rehberde arama niyetini, hangi aracın neyi gösterip neyi göstermediğini, kümeleme ve önceliklendirmeyi ve listeyi içerik planına nasıl dönüştürdüğümü anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Anahtar kelime araştırması; Search Console, Google Ads Anahtar Kelime Planlayıcı, Google Trends ve arama sonuçlarındaki öneriler gibi kaynaklardan aramaları toplamak, bunları arama niyetine göre kümelemek ve her kümeyi tek bir sayfaya atamaktır. Öncelik, yalnızca arama hacmine değil; niyetin işinize uygunluğuna, rekabete ve mevcut sıralamanıza göre belirlenir."
+    }
+   ]
+  },
+  {
+   "baslik": "Arama niyeti nedir ve anahtar kelime seçimini nasıl belirler?",
+   "paragraflar": [
+    "Arama niyeti, kullanıcının aramayla ulaşmak istediği sonuçtur. Aynı konudaki iki arama bambaşka sayfalar gerektirebilir: “diş beyazlatma nasıl yapılır” bilgi arar, “kadıköy diş beyazlatma fiyat” ise hizmet arar. Niyeti anlamanın en güvenilir yolu, kelimeyi aratıp ilk sayfada hangi tür sayfaların sıralandığına bakmaktır.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Niyet türü",
+       "Örnek arama",
+       "Uygun sayfa tipi"
+      ],
+      "satirlar": [
+       [
+        "Bilgilendirici",
+        "anahtar kelime araştırması nasıl yapılır",
+        "Rehber, blog yazısı"
+       ],
+       [
+        "Ticari araştırma",
+        "en iyi seo araçları karşılaştırma",
+        "Karşılaştırma, inceleme, seçim rehberi"
+       ],
+       [
+        "İşlemsel",
+        "seo danışmanlığı fiyat",
+        "Hizmet, ürün veya fiyat sayfası"
+       ],
+       [
+        "Yönlendirici (marka)",
+        "marka adı + giriş",
+        "Ana sayfa, ilgili marka sayfası"
+       ]
+      ]
+     }
+    },
+    "Arama sonuçlarında harita paketi çıkıyorsa niyet yereldir ve iş [yerel SEO](/rehber/yerel-seo) tarafına kayar; ürün listeleri baskınsa ticari bir kategori sayfası gerekir."
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime araştırması için hangi araçlar kullanılır?",
+   "paragraflar": [
+    "Hiçbir araç tek başına doğruyu söylemez; her biri resmin bir parçasını gösterir. Arama hacmi olarak gördüğünüz rakamların çoğu tahmin ya da aralıktır, bu yüzden onları kesin trafik beklentisi olarak değil, kelimeleri birbiriyle kıyaslamak için kullanıyorum.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Araç",
+       "Ne gösterir",
+       "Dikkat edilecek sınır"
+      ],
+      "satirlar": [
+       [
+        "Google Search Console (Performans raporu)",
+        "Sitenizin gerçekten gösterim aldığı sorgular; tıklama, gösterim, TO ve ortalama konum",
+        "Yalnızca zaten göründüğünüz sorgular; nadir sorguların bir kısmı gizlilik nedeniyle listelenmez; veri 16 ay geriye gider"
+       ],
+       [
+        "Google Ads Anahtar Kelime Planlayıcı",
+        "Yeni kelime fikirleri, aylık ortalama arama sayısı, reklam rekabeti ve teklif aralıkları",
+        "Google Ads hesabı gerekir; harcaması olmayan hesaplar hacmi aralık olarak görebilir; yakın varyantlar birleştirilebilir; rekabet sütunu reklamverenler içindir, SEO zorluğu değildir"
+       ],
+       [
+        "Google Trends",
+        "Bir aramanın zaman ve bölgeye göre göreli ilgisi (0-100), mevsimsellik, ilgili ve yükselen sorgular",
+        "Mutlak hacim vermez; değerler seçilen dönem ve bölgedeki zirveye göre ölçeklenir"
+       ],
+       [
+        "Otomatik tamamlama ve ilgili aramalar",
+        "Kullanıcıların yazmaya başladığı ifadelerin devamı, sayfa altındaki ilgili aramalar",
+        "Hacim bilgisi yok; Google bazı tahminleri politikaları gereği göstermez"
+       ],
+       [
+        "“Diğer kullanıcılar şunları da sordu” kutusu",
+        "Konuya ilişkin gerçek soru kalıpları",
+        "Her aramada çıkmaz; sorular arama yaptıkça genişler ve değişir"
+       ],
+       [
+        "Üçüncü taraf SEO araçları",
+        "Rakip sıralamaları, tahmini hacim ve zorluk puanları",
+        "Rakamlar modellemeye dayalı tahmindir ve araçlar arasında farklılık gösterir"
+       ]
+      ]
+     }
+    },
+    "Search Console verisi en değerli kaynaktır, çünkü tahmin değil, sitenizin gerçek performansıdır. Yüksek gösterim alıp düşük tıklanan ya da ikinci sayfada kalan sorgular, en hızlı kazanım fırsatlarını gösterir. Başlık önerilerini hızlıca test etmek için [ücretsiz SEO araçlarına](/araclar) da göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Tohum kelimeden geniş bir kelime listesine nasıl ulaşılır?",
+   "paragraflar": [
+    "Araştırmaya araçla değil, müşterinin diliyle başlıyorum. Satış ve destek ekibine en sık gelen sorular, teklif formlarına yazılan ifadeler ve müşterilerin hizmeti nasıl tarif ettiği, araçların kaçırdığı kelimeleri yakalar.",
+    {
+     "liste": [
+      "Hizmetlerinizi ve ürün gruplarınızı tanımlayan 5-15 tohum kelime belirleyin.",
+      "Search Console'da bu kelimeleri içeren sorguları filtreleyin; zaten görünür olduğunuz alanları çıkarın.",
+      "Tohum kelimeleri Anahtar Kelime Planlayıcı'ya girerek yeni fikirleri ve hacim aralıklarını toplayın.",
+      "Otomatik tamamlama, “Diğer kullanıcılar şunları da sordu” ve ilgili aramalardan soru ve uzun kuyruk kalıplarını ekleyin.",
+      "Google Trends ile mevsimselliği ve iki alternatif ifade arasındaki göreli ilgiyi kontrol edin.",
+      "Sizinle aynı aramalarda sıralanan rakiplerin hangi sayfalarla hangi konuları kapsadığını inceleyin."
+     ]
+    },
+    "Türkçede aynı arama Türkçe karakterli ve karaktersiz (ör. “şişli” ve “sisli”) ya da ekli ve eksiz biçimlerde yazılabilir. Araçlar bunları bazen ayrı, bazen birleşik raporlar. Niyet aynıysa bunlar aynı sayfanın hedefidir; ayrı sayfa açmak gerekmez."
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime kümeleme nasıl yapılır?",
+   "paragraflar": [
+    "Kümeleme, aynı niyete hizmet eden kelimeleri tek bir sayfanın hedefi olarak gruplamaktır. Pratikte kullandığım ölçüt şu: iki kelimeyi aratın; ilk sayfadaki sonuçların önemli bir kısmı ortaksa Google bu iki aramayı aynı ihtiyacın parçası olarak görüyordur ve tek sayfa ikisini birden karşılayabilir. Sonuçlar tamamen farklıysa ayrı sayfalar gerekir.",
+    "Her kümede bir ana kelime (sayfanın başlığını ve H1'ini belirler) ve onu destekleyen alt kelimeler olur. Alt kelimeler genellikle sayfanın ara başlıklarına ve SSS bölümüne dönüşür. Aynı kümeyi iki sayfaya dağıtmak, iki sayfanın aynı aramada birbirini zayıflatmasına (kanibalizasyon) yol açar.",
+    "Mağazalarda kümeler kategori ağacının iskeletini oluşturur; filtre kombinasyonlarının hangisinin ayrı sayfa olacağı da buradan çıkar. Bu uygulamayı [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Hangi anahtar kelimelere öncelik verilmeli?",
+   "paragraflar": [
+    "Kümeleri çıkardıktan sonra hepsini aynı anda üretmek mümkün olmaz. Her kümeyi aşağıdaki sorularla değerlendiriyorum:",
+    {
+     "kontrol": [
+      "İş değeri: Bu aramayı yapan kişi müşteriniz olabilir mi, hizmetinize ya da ürününüze ne kadar yakın?",
+      "Niyet uyumu: Arama sonuçlarındaki sayfa tipini (rehber, kategori, hizmet sayfası) sunabiliyor musunuz?",
+      "Mevcut durum: Search Console'da bu kümede zaten gösterim ya da 2. sayfa sıralaması var mı?",
+      "Rekabet: İlk sayfadaki siteler sizin yetkinliğiniz ve kaynaklarınızla kıyaslanabilir mi?",
+      "Göreli talep: Anahtar Kelime Planlayıcı aralığı ve Trends eğilimi kümenin büyüdüğünü mü küçüldüğünü mü gösteriyor?",
+      "Kaynak: Bu sayfayı gerçekten iyi yapacak bilgi, deneyim ve örnek sizde var mı?"
+     ]
+    },
+    "Genellikle ilk sırayı, iş değeri yüksek ve zaten belirli bir görünürlüğü olan kümeler alır; mevcut sayfayı güçlendirmek, sıfırdan sayfa yazmaktan daha hızlı sonuç verir. Düşük hacimli ama işlemsel niyetli uzun kuyruk aramalar da çoğu zaman yüksek hacimli genel aramalardan daha çok müşteri getirir."
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime listesini içerik planına nasıl dönüştürürsünüz?",
+   "paragraflar": [
+    "Listeyi bir tabloya dökerek her kümeye bir URL, sayfa tipi, ana kelime, alt kelimeler, öncelik ve durum (mevcut sayfa güncellenecek / yeni sayfa yazılacak) atıyorum. Mevcut bir sayfa kümeyi karşılıyorsa yeni sayfa açmak yerine onu güncelliyorum.",
+    "Bilgilendirici kümeler rehber ve blog içeriklerine, ticari ve işlemsel kümeler hizmet ve kategori sayfalarına gider. Rehberlerden ilgili hizmet sayfalarına anahtar kelimeli iç bağlantı vermek, iki sayfa grubunu birbirine bağlar. Konu kümelerinin ve yayın takviminin nasıl kurulacağı [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlatılıyor; bu planı birlikte uygulamak isterseniz [içerik stratejisi hizmeti](/icerik) sayfasına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ aramaları için anahtar kelime araştırması değişiyor mu?",
+   "paragraflar": [
+    "Google AI Overviews, AI Mode ve ChatGPT, Gemini, Perplexity gibi asistanlarda kullanıcılar daha uzun, konuşma diline yakın sorular soruyor. Bu sorular için Anahtar Kelime Planlayıcı benzeri güvenilir bir hacim verisi yok; dolayısıyla burada rakam değil, soru seti üzerinden çalışıyorum.",
+    "Soru setini müşteri soruları, “Diğer kullanıcılar şunları da sordu” kalıpları ve kümelerinizin alt kelimelerinden oluşturuyorum. Ardından bu soruların asistanlarda düzenli olarak sorulup markanızın cevaplarda geçip geçmediğini izlemek gerekiyor; yöntemi [GEO uygulama rehberinde](/rehber/geo-uygulama), marka görünürlüğü tarafını [ChatGPT'de marka görünürlüğü yazısında](/blog/chatgpt-marka-gorunurlugu) bulabilirsiniz. Terimlere yabancıysanız [yapay zekâ ve GEO sözlüğü](/ai-sozluk) iyi bir başlangıçtır."
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime performansı nasıl takip edilir?",
+   "paragraflar": [
+    "Sayfa yayına girdikten sonra Search Console'da sayfa filtresiyle hangi sorgulardan gösterim aldığını izliyorum. Hedeflemediğiniz ama gösterim aldığınız sorgular, sayfaya eklenecek bölümleri ya da yeni bir kümenin işaretini verir. Sıralamayı tek başına değil, tıklama ve dönüşümle birlikte değerlendirmek için [SEO raporlama rehberindeki](/rehber/seo-raporlama) KPI yapısını kullanabilirsiniz.",
+    "Kendi sektörünüz için arama niyeti analizi, kümeleme ve öncelik tablosu çıkarmak isterseniz bunu [SEO danışmanlığı](/seo-uzmani) sürecinin ilk adımı olarak yapıyorum; [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Keyword research is about understanding how your audience turns a need into a search, and matching each search with the right page. The goal is not to collect the highest-volume keywords; it is to find searches you can genuinely satisfy and that bring value to your business.",
+    "The mistake I see most often is turning a tool export straight into article titles: five pages end up competing for the same intent, while the page for the main commercial search never gets written. This guide covers intent, what each tool does and does not show, clustering, prioritisation and building a content plan.",
+    {
+     "alinti": "Short answer: Keyword research means collecting searches from sources such as Search Console, Google Ads Keyword Planner, Google Trends and search result suggestions, clustering them by search intent and assigning each cluster to a single page. Priority depends not only on search volume but on how well the intent fits your business, the competition and where you already rank."
+    }
+   ]
+  },
+  {
+   "baslik": "What is search intent and how does it shape keyword choice?",
+   "paragraflar": [
+    "Search intent is the outcome the user wants from a search. Two searches on the same topic can need completely different pages: “how does teeth whitening work” looks for information, while “teeth whitening price istanbul” looks for a provider. The most reliable way to read intent is to run the search and look at which kinds of pages rank on the first page.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Intent type",
+       "Example search",
+       "Matching page type"
+      ],
+      "satirlar": [
+       [
+        "Informational",
+        "how to do keyword research",
+        "Guide, blog post"
+       ],
+       [
+        "Commercial investigation",
+        "best seo tools comparison",
+        "Comparison, review, buying guide"
+       ],
+       [
+        "Transactional",
+        "seo consulting pricing",
+        "Service, product or pricing page"
+       ],
+       [
+        "Navigational (brand)",
+        "brand name + login",
+        "Homepage, relevant brand page"
+       ]
+      ]
+     }
+    },
+    "If the results show a map pack, the intent is local and the work shifts to [local SEO](/en/guides/yerel-seo); if product listings dominate, you need a commercial category page."
+   ]
+  },
+  {
+   "baslik": "Which tools should you use for keyword research?",
+   "paragraflar": [
+    "Each tool shows only part of the picture. Most search volume figures are estimates or ranges, so I use them to compare keywords, not as traffic forecasts.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tool",
+       "What it shows",
+       "Limits to keep in mind"
+      ],
+      "satirlar": [
+       [
+        "Google Search Console (Performance report)",
+        "Queries your site actually appears for; clicks, impressions, CTR and average position",
+        "Only queries you already appear for; some rare queries are withheld for privacy; data goes back 16 months"
+       ],
+       [
+        "Google Ads Keyword Planner",
+        "New keyword ideas, average monthly searches, ad competition and bid ranges",
+        "Requires a Google Ads account; accounts without spend may see volume as ranges; close variants can be grouped; the competition column is about advertisers, not SEO difficulty"
+       ],
+       [
+        "Google Trends",
+        "Relative interest in a search over time and by region (0-100), seasonality, related and rising queries",
+        "No absolute volume; values are scaled to the peak within the chosen period and region"
+       ],
+       [
+        "Autocomplete and related searches",
+        "How people continue a phrase as they type, plus related searches at the bottom of the page",
+        "No volume data; Google omits some predictions under its policies"
+       ],
+       [
+        "“People also ask” box",
+        "Real question patterns around a topic",
+        "Does not appear for every search; questions expand and change as you interact"
+       ],
+       [
+        "Third-party SEO tools",
+        "Competitor rankings, estimated volume and difficulty scores",
+        "Figures are modelled estimates and differ between tools"
+       ]
+      ]
+     }
+    },
+    "Search Console is the most valuable source because it is your site's real performance, not an estimate. Queries with high impressions but few clicks, or stuck on page two, are the fastest wins. To test title ideas quickly, try the [free SEO tools](/en/tools)."
+   ]
+  },
+  {
+   "baslik": "How do you grow a seed keyword into a full list?",
+   "paragraflar": [
+    "I start with the customer's language, not a tool. Questions your sales and support teams hear, wording in enquiry forms and how customers describe your service reveal keywords tools miss.",
+    {
+     "liste": [
+      "Define 5-15 seed keywords that describe your services and product groups.",
+      "Filter Search Console queries containing those seeds to see where you are already visible.",
+      "Enter the seeds into Keyword Planner to collect new ideas and volume ranges.",
+      "Add question and long-tail patterns from autocomplete, “People also ask” and related searches.",
+      "Use Google Trends to check seasonality and the relative interest between two alternative phrasings.",
+      "Review which pages competitors ranking for the same searches use to cover each topic."
+     ]
+    },
+    "In Turkish, the same search may be typed with or without Turkish characters (“şişli” and “sisli”) or suffixes, and tools report these sometimes separately, sometimes combined. Same intent means same page."
+   ]
+  },
+  {
+   "baslik": "How do you cluster keywords?",
+   "paragraflar": [
+    "Clustering groups keywords that share an intent into the target of a single page. My practical test: search both keywords; if much of the first page overlaps, Google treats them as the same need and one page can serve both. If the results are completely different, you need separate pages.",
+    "Each cluster has a primary keyword (setting the title and H1) and supporting keywords, which usually become subheadings and FAQ entries. Splitting one cluster across two pages makes them weaken each other, known as cannibalisation.",
+    "In online stores, clusters shape the category tree and decide which filter combinations deserve their own page; see the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "Which keywords should you prioritise?",
+   "paragraflar": [
+    "Once you have clusters, you cannot produce them all at once. I score each cluster against these questions:",
+    {
+     "kontrol": [
+      "Business value: could someone making this search become a customer, and how close is it to your product or service?",
+      "Intent fit: can you offer the page type that ranks (guide, category, service page)?",
+      "Current position: does Search Console already show impressions or page-two rankings for this cluster?",
+      "Competition: are the first-page sites comparable to your expertise and resources?",
+      "Relative demand: do the Keyword Planner range and the Trends curve suggest the cluster is growing or shrinking?",
+      "Resources: do you have the knowledge, experience and examples to make this page genuinely good?"
+     ]
+    },
+    "Clusters with high business value and some existing visibility usually come first, because strengthening an existing page tends to pay off faster than starting from scratch. Low-volume transactional long-tail searches often bring more customers than broad high-volume terms."
+   ]
+  },
+  {
+   "baslik": "How do you turn a keyword list into a content plan?",
+   "paragraflar": [
+    "I put the clusters in a sheet with a URL, page type, primary and supporting keywords, priority and status (update existing / write new) for each. If an existing page already serves a cluster, I update it instead of creating another.",
+    "Informational clusters go to guides and blog posts; commercial and transactional ones go to service and category pages, and keyword-rich internal links from guides to service pages connect the two. The [content strategy guide](/en/guides/icerik-stratejisi) explains topic clusters and publishing calendars; for hands-on help, see the [content strategy service](/en/content-strategy)."
+   ]
+  },
+  {
+   "baslik": "Does keyword research change for AI search?",
+   "paragraflar": [
+    "In Google AI Overviews, AI Mode and assistants such as ChatGPT, Gemini and Perplexity, people ask longer, more conversational questions. There is no reliable volume data for these prompts comparable to Keyword Planner, so here I work with a question set rather than numbers.",
+    "I build the question set from customer questions, “People also ask” patterns and your clusters' supporting keywords, then ask these questions in assistants regularly to track whether your brand appears; the method is in the [GEO implementation guide](/en/guides/geo-uygulama), and brand visibility is covered in the [ChatGPT brand visibility article](/en/blog/chatgpt-marka-gorunurlugu). If the terminology is new to you, the [AI and GEO glossary](/en/ai-glossary) is a good place to start."
+   ]
+  },
+  {
+   "baslik": "How do you track keyword performance?",
+   "paragraflar": [
+    "After a page goes live, I use the page filter in Search Console to see which queries it earns impressions for. Queries you did not target but appear for signal sections to add or a new cluster to plan. To judge rankings together with clicks and conversions rather than on their own, use the KPI structure in the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "If you want an intent analysis, clusters and a priority table for your own market, I do this as the first step of [SEO consulting](/en/seo-consulting); you can reach me through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Arama hacmi düşük kelimeleri hedeflemeye değer mi?",
+   "c": "Çoğu zaman evet. Araçlar düşük hacimli aramaları sıfır ya da çok küçük bir aralık olarak gösterebilir, ama bu aramalar genellikle daha net bir ihtiyacı ifade eder. Niyet işinize uygunsa az sayıda ama nitelikli ziyaretçi, yüksek hacimli genel bir kelimeden daha değerli olabilir."
+  },
+  {
+   "s": "Anahtar Kelime Planlayıcı'yı reklam vermeden kullanabilir miyim?",
+   "c": "Bir Google Ads hesabı açarak aracı kullanabilirsiniz. Ancak aktif harcaması olmayan hesaplarda aylık arama sayıları kesin rakam yerine geniş aralıklar olarak gösterilebilir. Kelimeleri birbiriyle kıyaslamak için bu aralıklar çoğu durumda yeterlidir."
+  },
+  {
+   "s": "Bir sayfa kaç anahtar kelimeyi hedefleyebilir?",
+   "c": "Bir sayfa bir kümeyi hedefler; kümede tek bir ana kelime ve aynı niyeti paylaşan çok sayıda alt kelime olabilir. Başarılı sayfalar Search Console'da çoğu zaman yüzlerce farklı sorgudan gösterim alır. Sınırı belirleyen kelime sayısı değil, niyetin aynı olup olmadığıdır."
+  },
+  {
+   "s": "Rakiplerin anahtar kelimelerini nasıl görebilirim?",
+   "c": "Üçüncü taraf SEO araçları rakiplerin hangi aramalarda sıralandığını tahmini olarak gösterir. Ücretsiz bir yöntem olarak hedef aramaları kendiniz aratıp ilk sayfadaki rakip sayfaların başlıklarını ve ara başlıklarını inceleyebilirsiniz. Bu veriler kesin değildir; rakibin gerçek trafiğini yalnızca kendi Search Console hesabı gösterir."
+  },
+  {
+   "s": "Anahtar kelime araştırması ne sıklıkla yenilenmeli?",
+   "c": "Kapsamlı araştırmayı yeni bir site, yeni bir hizmet ya da büyük bir yeniden yapılanma öncesinde yapıyorum. Bunun dışında Search Console sorgularını aylık, mevsimsel kümeleri sezon öncesinde gözden geçirmek çoğu site için yeterlidir."
+  },
+  {
+   "s": "Anahtar kelimeyi metinde kaç kez geçirmeliyim?",
+   "c": "Belirli bir yoğunluk oranı hedeflemenin anlamı yok. Ana kelimenin başlıkta, H1'de ve doğal akışta geçmesi, alt kelimelerin ara başlıklarda ve cevaplarda yer alması yeterlidir. Aynı ifadeyi zorla tekrarlamak okunabilirliği bozar ve spam olarak algılanma riski taşır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Are low-volume keywords worth targeting?",
+   "c": "Often, yes. Tools may show low-volume searches as zero or as a very small range, but these searches usually express a more specific need. If the intent fits your business, a small number of qualified visitors can be worth more than a broad high-volume term."
+  },
+  {
+   "s": "Can I use Keyword Planner without running ads?",
+   "c": "You can use it by creating a Google Ads account. However, accounts without active spend may see monthly searches as broad ranges instead of exact figures. For comparing keywords with each other, those ranges are usually enough."
+  },
+  {
+   "s": "How many keywords can one page target?",
+   "c": "A page targets one cluster; a cluster can have one primary keyword and many supporting keywords that share the same intent. Successful pages often earn impressions from hundreds of different queries in Search Console. What sets the limit is whether the intent is the same, not the number of keywords."
+  },
+  {
+   "s": "How can I see my competitors' keywords?",
+   "c": "Third-party SEO tools estimate which searches competitors rank for. For free, you can run your target searches and review the titles and subheadings of competing first-page results. None of this is exact; only a competitor's own Search Console shows their real traffic."
+  },
+  {
+   "s": "How often should keyword research be refreshed?",
+   "c": "I do comprehensive research before a new site, a new service or a major restructure. Beyond that, reviewing Search Console queries monthly and seasonal clusters ahead of each season is enough for most sites."
+  },
+  {
+   "s": "How many times should a keyword appear in the text?",
+   "c": "Don't target a specific density. Use the primary keyword in the title, the H1 and naturally in the text, with supporting keywords in subheadings and answers. Forcing repetition hurts readability and risks looking like spam."
+  }
+ ]
+}

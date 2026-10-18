@@ -2,7 +2,7 @@
 //   /blog/slug.md, /en/blog/slug.md         → tur=blog
 //   /rehber/slug.md, /en/guides/slug.md     → tur=rehber
 import { ICERIKLER } from '../../lib/blog-icerikler'
-import { TUM_REHBERLER } from '../rehber/[slug]'
+import { TUM_REHBERLER } from '../../lib/rehber-icerikler'
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../../lib/content-index'
 import { blogMarkdown, rehberMarkdown } from '../../lib/blog-markdown'
 

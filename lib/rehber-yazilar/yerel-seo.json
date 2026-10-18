@@ -1,0 +1,337 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "Yerel SEO Rehberi: Google Haritalar, Yerel Sayfalar, Yorumlar ve NAP Tutarlılığı",
+ "baslik_en": "Local SEO Guide: Google Maps, Location Pages, Reviews and NAP Consistency",
+ "meta_baslik_tr": "Yerel SEO Rehberi: Haritalar, Yerel Sayfalar ve Yorumlar",
+ "meta_baslik_en": "Local SEO Guide: Maps, Location Pages and Reviews",
+ "meta_desc_tr": "Yerel SEO nasıl yapılır? Google Haritalar görünürlüğü, yerel açılış sayfaları, NAP tutarlılığı, yorum yönetimi, yerel bağlantılar ve ölçüm rehberi.",
+ "meta_desc_en": "How to do local SEO: Google Maps visibility, location landing pages, NAP consistency, review management, local links and measurement in one practical guide.",
+ "ozet_tr": "Haritalarda ve yerel aramalarda görünmek için profilin ötesinde yapılacaklar: yerel sayfalar, NAP, yorumlar, bağlantılar, ölçüm.",
+ "ozet_en": "What local visibility needs beyond your business profile: location pages, NAP, reviews, local links and measurement.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“Kadıköy diş hekimi”, “yakınımdaki veteriner”, “Şişli muhasebeci” gibi aramalarda müşteri çoğu zaman bir web sitesine değil, doğrudan harita sonuçlarına bakar. Yerel SEO, işletmenizin bu aramalarda hem haritada hem organik sonuçlarda hem de yapay zekâ cevaplarında doğru bilgilerle görünmesini sağlayan çalışmaların toplamıdır.",
+    "Danışmanlık yaptığım yerel işletmelerde en sık gördüğüm durum şu: Google Business Profile iyi kurulmuş, ama web sitesi, dizin kayıtları ve yorumlar bu profili desteklemiyor. Profil optimizasyonunun ayrıntılarını [Google Business Profile optimizasyonu](/blog/google-business-profile) yazımda adım adım anlattım. Bu rehber o yazıyı tamamlıyor: profilin dışında kalan ve yerel görünürlüğü asıl belirleyen parçalara odaklanıyor.",
+    {
+     "alinti": "Kısa cevap: Yerel SEO; eksiksiz bir Google Business Profile, her lokasyon için özgün bilgi taşıyan sayfalar, internetin her yerinde aynı ad-adres-telefon (NAP) bilgisi, düzenli ve gerçek müşteri yorumları ile yerel kaynaklardan gelen bağlantı ve bahislerin birleşimidir. Google yerel sonuçları alaka, mesafe ve öne çıkma faktörlerine göre sıraladığı için mesafe dışındaki iki faktörü güçlendirmek gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "Yerel SEO'nun üç vitrini: harita paketi, organik sonuçlar ve yapay zekâ cevapları",
+   "paragraflar": [
+    "Yerel bir aramada işletmenizin görünebileceği üç ayrı alan vardır ve her biri farklı sinyallerden beslenir. Yalnızca birine yatırım yapmak, diğer ikisinde rakibe alan bırakmak demektir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Vitrin",
+       "Neyle beslenir?",
+       "Sizin kontrolünüzdeki işler"
+      ],
+      "satirlar": [
+       [
+        "Harita paketi ve Google Haritalar",
+        "İşletme profili, yorumlar, mesafe, işletmenin bilinirliği",
+        "Kategori, profil bilgileri, yorum yönetimi, fotoğraflar"
+       ],
+       [
+        "Organik yerel sonuçlar",
+        "Web sitesi içeriği, teknik sağlık, bağlantılar",
+        "Yerel açılış sayfaları, iç linkleme, yapısal veri"
+       ],
+       [
+        "Yapay zekâ cevapları (AI Overviews, AI Mode, sohbet asistanları)",
+        "Web sitesi, profil, yorumlar ve üçüncü taraf kaynaklardaki tutarlı bilgiler",
+        "Net hizmet açıklamaları, SSS içerikleri, tutarlı NAP, marka bahisleri"
+       ]
+      ]
+     }
+    },
+    "Google, yerel sonuçların alaka (relevance), mesafe (distance) ve öne çıkma (prominence) faktörlerine göre belirlendiğini resmi olarak açıklıyor. Mesafeyi değiştiremezsiniz; ama alaka sinyalini sayfalarınız ve kategorileriniz, öne çıkma sinyalini ise yorumlarınız, bağlantılarınız ve internetteki bahisler belirler."
+   ]
+  },
+  {
+   "baslik": "Google Business Profile: yerel SEO'nun temeli, ama tamamı değil",
+   "paragraflar": [
+    "Profil kurulumu, doğrulama, kategori seçimi, fotoğraflar ve askıya alınma riskleri ayrı bir konu; burada tekrar etmeyeceğim. Yerel SEO açısından profille ilgili bilmeniz gereken asıl nokta, profilin tek başına çalışmadığıdır. Google profildeki bilgiyi web sitenizle ve diğer kaynaklarla karşılaştırır; çelişki gördüğünde güven azalır.",
+    "Profilin Soru-Cevap bölümü kaldırıldığı için müşterilerin sorduğu soruların cevaplarını artık profil özelliklerine, hizmet açıklamalarına ve web sitenizdeki SSS içeriklerine yerleştirmeniz gerekiyor. Bu içerikler hem Google'ın yapay zekâ özelliklerine hem de ChatGPT, Gemini veya Perplexity gibi web kaynaklarını alıntılayabilen asistanlara malzeme sağlar. Markanızın bu asistanlarda nasıl anlatıldığını kontrol etmek için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) testini uygulayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yerel açılış sayfaları nasıl hazırlanır?",
+   "paragraflar": [
+    "Birden fazla şubeniz ya da hizmet verdiğiniz birden fazla bölge varsa, her biri için ayrı bir sayfa yerel organik görünürlüğün omurgasıdır. Ancak yalnızca ilçe adını değiştirerek çoğaltılan şablon sayfalar Google'ın spam politikalarında tanımlanan “doorway” (köprü sayfa) uygulamasına girebilir. Ölçüt basit: Sayfadaki ilçe adını silip başka bir ilçe yazdığınızda metin hâlâ doğru kalıyorsa, sayfa yeterince özgün değildir.",
+    "İyi bir yerel sayfada bulunması gerekenler:",
+    {
+     "kontrol": [
+      "Şubenin tam adresi, telefonu ve çalışma saatleri (profildekiyle birebir aynı)",
+      "O lokasyona özgü bilgiler: ulaşım, otopark, ekip, o şubede sunulan hizmetler",
+      "Gerçek fotoğraflar: dış cephe, tabela, iç mekân",
+      "O bölgeden gelen müşterilerin sorduğu sorulara cevaplar",
+      "Yerleşik harita ve yol tarifi bilgisi",
+      "LocalBusiness yapısal verisi",
+      "Ana hizmet sayfalarına ve diğer şubelere iç linkler"
+     ]
+    },
+    "Kendi sitemde de bu yapıyı kullanıyorum: [Kadıköy SEO uzmanı](/kadikoy-seo-uzmani) ve [Beşiktaş SEO uzmanı](/besiktas-seo-uzmani) sayfaları gibi her ilçe sayfası o bölgeye özgü bilgiyle ayrışmak zorunda. Fiziksel adresiniz olmayan bölgeler için sayfa açacaksanız, orada gerçekten hizmet verdiğinizi gösteren somut içerik (tamamlanan işler, bölgeye özgü koşullar) ekleyin.",
+    "Sayfaların taranabilir, hızlı ve doğru iç linklerle bağlanmış olması da gerekir; bu kısmı [teknik SEO temelleri](/rehber/teknik-seo) rehberinde ayrıntılı ele aldım. Hangi bölge ve hizmet kombinasyonlarına sayfa açacağınıza karar verirken [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) yaparak gerçek arama talebi olan eşleşmeleri seçin."
+   ]
+  },
+  {
+   "baslik": "NAP tutarlılığı ve yerel kayıtlar (citations)",
+   "paragraflar": [
+    "NAP, işletmenin adı (Name), adresi (Address) ve telefonudur (Phone). Bu üç bilginin profilinizde, web sitenizde, sosyal medya hesaplarınızda ve dizinlerde aynı biçimde yazılması, Google'ın ve yapay zekâ sistemlerinin işletmenizi tek ve net bir varlık olarak tanımasına yardım eder. Taşınma veya telefon değişikliğinden sonra eski bilgilerin dizinlerde kalması, sahada en sık karşılaştığım sorunlardan biridir.",
+    {
+     "alt": "Nerelerde kayıt olmalı?"
+    },
+    {
+     "liste": [
+      "Google Business Profile",
+      "Apple Business Connect (Apple Haritalar)",
+      "Bing Places for Business",
+      "Yandex Haritalar",
+      "Sektörünüzle ilgili saygın rehber ve platformlar",
+      "Üyesi olduğunuz meslek odası ve dernek sayfaları"
+     ]
+    },
+    "Yüzlerce düşük kaliteli dizine kayıt açmak yerine, müşterilerinizin gerçekten kullandığı ve bilgileri güncel tutabileceğiniz platformları seçin. Adres yazımında bir standart belirleyin (mahalle, cadde, no, ilçe, il sırası gibi) ve her yerde onu kullanın.",
+    "Web sitenizde işletme bilgilerini schema.org LocalBusiness ya da sektöre uygun alt türüyle işaretlemek, NAP bilgisini makinelerin okuyabileceği biçimde sunar. Hangi özelliklerin kullanılacağı ve @id ile varlıkların nasıl bağlanacağı [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Yorum yönetimi: profilin ötesinde neler yapılmalı?",
+   "paragraflar": [
+    "Google yorumlarının nasıl isteneceği ve hangi uygulamaların yasak olduğu profil yazısında var. Yerel SEO açısından birkaç ek konu öne çıkıyor:",
+    {
+     "liste": [
+      "**Süreklilik:** Yorumların yalnızca sayısı değil güncelliği de kullanıcı kararını etkiler. Yorum istemeyi bir kampanya değil, hizmet sonrası rutin bir adım hâline getirin.",
+      "**Tek platforma bağımlı kalmayın:** Sektörünüzde müşterilerin baktığı diğer platformlardaki yorumlar da işletmenin bilinirliğine ve yapay zekâ cevaplarına yansıyabilir.",
+      "**Sitedeki yorumlar:** Kendi sitenizde müşteri yorumu göstermek güven sağlar. Ancak Google, işletmenin kendisi hakkında kendi sitesinde topladığı yorumlar için (LocalBusiness ve Organization) yıldızlı yorum zengin sonucu göstermiyor; bu işaretlemeden zengin sonuç beklemeyin.",
+      "**Yorumdaki içgörüyü kullanın:** Müşterilerin tekrar tekrar övdüğü ya da şikâyet ettiği konular, yerel sayfalarınızda ve hizmet açıklamalarınızda neyi vurgulamanız gerektiğini gösterir."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Yerel bağlantılar ve marka bahisleri nasıl kazanılır?",
+   "paragraflar": [
+    "Öne çıkma faktörünün bir parçası, işletmenizin internette ne kadar bilindiğidir. Yerel işletmeler için en değerli bağlantılar çoğunlukla büyük sitelerden değil, bölgeyle ilgili kaynaklardan gelir:",
+    {
+     "liste": [
+      "Yerel haber siteleri ve semt yayınlarında haber değeri taşıyan bir gelişme (açılış, etkinlik, bölgeye özgü veri)",
+      "Sponsor olduğunuz yerel spor kulübü, okul veya etkinlik sayfaları",
+      "Meslek odası, dernek ve iş birliği yaptığınız işletmelerin siteleri",
+      "Bölgeye dair gerçekten faydalı bir rehber ya da kaynak sayfası"
+     ]
+    },
+    "Bağlantı satın almak veya alakasız sitelerden toplu link almak risklidir. Hangi bağlantıların değer taşıdığını ve dijital PR ile bunların nasıl kazanılacağını [backlink ve dijital PR rehberi](/rehber/backlink-dijital-pr) içinde ayrıntılı anlattım. Bağlantı olmasa bile güvenilir kaynaklarda adınızın geçmesi, yapay zekâ asistanlarının işletmenizi tanımasına katkı sağlar; bu konuyu [GEO uygulama rehberi](/rehber/geo-uygulama) ele alıyor."
+   ]
+  },
+  {
+   "baslik": "Yerel SEO performansı nasıl ölçülür?",
+   "paragraflar": [
+    "Yerel SEO'da tek bir sıralama rakamına bakmak yanıltıcıdır, çünkü harita sonuçları arama yapılan konuma göre değişir. Ölçümü üç katmanda kuruyorum:",
+    {
+     "liste": [
+      "**Profil metrikleri:** Google Business Profile performans panelindeki aramalar, yol tarifi istekleri, telefon aramaları ve web sitesi tıklamaları.",
+      "**Site metrikleri:** Profil bağlantısına UTM parametresi ekleyerek bu trafiği GA4'te ayırmak; Search Console'da ilçe ve semt adları içeren sorguları ve yerel sayfaların performansını izlemek.",
+      "**Konuma göre görünürlük:** Hizmet bölgenizin farklı noktalarından sıralamayı harita üzerinde gösteren yerel takip araçlarıyla rakiplere göre durumu görmek."
+     ]
+    },
+    "Son aşamada asıl iş metriğine bağlayın: telefonla gelen randevu, form, mağaza ziyareti. Raporu nasıl kuracağınızı [SEO raporlama rehberi](/rehber/seo-raporlama) anlatıyor.",
+    "Yerel görünürlüğünüzü birlikte değerlendirmek isterseniz kapsamı [SEO uzmanı](/seo-uzmani) sayfamda bulabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When someone searches “dentist near me” or “accountant in Şişli”, they often never reach a website; they decide straight from the map results. Local SEO is the combined work that makes your business appear with accurate information in the map pack, in organic results and in AI-generated answers for those searches.",
+    "The pattern I see most often with local clients: the Google Business Profile is set up well, but the website, directory listings and reviews do not back it up. I covered profile optimization step by step in my [Google Business Profile optimization](/en/blog/google-business-profile) article. This guide complements it and focuses on the pieces outside the profile that actually shape local visibility.",
+    {
+     "alinti": "Short answer: Local SEO combines a complete Google Business Profile, location pages that carry genuinely unique information, the same name, address and phone (NAP) details everywhere online, a steady flow of real customer reviews, and links and mentions from local sources. Google ranks local results by relevance, distance and prominence, so the work goes into strengthening the two factors other than distance."
+    }
+   ]
+  },
+  {
+   "baslik": "The three local SEO surfaces: map pack, organic results and AI answers",
+   "paragraflar": [
+    "A local search can show your business in three different places, and each one draws on different signals. Investing in only one leaves the other two to competitors.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Surface",
+       "What feeds it",
+       "What you control"
+      ],
+      "satirlar": [
+       [
+        "Map pack and Google Maps",
+        "Business profile, reviews, distance, how well known the business is",
+        "Categories, profile details, review management, photos"
+       ],
+       [
+        "Organic local results",
+        "Website content, technical health, links",
+        "Location landing pages, internal linking, structured data"
+       ],
+       [
+        "AI answers (AI Overviews, AI Mode, chat assistants)",
+        "Consistent information across your site, profile, reviews and third-party sources",
+        "Clear service descriptions, FAQ content, consistent NAP, brand mentions"
+       ]
+      ]
+     }
+    },
+    "Google states officially that local results are based on relevance, distance and prominence. You cannot change distance, but your pages and categories drive relevance, while your reviews, links and mentions across the web drive prominence."
+   ]
+  },
+  {
+   "baslik": "Google Business Profile: the foundation of local SEO, not the whole of it",
+   "paragraflar": [
+    "Setup, verification, category choice, photos and suspension risks are a separate topic, and I will not repeat them here. The key point for local SEO is that the profile does not work in isolation. Google compares what your profile says with your website and other sources, and contradictions reduce trust.",
+    "Because the profile's Q&A feature has been removed, the answers to questions customers ask now need to live in profile attributes, service descriptions and FAQ content on your website. That content feeds Google's AI features as well as assistants such as ChatGPT, Gemini or Perplexity that can cite web sources. To see how assistants currently describe your business, run the [ChatGPT brand visibility](/en/blog/chatgpt-marka-gorunurlugu) test."
+   ]
+  },
+  {
+   "baslik": "How to build location landing pages",
+   "paragraflar": [
+    "If you have several branches or serve several areas, a dedicated page for each one is the backbone of local organic visibility. But template pages cloned by swapping the district name can fall under what Google's spam policies call doorway abuse. A simple test: if you delete the district name, type another one, and the text is still accurate, the page is not unique enough.",
+    "A strong location page includes:",
+    {
+     "kontrol": [
+      "The branch's full address, phone and opening hours (identical to the profile)",
+      "Location-specific details: transport, parking, team, services offered at that branch",
+      "Real photos: exterior, signage, interior",
+      "Answers to questions customers from that area actually ask",
+      "An embedded map and directions",
+      "LocalBusiness structured data",
+      "Internal links to core service pages and other branches"
+     ]
+    },
+    "If you create pages for areas where you have no physical address, add concrete evidence that you genuinely serve them, such as completed jobs or local conditions that affect the service.",
+    "The pages also need to be crawlable, fast and well linked internally; I cover that in the [technical SEO fundamentals](/en/guides/teknik-seo) guide. When deciding which area and service combinations deserve a page, use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to pick the ones with real search demand."
+   ]
+  },
+  {
+   "baslik": "NAP consistency and local citations",
+   "paragraflar": [
+    "NAP stands for name, address and phone. Writing these three the same way on your profile, website, social accounts and directories helps Google and AI systems recognise your business as one clear entity. Old details lingering in directories after a move or a phone change is one of the most common problems I find.",
+    {
+     "alt": "Where to be listed"
+    },
+    {
+     "liste": [
+      "Google Business Profile",
+      "Apple Business Connect (Apple Maps)",
+      "Bing Places for Business",
+      "Yandex Maps, which is widely used in Turkey",
+      "Reputable directories and platforms in your industry",
+      "Pages of professional chambers and associations you belong to"
+     ]
+    },
+    "Rather than opening listings on hundreds of low-quality directories, choose the platforms your customers actually use and that you can keep up to date. Set one address format and use it everywhere.",
+    "Marking up business details on your site with schema.org LocalBusiness, or a more specific subtype, makes NAP machine-readable. The relevant properties and how to connect entities with @id are covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Review management beyond the profile",
+   "paragraflar": [
+    "How to ask for Google reviews and which practices are prohibited is covered in the profile article. From a local SEO angle, a few additional points matter:",
+    {
+     "liste": [
+      "**Consistency:** Recency affects customer decisions as much as volume. Make asking for reviews a routine post-service step, not a one-off campaign.",
+      "**Do not rely on one platform:** Reviews on other platforms customers check in your industry can also shape how well known you are and what AI answers say.",
+      "**On-site reviews:** Showing testimonials on your site builds trust. However, Google does not show star review rich results for reviews a business collects about itself on its own site (LocalBusiness and Organization), so do not expect rich results from that markup.",
+      "**Use the insight:** Topics customers repeatedly praise or complain about tell you what to emphasise on location pages and in service descriptions."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How to earn local links and brand mentions",
+   "paragraflar": [
+    "Part of prominence is how well known your business is online. For local businesses the most valuable links usually come from area-relevant sources rather than large national sites:",
+    {
+     "liste": [
+      "Local news sites and neighbourhood publications covering something newsworthy (an opening, an event, local data)",
+      "Pages of local sports clubs, schools or events you sponsor",
+      "Professional chambers, associations and partner businesses",
+      "A genuinely useful local guide or resource page"
+     ]
+    },
+    "Buying links or collecting them in bulk from irrelevant sites is risky. I explain which links carry value and how to earn them through digital PR in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr). Even without a link, being named in trusted sources helps AI assistants recognise your business, which the [GEO implementation guide](/en/guides/geo-uygulama) covers."
+   ]
+  },
+  {
+   "baslik": "How to measure local SEO performance",
+   "paragraflar": [
+    "A single ranking number is misleading in local SEO, because map results change with the searcher's location. I set up measurement in three layers:",
+    {
+     "liste": [
+      "**Profile metrics:** searches, direction requests, calls and website clicks in the Google Business Profile performance panel.",
+      "**Site metrics:** adding UTM parameters to the profile link to separate that traffic in GA4, and tracking queries containing district names and the performance of location pages in Search Console.",
+      "**Visibility by location:** local rank tracking tools that plot rankings across points in your service area on a map, compared with competitors."
+     ]
+    },
+    "Finally, tie it to the business metric that matters: booked calls, form submissions, store visits. The [SEO reporting guide](/en/guides/seo-raporlama) shows how to build that report.",
+    "If you would like a second pair of eyes on your local visibility, see the scope on my [SEO consulting](/en/seo-consulting) page or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Web sitesi olmadan yerel SEO yapılabilir mi?",
+   "c": "Yalnızca Google Business Profile ile haritada görünmek mümkündür, ama bu sınırlı bir görünürlük sağlar. Web sitesi organik sonuçlarda yer almanızı, profil bilgilerinin doğrulanmasını ve yapay zekâ cevaplarına kaynak olmanızı sağlar. Küçük bir işletme için bile hizmetleri ve iletişim bilgilerini net anlatan bir site önemli fark yaratır."
+  },
+  {
+   "s": "Yerel SEO sonuçları ne kadar sürede görülür?",
+   "c": "Kesin bir süre vermek doğru olmaz; rekabete, profilin ve sitenin başlangıç durumuna göre değişir. Profil bilgilerinin düzeltilmesi gibi değişiklikler daha hızlı yansıyabilirken yorum birikimi, yerel bağlantılar ve sayfaların organik sıralaması aylar içinde olgunlaşır. Bu yüzden ilerlemeyi aylık olarak izlemek mantıklıdır."
+  },
+  {
+   "s": "Ev adresimi göstermeden yerel sonuçlarda çıkabilir miyim?",
+   "c": "Evet. Müşteriyi kendi adresinizde kabul etmiyorsanız Google Business Profile'da adresi gizleyip hizmet bölgesi tanımlayabilirsiniz. Sitenizde de adres yerine hizmet verdiğiniz bölgeleri ve somut iş örneklerini öne çıkarın. NAP tutarlılığı için ad ve telefonun her yerde aynı olması yine önemlidir."
+  },
+  {
+   "s": "Her ilçe için ayrı bir sayfa açmalı mıyım?",
+   "c": "Yalnızca o ilçe için gerçekten özgün ve faydalı bilgi sunabiliyorsanız açın. Şubeniz, ekibiniz, tamamlanmış işleriniz ya da bölgeye özgü koşullar sayfayı ayırt eder. Yalnızca ilçe adı değişen sayfalar fayda yerine spam riski getirir."
+  },
+  {
+   "s": "Rakibim işletme adına anahtar kelime ekleyip öne çıkıyor, ne yapmalıyım?",
+   "c": "Bu uygulama Google'ın yönergelerine aykırıdır ve Haritalar'daki düzenleme önerisi ya da Google'ın şikâyet formu ile bildirilebilir. Aynı yola gitmek profilinizi askıya alınma riskine sokar. Kendi tarafınızda kategori, yorum ve yerel sayfa çalışmalarına odaklanmak daha kalıcıdır."
+  },
+  {
+   "s": "Yerel SEO ile Google Ads yerel reklamları birlikte kullanılmalı mı?",
+   "c": "Birbirinin alternatifi değil, tamamlayıcısıdır. Reklam hemen görünürlük sağlar ve hangi aramaların dönüşüm getirdiğini hızlıca test etmenize yardım eder; yerel SEO ise reklam durduğunda da süren bir görünürlük inşa eder. Bütçe ve rekabete göre ikisinin dengesini belirlemek gerekir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can you do local SEO without a website?",
+   "c": "You can appear on the map with a Google Business Profile alone, but the visibility is limited. A website lets you rank in organic results, corroborates your profile details and gives AI answers a source to cite. Even for a small business, a site that clearly explains services and contact details makes a real difference."
+  },
+  {
+   "s": "How long does local SEO take to show results?",
+   "c": "There is no honest fixed timeline; it depends on competition and where your profile and site start. Fixing profile details can show up relatively quickly, while reviews, local links and organic rankings for location pages build over months. Tracking progress monthly is the sensible approach."
+  },
+  {
+   "s": "Can I appear in local results without showing my home address?",
+   "c": "Yes. If customers do not visit your premises, you can hide the address on Google Business Profile and define a service area instead. On your site, highlight the areas you serve and concrete job examples rather than an address. Keeping the name and phone identical everywhere still matters for NAP consistency."
+  },
+  {
+   "s": "Should I create a separate page for every district?",
+   "c": "Only if you can offer genuinely unique, useful information for that district. A branch, a team, completed work or local conditions make a page distinct. Pages where only the district name changes add spam risk rather than value."
+  },
+  {
+   "s": "A competitor stuffs keywords into their business name and ranks well. What should I do?",
+   "c": "That practice violates Google's guidelines and can be reported through the suggest-an-edit option in Maps or Google's business profile complaint form. Copying it puts your own profile at risk of suspension. Focusing on categories, reviews and location pages is the more durable path."
+  },
+  {
+   "s": "Should local SEO and local Google Ads run together?",
+   "c": "They complement rather than replace each other. Ads deliver immediate visibility and help you quickly test which searches convert, while local SEO builds visibility that continues after ad spend stops. The right balance depends on budget and competition."
+  }
+ ]
+}

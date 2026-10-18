@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import IlgiliRehberler from '../components/IlgiliRehberler';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
@@ -489,6 +490,8 @@ export default function Page(props) {
             </div>
           </div>
         </div>
+        {/* İlgili rehberler (components/IlgiliRehberler.js) */}
+        <IlgiliRehberler sluglar={['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr', 'icerik-stratejisi']} isEn={isEn} stil={{ padding: '56px 16px 24px' }} />
       </div>
     </>
   )

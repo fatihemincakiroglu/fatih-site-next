@@ -1,0 +1,401 @@
+{
+ "kategori": "Ölçüm",
+ "baslik_tr": "SEO Raporlama Rehberi: Search Console ve GA4 ile Ölçüm, KPI'lar ve Rapor Şablonu",
+ "baslik_en": "SEO Reporting Guide: Measuring with Search Console and GA4, KPIs and a Report Template",
+ "meta_baslik_tr": "SEO Raporlama Rehberi: Search Console, GA4 ve KPI'lar",
+ "meta_baslik_en": "SEO Reporting Guide: Search Console, GA4 and KPIs",
+ "meta_desc_tr": "Search Console ve GA4 ile SEO performansını ölçmek: doğru KPI'lar, marka dışı trafik, yapay zekâ kaynaklı ziyaretler ve aylık rapor şablonu.",
+ "meta_desc_en": "Measure SEO performance with Search Console and GA4: the right KPIs, non-brand traffic, AI-referred visits and a monthly report template you can reuse.",
+ "ozet_tr": "Search Console ve GA4 verisini karar aldıran bir SEO raporuna dönüştürmek için KPI'lar ve şablon.",
+ "ozet_en": "KPIs and a template for turning Search Console and GA4 data into an SEO report that drives decisions.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "SEO raporlama, organik aramadan gelen görünürlüğü, trafiği ve iş sonuçlarını düzenli olarak ölçüp yorumlama işidir. İyi bir rapor yalnızca grafik toplamaz; neyin değiştiğini, neden değiştiğini ve bir sonraki adımda ne yapılacağını söyler.",
+    "Sahada en sık gördüğüm sorun, raporların araçlardan dışa aktarılmış tablolar yığınına dönüşmesi. Bu rehberde Google Search Console ve Google Analytics 4 (GA4) verisini nasıl okuyacağınızı, hangi KPI'ları seçeceğinizi, yapay zekâ asistanlarından gelen trafiği nasıl ayıracağınızı ve tek sayfalık bir aylık rapor şablonunu anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: SEO raporlamasında Search Console, Google aramadaki görünürlüğü (gösterim, tıklama, TO, ortalama konum), GA4 ise sitedeki davranışı ve dönüşümleri ölçer. Marka dışı tıklamaları, organik önemli etkinlikleri ve sayfa gruplarının performansını izleyin; yapay zekâ kaynaklı trafiği GA4'te referrer (oturum kaynağı) bazlı bir filtre veya özel kanal grubuyla ayırın."
+    }
+   ]
+  },
+  {
+   "baslik": "Search Console ve GA4 neyi ölçer, farkları ne?",
+   "paragraflar": [
+    "İki araç farklı soruları cevaplar ve rakamlarının birebir tutması beklenmez. Search Console'daki bir tıklama ile GA4'teki bir oturum aynı şey değildir: kullanıcı sayfa yüklenmeden ayrılabilir, çerez onayı vermeyebilir ya da ölçüm etiketi bazı sayfalarda eksik olabilir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Konu",
+       "Search Console",
+       "GA4"
+      ],
+      "satirlar": [
+       [
+        "Neyi ölçer?",
+        "Google arama sonuçlarındaki görünürlük",
+        "Sitedeki kullanıcı davranışı ve dönüşüm"
+       ],
+       [
+        "Temel metrikler",
+        "Tıklama, gösterim, TO, ortalama konum",
+        "Oturum, etkileşimli oturum, etkileşim oranı, önemli etkinlikler"
+       ],
+       [
+        "Kapsam",
+        "Yalnızca Google araması",
+        "Tüm kanallar (organik, reklam, referans, doğrudan)"
+       ],
+       [
+        "Veri sınırları",
+        "Gizlilik nedeniyle bazı sorgular tabloda gösterilmez; yaklaşık 16 aylık geçmiş",
+        "Onay vermeyen veya etiketi engelleyen kullanıcılar eksik ölçülebilir"
+       ],
+       [
+        "En iyi kullanım",
+        "Sorgu, sayfa ve teknik sağlık analizi",
+        "Organik trafiğin iş sonucuna katkısı"
+       ]
+      ]
+     }
+    },
+    "İkisini birlikte okumak gerekir: Search Console size trafiğin nereden geldiğini, GA4 ise o trafiğin ne işe yaradığını gösterir. Search Console'un taradığı ve dizine eklediği sayfalarla ilgili raporlar için [teknik SEO temelleri rehberi](/rehber/teknik-seo) iyi bir başlangıç noktasıdır."
+   ]
+  },
+  {
+   "baslik": "Hangi SEO KPI'larını takip etmelisiniz?",
+   "paragraflar": [
+    "KPI seçimi işin modeline göre değişir, ama çoğu sitede şu metrikler anlamlı bir çekirdek oluşturur:",
+    {
+     "liste": [
+      "Marka dışı organik tıklamalar: yeni kitleye ulaşıp ulaşmadığınızı gösterir.",
+      "Hedef konu gruplarındaki gösterimler: içerik yatırımlarının görünürlüğe dönüşüp dönüşmediğini gösterir.",
+      "Organik oturumlardan gelen önemli etkinlikler: form, arama, satış veya randevu gibi iş sonuçları.",
+      "Sayfa grubu bazında performans: blog, hizmet, kategori veya ürün sayfaları ayrı ayrı.",
+      "Dizine eklenen önemli sayfaların durumu ve Core Web Vitals sonuçları.",
+      "Yapay zekâ asistanlarından gelen oturumlar ve bu oturumların dönüşümü."
+     ]
+    },
+    "Tek bir anahtar kelimenin sırası ya da yalnızca toplam trafik, karar almak için zayıf göstergelerdir. Hangi sorgu gruplarını izleyeceğinizi belirlemek için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yaklaşımını raporun temeli olarak kullanabilirsiniz.",
+    {
+     "alt": "Marka ve marka dışı sorguları ayırmak"
+    },
+    "Marka aramaları genellikle mevcut bilinirliği yansıtır; SEO çalışmasının etkisini görmek için marka dışı sorgulara ayrı bakmak gerekir. Search Console Performans raporunda sorgu filtresi normal ifade (regex) destekler; marka adınızı ve yaygın yazım varyasyonlarını içeren bir ifadeyle marka sorgularını hariç tutabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Search Console verisini doğru okumak",
+   "paragraflar": [
+    "Ortalama konum, sayfanızın gösterim aldığı aramalardaki en üst konumunun ortalamasıdır; yeni sorgularda gösterim almaya başladığınızda ortalama konum düşerken trafik artabilir. Bu yüzden konumu tek başına değil, gösterim ve tıklamayla birlikte okuyun.",
+    "Karşılaştırmalarda mevsimselliği hesaba katın: önceki ayla kıyas yanıltıcı olabilir, geçen yılın aynı dönemi daha sağlıklı bir referanstır. Site taşıması, URL değişikliği veya büyük bir Google güncellemesi gibi olayları rapora not düşün; [site taşıma SEO rehberi](/rehber/site-tasima-seo) taşıma dönemlerinde hangi verilerin izleneceğini ayrıca anlatıyor.",
+    "Google, AI Overviews ve AI Mode'daki görünümlerin Search Console Performans raporunun toplam verisine dahil edildiğini açıkladı. Bu görünümleri ayrı bir kırılımda görüp göremeyeceğiniz arayüzdeki güncellemelere bağlıdır; raporda bu sınırı açıkça belirtmek, yanlış yorumu önler."
+   ]
+  },
+  {
+   "baslik": "GA4'te organik trafik ve dönüşüm ölçümü",
+   "paragraflar": [
+    "GA4'te organik arama trafiğini oturumun varsayılan kanal grubu boyutundaki Organic Search değeriyle ayırabilirsiniz. Açılış sayfası raporu, hangi sayfaların organik ziyaretçiyi karşıladığını ve bu ziyaretlerin ne kadarının önemli etkinliğe dönüştüğünü gösterir.",
+    "GA4, 2024'te dönüşüm (conversion) kavramını önemli etkinlik (key event) olarak yeniden adlandırdı. Form gönderimi, telefon tıklaması veya satın alma gibi iş açısından anlamlı etkinlikleri önemli etkinlik olarak işaretlemeden SEO'nun iş sonucuna katkısını raporlayamazsınız.",
+    "Search Console ile GA4 mülkünü bağladığınızda sorgu ve açılış sayfası verisini GA4 içinde de görebilirsiniz. Bu entegrasyon raporlarının görünmesi için mülk ayarlarında ek bir yayınlama adımı gerekebilir; arayüz zaman zaman değiştiği için güncel adımları Google'ın yardım dokümanından kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ kaynaklı trafiği GA4'te nasıl ayırırsınız?",
+   "paragraflar": [
+    "ChatGPT, Perplexity, Gemini, Copilot veya Claude gibi asistanlar cevaplarında kaynak bağlantısı verdiğinde, kullanıcı tıklarsa ziyaret çoğu zaman GA4'e referans (referral) trafiği olarak düşer. Bu ziyaretleri ayırmanın pratik yolu oturum kaynağına göre filtrelemektir.",
+    "Bir keşif raporunda ya da segmentte oturum kaynağı için şu tür bir normal ifade kullanabilirsiniz: chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai. Kalıcı bir çözüm için özel bir kanal grubu oluşturup “Yapay zekâ” kanalını Referral kanalından önce konumlandırın; kanal kuralları sırayla değerlendirildiği için sıralama önemlidir.",
+    "Bu yöntemin sınırlarını raporda belirtin: mobil uygulamalardan gelen bazı tıklamalar referrer bilgisi taşımaz ve doğrudan trafik olarak görünür; bazı asistanlar bağlantılara utm_source parametresi ekleyebilir; Google AI Overviews ve AI Mode'dan gelen tıklamalar ise Google kaynaklı olduğu için organik aramanın içinde kalır. Kaynak listesini de dönem dönem güncelleyin.",
+    "Trafik, yapay zekâ görünürlüğünün yalnızca bir parçasıdır; asistanların markanızdan tıklama olmadan bahsetmesi de değerlidir. Bu bahsi ölçme yöntemleri için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına ve [GEO uygulama rehberindeki](/rehber/geo-uygulama) soru seti yaklaşımına bakabilirsiniz. Terimlerde emin olmadığınız yerler için [yapay zekâ sözlüğü](/ai-sozluk) de işinize yarar."
+   ]
+  },
+  {
+   "baslik": "Aylık SEO rapor şablonu",
+   "paragraflar": [
+    "Aylık raporu tek sayfada tutmayı ve her bölümü bir karar sorusuna bağlamayı öneririm:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Bölüm",
+       "İçerik",
+       "Veri kaynağı"
+      ],
+      "satirlar": [
+       [
+        "Yönetici özeti",
+        "3-5 cümle: ne değişti, neden, sonraki adım",
+        "Tüm kaynaklar"
+       ],
+       [
+        "Organik görünürlük",
+        "Marka dışı tıklama, gösterim, TO; geçen yılın aynı dönemiyle kıyas",
+        "Search Console"
+       ],
+       [
+        "İş sonuçları",
+        "Organik oturumlardan önemli etkinlikler",
+        "GA4"
+       ],
+       [
+        "Sayfa grupları",
+        "Blog, hizmet, kategori sayfalarının ayrı performansı",
+        "Search Console + GA4"
+       ],
+       [
+        "Teknik sağlık",
+        "Dizine ekleme sorunları, Core Web Vitals",
+        "Search Console"
+       ],
+       [
+        "Yapay zekâ görünürlüğü",
+        "AI referrer oturumları, soru seti test sonuçları",
+        "GA4 + manuel test"
+       ],
+       [
+        "Yapılanlar ve plan",
+        "Tamamlanan işler, gelecek ayın öncelikleri",
+        "Proje takibi"
+       ]
+      ]
+     }
+    },
+    "Panolar için Looker Studio gibi bir araçla Search Console ve GA4 verisini tek ekranda toplayabilirsiniz; işinizi kolaylaştıracak diğer seçenekler [ücretsiz SEO araçları](/araclar) sayfasında. Yine de pano raporun yerini tutmaz: yorum ve öneri kısmı insan emeği ister."
+   ]
+  },
+  {
+   "baslik": "SEO raporlamada sık yapılan hatalar",
+   "paragraflar": [
+    {
+     "liste": [
+      "Yalnızca toplam trafiği raporlayıp marka ve marka dışı ayrımını yapmamak.",
+      "Önemli etkinlikleri tanımlamadan SEO'nun iş değerini anlatmaya çalışmak.",
+      "Kısa dönemli dalgalanmaları trend gibi yorumlamak.",
+      "Yapılan işleri (içerik, teknik düzeltme) rakamlardaki değişimle eşleştirmemek.",
+      "Yapay zekâ kaynaklı trafiğin ölçüm sınırlarını belirtmeden kesin rakam gibi sunmak."
+     ]
+    },
+    "Raporun asıl değeri, bir sonraki ayın içerik ve teknik önceliklerini belirlemesidir; bunu [içerik stratejisi rehberi](/rehber/icerik-stratejisi) ile birlikte planlamak işe yarar. Ölçüm kurgunuzu ya da rapor şablonunuzu bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek, yapay zekâ görünürlüğünü de kapsayan bir [GEO uzmanı](/geo-uzmani) desteği almak isterseniz [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "SEO reporting is the regular measurement and interpretation of the visibility, traffic and business results that come from organic search. A good report does more than collect charts; it says what changed, why it changed and what to do next.",
+    "The most common problem I see is reports that turn into a pile of tables exported from tools. This guide covers how to read Google Search Console and Google Analytics 4 (GA4) data, which KPIs to choose, how to separate traffic from AI assistants and a one-page monthly report template.",
+    {
+     "alinti": "Short answer: in SEO reporting, Search Console measures visibility in Google Search (impressions, clicks, CTR, average position) while GA4 measures on-site behaviour and conversions. Track non-brand clicks, organic key events and performance by page group, and separate AI-referred traffic in GA4 with a referrer-based (session source) filter or a custom channel group."
+    }
+   ]
+  },
+  {
+   "baslik": "What do Search Console and GA4 measure, and how do they differ?",
+   "paragraflar": [
+    "The two tools answer different questions, so their numbers should not be expected to match. A click in Search Console is not the same as a session in GA4: users can leave before the page loads, decline cookie consent, or land on a page where the tag is missing.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Topic",
+       "Search Console",
+       "GA4"
+      ],
+      "satirlar": [
+       [
+        "What it measures",
+        "Visibility in Google Search results",
+        "On-site user behaviour and conversions"
+       ],
+       [
+        "Core metrics",
+        "Clicks, impressions, CTR, average position",
+        "Sessions, engaged sessions, engagement rate, key events"
+       ],
+       [
+        "Scope",
+        "Google Search only",
+        "All channels (organic, paid, referral, direct)"
+       ],
+       [
+        "Data limits",
+        "Some queries are hidden from tables for privacy; about 16 months of history",
+        "Users who decline consent or block the tag may be under-measured"
+       ],
+       [
+        "Best used for",
+        "Query, page and technical health analysis",
+        "Organic traffic's contribution to business results"
+       ]
+      ]
+     }
+    },
+    "Read them together: Search Console shows where traffic comes from, GA4 shows what that traffic achieves. For the crawling and indexing reports in Search Console, the [technical SEO fundamentals guide](/en/guides/teknik-seo) is a good starting point."
+   ]
+  },
+  {
+   "baslik": "Which SEO KPIs should you track?",
+   "paragraflar": [
+    "KPI choice depends on the business model, but for most sites these metrics form a meaningful core:",
+    {
+     "liste": [
+      "Non-brand organic clicks: show whether you are reaching new audiences.",
+      "Impressions for target topic groups: show whether content investment turns into visibility.",
+      "Key events from organic sessions: leads, calls, sales or bookings.",
+      "Performance by page group: blog, service, category or product pages separately.",
+      "Indexing status of important pages and Core Web Vitals results.",
+      "Sessions from AI assistants and how they convert."
+     ]
+    },
+    "A single keyword's ranking, or total traffic alone, is a weak basis for decisions. To decide which query groups to track, use the clustering approach in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) as the backbone of your report.",
+    {
+     "alt": "Separating brand and non-brand queries"
+    },
+    "Brand searches mostly reflect existing awareness; to see the effect of SEO work you need to look at non-brand queries separately. The query filter in the Search Console Performance report supports regular expressions (regex), so you can exclude brand queries with an expression covering your brand name and its common misspellings."
+   ]
+  },
+  {
+   "baslik": "Reading Search Console data correctly",
+   "paragraflar": [
+    "Average position is the average of your page's topmost position across the searches where it appeared; when you start getting impressions for new queries, average position can fall while traffic rises. Read position together with impressions and clicks, never on its own.",
+    "Account for seasonality: month-over-month comparisons can mislead, and the same period last year is usually a sounder reference. Annotate events such as a site migration, URL changes or a major Google update; the [site migration SEO guide](/en/guides/site-tasima-seo) covers which data to watch during a move.",
+    "Google has stated that appearances in AI Overviews and AI Mode are included in the overall Search Console Performance data. Whether you can see them as a separate breakdown depends on interface updates, so stating this limit in your report prevents misreadings."
+   ]
+  },
+  {
+   "baslik": "Measuring organic traffic and conversions in GA4",
+   "paragraflar": [
+    "In GA4 you can isolate organic search traffic with the Organic Search value of the session default channel group dimension. The landing page report shows which pages receive organic visitors and how many of those visits lead to a key event.",
+    "In 2024 GA4 renamed conversions to key events. Unless you mark meaningful actions such as form submissions, phone clicks or purchases as key events, you cannot report SEO's contribution to business results.",
+    "Linking Search Console to your GA4 property lets you see query and landing page data inside GA4. These integration reports may need an extra publishing step in the property before they appear; since the interface changes from time to time, check Google's help documentation for the current steps."
+   ]
+  },
+  {
+   "baslik": "How do you separate AI-referred traffic in GA4?",
+   "paragraflar": [
+    "When assistants such as ChatGPT, Perplexity, Gemini, Copilot or Claude link to sources and a user clicks, the visit usually lands in GA4 as referral traffic. The practical way to isolate these visits is to filter by session source.",
+    "In an exploration or segment you can use a regular expression on session source along these lines: chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai. For a lasting setup, create a custom channel group and place an “AI assistants” channel above Referral; channel rules are evaluated in order, so placement matters.",
+    "State the limits of this method in your report: some clicks from mobile apps carry no referrer and show up as direct traffic; some assistants may add a utm_source parameter to links; and clicks from Google AI Overviews and AI Mode come from Google, so they stay within organic search. Review your source list periodically.",
+    "Traffic is only part of AI visibility; an assistant mentioning your brand without a click also has value. For ways to measure those mentions, see the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) and the question-set approach in the [GEO implementation guide](/en/guides/geo-uygulama). The [AI glossary](/en/ai-glossary) helps with unfamiliar terms."
+   ]
+  },
+  {
+   "baslik": "A monthly SEO report template",
+   "paragraflar": [
+    "I recommend keeping the monthly report to one page and tying each section to a decision:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Section",
+       "Content",
+       "Data source"
+      ],
+      "satirlar": [
+       [
+        "Executive summary",
+        "3-5 sentences: what changed, why, next step",
+        "All sources"
+       ],
+       [
+        "Organic visibility",
+        "Non-brand clicks, impressions, CTR; year-over-year comparison",
+        "Search Console"
+       ],
+       [
+        "Business results",
+        "Key events from organic sessions",
+        "GA4"
+       ],
+       [
+        "Page groups",
+        "Separate performance for blog, service and category pages",
+        "Search Console + GA4"
+       ],
+       [
+        "Technical health",
+        "Indexing issues, Core Web Vitals",
+        "Search Console"
+       ],
+       [
+        "AI visibility",
+        "AI-referred sessions, question-set test results",
+        "GA4 + manual tests"
+       ],
+       [
+        "Work done and plan",
+        "Completed tasks, next month's priorities",
+        "Project tracker"
+       ]
+      ]
+     }
+    },
+    "For dashboards, a tool such as Looker Studio can bring Search Console and GA4 data onto one screen; more options are on the [free SEO tools](/en/tools) page. A dashboard still does not replace the report: interpretation and recommendations need a human."
+   ]
+  },
+  {
+   "baslik": "Common SEO reporting mistakes",
+   "paragraflar": [
+    {
+     "liste": [
+      "Reporting only total traffic without splitting brand and non-brand.",
+      "Trying to show SEO's business value without defining key events.",
+      "Reading short-term fluctuations as trends.",
+      "Not connecting work done (content, technical fixes) to changes in the numbers.",
+      "Presenting AI-referred traffic as an exact figure without stating its measurement limits."
+     ]
+    },
+    "A report's real value is in setting next month's content and technical priorities, which works best alongside the [content strategy guide](/en/guides/icerik-stratejisi). If you want your measurement setup reviewed through [SEO consulting](/en/seo-consulting), or support with AI visibility through [GEO consulting](/en/geo-consulting), you can reach me via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "SEO raporu ne sıklıkla hazırlanmalı?",
+   "c": "Çoğu site için aylık rapor yeterlidir; SEO etkileri genellikle haftalar içinde görünür hale gelir. Teknik hatalar ve ani düşüşler için ise haftalık kısa bir kontrol yapmak mantıklıdır. Çeyreklik raporlar, stratejik önceliklerin gözden geçirilmesi için uygundur."
+  },
+  {
+   "s": "Search Console tablosundaki sorgular neden toplam tıklamayı vermiyor?",
+   "c": "Google, kullanıcı gizliliğini korumak için çok az sayıda kişinin yaptığı bazı sorguları tabloda göstermez. Bu sorgular grafikteki toplamlara dahildir ama sorgu tablosunda yer almaz. Bu yüzden sorgu tablosunun toplamı, grafikteki toplam tıklamadan düşük çıkabilir."
+  },
+  {
+   "s": "GA4 verileri ne kadar süre saklanır?",
+   "c": "GA4'te olay verisi saklama süresi standart mülklerde 2 veya 14 ay olarak ayarlanabilir ve bu ayar özellikle keşif raporlarını etkiler. Standart raporlar toplanmış veriye dayandığı için bu süreden etkilenmez. Uzun dönemli analiz yapacaksanız saklama süresini kurulumda en uzun seçeneğe almanızı öneririm."
+  },
+  {
+   "s": "Ayrıca bir sıralama takip aracına ihtiyacım var mı?",
+   "c": "Zorunlu değildir; Search Console ortalama konum verisini zaten sağlar. Ancak rakiplerle karşılaştırma, belirli bir konumdan günlük takip veya Search Console'un göstermediği sorgular için sıralama araçları ek bilgi verebilir. Bu araçların ölçtüğü konum, gerçek kullanıcıların gördüğü sonuçla birebir aynı olmayabilir."
+  },
+  {
+   "s": "Markamın yapay zekâ cevaplarında geçip geçmediğini nasıl ölçerim?",
+   "c": "En pratik yöntem, hedef kitlenizin soracağı soruların sabit bir listesini oluşturup asistanlarda düzenli aralıklarla test etmek ve markanızın geçip geçmediğini kaydetmektir. Cevaplar kullanıcıya, konuma ve zamana göre değişebildiği için sonuçları kesin değil, yön gösteren veri olarak raporlayın."
+  },
+  {
+   "s": "Rapor için hangi araçları kullanmalıyım?",
+   "c": "Temel olarak Search Console ve GA4 yeterlidir. Looker Studio, bu iki kaynak için hazır bağlayıcılar sunduğundan otomatik panolar hazırlamayı kolaylaştırır. Tarama araçları ve sunucu logları ise teknik sağlık bölümünü güçlendirir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How often should an SEO report be produced?",
+   "c": "A monthly report is enough for most sites, since SEO effects usually take weeks to show. A short weekly check makes sense for technical errors and sudden drops. Quarterly reports suit a review of strategic priorities."
+  },
+  {
+   "s": "Why don't the queries in Search Console add up to total clicks?",
+   "c": "To protect user privacy, Google hides some queries made by very few people from the table. Those queries are included in the chart totals but not listed in the query table, so the table's sum can be lower than the total clicks in the chart."
+  },
+  {
+   "s": "How long does GA4 keep data?",
+   "c": "In GA4, event data retention can be set to 2 or 14 months on standard properties, and this setting mainly affects explorations. Standard reports use aggregated data and are not affected. If you plan long-term analysis, set retention to the longest option during setup."
+  },
+  {
+   "s": "Do I also need a rank tracking tool?",
+   "c": "It is not essential; Search Console already provides average position data. Rank trackers can add competitor comparisons, daily tracking from a set location, or queries Search Console does not show. The positions they record may not exactly match what real users see."
+  },
+  {
+   "s": "How do I measure whether my brand appears in AI answers?",
+   "c": "The most practical method is to build a fixed list of questions your audience would ask, test them in assistants at regular intervals and record whether your brand appears. Because answers vary by user, location and time, report the results as directional rather than exact data."
+  },
+  {
+   "s": "Which tools should I use for reporting?",
+   "c": "Search Console and GA4 cover the essentials. Looker Studio offers ready-made connectors for both, which makes automated dashboards easier. Crawlers and server logs strengthen the technical health section."
+  }
+ ]
+}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import IlgiliRehberler from '../components/IlgiliRehberler';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
@@ -673,6 +674,8 @@ export default function Page(props) {
           </div>
         </section>
 
+        {/* İlgili rehberler (components/IlgiliRehberler.js) */}
+        <IlgiliRehberler sluglar={['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr', 'icerik-stratejisi']} isEn={isEn} stil={{ padding: '56px 16px 24px' }} />
         {/* ─── CTA ─── */}
         <section style={{ padding: '96px 32px', background: 'linear-gradient(160deg, #0f0c29 0%, #1a1045 100%)', textAlign: 'center', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(ellipse at 50% 100%, rgba(99,102,241,0.15) 0%, transparent 60%)' }} />

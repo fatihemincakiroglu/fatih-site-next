@@ -1,0 +1,359 @@
+{
+ "kategori": "Strateji",
+ "baslik_tr": "E-ticaret SEO Rehberi: Kategori, Ürün, Filtre, Varyant ve Ürün Şeması",
+ "baslik_en": "E-commerce SEO Guide: Categories, Products, Facets, Variants and Product Schema",
+ "meta_baslik_tr": "E-ticaret SEO Rehberi: Kategori, Ürün ve Filtre Yönetimi",
+ "meta_baslik_en": "E-commerce SEO Guide: Categories, Products and Facets",
+ "meta_desc_tr": "E-ticaret SEO rehberi: kategori ve ürün sayfaları, filtreli gezinme, varyantlar, stokta olmayan ürünler ve Product şeması için uygulanabilir adımlar.",
+ "meta_desc_en": "E-commerce SEO guide: category and product pages, faceted navigation, variants, out-of-stock products and Product schema, with practical steps.",
+ "ozet_tr": "Kategori ve ürün sayfaları, filtreler, varyantlar, stok durumu ve ürün şemasıyla mağazanızı aramada doğru konumlandırın.",
+ "ozet_en": "Position your store in search with the right setup for categories, products, facets, variants, stock status and schema.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-ticaret sitesinde SEO, birkaç blog yazısını optimize etmekten çok daha fazla URL'yi yönetmek demektir: kategori sayfaları, yüzlerce ya da binlerce ürün sayfası, filtre kombinasyonları, renk ve beden varyantları, stoktan çıkan ürünler. Sahada en sık gördüğüm tablo, Google'ın asıl satış yapan sayfalar yerine filtrelerden üretilmiş sayısız URL çeşitlemesini taraması.",
+    "Bu rehberde kategori ve ürün sayfalarının hangi aramaları hedeflemesi gerektiğini, filtreli gezinmenin (faceted navigation) nasıl kontrol altına alınacağını, varyantları, stokta olmayan ürünleri ve ürün şemasını nasıl ele aldığımı anlatıyorum. Altyapı tarafında eksik varsa önce [teknik SEO temelleri rehberine](/rehber/teknik-seo) göz atmanızı öneririm.",
+    {
+     "alinti": "Kısa cevap: E-ticaret SEO'su, geniş ticari aramaları kategori sayfalarıyla, spesifik aramaları ürün sayfalarıyla karşılamak ve filtre, varyant, stok gibi mağaza mekaniklerinin ürettiği gereksiz URL'leri tarama ve dizinden uzak tutmaktır. Ürün sayfalarında sayfadaki bilgiyle tutarlı Product yapısal verisi ve özgün içerik, arama motorlarının ve yapay zekâ asistanlarının ürünü doğru anlamasını kolaylaştırır."
+    }
+   ]
+  },
+  {
+   "baslik": "Kategori ve ürün sayfaları hangi aramaları hedeflemeli?",
+   "paragraflar": [
+    "Mağazadaki her sayfa tipinin farklı bir arama niyeti vardır. Kategori sayfası seçenek görmek isteyen kullanıcıyı, ürün sayfası ne aradığını bilen kullanıcıyı karşılar. İki sayfa tipi aynı kelimeyi hedeflediğinde birbirleriyle yarışır ve Google'ın hangisini göstereceği belirsizleşir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sayfa tipi",
+       "Hedef arama örneği",
+       "Arama niyeti",
+       "Öncelikli içerik"
+      ],
+      "satirlar": [
+       [
+        "Ana kategori",
+        "koşu ayakkabısı",
+        "Ticari, seçenek karşılaştırma",
+        "Ürün listesi, kısa giriş metni, alt kategori bağlantıları"
+       ],
+       [
+        "Alt kategori",
+        "kadın trail koşu ayakkabısı",
+        "Ticari, daha net",
+        "Daraltılmış seçki, seçim yardımı metni"
+       ],
+       [
+        "Ürün",
+        "marka + model + numara",
+        "İşlemsel",
+        "Fiyat, stok, teknik özellikler, görseller, yorumlar"
+       ],
+       [
+        "Rehber / blog",
+        "koşu ayakkabısı nasıl seçilir",
+        "Bilgilendirici",
+        "Açıklayıcı içerik ve ilgili kategorilere bağlantı"
+       ]
+      ]
+     }
+    },
+    "Kategori ağacını kurmadan ya da yeniden düzenlemeden önce [anahtar kelime araştırması ve kümeleme](/rehber/anahtar-kelime-arastirmasi) yaparak hangi aramanın hangi sayfaya düştüğünü netleştirmek, sonradan URL değiştirmek zorunda kalmanızı önler."
+   ]
+  },
+  {
+   "baslik": "Kategori sayfası SEO'su: liste sayfasını nasıl güçlendirirsiniz?",
+   "paragraflar": [
+    "Kategori sayfaları genellikle en geniş ticari aramaları karşılayan sayfalardır, ama çoğu mağazada yalnızca ürün ızgarasından ibarettir. Yaptığım iyileştirmeler genelde şunlardır:",
+    {
+     "liste": [
+      "Her kategoriye benzersiz bir title ve H1; aynı kalıbı tüm kategorilere kopyalamayın.",
+      "Ürünlerin üstünde kısa bir giriş, altında kullanıcıya gerçekten yardım eden seçim bilgisi (beden tablosu, malzeme farkları gibi). Anahtar kelime dolu uzun metin değil.",
+      "Alt kategorilere ve arama talebi olan filtre sayfalarına normal <a href> bağlantılarıyla taranabilir yollar.",
+      "Sayfalamada her sayfanın kendi URL'si ve kendine işaret eden canonical etiketi; Google rel=next/prev işaretlemesini artık kullanmıyor.",
+      "Sonsuz kaydırma kullanılıyorsa aynı ürünlere ulaşan sayfalı URL karşılıkları.",
+      "Breadcrumb (içerik haritası) gezinmesi ve BreadcrumbList işaretlemesi."
+     ]
+    },
+    "Liste sayfaları çok sayıda görsel yüklediği için hız sorunları burada yoğunlaşır. Google'ın iyi kabul ettiği eşikler LCP için 2,5 saniye, INP için 200 milisaniye, CLS için 0,1'dir; ayrıntılar [Core Web Vitals 2025 yazısında](/blog/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "Filtreli gezinme (faceted navigation) nasıl yönetilir?",
+   "paragraflar": [
+    "Renk, beden, marka, fiyat aralığı ve sıralama filtreleri birleştikçe URL sayısı katlanarak artar. Google, tarama üzerine yayımladığı dokümantasyonda filtreli gezinmeyi aşırı taramanın yaygın kaynaklarından biri olarak anıyor. Benim yaklaşımım iki adımlı: önce hangi filtre kombinasyonlarının gerçek arama talebi olduğunu belirlemek (ör. siyah deri bot), sonra geri kalanını taramadan uzak tutmak.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yöntem",
+       "Ne yapar",
+       "Ne zaman uygun"
+      ],
+      "satirlar": [
+       [
+        "İndekslenebilir filtre sayfası",
+        "Kendine canonical, benzersiz başlık ve metinle dizine girer",
+        "Arama talebi olan kombinasyonlar"
+       ],
+       [
+        "robots.txt Disallow",
+        "Taramayı engeller; bağlantı alan URL yine de içeriksiz biçimde dizinde görünebilir",
+        "Talebi olmayan ve çok kombinasyon üreten parametreler (sıralama, fiyat aralığı)"
+       ],
+       [
+        "noindex",
+        "Sayfa taranır ama dizine alınmaz; tarama yükünü azaltmaz",
+        "Taranması gereken ama dizinde istenmeyen sayfalar"
+       ],
+       [
+        "rel=canonical",
+        "Tercih edilen sürümü gösterir; bağlayıcı değil, bir ipucudur",
+        "Neredeyse aynı içerikli çeşitlemeler"
+       ]
+      ]
+     }
+    },
+    "robots.txt ile engellenen bir sayfadaki noindex etiketini Google göremez; bu ikisini aynı URL'de birlikte kullanmayın. Google ayrıca sonuç döndürmeyen filtre kombinasyonları için 404 durum kodu döndürmeyi ve parametreleri tutarlı bir sırayla üretmeyi öneriyor."
+   ]
+  },
+  {
+   "baslik": "Ürün varyantları: renk ve beden için tek sayfa mı, ayrı sayfa mı?",
+   "paragraflar": [
+    "Varyantlar yalnızca bedende ayrışıyorsa tek ürün sayfası ve bir seçici yeterlidir; her beden için ayrı ve aynı içerikli bir sayfa yinelenen içerik üretir. Renk gibi kendi arama talebi ve kendi görselleri olan varyantlarda ayrı URL'ler mantıklı olabilir.",
+    "Varyantları ayrı URL'lerde sunuyorsanız her birinin benzersiz ve taranabilir bir adresi olmalı (parametreli URL de olabilir). Google 2024'ten beri ProductGroup türü ve hasVariant, variesBy, productGroupID özellikleriyle varyant ilişkisini işaretlemeyi destekliyor. Tek sayfa yaklaşımında ise varsayılan varyantın sayfa ilk yüklendiğinde seçili olması ve fiyatın buna göre gösterilmesi önemlidir."
+   ]
+  },
+  {
+   "baslik": "Stokta olmayan ve kaldırılan ürünlerde ne yapmalı?",
+   "paragraflar": [
+    "Bu konuda en pahalı hata, stoktan çıkan her ürünü silip ana sayfaya yönlendirmektir. Google ilgisiz bir sayfaya yapılan yönlendirmeyi soft 404 olarak değerlendirebilir ve ürünün biriktirdiği sinyaller boşa gider.",
+    {
+     "kontrol": [
+      "Geçici olarak stokta yok: Sayfayı 200 durum koduyla yayında tutun, yapısal veride availability değerini OutOfStock yapın, benzer ürünler ve stok bildirimi sunun.",
+      "Kalıcı olarak kaldırıldı, yakın muadili var: Yeni modele ya da en yakın ürüne 301 yönlendirmesi yapın.",
+      "Kalıcı olarak kaldırıldı, muadili yok: 404 ya da 410 döndürün; dış bağlantı alıyorsa ilgili kategoriye yönlendirmeyi değerlendirin.",
+      "Sezonluk ürünler: Her yıl aynı URL'yi kullanın, sezon dışında sayfayı kapatmak yerine bilgilendirin."
+     ]
+    },
+    "Toplu katalog değişikliği ya da platform geçişi yapıyorsanız yönlendirme haritasının nasıl hazırlanacağı [site taşıma SEO rehberinde](/rehber/site-tasima-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Ürün şeması (Product yapısal verisi) nasıl kurulur?",
+   "paragraflar": [
+    "Ürün sayfalarında JSON-LD formatında Product işaretlemesi kullanıyorum. Temel alanlar name, image, description, brand, sku ya da gtin ve offers altında price, priceCurrency, availability ile url'dir. Sayfada gerçek kullanıcı yorumları görünüyorsa review ve aggregateRating eklenebilir; sayfada olmayan bir puanı işaretlemek Google yönergelerine aykırıdır.",
+    "Yapısal veri, ürünün fiyat, stok ve puan bilgileriyle arama sonuçlarında gösterilmesine uygun hâle gelmesini sağlar; ancak zengin sonucun gösterilip gösterilmeyeceğine Google karar verir. Kargo ve iade bilgileri için OfferShippingDetails ve MerchantReturnPolicy türleri var; bu bilgiler Merchant Center üzerinden de tanımlanabiliyor. Fiyatın sayfa, yapısal veri ve ürün feed'i arasında tutarlı olması gerekir. İşaretlemeyi Zengin Sonuç Testi ve Search Console raporlarıyla kontrol edin; ayrıntılar [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri).",
+    "Teknik özellikleri yalnızca görselde değil metin olarak da yazmak, ürünün yapay zekâ asistanlarının cevaplarında doğru anlatılmasına da yardımcı olur. Bu tarafı [GEO danışmanlığı](/geo-uzmani) kapsamında ayrıca ele alıyorum."
+   ]
+  },
+  {
+   "baslik": "E-ticaret SEO'sunu nasıl ölçer ve önceliklendirirsiniz?",
+   "paragraflar": [
+    "Search Console'da sayfaları URL kalıplarına göre (kategori, ürün, filtre) gruplayarak hangi tipin gösterim ve tıklama aldığını, dizin oluşturma raporunda ise taranmış ama dizine eklenmemiş URL'lerin hangi kalıplardan geldiğini izliyorum. GA4'te organik trafiğin açılış sayfasına göre gelir ve dönüşümü, önceliği belirlemenin en sağlam yolu. Kurulum ve KPI seçimi için [SEO raporlama rehberine](/rehber/seo-raporlama) bakabilirsiniz.",
+    "Öncelik sıram genellikle şöyle: önce tarama israfını durdurmak (filtreler), sonra en çok gelir getiren kategorileri güçlendirmek, ardından ürün şeması ve stok mantığını düzeltmek. Kategori metinleri ve rehber içerikleri için [içerik stratejisi hizmeti](/icerik) devreye girer.",
+    "Mağazanız için bu kontrolleri birlikte yapmak isterseniz [e-ticaret odaklı SEO danışmanlığı](/seo-uzmani) kapsamında başlayabiliriz; kısa bir [ön görüşme randevusu](/randevu) alarak sitenizin durumunu konuşalım."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "SEO for an online store means managing far more URLs than a typical content site: category pages, hundreds or thousands of product pages, filter combinations, colour and size variants, and products that go out of stock. The pattern I see most often in audits is Google spending its time on endless filter-generated URL variations instead of the pages that actually sell.",
+    "This guide covers which searches category and product pages should target, how to keep faceted navigation under control, and how I handle variants, out-of-stock products and Product schema. If the infrastructure has gaps, start with the [technical SEO fundamentals guide](/en/guides/teknik-seo).",
+    {
+     "alinti": "Short answer: E-commerce SEO means matching broad commercial searches with category pages and specific searches with product pages, while keeping the unnecessary URLs created by filters, variants and stock changes out of the crawl and the index. Product structured data that matches the visible page, plus original product content, helps search engines and AI assistants understand each product correctly."
+    }
+   ]
+  },
+  {
+   "baslik": "Which searches should category and product pages target?",
+   "paragraflar": [
+    "Each page type in a store serves a different search intent. A category page serves someone who wants to compare options; a product page serves someone who already knows what they want. When both page types target the same keyword they compete with each other, and it becomes unclear which one Google will show.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Page type",
+       "Example target search",
+       "Search intent",
+       "Priority content"
+      ],
+      "satirlar": [
+       [
+        "Main category",
+        "running shoes",
+        "Commercial, comparing options",
+        "Product list, short intro, links to subcategories"
+       ],
+       [
+        "Subcategory",
+        "women's trail running shoes",
+        "Commercial, more specific",
+        "Narrowed selection, buying-help copy"
+       ],
+       [
+        "Product",
+        "brand + model + size",
+        "Transactional",
+        "Price, stock, specifications, images, reviews"
+       ],
+       [
+        "Guide / blog",
+        "how to choose running shoes",
+        "Informational",
+        "Explanatory content linking to relevant categories"
+       ]
+      ]
+     }
+    },
+    "Before you build or restructure the category tree, run [keyword research and clustering](/en/guides/anahtar-kelime-arastirmasi) to decide which search belongs to which page. It saves you from changing URLs later."
+   ]
+  },
+  {
+   "baslik": "Category page SEO: how do you strengthen listing pages?",
+   "paragraflar": [
+    "Category pages usually serve the broadest commercial searches, yet in many stores they are nothing more than a product grid. These are the improvements I make most often:",
+    {
+     "liste": [
+      "A unique title and H1 for every category, rather than one template copied across all of them.",
+      "A short intro above the products and genuinely useful buying help below (size charts, material differences), not long keyword-stuffed copy.",
+      "Crawlable paths to subcategories and to filter pages with real demand, using plain <a href> links.",
+      "Paginated pages with their own URL and a self-referencing canonical; Google no longer uses rel=next/prev.",
+      "Paginated URL equivalents if the page uses infinite scroll.",
+      "Breadcrumb navigation with BreadcrumbList markup."
+     ]
+    },
+    "Listing pages load many images, so speed problems concentrate here. Google's good thresholds are LCP within 2.5 seconds, INP within 200 milliseconds and CLS of 0.1 or less; see the [Core Web Vitals 2025 article](/en/blog/core-web-vitals-2025) for details."
+   ]
+  },
+  {
+   "baslik": "How do you manage faceted navigation?",
+   "paragraflar": [
+    "As colour, size, brand, price-range and sort filters combine, the number of URLs grows exponentially. Google's crawling documentation names faceted navigation as a common source of overcrawling. My approach has two steps: first identify which filter combinations have real search demand (for example, black leather boots), then keep the rest out of the crawl.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Method",
+       "What it does",
+       "When it fits"
+      ],
+      "satirlar": [
+       [
+        "Indexable filter page",
+        "Gets indexed with a self-canonical, unique title and copy",
+        "Combinations with search demand"
+       ],
+       [
+        "robots.txt Disallow",
+        "Blocks crawling; a linked URL can still appear in the index without content",
+        "Parameters with no demand that create many combinations (sort, price range)"
+       ],
+       [
+        "noindex",
+        "Page is crawled but not indexed; does not reduce crawl load",
+        "Pages that must be crawled but should stay out of the index"
+       ],
+       [
+        "rel=canonical",
+        "Signals the preferred version; a hint, not a directive",
+        "Near-identical variations"
+       ]
+      ]
+     }
+    },
+    "Google cannot see a noindex tag on a page blocked by robots.txt, so do not combine the two on the same URL. Google also recommends returning a 404 status for filter combinations with no results and generating parameters in a consistent order."
+   ]
+  },
+  {
+   "baslik": "Product variants: one page or separate pages for colour and size?",
+   "paragraflar": [
+    "If variants differ only by size, one product page with a selector is enough; a separate page with identical content for every size creates duplicate content. For variants such as colour that have their own search demand and their own images, separate URLs can make sense.",
+    "If you serve variants on separate URLs, each one needs a unique, crawlable address (a parameter URL is fine). Since 2024 Google has supported marking up variant relationships with the ProductGroup type and the hasVariant, variesBy and productGroupID properties. With a single-page approach, make sure a default variant is preselected on first load and the price shown matches it."
+   ]
+  },
+  {
+   "baslik": "What should you do with out-of-stock and discontinued products?",
+   "paragraflar": [
+    "The most expensive mistake here is deleting every product that sells out and redirecting it to the homepage. Google may treat a redirect to an irrelevant page as a soft 404, and the signals the product had built up are lost.",
+    {
+     "kontrol": [
+      "Temporarily out of stock: keep the page live with a 200 status, set availability to OutOfStock in structured data, and offer similar products and a back-in-stock alert.",
+      "Permanently discontinued with a close replacement: 301 redirect to the new model or the closest product.",
+      "Permanently discontinued with no replacement: return 404 or 410; if it earns external links, consider redirecting to the relevant category.",
+      "Seasonal products: reuse the same URL every year and keep the page informative off-season instead of removing it."
+     ]
+    },
+    "If you are making a large catalogue change or switching platforms, the [site migration SEO guide](/en/guides/site-tasima-seo) explains how to build the redirect map."
+   ]
+  },
+  {
+   "baslik": "How do you set up Product schema (structured data)?",
+   "paragraflar": [
+    "I use Product markup in JSON-LD on product pages. The core fields are name, image, description, brand, sku or gtin, and under offers: price, priceCurrency, availability and url. If genuine user reviews are visible on the page you can add review and aggregateRating; marking up a rating that is not on the page goes against Google's guidelines.",
+    "Structured data makes a product eligible to appear in results with price, stock and rating details, but Google decides whether a rich result is shown. Shipping and returns can be described with OfferShippingDetails and MerchantReturnPolicy, and these can also be configured in Merchant Center. The price must be consistent across the page, the markup and the product feed. Check the markup with the Rich Results Test and the Search Console reports; the [schema and structured data guide](/en/guides/schema-yapisal-veri) goes deeper.",
+    "Writing specifications as text rather than only inside images also helps AI assistants describe the product correctly in their answers. I cover that side separately as part of [GEO consulting](/en/geo-consulting)."
+   ]
+  },
+  {
+   "baslik": "How do you measure and prioritise e-commerce SEO work?",
+   "paragraflar": [
+    "In Search Console I group pages by URL pattern (category, product, filter) to see which type earns impressions and clicks, and in the page indexing report I check which patterns the crawled-but-not-indexed URLs come from. In GA4, revenue and conversions from organic traffic by landing page are the most reliable basis for prioritising. For setup and KPI choices, see the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "My usual order: stop crawl waste first (filters), then strengthen the highest-revenue categories, then fix Product schema and stock logic. Category copy and buying guides are where [content strategy](/en/content-strategy) comes in.",
+    "If you want to work through these checks for your store together, we can start with [e-commerce focused SEO consulting](/en/seo-consulting); [book a short intro call](/en/book-a-call) and we will look at where your site stands."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Shopify, WooCommerce gibi hazır altyapılarla e-ticaret SEO'su yapılabilir mi?",
+   "c": "Evet. Ancak URL yapısı, filtre parametreleri, canonical davranışı ve yapısal veri çıktısı platforma ve temaya göre değişir. İşe başlamadan önce platformun bu konularda varsayılan olarak ne ürettiğini kontrol etmek, hangi ayarların değiştirilebildiğini görmek gerekir."
+  },
+  {
+   "s": "Üreticinin ürün açıklamalarını aynen kullanmak sorun olur mu?",
+   "c": "Bunun için bir ceza yoktur, ama aynı metni kullanan onlarca site arasında ayrışmanız zorlaşır ve Google yinelenen sürümlerden birini seçer. Tüm katalogu yeniden yazmak yerine en çok satan ve en çok aranan ürünlerden başlayarak kullanım bilgisi, ölçü ve karşılaştırma gibi özgün bilgiler eklemenizi öneririm."
+  },
+  {
+   "s": "Ürün yorumları SEO'ya katkı sağlar mı?",
+   "c": "Gerçek kullanıcı yorumları ürün sayfasına özgün içerik ve ürünü farklı kelimelerle anlatan ifadeler ekler. Yorumlar sayfada görünüyorsa aggregateRating ile işaretlenebilir. Sahte ya da satın alınmış yorumlar hem arama motoru politikaları hem tüketici mevzuatı açısından risklidir."
+  },
+  {
+   "s": "Kategori sayfasına ne kadar metin koymalıyım?",
+   "c": "Sabit bir kelime sayısı yok. Ölçüt, metnin kullanıcının seçim yapmasına yardım edip etmediğidir. Kısa bir giriş ve sayfa altında gerçek soruları yanıtlayan bir bölüm çoğu kategori için yeterlidir; ürünleri aşağı iten uzun metinler genelde işe yaramaz."
+  },
+  {
+   "s": "Google Merchant Center'ın SEO ile ilgisi var mı?",
+   "c": "Merchant Center reklam için kullanıldığı gibi ürünlerin Google'daki ücretsiz listelemelerde görünmesini de sağlar. Feed'deki fiyat ve stok bilgisinin sayfa ve yapısal veriyle tutarlı olması gerekir; tutarsızlık ürün onaylarında soruna yol açabilir."
+  },
+  {
+   "s": "Yeni açılan bir mağazada SEO'ya nereden başlamalıyım?",
+   "c": "Önce kategori yapısını arama talebine göre kurun ve filtre URL'lerinin dizine nasıl gireceğine karar verin; bunlar sonradan değiştirmesi en zor kararlardır. Ardından ana kategorilerin içeriğini ve ürün şemasını hazırlayın, Search Console ve GA4 kurulumunu ilk günden yapın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can you do e-commerce SEO on platforms like Shopify or WooCommerce?",
+   "c": "Yes. URL structure, filter parameters, canonical behaviour and structured data output vary by platform and theme, though. Before starting, check what the platform generates by default on these points and which settings you can actually change."
+  },
+  {
+   "s": "Is it a problem to use the manufacturer's product descriptions?",
+   "c": "There is no penalty for it, but standing out among dozens of sites using the same text becomes difficult, and Google picks one of the duplicate versions to show. Rather than rewriting the whole catalogue, start with your best-selling and most-searched products and add original information such as usage tips, measurements and comparisons."
+  },
+  {
+   "s": "Do product reviews help SEO?",
+   "c": "Genuine user reviews add original content to a product page and describe the product in the words customers actually use. If reviews are visible on the page, they can be marked up with aggregateRating. Fake or paid reviews are risky under both search engine policies and consumer protection rules."
+  },
+  {
+   "s": "How much text should a category page have?",
+   "c": "There is no fixed word count. The test is whether the text helps people choose. A short intro and a section below the products that answers real questions is enough for most categories; long blocks that push products down rarely help."
+  },
+  {
+   "s": "Does Google Merchant Center matter for SEO?",
+   "c": "Besides ads, Merchant Center lets products appear in Google's free listings. Price and stock data in the feed must be consistent with the page and the structured data; mismatches can cause product approval problems."
+  },
+  {
+   "s": "Where should a new store start with SEO?",
+   "c": "First build the category structure around search demand and decide how filter URLs will be indexed; these are the hardest decisions to change later. Then prepare the main category content and Product schema, and set up Search Console and GA4 from day one."
+  }
+ ]
+}

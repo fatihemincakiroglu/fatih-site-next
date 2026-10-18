@@ -4,75 +4,28 @@ import Head from 'next/head';
 import { useState } from 'react';
 import LeadMagnet from '../components/LeadMagnet';
 import { YAYINDAKI_REHBER_SLUGS } from '../lib/content-index';
+import { REHBER_LISTE } from '../lib/rehber-liste';
 
-const TUM_REHBERLER_LISTE = [
-  { slug: 'teknik-seo', no: '01', ikon: '⚙', kategori: 'Teknik',
-    tr: { baslik: 'Teknik SEO', ozet: 'Crawl bütçesi, site mimarisi, HTTP ve performansla ilgili teknik temel taşlar.' },
-    en: { baslik: 'Technical SEO', ozet: 'Crawl budget, site architecture, HTTP and performance fundamentals.' } },
-  { slug: 'icerik-stratejisi', no: '02', ikon: '✍️', kategori: 'Strateji',
-    tr: { baslik: 'İçerik Stratejisi', ozet: 'Arama niyeti eşleştirme ve pillar-cluster modeliyle içerik planlama.' },
-    en: { baslik: 'Content Strategy', ozet: 'Content planning with search intent matching and the pillar-cluster model.' } },
-  { slug: 'on-page-seo', no: '03', ikon: '📄', kategori: 'Strateji',
-    tr: { baslik: 'On-Page SEO', ozet: 'Başlık, içerik sinyalleri ve sayfa içi optimizasyon odaklı rehber.' },
-    en: { baslik: 'On-Page SEO', ozet: 'A guide focused on titles, content signals and on-page optimization.' } },
-  { slug: 'off-page-seo', no: '04', ikon: '★', kategori: 'Strateji',
-    tr: { baslik: 'Off Page SEO', ozet: 'Dış güven, itibar ve marka sinyalleriyle organik görünürlük.' },
-    en: { baslik: 'Off-Page SEO', ozet: 'Organic visibility through external trust, reputation and brand signals.' } },
-  { slug: 'keyword-research', no: '05', ikon: '🔍', kategori: 'Strateji',
-    tr: { baslik: 'Keyword Research', ozet: 'Araştırma, arama niyeti ve içerik planına anlamlı bağlantı.' },
-    en: { baslik: 'Keyword Research', ozet: 'Research, search intent and meaningful connection to your content plan.' } },
-  { slug: 'backlink', no: '06', ikon: '🔗', kategori: 'Strateji',
-    tr: { baslik: 'Link Oluşturma', ozet: 'Backlink kalitesi, otorite sinyalleri ve sürdürülebilir link stratejisi.' },
-    en: { baslik: 'Link Building', ozet: 'Backlink quality, authority signals and sustainable link strategy.' } },
-  { slug: 'mobil-seo', no: '07', ikon: '📱', kategori: 'Teknik',
-    tr: { baslik: 'Mobil SEO', ozet: 'Mobil deneyim, kullanılabilirlik ve arama ile uyumlu sayfa sunumu.' },
-    en: { baslik: 'Mobile SEO', ozet: 'Mobile experience, usability and search-friendly page delivery.' } },
-  { slug: 'core-web-vitals', no: '08', ikon: '↗', kategori: 'Teknik',
-    tr: { baslik: 'Core Web Vitals', ozet: 'LCP, INP ve CLS optimizasyonu için kapsamlı rehber.' },
-    en: { baslik: 'Core Web Vitals', ozet: 'A comprehensive guide to LCP, INP and CLS optimization.' } },
-  { slug: 'yerel-seo', no: '09', ikon: '📍', kategori: 'Strateji',
-    tr: { baslik: 'Yerel SEO', ozet: 'Google Maps ve yerel arama optimizasyonu stratejileri.' },
-    en: { baslik: 'Local SEO', ozet: 'Google Maps and local search optimization strategies.' } },
-  { slug: 'seo-101', no: '10', ikon: '☀', kategori: 'Strateji',
-    tr: { baslik: 'SEO 101', ozet: 'SERP yapısı, temel kavramlar ve giriş seviyesi çerçeve.' },
-    en: { baslik: 'SEO 101', ozet: 'SERP structure, core concepts and a beginner-level framework.' } },
-  { slug: 'geo-nedir', no: '11', ikon: '🤖', kategori: 'AI & GEO',
-    tr: { baslik: 'GEO Nedir?', ozet: 'Generative Engine Optimization tanımı ve SEO\'dan farkı.' },
-    en: { baslik: 'What is GEO?', ozet: 'What Generative Engine Optimization is and how it differs from SEO.' } },
-  { slug: 'llmstxt', no: '12', ikon: '📄', kategori: 'Teknik',
-    tr: { baslik: 'llms.txt', ozet: 'LLM tabanlı sistemler için standart dosya oluşturma ve GEO bağlamı.' },
-    en: { baslik: 'llms.txt', ozet: 'Creating the standard file for LLM-based systems and its role in GEO.' } },
-  { slug: 'ai-overview', no: '13', ikon: '✦', kategori: 'AI & GEO',
-    tr: { baslik: 'AI Overview Optimizasyonu', ozet: 'Google AI Overview\'da kaynak olarak görünme stratejisi.' },
-    en: { baslik: 'AI Overview Optimization', ozet: 'Strategy for being cited as a source in Google AI Overview.' } },
-  { slug: 'aeo', no: '14', ikon: '▣', kategori: 'Strateji',
-    tr: { baslik: 'Answer Engine Optimization', ozet: 'Yanıt motorları ve yapılandırılmış içerikle uyumlu optimizasyon.' },
-    en: { baslik: 'Answer Engine Optimization', ozet: 'Optimization aligned with answer engines and structured content.' } },
-  { slug: 'zero-click', no: '15', ikon: '◎', kategori: 'Ölçüm & İçerik',
-    tr: { baslik: 'Zero-Click Search', ozet: 'Tıklama olmadan yanıtlanan sorgular ve görünürlük stratejisi.' },
-    en: { baslik: 'Zero-Click Search', ozet: 'Queries answered without a click, and the strategy to stay visible.' } },
-  { slug: 'eeat', no: '16', ikon: '⭐', kategori: 'Strateji',
-    tr: { baslik: 'E-E-A-T Rehberi', ozet: 'Deneyim, Uzmanlık, Otorite ve Güvenilirlik sinyalleri.' },
-    en: { baslik: 'E-E-A-T Guide', ozet: 'Experience, Expertise, Authoritativeness and Trust signals.' } },
-];
+// Liste: lib/rehber-liste.js (yalnızca başlık/özet; içerikler istemciye gitmez)
+const TUM_REHBERLER_LISTE = REHBER_LISTE;
 
 // Yalnızca gerçek içeriği yazılmış rehberler listelenir / indekslenir.
 // Yeni rehber yayına alınca lib/content-index.js -> YAYINDAKI_REHBER_SLUGS'a eklenir.
 const REHBERLER = TUM_REHBERLER_LISTE.filter(r => YAYINDAKI_REHBER_SLUGS.includes(r.slug))
 
 const KATEGORILER = {
-  tr: ['Tümü', 'Strateji', 'Teknik', 'AI & GEO', 'Ölçüm & İçerik'],
-  en: ['All', 'Strategy', 'Technical', 'AI & GEO', 'Measurement & Content'],
+  tr: ['Tümü', 'Strateji', 'Teknik', 'AI & GEO', 'Ölçüm'],
+  en: ['All', 'Strategy', 'Technical', 'AI & GEO', 'Measurement'],
 };
 // Maps the localized category label back to the canonical (TR) key stored on each item
 const KAT_EN_TO_TR = {
   'All': 'Tümü', 'Strategy': 'Strateji', 'Technical': 'Teknik',
-  'AI & GEO': 'AI & GEO', 'Measurement & Content': 'Ölçüm & İçerik',
+  'AI & GEO': 'AI & GEO', 'Measurement': 'Ölçüm',
 };
 const KAT_RENK = {
   Teknik: { bg: '#e0f2fe', color: '#0369a1' },
   Strateji: { bg: '#f3e8ff', color: '#7c3aed' },
-  'Ölçüm & İçerik': { bg: '#fce7f3', color: '#be185d' },
+  'Ölçüm': { bg: '#dcfce7', color: '#15803d' },
   'AI & GEO': { bg: '#e0f2fe', color: '#0284c7' },
 };
 

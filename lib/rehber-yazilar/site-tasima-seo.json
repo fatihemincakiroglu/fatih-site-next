@@ -1,0 +1,399 @@
+{
+ "kategori": "Teknik",
+ "baslik_tr": "Site Taşıma (Migrasyon) SEO Rehberi: 301 Haritası, Adres Değişikliği ve İzleme",
+ "baslik_en": "Site Migration SEO Guide: 301 Redirect Maps, Change of Address and Monitoring",
+ "meta_baslik_tr": "Site Taşıma SEO Rehberi: 301 Haritası ve İzleme",
+ "meta_baslik_en": "Site Migration SEO Guide: 301 Maps and Monitoring",
+ "meta_desc_tr": "Domain, platform veya URL değişikliğinde organik trafiği korumak için 301 haritası, Search Console Adres Değişikliği aracı ve taşıma sonrası izleme adımları.",
+ "meta_desc_en": "How to protect organic traffic during a domain, platform or URL change: 301 redirect maps, the Change of Address tool and post-migration monitoring.",
+ "ozet_tr": "Domain, platform ya da URL yapısı değişirken organik trafiği korumak için adım adım taşıma planı.",
+ "ozet_en": "A step-by-step plan for keeping organic traffic when your domain, platform or URL structure changes.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Site taşıma, bir web sitesinin domainini, altyapısını (CMS veya e-ticaret platformu) ya da URL yapısını değiştirdiğiniz her projedir. Kullanıcı açısından yeni bir tasarım gibi görünse de arama motoru açısından binlerce adresin yer değiştirmesi demektir. Google'ın eski adreslerde biriken sinyalleri yeni adreslere bağlayabilmesi için her eski URL'nin nereye gittiğini açıkça söylemeniz gerekir.",
+    "Sahada en sık gördüğüm tablo şu: tasarım ve yazılım ekibi lansman tarihine odaklanır, yönlendirmeler son haftaya kalır ve taşıma sonrasında organik trafik düşünce sebep aranmaya başlanır. Bu rehberde taşımayı SEO açısından güvenli yürütmek için gereken adımları sırasıyla anlatıyorum: envanter, 301 yönlendirme haritası, Search Console Adres Değişikliği aracı, canonical/hreflang/sitemap güncellemesi ve taşıma sonrası izleme.",
+    {
+     "alinti": "Kısa cevap: SEO açısından güvenli bir site taşıması için her eski URL'yi en yakın karşılığı olan yeni URL'ye tek adımda 301 ile yönlendirin, canonical, hreflang, sitemap ve iç linkleri yeni adreslere göre güncelleyin. Search Console Adres Değişikliği aracını yalnızca domain değiştiğinde kullanın ve taşıma sonrasında dizine ekleme, tarama hataları ve performans verilerini haftalarca izleyin."
+    }
+   ]
+  },
+  {
+   "baslik": "Site taşıma türleri: hangi değişiklik ne kadar risk taşır?",
+   "paragraflar": [
+    "Her taşıma aynı değildir. Riski belirleyen temel soru, URL'lerin değişip değişmediğidir. URL'ler aynı kalıyorsa yönlendirme gerekmez; değişiyorsa her değişiklik bir yönlendirme kuralı demektir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Taşıma türü",
+       "Örnek",
+       "URL'ler değişir mi?",
+       "Adres Değişikliği aracı"
+      ],
+      "satirlar": [
+       [
+        "Domain değişikliği",
+        "eskimarka.com → yenimarka.com",
+        "Evet",
+        "Evet, kullanılır"
+       ],
+       [
+        "Protokol değişikliği",
+        "http:// → https://",
+        "Evet (protokol)",
+        "Hayır"
+       ],
+       [
+        "Platform/CMS değişikliği (aynı domain)",
+        "WordPress → Shopify",
+        "Çoğunlukla evet",
+        "Hayır"
+       ],
+       [
+        "URL yapısı değişikliği",
+        "/urun.php?id=12 → /urunler/mavi-gomlek",
+        "Evet",
+        "Hayır"
+       ],
+       [
+        "Tasarım yenileme",
+        "Aynı URL'ler, yeni şablon",
+        "Hayır",
+        "Hayır"
+       ],
+       [
+        "Hosting/sunucu değişikliği",
+        "Aynı domain, yeni sunucu",
+        "Hayır",
+        "Hayır"
+       ]
+      ]
+     }
+    },
+    "URL'lerin değişmediği taşımalarda bile risk sıfır değildir: yeni şablon başlık etiketlerini, iç linkleri, yapısal veriyi ya da sayfa hızını bozabilir. Bu yüzden her taşımada lansman öncesi bir [teknik SEO denetimi](/rehber/teknik-seo) yapmanızı öneririm."
+   ]
+  },
+  {
+   "baslik": "Taşımadan önce: URL envanteri ve kıyaslama verisi",
+   "paragraflar": [
+    "Yönlendirme haritası ancak eksiksiz bir URL listesiyle doğru kurulur. Yalnızca sitemap'e güvenmek yetmez; sitemap'te olmayan ama trafik ya da backlink alan sayfalar sık görülür.",
+    {
+     "liste": [
+      "Bir tarama aracıyla mevcut sitenin tüm erişilebilir URL'lerini çıkarın.",
+      "Search Console Performans raporundan trafik alan sayfaları, GA4'ten açılış sayfalarını dışa aktarın.",
+      "Backlink alan sayfaları listeleyin; bunlar haritada öncelikli olmalı.",
+      "Görsel, PDF ve diğer dosya URL'lerini de envantere ekleyin.",
+      "Önemli sorgulardaki mevcut konumları, sayfa bazlı tıklamaları ve Core Web Vitals değerlerini kayıt altına alın."
+     ]
+    },
+    "Bu kıyaslama verisi olmadan taşıma sonrası “düştük mü, ne kadar düştük?” sorusuna cevap veremezsiniz. Ölçüm kurgusu için [SEO raporlama rehberi](/rehber/seo-raporlama) hangi metrikleri saklamanız gerektiğini ayrıntılı anlatıyor; hız tarafında ise [Core Web Vitals eşikleri](/blog/core-web-vitals-2025) referans noktası olur.",
+    "Test ortamını (staging) şifreyle ya da noindex ile kapalı tutun, ama canlıya geçişte bu engellerin kaldırıldığını mutlaka kontrol edin. Lansmanda unutulmuş bir noindex veya robots.txt engeli, en pahalı taşıma hatalarından biridir."
+   ]
+  },
+  {
+   "baslik": "301 yönlendirme haritası nasıl hazırlanır?",
+   "paragraflar": [
+    "301 yönlendirme haritası, her eski URL'nin karşısına yeni URL'sini yazdığınız bir tablodur. Kalıcı taşımada 301 (ya da 308) kullanılır; 302 ve 307 geçici taşıma sinyali verir.",
+    {
+     "kontrol": [
+      "Birebir eşleştirin: her eski sayfa, içerik olarak en yakın yeni sayfaya gitsin.",
+      "Zincir kurmayın: A → B → C yerine A → C şeklinde tek adımda yönlendirin.",
+      "Tüm eski URL'leri ana sayfaya toplamayın; Google bunu soft 404 olarak değerlendirebilir.",
+      "Gerçekten karşılığı olmayan içerik için 404 veya 410 döndürün.",
+      "Parametreli URL'leri, sondaki eğik çizgi ve büyük/küçük harf varyasyonlarını kurallara dahil edin.",
+      "Yönlendirmeleri en az bir yıl, mümkünse daha uzun süre yerinde tutun."
+     ]
+    },
+    "Domain değişikliğinde yol yapısı aynı kalıyorsa tek bir genel kural yeterli olabilir. Apache sunucuda .htaccess için basit bir örnek:",
+    {
+     "kod": "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^(www\\.)?eskimarka\\.com$ [NC]\nRewriteRule ^(.*)$ https://www.yenimarka.com/$1 [R=301,L]"
+    },
+    "URL yapısı da değişiyorsa genel kural yetmez; haritadaki satırları sunucu ya da platform düzeyinde tek tek tanımlamanız gerekir. E-ticaret sitelerinde kategori, ürün ve filtre URL'leri ayrı ele alınmalıdır; bu konuyu [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) içinde ayrıca işledim."
+   ]
+  },
+  {
+   "baslik": "Search Console Adres Değişikliği aracı ne zaman kullanılır?",
+   "paragraflar": [
+    "Search Console'daki Adres Değişikliği (Change of Address) aracı yalnızca domain değişikliği için tasarlanmıştır. HTTP'den HTTPS'e geçiş, aynı domain içinde platform veya URL yapısı değişikliği için kullanılmaz; bu durumlarda 301 yönlendirmeler ve güncel sitemap yeterlidir.",
+    "Aracı kullanmadan önce şu koşulları sağlayın:",
+    {
+     "liste": [
+      "Eski ve yeni domainin ikisi de Search Console'da, aynı hesapla doğrulanmış olsun.",
+      "Eski domaindeki sayfalar yeni domaindeki karşılıklarına 301 ile yönlensin; araç bunu birkaç örnek URL üzerinden kontrol eder.",
+      "İşlemi eski domainin mülkünde başlatın ve hedef olarak yeni domaini seçin.",
+      "Eski domainin robots.txt dosyası Googlebot'u engellemesin; engellenen URL'deki yönlendirme görülemez."
+     ]
+    },
+    "Araç tek başına bir taşıma yöntemi değildir; Google'a taşımayı bildiren ek bir sinyaldir. Asıl işi 301 yönlendirmeler yapar."
+   ]
+  },
+  {
+   "baslik": "Canonical, hreflang, sitemap ve iç linkler nasıl güncellenir?",
+   "paragraflar": [
+    "Yönlendirmeler eski adresleri yeni adreslere bağlar; site içindeki tüm sinyallerin de yeni adresleri göstermesi gerekir. Çelişkili sinyal, Google'ın hangi URL'yi esas alacağına karar vermesini zorlaştırır.",
+    {
+     "alt": "Canonical ve hreflang"
+    },
+    "Her sayfanın canonical etiketi yeni domaindeki kendi mutlak URL'sini göstermelidir; eski domaine işaret eden canonical sık yapılan bir hatadır. Çok dilli sitelerde hreflang etiketleri tüm dil sürümlerinin yeni URL'lerini içermeli, karşılıklı olmalı ve varsa x-default da güncellenmelidir.",
+    {
+     "alt": "Sitemap ve iç linkler"
+    },
+    "Yeni XML sitemap yalnızca yeni, 200 durum kodu dönen ve canonical URL'leri içermeli; Search Console'daki yeni mülke gönderilmelidir. Eski URL'leri içeren sitemap'i geçici olarak tutmak, Google'ın yönlendirmeleri daha hızlı keşfetmesine yardımcı olabilir. İç linkleri ise yönlendirmeye bırakmayın, doğrudan yeni URL'lere güncelleyin.",
+    "Yapısal verideki url ve @id alanları da gözden kaçmamalı; [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) bu alanların nasıl kurgulanacağını anlatıyor. Google Business Profile'daki web sitesi adresini, sosyal medya profillerini ve reklam hedef URL'lerini de güncelleyin; yerel işletmeler için bu adım [yerel SEO rehberi](/rehber/yerel-seo) ile birlikte ele alınmalı."
+   ]
+  },
+  {
+   "baslik": "Taşıma sonrası izleme: ilk günler ve ilk haftalar",
+   "paragraflar": [
+    "Taşıma, lansman günü bitmez. Sıralamalarda dalgalanma normaldir; Google'ın yeni URL'leri tarayıp dizine alması zaman alır. Önemli olan, kalıcı bir sorunu erken yakalamaktır.",
+    {
+     "kontrol": [
+      "İlk gün: haritadaki URL'leri bir tarayıcıyla test edin; durum kodlarını, zincirleri ve hedefleri doğrulayın.",
+      "İlk gün: canlı sitede noindex, robots.txt engeli ve canonical hatası olmadığını kontrol edin.",
+      "İlk hafta: Search Console'da Sayfa dizine ekleme raporunu ve Tarama istatistiklerini takip edin.",
+      "İlk hafta: sunucu loglarında Googlebot'un aldığı 404 ve 5xx yanıtlarını inceleyin.",
+      "Sonraki haftalar: eski ve yeni mülkün Performans verilerini birlikte izleyin, kıyaslama verisiyle karşılaştırın.",
+      "Sonraki haftalar: GA4'te açılış sayfası ve dönüşüm verilerini önceki dönemle kıyaslayın."
+     ]
+    },
+    "Bu kontroller için kullanabileceğiniz ücretsiz [SEO araçları](/araclar) listesine göz atabilirsiniz. Belirli sayfa gruplarında düşüş kalıcı hale geliyorsa önce yönlendirme hedeflerini, sonra içerik ve iç link farklarını kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Site taşımada en sık gördüğüm hatalar",
+   "paragraflar": [
+    {
+     "liste": [
+      "Domain, platform, URL yapısı ve içeriği aynı anda değiştirmek; sorun çıktığında sebebi ayırmak imkânsızlaşır.",
+      "Yönlendirmeleri lansmandan birkaç ay sonra kaldırmak ya da eski domainin kaydını yenilememek.",
+      "Görsel ve PDF URL'lerini haritaya almamak.",
+      "Çok dilli sitede yalnızca ana dili taşıyıp diğer dillerin hreflang bağlantılarını kırık bırakmak.",
+      "Taşıma sonrası ölçümü yalnızca toplam trafiğe bakarak yapmak."
+     ]
+    },
+    "Büyük veya çok dilli bir taşıma planlıyorsanız, süreci baştan bir [SEO uzmanı](/seo-uzmani) ile planlamak geri dönüşü zor hataları önler. Taşıma planınızı birlikte gözden geçirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A site migration is any project that changes a website's domain, platform (CMS or e-commerce system) or URL structure. To visitors it may look like a redesign; to a search engine, thousands of addresses are moving at once. For Google to carry the signals of old URLs over to new ones, you have to state clearly where every old URL now lives.",
+    "The pattern I see most often: teams focus on the launch date, redirects get pushed to the final week, and the search for answers starts only once organic traffic drops. This guide covers the steps in order: inventory, the 301 redirect map, Search Console's Change of Address tool, canonical/hreflang/sitemap updates and post-migration monitoring.",
+    {
+     "alinti": "Short answer: for an SEO-safe site migration, redirect every old URL to its closest equivalent new URL with a single 301, and update canonicals, hreflang, sitemaps and internal links to the new addresses. Use Search Console's Change of Address tool only when the domain changes, and monitor indexing, crawl errors and performance data for weeks after launch."
+    }
+   ]
+  },
+  {
+   "baslik": "Types of site migration: how risky is each change?",
+   "paragraflar": [
+    "The key question that defines risk is whether URLs change. If they stay the same, no redirects are needed; if they change, every change means a redirect rule.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Migration type",
+       "Example",
+       "Do URLs change?",
+       "Change of Address tool"
+      ],
+      "satirlar": [
+       [
+        "Domain change",
+        "oldbrand.com → newbrand.com",
+        "Yes",
+        "Yes, use it"
+       ],
+       [
+        "Protocol change",
+        "http:// → https://",
+        "Yes (protocol)",
+        "No"
+       ],
+       [
+        "Platform/CMS change (same domain)",
+        "WordPress → Shopify",
+        "Usually yes",
+        "No"
+       ],
+       [
+        "URL structure change",
+        "/product.php?id=12 → /products/blue-shirt",
+        "Yes",
+        "No"
+       ],
+       [
+        "Redesign",
+        "Same URLs, new template",
+        "No",
+        "No"
+       ],
+       [
+        "Hosting/server change",
+        "Same domain, new server",
+        "No",
+        "No"
+       ]
+      ]
+     }
+    },
+    "Even when URLs stay put, a new template can break title tags, internal links, structured data or speed, so I recommend a pre-launch [technical SEO audit](/en/guides/teknik-seo) for every migration."
+   ]
+  },
+  {
+   "baslik": "Before the move: URL inventory and benchmark data",
+   "paragraflar": [
+    "A redirect map is only as good as the URL list behind it. The sitemap alone is not enough; pages missing from it often still earn traffic or backlinks.",
+    {
+     "liste": [
+      "Crawl the current site and export every reachable URL.",
+      "Export pages with traffic from the Search Console Performance report and landing pages from GA4.",
+      "List pages with backlinks; they should be prioritised in the map.",
+      "Add image, PDF and other file URLs to the inventory.",
+      "Record current positions for key queries, clicks per page and Core Web Vitals values."
+     ]
+    },
+    "Without this benchmark you cannot answer “did we drop, and by how much?” after launch. The [SEO reporting guide](/en/guides/seo-raporlama) explains which metrics to keep, and the [Core Web Vitals thresholds](/en/blog/core-web-vitals-2025) give you a reference point for speed.",
+    "Keep staging behind a password or noindex, and confirm those blocks are removed at go-live; a forgotten noindex or robots.txt block is one of the costliest migration mistakes."
+   ]
+  },
+  {
+   "baslik": "How do you build a 301 redirect map?",
+   "paragraflar": [
+    "A 301 redirect map is a table pairing every old URL with its new URL. Permanent moves use 301 (or 308); 302 and 307 signal a temporary move.",
+    {
+     "kontrol": [
+      "Map one to one: each old page should go to the closest new page in terms of content.",
+      "Avoid chains: redirect A → C in a single hop instead of A → B → C.",
+      "Do not send every old URL to the homepage; Google may treat that as a soft 404.",
+      "Return 404 or 410 for content that genuinely has no equivalent.",
+      "Cover parameterised URLs, trailing slashes and uppercase/lowercase variants in your rules.",
+      "Keep redirects in place for at least a year, longer if you can."
+     ]
+    },
+    "For a domain change where the path structure stays the same, a single general rule may be enough. A simple example for .htaccess on an Apache server:",
+    {
+     "kod": "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^(www\\.)?oldbrand\\.com$ [NC]\nRewriteRule ^(.*)$ https://www.newbrand.com/$1 [R=301,L]"
+    },
+    "If the URL structure changes too, you need to define the map's rows individually at server or platform level. Category, product and filter URLs need separate handling, as covered in the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "When should you use the Search Console Change of Address tool?",
+   "paragraflar": [
+    "The Change of Address tool in Search Console is designed for domain changes only. It is not used for moving from HTTP to HTTPS or for platform or URL structure changes within the same domain; in those cases 301 redirects and an updated sitemap are what you need.",
+    "Before using the tool, make sure that:",
+    {
+     "liste": [
+      "Both the old and the new domain are verified in Search Console under the same account.",
+      "Pages on the old domain 301 redirect to their equivalents on the new domain; the tool checks this on a few sample URLs.",
+      "You start the request from the old domain's property and select the new domain as the destination.",
+      "The old domain's robots.txt does not block Googlebot; a redirect on a blocked URL cannot be seen."
+     ]
+    },
+    "The tool is an extra signal about the move, not a migration method on its own; the 301 redirects do the real work."
+   ]
+  },
+  {
+   "baslik": "How do you update canonicals, hreflang, sitemaps and internal links?",
+   "paragraflar": [
+    "Redirects connect old addresses to new ones, but every on-site signal must also point to the new addresses. Conflicting signals make it harder for Google to pick the main URL.",
+    {
+     "alt": "Canonical and hreflang"
+    },
+    "Each page's canonical tag should point to its own absolute URL on the new domain; canonicals still pointing to the old domain are a frequent error. On multilingual sites, hreflang annotations must list the new URLs of every language version, be reciprocal, and include an updated x-default where one exists.",
+    {
+     "alt": "Sitemaps and internal links"
+    },
+    "The new XML sitemap should list only new, canonical URLs returning a 200 status code, submitted to the new Search Console property. Temporarily keeping a sitemap of the old URLs can help Google discover the redirects faster. Update internal links to point straight at the new URLs rather than through redirects.",
+    "The url and @id fields in structured data are easy to miss; the [schema structured data guide](/en/guides/schema-yapisal-veri) explains how to set them up. Also update the website address in Google Business Profile, your social profiles and ad destination URLs; for local businesses this step belongs alongside the [local SEO guide](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Post-migration monitoring: the first days and weeks",
+   "paragraflar": [
+    "A migration does not end on launch day. Ranking fluctuations are normal while Google crawls and indexes the new URLs; what matters is catching a lasting problem early.",
+    {
+     "kontrol": [
+      "Day one: test the URLs in your map with a crawler and verify status codes, chains and destinations.",
+      "Day one: confirm the live site has no noindex, robots.txt block or canonical error.",
+      "Week one: watch the Page indexing report and Crawl stats in Search Console.",
+      "Week one: review the 404 and 5xx responses Googlebot receives in your server logs.",
+      "Following weeks: monitor Performance data for both the old and the new property and compare it with your benchmark.",
+      "Following weeks: compare landing page and conversion data in GA4 against the previous period."
+     ]
+    },
+    "My list of free [SEO tools](/en/tools) covers several options for these checks. If a drop in specific page groups becomes persistent, check redirect destinations first, then differences in content and internal linking."
+   ]
+  },
+  {
+   "baslik": "The site migration mistakes I see most often",
+   "paragraflar": [
+    {
+     "liste": [
+      "Changing the domain, platform, URL structure and content all at once, which makes it impossible to isolate the cause when something goes wrong.",
+      "Removing redirects a few months after launch, or letting the old domain registration lapse.",
+      "Leaving image and PDF URLs out of the map.",
+      "Migrating only the main language on a multilingual site and leaving the other languages' hreflang links broken.",
+      "Measuring the migration only by looking at total traffic."
+     ]
+    },
+    "If you are planning a large or multilingual migration, involving [SEO consulting](/en/seo-consulting) from the start prevents mistakes that are hard to undo. If you would like to review your migration plan together, you can [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Site taşıma sonrası sıralamalar ne kadar sürede toparlanır?",
+   "c": "Kesin bir süre yoktur; sitenin büyüklüğüne, Google'ın siteyi ne sıklıkla taradığına ve yönlendirmelerin doğruluğuna bağlıdır. Google, orta ölçekli bir sitede sayfaların çoğunun yeni adreslere taşınmasının birkaç hafta sürebileceğini, büyük sitelerde daha uzun sürebileceğini belirtiyor. Bu süre boyunca dalgalanma normaldir; haftalar geçtikçe toparlanma yoksa teknik bir sorun aranmalıdır."
+  },
+  {
+   "s": "Eski domaini ne kadar süre elimde tutmalıyım?",
+   "c": "Yönlendirmelerin en az bir yıl yerinde kalması önerilir, bu da eski domainin en az o süre aktif olmasını gerektirir. Pratikte eski domaini süresiz yenilemenizi öneririm. Domain düşerse yönlendirmeler ve backlink değeri kaybolur, alan adı başkasının eline de geçebilir."
+  },
+  {
+   "s": "Taşımayı tek seferde mi, bölüm bölüm mü yapmalıyım?",
+   "c": "Büyük sitelerde önce bir bölümü taşıyıp sonuçları izlemek, sorunları küçük ölçekte yakalamayı sağlar. Bölüm bölüm taşıma toplam süreyi uzatır ama riski dağıtır. Küçük ve orta ölçekli sitelerde iyi hazırlanmış tek seferlik bir geçiş genellikle daha yönetilebilirdir."
+  },
+  {
+   "s": "Yanlışlıkla 302 kullandıysam ne olur?",
+   "c": "302 geçici taşıma sinyali verir; kalıcı bir değişiklikte doğru tercih 301 veya 308'dir. Google uzun süre yerinde kalan yönlendirmeleri zamanla farklı değerlendirebilir, ama bu belirsizliğe güvenmek yerine kuralları hemen 301'e çevirmek en net yoldur."
+  },
+  {
+   "s": "Önemli backlinklerin adresini değiştirmeli miyim?",
+   "c": "301 yönlendirmeler backlinklerin eski URL'ye gelen değerini yeni adrese taşır, bu yüzden tüm linkleri değiştirmek gerekmez. Yine de en değerli birkaç link için site sahiplerinden bağlantıyı yeni URL'ye güncellemelerini istemek, yönlendirmeye bağımlılığı azaltır."
+  },
+  {
+   "s": "Taşıma sırasında içerikleri de yeniden yazmalı mıyım?",
+   "c": "Mümkünse hayır. İçerik, başlık ve iç link yapısını taşımayla aynı anda değiştirmek, performans değiştiğinde sebebin ayrıştırılmasını zorlaştırır. Önce taşımayı tamamlayıp verileri oturtmak, içerik iyileştirmelerini sonraki aşamaya bırakmak daha güvenli bir yaklaşımdır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How long does it take for rankings to recover after a site migration?",
+   "c": "There is no fixed timeframe; it depends on site size, crawl frequency and redirect accuracy. Google notes that most pages of a medium-sized site can take a few weeks to move in its index, and larger sites longer. If there is no recovery as the weeks pass, look for a technical problem."
+  },
+  {
+   "s": "How long should I keep the old domain?",
+   "c": "Redirects should stay in place for at least a year, so the old domain must stay active at least that long. In practice I recommend renewing it indefinitely; if it lapses, the redirects and backlink value are lost and the domain can end up in someone else's hands."
+  },
+  {
+   "s": "Should I migrate all at once or in sections?",
+   "c": "On large sites, moving one section first lets you catch problems at a small scale; it takes longer but spreads the risk. For small and medium-sized sites, a well-prepared single switchover is usually easier to manage."
+  },
+  {
+   "s": "What happens if I used 302 redirects by mistake?",
+   "c": "A 302 signals a temporary move; for a permanent change the right choice is 301 or 308. Google may treat long-standing redirects differently over time, but rather than relying on that uncertainty, switching the rules to 301 straight away is the clearest path."
+  },
+  {
+   "s": "Should I ask sites to update important backlinks?",
+   "c": "301 redirects pass the value of links to old URLs on to the new addresses, so you do not need to change every link. Asking the owners of your few most valuable links to update them still reduces dependence on redirects."
+  },
+  {
+   "s": "Should I rewrite content during the migration?",
+   "c": "Ideally, no. Changing content, titles and internal linking during the move makes it hard to isolate the cause when performance shifts. Finish the migration, let the data settle, then improve content in a later phase."
+  }
+ ]
+}

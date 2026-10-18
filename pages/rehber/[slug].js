@@ -2,71 +2,12 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import { YAYINDAKI_REHBER_SLUGS } from '../../lib/content-index';
 import AiOzetle from '../../components/AiOzetle';
 import { getRehberMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
-
-/* ── REHBER VERİSİ (TR + EN) ── */
-function makeRehber(baslik_tr, baslik_en, kategori, bolumler_tr, bolumler_en) {
-  return { baslik_tr, baslik_en, kategori, bolumler_tr, bolumler_en }
-}
-
-function defaultBolum(baslik_tr, baslik_en) {
-  return {
-    baslik_tr, baslik_en,
-    paragraflar_tr: [
-      'Bu bölüm SEO ve dijital pazarlamanın temel kavramlarını ele almaktadır. Doğru stratejilerle organik görünürlüğünüzü artırmak mümkündür.',
-      'Güncel algoritmalar ve kullanıcı davranışındaki değişimlere uyum sağlamak, uzun vadeli başarının anahtarıdır.',
-      'Veri odaklı, kullanıcı merkezli bir yaklaşım en sağlam pozisyonu oluşturur.',
-    ],
-    paragraflar_en: [
-      'This section covers the core concepts of SEO and digital marketing. It is possible to increase your organic visibility with the right strategies.',
-      'Adapting to current algorithms and changes in user behavior is the key to long-term success.',
-      'A data-driven, user-centric approach creates the most solid position.',
-    ],
-  }
-}
-
-export const TUM_REHBERLER = {
-  'teknik-seo': makeRehber('Teknik SEO Temelleri', 'Technical SEO Fundamentals', 'Teknik',
-    [
-      { baslik: 'Teknik SEO Nedir?', paragraflar: ['Teknik SEO, web sitenizin arama motorları tarafından doğru biçimde taranabilmesi, indexlenebilmesi ve sıralanabilmesi için gereken teknik altyapı çalışmalarının tümüdür. İçeriğiniz ne kadar kaliteli olursa olsun, teknik sorunlar organik büyümenizi engelleyebilir.', 'Teknik SEO\'nun üç temel katmanı vardır: Erişilebilirlik (crawlability), indexleme ve sıralama sinyal gücü. Her katmanın eksiksiz çalışması gereklidir.', 'Düzenli teknik SEO denetimleri (audit) bu sorunları erkenden tespit etmenizi sağlar. Screaming Frog, Ahrefs Site Audit ve Google Search Console bu süreçte en değerli araçlardır.'] },
-      { baslik: 'Site Hızı ve Core Web Vitals', paragraflar: ['Sayfa hızı hem resmi sıralama faktörü hem de kullanıcı deneyiminin kritik bileşenidir. Google\'ın Core Web Vitals metrikleri — LCP, INP ve CLS — teknik SEO\'nun odak noktalarından biridir.', 'LCP (Largest Contentful Paint) için hedef 2.5 saniyenin altıdır. Hero görsellerini preload etmek, CDN kullanmak ve render-blocking kaynakları azaltmak LCP\'yi iyileştirir.', 'INP (Interaction to Next Paint) için 200ms altı hedeflenir. Ana thread blokajını azaltmak ve third-party script\'leri optimize etmek INP üzerinde en büyük etkiyi yaratır.'] },
-      { baslik: 'Crawlability ve Indexleme', paragraflar: ['Googlebot sitenizi tarayabilmeli ve önemli sayfalarınızı indexleyebilmelidir. Robots.txt, canonical tag ve XML sitemap bu sürecin teknik araçlarıdır.', 'Crawl bütçesini verimli kullanmak için düşük kaliteli sayfaları, parametre URL\'lerini ve session ID\'leri robots.txt veya noindex ile taramadan hariç tutun.', 'Google Search Console\'daki Coverage raporu indexleme sorunlarını gösterir. Bu raporu düzenli inceleyin ve "Excluded" sayfaları kategorize edin.'] },
-      { baslik: 'Schema Markup ve Yapısal Veri', paragraflar: ['Schema markup, arama motorlarına sayfanızın içeriği hakkında makine-okunabilir bağlam sağlar. FAQPage, Article, Product ve HowTo schema türleri zengin sonuçlar kazandırır.', 'AI Overview döneminde FAQPage ve Article schema, AI sistemlerinde kaynak seçilme olasılığını artıran önemli teknik sinyallerdir.', 'Schema doğruluğunu Google\'ın Rich Results Test aracıyla kontrol edin. Hatalı schema zengin sonuçlardan dışlanmanıza neden olabilir.'] },
-      { baslik: 'Mobil Uyumluluk', paragraflar: ['Google Mobile-First Indexing kullanır — sitenizi değerlendirmek için masaüstü değil, mobil versiyonu kullanır. Mobil versiyonunuz eksik içerik veya schema taşıyorsa sıralamada geride kalırsınız.', 'Responsive design, minimum 16px font boyutu, 48px tıklanabilir öğe boşluğu ve doğru viewport meta tag mobil uyumluluğun temelini oluşturur.', 'Google Search Console Mobil Kullanılabilirlik raporu ve Google\'ın Mobile-Friendly Test aracıyla sorunları hızla tespit edebilirsiniz.'] },
-      { baslik: 'Teknik SEO Denetim Süreci', paragraflar: ['Kapsamlı teknik audit için öncelik sırası: indexleme sorunları, kırık linkler (404), yönlendirme zincirleri, Core Web Vitals sorunları, duplicate content ve schema hataları.', 'Screaming Frog ile tam site taraması yapın. Ahrefs Site Audit ile teknik skor takip edin. Her audit sonrası önceliklendirilmiş aksiyon planı oluşturun.', 'Teknik SEO tek seferlik bir proje değil, sürekli izleme gerektiren bir disiplindir. Aylık teknik sağlık kontrolü ve büyük değişiklikler öncesi audit standart süreç olmalıdır.'] },
-    ],
-    [
-      { baslik: 'What is Technical SEO?', paragraflar: ['Technical SEO encompasses all the technical infrastructure work required for your website to be correctly crawled, indexed and ranked by search engines. No matter how high-quality your content is, technical issues can block organic growth.', 'Technical SEO has three fundamental layers: Accessibility (crawlability), indexing and ranking signal strength. Every layer needs to work flawlessly.', 'Regular technical SEO audits allow you to detect these issues early. Screaming Frog, Ahrefs Site Audit and Google Search Console are the most valuable tools in this process.'] },
-      { baslik: 'Site Speed and Core Web Vitals', paragraflar: ['Page speed is both an official ranking factor and a critical component of user experience. Google\'s Core Web Vitals metrics — LCP, INP and CLS — are one of the focal points of technical SEO.', 'The target for LCP (Largest Contentful Paint) is under 2.5 seconds. Preloading hero images, using a CDN and reducing render-blocking resources improves LCP.', 'For INP (Interaction to Next Paint), under 200ms is targeted. Reducing main thread blocking and optimizing third-party scripts creates the greatest impact on INP.'] },
-      { baslik: 'Crawlability and Indexing', paragraflar: ['Googlebot must be able to crawl your site and index your important pages. Robots.txt, canonical tags and XML sitemaps are the technical tools for this process.', 'To use crawl budget efficiently, exclude low-quality pages, parameter URLs and session IDs from crawling with robots.txt or noindex.', 'The Coverage report in Google Search Console shows indexing issues. Review this report regularly and categorize "Excluded" pages.'] },
-      { baslik: 'Schema Markup and Structured Data', paragraflar: ['Schema markup provides search engines with machine-readable context about your page\'s content. FAQPage, Article, Product and HowTo schema types earn rich results.', 'In the AI Overview era, FAQPage and Article schema are important technical signals that increase the likelihood of being selected as a source in AI systems.', 'Check schema accuracy with Google\'s Rich Results Test tool. Incorrect schema can cause exclusion from rich results.'] },
-      { baslik: 'Mobile Compatibility', paragraflar: ['Google uses Mobile-First Indexing — it uses the mobile version, not the desktop version, to evaluate your site. If your mobile version lacks content or schema, you will fall behind in rankings.', 'Responsive design, minimum 16px font size, 48px clickable element spacing and correct viewport meta tag form the foundation of mobile compatibility.', 'You can quickly detect issues with Google Search Console\'s Mobile Usability report and Google\'s Mobile-Friendly Test tool.'] },
-      { baslik: 'Technical SEO Audit Process', paragraflar: ['Priority order for a comprehensive technical audit: indexing issues, broken links (404s), redirect chains, Core Web Vitals issues, duplicate content and schema errors.', 'Run a full site crawl with Screaming Frog. Track technical score with Ahrefs Site Audit. Create a prioritized action plan after each audit.', 'Technical SEO is not a one-time project but a discipline requiring continuous monitoring. Monthly technical health checks and pre-major-change audits should be standard practice.'] },
-    ]
-  ),
-  'icerik-stratejisi': makeRehber('İçerik Stratejisi', 'Content Strategy', 'Strateji',
-    [
-      { baslik: 'İçerik Stratejisi Nedir?', paragraflar: ['İçerik stratejisi, hedef kitlenizin ihtiyaçlarını karşılayan, arama niyetiyle uyumlu ve işletme hedeflerinizi destekleyen içerikleri sistematik biçimde planlama, üretme ve yönetme sürecidir.', 'İyi bir içerik stratejisi yalnızca "ne yayınlayacağınızı" değil, "kime, hangi formatta, hangi sıklıkta ve hangi hedefle" yayınlayacağınızı da belirler.', 'Topical authority inşası modern içerik stratejisinin merkezine yerleşmiştir: belirli bir konuyu kapsamlı ele alarak arama motorlarının sizi uzman kaynak olarak tanıması hedeflenir.'] },
-      { baslik: 'Arama Niyeti ve İçerik Eşleştirme', paragraflar: ['Arama niyeti (search intent), bir kullanıcının sorguyu yazarken gerçekte ne istediğidir. Dört temel niyet türü vardır: Informational, Navigational, Commercial ve Transactional.', 'Niyet analizi için en güvenilir yöntem: hedef anahtar kelimenizi Google\'a yazın ve ilk 5-10 organik sonucu inceleyin. Formatlar size içeriğin nasıl olması gerektiğini gösterir.', 'Yanlış niyet eşleştirmesi, mükemmel teknik SEO yapılmış içeriğin hiç sıralanmamasına yol açabilir. Niyet, içerik formatını belirleyen en önemli faktördür.'] },
-      { baslik: 'Pillar-Cluster Model', paragraflar: ['Pillar-cluster modeli, bir ana konuyu kapsamlı ele alan "pillar" sayfası etrafında, alt konuları derinlemesine işleyen "cluster" sayfaları organize eden içerik mimarisidir.', 'Her cluster sayfası pillar sayfasına link verir; pillar ise tüm cluster\'lara bağlanır. Bu çift yönlü iç link yapısı topical authority\'yi ve PageRank dağılımını optimize eder.', 'Pillar sayfaları geniş head kelimeleri, cluster sayfaları daha spesifik long-tail kelimeleri hedefler. Bu yapı hem kullanıcı deneyimini hem semantik bütünlüğü güçlendirir.'] },
-      { baslik: 'E-E-A-T ve İçerik Kalitesi', paragraflar: ['E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), Google\'ın içerik kalitesini değerlendirdiği çerçevedir. SEO içeriği bu dört boyutu güçlü biçimde yansıtmalıdır.', 'Deneyim sinyali için: kişisel deneyim anlatıları, birincil veri ve özgün araştırma ekleyin. Uzmanlık için: yazar biyografileri, sertifikalar ve sektör yayınlarında yer alma.', 'GEO döneminde E-E-A-T daha da kritiktir — AI sistemleri güvenilirlik sinyalleri zayıf içerikleri kaynak olarak seçmez.'] },
-      { baslik: 'İçerik Takvimi ve Üretim Süreci', paragraflar: ['İçerik takvimi, hangi içeriğin, ne zaman, kim tarafından üretileceğini ve hangi hedef kelimeyi hedeflediğini gösteren yönetim aracıdır.', 'Etkili içerik üretim süreci: anahtar kelime araştırması → içerik brief → yazarlık → SEO incelemesi → yayın → performans takibi adımlarından oluşur.', 'İçerik brief\'i hazırlık; hedef kelime, niyet türü, hedef uzunluk, ana rakip sayfalar, zorunlu başlıklar ve bağlantı kurulacak iç sayfaları içermelidir.'] },
-      { baslik: 'İçerik Güncelleme Stratejisi', paragraflar: ['Eski içerikleri güncellemek, yeni içerik üretmek kadar önemlidir. Google taze içerikleri tercih eder; güncellenen içerikler sıralama iyileşmesi yaşayabilir.', 'Güncelleme öncelikleri: Search Console\'da trafik düşüşü gösteren sayfalar, güncel olmayan istatistikler içeren içerikler, rakiplerin geçtiği sayfalar.', 'Güncelleme yaparken: istatistikleri yenileyin, yeni PAA sorularını ekleyin, eksik alt başlıkları tamamlayın ve dateModified\'ı güncelleyin.'] },
-    ],
-    [
-      { baslik: 'What is Content Strategy?', paragraflar: ['Content strategy is the systematic process of planning, producing and managing content that meets the needs of your target audience, aligns with search intent and supports your business goals.', 'A good content strategy determines not just "what you will publish" but also "to whom, in what format, how frequently and with what goal."', 'Building topical authority has moved to the center of modern content strategy: the goal is for search engines to recognize you as an expert source by comprehensively covering a specific topic.'] },
-      { baslik: 'Search Intent and Content Matching', paragraflar: ['Search intent is what a user actually wants when they type a query. There are four fundamental intent types: Informational, Navigational, Commercial and Transactional.', 'The most reliable method for intent analysis: type your target keyword into Google and examine the first 5-10 organic results. The formats show you what type of content you need.', 'Wrong intent matching can cause even perfectly technically optimized content to never rank. Intent is the most important factor in determining content format.'] },
-      { baslik: 'Pillar-Cluster Model', paragraflar: ['The pillar-cluster model is a content architecture that organizes "cluster" pages covering subtopics in depth around a "pillar" page that comprehensively covers a main topic.', 'Each cluster page links to the pillar page; the pillar connects to all clusters. This bidirectional internal link structure optimizes topical authority and PageRank distribution.', 'Pillar pages target broad head keywords, cluster pages target more specific long-tail keywords. This structure strengthens both user experience and semantic coherence.'] },
-      { baslik: 'E-E-A-T and Content Quality', paragraflar: ['E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) is the framework Google uses to evaluate content quality. SEO content should strongly reflect these four dimensions.', 'For experience signals: add personal experience narratives, primary data and original research. For expertise: author bios, certifications and appearances in industry publications.', 'In the GEO era, E-E-A-T is even more critical — AI systems don\'t select content with weak credibility signals as sources.'] },
-      { baslik: 'Content Calendar and Production Process', paragraflar: ['A content calendar is a management tool showing what content will be produced, when, by whom and which target keyword it targets.', 'An effective content production process consists of: keyword research → content brief → writing → SEO review → publication → performance tracking.', 'A content brief should include: target keyword, intent type, target length, top competitor pages, required headings and internal pages to link to.'] },
-      { baslik: 'Content Update Strategy', paragraflar: ['Updating old content is as important as producing new content. Google prefers fresh content; updated content may experience ranking improvements.', 'Update priorities: pages showing traffic drops in Search Console, content with outdated statistics, pages where competitors have surpassed you.', 'When updating: refresh statistics, add new PAA questions, complete missing subheadings and update dateModified.'] },
-    ]
-  ),
-}
-
+import { renderInline, renderBlok } from '../../components/IcerikBlok';
+import { rehberStaticPaths, rehberStaticProps } from '../../lib/rehber-icerikler';
+import { REHBER_LISTE } from '../../lib/rehber-liste';
 
 const KAT_RENK = {
   'Teknik':        { bg: '#e0f2fe', color: '#0369a1', accent: '#0ea5e9' },
@@ -81,11 +22,22 @@ export default function Page(props) {
   const slug = props.slug || router.query.slug
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')
 
-  // getStaticPaths yalnızca gerçek içeriği yazılmış rehberleri üretir.
-  const veri = TUM_REHBERLER[slug] || null
+  // İçerik getStaticProps'tan gelir (yalnızca bu rehber, yalnızca bu dil).
+  const veri = props.veri || null
   const renk = KAT_RENK[veri?.kategori] || { bg: '#f5f5f5', color: '#555', accent: '#888' }
   const bolumler = (veri ? (isEn ? veri.bolumler_en : veri.bolumler_tr) : []) || []
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
+  const sss = (veri ? (isEn ? veri.sss_en : veri.sss_tr) : null) || []
+  const metaBaslik = (veri && (isEn ? veri.meta_baslik_en : veri.meta_baslik_tr)) || baslik
+  // Başlık eki yalnızca toplam 65 karakteri aşmıyorsa eklenir (blog ile aynı kural).
+  const BASLIK_EKI = ' | Fatih Emin Çakıroğlu'
+  const sayfaBasligi = (metaBaslik + BASLIK_EKI).length <= 65 ? metaBaslik + BASLIK_EKI : metaBaslik
+  // İlgili rehberler: önce aynı kategori, sonra diğerleri; en fazla 3.
+  const digerRehberler = REHBER_LISTE.filter(r => r.slug !== slug)
+  const ilgiliRehberler = [
+    ...digerRehberler.filter(r => r.kategori === veri?.kategori),
+    ...digerRehberler.filter(r => r.kategori !== veri?.kategori),
+  ].slice(0, 3)
 
   const [aktifBolum, setAktifBolum] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
@@ -113,7 +65,7 @@ export default function Page(props) {
     : `https://fatihemincakiroglu.com/rehber/${slug}`
   const mdUrl = `${canonicalUrl}.md`
   const meta = getRehberMeta(slug)
-  const metaDesc = `${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
+  const metaDesc = (veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)) || `${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
 
   // Article şeması. Yazar ve yayıncı, _document.js'teki global Person
   // grafiğine @id ile bağlanır. Tarihler: lib/blog-meta.js → REHBER_META
@@ -140,6 +92,19 @@ export default function Page(props) {
     publisher: { '@id': 'https://fatihemincakiroglu.com/#person' },
   }
 
+  const faqSchema = sss.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${canonicalUrl}#faq`,
+    mainEntity: sss.map(f => ({
+      '@type': 'Question',
+      name: f.s,
+      acceptedAnswer: { '@type': 'Answer', text: f.c.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '') },
+    })),
+  } : null
+
+  const sssBaslik = isEn ? 'Frequently Asked Questions' : 'Sıkça Sorulan Sorular'
+
   const TOC = (
     <div style={{ background: '#fff', borderRadius: '14px', padding: '20px', border: '1px solid #eee', marginBottom: '16px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
@@ -151,10 +116,55 @@ export default function Page(props) {
       {bolumler.map((b, i) => (
         <a key={i} href={`#bolum-${i}`} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', marginBottom: '2px', textDecoration: 'none', background: !isMobile && aktifBolum === i ? `${renk.accent}12` : 'transparent', transition: 'all 0.2s' }}>
           <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, minWidth: '20px', color: !isMobile && aktifBolum === i ? renk.accent : '#ccc' }}>{String(i + 1).padStart(2, '0')}</span>
-          <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? renk.accent : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik}</span>
+          <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? renk.accent : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik || (isEn ? 'Introduction' : 'Giriş')}</span>
         </a>
       ))}
+      {sss.length > 0 && (
+        <a href="#sss" style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', textDecoration: 'none' }}>
+          <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, minWidth: '20px', color: '#ccc' }}>{String(bolumler.length + 1).padStart(2, '0')}</span>
+          <span style={{ fontSize: '13px', lineHeight: 1.4, color: '#555' }}>{sssBaslik}</span>
+        </a>
+      )}
     </div>
+  )
+
+  // SSS + ilgili rehberler: makalenin sonunda (mobil ve masaüstü ortak)
+  const SonBolum = (
+    <>
+      {sss.length > 0 && (
+        <section id="sss" style={{ marginTop: '44px', scrollMarginTop: '90px' }}>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '17px' : '20px', fontWeight: 800, color: '#111', marginBottom: '8px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+            <span style={{ width: '4px', minHeight: '20px', background: renk.accent || 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block', marginTop: '3px' }}></span>
+            {sssBaslik}
+          </h2>
+          {sss.map((f, i) => (
+            <div key={i} style={{ borderTop: '1px solid #f0ece6', padding: '16px 0' }}>
+              <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#111', marginBottom: '6px', lineHeight: 1.45 }}>{f.s}</h3>
+              <p style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, margin: 0 }}>{renderInline(f.c)}</p>
+            </div>
+          ))}
+        </section>
+      )}
+      {ilgiliRehberler.length > 0 && (
+        <section style={{ marginTop: '36px' }}>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '17px' : '20px', fontWeight: 800, color: '#111', marginBottom: '14px' }}>
+            {isEn ? 'Related guides' : 'İlgili rehberler'}
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '12px' }}>
+            {ilgiliRehberler.map(r => {
+              const l = isEn ? r.en : r.tr
+              return (
+                <Link key={r.slug} href={isEn ? `/en/guides/${r.slug}` : `/rehber/${r.slug}`} style={{ display: 'block', padding: '16px', borderRadius: '12px', border: '1px solid #eee', background: '#faf9f7', textDecoration: 'none' }}>
+                  <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>
+                  <div style={{ fontSize: '12.5px', color: '#777', lineHeight: 1.55, marginBottom: '8px' }}>{l.ozet}</div>
+                  <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+      )}
+    </>
   )
 
   const AuthorCard = (
@@ -194,17 +204,18 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{`${baslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'} | Fatih Emin Çakıroğlu`}</title>
+        <title>{sayfaBasligi}</title>
         <meta name="description" content={metaDesc} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:type" content="article" key="og-type" />
         <meta property="article:author" content="Fatih Emin Çakıroğlu" key="article-author" />
         <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+        {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":isEn?"Home":"Ana Sayfa","item":"https://fatihemincakiroglu.com"},{"@type":"ListItem","position":2,"name":isEn?"Guides":"Rehber","item":`https://fatihemincakiroglu.com/${isEn?'en/guides':'rehber'}`},{"@type":"ListItem","position":3,"name":baslik,"item":canonicalUrl}] }) }} />
       </Head>
 
-      <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5', overflowX: 'hidden' }}>
+      <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5', overflowX: 'clip' }}>
 
         {/* Breadcrumb */}
         <div style={{ background: '#faf9f7', borderBottom: '1px solid #ede8e0', padding: '10px 16px' }}>
@@ -247,15 +258,16 @@ export default function Page(props) {
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
-                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '17px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
-                    <span style={{ width: '3px', minHeight: '18px', background: renk.accent || 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block', marginTop: '3px' }}></span>
-                    {b.baslik}
-                  </h2>
-                  {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.8, marginBottom: pi < b.paragraflar.length - 1 ? '12px' : '0' }}>{p}</p>
-                  ))}
+                  {b.baslik && (
+                    <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '17px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                      <span style={{ width: '3px', minHeight: '18px', background: renk.accent || 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block', marginTop: '3px' }}></span>
+                      {b.baslik}
+                    </h2>
+                  )}
+                  {b.paragraflar.map((p, pi) => renderBlok(p, pi, true, pi < b.paragraflar.length - 1 ? '12px' : '0'))}
                 </div>
               ))}
+              {SonBolum}
             </div>
             {AuthorCard}
             {CTACard}
@@ -274,15 +286,16 @@ export default function Page(props) {
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
-                  <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
-                    <span style={{ width: '4px', minHeight: '20px', background: renk.accent || 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block', marginTop: '3px' }}></span>
-                    {b.baslik}
-                  </h2>
-                  {b.paragraflar.map((p, pi) => (
-                    <p key={pi} style={{ color: '#555', fontSize: '15px', lineHeight: 1.85, marginBottom: pi < b.paragraflar.length - 1 ? '14px' : '0' }}>{p}</p>
-                  ))}
+                  {b.baslik && (
+                    <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
+                      <span style={{ width: '4px', minHeight: '20px', background: renk.accent || 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block', marginTop: '3px' }}></span>
+                      {b.baslik}
+                    </h2>
+                  )}
+                  {b.paragraflar.map((p, pi) => renderBlok(p, pi, false, pi < b.paragraflar.length - 1 ? '14px' : '0'))}
                 </div>
               ))}
+              {SonBolum}
             </div>
           </div>
         )}
@@ -290,15 +303,6 @@ export default function Page(props) {
     </>
   )
 }
-export async function getStaticPaths() {
-  return {
-    paths: YAYINDAKI_REHBER_SLUGS.map(slug => ({ params: { slug } })),
-    // Dolgu içerikli rehber üretilmez; listede olmayan slug 404 döner.
-    fallback: false,
-  }
-}
-
-export async function getStaticProps({ params }) {
-  if (!TUM_REHBERLER[params.slug]) return { notFound: true }
-  return { props: { slug: params.slug } }
-}
+export const getStaticPaths = rehberStaticPaths
+// TR sayfası; EN sayfası (pages/en/guides/[slug].js) rehberStaticProps('en') kullanır.
+export const getStaticProps = rehberStaticProps('tr')
