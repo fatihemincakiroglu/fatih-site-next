@@ -78,7 +78,8 @@ const CSP = [
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
-  'upgrade-insecure-requests',
+  // Rapor modunda tarayıcı bu kuralı yok sayıp konsola uyarı yazar; yalnızca engelleyen modda ekle.
+  ...(CSP_ZORLA ? ['upgrade-insecure-requests'] : []),
 ].join('; ')
 
 const GUVENLIK_BASLIKLARI = [
