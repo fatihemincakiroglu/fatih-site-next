@@ -377,16 +377,11 @@ export default function App({ Component, pageProps }) {
         <meta name="google-site-verification" content="AN9Hgw1XodseTVx-GX5u_0CXwRxQPaoXmhsnfXX3-QA" />
       </Head>
 
-      {/* Google Analytics 4 — next/script ile.
-          afterInteractive: sayfa etkileşime hazır olduktan sonra yüklenir,
-          böylece ölçüm kaybı olmadan ana thread bloklanmaz. */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD"
-        strategy="afterInteractive"
-      />
-      <Script id="ga4-init" strategy="afterInteractive">
-        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WZBHKP34SD');`}
-      </Script>
+      {/* Google Analytics 4 — next/script ile, afterInteractive: sayfa etkileşime
+          hazır olduktan sonra yüklenir. Başlatma kodu public/ga-init.js'te
+          (inline script yok → CSP 'unsafe-inline' gerektirmiyor). */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD" strategy="afterInteractive" />
+      <Script src="/ga-init.js" strategy="afterInteractive" />
       {/* next/font değişkenlerini :root'a taşır; sarmalayıcı div gerekmez. */}
       <style jsx global>{`
         :root {

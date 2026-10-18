@@ -51,8 +51,57 @@ const ANASAYFAYA_YONLENEN = [
   '/elements',
 ]
 
+// ── GÜVENLİK BAŞLIKLARI ─────────────────────────────────────
+// Content-Security-Policy: sayfanın hangi kaynaklardan script, stil, görsel,
+// font yükleyebileceğini ve nereye bağlanabileceğini belirler.
+// • script-src'de 'unsafe-inline' YOK: sitede inline script bulunmuyor
+//   (GA başlatma kodu public/ga-init.js'te). JSON-LD ve __NEXT_DATA__ blokları
+//   çalıştırılabilir kod olmadığı için CSP'den etkilenmez.
+// • style-src 'unsafe-inline': tasarım satır içi stil ve styled-jsx kullanıyor.
+// • Google Analytics 4 alan adları Google'ın GA4 CSP rehberine göre eklendi.
+// • img-src www.google.com + *.gstatic.com: AiOzetle kutusundaki asistan logoları.
+// • Yeni bir dış kaynak (ör. Calendly gömme, YouTube) eklenirse buraya da eklenmeli.
+//
+// CSP_ZORLA = false → "Report-Only": tarayıcı hiçbir şeyi ENGELLEMEZ, yalnızca
+// ihlalleri konsola yazar. Bir hafta konsolda ihlal görülmezse true yapın.
+const CSP_ZORLA = false
+
+const CSP = [
+  "default-src 'self'",
+  "script-src 'self' https://www.googletagmanager.com",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob: https://www.google.com https://*.gstatic.com https://*.google-analytics.com https://*.googletagmanager.com https://*.g.doubleclick.net",
+  "font-src 'self'",
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com",
+  "frame-src 'none'",
+  "frame-ancestors 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  'upgrade-insecure-requests',
+].join('; ')
+
+const GUVENLIK_BASLIKLARI = [
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+  // HTTPS zorunluluğu (2 yıl). "preload" bilerek eklenmedi: listeye girince
+  // çıkmak aylar sürer; tüm alt alan adları HTTPS olduğundan emin olunmalı.
+  { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains' },
+  // Site bu tarayıcı özelliklerini kullanmıyor; kapalı tutulur.
+  { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()' },
+  { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
+  // CSP yalnızca canlı (production) derlemede: geliştirme modu eval kullanır.
+  ...(process.env.NODE_ENV === 'production'
+    ? [{ key: CSP_ZORLA ? 'Content-Security-Policy' : 'Content-Security-Policy-Report-Only', value: CSP }]
+    : []),
+]
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // "X-Powered-By: Next.js" başlığı gönderilmez (gereksiz altyapı bilgisi).
+  poweredByHeader: false,
+
   // TypeScript ve ESLint hataları artık build'i durdurur.
   // (Önceden ignore ediliyordu; bu, kırık kodun sessizce prod'a çıkmasına yol açar.)
   reactStrictMode: true,
@@ -121,11 +170,7 @@ const nextConfig = {
     return [
       {
         source: '/:path*',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
-        ],
+        headers: GUVENLIK_BASLIKLARI,
       },
     ]
   },
