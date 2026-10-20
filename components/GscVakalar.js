@@ -63,12 +63,16 @@ export function GscVakaKart({ proje, isEn, sektorGoster = true }) {
       </a>
 
       <p style={{ fontSize: '12.5px', color: '#888', lineHeight: 1.6, margin: '8px 0 0' }}>
-        {isEn
-          ? `Google Search Console, ${donemMetni(g.donem, true)} vs. previous ${g.donem} months.`
-          : `Google Search Console, ${donemMetni(g.donem, false)} ile önceki ${g.donem} ay karşılaştırması.`}
+        {g.karsilastirma === 'yoy'
+          ? (isEn
+            ? `Google Search Console, ${donemMetni(g.donem, true)} vs. the same period last year.`
+            : `Google Search Console, ${donemMetni(g.donem, false)} ile geçen yılın aynı dönemi karşılaştırması.`)
+          : (isEn
+            ? `Google Search Console, ${donemMetni(g.donem, true)} vs. previous ${g.donem} months.`
+            : `Google Search Console, ${donemMetni(g.donem, false)} ile önceki ${g.donem} ay karşılaştırması.`)}
         {g.kismi && (isEn
-          ? ' The site had no data for part of the previous period, so no growth multiple is shown.'
-          : ' Önceki dönemin bir kısmında site henüz veri toplamıyordu; bu yüzden artış katı gösterilmiyor.')}
+          ? ' Part of the comparison period has no data, so no growth multiple is shown.'
+          : ' Karşılaştırma döneminin bir kısmında veri yok; bu yüzden artış katı gösterilmiyor.')}
       </p>
 
       {yapilan.length > 0 && (
@@ -103,8 +107,8 @@ export default function GscVakalar({ isEn }) {
         </h2>
         <p style={{ color: '#555', fontSize: '15.5px', lineHeight: 1.75, maxWidth: '760px', margin: '0 0 12px' }}>
           {isEn
-            ? 'Unedited Google Search Console screenshots from projects I work on. Client names are withheld for confidentiality; each card compares a period with the one before it.'
-            : 'Çalıştığım projelerin düzenlenmemiş Google Search Console ekran görüntüleri. Gizlilik gereği müşteri adları paylaşılmıyor; her kart bir dönemi kendinden önceki dönemle karşılaştırıyor.'}
+            ? 'Unedited Google Search Console screenshots from projects I work on. Client names are withheld for confidentiality; each card compares a period with the previous period or the same period last year.'
+            : 'Çalıştığım projelerin düzenlenmemiş Google Search Console ekran görüntüleri. Gizlilik gereği müşteri adları paylaşılmıyor; her kart bir dönemi ya bir önceki dönemle ya da geçen yılın aynı dönemiyle karşılaştırıyor.'}
         </p>
         <div style={{ maxWidth: '760px', marginBottom: '24px' }}><GscNotu isEn={isEn} /></div>
         <div className="gsc-izgara" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '16px' }}>
