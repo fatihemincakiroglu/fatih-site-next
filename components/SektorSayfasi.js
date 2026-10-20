@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { renderBlok, renderInline } from './IcerikBlok'
 import IlgiliRehberler from './IlgiliRehberler'
+import { SektorGscVakalari } from './GscVakalar'
+import { sektorProjeleri } from '../lib/gsc-vakalar'
 import { SEKTOR_LISTE } from '../lib/sektor-liste'
 import { KONUMLAR } from '../lib/geo-konum/ilceler'
 
@@ -128,6 +130,8 @@ export default function SektorSayfasi({ veri, isEn }) {
             )}
           </article>
         </main>
+
+        <SektorGscVakalari projeler={sektorProjeleri(veri.slug)} isEn={isEn} sektorAd={v('ad')} />
 
         <IlgiliRehberler sluglar={veri.rehberler || []} isEn={isEn} stil={{ maxWidth: '920px', padding: '16px 16px 8px' }} />
 

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import CountUp from '../components/CountUp';
 import FadeInOnScroll from '../components/FadeInOnScroll';
 import AnimatedBar from '../components/AnimatedBar';
+import GscVakalar from '../components/GscVakalar';
 
 const VAKALAR = {
   tr: [
@@ -500,6 +501,9 @@ export default function Page(props) {
             <Link href={isEn ? '/en/contact' : '/iletisim'} style={{ display: 'inline-block', padding: '14px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-body)', boxShadow: '0 4px 20px rgba(232,86,10,0.4)' }}>{t.btn1}</Link>
           </div>
         </section>
+
+        {/* Search Console gerçek sonuçları */}
+        <GscVakalar isEn={isEn} />
 
         {/* Vaka Seçici */}
         <section style={{ padding: '0 32px', background: '#fff', borderBottom: '1px solid #eee', position: 'sticky', top: 'var(--nav-h)', zIndex: 100 }}>
