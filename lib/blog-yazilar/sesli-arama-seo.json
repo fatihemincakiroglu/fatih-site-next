@@ -1,0 +1,431 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 8,
+ "baslik_tr": "Sesli Arama ve Konuşma Diliyle Sorgular: İçeriği Soru-Cevaba Hazırlamak",
+ "baslik_en": "Voice Search and Conversational Queries: Preparing Content for Q&A",
+ "meta_baslik_tr": "Sesli Arama SEO: İçeriği Soru-Cevaba Hazırlamak",
+ "meta_baslik_en": "Voice Search SEO: Preparing Content for Q&A",
+ "meta_desc_tr": "Sesli arama ve konuşma diliyle yapılan sorgular için içerik nasıl hazırlanır? Doğal dil, yerel niyet, kısa net cevap blokları ve yapısal verinin gerçek yeri.",
+ "meta_desc_en": "How to prepare content for voice and conversational queries: natural language, local intent, short direct answer blocks and the real role of structured data.",
+ "ozet_tr": "Konuşma diliyle sorulan sorulara net cevap veren içerik: doğal dil, yerel niyet ve kısa cevap blokları, abartısız.",
+ "ozet_en": "Content that answers conversational questions clearly: natural language, local intent and short answer blocks, without the hype.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Sesli arama yıllardır \"bir sonraki büyük dalga\" olarak anlatılıyor; ben bu yazıda o tür bir patlama iddiasında bulunmayacağım. Asıl değişen şu: İnsanlar arama kutusuna, sesli asistana ve yapay zekâ sohbetlerine giderek daha uzun, konuşur gibi sorular yazıyor ve söylüyor.",
+    "Bu, içerik açısından tek bir ortak gereksinim doğuruyor: Soruyu doğal haliyle anlayan ve ona kısa, net bir cevapla başlayan sayfalar. Aşağıda bunu sesli ve yazılı aramada birlikte işe yarayacak biçimde nasıl kuracağınızı anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Sesli arama ve konuşma diliyle yapılan sorgular için ayrı bir içerik türüne gerek yok. Gerçek kullanıcı sorularını başlığa çeviren, her başlığın altında 1-3 cümlelik net cevap veren, yerel bilgileri (adres, saat, hizmet bölgesi) güncel tutan sayfalar hem sesli hem yazılı aramada daha kolay kullanılır."
+    }
+   ]
+  },
+  {
+   "baslik": "Konuşma diliyle yapılan sorgular nasıl farklılaşır?",
+   "paragraflar": [
+    "Yazılı aramada kısa, kırpılmış ifadeler yaygındır; konuşurken ise tam cümle kurarız. Türkçede bu fark özellikle soru ekleri, \"en yakın\", \"şu an açık\" gibi kalıplarla belirginleşir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yazılı sorgu",
+       "Konuşma diliyle sorgu",
+       "Arkasındaki niyet"
+      ],
+      "satirlar": [
+       [
+        "diş kliniği kadıköy",
+        "Kadıköy'de şu an açık diş kliniği var mı?",
+        "Yerel ve acil"
+       ],
+       [
+        "kombi bakımı fiyat",
+        "Kombi bakımı ne kadar tutar, kaç yılda bir yapılmalı?",
+        "Bilgi ve karar"
+       ],
+       [
+        "e-fatura nedir",
+        "E-faturaya geçmek zorunda mıyım?",
+        "Kendi durumuna uygulama"
+       ],
+       [
+        "kira artış oranı",
+        "Bu yıl kira en fazla ne kadar artabilir?",
+        "Güncel kural"
+       ]
+      ]
+     }
+    },
+    "Bu soru kalıplarını bulmak için Search Console'daki uzun sorgular ve müşteri hizmetlerine gelen gerçek sorular en iyi kaynak. Yöntemi [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi) anlattım."
+   ]
+  },
+  {
+   "baslik": "Sesli asistanlar cevapları nereden alıyor?",
+   "paragraflar": [
+    "Google, Mart 2025'te mobil cihazlarda Google Asistan deneyiminin kademeli olarak Gemini'ye geçeceğini duyurdu. Siri, Alexa ve sohbet tabanlı asistanların her biri farklı arama ve veri kaynaklarından yararlanabiliyor; hangisinin hangi altyapıyı kullandığına dair kesin genellemeler yapmamak gerekiyor.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Ortak payda",
+      "metin": "Hangi asistan olursa olsun, web'den cevap üretilirken taranabilir, dizine eklenmiş ve soruyu açıkça yanıtlayan sayfaların kullanılma olasılığı daha yüksektir. Bu yüzden sesli arama çalışması büyük ölçüde iyi yapılmış SEO ile örtüşür."
+     }
+    },
+    "Google tarafında cevap kutuları ve AI Bakışı'nın nasıl kaynak seçtiğini [Google AI Overviews optimizasyonu yazısında](/blog/google-ai-overview-optimizasyonu) ayrıntılı ele aldım."
+   ]
+  },
+  {
+   "baslik": "Yerel niyet: \"yakınımda\" ve \"şu an açık\" sorguları",
+   "paragraflar": [
+    "Konuşma diliyle yapılan sorguların önemli bir kısmı yereldir: yol tarifi, çalışma saati, telefon. Bu sorularda cevap çoğu zaman sitenizden değil, Google Business Profile'dan gelir.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕒",
+       "baslik": "Saatler",
+       "metin": "Bayram ve özel gün saatlerini önceden girin; \"şu an açık mı\" sorusunun cevabı buradan çıkar."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Adres ve bölge",
+       "metin": "Adres, hizmet bölgesi ve kategori sitedekiyle birebir aynı olsun."
+      },
+      {
+       "ikon": "📞",
+       "baslik": "İletişim",
+       "metin": "Telefonun aranabilir ve güncel olması, sesli aramada doğrudan aksiyona dönüşür."
+      }
+     ]
+    },
+    "Business Profile'daki Soru-Cevap özelliği kaldırıldığı için sık sorulan soruları artık kendi sitenizde yanıtlamanız daha da önemli. Profil yönetimini [Google Business Profile yazısında](/blog/google-business-profile), yerel sayfa kurgusunu [yerel SEO rehberinde](/rehber/yerel-seo) bulabilirsiniz; klinikler için somut bir örnek [diş klinikleri için yerel SEO yazısında](/blog/dis-klinikleri-yerel-seo) var."
+   ]
+  },
+  {
+   "baslik": "İçeriği soru-cevaba hazırlamak için yöntem",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Soru-cevap içerik akışı",
+      "adimlar": [
+       {
+        "baslik": "Soruları topla",
+        "metin": "Search Console, satış ekibi, WhatsApp ve e-posta sorularını tek listede birleştirin."
+       },
+       {
+        "baslik": "Niyete göre grupla",
+        "metin": "Aynı cevabı gerektiren soruları bir başlık altında toplayın."
+       },
+       {
+        "baslik": "Başlığa çevir",
+        "metin": "En doğal ifadeyi h2 veya h3 başlığı yapın."
+       },
+       {
+        "baslik": "Önce cevabı yaz",
+        "metin": "Başlığın hemen altına 1-3 cümlelik doğrudan cevap koyun."
+       },
+       {
+        "baslik": "Ayrıntıyı ekle",
+        "metin": "Koşullar, istisnalar ve örnekleri cevabın arkasına yerleştirin."
+       }
+      ]
+     }
+    },
+    "Bu yapı aynı zamanda öne çıkan snippet'ler için de uygundur; ayrıntısı [featured snippet ve SERP özellikleri yazısında](/blog/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "Kısa ve net cevap bloğu nasıl yazılır?",
+   "paragraflar": [
+    "Sesli asistan bir cevabı okuduğunda kullanıcı ekrana bakmıyor olabilir. Bu yüzden cevap, bağlamından koparıldığında da anlaşılır olmalı.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İyi cevap bloğu",
+       "tur": "iyi",
+       "maddeler": [
+        "Sorunun öznesini tekrar eder",
+        "İlk cümlede sonucu verir",
+        "Rakam ve koşulu açıkça söyler",
+        "Sesli okunduğunda tek nefeste anlaşılır"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf cevap bloğu",
+       "tur": "kotu",
+       "maddeler": [
+        "\"Bu konu çok önemlidir\" diye başlar",
+        "Cevabı üçüncü paragrafa bırakır",
+        "\"Yukarıda belirttiğimiz gibi\" diye önceki metne dayanır",
+        "Parantez ve kısaltmalarla doludur"
+       ]
+      }
+     }
+    },
+    "Örnek: \"Kombi bakımı kaç yılda bir yapılmalı?\" sorusuna \"Kombi bakım aralığını üretici belirler; cihazınızın kullanım kılavuzundaki süreyi esas alın.\" gibi bağımsız okunabilen bir cümleyle başlamak, uzun bir girişten daha kullanışlıdır."
+   ]
+  },
+  {
+   "baslik": "Yapısal verinin sesli aramadaki gerçek yeri",
+   "paragraflar": [
+    "Yapısal veri konusunda beklentiyi doğru kurmak gerekiyor:",
+    {
+     "liste": [
+      "**speakable**: Google'ın dokümanında hâlâ beta olarak geçiyor; ABD'de İngilizce kullanıcılar ve İngilizce yayın yapan haber yayıncıları için tanımlı. Türkçe içerik için şu an pratik bir karşılığı yok.",
+      "**FAQPage**: Geçerli bir işaretleme ve içeriğin anlaşılmasına yardımcı olabilir; ancak Google SSS zengin sonuçlarını 7 Mayıs 2026'dan beri Arama'da göstermiyor.",
+      "**LocalBusiness ve Organization**: Adres, saat ve iletişim bilgisini makine okunur hale getirir; sitedeki görünür bilgiyle birebir uyumlu olmalı."
+     ]
+    },
+    "Bu işaretlemeleri [schema yapısal veri rehberindeki](/rehber/schema-yapisal-veri) kurallara göre kurabilir, kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Sesli arama için kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Sayfa başlıkları gerçek kullanıcı sorularından türetildi.",
+      "Her soru başlığının altında bağımsız okunabilen kısa bir cevap var.",
+      "Business Profile saatleri, adres ve telefon güncel.",
+      "Sayfa mobilde hızlı açılıyor ve Core Web Vitals eşiklerini karşılıyor.",
+      "Sık sorulan sorular sitede görünür metin olarak yanıtlanıyor."
+     ]
+    },
+    "Özellikle randevuyla çalışan sektörlerde bu çalışma doğrudan aramaya ve randevuya dönüşür; [klinik SEO](/sektorler/klinik-seo) sayfasında bu yaklaşımı anlattım. Sitenizin soru-cevap yapısını birlikte gözden geçirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmetine bakabilir ya da [randevu alabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Voice search has been pitched as \"the next big wave\" for years; I will not make that kind of boom claim here. What has actually changed is this: people type and speak longer, more conversational questions into the search box, voice assistants and AI chats.",
+    "For content, that creates one shared requirement: pages that understand the question in its natural form and open with a short, clear answer. Below I explain how to build this so it works for both voice and typed search.",
+    {
+     "alinti": "Short answer: Voice and conversational queries do not need a separate type of content. Pages that turn real user questions into headings, give a clear 1-3 sentence answer under each heading and keep local details (address, hours, service area) current are easier to use in both voice and typed search."
+    }
+   ]
+  },
+  {
+   "baslik": "How do conversational queries differ?",
+   "paragraflar": [
+    "Typed searches are often short and clipped; when we speak, we use full sentences. In Turkish, the difference shows especially in question suffixes and phrases like \"nearest\" and \"open now\".",
+    {
+     "tablo": {
+      "basliklar": [
+       "Typed query",
+       "Conversational query",
+       "Underlying intent"
+      ],
+      "satirlar": [
+       [
+        "dentist kadikoy",
+        "Is there a dentist open right now in Kadıköy?",
+        "Local and urgent"
+       ],
+       [
+        "boiler service price",
+        "How much does a boiler service cost and how often is it needed?",
+        "Information and decision"
+       ],
+       [
+        "e-invoice meaning",
+        "Do I have to switch to e-invoicing?",
+        "Applying to own situation"
+       ],
+       [
+        "rent increase rate",
+        "How much can rent go up this year?",
+        "Current rule"
+       ]
+      ]
+     }
+    },
+    "The best sources for these question patterns are long queries in Search Console and real questions reaching your customer service. I explain the method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+   ]
+  },
+  {
+   "baslik": "Where do voice assistants get their answers?",
+   "paragraflar": [
+    "In March 2025 Google announced that the Google Assistant experience on mobile would gradually move to Gemini. Siri, Alexa and chat-based assistants may each draw on different search and data sources; it is best not to make firm generalisations about which one uses which infrastructure.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "The common ground",
+      "metin": "Whatever the assistant, when answers are built from the web, pages that are crawlable, indexed and answer the question clearly are more likely to be used. That is why voice search work largely overlaps with well-executed SEO."
+     }
+    },
+    "I cover how answer boxes and AI Overviews choose sources on Google's side in the [Google AI Overviews optimisation article](/en/blog/google-ai-overview-optimizasyonu)."
+   ]
+  },
+  {
+   "baslik": "Local intent: \"near me\" and \"open now\" queries",
+   "paragraflar": [
+    "A large share of conversational queries is local: directions, opening hours, phone numbers. For these, the answer often comes not from your site but from your Google Business Profile.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕒",
+       "baslik": "Hours",
+       "metin": "Enter holiday and special hours in advance; that is where the answer to \"is it open now\" comes from."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Address and area",
+       "metin": "Address, service area and category should match your site exactly."
+      },
+      {
+       "ikon": "📞",
+       "baslik": "Contact",
+       "metin": "A callable, current phone number turns a voice search directly into action."
+      }
+     ]
+    },
+    "Since the Q&A feature was removed from Business Profile, answering common questions on your own site matters even more. You will find profile management in the [Google Business Profile article](/en/blog/google-business-profile) and local page structure in the [local SEO guide](/en/guides/yerel-seo); for a concrete clinic example, see [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "A method for preparing content for Q&A",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Q&A content flow",
+      "adimlar": [
+       {
+        "baslik": "Collect questions",
+        "metin": "Combine questions from Search Console, sales, WhatsApp and email into one list."
+       },
+       {
+        "baslik": "Group by intent",
+        "metin": "Gather questions that need the same answer under one heading."
+       },
+       {
+        "baslik": "Turn into headings",
+        "metin": "Use the most natural phrasing as an h2 or h3."
+       },
+       {
+        "baslik": "Write the answer first",
+        "metin": "Put a direct 1-3 sentence answer right under the heading."
+       },
+       {
+        "baslik": "Add the detail",
+        "metin": "Place conditions, exceptions and examples after the answer."
+       }
+      ]
+     }
+    },
+    "This structure also suits featured snippets; details are in the [featured snippets and SERP features article](/en/blog/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "How to write a short, clear answer block",
+   "paragraflar": [
+    "When a voice assistant reads an answer aloud, the user may not be looking at a screen. So the answer has to make sense even when lifted out of context.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Good answer block",
+       "tur": "iyi",
+       "maddeler": [
+        "Repeats the subject of the question",
+        "Gives the conclusion in the first sentence",
+        "States figures and conditions clearly",
+        "Is understandable in one breath when read aloud"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak answer block",
+       "tur": "kotu",
+       "maddeler": [
+        "Opens with \"This topic is very important\"",
+        "Leaves the answer for the third paragraph",
+        "Relies on earlier text with \"as mentioned above\"",
+        "Is full of brackets and abbreviations"
+       ]
+      }
+     }
+    },
+    "Example: for \"How often should a boiler be serviced?\", opening with a standalone sentence like \"The service interval is set by the manufacturer; follow the one in your boiler's user manual.\" is more useful than a long intro."
+   ]
+  },
+  {
+   "baslik": "The real role of structured data in voice search",
+   "paragraflar": [
+    "Expectations around structured data need to be set correctly:",
+    {
+     "liste": [
+      "**speakable**: Still listed as beta in Google's documentation and defined for English-language users in the US and news publishers publishing in English. It currently has no practical use for Turkish content.",
+      "**FAQPage**: Valid markup that can help machines understand content, but Google has not shown FAQ rich results in Search since 7 May 2026.",
+      "**LocalBusiness and Organization**: Make address, hours and contact details machine-readable; they must match the visible information on the site exactly."
+     ]
+    },
+    "You can set up this markup following the rules in the [schema structured data guide](/en/guides/schema-yapisal-veri) and prepare the code with the [schema generator](/en/tools/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "A voice search checklist",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Page headings are derived from real user questions.",
+      "Every question heading has a short answer that can be read on its own.",
+      "Business Profile hours, address and phone are current.",
+      "The page loads fast on mobile and meets Core Web Vitals thresholds.",
+      "Common questions are answered on the site as visible text."
+     ]
+    },
+    "In appointment-based sectors, this work turns directly into calls and bookings; I describe the approach on the [healthcare SEO](/en/industries/healthcare-seo) page. If you want to review your site's Q&A structure together, see [SEO consulting](/en/seo-consulting) or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Sesli arama için ayrı sayfalar oluşturmalı mıyım?",
+   "c": "Hayır. Aynı soruyu yazılı ve sesli arayan kullanıcı aynı cevabı bekler. Mevcut sayfalarınızı soru başlıkları ve kısa cevap bloklarıyla güçlendirmek, ayrı sayfa açmaktan daha temiz bir çözümdür."
+  },
+  {
+   "s": "Sesli aramadan gelen trafiği ayrı ölçebilir miyim?",
+   "c": "Search Console sesli ve yazılı sorguları ayrı bir boyutta göstermiyor. Uzun, soru kalıbındaki sorguları regex ile filtreleyip seyrini izlemek, dolaylı ama pratik bir yöntem."
+  },
+  {
+   "s": "Türkçe karakterler sesli aramada sorun yaratır mı?",
+   "c": "Konuşmanın yazıya nasıl döküldüğü sizin kontrolünüzde değil. Sizin kontrolünüzdeki kısım, sayfada Türkçe karakterleri doğru kullanmak ve marka adının tek bir yazımını tutarlı biçimde kullanmak; bu, eşleşme açısından en sağlıklı yaklaşım."
+  },
+  {
+   "s": "Akıllı hoparlörler için içerik farklı mı yazılmalı?",
+   "c": "Ekransız cihazlarda kullanıcı tablo ya da görseli göremez. Bu yüzden cevabın ilk cümlesinin tek başına anlaşılır olması daha da önemli; tablo ve listeler ise ekranlı cihazlar için ek değer sağlar."
+  },
+  {
+   "s": "Sesli arama yerel işletmeler için mi önemli?",
+   "c": "Yerel sorgularda etkisi en somut olanı, çünkü sonuç doğrudan arama veya yol tarifine dönüşebilir. Bilgi sorgularında ise aynı soru-cevap yapısı, yapay zekâ cevapları ve öne çıkan snippet'ler için de işe yarar."
+  },
+  {
+   "s": "Sayfa hızı sesli aramayı etkiler mi?",
+   "c": "Sesli aramaya özel bir hız eşiği yok; geçerli olan genel Core Web Vitals eşikleri: LCP en fazla 2,5 saniye, INP en fazla 200 ms, CLS en fazla 0,1. Ayrıntılar [Core Web Vitals yazısında](/blog/core-web-vitals-2025)."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I create separate pages for voice search?",
+   "c": "No. A user asking the same question by typing or speaking expects the same answer. Strengthening existing pages with question headings and short answer blocks is cleaner than creating separate pages."
+  },
+  {
+   "s": "Can I measure voice search traffic separately?",
+   "c": "Search Console does not show voice and typed queries as a separate dimension. Filtering long, question-style queries with regex and tracking their trend is an indirect but practical method."
+  },
+  {
+   "s": "Do Turkish characters cause problems in voice search?",
+   "c": "How speech is transcribed is outside your control. What you control is using Turkish characters correctly on the page and one consistent spelling of your brand name; that is the soundest approach for matching."
+  },
+  {
+   "s": "Should content be written differently for smart speakers?",
+   "c": "On screenless devices, the user cannot see tables or images. That makes it even more important for the first sentence of the answer to stand alone; tables and lists add value for devices with screens."
+  },
+  {
+   "s": "Is voice search mainly important for local businesses?",
+   "c": "Its effect is most tangible for local queries, because the result can turn directly into a call or directions. For informational queries, the same Q&A structure also helps with AI answers and featured snippets."
+  },
+  {
+   "s": "Does page speed affect voice search?",
+   "c": "There is no voice-specific speed threshold; the general Core Web Vitals thresholds apply: LCP up to 2.5 seconds, INP up to 200 ms, CLS up to 0.1. Details are in the [Core Web Vitals article](/en/blog/core-web-vitals-2025)."
+  }
+ ]
+}

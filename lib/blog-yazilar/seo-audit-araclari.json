@@ -1,0 +1,405 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "SEO Denetim Araçları: Screaming Frog, Sitebulb, Ahrefs, Semrush ve Ücretsiz Seçenekler",
+ "baslik_en": "SEO Audit Tools: Screaming Frog, Sitebulb, Ahrefs, Semrush and Free Options",
+ "meta_baslik_tr": "SEO Denetim Araçları: Hangi İş İçin Hangisi?",
+ "meta_baslik_en": "SEO Audit Tools: Which One for Which Job?",
+ "meta_desc_tr": "Screaming Frog, Sitebulb, Ahrefs, Semrush ve Search Console gibi ücretsiz araçlar: hangi denetim işi için hangisi, güçlü yanları ve sınırları neler?",
+ "meta_desc_en": "Screaming Frog, Sitebulb, Ahrefs, Semrush and free tools like Search Console and PageSpeed Insights: which audit job suits which tool, strengths and limits.",
+ "ozet_tr": "Masaüstü tarayıcılar, bulut platformları ve ücretsiz Google araçları: SEO denetiminde hangi iş için hangisini seçmeli?",
+ "ozet_en": "Desktop crawlers, cloud platforms and free Google tools: which one to pick for which SEO audit job.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“Hangi SEO aracını almalıyım?” sorusu, bana en sık gelen sorulardan biri. Cevap neredeyse her zaman aynı: Önce hangi işi yapacağınızı belirleyin. Bir site tarayıcısı ile backlink veritabanı olan bir platform aynı soruya cevap vermez.",
+    "Bu yazıda denetim için en yaygın kullanılan araçları, ücretsiz Google araçlarıyla birlikte “hangi durumda hangisi” çerçevesinde karşılaştırıyorum. Fiyat vermiyorum; paketler sık değiştiği için güncel fiyatı her aracın resmi sitesinden kontrol edin. Bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Her denetimin temeli ücretsiz olan Google Search Console ve PageSpeed Insights'tır. Siteyi Googlebot gibi taramak için Screaming Frog ya da Sitebulb gibi bir tarayıcı, backlink ve rakip verisiyle birlikte bulutta düzenli denetim için Ahrefs ya da Semrush gibi bir platform seçilir. Doğru araç, sitenin büyüklüğüne ve yapacağınız işe göre değişir."
+    }
+   ]
+  },
+  {
+   "baslik": "Araç seçmeden önce: hangi denetim işi?",
+   "paragraflar": [
+    "SEO denetiminde dört farklı veri türüyle çalışırsınız. Araçlar bu türlerden birinde ya da birkaçında güçlüdür.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕷️",
+       "baslik": "Tarama verisi",
+       "metin": "Durum kodları, yönlendirmeler, başlıklar, canonical, iç linkler. Site tarayıcıları bu işi yapar."
+      },
+      {
+       "ikon": "📊",
+       "baslik": "Google'ın gördüğü",
+       "metin": "Dizine ekleme durumu, gösterim ve tıklamalar. Yalnızca Search Console verir."
+      },
+      {
+       "ikon": "⚡",
+       "baslik": "Performans",
+       "metin": "Core Web Vitals saha verisi ve laboratuvar ölçümü. PageSpeed Insights ve Lighthouse."
+      },
+      {
+       "ikon": "🌐",
+       "baslik": "Dış veri",
+       "metin": "Backlink profili, rakip anahtar kelimeleri. Ahrefs ve Semrush gibi platformların veritabanları."
+      }
+     ]
+    },
+    "Denetimin genel kapsamını ve hangi sırayla ilerleyeceğinizi [teknik SEO rehberi](/rehber/teknik-seo) anlatıyor. Araç bu kapsamın yalnızca uygulama tarafıdır."
+   ]
+  },
+  {
+   "baslik": "Ücretsiz SEO denetim araçları",
+   "paragraflar": [
+    "Bütçe ayırmadan çok iyi bir başlangıç denetimi yapabilirsiniz. Benim her projede ilk açtığım araçlar şunlar:",
+    {
+     "liste": [
+      "**Google Search Console:** Dizine ekleme, performans, site haritaları ve URL Denetimi. Google'ın sitenizi nasıl gördüğünü doğrudan gösteren tek kaynak. Raporların okunuşunu [Google Search Console rehberinde](/blog/search-console-rehberi) anlattım.",
+      "**PageSpeed Insights:** Varsa gerçek kullanıcı (Chrome UX Report) verisini ve Lighthouse laboratuvar ölçümünü birlikte gösterir.",
+      "**Lighthouse:** Chrome geliştirici araçlarına yerleşik; performans, erişilebilirlik ve temel SEO kontrolleri yapar.",
+      "**Zengin Sonuç Testi:** Yapısal verinin Google tarafından okunup okunmadığını ve hangi zengin sonuçlara uygun olduğunu gösterir.",
+      "**Ahrefs Webmaster Tools:** Ahrefs'in resmi sitesine göre sahipliğini doğruladığınız siteler için ücretsiz site denetimi ve backlink görünümü sunar.",
+      "**Screaming Frog ücretsiz sürümü:** Resmi sitesine göre 500 URL'ye kadar tarama yapar; küçük siteler için yeterlidir."
+     ]
+    },
+    "Core Web Vitals eşiklerini (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) ve ölçüm farklarını [Core Web Vitals yazısında](/blog/core-web-vitals-2025) ayrıntılı ele aldım."
+   ]
+  },
+  {
+   "baslik": "Masaüstü tarayıcılar: Screaming Frog ve Sitebulb",
+   "paragraflar": [
+    "**Screaming Frog SEO Spider**, bilgisayarınıza kurulan bir site tarayıcısıdır. Ham veriye hızlı erişim, özel çıkarım (custom extraction), filtreleme ve dışa aktarma esnekliği nedeniyle teknik SEO uzmanlarının en yaygın kullandığı araçlardan biri. Ücretsiz sürüm 500 URL ile sınırlı; lisans daha büyük taramalar ve gelişmiş özellikler için gerekiyor.",
+    "**Sitebulb** da tarayıcıdır ama farklı bir yaklaşımla çalışır. Resmi sitesine göre masaüstü (Windows ve Mac) ve bulut olmak üzere iki ürünü var; bulguları önceliklendirilmiş “hint”ler halinde açıklamasıyla sunar, tarama haritaları gibi görselleştirmeler ve özelleştirilebilir PDF raporlar üretir. Bulguları müşteriye ya da geliştiriciye anlatmanız gerektiğinde bu açıklamalar zaman kazandırır.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "JavaScript ağırlıklı sitelerde",
+      "metin": "React ya da Next.js tabanlı bir sitede taramayı JavaScript render açık ve kapalı olarak iki kez çalıştırıp farkı karşılaştırın. Ham HTML'de olmayan linkler ve içerikler, render sorunlarının en hızlı işaretidir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Bulut platformları: Ahrefs ve Semrush",
+   "paragraflar": [
+    "Ahrefs ve Semrush, site denetimini backlink, anahtar kelime ve rakip verisiyle aynı çatı altında sunan bulut platformlarıdır. Taramayı kendi sunucularında yaparlar; bilgisayarınızı açık tutmanız gerekmez ve düzenli otomatik denetim planlayabilirsiniz.",
+    "Ahrefs'in resmi sayfasına göre Site Audit 170'ten fazla teknik ve sayfa içi sorunu tarar. Semrush'ın yardım merkezine göre Site Audit 140'tan fazla kontrol içerir ve Ekim 2026 itibarıyla yapay zekâ aramasında görünürlüğe yönelik ayrı bir kontrol kategorisi bulunuyor. Her iki platformda da tarama kapasitesi pakete göre değişir; Semrush'ın ücretsiz hesabı aylık 100 sayfayla sınırlı.",
+    "Bu platformların asıl farkı denetimde değil, dış veridedir. Backlink analizi ve rakip karşılaştırması da yapacaksanız tek abonelikle hem denetim hem araştırma ihtiyacını karşılayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Hangi iş için hangi SEO aracı?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "İhtiyaç",
+       "Uygun araç",
+       "Neden"
+      ],
+      "satirlar": [
+       [
+        "Google'ın dizine ekleme kararları",
+        "Search Console",
+        "Veriyi doğrudan Google'dan alan tek kaynak"
+       ],
+       [
+        "Derin teknik tarama, özel çıkarım",
+        "Screaming Frog",
+        "Ham veriye esnek erişim, dışa aktarma"
+       ],
+       [
+        "Önceliklendirilmiş bulgu ve rapor",
+        "Sitebulb",
+        "Açıklamalı hint'ler, görselleştirme, PDF rapor"
+       ],
+       [
+        "Denetim + backlink + rakip verisi",
+        "Ahrefs ya da Semrush",
+        "Tek platformda dış veri ve planlı denetim"
+       ],
+       [
+        "Sayfa hızı ve Core Web Vitals",
+        "PageSpeed Insights, Lighthouse",
+        "Saha ve laboratuvar verisi"
+       ],
+       [
+        "Yapısal veri doğrulama",
+        "Zengin Sonuç Testi",
+        "Google'ın işaretlemeyi okuyup okumadığı"
+       ]
+      ]
+     }
+    },
+    "Küçük bir kurumsal site için Search Console, PageSpeed Insights ve Screaming Frog'un ücretsiz sürümü çoğu zaman yeter. Binlerce ürünlü bir e-ticaret sitesinde lisanslı bir tarayıcı ile bir bulut platformunu birlikte kullanmak daha verimlidir. Hreflang gibi özel kontroller için [hreflang ve uluslararası SEO](/blog/hreflang-uluslararasi-seo) yazısındaki denetim adımları işe yarar."
+   ]
+  },
+  {
+   "baslik": "Araç raporlarını nasıl önceliklendirmeli?",
+   "paragraflar": [
+    "Araçların sağlık skorları ve uyarı sayıları yanıltıcı olabilir: binlerce “eksik meta açıklama” uyarısı, tek bir yanlış noindex kadar önemli değildir. Bulguları iş etkisine göre sıralayın.",
+    {
+     "akis": {
+      "baslik": "Denetim akışı",
+      "adimlar": [
+       {
+        "baslik": "Search Console'dan başla",
+        "metin": "Dizine eklenmeyen önemli sayfaları ve trafik kayıplarını belirleyin."
+       },
+       {
+        "baslik": "Siteyi tara",
+        "metin": "Durum kodları, yönlendirmeler, canonical ve iç link sorunlarını çıkarın."
+       },
+       {
+        "baslik": "Eşleştir",
+        "metin": "Tarama bulgularını trafik ve dönüşüm getiren sayfalarla karşılaştırın."
+       },
+       {
+        "baslik": "Önceliklendir",
+        "metin": "Etki ve efora göre sıralanmış bir yapılacaklar listesi hazırlayın."
+       },
+       {
+        "baslik": "Tekrar ölç",
+        "metin": "Düzeltmelerden sonra yeniden tarayıp Search Console'da izleyin."
+       }
+      ]
+     }
+    },
+    "Bulguları yönetime anlaşılır biçimde sunmak için [SEO raporlama rehberindeki](/rehber/seo-raporlama) çerçeveyi kullanabilirsiniz. Sitedeki [ücretsiz SEO araçları](/araclar) arasında yer alan [schema oluşturucu](/araclar/schema-olusturucu) da denetimde çıkan yapısal veri eksiklerini kapatmak için hazır."
+   ]
+  },
+  {
+   "baslik": "Araç yerine uzman ne zaman gerekir?",
+   "paragraflar": [
+    "Araçlar sorunları listeler; hangisinin trafiğinizi gerçekten etkilediğine, neyin bilinçli bir tercih olduğuna ve düzeltmenin hangi sırayla yapılacağına karar vermez. Ani trafik düşüşü, site taşıma ya da büyük katalog sorunları gibi durumlarda yorum, araçtan daha değerlidir.",
+    "Araç çıktılarınızı birlikte yorumlamak ya da kapsamlı bir teknik denetim yaptırmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“Which SEO tool should I buy?” is one of the questions I hear most. The answer is almost always the same: first decide what job you need done. A site crawler and a platform with a backlink database do not answer the same question.",
+    "This article compares the most common audit tools alongside the free Google tools, framed as “which one for which situation”. I do not list prices; plans change often, so check each tool's official site. There is no sponsorship here.",
+    {
+     "alinti": "Short answer: Every audit starts with the free Google Search Console and PageSpeed Insights. To crawl a site like Googlebot, you pick a crawler such as Screaming Frog or Sitebulb; for scheduled cloud audits with backlink and competitor data, a platform such as Ahrefs or Semrush. The right tool depends on site size and the job at hand."
+    }
+   ]
+  },
+  {
+   "baslik": "Before choosing a tool: which audit job?",
+   "paragraflar": [
+    "An SEO audit works with four kinds of data. Each tool is strong in one or several of them.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕷️",
+       "baslik": "Crawl data",
+       "metin": "Status codes, redirects, titles, canonicals, internal links. Site crawlers do this."
+      },
+      {
+       "ikon": "📊",
+       "baslik": "What Google sees",
+       "metin": "Indexing status, impressions and clicks. Only Search Console provides this."
+      },
+      {
+       "ikon": "⚡",
+       "baslik": "Performance",
+       "metin": "Core Web Vitals field data and lab tests. PageSpeed Insights and Lighthouse."
+      },
+      {
+       "ikon": "🌐",
+       "baslik": "External data",
+       "metin": "Backlink profiles, competitor keywords. Databases of platforms like Ahrefs and Semrush."
+      }
+     ]
+    },
+    "The [technical SEO guide](/en/guides/teknik-seo) explains the overall scope of an audit and the order to work in. A tool is only the execution side of that scope."
+   ]
+  },
+  {
+   "baslik": "Free SEO audit tools",
+   "paragraflar": [
+    "You can run a very good initial audit without a budget. These are the tools I open first on every project:",
+    {
+     "liste": [
+      "**Google Search Console:** Indexing, performance, sitemaps and URL Inspection. The only source that shows how Google sees your site. I explain the reports in the [Google Search Console guide](/en/blog/search-console-rehberi).",
+      "**PageSpeed Insights:** Shows real-user data (Chrome UX Report) where available alongside a Lighthouse lab test.",
+      "**Lighthouse:** Built into Chrome DevTools; runs performance, accessibility and basic SEO checks.",
+      "**Rich Results Test:** Shows whether Google can read your structured data and which rich results it is eligible for.",
+      "**Ahrefs Webmaster Tools:** According to Ahrefs' official site, it offers a free site audit and backlink view for websites you verify.",
+      "**Screaming Frog free version:** According to its official site, it crawls up to 500 URLs; enough for small sites."
+     ]
+    },
+    "I cover the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1) and measurement differences in the [Core Web Vitals article](/en/blog/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "Desktop crawlers: Screaming Frog and Sitebulb",
+   "paragraflar": [
+    "**Screaming Frog SEO Spider** is a crawler you install on your computer. Fast access to raw data, custom extraction, filtering and flexible exports make it one of the most widely used tools among technical SEOs. The free version is capped at 500 URLs; a licence is needed for larger crawls and advanced features.",
+    "**Sitebulb** is also a crawler but takes a different approach. According to its official site it comes as desktop (Windows and Mac) and cloud products; it presents findings as prioritised, explained “hints” and produces visualisations such as crawl maps plus customisable PDF reports. Those explanations save time when you need to brief a client or developer.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "On JavaScript-heavy sites",
+      "metin": "On a React or Next.js site, run the crawl twice, with JavaScript rendering on and off, and compare. Links and content missing from raw HTML are the fastest sign of rendering problems."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Cloud platforms: Ahrefs and Semrush",
+   "paragraflar": [
+    "Ahrefs and Semrush are cloud platforms that bundle site audits with backlink, keyword and competitor data. They crawl on their own servers, so your computer need not stay on, and you can schedule recurring audits.",
+    "According to Ahrefs' official page, Site Audit checks for more than 170 technical and on-page issues. According to Semrush's knowledge base, Site Audit runs more than 140 checks and, as of October 2026, includes a separate category for visibility in AI search. Crawl capacity depends on the plan for both; Semrush's free account is limited to 100 pages a month.",
+    "Their real difference is not the audit but the external data. If you also need backlink analysis and competitor comparison, one subscription can cover both auditing and research."
+   ]
+  },
+  {
+   "baslik": "Which SEO tool for which job?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Need",
+       "Suitable tool",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Google's indexing decisions",
+        "Search Console",
+        "The only source with data straight from Google"
+       ],
+       [
+        "Deep technical crawl, custom extraction",
+        "Screaming Frog",
+        "Flexible raw data access and exports"
+       ],
+       [
+        "Prioritised findings and reports",
+        "Sitebulb",
+        "Explained hints, visualisations, PDF reports"
+       ],
+       [
+        "Audit + backlink + competitor data",
+        "Ahrefs or Semrush",
+        "External data and scheduled audits in one place"
+       ],
+       [
+        "Page speed and Core Web Vitals",
+        "PageSpeed Insights, Lighthouse",
+        "Field and lab data"
+       ],
+       [
+        "Structured data validation",
+        "Rich Results Test",
+        "Whether Google reads the markup"
+       ]
+      ]
+     }
+    },
+    "For a small corporate site, Search Console, PageSpeed Insights and the free Screaming Frog are often enough. For an e-commerce site with thousands of products, a licensed crawler plus a cloud platform works better. For special checks like hreflang, see the audit steps in [hreflang and international SEO](/en/blog/hreflang-uluslararasi-seo)."
+   ]
+  },
+  {
+   "baslik": "How to prioritise tool findings",
+   "paragraflar": [
+    "Health scores and warning counts can mislead: thousands of “missing meta description” warnings matter less than one wrong noindex. Rank findings by business impact.",
+    {
+     "akis": {
+      "baslik": "Audit workflow",
+      "adimlar": [
+       {
+        "baslik": "Start with Search Console",
+        "metin": "Find important pages that are not indexed and traffic losses."
+       },
+       {
+        "baslik": "Crawl the site",
+        "metin": "Extract status code, redirect, canonical and internal link issues."
+       },
+       {
+        "baslik": "Match",
+        "metin": "Compare crawl findings with pages that drive traffic and conversions."
+       },
+       {
+        "baslik": "Prioritise",
+        "metin": "Build a to-do list ranked by impact and effort."
+       },
+       {
+        "baslik": "Measure again",
+        "metin": "Recrawl after fixes and monitor in Search Console."
+       }
+      ]
+     }
+    },
+    "To present findings clearly to management, use the framework in the [SEO reporting guide](/en/guides/seo-raporlama). The [schema generator](/en/tools/schema-generator) among the site's [free SEO tools](/en/tools) helps close structured data gaps found in an audit."
+   ]
+  },
+  {
+   "baslik": "When do you need an expert rather than a tool?",
+   "paragraflar": [
+    "Tools list problems; they do not decide which ones actually hurt your traffic, which are deliberate choices or in what order to fix them. In a sudden traffic drop, a site migration or large catalogue issues, interpretation is worth more than the tool.",
+    "To interpret your tool outputs together or commission a full technical audit, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Tek bir SEO aracı yeterli mi?",
+   "c": "Küçük siteler için Search Console ile bir tarayıcı çoğu zaman yeterlidir. Hiçbir üçüncü taraf aracı Search Console'un yerini tutmaz; çünkü Google'ın dizine ekleme kararlarını yalnızca o gösterir. Ücretli araçlar ölçek ve dış veri ihtiyacı doğduğunda anlam kazanır."
+  },
+  {
+   "s": "Araçların sağlık skoru Google sıralamasını gösterir mi?",
+   "c": "Hayır. Sağlık skoru, aracın kendi kurallarına göre hesapladığı bir özettir; Google'ın bir sıralama sinyali değildir. Skoru yükseltmek için önemsiz uyarıları kapatmak yerine trafik getiren sayfaları etkileyen sorunlara odaklanın."
+  },
+  {
+   "s": "Ahrefs ve Semrush'ın trafik tahminleri güvenilir mi?",
+   "c": "Bu rakamlar kendi veri setlerine dayanan tahminlerdir ve rakip karşılaştırması için yön gösterir. Kendi sitenizin gerçek tıklama verisi için Search Console'u, kullanıcı davranışı için GA4'ü esas alın."
+  },
+  {
+   "s": "Ne sıklıkla SEO denetimi yapmalıyım?",
+   "c": "Kapsamlı bir denetim için yılda bir ya da iki kez çoğu site için makul bir ritimdir. Bunun yanında bulut araçlarıyla haftalık ya da aylık otomatik taramalar, yeni çıkan kırık link ve yönlendirme hatalarını erken yakalar. Site taşıma ve büyük sürüm değişikliklerinden sonra mutlaka ek denetim yapın."
+  },
+  {
+   "s": "Tarayıcı sitemi yavaşlatır mı?",
+   "c": "Yüksek hızda yapılan tarama küçük sunucuları zorlayabilir. Tarayıcılarda eşzamanlı istek sayısını ve hızı sınırlayabilirsiniz; canlı sitede yoğun saatler dışında taramak iyi bir alışkanlıktır."
+  },
+  {
+   "s": "Yapay zekâ aramasındaki görünürlüğü bu araçlar ölçer mi?",
+   "c": "Bazı platformlar yapay zekâ botlarının erişimini ve yapay zekâ yanıtlarında görünürlüğü izleyen modüller ekledi, ama yöntemleri araçtan araca değişir. Bu alanı nasıl ele aldığımı [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlattım."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is one SEO tool enough?",
+   "c": "For small sites, Search Console plus a crawler is often enough. No third-party tool replaces Search Console, because only it shows Google's indexing decisions. Paid tools make sense once you need scale and external data."
+  },
+  {
+   "s": "Does a tool's health score reflect Google rankings?",
+   "c": "No. A health score is a summary calculated by the tool's own rules, not a Google ranking signal. Rather than silencing trivial warnings to raise the score, focus on issues that affect pages bringing traffic."
+  },
+  {
+   "s": "Are Ahrefs and Semrush traffic estimates reliable?",
+   "c": "These numbers are estimates based on their own datasets and are useful for competitor comparison. For your own site's real click data, rely on Search Console, and on GA4 for user behaviour."
+  },
+  {
+   "s": "How often should I run an SEO audit?",
+   "c": "A full audit once or twice a year is a reasonable rhythm for most sites. Weekly or monthly automated cloud crawls catch new broken links and redirect errors early. Always run an extra audit after a migration or a major release."
+  },
+  {
+   "s": "Will a crawler slow down my site?",
+   "c": "High-speed crawling can strain small servers. Crawlers let you limit concurrent requests and speed; crawling a live site outside peak hours is a good habit."
+  },
+  {
+   "s": "Do these tools measure visibility in AI search?",
+   "c": "Some platforms have added modules that track AI bot access and visibility in AI answers, but methods vary by tool. I explain how I approach this in [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu)."
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 8,
+ "baslik_tr": "SEO Rakip Analizi: Arama Sonuçlarındaki Rakipleri Doğru Okumak",
+ "baslik_en": "SEO Competitor Analysis: Reading Your Search Competitors Correctly",
+ "meta_baslik_tr": "SEO Rakip Analizi: Arama Rakiplerini Doğru Okumak",
+ "meta_baslik_en": "SEO Competitor Analysis: Read Search Rivals Right",
+ "meta_desc_tr": "İş rakibi ile arama rakibi farkı, SERP analizi, içerik boşluğu ve backlink karşılaştırmasıyla SEO rakip analizini adım adım yapın ve bulguları eyleme çevirin.",
+ "meta_desc_en": "Business vs search competitors, SERP analysis, content gaps and backlink comparison: run an SEO competitor analysis step by step and turn it into action.",
+ "ozet_tr": "Arama sonuçlarında gerçekten kiminle yarıştığınızı bulup içerik ve backlink boşluklarını eyleme çevirmenin yolu.",
+ "ozet_en": "Find out who you really compete with in search and turn content and backlink gaps into action.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Rakip analizi toplantılarında müşterilerin getirdiği liste genellikle sektördeki büyük firmalardır. Oysa arama sonuçlarına baktığımızda hedef sorgularda o firmaların çoğu görünmüyor; ilk sayfayı bir sözlük sitesi, bir pazaryeri ve iki küçük blog paylaşıyor. SEO'da rakibinizi siz seçmezsiniz, arama sonucu seçer.",
+    "Bu yazıda arama rakiplerini nasıl belirleyeceğinizi, SERP'i nasıl okuyacağınızı, içerik boşluğu ve backlink karşılaştırmasını nasıl yapacağınızı ve bulguları nasıl iş listesine çevireceğinizi anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: SEO rakip analizi, iş rakiplerinizi değil, hedef sorgularınızda arama sonuçlarında tekrar tekrar karşınıza çıkan alan adlarını inceler. Önce sorgu kümelerinizi çıkarın, her küme için ilk sayfayı inceleyin, sonra içerik boşluğunu ve backlink farkını karşılaştırın. Amaç rakibi kopyalamak değil, aynı niyete daha iyi cevap veren sayfayı kurmaktır."
+    }
+   ]
+  },
+  {
+   "baslik": "İş rakibi ile arama rakibi neden farklıdır?",
+   "paragraflar": [
+    "İş rakibi aynı müşteriye aynı ürünü satan firmadır. Arama rakibi ise hedef sorgunuzda sonuç sayfasında yer kapan her sayfadır; bu bir haber sitesi, bir forum, bir pazaryeri ya da Google'ın kendi SERP özellikleri olabilir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İş rakibi",
+       "tur": "notr",
+       "maddeler": [
+        "Aynı ürün veya hizmeti satar",
+        "Satış ekibinin tanıdığı isimlerdir",
+        "Fiyat ve teklif düzeyinde yarışır",
+        "Arama sonucunda hiç görünmeyebilir"
+       ]
+      },
+      "sag": {
+       "baslik": "Arama rakibi",
+       "tur": "notr",
+       "maddeler": [
+        "Aynı sorguda sonuç sayfasında yer alır",
+        "Bilgi sitesi, pazaryeri, forum olabilir",
+        "Tıklama ve dikkat için yarışır",
+        "Sorgu kümesine göre değişir"
+       ]
+      }
+     }
+    },
+    "Bu ayrım bütçeyi doğrudan etkiler. Büyük bir iş rakibinin backlink profilini kovalamak yerine, hedef kümede sizinle aynı ölçekte olup ilk sayfada duran siteyi incelemek çok daha uygulanabilir sonuç verir."
+   ]
+  },
+  {
+   "baslik": "Arama rakiplerinizi nasıl belirlersiniz?",
+   "paragraflar": [
+    "Başlangıç noktası anahtar kelime kümeleridir. Her küme için birkaç temsilci sorguyu gizli pencerede ya da konum ayarı yapılmış bir araçla arayın ve ilk sayfadaki alan adlarını bir tabloya yazın. Birden fazla kümede tekrar eden alan adları asıl arama rakiplerinizdir. Kümeleri oluşturmak için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemi kullanabilirsiniz.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Rakip türü",
+       "Örnek",
+       "Ne öğrenirsiniz?"
+      ],
+      "satirlar": [
+       [
+        "Doğrudan rakip",
+        "Aynı hizmeti veren başka bir firma sitesi",
+        "Hizmet sayfası yapısı, teklif dili"
+       ],
+       [
+        "Pazaryeri",
+        "Trendyol, Hepsiburada kategori sayfası",
+        "Filtre, ürün özelliği ve yorum beklentisi"
+       ],
+       [
+        "Bilgi sitesi",
+        "Sözlük, ansiklopedi, haber sitesi",
+        "Tanım ve kapsam beklentisi"
+       ],
+       [
+        "Forum ve topluluk",
+        "Ekşi Sözlük, Reddit, Donanım Haber",
+        "Kullanıcının gerçek soruları ve itirazları"
+       ],
+       [
+        "Niş blog",
+        "Uzman veya meraklı yazarın sitesi",
+        "Derinlik ve deneyim örneği"
+       ]
+      ]
+     }
+    },
+    "Üçüncü taraf SEO araçlarının “organik rakip” listeleri iyi bir başlangıçtır, ancak trafik ve sıra verileri tahminidir. Hangi aracın hangi işte güçlü olduğunu [SEO denetim araçları](/blog/seo-audit-araclari) yazısında karşılaştırdım."
+   ]
+  },
+  {
+   "baslik": "SERP analizi: sonuç sayfası size ne söyler?",
+   "paragraflar": [
+    "Rakiplerin kim olduğu kadar, sonuç sayfasının nasıl göründüğü de önemlidir. Aynı sorguda Google'ın hangi tür sayfaları öne çıkardığı, arama niyetinin en güvenilir göstergesidir.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎯",
+       "baslik": "Niyet",
+       "metin": "Sonuçlar rehber mi, ürün listesi mi, hizmet sayfası mı? Sayfa türünüz buna uymalı."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "SERP özellikleri",
+       "metin": "Öne çıkan snippet, görsel, video, yerel paket veya alışveriş sonuçları tıklama alanını paylaşır."
+      },
+      {
+       "ikon": "🤖",
+       "baslik": "AI Overviews",
+       "metin": "Sorguda yapay zekâ özeti çıkıyorsa hangi sayfaların kaynak gösterildiğini not edin."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "İçerik biçimi",
+       "metin": "Tablo, adım listesi, karşılaştırma veya kısa tanım: üst sıralardaki ortak biçimi çıkarın."
+      }
+     ]
+    },
+    "Hangi SERP özelliğinin nasıl kazanılabileceğini [featured snippet ve SERP özellikleri](/blog/featured-snippet-serp-ozellikleri) yazısında ayrıca ele aldım. Rakip sayfayı okurken kelime sayısını değil, hangi alt sorulara cevap verdiğini listeleyin."
+   ]
+  },
+  {
+   "baslik": "İçerik boşluğu analizi nasıl yapılır?",
+   "paragraflar": [
+    "İçerik boşluğu, rakiplerin görünürlük aldığı ama sizin hiç sayfanızın olmadığı ya da zayıf kaldığınız konulardır. Sistematik bir akışla yürütmek, listeyi önceliklendirilebilir hâle getirir:",
+    {
+     "akis": {
+      "baslik": "İçerik boşluğu analizi",
+      "adimlar": [
+       {
+        "baslik": "Rakipleri seçin",
+        "metin": "Kümelerde tekrar eden 3-5 arama rakibi yeterlidir."
+       },
+       {
+        "baslik": "Konu envanteri çıkarın",
+        "metin": "Rakiplerin sıralandığı konuları ve sayfa türlerini listeleyin."
+       },
+       {
+        "baslik": "Kendi sayfalarınızla eşleyin",
+        "metin": "Her konu için sayfanız yok, zayıf veya güçlü olarak işaretleyin."
+       },
+       {
+        "baslik": "Niyete göre ayırın",
+        "metin": "Ticari niyetli boşlukları bilgi amaçlılardan önce ele alın."
+       },
+       {
+        "baslik": "İçerik takvimine taşıyın",
+        "metin": "Yeni sayfa mı, mevcut sayfayı genişletmek mi, kararı burada verin."
+       }
+      ]
+     }
+    },
+    "Boşlukları konu kümelerine bağlayıp yayın planına dönüştürmek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) bir çerçeve sunar. Her boşluğu kapatmak zorunda değilsiniz; işinizle ilgisi olmayan konular, trafik getirse bile dönüşüm getirmez."
+   ]
+  },
+  {
+   "baslik": "Backlink profilini rakiplerle karşılaştırmak",
+   "paragraflar": [
+    "Search Console yalnızca kendi sitenize gelen bağlantıları gösterir; rakip backlink verisi için üçüncü taraf araçlara ihtiyaç duyarsınız ve bu veriler de araçların kendi taramalarına dayalı tahminlerdir. Toplam link sayısından çok şu sorulara bakın:",
+    {
+     "liste": [
+      "Rakibe bağlantı veren benzersiz alan adı sayısı ve bunların sektörle ilgisi",
+      "Bağlantıların hangi sayfalara gittiği: ana sayfa mı, içerik mi, araç mı?",
+      "Bağlantı kaynağı türleri: haber, sektör derneği, tedarikçi, rehber sitesi",
+      "Birden fazla rakibe bağlantı veren ama size vermeyen siteler",
+      "Kopyalanabilir (rehber listesi, dernek üyeliği) ve kopyalanamaz (haber değeri) bağlantılar"
+     ]
+    },
+    "Kopyalanamaz bağlantıların arkasındaki içerik fikri asıl değerli bulgudur. Marka bahislerini de bu analize ekleyin; yöntem için [marka bahsi](/blog/marka-bahsi-brand-mention) yazısına, link kazanma taktikleri için [backlink ve dijital PR rehberine](/rehber/backlink-dijital-pr) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Rakip analizini eyleme çevirmek",
+   "paragraflar": [
+    "Analizin çıktısı bir sunum değil, sahibi ve tarihi olan bir iş listesi olmalı. Her bulguyu aşağıdaki kontrol listesiyle değerlendirin:",
+    {
+     "kontrol": [
+      "Bulgu hangi sorgu kümesini ve hangi sayfamızı etkiliyor?",
+      "Yeni sayfa mı, mevcut sayfayı güncellemek mi gerekiyor?",
+      "Rakipten daha iyi cevabı hangi özgün bilgiyle verebiliriz (deneyim, veri, örnek)?",
+      "Gerekli backlink veya marka bahsi çalışması var mı?",
+      "Etkiyi hangi metrikle ve ne zaman ölçeceğiz?"
+     ]
+    },
+    "Bu bulgular yıllık plana girdi olur; çeyreklere nasıl dağıtacağınızı [12 aylık SEO strateji planı](/blog/seo-strateji-plani) yazısında anlattım. Sektörünüze özgü arama rakiplerini birlikte çıkarmak isterseniz [sektörler](/sektorler) sayfasından alanınıza bakabilir, [SEO uzmanı](/seo-uzmani) desteği ve [backlink](/backlink) çalışması için [randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "In competitor analysis meetings, clients usually bring a list of the big names in their sector. Yet when we look at the search results, most of those companies do not appear for the target queries; the first page is shared by a dictionary site, a marketplace and two small blogs. In SEO you do not choose your competitors; the results page does.",
+    "This post covers how to identify search competitors, read the SERP, run content gap and backlink comparisons, and turn the findings into a task list.",
+    {
+     "alinti": "Short answer: SEO competitor analysis looks not at your business rivals but at the domains that keep appearing in the results for your target queries. Build your query clusters first, review the first page for each cluster, then compare content gaps and backlink differences. The goal is not to copy a competitor but to build the page that answers the same intent better."
+    }
+   ]
+  },
+  {
+   "baslik": "Why are business and search competitors different?",
+   "paragraflar": [
+    "A business competitor sells the same product to the same customer. A search competitor is any page taking space on the results page for your target query; that can be a news site, a forum, a marketplace or Google's own SERP features.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Business competitor",
+       "tur": "notr",
+       "maddeler": [
+        "Sells the same product or service",
+        "Names your sales team knows",
+        "Competes on price and offer",
+        "May not appear in search at all"
+       ]
+      },
+      "sag": {
+       "baslik": "Search competitor",
+       "tur": "notr",
+       "maddeler": [
+        "Appears on the results page for the same query",
+        "Can be an info site, marketplace or forum",
+        "Competes for clicks and attention",
+        "Changes by query cluster"
+       ]
+      }
+     }
+    },
+    "The distinction directly affects budget. Instead of chasing a large business rival's backlink profile, studying a site of similar size that ranks on page one in your target cluster gives far more actionable results."
+   ]
+  },
+  {
+   "baslik": "How do you identify your search competitors?",
+   "paragraflar": [
+    "Start from keyword clusters. For each cluster, search a few representative queries in a private window or a tool with location set, and log the first-page domains in a sheet. Domains that recur across clusters are your real search competitors. The method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) helps build the clusters.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Competitor type",
+       "Example",
+       "What you learn"
+      ],
+      "satirlar": [
+       [
+        "Direct competitor",
+        "Another firm offering the same service",
+        "Service page structure, offer language"
+       ],
+       [
+        "Marketplace",
+        "A Trendyol or Hepsiburada category page",
+        "Filters, product attributes, review expectations"
+       ],
+       [
+        "Information site",
+        "Dictionary, encyclopedia, news site",
+        "Expected definitions and scope"
+       ],
+       [
+        "Forum and community",
+        "Ekşi Sözlük, Reddit, Donanım Haber",
+        "Real user questions and objections"
+       ],
+       [
+        "Niche blog",
+        "An expert or enthusiast's site",
+        "Depth and first-hand experience"
+       ]
+      ]
+     }
+    },
+    "Third-party SEO tools' “organic competitor” lists are a good start, but their traffic and ranking data are estimates. I compare which tool suits which job in [SEO audit tools](/en/blog/seo-audit-araclari)."
+   ]
+  },
+  {
+   "baslik": "SERP analysis: what does the results page tell you?",
+   "paragraflar": [
+    "How the results page looks matters as much as who is on it. The type of page Google surfaces for a query is the most reliable signal of search intent.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎯",
+       "baslik": "Intent",
+       "metin": "Are the results guides, product lists or service pages? Your page type should match."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "SERP features",
+       "metin": "Featured snippets, images, video, local pack or shopping results share the click space."
+      },
+      {
+       "ikon": "🤖",
+       "baslik": "AI Overviews",
+       "metin": "If an AI summary appears, note which pages it cites."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "Content format",
+       "metin": "Table, steps, comparison or short definition: identify the common format at the top."
+      }
+     ]
+    },
+    "How to win each SERP feature is covered in [featured snippets and SERP features](/en/blog/featured-snippet-serp-ozellikleri). When reading a competitor page, list the sub-questions it answers rather than counting words."
+   ]
+  },
+  {
+   "baslik": "How do you run a content gap analysis?",
+   "paragraflar": [
+    "A content gap is a topic where competitors earn visibility but you have no page or a weak one. A systematic flow makes the list easy to prioritise:",
+    {
+     "akis": {
+      "baslik": "Content gap analysis",
+      "adimlar": [
+       {
+        "baslik": "Pick competitors",
+        "metin": "Three to five search competitors that recur across clusters are enough."
+       },
+       {
+        "baslik": "Build a topic inventory",
+        "metin": "List the topics and page types where competitors rank."
+       },
+       {
+        "baslik": "Map your own pages",
+        "metin": "Mark each topic as no page, weak or strong."
+       },
+       {
+        "baslik": "Split by intent",
+        "metin": "Handle commercial gaps before informational ones."
+       },
+       {
+        "baslik": "Move to the calendar",
+        "metin": "Decide here: new page or expand an existing one."
+       }
+      ]
+     }
+    },
+    "The [content strategy guide](/en/guides/icerik-stratejisi) offers a framework for tying gaps to topic clusters and a publishing plan. You do not need to close every gap; topics unrelated to your business may bring traffic but not conversions."
+   ]
+  },
+  {
+   "baslik": "Comparing your backlink profile with competitors",
+   "paragraflar": [
+    "Search Console shows only links to your own site; competitor backlink data requires third-party tools, and that data is an estimate based on each tool's own crawl. Look beyond total link counts:",
+    {
+     "liste": [
+      "Number of unique linking domains and their relevance to the sector",
+      "Which pages the links point to: homepage, content or tools?",
+      "Link source types: news, industry associations, suppliers, directories",
+      "Sites linking to several competitors but not to you",
+      "Replicable links (directories, memberships) vs non-replicable ones (newsworthiness)"
+     ]
+    },
+    "The content idea behind non-replicable links is the most valuable finding. Add brand mentions to the analysis; see [brand mentions](/en/blog/marka-bahsi-brand-mention) for the method and the [backlink and digital PR guide](/en/guides/backlink-dijital-pr) for earning links."
+   ]
+  },
+  {
+   "baslik": "Turning competitor analysis into action",
+   "paragraflar": [
+    "The output should not be a slide deck but a task list with owners and dates. Assess each finding with this checklist:",
+    {
+     "kontrol": [
+      "Which query cluster and which of our pages does it affect?",
+      "Do we need a new page or an update to an existing one?",
+      "What original input (experience, data, examples) lets us answer better?",
+      "Is backlink or brand mention work needed?",
+      "Which metric will show the impact, and when?"
+     ]
+    },
+    "These findings feed the annual plan; I explain how to spread them across quarters in the [12-month SEO strategy plan](/en/blog/seo-strateji-plani). To map search competitors in your field together, check the [industries](/en/industries) page, and [book a call](/en/book-a-call) for [SEO consulting](/en/seo-consulting) or [backlink and digital PR](/en/backlink-digital-pr) support."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Rakip analizini ne sıklıkla yenilemeliyim?",
+   "c": "Kapsamlı analizi yılda bir veya iki kez, yıllık plan öncesinde yapmak çoğu site için yeterlidir. Öncelikli sorgu kümelerinde ilk sayfayı ise çeyreklik kontrol edin; yeni bir rakip ya da yeni bir SERP özelliği çıktıysa planı güncelleyin."
+  },
+  {
+   "s": "Rakibimin içeriğini yeniden yazmak işe yarar mı?",
+   "c": "Aynı bilgiyi farklı kelimelerle tekrarlamak kullanıcıya yeni bir değer sunmaz. Rakibin cevap vermediği alt soruları, kendi deneyiminizi, verinizi ve örneklerinizi ekleyerek daha iyi bir sayfa kurmak gerekir."
+  },
+  {
+   "s": "Yerel işletmelerde rakip analizi nasıl farklılaşır?",
+   "c": "Yerel sorgularda harita paketi öne çıkar; rakipleri Google Business Profile kategorileri, yorum sayısı ve yanıt düzeni, işletme bilgilerinin tutarlılığı üzerinden de karşılaştırın. Sonuçlar konuma göre değiştiği için aramayı ilgili semt veya ilçe için yapın."
+  },
+  {
+   "s": "Rakiplerin hangi anahtar kelimelerden trafik aldığını kesin olarak görebilir miyim?",
+   "c": "Hayır. Kesin sorgu verisi yalnızca sitenin kendi Search Console hesabında bulunur. Üçüncü taraf araçlar kendi kelime veritabanlarına ve tıklama modellerine dayanan tahminler sunar; bunları yön göstermek için kullanın."
+  },
+  {
+   "s": "Rakibin sitesi daha yavaş ama üstte; hız önemsiz mi?",
+   "c": "Sıralama çok sayıda sinyalin birleşimidir ve hız bunlardan yalnızca biridir. Rakip içerik ve otoritede güçlü olabilir. Core Web Vitals eşiklerini sağlamak kullanıcı deneyimi açısından yine değerlidir; ayrıntılar [Core Web Vitals](/blog/core-web-vitals-2025) yazısında."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How often should I refresh competitor analysis?",
+   "c": "A full analysis once or twice a year, before annual planning, is enough for most sites. Check page one for priority clusters quarterly, and update the plan if a new competitor or SERP feature appears."
+  },
+  {
+   "s": "Does rewriting a competitor's content work?",
+   "c": "Repeating the same information in different words gives users nothing new. Build a better page by adding the sub-questions the competitor misses plus your own experience, data and examples."
+  },
+  {
+   "s": "How does competitor analysis differ for local businesses?",
+   "c": "The map pack dominates local queries, so also compare competitors on Google Business Profile categories, review count and response habits, and consistency of business details. Results vary by location, so search from the relevant district."
+  },
+  {
+   "s": "Can I see exactly which keywords bring competitors traffic?",
+   "c": "No. Exact query data exists only in a site's own Search Console account. Third-party tools offer estimates based on their keyword databases and click models; use them for direction."
+  },
+  {
+   "s": "A competitor's site is slower but ranks higher; does speed not matter?",
+   "c": "Ranking combines many signals, and speed is only one of them. The competitor may be stronger on content and authority. Meeting Core Web Vitals thresholds is still valuable for user experience; see [Core Web Vitals](/en/blog/core-web-vitals-2025)."
+  }
+ ]
+}

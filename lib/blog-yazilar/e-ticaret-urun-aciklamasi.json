@@ -1,0 +1,391 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 7,
+ "baslik_tr": "Ürün Açıklaması ve Kategori Metni Nasıl Yazılır?",
+ "baslik_en": "How to Write Product Descriptions and Category Copy",
+ "meta_baslik_tr": "Ürün Açıklaması ve Kategori Metni Nasıl Yazılır?",
+ "meta_baslik_en": "How to Write Product Descriptions and Category Copy",
+ "meta_desc_tr": "SEO ve satış için ürün açıklaması şablonu, üretici metnini kopyalamanın sorunu, kategori metninin sayfadaki yeri ve uzunluğu üzerine uygulanabilir rehber.",
+ "meta_desc_en": "A practical guide to product description templates, why copying manufacturer text hurts, and where category copy should sit and how long it should be.",
+ "ozet_tr": "Satan ve aranan ürün açıklaması için şablon, üretici metni sorunu ve kategori metninin doğru yeri ile uzunluğu.",
+ "ozet_en": "A template for product descriptions that sell and rank, the manufacturer copy problem and where category copy belongs.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-ticaret denetimlerinde en sık gördüğüm içerik sorunu, binlerce üründe tek kelimesi değişmemiş üretici metinleri ve kategori sayfalarının altına yığılmış, kimsenin okumadığı anahtar kelime paragraflarıdır. İkisi de hem müşteriye hem arama motoruna aynı mesajı verir: bu sayfada başka yerde olmayan bir şey yok.",
+    "Bu yazıda ürün açıklaması için kullandığım şablonu, üretici metniyle ne yapmanız gerektiğini ve kategori metninin nereye, ne uzunlukta yazılacağını anlatıyorum. Kategori yapısı, filtreler ve teknik kurulum için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) bakın.",
+    {
+     "alinti": "Kısa cevap: İyi bir ürün açıklaması, müşterinin satın almadan önce sorduğu soruları cevaplar: kime uygun, neden bu ürün, teknik ölçüler, kullanım ve bakım, kargo ve iade. Üretici metni ancak başlangıç noktasıdır; kendi bilginizle zenginleştirin. Kategori metni ise ürün listesini aşağı itmeyen kısa bir giriş ve isteğe bağlı olarak listenin altında bir seçim rehberinden oluşmalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Üretici açıklamasını kopyalamak neden sorun?",
+   "paragraflar": [
+    "Aynı ürünü satan onlarca mağaza aynı üretici metnini kullandığında, Google'ın elinde birbirinin kopyası olan onlarca sayfa olur. Google bu tür yinelenen içerikte genellikle bir ya da birkaç sürümü öne çıkarır; hangisinin seçileceği çoğu zaman alan adının genel gücüne bağlıdır ve küçük mağaza bu yarışta geride kalır.",
+    "Ceza meselesi değil, ayırt edicilik meselesi. Ürününüz rakip sayfadan farklı bir bilgi sunmuyorsa sıralanması için bir neden de yoktur. Search Console'da ürün sayfalarının \"Tarandı – şu anda dizine eklenmemiş\" satırında birikmesi bunun sık görülen belirtisidir; teşhisi [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısında anlattım.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Kopya üretici metni",
+       "tur": "kotu",
+       "maddeler": [
+        "Yüzlerce sitede birebir aynı",
+        "Pazarlama sıfatları, az bilgi",
+        "Müşterinin sorusunu cevaplamaz",
+        "Ölçü ve uyumluluk bilgisi eksik"
+       ]
+      },
+      "sag": {
+       "baslik": "Zenginleştirilmiş açıklama",
+       "tur": "iyi",
+       "maddeler": [
+        "Üretici verisi + kendi deneyiminiz",
+        "Kime uygun, kime değil",
+        "Ölçü tablosu, kullanım ve bakım",
+        "Sık gelen müşteri sorularının cevabı"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Ürün açıklaması şablonu: hangi bilgiler olmalı?",
+   "paragraflar": [
+    "Her ürün kategorisinin kendi soruları vardır, ama aşağıdaki iskelet çoğu üründe işe yarar. Bilgiyi müşteri hizmetlerine gelen sorulardan, iade nedenlerinden ve ürün yorumlarından toplayın; en değerli içerik genellikle oradadır.",
+    {
+     "akis": {
+      "baslik": "Ürün açıklaması iskeleti",
+      "adimlar": [
+       {
+        "baslik": "Bir cümlelik özet",
+        "metin": "Ürün ne, kime ve hangi ihtiyaç için?"
+       },
+       {
+        "baslik": "Ayırt edici faydalar",
+        "metin": "3-5 madde; özellik değil, müşteriye sonucu."
+       },
+       {
+        "baslik": "Teknik özellik tablosu",
+        "metin": "Ölçü, malzeme, ağırlık, uyumluluk; yuvarlak ifadeler değil, net veriler."
+       },
+       {
+        "baslik": "Kullanım ve bakım",
+        "metin": "Yıkama, kurulum, ilk kullanım; iade nedenlerini önleyen bilgiler."
+       },
+       {
+        "baslik": "Kargo, iade, SSS",
+        "metin": "Satın alma kararını son anda durduran sorular."
+       }
+      ]
+     }
+    },
+    "Türkiye'de sık atlanan bir nokta, müşterinin kullandığı kelimeleri metne taşımaktır. Siz \"pamuklu nevresim takımı\" yazarken müşteri \"çift kişilik nevresim takımı ranforce\" diye arıyor olabilir. Bu terimleri [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ile bulun ve metne doğal biçimde yerleştirin."
+   ]
+  },
+  {
+   "baslik": "Binlerce üründe özgün metin nasıl ölçeklenir?",
+   "paragraflar": [
+    "Her ürüne elle uzun metin yazmak çoğu mağaza için gerçekçi değil. Bu yüzden öncelik sırası koyuyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Ürün grubu",
+       "Yaklaşım",
+       "Neden?"
+      ],
+      "satirlar": [
+       [
+        "En çok satan ve en çok aranan ürünler",
+        "Tamamen özgün, ayrıntılı metin",
+        "Trafik ve gelirin büyük kısmı buradan gelir"
+       ],
+       [
+        "Orta seviye ürünler",
+        "Şablon + ürüne özgü 2-3 paragraf",
+        "Ölçeklenebilir ama yine ayırt edici"
+       ],
+       [
+        "Uzun kuyruk, düşük talep",
+        "Yapılandırılmış özellik tablosu + kısa özet",
+        "Eksiksiz veri, makul emek"
+       ],
+       [
+        "Varyant ürünler (renk/beden)",
+        "Tek sayfada toplanmış ortak metin",
+        "Kopya sayfa üretmemek için"
+       ]
+      ]
+     }
+    },
+    "Yapay zekâ araçları taslak üretmeyi hızlandırabilir, ama özellik ve ölçüleri mutlaka gerçek ürün verisiyle karşılaştırın. Google'ın bu konudaki tutumu, içeriğin nasıl üretildiğinden çok kullanıcıya fayda sağlayıp sağlamadığıyla ilgili; ayrıntı [yapay zekâ içeriği ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında."
+   ]
+  },
+  {
+   "baslik": "Kategori metni nereye yazılmalı, ne uzunlukta olmalı?",
+   "paragraflar": [
+    "Kategori sayfasının birinci görevi ürünleri göstermektir. Ürünleri ekranın altına iten uzun bir giriş metni hem kullanıcıyı yorar hem dönüşümü düşürür. Kesin bir ideal kelime sayısı yok; ben iki parçalı bir yapı öneriyorum.",
+    {
+     "kartlar": [
+      {
+       "ikon": "⬆️",
+       "baslik": "Üstte kısa giriş",
+       "metin": "1-3 cümle: kategoride ne var, nasıl seçilir. Ürün listesini aşağı itmeyecek kadar kısa."
+      },
+      {
+       "ikon": "⬇️",
+       "baslik": "Altta seçim rehberi",
+       "metin": "Listenin altında alt başlıklarla seçim kriterleri, ölçü rehberi, kısa SSS. Gerçek bilgi yoksa yazmayın."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Alt kategori linkleri",
+       "metin": "Metin içinde alt kategorilere ve ilgili rehberlere anahtar kelimeli bağlantı verin."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "Anahtar kelime yığını yok",
+       "metin": "Aynı ifadeyi her cümlede tekrarlayan, gizlenmiş ya da küçük puntolu metinler risk taşır."
+      }
+     ]
+    },
+    "Kategori metninin kategori adını tekrar eden boş cümlelerle dolması yerine, müşterinin seçim yaparken takıldığı noktaları çözmesi gerekir: \"Koşu ayakkabısında drop nedir, size hangisi uygun?\" gibi. Metnin hangi aramaya hizmet edeceğini belirlemek için [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet eşleştirme yaklaşımını kullanabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yayına almadan önce ürün sayfası kontrolü",
+   "paragraflar": [
+    "Metin hazır olduğunda sayfanın geri kalanını da birlikte kontrol edin. Açıklama ne kadar iyi olursa olsun, eksik yapısal veri ya da yanlış görsel metni sayfanın değerini düşürür.",
+    {
+     "kontrol": [
+      "Başlık müşterinin aradığı ürün adını, markayı ve ayırt edici özelliği içeriyor.",
+      "Açıklamanın ilk cümlesi ürünün kime ve ne için olduğunu söylüyor.",
+      "Ölçü, malzeme ve uyumluluk bilgisi tabloda, doğrulanmış.",
+      "Görsellerin alt metni görseli tarif ediyor.",
+      "Ürün yapısal verisi (fiyat, stok, değerlendirme) sayfadaki bilgiyle tutarlı.",
+      "Sayfa ilgili kategoriye ve bir rehber yazısına link veriyor."
+     ]
+    },
+    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayıp test edebilirsiniz. Platforma özgü alanlar için [Shopify SEO kontrol listesi](/blog/shopify-seo) ve pazaryeri tarafı için [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazılarına bakın. Ürün ve kategori metinlerinizi ölçekli bir planla yazmak isterseniz [içerik hizmeti](/icerik) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfalarını inceleyin."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Ürün açıklaması en az kaç kelime olmalı?",
+   "c": "Google bir kelime sınırı tanımlamıyor. Doğru uzunluk, müşterinin karar vermek için ihtiyaç duyduğu bilginin uzunluğudur. Basit bir aksesuar için birkaç cümle ve tablo yeterliyken teknik bir cihaz çok daha fazlasını gerektirir."
+  },
+  {
+   "s": "Aynı ürünü hem kendi sitemde hem Trendyol'da satıyorum; metin aynı olabilir mi?",
+   "c": "Olabilir, ama kendi sitenizde daha kapsamlı bir sürüm kullanmanızı öneririm. Pazaryeri sayfası güçlü bir alan adında olduğu için aynı metinle aramada öne geçebilir. Kendi sitenize kullanım rehberi, ölçü tablosu ve SSS gibi ek değer koyun."
+  },
+  {
+   "s": "Kategori metnini sekme ya da \"devamını oku\" içinde gizlemek sorun mu?",
+   "c": "Kullanıcı deneyimi için kısaltılmış ve tıklayınca açılan metin yaygın bir uygulamadır ve HTML'de bulunduğu sürece okunabilir. Sorun, metnin yalnızca arama motoru için yazılmış olması ve kullanıcıya hiç gösterilmemesidir. Gizli, okunmayan anahtar kelime metinlerinden kaçının."
+  },
+  {
+   "s": "Üretici açıklamasının tamamını silmeli miyim?",
+   "c": "Hayır. Üreticinin teknik verileri doğru ve değerlidir; onları tabloya taşıyın. Pazarlama cümlelerini ise kendi gözleminiz, kullanım bilgisi ve müşteri sorularının cevaplarıyla değiştirin."
+  },
+  {
+   "s": "Müşteri yorumları ürün açıklamasının yerini tutar mı?",
+   "c": "Tutmaz ama güçlü bir tamamlayıcıdır. Yorumlar gerçek kullanım deneyimi ve müşteri dilini sayfaya taşır. Sık tekrarlanan sorular ve şikâyetler, açıklamaya eklemeniz gereken bilgileri de gösterir."
+  },
+  {
+   "s": "Eski ürün açıklamalarını güncellemek sıralamayı etkiler mi?",
+   "c": "Güncelleme sayfaya gerçek bilgi ekliyorsa faydalı olabilir; yalnızca tarih değiştirmek ya da cümleleri yeniden düzenlemek etki yaratmaz. Önce trafiği yüksek ama dönüşümü düşük ürünlerden başlayın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The content problem I see most in ecommerce audits is manufacturer copy left unchanged across thousands of products, plus keyword paragraphs stacked under category pages that nobody reads. Both tell shoppers and search engines the same thing: this page offers nothing you cannot find elsewhere.",
+    "This post covers the template I use for product descriptions, what to do with manufacturer text, and where and how long category copy should be. For category structure, filters and technical setup, see the [ecommerce SEO guide](/en/guides/e-ticaret-seo).",
+    {
+     "alinti": "Short answer: a good product description answers the questions shoppers ask before buying: who it suits, why this product, specs, use and care, shipping and returns. Manufacturer text is only a starting point; enrich it with your own knowledge. Category copy should be a short intro that does not push the product grid down, optionally followed by a buying guide below the grid."
+    }
+   ]
+  },
+  {
+   "baslik": "Why is copying manufacturer descriptions a problem?",
+   "paragraflar": [
+    "When dozens of stores selling the same product use the same manufacturer text, Google is left with dozens of near-identical pages. For duplicate content like this, Google usually surfaces one or a few versions; which one often depends on the overall strength of the domain, and smaller stores lose that contest.",
+    "It is not about penalties; it is about distinctiveness. If your page offers nothing the competing page does not, there is no reason for it to rank. Product pages piling up under \"Crawled – currently not indexed\" in Search Console is a common symptom; I cover the diagnosis in [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis).",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Copied manufacturer text",
+       "tur": "kotu",
+       "maddeler": [
+        "Identical across hundreds of sites",
+        "Marketing adjectives, little information",
+        "Does not answer shoppers' questions",
+        "Missing size and compatibility details"
+       ]
+      },
+      "sag": {
+       "baslik": "Enriched description",
+       "tur": "iyi",
+       "maddeler": [
+        "Manufacturer data plus your own experience",
+        "Who it suits and who it does not",
+        "Size table, use and care",
+        "Answers to common customer questions"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Product description template: what to include",
+   "paragraflar": [
+    "Every product category has its own questions, but the skeleton below works for most products. Gather information from customer service questions, return reasons and reviews; that is usually where the most valuable content sits.",
+    {
+     "akis": {
+      "baslik": "Product description skeleton",
+      "adimlar": [
+       {
+        "baslik": "One-line summary",
+        "metin": "What it is, who it is for, which need it meets."
+       },
+       {
+        "baslik": "Distinctive benefits",
+        "metin": "3-5 bullets; outcomes for the shopper, not features."
+       },
+       {
+        "baslik": "Spec table",
+        "metin": "Dimensions, material, weight, compatibility as clear data."
+       },
+       {
+        "baslik": "Use and care",
+        "metin": "Washing, setup, first use; information that prevents returns."
+       },
+       {
+        "baslik": "Shipping, returns, FAQ",
+        "metin": "The questions that stop a purchase at the last moment."
+       }
+      ]
+     }
+    },
+    "A step often skipped is using the words shoppers actually use. You may write \"cotton duvet set\" while shoppers search \"double duvet cover set percale\". Find these terms through [keyword research](/en/guides/anahtar-kelime-arastirmasi) and place them naturally in the copy."
+   ]
+  },
+  {
+   "baslik": "How to scale original copy across thousands of products",
+   "paragraflar": [
+    "Writing long copy by hand for every product is unrealistic for most stores, so I set priorities:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Product group",
+       "Approach",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Best sellers and most searched",
+        "Fully original, detailed copy",
+        "Most traffic and revenue comes from here"
+       ],
+       [
+        "Mid-tier products",
+        "Template plus 2-3 product-specific paragraphs",
+        "Scalable yet still distinctive"
+       ],
+       [
+        "Long tail, low demand",
+        "Structured spec table plus a short summary",
+        "Complete data, reasonable effort"
+       ],
+       [
+        "Variants (colour/size)",
+        "Shared copy on a single page",
+        "Avoids creating duplicate pages"
+       ]
+      ]
+     }
+    },
+    "AI tools can speed up drafting, but always check specs and dimensions against real product data. Google's position focuses on whether content helps users rather than how it was produced; details are in [AI content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+   ]
+  },
+  {
+   "baslik": "Where should category copy go, and how long?",
+   "paragraflar": [
+    "A category page's first job is to show products. A long intro that pushes products below the fold tires users and hurts conversion. There is no ideal word count; I recommend a two-part structure.",
+    {
+     "kartlar": [
+      {
+       "ikon": "⬆️",
+       "baslik": "Short intro on top",
+       "metin": "1-3 sentences: what the category holds and how to choose. Short enough not to push the grid down."
+      },
+      {
+       "ikon": "⬇️",
+       "baslik": "Buying guide below",
+       "metin": "Below the grid: buying criteria, size guide, short FAQ under subheadings. Skip it if you have nothing real to say."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Subcategory links",
+       "metin": "Link to subcategories and related guides with descriptive anchor text."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "No keyword stuffing",
+       "metin": "Copy that repeats one phrase in every sentence, or is hidden in tiny type, carries risk."
+      }
+     ]
+    },
+    "Instead of filler sentences repeating the category name, category copy should resolve the points where shoppers get stuck, such as \"What is drop in running shoes, and which suits you?\". To decide which query the copy should serve, use the intent-matching approach in the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "Product page checks before publishing",
+   "paragraflar": [
+    "Once the copy is ready, check the rest of the page too. However good the description, missing structured data or wrong image text lowers the page's value.",
+    {
+     "kontrol": [
+      "The title includes the product name shoppers search for, the brand and a distinguishing feature.",
+      "The first sentence says who the product is for and why.",
+      "Size, material and compatibility are in a verified table.",
+      "Image alt text describes the image.",
+      "Product structured data (price, stock, rating) matches the page.",
+      "The page links to its category and to a guide."
+     ]
+    },
+    "You can build and test product structured data with the [schema generator](/en/tools/schema-generator). For platform fields see the [Shopify SEO checklist](/en/blog/shopify-seo), and for marketplaces see [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi). If you want product and category copy written to a scalable plan, see [content strategy services](/en/content-strategy) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What is the minimum word count for a product description?",
+   "c": "Google does not set a word limit. The right length is however long the information a shopper needs to decide is. A simple accessory may need a few sentences and a table; a technical device needs far more."
+  },
+  {
+   "s": "I sell the same product on my site and on Trendyol; can the copy be identical?",
+   "c": "It can, but I recommend a fuller version on your own site. The marketplace page sits on a strong domain and may outrank you with the same text. Add extra value on your site such as a usage guide, size table and FAQ."
+  },
+  {
+   "s": "Is it a problem to hide category copy in tabs or a \"read more\"?",
+   "c": "Collapsed copy that opens on click is common for user experience and can be read as long as it is in the HTML. The problem is copy written only for search engines and never shown to users. Avoid hidden keyword text nobody reads."
+  },
+  {
+   "s": "Should I delete the manufacturer description entirely?",
+   "c": "No. The manufacturer's technical data is accurate and valuable; move it into a table. Replace the marketing sentences with your own observations, usage information and answers to customer questions."
+  },
+  {
+   "s": "Can customer reviews replace a product description?",
+   "c": "No, but they are a strong complement. Reviews bring real usage experience and customer language to the page. Recurring questions and complaints also show what information the description is missing."
+  },
+  {
+   "s": "Does updating old product descriptions affect rankings?",
+   "c": "It can help if the update adds real information; changing the date or reshuffling sentences does not. Start with products that get high traffic but convert poorly."
+  }
+ ]
+}

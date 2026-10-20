@@ -1,0 +1,445 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "SEO ROI Nasıl Hesaplanır? Organik Trafiğin Gelire Katkısı",
+ "baslik_en": "How to Calculate SEO ROI: Organic Traffic's Contribution to Revenue",
+ "meta_baslik_tr": "SEO ROI Nasıl Hesaplanır? Formül ve Örnek",
+ "meta_baslik_en": "How to Calculate SEO ROI: Formula and Example",
+ "meta_desc_tr": "SEO yatırım getirisi formülü, organik gelir ve potansiyel müşteri değerini hesaplama, GA4 atıf sınırları ve temsili 12 aylık ROI tablosuyla adım adım rehber.",
+ "meta_desc_en": "The SEO ROI formula, how to value organic revenue and leads, GA4 attribution limits and an illustrative 12-month ROI table, explained step by step.",
+ "ozet_tr": "SEO ROI'yi kâr, artımlı trafik ve atıf sınırlarını hesaba katarak hesaplamanın pratik yolu.",
+ "ozet_en": "A practical way to calculate SEO ROI using profit, incremental traffic and honest attribution limits.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yönetim toplantısında SEO bütçesi konuşulurken gelen soru hep aynı: “Bu yatırım ne getiriyor?” Organik trafik grafiği yukarı gidiyor olabilir, ama trafik tek başına bütçe savunmaz. Gerekli olan, organik kanalın gelire ya da potansiyel müşteriye katkısını tutarlı bir yöntemle hesaplamaktır.",
+    "Bu yazıda SEO ROI formülünü, gelir tarafını nereden alacağınızı, maliyet tarafına neleri koymanız gerektiğini ve hesabı yanıltan atıf sınırlarını anlatıyorum. Örnek tablodaki rakamlar temsilidir; kendi verinizle yeniden hesaplamanız gerekir.",
+    {
+     "alinti": "Kısa cevap: SEO ROI = (organik kanaldan gelen artımlı brüt kâr − SEO maliyeti) / SEO maliyeti. Gelir yerine kâr kullanın, SEO çalışmasından önceki organik seviyeyi taban olarak çıkarın ve hesabı en az 12 aylık birikimli dönemde yapın. GA4 verisi tahmindir; ROI'yi kesin bir rakam değil, varsayımları yazılı bir aralık olarak sunun."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO ROI formülü nedir?",
+   "paragraflar": [
+    "Temel formül diğer yatırımlarla aynıdır: elde edilen getiriden maliyeti çıkarır, maliyete bölersiniz. SEO'da hata genellikle getiri tarafında yapılır. Ciroyu doğrudan kullanmak, ürün maliyetini ve kargoyu yok saydığı için ROI'yi olduğundan yüksek gösterir.",
+    {
+     "kod": "SEO ROI = (Artımlı organik brüt kâr − SEO maliyeti) / SEO maliyeti × 100\n\nArtımlı organik brüt kâr = (Dönem organik geliri − Taban organik gelir) × Brüt kâr marjı"
+    },
+    "**Taban organik gelir**, çalışmaya başlamadan önceki dönemde organik kanalın zaten getirdiği gelirdir; marka aramalarının büyük kısmı bu tabana aittir. Yalnızca bu tabanın üzerindeki artışı SEO'ya yazmak, hesabı savunulabilir kılar. Mevsimselliği dengelemek için tabanı geçen yılın aynı dönemiyle kıyaslayın."
+   ]
+  },
+  {
+   "baslik": "Organik gelir nereden alınır? E-ticaret ve potansiyel müşteri",
+   "paragraflar": [
+    "E-ticarette iş görece kolaydır: GA4'te satın alma etkinliği ve gelir değeri doğru kuruluysa organik kanalın gelirini doğrudan raporlayabilirsiniz. Ölçüm kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım. Sipariş iadeleri yüksekse net geliri ERP veya mağaza panelinden doğrulayın.",
+    "Hizmet ve B2B sitelerinde satış sitede gerçekleşmez; form veya telefon araması bir potansiyel müşteridir. Bu durumda her potansiyel müşteriye değer biçmeniz gerekir:",
+    {
+     "liste": [
+      "Organik kaynaklı potansiyel müşteri sayısı (GA4 anahtar etkinlik)",
+      "Potansiyel müşteriden satışa dönüşme oranı (CRM verisi)",
+      "Ortalama sözleşme veya sepet değeri",
+      "Brüt kâr marjı",
+      "Tekrar satın alma varsa müşteri yaşam boyu değeri"
+     ]
+    },
+    "Satış döngüsü aylar süren [B2B üreticilerde](/sektorler/b2b-uretici-seo) form ile sözleşme arasındaki gecikme büyüktür; CRM'de kaynak alanını doldurmadan bu hesap tahmine dayanır. Raporlamanın genel çerçevesi için [SEO raporlama rehberine](/rehber/seo-raporlama) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Maliyet tarafında neleri hesaba katmalısınız?",
+   "paragraflar": [
+    "ROI'yi yanıltan ikinci hata maliyeti eksik yazmaktır. Yalnızca danışmanlık faturasını yazıp iç ekibin zamanını unutmak, getiriyi şişirir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Maliyet kalemi",
+       "Örnek",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Dış hizmet",
+        "Danışman veya ajans ücreti",
+        "Aylık ya da proje bazlı"
+       ],
+       [
+        "İçerik üretimi",
+        "Yazar, editör, görsel",
+        "Güncelleme maliyeti de dahil"
+       ],
+       [
+        "Geliştirme",
+        "Teknik düzeltmeler, hız çalışması",
+        "Yazılım ekibinin saati"
+       ],
+       [
+        "Araçlar",
+        "Tarama, anahtar kelime, backlink araçları",
+        "Abonelikler"
+       ],
+       [
+        "İç ekip zamanı",
+        "Pazarlama ve ürün ekibinin onay süreçleri",
+        "Saatlik maliyetle"
+       ]
+      ]
+     }
+    },
+    "Piyasadaki ücret modellerini ve neye göre değiştiklerini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında, benim çalışma modelimi de [fiyatlandırma](/fiyatlandirma) sayfasında bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Temsili örnek: 12 aylık birikimli SEO ROI",
+   "paragraflar": [
+    "Aşağıdaki tablo gerçek bir müşteriye ait değildir; yöntemi göstermek için kurgulanmış temsili bir senaryodur. Rakamlar birim cinsindendir, para birimi ya da fiyat değildir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Dönem",
+       "Çeyrek maliyeti",
+       "Çeyrek artımlı brüt kâr",
+       "Birikimli ROI"
+      ],
+      "satirlar": [
+       [
+        "1. çeyrek",
+        "30",
+        "5",
+        "−%83"
+       ],
+       [
+        "2. çeyrek",
+        "30",
+        "15",
+        "−%67"
+       ],
+       [
+        "3. çeyrek",
+        "25",
+        "30",
+        "−%41"
+       ],
+       [
+        "4. çeyrek",
+        "25",
+        "45",
+        "−%14"
+       ],
+       [
+        "2. yıl (tahmini toplam)",
+        "80",
+        "220",
+        "+%66"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Çeyreklik artımlı brüt kâr (birim)",
+      "birim": "",
+      "veriler": [
+       {
+        "etiket": "1. çeyrek",
+        "deger": 5
+       },
+       {
+        "etiket": "2. çeyrek",
+        "deger": 15
+       },
+       {
+        "etiket": "3. çeyrek",
+        "deger": 30
+       },
+       {
+        "etiket": "4. çeyrek",
+        "deger": 45
+       }
+      ],
+      "not": "Temsili örnek: gerçek bir siteye ait veri değildir."
+     }
+    },
+    "Senaryonun gösterdiği şey şu: ilk yıl birikimli ROI negatif kalabilir, çünkü maliyet baştan, getiri gecikmeli gelir. Yayına alınan içerik ve düzeltilen teknik altyapı sonraki dönemlerde de çalışmaya devam ettiği için ikinci yıl tablo değişebilir. Bu bir tahmin modelidir, vaat değildir."
+   ]
+  },
+  {
+   "baslik": "Atıf sınırları: GA4 organiğe ne kadar kredi verir?",
+   "paragraflar": [
+    "Kullanıcı önce blog yazınızı Google'da bulup, bir hafta sonra marka adınızı yazıp reklamdan satın alırsa satış kime yazılır? Cevap atıf modeline bağlıdır. Google'ın dokümanına göre GA4'te ilk tıklama, doğrusal, zaman azalması ve konuma dayalı modeller Kasım 2023'te kaldırıldı; raporlama atıf modeli değişikliği oturum kaynağı gibi oturum kapsamlı boyutları etkilemez.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧭",
+       "baslik": "Model farkı",
+       "metin": "Veriye dayalı model ile son tıklama modeli organiğe farklı kredi verebilir; ikisini karşılaştırın."
+      },
+      {
+       "ikon": "⏳",
+       "baslik": "Geriye dönük pencere",
+       "metin": "Google'ın dokümanına göre çoğu anahtar etkinlik için varsayılan pencere 90 gündür; uzun döngüde dışarıda kalan temaslar olur."
+      },
+      {
+       "ikon": "🍪",
+       "baslik": "Onay ve cihaz",
+       "metin": "Çerez onayı vermeyen ve cihaz değiştiren kullanıcıların yolculuğu eksik görünür."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Marka araması",
+       "metin": "Marka aramasının bir kısmı reklam, PR ve sosyal medyanın etkisidir; tamamını SEO'ya yazmayın."
+      }
+     ]
+    },
+    "Bu yüzden organik ile ücretli aramayı birlikte değerlendirmek gerekir; iki kanalın bütçe ilişkisini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında tartıştım."
+   ]
+  },
+  {
+   "baslik": "SEO ROI'yi yönetime nasıl sunmalısınız?",
+   "paragraflar": [
+    "Tek bir yüzde yerine kötümser, beklenen ve iyimser olmak üzere üç senaryolu bir aralık sunun ve varsayımları (kâr marjı, kapanış oranı, taban dönem) yazılı olarak ekleyin. Böylece rakam tartışması varsayım tartışmasına döner; bu çok daha verimli bir toplantıdır.",
+    "E-ticaret sitelerinde kategori bazlı ROI, hangi ürün gruplarına içerik yatırımı yapılacağını gösterir; yöntem için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) göz atın. Ölçümü büyüme planına bağlamak istiyorsanız [performans ve büyüme](/performans) yaklaşımımı inceleyebilir, kendi verinizle bir ROI modeli kurmak için [SEO uzmanı](/seo-uzmani) olarak [randevu](/randevu) üzerinden görüşebiliriz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When the SEO budget comes up in a management meeting, the question is always the same: “What does this investment return?” The organic traffic chart may be rising, but traffic alone does not defend a budget. You need a consistent method for linking the organic channel to revenue or leads.",
+    "This post covers the SEO ROI formula, where to get revenue figures, what belongs on the cost side and the attribution limits that distort the result. Numbers in the example table are illustrative; recalculate with your own data.",
+    {
+     "alinti": "Short answer: SEO ROI = (incremental gross profit from organic − SEO cost) / SEO cost. Use profit instead of revenue, subtract the organic baseline from before the work started, and calculate over at least 12 cumulative months. GA4 data is an estimate, so present ROI as a range with written assumptions, not a single exact figure."
+    }
+   ]
+  },
+  {
+   "baslik": "What is the SEO ROI formula?",
+   "paragraflar": [
+    "The core formula is the same as for any investment: subtract cost from return and divide by cost. In SEO the mistake usually sits on the return side. Using raw revenue ignores product and shipping costs and overstates ROI.",
+    {
+     "kod": "SEO ROI = (Incremental organic gross profit − SEO cost) / SEO cost × 100\n\nIncremental organic gross profit = (Period organic revenue − Baseline organic revenue) × Gross margin"
+    },
+    "The **baseline** is the revenue organic search already produced before the work began; much of branded search belongs here. Crediting SEO only with growth above that baseline makes the number defensible. Compare against the same period last year to neutralise seasonality."
+   ]
+  },
+  {
+   "baslik": "Where does organic revenue come from? Stores vs leads",
+   "paragraflar": [
+    "In e-commerce it is relatively simple: if the purchase event and revenue value are set up correctly in GA4, you can report organic revenue directly. I cover the setup in [tracking organic traffic in GA4](/en/blog/ga4-seo-takibi). If returns are high, confirm net revenue in your ERP or store admin.",
+    "On service and B2B sites the sale does not happen on the site; a form or call is a lead. You need to put a value on each lead:",
+    {
+     "liste": [
+      "Number of organic leads (GA4 key event)",
+      "Lead-to-sale close rate (CRM data)",
+      "Average contract or order value",
+      "Gross margin",
+      "Customer lifetime value if customers buy again"
+     ]
+    },
+    "For [B2B manufacturers](/en/industries/b2b-manufacturer-seo) with months-long sales cycles, the gap between form and contract is large; without a source field in the CRM this calculation is guesswork. For the wider reporting framework, see the [SEO reporting guide](/en/guides/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "What belongs on the cost side?",
+   "paragraflar": [
+    "The second mistake is under-counting cost. Logging only the consultant's invoice and forgetting internal time inflates the return.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Cost item",
+       "Example",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "External services",
+        "Consultant or agency fee",
+        "Monthly or per project"
+       ],
+       [
+        "Content production",
+        "Writer, editor, visuals",
+        "Include update work"
+       ],
+       [
+        "Development",
+        "Technical fixes, speed work",
+        "Developer hours"
+       ],
+       [
+        "Tools",
+        "Crawling, keyword, backlink tools",
+        "Subscriptions"
+       ],
+       [
+        "Internal time",
+        "Marketing and product approvals",
+        "At hourly cost"
+       ]
+      ]
+     }
+    },
+    "Market fee models and what drives them are covered in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari); my own working model is on the [pricing](/en/pricing) page."
+   ]
+  },
+  {
+   "baslik": "Illustrative example: 12-month cumulative SEO ROI",
+   "paragraflar": [
+    "The table below does not belong to a real client; it is an illustrative scenario built to show the method. Figures are in units, not a currency or a price.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Period",
+       "Quarter cost",
+       "Quarter incremental gross profit",
+       "Cumulative ROI"
+      ],
+      "satirlar": [
+       [
+        "Q1",
+        "30",
+        "5",
+        "−83%"
+       ],
+       [
+        "Q2",
+        "30",
+        "15",
+        "−67%"
+       ],
+       [
+        "Q3",
+        "25",
+        "30",
+        "−41%"
+       ],
+       [
+        "Q4",
+        "25",
+        "45",
+        "−14%"
+       ],
+       [
+        "Year 2 (estimated total)",
+        "80",
+        "220",
+        "+66%"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Quarterly incremental gross profit (units)",
+      "birim": "",
+      "veriler": [
+       {
+        "etiket": "Q1",
+        "deger": 5
+       },
+       {
+        "etiket": "Q2",
+        "deger": 15
+       },
+       {
+        "etiket": "Q3",
+        "deger": 30
+       },
+       {
+        "etiket": "Q4",
+        "deger": 45
+       }
+      ],
+      "not": "Illustrative example, not data from a real site."
+     }
+    },
+    "The point of the scenario: first-year cumulative ROI can stay negative because cost comes first and return arrives later. Published content and fixed infrastructure keep working in later periods, so year two can look different. This is a forecasting model, not a promise."
+   ]
+  },
+  {
+   "baslik": "Attribution limits: how much credit does GA4 give organic?",
+   "paragraflar": [
+    "If someone finds your blog post on Google and a week later searches your brand and buys through an ad, who gets the sale? It depends on the attribution model. Google's documentation says first click, linear, time decay and position-based models were removed from GA4 in November 2023, and changing the reporting attribution model does not affect session-scoped dimensions such as session source.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧭",
+       "baslik": "Model differences",
+       "metin": "Data-driven and last-click models can credit organic differently; compare both."
+      },
+      {
+       "ikon": "⏳",
+       "baslik": "Lookback window",
+       "metin": "Google's documentation gives a 90-day default for most key events; long cycles leave touchpoints outside it."
+      },
+      {
+       "ikon": "🍪",
+       "baslik": "Consent and devices",
+       "metin": "Journeys of users who decline cookies or switch devices appear incomplete."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Branded search",
+       "metin": "Part of branded search comes from ads, PR and social; do not credit all of it to SEO."
+      }
+     ]
+    },
+    "That is why organic and paid search need to be assessed together; I discuss the budget relationship in [SEO vs Google Ads](/en/blog/seo-mu-google-ads-mi)."
+   ]
+  },
+  {
+   "baslik": "How should you present SEO ROI to management?",
+   "paragraflar": [
+    "Instead of a single percentage, present a range with pessimistic, expected and optimistic scenarios, and attach the assumptions (margin, close rate, baseline period) in writing. The debate then shifts from the number to the assumptions, which is a far more productive meeting.",
+    "On stores, ROI by category shows which product groups deserve content investment; see the [e-commerce SEO guide](/en/guides/e-ticaret-seo) for the method. To connect measurement with a growth plan, look at my [performance and growth](/en/performance-growth) approach, and to build an ROI model with your own data through [SEO consulting](/en/seo-consulting), [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "SEO yatırımı ne zaman kendini amorti eder?",
+   "c": "Sektöre, rekabete, sitenin başlangıç durumuna ve bütçeye göre değişir; tek bir süre vermek doğru olmaz. Google'ın kendi dokümanı da kimsenin Google'da ilk sırayı vaat edemeyeceğini belirtir. Bu yüzden amortisman tahminini senaryolu bir model olarak kurun ve çeyreklik güncelleyin."
+  },
+  {
+   "s": "Organik trafiğin reklam eşdeğeri değeri ROI yerine kullanılabilir mi?",
+   "c": "Organik tıklamaları aynı kelimelerin tahmini tıklama başı maliyetiyle çarpmak, trafiğin değerine dair kaba bir fikir verir. Ancak bu gelir değil, varsayımsal bir tasarruftur; ROI hesabının yerine değil, yanına koyun."
+  },
+  {
+   "s": "Marka aramalarını ROI hesabından tamamen çıkarmalı mıyım?",
+   "c": "Tamamen çıkarmak yerine taban dönemle karşılaştırın. Marka aramasının taban üzerindeki artışında SEO'nun payı olabilir, ama PR, reklam ve sosyal medya da etkilidir; bu payı raporda varsayım olarak belirtin."
+  },
+  {
+   "s": "Yerel işletmelerde telefon aramalarını nasıl dahil ederim?",
+   "c": "Sitedeki telefon bağlantısı tıklamasını anahtar etkinlik olarak işaretleyin, Google Business Profile performans verisindeki aramaları ayrı kaynak olarak not edin. Gerçekleşen randevu sayısını resepsiyon veya CRM kaydıyla eşleştirmek hesabı güçlendirir."
+  },
+  {
+   "s": "Yapay zekâ asistanlarından gelen trafik SEO ROI'ye dahil mi?",
+   "c": "GA4'te bu trafik ayrı bir AI Assistant kanalında görünür; organik aramaya değil, ayrı bir GEO kalemine yazmak daha temizdir. Ayırma yöntemini [GA4 yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "When does an SEO investment pay for itself?",
+   "c": "It depends on the sector, competition, the site's starting point and budget, so a single timeframe would be misleading. Google's own documentation states that no one can guarantee a #1 ranking. Build the payback estimate as a scenario model and update it quarterly."
+  },
+  {
+   "s": "Can I use the ad-equivalent value of organic traffic instead of ROI?",
+   "c": "Multiplying organic clicks by the estimated cost per click for the same keywords gives a rough sense of traffic value. It is a hypothetical saving, not revenue, so place it next to ROI rather than in its place."
+  },
+  {
+   "s": "Should I remove branded searches from the ROI calculation entirely?",
+   "c": "Rather than removing them, compare against the baseline. SEO may own part of the growth in branded search above the baseline, but PR, ads and social also play a role; state that share as an assumption."
+  },
+  {
+   "s": "How do local businesses include phone calls?",
+   "c": "Mark phone link clicks on the site as a key event and note calls from Google Business Profile performance data as a separate source. Matching completed appointments with front-desk or CRM records strengthens the calculation."
+  },
+  {
+   "s": "Does AI assistant traffic count toward SEO ROI?",
+   "c": "In GA4 this traffic appears in a separate AI Assistant channel; booking it as its own GEO line rather than organic search keeps things clean. I explain how to separate it in [AI assistant traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+  }
+ ]
+}

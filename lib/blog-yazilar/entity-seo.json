@@ -1,0 +1,385 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 8,
+ "baslik_tr": "Entity SEO: Google ve Yapay Zekâ Markanızı Nasıl Tanır?",
+ "baslik_en": "Entity SEO: How Google and AI Assistants Recognise Your Brand",
+ "meta_baslik_tr": "Entity SEO: Google ve Yapay Zekâ Markanızı Nasıl Tanır?",
+ "meta_baslik_en": "Entity SEO: How Google and AI Recognise Your Brand",
+ "meta_desc_tr": "Entity SEO nedir? Knowledge Graph, bilgi paneli, Organization şeması ve sameAs, tutarlı ad ve profil bilgisiyle markanızı Google'a ve yapay zekâya tanıtın.",
+ "meta_desc_en": "What entity SEO is: the Knowledge Graph, knowledge panels, Organization markup with sameAs and consistent profiles that help Google and AI identify a brand.",
+ "ozet_tr": "Markanızın Google ve yapay zekâ için tanımlı bir varlık olması: Knowledge Graph, Organization şeması, sameAs ve tutarlı profiller.",
+ "ozet_en": "Making your brand a well-defined entity for Google and AI: Knowledge Graph, Organization markup, sameAs and consistent profiles.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir kullanıcı markanızın adını aradığında Google'ın sizi aynı adlı başka bir şirketle, bir semtle ya da bir ürünle karıştırmaması gerekir. Yapay zekâ asistanlarına \"X firması ne iş yapar?\" diye sorulduğunda da doğru, tutarlı bir tarif çıkması beklenir. Entity SEO, tam olarak bu tanınırlık sorunuyla uğraşır.",
+    "Sahada en sık gördüğüm durum şu: Site teknik olarak sağlam, içerik iyi, ama marka adı web'de üç farklı yazımla, iki farklı adresle ve eski bir logoyla dolaşıyor. Bu yazıda markanızı makineler için net bir varlığa dönüştürmenin somut adımlarını anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Entity SEO, markanızı Google'ın ve yapay zekâ sistemlerinin tek ve tanımlı bir varlık (entity) olarak tanımasını sağlama çalışmasıdır. Temeli; açık bir hakkımızda sayfası, Organization yapısal verisi ve sameAs bağlantıları, web genelinde tutarlı ad-adres-profil bilgisi ve güvenilir üçüncü taraf kaynaklarda marka bahsidir."
+    }
+   ]
+  },
+  {
+   "baslik": "Entity (varlık) nedir, anahtar kelimeden farkı ne?",
+   "paragraflar": [
+    "Varlık; kişi, kurum, yer, ürün ya da kavram gibi benzersiz biçimde tanımlanabilen bir şeydir. Anahtar kelime bir metin dizisidir; varlık ise o dizinin işaret ettiği gerçek şeydir. \"Ankara\" kelimesi bir şehri, bir futbol kulübünü ya da bir caddeyi gösterebilir; arama motoru hangisinin kastedildiğini bağlamdan çözer.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Boyut",
+       "Anahtar kelime odağı",
+       "Varlık odağı"
+      ],
+      "satirlar": [
+       [
+        "Birim",
+        "Metin dizisi",
+        "Tanımlı gerçek nesne"
+       ],
+       [
+        "Soru",
+        "Bu sayfa hangi kelimeyi hedefliyor?",
+        "Bu sayfa kimi veya neyi anlatıyor?"
+       ],
+       [
+        "Sinyal",
+        "Başlık, metin, bağlantı metni",
+        "Şema, profiller, bahisler, ilişkiler"
+       ],
+       [
+        "Risk",
+        "Eş anlamlı aramaları kaçırmak",
+        "Aynı adlı başka varlıkla karışmak"
+       ]
+      ]
+     }
+    },
+    "Kavramın daha kısa tanımı ve ilişkili terimler için [AI sözlüğüne](/ai-sozluk) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Knowledge Graph ve bilgi paneli nasıl oluşur?",
+   "paragraflar": [
+    "Google, Knowledge Graph'ı insanlar, yerler ve şeyler hakkında milyarlarca bilgiden oluşan bir veritabanı olarak tanımlıyor. Yardım sayfalarına göre bilgi panelleri Google'ın sistemleri tarafından otomatik oluşturuluyor ve web'deki bilgiler değiştikçe otomatik güncelleniyor; bilgiler web'deki çeşitli kaynaklardan, bazı konularda veri ortaklarından geliyor.",
+    "Yani bilgi paneli için başvurulacak bir form yok. Panel oluştuktan sonra resmi temsilci \"Bu bilgi panelini sahiplen\" adımıyla doğrulama yapıp değişiklik önerebilir. Doğrulamada YouTube, Search Console gibi resmi hesaplardan birine giriş istenebiliyor.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Yerel işletmeler için",
+      "metin": "Google'ın yardım sayfası, belirli bir konumda veya hizmet bölgesinde müşteriye hizmet veren işletmelerin bilgi paneli yerine Google Business Profile kullanmasını söylüyor. Ayrıntılar [Google Business Profile yazısında](/blog/google-business-profile)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Markanızı tanımlayan dört sinyal grubu",
+   "paragraflar": [
+    "Google bir varlığı nasıl ağırlıklandırdığını ayrıntılı açıklamıyor; bu yüzden aşağıdakileri kesin bir formül değil, kontrol edebileceğiniz alanlar olarak düşünün:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏠",
+       "baslik": "Kendi siteniz",
+       "metin": "Kim olduğunuzu, ne yaptığınızı ve nerede olduğunuzu açıkça anlatan bir hakkımızda sayfası."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "Yapısal veri",
+       "metin": "Ana sayfada veya hakkımızda sayfasında Organization ya da uygun alt türü, sameAs bağlantılarıyla."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Resmi profiller",
+       "metin": "LinkedIn, YouTube, sosyal medya ve sektör dizinlerinde aynı ad, logo ve açıklama."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Üçüncü taraf kaynaklar",
+       "metin": "Haber, sektör yayını ve kurum sitelerinde markanızın bağlamıyla anılması."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Organization şeması ve sameAs nasıl kurulur?",
+   "paragraflar": [
+    "Google'ın Organization dokümanına göre bu işaretlemenin zorunlu özelliği yok; ilgili olan tüm özellikleri eklemek öneriliyor. Ana sayfaya ya da kurumu anlatan tek bir sayfaya koymak yeterli. sameAs özelliği, kurumunuz hakkında ek bilgi içeren başka sitelerdeki sayfaları (sosyal profil, inceleme sitesi gibi) gösterir; logo özelliği ise arama sonuçlarında ve bilgi panelinde hangi logonun gösterileceğini etkileyebilir.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Örnek Yazılım A.Ş.\",\n  \"alternateName\": \"Örnek Yazılım\",\n  \"url\": \"https://www.ornek.com.tr/\",\n  \"logo\": \"https://www.ornek.com.tr/logo.png\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/ornek-yazilim\",\n    \"https://www.youtube.com/@ornekyazilim\"\n  ]\n}\n</script>"
+    },
+    "Google, e-ticaret için OnlineStore, fiziksel konum için LocalBusiness alt türleri gibi en belirgin türü kullanmayı öneriyor. Kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilir, özelliklerin ayrıntısını [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Tutarlı ad, adres ve profil bilgisi neden önemli?",
+   "paragraflar": [
+    "Makinelerin farklı kaynaklardaki bilgileri aynı varlığa bağlayabilmesi için bilgilerin örtüşmesi gerekir. Türkiye'de özellikle iki sorun sık çıkıyor: Türkçe karakterli marka adının bazı profillerde \"Cakiroglu\", bazılarında \"Çakıroğlu\" yazılması ve ticaret unvanıyla marka adının rastgele karıştırılması.",
+    {
+     "kontrol": [
+      "Marka adının tek bir resmi yazımı belirlendi ve her yerde o kullanılıyor.",
+      "Ticaret unvanı (ör. \"Ltd. Şti.\") yalnızca legalName ve resmi belgelerde geçiyor.",
+      "Adres ve telefon site, Business Profile ve dizinlerde aynı.",
+      "Logo ve kısa tanım cümlesi tüm profillerde güncel.",
+      "Taşınma veya isim değişikliği sonrası eski profiller güncellendi ya da kapatıldı."
+     ]
+    },
+    "Fiziksel konumu olan işletmelerde bu tutarlılık yerel sonuçları da etkiler; yöntemi [yerel SEO rehberinde](/rehber/yerel-seo) anlattım."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ asistanları markanızı nasıl tanır?",
+   "paragraflar": [
+    "ChatGPT, Gemini, Perplexity ve Copilot gibi asistanlar web kaynaklarını alıntılayabiliyor; ama her birinin hangi altyapıyı ve hangi kaynakları kullandığı konusunda kesin konuşmak doğru olmaz. Gözlemlenebilen şu: Markanız hakkında web'de tutarlı ve doğrulanabilir bilgi ne kadar netse, asistanın sizi doğru tarif etme olasılığı o kadar yükselir.",
+    "Bu noktada üçüncü taraf sitelerdeki bahisler devreye giriyor; konuyu [marka bahsi (brand mention) yazısında](/blog/marka-bahsi-brand-mention) ayrıntılı ele aldım. Markanızın ChatGPT'deki mevcut tarifini nasıl kontrol edeceğinizi de [ChatGPT marka görünürlüğü yazısında](/blog/chatgpt-marka-gorunurlugu) anlattım."
+   ]
+  },
+  {
+   "baslik": "Entity SEO için adım adım plan",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Varlık netleştirme akışı",
+      "adimlar": [
+       {
+        "baslik": "Envanter çıkar",
+        "metin": "Markanın geçtiği tüm profil, dizin ve yayınları listeleyin."
+       },
+       {
+        "baslik": "Resmi tanımı yaz",
+        "metin": "Tek ad, tek kısa tanım, tek logo belirleyin."
+       },
+       {
+        "baslik": "Siteyi düzenle",
+        "metin": "Hakkımızda sayfasını ve Organization şemasını güncelleyin."
+       },
+       {
+        "baslik": "Profilleri eşitle",
+        "metin": "Tüm profilleri resmi tanıma göre güncelleyip sameAs'e ekleyin."
+       },
+       {
+        "baslik": "Bahisleri izle",
+        "metin": "Arama sonuçlarını ve asistan cevaplarını düzenli kontrol edin."
+       }
+      ]
+     }
+    },
+    "Bu planı içerik ve dijital PR çalışmasıyla birlikte yürütmek için [GEO uygulama rehberi](/rehber/geo-uygulama) iyi bir çerçeve sunuyor. Markanızın varlık profilini birlikte incelemek isterseniz [GEO uzmanı](/geo-uzmani) hizmetine göz atabilir ya da [randevu oluşturabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When someone searches for your brand name, Google should not confuse you with a company of the same name, a neighbourhood or a product. When an AI assistant is asked \"What does company X do?\", it should give an accurate, consistent description. Entity SEO deals with exactly this recognition problem.",
+    "The situation I see most in the field: the site is technically sound and the content is good, but the brand name circulates online in three spellings, with two addresses and an old logo. This article covers concrete steps to turn your brand into a clear entity for machines.",
+    {
+     "alinti": "Short answer: Entity SEO is the work of getting Google and AI systems to recognise your brand as a single, well-defined entity. Its foundations are a clear about page, Organization structured data with sameAs links, consistent name, address and profile details across the web, and brand mentions on trusted third-party sources."
+    }
+   ]
+  },
+  {
+   "baslik": "What is an entity, and how is it different from a keyword?",
+   "paragraflar": [
+    "An entity is something that can be uniquely identified: a person, organisation, place, product or concept. A keyword is a string of text; an entity is the real thing that string points to. The word \"Ankara\" can mean a city, a football club or a street; the search engine works out which one is meant from context.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Dimension",
+       "Keyword focus",
+       "Entity focus"
+      ],
+      "satirlar": [
+       [
+        "Unit",
+        "A text string",
+        "A defined real-world thing"
+       ],
+       [
+        "Question",
+        "Which word does this page target?",
+        "Who or what is this page about?"
+       ],
+       [
+        "Signals",
+        "Title, body text, anchor text",
+        "Markup, profiles, mentions, relationships"
+       ],
+       [
+        "Risk",
+        "Missing synonymous searches",
+        "Being confused with another entity of the same name"
+       ]
+      ]
+     }
+    },
+    "For a shorter definition and related terms, see the [AI glossary](/en/ai-glossary)."
+   ]
+  },
+  {
+   "baslik": "How are the Knowledge Graph and knowledge panels built?",
+   "paragraflar": [
+    "Google describes the Knowledge Graph as a database of billions of facts about people, places and things. According to its help pages, knowledge panels are created automatically by Google's systems and updated automatically as information changes on the web; the information comes from various sources across the web and, for some topics, from data partners.",
+    "So there is no form to apply for a knowledge panel. Once a panel exists, an official representative can verify through the \"Claim this knowledge panel\" step and suggest changes. Verification may ask you to sign in to an official account such as YouTube or Search Console.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "For local businesses",
+      "metin": "Google's help page says businesses serving customers at a location or within a service area should use a Google Business Profile instead of a knowledge panel. Details are in the [Google Business Profile article](/en/blog/google-business-profile)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Four groups of signals that define your brand",
+   "paragraflar": [
+    "Google does not explain in detail how it weighs an entity, so treat the following not as a fixed formula but as areas you can control:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏠",
+       "baslik": "Your own site",
+       "metin": "An about page that clearly states who you are, what you do and where you are."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "Structured data",
+       "metin": "Organization or a suitable subtype on the home or about page, with sameAs links."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Official profiles",
+       "metin": "The same name, logo and description on LinkedIn, YouTube, social media and industry directories."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Third-party sources",
+       "metin": "Your brand mentioned in context on news, trade publications and institutional sites."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How to set up Organization markup and sameAs",
+   "paragraflar": [
+    "According to Google's Organization documentation, this markup has no required properties; you are advised to add all properties relevant to your organisation. Placing it on the home page or on a single page describing the organisation is enough. The sameAs property points to pages on other sites with more information about you, such as a social profile or review site, and the logo property can influence which logo appears in results and in your knowledge panel.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Example Software Ltd\",\n  \"alternateName\": \"Example Software\",\n  \"url\": \"https://www.example.com/\",\n  \"logo\": \"https://www.example.com/logo.png\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/example-software\",\n    \"https://www.youtube.com/@examplesoftware\"\n  ]\n}\n</script>"
+    },
+    "Google recommends the most specific type, such as OnlineStore for ecommerce or a LocalBusiness subtype for a physical location. You can prepare the code with the [schema generator](/en/tools/schema-generator) and find property details in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Why consistent name, address and profiles matter",
+   "paragraflar": [
+    "For machines to connect information from different sources to the same entity, that information has to match. In Turkey two problems come up often: a brand name with Turkish characters spelled \"Cakiroglu\" on some profiles and \"Çakıroğlu\" on others, and the registered company name being mixed randomly with the brand name.",
+    {
+     "kontrol": [
+      "One official spelling of the brand name is set and used everywhere.",
+      "The registered company name (e.g. \"Ltd. Şti.\") appears only in legalName and official documents.",
+      "Address and phone match across the site, Business Profile and directories.",
+      "Logo and one-line description are current on every profile.",
+      "Old profiles were updated or closed after a move or rebrand."
+     ]
+    },
+    "For businesses with a physical location, this consistency also affects local results; I explain the method in the [local SEO guide](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "How do AI assistants recognise your brand?",
+   "paragraflar": [
+    "Assistants such as ChatGPT, Gemini, Perplexity and Copilot can cite web sources, but it would be wrong to speak with certainty about which infrastructure or sources each one uses. What can be observed is this: the clearer and more verifiable the information about your brand on the web, the more likely an assistant is to describe you correctly.",
+    "This is where third-party mentions come in; I cover the topic in the [brand mention article](/en/blog/marka-bahsi-brand-mention). I also explain how to check how ChatGPT currently describes your brand in the [ChatGPT brand visibility article](/en/blog/chatgpt-marka-gorunurlugu)."
+   ]
+  },
+  {
+   "baslik": "A step-by-step entity SEO plan",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Entity clarification flow",
+      "adimlar": [
+       {
+        "baslik": "Take inventory",
+        "metin": "List every profile, directory and publication that mentions the brand."
+       },
+       {
+        "baslik": "Write the official definition",
+        "metin": "Set one name, one short description and one logo."
+       },
+       {
+        "baslik": "Fix the site",
+        "metin": "Update the about page and the Organization markup."
+       },
+       {
+        "baslik": "Align profiles",
+        "metin": "Update every profile to match and add them to sameAs."
+       },
+       {
+        "baslik": "Monitor mentions",
+        "metin": "Check search results and assistant answers regularly."
+       }
+      ]
+     }
+    },
+    "The [GEO implementation guide](/en/guides/geo-uygulama) is a good framework for running this plan alongside content and digital PR work. If you would like to review your brand's entity profile together, see [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bilgi paneli çıkması için Wikipedia sayfası şart mı?",
+   "c": "Google'ın yardım sayfaları bilgilerin web'deki çeşitli kaynaklardan geldiğini söylüyor ve tek bir kaynağı şart koşmuyor. Wikipedia'nın kendi kayda değerlik kuralları vardır; yalnızca SEO amacıyla sayfa açmaya çalışmak genellikle sonuç vermez ve silinebilir."
+  },
+  {
+   "s": "Bilgi panelindeki yanlış bilgiyi nasıl düzeltirim?",
+   "c": "Paneli sahiplendiyseniz doğrulama yaptığınız hesapla giriş yapıp panelin altındaki geri bildirim seçeneğinden düzeltme önerebilir, destekleyen bağlantılar ekleyebilirsiniz. Sahiplenmediyseniz herkesin kullanabildiği geri bildirim seçeneği de mevcut."
+  },
+  {
+   "s": "sameAs'e hangi bağlantıları eklemeliyim?",
+   "c": "Yalnızca size ait ve aktif olarak yönettiğiniz resmi profilleri ekleyin. Uzun süredir güncellenmeyen ya da başkasına ait sayfaları eklemek, işaretlemenin tanımlama değerini zayıflatır."
+  },
+  {
+   "s": "Kişisel marka için de entity SEO yapılır mı?",
+   "c": "Evet. Danışman, doktor ya da avukat gibi kişisel markalarda Person işaretlemesi, yazar sayfası ve tutarlı profiller aynı mantıkla çalışır. Kişi ile kurduğu şirket arasındaki ilişkiyi de sitede açıkça belirtmek faydalıdır."
+  },
+  {
+   "s": "Marka adım yaygın bir kelimeyse ne yapmalıyım?",
+   "c": "Ayırt edici bağlamı her yerde tekrar edin: sektör, şehir ve kısa tanım cümlesi gibi. alternateName ile kullanılan diğer yazımları belirtmek ve marka adını içeren aramalarda hangi sonuçların çıktığını düzenli izlemek de yardımcı olur."
+  },
+  {
+   "s": "Entity SEO'nun etkisini nasıl ölçerim?",
+   "c": "Doğrudan bir metrik yok. Marka adıyla yapılan aramalarda çıkan sonuçları, bilgi panelinin varlığını ve içeriğini, asistanların markanızı nasıl tarif ettiğini belirli aralıklarla kaydedip karşılaştırabilirsiniz."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do I need a Wikipedia page to get a knowledge panel?",
+   "c": "Google's help pages say information comes from various sources across the web and do not require any single source. Wikipedia has its own notability rules; trying to create a page purely for SEO usually fails and may be deleted."
+  },
+  {
+   "s": "How do I fix wrong information in a knowledge panel?",
+   "c": "If you have claimed the panel, sign in with the verified account and suggest a correction through the feedback option below the panel, adding supporting links. If you have not, the general feedback option is available to everyone."
+  },
+  {
+   "s": "Which links should I add to sameAs?",
+   "c": "Add only official profiles that belong to you and that you actively manage. Adding long-abandoned pages or pages owned by others weakens the identifying value of the markup."
+  },
+  {
+   "s": "Does entity SEO apply to personal brands too?",
+   "c": "Yes. For personal brands such as consultants, doctors or lawyers, Person markup, an author page and consistent profiles work the same way. It also helps to state clearly on the site how the person relates to their company."
+  },
+  {
+   "s": "What if my brand name is a common word?",
+   "c": "Repeat distinguishing context everywhere: industry, city and a short description. Listing other spellings with alternateName and regularly checking which results appear for searches containing your brand name also helps."
+  },
+  {
+   "s": "How do I measure the effect of entity SEO?",
+   "c": "There is no direct metric. You can periodically record and compare the results for branded searches, whether a knowledge panel appears and what it shows, and how assistants describe your brand."
+  }
+ ]
+}

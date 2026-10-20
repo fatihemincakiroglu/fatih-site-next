@@ -1,0 +1,461 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 7,
+ "baslik_tr": "SEO Uyumlu URL Yapısı: Türkçe Karakter, Hiyerarşi ve Parametreler",
+ "baslik_en": "SEO-Friendly URL Structure: Turkish Characters, Hierarchy and Parameters",
+ "meta_baslik_tr": "SEO Uyumlu URL Yapısı: Türkçe Karakter ve Hiyerarşi",
+ "meta_baslik_en": "SEO-Friendly URLs: Non-ASCII Characters and Hierarchy",
+ "meta_desc_tr": "URL'de Türkçe karakter kullanılır mı, kısa ve okunur URL nasıl kurulur, hiyerarşi ve parametreler nasıl yönetilir, URL değişince 301 nasıl planlanır?",
+ "meta_desc_en": "Should URLs use Turkish characters, how to build short readable URLs, how to manage hierarchy and parameters, and how to plan 301s when URLs change.",
+ "ozet_tr": "Türkçe karakterden parametrelere: okunur, tutarlı ve kalıcı URL yapısını kurmak ve değiştirirken trafiği korumak.",
+ "ozet_en": "From Turkish characters to parameters: building readable, consistent, lasting URLs and protecting traffic when they change.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "URL yapısı, bir sitenin en zor değiştirilen kararlarından biri. Yayına aldıktan sonra her değişiklik yönlendirme, iç link güncellemesi ve geçici dalgalanma demek. Bu yüzden ilk seferde doğru kurmak, sonradan düzeltmekten çok daha ucuz.",
+    "Bu yazıda Türkçe karakter ve transliterasyon kararını, kısa ve okunur URL ilkelerini, klasör hiyerarşisini, parametre yönetimini ve URL değiştiğinde 301 planını Google'ın URL yapısı dokümanı ışığında anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: SEO uyumlu URL kısa, okunur, küçük harfli ve kelimeleri tire ile ayrılmış bir adrestir. Türkçe karakterler teknik olarak kullanılabilir ama tutarlılık ve paylaşım kolaylığı için çoğu sitede transliterasyon (ş→s, ğ→g, ı→i) daha pratiktir. URL değişecekse her eski adres tek adımda yeni karşılığına 301 ile yönlendirilmelidir."
+    }
+   ]
+  },
+  {
+   "baslik": "URL'de Türkçe karakter kullanılmalı mı?",
+   "paragraflar": [
+    "Google'ın dokümanı ASCII dışındaki karakterlerin yüzde kodlamasıyla (percent encoding) yazılmasını öneriyor; yani \"ayakkabı\" adreste \"ayakkab%C4%B1\" olarak gider. Aynı doküman kitlenizin dilini, gerektiğinde transliterasyonla kullanmanızı da öneriyor. Kısacası iki yol da Google açısından geçerli.",
+    "Pratikte ben çoğu Türkçe sitede transliterasyonu öneriyorum. Kodlanmış adresler mesajlaşma uygulamalarında, e-postada ve bazı analiz araçlarında uzun ve okunaksız görünüyor; CMS'lerin ve eklentilerin karakterleri farklı işlemesi de aynı sayfanın iki adresle yayılmasına yol açabiliyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Karakter",
+       "Transliterasyon",
+       "Örnek"
+      ],
+      "satirlar": [
+       [
+        "ç / Ç",
+        "c",
+        "çanta → canta"
+       ],
+       [
+        "ğ / Ğ",
+        "g",
+        "doğal → dogal"
+       ],
+       [
+        "ı / I",
+        "i",
+        "kışlık → kislik"
+       ],
+       [
+        "İ",
+        "i",
+        "İzmir → izmir"
+       ],
+       [
+        "ö / Ö",
+        "o",
+        "örgü → orgu"
+       ],
+       [
+        "ş / Ş",
+        "s",
+        "şampuan → sampuan"
+       ],
+       [
+        "ü / Ü",
+        "u",
+        "ütü → utu"
+       ]
+      ]
+     }
+    },
+    "Hangi yolu seçerseniz seçin, tek bir kurala bağlı kalın. Aynı sitede /kislik-bot ve /kışlık-bot birlikte yaşıyorsa sorun karakterde değil, tutarsızlıktadır. Transliterasyonda anlamı değiştiren ya da istenmeyen çağrışım yaratan kelimeleri yayından önce bir kez gözden geçirin."
+   ]
+  },
+  {
+   "baslik": "Kısa ve okunur URL nasıl olmalı?",
+   "paragraflar": [
+    "Google, mümkün olduğunda uzun kimlik numaraları yerine okunur kelimeler kullanmayı ve kelimeleri alt çizgi yerine tireyle ayırmayı öneriyor. Ayrıca URL'ler büyük-küçük harfe duyarlı; /Urun ve /urun Google için iki ayrı adres.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İyi örnek",
+       "tur": "iyi",
+       "maddeler": [
+        "/kadin/kislik-bot",
+        "/blog/robots-txt-rehberi",
+        "/hizmetler/seo-danismanligi",
+        "Küçük harf, tire, anlamlı kelime"
+       ]
+      },
+      "sag": {
+       "baslik": "Kötü örnek",
+       "tur": "kotu",
+       "maddeler": [
+        "/Urun.aspx?id=48213&cat=7",
+        "/kadin_kislik_bot_2026_yeni_sezon_indirim",
+        "/blog/2026/10/20/post-1",
+        "Büyük harf, alt çizgi, tarih, gereksiz kelime"
+       ]
+      }
+     }
+    },
+    "URL'deki kelimeler kullanıcıya ve paylaşıldığı yerde okuyana sayfanın ne hakkında olduğunu söyler. Ama başlığı olduğu gibi kopyalamak ya da anahtar kelimeyi tekrar etmek gerekmez. Yıl, sezon ve kampanya adı gibi eskiyecek bilgileri kalıcı sayfaların adresine koymamak da sonradan yönlendirme ihtiyacını azaltır."
+   ]
+  },
+  {
+   "baslik": "URL hiyerarşisi ve klasör yapısı nasıl kurulur?",
+   "paragraflar": [
+    "Klasör yapısı, sitenin bilgi mimarisini yansıtmalı. İyi bir hiyerarşi hem kullanıcıya nerede olduğunu gösterir hem de raporlamayı kolaylaştırır: Search Console'da /blog/ ya da /kadin/ ile başlayan sayfaları tek filtreyle izleyebilirsiniz.",
+    {
+     "agac": {
+      "kok": "example.com",
+      "dallar": [
+       {
+        "ad": "/kadin/",
+        "alt": [
+         "/kadin/kislik-bot",
+         "/kadin/spor-ayakkabi"
+        ]
+       },
+       {
+        "ad": "/erkek/",
+        "alt": [
+         "/erkek/deri-ceket"
+        ]
+       },
+       {
+        "ad": "/urun/",
+        "alt": [
+         "/urun/siyah-deri-bot-38"
+        ]
+       },
+       {
+        "ad": "/blog/",
+        "alt": [
+         "/blog/bot-bakimi"
+        ]
+       }
+      ]
+     }
+    },
+    "Bu örnekte ürünler kategori yolundan bağımsız /urun/ altında duruyor. Bir ürün birden fazla kategoride yer alıyorsa bu yapı aynı ürünün farklı yollarla çoğalmasını önler; kategori hiyerarşisi ise breadcrumb ile gösterilir. Derin klasörlerden kaçının: dört-beş seviyeden sonra adres hem uzar hem kırılganlaşır. Mağazalarda kategori ve ürün yapısının ayrıntısı için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) bakabilirsiniz. Çok dilli bir sitede dil klasörünün (/en/ gibi) nasıl kurulacağını [hreflang ve uluslararası SEO](/blog/hreflang-uluslararasi-seo) yazısı anlatıyor."
+   ]
+  },
+  {
+   "baslik": "URL parametreleri SEO'yu nasıl etkiler?",
+   "paragraflar": [
+    "Filtre, sıralama, sayfalama ve kampanya takibi için parametre kullanmak normal. Sorun, aynı içeriği taşıyan sayısız parametre kombinasyonunun taranabilir hâle gelmesi. Google, içeriği değiştirmeyen parametreleri ayıklamayı ve oturum kimliklerini URL yerine çerezde tutmayı öneriyor.",
+    {
+     "liste": [
+      "**Kampanya parametreleri (utm_):** İç linklerde kullanmayın; canonical her zaman temiz adresi göstersin.",
+      "**Sıralama ve görünüm:** İçerik aynı kalıyorsa canonical ile temiz sürüme bağlayın, gerekirse taramayı robots.txt ile sınırlayın.",
+      "**Filtreler:** Arama talebi olan kombinasyonlar için kalıcı ve okunur URL açın, gerisini taramaya kapatın.",
+      "**Sayfalama:** Her sayfa kendi URL'sine sahip olsun ve kendini canonical göstersin.",
+      "**Fragment (#):** İçerik değiştirmek için kullanmayın; Google genellikle desteklemez, History API tercih edin."
+     ]
+    },
+    "Parametre çoğalmasının tarama tarafındaki maliyetini [tarama bütçesi](/blog/crawl-butcesi) yazısında ayrıntılı ele aldım. Google birden fazla parametre için = ve & kullanımını, bir anahtara birden fazla değer için virgülü öneriyor."
+   ]
+  },
+  {
+   "baslik": "URL değiştirirken 301 yönlendirme nasıl planlanır?",
+   "paragraflar": [
+    "Bazen değişiklik gerçekten gereklidir: altyapı değişimi, kategori yeniden düzenlemesi ya da yıllardır kullanılan kötü bir yapı. O durumda amaç, eski adreslerin kazandığı sinyali kaybetmeden yeniye taşımaktır.",
+    {
+     "akis": {
+      "baslik": "URL değişikliği planı",
+      "adimlar": [
+       {
+        "baslik": "Eşleme tablosu",
+        "metin": "Her eski URL'nin yeni karşılığını tek tek çıkarın; toplu olarak ana sayfaya yönlendirmeyin."
+       },
+       {
+        "baslik": "301 kuralları",
+        "metin": "Eski adresten yeniye tek adımlı kalıcı yönlendirme yazın, zincir oluşturmayın."
+       },
+       {
+        "baslik": "İç linkler ve canonical",
+        "metin": "Menü, içerik içi linkler, canonical ve hreflang doğrudan yeni URL'yi göstersin."
+       },
+       {
+        "baslik": "Site haritası",
+        "metin": "Yalnızca yeni URL'leri içeren haritayı Search Console'a gönderin."
+       },
+       {
+        "baslik": "İzleme",
+        "metin": "404'leri, yönlendirme hatalarını ve trafik eğilimini haftalarca takip edin."
+       }
+      ]
+     }
+    },
+    "Yüzlerce kural yazmanız gerekiyorsa [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) Apache ve Nginx için kural taslağı çıkarır. 301 ile 302 arasındaki farkı [301 ve 302 yönlendirme](/blog/301-302-yonlendirme) yazısında, alan adı ya da altyapı değişikliğinin tamamını [site taşıma SEO rehberinde](/rehber/site-tasima-seo) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "URL yapısını denetlemek için kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Tüm URL'ler küçük harf mi; büyük harfli varyantlar tek adrese yönleniyor mu?",
+      "Kelimeler tireyle mi ayrılıyor; alt çizgi ve boşluk (%20) var mı?",
+      "Türkçe karakter kararı tüm sitede tutarlı mı?",
+      "Sonda eğik çizgi (/) kullanımı tek tip mi; diğer varyant yönleniyor mu?",
+      "http, https, www ve www'suz sürümler tek adreste birleşiyor mu?",
+      "Kalıcı sayfaların adresinde yıl, kampanya ya da stok kodu var mı?"
+     ]
+    },
+    "Genel teknik denetim çerçevesi için [teknik SEO rehberi](/rehber/teknik-seo) iyi bir başlangıç. Büyük bir mağazada URL yapısını yeniden kuruyorsanız bu işi [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında eşleme tablosundan izlemeye kadar birlikte yürütebiliriz; [SEO uzmanı](/seo-uzmani) sayfasından çalışma biçimime bakabilir ya da [görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "URL structure is one of the hardest decisions to change on a site. After launch, every change means redirects, internal link updates and a period of fluctuation. Getting it right the first time is far cheaper than fixing it later.",
+    "This article covers the Turkish character and transliteration decision, principles for short and readable URLs, folder hierarchy, parameter management and the 301 plan for when URLs change, in light of Google's URL structure documentation.",
+    {
+     "alinti": "Short answer: an SEO-friendly URL is short, readable, lowercase and separates words with hyphens. Turkish characters can technically be used, but for consistency and easy sharing, transliteration (ş→s, ğ→g, ı→i) is more practical on most sites. If URLs must change, every old address should 301-redirect to its new equivalent in a single hop."
+    }
+   ]
+  },
+  {
+   "baslik": "Should URLs use Turkish characters?",
+   "paragraflar": [
+    "Google's documentation recommends percent-encoding characters outside the ASCII range, so \"ayakkabı\" (shoe) becomes \"ayakkab%C4%B1\" in the address. The same documentation also recommends using your audience's language, with transliteration where applicable. In short, both approaches work for Google.",
+    "In practice I recommend transliteration for most Turkish sites. Encoded addresses look long and unreadable in messaging apps, email and some analytics tools, and CMSs and plugins handling characters differently can spread one page across two addresses.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Character",
+       "Transliteration",
+       "Example"
+      ],
+      "satirlar": [
+       [
+        "ç / Ç",
+        "c",
+        "çanta → canta"
+       ],
+       [
+        "ğ / Ğ",
+        "g",
+        "doğal → dogal"
+       ],
+       [
+        "ı / I",
+        "i",
+        "kışlık → kislik"
+       ],
+       [
+        "İ",
+        "i",
+        "İzmir → izmir"
+       ],
+       [
+        "ö / Ö",
+        "o",
+        "örgü → orgu"
+       ],
+       [
+        "ş / Ş",
+        "s",
+        "şampuan → sampuan"
+       ],
+       [
+        "ü / Ü",
+        "u",
+        "ütü → utu"
+       ]
+      ]
+     }
+    },
+    "Whichever route you choose, stick to one rule. If /kislik-bot and /kışlık-bot coexist on the same site, the problem is not the characters but the inconsistency. Review transliterated words once before launch for changed meanings or unwanted associations."
+   ]
+  },
+  {
+   "baslik": "What should a short, readable URL look like?",
+   "paragraflar": [
+    "Google recommends using readable words rather than long ID numbers where possible, and separating words with hyphens rather than underscores. URLs are also case-sensitive; /Product and /product are two separate addresses for Google.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Good example",
+       "tur": "iyi",
+       "maddeler": [
+        "/women/winter-boots",
+        "/blog/robots-txt-guide",
+        "/services/seo-consulting",
+        "Lowercase, hyphens, meaningful words"
+       ]
+      },
+      "sag": {
+       "baslik": "Bad example",
+       "tur": "kotu",
+       "maddeler": [
+        "/Product.aspx?id=48213&cat=7",
+        "/women_winter_boots_2026_new_season_sale",
+        "/blog/2026/10/20/post-1",
+        "Uppercase, underscores, dates, filler words"
+       ]
+      }
+     }
+    },
+    "Words in the URL tell users, and anyone who sees a shared link, what the page is about. But there is no need to copy the title verbatim or repeat the keyword. Keeping time-bound details such as year, season or campaign name out of permanent pages also reduces the need for redirects later."
+   ]
+  },
+  {
+   "baslik": "How to build URL hierarchy and folder structure",
+   "paragraflar": [
+    "Folder structure should mirror the site's information architecture. A good hierarchy shows users where they are and makes reporting easier: in Search Console you can track every page starting with /blog/ or /women/ with a single filter.",
+    {
+     "agac": {
+      "kok": "example.com",
+      "dallar": [
+       {
+        "ad": "/women/",
+        "alt": [
+         "/women/winter-boots",
+         "/women/trainers"
+        ]
+       },
+       {
+        "ad": "/men/",
+        "alt": [
+         "/men/leather-jacket"
+        ]
+       },
+       {
+        "ad": "/product/",
+        "alt": [
+         "/product/black-leather-boot-38"
+        ]
+       },
+       {
+        "ad": "/blog/",
+        "alt": [
+         "/blog/boot-care"
+        ]
+       }
+      ]
+     }
+    },
+    "In this example, products sit under /product/, independent of the category path. If a product appears in several categories, this prevents the same product multiplying across paths, while breadcrumbs show the category hierarchy. Avoid deep folders: beyond four or five levels the address gets long and fragile. For category and product structure on stores, see the [ecommerce SEO guide](/en/guides/e-ticaret-seo). How to set up a language folder such as /en/ on a multilingual site is covered in [hreflang and international SEO](/en/blog/hreflang-uluslararasi-seo)."
+   ]
+  },
+  {
+   "baslik": "How do URL parameters affect SEO?",
+   "paragraflar": [
+    "Using parameters for filters, sorting, pagination and campaign tracking is normal. The problem is countless parameter combinations with the same content becoming crawlable. Google recommends trimming parameters that do not change the content and keeping session IDs in cookies rather than URLs.",
+    {
+     "liste": [
+      "**Campaign parameters (utm_):** never use them in internal links; the canonical should always point to the clean address.",
+      "**Sort and view:** if content stays the same, point the canonical to the clean version and limit crawling with robots.txt if needed.",
+      "**Filters:** create permanent, readable URLs for combinations with search demand and keep the rest out of crawling.",
+      "**Pagination:** each page should have its own URL and a self-referencing canonical.",
+      "**Fragments (#):** do not use them to change content; Google generally does not support them, so prefer the History API."
+     ]
+    },
+    "I cover the crawling cost of parameter sprawl in the [crawl budget](/en/blog/crawl-butcesi) article. For multiple parameters Google recommends = and &, and a comma for several values of one key."
+   ]
+  },
+  {
+   "baslik": "How to plan 301 redirects when URLs change",
+   "paragraflar": [
+    "Sometimes a change is genuinely necessary: a platform switch, a category reorganisation, or a poor structure that has been in place for years. In that case, the goal is to move old addresses to new ones without losing the signals they earned.",
+    {
+     "akis": {
+      "baslik": "URL change plan",
+      "adimlar": [
+       {
+        "baslik": "Mapping table",
+        "metin": "List the new equivalent of every old URL; never bulk-redirect to the homepage."
+       },
+       {
+        "baslik": "301 rules",
+        "metin": "Write single-hop permanent redirects from old to new and avoid chains."
+       },
+       {
+        "baslik": "Internal links and canonicals",
+        "metin": "Menus, in-content links, canonicals and hreflang should point straight to the new URL."
+       },
+       {
+        "baslik": "Sitemap",
+        "metin": "Submit a sitemap containing only the new URLs in Search Console."
+       },
+       {
+        "baslik": "Monitoring",
+        "metin": "Track 404s, redirect errors and traffic trends for weeks."
+       }
+      ]
+     }
+    },
+    "If you need hundreds of rules, the [redirect generator](/en/tools/redirect-generator) drafts them for Apache and Nginx. The difference between 301 and 302 is covered in [301 vs 302 redirects](/en/blog/301-302-yonlendirme), and full domain or platform changes in the [site migration SEO guide](/en/guides/site-tasima-seo)."
+   ]
+  },
+  {
+   "baslik": "Checklist for auditing URL structure",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Are all URLs lowercase, with uppercase variants redirecting to one address?",
+      "Are words separated with hyphens; are there underscores or spaces (%20)?",
+      "Is the Turkish character decision consistent across the site?",
+      "Is trailing slash use uniform, with the other variant redirecting?",
+      "Do http, https, www and non-www versions consolidate into one address?",
+      "Do permanent pages carry a year, campaign or stock code in the address?"
+     ]
+    },
+    "The [technical SEO guide](/en/guides/teknik-seo) is a good starting point for a broader audit. If you are rebuilding URL structure on a large store, we can run it together from mapping table to monitoring within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting); see how I work on the [SEO consulting](/en/seo-consulting) page or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "URL'deki anahtar kelime sıralamayı ne kadar etkiler?",
+   "c": "URL'deki kelimeler kullanıcıya bağlam verir ama tek başına sıralamayı belirleyen bir unsur olarak görülmemeli. Sırf anahtar kelime eklemek için çalışan bir URL'yi değiştirmek, yönlendirmenin getirdiği riske değmez."
+  },
+  {
+   "s": "Eski ve çalışan URL'lerimi yeni yapıya taşımalı mıyım?",
+   "c": "Mevcut yapı ciddi bir sorun yaratmıyorsa genellikle hayır. Değişiklik, kategori karmaşası, kopya URL'ler ya da altyapı değişimi gibi somut bir nedene dayanmalı ve tam bir eşleme tablosuyla yapılmalı."
+  },
+  {
+   "s": "URL'nin sonunda .html olması sorun mu?",
+   "c": "Hayır, uzantı tek başına sorun değildir. Önemli olan tutarlılıktır; mevcut .html adreslerini sırf görünüm için değiştirmek gereksiz yönlendirme yükü yaratır."
+  },
+  {
+   "s": "Sayfalama için ?sayfa=2 mi, /sayfa/2 mi kullanılmalı?",
+   "c": "İki biçim de çalışır. Her sayfanın kendine ait, taranabilir bir URL'si olması, kendini canonical göstermesi ve önceki-sonraki sayfalara normal linklerle bağlanması biçimden daha önemlidir."
+  },
+  {
+   "s": "URL uzunluğu için bir sınır var mı?",
+   "c": "Google pratik bir karakter sınırı belirtmiyor, ancak çok uzun adresler paylaşımda kesilir ve okunmaz. Gereksiz kelimeleri, tarihleri ve klasör seviyelerini çıkarmak genellikle yeterlidir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How much does a keyword in the URL affect rankings?",
+   "c": "Words in the URL give users context, but they should not be seen as a factor that decides rankings on its own. Changing a working URL just to add a keyword is not worth the risk that comes with redirects."
+  },
+  {
+   "s": "Should I move my old, working URLs to a new structure?",
+   "c": "Usually not, if the current structure causes no serious problem. A change should rest on a concrete reason such as category chaos, duplicate URLs or a platform switch, and be done with a complete mapping table."
+  },
+  {
+   "s": "Is a .html extension at the end of a URL a problem?",
+   "c": "No, the extension itself is not a problem. Consistency matters; changing existing .html addresses for looks alone creates unnecessary redirect overhead."
+  },
+  {
+   "s": "Should pagination use ?page=2 or /page/2?",
+   "c": "Both work. It matters more that each page has its own crawlable URL, a self-referencing canonical, and normal links to the previous and next pages."
+  },
+  {
+   "s": "Is there a limit on URL length?",
+   "c": "Google does not state a practical character limit, but very long addresses get cut off when shared and are hard to read. Removing filler words, dates and extra folder levels is usually enough."
+  }
+ ]
+}

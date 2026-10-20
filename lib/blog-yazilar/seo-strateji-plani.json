@@ -1,0 +1,389 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 9,
+ "baslik_tr": "12 Aylık SEO Strateji Planı: Ay Ay Yol Haritası",
+ "baslik_en": "A 12-Month SEO Strategy Plan: A Month-by-Month Roadmap",
+ "meta_baslik_tr": "12 Aylık SEO Strateji Planı: Ay Ay Yol Haritası",
+ "meta_baslik_en": "12-Month SEO Strategy Plan: Monthly Roadmap",
+ "meta_desc_tr": "Denetimden ölçeklendirmeye çeyrek çeyrek 12 aylık SEO yol haritası: her dönemin işleri, etki-efor öncelik matrisi ve haftalık-aylık raporlama ritmi.",
+ "meta_desc_en": "A quarter-by-quarter 12-month SEO roadmap from audit to scale: the work in each period, an impact-effort priority matrix and a reporting rhythm.",
+ "ozet_tr": "Bir yıllık SEO çalışmasını çeyreklere bölen, önceliklendiren ve raporlama ritmine bağlayan yol haritası.",
+ "ozet_en": "A roadmap that splits a year of SEO into quarters, sets priorities and ties the work to a reporting rhythm.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yeni bir SEO projesinde en sık gördüğüm sorun iş eksikliği değil, sıralama eksikliği. Teknik düzeltmeler, içerik takvimi ve backlink çalışması aynı anda başlıyor; üç ay sonra hiçbiri bitmemiş oluyor. Bir yıllık plan, işleri bağımlılık sırasına koyduğu için bu dağınıklığı önler.",
+    "Aşağıdaki yol haritası çeyrek bazında ilerliyor ve her siteye birebir uymaz; bir klinik sitesiyle binlerce ürünlü bir mağazanın önceliği farklıdır. Yine de mantığı aynıdır: önce ölç ve onar, sonra inşa et, sonra güçlendir ve ölçeklendir.",
+    {
+     "alinti": "Kısa cevap: 12 aylık SEO planını dört çeyreğe bölün. 1. çeyrek denetim, ölçüm ve kritik teknik düzeltmeler; 2. çeyrek içerik mimarisi ve öncelikli sayfalar; 3. çeyrek otorite, dijital PR ve yapay zekâ görünürlüğü; 4. çeyrek içerik budama, ölçeklendirme ve yeni yıl planı. İşleri etki-efor matrisiyle sıralayın ve her çeyrek planı veriye göre güncelleyin."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO planı neden çeyreklere bölünmeli?",
+   "paragraflar": [
+    "SEO'da bir değişikliğin etkisi haftalar içinde değil, genellikle aylar içinde görünür; Google'ın sayfaları yeniden taraması ve değerlendirmesi zaman alır. Aylık plan bu yüzden çok kısa, yıllık tek hedef ise çok belirsiz kalır. Çeyrek, hem sonuç görmeye hem de rota düzeltmeye yetecek bir aralıktır.",
+    {
+     "akis": {
+      "baslik": "12 aylık SEO yol haritası",
+      "adimlar": [
+       {
+        "baslik": "1-3. ay: Ölç ve onar",
+        "metin": "Denetim, ölçüm kurulumu, dizine ekleme ve hız sorunları."
+       },
+       {
+        "baslik": "4-6. ay: İnşa et",
+        "metin": "Konu kümeleri, hizmet/kategori sayfaları, iç link yapısı."
+       },
+       {
+        "baslik": "7-9. ay: Güçlendir",
+        "metin": "Dijital PR, marka bahsi, yapay zekâ görünürlüğü."
+       },
+       {
+        "baslik": "10-12. ay: Ölçeklendir",
+        "metin": "Budama, güncelleme, başarılı kalıpları çoğaltma, yeni yıl planı."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "1. çeyrek (1-3. ay): Denetim, ölçüm ve hızlı düzeltmeler",
+   "paragraflar": [
+    "İlk ay ölçüm kurulmadan başka bir işe geçmeyin: Search Console doğrulaması, GA4'te anahtar etkinlikler ve taban dönem verisi. Bu taban olmadan yıl sonunda neyin işe yaradığını gösteremezsiniz.",
+    "Ardından teknik denetim gelir. [Teknik SEO rehberindeki](/rehber/teknik-seo) başlıklar bir kontrol listesi olarak kullanılabilir; önce tarama ve dizine eklemeyi engelleyen hatalar, sonra şablon düzeyindeki sorunlar düzeltilir. Son olarak hedef kitle, anahtar kelime kümeleri ve [arama sonuçlarındaki rakip analizi](/blog/rakip-analizi-seo) ile ikinci çeyreğin içerik listesi çıkarılır.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Hızlı kazanımlar",
+      "metin": "Search Console'da gösterimi yüksek ama tıklaması düşük sayfaların başlık ve açıklamalarını iyileştirmek, ilk çeyrekte görece az eforla ölçülebilir değişiklik sağlayabilen işlerdendir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2. çeyrek (4-6. ay): İçerik mimarisi ve öncelikli sayfalar",
+   "paragraflar": [
+    "Bu çeyrekte dönüşüm getiren sayfalar önceliklidir: hizmet, kategori ve ürün sayfaları. Blog içeriği bu sayfaları destekleyen konu kümeleri olarak planlanır; her yazı ilgili ticari sayfaya bağlanır. Kümeleme yaklaşımını [konu otoritesi ve pillar-cluster modeli](/blog/topical-authority) yazısında ayrıntılı anlattım.",
+    "Yayın hızını ekibin kapasitesine göre belirleyin. Az ama her biri arama niyetine tam cevap veren sayfa, çok sayıda ince sayfadan daha sağlıklıdır. İçerik brifinden yayın akışına kadar süreç için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) bir şablon sunar; üretim desteğine ihtiyacınız varsa [içerik hizmeti](/icerik) sayfasına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "3. çeyrek (7-9. ay): Otorite, dijital PR ve GEO",
+   "paragraflar": [
+    "Sağlam sayfalar olmadan link kazanmak verimsizdir; bu yüzden otorite çalışması üçüncü çeyreğe kalır. Odak, sektör yayınlarında haber değeri taşıyan içerik, özgün veri ve uzman görüşüyle doğal bağlantı ve marka bahsi kazanmaktır. Yöntemleri [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) bulabilirsiniz.",
+    "Aynı dönemde yapay zekâ asistanlarında görünürlük de ölçülmeye başlanır: belirli soru setlerinde markanızın anılıp anılmadığı ve hangi sayfaların kaynak gösterildiği. Uygulama adımları [GEO uygulama rehberinde](/rehber/geo-uygulama) yer alıyor."
+   ]
+  },
+  {
+   "baslik": "4. çeyrek (10-12. ay): Budama, ölçeklendirme ve yeni plan",
+   "paragraflar": [
+    "Son çeyrekte yılın verisi elinizdedir. Trafik ve dönüşüm getirmeyen sayfalar güncellenir, birleştirilir ya da kaldırılır; karar yöntemini [content pruning](/blog/content-pruning) yazısında anlattım. İşe yarayan sayfa kalıpları (şablon, içerik yapısı, iç link düzeni) yeni sayfalara çoğaltılır.",
+    "Yıl sonu değerlendirmesinde Google güncellemelerinin etkisini ayrı not edin; dönem içinde bir çekirdek güncelleme olduysa [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısındaki analiz adımları işinize yarar. Bu değerlendirme yeni yılın 1. çeyreğine girdi olur."
+   ]
+  },
+  {
+   "baslik": "Öncelik matrisi: işleri etki ve eforla sıralamak",
+   "paragraflar": [
+    "Her çeyreğin iş listesi, kapasitenizden uzun olacaktır. Sıralamayı tartışmaya değil, basit bir matrise dayandırın:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kategori",
+       "Etki",
+       "Efor",
+       "Örnek",
+       "Karar"
+      ],
+      "satirlar": [
+       [
+        "Hızlı kazanım",
+        "Yüksek",
+        "Düşük",
+        "Önemli sayfadaki noindex hatası",
+        "Hemen yap"
+       ],
+       [
+        "Stratejik yatırım",
+        "Yüksek",
+        "Yüksek",
+        "Kategori mimarisini yeniden kurmak",
+        "Planla, çeyreğe yay"
+       ],
+       [
+        "Dolgu işi",
+        "Düşük",
+        "Düşük",
+        "Görsel alt metinlerini tamamlamak",
+        "Boşlukta yap"
+       ],
+       [
+        "Zaman kaybı",
+        "Düşük",
+        "Yüksek",
+        "Trafiksiz sayfalar için uzun metin",
+        "Yapma"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Örnek iş listesi: etki puanı",
+      "birim": "/10",
+      "veriler": [
+       {
+        "etiket": "Dizine ekleme hatalarını düzeltmek",
+        "deger": 9
+       },
+       {
+        "etiket": "Hizmet sayfalarını yeniden yazmak",
+        "deger": 8
+       },
+       {
+        "etiket": "Blog-hizmet iç linkleri",
+        "deger": 7
+       },
+       {
+        "etiket": "Dijital PR kampanyası",
+        "deger": 6
+       },
+       {
+        "etiket": "Eski etiket sayfalarını temizlemek",
+        "deger": 4
+       }
+      ],
+      "not": "Etki puanı (1-10), yazarın değerlendirmesi; tipik bir hizmet sitesi için örnek önceliklendirme."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Raporlama ritmi: haftalık, aylık ve çeyreklik",
+   "paragraflar": [
+    "Plan, düzenli bakılmadığında kâğıt üzerinde kalır. Önerdiğim ritim şöyle:",
+    {
+     "liste": [
+      "Haftalık: Search Console'da dizine ekleme ve kritik hata kontrolü, yayınlanan işlerin listesi.",
+      "Aylık: marka dışı organik tıklama, hedef kümelerde gösterim, organik anahtar etkinlikler.",
+      "Çeyreklik: hedeflerle karşılaştırma, tamamlanan ve ertelenen işler, sonraki çeyreğin önceliği."
+     ]
+    },
+    "Hangi KPI'ları nasıl raporlayacağınızı [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Bu planı kendi sitenize uyarlamak isterseniz [SEO uzmanı](/seo-uzmani) olarak ilk denetimden başlayarak birlikte kurabiliriz; uygun bir zaman için [randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The most common problem I see in new SEO projects is not a lack of work but a lack of sequence. Technical fixes, a content calendar and link building all start at once, and three months later none of them is finished. A one-year plan prevents this by putting work in dependency order.",
+    "The roadmap below runs by quarter and will not fit every site exactly; a clinic and a store with thousands of products have different priorities. The logic is the same, though: measure and fix first, then build, then strengthen and scale.",
+    {
+     "alinti": "Short answer: Split a 12-month SEO plan into four quarters. Q1 covers the audit, measurement and critical technical fixes; Q2 content architecture and priority pages; Q3 authority, digital PR and AI visibility; Q4 content pruning, scaling and next year's plan. Rank tasks with an impact-effort matrix and update the plan with data every quarter."
+    }
+   ]
+  },
+  {
+   "baslik": "Why split an SEO plan into quarters?",
+   "paragraflar": [
+    "The effect of an SEO change usually shows up over months, not weeks; Google needs time to recrawl and reassess pages. A monthly plan is therefore too short and a single annual goal too vague. A quarter is long enough to see results and short enough to correct course.",
+    {
+     "akis": {
+      "baslik": "12-month SEO roadmap",
+      "adimlar": [
+       {
+        "baslik": "Months 1-3: Measure and fix",
+        "metin": "Audit, measurement setup, indexing and speed issues."
+       },
+       {
+        "baslik": "Months 4-6: Build",
+        "metin": "Topic clusters, service/category pages, internal linking."
+       },
+       {
+        "baslik": "Months 7-9: Strengthen",
+        "metin": "Digital PR, brand mentions, AI visibility."
+       },
+       {
+        "baslik": "Months 10-12: Scale",
+        "metin": "Pruning, updates, replicating what works, next year's plan."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Q1 (months 1-3): Audit, measurement and quick fixes",
+   "paragraflar": [
+    "Do not move on in month one until measurement is in place: Search Console verification, key events in GA4 and baseline data. Without that baseline you cannot show what worked at year end.",
+    "The technical audit comes next. The topics in the [technical SEO guide](/en/guides/teknik-seo) work as a checklist: first errors that block crawling and indexing, then template-level issues. Finally, audience research, keyword clusters and [search competitor analysis](/en/blog/rakip-analizi-seo) produce the content list for Q2.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Quick wins",
+      "metin": "Improving titles and descriptions on pages with high impressions but low clicks in Search Console is one of the lower-effort tasks that can produce a measurable change in the first quarter."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Q2 (months 4-6): Content architecture and priority pages",
+   "paragraflar": [
+    "Pages that drive conversions come first this quarter: service, category and product pages. Blog content is planned as topic clusters supporting them, with each post linking to the relevant commercial page. I explain clustering in [topical authority and the pillar-cluster model](/en/blog/topical-authority).",
+    "Set the publishing pace by team capacity. Fewer pages that fully answer search intent beat many thin ones. The [content strategy guide](/en/guides/icerik-stratejisi) provides a template from brief to publication; if you need production support, see [content strategy services](/en/content-strategy)."
+   ]
+  },
+  {
+   "baslik": "Q3 (months 7-9): Authority, digital PR and GEO",
+   "paragraflar": [
+    "Earning links without solid pages is inefficient, which is why authority work waits until Q3. The focus is on earning natural links and brand mentions in industry publications through newsworthy content, original data and expert commentary. Methods are in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
+    "In the same period, start measuring visibility in AI assistants: whether your brand is mentioned for a defined question set and which pages are cited. The steps are in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Q4 (months 10-12): Pruning, scaling and the next plan",
+   "paragraflar": [
+    "By the last quarter you have a year of data. Pages that bring neither traffic nor conversions are updated, merged or removed; I describe the decision process in [content pruning](/en/blog/content-pruning). Page patterns that work (templates, content structure, internal linking) are replicated on new pages.",
+    "In the year-end review, log the effect of Google updates separately; if a core update landed during the period, the steps in [traffic drops after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu) help. This review becomes the input for next year's Q1."
+   ]
+  },
+  {
+   "baslik": "Priority matrix: ranking tasks by impact and effort",
+   "paragraflar": [
+    "Every quarter's task list will be longer than your capacity. Base the order on a simple matrix rather than debate:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Category",
+       "Impact",
+       "Effort",
+       "Example",
+       "Decision"
+      ],
+      "satirlar": [
+       [
+        "Quick win",
+        "High",
+        "Low",
+        "noindex error on a key page",
+        "Do now"
+       ],
+       [
+        "Strategic investment",
+        "High",
+        "High",
+        "Rebuilding category architecture",
+        "Plan, spread over the quarter"
+       ],
+       [
+        "Filler",
+        "Low",
+        "Low",
+        "Completing image alt text",
+        "Do in gaps"
+       ],
+       [
+        "Time sink",
+        "Low",
+        "High",
+        "Long copy for pages with no demand",
+        "Skip"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Sample task list: impact score",
+      "birim": "/10",
+      "veriler": [
+       {
+        "etiket": "Fix indexing errors",
+        "deger": 9
+       },
+       {
+        "etiket": "Rewrite service pages",
+        "deger": 8
+       },
+       {
+        "etiket": "Blog-to-service internal links",
+        "deger": 7
+       },
+       {
+        "etiket": "Digital PR campaign",
+        "deger": 6
+       },
+       {
+        "etiket": "Clean up old tag pages",
+        "deger": 4
+       }
+      ],
+      "not": "Impact score (1-10), the author's assessment; sample prioritisation for a typical service site."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Reporting rhythm: weekly, monthly and quarterly",
+   "paragraflar": [
+    "A plan stays on paper unless it is reviewed regularly. The rhythm I recommend:",
+    {
+     "liste": [
+      "Weekly: indexing and critical error checks in Search Console, list of shipped work.",
+      "Monthly: non-branded organic clicks, impressions in target clusters, organic key events.",
+      "Quarterly: comparison with goals, completed and deferred work, next quarter's priorities."
+     ]
+    },
+    "I cover which KPIs to report and how in the [SEO reporting guide](/en/guides/seo-raporlama). If you want to adapt this plan to your site, we can build it together through [SEO consulting](/en/seo-consulting), starting with an initial audit; [book a call](/en/book-a-call) at a time that suits you."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "12 aylık SEO planında hangi hedefler gerçekçidir?",
+   "c": "Sıra hedefi yerine marka dışı organik tıklama, hedef kümelerde gösterim ve organik anahtar etkinlik gibi ölçülebilir hedefler koyun. Rakamları taban dönem verisine ve rekabete göre belirleyin. Google'ın dokümanı da kimsenin ilk sırayı vaat edemeyeceğini açıkça söyler."
+  },
+  {
+   "s": "Küçük bir işletme bu planın tamamını uygulamak zorunda mı?",
+   "c": "Hayır. Küçük sitelerde çeyrekler daha hafif geçer; örneğin yerel bir işletmede 3. çeyreğin otorite çalışması ağırlıklı olarak Google Business Profile, yorumlar ve yerel yayınlardan oluşabilir. Sıralama mantığını koruyup kapsamı daraltın."
+  },
+  {
+   "s": "Plan ortasında bir Google güncellemesi gelirse ne yapmalıyım?",
+   "c": "Önce birkaç hafta veriyi izleyin ve hangi sayfa gruplarının etkilendiğini belirleyin. Planı tamamen değiştirmek yerine etkilenen gruba yönelik işleri sonraki çeyreğin önceliğine taşıyın."
+  },
+  {
+   "s": "Site yenileme veya taşıma planın neresine yerleşir?",
+   "c": "Taşıma kendi başına bir projedir ve öncesinde URL eşleme, sonrasında yakın izleme gerektirir. Mümkünse 1. çeyrekteki denetimden sonra, içerik yayınının yoğun olmadığı bir döneme koyun; ayrıntılar [site taşıma rehberinde](/rehber/site-tasima-seo) yer alıyor."
+  },
+  {
+   "s": "SEO planını kim yönetmeli: iç ekip mi, dış danışman mı?",
+   "c": "İkisi birlikte en iyi sonucu verir: danışman önceliklendirme ve denetimi, iç ekip uygulama ve onay süreçlerini üstlenir. Planın sahibi şirket içinde olmalı ki danışman değişse de yol haritası sürsün."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Which goals are realistic in a 12-month SEO plan?",
+   "c": "Instead of ranking targets, set measurable goals such as non-branded organic clicks, impressions in target clusters and organic key events. Base the numbers on baseline data and competition. Google's documentation also states plainly that no one can guarantee a #1 ranking."
+  },
+  {
+   "s": "Does a small business have to run the whole plan?",
+   "c": "No. Quarters are lighter on small sites; for a local business, Q3 authority work may consist mainly of Google Business Profile, reviews and local publications. Keep the sequence and narrow the scope."
+  },
+  {
+   "s": "What if a Google update lands mid-plan?",
+   "c": "Watch the data for a few weeks first and identify which page groups were affected. Rather than rewriting the plan, move work for the affected group into next quarter's priorities."
+  },
+  {
+   "s": "Where does a redesign or migration fit in the plan?",
+   "c": "A migration is a project of its own, with URL mapping beforehand and close monitoring afterwards. Ideally schedule it after the Q1 audit, in a period with little content publishing; details are in the [site migration guide](/en/guides/site-tasima-seo)."
+  },
+  {
+   "s": "Who should own the SEO plan: in-house team or external consultant?",
+   "c": "Both together work best: the consultant handles prioritisation and audits, the in-house team handles implementation and approvals. The plan's owner should sit inside the company so the roadmap continues even if the consultant changes."
+  }
+ ]
+}

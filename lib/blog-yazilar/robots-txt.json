@@ -1,0 +1,359 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "robots.txt Rehberi: Doğru Yapılandırma ve Sık Yapılan Hatalar",
+ "baslik_en": "robots.txt Guide: Correct Configuration and Common Mistakes",
+ "meta_baslik_tr": "robots.txt Rehberi: Doğru Yapılandırma ve Sık Hatalar",
+ "meta_baslik_en": "robots.txt Guide: Configuration and Common Mistakes",
+ "meta_desc_tr": "robots.txt sözdizimi, noindex ile farkı, yapay zekâ botlarının user-agent adları, llms.txt ile farkı ve sitelerde en sık gördüğüm robots.txt hataları.",
+ "meta_desc_en": "robots.txt syntax, how it differs from noindex, AI crawler user-agent names, how it differs from llms.txt, and the robots.txt mistakes I see most often.",
+ "ozet_tr": "robots.txt taramayı yönetir, dizine eklemeyi değil: doğru sözdizimi, yapay zekâ botları ve en sık hatalar tek yerde.",
+ "ozet_en": "robots.txt controls crawling, not indexing: correct syntax, AI crawlers and the most common mistakes in one place.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "robots.txt, sitenin kökünde duran birkaç satırlık bir metin dosyası; ama yanlış bir satır bütün sitenin taranmasını durdurabilir. Denetimlerde hâlâ test ortamından canlıya taşınmış \"Disallow: /\" satırlarına rastlıyorum.",
+    "Bu yazıda Google'ın robots.txt yorumuna göre sözdizimini, noindex ile farkını, yapay zekâ botlarının resmi user-agent adlarını, llms.txt ile karıştırılmaması gereken noktaları ve en sık yapılan hataları anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: robots.txt, botlara sitenin hangi bölümlerini tarayabileceklerini söyler; bir sayfanın dizine eklenmesini tek başına engellemez. Dizinden çıkarmak için noindex kullanılır ve bunun için sayfanın taranabilir olması gerekir. Yapay zekâ botlarını her birinin resmi user-agent adıyla ayrı ayrı yönetebilirsiniz."
+    }
+   ]
+  },
+  {
+   "baslik": "robots.txt nedir ve nerede durmalı?",
+   "paragraflar": [
+    "Google'ın spesifikasyonuna göre dosya her ana makine, protokol ve port için ayrı ayrı kök dizinde durmalı: example.com/robots.txt. Alt alan adları (blog.example.com gibi) kendi dosyalarına ihtiyaç duyar; alt klasöre konan robots.txt dikkate alınmaz.",
+    "Dosya UTF-8 düz metin olmalı ve Google yalnızca ilk 500 KiB'ı okur. Google dosyayı genellikle 24 saate kadar önbellekte tutar; yani yaptığınız değişiklik anında yansımayabilir.",
+    "Dosyaya ulaşılamadığında ne olduğu da önemli. 4xx yanıtı (429 hariç) robots.txt yokmuş gibi yorumlanır ve kısıtlama uygulanmaz. 5xx yanıtında Google ilk 12 saat taramayı durdurur, sonra 30 güne kadar son başarılı sürümü kullanır."
+   ]
+  },
+  {
+   "baslik": "robots.txt sözdizimi: temel kurallar",
+   "paragraflar": [
+    "Google dört alanı destekliyor: user-agent, allow, disallow ve sitemap. crawl-delay gibi desteklenmeyen alanlar Google tarafından yok sayılır. Yollar büyük-küçük harfe duyarlıdır; * sıfır ya da daha fazla karakteri, $ ise URL sonunu ifade eder.",
+    {
+     "kod": "User-agent: *\nDisallow: /sepet/\nDisallow: /hesabim/\nDisallow: /*?sirala=\nAllow: /*?sirala=*&sayfa=\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://www.example.com/sitemap.xml"
+    },
+    "Çakışan kurallarda en uzun, yani en spesifik eşleşme kazanır; eşitlikte daha az kısıtlayıcı kural uygulanır. Bir bot için kendi adıyla bir grup varsa, o bot yalnızca o gruba uyar ve * grubunu dikkate almaz. Bu yüzden özel bir bot grubu açtığınızda genel kuralları oraya da yazmanız gerekir.",
+    "Sitemap satırları tam URL olmalı ve herhangi bir user-agent grubuna bağlı değildir. Tarama bütçesi açısından hangi URL'lerin engellenmesi mantıklı, hangilerinin değil, [tarama bütçesi](/blog/crawl-butcesi) yazısında ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "robots.txt ile noindex arasındaki fark nedir?",
+   "paragraflar": [
+    "En sık karıştırılan konu bu. robots.txt taramayı, noindex ise dizine eklemeyi kontrol eder. Google, robots.txt ile engellenen bir URL'yi başka sayfalardan link aldığında içeriğini görmeden de dizine ekleyebilir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "robots.txt Disallow",
+       "tur": "notr",
+       "maddeler": [
+        "Taramayı engeller",
+        "Sayfa yine de içeriksiz olarak dizinde görünebilir",
+        "Tarama israfını azaltmak için uygundur",
+        "Site genelinde, kalıp bazında çalışır"
+       ]
+      },
+      "sag": {
+       "baslik": "noindex (meta veya X-Robots-Tag)",
+       "tur": "iyi",
+       "maddeler": [
+        "Dizine eklemeyi engeller",
+        "Sayfanın taranabilir olması şarttır",
+        "Dizinden çıkarmak için doğru araçtır",
+        "Sayfa ya da dosya bazında çalışır"
+       ]
+      }
+     }
+    },
+    "Klasik hata ikisini birlikte kullanmaktır: Sayfaya noindex ekleyip robots.txt ile de engellerseniz Googlebot noindex'i hiç göremez. Önce noindex ile sayfanın dizinden çıkmasını bekleyin, gerekiyorsa sonra engelleyin. Genel tarama-dizine ekleme ayrımı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ botlarını robots.txt ile yönetmek",
+   "paragraflar": [
+    "Yapay zekâ şirketleri model eğitimi, arama ve kullanıcı isteğiyle sayfa getirme için çoğu zaman ayrı botlar kullanıyor. Aşağıdaki tablo, Ekim 2026 itibarıyla ilgili şirketlerin resmi dokümanlarında geçen adları özetliyor; listeler değişebildiği için uygulamadan önce kaynakları tekrar kontrol edin.",
+    {
+     "tablo": {
+      "basliklar": [
+       "User-agent",
+       "Şirket",
+       "Resmi dokümana göre amacı"
+      ],
+      "satirlar": [
+       [
+        "Google-Extended",
+        "Google",
+        "Gemini modellerinin eğitimi ve Gemini Apps ile Vertex AI'da yanıt dayanağı; ayrı bir bot değil, kontrol jetonu"
+       ],
+       [
+        "GPTBot",
+        "OpenAI",
+        "Üretken yapay zekâ temel modellerinin eğitimi"
+       ],
+       [
+        "OAI-SearchBot",
+        "OpenAI",
+        "ChatGPT arama özelliklerinde sitelerin gösterilmesi"
+       ],
+       [
+        "ChatGPT-User",
+        "OpenAI",
+        "Kullanıcı başlatmalı işlemler; robots.txt kuralları uygulanmayabilir"
+       ],
+       [
+        "ClaudeBot",
+        "Anthropic",
+        "Eğitime katkı sağlayabilecek içerik toplama"
+       ],
+       [
+        "Claude-SearchBot / Claude-User",
+        "Anthropic",
+        "Arama sonucu kalitesi / kullanıcı sorusuyla sayfa getirme"
+       ],
+       [
+        "PerplexityBot",
+        "Perplexity",
+        "Perplexity arama sonuçlarında siteleri gösterme; eğitim için değil"
+       ]
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Google-Extended, AI Overviews'u kapatmaz",
+      "metin": "Google'ın dokümanına göre Google-Extended, Google Arama'daki yer almayı ve sıralamayı etkilemez. AI Overviews ve AI Mode Arama'nın parçasıdır; onlar için Googlebot kuralları ile nosnippet, max-snippet ve noindex gibi kontroller geçerlidir."
+     }
+    },
+    "Benim önerim, eğitim botları ile arama botlarını ayrı değerlendirmek. Eğitimi engelleyip arama botlarına izin vermek, yapay zekâ asistanlarında kaynak olarak görünme şansını korur. Bu kararın marka görünürlüğüne etkisini [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında, uygulama adımlarını [GEO uygulama rehberinde](/rehber/geo-uygulama) bulabilirsiniz. Terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) işinizi kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "robots.txt ile llms.txt arasındaki fark",
+   "paragraflar": [
+    "llms.txt, sitenin önemli içeriklerini dil modellerine özetlemek için önerilen bir dosya biçimi; erişim izni vermez ya da engellemez. robots.txt ise botların uyduğu bir tarama protokolüdür.",
+    "Google, AI Overviews ve AI Mode'da görünmek için yeni makine okunur dosyalar ya da yapay zekâ metin dosyaları oluşturmanın gerekmediğini açıkça belirtiyor. llms.txt'nin ne işe yaradığını ve hangi durumda denemeye değer olduğunu [llms.txt rehberi](/blog/llms-txt-rehberi) yazısında ayrıca ele aldım."
+   ]
+  },
+  {
+   "baslik": "Sahada en sık gördüğüm robots.txt hataları",
+   "paragraflar": [
+    "Aşağıdaki listeyi bir site yayına alınmadan ya da taşınmadan önce kontrol listesi olarak kullanabilirsiniz:",
+    {
+     "kontrol": [
+      "Test ortamındaki \"Disallow: /\" canlıya taşınmış mı?",
+      "CSS, JavaScript ya da API uç noktaları engellenmiş mi? Render eksik kalır; ayrıntı için [JavaScript SEO](/blog/javascript-seo) yazısına bakın.",
+      "Dizinden çıkarılmak istenen sayfalar hem noindex hem Disallow ile mi işaretli?",
+      "Özel bot grubu açılmış ama genel kurallar o gruba kopyalanmamış mı?",
+      "Yol büyük-küçük harf farkı yüzünden eşleşmiyor mu (/Sepet/ ve /sepet/)?",
+      "robots.txt içinde noindex ya da crawl-delay satırına güvenilmiş mi? Google ikisini de desteklemiyor.",
+      "Alt alan adlarının kendi robots.txt dosyası var mı?"
+     ]
+    },
+    "Değişiklikten sonra Search Console'daki robots.txt raporundan Google'ın dosyanın hangi sürümünü ne zaman aldığını kontrol edin. Yapay zekâ botları için strateji kurmak isterseniz [GEO uzmanı](/geo-uzmani) olarak, teknik SEO denetimi için [SEO uzmanı](/seo-uzmani) olarak destek veriyorum; [iletişim sayfasından](/iletisim) yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "robots.txt is a text file of a few lines sitting at the root of your site, yet one wrong line can stop the whole site from being crawled. In audits I still find \"Disallow: /\" lines carried over from a staging environment to production.",
+    "This article covers robots.txt syntax according to Google's interpretation, how it differs from noindex, the official user-agent names of AI crawlers, how it differs from llms.txt, and the most common mistakes.",
+    {
+     "alinti": "Short answer: robots.txt tells bots which parts of a site they may crawl; on its own it does not stop a page from being indexed. To keep a page out of the index you use noindex, and the page must be crawlable for that to work. AI crawlers can be managed one by one using each company's official user-agent name."
+    }
+   ]
+  },
+  {
+   "baslik": "What is robots.txt and where should it live?",
+   "paragraflar": [
+    "According to Google's specification, the file must sit at the root of each host, protocol and port: example.com/robots.txt. Subdomains such as blog.example.com need their own file, and a robots.txt placed in a subfolder is ignored.",
+    "The file must be UTF-8 plain text, and Google only reads the first 500 KiB. Google generally caches the file for up to 24 hours, so a change may not take effect immediately.",
+    "What happens when the file cannot be fetched also matters. A 4xx response (except 429) is treated as if no robots.txt exists, so no restrictions apply. On a 5xx response Google stops crawling for the first 12 hours, then uses the last successful version for up to 30 days."
+   ]
+  },
+  {
+   "baslik": "robots.txt syntax: the core rules",
+   "paragraflar": [
+    "Google supports four fields: user-agent, allow, disallow and sitemap. Unsupported fields such as crawl-delay are ignored by Google. Paths are case-sensitive; * matches zero or more characters and $ marks the end of the URL.",
+    {
+     "kod": "User-agent: *\nDisallow: /cart/\nDisallow: /account/\nDisallow: /*?sort=\nAllow: /*?sort=*&page=\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://www.example.com/sitemap.xml"
+    },
+    "When rules conflict, the longest, most specific match wins; on a tie the less restrictive rule applies. If there is a group for a bot by name, that bot follows only that group and ignores the * group. So when you open a group for a specific bot, you need to repeat the general rules there too.",
+    "Sitemap lines must be full URLs and are not tied to any user-agent group. I cover which URLs are worth blocking for crawl efficiency, and which are not, in the [crawl budget](/en/blog/crawl-butcesi) article."
+   ]
+  },
+  {
+   "baslik": "What is the difference between robots.txt and noindex?",
+   "paragraflar": [
+    "This is the most common mix-up. robots.txt controls crawling, noindex controls indexing. Google can index a URL blocked by robots.txt without seeing its content if other pages link to it.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "robots.txt Disallow",
+       "tur": "notr",
+       "maddeler": [
+        "Blocks crawling",
+        "The page can still appear in the index without content",
+        "Good for reducing crawl waste",
+        "Works site-wide, by pattern"
+       ]
+      },
+      "sag": {
+       "baslik": "noindex (meta or X-Robots-Tag)",
+       "tur": "iyi",
+       "maddeler": [
+        "Blocks indexing",
+        "The page must be crawlable",
+        "The right tool to remove pages from the index",
+        "Works per page or file"
+       ]
+      }
+     }
+    },
+    "The classic mistake is using both: if you add noindex and also block the page in robots.txt, Googlebot never sees the noindex. Wait for the page to drop out with noindex first, then block it if needed. For the broader crawling versus indexing distinction, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Managing AI crawlers with robots.txt",
+   "paragraflar": [
+    "AI companies often use separate bots for model training, search and fetching pages on a user's request. The table below summarises the names in each company's official documentation as of October 2026; these lists change, so check the sources again before you implement.",
+    {
+     "tablo": {
+      "basliklar": [
+       "User-agent",
+       "Company",
+       "Purpose per official docs"
+      ],
+      "satirlar": [
+       [
+        "Google-Extended",
+        "Google",
+        "Training Gemini models and grounding in Gemini Apps and Vertex AI; a control token, not a separate bot"
+       ],
+       [
+        "GPTBot",
+        "OpenAI",
+        "Training generative AI foundation models"
+       ],
+       [
+        "OAI-SearchBot",
+        "OpenAI",
+        "Surfacing websites in ChatGPT search features"
+       ],
+       [
+        "ChatGPT-User",
+        "OpenAI",
+        "User-initiated actions; robots.txt rules may not apply"
+       ],
+       [
+        "ClaudeBot",
+        "Anthropic",
+        "Collecting content that could contribute to training"
+       ],
+       [
+        "Claude-SearchBot / Claude-User",
+        "Anthropic",
+        "Search result quality / fetching pages for a user's question"
+       ],
+       [
+        "PerplexityBot",
+        "Perplexity",
+        "Surfacing sites in Perplexity search results; not for training"
+       ]
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Google-Extended does not switch off AI Overviews",
+      "metin": "Google's documentation says Google-Extended does not affect inclusion or ranking in Google Search. AI Overviews and AI Mode are part of Search, so Googlebot rules and controls such as nosnippet, max-snippet and noindex apply to them."
+     }
+    },
+    "My advice is to treat training bots and search bots separately. Blocking training while allowing search bots keeps your chance of being cited by AI assistants. You will find the brand visibility side of this decision in [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) and the implementation steps in the [GEO implementation guide](/en/guides/geo-uygulama). If the terms are new to you, the [AI glossary](/en/ai-glossary) helps."
+   ]
+  },
+  {
+   "baslik": "How robots.txt differs from llms.txt",
+   "paragraflar": [
+    "llms.txt is a proposed file format for summarising a site's key content for language models; it neither grants nor blocks access. robots.txt is a crawling protocol that bots follow.",
+    "Google states plainly that you do not need to create new machine-readable files or AI text files to appear in AI Overviews or AI Mode. I cover what llms.txt does and when it is worth trying in the [llms.txt guide](/en/blog/llms-txt-rehberi)."
+   ]
+  },
+  {
+   "baslik": "The robots.txt mistakes I see most often",
+   "paragraflar": [
+    "Use the list below as a checklist before a site launch or migration:",
+    {
+     "kontrol": [
+      "Has the staging \"Disallow: /\" made it to production?",
+      "Are CSS, JavaScript or API endpoints blocked? Rendering will be incomplete; see [JavaScript SEO](/en/blog/javascript-seo).",
+      "Are pages you want removed marked with both noindex and Disallow?",
+      "Was a bot-specific group opened without copying the general rules into it?",
+      "Does a path fail to match because of case (/Cart/ versus /cart/)?",
+      "Is the file relying on noindex or crawl-delay lines? Google supports neither.",
+      "Does each subdomain have its own robots.txt?"
+     ]
+    },
+    "After a change, use the robots.txt report in Search Console to see which version Google fetched and when. If you want a strategy for AI crawlers, I help through [GEO consulting](/en/geo-consulting), and with technical audits through [SEO consulting](/en/seo-consulting); you can reach me via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "robots.txt dosyası olmazsa ne olur?",
+   "c": "Dosya yoksa ya da 404 dönüyorsa Google siteyi kısıtlama olmadan tarar. Küçük siteler için bu çoğu zaman sorun değildir, ama sitemap satırı eklemek ve gereksiz alanları engellemek için basit bir dosya bulundurmak iyi bir alışkanlıktır."
+  },
+  {
+   "s": "Bir sayfayı Google'dan hızlıca kaldırmak için robots.txt yeterli mi?",
+   "c": "Hayır. Engellenen sayfa dizinde kalabilir. Hızlı ve geçici gizleme için Search Console'daki Kaldırma aracını, kalıcı çözüm için noindex, şifre koruması ya da 404/410 yanıtını kullanın."
+  },
+  {
+   "s": "Yapay zekâ botlarını engellersem trafiğim düşer mi?",
+   "c": "Engellediğiniz bota bağlı. Eğitim botlarını engellemek arama görünürlüğünü doğrudan etkilemez; arama ve kullanıcı isteği botlarını engellemek ise ilgili asistanda kaynak gösterilme şansınızı azaltabilir. Kararı bot bazında verin."
+  },
+  {
+   "s": "Tüm botlar robots.txt kurallarına uyar mı?",
+   "c": "robots.txt bir güvenlik aracı değil, iyi niyetli botların uyduğu bir protokoldür. Kötü niyetli tarayıcılar dosyayı yok sayabilir; hassas içeriği şifre ya da sunucu tarafı erişim kontrolüyle koruyun."
+  },
+  {
+   "s": "Görselleri Google Görseller'den nasıl çıkarırım?",
+   "c": "Googlebot-Image user-agent'ı için ilgili görsel yollarını Disallow ile engelleyebilirsiniz. Google'ın dokümanına göre bu jeton Görseller'in yanı sıra görsel içeren bazı Arama özelliklerini de etkiler."
+  },
+  {
+   "s": "Shopify ya da WordPress'te robots.txt nasıl düzenlenir?",
+   "c": "Platformlar genellikle varsayılan bir dosya üretir. Shopify'da robots.txt.liquid şablonu, WordPress'te SEO eklentileri ya da sunucudaki fiziksel dosya üzerinden düzenleme yapılır; güncel yöntemi platformun resmi dokümanından kontrol edin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What happens if there is no robots.txt file?",
+   "c": "If the file is missing or returns 404, Google crawls the site without restrictions. That is usually fine for small sites, but keeping a simple file to list your sitemap and block unnecessary areas is a good habit."
+  },
+  {
+   "s": "Is robots.txt enough to remove a page from Google quickly?",
+   "c": "No. A blocked page can stay in the index. Use the Removals tool in Search Console for fast, temporary hiding, and noindex, password protection or a 404/410 response for a permanent fix."
+  },
+  {
+   "s": "Will blocking AI crawlers reduce my traffic?",
+   "c": "It depends on the bot. Blocking training bots does not directly affect search visibility; blocking search and user-request bots can reduce your chance of being cited in that assistant. Decide bot by bot."
+  },
+  {
+   "s": "Do all bots obey robots.txt?",
+   "c": "robots.txt is not a security tool but a protocol that well-behaved bots follow. Malicious crawlers can ignore it; protect sensitive content with passwords or server-side access control."
+  },
+  {
+   "s": "How do I remove images from Google Images?",
+   "c": "You can disallow the relevant image paths for the Googlebot-Image user agent. According to Google's documentation, this token also affects some Search features that show images, not only Google Images."
+  },
+  {
+   "s": "How do I edit robots.txt on Shopify or WordPress?",
+   "c": "Platforms usually generate a default file. Shopify uses the robots.txt.liquid template, and on WordPress you edit through an SEO plugin or a physical file on the server; check the platform's official docs for the current method."
+  }
+ ]
+}

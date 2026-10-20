@@ -1,0 +1,437 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 7,
+ "baslik_tr": "Black Friday ve Kasım İndirimleri İçin SEO: Sezonluk Sayfa Stratejisi",
+ "baslik_en": "SEO for Black Friday and November Sales: A Seasonal Page Strategy",
+ "meta_baslik_tr": "Black Friday SEO: Kasım İndirimleri İçin Sayfa Stratejisi",
+ "meta_baslik_en": "Black Friday SEO: A Seasonal Page Strategy",
+ "meta_desc_tr": "Black Friday ve Kasım indirimleri için SEO: yılsız kalıcı URL, hazırlık takvimi, Efsane Cuma gibi yerel terimler ve kampanya sonrası sayfaya ne olmalı.",
+ "meta_desc_en": "Black Friday and November sale SEO: a permanent URL without the year, a prep timeline, local Turkish terms and what to do with the page after the sale.",
+ "ozet_tr": "Kasım indirim sayfası için kalıcı URL, hazırlık takvimi, yerel terimler ve kampanya sonrası yapılacaklar.",
+ "ozet_en": "A permanent URL, prep timeline, local terms and post-sale steps for your November sale page.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Her yıl ekim sonunda aynı telaşı görüyorum: kampanya sayfası son hafta açılıyor, adresine yıl ekleniyor, kampanya bitince silinip ertesi yıl sıfırdan kuruluyor. Böylece sayfa her kasım, arama sonuçlarında yer edinmeye sıfırdan başlıyor.",
+    "2026'da Black Friday 27 Kasım'a denk geliyor. Bu yazıda kalıcı kampanya sayfası kurmayı, hangi Türkçe terimleri hedefleyeceğinizi, hazırlık takvimini ve kampanya bittiğinde sayfayla ne yapacağınızı anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Black Friday ve Kasım indirimleri için her yıl aynı, yıl içermeyen bir URL kullanın (/kampanya/black-friday gibi), sayfayı kampanyadan haftalar önce yayına alıp ana sayfadan link verin ve kampanya bittiğinde silmek yerine güncel içerikle yayında tutun. Böylece sayfa yıldan yıla bağlantı ve geçmiş biriktirir."
+    }
+   ]
+  },
+  {
+   "baslik": "Kampanya sayfasında kalıcı URL neden önemli?",
+   "paragraflar": [
+    "Google, 2020'de Search Central blogunda yayımladığı Black Friday ve Cyber Monday önerilerinde her yıl yeni sayfa açmak yerine yinelenen tek bir URL kullanmayı öneriyor; örnek olarak /sale/2020/black-friday yerine /sale/black-friday veriyor. Gerekçe basit: sayfa yıllar içinde aldığı bağlantıları ve sinyalleri korur.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Kalıcı adres",
+       "tur": "iyi",
+       "maddeler": [
+        "/kampanya/black-friday",
+        "Her yıl aynı sayfa güncellenir",
+        "Geçmiş yılların bağlantıları korunur",
+        "Kampanya dışında da yayında kalır"
+       ]
+      },
+      "sag": {
+       "baslik": "Yıllık adres",
+       "tur": "kotu",
+       "maddeler": [
+        "/black-friday-2025, /black-friday-2026",
+        "Her yıl yeni sayfa, sıfırdan başlangıç",
+        "Eski sayfalar silinir ya da unutulur",
+        "Aynı aramada kendi sayfalarınız yarışır"
+       ]
+      }
+     }
+    },
+    "Geçmiş yıllarda yıllı adresler açtıysanız, en güçlü olanı kalıcı adrese 301 ile yönlendirin. Yönlendirme türleri ve zincir riski için [301 ve 302 yönlendirme farkı](/blog/301-302-yonlendirme) yazısına bakabilirsiniz. Başlıkta ve metinde yıl kullanmak serbesttir; yıl yalnızca URL'de olmamalı."
+   ]
+  },
+  {
+   "baslik": "Hangi terimleri hedeflemeli: Black Friday, Efsane Cuma, Kasım?",
+   "paragraflar": [
+    "Türkiye'de kasım indirimleri için tek bir terim kullanılmıyor. Kullanıcılar İngilizce adı da, Türkçe karşılıklarını da arıyor. Kendi kategoriniz için hangisinin arandığını Search Console ve anahtar kelime araçlarıyla kontrol edin.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Terim",
+       "Kullanım",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Black Friday",
+        "Uluslararası ad, yaygın",
+        "Ana sayfa başlığında yer alabilir"
+       ],
+       [
+        "Kara Cuma",
+        "Doğrudan çeviri",
+        "Metinde eş anlamlı olarak kullanılabilir"
+       ],
+       [
+        "Efsane Cuma, Efsane Kasım",
+        "Yerel kampanya dili",
+        "Bazı ifadeler markaların kampanya adı olarak bilinir; kullanmadan önce kontrol edin"
+       ],
+       [
+        "Kasım indirimleri",
+        "Ay boyu süren kampanyalar",
+        "Tek güne sıkışmayan talebi karşılar"
+       ],
+       [
+        "11.11",
+        "11 Kasım indirim günü",
+        "Ayrı bir alt bölüm ya da sayfa gerektirebilir"
+       ],
+       [
+        "Cyber Monday",
+        "Black Friday sonrası pazartesi",
+        "2026'da 30 Kasım'a denk geliyor"
+       ]
+      ]
+     }
+    },
+    "Her terim için ayrı sayfa açmak çoğu zaman gereksizdir; aynı niyete hizmet eden terimleri tek güçlü sayfada toplayın. Niyet farklıysa, örneğin 11.11 sizin için ayrı bir kampanyaysa, ayrı kalıcı sayfa düşünün. Terim seçimi için [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet gruplama yöntemi işe yarar."
+   ]
+  },
+  {
+   "baslik": "Hazırlık takvimi: ne zaman başlamalı?",
+   "paragraflar": [
+    "Google'ın önerisi, sayfanın keşfedilip dizine eklenmesi için kampanyadan önce yeterli zaman bırakmak. Kesin bir gün sayısı yok; ben kasım kampanyaları için eylülde başlamayı öneriyorum.",
+    {
+     "akis": {
+      "baslik": "Kasım kampanyası SEO takvimi",
+      "adimlar": [
+       {
+        "baslik": "Eylül",
+        "metin": "Kalıcı sayfayı aç ya da geçen yılki sayfayı güncelle; hedef terimleri belirle."
+       },
+       {
+        "baslik": "Ekim başı",
+        "metin": "Ana sayfa ve ilgili kategorilerden iç link ver; sayfayı site haritasına ekle."
+       },
+       {
+        "baslik": "Ekim sonu",
+        "metin": "Öne çıkacak kategori ve ürünleri belirle, metinleri ve görselleri hazırla."
+       },
+       {
+        "baslik": "Kasım",
+        "metin": "Fırsatları sayfaya ekle; güncellemeden sonra URL Denetimi'nden yeniden tarama iste."
+       },
+       {
+        "baslik": "Kampanya sonrası",
+        "metin": "Sayfayı silme; içeriği güncelle ve gelecek yıl için not al."
+       }
+      ]
+     }
+    },
+    "Bu yazıyı ekim sonunda okuyorsanız geç değil: sayfayı hemen yayına alın ve iç linkleri bu hafta tamamlayın. Organik görünürlük kampanyaya yetişmezse, kısa dönem için ücretli reklamla nasıl dengeleneceğini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Kampanya sayfasında ne olmalı?",
+   "paragraflar": [
+    "Kampanya sayfası yalnızca bir banner ve geri sayım sayacından ibaret olursa arama motoruna anlatacak bir şeyi olmaz. Sayfa, kampanya yokken de değerli kalacak kalıcı içerikle kurulmalı.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🗓️",
+       "baslik": "Tarih ve kapsam",
+       "metin": "Kampanya ne zaman, hangi kategorilerde geçerli? Kampanya dışında bir sonraki dönem bilgisi."
+      },
+      {
+       "ikon": "🛍️",
+       "baslik": "Kategori bağlantıları",
+       "metin": "İndirimli kategorilere ve öne çıkan ürünlere doğrudan iç linkler."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Kısa SSS",
+       "metin": "Kargo süresi, iade, stok, kupon kullanımı gibi kampanyaya özgü sorular."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Statik ana görsel",
+       "metin": "Google'ın önerisi doğrultusunda konuyla ilgili, kaliteli ve sabit bir görsel."
+      }
+     ]
+    },
+    "İndirim öncesi fiyat gösterimi gibi konularda Ticaret Bakanlığı'nın ticari reklam ve indirimli satış kurallarına uyun; ayrıntı için hukuk danışmanınıza başvurun. Bu SEO dışı bir konu gibi görünse de güven, kampanya sayfasının en önemli öğesi."
+   ]
+  },
+  {
+   "baslik": "İndirim döneminde teknik riskler",
+   "paragraflar": [
+    "Kasım, sitenin en yoğun trafik aldığı ve aynı zamanda en çok değişiklik yapılan aydır. Sahada en sık gördüğüm hatalar şunlar:",
+    {
+     "liste": [
+      "Kampanya için kategori adreslerini değiştirmek: mevcut sıralamaları sıfırlar. Adres sabit kalsın, içerik değişsin.",
+      "Stoku biten ürün sayfalarını silmek: stok geri gelecekse sayfa yayında kalsın.",
+      "Ürün yapısal verisindeki fiyatın sayfadaki indirimli fiyatla uyuşmaması: fiyat, stok ve sayfa bilgisi tutarlı olmalı.",
+      "Ağır kampanya bannerları ve pop-up'lar: Core Web Vitals değerlerini bozar, özellikle mobilde.",
+      "Kampanya kodu ve UTM parametreli adreslerin dizine girmesi: canonical ile ana adrese bağlayın."
+     ]
+    },
+    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile kontrol edebilirsiniz; hız tarafı için eşikler [Core Web Vitals yazısında](/blog/core-web-vitals-2025). Kategori ve ürün sayfası yapısının genel ilkeleri [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Kampanya bittikten sonra sayfaya ne olmalı?",
+   "paragraflar": [
+    "Kampanya bittiğinde sayfayı silmek, 404'e düşürmek ya da ana sayfaya yönlendirmek yıl boyunca biriken değeri boşa harcar. Sayfayı yayında tutun ve içeriğini güncelleyin.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Kampanya bitince",
+      "metin": "Fırsat listesini kaldırın, \"Kampanya sona erdi\" bilgisini ekleyin, devam eden indirimlere ve gelecek kampanya dönemine yönlendirin. Bülten kaydı ya da hatırlatma formu sayfayı kampanya dışında da işlevsel tutar."
+     }
+    },
+    "Ertesi yıl aynı sayfayı yeniden doldurursunuz. Kampanya performansını Search Console'da bu adres için gösterim ve tıklama olarak yıl yıl karşılaştırmak da kolaylaşır. Sezonluk sayfaları içeren bir e-ticaret planı için [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) ve [performans ve büyüme hizmeti](/performans) sayfalarına göz atın, ya da gelecek sezon için [bir görüşme planlayın](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Black Friday sayfasını kampanya dışında noindex yapmalı mıyım?",
+   "c": "Hayır. Noindex sayfayı dizinden çıkarır ve kampanya öncesi yeniden dizine girmesi zaman alabilir. Sayfayı yıl boyu yayında ve dizinde tutup içeriğini döneme göre güncellemek daha güvenlidir."
+  },
+  {
+   "s": "Kampanya için alt alan adı (kampanya.site.com) açmak mantıklı mı?",
+   "c": "Genellikle hayır. Ana alan adı altındaki bir klasör, sitenin mevcut sinyallerinden ve iç linklerinden daha doğrudan yararlanır. Alt alan adı teknik zorunluluk varsa düşünülmelidir."
+  },
+  {
+   "s": "Geçmiş yıllarda açtığım /black-friday-2024 gibi sayfaları ne yapmalıyım?",
+   "c": "Kalıcı bir sayfa belirleyin ve eski yıllı sayfaları ona 301 ile yönlendirin. En çok bağlantı almış adres zaten kalıcı yapıya uygunsa onu ana sayfa olarak koruyabilirsiniz. Yönlendirme kurallarını toplu hazırlarken zincir oluşturmamaya dikkat edin."
+  },
+  {
+   "s": "Black Friday ürünlerine indirim bilgisini başlığa yazmalı mıyım?",
+   "c": "Kampanya süresince meta başlıkta ya da açıklamada indirimden söz etmek tıklamayı artırabilir. Ama kampanya bittiğinde bu ifadeleri kaldırmayı unutmayın; süresi geçmiş indirim vaadi kullanıcıyı yanıltır."
+  },
+  {
+   "s": "Yapay zekâ asistanları kampanya sayfamı alıntılayabilir mi?",
+   "c": "Google AI Overviews, ChatGPT ve Perplexity gibi araçlar web kaynaklarını alıntılayabiliyor. Tarih, kapsam ve koşulları net yazılmış bir kampanya sayfası bu tür alıntılara daha uygun bir kaynaktır, ama hiçbir asistanın sizi göstereceğinin bir güvencesi yok."
+  },
+  {
+   "s": "Pazaryerinde de kampanyaya katılıyorum; kendi sitem için ayrıca SEO gerekir mi?",
+   "c": "Evet, çünkü pazaryeri kampanya sayfası pazaryerinin kendi alan adına değer kazandırır. Kendi sitenizdeki kalıcı kampanya sayfası, yıllar içinde size ait bir kanal oluşturur."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "I see the same rush every late October: the sale page goes live in the final week, the year is added to its URL, it is deleted after the sale and rebuilt from scratch the next year. So every November the page starts earning its place in search from zero.",
+    "In 2026, Black Friday falls on 27 November. This post covers building a permanent sale page, which Turkish terms to target, a prep timeline and what to do with the page once the sale ends.",
+    {
+     "alinti": "Short answer: use the same URL without a year for Black Friday and November sales every year (such as /sale/black-friday), publish it weeks before the sale with a link from the homepage, and keep it live with updated content after the sale instead of deleting it. That way the page accumulates links and history year after year."
+    }
+   ]
+  },
+  {
+   "baslik": "Why does a permanent URL matter for sale pages?",
+   "paragraflar": [
+    "In its 2020 Search Central blog post on Black Friday and Cyber Monday, Google recommends using one recurring URL rather than creating a new page each year, giving /sale/black-friday instead of /sale/2020/black-friday as the example. The reasoning is simple: the page keeps the links and signals it gathers over the years.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Permanent URL",
+       "tur": "iyi",
+       "maddeler": [
+        "/sale/black-friday",
+        "The same page is updated each year",
+        "Links from past years are kept",
+        "Stays live outside the sale"
+       ]
+      },
+      "sag": {
+       "baslik": "Yearly URL",
+       "tur": "kotu",
+       "maddeler": [
+        "/black-friday-2025, /black-friday-2026",
+        "A new page each year, starting from zero",
+        "Old pages get deleted or forgotten",
+        "Your own pages compete for the same query"
+       ]
+      }
+     }
+    },
+    "If you created yearly URLs in the past, 301 the strongest one to the permanent URL. For redirect types and chain risk, see [301 vs 302 redirects](/en/blog/301-302-yonlendirme). Using the year in the title and copy is fine; it just should not be in the URL."
+   ]
+  },
+  {
+   "baslik": "Which terms to target: Black Friday, Efsane Cuma, November?",
+   "paragraflar": [
+    "Turkey does not use a single term for November sales. Shoppers search for the English name and its Turkish equivalents. Check which ones are searched in your category with Search Console and keyword tools.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Term",
+       "Usage",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Black Friday",
+        "International name, widespread",
+        "Can lead the page title"
+       ],
+       [
+        "Kara Cuma",
+        "Direct translation",
+        "Use as a synonym in the copy"
+       ],
+       [
+        "Efsane Cuma, Efsane Kasım",
+        "Local campaign language",
+        "Some phrases are known as brands' campaign names; check before using"
+       ],
+       [
+        "Kasım indirimleri",
+        "Month-long sales",
+        "Captures demand not tied to one day"
+       ],
+       [
+        "11.11",
+        "11 November sale day",
+        "May need its own section or page"
+       ],
+       [
+        "Cyber Monday",
+        "Monday after Black Friday",
+        "Falls on 30 November in 2026"
+       ]
+      ]
+     }
+    },
+    "A separate page per term is usually unnecessary; group terms with the same intent on one strong page. If intent differs, for example if 11.11 is a separate campaign for you, consider a separate permanent page. The intent-grouping method in the [content strategy guide](/en/guides/icerik-stratejisi) helps here."
+   ]
+  },
+  {
+   "baslik": "Prep timeline: when to start?",
+   "paragraflar": [
+    "Google's advice is to leave enough time before the sale for the page to be discovered and indexed. There is no exact number of days; for November sales I recommend starting in September.",
+    {
+     "akis": {
+      "baslik": "November sale SEO timeline",
+      "adimlar": [
+       {
+        "baslik": "September",
+        "metin": "Create the permanent page or update last year's; set target terms."
+       },
+       {
+        "baslik": "Early October",
+        "metin": "Link from the homepage and relevant categories; add it to the sitemap."
+       },
+       {
+        "baslik": "Late October",
+        "metin": "Pick featured categories and products, prepare copy and images."
+       },
+       {
+        "baslik": "November",
+        "metin": "Add the deals; request a recrawl in URL Inspection after updating."
+       },
+       {
+        "baslik": "After the sale",
+        "metin": "Do not delete the page; update the content and take notes for next year."
+       }
+      ]
+     }
+    },
+    "If you are reading this in late October, it is not too late: publish the page now and finish internal links this week. If organic visibility will not be ready in time, I explain how to balance with paid ads short term in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi)."
+   ]
+  },
+  {
+   "baslik": "What should the sale page contain?",
+   "paragraflar": [
+    "A sale page that is just a banner and a countdown timer has nothing to tell a search engine. Build it with lasting content that stays useful when no sale is running.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🗓️",
+       "baslik": "Dates and scope",
+       "metin": "When the sale runs and which categories it covers; outside the sale, the next period."
+      },
+      {
+       "ikon": "🛍️",
+       "baslik": "Category links",
+       "metin": "Direct internal links to discounted categories and featured products."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Short FAQ",
+       "metin": "Sale-specific questions such as delivery time, returns, stock and coupons."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Static main image",
+       "metin": "Following Google's advice, a relevant, high-quality, static image."
+      }
+     ]
+    },
+    "For things like showing the pre-discount price, follow the Turkish Ministry of Trade's rules on commercial advertising and discounted sales; ask your legal adviser for details. Trust matters as much as rankings here."
+   ]
+  },
+  {
+   "baslik": "Technical risks during the sale period",
+   "paragraflar": [
+    "November is when a site gets its heaviest traffic and also its most changes. The mistakes I see most often:",
+    {
+     "liste": [
+      "Changing category URLs for the sale: resets existing rankings. Keep the URL, change the content.",
+      "Deleting out-of-stock product pages: if stock is coming back, keep the page live.",
+      "Product structured data price not matching the discounted price on the page: price, stock and page content must agree.",
+      "Heavy sale banners and pop-ups: they hurt Core Web Vitals, especially on mobile.",
+      "Coupon and UTM parameter URLs getting indexed: canonicalise them to the main URL."
+     ]
+    },
+    "You can check product structured data with the [schema generator](/en/tools/schema-generator); speed thresholds are in the [Core Web Vitals post](/en/blog/core-web-vitals-2025). General principles for category and product pages are in the [ecommerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "What should happen to the page after the sale?",
+   "paragraflar": [
+    "Deleting the page after the sale, letting it 404 or redirecting it to the homepage throws away the value built up over the year. Keep the page live and update its content.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "When the sale ends",
+      "metin": "Remove the deal list, add a \"sale has ended\" note and point to ongoing discounts and the next sale period. A newsletter sign-up or reminder form keeps the page useful outside the sale."
+     }
+    },
+    "The next year you refill the same page. Year-over-year comparison in Search Console also becomes easy. For an ecommerce plan that includes seasonal pages, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) and [performance and growth](/en/performance-growth), or [book a call](/en/book-a-call) ahead of next season."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I noindex the Black Friday page outside the sale?",
+   "c": "No. Noindex removes the page from the index, and getting it back before the sale can take time. Keeping it live and indexed all year with seasonal updates is safer."
+  },
+  {
+   "s": "Does a sale subdomain (sale.site.com) make sense?",
+   "c": "Usually not. A folder on the main domain benefits more directly from the site's existing signals and internal links. Consider a subdomain only if there is a technical need."
+  },
+  {
+   "s": "What should I do with past pages like /black-friday-2024?",
+   "c": "Choose one permanent page and 301 the old yearly pages to it. If the most-linked URL already fits a permanent structure, you can keep it as the main page. Avoid creating chains when preparing redirects in bulk."
+  },
+  {
+   "s": "Should I put the discount in product titles for Black Friday?",
+   "c": "Mentioning the discount in the meta title or description during the sale can lift clicks. Remove it once the sale ends; an expired discount promise misleads users."
+  },
+  {
+   "s": "Can AI assistants cite my sale page?",
+   "c": "Tools such as Google AI Overviews, ChatGPT and Perplexity can cite web sources. A sale page with clear dates, scope and terms is a better candidate for citation, but no assistant is certain to show you."
+  },
+  {
+   "s": "I join marketplace sales too; do I still need SEO for my own site?",
+   "c": "Yes, because a marketplace sale page builds value for the marketplace's domain. A permanent sale page on your own site builds a channel you own over the years."
+  }
+ ]
+}

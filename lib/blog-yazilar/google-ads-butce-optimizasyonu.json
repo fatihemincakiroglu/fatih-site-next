@@ -1,0 +1,387 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 7,
+ "baslik_tr": "Google Ads Bütçesini Verimli Kullanmak: SEO Verisiyle Çalışan Ayarlar",
+ "baslik_en": "Using Your Google Ads Budget Efficiently: Settings Driven by SEO Data",
+ "meta_baslik_tr": "Google Ads Bütçe Optimizasyonu: SEO Verisiyle Ayarlar",
+ "meta_baslik_en": "Google Ads Budget Optimisation with SEO Data",
+ "meta_desc_tr": "Arama terimleri raporu, negatif anahtar kelimeler, ücretli ve organik raporu ve dönüşüm takibiyle Google Ads bütçesini SEO verisiyle birlikte yönetin.",
+ "meta_desc_en": "Manage your Google Ads budget with SEO data: the search terms report, negative keywords, the paid and organic report and proper conversion tracking.",
+ "ozet_tr": "Arama terimleri, negatif kelimeler ve organik veriyle Google Ads bütçesinde israfı bulup azaltmak.",
+ "ozet_en": "Finding and cutting Google Ads waste with search terms, negative keywords and organic search data.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Google Ads hesaplarını denetlediğimde bütçe sorunu çoğu zaman \"az para\" değil, \"yanlış yere giden para\" çıkıyor. Alakasız aramalara ödenen tıklamalar, ölçülmeyen dönüşümler ve organikte zaten güçlü olunan terimlere hiç sorgulanmadan verilen teklifler aynı hesapta yan yana duruyor.",
+    "Bu yazıda reklam bütçesini SEO verisiyle birlikte okumanın pratik yollarını anlatıyorum. Bütçeyi SEO ile reklam arasında nasıl böleceğiniz sorusunu [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında ayrıca ele aldım.",
+    {
+     "alinti": "Kısa cevap: Google Ads bütçesini verimli kullanmanın temeli üç adımdır: arama terimleri raporundan alakasız sorguları bulup negatif anahtar kelime eklemek, dönüşüm takibini doğru kurmak ve Search Console bağlantısıyla organikte güçlü olduğunuz terimleri görüp reklamın gerçekten ek değer kattığı yerleri test etmek."
+    }
+   ]
+  },
+  {
+   "baslik": "Google Ads bütçesi nereye boşa gidiyor?",
+   "paragraflar": [
+    "Denetimlerde en sık karşılaştığım dört israf kaynağı şunlar:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔎",
+       "baslik": "Alakasız arama terimleri",
+       "metin": "Geniş eşlemeli anahtar kelimeler, satmadığınız ürün ya da hizmet aramalarında da reklam gösterebilir."
+      },
+      {
+       "ikon": "📉",
+       "baslik": "Eksik dönüşüm takibi",
+       "metin": "Hangi tıklamanın satış ya da form getirdiğini bilmeden bütçe kararı tahmine dayanır."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Sorgulanmamış örtüşme",
+       "metin": "Organikte üst sıralarda olduğunuz terimlerde reklamın ek değeri hiç test edilmemiştir."
+      },
+      {
+       "ikon": "🚪",
+       "baslik": "Uyumsuz açılış sayfası",
+       "metin": "Reklamın vaadiyle sayfanın içeriği örtüşmediğinde tıklama ziyaretçiye dönüşür ama müşteriye dönüşmez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Arama terimleri raporu ile israfı bulmak",
+   "paragraflar": [
+    "Anahtar kelime, sizin teklif verdiğiniz ifadedir; arama terimi ise kullanıcının gerçekten yazdığı sorgu. Google Ads yardım merkezine göre arama terimleri raporu, reklamınızı tetikleyen ve yeterli sayıda kişinin aradığı terimleri listeler; yani düşük hacimli bazı sorgular raporda görünmeyebilir.",
+    "Rapora Google Ads'de Kampanyalar menüsü altındaki Analizler ve raporlar bölümünden ulaşılıyor (Ekim 2026 itibarıyla yardım dokümanındaki yol bu; arayüz adları değişebilir). Raporu tıklama ve maliyete göre sıralayın, dönüşüm getirmeyen ama bütçe tüketen terimleri işaretleyin.",
+    "Bu rapor SEO için de altın değerinde: Kullanıcıların ürününüzü hangi kelimelerle aradığını gerçek veriyle gösterir. Dönüşüm getiren ama sitenizde karşılığı olmayan sorgular, [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) içerik planına doğrudan girdi olabilir."
+   ]
+  },
+  {
+   "baslik": "Negatif anahtar kelime eklerken nelere dikkat etmeli?",
+   "paragraflar": [
+    "Arama terimleri raporunda bir terimi seçip negatif anahtar kelime olarak ekleyebilir; bunu reklam grubu, kampanya ya da negatif anahtar kelime listesi düzeyinde yapabilirsiniz. Yardım dokümanına göre rapordan Arama kampanyalarına eklenen negatifler varsayılan olarak tam eşlemeyle eklenir ve negatif anahtar kelimeler, pozitiflerin aksine yakın varyantları kapsamaz.",
+    "Bu ikinci nokta Türkçede özellikle önemli. \"ücretsiz\" kelimesini negatif yaptığınızda \"ücretsizdir\" ya da \"ücretsiz mi\" gibi ekli halleri ayrıca düşünmeniz gerekebilir. Hizmet işletmelerinde sık eklediğim negatif grupları:",
+    {
+     "liste": [
+      "Ücretsiz niyet: ücretsiz, bedava, indir, crack",
+      "Kariyer niyeti: iş ilanı, maaş, staj, eleman",
+      "Öğrenme niyeti: nasıl yapılır, ödev, pdf, ders notu",
+      "Hizmet vermediğiniz bölgeler ya da ürün grupları",
+      "İkinci el ve kiralama (satış yapıyorsanız)"
+     ]
+    },
+    "Öğrenme niyetli aramaları reklamdan çıkarmak, onları kaybetmek anlamına gelmez. Bu sorgular çoğu zaman blog ve rehber içerikleriyle organikte yakalanabilir."
+   ]
+  },
+  {
+   "baslik": "Organikte güçlü olduğunuz terimlerde reklam gerekli mi?",
+   "paragraflar": [
+    "Google Ads'deki ücretli ve organik raporu, reklam performansınızı Search Console'dan gelen organik verilerle yan yana gösterir. Yardım dokümanına göre bunun için Search Console hesabınızı Google Ads'e bağlamanız gerekir; rapor yalnızca metin reklamlarını sayar, günde bir güncellenir ve organik veri bağlantıyı kurduğunuz tarihten itibaren başlar.",
+    "Bu rapor size \"reklamı kapat\" demez; yalnızca hangi sorgularda iki tarafta birden göründüğünüzü gösterir. Karar için şu çerçeveyi kullanıyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Durum",
+       "Olası karar",
+       "Nasıl doğrulanır?"
+      ],
+      "satirlar": [
+       [
+        "Organikte ilk sıralardasınız, rakipler bu terimde reklam vermiyor",
+        "Reklamı azaltmayı test edin",
+        "Belirli bir dönem ya da bölgede durdurup toplam tıklama ve dönüşümü karşılaştırın"
+       ],
+       [
+        "Organikte ilk sıralardasınız, rakipler reklamla üstünüzde",
+        "Reklamı koruyun",
+        "Reklam kapalıyken organik tıklamaların ne kadar telafi ettiğine bakın"
+       ],
+       [
+        "Organikte ikinci sayfadasınız, terim dönüşüm getiriyor",
+        "Reklamı sürdürün, içerik yatırımı yapın",
+        "Organik sıra yükseldikçe reklam maliyetini yeniden değerlendirin"
+       ],
+       [
+        "Organikte yoksunuz, terim dönüşüm getirmiyor",
+        "Negatif ekleyin",
+        "Arama terimleri raporunda harcamayı izleyin"
+       ]
+      ]
+     }
+    },
+    "Bu tür testlerde mevsimsellik ve kampanya dönemleri sonucu bozabilir; tek haftalık veriye dayanarak karar vermeyin. Organik tarafı okumak için [Search Console raporları rehberi](/blog/search-console-rehberi) iyi bir başlangıç."
+   ]
+  },
+  {
+   "baslik": "Dönüşüm takibi olmadan bütçe optimize edilemez",
+   "paragraflar": [
+    "Otomatik teklif stratejileri, hesaptaki dönüşüm verisine göre karar verir. Dönüşüm olarak sayfa görüntülemeyi ya da \"iletişim sayfasına giriş\" gibi zayıf sinyalleri saymak, sistemi yanlış hedefe yönlendirir.",
+    "Satış, gönderilen form, tıklanan telefon numarası gibi gerçek iş sonuçlarını dönüşüm olarak tanımlayın. GA4 tarafında organik ve ücretli trafiği aynı anahtar etkinliklerle izlemek, iki kanalı eşit ölçüyle karşılaştırmayı sağlar; kurulumu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım. Raporlama ritmi için [SEO raporlama rehberi](/rehber/seo-raporlama) de işinize yarar."
+   ]
+  },
+  {
+   "baslik": "Günlük bütçe Google Ads'de nasıl harcanır?",
+   "paragraflar": [
+    "Ortalama günlük bütçe, her gün harcanacak sabit tutar değildir. Google Ads yardım merkezine göre bir kampanya trafik dalgalanmalarına göre tek bir günde ortalama günlük bütçenin iki katına kadar harcayabilir; ay sonunda ise toplam harcama ortalama günlük bütçenin 30,4 katını aşmaz.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Ay ortasında bütçe değiştirmek",
+      "metin": "Bütçeyi ay içinde sık değiştirmek, günlük harcamayı yorumlamayı zorlaştırır. Değişiklikleri not alın ve en az birkaç haftalık dönemleri karşılaştırın."
+     }
+    },
+    "Bütçe sınırına sürekli takılan bir kampanya, önce israf temizliği yapılmadan büyütülmemeli. Negatifler eklendikten sonra aynı bütçe çoğu zaman daha fazla nitelikli tıklama getirir."
+   ]
+  },
+  {
+   "baslik": "Haftalık bütçe kontrol rutini",
+   "paragraflar": [
+    "Bütçe verimliliği bir kerelik ayar değil, düzenli bakım işidir. Küçük ve orta ölçekli hesaplarda önerdiğim rutin:",
+    {
+     "akis": {
+      "baslik": "Haftalık kontrol",
+      "adimlar": [
+       {
+        "baslik": "Arama terimlerini tara",
+        "metin": "Harcaması yüksek, dönüşümü olmayan terimleri işaretle."
+       },
+       {
+        "baslik": "Negatifleri güncelle",
+        "metin": "Eşleme türünü kontrol ederek listeye ekle."
+       },
+       {
+        "baslik": "Dönüşümleri doğrula",
+        "metin": "Etiketlerin çalıştığını ve sayının mantıklı olduğunu kontrol et."
+       },
+       {
+        "baslik": "Organikle karşılaştır",
+        "metin": "Ücretli ve organik raporunda örtüşen terimleri not al."
+       },
+       {
+        "baslik": "Açılış sayfasını gözden geçir",
+        "metin": "Hemen çıkma ve form tamamlama oranlarına bak."
+       }
+      ]
+     }
+    },
+    "Açılış sayfası tarafı genellikle en az ilgilenilen ama en çok kazandıran adımdır; ayrıntılarını [CRO ve SEO](/blog/cro-ve-seo) yazısında ele aldım. Reklam ile organik kanalı birlikte yönetmek isteyen işletmelere [performans ve büyüme hizmeti](/performans) kapsamında destek veriyorum; organik taraf için [SEO danışmanlığı](/seo-uzmani) ve tüm [hizmetlere](/hizmetler) göz atabilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Marka adıma reklam vermem gerekir mi?",
+   "c": "Rakipler marka adınızda reklam veriyorsa marka kampanyası, aramanın üstündeki alanı korumanın yoludur. Rakip yoksa küçük bir bütçeyle başlayıp ücretli ve organik raporunda toplam tıklamayı izlemek mantıklı bir test olur."
+  },
+  {
+   "s": "Geniş eşleme kullanmalı mıyım?",
+   "c": "Geniş eşleme daha fazla sorguya ulaşır ama arama terimi kontrolünü zorunlu kılar. Dönüşüm takibi sağlam ve negatif listeleri düzenli güncellenen hesaplarda işe yarayabilir; yeni hesaplarda daha dar eşlemelerle başlamak riski azaltır."
+  },
+  {
+   "s": "Google Ads için minimum bütçe ne kadar olmalı?",
+   "c": "Sabit bir rakam vermek doğru olmaz; sektörünüzdeki tıklama maliyeti ve anlamlı veri toplamak için gereken tıklama sayısı belirleyicidir. Anahtar kelime planlayıcıdaki tahminleri başlangıç noktası olarak kullanın, güncel maliyetleri hesabınızda kontrol edin."
+  },
+  {
+   "s": "Reklam vermek organik sıralamamı etkiler mi?",
+   "c": "Google, reklam harcamasının organik sıralamayı etkilemediğini belirtir. Dolaylı etki ise ölçüm tarafındadır: Reklam verisi hangi terimlerin dönüştüğünü gösterir ve içerik kararlarını besler."
+  },
+  {
+   "s": "Arama terimleri raporunu ne sıklıkla kontrol etmeliyim?",
+   "c": "Yeni kampanyalarda ilk haftalarda birkaç günde bir, oturmuş hesaplarda haftada bir kontrol çoğu işletme için yeterlidir. Harcama arttığında ya da yeni anahtar kelime eklediğinizde sıklığı artırın."
+  },
+  {
+   "s": "Negatif anahtar kelime iyi trafiği de engelleyebilir mi?",
+   "c": "Evet. Özellikle geniş anlamlı tek kelimelik negatifler, istediğiniz aramaları da kesebilir. Eklemeden önce o kelimeyi içeren dönüşüm getiren terim olup olmadığını raporda kontrol edin."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When I audit Google Ads accounts, the budget problem is rarely \"too little money\". It is usually money going to the wrong place: clicks on irrelevant searches, unmeasured conversions and bids on terms where the site already ranks well organically, never questioned.",
+    "This post covers practical ways to read your ad budget alongside SEO data. How to split budget between SEO and ads is a separate question I covered in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi).",
+    {
+     "alinti": "Short answer: Efficient Google Ads spending rests on three steps: find irrelevant queries in the search terms report and add negative keywords, set up conversion tracking properly, and link Search Console to see where you are already strong organically, then test where ads genuinely add value."
+    }
+   ]
+  },
+  {
+   "baslik": "Where does Google Ads budget get wasted?",
+   "paragraflar": [
+    "These are the four sources of waste I find most often in audits:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔎",
+       "baslik": "Irrelevant search terms",
+       "metin": "Broad match keywords can trigger ads on searches for products or services you do not sell."
+      },
+      {
+       "ikon": "📉",
+       "baslik": "Missing conversion tracking",
+       "metin": "Without knowing which click led to a sale or form, budget decisions are guesswork."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Untested overlap",
+       "metin": "The added value of ads on terms where you rank high organically has never been tested."
+      },
+      {
+       "ikon": "🚪",
+       "baslik": "Mismatched landing page",
+       "metin": "When the page does not deliver the ad's promise, clicks become visits but not customers."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Finding waste with the search terms report",
+   "paragraflar": [
+    "A keyword is what you bid on; a search term is what the user actually typed. According to the Google Ads Help Center, the search terms report lists terms that triggered your ad and were searched by a significant number of people, so some low-volume queries may not appear.",
+    "In Google Ads the report sits under Campaigns, in the Insights and reports section (that is the path in the help documentation as of October 2026; interface names can change). Sort by clicks and cost and flag terms that spend budget without converting.",
+    "The report is just as valuable for SEO: it shows, with real data, the words people use to find your product. Converting queries with no matching page on your site can feed straight into the content plan from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+   ]
+  },
+  {
+   "baslik": "What to watch when adding negative keywords",
+   "paragraflar": [
+    "You can select a term in the search terms report and add it as a negative keyword at ad group, campaign or negative keyword list level. Per the help documentation, negatives added from the report to Search campaigns default to exact match, and unlike positive keywords, negative keywords do not match close variants.",
+    "That second point matters a lot in Turkish, an agglutinative language. Excluding \"ücretsiz\" (free) may not cover suffixed forms such as \"ücretsiz mi\", so plan for them. Negative groups I often add for service businesses:",
+    {
+     "liste": [
+      "Free intent: free, download, crack",
+      "Career intent: job ad, salary, internship",
+      "Learning intent: how to, homework, pdf, lecture notes",
+      "Regions or product groups you do not serve",
+      "Second-hand and rental (if you sell new)"
+     ]
+    },
+    "Removing learning-intent searches from ads does not mean losing them. Those queries can often be captured organically with blog posts and guides."
+   ]
+  },
+  {
+   "baslik": "Do you need ads on terms where you rank well?",
+   "paragraflar": [
+    "The paid and organic report in Google Ads shows ad performance next to organic data from Search Console. According to the help documentation, you need to link your Search Console account to Google Ads; the report counts only text ads, updates once a day and organic data starts from the date you link.",
+    "The report will not tell you to switch ads off; it only shows which queries you appear on in both places. This is the framework I use:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Situation",
+       "Possible decision",
+       "How to verify"
+      ],
+      "satirlar": [
+       [
+        "Top organic positions, no competitor ads on the term",
+        "Test reducing ads",
+        "Pause for a set period or region and compare total clicks and conversions"
+       ],
+       [
+        "Top organic positions, competitor ads above you",
+        "Keep the ads",
+        "Check how much organic clicks make up when ads are off"
+       ],
+       [
+        "Page two organically, the term converts",
+        "Keep ads, invest in content",
+        "Reassess ad cost as organic position improves"
+       ],
+       [
+        "Not ranking, the term does not convert",
+        "Add as negative",
+        "Monitor spend in the search terms report"
+       ]
+      ]
+     }
+    },
+    "Seasonality and campaigns can distort these tests, so do not decide on a single week of data. To read the organic side, start with the [Search Console reports guide](/en/blog/search-console-rehberi)."
+   ]
+  },
+  {
+   "baslik": "You cannot optimise budget without conversion tracking",
+   "paragraflar": [
+    "Automated bidding strategies make decisions from the conversion data in the account. Counting page views or weak signals such as \"visited the contact page\" as conversions points the system at the wrong target.",
+    "Define real business outcomes as conversions: sales, submitted forms, phone number clicks. Tracking organic and paid traffic with the same key events in GA4 lets you compare both channels on equal terms; I cover the setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi). For reporting cadence, the [SEO reporting guide](/en/guides/seo-raporlama) also helps."
+   ]
+  },
+  {
+   "baslik": "How is a daily budget spent in Google Ads?",
+   "paragraflar": [
+    "An average daily budget is not a fixed amount spent every day. According to the Google Ads Help Center, a campaign can spend up to twice its average daily budget on a single day to handle traffic swings, while total spend by the end of the month will not exceed 30.4 times the average daily budget.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Changing budget mid-month",
+      "metin": "Frequent budget changes within a month make daily spend hard to interpret. Log every change and compare periods of at least a few weeks."
+     }
+    },
+    "A campaign that keeps hitting its budget cap should not be scaled before waste is cleaned up. After adding negatives, the same budget often buys more qualified clicks."
+   ]
+  },
+  {
+   "baslik": "A weekly budget review routine",
+   "paragraflar": [
+    "Budget efficiency is maintenance, not a one-off setting. The routine I recommend for small and mid-sized accounts:",
+    {
+     "akis": {
+      "baslik": "Weekly review",
+      "adimlar": [
+       {
+        "baslik": "Scan search terms",
+        "metin": "Flag high-spend terms with no conversions."
+       },
+       {
+        "baslik": "Update negatives",
+        "metin": "Add them to lists, checking match type."
+       },
+       {
+        "baslik": "Validate conversions",
+        "metin": "Make sure tags fire and counts look sensible."
+       },
+       {
+        "baslik": "Compare with organic",
+        "metin": "Note overlapping terms in the paid and organic report."
+       },
+       {
+        "baslik": "Review landing pages",
+        "metin": "Check bounce and form completion rates."
+       }
+      ]
+     }
+    },
+    "Landing pages are usually the least attended step and the most rewarding; I cover them in [CRO and SEO](/en/blog/cro-ve-seo). I support businesses running paid and organic together through [performance and growth work](/en/performance-growth); for the organic side see [SEO consulting](/en/seo-consulting) and all [services](/en/services), or simply [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I bid on my own brand name?",
+   "c": "If competitors bid on your brand name, a brand campaign protects the space above your listing. If not, starting with a small budget and watching total clicks in the paid and organic report is a sensible test."
+  },
+  {
+   "s": "Should I use broad match?",
+   "c": "Broad match reaches more queries but makes search term review mandatory. It can work in accounts with solid conversion tracking and regularly updated negative lists; new accounts lower their risk by starting with narrower match types."
+  },
+  {
+   "s": "What is the minimum budget for Google Ads?",
+   "c": "There is no single right number; cost per click in your sector and the clicks needed to collect meaningful data decide it. Use Keyword Planner estimates as a starting point and check current costs in your account."
+  },
+  {
+   "s": "Does advertising affect my organic rankings?",
+   "c": "Google states that ad spend does not affect organic rankings. The indirect effect is on measurement: ad data shows which terms convert and informs content decisions."
+  },
+  {
+   "s": "How often should I check the search terms report?",
+   "c": "Every few days in the first weeks of a new campaign, and weekly for established accounts, is enough for most businesses. Increase the frequency when spend rises or you add new keywords."
+  },
+  {
+   "s": "Can negative keywords block good traffic too?",
+   "c": "Yes. Broad single-word negatives in particular can cut searches you want. Before adding one, check the report for converting terms that contain that word."
+  }
+ ]
+}

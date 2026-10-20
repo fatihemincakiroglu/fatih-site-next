@@ -1,0 +1,469 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 8,
+ "baslik_tr": "Zero-Click Arama: Tıklama Gelmeyen Sonuçlarda Görünürlük",
+ "baslik_en": "Zero-Click Search: Staying Visible When Results Don't Get Clicked",
+ "meta_baslik_tr": "Zero-Click Arama: Tıklama Gelmeyen Sonuçlarda Görünürlük",
+ "meta_baslik_en": "Zero-Click Search: Visibility Without the Click",
+ "meta_desc_tr": "Zero-click arama nedir? Tıklama gerektirmeyen sonuç türleri, gösterim ve marka aramasıyla ölçüm, hangi sorgulara içerik yazılacağına dair karar ölçütleri.",
+ "meta_desc_en": "What zero-click search is: result types that answer without a click, measuring with impressions and branded search, and deciding which queries to target.",
+ "ozet_tr": "Kullanıcı sonuç sayfasında cevabı bulup tıklamadığında görünürlüğü nasıl ölçer, içerik kararlarını nasıl verirsiniz?",
+ "ozet_en": "How to measure visibility and make content decisions when users find the answer on the results page and never click.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "\"Gösterimlerimiz artıyor ama tıklamalar yerinde sayıyor\" cümlesini son iki yılda neredeyse her raporlama toplantısında duydum. Çoğu zaman sebep teknik bir hata değil: Kullanıcı aradığını sonuç sayfasında buluyor ve hiçbir siteye geçmiyor. Buna zero-click (tıklamasız) arama deniyor.",
+    "Bu yazıda tıklamasız sonuç türlerini, bu durumda görünürlüğü nasıl ölçeceğinizi ve hangi sorgulara içerik yatırımı yapmaya değer olduğunu anlatıyorum. Bilinçli olarak sektör geneline dair oran vermiyorum; sizin için anlamlı olan, kendi Search Console verinizdeki tablo.",
+    {
+     "alinti": "Kısa cevap: Zero-click arama, kullanıcının sorusunu arama sonuç sayfasında (AI Bakışı, öne çıkan snippet, bilgi paneli, yerel paket, doğrudan cevap kutuları) yanıtlayıp hiçbir siteye tıklamadığı aramadır. Bu sorgularda başarıyı yalnızca tıklamayla değil; gösterim, marka araması ve Business Profile etkileşimleri gibi göstergelerle birlikte ölçmek gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "Zero-click arama nedir, neden oluşur?",
+   "paragraflar": [
+    "Bazı sorular doğası gereği kısa bir cevapla biter: döviz kuru, bir eczanenin kapanış saati, bir terimin tek cümlelik tanımı. Google bu cevapları doğrudan sonuç sayfasında gösterebildiğinde kullanıcının siteye geçmesine gerek kalmaz.",
+    "Bu durum her sorgu için aynı değil. \"Hangi CRM yazılımını seçmeliyim?\" gibi karşılaştırma ve karar gerektiren sorgularda kullanıcı genellikle birden fazla kaynağı incelemek ister. Bu yüzden zero-click'i bir felaket olarak değil, sorgu türüne göre değişen bir davranış olarak ele almak gerekiyor."
+   ]
+  },
+  {
+   "baslik": "Hangi sonuç türleri tıklama gerektirmez?",
+   "paragraflar": [
+    "Sonuç sayfasında cevabı kısmen ya da tamamen veren başlıca öğeler şunlar:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sonuç türü",
+       "Tipik sorgu",
+       "Sizin için fırsat"
+      ],
+      "satirlar": [
+       [
+        "AI Bakışı",
+        "Açıklama ve nasıl soruları",
+        "Destekleyici bağlantı olarak kaynak gösterilmek"
+       ],
+       [
+        "Öne çıkan snippet",
+        "Tanım, liste, adım",
+        "Marka adının ve sayfanın en üstte görünmesi"
+       ],
+       [
+        "Bilgi paneli",
+        "Marka, kişi, kurum adı",
+        "Doğru tarif, logo ve resmi profiller"
+       ],
+       [
+        "Yerel paket ve harita",
+        "Yakınımda, semt adıyla hizmet",
+        "Arama, yol tarifi ve web sitesi tıklaması"
+       ],
+       [
+        "Doğrudan cevaplar",
+        "Kur, hava durumu, hesaplama",
+        "Genellikle yok; içerik yatırımına değmez"
+       ]
+      ]
+     }
+    },
+    "Öne çıkan snippet ve diğer SERP özelliklerinin nasıl kazanıldığını [featured snippet ve SERP özellikleri yazısında](/blog/featured-snippet-serp-ozellikleri), AI Bakışı'nda kaynak olmayı ise [Google AI Overviews optimizasyonu yazısında](/blog/google-ai-overview-optimizasyonu) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Tıklama gelmeyen görünürlük nasıl ölçülür?",
+   "paragraflar": [
+    "Search Console'un yardım dokümanına göre gösterim, öğe kullanıcının sonuç sayfasında görebileceği yerde olduğunda sayılır; AI Bakışı'ndaki tüm bağlantılar tek bir konumu paylaşır. Google'ın AI özellikleri dokümanına göre bu özelliklerden gelen trafik de Performans raporundaki \"Web\" arama türüne dahil.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👁️",
+       "baslik": "Gösterim",
+       "metin": "Sorgu ve sayfa bazında görünürlüğün temel göstergesi; tıklamadan bağımsız izleyin."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Marka araması",
+       "metin": "Marka adını içeren sorguların zaman içindeki seyri, görünürlüğün dolaylı etkisini gösterebilir."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Business Profile",
+       "metin": "Arama, yol tarifi ve web sitesi tıklamaları yerel paketteki etkileşimi gösterir."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Dönüşüm",
+       "metin": "Tıklama azalsa bile gelen ziyaretçinin dönüşümü artıyorsa durum farklı okunmalı."
+      }
+     ]
+    },
+    "Bu göstergeleri tek bir panoda birleştirmenin yolunu [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Yapay zekâ asistanlarından gelen ziyaretleri GA4'te ayırmak için de [GA4 yapay zekâ trafiği yazısına](/blog/ga4-yapay-zeka-trafigi) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Hangi sorgulara içerik yazmaya değer?",
+   "paragraflar": [
+    "Her sorgu için içerik üretmek yerine, sorgunun sizin için değerini ve tıklama ihtimalini birlikte düşünün. Aşağıdaki puanlama bir müşteri sitesinde öncelik belirlerken kullandığım çerçevenin sadeleştirilmiş hali:",
+    {
+     "cubuk": {
+      "baslik": "Sorgu türüne göre içerik önceliği",
+      "birim": "puan",
+      "veriler": [
+       {
+        "etiket": "Karşılaştırma ve karar sorguları",
+        "deger": 9
+       },
+       {
+        "etiket": "Yerel hizmet sorguları",
+        "deger": 8
+       },
+       {
+        "etiket": "Nasıl yapılır sorguları",
+        "deger": 6
+       },
+       {
+        "etiket": "Kısa tanım sorguları",
+        "deger": 4
+       },
+       {
+        "etiket": "Kur, saat, hesaplama",
+        "deger": 1
+       }
+      ],
+      "not": "Öncelik puanı (1-10), yazarın değerlendirmesi; sektöre ve iş modeline göre değişir."
+     }
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Yatırım yapın",
+       "tur": "iyi",
+       "maddeler": [
+        "Kullanıcının birden fazla seçeneği tartacağı sorgular",
+        "Hizmet veya ürününüzle doğrudan ilişkili sorular",
+        "Özgün veri ya da deneyim sunabildiğiniz konular"
+       ]
+      },
+      "sag": {
+       "baslik": "Öncelik vermeyin",
+       "tur": "kotu",
+       "maddeler": [
+        "Tek kelimelik cevabı olan sorular",
+        "İşinizle bağı zayıf trafik sorguları",
+        "Herkesin aynı bilgiyi verdiği tanım sayfaları"
+       ]
+      }
+     }
+    },
+    "Bu önceliklendirmeyi içerik takvimine dönüştürmek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) adım adım bir yöntem sunuyor."
+   ]
+  },
+  {
+   "baslik": "Tıklamasız sonuçlarda markanızı öne çıkarmak",
+   "paragraflar": [
+    "Tıklama gelmese bile kullanıcı sonuç sayfasında markanızın adını görüyorsa bu bir temas noktasıdır. Bu teması değerli kılmak için:",
+    {
+     "liste": [
+      "Snippet'e girebilecek paragraflarda marka adını doğal biçimde kullanın.",
+      "Başlık ve meta açıklamada kullanıcının sonraki adımını (fiyat, randevu, karşılaştırma) çağrıştırın.",
+      "Görsel ve tabloları cevabın devamını merak ettirecek şekilde kurun.",
+      "Business Profile'ı fotoğraf, hizmet ve güncel saatlerle eksiksiz tutun."
+     ]
+    },
+    "Yerel aramalarda bu çalışmanın çerçevesi [yerel SEO rehberinde](/rehber/yerel-seo), profil tarafı ise [Google Business Profile yazısında](/blog/google-business-profile) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Zero-click için raporlama ve karar akışı",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Aylık değerlendirme akışı",
+      "adimlar": [
+       {
+        "baslik": "Düşen tıklamaları bul",
+        "metin": "Gösterimi korunurken tıklaması düşen sorguları listeleyin."
+       },
+       {
+        "baslik": "Sonuç sayfasına bak",
+        "metin": "Bu sorgularda AI Bakışı, snippet veya yerel paket çıkıyor mu, elle kontrol edin."
+       },
+       {
+        "baslik": "Değeri sınıflandır",
+        "metin": "Sorguyu karar, yerel, bilgi veya doğrudan cevap olarak etiketleyin."
+       },
+       {
+        "baslik": "Aksiyon seç",
+        "metin": "Sayfayı güçlendirin, yeniden konumlandırın ya da önceliği düşürün."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Raporlama dilini değiştirin",
+      "metin": "Yönetime yalnızca tıklama grafiği sunmak yerine gösterim, marka araması ve dönüşümü yan yana koyun. Tıklama düşüşünün işe etkisi ancak bu üçlüyle doğru okunur."
+     }
+    },
+    "Bu raporlama ve içerik kararlarını birlikte kurgulamak isterseniz [içerik hizmeti](/icerik), [performans ve büyüme hizmeti](/performans) ve [GEO uzmanı](/geo-uzmani) sayfalarına göz atabilir ya da [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "\"Our impressions are growing but clicks are flat\" is a line I have heard at almost every reporting meeting over the past two years. Often the cause is not a technical error: users find what they need on the results page and never visit a site. This is called zero-click search.",
+    "This article covers the result types that need no click, how to measure visibility in that situation and which queries are worth investing content in. I deliberately give no industry-wide rates; what matters for you is the picture in your own Search Console data.",
+    {
+     "alinti": "Short answer: Zero-click search is a search where the user's question is answered on the results page (AI Overviews, featured snippets, knowledge panels, the local pack, direct answer boxes) and no site gets clicked. For these queries, success should be measured not only by clicks but alongside impressions, branded search and Business Profile interactions."
+    }
+   ]
+  },
+  {
+   "baslik": "What is zero-click search and why does it happen?",
+   "paragraflar": [
+    "Some questions naturally end with a short answer: an exchange rate, a pharmacy's closing time, a one-sentence definition. When Google can show that answer directly on the results page, the user has no reason to visit a site.",
+    "This is not the same for every query. For comparison and decision queries like \"Which CRM software should I choose?\", users usually want to look at more than one source. That is why zero-click should be treated not as a disaster but as behaviour that varies by query type."
+   ]
+  },
+  {
+   "baslik": "Which result types need no click?",
+   "paragraflar": [
+    "The main elements that answer partly or fully on the results page are:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Result type",
+       "Typical query",
+       "Your opportunity"
+      ],
+      "satirlar": [
+       [
+        "AI Overviews",
+        "Explanations and how questions",
+        "Being cited as a supporting link"
+       ],
+       [
+        "Featured snippet",
+        "Definitions, lists, steps",
+        "Your brand and page shown at the top"
+       ],
+       [
+        "Knowledge panel",
+        "Brand, person, organisation names",
+        "Accurate description, logo and official profiles"
+       ],
+       [
+        "Local pack and map",
+        "Near me, service plus district",
+        "Calls, directions and website clicks"
+       ],
+       [
+        "Direct answers",
+        "Exchange rates, weather, calculations",
+        "Usually none; not worth content investment"
+       ]
+      ]
+     }
+    },
+    "I explain how featured snippets and other SERP features are won in the [featured snippets and SERP features article](/en/blog/featured-snippet-serp-ozellikleri), and how to get cited in AI Overviews in the [Google AI Overviews optimisation article](/en/blog/google-ai-overview-optimizasyonu)."
+   ]
+  },
+  {
+   "baslik": "How do you measure visibility without clicks?",
+   "paragraflar": [
+    "According to Search Console's help documentation, an impression counts when an item appears where the user can see it on the results page, and all links in an AI Overview share one position. Google's AI features documentation adds that traffic from these features is included in the \"Web\" search type in the Performance report.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👁️",
+       "baslik": "Impressions",
+       "metin": "The core visibility signal by query and page; track it independently of clicks."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Branded search",
+       "metin": "The trend in queries containing your brand name can show the indirect effect of visibility."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Business Profile",
+       "metin": "Calls, direction requests and website clicks show engagement in the local pack."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Conversions",
+       "metin": "If clicks fall but visitors convert better, the situation should be read differently."
+      }
+     ]
+    },
+    "I explain how to combine these signals into one dashboard in the [SEO reporting guide](/en/guides/seo-raporlama). To separate visits from AI assistants in GA4, see the [GA4 AI traffic article](/en/blog/ga4-yapay-zeka-trafigi)."
+   ]
+  },
+  {
+   "baslik": "Which queries are worth writing content for?",
+   "paragraflar": [
+    "Instead of producing content for every query, weigh the query's value to you together with the likelihood of a click. The scoring below is a simplified version of the framework I use when setting priorities on client sites:",
+    {
+     "cubuk": {
+      "baslik": "Content priority by query type",
+      "birim": "pts",
+      "veriler": [
+       {
+        "etiket": "Comparison and decision queries",
+        "deger": 9
+       },
+       {
+        "etiket": "Local service queries",
+        "deger": 8
+       },
+       {
+        "etiket": "How-to queries",
+        "deger": 6
+       },
+       {
+        "etiket": "Short definition queries",
+        "deger": 4
+       },
+       {
+        "etiket": "Rates, times, calculations",
+        "deger": 1
+       }
+      ],
+      "not": "Priority score (1-10), the author's assessment; it varies by industry and business model."
+     }
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Invest",
+       "tur": "iyi",
+       "maddeler": [
+        "Queries where users weigh several options",
+        "Questions tied directly to your service or product",
+        "Topics where you can offer original data or experience"
+       ]
+      },
+      "sag": {
+       "baslik": "Deprioritise",
+       "tur": "kotu",
+       "maddeler": [
+        "Questions with a one-word answer",
+        "Traffic queries weakly linked to your business",
+        "Definition pages where everyone says the same thing"
+       ]
+      }
+     }
+    },
+    "To turn this prioritisation into a content calendar, the [content strategy guide](/en/guides/icerik-stratejisi) offers a step-by-step method."
+   ]
+  },
+  {
+   "baslik": "Making your brand stand out in zero-click results",
+   "paragraflar": [
+    "Even without a click, if users see your brand name on the results page, that is a touchpoint. To make it count:",
+    {
+     "liste": [
+      "Use your brand name naturally in paragraphs that could become snippets.",
+      "Hint at the user's next step (pricing, booking, comparison) in titles and meta descriptions.",
+      "Build visuals and tables so the user wants to see the rest of the answer.",
+      "Keep your Business Profile complete with photos, services and current hours."
+     ]
+    },
+    "For local searches, the framework is in the [local SEO guide](/en/guides/yerel-seo), and the profile side is covered in the [Google Business Profile article](/en/blog/google-business-profile)."
+   ]
+  },
+  {
+   "baslik": "A reporting and decision flow for zero-click",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Monthly review flow",
+      "adimlar": [
+       {
+        "baslik": "Find falling clicks",
+        "metin": "List queries whose clicks dropped while impressions held."
+       },
+       {
+        "baslik": "Look at the results page",
+        "metin": "Check manually whether AI Overviews, a snippet or a local pack appears."
+       },
+       {
+        "baslik": "Classify the value",
+        "metin": "Label each query as decision, local, informational or direct answer."
+       },
+       {
+        "baslik": "Choose an action",
+        "metin": "Strengthen the page, reposition it or lower its priority."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Change how you report",
+      "metin": "Rather than showing management only a clicks chart, put impressions, branded search and conversions side by side. Only that trio shows the real business impact of a drop in clicks."
+     }
+    },
+    "If you want to design this reporting and your content decisions together, take a look at [content strategy](/en/content-strategy), [performance and growth](/en/performance-growth) and [GEO consulting](/en/geo-consulting), or write to me through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Zero-click aramalar SEO'yu anlamsız hale getiriyor mu?",
+   "c": "Hayır. Tıklamasız davranış en belirgin biçimde kısa cevaplı sorgularda görülür ve bunların ticari değeri çoğu zaman düşüktür. Karar ve yerel hizmet sorgularında kullanıcılar genellikle birden fazla kaynağa bakar; strateji bu sorgulara kaydırılmalı."
+  },
+  {
+   "s": "Öne çıkan snippet'ten çıkmak için nosnippet kullanmalı mıyım?",
+   "c": "Bu karar genellikle önerilmez, çünkü nosnippet klasik sonuçtaki önizlemeyi de kaldırır ve tıklanma eğilimini azaltabilir. Yalnızca ücretli içerik gibi özel durumlarda data-nosnippet ile belirli bölümleri hariç tutmayı değerlendirin."
+  },
+  {
+   "s": "Tıklama oranım düştü; bu bir ceza olabilir mi?",
+   "c": "Ortalama konum ve gösterim sabitken tıklama oranı düşüyorsa önce o sorguların sonuç sayfasına bakın; yeni bir AI Bakışı veya SERP özelliği çıkmış olabilir. Manuel işlem şüpheniz varsa Search Console'daki Manuel işlemler raporunu kontrol edin."
+  },
+  {
+   "s": "Marka araması artışını zero-click görünürlüğüne bağlayabilir miyim?",
+   "c": "Kesin bir nedensellik kurmak mümkün değil; marka aramasını reklam, PR ve sosyal medya da etkiler. Yine de diğer kanallarda belirgin bir değişiklik yokken görünürlükle birlikte artıyorsa bunu destekleyici bir gösterge olarak raporlayabilirsiniz."
+  },
+  {
+   "s": "Zero-click sorgular için ayrı sayfa açmalı mıyım?",
+   "c": "Genellikle hayır. Kısa cevap sorgularını, daha kapsamlı bir sayfanın içinde net bir paragraf olarak yanıtlamak hem kullanıcıya hem site yapısına daha uygun. Yalnızca o sorgu için ince bir sayfa açmak çoğu zaman değer katmaz."
+  },
+  {
+   "s": "Yerel işletmeler zero-click'ten nasıl etkilenir?",
+   "c": "Yerel pakette kullanıcı doğrudan arayabilir ya da yol tarifi alabilir; bu etkileşim web sitesi tıklaması olarak görünmez. Bu yüzden yerel işletmelerde Business Profile performans verileri, Search Console verisi kadar önemli."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does zero-click search make SEO pointless?",
+   "c": "No. Zero-click behaviour is most visible on short-answer queries, which often have low commercial value. For decision and local service queries, users usually look at more than one source; strategy should shift toward those queries."
+  },
+  {
+   "s": "Should I use nosnippet to get out of a featured snippet?",
+   "c": "This is usually not advised, because nosnippet also removes the preview in classic results and may reduce clicks. Only in special cases such as paid content, consider excluding specific sections with data-nosnippet."
+  },
+  {
+   "s": "My click-through rate dropped; could it be a penalty?",
+   "c": "If average position and impressions are stable while CTR falls, look at those queries' results pages first; a new AI Overview or SERP feature may have appeared. If you suspect a manual action, check the Manual actions report in Search Console."
+  },
+  {
+   "s": "Can I attribute a rise in branded search to zero-click visibility?",
+   "c": "A firm causal link is not possible; branded search is also affected by ads, PR and social media. Still, if it rises alongside visibility while other channels show no clear change, you can report it as a supporting indicator."
+  },
+  {
+   "s": "Should I create separate pages for zero-click queries?",
+   "c": "Usually not. Answering short-answer queries as a clear paragraph within a more comprehensive page suits both users and site structure better. A thin page built only for that query rarely adds value."
+  },
+  {
+   "s": "How are local businesses affected by zero-click?",
+   "c": "In the local pack, users can call or get directions directly, and that interaction does not show up as a website click. That is why Business Profile performance data matters as much as Search Console data for local businesses."
+  }
+ ]
+}

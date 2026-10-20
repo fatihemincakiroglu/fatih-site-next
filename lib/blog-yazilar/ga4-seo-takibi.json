@@ -1,0 +1,373 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "GA4'te Organik Trafik Takibi: SEO İçin Kurulacak Raporlar",
+ "baslik_en": "Tracking Organic Traffic in GA4: The Reports to Set Up for SEO",
+ "meta_baslik_tr": "GA4'te Organik Trafik Takibi: SEO Raporları",
+ "meta_baslik_en": "Tracking Organic Traffic in GA4: SEO Reports",
+ "meta_desc_tr": "GA4'te organik arama trafiğini ayırmak, Search Console bağlantısı, açılış sayfası raporu ve anahtar etkinliklerle SEO'nun iş sonucunu ölçmek için kurulum.",
+ "meta_desc_en": "How to isolate organic search in GA4, link Search Console, use the landing page report and key events to measure what SEO contributes to the business.",
+ "ozet_tr": "Organic Search kanalı, Search Console bağlantısı ve anahtar etkinliklerle GA4'ü SEO için okunur hâle getirin.",
+ "ozet_en": "Make GA4 readable for SEO with the Organic Search channel, the Search Console link and properly marked key events.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "GA4 kurulu olan sitelerin çoğunda organik trafik verisi aslında mevcut, ama kimse onu düzenli okumuyor. Varsayılan raporlar tüm kanalları bir arada gösteriyor; Search Console bağlantısı yapılmamış, form gönderimi anahtar etkinlik olarak işaretlenmemiş. Sonuçta “SEO bize ne kazandırdı?” sorusu cevapsız kalıyor.",
+    "Bu yazıda GA4'ü SEO için kullanılabilir hâle getiren kurulumu anlatıyorum: organik kanalın nasıl tanımlandığı, Search Console verisinin GA4'e nasıl taşındığı ve hangi raporları kalıcı olarak kurmanız gerektiği. GA4 arayüzü sık değiştiği için menü yollarını kesin adım olarak değil, rapor ve ayar adlarıyla veriyorum.",
+    {
+     "alinti": "Kısa cevap: GA4'te organik trafiği varsayılan kanal grubundaki Organic Search değeriyle ayırırsınız. Search Console'u bir web veri akışına bağlayıp rapor koleksiyonunu yayınlarsanız sorgu ve açılış sayfası verisi GA4'e gelir. SEO'nun iş sonucunu görmek için form, arama ve satış gibi etkinlikleri anahtar etkinlik olarak işaretlemeniz gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "GA4 organik arama trafiğini nasıl tanımlar?",
+   "paragraflar": [
+    "Google'ın trafik kaynağı boyutlarını anlatan yardım sayfasına göre bir oturum, kaynağı GA4'ün arama siteleri listesindeki bir siteyle eşleştiğinde ya da aracı (medium) tam olarak “organic” olduğunda **Organic Search** kanalına atanır. Aynı sayfa, Google'ın AI Overviews ve AI Mode bağlantılarından gelen reklamsız tıklamaları da bu kanala dahil ediyor.",
+    "ChatGPT, Gemini veya Copilot gibi asistanlardan gelen ziyaretler ise Ekim 2026 itibarıyla ayrı bir **AI Assistant** kanalında toplanıyor. Bu kanalın ayrıntılarını ve asistanları birbirinden ayırma yöntemini [GA4'te yapay zekâ trafiğini ayırmak](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım; burada yalnızca klasik organik aramaya odaklanıyorum.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "utm parametresi organiği bozabilir",
+      "metin": "Kendi sitenizdeki iç linklere utm parametresi eklerseniz organik gelen kullanıcının oturumu yeni bir kaynakla başlar ve organik kredi kaybolur. utm'yi yalnızca dış kampanya bağlantılarında kullanın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Search Console bağlantısı GA4'e hangi verileri getirir?",
+   "paragraflar": [
+    "Google'ın bağlantı dokümanına göre bir web veri akışı yalnızca bir Search Console mülküne bağlanabilir; bağlantı kurmak için GA4'te düzenleyici rolü ve Search Console'da doğrulanmış sahiplik gerekir. Bağlantıdan sonra iki rapor eklenir: **Google Organic Search Queries** (sorgular) ve **Google Organic Search Traffic** (açılış sayfaları).",
+    {
+     "akis": {
+      "baslik": "Search Console bağlantısı kurulum akışı",
+      "adimlar": [
+       {
+        "baslik": "Yetkiyi kontrol edin",
+        "metin": "GA4'te düzenleyici, Search Console'da doğrulanmış sahip olun."
+       },
+       {
+        "baslik": "Doğru veri akışını seçin",
+        "metin": "Search Console mülkü ile aynı sayfaları ölçen web akışını bağlayın."
+       },
+       {
+        "baslik": "Koleksiyonu yayınlayın",
+        "metin": "Search Console rapor koleksiyonu varsayılan olarak yayınlanmamış gelir; Kitaplık bölümünden yayınlayın."
+       },
+       {
+        "baslik": "48 saat bekleyin",
+        "metin": "Veriler toplandıktan yaklaşık 48 saat sonra raporlara yansır."
+       }
+      ]
+     }
+    },
+    "İki sınırı bilmek yanlış yorumu önler. Search Console metrikleri GA4 boyutlarından yalnızca açılış sayfası, cihaz ve ülke ile birleşebilir; yani sorgu bazında dönüşüm göremezsiniz. Ayrıca veri en fazla 16 ay geriye gider, çünkü Search Console da bu kadar saklar. Search Console raporlarının kendisini nasıl okuyacağınızı [Search Console rehberi](/blog/search-console-rehberi) yazısında bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Açılış sayfası raporu SEO için neden en değerli rapor?",
+   "paragraflar": [
+    "Organik ziyaretçi sitenize çoğunlukla ana sayfadan değil, bir blog yazısından, kategori ya da hizmet sayfasından girer. Açılış sayfası raporunu oturum varsayılan kanal grubu = Organic Search filtresiyle açtığınızda, hangi sayfaların organik trafiği karşıladığını ve bu oturumların ne kadarının anahtar etkinliğe dönüştüğünü tek tabloda görürsünüz.",
+    "Sahada bu raporda en sık gördüğüm tablo şu: trafiğin büyük kısmını bilgi amaçlı blog yazıları alıyor, dönüşümün büyük kısmı ise birkaç hizmet sayfasından geliyor. Bu iki grup arasında iç link köprüsü yoksa trafik dönüşüme taşınmıyor. Sayfa gruplarını ve iç link yapısını kurarken [teknik SEO rehberindeki](/rehber/teknik-seo) site mimarisi bölümü yol gösterir."
+   ]
+  },
+  {
+   "baslik": "Anahtar etkinlikler: SEO'nun iş sonucunu ölçmek",
+   "paragraflar": [
+    "GA4'te eskiden dönüşüm denilen kavram artık **anahtar etkinlik (key event)** olarak adlandırılıyor. Google'ın dokümanına göre topladığınız herhangi bir etkinlik anahtar etkinlik olarak işaretlenebilir; Google Ads tarafındaki “dönüşüm” ise reklam teklifleri için ayrı tutulur. SEO raporu için önemli olan, iş açısından anlamlı eylemlerin işaretlenmiş olmasıdır:",
+    {
+     "kontrol": [
+      "Form gönderimi (teşekkür sayfası görüntüleme yerine gerçek gönderim etkinliği)",
+      "Telefon ve WhatsApp bağlantısı tıklaması",
+      "Randevu veya demo talebi tamamlanması",
+      "E-ticarette satın alma (purchase) ve gelir değeri",
+      "Katalog, fiyat listesi gibi B2B içerik indirmeleri"
+     ]
+    },
+    "Bir uyarı: aynı eylemi iki ayrı etkinlikle (ör. form_submit ve generate_lead) işaretlerseniz anahtar etkinlik sayısı şişer. Her iş eylemi için tek bir etkinlik seçin ve bunu ekipçe belgeleyin. Gelir verisi olan e-ticaret sitelerinde bu kurgu, [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) projelerinde ilk kontrol ettiğim konudur."
+   ]
+  },
+  {
+   "baslik": "SEO için kalıcı olarak kurulacak 5 rapor",
+   "paragraflar": [
+    "Her ay sıfırdan filtre kurmak yerine aşağıdaki görünümleri kaydedin ya da kitaplıkta özel rapor olarak ekleyin. Hangi KPI'ları aylık rapora taşıyacağınızı [SEO raporlama rehberinde](/rehber/seo-raporlama) ayrıca anlattım.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Rapor",
+       "Boyut / filtre",
+       "Cevapladığı soru"
+      ],
+      "satirlar": [
+       [
+        "Trafik edinme",
+        "Oturum varsayılan kanal grubu",
+        "Organik payı diğer kanallara göre nasıl değişiyor?"
+       ],
+       [
+        "Açılış sayfası (organik filtreli)",
+        "Açılış sayfası + Organic Search",
+        "Hangi sayfalar organik ziyaretçiyi karşılıyor ve dönüştürüyor?"
+       ],
+       [
+        "Google Organic Search Queries",
+        "Search Console sorgusu",
+        "Hangi aramalarda gösterim ve tıklama alıyoruz?"
+       ],
+       [
+        "Google Organic Search Traffic",
+        "Açılış sayfası + cihaz/ülke",
+        "Gösterimden oturuma ve etkinliğe kadar sayfa performansı"
+       ],
+       [
+        "Kullanıcı edinme",
+        "İlk kullanıcı varsayılan kanal grubu",
+        "Organik arama siteyi ilk kez kaç kişiye tanıttı?"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Keşif raporları ve veri saklama süresi ayarı",
+   "paragraflar": [
+    "Standart raporlar özet veriyle çalışır; organik kullanıcıların hangi yolu izlediğini görmek için keşif (exploration) raporlarına ihtiyaç duyarsınız. Google'ın veri saklama dokümanına göre standart mülklerde etkinlik verisi 2 ay veya 14 ay saklanacak şekilde ayarlanabilir ve bu ayar standart raporları değil, keşif ve dönüşüm hunisi raporlarını etkiler.",
+    "Kurulumdan sonra bu ayarı kontrol edin ve 14 aya çekin. Aksi hâlde geçen yılın aynı dönemiyle keşif karşılaştırması yapmak istediğinizde verinin silinmiş olduğunu görürsünüz. Mevsimselliği güçlü sektörlerde bu fark, yıllık stratejiyi doğrudan etkiler."
+   ]
+  },
+  {
+   "baslik": "GA4'te SEO ölçümünde sık yapılan hatalar",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru kurgu",
+       "tur": "iyi",
+       "maddeler": [
+        "Organik trafiği marka ve marka dışı açılış sayfalarıyla birlikte okumak",
+        "Her iş eylemini tek bir anahtar etkinlikle işaretlemek",
+        "Search Console ve GA4 rakamlarının birebir tutmayacağını raporda belirtmek",
+        "Veri saklama süresini 14 aya çekmek"
+       ]
+      },
+      "sag": {
+       "baslik": "Sık görülen hata",
+       "tur": "kotu",
+       "maddeler": [
+        "Yalnızca toplam oturum sayısına bakmak",
+        "Teşekkür sayfası görüntülemesini ve form etkinliğini birlikte saymak",
+        "Search Console tıklamasını GA4 oturumuyla aynı şey sanmak",
+        "İç linklere utm eklemek"
+       ]
+      }
+     }
+    },
+    "Bu kurulum tamamlandığında organik trafiğin değerini parayla ifade etmek mümkün hâle gelir; hesaplama yöntemini [SEO ROI ölçümü](/blog/seo-roi-olcumu) yazısında adım adım anlattım. Mülkünüzün ölçüm kurgusunu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) hizmeti kapsamında birlikte bakabiliriz; organik verinin büyüme kararlarına nasıl bağlandığını [performans ve büyüme](/performans) sayfasında görebilir, uygun bir zaman için [randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most sites running GA4 already have their organic traffic data, but nobody reads it regularly. Default reports mix every channel together, Search Console is not linked, and form submissions are not marked as key events. The result: “What did SEO bring us?” stays unanswered.",
+    "This post covers the setup that makes GA4 usable for SEO: how the organic channel is defined, how Search Console data reaches GA4 and which reports to keep. The interface changes often, so I name reports and settings rather than exact menu paths.",
+    {
+     "alinti": "Short answer: In GA4 you isolate organic traffic with the Organic Search value of the default channel group. Link Search Console to a web data stream and publish its report collection to bring query and landing page data into GA4. To see business outcomes from SEO, mark actions such as form submissions, calls and purchases as key events."
+    }
+   ]
+  },
+  {
+   "baslik": "How does GA4 define organic search traffic?",
+   "paragraflar": [
+    "According to Google's help page on traffic-source dimensions, a session goes to the **Organic Search** channel when its source matches a site on GA4's list of search sites or its medium is exactly “organic”. The same page includes non-ad clicks from Google's AI Overviews and AI Mode in this channel.",
+    "Visits from assistants such as ChatGPT, Gemini or Copilot are, as of October 2026, grouped in a separate **AI Assistant** channel. I explain that channel and how to separate individual assistants in [separating AI assistant traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi); here I focus on classic organic search.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "utm parameters can break organic",
+      "metin": "If you add utm parameters to internal links on your own site, an organic visitor's session restarts with a new source and the organic credit is lost. Use utm only on external campaign links."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "What data does the Search Console link bring into GA4?",
+   "paragraflar": [
+    "Google's linking documentation says a web data stream can link to only one Search Console property, and you need the Editor role in GA4 plus verified ownership in Search Console. Once linked, two reports become available: **Google Organic Search Queries** and **Google Organic Search Traffic** (landing pages).",
+    {
+     "akis": {
+      "baslik": "Search Console linking flow",
+      "adimlar": [
+       {
+        "baslik": "Check permissions",
+        "metin": "Editor in GA4, verified owner in Search Console."
+       },
+       {
+        "baslik": "Pick the right data stream",
+        "metin": "Link the web stream that measures the same pages as the Search Console property."
+       },
+       {
+        "baslik": "Publish the collection",
+        "metin": "The Search Console report collection arrives unpublished; publish it from the Library."
+       },
+       {
+        "baslik": "Wait about 48 hours",
+        "metin": "Data shows up in the reports roughly 48 hours after collection."
+       }
+      ]
+     }
+    },
+    "Two limits matter. Search Console metrics combine only with landing page, device and country in GA4, so there are no conversions per query, and data goes back at most 16 months. For reading the Search Console reports themselves, see the [Search Console guide](/en/blog/search-console-rehberi)."
+   ]
+  },
+  {
+   "baslik": "Why is the landing page report the most useful for SEO?",
+   "paragraflar": [
+    "Organic visitors rarely enter through the homepage; they land on a blog post, a category or a service page. Open the landing page report filtered to session default channel group = Organic Search and you see, in one table, which pages receive organic traffic and how many of those sessions become key events.",
+    "The pattern I see most: informational blog posts take most of the traffic while a few service pages produce most conversions. Without internal links between the two, traffic does not reach conversion. The site architecture section of the [technical SEO guide](/en/guides/teknik-seo) helps here."
+   ]
+  },
+  {
+   "baslik": "Key events: measuring the business result of SEO",
+   "paragraflar": [
+    "What GA4 used to call conversions is now named **key events**. Google's documentation says any event you collect can be marked as a key event, while “conversions” in Google Ads are kept separate for bidding. For an SEO report, what matters is that the business-relevant actions are marked:",
+    {
+     "kontrol": [
+      "Form submission (the actual submit event, not just a thank-you page view)",
+      "Phone and WhatsApp link clicks",
+      "Completed booking or demo request",
+      "Purchase and revenue value in e-commerce",
+      "B2B downloads such as catalogues or price lists"
+     ]
+    },
+    "Marking the same action with two events (say form_submit and generate_lead) inflates counts, so pick one event per action and document it. On stores this is the first thing I check in [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting) projects."
+   ]
+  },
+  {
+   "baslik": "Five reports to keep permanently for SEO",
+   "paragraflar": [
+    "Instead of rebuilding filters every month, save the views below or add them to the Library as custom reports. Which KPIs belong in the monthly report is covered in the [SEO reporting guide](/en/guides/seo-raporlama).",
+    {
+     "tablo": {
+      "basliklar": [
+       "Report",
+       "Dimension / filter",
+       "Question it answers"
+      ],
+      "satirlar": [
+       [
+        "Traffic acquisition",
+        "Session default channel group",
+        "How is the organic share changing against other channels?"
+       ],
+       [
+        "Landing page (organic filter)",
+        "Landing page + Organic Search",
+        "Which pages receive and convert organic visitors?"
+       ],
+       [
+        "Google Organic Search Queries",
+        "Search Console query",
+        "Which searches bring impressions and clicks?"
+       ],
+       [
+        "Google Organic Search Traffic",
+        "Landing page + device/country",
+        "Page performance from impression to session to event"
+       ],
+       [
+        "User acquisition",
+        "First user default channel group",
+        "How many people first discovered the site through organic search?"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Explorations and the data retention setting",
+   "paragraflar": [
+    "Standard reports work on aggregated data; to see the paths organic users take you need explorations. Google's data retention documentation says standard properties can keep event data for 2 or 14 months, and that this setting affects explorations and funnel reports, not standard reports.",
+    "Check this setting after setup and move it to 14 months; otherwise year-over-year explorations will find the older data already deleted, which hurts planning in seasonal sectors."
+   ]
+  },
+  {
+   "baslik": "Common mistakes in GA4 SEO measurement",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Sound setup",
+       "tur": "iyi",
+       "maddeler": [
+        "Reading organic traffic together with branded and non-branded landing pages",
+        "Marking each business action with a single key event",
+        "Stating in reports that Search Console and GA4 numbers will not match",
+        "Setting data retention to 14 months"
+       ]
+      },
+      "sag": {
+       "baslik": "Common mistake",
+       "tur": "kotu",
+       "maddeler": [
+        "Looking only at total sessions",
+        "Counting both a thank-you page view and the form event",
+        "Treating a Search Console click as a GA4 session",
+        "Adding utm to internal links"
+       ]
+      }
+     }
+    },
+    "Once this setup is in place you can express the value of organic traffic in money; I walk through the calculation in [measuring SEO ROI](/en/blog/seo-roi-olcumu). If you want your property's measurement audited, we can review it together as part of [SEO consulting](/en/seo-consulting); you can see how organic data feeds growth decisions on the [performance and growth](/en/performance-growth) page and [book a call](/en/book-a-call) at a time that suits you."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "GA4 ile Search Console'daki tıklama sayıları neden farklı?",
+   "c": "Search Console arama sonucundaki tıklamayı, GA4 ise sitede başlayan oturumu sayar. Kullanıcı sayfa yüklenmeden ayrılabilir, çerez onayı vermeyebilir ya da etiket bazı sayfalarda eksik olabilir. Bu yüzden iki rakamın yakın ama farklı olması normaldir."
+  },
+  {
+   "s": "Organik trafikte “(not set)” açılış sayfası ne anlama gelir?",
+   "c": "Genellikle oturum başlangıcında sayfa görüntüleme etkinliğinin gelmediği durumları gösterir; uzun süre açık kalan sekmeler veya etiketin geç yüklenmesi tipik nedenlerdir. Oranı yüksekse etiket kurulumunu ve onay modu ayarlarını kontrol edin."
+  },
+  {
+   "s": "Search Console bağlantısını sonradan başka bir veri akışına taşıyabilir miyim?",
+   "c": "Google'ın dokümanına göre bağlantılar düzenlenemez; değiştirmek için mevcut bağlantıyı silip yenisini kurmanız gerekir. Yeni akışla bağladığınızda raporlardaki tüm tarih aralıkları yeni akışın verisini kullanır."
+  },
+  {
+   "s": "Bing veya Yandex trafiği de Organic Search kanalına düşer mi?",
+   "c": "Evet, kaynağı GA4'ün arama siteleri listesinde yer alan motorlardan gelen reklamsız ziyaretler Organic Search kanalına atanır. Motorları ayrı görmek için raporda oturum kaynağı boyutunu ikincil boyut olarak ekleyin."
+  },
+  {
+   "s": "Çerez onayı organik trafik verisini nasıl etkiler?",
+   "c": "Onay vermeyen kullanıcıların ziyaretleri, onay modu ayarınıza bağlı olarak eksik ya da modellenmiş ölçülür. Bu nedenle GA4 organik rakamlarını trend olarak okumak, kesin toplam gibi yorumlamaktan daha sağlıklıdır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why do click counts differ between GA4 and Search Console?",
+   "c": "Search Console counts a click on the search result, GA4 counts a session that starts on your site. Users may leave before the page loads, decline cookies, or land on a page missing the tag. Numbers that are close but not identical are normal."
+  },
+  {
+   "s": "What does a “(not set)” landing page mean in organic traffic?",
+   "c": "It usually means no page view event arrived at the start of the session; long-idle tabs or a late-loading tag are typical causes. If the share is high, check your tag installation and consent mode settings."
+  },
+  {
+   "s": "Can I move the Search Console link to another data stream later?",
+   "c": "Google's documentation says links cannot be edited; you delete the existing link and create a new one. After relinking, all date ranges in the reports use data from the new stream."
+  },
+  {
+   "s": "Does Bing or Yandex traffic also land in Organic Search?",
+   "c": "Yes, non-ad visits from engines on GA4's search-site list are assigned to Organic Search. Add session source as a secondary dimension to see each engine separately."
+  },
+  {
+   "s": "How does cookie consent affect organic traffic data?",
+   "c": "Visits from users who decline consent are measured incompletely or modelled, depending on your consent mode setup. That is why GA4 organic figures are best read as trends rather than exact totals."
+  }
+ ]
+}

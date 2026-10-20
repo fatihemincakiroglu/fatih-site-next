@@ -1,0 +1,407 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 7,
+ "baslik_tr": "301 ve 302 Yönlendirme Farkı: Hangi Durumda Hangisi?",
+ "baslik_en": "301 vs 302 Redirects: Which One to Use and When",
+ "meta_baslik_tr": "301 ve 302 Yönlendirme Farkı: Hangi Durumda Hangisi?",
+ "meta_baslik_en": "301 vs 302 Redirects: Which One to Use and When",
+ "meta_desc_tr": "301, 302, 307 ve 308 farkı, Google'ın bunları nasıl yorumladığı, zincir ve döngü sorunları, meta refresh ve JavaScript yönlendirme, kural örnekleri.",
+ "meta_desc_en": "301, 302, 307 and 308 redirects compared: how Google reads them, redirect chains and loops, meta refresh and JavaScript redirects, plus rule examples.",
+ "ozet_tr": "Kalıcı mı geçici mi? 301, 302, 307 ve 308'i doğru seçmek, zincirleri temizlemek ve kuralları hatasız yazmak için rehber.",
+ "ozet_en": "Permanent or temporary? How to pick between 301, 302, 307 and 308, clean up chains and write redirect rules without errors.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "URL değiştirdiğinizde, ürün kaldırdığınızda ya da HTTPS'e geçtiğinizde eski adresi yenisine bağlamanız gerekir. Yanlış yönlendirme türü, eski URL'nin aylarca arama sonuçlarında kalmasına ya da yeni sayfanın beklenen sinyalleri alamamasına yol açabilir.",
+    "Bu yazıda 301, 302, 307 ve 308 arasındaki farkı, Google'ın bunları nasıl yorumladığını, zincir ve döngü sorunlarını ve sunucu tarafında yapılamayan yönlendirmelerde ne yapacağınızı anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Değişiklik kalıcıysa 301 (ya da 308), geçiciyse 302 (ya da 307) kullanın. Google kalıcı yönlendirmeyi hedef URL'nin standart (canonical) seçilmesi için güçlü bir sinyal sayar; geçici yönlendirmede ise genellikle eski URL arama sonuçlarında kalır."
+    }
+   ]
+  },
+  {
+   "baslik": "301 ile 302 arasındaki fark nedir?",
+   "paragraflar": [
+    "Google'ın yönlendirmeler dokümanı kodları iki gruba ayırır. Kalıcı yönlendirmede yeni URL'nin arama sonuçlarında gösterilmesi beklenir; geçici yönlendirmede dizine ekleme hattı yönlendirmeyi standart URL sinyali olarak kullanmaz ve kaynak sayfa sonuçlarda kalabilir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yöntem",
+       "Google'ın yorumu",
+       "Tipik kullanım"
+      ],
+      "satirlar": [
+       [
+        "301 Moved Permanently",
+        "Kalıcı, güçlü sinyal",
+        "URL değişikliği, alan adı taşıma, HTTPS geçişi"
+       ],
+       [
+        "308 Permanent Redirect",
+        "Kalıcı, 301 ile eşdeğer",
+        "Kalıcı taşıma, istek yönteminin korunması gerektiğinde"
+       ],
+       [
+        "302 Found",
+        "Geçici, zayıf sinyal",
+        "Kısa süreli kampanya, bakım, A/B testi"
+       ],
+       [
+        "307 Temporary Redirect",
+        "Geçici, 302 ile eşdeğer",
+        "Geçici taşıma, yöntemin korunması gerektiğinde"
+       ],
+       [
+        "303 See Other",
+        "Geçici",
+        "Form gönderimi sonrası sonuç sayfası"
+       ],
+       [
+        "Anında meta refresh (0 sn)",
+        "Kalıcı",
+        "Sunucuya erişim olmadığında"
+       ],
+       [
+        "Gecikmeli meta refresh",
+        "Geçici",
+        "SEO için önerilmez"
+       ]
+      ]
+     }
+    },
+    "Pratikte en sık gördüğüm hata, kalıcı bir URL değişikliğinde 302 kullanılmasıdır. Bazı CMS eklentileri ve hosting panelleri varsayılan olarak 302 üretir; bu yüzden kuralı yazdıktan sonra durum kodunu mutlaka test edin."
+   ]
+  },
+  {
+   "baslik": "Hangi durumda 301, hangi durumda 302?",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "301 / 308 kullanın",
+       "tur": "iyi",
+       "maddeler": [
+        "Slug ya da klasör yapısı değişti",
+        "İki benzer sayfa birleştirildi",
+        "HTTP'den HTTPS'e, www'den www'siz sürüme geçiş",
+        "Alan adı değişikliği",
+        "Kalıcı olarak kaldırılan ürünün yerine doğrudan muadili var"
+       ]
+      },
+      "sag": {
+       "baslik": "302 / 307 kullanın",
+       "tur": "notr",
+       "maddeler": [
+        "Birkaç günlük bakım çalışması",
+        "Geri gelecek bir sayfanın geçici yerine yönlendirme",
+        "Sınırlı süreli kampanya sayfası",
+        "Yönlendirmeli A/B testi",
+        "Oturum ya da sepet adımları gibi dizine eklenmesi gerekmeyen akışlar"
+       ]
+      }
+     }
+    },
+    "Karar sorusu basit: Bu yönlendirme bir gün geri alınacak mı? Hayırsa kalıcıdır. Google da kalıcı yönlendirmeyi yalnızca yönlendirmenin geri alınmayacağından eminseniz kullanmanızı öneriyor.",
+    "E-ticarette stoğu biten ürünlerde aceleci davranmayın. Ürün geri gelecekse sayfayı yayında tutup stok durumunu belirtin; kalıcı kalktıysa yakın bir muadile 301 verin ya da 404/410 döndürün. Yüzlerce ürünü ana sayfaya yönlendirmenin Search Console'da soft 404 olarak raporlandığını sahada sık görüyorum. Katalog yapısının ayrıntıları için [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "307 ve 308 ne zaman gerekir?",
+   "paragraflar": [
+    "HTTP standardında 307 ve 308, istemcinin istek yöntemini (örneğin POST) değiştirmeden yeni adrese tekrar göndermesini şart koşar; 301 ve 302'de tarayıcılar POST isteğini GET'e çevirebilir. Bu fark API'ler ve form uç noktaları için önemlidir.",
+    "SEO açısından Google'ın HTTP durum kodları dokümanı 307'yi 302 ile, 308'i 301 ile eşdeğer tutuyor. Yani normal sayfalar için 301 ve 302 yeterli; geliştirici ekibiniz 308 kullanıyorsa bu da kalıcı yönlendirme olarak işlenir.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Tarayıcıda gördüğünüz 307",
+      "metin": "HSTS etkin bir sitede tarayıcı HTTP isteğini sunucuya gitmeden HTTPS'e çevirir ve geliştirici araçlarında bunu dahili bir 307 olarak gösterebilir. Sunucunuzun gerçekte ne döndürdüğünü görmek için curl gibi bir araçla ya da tarayıcı önbelleği temiz bir site tarayıcısıyla kontrol edin."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Yönlendirme zinciri ve döngüsü nasıl temizlenir?",
+   "paragraflar": [
+    "Zincir, A'nın B'ye, B'nin C'ye yönlendiği durumdur. Google'ın dokümanına göre Google tarayıcıları varsayılan olarak en fazla 10 yönlendirme adımını takip eder. Ama her ek adım yükleme süresini uzatır ve hata riskini artırır; bu yüzden hedef her zaman tek adımdır.",
+    "Döngüde ise A, B'ye; B tekrar A'ya döner ve sayfa hiç açılmaz. Genellikle çakışan iki kuraldan doğar: biri sondaki eğik çizgiyi ekler, diğeri kaldırır. Aşağıdaki kurallar eski slug'ı, protokol ve host dahil, tek adımda son adrese gönderir:",
+    {
+     "kod": "# Apache (.htaccess)\nRedirect 301 /eski-urun/ https://example.com/urunler/yeni-urun/\n\n# Nginx\nlocation = /eski-urun/ {\n    return 301 https://example.com/urunler/yeni-urun/;\n}"
+    },
+    "Site taşımadan sonra yeni bir taşıma yapıldığında eski kuralları güncellemezseniz zincirler birikir. Eski haritadaki her URL'yi doğrudan son hedefe bağlayın ve iç linkleri de yeni adrese güncelleyin. Yönlendiren URL'ye iç link vermek, gereksiz bir adım daha demektir."
+   ]
+  },
+  {
+   "baslik": "Meta refresh ve JavaScript yönlendirme ne zaman kullanılır?",
+   "paragraflar": [
+    "Google sunucu tarafı yönlendirmeyi, doğru yorumlanma şansı en yüksek yöntem olarak tanımlıyor. Diğer yöntemler sunucu erişiminiz yoksa devreye girmeli.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🖥️",
+       "baslik": "Sunucu tarafı (3xx)",
+       "metin": "İlk tercih. .htaccess, Nginx, CDN kuralları ya da CMS yönlendirme modülüyle yapılır."
+      },
+      {
+       "ikon": "⏱️",
+       "baslik": "Meta refresh",
+       "metin": "Anında (0 saniye) olanı kalıcı, gecikmeli olanı geçici yorumlanır. Statik barındırmada işe yarar."
+      },
+      {
+       "ikon": "📜",
+       "baslik": "JavaScript",
+       "metin": "Google yalnızca sunucu tarafı ve meta refresh mümkün değilse öneriyor; render başarısız olursa hiç görülmeyebilir."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Görünür link",
+       "metin": "Hiçbiri mümkün değilse eski sayfada yeni adrese açıklamalı bir link bırakın; Google buna “crypto redirect” diyor ve son çare olarak görüyor."
+      }
+     ]
+    },
+    "React ya da Next.js tabanlı sitelerde istemci tarafı yönlendirmeler sık karşıma çıkıyor. Render sürecinin ayrıntıları için [JavaScript SEO](/blog/javascript-seo) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yönlendirme kuralı yazarken kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Değişiklik kalıcıysa 301/308, geçiciyse 302/307 seçildi mi?",
+      "Her eski URL tek adımda nihai hedefe gidiyor mu?",
+      "Hedef sayfa 200 dönüyor ve içerik olarak eski sayfanın karşılığı mı?",
+      "İç linkler, canonical etiketleri, hreflang ve site haritası yeni URL'lere güncellendi mi?",
+      "Sorgu parametreleri ve büyük/küçük harf varyasyonları test edildi mi?",
+      "Kurallar canlıya alındıktan sonra bir site tarayıcısıyla zincir ve döngü kontrolü yapıldı mı?"
+     ]
+    },
+    "Toplu kural yazarken [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) ile Apache ve Nginx biçiminde kural üretebilirsiniz. Alan adı ya da altyapı değişikliği gibi büyük taşımalarda URL haritası, test ve izleme adımlarını [site taşıma SEO rehberinde](/rehber/site-tasima-seo) ayrıntılı anlattım; yeni slug'ları planlarken [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) yazısı da yol gösterir.",
+    "Yönlendirme, daha geniş [teknik SEO rehberindeki](/rehber/teknik-seo) tarama ve indeksleme konularının bir parçasıdır. Taşıma planınızı birlikte gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasından kapsamı inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Changing a URL, removing a product or moving to HTTPS means connecting the old address to the new one. The wrong redirect type can keep the old URL in search results for months or stop the new page from receiving the signals you expect.",
+    "This article covers the difference between 301, 302, 307 and 308, how Google interprets them, chain and loop problems, and what to do when a server-side redirect is not possible.",
+    {
+     "alinti": "Short answer: Use 301 (or 308) when the change is permanent and 302 (or 307) when it is temporary. Google treats a permanent redirect as a strong signal that the target should become the canonical URL; with a temporary redirect, the old URL usually stays in search results."
+    }
+   ]
+  },
+  {
+   "baslik": "What is the difference between 301 and 302?",
+   "paragraflar": [
+    "Google's redirects documentation splits the codes into two groups. With a permanent redirect, the new URL is expected to show in results; with a temporary one, the indexing pipeline does not use the redirect as a canonical signal and the source page may stay in results.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Method",
+       "Google's interpretation",
+       "Typical use"
+      ],
+      "satirlar": [
+       [
+        "301 Moved Permanently",
+        "Permanent, strong signal",
+        "URL change, domain move, HTTPS migration"
+       ],
+       [
+        "308 Permanent Redirect",
+        "Permanent, same as 301",
+        "Permanent move where the request method must be kept"
+       ],
+       [
+        "302 Found",
+        "Temporary, weak signal",
+        "Short campaign, maintenance, A/B test"
+       ],
+       [
+        "307 Temporary Redirect",
+        "Temporary, same as 302",
+        "Temporary move where the method must be kept"
+       ],
+       [
+        "303 See Other",
+        "Temporary",
+        "Result page after a form submission"
+       ],
+       [
+        "Instant meta refresh (0 s)",
+        "Permanent",
+        "When you have no server access"
+       ],
+       [
+        "Delayed meta refresh",
+        "Temporary",
+        "Not recommended for SEO"
+       ]
+      ]
+     }
+    },
+    "The mistake I see most in practice is a 302 on a permanent URL change. Some CMS plugins create 302s by default, so always test the status code."
+   ]
+  },
+  {
+   "baslik": "When to use 301 and when to use 302",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Use 301 / 308",
+       "tur": "iyi",
+       "maddeler": [
+        "Slug or folder structure changed",
+        "Two similar pages were merged",
+        "HTTP to HTTPS or www to non-www",
+        "Domain change",
+        "A permanently removed product has a direct replacement"
+       ]
+      },
+      "sag": {
+       "baslik": "Use 302 / 307",
+       "tur": "notr",
+       "maddeler": [
+        "A few days of maintenance",
+        "Temporary stand-in for a page that will return",
+        "Time-limited campaign page",
+        "Redirect-based A/B test",
+        "Flows such as login or cart steps that need no indexing"
+       ]
+      }
+     }
+    },
+    "The deciding question is simple: will this redirect ever be reverted? If not, it is permanent. Google also recommends permanent redirects only when you are sure the redirect will not be reverted.",
+    "In e-commerce, do not rush with out-of-stock products. If the item will return, keep the page live and state availability; if it is gone for good, 301 to a close replacement or return 404/410. I often see hundreds of products redirected to the homepage get reported as soft 404 in Search Console. For catalogue structure, see [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting)."
+   ]
+  },
+  {
+   "baslik": "When do you need 307 and 308?",
+   "paragraflar": [
+    "Under the HTTP standard, 307 and 308 require the client to resend the request to the new address without changing its method (for example POST); with 301 and 302, browsers may turn a POST into a GET.",
+    "For SEO, Google's HTTP status code documentation treats 307 as equivalent to 302 and 308 as equivalent to 301. For normal pages, 301 and 302 are enough; if your developers use 308, it is processed as a permanent redirect too.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "The 307 you see in your browser",
+      "metin": "On a site with HSTS, the browser upgrades HTTP to HTTPS before contacting the server and dev tools may show this as an internal 307. To see what your server actually returns, check with a tool such as curl or with a site crawler."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How to clean up redirect chains and loops",
+   "paragraflar": [
+    "A chain is when A redirects to B and B to C. According to Google's documentation, its crawlers follow up to 10 redirect hops by default. Still, every extra hop adds load time and risk, so the goal is always a single hop.",
+    "In a loop, A goes to B and B returns to A, so the page never loads. Loops usually come from two conflicting rules: one adds a trailing slash, the other removes it. The rules below send the old slug to the final address, protocol and host included, in one hop:",
+    {
+     "kod": "# Apache (.htaccess)\nRedirect 301 /eski-urun/ https://example.com/urunler/yeni-urun/\n\n# Nginx\nlocation = /eski-urun/ {\n    return 301 https://example.com/urunler/yeni-urun/;\n}"
+    },
+    "Chains pile up when a second migration follows the first and old rules stay unchanged. Point every URL in the old map directly to its final target and update internal links too. Linking internally to a redirecting URL means one more unnecessary hop."
+   ]
+  },
+  {
+   "baslik": "When to use meta refresh and JavaScript redirects",
+   "paragraflar": [
+    "Google describes server-side redirects as the method with the highest chance of being interpreted correctly. The other methods are for when you have no server access.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🖥️",
+       "baslik": "Server-side (3xx)",
+       "metin": "First choice. Set up via .htaccess, Nginx, CDN rules or a CMS redirect module."
+      },
+      {
+       "ikon": "⏱️",
+       "baslik": "Meta refresh",
+       "metin": "Instant (0 seconds) is read as permanent, delayed as temporary. Useful on static hosting."
+      },
+      {
+       "ikon": "📜",
+       "baslik": "JavaScript",
+       "metin": "Google recommends it only when server-side and meta refresh are impossible; if rendering fails, it may never be seen."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Visible link",
+       "metin": "If nothing else works, leave an explained link to the new address; Google calls this a crypto redirect and treats it as a last resort."
+      }
+     ]
+    },
+    "I often find client-side redirects on React or Next.js sites. For how rendering works, see [JavaScript SEO](/en/blog/javascript-seo)."
+   ]
+  },
+  {
+   "baslik": "Checklist for writing redirect rules",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Is it 301/308 for permanent changes and 302/307 for temporary ones?",
+      "Does every old URL reach its final target in a single hop?",
+      "Does the target return 200 and actually replace the old page's content?",
+      "Have internal links, canonical tags, hreflang and the sitemap been updated?",
+      "Have query parameters and uppercase/lowercase variants been tested?",
+      "After going live, did a site crawler check for chains and loops?"
+     ]
+    },
+    "For bulk rules, the [301 redirect generator](/en/tools/redirect-generator) produces Apache and Nginx rules. For large moves such as a domain or platform change, I cover URL mapping, testing and monitoring in the [site migration SEO guide](/en/guides/site-tasima-seo); [SEO-friendly URL structure](/en/blog/url-yapisi-seo) helps when planning new slugs.",
+    "Redirects are one part of the crawling and indexing topics in the broader [technical SEO guide](/en/guides/teknik-seo). To review your migration plan together, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "301 yönlendirme ne kadar süre yerinde kalmalı?",
+   "c": "Google, site taşımalarında yönlendirmeleri mümkün olduğunca uzun, genellikle en az bir yıl korumayı öneriyor. Eski URL'lere dış sitelerden link geliyorsa kuralları kalıcı olarak bırakmak daha güvenlidir. Yönlendirme kuralları sunucuya kayda değer bir yük getirmez."
+  },
+  {
+   "s": "301 yönlendirme sıralama kaybına yol açar mı?",
+   "c": "Doğru eşleşmiş bir 301, sinyallerin yeni URL'ye aktarılması için Google'ın önerdiği yöntemdir. Geçiş döneminde dalgalanma görülebilir. Kalıcı kayıp genellikle alakasız sayfalara toplu yönlendirme ya da içeriğin zayıflatılması gibi başka hatalardan kaynaklanır."
+  },
+  {
+   "s": "Yönlendirme mi, canonical etiketi mi kullanmalıyım?",
+   "c": "Kullanıcının eski sayfayı görmesine gerek yoksa yönlendirme kullanın. İki sayfanın da erişilebilir kalması gerekiyorsa (örneğin parametreli filtre sayfaları) canonical daha uygundur. Canonical bir ipucudur; yönlendirme ise kullanıcıyı da taşır."
+  },
+  {
+   "s": "Silinen sayfa için 404 mü dönmeli, 301 mi yapmalı?",
+   "c": "Aynı ihtiyacı karşılayan bir sayfa varsa 301 yapın. Karşılığı yoksa 404 ya da 410 döndürmek dürüst ve doğru bir sinyaldir. Her silinen sayfayı ana sayfaya yönlendirmek kullanıcıyı da yanıltır."
+  },
+  {
+   "s": "Search Console'daki “Yönlendirmeli sayfa” uyarısı sorun mu?",
+   "c": "Genellikle hayır; bu satır yönlendirme yapan URL'lerin dizine eklenmediğini, hedefin işlendiğini gösterir. Sorun, burada dizine eklenmesini istediğiniz bir URL görmenizdir. Dizine ekleme durumlarının genel okuması için [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Yönlendirmeleri eklentiyle mi sunucuda mı yapmalıyım?",
+   "c": "Az sayıda kural için CMS eklentisi pratiktir. Binlerce kural varsa sunucu ya da CDN düzeyinde düzenli ifade (regex) kuralları daha hızlı ve yönetilebilirdir. Hangi yöntemi seçerseniz seçin, kuralları tek bir yerde tutun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How long should a 301 redirect stay in place?",
+   "c": "For site moves, Google recommends keeping redirects as long as possible, generally at least a year. If external sites link to the old URLs, keeping the rules permanently is safer."
+  },
+  {
+   "s": "Does a 301 redirect cause ranking loss?",
+   "c": "A correctly mapped 301 is the method Google recommends for passing signals to the new URL. Lasting losses usually come from other mistakes, such as mass redirects to irrelevant pages or weakened content."
+  },
+  {
+   "s": "Should I use a redirect or a canonical tag?",
+   "c": "Use a redirect if users never need to see the old page. If both pages must stay accessible, such as parameterised filter pages, a canonical fits better. A canonical is a hint; a redirect moves the user as well."
+  },
+  {
+   "s": "Should a deleted page return 404 or be redirected with 301?",
+   "c": "If another page serves the same need, use a 301. If there is no equivalent, returning 404 or 410 is an honest and correct signal."
+  },
+  {
+   "s": "Is the “Page with redirect” status in Search Console a problem?",
+   "c": "Usually not; it means redirecting URLs are not indexed and the target is processed instead. It is a problem only if you see a URL there that you want indexed. For reading indexing statuses in general, see [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis)."
+  },
+  {
+   "s": "Should redirects live in a plugin or on the server?",
+   "c": "A CMS plugin is practical for a handful of rules. With thousands of rules, regex rules at the server or CDN level are faster and easier to manage."
+  }
+ ]
+}

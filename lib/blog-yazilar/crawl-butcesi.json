@@ -1,0 +1,423 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 7,
+ "baslik_tr": "Tarama Bütçesi (Crawl Budget) Nedir? Büyük Sitelerde Optimizasyon",
+ "baslik_en": "What Is Crawl Budget? Optimisation for Large Sites",
+ "meta_baslik_tr": "Tarama Bütçesi (Crawl Budget) Nedir, Nasıl İyileştirilir?",
+ "meta_baslik_en": "What Is Crawl Budget and How to Optimise It",
+ "meta_desc_tr": "Tarama bütçesi kimin için önemli, Google bunu nasıl belirliyor, filtre ve parametre israfı nasıl önlenir ve Tarama İstatistikleri raporu nasıl okunur?",
+ "meta_desc_en": "Who crawl budget matters for, how Google sets it, how to stop filter and parameter waste, and how to read the Crawl Stats report in Search Console.",
+ "ozet_tr": "Tarama bütçesi her sitenin sorunu değil; büyük sitelerde israfı bulup Googlebot'u değerli sayfalara yönlendirin.",
+ "ozet_en": "Crawl budget is not every site's problem; on large sites, find the waste and steer Googlebot to pages that matter.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Tarama bütçesi, SEO'da en çok konuşulan ama en az sitenin gerçekten dert etmesi gereken konulardan biri. Birkaç yüz sayfalık bir kurumsal sitede yeni sayfaların geç dizine eklenmesinin sebebi neredeyse hiçbir zaman bütçe değildir.",
+    "Yüz binlerce ürün, filtre kombinasyonu ve parametreli URL barındıran bir mağazada ise tablo değişir. Bu yazıda Google'ın tarama bütçesi dokümanına dayanarak kimin için önemli olduğunu, israfın nereden geldiğini ve Tarama İstatistikleri raporunu nasıl okuyacağınızı anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Tarama bütçesi, Google'ın bir sitede taramak istediği ve tarayabildiği URL kümesidir; sunucu kapasitesi ve tarama talebiyle belirlenir. Google'a göre asıl olarak çok büyük ya da çok sık değişen siteler için önemlidir. Optimizasyon, gereksiz URL'leri azaltmak, kopyaları birleştirmek ve sunucuyu hızlı tutmaktır."
+    }
+   ]
+  },
+  {
+   "baslik": "Tarama bütçesi nedir ve Google bunu nasıl belirler?",
+   "paragraflar": [
+    "Google'ın dokümanı tarama bütçesini iki bileşenle tanımlıyor. **Tarama kapasitesi sınırı**, Googlebot'un sunucuyu yormadan açabileceği bağlantı sayısı ve süresidir. Site hızlı ve sağlıklı yanıt verdikçe yükselir; yavaşlama, 5xx hataları ya da 429 yanıtları gördüğünde düşer.",
+    "**Tarama talebi** ise Google'ın siteyi ne kadar taramak istediğidir. Dokümanda belirleyiciler olarak algılanan URL envanteri, popülerlik ve içeriğin eskime durumu sayılıyor. Kapasite yeterli olsa bile talep düşükse Google daha az tarar.",
+    "Bu ikisinden en çok kontrol edebildiğiniz şey envanterdir: Google'a ne kadar gereksiz URL gösterirseniz, değerli sayfalarınıza o kadar az zaman kalır."
+   ]
+  },
+  {
+   "baslik": "Tarama bütçesi kimin için önemli?",
+   "paragraflar": [
+    "Google, rehberin hedef kitlesini kabaca şöyle tarif ediyor ve bu rakamların kesin eşik değil, yaklaşık bir tahmin olduğunu özellikle belirtiyor:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Site profili",
+       "Tarama bütçesi önemli mi?",
+       "Önce neye bakmalı?"
+      ],
+      "satirlar": [
+       [
+        "1 milyondan fazla benzersiz sayfa, haftalık değişen içerik",
+        "Evet",
+        "Envanter, filtre URL'leri, sunucu hızı"
+       ],
+       [
+        "10.000'den fazla sayfa, günlük değişen içerik",
+        "Evet",
+        "Site haritası, lastmod, tazelik"
+       ],
+       [
+        "URL'lerin büyük kısmı \"Keşfedildi – dizine eklenmemiş\"",
+        "Muhtemelen",
+        "Sunucu yanıtı, kopya URL'ler"
+       ],
+       [
+        "Birkaç yüz ya da birkaç bin sayfalık site",
+        "Genellikle hayır",
+        "İçerik kalitesi ve iç linkler"
+       ]
+      ]
+     }
+    },
+    "Küçük bir sitede sayfa dizine eklenmiyorsa sorun büyük olasılıkla kalite ya da benzersizliktir; o durumda [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısındaki teşhis adımları daha işe yarar."
+   ]
+  },
+  {
+   "baslik": "Tarama bütçesini en çok ne israf eder?",
+   "paragraflar": [
+    "Büyük sitelerdeki denetimlerde Googlebot'un zamanını en çok şu kalemlerin yediğini görüyorum:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎛️",
+       "baslik": "Filtre kombinasyonları",
+       "metin": "Renk, beden, fiyat ve marka filtreleri çarpıldıkça milyonlarca URL doğar; çoğunun arama talebi yoktur."
+      },
+      {
+       "ikon": "🔀",
+       "baslik": "Sıralama ve oturum parametreleri",
+       "metin": "?sirala=fiyat ya da oturum kimlikleri aynı içeriği farklı adreslerde tekrar eder."
+      },
+      {
+       "ikon": "👻",
+       "baslik": "Soft 404'ler",
+       "metin": "Boş kategori ya da stoksuz ürün 200 dönerse Google onları taramaya devam eder."
+      },
+      {
+       "ikon": "⛓️",
+       "baslik": "Yönlendirme zincirleri",
+       "metin": "A'dan B'ye, B'den C'ye giden zincirler her adımda ek istek demektir."
+      },
+      {
+       "ikon": "♾️",
+       "baslik": "Sonsuz alanlar",
+       "metin": "Takvim sayfaları, iç arama sonuçları ve sonsuz sayfalama sınırsız URL üretebilir."
+      }
+     ]
+    },
+    "Bu desenin uç örneği, yüzlerce şablon sayfayı aynı anda yayına almaktır; [programatik SEO](/blog/programatik-seo) projelerinde envanter kontrolü bu yüzden ilk iştir. JavaScript ile üretilen linkler ve render maliyeti de taramayı etkiler; ayrıntısı [JavaScript SEO](/blog/javascript-seo) yazısında."
+   ]
+  },
+  {
+   "baslik": "Tarama bütçesi optimizasyonu: adım adım",
+   "paragraflar": [
+    "Google'ın önerileri ile sahadaki uygulamayı birleştirdiğimde süreç şu sırayla ilerliyor:",
+    {
+     "akis": {
+      "baslik": "Optimizasyon sırası",
+      "adimlar": [
+       {
+        "baslik": "Envanteri çıkarın",
+        "metin": "Sunucu günlükleri ve tarama aracıyla Googlebot'un hangi URL kalıplarına gittiğini görün."
+       },
+       {
+        "baslik": "Kopyaları birleştirin",
+        "metin": "Aynı içeriği taşıyan URL'leri tek standart adreste toplayın."
+       },
+       {
+        "baslik": "Önemsizleri engelleyin",
+        "metin": "Sıralama ve sonsuz kaydırma kopyaları gibi URL'leri robots.txt ile taramadan çıkarın."
+       },
+       {
+        "baslik": "Durum kodlarını düzeltin",
+        "metin": "Kalıcı olarak kaldırılan sayfalar 404/410 dönsün, soft 404'leri giderin, zincirleri kısaltın."
+       },
+       {
+        "baslik": "Sunucuyu hızlandırın",
+        "metin": "Yanıt süresini düşürün, önbellek ve 304 (Not Modified) desteği ekleyin."
+       }
+      ]
+     }
+    },
+    "Dokümandaki ince ama önemli bir nokta: Bütçe kazanmak için noindex kullanmayın; Google noindex sayfayı yine de ister, sadece dizine eklemez. Taramayı gerçekten durdurmak istediğiniz URL'ler için doğru araç robots.txt'dir; sözdizimi ve tuzakları için [robots.txt rehberi](/blog/robots-txt) yazısına bakın. Zincirleri temizlerken [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) toplu kural yazmayı hızlandırır.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "robots.txt bütçe aktarma aracı değil",
+      "metin": "Google, robots.txt ile bazı sayfaları engelleyerek bütçeyi başka sayfalara aktarmaya çalışmamanızı söylüyor. Engelleme, hiçbir zaman taranmasını istemediğiniz URL'ler içindir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Tarama İstatistikleri raporu nasıl okunur?",
+   "paragraflar": [
+    "Search Console'da Ayarlar altındaki Tarama istatistikleri raporu yalnızca kök düzeydeki mülklerde (alan adı mülkü ya da kök URL ön eki) görünür. Google'ın yardım sayfası, bin sayfadan küçük sitelerin bu rapora ihtiyaç duymaması gerektiğini söylüyor.",
+    {
+     "liste": [
+      "**Toplam tarama isteği ve indirme boyutu:** Ani düşüşler erişim sorununa, ani artışlar yeni URL kaynağına işaret edebilir.",
+      "**Ortalama yanıt süresi:** Yükselen eğri, kapasite sınırının düşmesine yol açabilir.",
+      "**Ana makine durumu:** robots.txt getirme, DNS çözümleme ve sunucu bağlantısı sorunları burada görünür.",
+      "**Yanıta, dosya türüne ve amaca göre dağılım:** Keşif ve yenileme oranı, yeni URL'lerin ne kadar hızlı bulunduğunu gösterir.",
+      "**Googlebot türüne göre dağılım:** Akıllı telefon tarayıcısının payını ve sayfa kaynağı taramalarını izleyin."
+     ]
+    },
+    {
+     "cubuk": {
+      "baslik": "Örnek: Bir mağazada tarama isteklerinin URL tipine göre dağılımı",
+      "birim": "%",
+      "veriler": [
+       {
+        "etiket": "Filtre/parametreli URL",
+        "deger": 46
+       },
+       {
+        "etiket": "Ürün sayfaları",
+        "deger": 28
+       },
+       {
+        "etiket": "Kategori sayfaları",
+        "deger": 14
+       },
+       {
+        "etiket": "Yönlendirme ve 404",
+        "deger": 12
+       }
+      ],
+      "not": "Temsili örnek: gerçek bir siteye ait veri değildir. Bu tür dağılım rapordaki tarama örnekleri ya da sunucu günlükleri gruplanarak çıkarılır."
+     }
+    },
+    "Böyle bir tabloda Googlebot'un neredeyse yarısını filtre URL'lerine harcadığı görülüyorsa ilk iş filtre mimarisidir. Faceted navigasyonun nasıl kurulacağını [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) ayrıntılı anlatıyor; genel tarama ve dizine ekleme çerçevesi ise [teknik SEO rehberinde](/rehber/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Ne zaman uzman desteği gerekir?",
+   "paragraflar": [
+    "URL Denetimi'nde \"Hostload exceeded\" uyarısı görüyorsanız Google'ın dokümanı sunucu kaynaklarını artırmayı öneriyor. Günlük analizi, filtre mimarisi ve sunucu tarafı ayarlar ise genellikle geliştirici ve SEO ekibinin birlikte çalışmasını gerektirir.",
+    "Yüz binlerce URL'li mağazalarda bu çalışmayı [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir planla yürütüyorum. Sitenizde bütçenin gerçekten sorun olup olmadığını birlikte görmek için [SEO uzmanı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Crawl budget is one of the most discussed SEO topics and one that few sites actually need to worry about. On a company site with a few hundred pages, budget is almost never the reason new pages are slow to be indexed.",
+    "On a store with hundreds of thousands of products, filter combinations and parameter URLs, the picture changes. Based on Google's crawl budget documentation, this article covers who it matters for, where waste comes from and how to read the Crawl Stats report.",
+    {
+     "alinti": "Short answer: Crawl budget is the set of URLs Google can and wants to crawl on a site, shaped by server capacity and crawl demand. Google says it mainly matters for very large or very frequently changing sites. Optimisation means reducing unnecessary URLs, consolidating duplicates and keeping the server fast."
+    }
+   ]
+  },
+  {
+   "baslik": "What is crawl budget and how does Google set it?",
+   "paragraflar": [
+    "Google's documentation defines crawl budget through two components. The **crawl capacity limit** is how many connections Googlebot can open, and for how long, without overloading your server. It rises when the site responds quickly and healthily, and falls when Google sees slowdowns, 5xx errors or 429 responses.",
+    "**Crawl demand** is how much Google wants to crawl the site. The documentation names perceived URL inventory, popularity and staleness as the drivers. Even with enough capacity, low demand means less crawling.",
+    "Of the two, inventory is what you control most: the more unnecessary URLs you expose, the less time is left for the pages that matter."
+   ]
+  },
+  {
+   "baslik": "Who does crawl budget matter for?",
+   "paragraflar": [
+    "Google describes the audience for its guide roughly as follows, and stresses that these numbers are a rough estimate, not exact thresholds:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Site profile",
+       "Does crawl budget matter?",
+       "What to check first"
+      ],
+      "satirlar": [
+       [
+        "1M+ unique pages, content changing weekly",
+        "Yes",
+        "Inventory, filter URLs, server speed"
+       ],
+       [
+        "10,000+ pages, content changing daily",
+        "Yes",
+        "Sitemaps, lastmod, freshness"
+       ],
+       [
+        "Large share of URLs in \"Discovered – currently not indexed\"",
+        "Probably",
+        "Server response, duplicate URLs"
+       ],
+       [
+        "A few hundred or a few thousand pages",
+        "Usually not",
+        "Content quality and internal links"
+       ]
+      ]
+     }
+    },
+    "If a page on a small site is not indexed, the issue is most likely quality or uniqueness; the diagnosis steps in [fixing crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis) are more useful there."
+   ]
+  },
+  {
+   "baslik": "What wastes crawl budget the most?",
+   "paragraflar": [
+    "In audits of large sites, these are the items that eat most of Googlebot's time:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎛️",
+       "baslik": "Filter combinations",
+       "metin": "Colour, size, price and brand filters multiply into millions of URLs, most with no search demand."
+      },
+      {
+       "ikon": "🔀",
+       "baslik": "Sort and session parameters",
+       "metin": "?sort=price or session IDs repeat the same content at different addresses."
+      },
+      {
+       "ikon": "👻",
+       "baslik": "Soft 404s",
+       "metin": "Empty categories or out-of-stock products returning 200 keep getting crawled."
+      },
+      {
+       "ikon": "⛓️",
+       "baslik": "Redirect chains",
+       "metin": "A to B to C means an extra request at every hop."
+      },
+      {
+       "ikon": "♾️",
+       "baslik": "Infinite spaces",
+       "metin": "Calendars, internal search results and endless pagination can generate unlimited URLs."
+      }
+     ]
+    },
+    "The extreme case is launching hundreds of templated pages at once, which is why inventory control comes first in [programmatic SEO](/en/blog/programatik-seo) projects. Links generated by JavaScript and rendering cost also affect crawling; see [JavaScript SEO](/en/blog/javascript-seo) for details."
+   ]
+  },
+  {
+   "baslik": "Crawl budget optimisation, step by step",
+   "paragraflar": [
+    "Combining Google's recommendations with what works in practice, the process runs in this order:",
+    {
+     "akis": {
+      "baslik": "Optimisation order",
+      "adimlar": [
+       {
+        "baslik": "Map the inventory",
+        "metin": "Use server logs and a crawler to see which URL patterns Googlebot visits."
+       },
+       {
+        "baslik": "Consolidate duplicates",
+        "metin": "Gather URLs with the same content under one canonical address."
+       },
+       {
+        "baslik": "Block the unimportant",
+        "metin": "Keep sort variants and infinite-scroll duplicates out of crawling with robots.txt."
+       },
+       {
+        "baslik": "Fix status codes",
+        "metin": "Return 404/410 for permanently removed pages, fix soft 404s, shorten chains."
+       },
+       {
+        "baslik": "Speed up the server",
+        "metin": "Lower response time and add caching and 304 (Not Modified) support."
+       }
+      ]
+     }
+    },
+    "A subtle but important point in the documentation: do not use noindex to save budget, because Google still requests the page and simply does not index it. For URLs you truly want left uncrawled, robots.txt is the right tool; see the [robots.txt guide](/en/blog/robots-txt) for syntax and pitfalls. When cleaning up chains, the [redirect generator](/en/tools/redirect-generator) speeds up writing rules in bulk.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "robots.txt does not move budget around",
+      "metin": "Google advises against blocking some pages in robots.txt to shift budget to others. Blocking is for URLs you never want crawled."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How to read the Crawl Stats report",
+   "paragraflar": [
+    "The Crawl stats report under Settings in Search Console is only available for root-level properties (a Domain property or a root URL-prefix property). Google's help page says sites with fewer than a thousand pages should not need it.",
+    {
+     "liste": [
+      "**Total crawl requests and download size:** sudden drops may signal access issues, sudden spikes a new source of URLs.",
+      "**Average response time:** a rising curve can lead to a lower capacity limit.",
+      "**Host status:** robots.txt fetch, DNS resolution and server connectivity problems show up here.",
+      "**Breakdown by response, file type and purpose:** the discovery versus refresh split shows how quickly new URLs are found.",
+      "**Breakdown by Googlebot type:** watch the smartphone crawler's share and page resource fetches."
+     ]
+    },
+    {
+     "cubuk": {
+      "baslik": "Example: crawl requests by URL type on a store",
+      "birim": "%",
+      "veriler": [
+       {
+        "etiket": "Filter/parameter URLs",
+        "deger": 46
+       },
+       {
+        "etiket": "Product pages",
+        "deger": 28
+       },
+       {
+        "etiket": "Category pages",
+        "deger": 14
+       },
+       {
+        "etiket": "Redirects and 404s",
+        "deger": 12
+       }
+      ],
+      "not": "Illustrative example, not data from a real site. A split like this comes from grouping the report's crawl examples or server logs."
+     }
+    },
+    "If Googlebot spends almost half its time on filter URLs, filter architecture is the first job. The [ecommerce SEO guide](/en/guides/e-ticaret-seo) explains how to build faceted navigation, and the broader crawling and indexing framework is in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "When do you need expert help?",
+   "paragraflar": [
+    "If URL Inspection shows a \"Hostload exceeded\" warning, Google's documentation recommends adding server resources. Log analysis, filter architecture and server-side settings usually need developers and SEO working together.",
+    "For stores with hundreds of thousands of URLs, I run this work as a template-level plan within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting). To find out together whether budget is really a problem on your site, see [SEO consulting](/en/seo-consulting) or simply [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Site haritası tarama bütçesini artırır mı?",
+   "c": "Site haritası bütçeyi büyütmez ama Google'ın önemli URL'leri bulmasına ve değişiklikleri fark etmesine yardım eder. Google, güncellenen içerik için lastmod alanını kullanmanızı öneriyor. Haritada yalnızca dizine eklenmesini istediğiniz standart URL'ler olmalı."
+  },
+  {
+   "s": "Daha sık içerik yayınlamak taramayı artırır mı?",
+   "c": "Tazelik, tarama talebini etkileyen unsurlardan biri. Ancak yalnızca tarih değiştirmek ya da anlamsız güncellemeler yapmak kalıcı bir etki yaratmaz; Google gerçek değişikliği ve sayfanın değerini önemser."
+  },
+  {
+   "s": "Googlebot sunucumu yoruyorsa ne yapmalıyım?",
+   "c": "Google, 5xx ve 429 yanıtlarını gördüğünde taramayı yavaşlatır. Acil durumda 500, 503 ya da 429 döndürmek işe yarar; Google bunu birkaç saat ya da en fazla 1-2 günle sınırlamayı öneriyor, çünkü günlerce süren hatalar URL'lerin dizinden çıkarılmasına yol açabilir. Kalıcı çözüm sunucu kapasitesini ve önbelleği iyileştirmektir."
+  },
+  {
+   "s": "Sunucu günlüklerine bakmak gerekli mi?",
+   "c": "Büyük sitelerde en net bilgiyi günlükler verir: Googlebot'un hangi URL'lere, ne sıklıkla gittiğini gösterir. Günlükteki isteklerin gerçekten Google'dan geldiğini doğrulamak için Google'ın yayımladığı IP aralıklarını ya da ters DNS kontrolünü kullanın."
+  },
+  {
+   "s": "Tarama bütçesi sıralamayı doğrudan etkiler mi?",
+   "c": "Taranmak sıralama faktörü değildir; ancak taranmayan sayfa dizine eklenemez ve sıralanamaz. Bu yüzden bütçe, büyük sitelerde dolaylı ama önemli bir konudur."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does a sitemap increase crawl budget?",
+   "c": "A sitemap does not enlarge the budget, but it helps Google find important URLs and notice changes. Google recommends using lastmod for updated content. Only canonical URLs you want indexed should be listed."
+  },
+  {
+   "s": "Does publishing more often increase crawling?",
+   "c": "Staleness is one of the factors behind crawl demand. But merely changing dates or making meaningless edits has no lasting effect; Google cares about real changes and the page's value."
+  },
+  {
+   "s": "What should I do if Googlebot is overloading my server?",
+   "c": "Google slows down when it sees 5xx and 429 responses. In an emergency, returning 500, 503 or 429 helps; Google advises limiting this to a few hours or 1-2 days, because errors lasting several days can get URLs removed from the index. The lasting fix is better server capacity and caching."
+  },
+  {
+   "s": "Do I need to look at server logs?",
+   "c": "On large sites logs give the clearest picture, showing which URLs Googlebot visits and how often. To confirm requests really come from Google, use Google's published IP ranges or a reverse DNS check."
+  },
+  {
+   "s": "Does crawl budget affect rankings directly?",
+   "c": "Being crawled is not a ranking factor, but a page that is not crawled cannot be indexed or ranked. That makes budget an indirect but important issue on large sites."
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 7,
+ "baslik_tr": "Trendyol'da Ürün Görünürlüğü: Ürün Sayfası Optimizasyonu",
+ "baslik_en": "Product Visibility on Trendyol: Optimising Your Product Pages",
+ "meta_baslik_tr": "Trendyol'da Ürün Görünürlüğü: Ürün Sayfası Optimizasyonu",
+ "meta_baslik_en": "Trendyol Product Visibility: Product Page Optimisation",
+ "meta_desc_tr": "Trendyol ürün sayfası optimizasyonu: başlık, görsel kuralları, kategori ve özellik alanları, açıklama, yorumlar ve müşteri soruları için kontrol listesi.",
+ "meta_desc_en": "Trendyol product page optimisation: titles, image rules, category and attribute fields, descriptions, reviews and customer questions, with a checklist.",
+ "ozet_tr": "Trendyol'da başlık, görsel, özellik alanları ve müşteri sorularıyla ürün sayfasını eksiksiz hale getirmenin yolları.",
+ "ozet_en": "How to complete your Trendyol product pages: titles, images, attribute fields and customer questions.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Trendyol satıcılarından en sık duyduğum soru \"ürünümü nasıl üst sıralara çıkarırım?\" oluyor. Dürüst cevap şu: Trendyol'un sıralama formülü kamuya açık değil ve kesin bir yöntem vaat eden içeriklere temkinli yaklaşmak gerekiyor. Ama sizin kontrolünüzdeki kısım, yani ürün sayfasının kalitesi ve eksiksizliği, oldukça geniş.",
+    "Bu yazıda Trendyol'un satıcı ve entegrasyon dokümanlarında açıkça yazan kurallara ve genel ürün sayfası kalite ilkelerine odaklanıyorum: başlık, görseller, kategori ve özellik alanları, açıklama, yorumlar ve müşteri soruları.",
+    {
+     "alinti": "Kısa cevap: Trendyol'da ürün görünürlüğünü belirleyen ayrıntılar kamuya açık değil; satıcının kontrol edebildiği kısım ürün sayfasının kalitesidir. Müşterinin aradığı kelimeleri içeren net bir başlık, kurallara uygun ve bilgi veren görseller, eksiksiz doldurulmuş kategori özellikleri, faydalı bir açıklama ve müşteri sorularına zamanında cevap bu kısmın temelidir. Güncel kurallar için satıcı panelinizi esas alın."
+    }
+   ]
+  },
+  {
+   "baslik": "Trendyol görünürlüğü hakkında neyi biliyoruz?",
+   "paragraflar": [
+    "Pazaryeri sıralamasında fiyat, teslimat, stok, satış geçmişi ve müşteri memnuniyeti gibi pek çok etkenin rol oynaması muhtemeldir, ama ağırlıklarını Trendyol açıklamıyor. Bu yüzden \"şu kelimeyi üç kez yazarsanız birinci olursunuz\" gibi iddiaları ciddiye almayın.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Kurallar değişebilir",
+      "metin": "Bu yazıdaki teknik sınırlar Ekim 2026 itibarıyla Trendyol'un entegrasyon dokümanından alınmıştır. Pazaryeri kuralları platformun kendi kararıdır ve değişebilir; satıcı panelinizdeki ve Trendyol Akademi'deki güncel kuralları esas alın."
+     }
+    },
+    "Trendyol'da satış yapmakla kendi sitenizi büyütmek arasındaki kanal kararı ayrı bir konu; onu [Trendyol mağazası mı, kendi site mi](/blog/trendyol-magazasi-mi-kendi-site-mi) yazısında ele aldım. Burada odak, Trendyol içindeki ürün sayfası."
+   ]
+  },
+  {
+   "baslik": "Trendyol ürün başlığı nasıl yazılmalı?",
+   "paragraflar": [
+    "Trendyol'un ürün aktarma dokümanına göre başlık en fazla 100 karakter olabilir. Bu sınır içinde başlık, müşterinin arama kutusuna yazdığı ifadeyi ve ürünü ayırt eden bilgiyi taşımalı. Marka ve renk gibi bilgiler zaten ayrı alanlarda gösterildiği için başlıkta tekrarlamak yerine ürün tipine ve temel özelliğe yer açın.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Bilgi veren başlık",
+       "tur": "iyi",
+       "maddeler": [
+        "Kadın Su Geçirmez Kapüşonlu Yağmurluk Mont",
+        "Ürün tipi + kullanım + ayırt edici özellik",
+        "Müşterinin kullandığı kelimeler"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf başlık",
+       "tur": "kotu",
+       "maddeler": [
+        "SÜPER FIRSAT!!! Mont Kaban Ceket Yeni Sezon",
+        "Büyük harf, ünlem ve kampanya dili",
+        "Birbirinin yerine geçen kelime yığını"
+       ]
+      }
+     }
+    },
+    "Hangi ifadelerin kullanıldığını bulmak için Trendyol arama kutusunun önerilerine, rakip başlıklarına ve kendi müşteri sorularınıza bakın. Kelime araştırmasının genel yöntemi [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Görseller: teknik kurallar ve içerik",
+   "paragraflar": [
+    "Görseller, pazaryerinde müşterinin ürünü tanıdığı ilk ve çoğu zaman tek yerdir. Trendyol'un entegrasyon dokümanında görseller için açık teknik kurallar var:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kural",
+       "Dokümandaki değer",
+       "Pratik anlamı"
+      ],
+      "satirlar": [
+       [
+        "Görsel sayısı",
+        "Barkod başına en fazla 8",
+        "Her görsele ayrı bir görev verin"
+       ],
+       [
+        "Boyut",
+        "1200x1800 piksel, 96 dpi",
+        "Dikey oran; kırpılmadan yüklenecek şekilde hazırlayın"
+       ],
+       [
+        "Adres",
+        "SSL sertifikalı https adres",
+        "Entegrasyonla yüklüyorsanız görsel sunucunuzu kontrol edin"
+       ]
+      ]
+     }
+    },
+    "Sekiz görseli aynı açıdan çekilmiş fotoğraflarla doldurmak yerine her birine bir görev verin: ön görünüm, arka ve yan görünüm, malzeme yakın çekimi, ölçü bilgisi, kullanım ortamı ve paket içeriği. Görsellerdeki metin ve logo kullanımı gibi içerik kuralları için satıcı panelindeki güncel yönergeleri kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Kategori ve özellik alanlarını eksiksiz doldurmak",
+   "paragraflar": [
+    "Trendyol'un dokümanına göre ürün, en alt seviyedeki kategoriye yüklenmeli ve her kategorinin zorunlu özellikleri gönderilmelidir. Zorunlu olmayan özellikleri de doldurmanızı öneririm; müşterinin filtrelerle ürün daralttığı bir pazaryerinde boş alan, ürünün o filtrede görünmemesi anlamına gelebilir.",
+    "Dokümanda iki özellik tipi ayrıca tanımlanıyor: varyant özelliği (örneğin beden) ürünü aynı kart altında seçenek olarak gösterir; ayrıştırıcı özellik (örneğin renk) ise her değer için ayrı bir ürün kartı oluşturur. Varyantlar, aynı model koduyla gruplanır.",
+    {
+     "agac": {
+      "kok": "Model kodu: MNT-204",
+      "dallar": [
+       {
+        "ad": "Renk: Siyah (ayrı ürün kartı)",
+        "alt": [
+         "Beden S",
+         "Beden M",
+         "Beden L"
+        ]
+       },
+       {
+        "ad": "Renk: Lacivert (ayrı ürün kartı)",
+        "alt": [
+         "Beden S",
+         "Beden M",
+         "Beden L"
+        ]
+       }
+      ]
+     }
+    },
+    "Bu yapıyı doğru kurmak hem müşterinin doğru varyantı bulmasını hem de yorumların doğru kartta toplanmasını sağlar. Kategori özellikleri zaman içinde güncellenebildiği için dokümanın önerdiği gibi listeyi düzenli olarak yeniden kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Ürün açıklaması: pazaryerinde ne yazılmalı?",
+   "paragraflar": [
+    "Dokümana göre ürün açıklaması HTML biçiminde ve oldukça uzun olabilir. Ama uzunluk değil, cevaplanan soru önemlidir. Açıklamaya ölçü ve kalıp bilgisi, malzeme, kullanım ve bakım talimatı, paket içeriği ve uyumluluk bilgisini yazın.",
+    "Üretici metnini olduğu gibi kopyalamak, aynı ürünü satan diğer satıcılardan sizi ayırmaz. Müşteri sorularında tekrar eden konuları açıklamaya taşıyın. Şablon ve örnekler için [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısına bakabilirsiniz; içeriğin hangi soruya cevap vereceğini belirlemek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) de işe yarar."
+   ]
+  },
+  {
+   "baslik": "Yorumlar ve müşteri soruları",
+   "paragraflar": [
+    "Yorumlar ve sorular, ürün sayfasının müşteri tarafından yazılan kısmıdır ve güveni doğrudan etkiler. Trendyol'un soru-cevap entegrasyon dokümanına göre soruların bir cevaplama süresi var; süre dolduğunda soru cevaplanmamış olarak işaretleniyor ve satıcı cevapları reddedilebiliyor.",
+    {
+     "kartlar": [
+      {
+       "ikon": "⏱️",
+       "baslik": "Hızlı cevap",
+       "metin": "Soruları süre dolmadan, net ve kibar cevaplayın. Cevapsız soru, satın almayı erteleyen bir işarettir."
+      },
+      {
+       "ikon": "📏",
+       "baslik": "Somut bilgi",
+       "metin": "\"Kalıp normal mi?\" sorusuna ölçü tablosuyla cevap verin; genel ifadelerden kaçının."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Tekrarı içeriğe taşıyın",
+       "metin": "Aynı soru sık geliyorsa cevabı açıklamaya ve görsellere ekleyin."
+      },
+      {
+       "ikon": "💬",
+       "baslik": "Olumsuz yoruma yaklaşım",
+       "metin": "Şikâyetteki gerçek sorunu (paketleme, beden) operasyonda çözün; sayfa da zamanla bunu yansıtır."
+      }
+     ]
+    },
+    "Soruları entegrasyon üzerinden de çekip cevaplayabilirsiniz; çok ürünlü mağazalarda bu, süre kaçırmayı azaltır."
+   ]
+  },
+  {
+   "baslik": "Trendyol ürün sayfası kontrol listesi",
+   "paragraflar": [
+    "Yeni ürün yüklerken ya da mevcut ürünleri denetlerken şu listeyi kullanın:",
+    {
+     "kontrol": [
+      "Başlık 100 karakter içinde, ürün tipini ve ayırt edici özelliği içeriyor.",
+      "Ürün en alt kategoride; zorunlu ve isteğe bağlı özellikler dolu.",
+      "Renk ve beden yapısı model koduyla doğru gruplanmış.",
+      "Görseller kurallara uygun ve her biri farklı bir bilgi veriyor.",
+      "Açıklama ölçü, malzeme, bakım ve paket içeriğini anlatıyor.",
+      "Bekleyen müşteri sorusu yok."
+     ]
+    },
+    "Kasım kampanyalarına hazırlanıyorsanız kendi sitenizdeki kampanya sayfası için [Black Friday SEO stratejisi](/blog/black-friday-seo) yazısına da göz atın. Pazaryeri ile kendi sitenizi birlikte büyütmek için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfaları iyi bir başlangıç; ürün metinleri için [içerik hizmetini](/icerik) inceleyebilir ya da [ön görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Trendyol'da başlığa çok sayıda anahtar kelime eklemek işe yarar mı?",
+   "c": "Birbirinin yerine geçen kelimeleri yığmak başlığı okunmaz hale getirir ve müşterinin tıklama kararını zorlaştırır. Ayrıca platformun içerik kurallarına takılabilir. Ürün tipini ve temel özelliği net yazan bir başlık daha güvenlidir."
+  },
+  {
+   "s": "Ürün yorumlarını artırmak için ne yapabilirim?",
+   "c": "Ürünün beklentiyi karşılaması, doğru beden ve açıklama bilgisi, hızlı ve özenli teslimat en sağlam yoldur. Yorum karşılığında indirim ya da hediye teklif etmek gibi uygulamalar platform kurallarına aykırı olabilir; satıcı panelindeki kuralları kontrol edin."
+  },
+  {
+   "s": "Aynı ürünü farklı renklerde ayrı ilan olarak mı açmalıyım?",
+   "c": "Trendyol'un dokümanına göre renk gibi ayrıştırıcı özellikler zaten ayrı ürün kartı oluşturur ve varyantlar aynı model koduyla gruplanır. Ürünleri bu yapıya uygun yüklemek, elle ayrı ilan açmaktan daha düzenli sonuç verir."
+  },
+  {
+   "s": "Trendyol ürün sayfam Google'da da çıkar mı?",
+   "c": "Trendyol ürün sayfaları Google'da görünebilir, ama bu trafik Trendyol'un alan adına gider. Kendi markanız için kalıcı organik görünürlük istiyorsanız kendi sitenizi de geliştirmeniz gerekir."
+  },
+  {
+   "s": "Hepsiburada için de aynı içerik kullanılabilir mi?",
+   "c": "Temel ürün bilgisi aynı olabilir, ama her pazaryerinin alan yapısı ve kuralları farklıdır. Ayrıntılar için [Hepsiburada ürün sayfası](/blog/hepsiburada-urun-sayfasi) yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Mevcut ürünlerin başlığını değiştirmek risk taşır mı?",
+   "c": "Değişikliğin ürünün görünürlüğüne nasıl yansıyacağını önceden kesin bilmek mümkün değil. Önce az sayıda üründe deneyin, birkaç hafta satış ve görüntülenme verisini izleyin, sonra yaygınlaştırın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The question I hear most from Trendyol sellers is \"how do I get my product to the top?\" The honest answer: Trendyol's ranking formula is not public, and content promising a sure method deserves caution. But the part you control, the quality and completeness of the product page, is quite large.",
+    "This post focuses on what Trendyol's seller and integration docs state explicitly, plus general product page quality principles: titles, images, category and attribute fields, descriptions, reviews and customer questions.",
+    {
+     "alinti": "Short answer: the details of what drives product visibility on Trendyol are not public; what sellers can control is product page quality. A clear title with the words shoppers use, compliant and informative images, fully completed category attributes, a useful description and timely answers to customer questions form that foundation. Treat the current rules in your seller panel as the reference."
+    }
+   ]
+  },
+  {
+   "baslik": "What do we know about visibility on Trendyol?",
+   "paragraflar": [
+    "Marketplace ranking likely involves many factors such as price, delivery, stock, sales history and customer satisfaction, but Trendyol does not disclose their weights. So ignore claims like \"write this keyword three times and you will be first\".",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Rules can change",
+      "metin": "The technical limits in this post come from Trendyol's integration documentation as of October 2026. Marketplace rules are the platform's own decision and can change; treat the current rules in your seller panel and Trendyol Academy as the reference."
+     }
+    },
+    "Whether to sell on Trendyol or grow your own site is a separate decision, covered in [Trendyol store or your own site](/en/blog/trendyol-magazasi-mi-kendi-site-mi). The focus here is the product page inside Trendyol."
+   ]
+  },
+  {
+   "baslik": "How should a Trendyol product title be written?",
+   "paragraflar": [
+    "According to Trendyol's product creation docs, a title can be at most 100 characters. Within that limit it should carry the phrase shoppers type into the search box and what sets the product apart. Brand and colour are shown in separate fields, so use the space for product type and key features rather than repeating them.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Informative title",
+       "tur": "iyi",
+       "maddeler": [
+        "Women's Waterproof Hooded Rain Jacket",
+        "Product type + use + distinguishing feature",
+        "Words shoppers actually use"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak title",
+       "tur": "kotu",
+       "maddeler": [
+        "SUPER DEAL!!! Jacket Coat Parka New Season",
+        "Capitals, exclamation marks, promo language",
+        "A pile of interchangeable words"
+       ]
+      }
+     }
+    },
+    "To find which phrases are used, look at Trendyol search suggestions, competitor titles and your own customer questions. The general method is in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+   ]
+  },
+  {
+   "baslik": "Images: technical rules and content",
+   "paragraflar": [
+    "On a marketplace, images are the first and often only place shoppers get to know the product. Trendyol's integration docs set clear technical rules for images:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Rule",
+       "Value in the docs",
+       "What it means"
+      ],
+      "satirlar": [
+       [
+        "Number of images",
+        "Up to 8 per barcode",
+        "Give every image its own job"
+       ],
+       [
+        "Size",
+        "1200x1800 pixels, 96 dpi",
+        "Portrait ratio; prepare images so they need no cropping"
+       ],
+       [
+        "URL",
+        "SSL-certified https address",
+        "Check your image server if you upload via integration"
+       ]
+      ]
+     }
+    },
+    "Instead of filling eight slots with shots from the same angle, give each a job: front, back and side views, material close-up, size information, in-use setting and package contents. For content rules such as text and logos on images, check the current guidelines in your seller panel."
+   ]
+  },
+  {
+   "baslik": "Completing category and attribute fields",
+   "paragraflar": [
+    "According to Trendyol's docs, products should be listed in the lowest-level category and each category's required attributes must be sent. I recommend filling optional attributes too; on a marketplace where shoppers narrow results with filters, an empty field can mean the product does not appear under that filter.",
+    "The docs define two attribute types: a variant attribute (such as size) shows options under the same product card, while a slicer attribute (such as colour) creates a separate product card for each value. Variants are grouped by the same model code.",
+    {
+     "agac": {
+      "kok": "Model code: MNT-204",
+      "dallar": [
+       {
+        "ad": "Colour: Black (separate card)",
+        "alt": [
+         "Size S",
+         "Size M",
+         "Size L"
+        ]
+       },
+       {
+        "ad": "Colour: Navy (separate card)",
+        "alt": [
+         "Size S",
+         "Size M",
+         "Size L"
+        ]
+       }
+      ]
+     }
+    },
+    "Getting this structure right helps shoppers find the right variant and keeps reviews on the right card. Category attributes can be updated over time, so recheck the list regularly as the docs advise."
+   ]
+  },
+  {
+   "baslik": "Product descriptions: what to write on a marketplace",
+   "paragraflar": [
+    "According to the docs, descriptions can be HTML and fairly long. But the question answered matters more than length. Include size and fit, material, use and care instructions, package contents and compatibility.",
+    "Copying manufacturer text unchanged does not set you apart from other sellers of the same product. Move recurring customer questions into the description. For a template and examples see [how to write product descriptions and category copy](/en/blog/e-ticaret-urun-aciklamasi); the [content strategy guide](/en/guides/icerik-stratejisi) helps decide which question the copy should answer."
+   ]
+  },
+  {
+   "baslik": "Reviews and customer questions",
+   "paragraflar": [
+    "Reviews and questions are the part of the product page written by customers, and they directly affect trust. According to Trendyol's Q&A integration docs, questions have a response window; when it expires the question is marked unanswered, and seller answers can be rejected.",
+    {
+     "kartlar": [
+      {
+       "ikon": "⏱️",
+       "baslik": "Answer quickly",
+       "metin": "Answer questions clearly and politely before the window closes. An unanswered question signals a reason to wait."
+      },
+      {
+       "ikon": "📏",
+       "baslik": "Be specific",
+       "metin": "Answer \"does it run true to size?\" with a size table, not general phrases."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Turn repeats into content",
+       "metin": "If the same question keeps coming, add the answer to the description and images."
+      },
+      {
+       "ikon": "💬",
+       "baslik": "Handling negative reviews",
+       "metin": "Fix the real problem behind a complaint (packaging, sizing) in operations; the page reflects it over time."
+      }
+     ]
+    },
+    "You can also pull and answer questions via integration; for stores with many products, this reduces missed windows."
+   ]
+  },
+  {
+   "baslik": "Trendyol product page checklist",
+   "paragraflar": [
+    "Use this list when uploading new products or auditing existing ones:",
+    {
+     "kontrol": [
+      "Title within 100 characters, with product type and a distinguishing feature.",
+      "Product in the lowest category; required and optional attributes filled.",
+      "Colour and size structure grouped correctly by model code.",
+      "Images follow the rules and each shows something different.",
+      "Description covers size, material, care and package contents.",
+      "No pending customer questions."
+     ]
+    },
+    "If you are preparing for November sales, see the [Black Friday SEO strategy](/en/blog/black-friday-seo) for your own site's sale page. To grow the marketplace and your own site together, the [ecommerce SEO guide](/en/guides/e-ticaret-seo) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) are good starting points; for product copy, see [content strategy services](/en/content-strategy) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does adding lots of keywords to a Trendyol title help?",
+   "c": "Piling up interchangeable words makes the title hard to read and the click decision harder. It may also breach the platform's content rules. A title that states product type and key feature clearly is safer."
+  },
+  {
+   "s": "What can I do to get more product reviews?",
+   "c": "A product that meets expectations, accurate size and description information, and fast, careful delivery are the soundest route. Offering discounts or gifts in exchange for reviews may break platform rules; check the rules in your seller panel."
+  },
+  {
+   "s": "Should I list each colour as a separate listing?",
+   "c": "According to Trendyol's docs, slicer attributes such as colour already create separate product cards, and variants are grouped by the same model code. Uploading products to fit this structure is tidier than opening separate listings by hand."
+  },
+  {
+   "s": "Will my Trendyol product page show up on Google?",
+   "c": "Trendyol product pages can appear on Google, but that traffic goes to Trendyol's domain. If you want lasting organic visibility for your own brand, you need to develop your own site too."
+  },
+  {
+   "s": "Can I use the same content for Hepsiburada?",
+   "c": "Core product information can be the same, but each marketplace has different fields and rules. See the [Hepsiburada product page](/en/blog/hepsiburada-urun-sayfasi) post for details."
+  },
+  {
+   "s": "Is it risky to change titles on existing products?",
+   "c": "There is no way to know in advance exactly how a change will affect visibility. Test on a small number of products first, watch sales and view data for a few weeks, then roll it out."
+  }
+ ]
+}

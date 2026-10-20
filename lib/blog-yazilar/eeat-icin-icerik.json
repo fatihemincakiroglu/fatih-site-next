@@ -1,0 +1,389 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "E-E-A-T Nedir? Deneyim, Uzmanlık, Otorite ve Güveni İçerikte Göstermek",
+ "baslik_en": "What Is E-E-A-T? Showing Experience, Expertise, Authority and Trust",
+ "meta_baslik_tr": "E-E-A-T Nedir? İçerikte Deneyim ve Güveni Göstermek",
+ "meta_baslik_en": "What Is E-E-A-T? Showing Experience and Trust in Content",
+ "meta_desc_tr": "E-E-A-T nedir, sıralama faktörü mü? Kalite Değerlendirme Yönergeleri bağlamı, YMYL, yazar sayfası, kaynak gösterme ve güven sinyallerini içerikte göstermek.",
+ "meta_desc_en": "What E-E-A-T is and whether it is a ranking factor: quality rater guidelines context, YMYL, author pages, citing sources and showing trust signals in content.",
+ "ozet_tr": "E-E-A-T doğrudan bir sıralama faktörü değil; ama deneyim, uzmanlık ve güveni sayfada görünür kılmanın somut yolları var.",
+ "ozet_en": "E-E-A-T is not a direct ranking factor, but there are concrete ways to make experience, expertise and trust visible.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-E-A-T; deneyim (Experience), uzmanlık (Expertise), otorite (Authoritativeness) ve güvenilirlik (Trustworthiness) kelimelerinin kısaltması. Google'ın Arama Kalitesi Değerlendirici Yönergelerinde yer alan ve bir içeriğin ne kadar güvenilir olduğunu değerlendirmek için kullanılan bir çerçeve.",
+    "Kavram SEO dünyasında çoğu zaman yanlış anlatılıyor: Ya sihirli bir sıralama faktörü gibi sunuluyor ya da tamamen önemsiz sayılıyor. Bu yazıda Google'ın resmi dokümanlarında ne dediğini ve bunu içerikte somut olarak nasıl gösterdiğimi anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: E-E-A-T tek başına belirli bir sıralama faktörü değil; Google'ın sistemlerinin iyi içeriği tanımak için kullandığı çeşitli sinyallerin hedeflediği kaliteyi tarif eden bir çerçeve. Google'a göre dört bileşenin en önemlisi güven. İçerikte bunu kimin yazdığını, nasıl hazırlandığını ve neye dayandığını açıkça göstererek karşılarsınız."
+    }
+   ]
+  },
+  {
+   "baslik": "E-E-A-T nedir, dört bileşen ne anlama gelir?",
+   "paragraflar": [
+    "Çerçeve uzun süre E-A-T olarak biliniyordu. Google, Aralık 2022'de yönergelere deneyim (Experience) bileşenini ekledi. Dört bileşeni sahada şöyle yorumluyorum:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧪",
+       "baslik": "Deneyim",
+       "metin": "Konuyu birinci elden yaşamış olmak: ürünü kullanmak, işlemi yapmak, yeri ziyaret etmek."
+      },
+      {
+       "ikon": "🎓",
+       "baslik": "Uzmanlık",
+       "metin": "Konuda bilgi ve beceri: eğitim, meslek, yılların pratiği."
+      },
+      {
+       "ikon": "🏛️",
+       "baslik": "Otorite",
+       "metin": "Sitenin ya da yazarın o konuda başvurulan bir kaynak olarak tanınması."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Güven",
+       "metin": "İçeriğin doğru, dürüst ve güvenli olması. Google'a göre en önemli bileşen."
+      }
+     ]
+    },
+    "Deneyim ve uzmanlık her konuda aynı ağırlıkta değildir. Bir telefon incelemesinde kullanıcı deneyimi belirleyiciyken, ilaç etkileşimi gibi bir konuda meslek uzmanlığı vazgeçilmezdir."
+   ]
+  },
+  {
+   "baslik": "E-E-A-T bir sıralama faktörü mü?",
+   "paragraflar": [
+    "Google'ın yardımcı ve güvenilir içerik dokümanı bunu doğrudan cevaplıyor: E-E-A-T tek başına belirli bir sıralama faktörü değil, ancak iyi E-E-A-T taşıyan içeriği belirleyebilen çeşitli faktörlerin birlikte kullanılması faydalı. Aynı dokümana göre kalite değerlendiricilerinin sayfaların nasıl sıralandığı üzerinde kontrolü yok ve değerlendirici verileri sıralama algoritmalarında doğrudan kullanılmıyor; sistemlerin iyi çalışıp çalışmadığını ölçmeye yardımcı oluyor.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru",
+       "tur": "iyi",
+       "maddeler": [
+        "Yönergeler, Google'ın neyi iyi içerik saydığını anlatır",
+        "Güven, dört bileşenin merkezindedir",
+        "YMYL konularda beklenti daha yüksektir",
+        "Sinyaller sayfada ve site dışında birlikte oluşur"
+       ]
+      },
+      "sag": {
+       "baslik": "Yanlış",
+       "tur": "kotu",
+       "maddeler": [
+        "Bir “E-E-A-T puanı” vardır",
+        "Yazar kutusu eklemek sıralamayı yükseltir",
+        "Değerlendiriciler sitenizi cezalandırır",
+        "Sertifika logoları tek başına güven sağlar"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "YMYL konularda E-E-A-T neden daha kritik?",
+   "paragraflar": [
+    "Google, insanların sağlığını, maddi güvenliğini, can güvenliğini ya da toplumun refahını önemli ölçüde etkileyebilecek konuları “Your Money or Your Life” (YMYL) olarak adlandırıyor. Dokümana göre bu konularda güçlü E-E-A-T taşıyan içeriğe daha fazla ağırlık veriliyor.",
+    "Sağlık, hukuk ve finans siteleri bu yüzden en yüksek beklentiyle karşılaşır. Hekim profilleri ve tıbbi içerik onay süreci için [sağlık SEO rehberine](/rehber/saglik-seo), uygulamada nasıl kurguladığım için [klinik SEO](/sektorler/klinik-seo) sayfasına bakabilirsiniz. Hukuk tarafında meslek kurallarıyla uyumlu içerik dili [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında ve [avukat SEO](/sektorler/avukat-seo) sayfasında anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Deneyim içerikte nasıl gösterilir?",
+   "paragraflar": [
+    "Deneyim, “uzmanız” demekle değil, kanıtla gösterilir. Okuyucunun ve değerlendiricinin göreceği somut işaretler:",
+    {
+     "liste": [
+      "Kendi çektiğiniz fotoğraflar ve ekran görüntüleri (stok görsel değil).",
+      "Süreci yaşayan birinin bilebileceği ayrıntılar: Bir diş implantında iyileşme sürecinde hastanın en çok sorduğu soru gibi.",
+      "Ölçtüğünüz ya da test ettiğiniz şeylerin yöntemi: Neyi, nasıl, ne kadar süre denediniz?",
+      "Olumsuz yönler ve sınırlar: Her şeyi öven bir inceleme deneyim değil, tanıtım izlenimi verir.",
+      "Türkiye'ye özgü bağlam: e-Devlet adımları, yerel mevzuat, yerel platformlardaki gerçek kullanım."
+     ]
+    },
+    "Bu işaretler aynı zamanda içeriği benzerlerinden ayırır. Yapay zekâ ile hazırlanan taslaklarda en çok eksik kalan kısım da burası; Google'ın bu konudaki yaklaşımını [yapay zekâ içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "Yazar sayfası ve künye nasıl kurulur?",
+   "paragraflar": [
+    "Google'ın dokümanı, içeriğin “kim” tarafından hazırlandığının açık olmasını öneriyor: Beklendiği yerde imza (byline) bulunmalı ve imza, yazarın geçmişini ve yazdığı alanları anlatan bir sayfaya gitmeli.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Öğe",
+       "Ne içermeli?",
+       "Neden?"
+      ],
+      "satirlar": [
+       [
+        "İmza (byline)",
+        "Yazar adı, yazar sayfasına link",
+        "İçeriğin sahibini görünür kılar"
+       ],
+       [
+        "Yazar sayfası",
+        "Biyografi, uzmanlık alanı, eğitim, mesleki kayıt, yazıları",
+        "Uzmanlığı doğrulanabilir hâle getirir"
+       ],
+       [
+        "İnceleyen uzman",
+        "YMYL içerikte kontrol eden uzmanın adı ve unvanı",
+        "Hata riskine karşı ikinci göz"
+       ],
+       [
+        "Tarihler",
+        "Yayın ve anlamlı güncelleme tarihi",
+        "Bilginin güncelliğini gösterir"
+       ],
+       [
+        "Yapısal veri",
+        "Article içinde author, yazar sayfasında Person",
+        "Makinelerin yazar ilişkisini anlamasına yardımcı olur"
+       ]
+      ]
+     }
+    },
+    "Person ve Article işaretlemesinin ayrıntıları [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri), JSON-LD kodu için [schema oluşturucu](/araclar/schema-olusturucu) aracında. İşaretleme, sayfada görünen bilginin yerine geçmez; önce yazar bilgisinin kendisi gerçek olmalı."
+   ]
+  },
+  {
+   "baslik": "Kaynak gösterme ve güven sinyalleri nelerdir?",
+   "paragraflar": [
+    "Güven, dört bileşenin merkezi olduğu için en çok emeği burada harcıyorum. Bir sayfa yayınlanmadan önce kontrol ettiğim liste:",
+    {
+     "kontrol": [
+      "Rakam ve iddiaların kaynağı belirtilmiş, mümkünse birincil kaynak",
+      "İletişim bilgileri, adres ve işletme bilgileri kolay bulunuyor",
+      "Hizmet ve fiyat koşulları açık, gizli şart yok",
+      "Önemli güncellemeler ve düzeltmeler sayfada not ediliyor",
+      "Otomasyon ya da yapay zekâ kullanıldıysa ve okuyucu bunu bekleyecekse açıklanıyor"
+     ]
+    },
+    "Google'ın dokümanındaki “nasıl” sorusu da bununla ilgili: İçeriğin nasıl üretildiğini, özellikle otomasyonun rolünü, okuyucunun beklediği yerde açıklamak. Genel içerik planlamasında E-E-A-T'nin yeri için [içerik stratejisi rehberine](/rehber/icerik-stratejisi) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Otorite site dışında nasıl oluşur?",
+   "paragraflar": [
+    "Otorite, sitenizin kendi hakkında söylediğiyle değil, başkalarının sizin hakkınızda söyledikleriyle oluşur. Yönergeler değerlendiricilerden sitenin ve içerik üreticisinin itibarını dış kaynaklardan araştırmalarını istiyor. Sektör yayınlarında yer almak, meslek kuruluşlarındaki kayıtlar ve bağımsız yorumlar bu yüzden değerli; bu tarafı [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) anlattım.",
+    "Sitenin içinde ise bir konuyu derinlemesine ve tutarlı işlemek otoriteyi destekler; bunun için [topical authority ve pillar-cluster modeli](/blog/topical-authority) yazısına göz atabilirsiniz. İçeriklerinizi bu çerçeveyle gözden geçirmek isterseniz [içerik hizmeti](/icerik) kapsamında çalışabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Her içerikte yazar adı olmak zorunda mı?",
+   "c": "Google'ın dokümanı imzanın “beklendiği yerde” bulunmasını öneriyor. Blog yazısı, rehber ve inceleme gibi içeriklerde okuyucu yazarı görmeyi bekler; ürün listesi ya da iletişim sayfası gibi sayfalarda beklemez."
+  },
+  {
+   "s": "Yapay zekâ ile yazılan içerik E-E-A-T taşıyabilir mi?",
+   "c": "Google, üretim yönteminden çok içeriğin kalitesine baktığını söylüyor. Ancak birinci elden deneyim, yapay zekânın kendiliğinden ekleyemeyeceği bir şey. Taslağı uzmanın kendi deneyimi, örnekleri ve kontrolüyle zenginleştirmek gerekir."
+  },
+  {
+   "s": "Kurumsal sitede yazar yerine şirket adı yeterli mi?",
+   "c": "Bazı sayfa türlerinde evet; kurumsal duyuru ya da hizmet sayfası şirket adına yayınlanabilir. Uzmanlık gerektiren rehber ve blog içeriklerinde ise içeriği hazırlayan ya da inceleyen kişinin görünmesi güveni artırır."
+  },
+  {
+   "s": "Çekirdek güncellemede yaşanan düşüş E-E-A-T eksikliği mi demek?",
+   "c": "Olabilir ama tek açıklama değil. Çekirdek güncellemeler genel değerlendirmeyi yeniler; düşüşün nedenini sayfa ve sorgu bazında incelemek gerekir. Yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısında anlattım."
+  },
+  {
+   "s": "Sağlık içeriklerinde uzman onayı şart mı?",
+   "c": "Google bunu bir teknik zorunluluk olarak tanımlamıyor. Ancak YMYL konularda içeriği bir hekimin yazması ya da kontrol etmesi, hem güven hem de hata riskinin azaltılması için pratikte gerekli; yasal sınırları da unutmamak gerekir."
+  },
+  {
+   "s": "E-E-A-T ölçülebilir mi?",
+   "c": "Doğrudan bir metriği yok. Dolaylı olarak marka aramalarındaki değişim, başka sitelerden alınan bahis ve linkler, YMYL sayfalarının çekirdek güncellemelerdeki seyri izlenebilir; ama bunların hiçbiri tek başına bir E-E-A-T puanı değildir."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "E-E-A-T stands for Experience, Expertise, Authoritativeness and Trustworthiness. It is a framework from Google's Search Quality Rater Guidelines used to assess how reliable a piece of content is.",
+    "The concept is often misrepresented, either sold as a magic ranking factor or dismissed entirely. Here is what Google's official documentation actually says and how I make it visible in content.",
+    {
+     "alinti": "Short answer: E-E-A-T is not a specific ranking factor on its own; it describes the quality that a mix of signals in Google's systems aims to identify. According to Google, trust is the most important of the four. You address it by showing clearly who wrote the content, how it was produced and what it is based on."
+    }
+   ]
+  },
+  {
+   "baslik": "What is E-E-A-T and what do the four parts mean?",
+   "paragraflar": [
+    "The framework was long known as E-A-T. In December 2022 Google added Experience to the guidelines. This is how I interpret the four parts in practice:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧪",
+       "baslik": "Experience",
+       "metin": "First-hand involvement: using the product, doing the task, visiting the place."
+      },
+      {
+       "ikon": "🎓",
+       "baslik": "Expertise",
+       "metin": "Knowledge and skill in the subject: training, profession, years of practice."
+      },
+      {
+       "ikon": "🏛️",
+       "baslik": "Authoritativeness",
+       "metin": "The site or author being recognised as a go-to source on the topic."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Trust",
+       "metin": "Content that is accurate, honest and safe. The most important part, per Google."
+      }
+     ]
+    },
+    "Experience and expertise do not weigh the same on every topic. In a phone review, hands-on use is decisive; on a topic like drug interactions, professional expertise is essential."
+   ]
+  },
+  {
+   "baslik": "Is E-E-A-T a ranking factor?",
+   "paragraflar": [
+    "Google's helpful content documentation answers this directly: E-E-A-T itself is not a specific ranking factor, but using a mix of factors that can identify content with good E-E-A-T is useful. The same document says search raters have no control over how pages rank and rater data is not used directly in ranking algorithms; it helps Google check whether its systems work well.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "True",
+       "tur": "iyi",
+       "maddeler": [
+        "The guidelines describe what Google considers good content",
+        "Trust sits at the centre of the four",
+        "Expectations are higher on YMYL topics",
+        "Signals form on the page and off the site together"
+       ]
+      },
+      "sag": {
+       "baslik": "False",
+       "tur": "kotu",
+       "maddeler": [
+        "There is an “E-E-A-T score”",
+        "Adding an author box boosts rankings",
+        "Raters penalise your site",
+        "Certificate logos alone create trust"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Why does E-E-A-T matter more for YMYL topics?",
+   "paragraflar": [
+    "Google calls topics that could significantly affect people's health, financial stability, safety or the welfare of society “Your Money or Your Life” (YMYL). According to its documentation, content aligned with strong E-E-A-T is given more weight on these topics.",
+    "Health, legal and finance sites therefore face the highest bar. For doctor profiles and medical review workflows, see the [healthcare SEO guide](/en/guides/saglik-seo) and how I apply it on the [healthcare SEO](/en/industries/healthcare-seo) page. For legal content that respects professional rules, see [SEO for lawyers](/en/blog/avukatlar-icin-seo) and [law firm SEO](/en/industries/law-firm-seo)."
+   ]
+  },
+  {
+   "baslik": "How do you show experience in content?",
+   "paragraflar": [
+    "Experience is shown with evidence, not by claiming expertise. Concrete signals readers and raters can see:",
+    {
+     "liste": [
+      "Your own photos and screenshots, not stock images.",
+      "Details only someone who went through it would know, like the question patients ask most while healing from a dental implant.",
+      "The method behind what you measured or tested: what, how and for how long.",
+      "Downsides and limits: a review that praises everything reads as promotion, not experience.",
+      "Local context: real steps on government portals, local regulations, actual use of local platforms."
+     ]
+    },
+    "These signals also set content apart from look-alikes. They are what AI-drafted content most often lacks; I cover Google's stance in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+   ]
+  },
+  {
+   "baslik": "How do you build author pages and bylines?",
+   "paragraflar": [
+    "Google's documentation recommends making “who” created the content clear: a byline where readers would expect one, leading to a page with background about the author and the areas they write about.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Element",
+       "What it should include",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Byline",
+        "Author name, link to author page",
+        "Makes ownership visible"
+       ],
+       [
+        "Author page",
+        "Bio, field, education, professional registration, articles",
+        "Makes expertise verifiable"
+       ],
+       [
+        "Reviewer",
+        "Name and title of the expert who checked YMYL content",
+        "A second pair of eyes against errors"
+       ],
+       [
+        "Dates",
+        "Published and meaningful update dates",
+        "Shows how current the information is"
+       ],
+       [
+        "Structured data",
+        "author in Article, Person on the author page",
+        "Helps machines understand the author relationship"
+       ]
+      ]
+     }
+    },
+    "Person and Article markup are covered in the [schema and structured data guide](/en/guides/schema-yapisal-veri), and you can draft JSON-LD with the [schema generator](/en/tools/schema-generator). Markup does not replace visible information; the author details must be real first."
+   ]
+  },
+  {
+   "baslik": "What are citations and trust signals?",
+   "paragraflar": [
+    "Because trust is at the centre, this is where I spend the most effort. My pre-publish checklist:",
+    {
+     "kontrol": [
+      "Figures and claims are sourced, ideally from primary sources",
+      "Contact details, address and business information are easy to find",
+      "Service and pricing terms are clear, with no hidden conditions",
+      "Major updates and corrections are noted on the page",
+      "Use of automation or AI is disclosed where readers would expect it"
+     ]
+    },
+    "The “how” question in Google's documentation is about this: explaining how content was produced, especially the role of automation, where readers would expect it. For E-E-A-T's place in overall content planning, see the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "How is authority built outside your site?",
+   "paragraflar": [
+    "Authority comes from what others say about you, not what your site says about itself. The guidelines ask raters to research the reputation of the website and content creator using outside sources. Coverage in industry publications, professional registrations and independent reviews are valuable for that reason; see the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
+    "On your own site, covering a subject in depth supports authority; see [topical authority and the pillar-cluster model](/en/blog/topical-authority). To review your content through this lens, we can work together through my [content strategy service](/en/content-strategy), or you can [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does every piece of content need an author name?",
+   "c": "Google's documentation recommends a byline “where one might be expected”. Readers expect one on blog posts, guides and reviews, but not on product listings or a contact page."
+  },
+  {
+   "s": "Can AI-written content have E-E-A-T?",
+   "c": "Google says it looks at content quality rather than how it was produced. First-hand experience, however, is something AI cannot add on its own. A draft needs the expert's own experience, examples and review."
+  },
+  {
+   "s": "Is a company name enough instead of an author on a corporate site?",
+   "c": "For some page types, yes; announcements or service pages can be published under the company name. For guides and blog posts that require expertise, showing the person who wrote or reviewed them builds more trust."
+  },
+  {
+   "s": "Does a core update drop mean my E-E-A-T is lacking?",
+   "c": "Possibly, but it is not the only explanation. Core updates refresh overall assessments; the cause needs to be examined by page and query. I explain the method in [traffic drops after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu)."
+  },
+  {
+   "s": "Is expert review required for health content?",
+   "c": "Google does not define it as a technical requirement. On YMYL topics, though, having a doctor write or review content is necessary in practice, both for trust and to reduce errors, within the applicable legal limits."
+  },
+  {
+   "s": "Can E-E-A-T be measured?",
+   "c": "There is no direct metric. Indirectly you can track branded search, mentions and links from other sites, and how YMYL pages fare through core updates; none of these is an E-E-A-T score on its own."
+  }
+ ]
+}

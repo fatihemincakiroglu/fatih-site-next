@@ -1,0 +1,417 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "İç Linkleme Stratejisi: Sayfalar Arasında Otoriteyi Doğru Dağıtmak",
+ "baslik_en": "Internal Linking Strategy: Distributing Authority Across Your Pages",
+ "meta_baslik_tr": "İç Linkleme Stratejisi: Bağlantı Metni, Yetim Sayfa, Denetim",
+ "meta_baslik_en": "Internal Linking Strategy: Anchors, Orphans and Audits",
+ "meta_desc_tr": "İç linkleme nasıl yapılır? Bağlantı metni, yetim sayfalar, tıklama derinliği, menü ve içerik içi link farkı ile adım adım iç link denetimi yöntemi.",
+ "meta_desc_en": "How to plan internal links: anchor text, orphan pages, click depth, menu vs in-content links, and a step-by-step method for auditing your internal linking.",
+ "ozet_tr": "Bağlantı metni, yetim sayfa, tıklama derinliği ve denetim: iç linklerle önemli sayfaları öne çıkarmanın yolu.",
+ "ozet_en": "Anchor text, orphan pages, click depth and audits: using internal links to put your important pages forward.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "İç linkleme, sitenizdeki sayfaların birbirine verdiği bağlantıların bilinçli olarak planlanması. Hem ziyaretçinin bir sonraki adımı bulmasını sağlar hem de Google'a hangi sayfanın neyle ilgili olduğunu ve hangilerinin daha önemli olduğunu anlatır.",
+    "Denetimlerde en hızlı kazanç sağlayan işlerden biri olmasına rağmen en çok ihmal edilen konulardan biri. Bu yazıda bağlantı metninden yetim sayfalara, menü linklerinden denetim yöntemine kadar sahada uyguladığım çerçeveyi anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: İyi bir iç link stratejisi, önemli sayfalara içerik içinden, hedef sayfanın konusunu anlatan bağlantı metinleriyle link verir; hiçbir önemli sayfayı yetim ya da çok derinde bırakmaz. Google bağlantıları hem sayfa keşfi hem de alaka sinyali olarak kullanır."
+    }
+   ]
+  },
+  {
+   "baslik": "İç linkler Google için neden önemli?",
+   "paragraflar": [
+    "Google'ın bağlantı en iyi uygulamaları dokümanı açık: Google, bağlantıları sayfaların alakasını belirlerken bir sinyal olarak ve taranacak yeni sayfaları bulmak için kullanıyor. Aynı dokümana göre önemsediğiniz her sayfa, sitenizdeki en az bir başka sayfadan link almalı.",
+    "Teknik şart da basit: Google genellikle yalnızca href özniteliği olan a etiketlerini güvenilir biçimde tarayabiliyor. JavaScript ile tıklama olayına bağlanmış butonlar ya da href'siz öğeler link sayılmayabilir.",
+    {
+     "kod": "<!-- Taranabilir -->\n<a href=\"/rehber/teknik-seo\">teknik SEO rehberi</a>\n\n<!-- Güvenilir biçimde taranamaz -->\n<span onclick=\"git('/rehber/teknik-seo')\">Devamı</span>\n<a onclick=\"git('/rehber/teknik-seo')\">Devamı</a>"
+    },
+    "Render ve taranabilirliğin geri kalanı [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Bağlantı metni (anchor text) nasıl yazılmalı?",
+   "paragraflar": [
+    "Google'ın dokümanına göre iyi bağlantı metni açıklayıcı, makul ölçüde kısa ve bulunduğu sayfayla ilgili olmalı. “Buraya tıklayın” gibi genel ifadeler hedef sayfa hakkında bilgi vermez; anahtar kelime doldurmak ise spam politikalarının ihlali sayılıyor.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İyi bağlantı metni",
+       "tur": "iyi",
+       "maddeler": [
+        "vidalı kompresör bakım maliyeti",
+        "Kadıköy diş kliniği çalışma saatleri",
+        "301 yönlendirme kuralı oluşturucu"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf bağlantı metni",
+       "tur": "kotu",
+       "maddeler": [
+        "buraya tıklayın",
+        "devamı için",
+        "en iyi ucuz kompresör fiyatları kompresör satın al"
+       ]
+      }
+     }
+    },
+    "İç linklerde doğal çeşitlilik yeterli: Aynı sayfaya farklı bağlamlarda farklı ama konuyu taşıyan ifadelerle link verebilirsiniz. Dış bağlantılarda bağlantı metni profilinin nasıl yönetildiği ayrı bir konu; onu [anchor text stratejisi](/blog/anchor-text) yazısında ele alıyorum."
+   ]
+  },
+  {
+   "baslik": "Menü, footer ve içerik içi linklerin farkı ne?",
+   "paragraflar": [
+    "Her link aynı işi görmez. Menü ve footer siteyi gezilebilir kılar; içerik içi linkler ise bağlam taşır. Planlarken üçünü birlikte düşünüyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Link yeri",
+       "Ne işe yarar?",
+       "Dikkat"
+      ],
+      "satirlar": [
+       [
+        "Ana menü",
+        "Kategori ve hizmet sayfalarını her sayfadan erişilebilir yapar",
+        "Her şeyi menüye koymak önceliği sulandırır"
+       ],
+       [
+        "Breadcrumb",
+        "Hiyerarşiyi gösterir, üst sayfaya dönüş sağlar",
+        "Gerçek site yapısıyla tutarlı olmalı"
+       ],
+       [
+        "Footer",
+        "Yasal sayfalar, iletişim, temel bölümler",
+        "Yüzlerce linkle dolu footer okunmaz"
+       ],
+       [
+        "İçerik içi",
+        "Konu bağlamıyla ilgili sayfaya yönlendirir",
+        "Okuyucuya gerçekten yardımcı olduğu yerde kullanılmalı"
+       ],
+       [
+        "İlgili yazılar",
+        "Okumaya devam etmeyi kolaylaştırır",
+        "Otomatik eşleşmeler alakasız olabilir, kontrol edin"
+       ]
+      ]
+     }
+    },
+    "E-ticarette kategori, filtre ve ürün linklerinin dengesi ayrıca önemli; bunu [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Yetim sayfalar ve tıklama derinliği nasıl sorun yaratır?",
+   "paragraflar": [
+    "Denetimlerde en sık karşılaştığım dört iç link sorunu şunlar:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏝️",
+       "baslik": "Yetim sayfa",
+       "metin": "Hiçbir iç linki olmayan, yalnızca site haritasında duran sayfa. Keşfi zorlaşır ve önemsiz görünür."
+      },
+      {
+       "ikon": "🕳️",
+       "baslik": "Derin sayfa",
+       "metin": "Ana sayfadan çok sayıda tıklamayla ulaşılan sayfa. Önemli sayfalar birkaç tıklamada erişilebilir olmalı."
+      },
+      {
+       "ikon": "↪️",
+       "baslik": "Yönlendirmeye giden link",
+       "metin": "Eski URL'ye verilmiş, 301 üzerinden hedefe ulaşan iç link. Doğrudan son adrese güncellenmeli."
+      },
+      {
+       "ikon": "⛔",
+       "baslik": "Kırık link",
+       "metin": "404 dönen sayfaya giden iç link. Kullanıcıyı da tarayıcıyı da çıkmaza sokar."
+      }
+     ]
+    },
+    "“Tarandı, dizine eklenmedi” listesinde çıkan sayfaların bir kısmı aslında zayıf iç link alan sayfalardır; bu ilişkiyi [tarandı – şu anda dizine eklenmemiş](/blog/tarandi-dizine-eklenmemis) yazısında açıkladım. Büyük sitelerde derinlik ve parametre israfı [tarama bütçesi](/blog/crawl-butcesi) konusuyla da doğrudan bağlantılı."
+   ]
+  },
+  {
+   "baslik": "Otoriteyi önemli sayfalara nasıl yönlendirirsiniz?",
+   "paragraflar": [
+    "Bir sitede dış bağlantıların çoğu genellikle ana sayfaya ve birkaç popüler blog yazısına gelir. Bu sayfalardan, dönüşüm getiren hizmet ya da kategori sayfalarına bağlamlı linkler vermek, gücü ihtiyaç duyulan yere taşımanın en pratik yolu.",
+    "Hangi sayfaların en çok dış link aldığını Search Console'daki Bağlantılar raporunda görebilirsiniz. Ardından o sayfalarda ilgili hizmete doğal bir link verilebilecek paragrafları bulun. Konu kümelerinde pillar ve cluster sayfalarının nasıl bağlanacağını [topical authority ve pillar-cluster modeli](/blog/topical-authority) yazısında anlattım; içerik planlamasının genel çerçevesi ise [içerik stratejisi rehberinde](/rehber/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "İç link denetimi adım adım nasıl yapılır?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "İç link denetimi",
+      "adimlar": [
+       {
+        "baslik": "Siteyi tarayın",
+        "metin": "Bir tarama aracıyla tüm URL'leri, gelen iç link sayılarını ve tıklama derinliğini çıkarın."
+       },
+       {
+        "baslik": "Listeleri karşılaştırın",
+        "metin": "Site haritasındaki ama taramada bulunmayan URL'ler yetim sayfa adayıdır."
+       },
+       {
+        "baslik": "Hataları düzeltin",
+        "metin": "404 ve yönlendirmeye giden iç linkleri son adrese güncelleyin."
+       },
+       {
+        "baslik": "Öncelikleri belirleyin",
+        "metin": "Dönüşüm getiren sayfaların yeterli ve bağlamlı link alıp almadığına bakın."
+       },
+       {
+        "baslik": "Linkleri ekleyin ve izleyin",
+        "metin": "Güçlü sayfalardan bağlantı verin, birkaç hafta sonra tekrar tarayın."
+       }
+      ]
+     }
+    },
+    "Taşıma ya da URL değişikliği sonrası çok sayıda eski adres varsa yönlendirmeleri [yönlendirme kuralı oluşturucu](/araclar/yonlendirme-olusturucu) ile hazırlayabilirsiniz; yine de iç linkleri yeni adreslere güncellemek esas çözümdür.",
+    {
+     "kontrol": [
+      "Önemli her sayfa en az bir içerik içi link alıyor",
+      "Bağlantı metinleri hedef sayfanın konusunu anlatıyor",
+      "İç linklerde 404 ya da yönlendirme yok",
+      "Öncelikli sayfalar birkaç tıklamada erişilebilir",
+      "Linkler JavaScript olayı değil, href'li a etiketi"
+     ]
+    },
+    "Özellikle binlerce ürünlü sitelerde bu denetimi [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında düzenli yapıyorum. Sitenizin iç link yapısına birlikte bakmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasını inceleyebilir ya da [iletişim formundan](/iletisim) yazabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bir sayfada en fazla kaç iç link olmalı?",
+   "c": "Google'ın güncel bağlantı dokümanında sabit bir sayı yok. Ölçüt okuyucu: Linkler metnin akışında yardımcı oluyorsa sorun yok; her cümlede link varsa hem okunurluk düşer hem de hangi sayfanın önemli olduğu belirsizleşir."
+  },
+  {
+   "s": "İç linklerde nofollow kullanmalı mıyım?",
+   "c": "Genellikle hayır. Kendi sayfalarınız arasındaki bağlantılarda nofollow kullanmak, Google'ın o sayfaları keşfetmesini ve aralarındaki ilişkiyi anlamasını zorlaştırabilir. Aramada görünmesini istemediğiniz bir sayfa için noindex daha doğru araçtır."
+  },
+  {
+   "s": "Görsel üzerinden verilen linklerde bağlantı metni ne olur?",
+   "c": "Google'ın dokümanına göre bir görsel link olarak kullanıldığında, görselin alt metni bağlantı metni olarak değerlendirilir. Bu yüzden link veren görsellerde alt metni boş bırakmayın; hedef sayfayı anlatan kısa bir ifade yazın."
+  },
+  {
+   "s": "Aynı sayfaya birden fazla link vermek işe yarar mı?",
+   "c": "Okuyucu için anlamlıysa sorun değil, ancak aynı paragrafta aynı sayfaya tekrar tekrar link vermek ek bir fayda sağlamaz. Farklı ve ilgili sayfalara link vermek daha değerlidir."
+  },
+  {
+   "s": "Otomatik “ilgili yazılar” eklentileri yeterli mi?",
+   "c": "Tamamlayıcı olarak faydalı, ama tek başına yeterli değil. Otomatik eşleşmeler etiket ya da kelime benzerliğine dayanır ve bazen alakasız sonuçlar üretir. Önemli sayfalara verilen bağlamlı linkleri elle planlamak gerekir."
+  },
+  {
+   "s": "İç link değişikliklerinin etkisi ne zaman görülür?",
+   "c": "Kesin bir süre yok; Google'ın ilgili sayfaları yeniden taraması gerekir. Sık taranan sitelerde birkaç hafta içinde Search Console'da değişim görülebilir, daha az taranan sitelerde süre uzayabilir."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Internal linking is the deliberate planning of links between the pages on your own site. It helps visitors find their next step and tells Google what each page is about and which pages matter most.",
+    "It is one of the quickest wins in an audit, yet one of the most neglected. Here is the framework I use, from anchor text and orphan pages to menu links and auditing.",
+    {
+     "alinti": "Short answer: A good internal linking strategy links to important pages from within content, using anchor text that describes the target page, and leaves no important page orphaned or buried too deep. Google uses links both to discover pages and as a relevance signal."
+    }
+   ]
+  },
+  {
+   "baslik": "Why do internal links matter to Google?",
+   "paragraflar": [
+    "Google's link best practices documentation is clear: Google uses links as a signal when determining the relevance of pages and to find new pages to crawl. The same document says every page you care about should have a link from at least one other page on your site.",
+    "The technical requirement is simple too: Google can generally only crawl a link reliably if it is an a element with an href attribute. Buttons wired to a JavaScript click event, or elements without an href, may not count as links.",
+    {
+     "kod": "<!-- Crawlable -->\n<a href=\"/en/guides/teknik-seo\">technical SEO guide</a>\n\n<!-- Not reliably crawlable -->\n<span onclick=\"go('/en/guides/teknik-seo')\">Read more</span>\n<a onclick=\"go('/en/guides/teknik-seo')\">Read more</a>"
+    },
+    "Rendering and crawlability are covered in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "How should you write anchor text?",
+   "paragraflar": [
+    "According to Google, good anchor text is descriptive, reasonably concise and relevant to the page it is on. Generic phrases like “click here” say nothing about the target, and keyword stuffing violates Google's spam policies.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Good anchor text",
+       "tur": "iyi",
+       "maddeler": [
+        "screw compressor maintenance cost",
+        "Kadıköy dental clinic opening hours",
+        "301 redirect rule generator"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak anchor text",
+       "tur": "kotu",
+       "maddeler": [
+        "click here",
+        "read more",
+        "best cheap compressor prices buy compressor"
+       ]
+      }
+     }
+    },
+    "Natural variety is enough internally: you can link to the same page with different phrases that still carry the topic. Managing anchor text in external backlinks is a separate subject, covered in the [anchor text strategy](/en/blog/anchor-text) article."
+   ]
+  },
+  {
+   "baslik": "Menu, footer and in-content links: what is the difference?",
+   "paragraflar": [
+    "Not every link does the same job. Menus and footers make a site navigable; in-content links carry context. I plan them together:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Link location",
+       "What it does",
+       "Watch out for"
+      ],
+      "satirlar": [
+       [
+        "Main menu",
+        "Makes categories and services reachable from every page",
+        "Putting everything in the menu dilutes priority"
+       ],
+       [
+        "Breadcrumbs",
+        "Shows hierarchy, links back to the parent",
+        "Must match the real site structure"
+       ],
+       [
+        "Footer",
+        "Legal pages, contact, key sections",
+        "A footer with hundreds of links is unreadable"
+       ],
+       [
+        "In-content",
+        "Sends readers to a contextually related page",
+        "Use where it genuinely helps the reader"
+       ],
+       [
+        "Related posts",
+        "Encourages further reading",
+        "Automatic matches can be irrelevant; review them"
+       ]
+      ]
+     }
+    },
+    "In e-commerce, the balance between category, filter and product links matters even more; see the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "How do orphan pages and click depth cause problems?",
+   "paragraflar": [
+    "These are the four internal link problems I see most often:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏝️",
+       "baslik": "Orphan page",
+       "metin": "A page with no internal links, listed only in the sitemap. Harder to discover and looks unimportant."
+      },
+      {
+       "ikon": "🕳️",
+       "baslik": "Deep page",
+       "metin": "A page many clicks from the homepage. Important pages should be a few clicks away."
+      },
+      {
+       "ikon": "↪️",
+       "baslik": "Link to a redirect",
+       "metin": "An internal link to an old URL that reaches its target via a 301. Update it to the final address."
+      },
+      {
+       "ikon": "⛔",
+       "baslik": "Broken link",
+       "metin": "An internal link to a page returning 404. A dead end for users and crawlers alike."
+      }
+     ]
+    },
+    "Some pages in the “Crawled – currently not indexed” list are simply pages with weak internal links, as explained in the article on [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis). On large sites, depth and parameter waste also tie directly into [crawl budget](/en/blog/crawl-butcesi)."
+   ]
+  },
+  {
+   "baslik": "How do you send authority to your important pages?",
+   "paragraflar": [
+    "On most sites, external links land mainly on the homepage and a few popular blog posts. Adding contextual links from those pages to the service or category pages that convert is the most practical way to move strength where it is needed.",
+    "The Links report in Search Console shows which pages earn the most external links. Then find paragraphs on those pages where a link to the related service fits naturally. How pillar and cluster pages should link is covered in [topical authority and the pillar-cluster model](/en/blog/topical-authority); the wider content planning framework is in the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "How do you audit internal links step by step?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Internal link audit",
+      "adimlar": [
+       {
+        "baslik": "Crawl the site",
+        "metin": "Use a crawler to export every URL, its inbound internal links and click depth."
+       },
+       {
+        "baslik": "Compare lists",
+        "metin": "URLs in the sitemap but missing from the crawl are orphan candidates."
+       },
+       {
+        "baslik": "Fix errors",
+        "metin": "Point internal links that hit 404s or redirects at the final URL."
+       },
+       {
+        "baslik": "Set priorities",
+        "metin": "Check whether converting pages get enough contextual links."
+       },
+       {
+        "baslik": "Add links and monitor",
+        "metin": "Link from strong pages, then recrawl after a few weeks."
+       }
+      ]
+     }
+    },
+    "If a migration left many old URLs, you can draft redirects with the [redirect rule generator](/en/tools/redirect-generator); updating internal links to the new addresses is still the real fix.",
+    {
+     "kontrol": [
+      "Every important page gets at least one in-content link",
+      "Anchor text describes the target page",
+      "No internal links to 404s or redirects",
+      "Priority pages are a few clicks from the homepage",
+      "Links are a elements with href, not JavaScript events"
+     ]
+    },
+    "On stores with thousands of products I run this audit regularly as part of [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting). To review your internal linking together, see [SEO consulting](/en/seo-consulting) or [get in touch](/en/contact)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many internal links should a page have?",
+   "c": "Google's current link documentation gives no fixed number. The test is the reader: links that help within the flow of text are fine; a link in every sentence hurts readability and blurs which pages matter."
+  },
+  {
+   "s": "Should I use nofollow on internal links?",
+   "c": "Usually not. Nofollow between your own pages can make it harder for Google to discover them and understand how they relate. For a page you do not want in search, noindex is the right tool."
+  },
+  {
+   "s": "What is the anchor text of an image link?",
+   "c": "According to Google's documentation, when an image is used as a link, its alt text is treated as the anchor text. So do not leave alt text empty on linked images; write a short phrase describing the target page."
+  },
+  {
+   "s": "Does linking to the same page several times help?",
+   "c": "It is fine when it makes sense for the reader, but repeating links to the same page within one paragraph adds nothing. Linking to different relevant pages is more valuable."
+  },
+  {
+   "s": "Are automatic “related posts” plugins enough?",
+   "c": "They help as a supplement but are not enough alone. Automatic matches rely on tag or word similarity and sometimes produce irrelevant results. Contextual links to important pages should be planned by hand."
+  },
+  {
+   "s": "When will internal link changes show an effect?",
+   "c": "There is no fixed timeline; Google has to recrawl the pages involved. On frequently crawled sites changes may show in Search Console within a few weeks; on less crawled sites it can take longer."
+  }
+ ]
+}

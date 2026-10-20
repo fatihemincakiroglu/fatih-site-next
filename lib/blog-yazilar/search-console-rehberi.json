@@ -1,0 +1,373 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "Google Search Console Rehberi: Temel Raporları Okumak",
+ "baslik_en": "Google Search Console Guide: Reading the Core Reports",
+ "meta_baslik_tr": "Google Search Console Rehberi: Temel Raporları Okumak",
+ "meta_baslik_en": "Google Search Console Guide: Reading the Core Reports",
+ "meta_desc_tr": "Search Console'da Performans, Sayfa dizine ekleme, URL Denetimi, Site haritaları ve Deneyim raporları nasıl okunur? Haftalık kontrol rutini ve sık hatalar.",
+ "meta_desc_en": "How to read the Performance, Page indexing, URL Inspection, Sitemaps and Experience reports in Search Console, plus a weekly routine and common mistakes.",
+ "ozet_tr": "Search Console'un temel raporlarını doğru okumak için pratik rehber: neye bakmalı, neyi dert etmemeli?",
+ "ozet_en": "A practical guide to reading Search Console's core reports: what to watch and what not to worry about.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Google Search Console, Google'ın sitenizi nasıl taradığını, dizine eklediğini ve arama sonuçlarında nasıl gösterdiğini doğrudan gösteren ücretsiz araçtır. Veri doğrudan Google'dan gelir; üçüncü taraf araçlar ya tahmin üretir ya da sizin yetkinizle bu veriyi Search Console API'sinden çeker.",
+    "Ama rapor sayısı çok ve bazı uyarılar gereksiz panik yaratıyor. Bu yazıda temel raporları hangi soruya cevap verdiklerine göre anlatıyor, haftalık bir kontrol rutini öneriyorum.",
+    {
+     "alinti": "Kısa cevap: Search Console'da en çok kullanacağınız raporlar Performans (tıklama, gösterim, TO, ortalama konum), Sayfa dizine ekleme (hangi sayfalar neden dizinde değil), URL Denetimi (tek bir URL'nin durumu ve canlı testi), Site haritaları ve Deneyim altındaki Core Web Vitals raporudur. Amaç her URL'yi dizine eklemek değil, önemli sayfaların standart sürümünün dizinde olmasıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "Search Console kurulumu: hangi mülk türü?",
+   "paragraflar": [
+    "Search Console'a site eklerken iki mülk türünden birini seçersiniz. Seçim, hangi verileri tek ekranda göreceğinizi belirler.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Mülk türü",
+       "Kapsam",
+       "Doğrulama"
+      ],
+      "satirlar": [
+       [
+        "Alan adı mülkü",
+        "Tüm alt alan adları, http ve https birlikte",
+        "DNS kaydıyla"
+       ],
+       [
+        "URL öneki mülkü",
+        "Yalnızca belirtilen protokol ve yol",
+        "HTML dosyası, meta etiket, Google Analytics, Tag Manager ve diğer yöntemler"
+       ]
+      ]
+     }
+    },
+    "Benim önerim, mümkünse bir alan adı mülkü açmak ve gerekiyorsa /en/ gibi önemli bölümler için ayrıca URL öneki mülkleri eklemek. Böylece hem bütün resmi hem de bölüm bazlı veriyi görürsünüz."
+   ]
+  },
+  {
+   "baslik": "Performans raporu nasıl okunur?",
+   "paragraflar": [
+    "Performans raporu, sitenizin Google aramalarında aldığı gösterim ve tıklamaları sorgu, sayfa, ülke, cihaz, arama görünümü ve tarih boyutlarında gösterir. Varsayılan görünüm son üç aydır, ama 16 aya kadar geriye gidebilirsiniz. Son 24 saat görünümü saatlik ve henüz kesinleşmemiş veri sunar.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👆",
+       "baslik": "Tıklamalar",
+       "metin": "Arama sonucundan sitenize gelen tıklama sayısı."
+      },
+      {
+       "ikon": "👁️",
+       "baslik": "Gösterimler",
+       "metin": "Sitenize ait bir bağlantının arama sonuçlarında gösterilme sayısı."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "TO (CTR)",
+       "metin": "Tıklamaların gösterimlere oranı; başlık ve açıklamanın çekiciliğine dair ipucu verir."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Ortalama konum",
+       "metin": "Sonuçlardaki ortalama sıra; birçok sorgunun ortalaması olduğu için tek başına yanıltıcı olabilir."
+      }
+     ]
+    },
+    "En faydalı alışkanlık, iki dönemi karşılaştırıp sayfa ve sorgu kırılımına inmektir. Trafik düşüşü varsa önce hangi sayfa grubunda olduğunu bulun; olası nedenleri ve tarihleri [Google güncellemeleri günlüğüyle](/google-guncellemeleri) eşleştirin. Ani düşüşleri teşhis etme yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısında anlattım.",
+    "Marka sorgularını ayırmak için Google'ın sunduğu markalı sorgular filtresi, uygun mülklerde Performans raporunda yer alıyor. Filtre yalnızca raporlama içindir ve sıralamayı etkilemez; Google bazı sorguların yanlış sınıflandırılabileceğini de belirtiyor."
+   ]
+  },
+  {
+   "baslik": "Sayfa dizine ekleme raporu: neye bakmalı?",
+   "paragraflar": [
+    "Bu rapor URL'leri “Dizine eklendi” ve “Dizine eklenmedi” olarak ikiye ayırır, eklenmeyenleri nedenlere göre gruplar. Google'ın yardım dokümanına göre hedef, her önemli sayfanın standart sürümünün dizine eklenmesidir; kopya ve alternatif sayfaların dışarıda kalması beklenen bir durumdur.",
+    "Her nedenin yanında bir “Kaynak” bilgisi bulunur: sorunun siteden mi Google'dan mı kaynaklandığını gösterir. Bir sorunu düzelttiğinizde “Düzeltmeyi doğrula” ile Google'dan etkilenen URL'leri yeniden kontrol etmesini isteyebilirsiniz; doküman bu sürecin genellikle iki haftaya kadar sürebildiğini söylüyor.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "En sık sorulan satır",
+      "metin": "“Tarandı – şu anda dizine eklenmemiş” durumu teknik bir engel değil, bir kalite ve öncelik kararıdır. Teşhis ve çözüm adımlarını [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısında ayrıntılı anlattım."
+     }
+    },
+    "Rapordaki site haritası filtresi çok işe yarar: “Gönderilen tüm sayfalar” seçildiğinde yalnızca dizine eklenmesini istediğinizi beyan ettiğiniz URL'lerin durumunu görürsünüz."
+   ]
+  },
+  {
+   "baslik": "URL Denetimi aracı ne zaman kullanılır?",
+   "paragraflar": [
+    "URL Denetimi, tek bir sayfanın Google'daki durumunu gösterir: dizinde mi, Google hangi URL'yi standart seçmiş, son tarama ne zaman yapılmış. Canlı test ise sayfanın şu anki halini Googlebot gözüyle kontrol eder.",
+    {
+     "akis": {
+      "baslik": "Tek bir sayfayı denetlerken",
+      "adimlar": [
+       {
+        "baslik": "URL'yi gir",
+        "metin": "Üstteki arama çubuğuna tam adresi yapıştırın."
+       },
+       {
+        "baslik": "Dizin durumunu oku",
+        "metin": "Kullanıcının ve Google'ın seçtiği standart URL aynı mı?"
+       },
+       {
+        "baslik": "Canlı test yap",
+        "metin": "Sayfa erişilebilir mi, noindex var mı, işlenmiş HTML'de ana içerik görünüyor mu?"
+       },
+       {
+        "baslik": "Gerekirse dizine eklemeyi iste",
+        "metin": "Önemli bir değişiklikten sonra kullanın; aynı URL'yi tekrar tekrar istemek süreci hızlandırmaz."
+       }
+      ]
+     }
+    },
+    "JavaScript ile oluşturulan sayfalarda işlenmiş HTML'i kontrol etmek, içerik ve linklerin Google'a ulaşıp ulaşmadığını görmenin en hızlı yoludur. Genel tarama mantığı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Site haritaları ve Deneyim raporları",
+   "paragraflar": [
+    "Site haritaları raporunda gönderdiğiniz XML haritalarının okunup okunmadığını ve kaç URL keşfedildiğini görürsünüz. Haritada yalnızca 200 dönen, standart ve dizine eklenmesini istediğiniz URL'ler bulunmalı; yönlendirilen ya da noindex sayfalar haritayı kirletir.",
+    "Deneyim bölümünde Core Web Vitals ve HTTPS raporları yer alır. Eskiden bunları özetleyen Sayfa deneyimi raporu kaldırıldı; veriler bu iki raporda duruyor. Core Web Vitals raporu gerçek kullanıcı verisine dayanır ve eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1'dir. Ayrıntılar için [Core Web Vitals yazısına](/blog/core-web-vitals-2025) bakabilirsiniz.",
+    {
+     "kontrol": [
+      "Site haritası durumu “Başarılı” mı ve keşfedilen URL sayısı beklentiyle uyumlu mu?",
+      "Haritada yönlendirilen, 404 dönen ya da noindex URL var mı?",
+      "Core Web Vitals raporunda “Kötü” grubunda hangi URL şablonları var?",
+      "HTTPS raporunda HTTP olarak sunulan sayfa kaldı mı?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ özellikleri Search Console'da nasıl görünür?",
+   "paragraflar": [
+    "AI Overviews ve AI Mode'daki gösterim ve tıklamalar, genel Web arama verisinin içinde sayılıyor. Google, Haziran 2026'da AI Overviews ve AI Mode için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Raporu mülkünüzde henüz görmüyorsanız birkaç gün bekleyin; veri yine de genel Web toplamlarında yer alır.",
+    "Yapay zekâ asistanlarından gelen ziyaretleri ise Search Console değil GA4 gösterir; bu kanalı [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım. AI Mode'un Türkiye'deki durumu için [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Haftalık Search Console rutini",
+   "paragraflar": [
+    {
+     "liste": [
+      "Performans: son 7 günü önceki dönemle karşılaştırın, en çok düşen ve yükselen sayfaları not edin.",
+      "Sayfa dizine ekleme: önemli şablonlarda (ürün, kategori, hizmet) yeni “dizine eklenmedi” artışı var mı?",
+      "Manuel işlemler ve Güvenlik sorunları: boş olduklarını doğrulayın.",
+      "Site haritaları: yeni bölüm açtıysanız haritanın okunduğunu kontrol edin.",
+      "E-posta bildirimleri: Search Console'un gönderdiği uyarıları kaçırmamak için doğru kişilere ulaştığından emin olun."
+     ]
+    },
+    "Bu verileri yönetime aylık rapora dönüştürmek için [SEO raporlama rehberindeki](/rehber/seo-raporlama) çerçeveyi kullanabilirsiniz. Sitedeki [ücretsiz SEO araçları](/araclar) da yapısal veri ve yönlendirme işlerinde yardımcı olur. Search Console verinizi birlikte yorumlamak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Google Search Console is the free tool that shows directly how Google crawls, indexes and displays your site in search results.",
+    "But there are many reports and some warnings cause needless panic. This article explains the core reports by the question each one answers and suggests a weekly routine.",
+    {
+     "alinti": "Short answer: The Search Console reports you will use most are Performance (clicks, impressions, CTR, average position), Page indexing (which pages are not indexed and why), URL Inspection (one URL's status and a live test), Sitemaps and the Core Web Vitals report under Experience. The goal is not to index every URL but to get the canonical version of every important page indexed."
+    }
+   ]
+  },
+  {
+   "baslik": "Setting up Search Console: which property type?",
+   "paragraflar": [
+    "When adding a site you choose one of two property types.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Property type",
+       "Scope",
+       "Verification"
+      ],
+      "satirlar": [
+       [
+        "Domain property",
+        "All subdomains, http and https together",
+        "DNS record"
+       ],
+       [
+        "URL-prefix property",
+        "Only the specified protocol and path",
+        "HTML file, meta tag, Google Analytics, Tag Manager and other methods"
+       ]
+      ]
+     }
+    },
+    "I recommend opening a domain property where possible and adding URL-prefix properties for key sections such as /en/ if needed."
+   ]
+  },
+  {
+   "baslik": "How to read the Performance report",
+   "paragraflar": [
+    "The Performance report shows your impressions and clicks in Google Search by query, page, country, device, search appearance and date. The default view is the last three months, but you can go back up to 16 months. The last 24 hours view offers hourly, preliminary data.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👆",
+       "baslik": "Clicks",
+       "metin": "Clicks from a search result to your site."
+      },
+      {
+       "ikon": "👁️",
+       "baslik": "Impressions",
+       "metin": "How often a link to your site appeared in search results."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "CTR",
+       "metin": "Clicks divided by impressions; a hint about how compelling titles and snippets are."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Average position",
+       "metin": "Average rank in results; it averages many queries, so it can mislead on its own."
+      }
+     ]
+    },
+    "The most useful habit is comparing two periods and drilling into pages and queries. If traffic dropped, first find which page group lost it, then match dates against the [Google updates log](/en/google-updates). I explain how to diagnose sudden drops in [traffic loss after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu).",
+    "To separate brand queries, Google's branded queries filter is available in the Performance report for eligible properties. It is reporting-only and does not affect rankings; Google also notes some queries may be misclassified."
+   ]
+  },
+  {
+   "baslik": "Page indexing report: what to look at",
+   "paragraflar": [
+    "This report splits URLs into “Indexed” and “Not indexed” and groups the latter by reason. According to Google's help documentation, the goal is to get the canonical version of every important page indexed; duplicates and alternates are expected to stay out.",
+    "Each reason has a “Source” value showing whether the website or Google is responsible. After fixing an issue, “Validate fix” asks Google to recheck the affected URLs; the documentation says this typically takes up to about two weeks.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "The most asked-about status",
+      "metin": "“Crawled – currently not indexed” is not a technical block but a quality and priority decision. I cover diagnosis and fixes in [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis)."
+     }
+    },
+    "The sitemap filter is very handy: choosing “All submitted pages” shows only the URLs you have declared you want indexed."
+   ]
+  },
+  {
+   "baslik": "When to use the URL Inspection tool",
+   "paragraflar": [
+    "URL Inspection shows one page's status in Google: is it indexed, which URL Google chose as canonical, when it was last crawled. The live test checks the page's current state through Googlebot's eyes.",
+    {
+     "akis": {
+      "baslik": "Inspecting a single page",
+      "adimlar": [
+       {
+        "baslik": "Enter the URL",
+        "metin": "Paste the full address into the top search bar."
+       },
+       {
+        "baslik": "Read index status",
+        "metin": "Do the user-declared and Google-selected canonicals match?"
+       },
+       {
+        "baslik": "Run a live test",
+        "metin": "Is the page reachable, is there a noindex, does main content appear in rendered HTML?"
+       },
+       {
+        "baslik": "Request indexing if needed",
+        "metin": "Use it after a significant change; requesting the same URL repeatedly does not speed things up."
+       }
+      ]
+     }
+    },
+    "On JavaScript-built pages, checking the rendered HTML is the fastest way to see whether content and links reach Google. For crawling basics, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Sitemaps and Experience reports",
+   "paragraflar": [
+    "The Sitemaps report shows whether your XML sitemaps were read and how many URLs were discovered. A sitemap should only list canonical URLs that return 200 and that you want indexed; redirected or noindex pages pollute it.",
+    "The Experience section holds the Core Web Vitals and HTTPS reports. The Page experience report that summarised them was removed; the data remains in these two reports. Core Web Vitals uses real-user data, with thresholds of LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. See the [Core Web Vitals article](/en/blog/core-web-vitals-2025).",
+    {
+     "kontrol": [
+      "Is the sitemap status “Success” and the discovered URL count as expected?",
+      "Does the sitemap contain redirected, 404 or noindex URLs?",
+      "Which URL templates sit in the “Poor” group of Core Web Vitals?",
+      "Are any pages still served over HTTP in the HTTPS report?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How do AI features show up in Search Console?",
+   "paragraflar": [
+    "Impressions and clicks from AI Overviews and AI Mode are counted within overall Web search data. In June 2026 Google announced separate generative AI performance reports for AI Overviews and AI Mode, and on 31 August 2026 said they were available to all sites. If your property does not show the report yet, give it a few days; the data still appears in the overall Web totals.",
+    "Visits from AI assistants show up in GA4, not Search Console; I cover that channel in [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi). For AI Mode in Turkey, see [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye)."
+   ]
+  },
+  {
+   "baslik": "A weekly Search Console routine",
+   "paragraflar": [
+    {
+     "liste": [
+      "Performance: compare the last 7 days with the previous period and note the biggest losers and gainers.",
+      "Page indexing: any new rise in “Not indexed” for key templates (product, category, service)?",
+      "Manual actions and Security issues: confirm both are empty.",
+      "Sitemaps: if you launched a new section, check that its sitemap was read.",
+      "Email alerts: make sure Search Console notifications reach the right people."
+     ]
+    },
+    "To turn this data into a monthly management report, use the framework in the [SEO reporting guide](/en/guides/seo-raporlama). The site's [free SEO tools](/en/tools) help with structured data and redirects. To interpret your Search Console data together, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Search Console ile Google Analytics arasındaki fark nedir?",
+   "c": "Search Console, kullanıcı sitenize gelmeden önceki aşamayı, yani Google aramasındaki gösterim ve tıklamaları gösterir. GA4 ise siteye gelen ziyaretçinin davranışını ve dönüşümleri ölçer. İki aracı bağlayarak organik trafiği uçtan uca görebilirsiniz."
+  },
+  {
+   "s": "Search Console'daki tıklamalar neden GA4'teki oturumlarla tutmuyor?",
+   "c": "İki araç farklı şeyleri farklı yöntemlerle sayar: Search Console tıklamayı, GA4 ise çerez onayı ve etiketin çalışmasına bağlı oturumu ölçer. Bazı sorgular gizlilik nedeniyle Search Console'da da gösterilmez. Küçük farklar normaldir, eğilimlere odaklanın."
+  },
+  {
+   "s": "Verilerin görünmesi ne kadar sürer?",
+   "c": "Yeni doğrulanan bir mülkte veriler birkaç gün içinde gelmeye başlar. Performans raporundaki son günlerin verisi kesinleşmemiş olabilir; karar verirken birkaç gün önceye kadar olan veriyi esas alın."
+  },
+  {
+   "s": "Search Console'a birden fazla kişi ekleyebilir miyim?",
+   "c": "Evet, Ayarlar bölümündeki Kullanıcılar ve izinler alanından sahip, tam yetkili ya da kısıtlı kullanıcı ekleyebilirsiniz. Ajans ya da danışmanla çalışırken sahiplik vermek yerine tam ya da kısıtlı yetki vermek daha güvenlidir."
+  },
+  {
+   "s": "Manuel işlem raporunda bir şey görürsem ne yapmalıyım?",
+   "c": "Manuel işlem, Google ekibinin sitenizde spam politikası ihlali tespit ettiği anlamına gelir. Rapordaki açıklamaya göre sorunu tamamen giderip yeniden inceleme talebi gönderin. Bu durumda deneyimli birinden destek almak süreci kısaltır."
+  },
+  {
+   "s": "Ortalama konum düştü ama tıklamalar arttı; bu nasıl olur?",
+   "c": "Siteniz yeni ve daha alt sıralarda göründüğü sorgular kazandığında ortalama konum düşer, ama toplam görünürlük ve tıklama artabilir. Bu yüzden ortalama konumu sorgu veya sayfa bazında okumak daha anlamlıdır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What is the difference between Search Console and Google Analytics?",
+   "c": "Search Console shows the stage before users reach your site: impressions and clicks in Google Search. GA4 measures visitor behaviour and conversions on the site. Linking the two gives you an end-to-end view of organic traffic."
+  },
+  {
+   "s": "Why don't Search Console clicks match GA4 sessions?",
+   "c": "The tools count different things in different ways: Search Console counts clicks, while GA4 counts sessions that depend on cookie consent and the tag firing. Some queries are also hidden in Search Console for privacy. Small gaps are normal; focus on trends."
+  },
+  {
+   "s": "How long until data appears?",
+   "c": "On a newly verified property, data starts arriving within a few days. The most recent days in the Performance report may be preliminary; base decisions on data from a few days back."
+  },
+  {
+   "s": "Can I add more than one person to Search Console?",
+   "c": "Yes, under Users and permissions in Settings you can add owners, full users or restricted users. When working with an agency or consultant, granting full or restricted access is safer than ownership."
+  },
+  {
+   "s": "What should I do if I see something in the Manual actions report?",
+   "c": "A manual action means Google's team found a spam policy violation on your site. Fix the issue completely as described in the report and submit a reconsideration request."
+  },
+  {
+   "s": "Average position fell but clicks rose; how is that possible?",
+   "c": "When your site starts appearing for new queries at lower positions, average position drops while total visibility and clicks can rise. That is why reading average position per query or page makes more sense."
+  }
+ ]
+}

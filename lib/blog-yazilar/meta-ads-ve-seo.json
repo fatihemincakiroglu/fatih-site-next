@@ -1,0 +1,423 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 7,
+ "baslik_tr": "Meta Ads ve SEO Birlikte: Reklam Verisini İçerik Stratejisine Taşımak",
+ "baslik_en": "Meta Ads and SEO Together: Turning Ad Data into Content Strategy",
+ "meta_baslik_tr": "Meta Ads ve SEO: Reklam Verisini İçeriğe Taşımak",
+ "meta_baslik_en": "Meta Ads and SEO: Turning Ad Data into Content",
+ "meta_desc_tr": "Meta reklam testlerinden içerik içgörüsü çıkarmak, açılış sayfasını iki kanala göre kurmak ve marka araması etkisini ölçmenin sınırlarını bilmek.",
+ "meta_desc_en": "How to pull content insight from Meta ad tests, build landing pages for both channels and understand the limits of measuring branded search impact.",
+ "ozet_tr": "Meta reklam testlerini içerik kararlarına çevirmek ve marka araması etkisini dürüstçe ölçmek.",
+ "ozet_en": "Turning Meta ad tests into content decisions and measuring branded search impact honestly.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Instagram ve Facebook reklamlarını yöneten ekiple SEO ekibi çoğu şirkette ayrı odalarda çalışıyor. Oysa reklam tarafı, hangi mesajın, hangi faydanın ve hangi kelimenin insanları durdurduğunu her hafta gerçek bütçeyle test ediyor. Bu veri arama sonuçlarındaki başlıklara ve sayfa içeriklerine taşınmadığında boşa harcanmış bir araştırma bütçesine dönüşüyor.",
+    "Bu yazıda Meta reklam verisini içerik stratejisine nasıl aktardığımı, açılış sayfalarını iki kanal için nasıl düşündüğümü ve en çok yanlış anlaşılan konuyu, yani reklamın marka aramasına etkisini ölçmenin sınırlarını anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Meta Ads ile SEO arasındaki en sağlam bağ ölçüm değil, içgörüdür. Kreatif ve metin testleri hangi mesajın işe yaradığını gösterir; bu bilgi başlık, meta açıklama ve içerik planına aktarılabilir. Reklamın marka aramalarını artırıp artırmadığı ise ancak kontrollü testle yaklaşık olarak okunabilir; eş zamanlı artış tek başına nedensellik kanıtı değildir."
+    }
+   ]
+  },
+  {
+   "baslik": "Meta Ads ve SEO nerede kesişir?",
+   "paragraflar": [
+    "İki kanalın niyeti farklı: Arama kullanıcısı aktif olarak bir şey arıyor, sosyal akıştaki kullanıcıya ise siz ulaşıyorsunuz. Yine de dört noktada birbirlerini besliyorlar:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧪",
+       "baslik": "Mesaj testi",
+       "metin": "Hangi fayda ya da itirazın karşılık bulduğunu reklam testleri hızla gösterir."
+      },
+      {
+       "ikon": "💬",
+       "baslik": "Kitle dili",
+       "metin": "Reklam yorumları ve mesajlar, müşterinin ürünü kendi kelimeleriyle nasıl anlattığını ortaya koyar."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Açılış sayfası",
+       "metin": "İki kanalın trafiği çoğu zaman aynı sayfalara iner; sayfa kalitesi ikisini birden etkiler."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Marka bilinirliği",
+       "metin": "Reklamla markayı tanıyan kişi sonradan Google'da markayı arayabilir; bunu ölçmek ise zordur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Kreatif testlerinden içerik içgörüsü çıkarmak",
+   "paragraflar": [
+    "Meta Ads Manager'daki A/B testi özelliği, iki ya da daha fazla reklam varyasyonunu tek bir değişkeni farklılaştırarak karşılaştırmanıza imkân tanır. İçgörü üretmek için kritik kural da bu: Aynı anda hem görseli hem metni hem kitleyi değiştirirseniz hangi farkın sonucu doğurduğunu bilemezsiniz.",
+    "Test bulgularını içerik kararına şöyle çeviriyorum:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Reklam testinde görülen",
+       "Olası içerik kararı",
+       "Dikkat"
+      ],
+      "satirlar": [
+       [
+        "\"Aynı gün kargo\" mesajı, \"yüksek kalite\" mesajından belirgin şekilde iyi",
+        "Kategori sayfası başlığında ve meta açıklamada teslimat vurgusu",
+        "Vaadin sitede gerçekten karşılanması gerekir"
+       ],
+       [
+        "Fiyat itirazını yanıtlayan metin daha çok tıklanıyor",
+        "\"Neden bu fiyat?\" sorusunu yanıtlayan rehber içerik",
+        "Rakip fiyatı yazmayın, değeri açıklayın"
+       ],
+       [
+        "Kullanım videosu statik görselden iyi",
+        "Ürün sayfasına kullanım videosu ve adım adım anlatım",
+        "Video sayfa hızını bozmamalı"
+       ],
+       [
+        "Belirli bir kullanım senaryosu öne çıkıyor",
+        "O senaryoya özel blog yazısı ya da alt kategori",
+        "Arama talebini anahtar kelime verisiyle doğrulayın"
+       ]
+      ]
+     }
+    },
+    "Son satırdaki uyarı önemli: Sosyal akışta ilgi çeken bir mesaj, Google'da aranan bir konu olmayabilir. Talebi [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemlerle doğrulamadan sayfa açmayın."
+   ]
+  },
+  {
+   "baslik": "Reklam yorumlarından müşterinin dilini okumak",
+   "paragraflar": [
+    "Reklam altındaki yorumlar ve gelen mesajlar, anket yapmadan elde edilen nitel veridir. Haftalık olarak şu soruların cevabını arıyorum:",
+    {
+     "liste": [
+      "Müşteri ürünü hangi kelimelerle tarif ediyor? (\"nemlendirici\" mi, \"bakım kremi\" mi?)",
+      "En sık sorulan soru ne? Kargo, beden, kullanım süresi, uyumluluk?",
+      "Hangi itiraz tekrar ediyor? Fiyat, güven, iade koşulu?",
+      "Rakiplerle hangi karşılaştırma yapılıyor?"
+     ]
+    },
+    "Bu listeden çıkan sorular, ürün sayfası SSS'lerine ve blog konularına dönüşebilir. İçerik planını kurarken [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) kümeleme yaklaşımını kullanmak, tek tek sorulara dağınık yazılar açmaktan daha sağlıklı."
+   ]
+  },
+  {
+   "baslik": "Açılış sayfası: reklam ziyaretçisi ve organik ziyaretçi",
+   "paragraflar": [
+    "Aynı sayfa iki farklı ziyaretçiyi karşılıyorsa beklentilerini ayrı ayrı düşünmek gerekir:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Meta reklamından gelen",
+       "tur": "notr",
+       "maddeler": [
+        "Çoğunlukla mobilde, akıştan geliyor",
+        "Ürünü yeni tanıyor olabilir",
+        "Reklamdaki görsel ve vaadi sayfada hemen görmek istiyor"
+       ]
+      },
+      "sag": {
+       "baslik": "Google aramasından gelen",
+       "tur": "notr",
+       "maddeler": [
+        "Belirli bir sorunun cevabını arıyor",
+        "Karşılaştırma ve ayrıntı bekliyor",
+        "Başlıktaki vaadin içerikte karşılanmasını istiyor"
+       ]
+      }
+     }
+    },
+    "Kampanyaya özel, kısa ömürlü ve içeriği zayıf sayfalar açıyorsanız bunları arama sonuçlarına açmak zorunda değilsiniz. Kalıcı sayfalarda ise üst kısımda net fayda ve görsel, alt kısımda organik ziyaretçinin aradığı ayrıntı dengesi iyi çalışıyor. Dönüşüm tarafının ayrıntılarını [CRO ve SEO](/blog/cro-ve-seo) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "Marka araması etkisini ölçmenin sınırları",
+   "paragraflar": [
+    "\"Reklama başladık, marka aramalarımız arttı\" cümlesini sık duyuyorum. Bu gözlem doğru olabilir ama tek başına neden-sonuç kanıtı değildir. Aynı dönemde mevsimsellik, basında çıkan bir haber, influencer paylaşımı ya da rakibin stok sorunu da marka aramasını artırabilir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Korelasyon nedensellik değildir",
+      "metin": "Search Console'da marka sorgularının kampanya dönemiyle aynı anda yükselmesi bir ipucudur, kanıt değildir. Raporlarda \"reklam marka aramasını şu kadar artırdı\" gibi kesin ifadelerden kaçının."
+     }
+    },
+    "Daha güvenilir bir okuma için kontrollü yaklaşım gerekir. Kampanyayı yalnızca bazı şehirlerde açıp diğerleriyle marka araması eğilimini karşılaştırmak, kampanya öncesi ve sonrası dönemleri mevsimselliği hesaba katarak kıyaslamak işe yarayabilir. Meta da uygun hesaplarda lift (artış) ölçümü gibi deneysel yöntemler sunuyor; erişim koşulları hesaba göre değişebildiği için güncel durumu Meta'nın yardım merkezinden kontrol edin. Marka sinyallerinin genel resmi için [marka bahsi ve brand mention](/blog/marka-bahsi-brand-mention) yazısına da bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Ölçüm altyapısı: UTM, Meta Pixel ve Conversions API",
+   "paragraflar": [
+    "Reklam ve organik trafiği karşılaştırabilmek için önce ayırabilmek gerekir. Meta reklam bağlantılarına tutarlı UTM parametreleri eklemek, GA4'te bu trafiğin organik sosyal ve organik arama ile karışmasını önler. Organik kanalın kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım.",
+    "Meta tarafında Meta Pixel tarayıcı üzerinden, Conversions API ise Meta'nın geliştirici dokümanına göre sunucu tarafından dönüşüm olaylarını iletir. İkisi birlikte kullanıldığında aynı olayın iki kez sayılmaması için tekilleştirme ayarını kontrol etmek gerekir. Kanal raporlarını tek bir çerçevede toplamak için [SEO raporlama rehberi](/rehber/seo-raporlama) iyi bir referans."
+   ]
+  },
+  {
+   "baslik": "Reklam verisinden içerik takvimine: aylık döngü",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Aylık içgörü döngüsü",
+      "adimlar": [
+       {
+        "baslik": "Testleri topla",
+        "metin": "Ay içinde biten A/B testlerinin kazanan varyasyonlarını listele."
+       },
+       {
+        "baslik": "Yorumları özetle",
+        "metin": "Tekrar eden soru ve itirazları kategorilere ayır."
+       },
+       {
+        "baslik": "Talebi doğrula",
+        "metin": "Her fikir için arama hacmi ve sonuç sayfası niyetine bak."
+       },
+       {
+        "baslik": "Sayfaya uygula",
+        "metin": "Başlık, meta açıklama, SSS ya da yeni içerik olarak hayata geçir."
+       },
+       {
+        "baslik": "Sonucu izle",
+        "metin": "Search Console'da gösterim ve tıklama değişimini birkaç hafta takip et."
+       }
+      ]
+     }
+    },
+    "Bu döngüyü kuran şirketlerde reklam ve SEO ekipleri aynı toplantıda aynı veriye bakmaya başlıyor. Bütçeyi kanallar arasında nasıl böleceğinize dair çerçeve için [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısı yol gösterebilir. İçerik üretimi için [SEO içerik hizmetine](/icerik), kanal ölçümü ve büyüme için [performans hizmetine](/performans) göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Meta reklamları Google sıralamasını etkiler mi?",
+   "c": "Google, Meta reklamlarını bir sıralama sinyali olarak tanımlayan bir açıklama yapmıyor. Beklentiyi dolaylı etkilere kurmak daha doğru: daha fazla kişinin markayı tanıması, aramaya geçmesi ve içeriğinizden bahsetmesi."
+  },
+  {
+   "s": "Sosyal medya paylaşımları backlink sayılır mı?",
+   "c": "Sosyal platformlardaki bağlantıların büyük kısmı nofollow ya da benzeri niteliklerle işaretlenir; bu yüzden doğrudan link değeri beklemeyin. Asıl değer, içeriğin görülüp başka sitelerde doğal olarak alıntılanma ihtimalinin artmasıdır."
+  },
+  {
+   "s": "Reklam açılış sayfalarını noindex yapmalı mıyım?",
+   "c": "Kampanyaya özel, kısa ömürlü ve kalıcı sayfanın neredeyse kopyası olan sayfalarda noindex mantıklı olabilir. Kalıcı ürün ya da hizmet sayfalarını ise reklam trafiği için ayrıca kopyalamak yerine tek sayfada iki kitleye hitap edecek şekilde kurmak genellikle daha iyidir."
+  },
+  {
+   "s": "Küçük bütçeyle içerik testi yapılabilir mi?",
+   "c": "Evet, ama sonuçları kesin yargı olarak değil, yön gösterici sinyal olarak okuyun. Az gösterimle alınan test sonuçları rastlantıdan etkilenebilir; Meta'nın test aracının gösterdiği güven düzeyine dikkat edin."
+  },
+  {
+   "s": "Meta Reklam Kütüphanesi SEO için işe yarar mı?",
+   "c": "Reklam Kütüphanesi, rakiplerin yayındaki reklamlarını görmenizi sağlar. Hangi faydaları ve kampanya dillerini öne çıkardıklarını görmek içerik ve konumlandırma fikri verir; ancak hangi reklamın başarılı olduğunu göstermez."
+  },
+  {
+   "s": "Organik sosyal medya ile reklam verisi arasında fark var mı?",
+   "c": "Organik paylaşımlar mevcut takipçilere, reklamlar ise seçtiğiniz kitleye ulaşır. Yeni mesajları ölçeklenebilir ve kontrollü test etmek için reklam verisi, sadık kitlenin tepkisini görmek için organik veri daha uygundur."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "In most companies, the team running Instagram and Facebook ads and the SEO team work in separate rooms. Yet the ad side tests, every week and with real budget, which message, benefit and wording stops people scrolling. When that data never reaches search titles and page content, it becomes wasted research spend.",
+    "This post covers how I carry Meta ad data into content strategy, how I think about landing pages for both channels, and the most misunderstood topic: the limits of measuring ads' effect on branded search.",
+    {
+     "alinti": "Short answer: The strongest link between Meta Ads and SEO is insight, not measurement. Creative and copy tests show which message works, and that can feed titles, meta descriptions and the content plan. Whether ads lift branded searches can only be estimated with controlled tests; a simultaneous rise alone is not proof of causation."
+    }
+   ]
+  },
+  {
+   "baslik": "Where do Meta Ads and SEO meet?",
+   "paragraflar": [
+    "The intent differs: a searcher is actively looking, while you reach the social feed user. Still, the two feed each other in four places:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧪",
+       "baslik": "Message testing",
+       "metin": "Ad tests quickly show which benefit or objection resonates."
+      },
+      {
+       "ikon": "💬",
+       "baslik": "Audience language",
+       "metin": "Ad comments and messages reveal how customers describe the product in their own words."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Landing pages",
+       "metin": "Traffic from both channels often lands on the same pages, so page quality affects both."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Brand awareness",
+       "metin": "Someone who discovers you through an ad may later search for you on Google; measuring that is hard."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Pulling content insight from creative tests",
+   "paragraflar": [
+    "The A/B test feature in Meta Ads Manager lets you compare two or more ad variations that differ in a single variable. That is also the key rule for insight: change the image, copy and audience at once and you cannot tell which difference drove the result.",
+    "This is how I translate test findings into content decisions:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Seen in the ad test",
+       "Possible content decision",
+       "Watch out"
+      ],
+      "satirlar": [
+       [
+        "\"Same-day shipping\" clearly beats \"premium quality\"",
+        "Delivery emphasis in category titles and meta descriptions",
+        "The site must actually deliver on it"
+       ],
+       [
+        "Copy answering the price objection gets more clicks",
+        "A guide answering \"why this price?\"",
+        "Explain value; do not quote competitor prices"
+       ],
+       [
+        "Product-in-use video beats a static image",
+        "Usage video and step-by-step copy on the product page",
+        "Video must not hurt page speed"
+       ],
+       [
+        "One use case stands out",
+        "A blog post or subcategory for that use case",
+        "Confirm search demand with keyword data"
+       ]
+      ]
+     }
+    },
+    "The last row matters: a message that grabs attention in a feed may not be something people search for. Validate demand with the methods in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) before creating a page."
+   ]
+  },
+  {
+   "baslik": "Reading customer language in ad comments",
+   "paragraflar": [
+    "Comments under ads and incoming messages are qualitative data you get without running a survey. Each week I look for answers to these questions:",
+    {
+     "liste": [
+      "Which words do customers use for the product? (\"moisturiser\" or \"face cream\"?)",
+      "What is the most frequent question? Shipping, sizing, lifespan, compatibility?",
+      "Which objection keeps coming back? Price, trust, return terms?",
+      "Which competitor comparisons come up?"
+     ]
+    },
+    "The resulting questions can become product page FAQs and blog topics. The clustering approach in the [content strategy guide](/en/guides/icerik-stratejisi) works better than scattering one post per question."
+   ]
+  },
+  {
+   "baslik": "Landing pages: ad visitors versus organic visitors",
+   "paragraflar": [
+    "When one page serves two kinds of visitor, think about each expectation separately:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Arriving from a Meta ad",
+       "tur": "notr",
+       "maddeler": [
+        "Mostly on mobile, coming from a feed",
+        "May be new to the product",
+        "Wants to see the ad's image and promise right away"
+       ]
+      },
+      "sag": {
+       "baslik": "Arriving from Google search",
+       "tur": "notr",
+       "maddeler": [
+        "Looking for an answer to a specific problem",
+        "Expects comparison and detail",
+        "Wants the title's promise met in the content"
+       ]
+      }
+     }
+    },
+    "Short-lived, thin campaign pages do not need to be open to search results. On permanent pages, a clear benefit and visual at the top with the detail organic visitors need further down works well. I cover conversion in [CRO and SEO](/en/blog/cro-ve-seo)."
+   ]
+  },
+  {
+   "baslik": "The limits of measuring branded search impact",
+   "paragraflar": [
+    "I often hear \"we started ads and branded searches went up\". That may be true, but on its own it is not proof of cause and effect. Seasonality, press coverage, an influencer post or a competitor's stock problem can all lift branded search in the same period.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Correlation is not causation",
+      "metin": "Branded queries rising in Search Console during a campaign are a clue, not evidence. Avoid definitive report lines such as \"ads increased branded search by X\"."
+     }
+    },
+    "A more reliable reading needs a controlled approach: running the campaign only in some cities and comparing branded search trends with the rest, or comparing before and after periods while accounting for seasonality. Meta also offers experimental methods such as lift measurement for eligible accounts; access varies, so check Meta's help centre for current conditions. For the wider picture of brand signals, see [brand mentions](/en/blog/marka-bahsi-brand-mention)."
+   ]
+  },
+  {
+   "baslik": "Measurement setup: UTM, Meta Pixel and Conversions API",
+   "paragraflar": [
+    "To compare ad and organic traffic, you first have to separate them. Consistent UTM parameters on Meta ad links stop that traffic blending with organic social and organic search in GA4. I cover the organic setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi).",
+    "On the Meta side, the Meta Pixel sends conversion events from the browser, while according to Meta's developer documentation the Conversions API sends them from the server. When you use both, check deduplication so the same event is not counted twice. The [SEO reporting guide](/en/guides/seo-raporlama) is a useful reference for bringing channel reports into one frame."
+   ]
+  },
+  {
+   "baslik": "From ad data to content calendar: a monthly loop",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Monthly insight loop",
+      "adimlar": [
+       {
+        "baslik": "Collect tests",
+        "metin": "List the winning variations from A/B tests finished that month."
+       },
+       {
+        "baslik": "Summarise comments",
+        "metin": "Group recurring questions and objections."
+       },
+       {
+        "baslik": "Validate demand",
+        "metin": "Check search volume and results page intent for each idea."
+       },
+       {
+        "baslik": "Apply to pages",
+        "metin": "Ship it as a title, meta description, FAQ or new content."
+       },
+       {
+        "baslik": "Track results",
+        "metin": "Follow impressions and clicks in Search Console for a few weeks."
+       }
+      ]
+     }
+    },
+    "Where this loop exists, ad and SEO teams start looking at the same data in the same meeting. For splitting budget between channels, [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi) offers a framework. See [content strategy services](/en/content-strategy) for production, [performance and growth](/en/performance-growth) for channel measurement, or reach me via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do Meta ads affect Google rankings?",
+   "c": "Google has not described Meta ads as a ranking signal. It is more accurate to expect indirect effects: more people knowing the brand, searching for it and mentioning your content."
+  },
+  {
+   "s": "Do social media posts count as backlinks?",
+   "c": "Most links on social platforms carry nofollow or similar attributes, so do not expect direct link value. The real value is more people seeing the content, which raises the chance of natural citations elsewhere."
+  },
+  {
+   "s": "Should ad landing pages be noindex?",
+   "c": "For short-lived campaign pages that nearly duplicate a permanent page, noindex can make sense. For permanent product or service pages, building one page that serves both audiences usually beats cloning it for ad traffic."
+  },
+  {
+   "s": "Can I run content tests on a small budget?",
+   "c": "Yes, but read results as directional signals, not verdicts. Tests with few impressions can be swayed by chance; pay attention to the confidence level Meta's test tool reports."
+  },
+  {
+   "s": "Is the Meta Ad Library useful for SEO?",
+   "c": "The Ad Library lets you see competitors' live ads. The benefits and campaign language they lead with can spark content and positioning ideas, but it does not show which ads performed well."
+  },
+  {
+   "s": "Is organic social data different from ad data?",
+   "c": "Organic posts reach existing followers, while ads reach the audience you choose. Ad data suits controlled, scalable tests of new messages; organic data shows how your loyal audience reacts."
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 8,
+ "baslik_tr": "Shopify SEO: Mağaza İçin Teknik ve İçerik Kontrol Listesi",
+ "baslik_en": "Shopify SEO: A Technical and Content Checklist for Your Store",
+ "meta_baslik_tr": "Shopify SEO: Teknik ve İçerik Kontrol Listesi",
+ "meta_baslik_en": "Shopify SEO: Technical and Content Checklist",
+ "meta_desc_tr": "Shopify mağazasında SEO: sabit URL yapısı, koleksiyon içi yinelenen ürün URL'leri, robots.txt.liquid, uygulama yükü ve içerik alanları için kontrol listesi.",
+ "meta_desc_en": "Shopify SEO checklist: the fixed URL structure, duplicate product URLs inside collections, robots.txt.liquid, app bloat and the content fields that matter.",
+ "ozet_tr": "Shopify'ın sabit URL yapısı, yinelenen ürün adresleri, robots.txt.liquid ve uygulama yükü için uygulanabilir kontrol listesi.",
+ "ozet_en": "A practical checklist for Shopify's fixed URL structure, duplicate product URLs, robots.txt.liquid and app bloat.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Shopify, SEO'nun temel işlerini kutudan çıktığı gibi halleder: site haritası otomatik üretilir, sayfa başlığı ve meta açıklama alanları her ürün ve koleksiyonda hazırdır. Ama platformun bazı kuralları sabittir ve bunları bilmeden yapılan kurulum, ileride düzeltilmesi zor sorunlar bırakır.",
+    "Bu yazıda Shopify'a özgü noktaları ele alıyorum: değiştiremediğiniz URL yapısı, koleksiyon içinden açılan ürün adresleri, robots.txt.liquid dosyası, uygulama yükü ve içerik alanları. Shopify'ı diğer altyapılarla kıyaslıyorsanız önce [e-ticaret altyapılarının SEO karşılaştırmasına](/blog/e-ticaret-altyapisi-seo-karsilastirma) bakın.",
+    {
+     "alinti": "Kısa cevap: Shopify'da SEO çalışması, platformun sabit URL yapısını kabul edip onun içinde düzen kurmaktır. Koleksiyon içi ürün linklerini standart /products/ adresine yönlendiren tema ayarı, gerektiğinde robots.txt.liquid ile kontrollü tarama kuralları, gereksiz uygulamaların temizlenmesi ve özgün ürün ile koleksiyon metinleri en çok fark yaratan dört iştir."
+    }
+   ]
+  },
+  {
+   "baslik": "Shopify'ın URL yapısı SEO'yu nasıl etkiler?",
+   "paragraflar": [
+    "Shopify'da URL ön ekleri sabittir: ürünler /products/, koleksiyonlar /collections/, sabit sayfalar /pages/, blog yazıları /blogs/<blog-adı>/ altında yayınlanır. Bu ön ekleri kaldıramaz ya da Türkçeleştiremezsiniz; yalnızca son kısmı, yani tanıtıcıyı (handle) düzenleyebilirsiniz.",
+    {
+     "agac": {
+      "kok": "magaza.com",
+      "dallar": [
+       {
+        "ad": "/collections/",
+        "alt": [
+         "/collections/kadin-mont",
+         "/collections/kadin-mont/products/su-gecirmez-mont (koleksiyon içi varyant)"
+        ]
+       },
+       {
+        "ad": "/products/",
+        "alt": [
+         "/products/su-gecirmez-mont (standart adres)"
+        ]
+       },
+       {
+        "ad": "/pages/",
+        "alt": [
+         "/pages/iade-kosullari"
+        ]
+       },
+       {
+        "ad": "/blogs/",
+        "alt": [
+         "/blogs/rehber/mont-nasil-secilir"
+        ]
+       }
+      ]
+     }
+    },
+    "Pratikte bu bir dezavantaj değil; Google ön ekin İngilizce olmasıyla ilgilenmez. Asıl dikkat edilmesi gereken, tanıtıcıların kısa, Türkçe karakterden arındırılmış ve kalıcı olmasıdır. Tanıtıcıyı sonradan değiştirirseniz eski adres için yönlendirme gerekir. Shopify'ın yardım dokümanına göre yönlendirmeler yalnızca artık sayfa göstermeyen (404 veren) adreslerde çalışır; toplu kural hazırlarken [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) zaman kazandırır."
+   ]
+  },
+  {
+   "baslik": "Koleksiyon içi ürün URL'leri ve yinelenen içerik",
+   "paragraflar": [
+    "Shopify'da aynı ürüne hem /products/urun hem de /collections/koleksiyon/products/urun adresinden ulaşılabilir. Bir ürün üç koleksiyondaysa dört farklı adres oluşur. Güncel temaların çoğu bu varyantlarda canonical etiketini /products/ adresine işaret ettirir, yani Google'a hangi adresin standart olduğu söylenir.",
+    "Sorun, temanın koleksiyon sayfalarındaki ürün linklerini koleksiyon içi adresle vermesidir. Canonical bir ipucudur; site kendi iç linkleriyle sürekli başka adresi gösteriyorsa Google'a çelişkili sinyal gider ve tarama gereksiz adreslere harcanır.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Tercih edilen kurulum",
+       "tur": "iyi",
+       "maddeler": [
+        "Koleksiyon sayfası ürünlere doğrudan /products/ adresinden link verir",
+        "Canonical ve iç link aynı adresi gösterir",
+        "Site haritasında yalnızca standart adresler bulunur"
+       ]
+      },
+      "sag": {
+       "baslik": "Sık gördüğüm kurulum",
+       "tur": "kotu",
+       "maddeler": [
+        "Ürün linkleri /collections/.../products/ biçiminde",
+        "Canonical bir adresi, iç linkler başka adresi gösterir",
+        "Aynı ürünün birden çok adresi taranır"
+       ]
+      }
+     }
+    },
+    "Temanızı kontrol etmek için bir koleksiyon sayfasında ürün kartının linkine bakın. Koleksiyon içi adres görüyorsanız tema geliştiricinizden ürün kartı şablonunu standart adresi kullanacak şekilde düzenlemesini isteyin. Genel kanonikleştirme mantığı [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "robots.txt.liquid ne zaman düzenlenmeli?",
+   "paragraflar": [
+    "Shopify her mağaza için çoğu durumda yeterli bir robots.txt üretir. Kendi kurallarınızı eklemek isterseniz temanın Templates klasörüne robots.txt.liquid şablonu eklersiniz; Shopify'ın geliştirici dokümanı, kuralların düz metin yerine hazır Liquid nesneleriyle (robots.default_groups gibi) yazılmasını önerir.",
+    {
+     "kod": "{% for group in robots.default_groups %}\n  {{- group.user_agent }}\n  {%- for rule in group.rules -%}\n    {{ rule }}\n  {%- endfor -%}\n  {%- if group.user_agent.value == '*' -%}\n    {{ 'Disallow: /*?q=*' }}\n  {%- endif -%}\n  {%- if group.sitemap != blank -%}\n    {{ group.sitemap }}\n  {%- endif -%}\n{% endfor %}"
+    },
+    "Yukarıdaki örnek, varsayılan kuralları korur ve tüm botlar için yalnızca ?q= parametreli adresleri engelleyen bir satır ekler. Bu şablonla varsayılan bir kuralı kaldırmak da mümkündür, ama hangi kuralı neden kaldırdığınızı bilmiyorsanız dokunmayın.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Yayına almadan önce karşılaştırın",
+      "metin": "Shopify'ın dokümanı, mevcut /robots.txt çıktısının bir kopyasını almanızı ve şablonun ürettiği çıktıyla karşılaştırmanızı öneriyor. Yanlış bir Disallow satırı koleksiyon ya da ürün sayfalarını taramadan çıkarabilir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Uygulama yükü ve hız: Shopify'da en sık sorun",
+   "paragraflar": [
+    "Shopify'ın altyapısı hızlıdır; mağazaları yavaşlatan genellikle sonradan eklenen uygulamalar, büyük görseller ve tema içi gereksiz kodlardır. Core Web Vitals eşiklerini (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) hedefleyin; ayrıntılar [Core Web Vitals yazısında](/blog/core-web-vitals-2025).",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧩",
+       "baslik": "Kullanılmayan uygulamalar",
+       "metin": "Denenip unutulan uygulamaları kaldırın. Kaldırdıktan sonra temada kod kalıntısı kalıp kalmadığını kontrol edin."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Görsel boyutu",
+       "metin": "Ana görseli gereğinden büyük yüklemeyin; ilk ekrandaki görseli tembel yüklemeye (lazy load) bırakmayın."
+      },
+      {
+       "ikon": "📜",
+       "baslik": "Üçüncü taraf betikler",
+       "metin": "Sohbet, yorum ve pop-up betikleri INP'yi bozabilir. Her birinin işe yarayıp yaramadığını ölçün."
+      },
+      {
+       "ikon": "🎨",
+       "baslik": "Ağır tema bölümleri",
+       "metin": "Ana sayfadaki kaydırmalı bannerlar ve video arka planlar LCP'yi geciktirir."
+      }
+     ]
+    },
+    "Her uygulama için tek bir soru sorun: Bu uygulama satış ya da operasyon için ölçülebilir bir iş yapıyor mu? Yapmıyorsa hız maliyetine değmez."
+   ]
+  },
+  {
+   "baslik": "Ürün, koleksiyon ve blog için içerik alanları",
+   "paragraflar": [
+    "Shopify'ın yardım dokümanına göre sayfa başlığı 70 karaktere kadar girilebilir ama arama sonuçlarında kesilmemesi için 60 karakter civarı önerilir; meta açıklama için yaklaşık 160 karakter tavsiye edilir. H1, ürün ya da sayfanın Başlık alanından üretilir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Nerede?",
+       "Ne yazılmalı?"
+      ],
+      "satirlar": [
+       [
+        "Başlık (H1)",
+        "Ürün/koleksiyon Başlık alanı",
+        "Müşterinin aradığı ürün adı, marka ve ayırt edici özellik"
+       ],
+       [
+        "Sayfa başlığı ve meta açıklama",
+        "Arama motoru listeleme bölümü",
+        "Başlığı tekrar etmeyen, tıklama nedeni veren kısa metin"
+       ],
+       [
+        "URL tanıtıcısı",
+        "Arama motoru listeleme bölümü",
+        "Kısa, Türkçe karaktersiz, kalıcı"
+       ],
+       [
+        "Görsel alt metni",
+        "Görsel düzenleme ekranı",
+        "Görselde ne olduğunu anlatan cümle"
+       ],
+       [
+        "Koleksiyon açıklaması",
+        "Koleksiyon düzenleme ekranı",
+        "Seçim kriteri, alt kategori yönlendirmesi, kısa SSS"
+       ]
+      ]
+     }
+    },
+    "Ürün metinlerinde üretici açıklamasını kopyalamak Shopify'a özgü değil ama en yaygın hata. Nasıl özgün metin yazılacağını [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısında anlattım. Ürün yapısal verisini temanızın üretip üretmediğini kontrol edin; eksikse [schema oluşturucu](/araclar/schema-olusturucu) ile başlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Shopify SEO kontrol listesi",
+   "paragraflar": [
+    "Yeni bir mağaza kurarken ya da mevcut mağazayı denetlerken şu listeyi sırayla uygulayın:",
+    {
+     "kontrol": [
+      "Birincil alan adı tek; diğer alan adları birincil adrese yönleniyor.",
+      "Mağaza şifre korumasında değil; sitemap.xml Search Console'a gönderildi.",
+      "Koleksiyon sayfalarındaki ürün linkleri /products/ adresini kullanıyor.",
+      "Tanıtıcısı değişen ürün ve koleksiyonlar için yönlendirme var.",
+      "robots.txt.liquid varsa çıktısı varsayılan dosyayla karşılaştırıldı.",
+      "Kullanılmayan uygulamalar kaldırıldı, Core Web Vitals raporu kontrol edildi.",
+      "Ana koleksiyonlarda özgün açıklama, ürünlerde özgün metin ve alt metin var."
+     ]
+    },
+    "Kategori mimarisi, filtreler ve ürün yapısal verisi gibi platformdan bağımsız konular [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ve [yapısal veri rehberinde](/rehber/schema-yapisal-veri) ayrıntılı işleniyor. Mağazanız için bu listeyi birlikte uygulamak isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına göz atın ya da [ön görüşme planlayın](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Shopify'da /products/ ve /collections/ ön eklerini kaldırabilir miyim?",
+   "c": "Hayır, bu ön ekler platform tarafından sabitlenmiştir ve tema ya da uygulamayla güvenli biçimde değiştirilemez. Bu durum sıralamayı olumsuz etkilemez. Siz tanıtıcıların kısa ve anlamlı olmasına odaklanın."
+  },
+  {
+   "s": "Shopify'ın otomatik site haritası yeterli mi?",
+   "c": "Çoğu mağaza için evet. Shopify'ın dokümanına göre site haritası ürünleri, koleksiyonları, sayfaları ve blog yazılarını içerir ve yeni içerik eklendikçe güncellenir. Sizin işiniz onu Search Console'a göndermek ve dizine eklenmesini istemediğiniz içerikleri gizli tutmak."
+  },
+  {
+   "s": "Çok dilli Shopify mağazasında hreflang'i elle eklemem gerekir mi?",
+   "c": "Shopify, uluslararası alan adları ve dil ayarlarıyla çalışan mağazalarda dil sürümlerini site haritasına kendisi ekler. Yine de kaynak kodda hreflang etiketlerinin doğru dil-bölge eşleşmesini gösterdiğini kontrol edin. Kurulum mantığı için [hreflang ve uluslararası SEO](/blog/hreflang-uluslararasi-seo) yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Stokta olmayan ürün sayfasını silmeli miyim?",
+   "c": "Ürün geri gelecekse sayfayı yayında tutun ve stok durumunu açıkça gösterin. Kalıcı olarak kalktıysa ürünü taslağa alıp eski adresi en yakın alternatif ürüne ya da koleksiyona yönlendirin. Shopify'da yönlendirme, eski adres 404 verdiğinde devreye girer."
+  },
+  {
+   "s": "Shopify blogu SEO için kullanılmaya değer mi?",
+   "c": "Değer, ama ürün satmaya yardım eden konularla. Seçim rehberleri, kullanım ve bakım yazıları koleksiyonlara doğal iç link verir. Blog yazısının ürün sayfasıyla aynı aramayı hedeflememesine dikkat edin."
+  },
+  {
+   "s": "Shopify SEO uygulaması kurmak şart mı?",
+   "c": "Şart değil. Temel alanlar platformda zaten var. Uygulama, toplu meta düzenleme ya da görsel sıkıştırma gibi belirli bir işi hızlandırıyorsa düşünün; her uygulamanın hız maliyetini de hesaba katın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Shopify handles the SEO basics out of the box: an automatic sitemap and title and meta description fields everywhere. But some platform rules are fixed, and a setup that ignores them leaves problems that are hard to undo later.",
+    "This post covers what is specific to Shopify: the URL structure you cannot change, product URLs opened from inside collections, the robots.txt.liquid file, app bloat and the content fields. If you are still choosing a platform, start with the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma).",
+    {
+     "alinti": "Short answer: Shopify SEO means accepting the platform's fixed URL structure and building order inside it. A theme that links collection products to the canonical /products/ URL, controlled crawl rules via robots.txt.liquid when needed, removing unnecessary apps, and original product and collection copy are the four jobs that make the most difference."
+    }
+   ]
+  },
+  {
+   "baslik": "How does Shopify's URL structure affect SEO?",
+   "paragraflar": [
+    "Shopify's URL prefixes are fixed: products live under /products/, collections under /collections/, static pages under /pages/ and blog posts under /blogs/<blog-name>/. You cannot remove or translate these prefixes; you can only edit the last part, the handle.",
+    {
+     "agac": {
+      "kok": "store.com",
+      "dallar": [
+       {
+        "ad": "/collections/",
+        "alt": [
+         "/collections/womens-jackets",
+         "/collections/womens-jackets/products/waterproof-jacket (in-collection variant)"
+        ]
+       },
+       {
+        "ad": "/products/",
+        "alt": [
+         "/products/waterproof-jacket (canonical URL)"
+        ]
+       },
+       {
+        "ad": "/pages/",
+        "alt": [
+         "/pages/returns"
+        ]
+       },
+       {
+        "ad": "/blogs/",
+        "alt": [
+         "/blogs/guides/how-to-choose-a-jacket"
+        ]
+       }
+      ]
+     }
+    },
+    "This is not a disadvantage. What matters is that handles are short, free of special characters and permanent. If you change a handle later, the old URL needs a redirect. According to Shopify's help docs, redirects only work on URLs that no longer show a page (return a 404); a [redirect generator](/en/tools/redirect-generator) saves time when preparing rules in bulk."
+   ]
+  },
+  {
+   "baslik": "In-collection product URLs and duplicate content",
+   "paragraflar": [
+    "On Shopify the same product is reachable at /products/item and at /collections/collection/products/item. Most current themes point the canonical tag on these variants to the /products/ URL.",
+    "The problem is themes that link products from collection pages using the in-collection URL. A canonical is a hint; when the site's own internal links keep pointing elsewhere, Google receives mixed signals and crawling is wasted on extra URLs.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Preferred setup",
+       "tur": "iyi",
+       "maddeler": [
+        "Collection pages link straight to the /products/ URL",
+        "Canonical and internal links point to the same URL",
+        "The sitemap lists canonical URLs only"
+       ]
+      },
+      "sag": {
+       "baslik": "Setup I often see",
+       "tur": "kotu",
+       "maddeler": [
+        "Product links use /collections/.../products/",
+        "Canonical says one thing, internal links another",
+        "Several URLs of the same product get crawled"
+       ]
+      }
+     }
+    },
+    "To check your theme, inspect the product card link on any collection page. If you see the in-collection URL, ask your theme developer to change the product card template to use the canonical URL. The general logic of canonicalization is covered in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "When should you edit robots.txt.liquid?",
+   "paragraflar": [
+    "Shopify generates a robots.txt that suits most stores. To add your own rules, you add a robots.txt.liquid template to the theme's Templates folder; Shopify's developer docs recommend writing rules with the provided Liquid objects (such as robots.default_groups) rather than plain text.",
+    {
+     "kod": "{% for group in robots.default_groups %}\n  {{- group.user_agent }}\n  {%- for rule in group.rules -%}\n    {{ rule }}\n  {%- endfor -%}\n  {%- if group.user_agent.value == '*' -%}\n    {{ 'Disallow: /*?q=*' }}\n  {%- endif -%}\n  {%- if group.sitemap != blank -%}\n    {{ group.sitemap }}\n  {%- endif -%}\n{% endfor %}"
+    },
+    "The example keeps the default rules and adds one line blocking only URLs with a ?q= parameter for all bots. If you do not know why a default rule exists, leave it alone.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Compare before you publish",
+      "metin": "Shopify's docs recommend saving a copy of your current /robots.txt output and comparing it with what the template renders. One wrong Disallow line can take collection or product pages out of crawling."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "App bloat and speed: the most common Shopify issue",
+   "paragraflar": [
+    "Shopify's infrastructure is fast; what slows stores down is usually apps added over time, oversized images and unnecessary theme code. Aim for the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1); details are in the [Core Web Vitals post](/en/blog/core-web-vitals-2025).",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧩",
+       "baslik": "Unused apps",
+       "metin": "Remove apps you tried and forgot. After uninstalling, check whether code is left behind in the theme."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Image size",
+       "metin": "Do not upload the main image larger than needed, and do not lazy-load the above-the-fold image."
+      },
+      {
+       "ikon": "📜",
+       "baslik": "Third-party scripts",
+       "metin": "Chat, review and pop-up scripts can hurt INP. Measure whether each one earns its place."
+      },
+      {
+       "ikon": "🎨",
+       "baslik": "Heavy theme sections",
+       "metin": "Homepage sliders and video backgrounds delay LCP."
+      }
+     ]
+    },
+    "Keep an app only if it does measurable work for sales or operations."
+   ]
+  },
+  {
+   "baslik": "Content fields for products, collections and blogs",
+   "paragraflar": [
+    "According to Shopify's help docs, the page title field accepts up to 70 characters, but around 60 is recommended to avoid truncation; about 160 characters is recommended for the meta description. The H1 is generated from the product or page Title field.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Field",
+       "Where?",
+       "What to write"
+      ],
+      "satirlar": [
+       [
+        "Title (H1)",
+        "Product/collection Title field",
+        "The product name shoppers search for, brand and a distinguishing feature"
+       ],
+       [
+        "Page title and meta description",
+        "Search engine listing section",
+        "Short copy that gives a reason to click without repeating the title"
+       ],
+       [
+        "URL handle",
+        "Search engine listing section",
+        "Short, no special characters, permanent"
+       ],
+       [
+        "Image alt text",
+        "Image edit screen",
+        "A sentence describing what the image shows"
+       ],
+       [
+        "Collection description",
+        "Collection edit screen",
+        "Buying criteria, links to subcategories, a short FAQ"
+       ]
+      ]
+     }
+    },
+    "The most common content mistake is copying manufacturer descriptions; I cover how to write original copy in [how to write product descriptions and category copy](/en/blog/e-ticaret-urun-aciklamasi). Check whether your theme outputs product structured data; if not, the [schema generator](/en/tools/schema-generator) is a starting point."
+   ]
+  },
+  {
+   "baslik": "Shopify SEO checklist",
+   "paragraflar": [
+    "Use this list for a new store or an audit:",
+    {
+     "kontrol": [
+      "One primary domain; other domains redirect to it.",
+      "The store is not password protected; sitemap.xml is submitted to Search Console.",
+      "Product links on collection pages use the /products/ URL.",
+      "Redirects exist for products and collections whose handle changed.",
+      "If robots.txt.liquid exists, its output was compared with the default file.",
+      "Unused apps removed, Core Web Vitals report checked.",
+      "Main collections have original descriptions; products have original copy and alt text."
+     ]
+    },
+    "Platform-independent topics such as category architecture, filters and product structured data are covered in the [ecommerce SEO guide](/en/guides/e-ticaret-seo) and the [structured data guide](/en/guides/schema-yapisal-veri). If you want to work through this list for your store together, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can I remove the /products/ and /collections/ prefixes on Shopify?",
+   "c": "No, the platform fixes these prefixes and they cannot be changed safely with a theme or app. Focus on keeping handles short and meaningful."
+  },
+  {
+   "s": "Is Shopify's automatic sitemap enough?",
+   "c": "For most stores, yes. According to Shopify's docs, the sitemap includes products, collections, pages and blog posts and updates as you add content. Submit it to Search Console."
+  },
+  {
+   "s": "Do I need to add hreflang manually on a multilingual Shopify store?",
+   "c": "For stores using international domains and language settings, Shopify adds language versions to the sitemap itself. Still, check in the source code that the hreflang tags show the right language-region pairs. For the setup logic, see [hreflang and international SEO](/en/blog/hreflang-uluslararasi-seo)."
+  },
+  {
+   "s": "Should I delete out-of-stock product pages?",
+   "c": "If the product is coming back, keep the page live and show stock status clearly. If it is gone for good, set it to draft and redirect the old URL to the closest alternative product or collection. On Shopify, a redirect only kicks in once the old URL returns a 404."
+  },
+  {
+   "s": "Is the Shopify blog worth using for SEO?",
+   "c": "Yes, for topics that help sell products. Make sure a blog post does not target the same query as a product page."
+  },
+  {
+   "s": "Do I need a Shopify SEO app?",
+   "c": "No. The basic fields already exist on the platform. Consider an app if it speeds up a specific job such as bulk meta editing or image compression, and factor in each app's speed cost."
+  }
+ ]
+}

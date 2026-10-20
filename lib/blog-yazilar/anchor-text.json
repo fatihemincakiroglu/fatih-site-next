@@ -1,0 +1,379 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 7,
+ "baslik_tr": "Anchor Text (Bağlantı Metni) Stratejisi: Doğal Bir Link Profili",
+ "baslik_en": "Anchor Text Strategy: Building a Natural Link Profile",
+ "meta_baslik_tr": "Anchor Text Stratejisi: Doğal Bir Link Profili",
+ "meta_baslik_en": "Anchor Text Strategy: A Natural Link Profile",
+ "meta_desc_tr": "Anchor text türleri, tam eşleşme bağlantı metninin riski, Google'ın link spam politikası ve dış link ile iç link anchor'ı arasındaki fark tek yazıda.",
+ "meta_desc_en": "Anchor text types, the risk of exact-match anchors, what Google's link spam policy says, and how external and internal link anchors differ, in one article.",
+ "ozet_tr": "Marka, tam eşleşme, genel ve URL anchor'ları: aşırı optimizasyona düşmeden doğal bir bağlantı metni profili kurmak.",
+ "ozet_en": "Brand, exact-match, generic and URL anchors: building a natural anchor text profile without over-optimizing.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bağlantı metni (anchor text), bir linkte tıklanan görünür metindir ve hem kullanıcıya hem Google'a hedef sayfanın neyle ilgili olduğunu anlatır. Bu yüzden yıllarca “para kelimesini anchor'a koy” taktiğinin aşırı kullanıldığı bir alan oldu.",
+    "Bu yazıda anchor türlerini, aşırı optimizasyonun neden risk taşıdığını, Google'ın link spam politikasının bu konuda ne dediğini ve dış linklerle iç linkler arasındaki farkı anlatıyorum. Link kazanımının bütününü [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ele aldım.",
+    {
+     "alinti": "Kısa cevap: Doğal bir link profilinde bağlantı metinlerinin çoğu marka adı, URL ve bağlama uygun açıklayıcı ifadelerden oluşur; bunu siz değil, link veren siteler belirler. Başka sitelerde dağıtılan makale, konuk yazı ve basın bültenlerinde optimize edilmiş anchor'lı linkler Google'ın spam politikalarında link spam örneği olarak geçer. İç linklerde ise açıklayıcı anchor kullanmak doğru uygulamadır."
+    }
+   ]
+  },
+  {
+   "baslik": "Anchor text nedir, Google onu nasıl kullanır?",
+   "paragraflar": [
+    "Google'ın bağlantı en iyi uygulamaları dokümanına göre iyi bir bağlantı metni açıklayıcı, makul ölçüde kısa ve bulunduğu sayfayla ilgilidir. Dokümandaki pratik test şu: anchor'ı bağlamından koparıp tek başına okuduğunuzda anlamlı mı?",
+    "Aynı doküman iki teknik ayrıntı veriyor: anchor, Google'ın tarayabildiği <a> etiketinin içinde olmalı ve görsel linklerde görselin alt metni anchor yerine kullanılır. Ayrıca bağlantılı sayfayla ilgili her anahtar kelimeyi anchor'a doldurmamanızı, anahtar kelime doldurmanın spam politikalarına aykırı olduğunu hatırlatıyor."
+   ]
+  },
+  {
+   "baslik": "Bağlantı metni türleri: marka, tam eşleşme, genel, URL",
+   "paragraflar": [
+    "Bir İstanbul diş kliniğine gelen linkleri örnek alalım. Aynı sayfaya farklı siteler farklı metinlerle link verir; bu çeşitlilik doğal profilin işaretidir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tür",
+       "Örnek",
+       "Değerlendirme"
+      ],
+      "satirlar": [
+       [
+        "Marka",
+        "Gülüş Diş Kliniği",
+        "En doğal tür; haber ve rehberlerde kendiliğinden oluşur"
+       ],
+       [
+        "URL / çıplak link",
+        "gulusdis.com.tr",
+        "Dizinlerde, forumlarda ve kaynakçalarda yaygın"
+       ],
+       [
+        "Kısmi eşleşme",
+        "Kadıköy'deki implant tedavisi yapan klinik",
+        "Bağlamla birlikte doğal okunur"
+       ],
+       [
+        "Tam eşleşme",
+        "kadıköy diş kliniği",
+        "Az ve editoryal ise sorun değil; yoğunlaşırsa risk"
+       ],
+       [
+        "Genel",
+        "buradan, sitesi, bu adres",
+        "Anlamsız değil, doğal profilin parçası"
+       ],
+       [
+        "Görsel",
+        "Logonun alt metni",
+        "Alt metin anchor işlevi görür"
+       ]
+      ]
+     }
+    },
+    "Ölçütün tek tek linkler değil, bütün profil olduğunu akılda tutun. Tek bir tam eşleşme anchor normaldir; yüzlerce farklı siteden aynı ticari ifadeyle gelen link ise bir şemaya işaret eder."
+   ]
+  },
+  {
+   "baslik": "Aşırı optimizasyon: link spam politikası ne diyor?",
+   "paragraflar": [
+    "Google'ın spam politikaları link spam'i, öncelikle sıralamayı manipüle etmek için bağlantı oluşturmak olarak tanımlıyor. Örnekler arasında doğrudan anchor'la ilgili maddeler var: başka sitelerde dağıtılan makale, konuk yazı ve basın bültenlerinde optimize edilmiş anchor'lı linkler; forum imzalarında optimize linkler; site şablonlarına ve widget'lara gömülü anahtar kelime yoğun linkler.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sık görülen tuzak",
+      "metin": "Tanıtım yazısı satın alıp metne “istanbul en iyi saç ekimi” gibi bir anchor yerleştirmek, hem ücretli link hem optimize anchor kuralına takılır. Ücretli ya da sponsorlu linkler rel=\"sponsored\" veya rel=\"nofollow\" ile işaretlenmelidir."
+     }
+    },
+    "Böyle bir şema geçmişte kurulduysa ve Manuel işlemler raporunda uyarı varsa temizlik süreci için [toksik backlink ve disavow](/blog/toksik-backlink-disavow) yazısına bakın. Uyarı yoksa ilk adım, yeni bu tür link üretimini durdurmaktır."
+   ]
+  },
+  {
+   "baslik": "Doğal bir link profili neye benzer?",
+   "paragraflar": [
+    "Google ideal bir anchor dağılımı ya da yüzde oranı yayımlamıyor; internette dolaşan “%X marka, %Y tam eşleşme” formülleri resmi değil. Doğal profili oran yerine şu özelliklerle tarif etmek daha doğru:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğal profil",
+       "tur": "iyi",
+       "maddeler": [
+        "Marka adı ve URL çoğunlukta",
+        "Anchor'lar link veren yazının diline ve bağlamına uyuyor",
+        "Linkler ana sayfa, rehberler ve araçlar gibi farklı sayfalara dağılıyor",
+        "Yazım farkları, Türkçe karakterli ve karaktersiz varyantlar var"
+       ]
+      },
+      "sag": {
+       "baslik": "Yapay profil",
+       "tur": "kotu",
+       "maddeler": [
+        "Farklı sitelerden birebir aynı ticari ifade",
+        "Linkler yalnızca para sayfalarına gidiyor",
+        "Anchor çevresindeki metin konuyla ilgisiz",
+        "Kısa sürede aynı kalıpta çok sayıda link"
+       ]
+      }
+     }
+    },
+    "Doğal profil en kolay, insanların sizden kendiliğinden bahsettiği işlerle oluşur. Bunun için [marka bahsi (brand mention)](/blog/marka-bahsi-brand-mention) çalışmalarının nasıl planlandığını ayrıca anlattım."
+   ]
+  },
+  {
+   "baslik": "Dış link ve iç link anchor'ı arasındaki fark",
+   "paragraflar": [
+    "Dış linklerde anchor'ı link veren site belirler; sizin rolünüz en fazla bir öneride bulunmaktır. İç linklerde ise kontrol tamamen sizde ve burada açıklayıcı, anahtar kelime içeren anchor kullanmak Google'ın kendi önerisidir.",
+    "Yani dış linkte kaçınmanız gereken “her yerde aynı ticari ifade” deseni, iç linkte bir sorun değildir; yine de aynı sayfaya hep aynı metinle değil, bağlama göre değişen açıklayıcı ifadelerle link vermek kullanıcı için daha okunur. Yetim sayfalar, derinlik ve menü linkleri gibi konuları [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı ele aldım. Hangi sayfanın hangi ifadeyi hedeflediğini belirlemek için [anahtar kelime araştırması rehberi](/rehber/anahtar-kelime-arastirmasi) temel alınmalı."
+   ]
+  },
+  {
+   "baslik": "Anchor profilinizi nasıl denetlersiniz?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Anchor denetimi",
+      "adimlar": [
+       {
+        "baslik": "Listeyi alın",
+        "metin": "Search Console Bağlantılar raporundaki en çok kullanılan bağlantı metinlerini ve bir SEO aracının anchor listesini dışa aktarın."
+       },
+       {
+        "baslik": "Sınıflandırın",
+        "metin": "Her anchor'ı marka, URL, kısmi, tam eşleşme, genel olarak etiketleyin."
+       },
+       {
+        "baslik": "Kaynağa bakın",
+        "metin": "Tam eşleşme anchor'ların hangi sitelerden ve hangi yazı türlerinden geldiğini inceleyin."
+       },
+       {
+        "baslik": "Karar verin",
+        "metin": "Editoryal olanları bırakın; satın alınmış olanları kaynağında sponsored yaptırın ya da kaldırtın."
+       }
+      ]
+     }
+    },
+    "Denetimden sonra yapılacaklar genellikle linklerle değil, içerikle ilgilidir:",
+    {
+     "liste": [
+      "Link alacak değerde rehber, araç ve veri sayfaları üretin; bunun için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) iyi bir çerçeve sunar.",
+      "PR ve iş birliklerinde anchor dayatmayın; marka adı ya da URL ile link istemek yeterlidir.",
+      "Sponsorlu içeriklerde rel=\"sponsored\" işaretlemesini sözleşmeye yazın.",
+      "Anchor dağılımını üç ayda bir gözden geçirin; ani bir tam eşleşme artışı varsa kaynağını araştırın."
+     ]
+    },
+    "Link kazanımını içerik üretimiyle birlikte planlamak istiyorsanız [backlink danışmanlığı](/backlink) ve [içerik hizmeti](/icerik) kapsamında birlikte çalışabiliriz; sitenizin mevcut profilini değerlendirmek için [SEO uzmanı](/seo-uzmani) olarak bana [iletişim sayfasından](/iletisim) ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Anchor text is the visible, clickable text of a link, and it tells both users and Google what the target page is about. That is exactly why “put the money keyword in the anchor” was overused for years.",
+    "This article covers anchor types, why over-optimization is risky, what Google's link spam policy says, and how external and internal links differ. I cover link acquisition as a whole in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
+    {
+     "alinti": "Short answer: In a natural link profile, most anchors are brand names, URLs and descriptive phrases that fit the context, and the linking sites choose them, not you. Google's spam policies list links with optimized anchor text in articles, guest posts or press releases distributed on other sites as link spam. For internal links, descriptive anchors are good practice."
+    }
+   ]
+  },
+  {
+   "baslik": "What is anchor text, and how does Google use it?",
+   "paragraflar": [
+    "Google's link best practices say good anchor text is descriptive, reasonably concise and relevant to the page it is on. The practical test: read the anchor on its own, out of context. Does it still make sense?",
+    "The same page adds two technical details: the anchor should sit inside an <a> element Google can crawl, and for image links Google uses the image's alt text as the anchor. It also warns against cramming every related keyword into the anchor, reminding readers that keyword stuffing violates the spam policies."
+   ]
+  },
+  {
+   "baslik": "Anchor text types: brand, exact match, generic, URL",
+   "paragraflar": [
+    "Take links pointing to a dental clinic in Istanbul. Different sites link to the same page with different text, and that variety is the mark of a natural profile.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Type",
+       "Example",
+       "Assessment"
+      ],
+      "satirlar": [
+       [
+        "Brand",
+        "Gülüş Dental Clinic",
+        "The most natural type; appears on its own in news and directories"
+       ],
+       [
+        "URL / naked link",
+        "gulusdis.com.tr",
+        "Common in directories, forums and reference lists"
+       ],
+       [
+        "Partial match",
+        "a clinic in Kadıköy that does implants",
+        "Reads naturally in context"
+       ],
+       [
+        "Exact match",
+        "kadıköy dental clinic",
+        "Fine if rare and editorial; risky when concentrated"
+       ],
+       [
+        "Generic",
+        "here, their site, this page",
+        "Not useless, part of a natural profile"
+       ],
+       [
+        "Image",
+        "Logo alt text",
+        "Alt text acts as the anchor"
+       ]
+      ]
+     }
+    },
+    "Remember that the profile as a whole matters, not single links. One exact-match anchor is normal; hundreds of sites using the same commercial phrase point to a scheme."
+   ]
+  },
+  {
+   "baslik": "Over-optimization: what does the link spam policy say?",
+   "paragraflar": [
+    "Google's spam policies define link spam as creating links primarily to manipulate rankings. Several examples are about anchors directly: links with optimized anchor text in articles, guest posts or press releases distributed on other sites; forum signatures with optimized links; and keyword-rich links embedded in templates and widgets.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "A common trap",
+      "metin": "Buying a sponsored article and inserting an anchor like “best hair transplant istanbul” breaks both the paid link and the optimized anchor rules. Paid or sponsored links should carry rel=\"sponsored\" or rel=\"nofollow\"."
+     }
+    },
+    "If such a scheme was built in the past and the Manual actions report shows a warning, see [toxic backlinks and disavow](/en/blog/toksik-backlink-disavow) for the clean-up. If there is no warning, the first step is to stop building these links."
+   ]
+  },
+  {
+   "baslik": "What does a natural link profile look like?",
+   "paragraflar": [
+    "Google does not publish an ideal anchor distribution or percentage; the “X% brand, Y% exact match” formulas online are not official. It is more accurate to describe a natural profile by its traits:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Natural profile",
+       "tur": "iyi",
+       "maddeler": [
+        "Brand names and URLs dominate",
+        "Anchors match the language and context of the linking article",
+        "Links spread across the homepage, guides and tools",
+        "Spelling variants, with and without Turkish characters"
+       ]
+      },
+      "sag": {
+       "baslik": "Artificial profile",
+       "tur": "kotu",
+       "maddeler": [
+        "The identical commercial phrase from many sites",
+        "Links point only to money pages",
+        "Text around the anchor is off-topic",
+        "Many links with the same pattern in a short time"
+       ]
+      }
+     }
+    },
+    "A natural profile forms most easily from work people mention on their own. I explain how to plan that in the [brand mention](/en/blog/marka-bahsi-brand-mention) article."
+   ]
+  },
+  {
+   "baslik": "External vs internal link anchors",
+   "paragraflar": [
+    "With external links, the linking site chooses the anchor; at most you can suggest one. With internal links you are fully in control, and descriptive, keyword-bearing anchors are what Google itself recommends.",
+    "So the “same commercial phrase everywhere” pattern you should avoid externally is not a problem internally, although varying descriptive phrases by context reads better for users. I cover orphan pages, depth and menu links in the [internal linking strategy](/en/blog/ic-linkleme) article. To decide which page targets which phrase, start from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+   ]
+  },
+  {
+   "baslik": "How do you audit your anchor profile?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Anchor audit",
+      "adimlar": [
+       {
+        "baslik": "Get the list",
+        "metin": "Export top linking text from the Search Console Links report plus an SEO tool's anchor list."
+       },
+       {
+        "baslik": "Classify",
+        "metin": "Tag each anchor as brand, URL, partial, exact match or generic."
+       },
+       {
+        "baslik": "Check the source",
+        "metin": "See which sites and content types the exact-match anchors come from."
+       },
+       {
+        "baslik": "Decide",
+        "metin": "Keep editorial ones; get bought ones marked sponsored or removed at the source."
+       }
+      ]
+     }
+    },
+    "What follows an audit is usually about content, not links:",
+    {
+     "liste": [
+      "Create guides, tools and data pages worth linking to; the [content strategy guide](/en/guides/icerik-stratejisi) offers a good framework.",
+      "Do not dictate anchors in PR and partnerships; asking for a brand or URL link is enough.",
+      "Write rel=\"sponsored\" into contracts for sponsored content.",
+      "Review the anchor mix quarterly and investigate any sudden jump in exact-match anchors."
+     ]
+    },
+    "If you want to plan link acquisition together with content, we can work through [backlink and digital PR consulting](/en/backlink-digital-pr) and [content strategy](/en/content-strategy); to review your current profile through [SEO consulting](/en/seo-consulting), reach me via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Link aldığım siteden anchor'ı değiştirmesini istemeli miyim?",
+   "c": "Genellikle gerek yok. Marka adı ya da URL ile verilmiş bir linki tam eşleşme anchor'a çevirmek doğal profili bozar. Yalnızca yanlış sayfaya giden ya da bozuk linkler için düzeltme isteyin."
+  },
+  {
+   "s": "“Buraya tıklayın” gibi genel anchor'lar değersiz mi?",
+   "c": "Değersiz değil ama hedef sayfa hakkında az bilgi taşır. Dış linklerde bunlar doğal profilin parçasıdır; kendi sitenizdeki iç linklerde ise açıklayıcı ifadeler tercih edin."
+  },
+  {
+   "s": "Türkçe karaktersiz anchor'lar sorun yaratır mı?",
+   "c": "Hayır. “kadikoy dis klinigi” gibi yazımlar kullanıcıların gerçekten yazdığı biçimlerdir ve doğal profilde sıkça görülür. Bunları düzeltmeye çalışmanıza gerek yok."
+  },
+  {
+   "s": "nofollow linklerin anchor'ı önemli mi?",
+   "c": "Google'ın dokümanına göre nofollow, sponsored ve ugc ile işaretli linkler genellikle takip edilmez. Bu linkler yine de trafik ve marka bilinirliği getirebilir; anchor'larının doğal olması burada da kullanıcı için önemlidir."
+  },
+  {
+   "s": "Rakiplerim tam eşleşme anchor'larla sıralanıyor, ben de yapmalı mıyım?",
+   "c": "Bir rakibin profilinin bugün işe yaraması, aynı riskin size de uygun olduğu anlamına gelmez. Link spam politikasına aykırı bir taktiği kopyalamak yerine rakibin hangi içerikleriyle link aldığını inceleyin."
+  },
+  {
+   "s": "Görsel linklerde anchor nasıl belirlenir?",
+   "c": "Google'ın dokümanına göre görsel linklerde görselin alt metni anchor olarak kullanılır. Logo ve banner linklerinde açıklayıcı bir alt metin yazmak bu yüzden önemlidir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I ask a linking site to change the anchor?",
+   "c": "Usually not. Turning a brand or URL link into an exact-match anchor makes your profile less natural. Ask for corrections only for broken links or links to the wrong page."
+  },
+  {
+   "s": "Are generic anchors like “click here” worthless?",
+   "c": "Not worthless, but they say little about the target. In external links they are part of a natural profile; for internal links on your own site, prefer descriptive phrases."
+  },
+  {
+   "s": "Do anchors without Turkish characters cause problems?",
+   "c": "No. Spellings like “kadikoy dis klinigi” are how people actually type, and they appear often in natural profiles. There is no need to correct them."
+  },
+  {
+   "s": "Does the anchor of a nofollow link matter?",
+   "c": "Google's documentation says links marked nofollow, sponsored or ugc will generally not be followed. They can still bring traffic and awareness, so natural anchors matter for users here too."
+  },
+  {
+   "s": "Competitors rank with exact-match anchors; should I copy them?",
+   "c": "A tactic working for a competitor today does not make the same risk right for you. Instead of copying something that breaks the link spam policy, study which content earns them links."
+  },
+  {
+   "s": "How is the anchor set for image links?",
+   "c": "According to Google's documentation, the image's alt text is used as the anchor for image links. That is why descriptive alt text on logo and banner links matters."
+  }
+ ]
+}

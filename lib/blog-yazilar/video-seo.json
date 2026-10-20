@@ -1,0 +1,447 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "Video SEO: YouTube ve Google Aramada Videoları Görünür Kılmak",
+ "baslik_en": "Video SEO: Making Videos Visible on YouTube and Google Search",
+ "meta_baslik_tr": "Video SEO: YouTube ve Google Aramada Görünürlük",
+ "meta_baslik_en": "Video SEO: Visibility on YouTube and Google Search",
+ "meta_desc_tr": "İzleme sayfası, VideoObject yapısal verisi, video site haritası, önemli anlar ve YouTube bölümleri: Google'ın video dokümanına göre adım adım video SEO.",
+ "meta_desc_en": "Watch pages, VideoObject structured data, video sitemaps, key moments and YouTube chapters: step-by-step video SEO based on Google's video documentation.",
+ "ozet_tr": "Videonuzun Google'da video sonucu olarak görünmesi için izleme sayfası, VideoObject, site haritası ve YouTube bölümleri.",
+ "ozet_en": "Watch pages, VideoObject, video sitemaps and YouTube chapters to get your videos shown as video results on Google.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Video çeken markaların çoğu videoyu YouTube'a yükleyip sitedeki bir yazıya gömüyor ve Google'da video sonucu olarak görünmeyi bekliyor. Sahada en sık gördüğüm sorun da burada başlıyor: Google'ın bir videoyu dizine eklemesi için sayfanın nasıl kurulduğu, videonun kendisi kadar önemli.",
+    "Bu yazıda Google'ın video en iyi uygulamaları dokümanına göre izleme sayfası kavramını, VideoObject yapısal verisini, video site haritasını, önemli anları ve YouTube tarafında başlık, açıklama ve bölümleri anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Google'da video sonucu almak için videonun, asıl amacı o videoyu göstermek olan ve dizine eklenmiş bir izleme sayfasında yer alması, geçerli bir küçük resmi olması ve Google'ın video dosyasına erişebilmesi gerekir. VideoObject yapısal verisi ve video site haritası Google'a meta veriyi iletir; YouTube'da ise açıklamadaki zaman damgaları bölümleri ve önemli anları besler."
+    }
+   ]
+  },
+  {
+   "baslik": "Google videoyu nasıl bulur ve dizine ekler?",
+   "paragraflar": [
+    "Google videoları sayfadaki <video>, <embed>, <iframe> ya da <object> gibi yaygın öğelerden bulur. Video yalnızca kullanıcı bir düğmeye tıkladığında yükleniyorsa ya da JavaScript ile ekleniyorsa, işlenmiş HTML'de görünüp görünmediğini kontrol etmek gerekir; render konusunun ayrıntısı [JavaScript SEO](/blog/javascript-seo) yazısında.",
+    {
+     "akis": {
+      "baslik": "Videonun dizine eklenme yolu",
+      "adimlar": [
+       {
+        "baslik": "Sayfa dizine eklenir",
+        "metin": "İzleme sayfası taranır, dizine eklenir ve aramada iyi performans gösterir."
+       },
+       {
+        "baslik": "Video bulunur",
+        "metin": "Gömülü öğe işlenmiş HTML'de tespit edilir."
+       },
+       {
+        "baslik": "Meta veri okunur",
+        "metin": "Yapısal veri, video site haritası ya da Open Graph etiketleri değerlendirilir."
+       },
+       {
+        "baslik": "Dosya ve küçük resim alınır",
+        "metin": "Google video dosyasının baytlarına ve geçerli bir küçük resme erişir."
+       }
+      ]
+     }
+    },
+    "Dokümandaki kritik cümle şu: izleme sayfasının dizine eklenmiş olması videonun da dizine ekleneceği anlamına gelmez ve sayfanın önce aramada iyi performans göstermesi gerekir. Video dosyası ya da küçük resim URL'leri robots.txt veya noindex ile engellenmemeli."
+   ]
+  },
+  {
+   "baslik": "İzleme sayfası nedir, blog yazısındaki video sayılır mı?",
+   "paragraflar": [
+    "Google'a göre izleme sayfasının asıl amacı kullanıcıya tek bir videoyu göstermektir. Video, sayfadaki içeriği tamamlayan bir öğeyse sayfa izleme sayfası sayılmaz; böyle sayfalar metin ya da görsel sonucu olarak görünmeye devam edebilir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İzleme sayfası",
+       "tur": "iyi",
+       "maddeler": [
+        "Video sayfanın merkezinde, ekranın üst kısmında",
+        "Başlık ve açıklama videoyu anlatıyor",
+        "Her videonun kendi benzersiz URL'si var",
+        "Döküm, bölüm listesi gibi metinler videoyu destekliyor"
+       ]
+      },
+      "sag": {
+       "baslik": "İzleme sayfası değil",
+       "tur": "notr",
+       "maddeler": [
+        "Uzun bir blog yazısının ortasına gömülü video",
+        "Bir sayfada birbirinden bağımsız birçok video",
+        "Ürün sayfasında ikincil tanıtım videosu",
+        "Video yalnızca tıklamayla açılan bir pencerede"
+       ]
+      }
+     }
+    },
+    "Pratikte şu soruyu soruyorum: bu video aramada tek başına bir sonuç olmayı hak ediyor mu? Ediyorsa ona ayrı bir izleme sayfası açın; diğer videolar için sayfayı metin sonucu olarak optimize etmek yeterlidir. Hangi konulara video ayıracağınızı [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet analiziyle belirleyebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "VideoObject yapısal verisi: zorunlu ve önerilen alanlar",
+   "paragraflar": [
+    "Google'ın video yapısal veri dokümanı (Ekim 2026 itibarıyla) üç alanı zorunlu tutuyor. Eylül 2026'da creator (veya author) özelliği önerilen alanlar arasına eklendi.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Durum",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "name",
+        "Zorunlu",
+        "Her video için benzersiz başlık"
+       ],
+       [
+        "thumbnailUrl",
+        "Zorunlu",
+        "Sabit, benzersiz küçük resim URL'si"
+       ],
+       [
+        "uploadDate",
+        "Zorunlu",
+        "Saat dilimiyle ISO 8601 biçimi"
+       ],
+       [
+        "description, duration",
+        "Önerilen",
+        "Videonun içeriğiyle tutarlı olmalı"
+       ],
+       [
+        "contentUrl / embedUrl",
+        "Önerilen",
+        "Dosya ya da oynatıcı adresi"
+       ],
+       [
+        "creator (author)",
+        "Önerilen",
+        "Person veya Organization; name zorunlu"
+       ],
+       [
+        "hasPart (Clip)",
+        "Önerilen",
+        "Önemli anları elle tanımlamak için"
+       ]
+      ]
+     }
+    },
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Implant tedavisi adım adım\",\n  \"description\": \"Muayeneden kontrole implant sürecinin aşamaları.\",\n  \"thumbnailUrl\": [\"https://www.ornek.com.tr/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Örnek Klinik\"}\n}\n</script>"
+    },
+    "Google işaretlemenin belirli bir video özelliği üreteceğini taahhüt etmiyor. Şema türlerinin genel mantığı için [schema ve yapısal veri rehberine](/rehber/schema-yapisal-veri) bakın; JSON-LD'yi elle yazmak istemiyorsanız [schema oluşturucu](/araclar/schema-olusturucu) aracını kullanabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Video site haritası mı, yapısal veri mi?",
+   "paragraflar": [
+    "İkisi birbirinin alternatifi değil, tamamlayıcısıdır. Video site haritası Google'ın videoları keşfetmesine yardım eder; yapısal veri ise sayfadaki videoyu tanımlar. Çok sayıda videosu olan sitelerde ikisini birlikte kullanıyorum.",
+    "Video site haritasında zorunlu etiketler şunlar:",
+    {
+     "liste": [
+      "video:thumbnail_loc: küçük resim adresi",
+      "video:title: videonun başlığı",
+      "video:description: en fazla 2.048 karakterlik açıklama",
+      "video:content_loc veya video:player_loc: ikisinden biri zorunlu; dokümana göre mümkünse content_loc tercih edilmeli"
+     ]
+    },
+    "Dokümana göre video:category ve video:gallery_loc gibi bazı etiketler kullanımdan kaldırıldı; eski eklentilerin ürettiği haritaları bu açıdan kontrol edin. Site haritalarının genel kurgusu için [teknik SEO rehberi](/rehber/teknik-seo) yol gösterir."
+   ]
+  },
+  {
+   "baslik": "Önemli anlar: Clip, SeekToAction ve YouTube bölümleri",
+   "paragraflar": [
+    "Google önemli anları otomatik olarak da tespit edebiliyor, ancak dokümana göre yapısal veri ya da YouTube açıklamasıyla sizin belirlediğiniz anlara öncelik veriyor. Üç yol var:",
+    {
+     "kartlar": [
+      {
+       "ikon": "✂️",
+       "baslik": "Clip",
+       "metin": "Her bölümün başlangıç, bitiş zamanı ve etiketini elle tanımlarsınız. Arama'nın sunulduğu tüm dillerde desteklenir."
+      },
+      {
+       "ikon": "⏩",
+       "baslik": "SeekToAction",
+       "metin": "URL'nizde zaman damgasının nasıl yer aldığını bildirirsiniz, anları Google belirler. Yalnızca dokümanda listelenen sınırlı sayıda dilde çalışır."
+      },
+      {
+       "ikon": "▶️",
+       "baslik": "YouTube zaman damgaları",
+       "metin": "YouTube'da barındırılan videolarda açıklamaya yazılan zaman damgaları kullanılır."
+      }
+     ]
+    },
+    "Önemli anların gösterilmesini istemiyorsanız sayfada nosnippet kullanılabilir. Video sonuçlarının diğer SERP özellikleriyle ilişkisini [featured snippet ve SERP özellikleri](/blog/featured-snippet-serp-ozellikleri) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "YouTube'da başlık, açıklama ve bölümler",
+   "paragraflar": [
+    "YouTube yardım sayfasına göre açıklamaya elle bölüm eklerken ilk zaman damgası 00:00 olmalı, en az üç zaman damgası artan sırada yer almalı ve her bölüm en az 10 saniye sürmeli. Elle eklenen bölümler otomatik bölümlerin yerine geçer.",
+    {
+     "kontrol": [
+      "Başlık, izleyicinin aradığı ifadeyi ve videonun vaadini açıkça söylüyor mu?",
+      "Açıklamanın ilk satırları videonun ne anlattığını özetliyor mu?",
+      "Bölüm adları “Giriş, Bölüm 2” yerine “İmplant kaç seansta biter?” gibi açıklayıcı mı?",
+      "Açıklamada ilgili izleme sayfasına ya da rehbere link var mı?",
+      "Küçük resim, başlıkla aynı vaadi taşıyor mu?"
+     ]
+    },
+    "Bu liste YouTube'un sıralama sistemi hakkında bir iddia değil; konuyu net anlatmanın pratik bir yolu."
+   ]
+  },
+  {
+   "baslik": "Video performansını Search Console'da izlemek",
+   "paragraflar": [
+    "Search Console'daki video dizine ekleme raporu, dizine eklenmiş izleme sayfalarınızın kaçında dizine eklenmiş video olduğunu ve diğerlerinin neden eklenmediğini gösterir. Performans raporunda Videolar arama görünümü filtresiyle video sonuçlarından gelen tıklamaları ayırabilirsiniz; temeller [Search Console rehberi](/blog/search-console-rehberi) yazısında.",
+    "Temmuz 2026'dan itibaren Search Console, YouTube kanallarını da platform mülkü olarak eklemeye izin veriyor; yardım sayfasına göre özellik kademeli olarak kullanıma sunuluyor ve yalnızca Google Arama'daki etkinliği ölçüyor, YouTube içindeki izlenmeleri değil.",
+    "Video içeriği planlama ve izleme sayfası kurulumunu [içerik hizmeti](/icerik) kapsamında birlikte yapabiliriz. Sitenizdeki videoların neden video sonucu almadığını teşhis etmek için [SEO uzmanı](/seo-uzmani) olarak kısa bir [ön görüşme randevusu](/randevu) almanız yeterli."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most brands upload videos to YouTube, embed them in a blog post and expect a video result on Google. That is where the most common problem starts: how the page is built matters as much as the video itself.",
+    "Below: watch pages, VideoObject, video sitemaps and key moments per Google's video documentation, plus YouTube titles, descriptions and chapters.",
+    {
+     "alinti": "Short answer: To get a video result on Google, the video needs to sit on an indexed watch page whose main purpose is to show that video, it needs a valid thumbnail, and Google must be able to fetch the video file. VideoObject structured data and video sitemaps pass metadata to Google; on YouTube, timestamps in the description feed chapters and key moments."
+    }
+   ]
+  },
+  {
+   "baslik": "How does Google find and index videos?",
+   "paragraflar": [
+    "Google finds videos through common elements such as <video>, <embed>, <iframe> or <object>. If the video loads only after a user clicks, or is injected with JavaScript, check that it appears in the rendered HTML; rendering is covered in [JavaScript SEO](/en/blog/javascript-seo).",
+    {
+     "akis": {
+      "baslik": "How a video gets indexed",
+      "adimlar": [
+       {
+        "baslik": "Page is indexed",
+        "metin": "The watch page is crawled, indexed and performs well in Search."
+       },
+       {
+        "baslik": "Video is found",
+        "metin": "The embed is detected in the rendered HTML."
+       },
+       {
+        "baslik": "Metadata is read",
+        "metin": "Structured data, a video sitemap or Open Graph tags are evaluated."
+       },
+       {
+        "baslik": "File and thumbnail fetched",
+        "metin": "Google fetches the video bytes and a valid thumbnail."
+       }
+      ]
+     }
+    },
+    "The key line in the documentation: an indexed watch page does not mean the video will be indexed; the page must first perform well in Search. Never block video file or thumbnail URLs with robots.txt or noindex."
+   ]
+  },
+  {
+   "baslik": "What is a watch page, and does a blog video count?",
+   "paragraflar": [
+    "Google says a watch page's main purpose is to show users a single video. If the video complements the rest of the content, the page is not a watch page, though it can still appear as a text or image result.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Watch page",
+       "tur": "iyi",
+       "maddeler": [
+        "Video is central and above the fold",
+        "Title and description describe the video",
+        "Each video has its own unique URL",
+        "Transcript or chapter list supports the video"
+       ]
+      },
+      "sag": {
+       "baslik": "Not a watch page",
+       "tur": "notr",
+       "maddeler": [
+        "Video embedded midway through a long article",
+        "Many unrelated videos on one page",
+        "Secondary promo video on a product page",
+        "Video opens only in a click-triggered popup"
+       ]
+      }
+     }
+    },
+    "In practice I ask: does this video deserve to be a search result on its own? If so, give it a dedicated watch page; otherwise optimize the page as a text result. The [content strategy guide](/en/guides/icerik-stratejisi) helps decide which topics deserve video."
+   ]
+  },
+  {
+   "baslik": "VideoObject structured data: required and recommended fields",
+   "paragraflar": [
+    "As of October 2026, Google's video structured data documentation requires three properties. In September 2026, creator (or author) was added to the recommended properties.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Property",
+       "Status",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "name",
+        "Required",
+        "A unique title per video"
+       ],
+       [
+        "thumbnailUrl",
+        "Required",
+        "A stable, unique thumbnail URL"
+       ],
+       [
+        "uploadDate",
+        "Required",
+        "ISO 8601 with time zone"
+       ],
+       [
+        "description, duration",
+        "Recommended",
+        "Consistent with the actual video"
+       ],
+       [
+        "contentUrl / embedUrl",
+        "Recommended",
+        "File or player address"
+       ],
+       [
+        "creator (author)",
+        "Recommended",
+        "Person or Organization; name required"
+       ],
+       [
+        "hasPart (Clip)",
+        "Recommended",
+        "To define key moments manually"
+       ]
+      ]
+     }
+    },
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Dental implant treatment step by step\",\n  \"description\": \"The stages of implant treatment from exam to follow-up.\",\n  \"thumbnailUrl\": [\"https://www.example.com/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Example Clinic\"}\n}\n</script>"
+    },
+    "Google does not promise that markup will produce a specific video feature. For how schema types fit together, see the [schema and structured data guide](/en/guides/schema-yapisal-veri); if you would rather not hand-write JSON-LD, use the [schema generator](/en/tools/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "Video sitemap or structured data?",
+   "paragraflar": [
+    "They complement each other. A video sitemap helps discovery; structured data describes the video on the page. On video-heavy sites I use both.",
+    "The required video sitemap tags are:",
+    {
+     "liste": [
+      "video:thumbnail_loc: the thumbnail URL",
+      "video:title: the video title",
+      "video:description: a description of up to 2,048 characters",
+      "video:content_loc or video:player_loc: one is required; the documentation prefers content_loc when available"
+     ]
+    },
+    "Several tags, such as video:category and video:gallery_loc, are deprecated, so check sitemaps from older plugins. For sitemaps in general, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Key moments: Clip, SeekToAction and YouTube chapters",
+   "paragraflar": [
+    "Google can detect key moments automatically but prioritizes moments you set via structured data or the YouTube description. Three routes:",
+    {
+     "kartlar": [
+      {
+       "ikon": "✂️",
+       "baslik": "Clip",
+       "metin": "You define each segment's start time, end time and label. Supported in all languages where Search is available."
+      },
+      {
+       "ikon": "⏩",
+       "baslik": "SeekToAction",
+       "metin": "You tell Google how timestamps appear in your URL and it identifies the moments. Works only in a limited set of languages listed in the documentation."
+      },
+      {
+       "ikon": "▶️",
+       "baslik": "YouTube timestamps",
+       "metin": "For YouTube-hosted videos, timestamps in the description are used."
+      }
+     ]
+    },
+    "To opt out of key moments, you can use nosnippet on the page. I cover how video results relate to other SERP features in [featured snippets and SERP features](/en/blog/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "Titles, descriptions and chapters on YouTube",
+   "paragraflar": [
+    "YouTube's help page says that when adding chapters manually, the first timestamp must be 00:00, there must be at least three timestamps in ascending order, and each chapter must be at least 10 seconds long. Manual chapters override automatic ones.",
+    {
+     "kontrol": [
+      "Does the title clearly state the phrase viewers search for and what the video delivers?",
+      "Do the first lines of the description summarize the video?",
+      "Are chapter names descriptive, like “How many sessions does an implant take?”, rather than “Intro, Part 2”?",
+      "Does the description link to the related watch page or guide?",
+      "Does the thumbnail make the same promise as the title?"
+     ]
+    },
+    "This is not a claim about YouTube's ranking system, just a practical way to make the topic clear."
+   ]
+  },
+  {
+   "baslik": "Tracking video performance in Search Console",
+   "paragraflar": [
+    "Search Console's video indexing report shows how many indexed watch pages contain an indexed video and why others were not indexed. The Videos search appearance filter in the Performance report isolates video clicks; basics are in the [Search Console guide](/en/blog/search-console-rehberi).",
+    "Since July 2026, Search Console also lets you add YouTube channels as platform properties. The help page says the feature is rolling out gradually and tracks activity on Google Search only, not views on YouTube itself.",
+    "We can plan video content and watch pages together through [content strategy](/en/content-strategy). To find out why your videos get no video results, [book a short intro call](/en/book-a-call) for an [SEO consulting](/en/seo-consulting) review."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Videoyu YouTube'da mı, kendi sunucumda mı barındırmalıyım?",
+   "c": "İkisi de dizine eklenebilir. YouTube keşif ve barındırma kolaylığı sağlar; kendi sunucunuz ya da bir video platformu ise izleme sayfası üzerinde daha fazla kontrol verir. Kararı videonun amacına ve trafiğin nerede kalmasını istediğinize göre verin."
+  },
+  {
+   "s": "Küçük resim için bir boyut şartı var mı?",
+   "c": "Google'ın dokümanına göre geçerli bir küçük resim zorunlu; en az 60x30 piksel olmalı, daha büyüğü tercih edilir. JPEG, PNG, WebP ve AVIF gibi yaygın biçimler destekleniyor ve aynı videoda her kaynakta aynı URL'yi kullanmanız öneriliyor."
+  },
+  {
+   "s": "Videonun dökümünü (transkript) sayfaya eklemeli miyim?",
+   "c": "Dökümü sayfaya eklemek kullanıcıların içeriği taramasına yardım eder ve izleme sayfasını destekleyen metin sağlar. Otomatik altyazıyı olduğu gibi yapıştırmak yerine düzenlenmiş bir metin kullanın."
+  },
+  {
+   "s": "Kısa videolar (YouTube Shorts) için ayrı bir işlem gerekir mi?",
+   "c": "Google tarafında ilkeler aynıdır: video bir izleme sayfasında olmalı, geçerli bir küçük resmi ve tutarlı meta verisi bulunmalı. YouTube içindeki dağıtım ise YouTube'un kendi sistemlerine bağlıdır."
+  },
+  {
+   "s": "Yayından kaldırdığım videolar aramada görünmeye devam eder mi?",
+   "c": "Sayfa 404 döndürüyorsa, noindex taşıyorsa ya da erişim için giriş gerekiyorsa video zamanla sonuçlardan düşer. Belirli bir tarihte sona erecek videolar için expires özelliği ya da video:expiration_date etiketi kullanılabilir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I host videos on YouTube or on my own server?",
+   "c": "Both can be indexed. YouTube offers discovery and easy hosting; your own server or a video platform gives more control over the watch page. Decide by the video's purpose and where you want the traffic to land."
+  },
+  {
+   "s": "Is there a size requirement for thumbnails?",
+   "c": "Google's documentation requires a valid thumbnail of at least 60x30 pixels, with larger preferred. Common formats such as JPEG, PNG, WebP and AVIF are supported, and you should use the same URL in every source for a given video."
+  },
+  {
+   "s": "Should I add a transcript to the page?",
+   "c": "A transcript helps users scan the content and adds text that supports the watch page. Use an edited version rather than pasting auto-generated captions as they are."
+  },
+  {
+   "s": "Do YouTube Shorts need anything different?",
+   "c": "On Google's side the principles are the same: the video needs a watch page, a valid thumbnail and consistent metadata. Distribution inside YouTube depends on YouTube's own systems."
+  },
+  {
+   "s": "Do removed videos keep showing in search?",
+   "c": "If the page returns a 404, carries noindex or requires login, the video drops out over time. For videos that expire on a set date, use the expires property or the video:expiration_date tag."
+  }
+ ]
+}

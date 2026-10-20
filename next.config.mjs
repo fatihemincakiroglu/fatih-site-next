@@ -5,22 +5,13 @@
 // DİKKAT: Buradaki bir blog/rehber slug'ı ileride yayına alınırsa önce
 // bu listeden çıkarılmalı; yönlendirme sayfanın önüne geçer.
 const ANASAYFAYA_YONLENEN = [
-  '/blog/icerik-guncelleme-stratejisi',
-  '/blog/programatik-seo-rehberi',
   '/2025/12',
   '/category/performans-pazarlamasi',
   '/analitik-raporlama',
-  '/blog/eeat-icin-icerik',
-  '/blog/pillar-cluster-modeli',
   '/tag/web',
-  '/blog/backlink-stratejisi-2025',
   '/category/dijital-pazarlama',
   '/service-one',
-  '/en/blog/google-ai-overview-optimizasyonu',
   '/meta-ads-yonetimi',
-  '/en/guides/mobil-seo',
-  '/en/blog/site-migrasyonu-seo',
-  '/blog/teknik-seo-2025',
   '/portfolio_category/design',
   '/2024/04/05/leveraging-feedback-on-insights-best-seo',
   '/portfolio-slider',
@@ -49,6 +40,18 @@ const ANASAYFAYA_YONLENEN = [
   '/e-ticaret-site-kurulumu',
   '/contact',
   '/elements',
+]
+
+// Eski blog adresleri: içeriği artık sitede bulunan konuya yönlenir (ana sayfa yerine).
+// /blog/eeat-icin-icerik ve /en/blog/google-ai-overview-optimizasyonu yeniden yayında olduğu için listede yok.
+const KONUYA_YONLENEN = [
+  ['/blog/icerik-guncelleme-stratejisi', '/blog/content-pruning'],
+  ['/blog/programatik-seo-rehberi', '/blog/programatik-seo'],
+  ['/blog/pillar-cluster-modeli', '/blog/topical-authority'],
+  ['/blog/backlink-stratejisi-2025', '/rehber/backlink-dijital-pr'],
+  ['/blog/teknik-seo-2025', '/rehber/teknik-seo'],
+  ['/en/guides/mobil-seo', '/en/blog/mobil-seo'],
+  ['/en/blog/site-migrasyonu-seo', '/en/guides/site-tasima-seo'],
 ]
 
 // ── GÜVENLİK BAŞLIKLARI ─────────────────────────────────────
@@ -142,6 +145,10 @@ const nextConfig = {
       // /istanbul-seo-uzmani kaldırıldı (/seo-uzmani ile aynı sorguyu hedefliyordu).
       { source: '/istanbul-seo-uzmani', destination: '/seo-uzmani', statusCode: 301 },
       { source: '/istanbul-seo-uzmani/', destination: '/seo-uzmani', statusCode: 301 },
+      ...KONUYA_YONLENEN.flatMap(([u, hedef]) => [
+        { source: u, destination: hedef, statusCode: 301 },
+        { source: `${u}/`, destination: hedef, statusCode: 301 },
+      ]),
       // Kaldırılmış eski adresler → ana sayfa. statusCode: 301 (permanent: true 308 verir).
       ...ANASAYFAYA_YONLENEN.flatMap(u => [
         { source: u, destination: '/', statusCode: 301 },

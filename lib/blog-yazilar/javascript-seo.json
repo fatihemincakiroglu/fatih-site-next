@@ -1,0 +1,411 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "JavaScript SEO: SPA, SSR ve Next.js Sitelerde Tarama ve Render",
+ "baslik_en": "JavaScript SEO: Crawling and Rendering on SPA, SSR and Next.js Sites",
+ "meta_baslik_tr": "JavaScript SEO: SPA, SSR ve Next.js'te Render",
+ "meta_baslik_en": "JavaScript SEO: Rendering on SPA, SSR and Next.js",
+ "meta_desc_tr": "CSR, SSR ve SSG farkı, Google'ın JavaScript'i nasıl render ettiği, URL Denetimi ile test yöntemi ve SPA ile Next.js sitelerde en sık yapılan SEO hataları.",
+ "meta_desc_en": "CSR vs SSR vs SSG, how Google renders JavaScript, how to test with URL Inspection, and the SEO mistakes I see most often on SPA and Next.js sites.",
+ "ozet_tr": "Google JavaScript'i render eder ama her zaman değil: doğru render yöntemini seçin, test edin, yaygın hatalardan kaçının.",
+ "ozet_en": "Google can render JavaScript, but not everything every time: choose a rendering method, test it properly and avoid common traps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "React, Vue ya da Angular ile kurulmuş bir sitede tarayıcıda her şey kusursuz görünür, ama Search Console'da sayfalar boş başlıkla ya da hiç dizine eklenmemiş hâlde durabilir. Sebep çoğu zaman içerik değil, içeriğin ne zaman ve nerede üretildiğidir.",
+    "Bu yazıda istemci tarafı (CSR), sunucu tarafı (SSR) ve statik (SSG) render farkını, Google'ın JavaScript'i işleme sürecini, URL Denetimi ile nasıl test edeceğinizi ve SPA ile Next.js projelerinde en sık karşılaştığım hataları anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Google JavaScript'i güncel bir Chromium ile render edebilir, ancak render ayrı bir aşamadır ve her sayfada aynı güvenilirlikte çalışmaz. Önemli içeriği, başlık, canonical ve robots etiketlerini ilk HTML yanıtında sunmak (SSR veya SSG) en güvenli yoldur. Sonucu URL Denetimi'nin canlı testindeki işlenmiş HTML ile doğrulayın."
+    }
+   ]
+  },
+  {
+   "baslik": "CSR, SSR ve SSG arasındaki fark nedir?",
+   "paragraflar": [
+    "Üç yöntem arasındaki temel soru şu: Tarayıcıya ilk gelen HTML'de içerik var mı? CSR'de sunucu neredeyse boş bir kabuk gönderir, içeriği JavaScript sonradan çizer. SSR'de her istekte HTML sunucuda hazırlanır. SSG'de sayfalar derleme sırasında üretilip dosya olarak sunulur.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yöntem",
+       "İlk HTML'de içerik",
+       "SEO açısından risk",
+       "Uygun olduğu yer"
+      ],
+      "satirlar": [
+       [
+        "CSR (istemci tarafı)",
+        "Yok ya da çok az",
+        "Yüksek: render'a bağımlı",
+        "Giriş gerektiren paneller, uygulama ekranları"
+       ],
+       [
+        "SSR (sunucu tarafı)",
+        "Var",
+        "Düşük",
+        "Sık değişen ürün, fiyat, stok sayfaları"
+       ],
+       [
+        "SSG (statik)",
+        "Var",
+        "Düşük",
+        "Blog, rehber, kurumsal sayfalar"
+       ],
+       [
+        "ISR / hibrit",
+        "Var (önbellekten)",
+        "Düşük",
+        "Çok sayıda ama seyrek değişen sayfa"
+       ]
+      ]
+     }
+    },
+    "Next.js'in App Router yapısında bileşenler varsayılan olarak sunucuda render edilir; sorun genellikle kritik içeriğin \"use client\" bileşenlerinde ve tarayıcıda çekilen verilerde kalmasıyla başlar. Genel tarama ve dizine ekleme mantığını [teknik SEO rehberinde](/rehber/teknik-seo) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Google JavaScript'i nasıl tarar ve render eder?",
+   "paragraflar": [
+    "Google'ın JavaScript SEO dokümanı süreci üç aşamada anlatır: tarama, render ve dizine ekleme. Aşağıdaki akış, bir URL'nin bu aşamalardan nasıl geçtiğini özetliyor.",
+    {
+     "akis": {
+      "baslik": "Bir JavaScript sayfasının Google'daki yolculuğu",
+      "adimlar": [
+       {
+        "baslik": "robots.txt kontrolü",
+        "metin": "Engelli URL taranmaz; engelli sayfa ve dosyalarda JavaScript de çalıştırılmaz."
+       },
+       {
+        "baslik": "Tarama",
+        "metin": "Googlebot ilk HTML'i alır, içindeki bağlantıları keşfeder."
+       },
+       {
+        "baslik": "Render kuyruğu",
+        "metin": "200 dönen sayfalar kuyruğa girer; bekleme birkaç saniye de olabilir, daha uzun da."
+       },
+       {
+        "baslik": "Render",
+        "metin": "Güncel (evergreen) Chromium sayfayı çalıştırır, oluşan HTML'deki yeni linkler de taranır."
+       },
+       {
+        "baslik": "Dizine ekleme",
+        "metin": "İşlenmiş HTML değerlendirilir ve dizine ekleme kararı verilir."
+       }
+      ]
+     }
+    },
+    "İki ayrıntı sahada çok iş çıkarıyor. Birincisi, dokümana göre durum kodu 200 dışındaki sayfalarda render atlanabilir. İkincisi, ilk HTML'de noindex varsa Google render ve JavaScript çalıştırmayı atlayabilir; yani noindex'i JavaScript ile kaldırmaya çalışmak işe yaramayabilir."
+   ]
+  },
+  {
+   "baslik": "SPA ve Next.js sitelerde en sık yapılan hatalar",
+   "paragraflar": [
+    "Denetimlerde karşılaştığım JavaScript kaynaklı sorunların büyük kısmı aşağıdaki altı başlığa giriyor:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Gerçek olmayan linkler",
+       "metin": "Google yalnızca href özniteliği olan a etiketlerini link olarak keşfeder. onClick ile çalışan div ve span'ler keşfedilmez."
+      },
+      {
+       "ikon": "#️⃣",
+       "baslik": "Fragment ile yönlendirme",
+       "metin": "#/urunler gibi adresler ayrı sayfa sayılmaz. History API ile gerçek URL'ler kullanın."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "JavaScript ile noindex oyunu",
+       "metin": "İlk HTML'de noindex verip sonra kaldırmak güvenilir değildir; render hiç yapılmayabilir."
+      },
+      {
+       "ikon": "🧭",
+       "baslik": "Canonical'ı değiştirmek",
+       "metin": "Canonical HTML'de belirtilmeli; JavaScript ile farklı bir URL'ye çevirmek çelişkili sinyal üretir."
+      },
+      {
+       "ikon": "👻",
+       "baslik": "SPA'da soft 404",
+       "metin": "Bulunamayan rota 200 ile boş şablon döndürür. Gerçek 404 dönen URL'ye yönlendirin ya da noindex ekleyin."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Engellenen kaynaklar",
+       "metin": "robots.txt ile engellenen JS veya API uç noktaları render'ı eksik bırakır."
+      }
+     ]
+    },
+    "Bu hataların çoğu Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" ya da soft 404 olarak görünür; teşhis için [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısındaki gruplama yöntemini kullanabilirsiniz. Kaynak engelleme tarafında [robots.txt yapılandırması](/blog/robots-txt) yazısı işinize yarar."
+   ]
+  },
+  {
+   "baslik": "URL Denetimi ile render testi nasıl yapılır?",
+   "paragraflar": [
+    "Tarayıcıda \"kaynağı görüntüle\" ilk HTML'i, geliştirici araçları ise sizin tarayıcınızın ürettiği DOM'u gösterir. Google'ın gördüğünü anlamak için Search Console'daki URL Denetimi aracının canlı testi en doğru kaynaktır. Yardım dokümanına göre işlenmiş sayfanın ekran görüntüsü yalnızca canlı testte sunuluyor.",
+    {
+     "kontrol": [
+      "URL Denetimi'nde \"Canlı URL'yi test et\" deyin, ardından \"Test edilen sayfayı görüntüle\" bölümünü açın.",
+      "HTML sekmesinde ana metin, h1, title, meta description ve canonical yer alıyor mu?",
+      "Ekran görüntüsünde içerik alanı dolu mu, yoksa yükleniyor simgesi mi var?",
+      "Diğer bilgiler bölümünde yüklenemeyen sayfa kaynaklarını ve JavaScript konsol mesajlarını kontrol edin.",
+      "Sahibi olmadığınız bir sayfa için Zengin Sonuçlar Testi'ni kullanın; o da işlenmiş HTML gösterir.",
+      "Aynı kontrolü her şablondan (ürün, kategori, blog) birkaç örnekle yapın."
+     ]
+    },
+    "Render sorunu sayfa hızıyla da iç içe geçer: büyük JavaScript paketleri LCP ve INP değerlerini zorlar. Eşikler için [Core Web Vitals 2025 rehberi](/blog/core-web-vitals-2025) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Dinamik render hâlâ bir seçenek mi?",
+   "paragraflar": [
+    "Bir dönem botlara önceden render edilmiş HTML, kullanıcılara JavaScript sürümü sunan dinamik render sık öneriliyordu. Google'ın güncel dokümanı ise açık: dinamik render geçici bir çözümdür ve önerilen bir yöntem değildir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Kalıcı çözüm sunucuda",
+      "metin": "Google dinamik render yerine sunucu tarafı render, statik render ya da hidrasyon öneriyor. Botlara ve kullanıcılara farklı içerik gösterirseniz cloaking riskine de girersiniz; iki sürümün içeriği aynı kalmalı."
+     }
+    },
+    "Ayrıca yalnızca Google'ı düşünmek yetmez. Dokümanın da belirttiği gibi her bot JavaScript çalıştırmaz; yapay zekâ asistanlarının taramalarında ilk HTML'in dolu olması daha da önem kazanıyor."
+   ]
+  },
+  {
+   "baslik": "Hangi sayfa için hangi render yöntemi?",
+   "paragraflar": [
+    "Pratik kural şu: Aramadan trafik bekleyen her sayfa ilk HTML'de içeriğini taşımalı. Giriş arkasındaki paneller, sepet ve hesap ekranları ise CSR ile kalabilir; zaten dizine eklenmeleri gerekmez.",
+    {
+     "liste": [
+      "Ürün ve kategori sayfaları: SSR ya da kısa yeniden doğrulama süreli ISR. Fiyat ve stok gibi alanlar da HTML'de olmalı.",
+      "Blog ve rehber içerikleri: SSG. Yapısal veriyi de sunucuda üretin; [schema oluşturucu](/araclar/schema-olusturucu) ile JSON-LD taslağı çıkarabilirsiniz.",
+      "Filtre ve sıralama ekranları: dizine eklenmesi istenen kombinasyonlar için gerçek URL, gerisi için parametre kontrolü.",
+      "Kullanıcıya özel ekranlar: CSR, noindex gerekmez çünkü genellikle giriş gerektirir."
+     ]
+    },
+    "Büyük mağazalarda bu karar şablon bazında verilmeli; filtre ve varyant yapısı için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir çerçeve sunuyor. Ağır JavaScript paketlerini küçültmek ve hız bütçesi koymak [performans ve büyüme hizmeti](/performans) kapsamında ele aldığım konulardan.",
+    "Next.js ya da SPA projenizde hangi şablonların risk taşıdığını görmek isterseniz [SEO uzmanı](/seo-uzmani) olarak render denetimi yapabilirim; [kısa bir görüşme](/randevu) ile başlayabiliriz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A React, Vue or Angular site can look flawless in the browser while Search Console shows pages with empty titles or no indexing at all. The problem is usually not the content but when and where it is produced.",
+    "This article covers the difference between client-side (CSR), server-side (SSR) and static (SSG) rendering, how Google processes JavaScript, how to test with URL Inspection, and the mistakes I see most often on SPA and Next.js projects.",
+    {
+     "alinti": "Short answer: Google can render JavaScript with an up-to-date Chromium, but rendering is a separate stage and does not work equally reliably on every page. Serving the main content, title, canonical and robots tags in the initial HTML response (SSR or SSG) is the safest route. Confirm the result with the rendered HTML in URL Inspection's live test."
+    }
+   ]
+  },
+  {
+   "baslik": "What is the difference between CSR, SSR and SSG?",
+   "paragraflar": [
+    "The key question is whether the first HTML the browser receives contains the content. With CSR the server sends an almost empty shell and JavaScript draws the content later. With SSR the HTML is built on the server for every request. With SSG pages are generated at build time and served as files.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Method",
+       "Content in initial HTML",
+       "SEO risk",
+       "Good fit for"
+      ],
+      "satirlar": [
+       [
+        "CSR (client-side)",
+        "None or very little",
+        "High: depends on rendering",
+        "Logged-in dashboards, app screens"
+       ],
+       [
+        "SSR (server-side)",
+        "Yes",
+        "Low",
+        "Frequently changing product, price, stock pages"
+       ],
+       [
+        "SSG (static)",
+        "Yes",
+        "Low",
+        "Blog, guides, company pages"
+       ],
+       [
+        "ISR / hybrid",
+        "Yes (from cache)",
+        "Low",
+        "Many pages that change rarely"
+       ]
+      ]
+     }
+    },
+    "In the Next.js App Router, components render on the server by default; trouble usually starts when critical content lives in \"use client\" components and data fetched in the browser. I cover general crawling and indexing logic in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "How does Google crawl and render JavaScript?",
+   "paragraflar": [
+    "Google's JavaScript SEO documentation describes three phases: crawling, rendering and indexing. The flow below summarises how a URL moves through them.",
+    {
+     "akis": {
+      "baslik": "A JavaScript page's journey through Google",
+      "adimlar": [
+       {
+        "baslik": "robots.txt check",
+        "metin": "Blocked URLs are not crawled, and JavaScript is not run on blocked pages or files."
+       },
+       {
+        "baslik": "Crawling",
+        "metin": "Googlebot fetches the initial HTML and discovers the links in it."
+       },
+       {
+        "baslik": "Render queue",
+        "metin": "Pages returning 200 are queued; the wait may be a few seconds or longer."
+       },
+       {
+        "baslik": "Rendering",
+        "metin": "An evergreen Chromium runs the page, and new links in the result are crawled too."
+       },
+       {
+        "baslik": "Indexing",
+        "metin": "The rendered HTML is evaluated and an indexing decision is made."
+       }
+      ]
+     }
+    },
+    "Two details cause a lot of work in practice. First, the documentation says rendering might be skipped for pages with a non-200 status code. Second, if the initial HTML contains noindex, Google may skip rendering and JavaScript execution, so removing noindex with JavaScript may not work."
+   ]
+  },
+  {
+   "baslik": "The most common mistakes on SPA and Next.js sites",
+   "paragraflar": [
+    "Most of the JavaScript issues I find in audits fall into these six groups:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Links that are not links",
+       "metin": "Google only discovers a elements with an href attribute. Divs and spans with onClick handlers are not followed."
+      },
+      {
+       "ikon": "#️⃣",
+       "baslik": "Fragment routing",
+       "metin": "Addresses like #/products are not treated as separate pages. Use the History API and real URLs."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "The noindex trick",
+       "metin": "Shipping noindex in the HTML and removing it with JavaScript is unreliable; rendering may never happen."
+      },
+      {
+       "ikon": "🧭",
+       "baslik": "Rewriting the canonical",
+       "metin": "Set the canonical in HTML; changing it to another URL with JavaScript sends conflicting signals."
+      },
+      {
+       "ikon": "👻",
+       "baslik": "Soft 404s in SPAs",
+       "metin": "Unknown routes return 200 with an empty template. Redirect to a URL that returns 404, or add noindex."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Blocked resources",
+       "metin": "JS files or API endpoints blocked in robots.txt leave the rendered page incomplete."
+      }
+     ]
+    },
+    "Most of these show up in Search Console as \"Crawled – currently not indexed\" or soft 404s; for diagnosis, use the grouping method in [fixing crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis). On the resource-blocking side, the [robots.txt configuration](/en/blog/robots-txt) article will help."
+   ]
+  },
+  {
+   "baslik": "How to test rendering with URL Inspection",
+   "paragraflar": [
+    "\"View source\" shows the initial HTML, developer tools show your own browser's DOM. To see what Google sees, the live test in Search Console's URL Inspection tool is the most accurate source. According to the help documentation, a screenshot of the rendered page is only available in a live test.",
+    {
+     "kontrol": [
+      "In URL Inspection, click \"Test live URL\", then open \"View tested page\".",
+      "In the HTML tab, are the main text, h1, title, meta description and canonical present?",
+      "Does the screenshot show the content area filled in, or a loading spinner?",
+      "Under More info, check page resources that failed to load and JavaScript console messages.",
+      "For pages you do not own, use the Rich Results Test, which also shows rendered HTML.",
+      "Repeat the check on a few examples from every template (product, category, blog)."
+     ]
+    },
+    "Large JavaScript bundles also put pressure on LCP and INP; for thresholds, see the [Core Web Vitals 2025 guide](/en/blog/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "Is dynamic rendering still an option?",
+   "paragraflar": [
+    "Dynamic rendering, serving pre-rendered HTML to bots and the JavaScript version to users, was once widely recommended. Google's current documentation is clear: dynamic rendering is a workaround and not a recommended solution.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "The lasting fix lives on the server",
+      "metin": "Instead of dynamic rendering, Google suggests server-side rendering, static rendering or hydration. If bots and users see different content you also risk cloaking; both versions must carry the same content."
+     }
+    },
+    "As the documentation notes, not every bot runs JavaScript, so a complete initial HTML also matters when AI assistants fetch your pages."
+   ]
+  },
+  {
+   "baslik": "Which rendering method for which page?",
+   "paragraflar": [
+    "The practical rule: every page that expects search traffic should carry its content in the initial HTML. Logged-in dashboards, cart and account screens can stay on CSR.",
+    {
+     "liste": [
+      "Product and category pages: SSR or ISR with a short revalidation window. Price and stock should be in the HTML too.",
+      "Blog posts and guides: SSG. Generate structured data on the server as well; the [schema generator](/en/tools/schema-generator) gives you a JSON-LD draft.",
+      "Filter and sort screens: real URLs for combinations you want indexed, parameter control for the rest.",
+      "User-specific screens: CSR; they usually sit behind a login, so noindex is rarely needed."
+     ]
+    },
+    "On large stores this decision should be made per template; the [ecommerce SEO guide](/en/guides/e-ticaret-seo) offers a good framework for filters and variants. Trimming heavy bundles and setting a performance budget is part of my [performance and growth service](/en/performance-growth).",
+    "If you want to know which templates on your Next.js or SPA project carry risk, I can run a rendering audit as part of [SEO consulting](/en/seo-consulting); a [short call](/en/book-a-call) is a good place to start."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Google, React ile yapılmış bir siteyi dizine ekleyebilir mi?",
+   "c": "Evet, Google JavaScript'i render edebilir ve pek çok React sitesi sorunsuz dizine eklenir. Risk, içeriğin yalnızca render sonrası oluşması ve render'ın gecikmesi ya da eksik kalmasıdır. Önemli sayfalarda SSR veya SSG bu riski büyük ölçüde ortadan kaldırır."
+  },
+  {
+   "s": "Render kuyruğunda sayfa ne kadar bekler?",
+   "c": "Google'ın dokümanına göre sayfa kuyrukta birkaç saniye kalabilir ama daha uzun da sürebilir. Kesin bir süre verilmiyor. Bu belirsizlik, sık güncellenen içeriği ilk HTML'de sunmanın bir başka nedeni."
+  },
+  {
+   "s": "Sonsuz kaydırma (infinite scroll) SEO'ya zarar verir mi?",
+   "c": "Googlebot kaydırma ya da tıklama yapmaz; yalnızca kaydırmayla yüklenen ürünler keşfedilmeyebilir. Sonsuz kaydırmanın yanında her parça için gerçek URL'li sayfalama linkleri sunmak güvenli bir yaklaşımdır."
+  },
+  {
+   "s": "Next.js kullanıyorsam JavaScript SEO sorunu yaşamam mı?",
+   "c": "Next.js doğru kurulduğunda sunucu render'ı kolaylaştırır ama kendiliğinden çözmez. Veriyi tarayıcıda çeken istemci bileşenleri, eksik metadata ve yanlış durum kodları Next.js sitelerde de sık görülür."
+  },
+  {
+   "s": "JavaScript ile eklenen yapısal veri okunur mu?",
+   "c": "Google, render sonrası DOM'daki JSON-LD'yi okuyabilir. Yine de render'a bağımlılığı azaltmak için yapısal veriyi sunucuda üretmek daha güvenlidir; sonucu Zengin Sonuçlar Testi ile doğrulayın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can Google index a site built with React?",
+   "c": "Yes, Google can render JavaScript and many React sites are indexed without trouble. The risk is that content only exists after rendering, which may be delayed or incomplete. SSR or SSG on important pages removes most of that risk."
+  },
+  {
+   "s": "How long does a page wait in the render queue?",
+   "c": "Google's documentation says a page may stay in the queue for a few seconds, but it can take longer. No exact time is given. That uncertainty is another reason to serve frequently updated content in the initial HTML."
+  },
+  {
+   "s": "Does infinite scroll hurt SEO?",
+   "c": "Googlebot does not scroll or click, so products loaded only on scroll may never be discovered. Offering paginated links with real URLs for each chunk alongside infinite scroll is a safe approach."
+  },
+  {
+   "s": "If I use Next.js, am I safe from JavaScript SEO problems?",
+   "c": "Next.js makes server rendering easier when set up well, but it does not solve everything by itself. Client components that fetch data in the browser, missing metadata and wrong status codes are common on Next.js sites too."
+  },
+  {
+   "s": "Is structured data added with JavaScript read?",
+   "c": "Google can read JSON-LD from the rendered DOM. Still, generating structured data on the server reduces dependence on rendering; confirm the result with the Rich Results Test."
+  }
+ ]
+}

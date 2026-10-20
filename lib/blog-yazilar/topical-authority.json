@@ -1,0 +1,447 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "Topical Authority Nedir? Konu Otoritesi ve Pillar-Cluster Modeli",
+ "baslik_en": "What Is Topical Authority? Topic Clusters and the Pillar-Cluster Model",
+ "meta_baslik_tr": "Topical Authority Nedir? Pillar-Cluster Modeli Rehberi",
+ "meta_baslik_en": "What Is Topical Authority? The Pillar-Cluster Model",
+ "meta_desc_tr": "Topical authority (konu otoritesi) nedir, Google bu konuda ne söylüyor? Pillar-cluster modeli, konu kümesi planlama adımları ve küme içi iç link kurgusu.",
+ "meta_desc_en": "What topical authority means and what Google actually says about it: the pillar-cluster model, how to plan a topic cluster and how to link pages inside it.",
+ "ozet_tr": "Konu otoritesi resmi bir puan değil, bir çalışma çerçevesi. Pillar-cluster modelini adım adım planlamak.",
+ "ozet_en": "Topical authority is not an official score but a working framework. How to plan a pillar-cluster model step by step.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Topical authority (konu otoritesi), bir sitenin belirli bir konuyu ne kadar kapsamlı, tutarlı ve güvenilir biçimde işlediğini anlatan bir SEO kavramı. Tek tek anahtar kelimeler için dağınık sayfalar yazmak yerine, bir konuyu bütün alt sorularıyla ele alan ve birbirine bağlı içerik kümeleri kurmayı ifade eder.",
+    "Kavram sahada çok kullanılıyor ama sık da abartılıyor. Bu yazıda Google'ın bu konuda gerçekte ne söylediğini, ne söylemediğini ve pillar-cluster modelini bir projede adım adım nasıl planladığımı anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Topical authority, Google'ın siteler için ölçtüğü resmi bir “otorite puanı” değil; bir konuyu derinlemesine ve tutarlı işleyen sitelerin aramada daha iyi anlaşılmasını hedefleyen bir çalışma çerçevesi. Pratikte bir ana (pillar) sayfa, alt soruları işleyen destek (cluster) sayfaları ve bunları bağlayan iç linklerle kurulur."
+    }
+   ]
+  },
+  {
+   "baslik": "Topical authority nedir, Google bu konuda ne söylüyor?",
+   "paragraflar": [
+    "Google'ın yardımcı ve güvenilir içerik dokümanı, içeriğinizi değerlendirirken kendinize sorabileceğiniz sorular arasında “Sitenizin birincil bir amacı ya da odağı var mı?” ve “İçerik birinci elden uzmanlık ve bilgi derinliği gösteriyor mu?” sorularını sayıyor. Konu otoritesi fikri, bu iki sorunun sahadaki karşılığı.",
+    "Google'ın “topic authority” adını doğrudan kullandığı yer ise Mayıs 2023'te Search Central blogunda anlattığı haber sistemi. Bu sistem haber sorgularında sağlık, siyaset, finans gibi alanlarda uzman kaynakları öne çıkarmak için kullanılıyor ve bir kaynağın belirli bir konu ya da bölge için ne kadar öne çıktığı, özgün haberciliği ve itibarı gibi sinyallere bakıyor.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Kavramı abartmayın",
+      "metin": "Google, haber dışındaki siteler için ölçülen bir “konu otoritesi puanı” tanımlamıyor. SEO araçlarındaki otorite skorları o araçların kendi hesaplamasıdır; Google'ın kullandığı bir sinyal değildir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Pillar-cluster modeli nasıl çalışır?",
+   "paragraflar": [
+    "Modelin mantığı basit: Geniş bir konuyu özetleyen bir pillar sayfa, her biri tek bir alt soruya odaklanan cluster sayfaları ve aralarında anlamlı iç linkler. Mimarinin genel çerçevesi [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlatılıyor; burada planlama ve uygulama tarafına odaklanıyorum.",
+    "Aşağıdaki örnek, endüstriyel kompresör satan bir üretici için kurduğum türden bir küme:",
+    {
+     "agac": {
+      "kok": "/vidali-kompresor/ (pillar)",
+      "dallar": [
+       {
+        "ad": "Seçim ve teknik",
+        "alt": [
+         "/vidali-kompresor/kapasite-hesabi",
+         "/vidali-kompresor/basinc-secimi"
+        ]
+       },
+       {
+        "ad": "Maliyet",
+        "alt": [
+         "/vidali-kompresor/enerji-tuketimi",
+         "/vidali-kompresor/bakim-maliyeti"
+        ]
+       },
+       {
+        "ad": "Karşılaştırma",
+        "alt": [
+         "/vidali-kompresor/pistonlu-ile-farki"
+        ]
+       }
+      ]
+     }
+    },
+    "Bu yapı özellikle satış döngüsü uzun olan [B2B üretici sitelerinde](/sektorler/b2b-uretici-seo) iyi çalışıyor: Satın alma sürecinde sorulan her teknik soru bir cluster sayfasına, pillar sayfa da karar vericinin başlangıç noktasına dönüşüyor."
+   ]
+  },
+  {
+   "baslik": "Konu kümesi adım adım nasıl planlanır?",
+   "paragraflar": [
+    "Bir küme haritasını genellikle beş adımda çıkarıyorum. En çok zaman alan kısım soru toplama ve gruplama; yazıya geçmeden önce haritanın netleşmesi, sonradan birbirine rakip sayfalar üretmeyi önlüyor.",
+    {
+     "akis": {
+      "baslik": "Konu kümesi planlama süreci",
+      "adimlar": [
+       {
+        "baslik": "Konuyu sınırla",
+        "metin": "İş hedefinizle örtüşen ve gerçekten uzman olduğunuz bir konu seçin."
+       },
+       {
+        "baslik": "Soruları topla",
+        "metin": "Search Console sorguları, satış ve destek ekibinin duyduğu sorular, arama sonuçlarındaki ilgili sorular."
+       },
+       {
+        "baslik": "Niyete göre grupla",
+        "metin": "Aynı arama sonucunu paylaşan sorgular tek sayfada işlenir."
+       },
+       {
+        "baslik": "Pillar ve cluster'ları ata",
+        "metin": "Geniş niyet pillar'a, tekil sorular cluster'lara gider."
+       },
+       {
+        "baslik": "Boşluk ve çakışmaları işaretle",
+        "metin": "Eksik alt konular ve aynı sorguyu hedefleyen mevcut sayfalar listelenir."
+       }
+      ]
+     }
+    },
+    "Gruplama adımında [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) SERP benzerliği yöntemini kullanıyorum: İki sorgu için ilk sayfada büyük ölçüde aynı URL'ler çıkıyorsa, Google bu sorguları aynı ihtiyaç olarak görüyor demektir ve tek sayfa yeterlidir."
+   ]
+  },
+  {
+   "baslik": "Pillar sayfa ile cluster sayfa arasındaki fark ne?",
+   "paragraflar": [
+    "İki sayfa türü farklı işler görür. Karıştırıldığında ya pillar sayfa her şeyi anlatmaya çalışan uzun bir duvara dönüşür ya da cluster sayfalar birbirinin tekrarı olur.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Özellik",
+       "Pillar sayfa",
+       "Cluster sayfa"
+      ],
+      "satirlar": [
+       [
+        "Kapsam",
+        "Konunun tamamını özetler",
+        "Tek bir alt soruyu derinlemesine işler"
+       ],
+       [
+        "Hedef sorgu",
+        "Geniş, genel niyetli terim",
+        "Uzun kuyruklu, belirli soru"
+       ],
+       [
+        "Derinlik",
+        "Her alt başlığa kısa giriş, ayrıntı için link",
+        "Adımlar, örnekler, tablolar, karar ölçütleri"
+       ],
+       [
+        "Linkler",
+        "Tüm cluster'lara bağlantı verir",
+        "Pillar'a ve ilişkili cluster'lara bağlanır"
+       ],
+       [
+        "Güncelleme",
+        "Yeni cluster eklendikçe",
+        "Konudaki bilgi değiştikçe"
+       ]
+      ]
+     }
+    },
+    "Sahada en sık gördüğüm sorun, pillar ile bir cluster'ın aynı sorguyu hedeflemesi. Bu durumda iki sayfa birbirinin rakibi olur; ya kapsamları netleştirilir ya da sayfalar birleştirilir."
+   ]
+  },
+  {
+   "baslik": "Küme içinde iç linkler nasıl kurulmalı?",
+   "paragraflar": [
+    "Kümeyi bir arada tutan şey iç linkler. Google'ın bağlantı dokümanı, önemsediğiniz her sayfanın sitenizdeki en az bir başka sayfadan link alması gerektiğini söylüyor; küme içinde bundan fazlasını hedefliyorum:",
+    {
+     "liste": [
+      "Pillar sayfa her cluster'a, ilgili bölümün içinden açıklayıcı bir bağlantı metniyle link verir.",
+      "Her cluster, metnin akışı içinde pillar sayfaya geri döner.",
+      "Cluster'lar birbirine yalnızca okuyucu için gerçekten ilişkiliyse bağlanır.",
+      "Pillar sayfaya menü ya da breadcrumb üzerinden de ulaşılabilir.",
+      "Hiçbir cluster yetim kalmaz; yeni sayfa yayınlanınca ilgili eski sayfalar da güncellenir."
+     ]
+    },
+    "Bağlantı metni, tıklama derinliği ve denetim yöntemini [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı anlattım. Tarama ve site mimarisinin teknik tarafı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Konu otoritesi kurarken sık yapılan hatalar",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İşe yarayan yaklaşım",
+       "tur": "iyi",
+       "maddeler": [
+        "Her sayfa ayrı bir soruyu cevaplar",
+        "Konu, iş alanınız ve uzmanlığınızla örtüşür",
+        "Küme yavaş ama tutarlı büyür",
+        "Eski sayfalar düzenli gözden geçirilir"
+       ]
+      },
+      "sag": {
+       "baslik": "Ters tepen yaklaşım",
+       "tur": "kotu",
+       "maddeler": [
+        "Aynı sorgu için birkaç benzer sayfa",
+        "Trafik var diye ilgisiz konulara dağılmak",
+        "Kısa sürede yüzlerce yüzeysel sayfa",
+        "Yayınlanıp unutulan içerikler"
+       ]
+      }
+     }
+    },
+    "Hacim baskısıyla açılan çok sayıda benzer sayfa çoğu zaman fayda yerine risk üretir; bu sınırı Google'ın spam politikalarıyla birlikte [programatik SEO](/blog/programatik-seo) yazısında ele aldım. Kümede zayıf kalmış eski sayfaları ne yapacağınıza karar vermek için de [content pruning ve içerik güncelleme](/blog/content-pruning) rehberine göz atın."
+   ]
+  },
+  {
+   "baslik": "Konu otoritesinin gelişimi nasıl izlenir?",
+   "paragraflar": [
+    "Tek bir metrik yok. Search Console Performans raporunda kümeye ait URL'leri bir sayfa filtresiyle gruplayıp toplam gösterimi, gösterim alınan farklı sorgu sayısını ve ortalama konumu aylık olarak izliyorum. Küme genişledikçe aynı konuda daha fazla farklı sorguda görünmek beklenen tablodur.",
+    "Kendi alanınız için bir küme haritası çıkarmak isterseniz [içerik stratejisi hizmeti](/icerik) kapsamında birlikte çalışabiliriz. Sitenin genel durumuyla birlikte değerlendirmek için [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Topical authority için kaç içerik yazmak gerekir?",
+   "c": "Sabit bir sayı yok. Ölçüt, hedef kitlenizin o konuda sorduğu önemli soruların cevaplanmış olması. Dar bir konuda on iyi sayfa, geniş bir konuda dağınık elli sayfadan daha tutarlı bir küme oluşturabilir."
+  },
+  {
+   "s": "Küçük bir site konu otoritesi kurabilir mi?",
+   "c": "Evet, hatta dar odak küçük siteler için avantajdır. Tek bir hizmet ya da ürün grubuna odaklanıp o alandaki soruları derinlemesine cevaplayan bir site, geniş ama yüzeysel bir siteden daha net bir konu sinyali verir."
+  },
+  {
+   "s": "Pillar sayfa ne kadar uzun olmalı?",
+   "c": "Kelime sayısı hedef değil. Pillar sayfa konunun haritasını çıkarmalı, her alt başlığa kısa bir giriş yapıp ayrıntı için ilgili cluster'a yönlendirmeli. Bir cluster'ın işini üstlenmeye başladıysa fazla uzamış demektir."
+  },
+  {
+   "s": "Sitemde ilgisiz konularda yazılar olması zarar verir mi?",
+   "c": "Tek başına bir ceza nedeni değil. Ancak sitenin ana odağını bulanıklaştırır ve kaynakları dağıtır. İş hedefinizle ilgisi olmayan, trafik için yazılmış içerikleri gözden geçirip güncellemek, birleştirmek ya da kaldırmak çoğu zaman daha verimlidir."
+  },
+  {
+   "s": "Topical authority ile E-E-A-T aynı şey mi?",
+   "c": "Hayır. Konu otoritesi bir konunun ne kadar kapsamlı işlendiğiyle, E-E-A-T ise içeriği kimin, hangi deneyimle ve ne kadar güvenilir biçimde hazırladığıyla ilgili. İkisi birbirini tamamlar; ayrıntı için [E-E-A-T'yi içerikte gösterme](/blog/eeat-icin-icerik) yazısına bakın."
+  },
+  {
+   "s": "Konu kümeleri yapay zekâ cevaplarında görünürlüğe yardımcı olur mu?",
+   "c": "Kesin bir etki iddiası yapmak doğru olmaz. Google'ın dokümanına göre AI Overviews ve AI Mode bir soruyu alt konulara bölerek birden fazla ilgili arama yapabiliyor; alt soruları ayrı ayrı net cevaplayan bir küme, bu tür aramalarda daha çok soruya kaynak olabilecek içerik sunar."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Topical authority is an SEO concept describing how thoroughly, consistently and reliably a site covers a given subject. Instead of writing scattered pages for individual keywords, it means building connected content clusters that handle a topic together with all of its sub-questions.",
+    "The term is popular and often overstated. Below: what Google actually says, what it does not, and how I plan a pillar-cluster model.",
+    {
+     "alinti": "Short answer: Topical authority is not an official “authority score” Google measures for websites; it is a working framework for helping sites that cover a subject in depth to be understood better in search. In practice it is built from one main (pillar) page, supporting (cluster) pages that answer sub-questions, and the internal links that connect them."
+    }
+   ]
+  },
+  {
+   "baslik": "What is topical authority and what does Google say?",
+   "paragraflar": [
+    "Google's documentation on helpful, reliable content lists questions you can ask about your own content, including “Does your site have a primary purpose or focus?” and whether the content clearly demonstrates first-hand expertise and a depth of knowledge. Topical authority is the practical answer to those two questions.",
+    "The place where Google uses the name “topic authority” directly is a news system described on the Search Central blog in May 2023. It helps surface expert sources for news queries in areas such as health, politics and finance, and it looks at signals like how notable a source is for a topic or location, original reporting and reputation.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Do not overstate it",
+      "metin": "Google does not define a measured “topical authority score” for non-news websites. Authority scores in SEO tools are each tool's own calculation, not a signal Google uses."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How does the pillar-cluster model work?",
+   "paragraflar": [
+    "The logic is simple: one pillar page that summarises a broad topic, cluster pages that each focus on a single sub-question, and meaningful internal links between them. The overall architecture is covered in the [content strategy guide](/en/guides/icerik-stratejisi); here I focus on planning and execution.",
+    "The example below is the kind of cluster I build for an industrial compressor manufacturer:",
+    {
+     "agac": {
+      "kok": "/screw-compressor/ (pillar)",
+      "dallar": [
+       {
+        "ad": "Selection and specs",
+        "alt": [
+         "/screw-compressor/capacity-calculation",
+         "/screw-compressor/pressure-selection"
+        ]
+       },
+       {
+        "ad": "Cost",
+        "alt": [
+         "/screw-compressor/energy-consumption",
+         "/screw-compressor/maintenance-cost"
+        ]
+       },
+       {
+        "ad": "Comparison",
+        "alt": [
+         "/screw-compressor/vs-piston-compressor"
+        ]
+       }
+      ]
+     }
+    },
+    "This works especially well for [B2B manufacturer websites](/en/industries/b2b-manufacturer-seo) with long sales cycles: every technical question asked during procurement becomes a cluster page."
+   ]
+  },
+  {
+   "baslik": "How do you plan a topic cluster step by step?",
+   "paragraflar": [
+    "I build a cluster map in five steps. Getting the map right before writing prevents pages that later compete with each other.",
+    {
+     "akis": {
+      "baslik": "Topic cluster planning process",
+      "adimlar": [
+       {
+        "baslik": "Define the topic",
+        "metin": "Pick a subject that matches your business goals and where you have real expertise."
+       },
+       {
+        "baslik": "Collect questions",
+        "metin": "Search Console queries, questions sales and support teams hear, related questions in search results."
+       },
+       {
+        "baslik": "Group by intent",
+        "metin": "Queries that share the same search results belong on one page."
+       },
+       {
+        "baslik": "Assign pillar and clusters",
+        "metin": "Broad intent goes to the pillar, specific questions go to clusters."
+       },
+       {
+        "baslik": "Flag gaps and overlaps",
+        "metin": "List missing subtopics and existing pages targeting the same query."
+       }
+      ]
+     }
+    },
+    "For grouping I use the SERP similarity method from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi): if two queries return largely the same URLs on page one, Google treats them as the same need and one page is enough."
+   ]
+  },
+  {
+   "baslik": "What is the difference between pillar and cluster pages?",
+   "paragraflar": [
+    "The two page types do different jobs; mixing them up produces either a bloated pillar or repetitive clusters.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Attribute",
+       "Pillar page",
+       "Cluster page"
+      ],
+      "satirlar": [
+       [
+        "Scope",
+        "Summarises the whole topic",
+        "Covers one sub-question in depth"
+       ],
+       [
+        "Target query",
+        "Broad, general-intent term",
+        "Long-tail, specific question"
+       ],
+       [
+        "Depth",
+        "Short intro to each subtopic, links for detail",
+        "Steps, examples, tables, decision criteria"
+       ],
+       [
+        "Links",
+        "Links to every cluster",
+        "Links to the pillar and related clusters"
+       ],
+       [
+        "Updates",
+        "When a new cluster is added",
+        "When the facts on the topic change"
+       ]
+      ]
+     }
+    },
+    "The most common problem I see in audits is a pillar and a cluster targeting the same query. The two pages then compete; either their scope is clarified or they are merged."
+   ]
+  },
+  {
+   "baslik": "How should internal links work inside a cluster?",
+   "paragraflar": [
+    "Internal links hold the cluster together. Google's link documentation says every page you care about should have a link from at least one other page on your site; inside a cluster I aim higher:",
+    {
+     "liste": [
+      "The pillar links to every cluster from within the relevant section, using descriptive anchor text.",
+      "Each cluster links back to the pillar within the flow of the text.",
+      "Clusters link to each other only when they are genuinely related for the reader.",
+      "The pillar is also reachable from the menu or breadcrumbs.",
+      "No cluster is left orphaned; when a new page goes live, related older pages are updated too."
+     ]
+    },
+    "I cover anchor text, click depth and auditing in detail in the [internal linking strategy](/en/blog/ic-linkleme) article. For the technical side of crawling and site architecture, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Common mistakes when building topical authority",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "What works",
+       "tur": "iyi",
+       "maddeler": [
+        "Each page answers a distinct question",
+        "The topic matches your business and expertise",
+        "The cluster grows slowly but consistently",
+        "Older pages are reviewed regularly"
+       ]
+      },
+      "sag": {
+       "baslik": "What backfires",
+       "tur": "kotu",
+       "maddeler": [
+        "Several similar pages for the same query",
+        "Drifting into unrelated topics for traffic",
+        "Hundreds of shallow pages in a short time",
+        "Content that is published and forgotten"
+       ]
+      }
+     }
+    },
+    "Mass-produced near-identical pages usually add risk, not value; see the [programmatic SEO](/en/blog/programatik-seo) article for where Google's spam policies draw the line. To decide what to do with weak older pages in a cluster, see the guide on [content pruning and content updates](/en/blog/content-pruning)."
+   ]
+  },
+  {
+   "baslik": "How do you track topical authority over time?",
+   "paragraflar": [
+    "There is no single metric. In the Search Console Performance report I filter the cluster's URLs and track impressions, the number of distinct queries and average position monthly. As the cluster grows, appearing for more distinct queries on the topic is the expected pattern.",
+    "If you want a cluster map for your own field, we can work on it through my [content strategy service](/en/content-strategy). To review it alongside the overall state of your site, see [SEO consulting](/en/seo-consulting) or simply [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many pieces of content do I need for topical authority?",
+   "c": "There is no fixed number. The test is whether the important questions your audience asks about the topic have been answered. Ten strong pages on a narrow topic can form a more coherent cluster than fifty scattered pages on a broad one."
+  },
+  {
+   "s": "Can a small website build topical authority?",
+   "c": "Yes; a narrow focus is an advantage. A site that concentrates on one service or product group and answers its questions in depth sends a clearer topical signal than a broad, shallow site."
+  },
+  {
+   "s": "How long should a pillar page be?",
+   "c": "Word count is not the goal. A pillar should map the topic, introduce each subtopic briefly and send readers to the right cluster. If it starts doing a cluster's job, it is too long."
+  },
+  {
+   "s": "Does having posts on unrelated topics hurt my site?",
+   "c": "It is not a penalty in itself, but it blurs the site's focus. Reviewing traffic-driven content unrelated to your business and updating, merging or removing it is usually time well spent."
+  },
+  {
+   "s": "Is topical authority the same as E-E-A-T?",
+   "c": "No. Topical authority is about how thoroughly a subject is covered; E-E-A-T is about who created the content, with what experience, and how trustworthy it is. The two complement each other; see [showing E-E-A-T in your content](/en/blog/eeat-icin-icerik) for details."
+  },
+  {
+   "s": "Do topic clusters help visibility in AI answers?",
+   "c": "Claiming a definite effect would be wrong. According to Google's documentation, AI Overviews and AI Mode can break a question into subtopics and run several related searches; a cluster that answers each sub-question clearly offers content that can serve as a source for more of those searches."
+  }
+ ]
+}

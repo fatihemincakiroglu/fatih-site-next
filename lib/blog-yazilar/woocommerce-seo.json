@@ -1,0 +1,427 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 8,
+ "baslik_tr": "WooCommerce SEO: WordPress E-Ticaret Siteleri İçin Kontrol Listesi",
+ "baslik_en": "WooCommerce SEO: A Checklist for WordPress Ecommerce Sites",
+ "meta_baslik_tr": "WooCommerce SEO: WordPress E-Ticaret Kontrol Listesi",
+ "meta_baslik_en": "WooCommerce SEO: Checklist for WordPress Stores",
+ "meta_desc_tr": "WooCommerce SEO kontrol listesi: kalıcı bağlantılar, kategori ve etiket arşivleri, varyasyonlu ürünler, filtre adresleri ve eklenti kaynaklı hız sorunları.",
+ "meta_desc_en": "A WooCommerce SEO checklist: permalink settings, category and tag archives, variable products, filter URLs and speed problems caused by plugin bloat.",
+ "ozet_tr": "WooCommerce'te kalıcı bağlantılar, kategori/etiket yapısı, varyasyonlar ve eklenti yükü için adım adım kontrol listesi.",
+ "ozet_en": "A step-by-step WooCommerce checklist for permalinks, category and tag structure, variations and plugin bloat.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "WooCommerce size Shopify'ın vermediği bir özgürlük verir: URL yapısını, şablonları ve sunucuyu siz seçersiniz. Bu özgürlüğün bedeli, yanlış kararların da size ait olmasıdır. Sahada gördüğüm WooCommerce sorunlarının çoğu ilk kurulumda verilen birkaç ayardan ve yıllar içinde biriken eklentilerden çıkıyor.",
+    "Bu yazı, WordPress üzerinde çalışan mağazalar için kontrol listesi niteliğinde: kalıcı bağlantılar, kategori ve etiket arşivleri, varyasyonlu ürünler, filtre adresleri, hız ve eklenti seçimi.",
+    {
+     "alinti": "Kısa cevap: WooCommerce SEO'sunda en kritik karar, mağaza açılmadan önce kalıcı bağlantı yapısını belirlemektir; sonradan değiştirmek tüm ürün adreslerini değiştirir. Ardından ürün etiketlerini kontrol altına almak, varyasyonları tek ürün sayfasında toplamak, filtre adreslerinin taranmasını sınırlamak ve eklenti sayısını düşük tutmak gelir."
+    }
+   ]
+  },
+  {
+   "baslik": "WooCommerce kalıcı bağlantılar nasıl ayarlanmalı?",
+   "paragraflar": [
+    "WooCommerce'in resmi dokümanına göre ürün adresleri WordPress yönetim panelinde Ayarlar > Kalıcı bağlantılar ekranından belirlenir. Ürün kategorisi tabanı varsayılan olarak product-category, etiket tabanı product-tag olarak gelir; bunları Türkçe ve kısa bir ifadeyle değiştirebilirsiniz.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Ürün tabanı seçeneği",
+       "Örnek adres",
+       "Ne zaman uygun?"
+      ],
+      "satirlar": [
+       [
+        "Varsayılan",
+        "/product/kapusonlu-sweatshirt",
+        "Basit yapı; tabanı Türkçeleştirmek isteyenler özel taban seçer"
+       ],
+       [
+        "Mağaza tabanı",
+        "/shop/kapusonlu-sweatshirt",
+        "Mağaza sayfasıyla tutarlı bir yapı isteyenler"
+       ],
+       [
+        "Kategorili mağaza tabanı",
+        "/shop/sweatshirt/kapusonlu-sweatshirt",
+        "Kategoriler sabitse; ürün kategori değiştirirse adres de değişir"
+       ],
+       [
+        "Özel taban",
+        "/urun/kapusonlu-sweatshirt",
+        "Kısa ve Türkçe bir ön ek isteyenler"
+       ]
+      ]
+     }
+    },
+    "Benim tercihim çoğu mağazada kategorisiz, kısa bir özel tabandır. Kategoriyi adrese eklemek okunur görünür ama ürünü başka kategoriye taşıdığınızda adres değişir ve yönlendirme gerekir. Dokümanın da uyardığı gibi ürün tabanı ile kategori tabanı aynı olmamalı.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Yayındaki mağazada yapıyı değiştirmeyin",
+      "metin": "WooCommerce dokümanına göre kalıcı bağlantı yapısını değiştirmek mevcut ürün adreslerini değiştirir; yönlendirme kurulmazsa eski linkler ve dizindeki adresler 404 verir. Değişiklik şartsa önce eski-yeni adres listesini çıkarın ve [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) ile kuralları hazırlayın."
+     }
+    },
+    "Türkçe karakter ve adres uzunluğu konusundaki genel ilkeler [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) yazısında var."
+   ]
+  },
+  {
+   "baslik": "Kategori, etiket ve öznitelik arşivleri",
+   "paragraflar": [
+    "WooCommerce üç tür arşiv sayfası üretebilir: ürün kategorileri, ürün etiketleri ve arşivi açılmış öznitelikler (renk, beden gibi). Kategoriler mağazanın omurgasıdır; etiketler ise kontrolsüz kullanıldığında yüzlerce ince ve birbirine benzeyen sayfa üretir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Ürün kategorisi",
+       "tur": "iyi",
+       "maddeler": [
+        "Planlı, hiyerarşik, sınırlı sayıda",
+        "Açıklama metni ve iç link alır",
+        "Dizine eklenmesi istenen ana sayfa türü"
+       ]
+      },
+      "sag": {
+       "baslik": "Kontrolsüz ürün etiketi",
+       "tur": "kotu",
+       "maddeler": [
+        "Her ürüne gelişigüzel eklenir",
+        "Çoğu birkaç ürünlük ince sayfa",
+        "Kategoriyle aynı aramaya rakip olur"
+       ]
+      }
+     }
+    },
+    "Etiketleri ya hiç kullanmayın ya da yalnızca filtreleme için kullanıp arşivlerini noindex yapın. Öznitelik arşivleri, WooCommerce dokümanına göre ancak o öznitelikte arşiv seçeneğini açarsanız oluşur; gerçekten aranan bir kombinasyon yoksa kapalı bırakın. Kategori mimarisinin nasıl kurulacağı [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ayrıntılı anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Varyasyonlu ürünlerde URL ve içerik nasıl olmalı?",
+   "paragraflar": [
+    "Değişken ürünlerde varyasyonlar (renk, beden) varsayılan olarak tek ürün sayfasında seçilir; ayrı ürün sayfası oluşmaz. Bu, çoğu mağaza için doğru yapıdır: bağlantılar, yorumlar ve içerik tek sayfada toplanır.",
+    {
+     "akis": {
+      "baslik": "Varyasyon kararı",
+      "adimlar": [
+       {
+        "baslik": "Aramaya bakın",
+        "metin": "Kullanıcılar varyasyonu ayrı arıyor mu? \"kırmızı abiye\" gibi."
+       },
+       {
+        "baslik": "Talep yoksa tek sayfa",
+        "metin": "Varyasyonlar seçici olarak kalır, sayfa tek adreste güçlenir."
+       },
+       {
+        "baslik": "Talep varsa ayrı ürün",
+        "metin": "Kendi metni, görseli ve başlığı olan ayrı ürün açın."
+       },
+       {
+        "baslik": "Parametreleri kontrol edin",
+        "metin": "Varyasyon parametreli adresler ana ürüne canonical vermeli."
+       }
+      ]
+     }
+    },
+    "Varyasyon için ayrı ürün açtıysanız metni gerçekten farklılaştırın. Yalnızca renk adı değişen kopya sayfalar, Search Console'da dizine eklenmeyen URL'ler olarak geri döner."
+   ]
+  },
+  {
+   "baslik": "Filtre, sıralama ve sepet adresleri",
+   "paragraflar": [
+    "Katmanlı filtreler ve sıralama seçenekleri her tıklamada yeni bir parametreli adres üretir. Bunlar kullanıcı için faydalıdır ama arama motoru için çoğunlukla tarama israfıdır. Sepet, ödeme ve hesabım sayfaları da arama sonucunda görünmesi gereken sayfalar değildir.",
+    {
+     "liste": [
+      "Sıralama (orderby) ve çoklu filtre parametrelerini iç linklerde mümkün olduğunca nofollow ya da JavaScript ile sunun ya da robots.txt ile sınırlayın.",
+      "Aranan tek filtre kombinasyonları için (\"erkek deri bot\" gibi) parametre yerine gerçek bir alt kategori açın.",
+      "Sepet, ödeme ve hesap sayfalarını site haritasından çıkarın; SEO eklentiniz bunu çoğunlukla otomatik yapar.",
+      "Parametreli adreslerin canonical etiketinin parametresiz kategori adresini gösterdiğini kontrol edin."
+     ]
+    },
+    "Hangi yöntemin hangi durumda doğru olduğu (robots.txt, noindex, canonical) [teknik SEO rehberinde](/rehber/teknik-seo) karşılaştırmalı anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Hız ve eklenti yükü",
+   "paragraflar": [
+    "WooCommerce'te hızı belirleyen üç şey var: sunucu, tema ve eklentiler. Core Web Vitals eşikleri (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) için ayrıntı [Core Web Vitals yazısında](/blog/core-web-vitals-2025).",
+    {
+     "kartlar": [
+      {
+       "ikon": "🖥️",
+       "baslik": "Sunucu",
+       "metin": "Paylaşımlı barındırmada ürün ve sipariş sayısı arttıkça ilk yanıt süresi uzar. Önbellek ve güncel PHP sürümü ilk kontrol noktası."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Sayfa oluşturucu",
+       "metin": "Ağır sayfa oluşturucular her sayfaya fazladan CSS ve JavaScript ekler. Ürün şablonunu sade tutun."
+      },
+      {
+       "ikon": "🔌",
+       "baslik": "Eklenti çakışması",
+       "metin": "Aynı işi yapan iki eklenti (iki SEO, iki önbellek) hem hız hem de çift meta etiketi sorunu yaratır."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Görseller",
+       "metin": "Ürün görsellerini doğru ölçüde yükleyin, modern biçimleri kullanın, ilk görseli tembel yüklemeye bırakmayın."
+      }
+     ]
+    },
+    "Eklenti denetimi için basit bir kural: her eklentinin bir sahibi ve bir gerekçesi olsun. Kimse neden kurulduğunu bilmiyorsa, test ortamında kapatıp etkisine bakın."
+   ]
+  },
+  {
+   "baslik": "SEO eklentisi ve yapısal veri seçimi",
+   "paragraflar": [
+    "WooCommerce tek başına başlık şablonu, site haritası ayrıntısı ve kategori meta açıklaması gibi alanlarda sınırlıdır; bu yüzden çoğu mağaza bir SEO eklentisi kullanır. Hangisinin hangi durumda uygun olduğunu [Yoast mu Rank Math mi](/blog/yoast-mu-rank-math-mi) karşılaştırmasında anlattım. Tek kural: aynı anda yalnızca bir SEO eklentisi.",
+    "WooCommerce ürün sayfalarına temel bir ürün yapısal verisi ekler; SEO eklentileri bunu genişletebilir. Kaynak kodda birden fazla Product bloğu oluşmadığını Zengin Sonuç Testi ile kontrol edin. Ayrıntı için [yapısal veri rehberine](/rehber/schema-yapisal-veri) bakabilirsiniz.",
+    {
+     "kontrol": [
+      "Kalıcı bağlantı tabanları kısa, Türkçe ve birbirinden farklı.",
+      "Ürün etiketleri kontrol altında; ince arşivler noindex.",
+      "Varyasyonlar tek sayfada ya da gerekçeli ayrı ürün olarak açılmış.",
+      "Filtre ve sıralama adresleri canonical ile kategoriye bağlı.",
+      "Tek SEO eklentisi, tek önbellek eklentisi.",
+      "Ürün yapısal verisi tekrar etmiyor."
+     ]
+    },
+    "WooCommerce mağazanızı bu listeyle denetlemek ya da başka bir altyapıdan WooCommerce'e geçişi planlamak isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına göz atın veya [iletişim formundan](/iletisim) yazın."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "WooCommerce mi Shopify mı SEO için daha iyi?",
+   "c": "İkisiyle de iyi sıralanan mağazalar var. WooCommerce daha fazla kontrol, Shopify daha az bakım sunar. Karar ölçütlerini [e-ticaret altyapısı SEO karşılaştırmasında](/blog/e-ticaret-altyapisi-seo-karsilastirma) ele aldım."
+  },
+  {
+   "s": "Mağaza sayfasını (/shop/) dizine eklemeli miyim?",
+   "c": "Mağaza sayfası genellikle tüm ürünleri listeleyen genel bir arşivdir ve kendi başına güçlü bir arama hedefi taşımaz. Dizinde kalması sorun değildir, ama ana gezinmeyi kategoriler üzerine kurun. Sayfalama adreslerinin de kendine canonical verdiğini kontrol edin."
+  },
+  {
+   "s": "Ürün kategorisi tabanını tamamen kaldırabilir miyim?",
+   "c": "Bunu yapan eklentiler var, ama taban kaldırıldığında kategori, sayfa ve yazı adresleri çakışabilir. Faydası küçük, riski büyük olduğu için kısa bir Türkçe taban kullanmanızı öneririm."
+  },
+  {
+   "s": "Başka altyapıdan WooCommerce'e geçerken nelere dikkat etmeliyim?",
+   "c": "Eski ve yeni tüm ürün, kategori ve içerik adreslerini eşleştirip 301 yönlendirme kurmadan yayına çıkmayın. Meta başlıkları, açıklamaları ve yapısal veriyi de taşıyın. Süreç adım adım [site taşıma SEO rehberinde](/rehber/site-tasima-seo) anlatılıyor."
+  },
+  {
+   "s": "Stokta olmayan WooCommerce ürünlerini gizlemeli miyim?",
+   "c": "WooCommerce'te stokta olmayan ürünleri katalogdan gizleme seçeneği vardır, ama bu ürün sayfasını da kaldırmaz. Ürün geri gelecekse sayfayı açık tutun; kalıcı olarak kalktıysa en yakın alternatife 301 verin."
+  },
+  {
+   "s": "WooCommerce'te blog ile mağaza aynı sitede mi olmalı?",
+   "c": "Evet, aynı alan adında olması iç linkleme açısından avantajlıdır. Blog yazılarından ilgili kategorilere link verin ve blog yazısının kategori sayfasıyla aynı aramayı hedeflemesinden kaçının."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "WooCommerce gives you a freedom Shopify does not: you choose the URL structure, templates and server. Most WooCommerce problems I see in audits come from a few settings chosen at launch and from plugins piled up over the years.",
+    "This post is a checklist for stores running on WordPress: permalinks, category and tag archives, variable products, filter URLs, speed and plugin choice.",
+    {
+     "alinti": "Short answer: the most critical WooCommerce SEO decision is setting the permalink structure before the store launches; changing it later changes every product URL. After that come keeping product tags under control, keeping variations on one product page, limiting crawling of filter URLs and keeping the plugin count low."
+    }
+   ]
+  },
+  {
+   "baslik": "How should WooCommerce permalinks be set up?",
+   "paragraflar": [
+    "According to WooCommerce's official docs, product URLs are set in the WordPress dashboard under Settings > Permalinks. The product category base defaults to product-category and the tag base to product-tag; you can replace them with a short term in your store's language.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Product base option",
+       "Example URL",
+       "When it fits"
+      ],
+      "satirlar": [
+       [
+        "Default",
+        "/product/hoodie-with-logo",
+        "Simple structure; pick a custom base to localise the prefix"
+       ],
+       [
+        "Shop base",
+        "/shop/hoodie-with-logo",
+        "When you want consistency with the shop page"
+       ],
+       [
+        "Shop base with category",
+        "/shop/hoodies/hoodie-with-logo",
+        "Stable categories only; the URL changes if the category does"
+       ],
+       [
+        "Custom base",
+        "/item/hoodie-with-logo",
+        "When you want a short, localised prefix"
+       ]
+      ]
+     }
+    },
+    "For most stores I prefer a short custom base without the category. Moving the product to another category changes its URL and requires a redirect. As the docs warn, the product base and category base must not be identical.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Do not change the structure on a live store",
+      "metin": "WooCommerce's docs note that changing the permalink structure changes existing product URLs; without redirects, old links and indexed URLs return 404s. If a change is unavoidable, map old to new URLs first and prepare rules with the [redirect generator](/en/tools/redirect-generator)."
+     }
+    },
+    "General principles on special characters and URL length are in the post on [SEO-friendly URL structure](/en/blog/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "Category, tag and attribute archives",
+   "paragraflar": [
+    "WooCommerce can create three kinds of archive pages: product categories, product tags and attributes with archives enabled (colour, size). Categories are the backbone of the store; tags, used without control, produce hundreds of thin, near-identical pages.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Product category",
+       "tur": "iyi",
+       "maddeler": [
+        "Planned, hierarchical, limited in number",
+        "Gets descriptive copy and internal links",
+        "The main archive type you want indexed"
+       ]
+      },
+      "sag": {
+       "baslik": "Uncontrolled product tag",
+       "tur": "kotu",
+       "maddeler": [
+        "Added to products at random",
+        "Mostly thin pages with a few products",
+        "Competes with categories for the same query"
+       ]
+      }
+     }
+    },
+    "Either skip tags or use them only for filtering and set their archives to noindex. According to WooCommerce's docs, attribute archives only exist if you enable archives for that attribute; leave them off unless a combination is genuinely searched. How to build category architecture is covered in the [ecommerce SEO guide](/en/guides/e-ticaret-seo)."
+   ]
+  },
+  {
+   "baslik": "How should variable products be handled?",
+   "paragraflar": [
+    "On variable products, variations (colour, size) are selected on a single product page by default; no separate product page is created. That is the right structure for most stores: links, reviews and content stay on one page.",
+    {
+     "akis": {
+      "baslik": "Variation decision",
+      "adimlar": [
+       {
+        "baslik": "Check search demand",
+        "metin": "Do people search for the variation separately, e.g. \"red evening dress\"?"
+       },
+       {
+        "baslik": "No demand: one page",
+        "metin": "Variations stay as selectors; one URL gets stronger."
+       },
+       {
+        "baslik": "Demand: separate product",
+        "metin": "Create a separate product with its own copy, images and title."
+       },
+       {
+        "baslik": "Check parameters",
+        "metin": "Variation URLs with parameters should canonicalise to the main product."
+       }
+      ]
+     }
+    },
+    "If you create a separate product for a variation, make the copy genuinely different. Pages where only the colour name changes come back in Search Console as URLs that are not indexed."
+   ]
+  },
+  {
+   "baslik": "Filter, sorting and cart URLs",
+   "paragraflar": [
+    "Layered filters and sorting options create a new parameter URL with every click. Cart, checkout and my-account pages do not belong in search results either.",
+    {
+     "liste": [
+      "Limit crawling of sorting (orderby) and multi-filter parameters via robots.txt or by not exposing them as crawlable links.",
+      "For single filter combinations people actually search (\"men's leather boots\"), create a real subcategory instead of a parameter.",
+      "Keep cart, checkout and account pages out of the sitemap; your SEO plugin usually does this automatically.",
+      "Check that parameter URLs canonicalise to the clean category URL."
+     ]
+    },
+    "Which method fits which case (robots.txt, noindex, canonical) is compared in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Speed and plugin bloat",
+   "paragraflar": [
+    "Three things drive WooCommerce speed: hosting, theme and plugins. For the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1), see the [Core Web Vitals post](/en/blog/core-web-vitals-2025).",
+    {
+     "kartlar": [
+      {
+       "ikon": "🖥️",
+       "baslik": "Hosting",
+       "metin": "On shared hosting, server response slows as products and orders grow. Caching and a current PHP version are the first checks."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Page builders",
+       "metin": "Heavy page builders add extra CSS and JavaScript to every page. Keep the product template lean."
+      },
+      {
+       "ikon": "🔌",
+       "baslik": "Plugin overlap",
+       "metin": "Two plugins doing the same job (two SEO, two caching) cause both speed issues and duplicate meta tags."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Images",
+       "metin": "Upload product images at the right size, use modern formats and do not lazy-load the first image."
+      }
+     ]
+    },
+    "A simple rule for plugin audits: every plugin needs an owner and a reason. Otherwise, disable it on staging and measure."
+   ]
+  },
+  {
+   "baslik": "Choosing an SEO plugin and structured data",
+   "paragraflar": [
+    "On its own, WooCommerce is limited for title templates, sitemap detail and category meta descriptions, so most stores use an SEO plugin. I compare when each fits in [Yoast or Rank Math](/en/blog/yoast-mu-rank-math-mi). One rule: only one SEO plugin at a time.",
+    "WooCommerce adds basic product structured data to product pages, and SEO plugins can extend it. Use the Rich Results Test to confirm the source does not contain more than one Product block. See the [structured data guide](/en/guides/schema-yapisal-veri) for details.",
+    {
+     "kontrol": [
+      "Permalink bases are short, localised and distinct.",
+      "Product tags are under control; thin archives are noindex.",
+      "Variations live on one page or as justified separate products.",
+      "Filter and sorting URLs canonicalise to the category.",
+      "One SEO plugin, one caching plugin.",
+      "Product structured data is not duplicated."
+     ]
+    },
+    "If you want to audit your WooCommerce store against this list or plan a migration to WooCommerce, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) or [get in touch](/en/contact)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is WooCommerce or Shopify better for SEO?",
+   "c": "Stores rank well on both. WooCommerce offers more control, Shopify less maintenance. I cover the decision criteria in the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma)."
+  },
+  {
+   "s": "Should the shop page (/shop/) be indexed?",
+   "c": "The shop page is usually a general archive listing every product and rarely a strong search target on its own. Leaving it indexed is fine, but build main navigation around categories. Check that paginated URLs self-canonicalise."
+  },
+  {
+   "s": "Can I remove the product category base entirely?",
+   "c": "Some plugins do this, but without a base, category, page and post URLs can collide. The benefit is small and the risk is real, so I recommend a short localised base."
+  },
+  {
+   "s": "What should I watch when migrating to WooCommerce from another platform?",
+   "c": "Do not go live before mapping every old and new product, category and content URL with 301 redirects. Carry over meta titles, descriptions and structured data. The process is laid out in the [site migration SEO guide](/en/guides/site-tasima-seo)."
+  },
+  {
+   "s": "Should I hide out-of-stock WooCommerce products?",
+   "c": "WooCommerce has an option to hide out-of-stock items from the catalogue, but that does not remove the product page. Keep the page live if the product is returning; if it is gone for good, 301 it to the closest alternative."
+  },
+  {
+   "s": "Should the blog and store live on the same WooCommerce site?",
+   "c": "Yes, the same domain helps internal linking. Link from blog posts to related categories and avoid having a post target the same query as a category page."
+  }
+ ]
+}

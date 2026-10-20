@@ -1,0 +1,393 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 8,
+ "baslik_tr": "Toksik Backlink ve Disavow Aracı: Ne Zaman Gerekir?",
+ "baslik_en": "Toxic Backlinks and the Disavow Tool: When Do You Need It?",
+ "meta_baslik_tr": "Toksik Backlink ve Disavow: Ne Zaman Gerekir?",
+ "meta_baslik_en": "Toxic Backlinks and Disavow: When Do You Need It?",
+ "meta_desc_tr": "Disavow aracı ne zaman gerekir, ne zaman zarar verir? Google'ın resmi dokümanı, manuel işlem bağlamı, negatif SEO korkusu ve doğru disavow dosyası biçimi.",
+ "meta_desc_en": "When is the disavow tool needed and when can it hurt? Google's official documentation, manual actions, negative SEO fears and the correct disavow file format.",
+ "ozet_tr": "Çoğu site disavow aracına hiç ihtiyaç duymaz; manuel işlem ve link şeması durumunda nasıl doğru kullanılacağını anlatıyorum.",
+ "ozet_en": "Most sites never need the disavow tool; here is when it is justified and how to use it correctly after a link scheme.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir SEO aracı sitenize “toksik” puanı yüksek yüzlerce backlink listelediğinde ilk refleks genellikle hepsini disavow etmek oluyor. Sahada en sık gördüğüm hata da tam olarak bu: aracın puanını Google'ın kararı sanmak ve hiçbir sorun yokken riskli bir işlem yapmak.",
+    "Bu yazıda Google'ın disavow dokümanının gerçekte ne dediğini, aracın hangi durumda gerçekten gerektiğini, negatif SEO korkusunun ne kadar yerinde olduğunu ve doğru biçimlenmiş bir disavow dosyasını anlatıyorum. Link kazanımının genel çerçevesi için [backlink ve dijital PR rehberi](/rehber/backlink-dijital-pr) iyi bir başlangıç.",
+    {
+     "alinti": "Kısa cevap: Disavow aracı, sitenize yönelik çok sayıda yapay ya da ücretli bağlantı nedeniyle manuel işlem almış veya alması muhtemel siteler içindir. Google'ın dokümanına göre çoğu durumda Google hangi bağlantılara güveneceğini kendisi değerlendirebilir; bu yüzden çoğu sitenin disavow dosyasına ihtiyacı yoktur. Yanlış kullanım ise arama performansına zarar verebilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Toksik backlink nedir, Google bu kavramı kullanır mı?",
+   "paragraflar": [
+    "“Toksik backlink” Google'ın değil, üçüncü taraf SEO araçlarının kullandığı bir ifade. Bu araçlar bağlantıları kendi ölçütlerine göre puanlar; puan Google'ın o bağlantıyı nasıl değerlendirdiğini göstermez. Google'ın dokümanlarında geçen ifade “spam, yapay ya da düşük kaliteli bağlantılar” ve ölçüt, bağlantının sıralamayı manipüle etmek amacıyla oluşturulup oluşturulmadığı.",
+    "Google'ın spam politikaları bağlantı spam'ini, öncelikle arama sıralamasını manipüle etmek için sitelere ya da sitelerden bağlantı oluşturmak olarak tanımlıyor: ücretli bağlantılar, aşırı link takası, otomatik link üretimi, düşük kaliteli dizinler ve optimize anchor'lı konuk yazılar. Anchor tarafı için [anchor text stratejisi](/blog/anchor-text) yazısına bakabilirsiniz.",
+    "Düşük otoriteli, yabancı dilde ya da alakasız bir siteden gelen bağlantı tek başına zararlı değildir. Asıl soru, bağlantının sizin ya da sizin adınıza çalışan birinin kurduğu bir link şemasının parçası olup olmadığıdır."
+   ]
+  },
+  {
+   "baslik": "Google disavow aracı hakkında ne diyor?",
+   "paragraflar": [
+    "Google'ın disavow yardım sayfası (“Disavow links to your site”), aracı ileri düzey bir özellik olarak tanımlıyor ve dikkatli kullanılmasını istiyor. Önerilen sıra açık: önce spam bağlantıları kaynağından kaldırtmaya çalışmak, kaldıramadıklarınız için disavow kullanmak.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Google'ın kendi uyarısı",
+      "metin": "Resmi dokümana göre bu özellik yanlış kullanılırsa sitenizin Google Arama'daki performansına zarar verebilir. Doğal ve değerli bağlantıları reddetmek, onların sağladığı katkıyı da bilerek kaybetmek demektir."
+     }
+    },
+    "Dokümana göre aracı kullanmanın gerekçesi iki koşulun birlikte bulunması: sitenize yönelik çok sayıda spam, yapay ya da düşük kaliteli bağlantı olması ve bu bağlantıların manuel işleme yol açmış ya da yol açacak olması. Manuel işlem raporunda “Unnatural links to your site” (sitenize yönelik doğal olmayan bağlantılar) türünde bir işlem görüyorsanız disavow sürecin bir parçası olur."
+   ]
+  },
+  {
+   "baslik": "Disavow ne zaman gerekir, ne zaman gerekmez?",
+   "paragraflar": [
+    "Karar için araçtaki puana değil, bağlantıların geçmişine ve Search Console'daki Manuel işlemler raporuna bakın. Aşağıdaki ayrım, danışmanlık verdiğim sitelerde kullandığım ölçüt:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Disavow düşünülebilir",
+       "tur": "iyi",
+       "maddeler": [
+        "Manuel işlemler raporunda doğal olmayan bağlantı işlemi var",
+        "Geçmişte link satın alındı ya da link ağına girildi ve bağlantılar kaldırılamıyor",
+        "Eski bir ajansın ürettiği optimize anchor'lı konuk yazı ve dizin linkleri yoğun",
+        "Link şeması nedeniyle manuel işlem bekleniyor"
+       ]
+      },
+      "sag": {
+       "baslik": "Disavow gerekmez",
+       "tur": "kotu",
+       "maddeler": [
+        "Bir araç “toksik” puanı gösterdi, başka belirti yok",
+        "Alakasız scraper siteleri ve otomatik dizinler sizi kendiliğinden listeliyor",
+        "Trafik düştü ama nedeni belirlenmedi",
+        "Rakip sitesinden birkaç spam link geldi"
+       ]
+      }
+     }
+    },
+    "Trafik düşüşünü disavow ile çözmeye çalışmak yaygın bir yanılgı. Düşüş bir çekirdek güncellemesine denk geliyorsa önce [çekirdek güncellemesi sonrası trafik düşüşü teşhisini](/blog/cekirdek-guncelleme-trafik-dususu) yapın; tarihleri [Google güncellemeleri günlüğünden](/google-guncellemeleri) kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Negatif SEO korkusu: spam linkler sitenizi batırır mı?",
+   "paragraflar": [
+    "Rakibin sitenize binlerce spam link yönlendirerek sizi cezalandırtabileceği korkusu çok yaygın. Google'ın disavow dokümanındaki ifade bu konuda yol gösterici: çoğu durumda Google, ek bir yönlendirme olmadan hangi bağlantılara güveneceğini değerlendirebilir.",
+    "Sahadaki gözlemim de bununla uyumlu: kendiliğinden oluşan spam bağlantılar genellikle görmezden gelinir; sorun yaratan, sitenin kendisinin ya da adına çalışan birinin kurduğu link şemalarıdır. Yalnızca üç durumda daha yakından bakarım: para kazandıran anahtar kelimelerle tam eşleşen anchor'lar, kısa sürede olağandışı hacim ve Manuel işlemler raporunda bir uyarı.",
+    "Bu izlemeyi aylık bir rutine bağlamak paniği önler. Hangi metrikleri hangi sıklıkla izleyeceğinizi [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım."
+   ]
+  },
+  {
+   "baslik": "Adım adım bağlantı denetimi ve disavow süreci",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Manuel işlem sonrası bağlantı temizliği",
+      "adimlar": [
+       {
+        "baslik": "Veriyi toplayın",
+        "metin": "Search Console Bağlantılar raporunu dışa aktarın, gerekirse bir SEO aracının verisiyle birleştirin."
+       },
+       {
+        "baslik": "Desenleri gruplayın",
+        "metin": "Ücretli yazılar, link ağları, optimize anchor'lı dizinler gibi şemaları alan adı düzeyinde işaretleyin."
+       },
+       {
+        "baslik": "Kaldırma talep edin",
+        "metin": "Site sahipleriyle iletişime geçin, yanıtları ve tarihleri kayıt altına alın."
+       },
+       {
+        "baslik": "Kalanı reddedin",
+        "metin": "Kaldırılamayan bağlantıları disavow dosyasına ekleyin; doğal bağlantıları dışarıda bırakın."
+       },
+       {
+        "baslik": "İnceleme isteyin",
+        "metin": "Manuel işlemler raporundan inceleme isteyin, yaptığınız temizliği belgeleyin."
+       }
+      ]
+     }
+    },
+    "Google'ın manuel işlem dokümanı iki noktanın altını çiziyor: tüm backlinkleri körü körüne disavow dosyasına eklemek iyi niyetli bir çaba sayılmaz ve kaldırma girişimi olmadan tüm backlinkleri disavow etmek inceleme talebinin reddine yol açabilir. Bu yüzden kaldırma yazışmalarını ve kaldıramadığınız bağlantıların açıklamasını inceleme talebine ekleyin.",
+    "Temizliği yeni bir link kazanım planıyla birlikte ele alın; [marka bahsi ve dijital PR yaklaşımı](/blog/marka-bahsi-brand-mention) doğal bağlantılar için daha sağlam bir zemin sunar."
+   ]
+  },
+  {
+   "baslik": "Disavow dosyası biçimi: doğru örnek ve sınırlar",
+   "paragraflar": [
+    "Dosya düz metin (.txt) olmalı ve UTF-8 ya da 7-bit ASCII ile kodlanmalı. Her satıra bir URL ya da bir alan adı yazılır; alan adının tamamı için “domain:” öneki kullanılır ve bu önek alt alan adlarını da kapsar. # ile başlayan satırlar yorum olarak yok sayılır.",
+    {
+     "kod": "# 2026-10 temizlik: eski ajansın konuk yazı ağı\n# Kaldırma talebi 3 kez gönderildi, yanıt yok\ndomain:ornek-link-agi.com\ndomain:makale-dizini.net\n\n# Tek sayfa reddi (sitenin geri kalanı doğal)\nhttps://haber-ornek.com/sponsorlu/firma-tanitim.html"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Kural",
+       "Resmi dokümandaki değer",
+       "Pratik not"
+      ],
+      "satirlar": [
+       [
+        "Dosya türü ve kodlama",
+        ".txt, UTF-8 veya 7-bit ASCII",
+        "Türkçe karakterli alan adlarında kodlamayı kontrol edin"
+       ],
+       [
+        "Dosya boyutu",
+        "En fazla 100.000 satır ve 2 MB",
+        "Boş ve yorum satırları da sayılır"
+       ],
+       [
+        "URL uzunluğu",
+        "En fazla 2.048 karakter",
+        "Uzun parametreli URL yerine domain: düşünün"
+       ],
+       [
+        "Alt klasör",
+        "example.com/en/ gibi bir yol reddedilemez",
+        "Ya tek URL ya tüm alan adı"
+       ],
+       [
+        "Mülk başına liste",
+        "Tek liste; yenisi eskisinin yerine geçer",
+        "Yüklemeden önce mevcut listeyi indirip birleştirin"
+       ]
+      ]
+     }
+    },
+    "Dokümana göre aracı yalnızca mülk sahibi kullanabilir ve araç Alan adı (Domain) mülklerini desteklemez; URL öneki mülkü gerekir, http ve https sürümleri için ayrı listeler tutulur."
+   ]
+  },
+  {
+   "baslik": "Disavow sonrası izleme, geri alma ve sık hatalar",
+   "paragraflar": [
+    "Başarılı bir yüklemeden sonra Google'ın listeyi işlemesi birkaç hafta sürebilir; reddedilen bağlantılar Bağlantılar raporunda görünmeye devam eder. Listeyi tamamen kaldırmak için disavow aracı sayfasında mülkü seçip reddetmeleri iptal edebilirsiniz; bunun etkisi de birkaç hafta sürer.",
+    {
+     "kontrol": [
+      "Yeni dosyayı yüklemeden önce eski listedeki kayıtları korudunuz mu?",
+      "Sosyal medya, haber ve sektör sitelerinden gelen doğal bağlantıları yanlışlıkla eklemediniz mi?",
+      "Dosyada kendi alan adınız ya da kardeş siteleriniz yer alıyor mu?",
+      "Hata mesajı aldıysanız düzeltilmiş dosyayı yeniden yüklediniz mi? (Hatalı yüklemede eski liste geçerli kalır.)"
+     ]
+    },
+    "Bir link profilini değerlendirirken rakiplerinizin profiliyle kıyaslamak da bağlam sağlar; yöntemi [SEO rakip analizi](/blog/rakip-analizi-seo) yazısında anlattım. Manuel işlem almış ya da geçmişinde link satın alımı olan bir site yönetiyorsanız [backlink danışmanlığı](/backlink) kapsamında temizlik planını birlikte çıkarabiliriz; genel bir değerlendirme için [SEO uzmanı](/seo-uzmani) olarak kısa bir [ön görüşme](/randevu) yeterli."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When an SEO tool flags hundreds of backlinks as “toxic”, the first instinct is to disavow them all. It is the mistake I see most in audits: treating a tool's score as Google's verdict and taking a risky step when nothing is wrong.",
+    "Below: what Google's disavow documentation actually says, when the tool is needed, how real the negative SEO threat is, and a correctly formatted file. For the bigger picture of earning links, see the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
+    {
+     "alinti": "Short answer: The disavow tool is for sites that have, or expect, a manual action caused by many artificial or paid links. Google says it can usually assess which links to trust on its own, so most sites never need a disavow file, and misuse can hurt search performance."
+    }
+   ]
+  },
+  {
+   "baslik": "What is a toxic backlink, and does Google use the term?",
+   "paragraflar": [
+    "“Toxic backlink” is SEO tool vocabulary, not Google's. Tools score links by their own criteria, and that score does not reflect how Google treats a link. Google's documentation speaks of “spammy, artificial, or low-quality links”, and the test is whether a link was built to manipulate rankings.",
+    "Google's spam policies define link spam as creating links to or from a site primarily to manipulate rankings: paid links, excessive link exchanges, automated link building, low-quality directories and guest posts with optimized anchors. The [anchor text strategy](/en/blog/anchor-text) article covers the anchor side.",
+    "A link from a weak or unrelated site is not harmful by default; what matters is whether it belongs to a scheme you, or someone acting for you, built."
+   ]
+  },
+  {
+   "baslik": "What does Google say about the disavow tool?",
+   "paragraflar": [
+    "Google's “Disavow links to your site” help page calls the tool an advanced feature to be used with caution. The order is clear: try to get spammy links removed at the source first, then disavow what you could not remove.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Google's own warning",
+      "metin": "The official documentation warns that, used incorrectly, this feature can harm your site's performance in Google Search. Disavowing natural links simply throws away what they contribute."
+     }
+    },
+    "The documentation ties its use to two conditions together: many spammy, artificial or low-quality links pointing to your site, and those links having caused, or being likely to cause, a manual action. An “Unnatural links to your site” entry in the Manual actions report is the classic case."
+   ]
+  },
+  {
+   "baslik": "When is disavow needed, and when is it not?",
+   "paragraflar": [
+    "Decide from the links' history and the Manual actions report, not from a tool score. This is the split I use with clients:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Disavow may be justified",
+       "tur": "iyi",
+       "maddeler": [
+        "Manual actions report shows an unnatural links action",
+        "Bought or network links that cannot be removed",
+        "A former agency's guest post and directory links with optimized anchors",
+        "A manual action is expected because of a link scheme"
+       ]
+      },
+      "sag": {
+       "baslik": "Disavow is not needed",
+       "tur": "kotu",
+       "maddeler": [
+        "A tool shows a “toxic” score and nothing else",
+        "Scraper sites and auto-directories list you on their own",
+        "Traffic dropped for an unknown reason",
+        "A few spammy links appeared from a competitor"
+       ]
+      }
+     }
+    },
+    "Trying to fix a traffic drop with disavow is a common trap. If the drop matches a core update, run the [core update traffic drop diagnosis](/en/blog/cekirdek-guncelleme-trafik-dususu) first and check dates in the [Google updates log](/en/google-updates)."
+   ]
+  },
+  {
+   "baslik": "Negative SEO: can spammy links sink your site?",
+   "paragraflar": [
+    "Many site owners fear a competitor could get them penalized by pointing thousands of spammy links at them. Google's disavow documentation is reassuring here: in most cases Google can assess which links to trust without extra guidance.",
+    "My experience matches that: spam links that appear on their own are usually ignored, and trouble comes from schemes the site itself built. I look closer only at exact-match money-keyword anchors, a sudden unusual volume, or a warning in the Manual actions report.",
+    "A monthly check prevents panic; the [SEO reporting guide](/en/guides/seo-raporlama) lists what to track."
+   ]
+  },
+  {
+   "baslik": "Step-by-step link audit and disavow process",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Link clean-up after a manual action",
+      "adimlar": [
+       {
+        "baslik": "Collect the data",
+        "metin": "Export the Search Console Links report, adding SEO tool data if needed."
+       },
+       {
+        "baslik": "Group the patterns",
+        "metin": "Flag paid posts, link networks and optimized-anchor directories at domain level."
+       },
+       {
+        "baslik": "Request removal",
+        "metin": "Contact site owners and log replies and dates."
+       },
+       {
+        "baslik": "Disavow the rest",
+        "metin": "Add unremovable links to the file; leave natural links out."
+       },
+       {
+        "baslik": "Request a review",
+        "metin": "Submit a review request in the Manual actions report with documentation."
+       }
+      ]
+     }
+    },
+    "Google's manual actions documentation is explicit: blindly disavowing all backlinks is not a good-faith effort, and disavowing all backlinks without attempting removal may get the request rejected. Attach your removal correspondence and explain the links you could not remove.",
+    "Pair the clean-up with a new acquisition plan; a [brand mention and digital PR approach](/en/blog/marka-bahsi-brand-mention) is a firmer footing for natural links."
+   ]
+  },
+  {
+   "baslik": "Disavow file format: a correct example and the limits",
+   "paragraflar": [
+    "Use a plain text (.txt) file in UTF-8 or 7-bit ASCII, one URL or domain per line. “domain:” covers a whole domain including subdomains; lines starting with # are comments.",
+    {
+     "kod": "# 2026-10 clean-up: former agency's guest post network\n# Removal requested 3 times, no reply\ndomain:example-link-network.com\ndomain:article-directory.net\n\n# Single page disavow (rest of the site is natural)\nhttps://news-example.com/sponsored/company-feature.html"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Rule",
+       "Value in the official documentation",
+       "Practical note"
+      ],
+      "satirlar": [
+       [
+        "File type and encoding",
+        ".txt, UTF-8 or 7-bit ASCII",
+        "Check encoding for non-ASCII domains"
+       ],
+       [
+        "File size",
+        "Up to 100,000 lines and 2 MB",
+        "Blank and comment lines count"
+       ],
+       [
+        "URL length",
+        "Up to 2,048 characters",
+        "Use domain: for long parameter URLs"
+       ],
+       [
+        "Subpaths",
+        "A path like example.com/en/ cannot be disavowed",
+        "Single URL or whole domain"
+       ],
+       [
+        "Lists per property",
+        "One; a new upload replaces it",
+        "Merge with the current list first"
+       ]
+      ]
+     }
+    },
+    "Only property owners can use the tool, and it does not support Domain properties: you need a URL-prefix property, with separate lists for http and https."
+   ]
+  },
+  {
+   "baslik": "After disavowing: monitoring, undoing and common mistakes",
+   "paragraflar": [
+    "Google may take a few weeks to incorporate a new list, and disavowed links still show in the Links report. To undo, select the property on the disavow tool page and cancel the disavowals; that also takes a few weeks.",
+    {
+     "kontrol": [
+      "Did you keep the old list's entries in the new file?",
+      "Did natural links from social, news or industry sites slip in?",
+      "Is your own domain or a sister site listed?",
+      "After an upload error, did you upload a corrected file? (The old list stays until then.)"
+     ]
+    },
+    "Benchmarking against competitors adds context; see [SEO competitor analysis](/en/blog/rakip-analizi-seo). If your site has a manual action or a link-buying past, we can plan the clean-up through [backlink and digital PR consulting](/en/backlink-digital-pr); for a wider review via [SEO consulting](/en/seo-consulting), [book a short intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Disavow dosyası yüklemek sıralamamı hemen yükseltir mi?",
+   "c": "Hayır. Disavow bir sıralama artırma aracı değil; Google'a belirli bağlantıları değerlendirmeye almamasını söyler. Manuel işlem yoksa ve bağlantılar zaten görmezden geliniyorsa belirgin bir değişiklik beklemek için bir neden yoktur."
+  },
+  {
+   "s": "SEO aracımın “toksik” puanına göre disavow etmeli miyim?",
+   "c": "Puan tek başına gerekçe değildir. Araçlar bağlantıları kendi ölçütleriyle puanlar; karar verirken bağlantının bir link şemasının parçası olup olmadığına ve Manuel işlemler raporuna bakın."
+  },
+  {
+   "s": "Disavow ile nofollow arasındaki fark nedir?",
+   "c": "nofollow ya da sponsored, bağlantıyı veren sitenin bağlantıyı nitelendirmesidir. Disavow ise bağlantıyı alan sitenin, kontrol edemediği bağlantıları Google'a bildirmesidir. Ücretli bir bağlantıyı kaynağında sponsored olarak işaretletmek, disavow etmekten daha temiz bir çözümdür."
+  },
+  {
+   "s": "Manuel işlem kaldırıldıktan sonra trafik eski seviyesine döner mi?",
+   "c": "Her zaman değil. Manipülatif bağlantıların daha önce sağladığı katkı artık hesaba katılmayacağı için trafik, işlem öncesi seviyeye dönmeyebilir. Kalıcı toparlanma için doğal bağlantı kazanımı ve içerik kalitesi gerekir."
+  },
+  {
+   "s": "Siteyi satın aldım; önceki sahibin bağlantıları için ne yapmalıyım?",
+   "c": "Önce Manuel işlemler raporunu ve Bağlantılar raporunu inceleyin. Geçmişte açıkça link satın alındığına dair desenler ve kaldırılamayan bağlantılar varsa disavow makul olabilir; belirti yoksa dosya hazırlamak zorunlu değildir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Will a disavow file boost my rankings right away?",
+   "c": "No. Disavow is not a booster; it asks Google to ignore specific links. Without a manual action, and with those links already ignored, expect no visible change."
+  },
+  {
+   "s": "Should I disavow based on a tool's “toxic” score?",
+   "c": "Not on the score alone. Tools use their own criteria; decide based on whether a link is part of a scheme and on the Manual actions report."
+  },
+  {
+   "s": "What is the difference between disavow and nofollow?",
+   "c": "nofollow or sponsored is set by the linking site. Disavow is how the linked site flags links it cannot control. Getting a paid link marked sponsored at the source is the cleaner fix."
+  },
+  {
+   "s": "Will traffic recover fully after a manual action is lifted?",
+   "c": "Not necessarily. The manipulative links no longer count, so traffic may stay below its earlier level. Lasting recovery comes from natural links and better content."
+  },
+  {
+   "s": "I bought a site; what about the previous owner's links?",
+   "c": "Check the Manual actions and Links reports first. Clear signs of past link buying with unremovable links can justify a disavow file; without such signs, you do not need one."
+  }
+ ]
+}

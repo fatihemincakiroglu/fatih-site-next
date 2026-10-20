@@ -1,0 +1,435 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 6,
+ "baslik_tr": "Google Sitelink'leri: Nasıl Oluşur, Neyi Etkileyebilirsiniz?",
+ "baslik_en": "Google Sitelinks: How They Form and What You Can Influence",
+ "meta_baslik_tr": "Google Sitelink'leri: Nasıl Oluşur, Neyi Etkileyebilirsiniz?",
+ "meta_baslik_en": "Google Sitelinks: How They Form, What You Can Influence",
+ "meta_desc_tr": "Google sitelink'leri otomatik oluşur; site yapısı, başlıklar ve iç linklerle zemini hazırlarsınız. İstenmeyen sitelink'i kaldırma ve arama kutusunun sonu.",
+ "meta_desc_en": "Google sitelinks are automated, but structure, titles and internal links shape them. How to remove an unwanted sitelink and what happened to the search box.",
+ "ozet_tr": "Sitelink'leri Google seçer; site yapısı, başlıklar ve iç linklerle bu seçimi kolaylaştırırsınız.",
+ "ozet_en": "Google picks sitelinks; you make the choice easier with structure, titles and internal links. Here is what actually helps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Markanızı aradığınızda ana sonucun altında “Hizmetler”, “İletişim”, “Fiyatlar” gibi ek bağlantılar görüyorsanız bunlar sitelink'lerdir. Müşterilerden en sık duyduğum soru şu: “Rakibin sitelink'i var, bizde neden yok, nasıl ekleriz?”",
+    "Bu yazıda Google'ın sitelink'leri nasıl seçtiğini, sizin hangi alanlarda etkili olabileceğinizi, istenmeyen bir sitelink'in nasıl kaldırılacağını ve kaldırılan sitelinks arama kutusunun durumunu anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Sitelink'ler Google tarafından otomatik oluşturulur; elle eklenemez. Google'ın dokümanına göre mantıklı bir site yapısı, bilgilendirici ve kısa başlıklar, önemli sayfalara verilen açıklayıcı iç linkler ve tekrar etmeyen içerik, iyi sitelink'ler için zemini hazırlar. İstenmeyen bir sitelink ancak sayfayı kaldırarak ya da noindex ile çıkarılabilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Sitelink nedir, nasıl oluşur?",
+   "paragraflar": [
+    "Sitelink'ler, bir arama sonucunun altında aynı siteden gösterilen ek bağlantılardır. Amaçları, kullanıcının aradığı bölüme tek tıkla ulaşmasını sağlamaktır.",
+    "Google Search Central dokümanına göre Google'ın sistemleri, kullanıcıların bilgiye daha hızlı ulaşmasını sağlayacak kısayolları bulmak için sitenin link yapısını analiz eder. Sitelink'ler yalnızca kullanıcıya faydalı olacağı düşünüldüğünde gösterilir; site yapısı buna izin vermiyorsa ya da bağlantılar sorguyla ilgili değilse gösterilmez.",
+    "Dokümanda ayrıca sitelink'lerin şu an için otomatik olduğu açıkça yazıyor. Yani Search Console'da ya da yapısal veriyle sitelink “eklemenin” bir yolu yok. Sahada sitelink'leri en çok marka ve gezinme amaçlı aramalarda görüyorum; genel bir bilgi sorgusunda aynı site için sitelink çıkması daha seyrek."
+   ]
+  },
+  {
+   "baslik": "Google sitelink seçerken neye bakıyor?",
+   "paragraflar": [
+    "Google seçim algoritmasının ayrıntısını paylaşmıyor, ama dokümandaki dört öneri neyin işe yaradığını net biçimde gösteriyor.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏗️",
+       "baslik": "Mantıklı site yapısı",
+       "metin": "Kullanıcının kolayca gezinebildiği bir hiyerarşi ve önemli sayfalara diğer ilgili sayfalardan verilen linkler."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Bilgilendirici başlıklar",
+       "metin": "Sayfa başlıkları ve başlık etiketleri bilgilendirici, sayfayla ilgili ve kısa olmalı."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Açıklayıcı bağlantı metni",
+       "metin": "İç linklerin bağlantı metni kısa ve hedef sayfanın konusunu anlatan cinsten olmalı."
+      },
+      {
+       "ikon": "♻️",
+       "baslik": "Tekrarsız içerik",
+       "metin": "Aynı şeyi söyleyen birden fazla sayfa, Google'ın hangisini kısayol yapacağını zorlaştırır."
+      }
+     ]
+    },
+    "Bu dört başlığın hepsi aslında temel teknik SEO ve bilgi mimarisi işidir; ayrıca “sitelink optimizasyonu” diye bir çalışma yoktur. Genel çerçeve için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Sitelink'leri etkilemek için neler yapabilirsiniz?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Google'ın önerisi",
+       "Sahada uygulama"
+      ],
+      "satirlar": [
+       [
+        "Menü ve hiyerarşi",
+        "Kolay gezilen, mantıklı yapı",
+        "Ana menüde 5-7 net bölüm; her bölümün kendi açılış sayfası"
+       ],
+       [
+        "Title ve H1",
+        "Bilgilendirici, ilgili, kısa",
+        "“Hizmetler | Marka” gibi kısa ve sayfaya özgü başlıklar"
+       ],
+       [
+        "İç link metni",
+        "Kısa ve hedefle ilgili",
+        "“Tıklayın” yerine “Diş implantı fiyatları” gibi açıklayıcı metin"
+       ],
+       [
+        "Önemli sayfalara link",
+        "İlgili sayfalardan link verin",
+        "Para kazandıran sayfalara içerik içinden de link"
+       ],
+       [
+        "Tekrar",
+        "Tekrardan kaçının",
+        "Benzer iki sayfayı birleştirip 301 ile yönlendirme"
+       ]
+      ]
+     }
+    },
+    "İç linklerin nasıl kurgulanacağını [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı anlattım. Klasör ve slug düzenini ise [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) ele alıyor: /hizmetler/implant/ gibi okunur yollar, hem kullanıcıya hem Google'a bölümleri anlatır."
+   ]
+  },
+  {
+   "baslik": "Sitelink'e uygun bir site yapısı örneği",
+   "paragraflar": [
+    "Aşağıdaki diş kliniği örneğinde her ana bölümün tek ve güçlü bir açılış sayfası var; alt sayfalar bu sayfalardan link alıyor. Böyle bir yapıda Google'ın kısayol olarak seçebileceği adaylar nettir.",
+    {
+     "agac": {
+      "kok": "klinik-ornek.com",
+      "dallar": [
+       {
+        "ad": "/tedaviler/",
+        "alt": [
+         "/tedaviler/implant/",
+         "/tedaviler/ortodonti/",
+         "/tedaviler/dis-beyazlatma/"
+        ]
+       },
+       {
+        "ad": "/hekimlerimiz/",
+        "alt": [
+         "/hekimlerimiz/dt-ayse-yilmaz/"
+        ]
+       },
+       {
+        "ad": "/fiyatlar/"
+       },
+       {
+        "ad": "/iletisim/"
+       }
+      ]
+     }
+    },
+    "Tersi bir örnek: Aynı tedavi için “implant”, “implant-tedavisi” ve “implant-fiyatlari” gibi üç ince sayfa varsa Google'ın hangisini sitelink yapacağı belirsizleşir. Sağlık sitelerine özgü yapı için [klinik SEO](/sektorler/klinik-seo) sayfasına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "İstenmeyen bir sitelink nasıl kaldırılır?",
+   "paragraflar": [
+    "Bazen sitelink olarak eski bir kampanya sayfası, “Kariyer” ya da giriş ekranı çıkar. Google'ın dokümanındaki öneri açık: sayfayı siteden kaldırmak ya da noindex kullanmak.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İşe yarar",
+       "tur": "iyi",
+       "maddeler": [
+        "Gereksiz sayfayı kaldırmak (404/410 ya da ilgili sayfaya 301)",
+        "Sayfanın aramada çıkmasını istemiyorsanız noindex",
+        "Önemli sayfaları daha belirgin hale getirmek: menü, iç link, başlık"
+       ]
+      },
+      "sag": {
+       "baslik": "İşe yaramaz",
+       "tur": "kotu",
+       "maddeler": [
+        "Sayfayı yalnızca robots.txt ile engellemek (URL yine görünebilir)",
+        "Yapısal veriyle sitelink “tanımlamaya” çalışmak",
+        "Search Console'da sitelink ayarı aramak"
+       ]
+      }
+     }
+    },
+    "noindex'in sayfayı tüm arama sonuçlarından çıkaracağını unutmayın. Sayfa başka sorgularda değerliyse kaldırmak yerine önemli sayfaları güçlendirmek daha akıllıca olabilir; değişikliklerin etkisini Search Console'da izlemek için [Search Console rehberi](/blog/search-console-rehberi) yol gösterir."
+   ]
+  },
+  {
+   "baslik": "Sitelinks arama kutusuna ne oldu?",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sitelinks arama kutusu artık gösterilmiyor",
+      "metin": "Google, Ekim 2024'te yaptığı duyuruyla sitelinks arama kutusunu 21 Kasım 2024'ten itibaren tüm dillerde ve bölgelerde kaldırdı. İlgili Search Console raporu da kaldırıldı. Google'a göre bu değişiklik sıralamaları ve normal sitelink'leri etkilemiyor."
+     }
+    },
+    "Mevcut WebSite işaretlemesindeki SearchAction bölümünü silmek zorunda değilsiniz; Google kalan işaretlemenin sorun ya da hata yaratmayacağını belirtti. Site adının gösterimi için kullanılan WebSite yapısal verisi ise desteklenmeye devam ediyor. Organizasyon ve WebSite şemasını kurmak için [yapısal veri rehberi](/rehber/schema-yapisal-veri) ve [schema oluşturucu](/araclar/schema-olusturucu) işinizi kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "Sitelink kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Ana menüde net, birbirinden ayrışan bölümler var mı?",
+      "Her önemli sayfanın kısa, sayfaya özgü bir title etiketi ve H1'i var mı?",
+      "Önemli sayfalar menü dışında içerik içinden de açıklayıcı iç link alıyor mu?",
+      "Aynı konuyu işleyen kopya ya da ince sayfalar birleştirildi mi?",
+      "Sitelink olarak görünmesini istemediğiniz sayfalar kaldırıldı ya da noindex yapıldı mı?",
+      "Marka adınız tutarlı mı ve marka aramalarında sitenizi net biçimde tanımlıyor mu?"
+     ]
+    },
+    "Son madde, markanın Google ve yapay zekâ sistemlerince nasıl tanındığıyla ilgili; ayrıntısını [entity SEO](/blog/entity-seo) yazısında bulabilirsiniz. Sitenizin bilgi mimarisini gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da [iletişim](/iletisim) sayfasından bana ulaşabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When you search for your brand and see extra links such as “Services”, “Contact” or “Pricing” under the main result, those are sitelinks. The question I hear most from clients: “Our competitor has sitelinks, why don't we, and how do we add them?”",
+    "This article covers how Google picks sitelinks, where you can have an influence, how to remove an unwanted sitelink, and what happened to the sitelinks search box.",
+    {
+     "alinti": "Short answer: Sitelinks are generated automatically by Google and cannot be added manually. According to Google's documentation, a logical site structure, informative and concise titles, descriptive internal links to important pages and non-repetitive content prepare the ground for good sitelinks. An unwanted sitelink can only be removed by removing the page or using noindex."
+    }
+   ]
+  },
+  {
+   "baslik": "What are sitelinks and how do they form?",
+   "paragraflar": [
+    "Sitelinks are additional links from the same site shown under a search result. Their purpose is to take users to the section they want in one click.",
+    "According to Google Search Central, Google's systems analyse a site's link structure to find shortcuts that help users reach information faster. Sitelinks only appear when Google thinks they will be useful; if the structure does not allow it or the links are not relevant to the query, they are not shown.",
+    "The documentation also states that sitelinks are currently automated. There is no way to “add” them in Search Console or with structured data. In practice I see sitelinks mostly on brand and navigational searches; they are rarer for the same site on a general informational query."
+   ]
+  },
+  {
+   "baslik": "What does Google look at when picking sitelinks?",
+   "paragraflar": [
+    "Google does not share the details of its selection, but four recommendations in the documentation make clear what helps.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏗️",
+       "baslik": "Logical structure",
+       "metin": "A hierarchy users can navigate easily, with links to important pages from other relevant pages."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Informative titles",
+       "metin": "Page titles and headings should be informative, relevant and compact."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Descriptive anchor text",
+       "metin": "Internal link anchor text should be concise and describe the target page."
+      },
+      {
+       "ikon": "♻️",
+       "baslik": "No repetition",
+       "metin": "Several pages saying the same thing make it harder for Google to choose a shortcut."
+      }
+     ]
+    },
+    "All four are core technical SEO and information architecture work; there is no separate “sitelink optimisation”. For the broader framework, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "What can you do to influence sitelinks?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Area",
+       "Google's recommendation",
+       "In practice"
+      ],
+      "satirlar": [
+       [
+        "Menu and hierarchy",
+        "Logical, easy to navigate",
+        "5-7 clear sections in the main menu, each with its own landing page"
+       ],
+       [
+        "Title and H1",
+        "Informative, relevant, compact",
+        "Short, page-specific titles such as “Services | Brand”"
+       ],
+       [
+        "Anchor text",
+        "Concise and relevant to the target",
+        "“Dental implant prices” instead of “click here”"
+       ],
+       [
+        "Links to key pages",
+        "Link from relevant pages",
+        "Link revenue pages from within content too"
+       ],
+       [
+        "Repetition",
+        "Avoid it",
+        "Merge two similar pages and 301 one to the other"
+       ]
+      ]
+     }
+    },
+    "I cover how to plan internal links in [internal linking strategy](/en/blog/ic-linkleme). Folder and slug layout is covered in [SEO-friendly URL structure](/en/blog/url-yapisi-seo): readable paths like /services/implants/ explain your sections to users and Google alike."
+   ]
+  },
+  {
+   "baslik": "An example site structure that suits sitelinks",
+   "paragraflar": [
+    "In the dental clinic example below, each main section has one strong landing page and subpages link from it. With a structure like this, the candidates Google could choose as shortcuts are clear.",
+    {
+     "agac": {
+      "kok": "clinic-example.com",
+      "dallar": [
+       {
+        "ad": "/treatments/",
+        "alt": [
+         "/treatments/implants/",
+         "/treatments/orthodontics/",
+         "/treatments/whitening/"
+        ]
+       },
+       {
+        "ad": "/our-dentists/",
+        "alt": [
+         "/our-dentists/dr-ayse-yilmaz/"
+        ]
+       },
+       {
+        "ad": "/pricing/"
+       },
+       {
+        "ad": "/contact/"
+       }
+      ]
+     }
+    },
+    "The opposite: with three thin pages such as “implants”, “implant-treatment” and “implant-prices” for one treatment, it becomes unclear which one Google should use. For healthcare site structure, see [healthcare SEO](/en/industries/healthcare-seo)."
+   ]
+  },
+  {
+   "baslik": "How do you remove an unwanted sitelink?",
+   "paragraflar": [
+    "Sometimes an old campaign page, “Careers” or a login screen shows up as a sitelink. Google's documentation is clear: remove the page from your site or use noindex.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Works",
+       "tur": "iyi",
+       "maddeler": [
+        "Removing the page (404/410, or 301 to a relevant page)",
+        "noindex if the page should not appear in search",
+        "Making key pages more prominent: menu, internal links, titles"
+       ]
+      },
+      "sag": {
+       "baslik": "Does not work",
+       "tur": "kotu",
+       "maddeler": [
+        "Blocking only via robots.txt (the URL can still appear)",
+        "Trying to “define” sitelinks with structured data",
+        "Looking for a sitelink setting in Search Console"
+       ]
+      }
+     }
+    },
+    "Remember that noindex removes the page from all search results. If the page has value for other queries, strengthening your key pages may be smarter than removing it; the [Search Console guide](/en/blog/search-console-rehberi) shows how to monitor the effect."
+   ]
+  },
+  {
+   "baslik": "What happened to the sitelinks search box?",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "The sitelinks search box is no longer shown",
+      "metin": "In an October 2024 announcement, Google removed the sitelinks search box in all languages and regions from 21 November 2024. The related Search Console report was removed too. Google says the change does not affect rankings or regular sitelinks."
+     }
+    },
+    "You do not have to delete the SearchAction part of your WebSite markup; Google said leftover markup causes no issues or errors. WebSite structured data used for site names remains supported. To set up Organization and WebSite schema, the [structured data guide](/en/guides/schema-yapisal-veri) and the [schema generator](/en/tools/schema-generator) help."
+   ]
+  },
+  {
+   "baslik": "Sitelinks checklist",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Does the main menu have clear, distinct sections?",
+      "Does every key page have a short, page-specific title tag and H1?",
+      "Do key pages get descriptive internal links from content, not just the menu?",
+      "Have duplicate or thin pages on the same topic been merged?",
+      "Are pages you do not want as sitelinks removed or set to noindex?",
+      "Is your brand name consistent and does it clearly identify your site in brand searches?"
+     ]
+    },
+    "The last item relates to how Google and AI systems recognise your brand; see [entity SEO](/en/blog/entity-seo). To review your site's information architecture, see [SEO consulting](/en/seo-consulting) or reach me via the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yeni sitemde neden sitelink çıkmıyor?",
+   "c": "Sitelink için Google'ın sitenin yapısını anlaması ve marka aramalarında sitenizi net biçimde eşleştirmesi gerekir. Yeni sitelerde marka araması hacmi düşük olduğundan bu genellikle zaman alır. Yapıyı doğru kurup marka bilinirliğini artırmaya odaklanın."
+  },
+  {
+   "s": "Sitelink'lerin sırasını değiştirebilir miyim?",
+   "c": "Hayır, sırayı ve hangi bağlantıların çıkacağını Google belirler. Önemli sayfaları menüde öne almak ve onlara daha fazla iç link vermek, Google'ın bu sayfaları önemli bulmasına yardımcı olabilir ama sırayı belirlemez."
+  },
+  {
+   "s": "Sitelink'ler tıklama oranını artırır mı?",
+   "c": "Sitelink'ler sonucun ekranda daha fazla yer kaplamasını sağlar ve kullanıcıyı doğrudan ilgili bölüme taşır. Etkisini kendi sitenizde Search Console Performans raporundaki marka sorgularında izleyebilirsiniz. Genel geçer bir oran vermek doğru olmaz."
+  },
+  {
+   "s": "Sitelink açıklamaları nereden geliyor?",
+   "c": "Sitelink altında görünen kısa metinler, diğer arama sonuçları gibi genellikle sayfa içeriğinden ya da meta açıklamadan Google tarafından seçilir. Her sayfaya özgü, net bir meta açıklama yazmak bu metinlerin daha anlamlı olmasına yardımcı olabilir."
+  },
+  {
+   "s": "Sitelink'ler Google Ads'deki site bağlantılarıyla aynı şey mi?",
+   "c": "Hayır. Organik sitelink'ler otomatik oluşur; Google Ads'deki site bağlantısı öğeleri ise reklamveren tarafından reklama eklenir. İkisi birbirini etkilemez. Reklam ve organik dengesini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında ele aldım."
+  },
+  {
+   "s": "Mobilde sitelink'ler farklı mı görünür?",
+   "c": "Görünüm cihaz ve arama arayüzüne göre değişebilir; mobilde bağlantılar daha kompakt gösterilebilir. Bu yüzden önemli sayfaların mobil menüde de kolay erişilebilir olması ve mobil sürümde aynı iç linklerin bulunması önemlidir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why does my new site not have sitelinks?",
+   "c": "Google needs to understand your structure and clearly match your site to brand searches. New sites have low brand search volume, so this usually takes time. Focus on getting the structure right and growing brand awareness."
+  },
+  {
+   "s": "Can I change the order of sitelinks?",
+   "c": "No, Google decides the order and which links appear. Featuring key pages in the menu and giving them more internal links may help Google see them as important, but it does not set the order."
+  },
+  {
+   "s": "Do sitelinks increase click-through rate?",
+   "c": "Sitelinks make a result take up more space and take users straight to the relevant section. You can track the effect on brand queries in the Search Console Performance report. Quoting a universal rate would be misleading."
+  },
+  {
+   "s": "Where do sitelink descriptions come from?",
+   "c": "Short texts under sitelinks are usually chosen by Google from page content or the meta description, like other results. Writing a clear, page-specific meta description can help those snippets make more sense."
+  },
+  {
+   "s": "Are sitelinks the same as Google Ads sitelinks?",
+   "c": "No. Organic sitelinks are automated; sitelink assets in Google Ads are added by the advertiser. Neither affects the other. I discuss the paid and organic balance in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi)."
+  },
+  {
+   "s": "Do sitelinks look different on mobile?",
+   "c": "Appearance can vary by device and search interface; on mobile, links may be more compact. That is why key pages should be easy to reach in the mobile menu and the mobile version should carry the same internal links."
+  }
+ ]
+}

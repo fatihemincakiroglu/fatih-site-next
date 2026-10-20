@@ -1,0 +1,433 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 7,
+ "baslik_tr": "CRO ve SEO: Organik Trafiği Dönüşüme Çevirmek",
+ "baslik_en": "CRO and SEO: Turning Organic Traffic into Conversions",
+ "meta_baslik_tr": "CRO ve SEO: Organik Trafiği Dönüşüme Çevirmek",
+ "meta_baslik_en": "CRO and SEO: Turning Organic Traffic into Conversions",
+ "meta_desc_tr": "Arama niyeti ile sayfa uyumu, CTA, form, güven öğeleri ve Google'ın A/B testi rehberine uygun deneylerle organik trafiği dönüşüme çevirmenin yolları.",
+ "meta_desc_en": "Turn organic traffic into conversions with intent-page fit, CTAs, forms, trust signals and A/B tests that follow Google's website testing guidance.",
+ "ozet_tr": "Niyet uyumu, CTA, form ve güven öğeleriyle organik trafiği dönüşüme çevirmek; A/B testini SEO'ya zarar vermeden yapmak.",
+ "ozet_en": "Turning organic traffic into conversions with intent fit, CTAs, forms and trust, and A/B testing without hurting SEO.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Organik trafiği iki katına çıkarıp satışın yerinde saydığı projeler görüyorum. Sorun çoğu zaman trafiğin kalitesinde değil, ziyaretçinin indiği sayfanın onu bir sonraki adıma taşıyamamasında. SEO ziyaretçiyi kapıya getiriyor; kapıdan içeri girip girmeyeceğini sayfa belirliyor.",
+    "Bu yazıda dönüşüm oranı optimizasyonunu (CRO) SEO ile birlikte ele alıyorum: arama niyetine uygun sayfa, doğru CTA, sade form, güven öğeleri ve Google'ın A/B testi rehberine uygun deneyler.",
+    {
+     "alinti": "Kısa cevap: Organik trafiği dönüşüme çevirmenin temeli, sayfanın arama niyetine uygun olması ve ziyaretçiye hazır olduğu adımı teklif etmesidir. A/B testi yaparken Google'ın rehberine uyun: Googlebot'a farklı içerik göstermeyin (cloaking), test URL'lerinde orijinale rel=canonical verin, yönlendirmede 302 kullanın ve testi gerektiği kadar sürdürün."
+    }
+   ]
+  },
+  {
+   "baslik": "Organik trafik neden dönüşmüyor? Niyet ve sayfa uyumu",
+   "paragraflar": [
+    "Bilgi arayan kullanıcıya \"Hemen satın al\" butonu, satın almaya hazır kullanıcıya ise uzun bir giriş yazısı göstermek aynı hatanın iki yüzü. Önce sayfanın hangi niyetten trafik aldığını Search Console'daki sorgulardan okuyun, sonra sayfayı ve teklifini buna göre kurun.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Arama niyeti",
+       "Sorgu örneği",
+       "Sayfanın vermesi gereken",
+       "Uygun CTA"
+      ],
+      "satirlar": [
+       [
+        "Bilgi",
+        "implant tedavisi nasıl yapılır",
+        "Süreç, süre, riskler, sık sorular",
+        "Rehberi indir, bülten, ilgili hizmet sayfası"
+       ],
+       [
+        "Karşılaştırma",
+        "implant mı köprü mü",
+        "Tarafsız karşılaştırma tablosu, kime hangisi",
+        "Ücretsiz ön değerlendirme talebi"
+       ],
+       [
+        "İşlem",
+        "kadıköy implant randevu",
+        "Konum, uygunluk, iletişim, güven öğeleri",
+        "Randevu al, ara, WhatsApp"
+       ],
+       [
+        "Marka",
+        "[klinik adı] yorumlar",
+        "Gerçek değerlendirmeler, ekip, belgeler",
+        "Randevu al"
+       ]
+      ]
+     }
+    },
+    "Niyete göre içerik kurgusunun ayrıntısını [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım. Sağlık gibi güvenin belirleyici olduğu sektörlerde bu tablo [klinik SEO](/sektorler/klinik-seo) çalışmalarının da çıkış noktası."
+   ]
+  },
+  {
+   "baslik": "CTA: ziyaretçinin hazır olduğu adımı teklif etmek",
+   "paragraflar": [
+    "Sahada en sık gördüğüm hata, her sayfada aynı \"Bize ulaşın\" butonunu kullanmak. CTA, sayfanın niyetine ve ziyaretçinin karar aşamasına göre değişmeli.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İşe yarayan CTA",
+       "tur": "iyi",
+       "maddeler": [
+        "Ne olacağını söyler: \"15 dakikalık ön görüşme planla\"",
+        "Mobilde başparmakla kolay erişilir",
+        "Sayfa içeriğiyle aynı vaadi taşır",
+        "Uzun sayfada bölüm sonlarında tekrar eder"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf CTA",
+       "tur": "kotu",
+       "maddeler": [
+        "Belirsiz: \"Gönder\", \"Tıklayın\"",
+        "Yalnızca sayfanın en altında",
+        "Bilgi niyetli sayfada doğrudan satış ister",
+        "Rakip butonlarla aynı ağırlıkta, öne çıkmaz"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Formlarda sürtünmeyi azaltmak",
+   "paragraflar": [
+    "Form, dönüşüm yolunun en dar noktası. Her ek alan, ziyaretçiye \"bu bilgiyi neden veriyorum?\" sorusunu sordurur. Bir formu denetlerken kullandığım kontrol listesi:",
+    {
+     "kontrol": [
+      "Her alan gerçekten ilk temas için gerekli mi?",
+      "Telefon ve e-posta alanları mobilde doğru klavyeyi açıyor mu?",
+      "Hata mesajları alanın yanında ve anlaşılır mı?",
+      "Gönderimden sonra ne olacağı ve ne zaman dönüleceği yazıyor mu?",
+      "KVKK aydınlatma metni erişilebilir ve kısa mı?",
+      "Form gönderimi GA4'te anahtar etkinlik olarak ölçülüyor mu?"
+     ]
+    },
+    "Son madde atlanırsa yapılan iyileştirmenin işe yarayıp yaramadığını hiçbir zaman bilemezsiniz."
+   ]
+  },
+  {
+   "baslik": "Güven öğeleri: organik ziyaretçiyi ikna etmek",
+   "paragraflar": [
+    "Organik ziyaretçi sizi çoğu zaman ilk kez görüyor ve aynı sonuç sayfasındaki rakiplerle karşılaştırıyor. Güven öğeleri bu karşılaştırmada fark yaratır:",
+    {
+     "kartlar": [
+      {
+       "ikon": "👤",
+       "baslik": "Gerçek kişiler",
+       "metin": "Uzman ya da ekip bilgisi, fotoğraf ve unvan; sayfanın arkasında kim olduğunu gösterir."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Doğrulanabilir yorumlar",
+       "metin": "Kaynağı belli değerlendirmeler; uydurma ya da anonim övgüler ters teper."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "İletişim ve adres",
+       "metin": "Fiziksel adres, telefon ve çalışma saatleri, özellikle yerel aramalarda belirleyicidir."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Şeffaf koşullar",
+       "metin": "İade, teslimat ve ödeme koşullarının kolay bulunması tereddüdü azaltır."
+      }
+     ]
+    },
+    "Bu öğeler aynı zamanda içeriğin kim tarafından ve hangi deneyimle hazırlandığını gösterdiği için içerik kalitesi tarafında da değerlidir."
+   ]
+  },
+  {
+   "baslik": "Hız ve sayfa deneyimi dönüşümü nasıl etkiler?",
+   "paragraflar": [
+    "Yavaş yüklenen ya da yüklenirken kayan bir sayfada en iyi CTA da işe yaramaz. Google'ın Core Web Vitals eşikleri LCP için 2,5 saniye, INP için 200 milisaniye ve CLS için 0,1'dir; ölçüm ve iyileştirme ayrıntılarını [Core Web Vitals rehberinde](/blog/core-web-vitals-2025) ele aldım.",
+    "Pop-up'lar da sık karşılaştığım bir sürtünme kaynağı. Sayfa açılır açılmaz içeriği kapatan geçiş reklamları hem kullanıcıyı rahatsız eder hem de Google'ın sayfa deneyimi dokümanında olumsuz örnek olarak anılır. Teklifinizi içeriğin akışı içinde ya da kullanıcı sayfada ilerledikten sonra göstermek daha dengeli bir yol. Teknik tarafın genel çerçevesi için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "A/B testinde SEO'ya dikkat: Google'ın test rehberi",
+   "paragraflar": [
+    "Google Search Central'daki \"A/B testinin Google Arama'daki etkisini en aza indirme\" dokümanı, doğru kurulan testlerin aramaya zarar vermeyeceğini, ancak bazı kurallara uyulması gerektiğini anlatıyor:",
+    {
+     "akis": {
+      "baslik": "SEO dostu A/B testi",
+      "adimlar": [
+       {
+        "baslik": "Cloaking yapmayın",
+        "metin": "Googlebot'a kullanıcılardan farklı içerik ya da URL göstermeyin."
+       },
+       {
+        "baslik": "rel=canonical kullanın",
+        "metin": "Alternatif test URL'lerinde orijinal URL'ye canonical verin; noindex kullanmayın."
+       },
+       {
+        "baslik": "302 ile yönlendirin",
+        "metin": "Geçici yönlendirme orijinal URL'nin dizinde kalmasını sağlar; JavaScript yönlendirmesi de kabul edilir."
+       },
+       {
+        "baslik": "Testi gerektiği kadar sürdürün",
+        "metin": "Yeterli veri toplanınca kazananı uygulayın, test URL'lerini ve kodlarını kaldırın."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Uzun süren testler risklidir",
+      "metin": "Google'ın dokümanına göre gereğinden uzun süren, özellikle bir varyantı kullanıcıların büyük kısmına gösteren deneyler arama motorlarını yanıltma girişimi olarak değerlendirilebilir."
+     }
+    },
+    "Yönlendirme türlerinin farkı için [301 ve 302 yönlendirme](/blog/301-302-yonlendirme) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "CRO çalışmasında hangi metriklere bakmalı?",
+   "paragraflar": [
+    "Organik CRO'da tek bir orana bakmak yanıltıcı olabilir. Açılış sayfası bazında organik oturum, anahtar etkinlik oranı ve gelir ya da form sayısı birlikte izlenmeli; bir değişiklik dönüşüm oranını artırırken organik tıklamayı düşürüyorsa net etki negatif olabilir. GA4 kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında, raporlama çerçevesini [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım.",
+    "Reklam trafiğiyle aynı sayfaları paylaşıyorsanız iki kitlenin beklentisini ayrı düşünmek gerekir; bunu [Meta Ads ve SEO](/blog/meta-ads-ve-seo) yazısında ele aldım. Organik büyüme ile dönüşümü birlikte ele almak isteyen işletmelere [performans ve büyüme hizmeti](/performans) ve [SEO danışmanlığı](/seo-uzmani) kapsamında destek veriyorum; mevcut sayfalarınızı birlikte incelemek için [görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "CRO değişiklikleri sıralamayı düşürebilir mi?",
+   "c": "Sayfadaki içeriği ciddi şekilde azaltan ya da başlık ve ana metni sorgu niyetinden uzaklaştıran değişiklikler organik görünürlüğü etkileyebilir. Büyük değişikliklerden önce sayfanın hangi sorgulardan trafik aldığını kaydedin ve sonrasında Search Console'da izleyin."
+  },
+  {
+   "s": "Blog yazılarına CTA eklemeli miyim?",
+   "c": "Evet, ama satış odaklı değil, niyete uygun bir sonraki adım olarak. Bilgi niyetli bir yazıda ilgili hizmet sayfasına, rehbere ya da bültene yönlendirmek doğrudan satış istemekten genellikle daha iyi sonuç verir."
+  },
+  {
+   "s": "A/B testi için kaç ziyaretçi gerekir?",
+   "c": "Gereken sayı mevcut dönüşüm oranına ve beklediğiniz farkın büyüklüğüne bağlıdır; sabit bir rakam yoktur. Test aracınızın istatistiksel anlamlılık hesabını esas alın ve az trafikli sayfalarda testi daha uzun sürdürmeniz gerektiğini hesaba katın."
+  },
+  {
+   "s": "Uzun içerik dönüşümü düşürür mü?",
+   "c": "Uzunluk tek başına sorun değildir; sorun, ziyaretçinin aradığı bilgiye ve CTA'ya ulaşamamasıdır. Üstte kısa bir özet ve görünür CTA, altta ayrıntı yapısı hem okuyucuya hem arama motorlarına uyar."
+  },
+  {
+   "s": "Isı haritası araçları SEO'ya zarar verir mi?",
+   "c": "Doğru kurulduğunda doğrudan zarar vermez, ancak ağır izleme kodları sayfa hızını ve INP değerini olumsuz etkileyebilir. Aracı yalnızca analiz ettiğiniz sayfalarda ve sınırlı süre çalıştırmak iyi bir uygulamadır."
+  },
+  {
+   "s": "Kazanan varyantı uyguladıktan sonra ne yapmalıyım?",
+   "c": "Kazananı ana URL'de kalıcı hale getirin, test URL'lerini, yönlendirmeleri ve test kodlarını kaldırın. Ardından birkaç hafta boyunca organik tıklama ve dönüşüm verisini önceki dönemle karşılaştırın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "I see projects where organic traffic doubles while sales stay flat. The problem is usually not traffic quality but a landing page that fails to move the visitor to the next step. SEO brings visitors to the door; the page decides whether they come in.",
+    "This post looks at conversion rate optimisation (CRO) together with SEO: pages that fit search intent, the right CTA, simple forms, trust signals and experiments that follow Google's A/B testing guidance.",
+    {
+     "alinti": "Short answer: Turning organic traffic into conversions starts with a page that fits search intent and offers the step the visitor is ready for. When A/B testing, follow Google's guidance: do not show Googlebot different content (cloaking), point test URLs to the original with rel=canonical, use 302 redirects and run the test only as long as needed."
+    }
+   ]
+  },
+  {
+   "baslik": "Why doesn't organic traffic convert? Intent and page fit",
+   "paragraflar": [
+    "Showing a \"Buy now\" button to someone looking for information, or a long introduction to someone ready to buy, are two sides of the same mistake. First read which intent a page attracts from its Search Console queries, then shape the page and its offer around it.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Search intent",
+       "Example query",
+       "What the page must deliver",
+       "Suitable CTA"
+      ],
+      "satirlar": [
+       [
+        "Informational",
+        "how is a dental implant done",
+        "Process, duration, risks, FAQs",
+        "Download a guide, newsletter, related service page"
+       ],
+       [
+        "Comparison",
+        "implant or bridge",
+        "Neutral comparison table, who suits which",
+        "Free initial assessment request"
+       ],
+       [
+        "Transactional",
+        "kadıköy implant appointment",
+        "Location, availability, contact, trust signals",
+        "Book, call, WhatsApp"
+       ],
+       [
+        "Brand",
+        "[clinic name] reviews",
+        "Real reviews, team, credentials",
+        "Book an appointment"
+       ]
+      ]
+     }
+    },
+    "I cover intent-based content planning in the [content strategy guide](/en/guides/icerik-stratejisi). In trust-driven sectors such as healthcare, this table is also the starting point of [healthcare SEO](/en/industries/healthcare-seo) work."
+   ]
+  },
+  {
+   "baslik": "CTA: offering the step the visitor is ready for",
+   "paragraflar": [
+    "The most common mistake I see is the same \"Contact us\" button on every page. A CTA should change with the page's intent and the visitor's decision stage.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "A CTA that works",
+       "tur": "iyi",
+       "maddeler": [
+        "Says what happens: \"Book a 15-minute intro call\"",
+        "Easy to reach with a thumb on mobile",
+        "Carries the same promise as the page",
+        "Repeats at section ends on long pages"
+       ]
+      },
+      "sag": {
+       "baslik": "A weak CTA",
+       "tur": "kotu",
+       "maddeler": [
+        "Vague: \"Submit\", \"Click here\"",
+        "Only at the very bottom",
+        "Asks for a sale on an informational page",
+        "Same weight as competing buttons, so it gets lost"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Reducing friction in forms",
+   "paragraflar": [
+    "The form is the narrowest point of the conversion path. Every extra field makes visitors ask \"why do they need this?\" My checklist when auditing a form:",
+    {
+     "kontrol": [
+      "Is every field genuinely needed for first contact?",
+      "Do phone and email fields open the right keyboard on mobile?",
+      "Are error messages next to the field and easy to understand?",
+      "Does it say what happens after submitting and when you will reply?",
+      "Is the privacy notice (KVKK in Turkey) short and accessible?",
+      "Is form submission measured as a key event in GA4?"
+     ]
+    },
+    "Skip the last item and you will never know whether an improvement worked."
+   ]
+  },
+  {
+   "baslik": "Trust signals: persuading the organic visitor",
+   "paragraflar": [
+    "Organic visitors often see you for the first time while comparing you with competitors on the same results page. Trust signals make the difference:",
+    {
+     "kartlar": [
+      {
+       "ikon": "👤",
+       "baslik": "Real people",
+       "metin": "Expert or team details with photo and title show who stands behind the page."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Verifiable reviews",
+       "metin": "Reviews with a clear source; fabricated or anonymous praise backfires."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Contact and address",
+       "metin": "A physical address, phone and opening hours matter most in local searches."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Transparent terms",
+       "metin": "Easy-to-find return, delivery and payment terms reduce hesitation."
+      }
+     ]
+    },
+    "Because these elements also show who created the content and with what experience, they help on the content quality side too."
+   ]
+  },
+  {
+   "baslik": "How do speed and page experience affect conversion?",
+   "paragraflar": [
+    "Even the best CTA fails on a page that loads slowly or shifts while loading. Google's Core Web Vitals thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS; I cover measurement and fixes in the [Core Web Vitals guide](/en/blog/core-web-vitals-2025).",
+    "Pop-ups are another frequent source of friction. Interstitials that cover content as soon as the page opens annoy users and are cited as a negative example in Google's page experience documentation. Showing your offer within the content flow, or after the user has scrolled, is more balanced. For the wider technical frame, see the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "A/B testing without hurting SEO: Google's guidance",
+   "paragraflar": [
+    "Google Search Central's \"Minimize A/B testing impact in Google Search\" document explains that properly set up tests need not harm search, provided you follow a few rules:",
+    {
+     "akis": {
+      "baslik": "SEO-friendly A/B testing",
+      "adimlar": [
+       {
+        "baslik": "Don't cloak",
+        "metin": "Never show Googlebot different content or URLs than users see."
+       },
+       {
+        "baslik": "Use rel=canonical",
+        "metin": "Point alternate test URLs to the original; do not use noindex."
+       },
+       {
+        "baslik": "Redirect with 302",
+        "metin": "A temporary redirect keeps the original URL indexed; JavaScript redirects are also fine."
+       },
+       {
+        "baslik": "Run only as long as needed",
+        "metin": "Once you have enough data, ship the winner and remove test URLs and scripts."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Long-running tests are risky",
+      "metin": "According to Google's documentation, experiments that run unnecessarily long, especially those serving one variant to a large share of users, may be seen as an attempt to deceive search engines."
+     }
+    },
+    "For the difference between redirect types, see [301 vs 302 redirects](/en/blog/301-302-yonlendirme)."
+   ]
+  },
+  {
+   "baslik": "Which metrics matter in CRO work?",
+   "paragraflar": [
+    "In organic CRO, a single rate can mislead. Track organic sessions, key event rate and revenue or form count per landing page together; if a change lifts conversion rate but cuts organic clicks, the net effect may be negative. I cover GA4 setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi) and the reporting frame in the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "If ad traffic shares the same pages, think about both audiences separately, as I explain in [Meta Ads and SEO](/en/blog/meta-ads-ve-seo). I help businesses handle organic growth and conversion together through [performance and growth](/en/performance-growth) and [SEO consulting](/en/seo-consulting); to review your pages together, [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can CRO changes lower rankings?",
+   "c": "Changes that cut page content heavily, or pull the title and main copy away from query intent, can affect organic visibility. Before big changes, record which queries the page ranks for and monitor them in Search Console afterwards."
+  },
+  {
+   "s": "Should I add CTAs to blog posts?",
+   "c": "Yes, as an intent-appropriate next step rather than a sales push. On an informational post, pointing to a related service page, guide or newsletter usually works better than asking for a sale."
+  },
+  {
+   "s": "How many visitors does an A/B test need?",
+   "c": "It depends on your current conversion rate and the size of the difference you expect; there is no fixed number. Rely on your testing tool's significance calculation, and expect low-traffic pages to need longer tests."
+  },
+  {
+   "s": "Does long content lower conversions?",
+   "c": "Length alone is not the problem; visitors failing to reach the information and CTA they need is. A short summary and visible CTA at the top with detail below suits both readers and search engines."
+  },
+  {
+   "s": "Do heatmap tools hurt SEO?",
+   "c": "Set up properly they cause no direct harm, but heavy tracking scripts can hurt page speed and INP. Running them only on pages you are analysing, and for a limited time, is good practice."
+  },
+  {
+   "s": "What should I do after shipping the winning variant?",
+   "c": "Make the winner permanent on the main URL and remove test URLs, redirects and scripts. Then compare organic clicks and conversions with the previous period for a few weeks."
+  }
+ ]
+}

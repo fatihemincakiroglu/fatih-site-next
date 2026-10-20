@@ -1,0 +1,499 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "Uluslararası SEO ve Hreflang: Çok Dilli Site Kurulumu",
+ "baslik_en": "International SEO and Hreflang: Setting Up a Multilingual Site",
+ "meta_baslik_tr": "Uluslararası SEO ve Hreflang: Çok Dilli Site Kurulumu",
+ "meta_baslik_en": "International SEO and Hreflang: Multilingual Site Setup",
+ "meta_desc_tr": "ccTLD mi, alt klasör mü, alt alan adı mı? Hreflang sözdizimi ve kod örneği, x-default kullanımı, sık yapılan hatalar ve çok dilli siteyi test etme adımları.",
+ "meta_desc_en": "ccTLD, subfolder or subdomain? Hreflang syntax with a code example, when to use x-default, the most common mistakes and how to test a multilingual site.",
+ "ozet_tr": "Çok dilli sitede URL yapısını seçmek, hreflang'i doğru yazmak ve sık yapılan hataları yakalamak için pratik rehber.",
+ "ozet_en": "A practical guide to choosing a URL structure, writing hreflang correctly and catching common mistakes on a multilingual site.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Türkiye'den yurt dışına satış yapan bir üretici, Rusça ve Almanca misafir ağırlayan bir otel ya da İngilizce içerik ekleyen bir SaaS girişimi aynı soruyla karşılaşır: Her dil ve ülke için hangi URL yapısını kurmalı, Google'a hangi sayfanın kime gösterileceğini nasıl anlatmalı?",
+    "Bu yazıda URL yapısı kararını, hreflang sözdizimini, x-default'u ve denetimlerde en sık gördüğüm hreflang hatalarını anlatıyorum. Genel tarama ve indeksleme temelleri için [teknik SEO rehberi](/rehber/teknik-seo) iyi bir başlangıç.",
+    {
+     "alinti": "Kısa cevap: Uluslararası SEO'da önce URL yapısını (ccTLD, alt klasör ya da alt alan adı) seçersiniz, sonra her dil sürümünü hreflang ile birbirine bağlarsınız. Hreflang karşılıklı olmalı, her sayfa kendini de listelemeli ve kodlar ISO 639-1 dil (isteğe bağlı ISO 3166-1 Alpha-2 bölge) biçiminde yazılmalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "ccTLD, alt klasör mü alt alan adı mı?",
+   "paragraflar": [
+    "Google'ın çok bölgeli ve çok dilli siteler dokümanı dört seçeneği karşılaştırır. Tek doğru cevap yok; bütçe, ekip yapısı ve hedef pazarların sayısı kararı belirler.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yapı",
+       "Örnek",
+       "Artısı",
+       "Eksisi"
+      ],
+      "satirlar": [
+       [
+        "Ülke alan adı (ccTLD)",
+        "example.de",
+        "Net coğrafi hedefleme, siteleri ayırmak kolay",
+        "Pahalı, daha fazla altyapı, yalnızca tek ülke"
+       ],
+       [
+        "Alt alan adı",
+        "de.example.com",
+        "Kurulumu kolay, farklı sunucu konumu mümkün",
+        "Kullanıcı “de”nin dil mi ülke mi olduğunu anlamayabilir"
+       ],
+       [
+        "Alt klasör",
+        "example.com/de/",
+        "Kolay kurulum, tek host, düşük bakım",
+        "Siteleri ayırmak daha zor, tek sunucu konumu"
+       ],
+       [
+        "URL parametresi",
+        "example.com?loc=de",
+        "—",
+        "Google önermiyor; bölümlemek zor"
+       ]
+      ]
+     }
+    },
+    "Sahada en sık önerdiğim yapı alt klasördür: tek alan adında otorite birikir ve bakım kolaydır. Ayrı yasal varlıklar ya da ülkeye özel ekipler varsa ccTLD mantıklı hale gelir. Mevcut yapıyı değiştirecekseniz süreç bir taşıma projesidir; [site taşıma SEO rehberi](/rehber/site-tasima-seo) adımları ayrıntılı anlatıyor. Klasör ve slug kararları için [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) yazısına da bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Hreflang ne yapar, ne yapmaz?",
+   "paragraflar": [
+    "Hreflang, aynı içeriğin farklı dil ya da bölge sürümlerini Google'a bildiren bir işarettir. Beklentiyi doğru kurmak için neyi yapmadığını da bilmek gerekir.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Sürümleri eşleştirir",
+       "metin": "Google'a hangi URL'nin hangi dil ya da bölge için alternatif olduğunu söyler; doğru sürümün sonuçlarda gösterilmesine yardım eder."
+      },
+      {
+       "ikon": "🗣️",
+       "baslik": "Dili algılamaz",
+       "metin": "Google'ın dokümanına göre sayfanın dili hreflang ya da HTML lang özelliğinden değil, görünür içerikten belirlenir."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "Yönlendirme yapmaz",
+       "metin": "Kullanıcıyı başka sürüme taşımaz; yalnızca arama sonucunda hangi URL'nin görüneceğini etkiler."
+      },
+      {
+       "ikon": "📈",
+       "baslik": "Sıralama getirmez",
+       "metin": "Zayıf bir sayfayı güçlendirmez; doğru kitleye doğru sürümü eşleştirir."
+      }
+     ]
+    },
+    "Google ayrıca dil sürümleri arasında kullanıcıyı varsayıma dayalı otomatik yönlendirmemeyi öneriyor; bu, hem kullanıcının hem Googlebot'un diğer sürümleri görmesini engelleyebilir. Bunun yerine görünür bir dil seçici koyun."
+   ]
+  },
+  {
+   "baslik": "Hreflang sözdizimi: kod örneği ve kurallar",
+   "paragraflar": [
+    "Google üç yöntemi eşdeğer kabul ediyor: HTML head içindeki link etiketleri, HTTP Link başlığı (PDF gibi HTML olmayan dosyalar için) ve XML site haritası. Birini seçip tutarlı uygulamak yeterli; üçünü birden kullanmak Arama açısından fayda sağlamaz, yalnızca bakım yükü getirir.",
+    {
+     "kod": "<link rel=\"alternate\" hreflang=\"tr\" href=\"https://example.com/urunler/celik-raf/\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://example.com/en/products/steel-shelf/\" />\n<link rel=\"alternate\" hreflang=\"de-DE\" href=\"https://example.com/de/produkte/stahlregal/\" />\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://example.com/en/products/steel-shelf/\" />"
+    },
+    "Bu bloğun aynısı üç sayfanın head bölümünde de yer almalı. Kurallar:",
+    {
+     "liste": [
+      "İlk kod ISO 639-1 dil kodudur (tr, en, de, ru, ar); bölge kodu isteğe bağlıdır ve ISO 3166-1 Alpha-2 biçimindedir (DE, AT, GB).",
+      "Bölge kodu tek başına kullanılamaz: “DE” geçersiz, “de-DE” ya da “de” geçerlidir.",
+      "URL'ler protokol dahil tam adres olmalıdır; “/en/” gibi göreli yollar geçersizdir.",
+      "Her sayfa kendini de listeler (self-referencing) ve karşı sayfa da ona geri link verir; karşılıklı olmayan etiketler yok sayılır.",
+      "“UK” ya da “EU” gibi kodların Google Arama'da etkisi yoktur; Birleşik Krallık için en-GB yazılır."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "x-default ne zaman kullanılır?",
+   "paragraflar": [
+    "x-default, kullanıcının tarayıcı diline uyan bir sürüm olmadığında gösterilecek yedek sayfadır. Google'ın dokümanına göre en iyi kullanım alanı dil seçici sayfalar ya da otomatik yönlendirme yapan giriş sayfalarıdır.",
+    "Seçici sayfanız yoksa genellikle en geniş kitleye hitap eden sürümü (çoğu Türk ihracatçı için İngilizce) x-default yaparım. Türkçe sürümü x-default yapmak, Türkçe bilmeyen bir Brezilyalı kullanıcıya Türkçe sayfa gösterilmesine yol açabilir.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Otel ve turizm sitelerinde",
+      "metin": "Rusça, Almanca, Arapça sürümleri olan sitelerde x-default'u İngilizce sürüme vermek, listede olmayan dillerdeki ziyaretçiler için en anlaşılır yedektir. Sektöre özel kurgu için [otel ve turizm SEO](/sektorler/otel-turizm-seo) sayfasına bakabilirsiniz."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Örnek çok dilli site yapısı",
+   "paragraflar": [
+    "Aşağıdaki alt klasör yapısında her ürün sayfasının üç dil sürümü bir hreflang grubu oluşturur. Türkçe kök dizinde, diğer diller kendi klasöründe durur.",
+    {
+     "agac": {
+      "kok": "example.com",
+      "dallar": [
+       {
+        "ad": "/ (Türkçe, hreflang=tr)",
+        "alt": [
+         "/urunler/celik-raf/",
+         "/iletisim/"
+        ]
+       },
+       {
+        "ad": "/en/ (hreflang=en, x-default)",
+        "alt": [
+         "/en/products/steel-shelf/",
+         "/en/contact/"
+        ]
+       },
+       {
+        "ad": "/de/ (hreflang=de-DE)",
+        "alt": [
+         "/de/produkte/stahlregal/",
+         "/de/kontakt/"
+        ]
+       }
+      ]
+     }
+    },
+    "Slug'ları her dilde yerelleştirmek kullanıcı için daha anlaşılırdır, ama eşleştirmeyi zorlaştırır. Bu yüzden CMS'te her içeriğin dil karşılıklarını bir alanda tutun; hreflang etiketlerini elle değil bu ilişkiden otomatik üretin. İhracat odaklı sitelerde bu kurguyu [B2B üretici SEO](/sektorler/b2b-uretici-seo) çalışmalarında sıkça kuruyorum."
+   ]
+  },
+  {
+   "baslik": "Sık yapılan hreflang hataları",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru",
+       "tur": "iyi",
+       "maddeler": [
+        "Her sürüm kendini ve diğer tüm sürümleri listeler",
+        "Canonical, sayfanın kendi dil sürümünü gösterir",
+        "Hreflang'deki URL'ler 200 döner ve dizine eklenebilir",
+        "en-GB, de-AT gibi geçerli kodlar"
+       ]
+      },
+      "sag": {
+       "baslik": "Yanlış",
+       "tur": "kotu",
+       "maddeler": [
+        "Yalnızca Türkçe sayfadan diğerlerine tek yönlü link",
+        "Tüm dillerin canonical'ı Türkçe sayfaya veriliyor",
+        "Hreflang'de yönlendirilen ya da noindex URL'ler",
+        "“uk”, “tr-TU” gibi geçersiz kodlar"
+       ]
+      }
+     }
+    },
+    "En pahalı hata, dil sürümlerinin canonical'ını ana dile vermektir: Google bu durumda diğer sürümleri kopya sayıp dizinden dışlayabilir. Taşımalardan sonra hreflang listesinde eski, yönlendirilen URL'lerin kalması da sık görülür; yönlendirme mantığını [301 ve 302 yönlendirme farkı](/blog/301-302-yonlendirme) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Hreflang kurulumu nasıl test edilir?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Hreflang denetim süreci",
+      "adimlar": [
+       {
+        "baslik": "Tarayıcıyla tara",
+        "metin": "Bir site tarayıcısıyla tüm dil klasörlerini tarayıp hreflang raporunu dışa aktarın."
+       },
+       {
+        "baslik": "Karşılıklılığı kontrol et",
+        "metin": "Geri dönüş linki olmayan, kendini listelemeyen sayfaları ayıklayın."
+       },
+       {
+        "baslik": "Durum kodlarını eşle",
+        "metin": "Hreflang'deki her URL 200 dönmeli, noindex ya da yönlendirme olmamalı."
+       },
+       {
+        "baslik": "İşlenmiş HTML'e bak",
+        "metin": "JavaScript ile eklenen etiketleri URL Denetimi'ndeki işlenmiş HTML'de doğrulayın."
+       },
+       {
+        "baslik": "Sonuçları izle",
+        "metin": "Performans raporunda ülke filtresiyle doğru sürümün gösterilip gösterilmediğine bakın."
+       }
+      ]
+     }
+    },
+    "Tarama için hangi aracın uygun olduğunu [SEO denetim araçları karşılaştırmasında](/blog/seo-audit-araclari) ele aldım. Çok dilli bir sitenin kurulumu ya da denetimi için [SEO danışmanlığı](/seo-uzmani) kapsamında destek alabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) oluşturabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "An exporting Turkish manufacturer, a hotel hosting Russian and German guests or a SaaS startup adding English all face one question: which URL structure should each language and country get, and how do you tell Google which page to show to whom?",
+    "This article covers the URL structure decision, hreflang syntax, x-default and the hreflang mistakes I see most often in audits. For crawling and indexing fundamentals, the [technical SEO guide](/en/guides/teknik-seo) is a good starting point.",
+    {
+     "alinti": "Short answer: In international SEO you first choose a URL structure (ccTLD, subfolder or subdomain), then connect every language version with hreflang. Hreflang must be reciprocal, each page must also list itself, and codes must use ISO 639-1 for language with an optional ISO 3166-1 Alpha-2 region."
+    }
+   ]
+  },
+  {
+   "baslik": "ccTLD, subfolder or subdomain?",
+   "paragraflar": [
+    "Google's documentation on multi-regional and multilingual sites compares four options. Budget, team structure and the number of markets drive the choice.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Structure",
+       "Example",
+       "Pros",
+       "Cons"
+      ],
+      "satirlar": [
+       [
+        "Country domain (ccTLD)",
+        "example.de",
+        "Clear geotargeting, easy to separate sites",
+        "Expensive, more infrastructure, one country only"
+       ],
+       [
+        "Subdomain",
+        "de.example.com",
+        "Easy setup, different server locations possible",
+        "Users may not know if “de” means language or country"
+       ],
+       [
+        "Subfolder",
+        "example.com/de/",
+        "Easy setup, same host, low maintenance",
+        "Harder to separate sites, single server location"
+       ],
+       [
+        "URL parameter",
+        "example.com?loc=de",
+        "—",
+        "Not recommended by Google; hard to segment"
+       ]
+      ]
+     }
+    },
+    "The structure I recommend most often is the subfolder: authority accumulates on one domain and maintenance stays simple. A ccTLD makes sense when you have separate legal entities or country teams. Changing an existing structure is a migration project; the [site migration SEO guide](/en/guides/site-tasima-seo) covers the steps. For folder and slug decisions, see [SEO-friendly URL structure](/en/blog/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "What hreflang does and does not do",
+   "paragraflar": [
+    "Hreflang tells Google about language or regional versions of the same content. It is just as important to know what it does not do.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Pairs versions",
+       "metin": "Tells Google which URL is the alternate for which language or region, helping the right version appear in results."
+      },
+      {
+       "ikon": "🗣️",
+       "baslik": "Does not detect language",
+       "metin": "According to Google's documentation, page language comes from visible content, not from hreflang or the HTML lang attribute."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "Does not redirect",
+       "metin": "It never moves users to another version; it only affects which URL appears in search results."
+      },
+      {
+       "ikon": "📈",
+       "baslik": "Does not boost rankings",
+       "metin": "It does not strengthen a weak page; it matches the right version to the right audience."
+      }
+     ]
+    },
+    "Google also advises against automatically redirecting users between language versions based on assumptions, since this can stop both users and Googlebot from seeing all versions. Use a visible language switcher."
+   ]
+  },
+  {
+   "baslik": "Hreflang syntax: code example and rules",
+   "paragraflar": [
+    "Google treats three methods as equivalent: link elements in the HTML head, the HTTP Link header (for non-HTML files such as PDFs) and the XML sitemap. Pick one; using all three adds maintenance with no benefit in Search.",
+    {
+     "kod": "<link rel=\"alternate\" hreflang=\"tr\" href=\"https://example.com/urunler/celik-raf/\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://example.com/en/products/steel-shelf/\" />\n<link rel=\"alternate\" hreflang=\"de-DE\" href=\"https://example.com/de/produkte/stahlregal/\" />\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://example.com/en/products/steel-shelf/\" />"
+    },
+    "The same block must appear in the head of all three pages. The rules:",
+    {
+     "liste": [
+      "The first code is an ISO 639-1 language code (tr, en, de, ru, ar); the region is optional and uses ISO 3166-1 Alpha-2 (DE, AT, GB).",
+      "A region code cannot stand alone: “DE” is invalid, while “de-DE” or “de” are valid.",
+      "URLs must be fully qualified including the protocol; relative paths like “/en/” are invalid.",
+      "Every page lists itself (self-referencing) and the other page links back; non-reciprocal annotations are ignored.",
+      "Codes such as “UK” or “EU” have no effect in Google Search; use en-GB for the United Kingdom."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "When should you use x-default?",
+   "paragraflar": [
+    "x-default is the fallback page shown when no version matches the user's browser language. According to Google's documentation, it works best for language selector pages or entry pages that redirect automatically.",
+    "If you have no selector page, I usually make the version with the broadest audience (English for most Turkish exporters) the x-default. Making the Turkish version x-default can lead to a Brazilian user who does not read Turkish landing on a Turkish page.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "For hotel and tourism sites",
+      "metin": "On sites with Russian, German and Arabic versions, pointing x-default to English is the clearest fallback for visitors in unlisted languages. For an industry-specific setup, see [hotel and tourism SEO](/en/industries/hotel-tourism-seo)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "An example multilingual site structure",
+   "paragraflar": [
+    "In the subfolder structure below, the three language versions of each product page form one hreflang cluster. Turkish sits at the root and other languages live in their own folders.",
+    {
+     "agac": {
+      "kok": "example.com",
+      "dallar": [
+       {
+        "ad": "/ (Turkish, hreflang=tr)",
+        "alt": [
+         "/urunler/celik-raf/",
+         "/iletisim/"
+        ]
+       },
+       {
+        "ad": "/en/ (hreflang=en, x-default)",
+        "alt": [
+         "/en/products/steel-shelf/",
+         "/en/contact/"
+        ]
+       },
+       {
+        "ad": "/de/ (hreflang=de-DE)",
+        "alt": [
+         "/de/produkte/stahlregal/",
+         "/de/kontakt/"
+        ]
+       }
+      ]
+     }
+    },
+    "Localised slugs are clearer for users but harder to map. Store each item's language counterparts in a CMS field and generate hreflang tags from that relationship rather than by hand. I set up this model often in [B2B manufacturer SEO](/en/industries/b2b-manufacturer-seo) projects for export-focused sites."
+   ]
+  },
+  {
+   "baslik": "Common hreflang mistakes",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Correct",
+       "tur": "iyi",
+       "maddeler": [
+        "Each version lists itself and all other versions",
+        "Canonical points to the page's own language version",
+        "URLs in hreflang return 200 and are indexable",
+        "Valid codes such as en-GB or de-AT"
+       ]
+      },
+      "sag": {
+       "baslik": "Wrong",
+       "tur": "kotu",
+       "maddeler": [
+        "One-way links from the Turkish page only",
+        "Every language's canonical points to the Turkish page",
+        "Redirected or noindex URLs in hreflang",
+        "Invalid codes such as “uk” or “tr-TU”"
+       ]
+      }
+     }
+    },
+    "The costliest mistake is pointing the canonical of every language version to the main language: Google may then treat the other versions as duplicates and drop them from the index. Old, redirected URLs left in hreflang after a migration are also common; I explain redirect logic in [301 vs 302 redirects](/en/blog/301-302-yonlendirme)."
+   ]
+  },
+  {
+   "baslik": "How to test your hreflang setup",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Hreflang audit process",
+      "adimlar": [
+       {
+        "baslik": "Crawl the site",
+        "metin": "Crawl every language folder with a site crawler and export the hreflang report."
+       },
+       {
+        "baslik": "Check reciprocity",
+        "metin": "Filter out pages with no return link or no self-reference."
+       },
+       {
+        "baslik": "Match status codes",
+        "metin": "Every URL in hreflang should return 200, with no noindex or redirect."
+       },
+       {
+        "baslik": "Inspect rendered HTML",
+        "metin": "Verify tags injected by JavaScript in the rendered HTML of URL Inspection."
+       },
+       {
+        "baslik": "Monitor results",
+        "metin": "Use the country filter in the Performance report to see whether the right version is shown."
+       }
+      ]
+     }
+    },
+    "I compare crawlers for this job in [SEO audit tools compared](/en/blog/seo-audit-araclari). For setting up or auditing a multilingual site, see [SEO consulting](/en/seo-consulting) or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Hreflang, HTML lang özelliğinin yerine geçer mi?",
+   "c": "Hayır, ikisi farklı işler görür. lang özelliği tarayıcılara ve ekran okuyuculara sayfanın dilini söyler; hreflang ise alternatif sürümleri eşleştirir. Google ikisini de dili algılamak için kullanmadığını, dili görünür içerikten belirlediğini belirtiyor."
+  },
+  {
+   "s": "Aynı dilde iki ülke için ayrı sayfa gerekir mi?",
+   "c": "Fiyat, para birimi, kargo ya da yasal bilgi farklıysa en-US ve en-GB gibi ayrı sürümler mantıklıdır. İçerik birebir aynıysa tek bir “en” sürümü genellikle yeterlidir. Sırf hreflang için kopya sayfa üretmek bakım yükünü artırır."
+  },
+  {
+   "s": "Makine çevirisiyle dil sürümü açmak sorun olur mu?",
+   "c": "Kontrol edilmemiş makine çevirisi, kullanıcıya değer katmayan ölçekli içerik riskine girebilir. Çeviriyi bir anadili konuşanın düzeltmesi, terimleri yerel aramalara göre uyarlaması gerekir. Önce en çok gelir getiren sayfaları çevirip aşamalı ilerlemek daha güvenlidir."
+  },
+  {
+   "s": "Hreflang'i site haritasına mı, HTML'e mi eklemeliyim?",
+   "c": "Google iki yöntemi eşdeğer sayıyor. Çok sayıda dil ve sayfa varsa site haritası head bölümünü şişirmez; az dilli ve CMS'i destekleyen sitelerde HTML daha kolay denetlenir. Önemli olan tek bir yöntemi seçip tutarlı uygulamaktır."
+  },
+  {
+   "s": "Hreflang hataları sıralamayı düşürür mü?",
+   "c": "Hatalı etiketler genellikle ceza değil, yok sayılma ile sonuçlanır. Ama yanlış canonical ya da tek yönlü etiketler, yanlış dil sürümünün gösterilmesine veya bazı sürümlerin dizine eklenmemesine yol açabilir. Etki, trafik kaybı olarak dolaylı ortaya çıkar."
+  },
+  {
+   "s": "IP adresine göre otomatik dil yönlendirmesi yapmalı mıyım?",
+   "c": "Google bunu önermiyor; Googlebot çoğunlukla ABD'den taradığı için diğer sürümleri göremeyebilir. Kullanıcıya bir öneri bandı gösterip seçimi ona bırakmak daha güvenli bir yaklaşımdır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does hreflang replace the HTML lang attribute?",
+   "c": "No, they do different jobs. The lang attribute tells browsers and screen readers the page language, while hreflang pairs alternate versions. Google states it uses neither to detect language and relies on visible content instead."
+  },
+  {
+   "s": "Do I need separate pages for two countries in the same language?",
+   "c": "If prices, currency, shipping or legal information differ, separate versions such as en-US and en-GB make sense. If the content is identical, a single “en” version is usually enough."
+  },
+  {
+   "s": "Is it a problem to launch language versions with machine translation?",
+   "c": "Unreviewed machine translation can drift into scaled content that adds no value for users. A native speaker should edit it and adapt terms to local searches."
+  },
+  {
+   "s": "Should hreflang go in the sitemap or the HTML?",
+   "c": "Google treats both as equivalent. With many languages and pages, a sitemap keeps the head section lean; on sites with few languages and CMS support, HTML is easier to audit."
+  },
+  {
+   "s": "Do hreflang errors lower rankings?",
+   "c": "Faulty annotations usually lead to being ignored rather than a penalty. But wrong canonicals or one-way tags can cause the wrong language version to show or some versions not to be indexed."
+  },
+  {
+   "s": "Should I redirect users by IP address to a language version?",
+   "c": "Google does not recommend it; since Googlebot mostly crawls from the US, it may never see the other versions. Showing a suggestion banner and letting the user choose is the safer approach."
+  }
+ ]
+}

@@ -1,0 +1,385 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "Featured Snippet ve SERP Özellikleri: Hangi Sonuç Türü Nasıl Kazanılır?",
+ "baslik_en": "Featured Snippets and SERP Features: How to Earn Each Result Type",
+ "meta_baslik_tr": "Featured Snippet ve SERP Özellikleri: Nasıl Kazanılır?",
+ "meta_baslik_en": "Featured Snippets and SERP Features: How to Earn Them",
+ "meta_desc_tr": "Öne çıkan snippet nasıl seçilir, “Diğer kullanıcılar şunu da sordu”, görsel, video ve yerel paket nasıl kazanılır? AI Overviews ilişkisi ve snippet kontrolü.",
+ "meta_desc_en": "How featured snippets are chosen, how to earn People Also Ask, image, video and local pack results, and how they relate to AI Overviews.",
+ "ozet_tr": "Öne çıkan snippet, ilgili sorular, görsel, video ve yerel paket: her sonuç türünü neyin belirlediği ve ilk adımlar.",
+ "ozet_en": "Featured snippets, People Also Ask, images, video and the local pack: what drives each result type and where to start.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Google arama sonuç sayfası (SERP) artık on mavi linkten ibaret değil. Bir sorguda öne çıkan snippet, “Diğer kullanıcılar şunu da sordu” kutusu, görseller, videolar, harita paketi ve AI Overviews aynı sayfada yer alabiliyor. Her biri farklı bir içerik türünü ve farklı sinyalleri öne çıkarıyor.",
+    "Bu yazıda her sonuç türünün nasıl seçildiğini Google'ın resmi dokümanlarına dayanarak özetliyor, hangisi için hangi adımın atılabileceğini anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Öne çıkan snippet için özel bir işaretleme yoktur; Google, soruyu sayfanın içinden en iyi cevaplayan bölümü kendisi seçer. Net soru başlıkları altında kısa ve doğrudan cevaplar yazmak, görsel ve video için doğru teknik temel kurmak, yerel paket için de Google İşletme Profili'ni güçlendirmek gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "Hangi SERP özellikleri var, ne işe yarar?",
+   "paragraflar": [
+    "Bir sorguda hangi özelliklerin çıktığı, arama niyetine göre değişir. Sahada en sık karşılaştığım türler şunlar:",
+    {
+     "kartlar": [
+      {
+       "ikon": "📌",
+       "baslik": "Öne çıkan snippet",
+       "metin": "Sonuçların üstünde, bir sayfadan alınmış kısa cevap kutusu."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Diğer kullanıcılar şunu da sordu",
+       "metin": "Açılır ilgili sorular; her cevap bir sayfadan alınır."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Görsel sonuçlar",
+       "metin": "Görsel ağırlıklı sorgularda sonuç sayfasındaki görsel blokları."
+      },
+      {
+       "ikon": "🎬",
+       "baslik": "Video ve önemli anlar",
+       "metin": "Video sonuçları ve videonun ilgili bölümüne giden zaman damgaları."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Yerel paket",
+       "metin": "Yerel niyetli sorgularda harita ve işletme listesi."
+      },
+      {
+       "ikon": "✨",
+       "baslik": "AI Overviews",
+       "metin": "Yapay zekâ özeti ve destekleyici kaynak linkleri."
+      }
+     ]
+    },
+    "Bu sonuçların bir kısmı kullanıcıya tıklamadan cevap verir. Görünürlüğü bu durumda nasıl ölçeceğinizi [zero-click arama](/blog/zero-click-arama) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "Öne çıkan snippet (featured snippet) nasıl seçilir?",
+   "paragraflar": [
+    "Google'ın dokümanına göre öne çıkan snippet'i Google'ın sistemleri belirliyor: Bir sayfanın kullanıcının sorgusu için iyi bir snippet olacağına karar verirse onu öne çıkarıyor. “Sayfamı öne çıkan snippet olarak nasıl işaretlerim?” sorusuna dokümandaki cevap ise net: İşaretleyemezsiniz.",
+    "Google'ın yardım sayfası, snippet'lerin soruyu ne kadar iyi cevapladıklarına ve ne kadar yardımcı olduklarına göre seçildiğini söylüyor. Aynı sayfaya göre snippet'ler kendi içerik politikalarına tabi; bir siteden çok sayıda politika ihlali çıkarsa Google o siteden öne çıkan snippet göstermeyi bırakabiliyor.",
+    "Sahada snippet'leri üç biçimde görüyorum: kısa paragraf (tanım, “nedir” soruları), liste (adımlar, sıralamalar) ve tablo (karşılaştırma, fiyat, ölçü). Sayfanızda hangi biçimin cevap için doğal olduğunu sorgunun kendisi belirler."
+   ]
+  },
+  {
+   "baslik": "Snippet'e uygun içerik nasıl yazılır?",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Snippet'e uygun",
+       "tur": "iyi",
+       "maddeler": [
+        "Başlık sorunun kendisi: “Tapu harcı nasıl hesaplanır?”",
+        "İlk cümle doğrudan cevap verir",
+        "Adımlar numaralı liste, karşılaştırma tablo olarak",
+        "Ayrıntı ve istisnalar cevaptan sonra gelir"
+       ]
+      },
+      "sag": {
+       "baslik": "Snippet'e uygun olmayan",
+       "tur": "kotu",
+       "maddeler": [
+        "Muğlak başlık: “Merak edilenler”",
+        "Cevap üç paragraf girişten sonra",
+        "Adımlar uzun bir paragrafa gömülü",
+        "Tablo yerine görsel içine yazılmış veri"
+       ]
+      }
+     }
+    },
+    "Bu yapı aynı zamanda okuyucuya da hizmet eder; zaten amaç bu. Kısa ve net cevap bloklarının konuşma diliyle sorulan sorgulardaki yerini [sesli arama SEO](/blog/sesli-arama-seo) yazısında ayrıca anlattım. İçerikleri bu yapıda planlamak için [içerik hizmeti](/icerik) sayfasına göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "“Diğer kullanıcılar şunu da sordu” kutusu nasıl kullanılır?",
+   "paragraflar": [
+    "Google'ın yardım sayfası, öne çıkan snippet'lerin “Diğer kullanıcılar şunu da sordu” bölümünde de görünebildiğini belirtiyor. Yani bu kutuda yer almak, aslında ilgili soruya snippet olmaya uygun bir cevap vermekle ilgili.",
+    "Ben bu kutuyu en çok araştırma aracı olarak kullanıyorum:",
+    {
+     "liste": [
+      "Hedef sorgunun sonuç sayfasında çıkan soruları not edin.",
+      "Sayfanızın cevaplamadığı soruları alt başlık ya da SSS maddesi olarak ekleyin.",
+      "Soru başlığının hemen altına 1-2 cümlelik doğrudan cevap yazın.",
+      "Birbirine çok yakın soruları tek başlıkta birleştirin."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Görsel, video ve yerel paket nasıl kazanılır?",
+   "paragraflar": [
+    "Bu üç sonuç türü metin snippet'lerinden farklı sinyallerle çalışır:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sonuç türü",
+       "Neye bağlı?",
+       "İlk adım"
+      ],
+      "satirlar": [
+       [
+        "Görsel sonuçlar",
+        "Görselin bulunduğu sayfanın konusu, alt metin, açıklayıcı dosya adı",
+        "Özgün görsel, ilgili metnin yakınına yerleştirme, anlamlı alt metin"
+       ],
+       [
+        "Video ve önemli anlar",
+        "Videonun taranabilir bir sayfada olması, VideoObject verisi, bölümler",
+        "Her önemli video için ayrı izleme sayfası, zaman damgaları ya da Clip işaretlemesi"
+       ],
+       [
+        "Yerel paket",
+        "Google'a göre alaka, mesafe ve öne çıkma",
+        "Eksiksiz ve doğru Google İşletme Profili, yorumlar, tutarlı işletme bilgisi"
+       ]
+      ]
+     }
+    },
+    "Video tarafının ayrıntıları [video SEO](/blog/video-seo) yazısında, yerel paketin temeli ise [Google Business Profile](/blog/google-business-profile) yazısında ve [yerel SEO rehberinde](/rehber/yerel-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "FAQ zengin sonuçları ve yapısal verinin yeri",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Ekim 2026 itibarıyla",
+      "metin": "Google, SSS (FAQ) zengin sonuçlarını 7 Mayıs 2026'dan bu yana Google Arama'da göstermiyor; HowTo zengin sonuçları daha önce kaldırılmıştı. FAQPage işaretlemesi geçerli kalıyor ve içeriğin makinelerce anlaşılmasına yardımcı olabilir, ancak artık bir zengin sonuç kazandırmıyor."
+     }
+    },
+    "Yapısal veri hâlâ ürün, yorum, etkinlik, video gibi pek çok sonuç türünün temeli. Hangi türün hangi sonuca uygun olduğunu [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilir, JSON-LD kodunu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz. Öne çıkan snippet için ise yapısal veri gerekmiyor."
+   ]
+  },
+  {
+   "baslik": "AI Overviews ile snippet'ler arasındaki ilişki ne?",
+   "paragraflar": [
+    "Google'ın yapay zekâ özellikleri dokümanına göre AI Overviews ya da AI Mode'da destekleyici link olarak görünmek için ek bir gereklilik ya da özel işaretleme yok; sayfanın dizine eklenmiş ve snippet ile gösterilmeye uygun olması yeterli şart. Bu yüzden snippet'e uygun, net yapılandırılmış içerik iki taraf için de aynı temeli oluşturuyor.",
+    "Snippet kontrolleri de ortak: nosnippet, data-nosnippet ve max-snippet hem klasik snippet'leri hem de yapay zekâ özelliklerinde gösterilen bilgiyi sınırlıyor. Bir sayfayı yalnızca öne çıkan snippet'ten çıkarmak isterseniz Google düşük bir max-snippet değeri denemeyi öneriyor, ancak bunun sonucu kesin değil.",
+    "Yapay zekâ özetlerinde kaynak olmanın ayrıntılarını [Google AI Overviews'da kaynak olarak görünmek](/blog/google-ai-overview-optimizasyonu) yazısında, uygulama çerçevesini [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım. Sitenizin bu sonuçlardaki görünürlüğünü birlikte değerlendirmek için [GEO danışmanlığı](/geo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Öne çıkan snippet almak tıklamaları artırır mı?",
+   "c": "Sorguya göre değişir. Cevabın kendisi kutuda tamamlanıyorsa tıklama sınırlı kalabilir; ayrıntı gerektiren sorgularda ise snippet görünürlüğü ziyarete dönüşebilir. Etkiyi Search Console'da ilgili sorgunun gösterim ve tıklama oranını izleyerek değerlendirin."
+  },
+  {
+   "s": "Snippet için ilk sırada olmak gerekir mi?",
+   "c": "Google'ın dokümanında sıralamaya dair bir şart yazmıyor. Sahada snippet'lerin genellikle o sorguda ilk sayfada yer alan sayfalardan seçildiğini görüyorum; bu yüzden önce sayfanın sorgu için güçlü bir sonuç olması gerekir."
+  },
+  {
+   "s": "Snippet'i kaybettim, neden olabilir?",
+   "c": "Snippet'ler sabit değildir; Google daha iyi cevap veren bir sayfa bulabilir, sorgunun niyet yorumu değişebilir ya da sayfada yapılan bir değişiklik cevabı belirsizleştirmiş olabilir. Önce sayfanın ilgili bölümünü ve sonuç sayfasının güncel hâlini karşılaştırın."
+  },
+  {
+   "s": "Hangi sorgularda snippet aldığımı nasıl takip ederim?",
+   "c": "Search Console'da öne çıkan snippet için ayrı bir filtre bulunmuyor. Hedef sorguları elle kontrol edebilir ya da SERP özelliklerini raporlayan sıralama takip araçlarını kullanabilirsiniz."
+  },
+  {
+   "s": "Yapısal veri öne çıkan snippet şansını artırır mı?",
+   "c": "Google'ın dokümanına göre bir sayfayı öne çıkan snippet olarak işaretlemenin yolu yok. Snippet, sayfanın görünür içeriğinden seçilir; bu yüzden belirleyici olan cevabın sayfada ne kadar net yazıldığıdır."
+  },
+  {
+   "s": "Bir sayfanın snippet'te görünmesini engelleyebilir miyim?",
+   "c": "Evet. nosnippet kuralı sayfadaki tüm snippet'leri, data-nosnippet özniteliği ise belirli bir metin bölümünü engeller. Bu kuralların yapay zekâ özelliklerinde gösterilen bilgiyi de sınırladığını unutmayın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The Google results page (SERP) is no longer just ten blue links. One query can show a featured snippet, a People Also Ask box, images, videos, a map pack and AI Overviews on the same page. Each favours a different content type and different signals.",
+    "Below I summarise how each result type is chosen, based on Google's official documentation, and which steps help with which.",
+    {
+     "alinti": "Short answer: There is no special markup for featured snippets; Google itself picks the part of a page that best answers the question. Write short, direct answers under clear question headings, build the right technical base for images and video, and strengthen your Google Business Profile for the local pack."
+    }
+   ]
+  },
+  {
+   "baslik": "Which SERP features exist and what do they do?",
+   "paragraflar": [
+    "Which features appear depends on search intent. These are the types I see most often:",
+    {
+     "kartlar": [
+      {
+       "ikon": "📌",
+       "baslik": "Featured snippet",
+       "metin": "A short answer box above the results, taken from one page."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "People Also Ask",
+       "metin": "Expandable related questions; each answer comes from a page."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Image results",
+       "metin": "Image blocks on the results page for visual queries."
+      },
+      {
+       "ikon": "🎬",
+       "baslik": "Video and key moments",
+       "metin": "Video results and timestamps linking to the relevant part."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Local pack",
+       "metin": "A map and business list for queries with local intent."
+      },
+      {
+       "ikon": "✨",
+       "baslik": "AI Overviews",
+       "metin": "An AI-generated summary with supporting source links."
+      }
+     ]
+    },
+    "Some of these answer the user without a click. How to measure visibility in that case is covered in the [zero-click search](/en/blog/zero-click-arama) article."
+   ]
+  },
+  {
+   "baslik": "How are featured snippets chosen?",
+   "paragraflar": [
+    "According to Google's documentation, Google's systems decide whether a page would make a good featured snippet for a query and, if so, promote it. To the question “How can I mark my page as a featured snippet?”, the documented answer is: you can't.",
+    "Google's help page says snippets are chosen based on how well they answer the question and how helpful they are. Snippets are also subject to Google's content policies; if a site has many policy-violating snippets, Google may stop showing featured snippets from it.",
+    "In practice I see three formats: a short paragraph (definitions, “what is” questions), a list (steps, rankings) and a table (comparisons, prices, measurements). The query itself determines which format is natural."
+   ]
+  },
+  {
+   "baslik": "How do you write snippet-friendly content?",
+   "paragraflar": [
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Snippet-friendly",
+       "tur": "iyi",
+       "maddeler": [
+        "The heading is the question: “How is stamp duty calculated?”",
+        "The first sentence answers directly",
+        "Steps as a numbered list, comparisons as a table",
+        "Details and exceptions come after the answer"
+       ]
+      },
+      "sag": {
+       "baslik": "Not snippet-friendly",
+       "tur": "kotu",
+       "maddeler": [
+        "Vague heading: “Things to know”",
+        "The answer comes after three paragraphs of intro",
+        "Steps buried in one long paragraph",
+        "Data written inside an image instead of a table"
+       ]
+      }
+     }
+    },
+    "This structure serves readers too, which is the point. The role of short answer blocks in conversational queries is covered in [voice search SEO](/en/blog/sesli-arama-seo). To plan content this way, see my [content strategy service](/en/content-strategy)."
+   ]
+  },
+  {
+   "baslik": "How should you use People Also Ask?",
+   "paragraflar": [
+    "Google's help page notes that featured snippets can also appear in the People Also Ask section. Showing up there is really about giving a snippet-worthy answer to the related question.",
+    "I mostly use the box as a research tool:",
+    {
+     "liste": [
+      "Note the questions shown for the target query.",
+      "Add the ones your page does not answer as subheadings or FAQ items.",
+      "Write a direct one or two sentence answer right under each question heading.",
+      "Merge near-identical questions under one heading."
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How do you earn image, video and local pack results?",
+   "paragraflar": [
+    "These three result types run on different signals from text snippets:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Result type",
+       "Depends on",
+       "First step"
+      ],
+      "satirlar": [
+       [
+        "Image results",
+        "Topic of the host page, alt text, descriptive file name",
+        "Original images placed near related text, meaningful alt text"
+       ],
+       [
+        "Video and key moments",
+        "Video on a crawlable page, VideoObject data, chapters",
+        "A dedicated watch page per key video, timestamps or Clip markup"
+       ],
+       [
+        "Local pack",
+        "Per Google: relevance, distance and prominence",
+        "Complete, accurate Google Business Profile, reviews, consistent business info"
+       ]
+      ]
+     }
+    },
+    "Video details are in the [video SEO](/en/blog/video-seo) article; the basis of the local pack is covered in [Google Business Profile](/en/blog/google-business-profile) and the [local SEO guide](/en/guides/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "FAQ rich results and the role of structured data",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "As of October 2026",
+      "metin": "Google has not shown FAQ rich results in Google Search since 7 May 2026; HowTo rich results were removed earlier. FAQPage markup remains valid and may help machines understand content, but it no longer earns a rich result."
+     }
+    },
+    "Structured data still underpins many result types such as products, reviews, events and videos. See which type fits which result in the [schema and structured data guide](/en/guides/schema-yapisal-veri) and draft JSON-LD with the [schema generator](/en/tools/schema-generator). Featured snippets need no structured data."
+   ]
+  },
+  {
+   "baslik": "How do AI Overviews relate to snippets?",
+   "paragraflar": [
+    "Google's AI features documentation says there are no additional requirements or special markup to appear as a supporting link in AI Overviews or AI Mode; the page must be indexed and eligible to show with a snippet. Clear, snippet-friendly content is the same foundation for both.",
+    "Snippet controls are shared as well: nosnippet, data-nosnippet and max-snippet limit both classic snippets and what is shown in AI features. To remove a page from featured snippets only, Google suggests trying a lower max-snippet value, though the outcome is not certain.",
+    "Details on being cited in AI summaries are in [appearing as a source in Google AI Overviews](/en/blog/google-ai-overview-optimizasyonu), with the wider framework in the [GEO implementation guide](/en/guides/geo-uygulama). To review your visibility in these results, see [GEO consulting](/en/geo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does a featured snippet increase clicks?",
+   "c": "It depends on the query. If the answer is complete in the box, clicks may stay limited; for queries that need detail, snippet visibility can turn into visits. Judge the effect by tracking impressions and click-through rate for the query in Search Console."
+  },
+  {
+   "s": "Do I need to rank first to get a snippet?",
+   "c": "Google's documentation states no ranking requirement. In practice I see snippets usually taken from pages already on page one for the query, so the page first needs to be a strong result."
+  },
+  {
+   "s": "I lost a snippet. Why?",
+   "c": "Snippets are not fixed. Google may find a page that answers better, its reading of the intent may change, or an edit may have made your answer less clear. Compare the relevant section with the current results page."
+  },
+  {
+   "s": "How do I track which queries show my snippet?",
+   "c": "Search Console has no separate filter for featured snippets. You can check target queries by hand or use rank tracking tools that report SERP features."
+  },
+  {
+   "s": "Does structured data improve snippet chances?",
+   "c": "Google's documentation says there is no way to mark a page as a featured snippet. Snippets come from visible page content, so what matters is how clearly the answer is written."
+  },
+  {
+   "s": "Can I stop a page from appearing in snippets?",
+   "c": "Yes. The nosnippet rule blocks all snippets on a page, and the data-nosnippet attribute blocks a specific section of text. Remember these also limit what is shown in AI features."
+  }
+ ]
+}

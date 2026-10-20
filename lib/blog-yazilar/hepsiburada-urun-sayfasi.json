@@ -1,0 +1,362 @@
+{
+ "kategori": "ecommerce",
+ "etiket": "E-Ticaret",
+ "sure": 7,
+ "baslik_tr": "Hepsiburada'da Ürün Görünürlüğü: Ürün Sayfası ve İçerik",
+ "baslik_en": "Product Visibility on Hepsiburada: Product Page and Content",
+ "meta_baslik_tr": "Hepsiburada Ürün Sayfası: Görünürlük ve İçerik Rehberi",
+ "meta_baslik_en": "Hepsiburada Product Page: Visibility and Content Guide",
+ "meta_desc_tr": "Hepsiburada'da ortak ürün sayfası mantığı, başlık, görsel, kategori özellikleri, açıklama ve soru-cevap: satıcının kontrol edebildiği içerik alanları.",
+ "meta_desc_en": "How Hepsiburada's shared product pages work, plus titles, images, category attributes, descriptions and Q&A: the content fields a seller can control.",
+ "ozet_tr": "Hepsiburada'da ortak ürün sayfasını doğru kurmak: başlık, görsel, özellik alanları, açıklama ve soru-cevap.",
+ "ozet_en": "Building a solid shared product page on Hepsiburada: title, images, attribute fields, description and Q&A.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Hepsiburada'da satış yapan markalarla çalışırken ilk sorulan soru hep aynı: \"Ürünümüzü nasıl üst sıralara taşırız?\" Dürüst cevap şu: Hepsiburada sıralama mantığını ayrıntılı olarak kamuya açıklamıyor; dışarıdan \"şu ayar sizi birinci yapar\" diyen herkes tahmin yürütüyor. Satıcının elinde olan ise ürün sayfasının kalitesi, eksiksizliği ve müşterinin sorusuna verdiği cevap.",
+    "Bu yazıda Hepsiburada'ya özgü ortak ürün sayfası yapısını, başlık ve görsel kurgusunu, kategori özelliklerini, açıklama metnini ve soru-cevap yönetimini anlatıyorum. Trendyol tarafındaki benzer çalışmayı [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazısında ayrıca ele aldım; burada örnekleri bilerek farklı tuttum.",
+    {
+     "alinti": "Kısa cevap: Hepsiburada'da görünürlük için satıcının kontrol edebildiği şey ürün sayfasının kendisidir: doğru kategori, marka ve modeli net veren başlık, kurallara uygun görseller, eksiksiz doldurulmuş kategori özellikleri ve hızlı yanıtlanan sorular. Sıralama algoritması hakkında resmi ayrıntı yoktur; satıcı panelinizdeki güncel kuralları esas alın."
+    }
+   ]
+  },
+  {
+   "baslik": "Hepsiburada ürün sayfası nasıl çalışır?",
+   "paragraflar": [
+    "Hepsiburada'da aynı ürünü satan satıcılar genellikle tek bir ürün sayfasını paylaşır. Ürün platformda hiç yoksa yeni bir sayfa açılır ve içerik o satıcının girdiği bilgilerle oluşur; ürün zaten varsa satıcı çoğunlukla yalnızca fiyat, stok ve teslimat koşullarıyla mevcut sayfaya eklenir. Bu yapı, içerik çalışmasının stratejisini doğrudan belirler.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Yeni ürün sayfası açıyorsanız",
+       "tur": "iyi",
+       "maddeler": [
+        "Başlık, görsel ve açıklamayı siz kurarsınız",
+        "İlk girişin kalitesi sayfanın uzun süreli vitrini olur",
+        "Kendi markanızın ürünlerinde içerik kontrolü sizdedir"
+       ]
+      },
+      "sag": {
+       "baslik": "Mevcut sayfaya ekleniyorsanız",
+       "tur": "notr",
+       "maddeler": [
+        "İçerik çoğunlukla değiştirilemez",
+        "Rekabet fiyat, stok, teslimat ve satıcı performansında yaşanır",
+        "Hatalı içerik için paneldeki düzeltme yollarını kullanırsınız"
+       ]
+      }
+     }
+    },
+    "Pratikte bu şu anlama geliyor: Kendi markanızın ürünlerini ilk kez listeliyorsanız sayfayı \"bir kez ve doğru\" kurmak, sonradan yapılacak her optimizasyondan daha değerli."
+   ]
+  },
+  {
+   "baslik": "Ürün başlığı nasıl yazılmalı?",
+   "paragraflar": [
+    "Başlık hem platform içi aramada hem de Google'da görünen ilk metindir. Sahada en sık gördüğüm hata, başlığı kampanya duyurusuna ya da anahtar kelime yığınına çevirmek. Satıcı kaynaklarında aktarılan genel kural marka, ürün adı, model ve ayırt edici özellik sırasıdır; büyük harf yığını, emoji ve \"kampanya\" gibi ifadeler yerine ürünün kendisini anlatın.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kategori",
+       "Güçlü başlık örneği",
+       "Zayıf başlık örneği"
+      ],
+      "satirlar": [
+       [
+        "Küçük ev aletleri",
+        "[Marka] KT-200 1,7 L Paslanmaz Çelik Kettle 2200 W",
+        "SÜPER FIRSAT kettle su ısıtıcı çay en ucuz"
+       ],
+       [
+        "Bebek ürünleri",
+        "[Marka] 0-6 Ay Antikolik Biberon 260 ml 2'li Paket",
+        "biberon bebek biberonu antikolik biberon"
+       ],
+       [
+        "Bilgisayar aksesuarı",
+        "[Marka] M350 Kablosuz Sessiz Mouse 1600 DPI Gri",
+        "Mouse Kablosuz Ofis Oyun Laptop Bilgisayar"
+       ]
+      ]
+     }
+    },
+    "Müşterinin arama kutusuna yazacağı kelimeleri tahmin etmek yerine verisini toplayın. Platform içi arama önerileri ve [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemler, \"su ısıtıcı\" mı \"kettle\" mı sorusunu netleştirmeye yardım eder."
+   ]
+  },
+  {
+   "baslik": "Görseller ve video: hangi kurallar geçerli?",
+   "paragraflar": [
+    "Pazaryeri görsellerinde ortak beklenti ana görselde sade, tercihen beyaz arka plan; logo, filigran ve promosyon yazısı olmaması ve ürünün farklı açılardan ayrı görsellerle gösterilmesidir. Hepsiburada'nın kategoriye göre değişen ölçü ve format kuralları zaman içinde güncellenebiliyor.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Ölçüleri panelden kontrol edin",
+      "metin": "Üçüncü taraf kaynaklarda farklı piksel ve dosya boyutu değerleri dolaşıyor. Görsel hazırlatmadan önce Hepsiburada satıcı panelindeki güncel kategori kılavuzunu esas alın; reddedilen görsel, sayfanın yayına girmesini geciktirir."
+     }
+    },
+    "Ana görselden sonraki karelerde müşterinin kararını etkileyen bilgiyi gösterin: kettle için hazne ölçü çizgisi, biberon için parça parça sökülmüş hali, mouse için elde boyut karşılaştırması. Video destekleniyorsa kurulum ya da kullanım anını göstermek, metinle anlatılması zor olanı kısaltır."
+   ]
+  },
+  {
+   "baslik": "Kategori özellikleri neden bu kadar önemli?",
+   "paragraflar": [
+    "Hepsiburada'da her kategori için ayrı özellik alanları bulunur ve satıcı kaynaklarına göre zorunlu alanlar doldurulmadan ürün yayına alınmayabilir. Daha önemlisi, müşteri sol menüden filtre seçtiğinde ürünler bu alanlara göre süzülür. Boş bırakılan bir özellik, o filtreyi kullanan müşterinin listesinde ürünün hiç görünmemesine yol açabilir.",
+    "Örneğin dikey süpürge kategorisinde kontrol etmeniz gereken alanlar şunlar olabilir:",
+    {
+     "liste": [
+      "Güç kaynağı (kablolu / şarjlı) ve şarjlı modelde çalışma süresi",
+      "Toz haznesi kapasitesi ve filtre tipi",
+      "Ağırlık ve başlık sayısı",
+      "Servis ve destek bilgisi alanı (panelde nasıl isteniyorsa)",
+      "Renk ve varyant eşleşmesi: aynı modelin renkleri tek sayfada mı, ayrı mı?"
+     ]
+    },
+    "Barkod (GTIN) çoğu kategoride ürün eşleşmesinin temelidir. Yanlış barkod, ürününüzü başka bir ürünün sayfasına bağlayabilir; bu da iade ve olumsuz değerlendirme olarak geri döner."
+   ]
+  },
+  {
+   "baslik": "Ürün açıklaması: platform ve kendi siteniz için ayrı metin",
+   "paragraflar": [
+    "Açıklamada teknik özellik listesini tekrarlamak yerine kullanım senaryosunu, kutu içeriğini ve sık sorulan noktaları yazın. Abartılı ya da doğrulanamayan iddialar hem platform kurallarına takılabilir hem de iade riskini artırır.",
+    "Hepsiburada ürün sayfaları Google'da da sıralanabildiği için aynı metni kendi sitenizde birebir kullanmak, iki sayfanın aynı sorguda yarışmasına neden olabilir. Kendi sitenizde daha kapsamlı, markanızın deneyimini taşıyan bir metin yazmanızı öneririm; yöntemi [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısında anlattım. Teknik altyapı tarafı için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir başlangıç."
+   ]
+  },
+  {
+   "baslik": "Soru-cevap ve değerlendirmeleri içerik kaynağına çevirmek",
+   "paragraflar": [
+    "Ürün sayfasındaki müşteri soruları, açıklamada eksik kalan bilgiyi gösteren en dürüst veridir. Aynı soru üç kez geliyorsa sorun müşteride değil, sayfadadır.",
+    {
+     "akis": {
+      "baslik": "Sorudan içeriğe döngü",
+      "adimlar": [
+       {
+        "baslik": "Soruyu hızlı yanıtla",
+        "metin": "Kısa, net ve ürüne özgü cevap; genel kalıp metin değil."
+       },
+       {
+        "baslik": "Tekrar edenleri işaretle",
+        "metin": "Haftalık olarak en sık gelen soruları listele."
+       },
+       {
+        "baslik": "Sayfaya taşı",
+        "metin": "Cevabı açıklamaya ya da ilgili özellik alanına ekle."
+       },
+       {
+        "baslik": "Kendi sitende kullan",
+        "metin": "Aynı soruları kendi ürün sayfanda SSS olarak yanıtla."
+       }
+      ]
+     }
+    },
+    "Olumsuz değerlendirmelere verilen kibar ve çözüm odaklı yanıtlar, sonraki alıcılar tarafından da okunur. Değerlendirmelerde sürekli tekrar eden \"beden küçük\" ya da \"kablo kısa\" gibi geri bildirimler, başlık ve özellik alanlarında düzeltilmesi gereken bilgiye işaret eder."
+   ]
+  },
+  {
+   "baslik": "Hepsiburada mı, kendi site mi: kanal kararı",
+   "paragraflar": [
+    "Pazaryeri hızlı talep ve hazır trafik sunar; kendi site ise müşteri verisi, marka araması ve uzun vadeli organik varlık sağlar. Çoğu marka için doğru soru \"hangisi\" değil, \"hangi ürün hangi kanalda\" sorusudur. Bu dengeyi [Trendyol mağazası mı kendi site mi](/blog/trendyol-magazasi-mi-kendi-site-mi) yazısında, altyapı seçimini ise [e-ticaret altyapılarının SEO karşılaştırmasında](/blog/e-ticaret-altyapisi-seo-karsilastirma) ele aldım.",
+    "Pazaryeri ile kendi sitesini birlikte büyütmek isteyen markalarla [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında ürün içeriği ve kategori yapısını birlikte planlıyoruz; içerik üretimi tarafında [SEO içerik hizmeti](/icerik) de devreye girebiliyor. Mevcut durumunuzu konuşmak için [kısa bir görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Hepsiburada'da ürün sıralamasını ne belirliyor?",
+   "c": "Hepsiburada sıralama mantığını ayrıntılı olarak kamuya açıklamıyor; bu yüzden kesin bir formül vermek mümkün değil. Satıcının kontrol edebildiği alanlar içerik kalitesi, fiyat, stok, teslimat ve satıcı performansıdır. Güncel performans kriterleri için satıcı panelinizdeki bilgileri esas alın."
+  },
+  {
+   "s": "Başka satıcının açtığı sayfadaki hatalı bilgiyi düzeltebilir miyim?",
+   "c": "Ortak sayfada içerik genellikle doğrudan değiştirilemez. Hatalı özellik ya da görsel için satıcı panelindeki içerik düzeltme veya destek talebi yollarını kullanın. Kendi markanızın ürünüyse marka sahibi olduğunuzu gösteren belgeler süreci kolaylaştırabilir."
+  },
+  {
+   "s": "Hepsiburada reklamları organik görünürlüğü artırır mı?",
+   "c": "Reklam, ürünü ek alanlarda gösterir; reklamın organik sıralamaya etkisi hakkında resmi bir açıklama bulunmuyor. Reklamı yeni ürünün ilk talebini ölçmek ve hangi aramalardan satış geldiğini görmek için kullanmak daha sağlıklı bir beklenti."
+  },
+  {
+   "s": "Kendi sitemdeki ürün açıklamasını Hepsiburada'da aynen kullanabilir miyim?",
+   "c": "Teknik olarak mümkün, ama iki sayfa Google'da aynı sorguda yarışabilir. Pazaryerinde kısa ve karar odaklı bir metin, kendi sitenizde daha derin ve markaya özgü bir metin kullanmak daha iyi sonuç verir."
+  },
+  {
+   "s": "Barkodu olmayan ürünü Hepsiburada'da satabilir miyim?",
+   "c": "Satıcı kaynaklarında el yapımı ya da kişiye özel ürünler için barkodsuz giriş yollarından söz ediliyor, ancak bu kategoriye ve onay sürecine bağlı. Güncel koşulları satıcı panelinden veya Hepsiburada satıcı desteğinden teyit edin."
+  },
+  {
+   "s": "Ürün sayfasını ne sıklıkla güncellemeliyim?",
+   "c": "Sabit bir takvim yerine tetikleyicilere göre güncelleyin: tekrar eden müşteri sorusu, iade nedeni, yeni varyant ya da kategori özelliklerinde değişiklik. Ayda bir soru ve değerlendirmeleri gözden geçirmek iyi bir başlangıç ritmi."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Brands selling on Hepsiburada usually ask me first: \"How do we get our product to the top?\" Hepsiburada does not publish the details of its ranking logic, so any promise about a specific setting is a guess. What a seller does control is the quality and completeness of the product page.",
+    "This post covers Hepsiburada's shared product page structure, title and image setup, category attributes, description copy and Q&A management. I covered similar work for Trendyol in [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi); the examples here are deliberately different.",
+    {
+     "alinti": "Short answer: On Hepsiburada, the part of visibility a seller controls is the product page itself: the right category, a title that states brand and model clearly, compliant images, fully completed category attributes and quickly answered questions. There is no official detail on the ranking algorithm, so treat the current rules in your seller panel as the reference."
+    }
+   ]
+  },
+  {
+   "baslik": "How does a Hepsiburada product page work?",
+   "paragraflar": [
+    "On Hepsiburada, sellers offering the same product usually share a single product page. If the product does not exist on the platform yet, a new page is created from the first seller's data; if it already exists, a seller typically joins that page with only their price, stock and delivery terms. This structure shapes the whole content strategy.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "If you create a new product page",
+       "tur": "iyi",
+       "maddeler": [
+        "You set the title, images and description",
+        "The quality of that first entry becomes the long-term storefront",
+        "For your own brand, content control stays with you"
+       ]
+      },
+      "sag": {
+       "baslik": "If you join an existing page",
+       "tur": "notr",
+       "maddeler": [
+        "Content usually cannot be changed",
+        "Competition happens on price, stock, delivery and seller performance",
+        "Wrong content goes through the panel's correction routes"
+       ]
+      }
+     }
+    },
+    "If you list your own brand's products for the first time, building the page properly once beats any later optimisation."
+   ]
+  },
+  {
+   "baslik": "How should you write the product title?",
+   "paragraflar": [
+    "The title is the first text shoppers see, both in on-site search and on Google. The most common mistake I see is turning it into a promo banner or a keyword pile. The general rule reported in seller resources is brand, product name, model and a distinguishing attribute, without all-caps, emoji or phrases like \"sale\".",
+    {
+     "tablo": {
+      "basliklar": [
+       "Category",
+       "Strong title example",
+       "Weak title example"
+      ],
+      "satirlar": [
+       [
+        "Small appliances",
+        "[Brand] KT-200 1.7 L Stainless Steel Kettle 2200 W",
+        "SUPER DEAL kettle water heater tea cheapest"
+       ],
+       [
+        "Baby products",
+        "[Brand] 0-6 Months Anti-Colic Bottle 260 ml 2-Pack",
+        "bottle baby bottle anti colic bottle"
+       ],
+       [
+        "Computer accessories",
+        "[Brand] M350 Wireless Silent Mouse 1600 DPI Grey",
+        "Mouse Wireless Office Gaming Laptop Computer"
+       ]
+      ]
+     }
+    },
+    "Rather than guessing what shoppers type, collect the data. On-site search suggestions and the methods in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) help settle questions like \"su ısıtıcı\" versus \"kettle\" for Turkish shoppers."
+   ]
+  },
+  {
+   "baslik": "Images and video: which rules apply?",
+   "paragraflar": [
+    "The common marketplace expectation is a clean main image, preferably on a white background, with no logo, watermark or promotional text, plus separate images showing the product from different angles. Hepsiburada's size and format rules vary by category and can change over time.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Check the specs in your panel",
+      "metin": "Third-party sources quote different pixel and file size values. Before commissioning images, use the current category guide in your Hepsiburada seller panel; a rejected image delays the page going live."
+     }
+    },
+    "Use the images after the main one for decision-driving details: the fill line inside a kettle, a bottle taken apart, a mouse in a hand for scale."
+   ]
+  },
+  {
+   "baslik": "Why do category attributes matter so much?",
+   "paragraflar": [
+    "Each Hepsiburada category has its own attribute fields, and according to seller resources a product may not go live until required fields are filled. More importantly, when shoppers pick filters in the side menu, products are narrowed down by these fields. An empty attribute can mean your product never appears for shoppers using that filter.",
+    "For example, in the stick vacuum category you might need to check:",
+    {
+     "liste": [
+      "Power source (corded / cordless) and run time for cordless models",
+      "Dust container capacity and filter type",
+      "Weight and number of attachments",
+      "Colour and variant matching for the same model"
+     ]
+    },
+    "In most categories the barcode (GTIN) drives product matching; a wrong one can attach your product to someone else's page."
+   ]
+  },
+  {
+   "baslik": "Product description: separate copy for marketplace and site",
+   "paragraflar": [
+    "Use the description for use cases, box contents and common questions rather than repeating specs. Unverifiable claims can clash with platform rules.",
+    "Because Hepsiburada product pages can also rank on Google, using identical copy on your own site may leave two pages competing for the same query. I recommend a deeper, brand-specific text on your own site; the method is in [how to write product and category descriptions](/en/blog/e-ticaret-urun-aciklamasi). For the technical side, the [e-commerce SEO guide](/en/guides/e-ticaret-seo) is a good starting point."
+   ]
+  },
+  {
+   "baslik": "Turning Q&A and reviews into a content source",
+   "paragraflar": [
+    "Shopper questions on the product page are the most honest data on what the description is missing. If the same question arrives three times, the problem is the page, not the shopper.",
+    {
+     "akis": {
+      "baslik": "From question to content",
+      "adimlar": [
+       {
+        "baslik": "Answer quickly",
+        "metin": "Short, clear and product-specific, not a canned reply."
+       },
+       {
+        "baslik": "Flag repeats",
+        "metin": "List the most frequent questions every week."
+       },
+       {
+        "baslik": "Move it onto the page",
+        "metin": "Add the answer to the description or the relevant attribute."
+       },
+       {
+        "baslik": "Reuse on your site",
+        "metin": "Answer the same questions as an FAQ on your own product page."
+       }
+      ]
+     }
+    },
+    "Recurring review feedback such as \"cable too short\" points to information that belongs in the title and attributes."
+   ]
+  },
+  {
+   "baslik": "Hepsiburada or your own site: the channel decision",
+   "paragraflar": [
+    "A marketplace offers fast demand and ready traffic; your own site gives you customer data, branded search and long-term organic presence. For most brands the real question is not \"which one\" but \"which product in which channel\". I cover that balance in [Trendyol store or your own site](/en/blog/trendyol-magazasi-mi-kendi-site-mi), and platform choice in the [SEO comparison of e-commerce platforms](/en/blog/e-ticaret-altyapisi-seo-karsilastirma).",
+    "For brands growing a marketplace presence and their own site together, I plan product content and category structure as part of [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting), with [content strategy work](/en/content-strategy) where copy production is needed. To talk through your situation, [book a short call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What determines product ranking on Hepsiburada?",
+   "c": "Hepsiburada does not publish its ranking logic in detail, so no one can give an exact formula. The areas a seller controls are content quality, price, stock, delivery and seller performance. For current performance criteria, rely on the information in your seller panel."
+  },
+  {
+   "s": "Can I fix wrong information on a page another seller created?",
+   "c": "Content on a shared page usually cannot be edited directly. For a wrong attribute or image, use the content correction or support request routes in the seller panel. If it is your own brand's product, documents proving brand ownership can make the process easier."
+  },
+  {
+   "s": "Do Hepsiburada ads improve organic visibility?",
+   "c": "Ads add placements; there is no official statement about ads affecting organic ranking. Use them to measure early demand and see which searches drive sales."
+  },
+  {
+   "s": "Can I reuse my own site's product description on Hepsiburada?",
+   "c": "Technically yes, but the two pages may compete for the same query on Google. A short, decision-focused text on the marketplace and a deeper, brand-specific text on your own site tends to work better."
+  },
+  {
+   "s": "Can I sell a product without a barcode on Hepsiburada?",
+   "c": "Seller resources mention barcode-free routes for handmade or personalised products, but this depends on the category and an approval process. Confirm the current conditions in your seller panel or with Hepsiburada seller support."
+  },
+  {
+   "s": "How often should I update a product page?",
+   "c": "Update on triggers rather than a calendar: a recurring question, a return reason, a new variant or changed category attributes. A monthly review of questions and reviews is a good rhythm."
+  }
+ ]
+}

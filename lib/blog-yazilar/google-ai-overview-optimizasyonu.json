@@ -1,0 +1,421 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 8,
+ "baslik_tr": "Google AI Overviews'da Kaynak Olarak Görünmek: Ne Yapılabilir?",
+ "baslik_en": "Getting Cited in Google AI Overviews: What You Can Actually Do",
+ "meta_baslik_tr": "AI Overviews'da Kaynak Olarak Görünmek: Ne Yapılabilir?",
+ "meta_baslik_en": "Getting Cited in Google AI Overviews: What You Can Do",
+ "meta_desc_tr": "Google'ın AI özellikleri dokümanına göre AI Bakışı'nda kaynak olmak için ne gerekir, ne gerekmez? Ek işaretleme, kontrol seçenekleri ve Search Console ölçümü.",
+ "meta_desc_en": "What Google's AI features documentation says about being cited in AI Overviews: no special markup, what still matters, opt-out controls and measurement.",
+ "ozet_tr": "AI Bakışı'nda kaynak bağlantısı olmak için özel bir işaretleme yok; Google'ın resmi dokümanı neyi öne çıkarıyor, ne yapılabilir?",
+ "ozet_en": "There is no special markup for AI Overviews citations. What Google's documentation stresses and what you can realistically do.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Müşterilerimden en sık duyduğum soru şu: \"AI Bakışı'nda (AI Overviews) kaynak olarak çıkmak için ne eklememiz gerekiyor?\" Cevap çoğu kişiyi şaşırtıyor, çünkü Google'ın resmi dokümanına göre eklenecek özel bir şey yok. İş, zaten iyi yapılması gereken SEO temellerinde ve içeriğin alıntılanabilir yazılmasında düğümleniyor.",
+    "Bu yazıda Google Search Central'daki \"AI özellikleri ve web siteniz\" dokümanını (Aralık 2025 güncellemesi, Ekim 2026 itibarıyla geçerli sürüm) temel alıyorum: neyin gerekli olduğunu, neyin gereksiz olduğunu, görünmek istemediğinizde hangi kontrolleri kullanacağınızı ve sonucu nasıl ölçeceğinizi.",
+    {
+     "alinti": "Kısa cevap: Google'a göre AI Bakışı veya AI Modu'nda görünmek için ek bir teknik gereklilik, özel şema ya da yapay zekâ dosyası yoktur. Sayfanın dizine eklenmiş ve snippet ile gösterilmeye uygun olması temel şarttır; gerisi taranabilirlik, net metin içeriği ve iyi sayfa deneyimi gibi standart SEO uygulamalarıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "AI Bakışı kaynak bağlantılarını nasıl seçiyor?",
+   "paragraflar": [
+    "AI Bakışı, klasik sonuçların üstünde yapay zekâ ile oluşturulmuş kısa bir özet ve onu destekleyen bağlantılar gösterir. Google'ın dokümanına göre bu özet her sorguda çıkmaz; sistemler yalnızca klasik aramaya bir katkı sağlayacağına karar verdiğinde tetiklenir.",
+    "Dokümanda dikkat çeken bir kavram var: **query fan-out**. AI Bakışı ve AI Modu bir cevap oluştururken alt konular ve veri kaynakları genelinde birden fazla ilişkili arama yapabiliyor. Bu yüzden destekleyici bağlantılar klasik ilk 10 sonuçtan daha geniş ve çeşitli bir kümeden gelebiliyor; ana sorguda ilk sayfada olmayan ama bir alt soruyu iyi yanıtlayan sayfa da kaynak olabilir.",
+    "AI Modu'nun Türkiye'deki kullanımı ve AI Bakışı'ndan farkı için [Google AI Mode Türkiye yazısına](/blog/google-ai-mode-turkiye) bakabilirsiniz; burada yalnızca AI Bakışı'nda kaynak olma tarafına odaklanıyorum."
+   ]
+  },
+  {
+   "baslik": "Google'ın resmi dokümanı neyi gerekli görüyor?",
+   "paragraflar": [
+    "Dokümanın özü tek cümle: AI Bakışı veya AI Modu'nda görünmek için ek gereklilik ya da özel optimizasyon yok. Sahada en çok para ve zaman harcanan yanlışlar bu cümlenin gözden kaçmasından doğuyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Öğe",
+       "Gerekli mi?",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Dizine eklenmiş olmak",
+        "Evet",
+        "Arama teknik gereksinimlerini karşılamak temel şart"
+       ],
+       [
+        "Snippet ile gösterilmeye uygunluk",
+        "Evet",
+        "nosnippet olan sayfa kaynak olarak kullanılamaz"
+       ],
+       [
+        "Özel schema.org işaretlemesi",
+        "Hayır",
+        "AI özelliklerine özgü bir yapısal veri türü yok"
+       ],
+       [
+        "Yapay zekâya özel metin dosyası",
+        "Hayır",
+        "Doküman yeni makine okunur dosya gerekmediğini söylüyor"
+       ],
+       [
+        "Görünür metinle uyumlu yapısal veri",
+        "Önerilir",
+        "Var olan işaretleme sayfadaki metinle örtüşmeli"
+       ]
+      ]
+     }
+    },
+    "Dizine eklenme tarafında sorun varsa önce onu çözün; [teknik SEO rehberi](/rehber/teknik-seo) bu temel kontrolleri sırasıyla anlatıyor. Yapısal veri kullanıyorsanız kuralları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Hangi SEO uygulamaları öne çıkıyor?",
+   "paragraflar": [
+    "Doküman, AI özellikleri için de geçerli olan temel SEO uygulamalarını ayrıca sıralıyor. Bunları denetimlerde dört başlıkta topluyorum:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕷️",
+       "baslik": "Taranabilirlik",
+       "metin": "robots.txt ve CDN/hosting ayarları Googlebot'u engellemesin; önemli sayfalar iç linklerle bulunabilsin."
+      },
+      {
+       "ikon": "📝",
+       "baslik": "Metin olarak içerik",
+       "metin": "Önemli bilgi görselin ya da etkileşimli öğenin içinde değil, metin olarak sayfada olsun."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Destekleyici medya",
+       "metin": "Metni ilgili görseller ve videolarla destekleyin; medya içeriğin yerini almasın."
+      },
+      {
+       "ikon": "🏪",
+       "baslik": "Güncel kayıtlar",
+       "metin": "Merchant Center ve Business Profile bilgileri güncel olsun; ürün ve işletme sorgularında bu veriler de kullanılabiliyor."
+      }
+     ]
+    },
+    "Bu listede yeni bir şey yok ve bu bilinçli. Sıfırdan bir \"AI stratejisi\" kurmadan önce bu dört alanı [SEO uzmanı](/seo-uzmani) gözüyle denetlemek, çoğu sitede en hızlı kazanımı veriyor."
+   ]
+  },
+  {
+   "baslik": "İçeriği alıntılanabilir hale getirmek",
+   "paragraflar": [
+    "Google özel bir yazım biçimi şart koşmuyor; ama bir alt soruya net cevap veren paragraf, query fan-out ile yapılan aramalarda eşleşmeye daha uygun. Benim uyguladığım yazım ilkeleri:",
+    {
+     "liste": [
+      "Her ana başlığın altına önce 2-3 cümlelik doğrudan cevabı, sonra ayrıntıyı yazın.",
+      "Başlıkları gerçek kullanıcı sorularından türetin; Search Console sorgularında soru kalıplarına bakın.",
+      "Tanım, adım ve karşılaştırmaları tablo ya da listeyle verin.",
+      "Rakam ve iddiaları kaynağıyla birlikte, kontrol edilebilir biçimde yazın.",
+      "Yazar ve güncelleme bilgisini görünür tutun."
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Alıntılanmaya uygun",
+       "tur": "iyi",
+       "maddeler": [
+        "Başlığın hemen altında net cevap",
+        "Tek konuya odaklı bölümler",
+        "Doğrulanabilir tanım ve veriler"
+       ]
+      },
+      "sag": {
+       "baslik": "Alıntılanması zor",
+       "tur": "kotu",
+       "maddeler": [
+        "Cevap uzun bir girişin sonunda",
+        "Aynı paragrafta birkaç konu",
+        "Kaynaksız genellemeler"
+       ]
+      }
+     }
+    },
+    "Bu yaklaşımın içerik planına nasıl yansıdığını [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "AI Bakışı'nda görünmek istemezseniz ne yapabilirsiniz?",
+   "paragraflar": [
+    "Bazı sayfalarda (ör. ücretli içerik özetleri) metnin AI özelliklerinde kullanılmasını sınırlamak isteyebilirsiniz. Doküman bunun için standart arama önizleme kontrollerini gösteriyor; bunlar klasik sonuçlardaki snippet'i de etkiler.",
+    {
+     "kod": "<meta name=\"robots\" content=\"max-snippet:50\">\n<div data-nosnippet>Bu bölüm önizlemede kullanılmaz.</div>"
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Google-Extended farklı bir şey",
+      "metin": "Dokümana göre Google-Extended, Google'ın diğer sistemlerinde eğitim ve grounding kullanımını sınırlamak içindir. Arama'daki gösterimi nosnippet, data-nosnippet, max-snippet ve noindex belirler; taramayı ise Googlebot için robots.txt kuralları."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "AI Bakışı trafiği Search Console'da nasıl ölçülür?",
+   "paragraflar": [
+    "Google'a göre AI özelliklerinde görünen siteler genel arama trafiğine dahildir ve Performans raporunda \"Web\" arama türü altında yer alır. Yardım dokümanına göre AI Bakışı'ndaki tüm bağlantılar aynı konumu paylaşır, dış bağlantıya tıklama ise tıklama sayılır.",
+    {
+     "akis": {
+      "baslik": "Pratik ölçüm akışı",
+      "adimlar": [
+       {
+        "baslik": "Soru sorgularını ayır",
+        "metin": "Performans raporunda nasıl, nedir, hangi gibi kalıplarla regex filtresi kurun."
+       },
+       {
+        "baslik": "Gösterim ve tıklamayı izle",
+        "metin": "Gösterim artıp tıklama sabit kalıyorsa sayfa özet içinde kullanılıyor olabilir."
+       },
+       {
+        "baslik": "Sayfa bazında karşılaştır",
+        "metin": "Cevap bloğu eklediğiniz sayfaları öncesi ve sonrasıyla kıyaslayın."
+       },
+       {
+        "baslik": "GA4 ile bağla",
+        "metin": "Organik oturumların etkileşim ve dönüşümüne bakın."
+       }
+      ]
+     }
+    },
+    "Yapay zekâ asistanlarından gelen yönlendirmeleri GA4'te ayrı izlemek için [GA4 yapay zekâ trafiği yazısına](/blog/ga4-yapay-zeka-trafigi) bakın. Sitenizin AI Bakışı'ndaki durumunu birlikte değerlendirmek isterseniz [GEO uzmanı](/geo-uzmani) hizmetini inceleyebilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The question I hear most from clients is: \"What do we need to add to show up as a source in AI Overviews?\" The answer surprises most people, because according to Google's official documentation there is nothing special to add. The work comes down to SEO fundamentals you should already be doing well, plus writing content that is easy to cite.",
+    "This article is based on the \"AI features and your website\" documentation on Google Search Central (updated December 2025, current as of October 2026): what is required, what is not, which controls to use and how to measure results.",
+    {
+     "alinti": "Short answer: According to Google, there are no additional technical requirements, special schema or AI-specific files needed to appear in AI Overviews or AI Mode. A page must be indexed and eligible to show with a snippet; beyond that, it is standard SEO practice such as crawlability, clear text content and a good page experience."
+    }
+   ]
+  },
+  {
+   "baslik": "How does AI Overviews choose its supporting links?",
+   "paragraflar": [
+    "AI Overviews shows a short AI-generated summary above classic results, along with links that support it. According to Google's documentation, it does not appear for every query; it is triggered only when the systems decide it adds something to classic Search.",
+    "One concept in the documentation stands out: **query fan-out**. When building a response, AI Overviews and AI Mode may issue multiple related searches across subtopics and data sources. That is why supporting links can come from a wider, more varied set than the classic top ten; a page that is not on page one for the main query but answers a sub-question well can still be cited.",
+    "For how AI Mode works in Turkey and how it differs from AI Overviews, see the [Google AI Mode in Turkey article](/en/blog/google-ai-mode-turkiye)."
+   ]
+  },
+  {
+   "baslik": "What does Google's official documentation require?",
+   "paragraflar": [
+    "The core of the documentation fits in one sentence: there are no additional requirements or special optimizations needed to appear in AI Overviews or AI Mode.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Item",
+       "Required?",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Being indexed",
+        "Yes",
+        "Meeting Search technical requirements is the baseline"
+       ],
+       [
+        "Eligible to show a snippet",
+        "Yes",
+        "A page with nosnippet cannot be used as a source"
+       ],
+       [
+        "Special schema.org markup",
+        "No",
+        "There is no structured data type specific to AI features"
+       ],
+       [
+        "AI-specific text file",
+        "No",
+        "The documentation says no new machine-readable files are needed"
+       ],
+       [
+        "Structured data matching visible text",
+        "Recommended",
+        "Any markup you use should match the page text"
+       ]
+      ]
+     }
+    },
+    "If indexing is the problem, fix that first; the [technical SEO guide](/en/guides/teknik-seo) covers these baseline checks in order. If you use structured data, the rules are in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Which SEO practices matter most?",
+   "paragraflar": [
+    "The documentation separately lists the core SEO practices that also apply to AI features. In audits, I group them under four headings:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🕷️",
+       "baslik": "Crawlability",
+       "metin": "robots.txt and CDN or hosting settings must not block Googlebot; important pages must be reachable through internal links."
+      },
+      {
+       "ikon": "📝",
+       "baslik": "Content as text",
+       "metin": "Key information should be on the page as text, not locked inside an image or interactive element."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Supporting media",
+       "metin": "Back up the text with relevant images and video; media should support the content, not replace it."
+      },
+      {
+       "ikon": "🏪",
+       "baslik": "Current listings",
+       "metin": "Keep Merchant Center and Business Profile information current; that data can also be used for product and business queries."
+      }
+     ]
+    },
+    "Before building an \"AI strategy\" from scratch, auditing these four areas with [SEO consulting](/en/seo-consulting) is where most sites find the fastest gains."
+   ]
+  },
+  {
+   "baslik": "Making your content easy to cite",
+   "paragraflar": [
+    "Google does not require a particular writing format, but a paragraph that answers a sub-question clearly is a better match for the searches made through query fan-out. These are the writing principles I use:",
+    {
+     "liste": [
+      "Under each main heading, give the direct 2-3 sentence answer first, then the detail.",
+      "Derive headings from real user questions; look for question patterns in your Search Console queries.",
+      "Present definitions, steps and comparisons as tables or lists.",
+      "Write figures and claims with their source, in a way readers can check.",
+      "Keep author and update information visible."
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Easy to cite",
+       "tur": "iyi",
+       "maddeler": [
+        "A clear answer right under the heading",
+        "Sections focused on one topic",
+        "Verifiable definitions and data"
+       ]
+      },
+      "sag": {
+       "baslik": "Hard to cite",
+       "tur": "kotu",
+       "maddeler": [
+        "The answer buried after a long intro",
+        "Several topics in one paragraph",
+        "Unsourced generalisations"
+       ]
+      }
+     }
+    },
+    "I explain how this approach feeds into a content plan in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "What if you do not want to appear in AI Overviews?",
+   "paragraflar": [
+    "On some pages, such as summaries of paid content, you may want to limit how your text is used in AI features. The documentation points to the standard search preview controls; note that these also affect your snippet in classic results.",
+    {
+     "kod": "<meta name=\"robots\" content=\"max-snippet:50\">\n<div data-nosnippet>This section is not used in previews.</div>"
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Google-Extended is something else",
+      "metin": "According to the documentation, Google-Extended is for limiting training and grounding use in Google's other systems. Display in Search is governed by nosnippet, data-nosnippet, max-snippet and noindex, and crawling by robots.txt rules for Googlebot."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How to measure AI Overviews traffic in Search Console",
+   "paragraflar": [
+    "According to Google, sites appearing in AI features are included in overall search traffic and reported in the Performance report under the \"Web\" search type. Per the help documentation, all links in an AI Overview share the same position, and a click on an external link counts as a click.",
+    {
+     "akis": {
+      "baslik": "A practical measurement flow",
+      "adimlar": [
+       {
+        "baslik": "Isolate question queries",
+        "metin": "Set up a regex filter in the Performance report for patterns like how, what, which."
+       },
+       {
+        "baslik": "Watch impressions and clicks",
+        "metin": "Rising impressions with flat clicks may mean the page is being used within a summary."
+       },
+       {
+        "baslik": "Compare at page level",
+        "metin": "Compare pages where you added answer blocks before and after the change."
+       },
+       {
+        "baslik": "Connect with GA4",
+        "metin": "Check engagement and conversions for organic sessions."
+       }
+      ]
+     }
+    },
+    "To track referrals from AI assistants separately in GA4, see the [GA4 AI traffic article](/en/blog/ga4-yapay-zeka-trafigi). If you want to review your site's position in AI Overviews together, take a look at [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call) directly."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "AI Bakışı'nda kaynak olmak için ilk sayfada olmak şart mı?",
+   "c": "Google böyle bir şart belirtmiyor. Query fan-out nedeniyle alt soruları iyi yanıtlayan sayfalar da destekleyici bağlantı olabilir. Yine de dizine eklenmiş ve snippet'e uygun olmak temel koşuldur."
+  },
+  {
+   "s": "llms.txt dosyası AI Bakışı'nda görünmeye yardım eder mi?",
+   "c": "Google'ın dokümanına göre AI özellikleri için yeni makine okunur dosya ya da yapay zekâ metin dosyası gerekmiyor. Dosyanın diğer platformlar açısından anlamını [llms.txt rehberinde](/blog/llms-txt-rehberi) ele aldım."
+  },
+  {
+   "s": "FAQPage işaretlemesi AI Bakışı'nda avantaj sağlar mı?",
+   "c": "AI özelliklerine özgü bir işaretleme yok. FAQPage geçerli bir işaretleme olarak içeriğin anlaşılmasına yardımcı olabilir, ancak Google SSS zengin sonuçlarını Mayıs 2026'dan beri Arama'da göstermiyor. Asıl belirleyici görünür metnin kalitesidir."
+  },
+  {
+   "s": "AI Bakışı'nda yanlış bilgi gösteriliyorsa ne yapabilirim?",
+   "c": "Özetin altındaki geri bildirim seçeneğiyle Google'a bildirebilirsiniz. Kendi sayfanızdaki ilgili bilginin açık, güncel ve tutarlı olduğundan emin olun; özet yeniden oluşturulduğunda düzeltilmiş kaynak kullanılabilir."
+  },
+  {
+   "s": "AI Bakışı'ndan gelen tıklamaları ayrı görebilir miyim?",
+   "c": "Bu trafik Performans raporunda \"Web\" arama türünün toplamlarına dahil. Ayrıca Google, Haziran 2026'da AI Bakışı ve AI Modu için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Raporu mülkünüzde göremiyorsanız soru sorgularındaki gösterim ve tıklama değişimini izleyerek dolaylı yorum yapın."
+  },
+  {
+   "s": "nosnippet eklersem sıralamam düşer mi?",
+   "c": "nosnippet sıralamayı değil, önizlemenin gösterimini etkiler. Ancak snippet olmayan bir sonuç kullanıcıya daha az bilgi verir ve bu, tıklanma eğilimini etkileyebilir. Bu yüzden yalnızca gerçekten gereken bölümlerde data-nosnippet kullanmayı tercih ediyorum."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do I need to rank on page one to be cited in AI Overviews?",
+   "c": "Google does not state such a requirement. Because of query fan-out, pages that answer sub-questions well can also become supporting links. Being indexed and eligible for a snippet remains the baseline."
+  },
+  {
+   "s": "Does an llms.txt file help with AI Overviews?",
+   "c": "According to Google's documentation, no new machine-readable files or AI text files are needed for AI features. I cover what the file means for other platforms in the [llms.txt guide](/en/blog/llms-txt-rehberi)."
+  },
+  {
+   "s": "Does FAQPage markup give an advantage in AI Overviews?",
+   "c": "There is no markup specific to AI features. FAQPage remains valid and can help machines understand content, but Google has not shown FAQ rich results in Search since May 2026. The quality of the visible text is what matters."
+  },
+  {
+   "s": "What can I do if an AI Overview shows wrong information?",
+   "c": "You can report it to Google through the feedback option under the summary. Make sure the relevant information on your own page is clear, current and consistent, so a corrected source is available when the summary is regenerated."
+  },
+  {
+   "s": "Can I see clicks from AI Overviews separately?",
+   "c": "This traffic is included in the \"Web\" search type totals in the Performance report. In addition, Google announced separate generative AI performance reports for AI Overviews and AI Mode in June 2026 and said on 31 August 2026 that they were available to all sites. If you do not see the report in your property, infer the effect by tracking impressions and clicks for question queries."
+  },
+  {
+   "s": "Will adding nosnippet hurt my rankings?",
+   "c": "nosnippet affects how the preview is shown, not ranking. A result without a snippet gives users less information, though, which can affect how likely they are to click. That is why I prefer data-nosnippet only on the sections that truly need it."
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 8,
+ "baslik_tr": "2026'da SEO: Sahada Gerçekten Değişen 8 Şey",
+ "baslik_en": "SEO in 2026: 8 Things That Actually Changed",
+ "meta_baslik_tr": "2026'da SEO: Sahada Gerçekten Değişen 8 Şey",
+ "meta_baslik_en": "SEO in 2026: 8 Things That Actually Changed",
+ "meta_desc_tr": "AI Modu'nun Türkiye'ye gelişi, SSS zengin sonucunun kalkması, çekirdek ve spam güncellemeleri, GA4 yapay zekâ kanalı: 2026'da doğrulanmış 8 SEO değişikliği.",
+ "meta_desc_en": "AI Mode reaching Türkiye, the end of FAQ rich results, core and spam updates, the GA4 AI channel: 8 verified SEO changes in 2026, with dates and sources.",
+ "ozet_tr": "Tahmin değil, kayıt: 2025 sonu ve 2026'da Google ve ölçüm araçlarında doğrulanmış 8 değişiklik ve sahadaki karşılığı.",
+ "ozet_en": "A record, not predictions: 8 verified changes in Google and analytics tools across late 2025 and 2026, and what they mean.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“SEO trendleri” yazılarının çoğu tahminlerden oluşuyor. Bu yazı farklı: yalnızca Google'ın resmi duyurularında, dokümantasyon değişiklik kayıtlarında ve arama durumu panelinde yer alan, 20 Ekim 2026 itibarıyla doğrulanabilen gelişmeleri derledim.",
+    "Her maddede ne değiştiğini, tarihini ve bir danışman olarak sahada neyi farklı yaptığımı kısaca anlatıyorum. Güncellemelerin tam listesini [Google güncellemeleri günlüğünde](/google-guncellemeleri) tutuyorum.",
+    {
+     "alinti": "Kısa cevap: 2026'da sahada en çok hissedilen değişiklikler AI Bakışı ve AI Modu'nun 18 Şubat 2026'da Türkiye'de kullanıma açılması, SSS zengin sonucunun 7 Mayıs 2026'da kaldırılması, art arda gelen çekirdek ve spam güncellemeleri ve ölçüm tarafında GA4 ile Search Console'a eklenen yeni raporlardı. Temel ilkeler değişmedi; değişen, görünürlüğün nerede ve nasıl ölçüldüğü."
+    }
+   ]
+  },
+  {
+   "baslik": "1. AI Bakışı ve AI Modu Türkiye'de kullanıma açıldı",
+   "paragraflar": [
+    "Google Türkiye blogundaki 18 Şubat 2026 tarihli duyuruya göre AI Modu ve AI Bakışı (AI Overviews) Türkiye'de kademeli olarak kullanıma sunulmaya başladı; duyuruda altyapının Gemini 3 model ailesi olduğu belirtiliyor. Böylece Türkçe sorgularda yapay zekâ özetleri ve sohbet tarzı arama gündelik bir gerçek oldu.",
+    "Ölçüm tarafında önemli bir ayrıntı var: AI Modu ve AI Bakışı verileri Search Console Performans raporunun toplamlarına dahil ediliyor; ayrıca Google Haziran 2026'da bu iki yüzey için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Türkiye'deki etkisini [Google AI Modu Türkiye](/blog/google-ai-mode-turkiye) yazısında, bu yüzeylerde kaynak olma çalışmasını [GEO uygulama rehberinde](/rehber/geo-uygulama) ele aldım."
+   ]
+  },
+  {
+   "baslik": "2. SSS zengin sonucu kalktı, yapısal veri sadeleşti",
+   "paragraflar": [
+    "Google, SSS (FAQ) zengin sonucunun 7 Mayıs 2026'dan itibaren Arama'da gösterilmeyeceğini duyurdu ve 15 Haziran 2026'da ilgili dokümanı kaldırdı. HowTo zengin sonuçları daha önce kaldırılmıştı. FAQPage işaretlemesi geçerli kalıyor ve makinelerin içeriği anlamasına yardımcı olabilir, ancak artık arama sonucunda görsel bir kazanç sağlamıyor.",
+    "Bu tek seferlik bir karar değil; 2025 ve 2026 boyunca birçok yapısal veri türü emekliye ayrıldı:",
+    {
+     "kartlar": [
+      {
+       "ikon": "❓",
+       "baslik": "SSS (FAQ)",
+       "metin": "Zengin sonuç 7 Mayıs 2026'da kalktı, doküman Haziran 2026'da kaldırıldı."
+      },
+      {
+       "ikon": "🎓",
+       "baslik": "Kurs bilgisi, öğrenme videosu",
+       "metin": "Haziran 2025'te emeklilik uyarısı aldı, dokümanları Eylül 2025'te kaldırıldı."
+      },
+      {
+       "ikon": "💼",
+       "baslik": "Tahmini maaş, araç ilanı",
+       "metin": "Aynı 2025 sadeleştirmesinin parçası olarak dokümandan çıkarıldı."
+      },
+      {
+       "ikon": "🧮",
+       "baslik": "Alıştırma problemi",
+       "metin": "Kasım 2025'te duyuruldu, dokümanı Ocak 2026'da kaldırıldı."
+      }
+     ]
+    },
+    "Pratikte şema çalışmasını “zengin sonuç avı” olmaktan çıkarıp Organization, Product, Article gibi varlığı tanımlayan türlere odaklıyorum; ayrıntısı [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "3. Çekirdek güncellemeler: takvim ve sürekli küçük güncellemeler",
+   "paragraflar": [
+    "Google Arama durumu paneline göre Mart 2025'ten bu yana beş çekirdek güncellemesi yayınlandı:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Güncelleme",
+       "Başlangıç",
+       "Tamamlanma süresi"
+      ],
+      "satirlar": [
+       [
+        "Mart 2025 çekirdek güncellemesi",
+        "13 Mart 2025",
+        "Yaklaşık 14 gün"
+       ],
+       [
+        "Haziran 2025 çekirdek güncellemesi",
+        "30 Haziran 2025",
+        "Yaklaşık 17 gün"
+       ],
+       [
+        "Aralık 2025 çekirdek güncellemesi",
+        "11 Aralık 2025",
+        "Yaklaşık 18 gün"
+       ],
+       [
+        "Mart 2026 çekirdek güncellemesi",
+        "27 Mart 2026",
+        "Yaklaşık 12 gün"
+       ],
+       [
+        "Mayıs 2026 çekirdek güncellemesi",
+        "21 Mayıs 2026",
+        "Yaklaşık 12 gün"
+       ]
+      ]
+     }
+    },
+    "Aralık 2025'te Google, çekirdek güncellemeler dokümanına arama algoritmalarını büyük güncellemeyi beklemeden sürekli olarak güncellediğini ve daha küçük çekirdek güncellemeler yaptığını ekledi. Yani duyurulmamış tarihlerde de dalgalanma normal. Bir düşüşü teşhis ederken [çekirdek güncellemesi sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) kontrol listesini kullanıyorum."
+   ]
+  },
+  {
+   "baslik": "4. Spam politikaları genişledi, spam güncellemeleri sıklaştı",
+   "paragraflar": [
+    "Arama durumu paneline göre Ağustos 2025'te ve 2026'da Mart, Haziran, Ağustos ve Eylül aylarında spam güncellemeleri yayınlandı. Politika metninde de doğrulanmış değişiklikler var:",
+    {
+     "liste": [
+      "13 Nisan 2026: Kötü amaçlı uygulamalar politikasına “geri düğmesi ele geçirme” (back button hijacking) bölümü eklendi.",
+      "Nisan 2026: Spam raporlarının manuel işlem için kullanılabileceği netleştirildi.",
+      "15 Mayıs 2026: Spam politikalarının Arama'daki üretken yapay zekâ yanıtları için de geçerli olduğu açıklandı.",
+      "28 Ağustos 2026: Site itibarını kötüye kullanma politikası güncellendi; Avrupa Ekonomik Alanı'nda uygulama farklılaştı."
+     ]
+    },
+    "Sahadaki karşılığı: ölçekli şablon sayfalar, satın alınmış alt klasörler ve kullanıcıyı sayfada tutmaya yönelik hileler artık daha açık biçimde politika kapsamında."
+   ]
+  },
+  {
+   "baslik": "5. Üretken yapay zekâ rehberi yayımlandı, llms.txt netleşti",
+   "paragraflar": [
+    "15 Mayıs 2026'da Google, Arama'daki üretken yapay zekâ özelliklerinde görünmeye yönelik yeni bir rehber yayımladı ve aynı gün spam politikalarının bu yanıtlar için de geçerli olduğunu netleştirdi.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "llms.txt notu",
+      "metin": "15 Haziran 2026'da rehbere eklenen nota göre Google Arama llms.txt dosyalarını kullanmıyor; dosya görünürlüğe ya da sıralamaya ne yardım ne zarar eder. Başka hizmetler için tutmak isterseniz sorun yok."
+     }
+    },
+    "Bu yüzden llms.txt'yi Google için bir sıralama aracı olarak değil, diğer yapay zekâ sistemleri için isteğe bağlı bir dosya olarak konumluyorum; neyi yapıp neyi yapmadığını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+   ]
+  },
+  {
+   "baslik": "6. Tercih edilen kaynaklar AI Modu ve AI Bakışı'na genişledi",
+   "paragraflar": [
+    "Kullanıcıların bir siteyi “tercih edilen kaynak” olarak seçebildiği özellik için Google, Ocak 2026'da site sahiplerine yönelik doküman yayımladı. 30 Nisan 2026'da özellik Arama'nın sunulduğu tüm dillere açıldı, 27 Mayıs 2026'da AI Bakışı ve AI Modu'na genişlemeye başladı.",
+    "Dokümana göre tercih edilen kaynak seçilen sitenin içeriği Önemli Haberler'de daha olası görünür ve AI yüzeylerinde “tercih edilen” rozetiyle vurgulanabilir; yalnızca alan adı ve alt alan adı düzeyindeki siteler uygun. Haber ve içerik yayıncıları için Google'ın düğmesini ya da derin bağlantısını kullanmak denemeye değer."
+   ]
+  },
+  {
+   "baslik": "7. GA4'te yapay zekâ asistanlarından gelen trafik ayrı kanalda",
+   "paragraflar": [
+    "Mayıs 2026'dan beri GA4'ün varsayılan kanal grubunda yapay zekâ asistanlarından gelen trafik için ayrı bir kanal bulunuyor. Önceden “Referral” içinde kaybolan bu ziyaretler artık ayrıca raporlanabiliyor.",
+    "Bu kanal, ChatGPT ya da Perplexity gibi asistanlardan gelen tıklamaları görmenizi sağlar ama bir yanıtta adınız geçip tıklanmadığında oluşan görünürlüğü ölçmez. Kurulum ve okuma ayrıntıları [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında."
+   ]
+  },
+  {
+   "baslik": "8. Search Console sosyal ve video platformlarını raporluyor",
+   "paragraflar": [
+    "Temmuz 2026'da Google, Search Console'da Instagram, TikTok, X ve YouTube hesaplarının platform mülkü olarak eklenebildiğini duyurdu ve bu içeriklerin performansını analiz etmeye yönelik bir rehber yayımladı. Yardım sayfasına göre özellik kademeli olarak sunuluyor; içeriğin Google yüzeylerindeki (Arama, Discover, Haberler) performansını ölçüyor, platformların kendi içindeki görüntülemeleri ölçmüyor.",
+    "Böylece web sitesi dışındaki içeriğin Google'daki görünürlüğü de Search Console'dan izlenebiliyor. Video içeriği olan markalar için ilk adımları [video SEO](/blog/video-seo) yazısında topladım.",
+    "Bu değişikliklerin sitenize hangi önceliklerle yansıması gerektiğini birlikte belirleyebiliriz: arama tarafı için [SEO uzmanı](/seo-uzmani), yapay zekâ yüzeyleri için [GEO uzmanı](/geo-uzmani) olarak çalışıyorum; kısa bir [ön görüşme](/randevu) ile başlayabiliriz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most “SEO trends” articles are predictions. This one only includes developments verifiable as of 20 October 2026 in Google's official announcements, documentation changelogs and the Search Status Dashboard.",
+    "For each item I note what changed, when, and what I now do differently with clients. I keep the full list of updates in the [Google updates log](/en/google-updates).",
+    {
+     "alinti": "Short answer: The changes felt most in 2026 were AI Overviews and AI Mode launching in Türkiye on 18 February 2026, FAQ rich results disappearing on 7 May 2026, a steady run of core and spam updates, and new reports in GA4 and Search Console. The fundamentals did not change; where visibility happens and how it is measured did."
+    }
+   ]
+  },
+  {
+   "baslik": "1. AI Overviews and AI Mode launched in Türkiye",
+   "paragraflar": [
+    "Google Türkiye's blog post of 18 February 2026 announced that AI Mode and AI Overviews were rolling out gradually in Türkiye, built on the Gemini 3 model family. AI summaries and conversational search are now part of everyday Turkish search.",
+    "One measurement detail matters: AI Mode and AI Overviews data counts toward the Search Console Performance report totals; in addition, Google announced separate generative AI performance reports for these surfaces in June 2026 and said on 31 August 2026 that they were available to all sites. I cover the local impact in [Google AI Mode in Türkiye](/en/blog/google-ai-mode-turkiye) and how to become a cited source in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "2. FAQ rich results ended and structured data got leaner",
+   "paragraflar": [
+    "Google announced that FAQ rich results would stop appearing in Search from 7 May 2026 and removed the documentation on 15 June 2026. HowTo rich results had already gone. FAQPage markup remains valid and can help machines understand content, but it no longer brings a visual gain in results.",
+    "This was not a one-off; several structured data types were retired through 2025 and 2026:",
+    {
+     "kartlar": [
+      {
+       "ikon": "❓",
+       "baslik": "FAQ",
+       "metin": "Rich result ended on 7 May 2026; documentation removed in June 2026."
+      },
+      {
+       "ikon": "🎓",
+       "baslik": "Course info, learning video",
+       "metin": "Retirement notice in June 2025; documentation removed in September 2025."
+      },
+      {
+       "ikon": "💼",
+       "baslik": "Estimated salary, vehicle listing",
+       "metin": "Removed as part of the same 2025 simplification."
+      },
+      {
+       "ikon": "🧮",
+       "baslik": "Practice problems",
+       "metin": "Announced in November 2025; documentation removed in January 2026."
+      }
+     ]
+    },
+    "In practice I have moved schema work away from chasing rich results and toward types that describe the entity, such as Organization, Product and Article; details are in the [schema and structured data guide](/en/guides/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "3. Core updates: the calendar and continuous smaller updates",
+   "paragraflar": [
+    "The Google Search Status Dashboard lists five core updates since March 2025:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Update",
+       "Start",
+       "Rollout duration"
+      ],
+      "satirlar": [
+       [
+        "March 2025 core update",
+        "13 March 2025",
+        "About 14 days"
+       ],
+       [
+        "June 2025 core update",
+        "30 June 2025",
+        "About 17 days"
+       ],
+       [
+        "December 2025 core update",
+        "11 December 2025",
+        "About 18 days"
+       ],
+       [
+        "March 2026 core update",
+        "27 March 2026",
+        "About 12 days"
+       ],
+       [
+        "May 2026 core update",
+        "21 May 2026",
+        "About 12 days"
+       ]
+      ]
+     }
+    },
+    "In December 2025, Google added to its core updates documentation that it continually updates its algorithms, including smaller core updates, without waiting for the next major one. Fluctuations on unannounced dates are therefore normal. To diagnose a drop, I use the [core update traffic drop](/en/blog/cekirdek-guncelleme-trafik-dususu) checklist."
+   ]
+  },
+  {
+   "baslik": "4. Spam policies expanded and spam updates came faster",
+   "paragraflar": [
+    "The Search Status Dashboard shows spam updates in August 2025 and in March, June, August and September 2026. The policy text changed too:",
+    {
+     "liste": [
+      "13 April 2026: a “back button hijacking” section was added to the malicious practices policy.",
+      "April 2026: Google clarified that spam reports may be used for manual actions.",
+      "15 May 2026: Google clarified that spam policies also apply to generative AI responses in Search.",
+      "28 August 2026: the site reputation abuse policy was updated, with different enforcement in the EEA."
+     ]
+    },
+    "In practice: templated pages at scale, rented subfolders and tricks to trap users on a page now sit more clearly within policy."
+   ]
+  },
+  {
+   "baslik": "5. A generative AI guide arrived and llms.txt was clarified",
+   "paragraflar": [
+    "On 15 May 2026 Google published a new guide on appearing in generative AI features in Search and, the same day, clarified that spam policies apply to those responses too.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "A note on llms.txt",
+      "metin": "A note added to the guide on 15 June 2026 says Google Search does not use llms.txt files; they neither help nor hurt visibility or ranking. Keeping them for other services is fine."
+     }
+    },
+    "So I treat llms.txt not as a ranking lever for Google but as an optional file for other AI systems; the [llms.txt guide](/en/blog/llms-txt-rehberi) explains what it does and does not do."
+   ]
+  },
+  {
+   "baslik": "6. Preferred sources expanded to AI Mode and AI Overviews",
+   "paragraflar": [
+    "Google published site owner documentation in January 2026 for the feature that lets users pick a site as a “preferred source”. On 30 April 2026 it became available in all languages where Search is offered, and on 27 May 2026 it began rolling out to AI Overviews and AI Mode.",
+    "The documentation says a chosen site's content is more likely to appear in Top Stories and can carry a “preferred” badge in AI surfaces; only domain- and subdomain-level sites qualify. Publishers should test Google's button or deep link."
+   ]
+  },
+  {
+   "baslik": "7. GA4 reports AI assistant traffic as its own channel",
+   "paragraflar": [
+    "Since May 2026, GA4's default channel group includes a separate channel for traffic from AI assistants. Visits that used to disappear into Referral can now be reported on their own.",
+    "The channel shows clicks from assistants such as ChatGPT or Perplexity, but not the visibility you get when an answer mentions you without a click. Setup and interpretation are covered in [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+   ]
+  },
+  {
+   "baslik": "8. Search Console now reports social and video platforms",
+   "paragraflar": [
+    "In July 2026 Google announced that Instagram, TikTok, X and YouTube accounts can be added to Search Console as platform properties, along with a guide to analyzing that content. The help page says the feature is rolling out gradually; it measures how that content performs on Google surfaces (Search, Discover, News), not views inside the platforms themselves.",
+    "Content outside your website can now be tracked on Google from Search Console too. For brands with video, the first steps are in the [video SEO](/en/blog/video-seo) article.",
+    "We can work out together how these changes should shape your priorities: I work on search as an [SEO consultant](/en/seo-consulting) and on AI surfaces as a [GEO consultant](/en/geo-consulting); a short [intro call](/en/book-a-call) is a good start."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "AI Modu trafiğini Search Console'da ayrı görebilir miyim?",
+   "c": "Evet. AI Modu verileri Performans raporunun toplamlarına dahil olmakla birlikte, Haziran 2026'da duyurulan ve 31 Ağustos 2026'dan beri tüm sitelere açılan üretken yapay zekâ performans raporlarında ayrıca görülebiliyor. Raporu mülkünüzde göremiyorsanız değişimi sayfa ve sorgu düzeyinde, zaman içindeki eğilimle okuyun."
+  },
+  {
+   "s": "SSS bölümlerini sayfalardan kaldırmalı mıyım?",
+   "c": "Hayır. Kullanıcıların gerçekten sorduğu soruları yanıtlayan SSS bölümleri içerik olarak değerini korur. Değişen yalnızca arama sonucundaki genişletilebilir görünüm; işaretlemeyi tutmak ya da kaldırmak teknik bir tercihtir."
+  },
+  {
+   "s": "Çekirdek güncellemesi sırasında sitede değişiklik yapmalı mıyım?",
+   "c": "Güncelleme sürerken veriler oynak olduğu için büyük kararlar vermemenizi öneririm. Tamamlandığı duyurulduktan sonra etkilenen sayfa gruplarını karşılaştırmak daha sağlıklı sonuç verir."
+  },
+  {
+   "s": "2026'da backlink hâlâ önemli mi?",
+   "c": "Google'ın link spam politikası yerinde duruyor ve bağlantılar keşif ile değerlendirmenin parçası olmaya devam ediyor. Değişen, manipülatif link taktiklerinin politika metninde daha açık tanımlanması; doğal bağlantı ve marka bahsi kazanımı hâlâ değerli."
+  },
+  {
+   "s": "Bu değişiklikler küçük işletmeleri nasıl etkiliyor?",
+   "c": "Yerel işletmeler için temel kanallar Google Business Profile, yorumlar ve doğru yerel sayfalar olmaya devam ediyor. AI yüzeylerinde görünmek için de aynı tutarlı işletme bilgisi ve net hizmet sayfaları gerekiyor."
+  },
+  {
+   "s": "Bu listeyi ne sıklıkla güncelliyorsunuz?",
+   "c": "Resmi bir Google güncellemesi ya da doküman değişikliği olduğunda güncellemeler günlüğüne ekliyorum. Bu yazı Ekim 2026 itibarıyla doğrulanmış durumu yansıtıyor."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can I see AI Mode traffic separately in Search Console?",
+   "c": "Yes. AI Mode data counts toward Performance report totals, and it can also be viewed in the generative AI performance reports announced in June 2026 and available to all sites since 31 August 2026. If you do not see the report in your property, read the change at page and query level as a trend over time."
+  },
+  {
+   "s": "Should I remove FAQ sections from my pages?",
+   "c": "No. FAQ sections that answer questions users actually ask keep their value as content. Only the expandable display in results changed; keeping or removing the markup is a technical choice."
+  },
+  {
+   "s": "Should I change my site during a core update?",
+   "c": "Data is volatile while an update rolls out, so I advise against big decisions. Comparing affected page groups after the rollout is announced as complete gives clearer answers."
+  },
+  {
+   "s": "Do backlinks still matter in 2026?",
+   "c": "Google's link spam policy still stands, and links remain part of discovery and evaluation. What changed is that manipulative tactics are defined more clearly; earning natural links and brand mentions is still valuable."
+  },
+  {
+   "s": "How do these changes affect small businesses?",
+   "c": "For local businesses, the core channels are still Google Business Profile, reviews and accurate local pages. Showing up in AI surfaces needs the same consistent business information and clear service pages."
+  },
+  {
+   "s": "How often do you update this list?",
+   "c": "I add official Google updates and documentation changes to the updates log as they happen. This article reflects the verified state as of October 2026."
+  }
+ ]
+}

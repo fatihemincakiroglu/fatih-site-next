@@ -1,0 +1,445 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "ChatGPT ve Yapay Zekâ Araçlarıyla SEO Çalışması: Nerede İşe Yarar?",
+ "baslik_en": "Doing SEO with ChatGPT and AI Tools: Where They Actually Help",
+ "meta_baslik_tr": "ChatGPT ile SEO: Yapay Zekâ Araçları Nerede İşe Yarar?",
+ "meta_baslik_en": "SEO with ChatGPT: Where AI Tools Actually Help",
+ "meta_desc_tr": "ChatGPT ve benzeri araçlar SEO'da nerede işe yarar? Anahtar kelime kümeleme, içerik brifi, şema ve regex işleri, riskler ve yayın öncesi doğrulama akışı.",
+ "meta_desc_en": "Where ChatGPT and similar tools help in SEO: keyword clustering, content briefs, schema and regex tasks, the risks, and a verification flow before publishing.",
+ "ozet_tr": "Yapay zekâ araçlarını SEO iş akışında nerede kullanmalı, nerede kullanmamalı? Somut görevler ve doğrulama adımları.",
+ "ozet_en": "Where to use AI tools in an SEO workflow and where not to: concrete tasks and verification steps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "ChatGPT, Gemini, Claude ve benzeri araçları her gün SEO işlerinde kullanıyorum; ama hiçbirine \"bu siteyi optimize et\" diye bir iş devretmiyorum. Doğru kullanıldığında saatler süren tekrarlı işleri dakikalara indiriyorlar. Yanlış kullanıldığında ise kendinden emin bir tonla yanlış bilgi, uydurma arama hacmi ve birbirinin kopyası sayfalar üretiyorlar.",
+    "Bu yazıda yapay zekâ araçlarının SEO iş akışında gerçekten nerede işe yaradığını, nerede risk taşıdığını ve yayından önce neyi mutlaka doğrulamanız gerektiğini somut görevler üzerinden anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: ChatGPT ve benzeri araçlar SEO'da en çok veri düzenleme, anahtar kelime kümeleme, içerik brifi, şema taslağı ve regex gibi yapılandırılmış işlerde verim sağlar. Arama hacmi, güncel Google kuralları ve sektöre özgü uzmanlık gerektiren bilgilerde çıktıyı resmi kaynaktan doğrulamadan kullanmamak gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ araçları SEO'da nerede işe yarar?",
+   "paragraflar": [
+    "Görevleri iki soruyla sınıflandırıyorum: Çıktıyı kolayca kontrol edebilir miyim, ve hata yaparsa bedeli ne olur?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Görev",
+       "Uygunluk",
+       "Doğrulama ihtiyacı"
+      ],
+      "satirlar": [
+       [
+        "Sorgu listesini niyete göre kümeleme",
+        "Yüksek",
+        "Orta: kümeleri örnekleyerek kontrol edin"
+       ],
+       [
+        "İçerik brifi ve başlık taslağı",
+        "Yüksek",
+        "Orta: SERP ile karşılaştırın"
+       ],
+       [
+        "Meta başlık ve açıklama alternatifleri",
+        "Yüksek",
+        "Düşük: karakter sınırı ve doğruluk"
+       ],
+       [
+        "JSON-LD şema taslağı",
+        "Orta",
+        "Yüksek: test aracında doğrulayın"
+       ],
+       [
+        "Regex ve formül yazımı",
+        "Orta",
+        "Yüksek: gerçek veride deneyin"
+       ],
+       [
+        "Arama hacmi veya trafik tahmini",
+        "Düşük",
+        "Kullanmayın; araç verisi esas alın"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime kümeleme ve niyet analizi",
+   "paragraflar": [
+    "En verimli kullanım alanlarından biri: Search Console'dan ya da bir anahtar kelime aracından aldığınız sorgu listesini araca verip niyete göre gruplamasını istemek. Burada kritik nokta, veriyi sizin sağlamanız. Araçtan kelime ya da hacim üretmesini istediğinizde gerçek olmayan rakamlarla karşılaşabilirsiniz.",
+    "Kümeler çıktıktan sonra her kümeden birkaç sorguyu Google'da aratıp sonuç sayfasının gerçekten aynı niyete hizmet edip etmediğine bakın. Kümeleme yöntemini [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi), kümeleri bir içerik planına dönüştürmeyi [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım."
+   ]
+  },
+  {
+   "baslik": "İçerik taslağı ve brif: Nerede durmalı?",
+   "paragraflar": [
+    "Yapay zekâ, boş sayfa sorununu çözmekte iyidir: başlık yapısı, kapsanması gereken alt sorular, okuyucunun olası itirazları. Ama sizin deneyiminizi, müşteri vakanızı ya da sahada gördüğünüz hatayı bilemez; okuyucuyu ikna eden kısım tam olarak budur.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Verimli kullanım",
+       "tur": "iyi",
+       "maddeler": [
+        "Brif ve başlık iskeleti çıkarmak",
+        "Uzman notlarını düzenli metne çevirmek",
+        "Eksik alt soruları tespit etmek",
+        "Metni sadeleştirmek ve kısaltmak"
+       ]
+      },
+      "sag": {
+       "baslik": "Riskli kullanım",
+       "tur": "kotu",
+       "maddeler": [
+        "Kontrolsüz toplu makale üretmek",
+        "Rakam ve kaynakları doğrulamadan yayınlamak",
+        "Aynı şablonla yüzlerce sayfa açmak",
+        "Uzman incelemesi olmadan YMYL içerik yayınlamak"
+       ]
+      }
+     }
+    },
+    "Şablonla çok sayıda sayfa üretme fikri aklınızdaysa önce [programatik SEO yazısındaki](/blog/programatik-seo) doorway ve ölçeklenmiş içerik sınırlarını okuyun."
+   ]
+  },
+  {
+   "baslik": "Teknik işler: şema, regex ve yönlendirme kuralları",
+   "paragraflar": [
+    "Teknik tarafta araçlar, sözdizimini hatırlamanız gereken işlerde hızlandırıcıdır. Örneğin Search Console Performans raporunda soru kalıbındaki sorguları ayırmak için şu tür bir regex filtresi yazdırabilirsiniz:",
+    {
+     "kod": "^(nasıl|neden|hangi|kaç|ne zaman)\\s|\\s(nedir|ne demek|mı|mi|mu|mü)$"
+    },
+    "Bu ifadeyi kullanmadan önce birkaç gerçek sorguda deneyin; Türkçe ekler ve boşluklar beklenmedik eşleşmeler doğurabilir. Şema için [schema oluşturucu](/araclar/schema-olusturucu), yönlendirme kuralları için [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) gibi kural tabanlı araçlar, sözdizimi hatası riskini azaltır. Teknik kontrollerin bütününü [teknik SEO rehberinde](/rehber/teknik-seo) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ araçlarının riskli olduğu yerler",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "🔢",
+       "baslik": "Uydurma veri",
+       "metin": "Arama hacmi, oran ve istatistik isterseniz gerçek olmayan rakamlar üretebilir."
+      },
+      {
+       "ikon": "📅",
+       "baslik": "Eski bilgi",
+       "metin": "Google özellikleri sık değişir; araç kaldırılmış bir özelliği hâlâ geçerli gibi anlatabilir."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Gizli veri",
+       "metin": "Müşteri listesi veya kişisel veri paylaşmadan önce planınızın veri ayarlarını ve KVKK yükümlülüklerini kontrol edin."
+      },
+      {
+       "ikon": "🧬",
+       "baslik": "Tek tip içerik",
+       "metin": "Aynı istemle üretilen metinler birbirine ve rakiplere benzer; özgün değer katmaz."
+      }
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sahadan bir örnek türü",
+      "metin": "Araçlara sorulan SEO sorularında sık gördüğüm hata, Google'ın kaldırdığı özellikleri önermesi. Örneğin Google SSS zengin sonuçlarını 7 Mayıs 2026'dan beri Arama'da göstermiyor; buna rağmen \"FAQ şeması ekleyin, zengin sonuç kazanın\" önerisi hâlâ karşıma çıkıyor."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Google yapay zekâ ile üretilen içerik hakkında ne diyor?",
+   "paragraflar": [
+    "Google Search Central'ın 2023'te yayımladığı rehberde odak, içeriğin nasıl üretildiği değil kalitesi ve kullanıcıya yararıdır. Öte yandan spam politikalarındaki ölçeklenmiş içerik kötüye kullanımı maddesi, değer katmadan çok sayıda sayfa üretmeyi yöntemden bağımsız olarak kapsıyor.",
+    "Politikanın ayrıntısını ve yayın sürecine etkisini [yapay zekâ içeriği ve Google politikası yazısında](/blog/yapay-zeka-icerik-google-politikasi) ele aldım. Yapay zekâ araçlarının markanızı nasıl anlattığını merak ediyorsanız [ChatGPT marka görünürlüğü yazısı](/blog/chatgpt-marka-gorunurlugu) iyi bir başlangıç."
+   ]
+  },
+  {
+   "baslik": "Yayın öncesi doğrulama akışı",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Yapay zekâ destekli içerik için kontrol akışı",
+      "adimlar": [
+       {
+        "baslik": "Veriyi siz verin",
+        "metin": "Sorgu, ürün ve fiyat bilgisini kendi kaynağınızdan sağlayın."
+       },
+       {
+        "baslik": "Taslağı alın",
+        "metin": "Aracı iskelet, özet veya düzenleme için kullanın."
+       },
+       {
+        "baslik": "İddiaları işaretleyin",
+        "metin": "Her rakam, tarih ve Google kuralı için kaynak arayın."
+       },
+       {
+        "baslik": "Uzman katkısı ekleyin",
+        "metin": "Deneyim, örnek ve karar ölçütlerini insan yazsın."
+       },
+       {
+        "baslik": "Teknik kontrol",
+        "metin": "Şema, link ve meta alanlarını test edin."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Rakamı olan her cümlenin yanında kaynağı ya da \"temsili örnek\" notu olsun.",
+      "Google özelliklerine dair her iddiayı Search Central dokümanında kontrol edin.",
+      "Sağlık, hukuk ve finans içeriğinde mutlaka alan uzmanının onayını alın."
+     ]
+    },
+    "Ekibiniz için yapay zekâ destekli bir içerik süreci kurmak isterseniz [içerik hizmeti](/icerik) sayfasına göz atabilir ya da [randevu alabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "I use ChatGPT, Gemini, Claude and similar tools in SEO work every day, but I never hand any of them a job like \"optimise this site\". Used well, they cut hours of repetitive work down to minutes. Used badly, they produce wrong information in a confident tone, invented search volumes and pages that copy each other.",
+    "This article covers where AI tools genuinely help in an SEO workflow, where they carry risk and what you must verify before publishing, using concrete tasks.",
+    {
+     "alinti": "Short answer: ChatGPT and similar tools are most productive in SEO for structured tasks such as organising data, keyword clustering, content briefs, schema drafts and regex. For search volumes, current Google rules and information that needs industry expertise, do not use the output without checking an official source."
+    }
+   ]
+  },
+  {
+   "baslik": "Where do AI tools help in SEO?",
+   "paragraflar": [
+    "I classify tasks with two questions: can I check the output easily, and what does a mistake cost?",
+    {
+     "tablo": {
+      "basliklar": [
+       "Task",
+       "Fit",
+       "Verification needed"
+      ],
+      "satirlar": [
+       [
+        "Clustering a query list by intent",
+        "High",
+        "Medium: spot-check the clusters"
+       ],
+       [
+        "Content brief and heading outline",
+        "High",
+        "Medium: compare with the SERP"
+       ],
+       [
+        "Meta title and description options",
+        "High",
+        "Low: character limits and accuracy"
+       ],
+       [
+        "JSON-LD schema draft",
+        "Medium",
+        "High: validate in a testing tool"
+       ],
+       [
+        "Writing regex and formulas",
+        "Medium",
+        "High: test on real data"
+       ],
+       [
+        "Estimating search volume or traffic",
+        "Low",
+        "Do not use; rely on tool data"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Keyword clustering and intent analysis",
+   "paragraflar": [
+    "One of the most productive uses: giving the tool a query list from Search Console or a keyword tool and asking it to group the queries by intent. The key point is that you supply the data. If you ask the tool to generate keywords or volumes, you may get figures that are not real.",
+    "Once the clusters are ready, search a few queries from each one on Google and check whether the results page really serves the same intent. I explain the clustering method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) and turning clusters into a content plan in the [content strategy guide](/en/guides/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "Content drafts and briefs: where to stop",
+   "paragraflar": [
+    "AI is good at solving the blank page: heading structure, sub-questions to cover, likely reader objections. But it cannot know your experience, your client case or the mistakes you see in the field, and that is exactly what persuades readers.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Productive use",
+       "tur": "iyi",
+       "maddeler": [
+        "Drafting briefs and heading outlines",
+        "Turning expert notes into clean text",
+        "Spotting missing sub-questions",
+        "Simplifying and shortening text"
+       ]
+      },
+      "sag": {
+       "baslik": "Risky use",
+       "tur": "kotu",
+       "maddeler": [
+        "Mass-producing articles without review",
+        "Publishing figures and sources unchecked",
+        "Opening hundreds of pages from one template",
+        "Publishing YMYL content without expert review"
+       ]
+      }
+     }
+    },
+    "If you are thinking of generating many pages from a template, first read the doorway and scaled content limits in the [programmatic SEO article](/en/blog/programatik-seo)."
+   ]
+  },
+  {
+   "baslik": "Technical tasks: schema, regex and redirect rules",
+   "paragraflar": [
+    "On the technical side, these tools speed up jobs where you would otherwise have to remember syntax. For example, you can have one write a regex filter to isolate question-style Turkish queries in the Search Console Performance report:",
+    {
+     "kod": "^(nasıl|neden|hangi|kaç|ne zaman)\\s|\\s(nedir|ne demek|mı|mi|mu|mü)$"
+    },
+    "Test the expression on a few real queries before relying on it; Turkish suffixes and spacing can produce unexpected matches. Rule-based tools such as the [schema generator](/en/tools/schema-generator) for markup and the [redirect generator](/en/tools/redirect-generator) for redirect rules reduce the risk of syntax errors. The full set of technical checks is in the [technical SEO guide](/en/guides/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Where AI tools are risky",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "🔢",
+       "baslik": "Invented data",
+       "metin": "Ask for search volumes, rates or statistics and it may produce figures that are not real."
+      },
+      {
+       "ikon": "📅",
+       "baslik": "Outdated information",
+       "metin": "Google features change often; a tool may describe a removed feature as if it still applied."
+      },
+      {
+       "ikon": "🔒",
+       "baslik": "Confidential data",
+       "metin": "Before sharing client lists or personal data, check your plan's data settings and your privacy obligations such as KVKK in Turkey."
+      },
+      {
+       "ikon": "🧬",
+       "baslik": "Uniform content",
+       "metin": "Text produced from the same prompt resembles itself and competitors; it adds no original value."
+      }
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "A common pattern from the field",
+      "metin": "A frequent error I see when tools answer SEO questions is recommending features Google has removed. For example, Google has not shown FAQ rich results in Search since 7 May 2026, yet the advice \"add FAQ schema to win rich results\" still comes up."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "What does Google say about AI-generated content?",
+   "paragraflar": [
+    "In the guidance Google Search Central published in 2023, the focus is on the quality and usefulness of content, not on how it was produced. At the same time, the scaled content abuse item in the spam policies covers producing many pages without adding value, whatever the method.",
+    "I cover the policy in detail and its effect on publishing workflows in the [AI content and Google policy article](/en/blog/yapay-zeka-icerik-google-politikasi). If you are curious how AI tools describe your brand, the [ChatGPT brand visibility article](/en/blog/chatgpt-marka-gorunurlugu) is a good place to start."
+   ]
+  },
+  {
+   "baslik": "A verification flow before publishing",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Review flow for AI-assisted content",
+      "adimlar": [
+       {
+        "baslik": "Supply the data",
+        "metin": "Provide query, product and price information from your own sources."
+       },
+       {
+        "baslik": "Get the draft",
+        "metin": "Use the tool for outlines, summaries or editing."
+       },
+       {
+        "baslik": "Flag the claims",
+        "metin": "Find a source for every figure, date and Google rule."
+       },
+       {
+        "baslik": "Add expert input",
+        "metin": "Have a human write the experience, examples and decision criteria."
+       },
+       {
+        "baslik": "Run technical checks",
+        "metin": "Test schema, links and meta fields."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Every sentence with a figure should carry a source or an \"illustrative example\" note.",
+      "Check every claim about Google features against Search Central documentation.",
+      "For health, legal and finance content, always get sign-off from a subject expert."
+     ]
+    },
+    "If you want to set up an AI-assisted content process for your team, take a look at [content strategy](/en/content-strategy) or [book a call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "ChatGPT ile yazılmış içerik Google'da sıralanabilir mi?",
+   "c": "Google'ın açıklamalarına göre belirleyici olan üretim yöntemi değil, içeriğin kalitesi ve kullanıcıya yararı. Yine de kontrolsüz, toplu ve değer katmayan üretim spam politikalarına takılabilir."
+  },
+  {
+   "s": "Yapay zekâ ile yazdığımı belirtmem gerekir mi?",
+   "c": "Google, okuyucunun içeriğin nasıl üretildiğini merak edebileceği durumlarda bunu açıklamayı makul görüyor ama her içerik için zorunlu bir etiket şartı koymuyor. Ayrıntı için politika yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Yapay zekâ araçlarının verdiği arama hacimlerine güvenebilir miyim?",
+   "c": "Hayır. Sohbet tabanlı araçlar bir anahtar kelime veritabanına bağlı değilse rakamları tahmin eder ya da uydurabilir. Hacim için Google Ads Anahtar Kelime Planlayıcı veya kullandığınız SEO aracının verisini esas alın."
+  },
+  {
+   "s": "Ürün açıklamalarını yapay zekâ ile toplu yazmak riskli mi?",
+   "c": "Her ürünün gerçek özelliklerini, ölçülerini ve kullanım bilgisini siz sağlarsanız araç düzenli metin üretmekte yardımcı olabilir. Riskli olan, aynı kalıp cümlelerle yüzlerce ürünü birbirinin kopyası haline getirmektir."
+  },
+  {
+   "s": "Hangi yapay zekâ aracı SEO için en iyisi?",
+   "c": "Tek bir doğru cevap yok; araçların özellikleri sık değişiyor. Kendi iş akışınızdaki görevleri (kümeleme, brif, kod) birkaç araçta aynı veriyle deneyip çıktı kalitesini karşılaştırmak en sağlıklı yöntem."
+  },
+  {
+   "s": "Yapay zekâ ile oluşturduğum şemayı nasıl test ederim?",
+   "c": "Google'ın Zengin Sonuçlar Testi ve Schema Markup Validator ile sözdizimini, Search Console'daki ilgili raporlarla da yayındaki durumu kontrol edin. İşaretlemenin sayfadaki görünür içerikle birebir uyuştuğundan emin olun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can content written with ChatGPT rank on Google?",
+   "c": "According to Google, what matters is not the production method but the quality and usefulness of the content. Still, unchecked, mass-produced content that adds no value can fall foul of the spam policies."
+  },
+  {
+   "s": "Do I need to disclose that I used AI?",
+   "c": "Google considers disclosure reasonable where readers might wonder how content was produced, but it does not require a label on every piece. See the policy article for details."
+  },
+  {
+   "s": "Can I trust search volumes from AI tools?",
+   "c": "No. Unless a chat-based tool is connected to a keyword database, it estimates figures or may make them up. For volume, rely on Google Ads Keyword Planner or the data in the SEO tool you use."
+  },
+  {
+   "s": "Is it risky to bulk-write product descriptions with AI?",
+   "c": "If you supply each product's real features, dimensions and usage information, the tool can help produce clean text. The risk lies in turning hundreds of products into copies of each other with the same stock phrases."
+  },
+  {
+   "s": "Which AI tool is best for SEO?",
+   "c": "There is no single right answer; tool features change often. The soundest approach is to test the tasks in your own workflow (clustering, briefs, code) on several tools with the same data and compare output quality."
+  },
+  {
+   "s": "How do I test schema I created with AI?",
+   "c": "Check the syntax with Google's Rich Results Test and the Schema Markup Validator, and the live status with the relevant Search Console reports. Make sure the markup matches the visible content on the page exactly."
+  }
+ ]
+}

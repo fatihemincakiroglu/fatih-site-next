@@ -1,0 +1,371 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 7,
+ "baslik_tr": "Mobil SEO: Mobil Öncelikli Dizine Eklemede Dikkat Edilecekler",
+ "baslik_en": "Mobile SEO: What to Watch for Under Mobile-First Indexing",
+ "meta_baslik_tr": "Mobil SEO: Mobil Öncelikli Dizine Ekleme Rehberi",
+ "meta_baslik_en": "Mobile SEO: A Guide to Mobile-First Indexing",
+ "meta_desc_tr": "Mobil öncelikli dizine eklemenin güncel durumu, masaüstü ile içerik eşitliği, akordeon ve gizli içerik, mobil kullanılabilirlik testi ve Core Web Vitals.",
+ "meta_desc_en": "The current state of mobile-first indexing, content parity with desktop, accordions and hidden content, testing mobile usability, and Core Web Vitals.",
+ "ozet_tr": "Google sitenizi mobil sürümüyle değerlendiriyor: içerik eşitliğini, gizli içeriği ve mobil deneyimi doğru kurun.",
+ "ozet_en": "Google evaluates your site through its mobile version: get content parity, hidden content and mobile experience right.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Pek çok ekip siteyi hâlâ masaüstü ekranında tasarlayıp onaylıyor, mobil sürümü sonradan \"sığdırıyor\". Oysa Google uzun süredir sitelerin mobil sürümünü esas alıyor; mobilde kırpılan her paragraf, kaldırılan her link Google'ın gözünde de yok sayılıyor.",
+    "Bu yazıda mobil öncelikli dizine eklemenin güncel durumunu, masaüstü ile mobil arasındaki içerik eşitliğini, akordeon ve sekme içindeki içeriği, mobil deneyimi nasıl test edeceğinizi ve Core Web Vitals ile ilişkisini anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Google, sitelerin mobil sürümünü akıllı telefon tarayıcısıyla tarayıp dizine ekliyor ve sıralamada bunu kullanıyor. Mobil sayfa, masaüstündeki ana içeriği, başlık ve açıklamaları, yapısal veriyi ve robots etiketlerini eşit biçimde taşımalı. İçeriği akordeon ya da sekmeye koymak sorun değil; kaldırmak sorundur."
+    }
+   ]
+  },
+  {
+   "baslik": "Mobil öncelikli dizine eklemenin güncel durumu",
+   "paragraflar": [
+    "Google'ın mobil site dokümanı açık: Google, akıllı telefon tarayıcısıyla taranan mobil içeriği kullanıyor. Geçiş yıllara yayıldı; Google Ekim 2023'te \"Mobile-first indexing has landed\" başlıklı duyuruyla geçişin büyük ölçüde tamamlandığını, Haziran 2024'teki son duyuruyla da kalan siteleri kapsayan aşamayı açıkladı.",
+    "Google'ın Haziran 2024 duyurusuna göre 5 Temmuz 2024'ten sonra mobil cihazla hiç erişilemeyen içerik dizine eklenemiyor. Pratik sonuç basit: Ekim 2026 itibarıyla \"sitemiz henüz mobil öncelikli değil\" diye bir senaryo planlamayın; mobil sürüm, Google'ın gördüğü sürümdür.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Mobil sayfa zorunlu mu?",
+      "metin": "Google'ın dokümanına göre dizine eklenmek için ayrı bir mobil sayfa şart değil, ama mobil uyumlu bir deneyim çok güçlü biçimde öneriliyor. Duyarlı (responsive) tasarım, tek URL ve tek HTML ile bu işi en az bakımla çözen yöntem."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Masaüstü ve mobil arasında içerik eşitliği nasıl sağlanır?",
+   "paragraflar": [
+    "Google, tasarım farklı olsa bile mobil içeriğin masaüstüne eşdeğer olmasını istiyor. Dokümanda sayılan alanları bir kontrol tablosuna çevirdim:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Google'ın beklentisi",
+       "Sahada sık gördüğüm hata"
+      ],
+      "satirlar": [
+       [
+        "Ana içerik",
+        "Masaüstüyle eşdeğer",
+        "Mobilde kısaltılmış ürün açıklaması"
+       ],
+       [
+        "Title ve meta description",
+        "İki sürümde eşdeğer",
+        "Mobil şablonda genel başlık"
+       ],
+       [
+        "Robots meta etiketleri",
+        "Aynı etiketler",
+        "Mobil sürümde unutulmuş noindex"
+       ],
+       [
+        "Yapısal veri",
+        "Aynı işaretleme (Breadcrumb, Product, VideoObject vb.)",
+        "Mobil temada eksik Product şeması"
+       ],
+       [
+        "Görseller",
+        "Aynı alt metin, kaliteli görsel, sabit URL",
+        "Mobilde düşük çözünürlük, eksik alt metin"
+       ],
+       [
+        "İç linkler",
+        "Önemli linkler mobilde de var",
+        "Mobil menüde kategorilerin yarısı yok"
+       ]
+      ]
+     }
+    },
+    "Son satır dokümanda tek başına geçmiyor ama denetimlerde en çok trafik kaybettiren hatalardan biri: mobil menüde kaldırılan kategori linkleri, Google için o sayfalara giden yolu da zayıflatıyor. Hangi sayfaların mobil sürümde eksik kaldığını bulmak için [teknik SEO rehberindeki](/rehber/teknik-seo) tarama yöntemini akıllı telefon user-agent'ıyla uygulayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Akordeon, sekme ve gizli içerik sorun mu?",
+   "paragraflar": [
+    "Mobilde yer kazanmak için içeriği akordeon ya da sekme içine almak yaygın ve Google'ın dokümanı da içeriği silmek yerine bu yolu öneriyor. Kritik ayrım, içeriğin HTML'de olup olmadığıdır.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Güvenli",
+       "tur": "iyi",
+       "maddeler": [
+        "İçerik HTML'de, akordeonla katlanmış",
+        "Sekmeler sayfa yüklenirken hazır",
+        "Görseller görünür alana girince yükleniyor",
+        "Masaüstüyle aynı metin"
+       ]
+      },
+      "sag": {
+       "baslik": "Riskli",
+       "tur": "kotu",
+       "maddeler": [
+        "İçerik ancak tıklayınca sunucudan çekiliyor",
+        "\"Devamını gör\" sonrası ayrı istekle gelen açıklama",
+        "Kaydırma veya dokunma ile tetiklenen ana içerik",
+        "Mobilde tamamen kaldırılmış bölümler"
+       ]
+      }
+     }
+    },
+    "Google'ın ifadesiyle Googlebot ana içeriği görmek için kaydırmaz, tıklamaz ya da yazmaz; bu yüzden ana içeriği kullanıcı etkileşimine bağlı lazy load ile yüklemeyin. JavaScript ile sonradan gelen içeriğin nasıl test edileceğini [JavaScript SEO](/blog/javascript-seo) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Mobil kullanılabilirlik nasıl test edilir?",
+   "paragraflar": [
+    "Search Console'daki Mobil Kullanılabilirlik raporu ve Mobil Uyumluluk Testi aracı Aralık 2023'te kullanımdan kaldırıldı; Google mobil deneyimi değerlendirmek için Chrome'un Lighthouse aracını işaret ediyor. Benim kullandığım test akışı şu:",
+    {
+     "akis": {
+      "baslik": "Mobil test akışı",
+      "adimlar": [
+       {
+        "baslik": "URL Denetimi",
+        "metin": "Canlı testte akıllı telefon tarayıcısının gördüğü HTML ve ekran görüntüsünü kontrol edin."
+       },
+       {
+        "baslik": "Lighthouse",
+        "metin": "Mobil modda performans, erişilebilirlik ve en iyi uygulamalar uyarılarını inceleyin."
+       },
+       {
+        "baslik": "Gerçek cihaz",
+        "metin": "Orta segment bir Android telefonda formları, menüyü ve ödeme adımlarını deneyin."
+       },
+       {
+        "baslik": "Saha verisi",
+        "metin": "Core Web Vitals raporunda mobil URL gruplarını ayrı izleyin."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Dokunma hedefleri birbirine çok yakın mı, butonlar parmakla rahat basılıyor mu?",
+      "Yazı tipi yakınlaştırma gerektirmeden okunuyor mu, yatay kaydırma oluşuyor mu?",
+      "Açılır pencereler ve çerez bildirimleri ana içeriği kapatıyor mu?",
+      "Telefon numarası tıklanabilir, adres harita uygulamasında açılabilir mi?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Core Web Vitals mobil SEO'yu nasıl etkiler?",
+   "paragraflar": [
+    "Core Web Vitals eşikleri mobil ve masaüstünde aynı: LCP 2,5 saniye, INP 200 milisaniye, CLS 0,1 ve altı \"iyi\" sayılıyor. Ancak mobil cihazlar ve ağlar daha yavaş olduğu için aynı sayfa mobilde çoğu zaman daha kötü sonuç veriyor.",
+    "Mobilde en sık LCP'yi büyük kahraman görselleri ve yavaş sunucu yanıtı, INP'yi ağır üçüncü taraf betikleri, CLS'yi ise boyutu belirtilmemiş görseller ve geç yüklenen bannerlar bozuyor. Ölçüm yöntemi ve iyileştirme adımları için [Core Web Vitals 2025](/blog/core-web-vitals-2025) yazısına bakın; ağır şablonların hızlandırılmasını [performans ve büyüme hizmeti](/performans) kapsamında ele alıyorum."
+   ]
+  },
+  {
+   "baslik": "Ayrı mobil site (m.) kullananlar için notlar",
+   "paragraflar": [
+    "m.example.com gibi ayrı URL'li mobil siteler hâlâ varsa kurallar daha katı. Google'a göre masaüstü URL her zaman canonical, mobil URL ise onun alternatifi olmalı; hreflang mobilde mobile, masaüstünde masaüstüne işaret etmeli ve hata durum kodları iki sürümde aynı olmalı.",
+    "Bakım yükü ve hata riski yüksek olduğu için ayrı mobil siteyi duyarlı tasarıma taşımayı genellikle öneriyorum; bu bir URL değişikliği olduğundan [site taşıma SEO rehberindeki](/rehber/site-tasima-seo) yönlendirme planıyla yapılmalı.",
+    "Mobil aramaların önemli kısmı yerel niyet taşıyor; klinik, avukat ya da mağaza gibi işletmelerde mobil sayfa ile [Google Business Profile](/blog/google-business-profile) bilgilerinin tutarlı olması da önemli. Klinikler için bu çalışmayı [klinik SEO](/sektorler/klinik-seo) kapsamında yürütüyorum. Sitenizin mobil sürümünde neyin eksik kaldığını görmek isterseniz [SEO uzmanı](/seo-uzmani) olarak bakabilirim; [kısa bir görüşme](/randevu) ayarlayalım."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Many teams still design and sign off a site on a desktop screen and then \"squeeze\" the mobile version in. Yet Google has long relied on the mobile version; every paragraph trimmed and every link removed on mobile is ignored in Google's eyes too.",
+    "This article covers the current state of mobile-first indexing, content parity between desktop and mobile, content inside accordions and tabs, how to test the mobile experience, and how Core Web Vitals fit in.",
+    {
+     "alinti": "Short answer: Google crawls and indexes the mobile version of sites with its smartphone crawler and uses it for ranking. The mobile page should carry the same main content, titles and descriptions, structured data and robots tags as desktop. Putting content in accordions or tabs is fine; removing it is the problem."
+    }
+   ]
+  },
+  {
+   "baslik": "Where mobile-first indexing stands today",
+   "paragraflar": [
+    "Google's mobile site documentation is clear: Google uses the mobile content crawled with the smartphone agent. The transition took years; in October 2023 Google announced it had largely finished with a post titled \"Mobile-first indexing has landed\", and a final announcement in June 2024 covered the last group of sites.",
+    "According to Google's June 2024 announcement, after 5 July 2024 content that is not accessible on mobile devices at all can no longer be indexed. The practical conclusion is simple: as of October 2026, do not plan around a \"we are not mobile-first yet\" scenario; the mobile version is the version Google sees.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Is a mobile page mandatory?",
+      "metin": "According to Google's documentation, a separate mobile page is not required to be indexed, but a mobile-friendly experience is very strongly recommended. Responsive design, with one URL and one HTML, solves this with the least maintenance."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How to achieve content parity between desktop and mobile",
+   "paragraflar": [
+    "Google wants mobile content to be equivalent to desktop even when the design differs. I turned the areas listed in the documentation into a checklist table:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Area",
+       "Google's expectation",
+       "Mistake I often see"
+      ],
+      "satirlar": [
+       [
+        "Main content",
+        "Equivalent to desktop",
+        "Shortened product descriptions on mobile"
+       ],
+       [
+        "Title and meta description",
+        "Equivalent on both versions",
+        "A generic title in the mobile template"
+       ],
+       [
+        "Robots meta tags",
+        "The same tags",
+        "A forgotten noindex on the mobile version"
+       ],
+       [
+        "Structured data",
+        "The same markup (Breadcrumb, Product, VideoObject etc.)",
+        "Product schema missing from the mobile theme"
+       ],
+       [
+        "Images",
+        "Same alt text, quality images, stable URLs",
+        "Low resolution and missing alt text on mobile"
+       ],
+       [
+        "Internal links",
+        "Important links present on mobile too",
+        "Half the categories missing from the mobile menu"
+       ]
+      ]
+     }
+    },
+    "The last row is not a separate item in the documentation, but it is one of the costliest mistakes in audits: category links dropped from the mobile menu also weaken Google's path to those pages. To find what is missing on mobile, apply the crawl method in the [technical SEO guide](/en/guides/teknik-seo) with a smartphone user agent."
+   ]
+  },
+  {
+   "baslik": "Are accordions, tabs and hidden content a problem?",
+   "paragraflar": [
+    "Putting content in accordions or tabs to save space on mobile is common, and Google's documentation recommends this over deleting content. The key distinction is whether the content is in the HTML.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Safe",
+       "tur": "iyi",
+       "maddeler": [
+        "Content in the HTML, collapsed in an accordion",
+        "Tabs ready when the page loads",
+        "Images loading as they enter the viewport",
+        "The same text as desktop"
+       ]
+      },
+      "sag": {
+       "baslik": "Risky",
+       "tur": "kotu",
+       "maddeler": [
+        "Content fetched from the server only on click",
+        "Description loaded by a separate request after \"See more\"",
+        "Main content triggered by scrolling or tapping",
+        "Sections removed entirely on mobile"
+       ]
+      }
+     }
+    },
+    "In Google's words, Googlebot will not swipe, click or type to see main content, so do not lazy-load primary content upon user interaction. I explain how to test content that arrives later through JavaScript in the [JavaScript SEO](/en/blog/javascript-seo) article."
+   ]
+  },
+  {
+   "baslik": "How to test mobile usability",
+   "paragraflar": [
+    "The Mobile Usability report in Search Console and the Mobile-Friendly Test tool were retired in December 2023; Google points to Chrome's Lighthouse for evaluating the mobile experience. This is the test flow I use:",
+    {
+     "akis": {
+      "baslik": "Mobile test flow",
+      "adimlar": [
+       {
+        "baslik": "URL Inspection",
+        "metin": "In a live test, check the HTML and screenshot the smartphone crawler sees."
+       },
+       {
+        "baslik": "Lighthouse",
+        "metin": "Review performance, accessibility and best-practice warnings in mobile mode."
+       },
+       {
+        "baslik": "A real device",
+        "metin": "Try forms, the menu and checkout steps on a mid-range Android phone."
+       },
+       {
+        "baslik": "Field data",
+        "metin": "Track mobile URL groups separately in the Core Web Vitals report."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Are tap targets too close together; are buttons easy to press with a finger?",
+      "Is text readable without zooming; is there horizontal scrolling?",
+      "Do pop-ups and cookie banners cover the main content?",
+      "Is the phone number tappable, and does the address open in a maps app?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "How do Core Web Vitals affect mobile SEO?",
+   "paragraflar": [
+    "Core Web Vitals thresholds are the same on mobile and desktop: LCP of 2.5 seconds, INP of 200 milliseconds and CLS of 0.1 or less count as \"good\". But because mobile devices and networks are slower, the same page often scores worse on mobile.",
+    "On mobile, LCP is most often hurt by large hero images and slow server response, INP by heavy third-party scripts, and CLS by images without dimensions and late-loading banners. For measurement and fixes, see [Core Web Vitals 2025](/en/blog/core-web-vitals-2025); speeding up heavy templates is part of my [performance and growth service](/en/performance-growth)."
+   ]
+  },
+  {
+   "baslik": "Notes for sites with a separate mobile site (m.)",
+   "paragraflar": [
+    "If you still run a separate-URL mobile site such as m.example.com, the rules are stricter. Google says the desktop URL is always the canonical and the mobile URL its alternate; hreflang should point mobile to mobile and desktop to desktop, and error status codes should match on both versions.",
+    "Because maintenance cost and error risk are high, I usually recommend moving a separate mobile site to responsive design; since that is a URL change, it should follow the redirect plan in the [site migration SEO guide](/en/guides/site-tasima-seo).",
+    "A large share of mobile searches carries local intent; for businesses such as clinics, law firms or shops, keeping the mobile page consistent with your [Google Business Profile](/en/blog/google-business-profile) also matters. For clinics I run this work within [healthcare SEO](/en/industries/healthcare-seo). If you want to see what is missing from your mobile version, I can take a look through [SEO consulting](/en/seo-consulting); let's set up a [short call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Masaüstü trafiğim daha fazla; yine de mobil sürüm mü esas alınıyor?",
+   "c": "Evet. Dizine ekleme ve sıralamada Google'ın akıllı telefon tarayıcısıyla gördüğü sürüm kullanılır; ziyaretçilerinizin çoğunun masaüstünden gelmesi bunu değiştirmez. Masaüstü kullanıcılarınız da aynı dizinden gelen sonuçları görür."
+  },
+  {
+   "s": "Search Console'da sitemin hangi tarayıcıyla tarandığını nasıl görürüm?",
+   "c": "URL Denetimi aracında sayfanın hangi tarayıcıyla tarandığı gösterilir. Ayarlar altındaki Tarama istatistikleri raporunda da Googlebot türüne göre dağılımı görebilirsiniz."
+  },
+  {
+   "s": "AMP kullanmak mobil SEO için gerekli mi?",
+   "c": "Hayır. AMP mobil öncelikli dizine ekleme için bir gereklilik değildir. Hızlı ve duyarlı bir standart sayfa aynı işi görür; mevcut AMP sürümünü kaldıracaksanız AMP URL'lerini standart sayfalara yönlendirin."
+  },
+  {
+   "s": "Mobilde tam ekran açılır pencere göstermek sorun olur mu?",
+   "c": "Ana içeriği kapatan ve kapatılması zor açılır pencereler kullanıcı deneyimini bozar ve Google'ın sayfa deneyimi yaklaşımıyla çelişir. Yasal zorunluluk olan çerez ve yaş doğrulama bildirimlerini makul boyutta ve kolay kapatılabilir tutun."
+  },
+  {
+   "s": "Mobil ve masaüstünde farklı görseller kullanabilir miyim?",
+   "c": "Kullanabilirsiniz, ama Google farklı görsel URL'lerinin geçiş sırasında görsel trafiğinde geçici kayba yol açabileceğini belirtiyor. Mümkünse aynı görseli duyarlı boyutlarla sunun ve alt metni iki sürümde aynı tutun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Most of my traffic is desktop; is the mobile version still what counts?",
+   "c": "Yes. Indexing and ranking use the version Google sees with its smartphone crawler; most of your visitors coming from desktop does not change that. Your desktop users also see results from the same index."
+  },
+  {
+   "s": "How do I see which crawler Search Console uses for my site?",
+   "c": "The URL Inspection tool shows which crawler fetched the page. The Crawl stats report under Settings also breaks requests down by Googlebot type."
+  },
+  {
+   "s": "Is AMP required for mobile SEO?",
+   "c": "No. AMP is not a requirement for mobile-first indexing. A fast, responsive standard page does the same job; if you remove an existing AMP version, redirect the AMP URLs to the standard pages."
+  },
+  {
+   "s": "Is a full-screen pop-up on mobile a problem?",
+   "c": "Pop-ups that cover the main content and are hard to close hurt user experience and conflict with Google's page experience approach. Keep legally required cookie and age-verification notices reasonably sized and easy to dismiss."
+  },
+  {
+   "s": "Can I use different images on mobile and desktop?",
+   "c": "You can, but Google notes that different image URLs may cause a temporary loss of image traffic during the transition. Where possible, serve the same image in responsive sizes and keep alt text identical on both versions."
+  }
+ ]
+}
