@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 import YazarFoto from '../components/YazarFoto';
 
@@ -24,6 +25,9 @@ const TIMELINE = {
     { yil: '2022-Present', ikon: '🌐', renk: '#e8560a', baslik: 'Independent SEO & GEO Consultant', alt: 'fatihemincakiroglu.com', detay: 'Independent consulting across 150+ brands in 14 sectors. Pioneering GEO (Generative Engine Optimization) for visibility in AI search systems like ChatGPT, Perplexity and Google AI Overview.' },
   ],
 }
+
+// Hakkımda sayfasından vaka ve referans sayfalarına yönlendiren kartlar
+const KANIT_LOGOLAR = ['akallar-otel', 'alagoz-ecza', 'doga-eczanesi', 'hekimoglu-collection', 'lume', 'meridian-services', 'botanik-bahce', 'cloudlet-systems']
 
 const BECERILER = [
   {
@@ -353,6 +357,55 @@ export default function Page(props) {
           </div>
         </section>
 
+        {/* ══ SONUÇLAR VE REFERANSLAR ═══════════════════════ */}
+        <section style={{ padding:'72px 24px', background:'var(--bg2)', borderBottom:'1px solid var(--border)' }}>
+          <div style={{ maxWidth:'var(--max-w)', margin:'0 auto' }}>
+            <div style={{ textAlign:'center', marginBottom:'36px' }}>
+              <div style={{ fontSize:'11px', fontWeight:700, color:'var(--orange)', letterSpacing:'2px', textTransform:'uppercase', marginBottom:'10px' }}>{isEn ? 'Proof of work' : 'Kanıtlar'}</div>
+              <h2 style={{ fontFamily:'var(--font-display)', fontSize:'clamp(22px,3vw,34px)', fontWeight:800, color:'var(--text)', marginBottom:'10px' }}>{isEn ? 'Results and client references' : 'Sonuçlar ve müşteri referansları'}</h2>
+              <p style={{ fontSize:'15px', color:'var(--text2)', lineHeight:1.7, maxWidth:'620px', margin:'0 auto' }}>
+                {isEn
+                  ? 'Rather than taking my word for it, look at real Search Console data from projects I have worked on and at what clients say.'
+                  : 'Benim anlattıklarım yerine, çalıştığım projelerin gerçek Search Console verilerine ve müşterilerin söylediklerine bakın.'}
+              </p>
+            </div>
+            <div className="kanit-grid" style={{ display:'grid', gridTemplateColumns:'repeat(2, minmax(0,1fr))', gap:'20px' }}>
+              <Link href={isEn ? '/en/case-studies' : '/vakalar'} style={{ display:'flex', flexDirection:'column', background:'var(--bg)', borderRadius:'18px', border:'1px solid var(--border)', overflow:'hidden', textDecoration:'none' }}>
+                <div style={{ position:'relative', width:'100%', aspectRatio:'1538 / 509', background:'#fff', borderBottom:'1px solid var(--border)' }}>
+                  <Image src="/images/vakalar/gsc-p3-6ay.webp" alt={isEn ? 'Search Console performance report from a client project' : 'Bir müşteri projesinin Search Console performans raporu'} fill sizes="(max-width: 768px) 100vw, 600px" style={{ objectFit:'cover', objectPosition:'top' }} />
+                </div>
+                <div style={{ padding:'24px 26px 26px', display:'flex', flexDirection:'column', flex:1 }}>
+                  <div style={{ fontSize:'12px', fontWeight:700, color:'#16a34a', marginBottom:'8px' }}>{isEn ? '13 projects · real Search Console data' : '13 proje · gerçek Search Console verisi'}</div>
+                  <h3 style={{ fontSize:'20px', fontWeight:800, color:'var(--text)', marginBottom:'8px', fontFamily:'var(--font-display)' }}>{isEn ? 'Case studies' : 'Vaka çalışmaları'}</h3>
+                  <p style={{ fontSize:'14px', color:'var(--text2)', lineHeight:1.7, marginBottom:'16px', flex:1 }}>
+                    {isEn
+                      ? 'Clicks, impressions and average position before and after, with period comparisons. In one project, clicks over a six-month period rose from 12.5K to 125K compared with the previous period.'
+                      : 'Tıklama, gösterim ve ortalama konumun önce ve sonrası, dönem karşılaştırmalarıyla. Bir projede 6 aylık dönemdeki tıklamalar, önceki döneme göre 12,5 binden 125 bine çıktı.'}
+                  </p>
+                  <span style={{ fontSize:'14px', fontWeight:700, color:'var(--orange)' }}>{isEn ? 'See the case studies →' : 'Vaka çalışmalarını incele →'}</span>
+                </div>
+              </Link>
+              <Link href={isEn ? '/en/testimonials' : '/referanslar'} style={{ display:'flex', flexDirection:'column', background:'var(--bg)', borderRadius:'18px', border:'1px solid var(--border)', overflow:'hidden', textDecoration:'none' }}>
+                <div className="kanit-logolar" style={{ aspectRatio:'1538 / 509', background:'#fff', borderBottom:'1px solid var(--border)', display:'grid', gridTemplateColumns:'repeat(4, 1fr)', alignItems:'center', justifyItems:'center', gap:'6px', padding:'10px 18px' }}>
+                  {KANIT_LOGOLAR.map(l => (
+                    <Image key={l} src={`/images/referanslar/${l}.png`} alt="" width={84} height={84} style={{ width:'100%', maxWidth:'72px', height:'auto' }} />
+                  ))}
+                </div>
+                <div style={{ padding:'24px 26px 26px', display:'flex', flexDirection:'column', flex:1 }}>
+                  <div style={{ fontSize:'12px', fontWeight:700, color:'#6366f1', marginBottom:'8px' }}>{isEn ? '20 brands · client testimonials' : '20 marka · müşteri yorumları'}</div>
+                  <h3 style={{ fontSize:'20px', fontWeight:800, color:'var(--text)', marginBottom:'8px', fontFamily:'var(--font-display)' }}>{isEn ? 'References' : 'Referanslar'}</h3>
+                  <p style={{ fontSize:'14px', color:'var(--text2)', lineHeight:1.7, marginBottom:'16px', flex:1 }}>
+                    {isEn
+                      ? 'The brands I have worked with, from e-commerce and healthcare to hospitality and local businesses, and what their teams say about the work.'
+                      : 'E-ticaretten sağlığa, turizmden yerel işletmelere birlikte çalıştığım markalar ve ekiplerinin bu çalışma hakkında söyledikleri.'}
+                  </p>
+                  <span style={{ fontSize:'14px', fontWeight:700, color:'var(--orange)' }}>{isEn ? 'See all references →' : 'Tüm referansları gör →'}</span>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* ══ TİMELINE ═══════════════════════════════════════ */}
         <section style={{ padding:'72px 24px', background:'var(--bg2)', borderBottom:'1px solid var(--border)' }}>
           <div style={{ maxWidth:'var(--max-w)', margin:'0 auto' }}>
@@ -511,6 +564,9 @@ export default function Page(props) {
               <button onClick={() => setSlideIdx(i => (i+1)%TESTIMONIALS.length)}
                 style={{ width:'32px', height:'32px', borderRadius:'50%', border:'1px solid var(--border)', background:'var(--bg2)', cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center', color:'var(--text2)', fontSize:'14px' }}>›</button>
             </div>
+            <div style={{ textAlign:'center', marginTop:'24px' }}>
+              <Link href={isEn ? '/en/testimonials' : '/referanslar'} style={{ fontSize:'14px', fontWeight:700, color:'var(--orange)' }}>{isEn ? 'Read all client testimonials →' : 'Tüm müşteri yorumlarını oku →'}</Link>
+            </div>
           </div>
         </section>
 
@@ -564,6 +620,8 @@ export default function Page(props) {
           section > div[style*="grid-template-columns"] { grid-template-columns: minmax(0, 1fr) !important; gap: 24px !important; }
           section { padding-left: 16px !important; padding-right: 16px !important; }
           [style*="repeat(6,1fr)"] { grid-template-columns: repeat(3,1fr) !important; }
+          .kanit-grid { grid-template-columns: minmax(0, 1fr) !important; }
+          .kanit-logolar { grid-template-columns: repeat(4, 1fr) !important; aspect-ratio: auto !important; gap: 10px !important; padding: 16px !important; }
         }
       ` }} />
     </>
