@@ -185,7 +185,14 @@
       ]
      }
     },
-    "Bu döngüyü kuran şirketlerde reklam ve SEO ekipleri aynı toplantıda aynı veriye bakmaya başlıyor. Bütçeyi kanallar arasında nasıl böleceğinize dair çerçeve için [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısı yol gösterebilir. İçerik üretimi için [SEO içerik hizmetine](/icerik), kanal ölçümü ve büyüme için [performans hizmetine](/performans) göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
+    "Bu döngüyü kuran şirketlerde reklam ve SEO ekipleri aynı toplantıda aynı veriye bakmaya başlıyor. Bütçeyi kanallar arasında nasıl böleceğinize dair çerçeve için [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısı yol gösterebilir. İçerik üretimi için [SEO içerik hizmetine](/icerik), kanal ölçümü ve büyüme için [performans hizmetine](/performans) göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: UTM link oluşturucu",
+      "metin": "Reklam ve organik gönderi linklerinizi GA4'te karşılaştırılabilir tutmak için [UTM link oluşturucuyu](/araclar/utm-olusturucu) kullanın; küçük harf ve tutarlı kaynak adları raporu temiz tutar."
+     }
+    }
    ]
   }
  ],
@@ -390,7 +397,14 @@
       ]
      }
     },
-    "Where this loop exists, ad and SEO teams start looking at the same data in the same meeting. For splitting budget between channels, [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi) offers a framework. See [content strategy services](/en/content-strategy) for production, [performance and growth](/en/performance-growth) for channel measurement, or reach me via the [contact page](/en/contact)."
+    "Where this loop exists, ad and SEO teams start looking at the same data in the same meeting. For splitting budget between channels, [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi) offers a framework. See [content strategy services](/en/content-strategy) for production, [performance and growth](/en/performance-growth) for channel measurement, or reach me via the [contact page](/en/contact).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: UTM link builder",
+      "metin": "Use the [UTM link builder](/en/tools/utm-builder) to keep ad and organic post links comparable in GA4; lowercase, consistent source names keep reports clean."
+     }
+    }
    ]
   }
  ],

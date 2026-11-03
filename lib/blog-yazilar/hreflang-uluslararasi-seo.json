@@ -223,7 +223,14 @@
       ]
      }
     },
-    "Tarama için hangi aracın uygun olduğunu [SEO denetim araçları karşılaştırmasında](/blog/seo-audit-araclari) ele aldım. Çok dilli bir sitenin kurulumu ya da denetimi için [SEO danışmanlığı](/seo-uzmani) kapsamında destek alabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) oluşturabilirsiniz."
+    "Tarama için hangi aracın uygun olduğunu [SEO denetim araçları karşılaştırmasında](/blog/seo-audit-araclari) ele aldım. Çok dilli bir sitenin kurulumu ya da denetimi için [SEO danışmanlığı](/seo-uzmani) kapsamında destek alabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) oluşturabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: hreflang oluşturucu",
+      "metin": "Dil kodlarını ISO standartlarına göre kontrol eden ve karşılıklı etiketleri otomatik üreten [hreflang oluşturucu](/araclar/hreflang-olusturucu) ile HTML, XML site haritası ya da HTTP başlığı çıktısı alabilirsiniz."
+     }
+    }
    ]
   }
  ],
@@ -440,7 +447,14 @@
       ]
      }
     },
-    "I compare crawlers for this job in [SEO audit tools compared](/en/blog/seo-audit-araclari). For setting up or auditing a multilingual site, see [SEO consulting](/en/seo-consulting) or [book a free intro call](/en/book-a-call)."
+    "I compare crawlers for this job in [SEO audit tools compared](/en/blog/seo-audit-araclari). For setting up or auditing a multilingual site, see [SEO consulting](/en/seo-consulting) or [book a free intro call](/en/book-a-call).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: hreflang generator",
+      "metin": "The [hreflang generator](/en/tools/hreflang-generator) checks language codes against ISO standards, builds reciprocal tags automatically and outputs HTML, an XML sitemap or HTTP headers."
+     }
+    }
    ]
   }
  ],

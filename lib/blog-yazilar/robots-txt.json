@@ -153,7 +153,14 @@
       "Alt alan adlarının kendi robots.txt dosyası var mı?"
      ]
     },
-    "Değişiklikten sonra Search Console'daki robots.txt raporundan Google'ın dosyanın hangi sürümünü ne zaman aldığını kontrol edin. Yapay zekâ botları için strateji kurmak isterseniz [GEO uzmanı](/geo-uzmani) olarak, teknik SEO denetimi için [SEO uzmanı](/seo-uzmani) olarak destek veriyorum; [iletişim sayfasından](/iletisim) yazabilirsiniz."
+    "Değişiklikten sonra Search Console'daki robots.txt raporundan Google'ın dosyanın hangi sürümünü ne zaman aldığını kontrol edin. Yapay zekâ botları için strateji kurmak isterseniz [GEO uzmanı](/geo-uzmani) olarak, teknik SEO denetimi için [SEO uzmanı](/seo-uzmani) olarak destek veriyorum; [iletişim sayfasından](/iletisim) yazabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: robots.txt test aracı",
+      "metin": "Bir URL'nin Googlebot, GPTBot, ClaudeBot gibi botlar için engelli olup olmadığını ve kararı hangi kuralın verdiğini [robots.txt test aracıyla](/araclar/robots-txt-test) kontrol edebilirsiniz; taslak dosyayı yayınlamadan önce de test edebilirsiniz."
+     }
+    }
    ]
   }
  ],
@@ -300,7 +307,14 @@
       "Does each subdomain have its own robots.txt?"
      ]
     },
-    "After a change, use the robots.txt report in Search Console to see which version Google fetched and when. If you want a strategy for AI crawlers, I help through [GEO consulting](/en/geo-consulting), and with technical audits through [SEO consulting](/en/seo-consulting); you can reach me via the [contact page](/en/contact)."
+    "After a change, use the robots.txt report in Search Console to see which version Google fetched and when. If you want a strategy for AI crawlers, I help through [GEO consulting](/en/geo-consulting), and with technical audits through [SEO consulting](/en/seo-consulting); you can reach me via the [contact page](/en/contact).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: robots.txt tester",
+      "metin": "Check whether a URL is blocked for Googlebot, GPTBot, ClaudeBot and others, and which rule decides it, with the [robots.txt tester](/en/tools/robots-txt-tester); you can test a draft before publishing it."
+     }
+    }
    ]
   }
  ],

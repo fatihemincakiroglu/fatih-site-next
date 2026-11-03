@@ -52,6 +52,8 @@ const KONUYA_YONLENEN = [
   ['/blog/teknik-seo-2025', '/rehber/teknik-seo'],
   ['/en/guides/mobil-seo', '/en/blog/mobil-seo'],
   ['/en/blog/site-migrasyonu-seo', '/en/guides/site-tasima-seo'],
+  // Eski kontrol listesi PDF'i → güncel teknik SEO denetim listesi
+  ['/downloads/2025-teknik-seo-kontrol-listesi.pdf', '/downloads/teknik-seo-denetim-kontrol-listesi.pdf'],
 ]
 
 // ── GÜVENLİK BAŞLIKLARI ─────────────────────────────────────

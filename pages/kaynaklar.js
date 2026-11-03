@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import LeadMagnet from '../components/LeadMagnet';
+import { KONTROL_LISTELERI } from '../lib/kontrol-listeleri';
 
 export default function Page(props) {
   const router = useRouter()
@@ -66,9 +67,19 @@ export default function Page(props) {
               </Link>
             ))}
           </div>
-          <div style={{ marginTop: '32px' }}>
-            <LeadMagnet isEn={isEn} />
-          </div>
+          <section id="kontrol-listeleri" aria-labelledby="kl-baslik" style={{ marginTop: '48px', scrollMarginTop: '90px' }}>
+            <h2 id="kl-baslik" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 3vw, 30px)', fontWeight: 800, color: '#111', marginBottom: '8px' }}>
+              {isEn ? 'Free checklists (PDF)' : 'Ücretsiz kontrol listeleri (PDF)'}
+            </h2>
+            <p style={{ color: '#777', fontSize: '15px', lineHeight: 1.7, marginBottom: '20px', maxWidth: '760px' }}>
+              {isEn
+                ? 'Printable checklists with priorities and a "how to check" note for every item. Enter your email and the PDF downloads straight away.'
+                : 'Her maddesinde öncelik ve "nasıl kontrol edilir" notu olan, yazdırılabilir kontrol listeleri. E-postanızı girin, PDF hemen insin.'}
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 420px), 1fr))', gap: '16px' }}>
+              {KONTROL_LISTELERI.map(l => <LeadMagnet key={l.id} isEn={isEn} compact liste={l.id} />)}
+            </div>
+          </section>
         </div>
       </div>
     </>

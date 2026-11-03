@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react';
 import AiOzetle from '../../components/AiOzetle';
 import { getRehberMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
+import LeadMagnet from '../../components/LeadMagnet';
+import { sayfaninListesi } from '../../lib/kontrol-listeleri';
 import { renderInline, renderBlok } from '../../components/IcerikBlok';
 import { rehberStaticPaths, rehberStaticProps } from '../../lib/rehber-icerikler';
 import { REHBER_LISTE } from '../../lib/rehber-liste';
@@ -131,6 +133,9 @@ export default function Page(props) {
   // SSS + ilgili rehberler: makalenin sonunda (mobil ve masaüstü ortak)
   const SonBolum = (
     <>
+      <div style={{ marginTop: '44px' }}>
+        <LeadMagnet isEn={isEn} compact liste={sayfaninListesi(slug).id} />
+      </div>
       {sss.length > 0 && (
         <section id="sss" style={{ marginTop: '44px', scrollMarginTop: '90px' }}>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '17px' : '20px', fontWeight: 800, color: '#111', marginBottom: '8px', display: 'flex', alignItems: 'flex-start', gap: '10px' }}>

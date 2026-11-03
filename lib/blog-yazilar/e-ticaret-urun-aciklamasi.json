@@ -169,7 +169,14 @@
       "Sayfa ilgili kategoriye ve bir rehber yazısına link veriyor."
      ]
     },
-    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayıp test edebilirsiniz. Platforma özgü alanlar için [Shopify SEO kontrol listesi](/blog/shopify-seo) ve pazaryeri tarafı için [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazılarına bakın. Ürün ve kategori metinlerinizi ölçekli bir planla yazmak isterseniz [içerik hizmeti](/icerik) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfalarını inceleyin."
+    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayıp test edebilirsiniz. Platforma özgü alanlar için [Shopify SEO kontrol listesi](/blog/shopify-seo) ve pazaryeri tarafı için [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazılarına bakın. Ürün ve kategori metinlerinizi ölçekli bir planla yazmak isterseniz [içerik hizmeti](/icerik) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfalarını inceleyin.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: SERP önizleme",
+      "metin": "Kategori ve ürün sayfalarının başlık ve meta açıklamalarını yayından önce [SERP önizleme aracında](/araclar/serp-onizleme) deneyin; en önemli kelimelerin kesilmeden kaldığından emin olun."
+     }
+    }
    ]
   }
  ],
@@ -358,7 +365,14 @@
       "The page links to its category and to a guide."
      ]
     },
-    "You can build and test product structured data with the [schema generator](/en/tools/schema-generator). For platform fields see the [Shopify SEO checklist](/en/blog/shopify-seo), and for marketplaces see [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi). If you want product and category copy written to a scalable plan, see [content strategy services](/en/content-strategy) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting)."
+    "You can build and test product structured data with the [schema generator](/en/tools/schema-generator). For platform fields see the [Shopify SEO checklist](/en/blog/shopify-seo), and for marketplaces see [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi). If you want product and category copy written to a scalable plan, see [content strategy services](/en/content-strategy) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: SERP preview",
+      "metin": "Try category and product titles and meta descriptions in the [SERP preview tool](/en/tools/serp-preview) before publishing, so the key words survive truncation."
+     }
+    }
    ]
   }
  ],

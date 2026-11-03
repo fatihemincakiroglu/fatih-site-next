@@ -189,7 +189,14 @@
    "baslik": "Ne zaman uzman desteği gerekir?",
    "paragraflar": [
     "URL Denetimi'nde \"Hostload exceeded\" uyarısı görüyorsanız Google'ın dokümanı sunucu kaynaklarını artırmayı öneriyor. Günlük analizi, filtre mimarisi ve sunucu tarafı ayarlar ise genellikle geliştirici ve SEO ekibinin birlikte çalışmasını gerektirir.",
-    "Yüz binlerce URL'li mağazalarda bu çalışmayı [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir planla yürütüyorum. Sitenizde bütçenin gerçekten sorun olup olmadığını birlikte görmek için [SEO uzmanı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz."
+    "Yüz binlerce URL'li mağazalarda bu çalışmayı [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir planla yürütüyorum. Sitenizde bütçenin gerçekten sorun olup olmadığını birlikte görmek için [SEO uzmanı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: robots.txt test aracı",
+      "metin": "Filtre ve parametre URL'lerini engelleyen kurallarınızın beklediğiniz gibi çalıştığını [robots.txt test aracıyla](/araclar/robots-txt-test) örnek URL'ler üzerinde doğrulayın."
+     }
+    }
    ]
   }
  ],
@@ -372,7 +379,14 @@
    "baslik": "When do you need expert help?",
    "paragraflar": [
     "If URL Inspection shows a \"Hostload exceeded\" warning, Google's documentation recommends adding server resources. Log analysis, filter architecture and server-side settings usually need developers and SEO working together.",
-    "For stores with hundreds of thousands of URLs, I run this work as a template-level plan within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting). To find out together whether budget is really a problem on your site, see [SEO consulting](/en/seo-consulting) or simply [book a call](/en/book-a-call)."
+    "For stores with hundreds of thousands of URLs, I run this work as a template-level plan within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting). To find out together whether budget is really a problem on your site, see [SEO consulting](/en/seo-consulting) or simply [book a call](/en/book-a-call).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: robots.txt tester",
+      "metin": "Use the [robots.txt tester](/en/tools/robots-txt-tester) on sample URLs to confirm that rules blocking filter and parameter URLs work as intended."
+     }
+    }
    ]
   }
  ],

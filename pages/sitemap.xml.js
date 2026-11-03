@@ -36,6 +36,10 @@ const TR_PAGES = [
   { url: '/sektorler/b2b-uretici-seo', priority: '0.8', changefreq: 'monthly' },
   { url: '/araclar/schema-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/araclar/yonlendirme-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/araclar/robots-txt-test', priority: '0.7', changefreq: 'monthly' },
+  { url: '/araclar/hreflang-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/araclar/serp-onizleme', priority: '0.7', changefreq: 'monthly' },
+  { url: '/araclar/utm-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -73,6 +77,10 @@ const EN_PAGES = [
   { url: '/en/industries/b2b-manufacturer-seo', priority: '0.8', changefreq: 'monthly' },
   { url: '/en/tools/schema-generator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/tools/redirect-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/tools/robots-txt-tester', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/tools/hreflang-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/tools/serp-preview', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/tools/utm-builder', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -136,6 +144,10 @@ const TR_EN_MAP = {
   '/sektorler': '/en/industries',
   '/araclar/schema-olusturucu': '/en/tools/schema-generator',
   '/araclar/yonlendirme-olusturucu': '/en/tools/redirect-generator',
+  '/araclar/robots-txt-test': '/en/tools/robots-txt-tester',
+  '/araclar/hreflang-olusturucu': '/en/tools/hreflang-generator',
+  '/araclar/serp-onizleme': '/en/tools/serp-preview',
+  '/araclar/utm-olusturucu': '/en/tools/utm-builder',
   '/google-guncellemeleri': '/en/google-updates',
   '/sektorler/klinik-seo': '/en/industries/healthcare-seo',
   '/sektorler/avukat-seo': '/en/industries/law-firm-seo',

@@ -10,6 +10,8 @@ import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
 import { renderBlok, renderInline } from '../../components/IcerikBlok';
 import IlgiliRehberler from '../../components/IlgiliRehberler';
+import LeadMagnet from '../../components/LeadMagnet';
+import { sayfaninListesi } from '../../lib/kontrol-listeleri';
 import { blogStaticPaths, blogStaticProps } from '../../lib/blog-icerikler';
 
 // İçerik: lib/blog-icerikler.js (yalnızca getStaticProps içinde kullanılır)
@@ -291,6 +293,12 @@ export default function BlogPost(props) {
   ) : null
 
   const midCtaIndex = bolumler.length >= 4 ? Math.floor(bolumler.length / 2) - 1 : -1
+  // Yazının sonunda konuya uygun ücretsiz kontrol listesi (lib/kontrol-listeleri.js)
+  const IndirmeKutusu = (
+    <div style={{ marginTop: '44px' }}>
+      <LeadMagnet isEn={isEn} compact liste={sayfaninListesi(slug).id} />
+    </div>
+  )
   const MidArticleCTA = (
     <div style={{ margin: '32px 0', padding: '24px', borderRadius: '14px', background: 'linear-gradient(135deg, rgba(232,86,10,0.08), rgba(232,86,10,0.02))', border: '1px solid rgba(232,86,10,0.2)', display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
       <div style={{ fontSize: '28px' }}>💡</div>
@@ -404,6 +412,7 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {IndirmeKutusu}
               {SssBolumu}
             </div>
             {AuthorCard}
@@ -445,6 +454,7 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {IndirmeKutusu}
               {SssBolumu}
             </div>
             <div className="sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>

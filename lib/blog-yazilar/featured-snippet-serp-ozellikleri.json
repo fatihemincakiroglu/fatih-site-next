@@ -166,7 +166,14 @@
    "paragraflar": [
     "Google'ın yapay zekâ özellikleri dokümanına göre AI Overviews ya da AI Mode'da destekleyici link olarak görünmek için ek bir gereklilik ya da özel işaretleme yok; sayfanın dizine eklenmiş ve snippet ile gösterilmeye uygun olması yeterli şart. Bu yüzden snippet'e uygun, net yapılandırılmış içerik iki taraf için de aynı temeli oluşturuyor.",
     "Snippet kontrolleri de ortak: nosnippet, data-nosnippet ve max-snippet hem klasik snippet'leri hem de yapay zekâ özelliklerinde gösterilen bilgiyi sınırlıyor. Bir sayfayı yalnızca öne çıkan snippet'ten çıkarmak isterseniz Google düşük bir max-snippet değeri denemeyi öneriyor, ancak bunun sonucu kesin değil.",
-    "Yapay zekâ özetlerinde kaynak olmanın ayrıntılarını [Google AI Overviews'da kaynak olarak görünmek](/blog/google-ai-overview-optimizasyonu) yazısında, uygulama çerçevesini [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım. Sitenizin bu sonuçlardaki görünürlüğünü birlikte değerlendirmek için [GEO danışmanlığı](/geo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Yapay zekâ özetlerinde kaynak olmanın ayrıntılarını [Google AI Overviews'da kaynak olarak görünmek](/blog/google-ai-overview-optimizasyonu) yazısında, uygulama çerçevesini [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım. Sitenizin bu sonuçlardaki görünürlüğünü birlikte değerlendirmek için [GEO danışmanlığı](/geo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: SERP önizleme",
+      "metin": "Başlık ve meta açıklamanızın masaüstü ve mobilde nereden kesileceğini [SERP önizleme aracıyla](/araclar/serp-onizleme) piksel genişliğine göre görebilirsiniz."
+     }
+    }
    ]
   }
  ],
@@ -352,7 +359,14 @@
    "paragraflar": [
     "Google's AI features documentation says there are no additional requirements or special markup to appear as a supporting link in AI Overviews or AI Mode; the page must be indexed and eligible to show with a snippet. Clear, snippet-friendly content is the same foundation for both.",
     "Snippet controls are shared as well: nosnippet, data-nosnippet and max-snippet limit both classic snippets and what is shown in AI features. To remove a page from featured snippets only, Google suggests trying a lower max-snippet value, though the outcome is not certain.",
-    "Details on being cited in AI summaries are in [appearing as a source in Google AI Overviews](/en/blog/google-ai-overview-optimizasyonu), with the wider framework in the [GEO implementation guide](/en/guides/geo-uygulama). To review your visibility in these results, see [GEO consulting](/en/geo-consulting) or [book an intro call](/en/book-a-call)."
+    "Details on being cited in AI summaries are in [appearing as a source in Google AI Overviews](/en/blog/google-ai-overview-optimizasyonu), with the wider framework in the [GEO implementation guide](/en/guides/geo-uygulama). To review your visibility in these results, see [GEO consulting](/en/geo-consulting) or [book an intro call](/en/book-a-call).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: SERP preview",
+      "metin": "See where your title and meta description get cut off on desktop and mobile, measured in pixels, with the [SERP preview tool](/en/tools/serp-preview)."
+     }
+    }
    ]
   }
  ],

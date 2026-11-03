@@ -123,4 +123,9 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 ## Tools
 - [Schema Oluşturucu (JSON-LD)](https://fatihemincakiroglu.com/araclar/schema-olusturucu)
 - [301 Yönlendirme Oluşturucu](https://fatihemincakiroglu.com/araclar/yonlendirme-olusturucu)
+- [robots.txt Test Aracı](https://fatihemincakiroglu.com/araclar/robots-txt-test)
+- [hreflang Oluşturucu](https://fatihemincakiroglu.com/araclar/hreflang-olusturucu)
+- [SERP Önizleme](https://fatihemincakiroglu.com/araclar/serp-onizleme)
+- [UTM Link Oluşturucu](https://fatihemincakiroglu.com/araclar/utm-olusturucu)
+- [Ücretsiz SEO kontrol listeleri (PDF)](https://fatihemincakiroglu.com/kaynaklar#kontrol-listeleri)
 - [Google Güncellemeleri Günlüğü](https://fatihemincakiroglu.com/google-guncellemeleri)

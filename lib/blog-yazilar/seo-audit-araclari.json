@@ -176,7 +176,14 @@
    "baslik": "Araç yerine uzman ne zaman gerekir?",
    "paragraflar": [
     "Araçlar sorunları listeler; hangisinin trafiğinizi gerçekten etkilediğine, neyin bilinçli bir tercih olduğuna ve düzeltmenin hangi sırayla yapılacağına karar vermez. Ani trafik düşüşü, site taşıma ya da büyük katalog sorunları gibi durumlarda yorum, araçtan daha değerlidir.",
-    "Araç çıktılarınızı birlikte yorumlamak ya da kapsamlı bir teknik denetim yaptırmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Araç çıktılarınızı birlikte yorumlamak ya da kapsamlı bir teknik denetim yaptırmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araçlar",
+      "metin": "Denetim sırasında işinize yarayabilecek tarayıcıda çalışan ücretsiz araçlar: [robots.txt test aracı](/araclar/robots-txt-test), [SERP önizleme](/araclar/serp-onizleme), [hreflang oluşturucu](/araclar/hreflang-olusturucu) ve [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu)."
+     }
+    }
    ]
   }
  ],
@@ -346,7 +353,14 @@
    "baslik": "When do you need an expert rather than a tool?",
    "paragraflar": [
     "Tools list problems; they do not decide which ones actually hurt your traffic, which are deliberate choices or in what order to fix them. In a sudden traffic drop, a site migration or large catalogue issues, interpretation is worth more than the tool.",
-    "To interpret your tool outputs together or commission a full technical audit, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+    "To interpret your tool outputs together or commission a full technical audit, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tools",
+      "metin": "Free browser-based tools that help during an audit: the [robots.txt tester](/en/tools/robots-txt-tester), [SERP preview](/en/tools/serp-preview), [hreflang generator](/en/tools/hreflang-generator) and [301 redirect generator](/en/tools/redirect-generator)."
+     }
+    }
    ]
   }
  ],

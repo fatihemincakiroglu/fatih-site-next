@@ -13,6 +13,7 @@
 
 import nodemailer from 'nodemailer'
 import { rateLimit, getClientIp } from '../../lib/rate-limit'
+import { KONTROL_LISTELERI } from '../../lib/kontrol-listeleri'
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
@@ -32,7 +33,8 @@ export default async function handler(req, res) {
     return res.status(429).json({ error: 'too_many' })
   }
 
-  const { email, kaynak, website } = req.body || {}
+  const { email, kaynak, website, liste } = req.body || {}
+  const secilen = KONTROL_LISTELERI.find(l => l.id === liste) || KONTROL_LISTELERI[0]
 
   // Honeypot: gerçek kullanıcı bu alanı göremez; dolduran bottur.
   if (website) return res.status(200).json({ ok: true })
@@ -62,8 +64,8 @@ export default async function handler(req, res) {
       from: `"Web Sitesi — PDF Kaydı" <${process.env.GMAIL_USER}>`,
       to,
       replyTo: adres,
-      subject: `[PDF Kaydı] Teknik SEO Kontrol Listesi — ${adres}`,
-      text: `Yeni PDF kaydı\n\nE-posta: ${adres}\nSayfa: ${sayfa}\nTarih: ${new Date().toISOString()}`,
+      subject: `[PDF Kaydı] ${secilen.tr.baslik} — ${adres}`,
+      text: `Yeni PDF kaydı\n\nListe: ${secilen.tr.baslik}\nE-posta: ${adres}\nSayfa: ${sayfa}\nTarih: ${new Date().toISOString()}`,
     })
 
     return res.status(200).json({ ok: true })

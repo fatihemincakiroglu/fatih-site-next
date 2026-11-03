@@ -1,22 +1,25 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { listeBul } from '../lib/kontrol-listeleri'
 
 // Ücretsiz PDF formu. E-posta /api/lead üzerinden size iletilir (bkz.
 // pages/api/lead.js), ardından PDF indirmesi başlar. Kayıt başarısız olursa
 // ziyaretçi engellenmez: hata mesajıyla birlikte doğrudan indirme linki gösterilir.
-const PDF_URL = '/downloads/2025-teknik-seo-kontrol-listesi.pdf'
-
-export default function LeadMagnet({ isEn = false, compact = false }) {
+// liste: lib/kontrol-listeleri.js'teki liste id'si (varsayılan: teknik SEO denetimi).
+export default function LeadMagnet({ isEn = false, compact = false, liste = 'teknik-seo-denetim' }) {
   const router = useRouter()
+  const L = listeBul(liste)
+  const dil = isEn ? L.en : L.tr
+  const PDF_URL = dil.pdf
   const [email, setEmail] = useState('')
   const [website, setWebsite] = useState('') // honeypot
   const [status, setStatus] = useState('idle') // idle | sending | done | error | failed
 
   const t = isEn ? {
     badge: 'FREE PDF',
-    title: 'Technical SEO Checklist',
-    desc: '30 practical checkpoints across 5 categories — audit your own site in minutes. (The PDF is in Turkish.)',
+    title: dil.baslik,
+    desc: `${dil.aciklama} ${L.madde} checks in ${L.bolum} sections.`,
     placeholder: 'Your email address',
     btn: 'Send me the PDF →',
     sending: 'Sending...',
@@ -29,8 +32,8 @@ export default function LeadMagnet({ isEn = false, compact = false }) {
     privacyHref: '/en/privacy',
   } : {
     badge: 'ÜCRETSİZ PDF',
-    title: 'Teknik SEO Kontrol Listesi',
-    desc: '5 kategoride 30 pratik kontrol maddesiyle sitenizi birkaç dakikada denetleyin.',
+    title: dil.baslik,
+    desc: `${dil.aciklama} ${L.bolum} bölümde ${L.madde} madde.`,
     placeholder: 'E-posta adresiniz',
     btn: 'PDF\'i Gönder →',
     sending: 'Gönderiliyor...',
@@ -46,7 +49,7 @@ export default function LeadMagnet({ isEn = false, compact = false }) {
   const indir = () => {
     const link = document.createElement('a')
     link.href = PDF_URL
-    link.download = '2025-teknik-seo-kontrol-listesi.pdf'
+    link.download = PDF_URL.split('/').pop()
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -60,11 +63,11 @@ export default function LeadMagnet({ isEn = false, compact = false }) {
       const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, website, kaynak: router.asPath }),
+        body: JSON.stringify({ email, website, kaynak: router.asPath, liste: L.id }),
       })
       if (res.status === 400) { setStatus('error'); return }
       if (!res.ok) throw new Error('lead_failed')
-      if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { form: 'pdf_checklist' })
+      if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { form: 'pdf_checklist', liste: L.id })
       setStatus('done')
       indir()
     } catch {

@@ -164,7 +164,14 @@
       }
      }
     },
-    "Bu kurulum tamamlandığında organik trafiğin değerini parayla ifade etmek mümkün hâle gelir; hesaplama yöntemini [SEO ROI ölçümü](/blog/seo-roi-olcumu) yazısında adım adım anlattım. Mülkünüzün ölçüm kurgusunu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) hizmeti kapsamında birlikte bakabiliriz; organik verinin büyüme kararlarına nasıl bağlandığını [performans ve büyüme](/performans) sayfasında görebilir, uygun bir zaman için [randevu](/randevu) alabilirsiniz."
+    "Bu kurulum tamamlandığında organik trafiğin değerini parayla ifade etmek mümkün hâle gelir; hesaplama yöntemini [SEO ROI ölçümü](/blog/seo-roi-olcumu) yazısında adım adım anlattım. Mülkünüzün ölçüm kurgusunu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) hizmeti kapsamında birlikte bakabiliriz; organik verinin büyüme kararlarına nasıl bağlandığını [performans ve büyüme](/performans) sayfasında görebilir, uygun bir zaman için [randevu](/randevu) alabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Ücretsiz araç: UTM link oluşturucu",
+      "metin": "Sosyal medya, e-posta ve QR kod trafiğini organik aramadan ayırmak için kampanya linklerinizi [UTM link oluşturucu](/araclar/utm-olusturucu) ile tutarlı adlandırın; site içi linklerde UTM kullanmayın."
+     }
+    }
    ]
   }
  ],
@@ -322,7 +329,14 @@
       }
      }
     },
-    "Once this setup is in place you can express the value of organic traffic in money; I walk through the calculation in [measuring SEO ROI](/en/blog/seo-roi-olcumu). If you want your property's measurement audited, we can review it together as part of [SEO consulting](/en/seo-consulting); you can see how organic data feeds growth decisions on the [performance and growth](/en/performance-growth) page and [book a call](/en/book-a-call) at a time that suits you."
+    "Once this setup is in place you can express the value of organic traffic in money; I walk through the calculation in [measuring SEO ROI](/en/blog/seo-roi-olcumu). If you want your property's measurement audited, we can review it together as part of [SEO consulting](/en/seo-consulting); you can see how organic data feeds growth decisions on the [performance and growth](/en/performance-growth) page and [book a call](/en/book-a-call) at a time that suits you.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tool: UTM link builder",
+      "metin": "To keep social, email and QR traffic separate from organic search, name campaign links consistently with the [UTM link builder](/en/tools/utm-builder); never use UTMs on internal links."
+     }
+    }
    ]
   }
  ],
