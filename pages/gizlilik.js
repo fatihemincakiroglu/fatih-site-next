@@ -12,7 +12,7 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'Privacy Policy | Fatih Emin Çakıroğlu' : 'Gizlilik Politikası | Fatih Emin Çakıroğlu'}</title>
         <meta name="robots" content="noindex, follow" />
-        <meta name="description" content={isEn ? 'Privacy policy of the Fatih Emin Çakıroğlu website: what personal data is collected, cookies, analytics tools and your rights under data protection law.' : 'Fatih Emin Çakıroğlu web sitesinin gizlilik politikası: hangi kişisel verilerin toplandığı, çerezler, analiz araçları ve KVKK kapsamındaki haklarınız.'} />
+        <meta name="description" content={isEn ? 'Learn what personal data this website collects, how cookies and analytics tools are used, and what rights you have under data protection law.' : 'Sitede hangi kişisel verilerin toplandığını, çerez ve analiz araçlarının kullanımını ve KVKK kapsamındaki haklarınızı açıklayan gizlilik politikası.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/privacy' : 'https://fatihemincakiroglu.com/gizlilik'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>

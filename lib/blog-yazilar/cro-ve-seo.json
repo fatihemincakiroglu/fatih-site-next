@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "CRO ve SEO: Organik Trafiği Dönüşüme Çevirmek",
  "baslik_en": "CRO and SEO: Turning Organic Traffic into Conversions",
- "meta_baslik_tr": "CRO ve SEO: Organik Trafiği Dönüşüme Çevirmek",
- "meta_baslik_en": "CRO and SEO: Turning Organic Traffic into Conversions",
- "meta_desc_tr": "Arama niyeti ile sayfa uyumu, CTA, form, güven öğeleri ve Google'ın A/B testi rehberine uygun deneylerle organik trafiği dönüşüme çevirmenin yolları.",
- "meta_desc_en": "Turn organic traffic into conversions with intent-page fit, CTAs, forms, trust signals and A/B tests that follow Google's website testing guidance.",
+ "meta_baslik_tr": "CRO ve SEO ile Trafiği Dönüşüme Çevirmek",
+ "meta_baslik_en": "CRO and SEO for More Organic Conversions",
+ "meta_desc_tr": "Arama niyeti ile sayfa uyumu, CTA, form ve güven öğeleri, Google'ın A/B testi rehberine uygun deneylerle organik trafiğinizi dönüşüme çevirin.",
+ "meta_desc_en": "Turn organic traffic into conversions through intent and page fit, clear CTAs, forms, trust signals and A/B tests that follow Google's guidance.",
  "ozet_tr": "Niyet uyumu, CTA, form ve güven öğeleriyle organik trafiği dönüşüme çevirmek; A/B testini SEO'ya zarar vermeden yapmak.",
  "ozet_en": "Turning organic traffic into conversions with intent fit, CTAs, forms and trust, and A/B testing without hurting SEO.",
  "bolumler_tr": [
@@ -61,7 +61,7 @@
       ]
      }
     },
-    "Niyete göre içerik kurgusunun ayrıntısını [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım. Sağlık gibi güvenin belirleyici olduğu sektörlerde bu tablo [klinik SEO](/sektorler/klinik-seo) çalışmalarının da çıkış noktası."
+    "Niyete göre içerik kurgusunun ayrıntısını [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım. Sağlık gibi güvenin belirleyici olduğu sektörlerde bu tablo [klinik SEO](/klinik-seo) çalışmalarının da çıkış noktası."
    ]
   },
   {
@@ -145,8 +145,8 @@
   {
    "baslik": "Hız ve sayfa deneyimi dönüşümü nasıl etkiler?",
    "paragraflar": [
-    "Yavaş yüklenen ya da yüklenirken kayan bir sayfada en iyi CTA da işe yaramaz. Google'ın Core Web Vitals eşikleri LCP için 2,5 saniye, INP için 200 milisaniye ve CLS için 0,1'dir; ölçüm ve iyileştirme ayrıntılarını [Core Web Vitals rehberinde](/blog/core-web-vitals-2025) ele aldım.",
-    "Pop-up'lar da sık karşılaştığım bir sürtünme kaynağı. Sayfa açılır açılmaz içeriği kapatan geçiş reklamları hem kullanıcıyı rahatsız eder hem de Google'ın sayfa deneyimi dokümanında olumsuz örnek olarak anılır. Teklifinizi içeriğin akışı içinde ya da kullanıcı sayfada ilerledikten sonra göstermek daha dengeli bir yol. Teknik tarafın genel çerçevesi için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+    "Yavaş yüklenen ya da yüklenirken kayan bir sayfada en iyi CTA da işe yaramaz. Google'ın Core Web Vitals eşikleri LCP için 2,5 saniye, INP için 200 milisaniye ve CLS için 0,1'dir; ölçüm ve iyileştirme ayrıntılarını [Core Web Vitals rehberinde](/core-web-vitals-2025) ele aldım.",
+    "Pop-up'lar da sık karşılaştığım bir sürtünme kaynağı. Sayfa açılır açılmaz içeriği kapatan geçiş reklamları hem kullanıcıyı rahatsız eder hem de Google'ın sayfa deneyimi dokümanında olumsuz örnek olarak anılır. Teklifinizi içeriğin akışı içinde ya da kullanıcı sayfada ilerledikten sonra göstermek daha dengeli bir yol. Teknik tarafın genel çerçevesi için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
    ]
   },
   {
@@ -183,14 +183,14 @@
       "metin": "Google'ın dokümanına göre gereğinden uzun süren, özellikle bir varyantı kullanıcıların büyük kısmına gösteren deneyler arama motorlarını yanıltma girişimi olarak değerlendirilebilir."
      }
     },
-    "Yönlendirme türlerinin farkı için [301 ve 302 yönlendirme](/blog/301-302-yonlendirme) yazısına bakabilirsiniz."
+    "Yönlendirme türlerinin farkı için [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısına bakabilirsiniz."
    ]
   },
   {
    "baslik": "CRO çalışmasında hangi metriklere bakmalı?",
    "paragraflar": [
-    "Organik CRO'da tek bir orana bakmak yanıltıcı olabilir. Açılış sayfası bazında organik oturum, anahtar etkinlik oranı ve gelir ya da form sayısı birlikte izlenmeli; bir değişiklik dönüşüm oranını artırırken organik tıklamayı düşürüyorsa net etki negatif olabilir. GA4 kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında, raporlama çerçevesini [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım.",
-    "Reklam trafiğiyle aynı sayfaları paylaşıyorsanız iki kitlenin beklentisini ayrı düşünmek gerekir; bunu [Meta Ads ve SEO](/blog/meta-ads-ve-seo) yazısında ele aldım. Organik büyüme ile dönüşümü birlikte ele almak isteyen işletmelere [performans ve büyüme hizmeti](/performans) ve [SEO danışmanlığı](/seo-uzmani) kapsamında destek veriyorum; mevcut sayfalarınızı birlikte incelemek için [görüşme planlayabilirsiniz](/randevu)."
+    "Organik CRO'da tek bir orana bakmak yanıltıcı olabilir. Açılış sayfası bazında organik oturum, anahtar etkinlik oranı ve gelir ya da form sayısı birlikte izlenmeli; bir değişiklik dönüşüm oranını artırırken organik tıklamayı düşürüyorsa net etki negatif olabilir. GA4 kurulumunu [GA4'te organik trafik takibi](/ga4-seo-takibi) yazısında, raporlama çerçevesini [SEO raporlama rehberinde](/seo-raporlama) anlattım.",
+    "Reklam trafiğiyle aynı sayfaları paylaşıyorsanız iki kitlenin beklentisini ayrı düşünmek gerekir; bunu [Meta Ads ve SEO](/meta-ads-ve-seo) yazısında ele aldım. Organik büyüme ile dönüşümü birlikte ele almak isteyen işletmelere [performans ve büyüme hizmeti](/performans) ve [SEO danışmanlığı](/seo-uzmani) kapsamında destek veriyorum; mevcut sayfalarınızı birlikte incelemek için [görüşme planlayabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -271,7 +271,7 @@
       ]
      }
     },
-    "I cover intent-based content planning in the [content strategy guide](/en/guides/icerik-stratejisi). In trust-driven sectors such as healthcare, this table is also the starting point of [healthcare SEO](/en/industries/healthcare-seo) work."
+    "I cover intent-based content planning in the [content strategy guide](/en/icerik-stratejisi). In trust-driven sectors such as healthcare, this table is also the starting point of [healthcare SEO](/en/healthcare-seo) work."
    ]
   },
   {
@@ -355,8 +355,8 @@
   {
    "baslik": "How do speed and page experience affect conversion?",
    "paragraflar": [
-    "Even the best CTA fails on a page that loads slowly or shifts while loading. Google's Core Web Vitals thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS; I cover measurement and fixes in the [Core Web Vitals guide](/en/blog/core-web-vitals-2025).",
-    "Pop-ups are another frequent source of friction. Interstitials that cover content as soon as the page opens annoy users and are cited as a negative example in Google's page experience documentation. Showing your offer within the content flow, or after the user has scrolled, is more balanced. For the wider technical frame, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "Even the best CTA fails on a page that loads slowly or shifts while loading. Google's Core Web Vitals thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS; I cover measurement and fixes in the [Core Web Vitals guide](/en/core-web-vitals-2025).",
+    "Pop-ups are another frequent source of friction. Interstitials that cover content as soon as the page opens annoy users and are cited as a negative example in Google's page experience documentation. Showing your offer within the content flow, or after the user has scrolled, is more balanced. For the wider technical frame, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -393,14 +393,14 @@
       "metin": "According to Google's documentation, experiments that run unnecessarily long, especially those serving one variant to a large share of users, may be seen as an attempt to deceive search engines."
      }
     },
-    "For the difference between redirect types, see [301 vs 302 redirects](/en/blog/301-302-yonlendirme)."
+    "For the difference between redirect types, see [301 vs 302 redirects](/en/301-302-yonlendirme)."
    ]
   },
   {
    "baslik": "Which metrics matter in CRO work?",
    "paragraflar": [
-    "In organic CRO, a single rate can mislead. Track organic sessions, key event rate and revenue or form count per landing page together; if a change lifts conversion rate but cuts organic clicks, the net effect may be negative. I cover GA4 setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi) and the reporting frame in the [SEO reporting guide](/en/guides/seo-raporlama).",
-    "If ad traffic shares the same pages, think about both audiences separately, as I explain in [Meta Ads and SEO](/en/blog/meta-ads-ve-seo). I help businesses handle organic growth and conversion together through [performance and growth](/en/performance-growth) and [SEO consulting](/en/seo-consulting); to review your pages together, [book a call](/en/book-a-call)."
+    "In organic CRO, a single rate can mislead. Track organic sessions, key event rate and revenue or form count per landing page together; if a change lifts conversion rate but cuts organic clicks, the net effect may be negative. I cover GA4 setup in [organic traffic tracking in GA4](/en/ga4-seo-takibi) and the reporting frame in the [SEO reporting guide](/en/seo-raporlama).",
+    "If ad traffic shares the same pages, think about both audiences separately, as I explain in [Meta Ads and SEO](/en/meta-ads-ve-seo). I help businesses handle organic growth and conversion together through [performance and growth](/en/performance-growth) and [SEO consulting](/en/seo-consulting); to review your pages together, [book a call](/en/book-a-call)."
    ]
   }
  ],

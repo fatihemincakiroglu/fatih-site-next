@@ -41,14 +41,14 @@ export default function GoogleGuncellemeleri({ isEn = false, veri }) {
   const duz = (t) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '')
 
   const t = isEn ? {
-    title: 'Google Algorithm Updates Log (2023–2026) | Fatih Emin Çakıroğlu',
+    title: 'Google Algorithm Updates Log (2023–2026)',
     desc: 'Every confirmed Google core, spam and policy update and AI search milestone since 2023, with dates, official sources and what site owners should do.',
     h1: 'Google Updates Log',
     son: 'Last checked',
     hepsi: 'All', kaynak: 'Official source ↗', ne: 'What to do', devam: 'ongoing / end not announced',
   } : {
     title: 'Google Algoritma Güncellemeleri Günlüğü (2023–2026) | Fatih Emin Çakıroğlu',
-    desc: "2023'ten bu yana Google'ın çekirdek, spam ve politika güncellemeleri ile yapay zekâ arama gelişmeleri: tarihler, resmi kaynaklar ve yapılması gerekenler.",
+    desc: "2023'ten bu yana Google'ın çekirdek, spam ve politika güncellemeleri ile AI arama gelişmeleri. Tarihler, resmi kaynaklar ve yapılması gerekenler.",
     h1: 'Google Güncellemeleri Günlüğü',
     son: 'Son kontrol',
     hepsi: 'Tümü', kaynak: 'Resmi kaynak ↗', ne: 'Ne yapmalı?', devam: 'devam ediyor / bitiş duyurulmadı',

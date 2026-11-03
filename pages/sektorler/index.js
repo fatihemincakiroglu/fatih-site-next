@@ -12,13 +12,13 @@ export default function Sektorler(props) {
   const canonical = `${BASE}${isEn ? '/en/industries' : '/sektorler'}`
   const t = isEn ? {
     title: 'Industry SEO Services | Fatih Emin Çakıroğlu',
-    desc: 'SEO and GEO consulting tailored to clinics, law firms, e-commerce, hotels and tourism, and B2B manufacturers — each with its own search behaviour and rules.',
+    desc: 'SEO and GEO consulting tailored to clinics, law firms, e-commerce, hotels and tourism, and B2B manufacturers, each with its own search behaviour.',
     h1: 'SEO by Industry',
     giris: 'Every industry searches differently. A clinic deals with health advertising rules and patient trust; a manufacturer with long buying cycles and export markets. These pages explain how I approach SEO and GEO in each one.',
     kart: 'View service →',
   } : {
     title: 'Sektörel SEO Hizmetleri | Fatih Emin Çakıroğlu',
-    desc: 'Klinikler, hukuk büroları, e-ticaret, otel ve turizm ile B2B üreticiler için sektöre özel SEO ve GEO danışmanlığı: her sektörün arama davranışı ve kuralları farklı.',
+    desc: 'Klinik, hukuk bürosu, e-ticaret, otel ve turizm ile B2B üreticiler için sektöre özel SEO ve GEO danışmanlığı. Her sektörün arama davranışı farklı.',
     h1: 'Sektörlere Göre SEO',
     giris: 'Her sektör farklı arar. Bir klinik sağlık tanıtım kuralları ve hasta güveniyle, bir üretici uzun satın alma süreçleri ve ihracat pazarlarıyla uğraşır. Bu sayfalarda her sektörde SEO ve GEO çalışmasına nasıl yaklaştığımı anlatıyorum.',
     kart: 'Hizmeti incele →',
@@ -31,7 +31,7 @@ export default function Sektorler(props) {
       '@type': 'ItemList',
       itemListElement: SEKTOR_LISTE.map((s, i) => ({
         '@type': 'ListItem', position: i + 1, name: isEn ? s.en.ad : s.tr.ad,
-        url: `${BASE}${isEn ? `/en/industries/${s.slug_en}` : `/sektorler/${s.slug}`}`,
+        url: `${BASE}${isEn ? `/en/${s.slug_en}` : `/${s.slug}`}`,
       })),
     },
   }
@@ -58,7 +58,7 @@ export default function Sektorler(props) {
             {SEKTOR_LISTE.map(s => {
               const l = isEn ? s.en : s.tr
               return (
-                <Link key={s.slug} href={isEn ? `/en/industries/${s.slug_en}` : `/sektorler/${s.slug}`}
+                <Link key={s.slug} href={isEn ? `/en/${s.slug_en}` : `/${s.slug}`}
                   style={{ display: 'block', background: '#fff', border: '1px solid #eee', borderRadius: '14px', padding: '24px', textDecoration: 'none' }}>
                   <div aria-hidden="true" style={{ fontSize: '26px', marginBottom: '10px' }}>{s.ikon}</div>
                   <h2 style={{ fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '8px', lineHeight: 1.35 }}>{l.ad}</h2>

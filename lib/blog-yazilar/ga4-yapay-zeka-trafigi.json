@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "GA4'te ChatGPT ve Perplexity Trafiğini Ayrı Görmek",
  "baslik_en": "Seeing ChatGPT and Perplexity Traffic Separately in GA4",
- "meta_baslik_tr": "GA4'te ChatGPT ve Perplexity Trafiğini Ayırmak",
- "meta_baslik_en": "Separate ChatGPT and Perplexity Traffic in GA4",
- "meta_desc_tr": "GA4'ün AI Assistant kanalı, oturum kaynağı kırılımı ve özel kanal grubuyla ChatGPT ve Perplexity trafiğini ayrı görün. Örnek regex ve sınırlar.",
- "meta_desc_en": "See ChatGPT and Perplexity traffic separately with GA4's AI Assistant channel, session source breakdowns and custom channel groups. Regex and limits.",
+ "meta_baslik_tr": "GA4'te ChatGPT ve Perplexity Trafiği",
+ "meta_baslik_en": "ChatGPT and Perplexity Traffic in GA4",
+ "meta_desc_tr": "GA4'ün AI Assistant kanalı, oturum kaynağı kırılımı ve özel kanal grubuyla ChatGPT ve Perplexity trafiğini ayrı görün. Örnek regex ve sınırlar dahil.",
+ "meta_desc_en": "See ChatGPT and Perplexity traffic separately with GA4's AI Assistant channel, session source breakdowns and custom channel groups. Regex included.",
  "ozet_tr": "GA4'te yapay zekâ asistanlarından gelen ziyaretleri referrer bazlı ayırmanın pratik yolları ve verinin sınırları.",
  "ozet_en": "Practical, referrer-based ways to separate AI assistant visits in GA4, plus the limits of the data.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Müşterilerimden gelen en somut GEO sorusu şu: “ChatGPT ve Perplexity bize gerçekten ziyaretçi gönderiyor mu, gönderiyorsa bu ziyaretçiler ne yapıyor?” Google Analytics 4 (GA4) bu soruya kısmen cevap verebilir; yeter ki trafiğin GA4'e nasıl düştüğünü ve hangi kısmının hiç görünmediğini bilin.",
-    "Bu yazıda yalnızca yapay zekâ asistanı trafiğini ayırmaya odaklanıyorum. KPI seçimi, Search Console ile GA4 farkı ve aylık rapor şablonu gibi genel konuları [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım; burada onları tekrarlamayacağım. GA4 arayüzü sık değiştiği için menü yollarını kesin adımlar olarak değil, kavram olarak veriyorum.",
+    "Bu yazıda yalnızca yapay zekâ asistanı trafiğini ayırmaya odaklanıyorum. KPI seçimi, Search Console ile GA4 farkı ve aylık rapor şablonu gibi genel konuları [SEO raporlama rehberinde](/seo-raporlama) anlattım; burada onları tekrarlamayacağım. GA4 arayüzü sık değiştiği için menü yollarını kesin adımlar olarak değil, kavram olarak veriyorum.",
     {
      "alinti": "Kısa cevap: GA4, Mayıs 2026'dan beri tanıdığı yapay zekâ asistanlarından gelen ziyaretleri varsayılan kanal grubunda “AI Assistant” kanalına atıyor. ChatGPT ve Perplexity'yi birbirinden ayrı görmek için oturum kaynağı boyutuna bakmanız ya da her asistan için ayrı kanal tanımlayan özel bir kanal grubu oluşturmanız gerekir. Referrer taşımayan tıklamalar ise doğrudan trafik olarak görünür; bu yüzden rakamlar alt sınır olarak okunmalıdır."
     }
@@ -111,14 +111,14 @@
       "Asistanın markanızdan tıklama olmadan bahsettiği cevaplar GA4'te hiç görünmez."
      ]
     },
-    "Bu yüzden asistan trafiğini kesin bir toplam değil, alt sınır olarak yorumlayın. Google tarafındaki yapay zekâ özelliklerinin etkisini ayrıca [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısında ele aldım."
+    "Bu yüzden asistan trafiğini kesin bir toplam değil, alt sınır olarak yorumlayın. Google tarafındaki yapay zekâ özelliklerinin etkisini ayrıca [Google AI Mode Türkiye](/google-ai-mode-turkiye) yazısında ele aldım."
    ]
   },
   {
    "baslik": "Yapay zekâ trafiği verisini GEO kararlarına çevirmek",
    "paragraflar": [
     "Ayrıştırılmış veri asıl değerini, hangi içeriklerin asistanlarda kaynak gösterildiğini ortaya çıkardığında kazanır. Açılış sayfası listesinde öne çıkan sayfaların ortak özelliklerine bakın: net tanımlar mı, karşılaştırma tabloları mı, özgün veri mi? Bu özellikleri diğer önemli sayfalarınıza taşıyın.",
-    "Perplexity trafiği zayıfsa [Perplexity'de kaynak gösterilme](/blog/perplexity-kaynak-gosterilme) yazısındaki adımlar, ChatGPT tarafında tıklama olmadan bahsi ölçmek için de [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısındaki soru seti yöntemi işe yarar. Ölçümü strateji ile bağlamak için [GEO uygulama rehberi](/rehber/geo-uygulama) iyi bir çerçeve sunar.",
+    "Perplexity trafiği zayıfsa [Perplexity'de kaynak gösterilme](/perplexity-kaynak-gosterilme) yazısındaki adımlar, ChatGPT tarafında tıklama olmadan bahsi ölçmek için de [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısındaki soru seti yöntemi işe yarar. Ölçümü strateji ile bağlamak için [GEO uygulama rehberi](/geo-uygulama) iyi bir çerçeve sunar.",
     "Kendi mülkünüzde kanal grubunu kurmak veya mevcut kurgunuzu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) desteği için [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
    ]
   }
@@ -128,7 +128,7 @@
    "baslik": null,
    "paragraflar": [
     "The most concrete GEO question my clients ask is this: “Are ChatGPT and Perplexity actually sending us visitors, and if so, what do those visitors do?” Google Analytics 4 (GA4) can partly answer that, as long as you understand how the traffic lands in GA4 and which part of it never shows up at all.",
-    "This post focuses only on separating AI assistant traffic. General topics such as choosing KPIs, the difference between Search Console and GA4, and a monthly report template are covered in my [SEO reporting guide](/en/guides/seo-raporlama), so I will not repeat them here. Because the GA4 interface changes often, I describe menu locations as concepts rather than exact click paths.",
+    "This post focuses only on separating AI assistant traffic. General topics such as choosing KPIs, the difference between Search Console and GA4, and a monthly report template are covered in my [SEO reporting guide](/en/seo-raporlama), so I will not repeat them here. Because the GA4 interface changes often, I describe menu locations as concepts rather than exact click paths.",
     {
      "alinti": "Short answer: since May 2026, GA4 assigns visits from the AI assistants it recognizes to an “AI Assistant” channel in the default channel group. To see ChatGPT and Perplexity separately, look at the session source dimension or create a custom channel group with a separate channel for each assistant. Clicks without a referrer appear as direct traffic, so treat the numbers as a lower bound."
     }
@@ -224,14 +224,14 @@
       "Answers in which an assistant mentions your brand without a click never appear in GA4."
      ]
     },
-    "So read assistant traffic as a lower bound, not a precise total. I cover the impact of Google's own AI features separately in my post on [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye)."
+    "So read assistant traffic as a lower bound, not a precise total. I cover the impact of Google's own AI features separately in my post on [Google AI Mode in Turkey](/en/google-ai-mode-turkiye)."
    ]
   },
   {
    "baslik": "Turning AI traffic data into GEO decisions",
    "paragraflar": [
     "Separated data earns its real value when it reveals which content assistants cite. Look at what the top pages in your landing page list have in common: clear definitions, comparison tables, original data? Bring those qualities to your other important pages.",
-    "If Perplexity traffic is weak, the steps in my post on [getting cited in Perplexity](/en/blog/perplexity-kaynak-gosterilme) help; to measure clickless mentions in ChatGPT, use the question-set method from [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). For linking measurement to strategy, my [GEO implementation guide](/en/guides/geo-uygulama) offers a solid framework.",
+    "If Perplexity traffic is weak, the steps in my post on [getting cited in Perplexity](/en/perplexity-kaynak-gosterilme) help; to measure clickless mentions in ChatGPT, use the question-set method from [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu). For linking measurement to strategy, my [GEO implementation guide](/en/geo-uygulama) offers a solid framework.",
     "If you would like the channel group set up in your property or your current setup audited by an [SEO consultant](/en/seo-consulting), you can reach me through the [contact page](/en/contact)."
    ]
   }

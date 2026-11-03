@@ -7,10 +7,10 @@
  "h1_en": "Digital Presence and Compliance Consulting for Law Firms",
  "alt_tr": "Reklam yasağını esas alan danışmanlık: büro adıyla doğru bilgi, sağlam teknik altyapı ve yapay zekâ cevaplarında doğru büro kaydı.",
  "alt_en": "Consulting built around the advertising ban: accurate firm details, a sound technical site and correct firm information in AI answers.",
- "meta_baslik_tr": "Avukat SEO ve Dijital Uyum | Fatih Emin Çakıroğlu",
- "meta_baslik_en": "Law Firm SEO and Compliance | Fatih Emin Çakıroğlu",
- "meta_desc_tr": "Hukuk büroları için reklam yasağına uyumlu dijital görünürlük danışmanlığı: tutarlı büro bilgisi, işletme profili, teknik site sağlığı ve yapay zekâ.",
- "meta_desc_en": "Digital presence consulting for law firms in Turkey, built around the advertising ban: consistent firm details, Business Profile, site health and AI.",
+ "meta_baslik_tr": "Avukat SEO ve Dijital Uyum Danışmanlığı",
+ "meta_baslik_en": "Law Firm SEO and Compliance Consulting",
+ "meta_desc_tr": "Hukuk büroları için reklam yasağına uyumlu görünürlük danışmanlığı. Tutarlı büro bilgisi, işletme profili, site sağlığı ve yapay zekâ görünürlüğü.",
+ "meta_desc_en": "Digital presence consulting for law firms in Turkey, built around the advertising ban. Consistent firm details, Business Profile, site health and AI.",
  "ozet_tr": "Hukuk büroları için sıralama vaadi olmadan, reklam yasağına uyumlu doğru büro bilgisi ve teknik site sağlığı danışmanlığı.",
  "ozet_en": "Ad-ban-compliant consulting for law firms: accurate firm details and site health, with no ranking promises.",
  "hizmetler_tr": [
@@ -50,7 +50,7 @@
    "baslik": null,
    "paragraflar": [
     "Bir avukatı arayan kişi çoğu zaman önce bir tavsiye alır, sonra o adı Google'a ya da bir yapay zekâ asistanına yazar. Karşısına eski bir adres, dağılmış bir ortaklık ya da yanlış bir telefon çıkarsa tavsiye orada kaybolur. Hukuk büroları için dijital görünürlüğün asıl meselesi budur: büro adıyla arandığında doğru ve tutarlı bilginin bulunması.",
-    "Türkiye'de avukatlar reklam yasağına tabidir. Türkiye Barolar Birliği'nin Reklam Yasağı Yönetmeliği'nde 9 Ağustos 2024'te yapılan değişiklik, arama motorlarında üst sıralarda yer almaya yönelik anahtar sözcük, yönlendirici kod ve benzeri yöntemleri ve çevrimiçi mecralarda reklamı açıkça yasak kapsamında sayıyor. Bu yüzden bu sayfada anahtar kelimeyle sıralama, rakip büroları geçme ya da müvekkil kazandırma amaçlı bir SEO hizmeti sunmuyorum. Sunduğum şey, büronun dijital kimliğinin doğru, teknik olarak sağlam ve mevzuata uyumlu olması için danışmanlık. Çerçevenin ayrıntısını [avukatlar için SEO ve reklam yasağı](/blog/avukatlar-icin-seo) yazısında anlattım.",
+    "Türkiye'de avukatlar reklam yasağına tabidir. Türkiye Barolar Birliği'nin Reklam Yasağı Yönetmeliği'nde 9 Ağustos 2024'te yapılan değişiklik, arama motorlarında üst sıralarda yer almaya yönelik anahtar sözcük, yönlendirici kod ve benzeri yöntemleri ve çevrimiçi mecralarda reklamı açıkça yasak kapsamında sayıyor. Bu yüzden bu sayfada anahtar kelimeyle sıralama, rakip büroları geçme ya da müvekkil kazandırma amaçlı bir SEO hizmeti sunmuyorum. Sunduğum şey, büronun dijital kimliğinin doğru, teknik olarak sağlam ve mevzuata uyumlu olması için danışmanlık. Çerçevenin ayrıntısını [avukatlar için SEO ve reklam yasağı](/avukatlar-icin-seo) yazısında anlattım.",
     {
      "alinti": "Kısa cevap: Hukuk büroları için dijital görünürlük ve uyum danışmanlığım; büro adıyla aranınca doğru ve tutarlı bilginin bulunması, Google Business Profile kaydının doğruluğu, teknik site sağlığı, bilgilendirici içeriğin doğru yapılandırılması, yorumların mevzuata uygun yönetimi ve yapay zekâ asistanlarında büro bilgilerinin doğru görünmesi üzerine kuruludur. Anahtar kelimeyle sıralama, müvekkil kazanımı ya da çevrimiçi reklam vaat etmem; her adım baronuzun güncel düzenlemesine ve hukuki görüşe göre kontrol edilir."
     }
@@ -78,15 +78,15 @@
     {
      "alt": "Büro adıyla aramada doğru ve tutarlı bilgi (NAP)"
     },
-    "Büro adı, avukatların adı ve unvanı, adres, telefon ve baro sicil bilgisi sitede, harita kayıtlarında, dizinlerde ve baro kaydında aynı biçimde yer almalı. Bu tutarlılığı sağlıyor, ardından Organization, LegalService ve Person işaretlemeleriyle bilgiyi makinelerin okuyabileceği biçimde sunuyoruz; yöntemi [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) anlattım. Buradaki amaç sıralama hilesi değil, mevcut kimlik bilgisini doğru tanımlamak.",
+    "Büro adı, avukatların adı ve unvanı, adres, telefon ve baro sicil bilgisi sitede, harita kayıtlarında, dizinlerde ve baro kaydında aynı biçimde yer almalı. Bu tutarlılığı sağlıyor, ardından Organization, LegalService ve Person işaretlemeleriyle bilgiyi makinelerin okuyabileceği biçimde sunuyoruz; yöntemi [schema yapısal veri rehberinde](/schema-yapisal-veri) anlattım. Buradaki amaç sıralama hilesi değil, mevcut kimlik bilgisini doğru tanımlamak.",
     {
      "alt": "Google Business Profile doğruluğu"
     },
-    "Profilde gerçek büro adı, doğru kategori, adres ve çalışma saatleri yer almalı; açıklama ve gönderiler kimlik bilgisini aşan, iş elde etmeye yönelik bir metne dönüşmemeli. Kurulum ve doğrulamanın teknik tarafı [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında var.",
+    "Profilde gerçek büro adı, doğru kategori, adres ve çalışma saatleri yer almalı; açıklama ve gönderiler kimlik bilgisini aşan, iş elde etmeye yönelik bir metne dönüşmemeli. Kurulum ve doğrulamanın teknik tarafı [Google Business Profile optimizasyonu](/google-business-profile) yazısında var.",
     {
      "alt": "Teknik site sağlığı"
     },
-    "Hız, mobil uyum, erişilebilirlik ve güvenliği (HTTPS, form güvenliği, güncel yazılım) kontrol ediyoruz. Core Web Vitals için iyi eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms ve CLS ≤ 0,1. Bunlar tanıtım değil, kimlik ve iletişim bilgisi sunan bir sitenin temel kalitesi; kontrol listesi [teknik SEO temelleri](/rehber/teknik-seo) rehberinde.",
+    "Hız, mobil uyum, erişilebilirlik ve güvenliği (HTTPS, form güvenliği, güncel yazılım) kontrol ediyoruz. Core Web Vitals için iyi eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms ve CLS ≤ 0,1. Bunlar tanıtım değil, kimlik ve iletişim bilgisi sunan bir sitenin temel kalitesi; kontrol listesi [teknik SEO temelleri](/teknik-seo) rehberinde.",
     {
      "alt": "Bilgilendirici içeriğin doğru yapılandırılması"
     },
@@ -94,11 +94,11 @@
     {
      "alt": "Yorumların ve itibarın mevzuata uygun yönetimi"
     },
-    "Yorum toplama kampanyası önermem; yorumların tanıtım amacıyla kullanılmaması ve cevaplarda kişinin müvekkil olduğunu doğrulayan hiçbir bilginin yer almaması için yazılı cevap ilkeleri hazırlıyoruz. Ölçülü cevap örnekleri [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında.",
+    "Yorum toplama kampanyası önermem; yorumların tanıtım amacıyla kullanılmaması ve cevaplarda kişinin müvekkil olduğunu doğrulayan hiçbir bilginin yer almaması için yazılı cevap ilkeleri hazırlıyoruz. Ölçülü cevap örnekleri [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında.",
     {
      "alt": "Yapay zekâ asistanlarında doğru büro bilgisi"
     },
-    "“X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” gibi sorulardan bir test seti kurup asistanların cevaplarını düzenli kontrol ediyoruz; yanlış bilginin kaynağını bulup düzeltiyoruz. Yöntem [GEO uygulama rehberinde](/rehber/geo-uygulama) anlatılıyor.",
+    "“X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” gibi sorulardan bir test seti kurup asistanların cevaplarını düzenli kontrol ediyoruz; yanlış bilginin kaynağını bulup düzeltiyoruz. Yöntem [GEO uygulama rehberinde](/geo-uygulama) anlatılıyor.",
     {
      "alt": "Her adımda uyum kontrolü"
     },
@@ -215,7 +215,7 @@
  "sss_tr": [
   {
    "s": "Hukuk bürosu dijital uyum danışmanlığının ücreti nasıl belirleniyor?",
-   "c": "Ücret; büronun büyüklüğüne, sitenin teknik durumuna ve kapsamın genişliğine göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+   "c": "Ücret; büronun büyüklüğüne, sitenin teknik durumuna ve kapsamın genişliğine göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
   },
   {
    "s": "Anahtar kelime çalışması yapılabilir mi?",
@@ -235,7 +235,7 @@
   },
   {
    "s": "Büro sitesinde makale ya da blog yayınlamak mümkün mü?",
-   "c": "Düzenleme mesleki yayını tümüyle kapatmıyor, ancak iş elde etmeye yönelik genel ve soyut içerik paylaşımını sınırlıyor; tek cümlelik bir cevabı yok. Başlamadan önce yazılı baro görüşü ya da hukuki değerlendirme almanızı öneririm. Konuyu [avukatların içerik yayınlaması](/blog/avukatlar-icin-seo) başlığı altında ayrıntılı ele aldım."
+   "c": "Düzenleme mesleki yayını tümüyle kapatmıyor, ancak iş elde etmeye yönelik genel ve soyut içerik paylaşımını sınırlıyor; tek cümlelik bir cevabı yok. Başlamadan önce yazılı baro görüşü ya da hukuki değerlendirme almanızı öneririm. Konuyu [avukatların içerik yayınlaması](/avukatlar-icin-seo) başlığı altında ayrıntılı ele aldım."
   },
   {
    "s": "Bir danışmanla bu kapsamda çalışmak reklam yasağına aykırı mı?",
@@ -247,7 +247,7 @@
    "baslik": null,
    "paragraflar": [
     "People looking for a lawyer usually get a recommendation, then type the name into Google or an AI assistant. An old address or a wrong phone number ends it there. For law firms, the real issue is accurate, consistent information when someone searches by name.",
-    "Lawyers in Turkey work under an advertising ban. The 9 August 2024 amendment to the Union of Turkish Bar Associations' Advertising Ban Regulation explicitly brings keywords, redirecting code and similar methods aimed at ranking high in search engines, as well as online advertising, within the ban. So I do not offer SEO aimed at keyword rankings, outranking competitors or winning clients; I offer consulting that keeps the firm's online identity accurate, sound and compliant. The framework is covered in [SEO for lawyers and the advertising ban](/en/blog/avukatlar-icin-seo).",
+    "Lawyers in Turkey work under an advertising ban. The 9 August 2024 amendment to the Union of Turkish Bar Associations' Advertising Ban Regulation explicitly brings keywords, redirecting code and similar methods aimed at ranking high in search engines, as well as online advertising, within the ban. So I do not offer SEO aimed at keyword rankings, outranking competitors or winning clients; I offer consulting that keeps the firm's online identity accurate, sound and compliant. The framework is covered in [SEO for lawyers and the advertising ban](/en/avukatlar-icin-seo).",
     {
      "alinti": "Short answer: My consulting for law firms covers accurate details in name searches, an accurate Google Business Profile, technical site health, well-structured informational content, compliant review handling and correct firm details in AI assistants. I promise no rankings, clients or online ads; every step is checked against your bar's current rules and legal advice."
     }
@@ -275,15 +275,15 @@
     {
      "alt": "Accurate, consistent details in name searches (NAP)"
     },
-    "Firm and lawyer names, titles, address, phone and bar registration should match across the site, map listings, directories and bar records. We fix that, then add Organization, LegalService and Person markup, as described in the [schema and structured data guide](/en/guides/schema-yapisal-veri). The aim is describing identity details correctly, not a ranking trick.",
+    "Firm and lawyer names, titles, address, phone and bar registration should match across the site, map listings, directories and bar records. We fix that, then add Organization, LegalService and Person markup, as described in the [schema and structured data guide](/en/schema-yapisal-veri). The aim is describing identity details correctly, not a ranking trick.",
     {
      "alt": "Google Business Profile accuracy"
     },
-    "The profile needs the real name, right category, address and hours, with no description or posts aimed at bringing in work. Setup is covered in [Google Business Profile optimization](/en/blog/google-business-profile).",
+    "The profile needs the real name, right category, address and hours, with no description or posts aimed at bringing in work. Setup is covered in [Google Business Profile optimization](/en/google-business-profile).",
     {
      "alt": "Technical site health"
     },
-    "We check speed, mobile usability, accessibility and security (HTTPS, secure forms, updated software); good Core Web Vitals thresholds are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. That is basic quality, not promotion. See [technical SEO fundamentals](/en/guides/teknik-seo).",
+    "We check speed, mobile usability, accessibility and security (HTTPS, secure forms, updated software); good Core Web Vitals thresholds are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. That is basic quality, not promotion. See [technical SEO fundamentals](/en/teknik-seo).",
     {
      "alt": "Properly structured informational content"
     },
@@ -291,11 +291,11 @@
     {
      "alt": "Compliant handling of reviews and reputation"
     },
-    "I do not recommend review campaigns. We write reply guidelines so reviews are not used promotionally and no reply confirms someone is a client; see [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap).",
+    "I do not recommend review campaigns. We write reply guidelines so reviews are not used promotionally and no reply confirms someone is a client; see [how to respond to Google reviews](/en/google-yorumlarina-cevap).",
     {
      "alt": "Correct firm details in AI assistants"
     },
-    "We test questions such as “Where is X Law Firm?” regularly and fix the source of wrong answers, using the [GEO implementation guide](/en/guides/geo-uygulama) method.",
+    "We test questions such as “Where is X Law Firm?” regularly and fix the source of wrong answers, using the [GEO implementation guide](/en/geo-uygulama) method.",
     {
      "alt": "A compliance check at every step"
     },
@@ -412,7 +412,7 @@
  "sss_en": [
   {
    "s": "How is the fee for law firm compliance consulting set?",
-   "c": "It depends on the firm's size, the site's technical condition and the breadth of scope, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+   "c": "It depends on the firm's size, the site's technical condition and the breadth of scope, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/seo-ajansi-fiyatlari)."
   },
   {
    "s": "Can you do keyword work for a law firm?",
@@ -432,7 +432,7 @@
   },
   {
    "s": "Can a law firm publish articles or a blog on its site?",
-   "c": "The rules restrict general, abstract content shared to obtain work; get a written opinion from your bar first. I cover this in detail under [lawyers publishing content](/en/blog/avukatlar-icin-seo)."
+   "c": "The rules restrict general, abstract content shared to obtain work; get a written opinion from your bar first. I cover this in detail under [lawyers publishing content](/en/avukatlar-icin-seo)."
   },
   {
    "s": "Does working with a consultant on this scope breach the advertising ban?",

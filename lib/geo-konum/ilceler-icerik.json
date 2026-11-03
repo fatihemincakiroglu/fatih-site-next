@@ -1,7 +1,7 @@
 {
  "adalar": {
   "alt": "Ada otelleri, pansiyonlar, balık restoranları ve kiralama noktaları yapay zekâ asistanlarının gezi önerilerine nasıl girer?",
-  "desc": "Adalar GEO uzmanı: Büyükada ve Heybeliada işletmelerinin ChatGPT, Gemini ve Google yapay zekâ özetlerindeki gezi önerilerinde doğru anılması.",
+  "desc": "Büyükada ve Heybeliada'daki pansiyon, restoran ve kiralama noktalarının ChatGPT, Gemini ve Google AI özetlerindeki gezi önerilerinde yer alması için.",
   "giris": [
    "Vapura binmeden önce telefonuna \"Büyükada'da bir günü nasıl geçirmeliyim, öğle yemeği için nereye oturmalıyım?\" diye yazan ziyaretçi, karşısında artık on mavi bağlantı değil, birkaç paragraflık bir cevap görüyor. Bu cevapta adı geçen pansiyon, restoran ya da kiralama noktası o günün planına giriyor; geçmeyenler ise iskelede tesadüfen fark edilmeyi bekliyor. Adalar'daki işletmeler için yapay zekâ görünürlüğü tam olarak bu ilk plan anına yerleşebilmek demek.",
    "Adaların durumu biraz özel, çünkü ziyaretçinin neredeyse tamamı karadan geliyor ve gelmeden önce soruyor. Soru da çoğunlukla tek bir işletmeye değil, bütün bir güne dair: hangi adaya gidilmeli, kaçta dönülmeli, çocukla nerede yemek yenmeli. Asistan bu soruyu cevaplarken gezi bloglarından, yorum platformlarından ve işletmelerin kendi sitelerinden derlediği izlenime yaslanıyor gibi görünüyor. O izlenimin içinde sizin hakkınızda net ve tutarlı bir bilgi yoksa, önerilecek başka bir isim mutlaka bulunuyor.",
@@ -82,7 +82,7 @@
     "**İlk 2 hafta:** Türkçe ve İngilizce soru setinin çıkarılması, her sorunun birkaç asistana sorulup cevapların, anılan markaların ve gösterilen kaynakların tabloya işlenmesi.",
     "**Kış ayları:** İşletme adı, adres, kategori ve sezon saatlerinin site, harita kaydı, rezervasyon platformları ve sosyal hesaplarda tek biçime getirilmesi.",
     "**Şubat ve mart:** Ada ve hizmet bazlı soru-cevap bölümleri, karşılaştırma tabloları ve ücreti belirleyen etkenleri anlatan sayfaların yazılması; yazar ve tarih bilgisinin eklenmesi.",
-    "**Nisan:** Yabancı dildeki sayfaların yayına alınması, Hotel veya Restaurant şemasının kontrolü ve [llms.txt](/blog/llms-txt-rehberi) gibi yardımcı dosyaların gerekip gerekmediğinin değerlendirilmesi.",
+    "**Nisan:** Yabancı dildeki sayfaların yayına alınması, Hotel veya Restaurant şemasının kontrolü ve [llms.txt](/llms-txt-rehberi) gibi yardımcı dosyaların gerekip gerekmediğinin değerlendirilmesi.",
     "**Mayıs'tan eylüle:** Yorumlarda hangi niteliklerin geçtiğinin izlenmesi, gezi yazarları ve yerel yayınlarla temas, soru setinin aylık olarak tekrar sorulması.",
     "**Ekim ve kasım:** Sezon değerlendirmesi; GA4'te yapay zekâ kaynaklı ziyaretlerin ayrı bir kanal olarak incelenmesi ve kış temalı sorular için içerik planı."
    ]
@@ -137,7 +137,7 @@
  },
  "arnavutkoy": {
   "alt": "Havalimanı lojistiği, Hadımköy tedarikçileri ve Terkos kıyısı mekânları yapay zekâ cevaplarında nasıl yer bulur?",
-  "desc": "Arnavutköy GEO uzmanı: havalimanı lojistiği, Hadımköy üreticileri ve Durusu mekânlarının ChatGPT, Gemini ve AI Overviews cevaplarında anılması için.",
+  "desc": "Havalimanı lojistiği, Hadımköy üreticileri ve Durusu mekânlarının ChatGPT, Gemini ve Google AI özetlerinde anılması için Arnavutköy GEO yaklaşımı.",
   "giris": [
    "Havalimanına yakın bir depo arayan bir e-ticaret yöneticisi artık arama kutusuna yalnızca iki kelime yazmıyor; bir sohbet asistanına \"İstanbul Havalimanı'na yakın, gümrüklü alanı olan ve küçük hacimli ithalat için esnek sözleşme yapan depolar hangileri?\" diye soruyor. Gelen cevapta birkaç firma adı geçiyor ve kullanıcı çoğu zaman o listenin dışına çıkmıyor. Arnavutköy'deki bir işletme için GEO, bu kısa listeye gerekçesiyle birlikte girebilmek demek.",
    "Bu ilçede mesele yalnızca görünmek değil, doğru anlatılmak. Bir asistanın Hadımköy'deki metal işleme firmasını mobilya üreticisi diye tarif ettiğini, Durusu'daki bir kahvaltı mekânını kapanmış gibi gösterdiğini ya da havalimanı transfer firmasının adını başka bir şirketle karıştırdığını görmek şaşırtıcı değil. Bu hatalar genellikle internetteki dağınık, eski ya da birbiriyle çelişen bilgilerden doğuyor; düzeltilmesi de o bilgileri toparlamaktan geçiyor.",
@@ -255,7 +255,7 @@
    },
    {
     "s": "Karaburun'daki pansiyonumuz kışın kapalı; asistanlar bunu nereden öğrenir?",
-    "c": "Bu bilginin doğrudan sizden alındığını varsaymamak gerekir; asistanlar genellikle harita profili, siteniz ve hakkınızda yazılmış güncel sayfalar üzerinden bir kanaate varıyor. Bu yüzden kapanış ve açılış tarihlerini profilde, sitede ve rezervasyon platformlarında aynı anda güncellemek gerekiyor. Profil ayarları için [Google Business Profile yazısı](/blog/google-business-profile) yol gösterebilir."
+    "c": "Bu bilginin doğrudan sizden alındığını varsaymamak gerekir; asistanlar genellikle harita profili, siteniz ve hakkınızda yazılmış güncel sayfalar üzerinden bir kanaate varıyor. Bu yüzden kapanış ve açılış tarihlerini profilde, sitede ve rezervasyon platformlarında aynı anda güncellemek gerekiyor. Profil ayarları için [Google Business Profile yazısı](/google-business-profile) yol gösterebilir."
    },
    {
     "s": "Yapay zekâ cevabında firmamız hakkında yanlış bilgi var; düzeltebilir miyiz?",
@@ -273,7 +273,7 @@
  },
  "atasehir": {
   "alt": "Plaza ofislerindeki danışmanlık ve mali müşavirlik firmalarının yapay zekâ asistanlarında tedarikçi olarak önerilmesi, hukuk bürolarının doğru anılması için çalışma.",
-  "desc": "Ataşehir GEO uzmanı: finans merkezi çevresindeki hukuk, mali müşavirlik ve kurumsal hizmet firmalarının yapay zekâ cevaplarında doğru anılması.",
+  "desc": "Ataşehir finans merkezi çevresindeki hukuk, mali müşavirlik ve kurumsal hizmet firmalarını ChatGPT ve Gemini cevaplarında doğru anlatan GEO çalışması.",
   "giris": [
    "Bir şirketin finans müdürü yeni bir bağımsız denetim firması ararken eskisi gibi önce arama kutusuna iki kelime yazıp sonuçları tek tek açmıyor olabilir. Giderek daha sık rastladığım tablo şu: \"Anadolu Yakası'nda, orta ölçekli üretim şirketleriyle çalışmış, İngilizce raporlama yapabilen denetim firmaları hangileri?\" gibi uzun bir soru bir asistana yöneltiliyor ve gelen kısa liste, görüşme yapılacak firmaları belirliyor. Ataşehir'deki profesyonel hizmet firmaları için GEO, o kısa listeye girebilmekle ilgili.",
    "Ataşehir'in plaza bölgesi bu açıdan ilginç bir sınav alanı. Batı Ataşehir'de ve finans merkezi çevresinde aynı hizmeti veren onlarca firma birkaç sokak arayla çalışıyor; sitelerinin çoğu birbirine benzeyen kurumsal dille yazılmış. Bir asistan bu firmalardan birini önerirken neyi ayırt edici bulacak? Genellikle cevap, firmanın uzmanlık alanını ne kadar net tanımladığı, ekibin kim olduğu ve firmanın başka kaynaklarda hangi bağlamda anıldığıyla ilgili görünüyor.",
@@ -354,7 +354,7 @@
     "**İlk 2 hafta:** Satış ve müşteri ilişkileri ekibiyle görüşülerek gerçek soru setinin çıkarılması; soruların birkaç asistana sorulup cevapların, anılan rakiplerin ve gösterilen kaynakların kaydedilmesi.",
     "**3. ve 4. hafta:** Unvan, marka adı, adres ve kategori bilgisinin site, harita profili, sektör dizinleri ve profesyonel ağ profillerinde eşitlenmesi.",
     "**2. ay:** Her hizmet için tek cümlelik net tanımla başlayan sayfalar, karşılaştırma tabloları ve soru-cevap bölümleri; Organization ve Person şemasının kurulması.",
-    "**3. ay:** Ekip ve uzman profillerinin yazar bilgisiyle ilişkilendirilmesi, içeriklere güncelleme tarihi eklenmesi, [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısındaki ilkelere göre marka tanımının gözden geçirilmesi.",
+    "**3. ay:** Ekip ve uzman profillerinin yazar bilgisiyle ilişkilendirilmesi, içeriklere güncelleme tarihi eklenmesi, [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısındaki ilkelere göre marka tanımının gözden geçirilmesi.",
     "**4. ay:** Sektör yayınları, etkinlik listeleri ve meslek kuruluşu dizinlerinde doğru marka bahsi için iletişim planı.",
     "**Sonraki aylar:** Soru setinin aylık tekrarı, GA4'te yapay zekâ kaynaklı oturumların ayrı segmentte izlenmesi ve teklif formlarına \"bizi nereden duydunuz\" alanının eklenmesi."
    ]
@@ -403,13 +403,13 @@
    },
    {
     "s": "Plazadaki firmamız için GEO desteği verecek kişiyi ya da ajansı hangi ölçütlerle değerlendirmeliyiz?",
-    "c": "Ölçüm yöntemini açıkça anlatması, kesin sonuç vaat etmemesi ve çalışmayı firmanızın gerçek soru setine dayandırması önemli. Bu konudaki ölçütleri [GEO ajansı nasıl seçilir](/blog/geo-ajansi-nasil-secilir) yazısında ayrıntılı olarak topladım."
+    "c": "Ölçüm yöntemini açıkça anlatması, kesin sonuç vaat etmemesi ve çalışmayı firmanızın gerçek soru setine dayandırması önemli. Bu konudaki ölçütleri [GEO ajansı nasıl seçilir](/geo-ajansi-nasil-secilir) yazısında ayrıntılı olarak topladım."
    }
   ]
  },
  "avcilar": {
   "alt": "Liman acenteleri, zemin ve dönüşüm firmaları, kampüs çevresi esnafı için Avcılar'da yapay zekâ asistanlarında güvenilir görünmek.",
-  "desc": "Avcılar GEO uzmanı: Ambarlı liman hizmetleri, kentsel dönüşüm firmaları ve kampüs çevresi işletmelerinin yapay zekâ cevaplarında doğru anılması için çalışma.",
+  "desc": "Ambarlı liman hizmetleri, kentsel dönüşüm firmaları ve kampüs çevresi işletmeler yapay zekâ cevaplarında doğru anılsın diye Avcılar GEO çalışması.",
   "giris": [
    "Avcılar'da oturan biri binasının depreme dayanıklılığını merak ettiğinde, eskisi gibi yalnızca bir firma adı aramıyor. Telefonundaki asistana \"Gümüşpala'da eski bir apartmanda oturuyorum, zemin etüdü ve bina performans analizi için kime başvurmalıyım, süreç nasıl işliyor?\" diye yazıyor. Gelen cevap hem süreci anlatıyor hem de bazen birkaç firmayı örnek veriyor. O örneklerden biri olmak, yalnızca reklamla ya da arama sıralamasıyla açıklanabilecek bir şey değil.",
    "Yapay zekâ asistanları bir işletmeyi önerirken onu tanıdıkları kaynaklardan bir portre çıkarıyor: ne iş yaptığı, nerede olduğu, kimlere hizmet verdiği, insanların onun hakkında ne söylediği. Avcılar gibi liman, üniversite ve yoğun konut dokusunu bir arada barındıran bir ilçede bu portrenin net olması zor; aynı caddede farklı kitlelere hitap eden onlarca işletme yan yana duruyor. Portresi bulanık olan firma, sorunun tam karşılığı olsa bile cevapta yer bulamayabiliyor.",
@@ -531,7 +531,7 @@
    },
    {
     "s": "llms.txt dosyası Avcılar'daki küçük bir işletme için gerekli mi?",
-    "c": "llms.txt, sitenizin önemli sayfalarını yapay zekâ sistemleri için özetleyen bir dosya önerisi; tüm asistanların bunu kullandığına dair kesin bir bilgi yok. Küçük bir işletme için öncelik genellikle profil ve site içeriğinin netliği. Yine de hazırlaması zahmetsiz olduğu için ayrıntıları [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "c": "llms.txt, sitenizin önemli sayfalarını yapay zekâ sistemleri için özetleyen bir dosya önerisi; tüm asistanların bunu kullandığına dair kesin bir bilgi yok. Küçük bir işletme için öncelik genellikle profil ve site içeriğinin netliği. Yine de hazırlaması zahmetsiz olduğu için ayrıntıları [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    },
    {
     "s": "Firuzköy'de yeni açtığımız işletme asistanlarda hiç görünmüyor; ne kadar beklemeliyiz?",
@@ -541,7 +541,7 @@
  },
  "bagcilar": {
   "alt": "Fason atölyeler, Mahmutbey toptancıları ve Güneşli matbaaları yabancı alıcının asistana sorduğu soruda nasıl karşılık bulur?",
-  "desc": "Bağcılar GEO uzmanı: fason tekstil, matbaa ve toptan ticaret firmalarının ChatGPT, Perplexity ve Gemini cevaplarında tedarikçi olarak anılması.",
+  "desc": "Bağcılar'daki fason tekstil, matbaa ve toptan ticaret firmalarının ChatGPT, Perplexity ve Gemini cevaplarında tedarikçi olarak anılması için GEO.",
   "giris": [
    "Hollanda'da küçük bir giyim markası kuran biri, ilk koleksiyonu için üretici ararken artık fuar kataloğu karıştırmakla başlamıyor. Bir asistana İngilizce olarak \"İstanbul'da düşük adetli sipariş kabul eden, organik pamukla çalışan ve numune süreci hızlı olan fason tişört atölyeleri hangileri?\" diye soruyor. Bağcılar'ın konut aralarına yayılmış yüzlerce atölyesinden hangisinin adının bu cevapta geçeceği, büyük ölçüde o atölyenin internette nasıl bir iz bıraktığına bağlı.",
    "Bağcılar'da çalıştığım işletmelerin önemli bir kısmı yıllarca tanıdık çevresi ve aracılar üzerinden iş bulmuş. Bu düzen hâlâ işliyor, ama araştırmanın ilk adımı sohbet asistanlarına kaydıkça bir boşluk doğuyor: atölye gerçekten o işi yapıyor, fakat hiçbir kaynakta bunu anlatan net bir cümle yok. Asistan da elinde dayanak olmayan bir firmayı önermiyor.",
@@ -637,7 +637,7 @@
     "Çarşı esnafının olumsuz yorumlara hiç cevap vermemesi. Cevapsız şikâyetler, işletme hakkında oluşan genel portrenin tek taraflı kalmasına neden oluyor."
    ]
   },
-  "kapanis": "Bağcılar'da üretim yapan ya da hizmet veren bir işletmenin asistanlarda anılması, ne yaptığını açık ve tutarlı biçimde anlatmasıyla başlıyor. Genel yaklaşımımı [GEO danışmanlığı](/geo-uzmani) sayfasında, klasik arama tarafındaki çalışmayı [Bağcılar SEO sayfasında](/bagcilar-seo-uzmani) inceleyebilirsiniz. Markaların sohbet asistanlarında nasıl göründüğüne dair daha geniş bir bakış için [ChatGPT'de marka görünürlüğü yazısı](/blog/chatgpt-marka-gorunurlugu) iyi bir başlangıç; firmanız için konuşmak isterseniz [randevu](/randevu) alabilirsiniz.",
+  "kapanis": "Bağcılar'da üretim yapan ya da hizmet veren bir işletmenin asistanlarda anılması, ne yaptığını açık ve tutarlı biçimde anlatmasıyla başlıyor. Genel yaklaşımımı [GEO danışmanlığı](/geo-uzmani) sayfasında, klasik arama tarafındaki çalışmayı [Bağcılar SEO sayfasında](/bagcilar-seo-uzmani) inceleyebilirsiniz. Markaların sohbet asistanlarında nasıl göründüğüne dair daha geniş bir bakış için [ChatGPT'de marka görünürlüğü yazısı](/chatgpt-marka-gorunurlugu) iyi bir başlangıç; firmanız için konuşmak isterseniz [randevu](/randevu) alabilirsiniz.",
   "komsular": [
    "esenler",
    "gungoren",
@@ -667,13 +667,13 @@
    },
    {
     "s": "Tedarikçi bulmamızı vaat eden bir GEO danışmanına ne sormalıyız?",
-    "c": "Belirli bir asistanda kesin anılma sözü verenlere temkinli yaklaşmak gerekiyor, çünkü asistan cevapları kimsenin tam olarak kontrol edemediği bir süreçle oluşuyor. Ölçüm yöntemini, hangi soruların takip edileceğini ve raporun neleri içereceğini önceden sormak faydalı. Bu konudaki önerilerimi [GEO ajansı seçimi yazısında](/blog/geo-ajansi-nasil-secilir) topladım."
+    "c": "Belirli bir asistanda kesin anılma sözü verenlere temkinli yaklaşmak gerekiyor, çünkü asistan cevapları kimsenin tam olarak kontrol edemediği bir süreçle oluşuyor. Ölçüm yöntemini, hangi soruların takip edileceğini ve raporun neleri içereceğini önceden sormak faydalı. Bu konudaki önerilerimi [GEO ajansı seçimi yazısında](/geo-ajansi-nasil-secilir) topladım."
    }
   ]
  },
  "bahcelievler": {
   "alt": "Kuyumcukent üreticileri, Yenibosna otelleri ve Şirinevler çarşısı yapay zekâ asistanlarına sorulan sorularda nasıl öne çıkar?",
-  "desc": "Bahçelievler GEO uzmanı: Kuyumcukent, Yenibosna otelleri ve klinikler için ChatGPT, Gemini ve Google AI Overviews cevaplarında doğru tanınma çalışması.",
+  "desc": "Kuyumcukent firmaları, Yenibosna otelleri ve klinikler ChatGPT, Gemini ve Google AI özetlerinde doğru tanınsın diye Bahçelievler'e özel GEO çalışması.",
   "giris": [
    "Dubai'de bir mücevher mağazası işleten biri yeni bir tedarikçi ararken, bir yapay zekâ asistanına Arapça ya da İngilizce olarak İstanbul'da hafif gram ağırlıklı, el işçiliği görünümlü bilezik üreten atölyeleri soruyor. Cevapta Kuyumcukent'in adı büyük ihtimalle geçiyor, çünkü yer olarak tanınıyor. Asıl soru, Kuyumcukent'teki onlarca üreticiden hangisinin ismen anılacağı. Bahçelievler'de GEO dediğimde ilk anlattığım şey bu fark: bölgenin bilinmesi ile firmanın bilinmesi aynı şey değil.",
    "Aynı durum ilçenin başka köşelerinde de geçerli. Yenibosna'daki bir otel, asistanın \"Atatürk Havalimanı tarafında fuar için uygun otel\" cevabında bölgenin adıyla birlikte anılabiliyor ama kendi adı listede olmayabiliyor. Adnan Kahveci Caddesi'ndeki bir göz kliniği, sorulan tedaviyi sunsa bile cevapta yer almayabiliyor. Bu boşlukların çoğu, işletmenin kendini anlatma biçiminden ve başka sitelerin onu nasıl andığından kaynaklanıyor.",
@@ -791,7 +791,7 @@
    },
    {
     "s": "Şirinevler'de küçük bir dükkânımız var; yapay zekâ görünürlüğü bizi ilgilendirir mi?",
-    "c": "Kullanıcılar telefondaki asistanlara yakınlarındaki açık dükkânı da soruyor, bu yüzden ilgilendirir. Sizin için en önemli adımlar doğru harita profili, güncel saatler ve müşterilerin deneyimlerini anlattığı yorumlar. Profil ayarlarını [Google Business Profile yazısında](/blog/google-business-profile) ayrıntılı anlattım."
+    "c": "Kullanıcılar telefondaki asistanlara yakınlarındaki açık dükkânı da soruyor, bu yüzden ilgilendirir. Sizin için en önemli adımlar doğru harita profili, güncel saatler ve müşterilerin deneyimlerini anlattığı yorumlar. Profil ayarlarını [Google Business Profile yazısında](/google-business-profile) ayrıntılı anlattım."
    },
    {
     "s": "Yapay zekâ cevaplarında anılmak satışa dönüşüyor mu?",
@@ -805,7 +805,7 @@
  },
  "bakirkoy": {
   "alt": "Hukuk büroları, Yeşilköy otelleri, Ataköy marinası ve Florya sahili için yapay zekâ asistanlarında güven veren bir tanınırlık.",
-  "desc": "Bakırköy GEO uzmanı: hukuk büroları, Yeşilköy otelleri, muayenehaneler ve sahil mekânlarının yapay zekâ cevaplarında doğru ve güvenilir anılması için çalışma.",
+  "desc": "Hukuk büroları, Yeşilköy otelleri, muayenehaneler ve sahil mekânları yapay zekâ cevaplarında doğru ve güvenilir anılsın diye Bakırköy GEO desteği.",
   "giris": [
    "Bakırköy'de yapay zekâ asistanlarına sorulan soruların ortak bir tonu var: kullanıcı yalnızca bir yer aramıyor, bir karar vermeden önce kendini güvende hissetmek istiyor. Boşanma sürecini merak eden biri, fuar için şehre gelen bir yabancı ya da yaşlı annesi için evde fizyoterapi arayan bir aile asistana uzun, ayrıntılı ve çoğu zaman kaygılı sorular yazıyor. Cevapta bir işletmenin adı geçiyorsa, o adın yanında kısa bir gerekçe de oluyor.",
    "Bu gerekçeler havadan gelmiyor. Asistanlar bir işletmeyi tarif ederken onun sitesindeki açıklamalardan, hakkında yazılmış haberlerden, rehber kayıtlarından ve müşteri yorumlarından derlenmiş bir özet sunuyor gibi davranıyor. Bakırköy gibi köklü bir ilçede bu özet bazen yıllar öncesinin bilgisini taşıyabiliyor: taşınmış bir büro, el değiştirmiş bir restoran, kapanmış bir şube. GEO çalışmasının önemli bir kısmı, bu eski izleri güncel ve tutarlı bilgiyle değiştirmekten oluşuyor.",
@@ -937,7 +937,7 @@
  },
  "basaksehir": {
   "alt": "Şehir hastanesi çevresi, İkitelli OSB, Masko ve Bahçeşehir'in aile işletmeleri için yapay zekâ asistanlarında doğru tarif edilmek.",
-  "desc": "Başakşehir GEO uzmanı: şehir hastanesi çevresi, İkitelli OSB üreticileri, Masko ve Bahçeşehir işletmelerinin yapay zekâ cevaplarında anılması için çalışma.",
+  "desc": "Şehir hastanesi çevresi, İkitelli OSB üreticileri, Masko ve Bahçeşehir işletmeleri ChatGPT ve Gemini cevaplarında anılsın diye Başakşehir GEO.",
   "giris": [
    "Başakşehir'deki şehir hastanesinde ameliyat olacak bir yakını için Anadolu'dan gelen biri, yola çıkmadan önce telefonundaki asistana soruyor: hastaneye yakın, hasta yakınlarına günlük kiralanan temiz bir daire var mı, taburcu sonrası hasta yatağı nereden kiralanır, eve bakım hemşiresi nasıl bulunur? Bu sorular, ilçeyi hiç tanımayan ve acelesi olan birinden geliyor. Cevapta adı geçen işletmeler, o kişinin ilk arayacağı numaralar oluyor.",
    "Başakşehir'in yapay zekâ görünürlüğü açısından ilginç yanı, birbirinden çok farklı kitlelerin aynı ilçeye farklı kapılardan girmesi. İkitelli OSB'deki bir makine üreticisine başka şehirden bir satın almacı, Masko'daki bir mobilya showroomuna evini döşeyen bir çift, Bahçeşehir'deki bir anaokuluna yeni taşınan bir aile ulaşmaya çalışıyor. Her birinin asistana sorduğu soru da, asistanın cevap verirken dayandığı kaynaklar da başka.",
@@ -1033,7 +1033,7 @@
     "Yeni açılan işletmelerin farklı platformlarda farklı adlarla kayıt açması. Planlı konut alanlarında çok sayıda benzer işletme olduğu için bu dağınıklık karışıklığa yol açıyor."
    ]
   },
-  "kapanis": "Başakşehir'de yapay zekâ cevaplarında anılmak, ilçeye farklı kapılardan giren her kitlenin sorusuna açık bir cevap hazırlamakla mümkün oluyor. Genel yaklaşımımı [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve arama sonuçları tarafındaki planı [Başakşehir SEO çalışmasında](/basaksehir-seo-uzmani) bulabilirsiniz. Sitenizi yapay zekâ sistemleri için özetleme fikrine dair ayrıntılar [llms.txt rehberinde](/blog/llms-txt-rehberi) yer alıyor; işletmenizi konuşmak isterseniz [randevu](/randevu) alabilirsiniz.",
+  "kapanis": "Başakşehir'de yapay zekâ cevaplarında anılmak, ilçeye farklı kapılardan giren her kitlenin sorusuna açık bir cevap hazırlamakla mümkün oluyor. Genel yaklaşımımı [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve arama sonuçları tarafındaki planı [Başakşehir SEO çalışmasında](/basaksehir-seo-uzmani) bulabilirsiniz. Sitenizi yapay zekâ sistemleri için özetleme fikrine dair ayrıntılar [llms.txt rehberinde](/llms-txt-rehberi) yer alıyor; işletmenizi konuşmak isterseniz [randevu](/randevu) alabilirsiniz.",
   "komsular": [
    "arnavutkoy",
    "kucukcekmece",
@@ -1069,7 +1069,7 @@
  },
  "bayrampasa": {
   "alt": "Hal toptancıları, ayakkabı ve saraciye üreticileri, cadde esnafı için Bayrampaşa'da yapay zekâ asistanlarının kısa listesine girmek.",
-  "desc": "Bayrampaşa GEO uzmanı: hal toptancıları, ayakkabı imalatçıları ve Abdi İpekçi Caddesi esnafının yapay zekâ asistanı cevaplarında doğru anılması için çalışma.",
+  "desc": "Hal toptancıları, ayakkabı imalatçıları ve Abdi İpekçi Caddesi esnafının yapay zekâ asistanı cevaplarında doğru anılması için Bayrampaşa GEO desteği.",
   "giris": [
    "Yeni bir restoran açan bir işletmeci, sebze ve meyve tedarikçisi ararken artık yalnızca tanıdıklarına danışmıyor. Bir asistana \"Avrupa yakasında restoranlara her sabah teslimat yapan, faturalı çalışan ve küçük siparişleri de kabul eden hal firmaları hangileri?\" diye soruyor. Bayrampaşa'daki hal, bu sorunun doğal adresi. Ama halin içindeki yüzlerce firmadan hangisinin adının cevapta geçeceği, hangisinin internette kendini açıkça anlattığıyla yakından ilgili.",
    "Bayrampaşa'nın ticari hayatı uzun süre yüz yüze ilişkilerle, telefonla ve aracılarla yürüdü. Hal toptancısının, ayakkabı imalatçısının ya da saraciye atölyesinin müşterisi çoğunlukla onu zaten tanıyordu. Bugün bu düzen sürüyor; fakat yeni müşteri, özellikle ilçe dışından ya da yurt dışından gelen alıcı, araştırmaya sohbet asistanlarıyla başlayabiliyor. İnternette hakkında net bilgi bulunmayan bir firma, bu yeni kapıda görünmez kalıyor.",
@@ -1165,7 +1165,7 @@
     "Yabancı dil sayfalarının otomatik çeviriyle bırakılması. Deri ve ayakkabı terimlerinin yanlış çevrilmesi, firmanın yanlış ürün grubuyla ilişkilendirilmesine yol açabiliyor."
    ]
   },
-  "kapanis": "Bayrampaşa'da yıllardır tanınan bir firma bile, yeni müşterinin asistana sorduğu soruda görünmek için kendini açıkça anlatmaya ihtiyaç duyabiliyor. Bu çalışmanın genel yaklaşımını [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve arama sonuçlarına yönelik planı [Bayrampaşa SEO çalışmasında](/bayrampasa-seo-uzmani) bulabilirsiniz. Markaların sohbet asistanlarında nasıl göründüğüne dair [ChatGPT'de marka görünürlüğü yazısı](/blog/chatgpt-marka-gorunurlugu) bir başlangıç noktası olabilir; işletmenizi konuşmak için [iletişim](/iletisim) sayfasından yazabilirsiniz.",
+  "kapanis": "Bayrampaşa'da yıllardır tanınan bir firma bile, yeni müşterinin asistana sorduğu soruda görünmek için kendini açıkça anlatmaya ihtiyaç duyabiliyor. Bu çalışmanın genel yaklaşımını [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve arama sonuçlarına yönelik planı [Bayrampaşa SEO çalışmasında](/bayrampasa-seo-uzmani) bulabilirsiniz. Markaların sohbet asistanlarında nasıl göründüğüne dair [ChatGPT'de marka görünürlüğü yazısı](/chatgpt-marka-gorunurlugu) bir başlangıç noktası olabilir; işletmenizi konuşmak için [iletişim](/iletisim) sayfasından yazabilirsiniz.",
   "komsular": [
    "eyupsultan",
    "gaziosmanpasa",
@@ -1187,7 +1187,7 @@
    },
    {
     "s": "Abdi İpekçi Caddesi'ndeki mağazamız alışveriş merkezindeki markalarla asistanlarda nasıl yarışabilir?",
-    "c": "Genel sorularda büyük markalar öne çıkabilir, ama özellik içeren sorularda küçük mağazaların da şansı var. Uzmanlaştığınız ürün grubunu, sunduğunuz hizmetleri ve mağazanızın konumunu net anlatmak, yorumlarda bu özelliklerin geçmesini teşvik etmek işe yarar. Profil ayarları için [Google Business Profile yazısı](/blog/google-business-profile) yardımcı olabilir."
+    "c": "Genel sorularda büyük markalar öne çıkabilir, ama özellik içeren sorularda küçük mağazaların da şansı var. Uzmanlaştığınız ürün grubunu, sunduğunuz hizmetleri ve mağazanızın konumunu net anlatmak, yorumlarda bu özelliklerin geçmesini teşvik etmek işe yarar. Profil ayarları için [Google Business Profile yazısı](/google-business-profile) yardımcı olabilir."
    },
    {
     "s": "Soğuk hava depomuz için hangi bilgileri yazılı hale getirmeliyiz?",
@@ -1201,7 +1201,7 @@
  },
  "besiktas": {
   "alt": "Beşiktaş'ta sohbet asistanlarına sorulan tavsiye sorularında, Levent'ten Bebek'e işletmenizin doğru anlatılması için yöntem.",
-  "desc": "Beşiktaş GEO uzmanı: Levent, Etiler, Ortaköy ve Bebek işletmelerinin ChatGPT, Gemini ve Google yapay zekâ özetlerinde doğru anılması için çalışma.",
+  "desc": "Levent, Etiler, Ortaköy ve Bebek işletmeleri ChatGPT, Gemini ve Google AI özetlerinde doğru anılsın diye Beşiktaş'a özel GEO danışmanlığı. Görüşelim.",
   "giris": [
    "Birisi telefonuna “Levent'te şirket birleşmelerinde deneyimli bir mali danışmanlık firması önerir misin?” diye yazdığında, karşısına on mavi bağlantı yerine birkaç isim ve kısa gerekçeler içeren bir paragraf çıkabiliyor. Beşiktaş'taki bir işletme için yapay zekâ görünürlüğü, o paragrafta adının geçmesi ve doğru tarif edilmesi demek. Adınız geçse bile yanlış semtte, yanlış uzmanlıkla ya da eski bir adresle anılıyorsanız kazanılmış bir şey yok.",
    "Beşiktaş bu açıdan ilginç bir ilçe, çünkü aynı ilçe adı altında birbirine hiç benzemeyen sorular toplanıyor. Plaza hattında çalışan biri öğle arasında toplantı için sakin bir restoran soruyor, Etiler'de yaşayan bir veli çocuk diş hekimi arıyor, Ortaköy'e gelen bir turist İngilizce olarak Boğaz manzaralı bir kahvaltı yeri istiyor. Asistan her birine farklı kaynaklardan derlediği bir cevap kuruyor ve bu kaynakların ne söylediği belirleyici oluyor.",
@@ -1283,7 +1283,7 @@
     "**İlk 2 hafta:** Müşterilerinizin gerçekten sorduğu soruları çıkarıyoruz; semt adıyla, yabancı dilde ve karşılaştırma biçiminde olanları ayrı gruplara ayırıyoruz. Bu setle ChatGPT, Gemini, Perplexity, Copilot ve Google'ın yapay zekâ özetlerindeki mevcut durumu ekran görüntüsü ve tarihle kaydediyorum.",
     "**3. ve 4. hafta:** Varlık netliği. İşletme adı, kısa tanımı, adresi, kategorisi ve kurucu ya da uzman bilgisi; site, harita kaydı, LinkedIn, sektör dizinleri ve rezervasyon platformlarında tek tek karşılaştırılıp eşitleniyor.",
     "**2. ay:** Sitedeki alıntılanabilir içerik. Her hizmet için iki üç cümlelik net tanım, sık sorulan soruların kısa cevapları, fiyatı belirleyen etkenler ve sayfanın güncellenme tarihi ile yazar bilgisi ekleniyor.",
-    "**2. ve 3. ay:** Şema işaretlemesi ve teknik erişim. Organization, LocalBusiness ya da sektöre uygun alt türler ve soru-cevap yapısı kuruluyor; gerekirse [llms.txt dosyası](/blog/llms-txt-rehberi) gibi yardımcı adımlar da değerlendiriliyor.",
+    "**2. ve 3. ay:** Şema işaretlemesi ve teknik erişim. Organization, LocalBusiness ya da sektöre uygun alt türler ve soru-cevap yapısı kuruluyor; gerekirse [llms.txt dosyası](/llms-txt-rehberi) gibi yardımcı adımlar da değerlendiriliyor.",
     "**3. ay:** Üçüncü taraf bahisler. Beşiktaş'a özgü şehir rehberleri, sektör listeleri, yerel haber siteleri ve meslek kuruluşlarında doğru bilgiyle yer almak için bir öncelik listesi çıkarıyoruz.",
     "**4. ay ve sonrası:** Aynı soru setini aylık olarak yeniden soruyorum; anılma, anlatım doğruluğu ve gösterilen kaynaklar tabloya işleniyor. GA4'te yapay zekâ asistanlarından gelen ziyaretler ayrı bir kanal olarak izleniyor."
    ]
@@ -1327,7 +1327,7 @@
    },
    {
     "s": "Gayrettepe'deki bir yazılım şirketi için semte odaklı GEO çalışması anlamlı mı?",
-    "c": "Yazılım şirketlerinin müşterisi çoğu zaman semt bazlı soru sormuyor; asıl iş, ürünün hangi problemi çözdüğünü ve hangi sektöre hitap ettiğini net tanımlamak. Yine de “İstanbul'da şu alanda yazılım geliştiren ekipler” gibi sorularda konum bilgisi işe yarayabiliyor. Bu ayrımı [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında daha ayrıntılı anlattım."
+    "c": "Yazılım şirketlerinin müşterisi çoğu zaman semt bazlı soru sormuyor; asıl iş, ürünün hangi problemi çözdüğünü ve hangi sektöre hitap ettiğini net tanımlamak. Yine de “İstanbul'da şu alanda yazılım geliştiren ekipler” gibi sorularda konum bilgisi işe yarayabiliyor. Bu ayrımı [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında daha ayrıntılı anlattım."
    },
    {
     "s": "Beşiktaş'ta GEO çalışmasının ücretini ne belirliyor?",
@@ -1337,7 +1337,7 @@
  },
  "beykoz": {
   "alt": "Hafta sonu kaçamağı soran İstanbullularla tedarikçi arayan şirketler arasında, Beykoz işletmelerinin asistan cevaplarındaki yeri.",
-  "desc": "Beykoz GEO uzmanı: Polonezköy, Riva, Boğaz köyleri ve Kavacık işletmelerinin ChatGPT, Gemini ve Perplexity önerilerinde doğru tanıtılması.",
+  "desc": "Polonezköy, Riva, Boğaz köyleri ve Kavacık işletmelerinin ChatGPT, Gemini ve Perplexity önerilerinde doğru tanıtılması için Beykoz GEO desteği.",
   "giris": [
    "Cumartesi sabahı \"Şehirden bir saat uzaklaşmadan ormanda kahvaltı edip yürüyüş yapabileceğimiz, köpek kabul eden bir yer söyle\" diye soran bir aile ile pazartesi sabahı \"Köprüye yakın, Avrupa ve Anadolu yakasına aynı gün teslimat yapabilen bir depolama firması\" arayan bir lojistik sorumlusu aynı ilçenin işletmelerine yöneliyor olabilir. Beykoz bu iki uç arasında duran nadir ilçelerden biri ve yapay zekâ asistanları her iki soruya da bu ilçeden isimler önerebiliyor.",
    "Ancak önerinin hangi işletmeye gideceği, asistanın elindeki malzemeye bağlı. Beykoz'daki pek çok mekânın dijital izi dağınık: bir yorum sitesinde eski bir ad, bir gezi blogunda yıllar önceki fiyat, kendi sitesinde ise PDF menü. Kavacık'taki birçok firma ise tek sayfalık tanıtımla yetiniyor. Böyle bir tabloda asistan ya genel bir cevap veriyor ya da bilgisi daha düzenli olan başka bir işletmeyi öne çıkarıyor gibi görünüyor.",
@@ -1420,7 +1420,7 @@
     "**3. ve 4. hafta:** Ad, semt, adres, kategori ve mevsimlik saatlerin site, harita kaydı, yorum siteleri ve sosyal hesaplarda tek biçime getirilmesi.",
     "**2. ay:** Olanakları, ulaşımı ve kuralları anlatan soru-cevap bölümleri; menü ve fiyat bilgisinin PDF yerine metin olarak yayımlanması; uygun şema işaretlemesi.",
     "**3. ay:** Kavacık firmaları için hizmet tanımlarının, ekip profillerinin ve sektör yayınlarındaki firma bilgisinin düzenlenmesi.",
-    "**Sezon öncesi:** Gezi blogları, doğa toplulukları ve yerel yayınlarda eski bilgilerin güncellenmesi için iletişim; [Google Business Profile](/blog/google-business-profile) kaydının sezona hazırlanması.",
+    "**Sezon öncesi:** Gezi blogları, doğa toplulukları ve yerel yayınlarda eski bilgilerin güncellenmesi için iletişim; [Google Business Profile](/google-business-profile) kaydının sezona hazırlanması.",
     "**Sonraki aylar:** Soru setinin aylık tekrarı, GA4'te yapay zekâ kaynaklı trafiğin ayrıştırılması, rezervasyon sırasında misafirin geliş kanalının sorulması."
    ]
   },
@@ -1474,7 +1474,7 @@
  },
  "beylikduzu": {
   "alt": "Velinin okul sorusundan ihracatçının tedarikçi araştırmasına, Beylikdüzü işletmelerinin yapay zekâ cevaplarındaki yeri.",
-  "desc": "Beylikdüzü GEO uzmanı: kolej, klinik, mermer üreticisi ve fuar çevresi işletmelerinin ChatGPT, Gemini ve yapay zekâ özetlerinde doğru anılması için yöntem.",
+  "desc": "Kolej, klinik, mermer üreticisi ve fuar çevresi işletmelerin ChatGPT, Gemini ve Google AI özetlerinde doğru anılması için Beylikdüzü GEO yöntemi.",
   "giris": [
    "Beylikdüzü'nde bir anne, akşam yemeğinden sonra telefonuna “Beylikdüzü'nde servis imkânı olan, İngilizce ağırlıklı bir anaokulu önerir misin?” diye yazıyor. Aynı saatlerde Basra Körfezi ülkelerinden bir alıcı, İngilizce olarak İstanbul'da tezgâh plakası üreten mermer firmalarını soruyor. İki soru da bir sohbet asistanına gidiyor ve iki cevap da Beylikdüzü'ndeki işletmeleri ya anıyor ya atlıyor.",
    "Yapay zekâ görünürlüğü burada şunu ifade ediyor: asistan bir tavsiye kurarken işletmenizi tanıyabiliyor mu, ne yaptığınızı doğru özetleyebiliyor mu, sizi uygun soruyla eşleştirebiliyor mu? Bir site içindeki kreşin adı yalnızca site yönetiminin mesaj grubunda dolaşıyorsa, asistanın onu bilmesi için ortada okunabilir bir kaynak yok demektir.",
@@ -1591,7 +1591,7 @@
    },
    {
     "s": "Site içindeki kuaför salonum için web sitesi kurmadan GEO çalışması yapılabilir mi?",
-    "c": "Harita kaydı ve yorumlar tek başına bir temel oluşturabilir, ama asistanın alıntılayabileceği ayrıntılı bilgi çoğu zaman sınırlı kalır. Hizmetleri ve çalışma düzenini açıkça anlatan tek sayfalık bir site bile tabloyu değiştirebilir. Harita kaydı tarafını [Google Business Profile yazısında](/blog/google-business-profile) ele aldım."
+    "c": "Harita kaydı ve yorumlar tek başına bir temel oluşturabilir, ama asistanın alıntılayabileceği ayrıntılı bilgi çoğu zaman sınırlı kalır. Hizmetleri ve çalışma düzenini açıkça anlatan tek sayfalık bir site bile tabloyu değiştirebilir. Harita kaydı tarafını [Google Business Profile yazısında](/google-business-profile) ele aldım."
    },
    {
     "s": "Velilerden yorum isterken nelere dikkat etmeliyim?",
@@ -1609,7 +1609,7 @@
  },
  "beyoglu": {
   "alt": "Galata'yı gezen yolcunun, Perşembe Pazarı'nda parça arayan ustanın ve sergi meraklısının yapay zekâya sorduğu sorularda Beyoğlu.",
-  "desc": "Beyoğlu GEO uzmanı: Galata, Karaköy ve Cihangir'deki otel, restoran, galeri ve esnafın çok dilli yapay zekâ cevaplarında doğru anılması için çalışma.",
+  "desc": "Galata, Karaköy ve Cihangir'deki otel, restoran, galeri ve esnafın çok dilli yapay zekâ cevaplarında doğru anılması için Beyoğlu GEO danışmanlığı.",
   "giris": [
    "Beyoğlu'na gelen bir yolcu, gezi planını kimi zaman uçakta ya da otel odasında bir asistanla konuşarak yapıyor: “Galata Kulesi civarında, turist tuzağı olmayan, yerel halkın gittiği bir meyhane söyler misin?” Bu sorunun cevabı birkaç isimden oluşuyor ve o isimler, asistanın okuyabildiği rehberlerde, yorumlarda ve mekânların kendi sitelerinde nasıl anlatıldıklarına bağlı.",
    "Aynı ilçede bambaşka bir soru tipi de var. Karaköy'deki bir atölye sahibi “Perşembe Pazarı'nda paslanmaz civata toptan satan dükkânlar hangileri?” diye soruyor; Cihangir'de oturan biri bağlamasının sapını onaracak bir usta arıyor. Bu sorularda turist yok, ama ayrıntı ve güven ihtiyacı en az o kadar yüksek.",
@@ -1740,13 +1740,13 @@
    },
    {
     "s": "Beyoğlu'nda bir GEO danışmanı seçerken nelere bakmalıyım?",
-    "c": "Çok dilli çalışma deneyimi, ölçümü nasıl yaptığını açıkça anlatması ve anılma sözü vermemesi önemli işaretler. Seçim kriterlerini [GEO ajansı nasıl seçilir](/blog/geo-ajansi-nasil-secilir) yazısında ayrıntılı ele aldım."
+    "c": "Çok dilli çalışma deneyimi, ölçümü nasıl yaptığını açıkça anlatması ve anılma sözü vermemesi önemli işaretler. Seçim kriterlerini [GEO ajansı nasıl seçilir](/geo-ajansi-nasil-secilir) yazısında ayrıntılı ele aldım."
    }
   ]
  },
  "buyukcekmece": {
   "alt": "Yazlık sahibinin sezon öncesi servis sorusundan düğün mekânı araştırmasına, Büyükçekmece işletmelerinin yapay zekâ cevaplarındaki yeri.",
-  "desc": "Büyükçekmece GEO uzmanı: Kumburgaz, Güzelce ve göl kıyısındaki servis, restoran ve düğün işletmelerinin yapay zekâ cevaplarında anılması için yöntem.",
+  "desc": "Kumburgaz, Güzelce ve göl kıyısındaki servis, restoran ve düğün işletmelerinin ChatGPT ve Gemini cevaplarında anılması için Büyükçekmece GEO yöntemi.",
   "giris": [
    "Nisan sonunda Kadıköy'deki evinde oturan bir yazlık sahibi bir asistana şunu yazıyor: “Kumburgaz'daki sitemizde havuz açılışını yapacak, kimyasalı da getiren güvenilir bir ekip öner.” Cevapta birkaç isim, belki bir rehber sitesi, belki bir forum başlığı çıkıyor. Büyükçekmece'deki bir servis işletmesi için yapay zekâ görünürlüğü, sezonun ilk sorusunun sorulduğu o anda o listede olmakla başlıyor.",
    "İlçenin takvimi asistanlara sorulan soruları da biçimlendiriyor. İlkbaharda bakım ve tadilat, yazın kiralık ev, plaj ve balık restoranı, sonbaharda düğün mekânı ve okul soruları öne çıkıyor. Her dönemin sorusu farklı bir kitleden geliyor ve asistanın cevabı, o kitlenin okuduğu kaynaklardan besleniyor.",
@@ -1882,7 +1882,7 @@
  },
  "catalca": {
   "alt": "Şehrin öbür ucundan sorulan köy kahvaltısı, mandıra ve kır düğünü sorularında Çatalca işletmelerinin asistanlarca tanınması.",
-  "desc": "Çatalca GEO uzmanı: mandıra, köy kahvaltısı, kamp, kır düğünü ve arsa işletmelerinin ChatGPT, Gemini ve yapay zekâ özetlerinde bulunması için yöntem.",
+  "desc": "Mandıra, köy kahvaltısı, kamp, kır düğünü ve arsa işletmeleri ChatGPT, Gemini ve Google AI özetlerinde bulunsun diye Çatalca'ya özel GEO yöntemi.",
   "giris": [
    "Çatalca'daki bir işletmenin müşterisi çoğu zaman cuma akşamı, İstanbul'un başka bir ilçesindeki evinde oturup bir asistana soruyor: “Hafta sonu çocuklarla gidebileceğimiz, hayvanları görebilecekleri bir köy kahvaltısı yeri öner, bir saatten fazla yol olmasın.” Cevapta anılan yerler, o hafta sonu yola çıkacak ailenin rotasını belirliyor.",
    "Kırsal bir ilçe için bu durum hem fırsat hem zorluk. Fırsat, çünkü asistanlar yalnızca mesafeye değil koşullara da bakıyor gibi görünüyor; yapılan iş açıkça anlatılmışsa uzak bir çiftlik de cevaba girebiliyor. Zorluk, çünkü Çatalca'daki pek çok işletmenin internette okunabilir bir anlatımı yok; adresi belirsiz, ürünleri yalnızca telefonda tarif ediliyor, varlığı tavsiye zincirine bağlı.",
@@ -2011,13 +2011,13 @@
    },
    {
     "s": "llms.txt dosyası küçük bir kırsal işletme için gerekli mi?",
-    "c": "Küçük bir işletme için öncelik genellikle doğru konum, net anlatım ve tutarlı bilgiler. llms.txt dosyası bazı durumlarda yardımcı olabilecek ama etkisi henüz net olmayan bir adım. Ne işe yaradığını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "c": "Küçük bir işletme için öncelik genellikle doğru konum, net anlatım ve tutarlı bilgiler. llms.txt dosyası bazı durumlarda yardımcı olabilecek ama etkisi henüz net olmayan bir adım. Ne işe yaradığını [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    }
   ]
  },
  "cekmekoy": {
   "alt": "Yeni taşınan ailelerin kreş, veteriner, usta ve klinik için asistanlara danıştığı Çekmeköy'de mahalle işletmelerinin önerilme yolu.",
-  "desc": "Çekmeköy GEO uzmanı: Taşdelen, Alemdağ ve Mimar Sinan'daki aile odaklı işletmelerin yapay zekâ asistanlarının tavsiyelerinde doğru yer alması.",
+  "desc": "Taşdelen, Alemdağ ve Mimar Sinan'daki aile odaklı işletmeler, ChatGPT ve Gemini tavsiyelerinde doğru yer alsın diye Çekmeköy'e özel GEO yaklaşımı.",
   "giris": [
    "Yeni bir siteye taşınan bir aile ilk haftalarda onlarca soru soruyor: çocuk için kreş, kedi için veteriner, salon için perde, mutfak için usta. Bu soruların bir bölümü artık komşu grubuna değil, telefondaki bir asistana yöneltiliyor: \"Çekmeköy'e yeni taşındık, Taşdelen tarafında bahçeli ve küçük gruplarla çalışan bir kreş önerir misin?\" Gelen cevapta adı geçen birkaç işletme, ailenin ziyaret listesine giriyor.",
    "Çekmeköy'de bu durumun bir özelliği var: ilçedeki işletmelerin önemli bir kısmı yeni ve dijital geçmişleri kısa. Yorum sayısı az, hakkında yazılmış yerel içerik sınırlı, sitesi ise çoğu zaman hazır şablonla kurulmuş. Asistanlar bir işletmeyi tavsiye ederken farklı kaynaklarda tekrar eden ve birbirini doğrulayan bilgilere yaslanıyor gibi göründüğü için, izi zayıf bir işletme ne kadar iyi hizmet verirse versin cevapta yer bulmakta zorlanıyor.",
@@ -2153,7 +2153,7 @@
  },
  "esenler": {
   "alt": "Fason dikim tedarikçisi arayan markadan kampüse yakın yurt arayan öğrenciye, Esenler işletmelerinin yapay zekâ cevaplarında yer alması.",
-  "desc": "Esenler GEO uzmanı: fason atölye, çanta imalatçısı, mahalle esnafı ve öğrenci hizmetlerinin ChatGPT ve yapay zekâ özetlerinde doğru anılması için sade yöntem.",
+  "desc": "Fason atölye, çanta imalatçısı, mahalle esnafı ve öğrenci hizmetlerinin ChatGPT ve Google AI özetlerinde doğru anılması için Esenler'e sade GEO.",
   "giris": [
    "Yeni bir tekstil markası kuran biri, numune aşamasında bir asistana şöyle yazabiliyor: “İstanbul'da küçük adetli fason dikim kabul eden, numune de hazırlayan atölyeleri nasıl bulurum, hangi semtlere bakmalıyım?” Esenler, bu sorunun cevabında anılabilecek ilçelerden biri. Ancak cevapta tek tek atölye adlarının geçmesi, o atölyelerin internette okunabilir bir izinin olup olmamasına bağlı.",
    "Esenler'deki işletmelerin önemli bir kısmı küçük ve bütçesini dikkatle kullanıyor. Bu yüzden yapay zekâ görünürlüğünü burada büyük bir içerik projesi olarak değil, eksik olan birkaç temel bilginin yerine konması olarak ele alıyorum: işletme ne yapıyor, nerede, kime hizmet veriyor, nasıl ulaşılır? Asistanların bir tavsiye cümlesi kurabilmesi için bu dört sorunun cevabının açıkta olması gerekiyor.",
@@ -2288,7 +2288,7 @@
  },
  "esenyurt": {
   "alt": "Arapça, Farsça ve Türkçe sorulan konut, sağlık ve resmî işlem sorularında Esenyurt işletmelerinin asistanlarca doğru anlatılması.",
-  "desc": "Esenyurt GEO uzmanı: konut projeleri, hastaneler, tercüme büroları ve Kıraç'taki lojistik firmalarının çok dilli yapay zekâ cevaplarında anılması için yöntem.",
+  "desc": "Konut projeleri, hastaneler, tercüme büroları ve Kıraç'taki lojistik firmaları çok dilli yapay zekâ cevaplarında anılsın diye Esenyurt GEO yöntemi.",
   "giris": [
    "Esenyurt'ta yaşayan bir aile, ikamet izni yenilemesi için hangi belgelerin gerektiğini ve yeminli tercüme yaptırabileceği bir büroyu Arapça olarak bir asistana sorabiliyor. Aynı akşam başka biri Türkçe olarak “Esenyurt'ta metrobüse yakın, otoparklı sıfır daire satan projeler” diye yazıyor. İki soru farklı dillerde, ama ikisinde de cevap Esenyurt'taki işletmeler hakkında okunabilir bilgiye dayanıyor.",
    "Bu ilçede yapay zekâ görünürlüğü en başta bir dil meselesi. Türkçe içerikte net anlatılmış bir işletme, Arapça ya da Farsça bir soruya verilen cevapta aynı netlikle yer almayabilir; çünkü asistan o dildeki kaynaklara da başvuruyor gibi görünüyor. Kalabalık ve çok kültürlü bir sakin kitlesine hizmet veren işletmeler için bu, kendini birden fazla dilde tutarlı biçimde anlatmayı gerektiriyor.",
@@ -2413,7 +2413,7 @@
    },
    {
     "s": "Markamın sohbet asistanlarında nasıl anlatıldığını nasıl kontrol edebilirim?",
-    "c": "Müşterilerinizin soracağı soruları farklı dillerde ve farklı asistanlarda sorup cevapları tarihli olarak kaydetmek en sade yöntem. Bu konuyu [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında ayrıntılı anlattım."
+    "c": "Müşterilerinizin soracağı soruları farklı dillerde ve farklı asistanlarda sorup cevapları tarihli olarak kaydetmek en sade yöntem. Bu konuyu [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında ayrıntılı anlattım."
    },
    {
     "s": "Esenyurt'ta GEO çalışmasının ücreti neye göre değişiyor?",
@@ -2423,7 +2423,7 @@
  },
  "eyupsultan": {
   "alt": "Ziyaretçinin, Göktürk'teki velinin ve Topçular'da tedarikçi arayan alıcının asistana sorduğu sorularda doğru anılmak için çalışma.",
-  "desc": "Eyüpsultan GEO uzmanı: Eyüp Meydanı esnafı, Göktürk aile hizmetleri ve Topçular firmalarının ChatGPT, Gemini ve AI Overviews cevaplarında anılması.",
+  "desc": "Eyüp Meydanı esnafı, Göktürk aile hizmetleri ve Topçular firmaları ChatGPT, Gemini ve Google AI özetlerinde anılsın diye Eyüpsultan GEO çalışması.",
   "giris": [
    "Birisi telefonuna \"Eyüp Sultan Camii'ni ziyaret ettikten sonra yakınlarda çocuklarla oturabileceğimiz, kalabalık olmayan bir lokanta söyler misin?\" diye yazdığında, karşısına harita listesi değil birkaç cümlelik bir tavsiye çıkıyor. O cümlelerde adı geçen işletme, ziyaretçinin o günkü rotasına giriyor; geçmeyen ise çoğu zaman hiç düşünülmüyor. Eyüpsultan'da yapay zekâ görünürlüğü dediğim şey, tam olarak bu birkaç cümlenin içine girebilmek.",
    "İlçenin farklı yüzleri bu işi ilginç kılıyor. Haliç kıyısındaki manevi ziyaret merkezi, kuzeydeki Göktürk ve Kemerburgaz'ın site yaşamı, Alibeyköy ile Topçular'ın atölye ve depo dokusu aynı ilçe adını taşıyor. Asistanlar bir soruyu cevaplarken ilçe adını, semt adını ve işletmenin kendini nasıl tarif ettiğini birlikte tartıyor gibi görünüyor. Kendini belirsiz anlatan bir firma, bu üç katmandan hangisine ait olduğu anlaşılmadığı için cevabın dışında kalabiliyor.",
@@ -2560,7 +2560,7 @@
  },
  "fatih": {
   "alt": "Tarihi Yarımada'da otel, toptancı, kuyumcu ve kafe için onlarca dilde sorulan tavsiye sorularında doğru tarif edilmenin yolu.",
-  "desc": "Fatih GEO uzmanı: Sultanahmet otelleri, Laleli toptancıları ve Kapalıçarşı esnafının ChatGPT, Gemini, Perplexity ve AI Overviews cevaplarında anılması.",
+  "desc": "Sultanahmet otelleri, Laleli toptancıları ve Kapalıçarşı esnafı ChatGPT, Gemini, Perplexity ve Google AI özetlerinde anılsın diye Fatih GEO desteği.",
   "giris": [
    "Fatih'e gelen bir gezgin artık rehber kitabı karıştırmak yerine asistana yazıyor: \"Ayasofya'ya yürüme mesafesinde, sessiz sokakta, kahvaltısı ev yapımı küçük bir otel önerir misin?\" Laleli'ye sipariş vermek isteyen bir mağaza sahibi de benzer bir yol izliyor ve toptancı listesini sohbet ekranından çıkarıyor. Bu iki soru aynı ilçeyle ilgili, ama cevapta adı geçecek işletmeyi belirleyen işaretler bambaşka.",
    "Tarihi Yarımada, İstanbul'da hakkında en çok yazılmış bölgelerden biri. Bu bir avantaj gibi görünse de işletmeler açısından durum karışık: asistanlar çok sayıda gezi yazısı, forum başlığı ve rehber listesi arasında seçim yapıyor ve çoğu zaman bu kaynaklarda sık ve tutarlı biçimde geçen isimleri öne çıkarıyor gibi. Küçük bir aile işletmesi, kendini net tarif etmediğinde bu kalabalığın içinde kayboluyor.",
@@ -2687,7 +2687,7 @@
    },
    {
     "s": "Balat'taki kafem için Instagram hesabı yeterli değil mi?",
-    "c": "Instagram görsel olarak güçlü, ama asistanlar için metin ve yapılandırılmış bilgi daha kolay okunuyor. Kısa bir site ya da en azından eksiksiz bir harita kaydı, Instagram'daki adla birebir aynı yazılmış işletme bilgisiyle desteklendiğinde kafenin tanınması kolaylaşıyor. [Google Business Profile yazımda](/blog/google-business-profile) bu kaydın ayrıntılarını anlattım."
+    "c": "Instagram görsel olarak güçlü, ama asistanlar için metin ve yapılandırılmış bilgi daha kolay okunuyor. Kısa bir site ya da en azından eksiksiz bir harita kaydı, Instagram'daki adla birebir aynı yazılmış işletme bilgisiyle desteklendiğinde kafenin tanınması kolaylaşıyor. [Google Business Profile yazımda](/google-business-profile) bu kaydın ayrıntılarını anlattım."
    },
    {
     "s": "Fatih'te GEO çalışmasının kapsamını ne belirliyor?",
@@ -2697,7 +2697,7 @@
  },
  "gaziosmanpasa": {
   "alt": "Mahallede klinik, etüt, pastane ya da fason atölye soran kişiye asistanın sizi tanıyarak önermesi için yapılan sade ve ölçülebilir iş.",
-  "desc": "Gaziosmanpaşa GEO uzmanı: mahalle esnafı, klinikler, kurs merkezleri ve konfeksiyon atölyelerinin yapay zekâ asistanlarının tavsiyelerinde doğru anılması.",
+  "desc": "Mahalle esnafı, klinikler, kurs merkezleri ve konfeksiyon atölyeleri yapay zekâ asistanlarının tavsiyelerinde doğru anılsın diye Gaziosmanpaşa GEO.",
   "giris": [
    "Gaziosmanpaşa'da tavsiye kültürü güçlü. Komşuya, akrabaya, mahalle grubuna sorulan \"çocuğa iyi bakan bir diş hekimi kim?\" sorusu, son dönemde bir de yapay zekâ asistanına yöneltiliyor. Kullanıcı aynı samimiyetle yazıyor: \"Gaziosmanpaşa'da çocukları korkutmayan, randevuya sadık bir pedodonti kliniği biliyor musun?\" Cevapta adı geçen klinik, artık mahalle sohbetinin dijital bir uzantısında yer alıyor.",
    "Bu ilçede işletmelerin çoğu küçük ölçekli ve sahibi tarafından yönetiliyor. Sitesi olmayan, olsa da yıllardır güncellenmemiş, bütün enerjisini dükkâna veren esnaf için yapay zekâ görünürlüğü uzak bir konu gibi gelebilir. Oysa yapılacak işlerin önemli kısmı karmaşık değil: işletmeyi her yerde aynı adla ve doğru bilgiyle tanıtmak, müşterilerin gerçekten sorduğu sorulara açık cevap vermek ve yorumların içeriğini önemsemek.",
@@ -2793,7 +2793,7 @@
     "Olumsuz yoruma tepkili ya da kişisel yanıt vermek. Bu yanıtlar da işletme hakkındaki kamuya açık metnin parçası; asistanların işletmeyi özetlerken yansıtabileceği bir ton oluşturuyor."
    ]
   },
-  "kapanis": "Gaziosmanpaşa'da yapay zekâ görünürlüğü, çoğu zaman işletmenin zaten sahip olduğu güvenin yazıya dökülmesiyle başlıyor. Çalışma yöntemimin genel hatlarını [GEO danışmanlığı sayfamda](/geo-uzmani) anlattım; harita ve arama sonuçları için [Gaziosmanpaşa SEO çalışması](/gaziosmanpasa-seo-uzmani) sayfasına bakabilirsiniz. Asistanların markaları nasıl anlattığına dair temel bir giriş için [ChatGPT'de marka görünürlüğü yazısını](/blog/chatgpt-marka-gorunurlugu) okuyabilir, işletmenizi konuşmak için [randevu oluşturabilirsiniz](/randevu).",
+  "kapanis": "Gaziosmanpaşa'da yapay zekâ görünürlüğü, çoğu zaman işletmenin zaten sahip olduğu güvenin yazıya dökülmesiyle başlıyor. Çalışma yöntemimin genel hatlarını [GEO danışmanlığı sayfamda](/geo-uzmani) anlattım; harita ve arama sonuçları için [Gaziosmanpaşa SEO çalışması](/gaziosmanpasa-seo-uzmani) sayfasına bakabilirsiniz. Asistanların markaları nasıl anlattığına dair temel bir giriş için [ChatGPT'de marka görünürlüğü yazısını](/chatgpt-marka-gorunurlugu) okuyabilir, işletmenizi konuşmak için [randevu oluşturabilirsiniz](/randevu).",
   "komsular": [
    "eyupsultan",
    "sultangazi",
@@ -2827,13 +2827,13 @@
    },
    {
     "s": "Gaziosmanpaşa'da bir GEO danışmanı seçerken neye bakmalıyım?",
-    "c": "Ölçümü nasıl yaptığını, hangi soruları takip edeceğini ve somut olarak hangi işleri üstleneceğini açıkça anlatabilmesi önemli. Kesin sıralama ya da sonuç vaadi veren yaklaşımlara temkinli yaklaşmak gerekir. [GEO ajansı seçimi yazımda](/blog/geo-ajansi-nasil-secilir) sorulabilecek soruları sıraladım."
+    "c": "Ölçümü nasıl yaptığını, hangi soruları takip edeceğini ve somut olarak hangi işleri üstleneceğini açıkça anlatabilmesi önemli. Kesin sıralama ya da sonuç vaadi veren yaklaşımlara temkinli yaklaşmak gerekir. [GEO ajansı seçimi yazımda](/geo-ajansi-nasil-secilir) sorulabilecek soruları sıraladım."
    }
   ]
  },
  "gungoren": {
   "alt": "Merter'de tedarikçi arayan alıcının ve Haznedar'da mahalle hizmeti arayan ailenin sohbet sorularında anılmak için iki ayrı yol.",
-  "desc": "Güngören GEO uzmanı: Merter tekstil toptancıları, aksesuar firmaları ve mahalle işletmelerinin ChatGPT, Gemini ve Perplexity cevaplarında tanınması.",
+  "desc": "Merter tekstil toptancıları, aksesuar firmaları ve mahalle işletmeleri ChatGPT, Gemini ve Perplexity cevaplarında tanınsın diye Güngören GEO desteği.",
   "giris": [
    "Kazakistan'daki bir butik sahibi, Türkiye'den ilk kez mal almaya hazırlanırken asistanına şunu yazıyor: \"İstanbul'da kadın giyim toptancılarının yoğun olduğu bölgeler hangileri, Merter ile Laleli arasındaki fark nedir?\" Aynı akşam Haznedar'da yaşayan bir anne de telefonundan \"Güngören'de iki yaşındaki çocuğuma uygun, bahçeli bir kreş var mı?\" diye soruyor. İki soru da Güngören'le ilgili; ama cevaplarda adı geçecek işletmeleri belirleyen ölçütler hiç örtüşmüyor.",
    "Güngören'in küçük yüzölçümü yanıltıcı. Merter'deki tekstil ve hazır giyim ekosistemi ilçeyi uluslararası bir tedarik noktası hâline getirirken, ilçenin geri kalanı yoğun nüfuslu, aile odaklı mahallelerden oluşuyor. Asistanlar Merter'i çoğu zaman ilçe adından bağımsız bir bölge olarak tanıyor gibi görünüyor; bu durum firmaların kendini nasıl tanıtacağı konusunda önemli bir ipucu veriyor.",
@@ -2929,7 +2929,7 @@
     "Fason atölyelerin hiçbir yerde kayıtlı olmaması. Markaların asistanla yaptığı ilk araştırmada doğrulanabilir bir kaynak bulunamayınca atölye değerlendirme listesine hiç girmiyor."
    ]
   },
-  "kapanis": "Güngören'de ilk soru hep aynı: tedarik ağına mı, mahalleye mi sesleniyorsunuz? Bu netleştikten sonra yapılacak işler sıralanıyor. Yöntemimin ayrıntıları [GEO danışmanlığı sayfamda](/geo-uzmani) yer alıyor; harita ve klasik arama tarafı için [Güngören SEO çalışması](/gungoren-seo-uzmani) sayfasına bakabilirsiniz. Sitenizin asistanlara özetini sunmanın bir yolu olarak [llms.txt rehberini](/blog/llms-txt-rehberi) okuyabilir, durumunuzu konuşmak için [randevu alabilirsiniz](/randevu).",
+  "kapanis": "Güngören'de ilk soru hep aynı: tedarik ağına mı, mahalleye mi sesleniyorsunuz? Bu netleştikten sonra yapılacak işler sıralanıyor. Yöntemimin ayrıntıları [GEO danışmanlığı sayfamda](/geo-uzmani) yer alıyor; harita ve klasik arama tarafı için [Güngören SEO çalışması](/gungoren-seo-uzmani) sayfasına bakabilirsiniz. Sitenizin asistanlara özetini sunmanın bir yolu olarak [llms.txt rehberini](/llms-txt-rehberi) okuyabilir, durumunuzu konuşmak için [randevu alabilirsiniz](/randevu).",
   "komsular": [
    "bagcilar",
    "bahcelievler",
@@ -2969,7 +2969,7 @@
  },
  "kadikoy": {
   "alt": "Moda'da kafe, Yeldeğirmeni'nde atölye, Bağdat Caddesi'nde klinik soran kullanıcılara yapay zekânın hangi Kadıköy işletmelerini önerdiği.",
-  "desc": "Kadıköy GEO uzmanı: Moda, Yeldeğirmeni ve Bağdat Caddesi işletmelerinin ChatGPT, Gemini ve Google yapay zekâ cevaplarında tavsiye edilmesi.",
+  "desc": "Moda, Yeldeğirmeni ve Bağdat Caddesi'ndeki kafe, dükkân ve klinikler ChatGPT, Gemini ve Google AI özetlerinde tavsiye edilsin diye Kadıköy GEO.",
   "giris": [
    "\"Kadıköy'de laptopla saatlerce oturmama kimsenin bozulmadığı, prizi bol, müziği alçak bir kafe öner\" cümlesi, ilçe için asistanlara yöneltilen soruların tipik bir örneği. Kısa bir aramada bu kadar ayrıntı yazılmazdı; sohbet arayüzünde ise insanlar ne istediklerini olduğu gibi anlatıyor. Cevapta üç dört mekân sayılıyor ve kullanıcı çoğu zaman doğrudan birine yöneliyor. Kadıköy'de GEO, o üç dört ismin arasında, doğru niteliklerle anılmak demek.",
    "Kadıköy bu açıdan zengin ama gürültülü bir alan. Mekânlar hakkında yazılmış sayısız blog yazısı, liste, forum başlığı ve sosyal medya paylaşımı var. Asistanlar bu yığından bir izlenim çıkarırken çoğu zaman tekrar eden niteliklere ve güncel görünen kaynaklara yaslanıyor gibi görünüyor. Bir mekânın kendi sitesinde ne olduğunu açıkça anlatmaması, bu izlenimin başkaları tarafından, bazen eksik ya da eski bilgiyle oluşturulması anlamına geliyor.",
@@ -3052,7 +3052,7 @@
     "**3. ve 4. hafta:** İşletme adı, semt, mahalle, kategori ve saatlerin site, harita kaydı, sosyal hesaplar ve rezervasyon platformlarında eşitlenmesi; kapanmış eski kayıtların temizlenmesi.",
     "**2. ay:** İşletmeyi tek paragrafta tanımlayan bir bölüm, nitelikleri anlatan soru-cevaplar, karşılaştırma tabloları ve İngilizce tanıtım sayfası; uygun şema işaretlemesi.",
     "**3. ay:** Yerel yayınlar, mahalle bültenleri ve liste hazırlayan yazarlarla iletişim; listelerde eski ya da yanlış bilgi varsa düzeltme talebi.",
-    "**3. ay sonu:** [ChatGPT ve marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlattığım ilkelere göre marka tanımının gözden geçirilmesi, yazar ve tarih bilgilerinin kontrolü.",
+    "**3. ay sonu:** [ChatGPT ve marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında anlattığım ilkelere göre marka tanımının gözden geçirilmesi, yazar ve tarih bilgilerinin kontrolü.",
     "**Sonraki aylar:** Soru setinin aylık tekrarı, GA4'te yapay zekâ kaynaklı trafiğin ayrı izlenmesi ve yorumlarda öne çıkan niteliklerin takibi."
    ]
   },
@@ -3106,7 +3106,7 @@
  },
  "kagithane": {
   "alt": "Adliye çevresindeki hukuk hizmetleri, Cendere'deki ofisler ve mahalle esnafı için asistan cevaplarında doğru ve tutarlı tanınma çalışması.",
-  "desc": "Kağıthane GEO uzmanı: Çağlayan hukuk ve tercüme büroları, Cendere ofisleri, matbaalar ve mahalle esnafının yapay zekâ cevaplarında doğru anılması.",
+  "desc": "Çağlayan hukuk ve tercüme büroları, Cendere ofisleri, matbaalar ve mahalle esnafının yapay zekâ cevaplarında doğru anılması için Kağıthane GEO.",
   "giris": [
    "Kağıthane'de çalışan bir ofis yöneticisi, ertesi günkü toplantı için acil kartvizit ve broşür lazım olduğunda artık eskisi gibi tanıdık matbaayı aramıyor; asistanına \"Levent'e yakın, aynı gün teslim kurumsal baskı yapan matbaalar hangileri?\" diye yazıyor. Adliyeye gidecek biri de \"Çağlayan'da vekâletname tercümesini hızlı yapan noter yakınındaki yeminli tercüme büroları\" sorusunu soruyor. Bu cevaplarda hangi isimlerin geçtiği, ilçedeki pek çok işletmenin ertesi günkü iş akışını belirliyor.",
    "Kağıthane'nin özelliği, ilçe sınırlarının şehrin en yoğun iş merkezlerine dokunması. Mecidiyeköy, Levent ve Maslak'a yakınlık, ilçedeki işletmelerin önemli bir kısmının müşterisini ilçe dışından almasına yol açıyor. Asistanlara gelen sorular da bu yüzden çoğu zaman \"Kağıthane\" yerine yakındaki bir iş merkezinin ya da adliyenin adıyla kuruluyor. İşletmenin kendini hangi yer adlarıyla ilişkilendirdiği, bu sorularda tanınması açısından kritik.",
@@ -3243,7 +3243,7 @@
  },
  "kartal": {
   "alt": "Adliyeye ya da hastaneye bir iş için gelen ziyaretçinin acil sorularında Kartal'daki büroların ve hizmet işletmelerinin önerilmesi.",
-  "desc": "Kartal GEO uzmanı: Anadolu Adliyesi ve hastaneler çevresindeki büroların, sahil işletmelerinin yapay zekâ asistanlarının cevaplarında doğru anılması.",
+  "desc": "Anadolu Adliyesi ve hastaneler çevresindeki bürolar ile sahil işletmeleri yapay zekâ asistanlarında doğru anılsın diye Kartal GEO danışmanlığı.",
   "giris": [
    "Kartal'a gelen insanların önemli bir kısmı buraya gezmek için değil, bir işi halletmek için geliyor. Duruşması olan biri, hasta yakınını ziyarete gelen biri, belge tercümesi yaptırması gereken biri. Bu kişiler çoğu zaman acele içinde ve soruyu telefonlarındaki asistana olduğu gibi soruyorlar: \"Anadolu Adliyesi'ne yakın, bugün içinde noter onaylı tercüme yapabilecek bir büro var mı?\" Gelen cevapta adı geçen işletme, o günün ihtiyacını karşılayan işletme oluyor.",
    "Bu tür sorularda asistanın elindeki bilginin net ve güncel olması özellikle önemli. Saatleri belirsiz, hizmet kapsamı yalnızca \"tercüme hizmetleri\" diye yazılmış ya da adresi eski bir dizinde farklı görünen bir büro, aceleyle soran birine güvenle önerilecek bir aday olmaktan çıkıyor. Asistanlar bu durumda genellikle daha genel bir cevap veriyor ya da bilgisi daha tutarlı olan başka bir işletmeyi öne çıkarıyor gibi görünüyor.",
@@ -3325,7 +3325,7 @@
     "**3. ve 4. hafta:** Unvan, işletme adı, adres, kategori ve çalışma saatlerinin site, harita kaydı, meslek dizinleri ve sosyal hesaplarda eşitlenmesi; taşınma sonrası kalan eski kayıtların temizlenmesi.",
     "**2. ay:** Hizmet kapsamını ve süreci anlatan soru-cevap bölümleri, adliye veya hastaneye uzaklık bilgisi, uzman profilleri ve uygun şema işaretlemesi.",
     "**2. ay sonu:** Hukuk ve sağlık alanındaki içeriklerin meslek kurallarına ve doğruluk ilkesine göre gözden geçirilmesi, yazar ve tarih bilgisinin eklenmesi.",
-    "**3. ay:** Yerel haber siteleri, meslek kuruluşu dizinleri ve mahalle kaynaklarında doğru bilgiyle anılmak için iletişim planı; [Google Business Profile](/blog/google-business-profile) kaydının ayrıntılandırılması.",
+    "**3. ay:** Yerel haber siteleri, meslek kuruluşu dizinleri ve mahalle kaynaklarında doğru bilgiyle anılmak için iletişim planı; [Google Business Profile](/google-business-profile) kaydının ayrıntılandırılması.",
     "**Sonraki aylar:** Soru setinin aylık tekrarı, GA4'te yapay zekâ kaynaklı oturumların ayrı izlenmesi ve telefonla gelen müşterilere kanal sorusunun eklenmesi."
    ]
   },
@@ -3369,7 +3369,7 @@
    },
    {
     "s": "Kartal'daki bir işletme llms.txt dosyası kullanmalı mı?",
-    "c": "Bu dosyanın asistanlar tarafından nasıl ve ne ölçüde kullanıldığı henüz net değil. Kurulumu basit olduğundan bazı siteler için denemeye değer, ama önceliği her zaman sitedeki açık içerik ve tutarlı bilgiye vermek gerekiyor. Dosyanın ne işe yarayıp yaramadığına dair değerlendirmemi [llms.txt yazısında](/blog/llms-txt-rehberi) bulabilirsiniz."
+    "c": "Bu dosyanın asistanlar tarafından nasıl ve ne ölçüde kullanıldığı henüz net değil. Kurulumu basit olduğundan bazı siteler için denemeye değer, ama önceliği her zaman sitedeki açık içerik ve tutarlı bilgiye vermek gerekiyor. Dosyanın ne işe yarayıp yaramadığına dair değerlendirmemi [llms.txt yazısında](/llms-txt-rehberi) bulabilirsiniz."
    },
    {
     "s": "Çalışmanın etkisini nasıl izliyorsunuz?",
@@ -3379,7 +3379,7 @@
  },
  "kucukcekmece": {
   "alt": "Halkalı'da lojistik ortağı arayan ihracatçıdan Atakent'te veteriner soran aileye, asistan tavsiyelerinde doğru anılmak için yapılanlar.",
-  "desc": "Küçükçekmece GEO uzmanı: Halkalı lojistik firmaları, Sefaköy esnafı ve Atakent aile hizmetlerinin ChatGPT, Gemini ve AI Overviews cevaplarında tanınması.",
+  "desc": "Halkalı lojistik firmaları, Sefaköy esnafı ve Atakent aile hizmetleri ChatGPT, Gemini ve Google AI özetlerinde tanınsın diye Küçükçekmece GEO desteği.",
   "giris": [
    "Anadolu'da bir mobilya üreticisi ilk kez Avrupa'ya parsiyel yük göndermeye karar verdiğinde asistanına şöyle yazabiliyor: \"Halkalı'da Almanya'ya parsiyel taşıma yapan, gümrük işlemlerini de takip eden lojistik firmaları hangileri?\" Aynı gün Atakent'te oturan biri de \"Küçükçekmece'de gece açık olan, kedilerde deneyimli bir veteriner\" arıyor. İlçe aynı, soru sahibi ve beklenti tamamen farklı.",
    "Küçükçekmece'nin nüfusu ve coğrafyası, bu farklılığı daha da belirgin kılıyor. D-100, metrobüs ve Marmaray'ın Halkalı istasyonu ilçeyi şehir geneline açarken, göl kıyısından Atakent'in sitelerine, Sefaköy çarşısından Cennet ve Kanarya gibi kalabalık mahallelere kadar uzanan geniş bir yerleşim alanı var. Asistanların bir işletmeyi tavsiye etmesi için önce onun bu geniş haritanın neresinde ve kime hizmet ettiğini anlaması gerekiyor.",
@@ -3510,13 +3510,13 @@
    },
    {
     "s": "Küçükçekmece'de birden fazla şubemiz var, asistanlarda karışıklık olur mu?",
-    "c": "Şubelerin her biri için ad, adres ve hizmet bilgisinin ayrı ve net biçimde yer alması karışıklığı azaltıyor. Sitenizde her şube için kısa bir tanım ve iletişim bilgisi bulunması, asistanların doğru şubeyi doğru semtle eşleştirmesine yardım edebilir. [Google Business Profile yazımda](/blog/google-business-profile) çoklu konum kayıtlarını ayrıca ele aldım."
+    "c": "Şubelerin her biri için ad, adres ve hizmet bilgisinin ayrı ve net biçimde yer alması karışıklığı azaltıyor. Sitenizde her şube için kısa bir tanım ve iletişim bilgisi bulunması, asistanların doğru şubeyi doğru semtle eşleştirmesine yardım edebilir. [Google Business Profile yazımda](/google-business-profile) çoklu konum kayıtlarını ayrıca ele aldım."
    }
   ]
  },
  "maltepe": {
   "alt": "Aileler, üniversite öğrencileri ve sahile inen hafta sonu kalabalığı yapay zekâya sorduğunda Maltepe işletmelerinin cevaba girmesi.",
-  "desc": "Maltepe GEO uzmanı: Küçükyalı, İdealtepe, Cevizli ve sahil hattındaki klinik, kurs, yurt ve kafelerin yapay zekâ önerilerinde doğru tanıtılması.",
+  "desc": "Küçükyalı, İdealtepe, Cevizli ve sahildeki klinik, kurs, yurt ve kafelerin ChatGPT ve Gemini önerilerinde doğru tanıtılması için Maltepe GEO planı.",
   "giris": [
    "Maltepe'de bir annenin akşam yemeğinden sonra telefonuna yazdığı soru şöyle olabilir: \"Oğlum dokuzuncu sınıfa geçti, matematikte zorlanıyor; Maltepe'de birebir ders veren, hafta sonu da çalışan, deneme dersi yapan bir etüt merkezi önerir misin?\" Aynı saatlerde bir üniversite öğrencisi \"Maltepe'de kampüse otobüsle yirmi dakikada gidebileceğim, uygun fiyatlı bir öğrenci evi nasıl bulurum?\" diye soruyor. İki soru da ayrıntılı, koşullu ve tavsiye bekliyor.",
    "Bu tür sorulara verilen cevaplarda birkaç işletme adı geçiyor ve kullanıcı genellikle bunlardan başlıyor. Maltepe gibi büyük ve kalabalık bir ilçede aynı hizmeti veren onlarca işletme bulunduğu için, asistanın hangisini anacağı önemli bir soru. Gözlemlediğim kadarıyla cevaplarda öne çıkan işletmeler, hizmetini ve koşullarını açıkça anlatan, bilgisi farklı platformlarda birbirini tutan ve yorumlarında somut deneyimler bulunan işletmeler oluyor.",
@@ -3653,7 +3653,7 @@
  },
  "pendik": {
   "alt": "Havalimanına inen yolcudan Teknopark'ta tedarikçi arayan mühendise, Pendik'te yapay zekâya sorulan soruların cevabında yer almak.",
-  "desc": "Pendik GEO uzmanı: Kurtköy, sahil ve Teknopark işletmelerinin ChatGPT, Gemini ve Google yapay zekâ özetlerinde doğru tanıtılması için çalışma planı.",
+  "desc": "Kurtköy, sahil şeridi ve Teknopark'taki işletmelerin ChatGPT, Gemini ve Google AI özetlerinde doğru tanıtılması için Pendik'e özel GEO çalışma planı.",
   "giris": [
    "Sabiha Gökçen'e gece yarısı inen bir yolcu artık çoğu zaman haritayı açmadan önce telefonundaki asistana yazıyor: “Havalimanına yakın, sabaha kadar resepsiyonu açık, sessiz bir otel söyler misin?” Gelen cevapta üç dört işletme adı, kısa bir gerekçe ve bazen bir kaynak bağlantısı oluyor. Pendik'teki bir otelin, transfer firmasının ya da kafenin o kısa listeye girip girmemesi, benim GEO çalışmasında uğraştığım asıl meseledir.",
    "Bu iş klasik sıralama mücadelesinden biraz farklı işliyor. Asistan bir arama sonuç sayfası göstermiyor; okuduğu kaynaklardan bir özet kuruyor ve o özette kimin adını anacağına kendisi karar veriyor. Dolayısıyla işletmenizin internetteki izlerinin birbirini doğrulaması, yorumlarda neyle övüldüğünüzün açıkça okunabilmesi ve sitenizde sorulara düz cümlelerle cevap verilmesi gerekiyor.",
@@ -3782,13 +3782,13 @@
    },
    {
     "s": "GEO çalışması için bir firma seçerken nelere dikkat etmeliyim?",
-    "c": "Ölçüm yöntemini açıkça anlatıp anlatmadığına, belirli bir sıralama ya da anılma vaadi verip vermediğine ve hangi kaynakları düzeltmeyi önerdiğine bakın. Bu konudaki kontrol listemi [GEO ajansı nasıl seçilir](/blog/geo-ajansi-nasil-secilir) yazısında topladım."
+    "c": "Ölçüm yöntemini açıkça anlatıp anlatmadığına, belirli bir sıralama ya da anılma vaadi verip vermediğine ve hangi kaynakları düzeltmeyi önerdiğine bakın. Bu konudaki kontrol listemi [GEO ajansı nasıl seçilir](/geo-ajansi-nasil-secilir) yazısında topladım."
    }
   ]
  },
  "sancaktepe": {
   "alt": "Yeni taşınan ailelerin asistana danıştığı kreşten tadilat ustasına, Sancaktepe işletmelerini yapay zekâ tavsiyelerine taşımak.",
-  "desc": "Sancaktepe GEO uzmanı: Sarıgazi, Samandıra ve Yenidoğan işletmelerinin yapay zekâ asistanlarında doğru anılması ve tavsiye edilmesi için yerel strateji.",
+  "desc": "Sarıgazi, Samandıra ve Yenidoğan'daki işletmeler yapay zekâ asistanlarında doğru anılıp tavsiye edilsin diye Sancaktepe için yerel GEO stratejisi.",
   "giris": [
    "Sancaktepe'ye yeni taşınan bir aile, ilk haftasında genellikle onlarca küçük soruyla uğraşıyor: evin yakınında hangi kreş güvenilir, perdeyi kim ölçüye gelip diker, çocuk doktoru için nereye gidilir? Bu soruların bir kısmı artık komşuya değil, telefondaki yapay zekâ asistanına soruluyor. Asistanın verdiği kısa tavsiye listesi, mahalle esnafı için yeni bir vitrine dönüşmüş durumda.",
    "Benim bu ilçedeki GEO çalışmam tam olarak o vitrini hedefliyor. Asistanlar bir işletmeyi önerirken genellikle tutarlı işletme bilgisine, yorumlarda anlatılan somut deneyimlere ve web sitesinde açıkça yazılmış cevaplara yaslanıyor. Sancaktepe'de birçok işletme uzun yıllar ağızdan ağıza büyüdüğü için bu dijital izler ya eksik ya da birbiriyle çelişkili kalmış oluyor.",
@@ -3866,7 +3866,7 @@
    "baslik": "Sancaktepe'deki İşletmeler İçin Uygulama Sırası",
    "adimlar": [
     "**İlk 2 hafta:** İşletmenin müşterilerinin ağzından çıkabilecek yirmi otuz soruluk set hazırlanıyor. Mahalle adı, aciliyet ve özel beklenti içeren cümleler ayrı işaretleniyor; her biri farklı asistanlara sorulup cevaplar tarihli bir tabloya işleniyor.",
-    "**3. ve 4. hafta:** Dijital künye taraması. Ad, adres, telefon ve kategori Google profili, harita servisleri, yerel rehberler ve sosyal hesaplarda karşılaştırılıyor. Profil tarafındaki ayrıntılar için [Google Business Profile yazısı](/blog/google-business-profile) iyi bir başlangıç noktası.",
+    "**3. ve 4. hafta:** Dijital künye taraması. Ad, adres, telefon ve kategori Google profili, harita servisleri, yerel rehberler ve sosyal hesaplarda karşılaştırılıyor. Profil tarafındaki ayrıntılar için [Google Business Profile yazısı](/google-business-profile) iyi bir başlangıç noktası.",
     "**2. ay:** Sitedeki ana sayfaların soru-cevap mantığıyla yeniden yazılması. Her hizmet için net bir tanım cümlesi, fiyatı etkileyen unsurların açıklaması ve sayfayı kimin hazırladığı bilgisi ekleniyor; uygun yerlere şema işaretlemesi kuruluyor.",
     "**3. ay:** Bağlam kazanımı. İlçe haber siteleri, site yönetimi duyuru panoları dışında açık yayınlanan rehberler, sektör listeleri gibi işletmeye uyan kaynaklarda doğru künyeyle yer alma çalışması yürütülüyor.",
     "**3. ay sonu:** Yorum dili üzerinde çalışma. Müşterilerden deneyim anlatmaları isteniyor, olumsuz geri bildirimlere sorunu ve çözümü anlatan cevaplar yazılıyor.",
@@ -3913,13 +3913,13 @@
    },
    {
     "s": "llms.txt dosyası Sancaktepe'deki küçük bir işletme için gerekli mi?",
-    "c": "Küçük bir yerel işletme için öncelikli iş değil; asistanların bu dosyayı nasıl kullandığı da ürüne göre belirsiz. Önce işletme bilgisi, yorumlar ve sitedeki cevaplar düzene girmeli. Dosyanın ne olduğunu merak ediyorsanız [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "c": "Küçük bir yerel işletme için öncelikli iş değil; asistanların bu dosyayı nasıl kullandığı da ürüne göre belirsiz. Önce işletme bilgisi, yorumlar ve sitedeki cevaplar düzene girmeli. Dosyanın ne olduğunu merak ediyorsanız [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    }
   ]
  },
  "sariyer": {
   "alt": "Maslak'taki tedarikçi araştırmasından Boğaz'da akşam yemeği önerisine, Sarıyer işletmelerinin yapay zekâ cevaplarında nasıl anıldığı.",
-  "desc": "Sarıyer GEO uzmanı: Maslak firmaları, Boğaz kıyısı mekânları ve Zekeriyaköy okulları için ChatGPT, Gemini ve AI Overviews cevaplarında anılma çalışması.",
+  "desc": "Maslak firmaları, Boğaz kıyısı mekânları ve Zekeriyaköy okulları ChatGPT, Gemini ve Google AI özetlerinde anılsın diye Sarıyer'e özel GEO çalışması.",
   "giris": [
    "Birisi telefonuna \"Cumartesi akşamı Boğaz'a bakan, çok gürültülü olmayan bir balık restoranı öner, Sarıyer tarafı olsun\" yazdığında karşısına on mavi bağlantı çıkmıyor; birkaç mekân adı, kısa gerekçeler ve bazen kaynak bağlantıları çıkıyor. Sarıyer'de GEO çalışmasını ben tam olarak bu kısa listeye girme meselesi olarak görüyorum. Liste kısa olduğu için orada yer almayan işletme, kullanıcının gözünde o an hiç var olmuyor.",
    "İlçenin yapısı bu işi ilginç kılıyor. Maslak'ta bir satın alma müdürü asistana \"Avrupa yakasında ofisi olan, KVKK uyum projelerinde deneyimli danışmanlık firmaları hangileri?\" diye sorabiliyor. Aynı gün Tarabya'da nişan yeri arayan bir çift ya da Zekeriyaköy'de anaokulu karşılaştıran bir veli de benzer bir sohbet başlatıyor. Üç sorunun ortak noktası, cevabın tek bir web sitesinden değil, işletme hakkında farklı yerlerde yazılmış bilgilerin toplamından üretilmesi.",
@@ -4050,13 +4050,13 @@
    },
    {
     "s": "Sarıyer'deki bir işletme için GEO, SEO'nun yerine mi geçiyor?",
-    "c": "Hayır, ikisi birbirini tamamlıyor. Teknik açıdan sağlıklı ve iyi içerikli bir site, asistanların başvurabileceği kaynakların da temelini oluşturuyor. GEO bunun üzerine soru setiyle ölçüm, varlık netliği ve üçüncü taraf bahisleri ekliyor; danışman seçerken neye bakılacağını [bu yazıda](/blog/geo-ajansi-nasil-secilir) anlattım."
+    "c": "Hayır, ikisi birbirini tamamlıyor. Teknik açıdan sağlıklı ve iyi içerikli bir site, asistanların başvurabileceği kaynakların da temelini oluşturuyor. GEO bunun üzerine soru setiyle ölçüm, varlık netliği ve üçüncü taraf bahisleri ekliyor; danışman seçerken neye bakılacağını [bu yazıda](/geo-ajansi-nasil-secilir) anlattım."
    }
   ]
  },
  "sile": {
   "alt": "Hafta sonu planını yapay zekâya yaptıran İstanbullunun sorularında Ağva bungalovlarının ve Şile pansiyonlarının anılması üzerine.",
-  "desc": "Şile GEO uzmanı: Ağva bungalovları, Şile pansiyonları ve Şile bezi üreticilerinin yapay zekâ asistanlarının tatil tavsiyelerinde doğru anlatılması.",
+  "desc": "Ağva bungalovları, Şile pansiyonları ve Şile bezi üreticileri ChatGPT ve Gemini tatil tavsiyelerinde doğru anlatılsın diye sezona duyarlı GEO desteği.",
   "giris": [
    "Cuma akşamı İstanbul'da biri asistanına şöyle yazıyor: “Bu hafta sonu şehirden kaçmak istiyoruz, iki yetişkin bir köpek, Ağva'da dere kenarında köpek kabul eden bir bungalov önerebilir misin?” Cevap birkaç saniyede geliyor; içinde iki üç tesis adı, birkaç cümlelik gerekçe ve yol hakkında kısa bir not oluyor. Şile'deki konaklama ve yeme-içme işletmeleri için bu kısa paragraf, büyük ölçüde hafta sonunun doluluğunu etkileyen yeni bir karar anı.",
    "Şile'de GEO çalışmasını özel kılan şey, soruların neredeyse tamamının bir deneyim tarifi içermesi. İnsanlar yalnızca “otel” sormuyor; şömineli, jakuzili, denize yürüme mesafesinde, çocuklu aileye uygun, kışın da sıcak tutan bir yer arıyor. Asistanın bu nitelikleri bir işletmeye bağlayabilmesi için o niteliklerin işletmenin sitesinde, profilinde ve misafir yorumlarında açıkça geçmesi gerekiyor.",
@@ -4185,7 +4185,7 @@
  },
  "silivri": {
   "alt": "Yazlıkçının acil usta sorusundan köy ürünü siparişine, Silivri işletmelerinin yapay zekâ asistanlarında doğru tarif edilmesi.",
-  "desc": "Silivri GEO uzmanı: sahil siteleri, emlak, köy ürünleri ve D-100 esnafı için ChatGPT, Gemini ve AI Overviews cevaplarında doğru anılma ve ölçüm.",
+  "desc": "Sahil siteleri, emlak ofisleri, köy ürünleri ve D-100 esnafı için ChatGPT, Gemini ve Google AI özetlerinde doğru anılma ve ölçüm, Silivri GEO.",
   "giris": [
    "Silivri'de yaz başında bir siteye yerleşen aile, eskiden komşuya sorduğu soruyu artık telefonundaki asistana da yöneltiyor: \"Selimpaşa'da pazar günü gelebilecek, klima gaz dolumu yapan biri var mı?\" Bu tür bir soruya gelen cevap birkaç isim ve kısa açıklamadan oluşuyor. Silivri gibi merkeze uzak, yerleşimleri dağınık bir ilçede bu kısa listede yer almak, bir hizmet işletmesi için sezonun nasıl geçeceğini doğrudan etkileyebiliyor.",
    "İlçenin bir başka özelliği, dışarıdan araştırma yapan kalabalık bir kitlesinin olması. İstanbul'un başka semtlerinde yaşayan biri hafta sonu kahvaltısı için Silivri köylerini, emekliliğinde yerleşmek için sahil yerleşimlerini ya da bir çiftlikten doğrudan peynir almayı düşünüyor. Bu kişi ilçeyi tanımadığı için asistandan yalnızca isim değil, açıklama da bekliyor: Hangi köy nerede, yol ne kadar sürer, hangi üretici güvenilir?",
@@ -4281,7 +4281,7 @@
     "Kapanan ya da el değiştiren sahil işletmelerinin eski profillerinin açık kalması. Kullanıcıya artık var olmayan bir mekân ya da eski işletmecinin bilgisi önerilebiliyor."
    ]
   },
-  "kapanis": "Silivri'de yazlık sitelere hizmet veren bir usta, bölge rehberi yazmak isteyen bir emlak ofisi ya da köyünden ürün gönderen bir üretici olun, ilk görüşmede müşterinizin asistana ne sorduğunu birlikte çıkarırız. Yaklaşımımın tamamı [İstanbul GEO uzmanı](/geo-uzmani) sayfasında, ilçedeki klasik arama çalışması ise [Silivri SEO uzmanı](/silivri-seo-uzmani) sayfasında anlatılıyor. Harita profilinin temelleri için [Google Business Profile yazısına](/blog/google-business-profile) göz atabilir, görüşme için [iletişim](/iletisim) sayfasını kullanabilirsiniz.",
+  "kapanis": "Silivri'de yazlık sitelere hizmet veren bir usta, bölge rehberi yazmak isteyen bir emlak ofisi ya da köyünden ürün gönderen bir üretici olun, ilk görüşmede müşterinizin asistana ne sorduğunu birlikte çıkarırız. Yaklaşımımın tamamı [İstanbul GEO uzmanı](/geo-uzmani) sayfasında, ilçedeki klasik arama çalışması ise [Silivri SEO uzmanı](/silivri-seo-uzmani) sayfasında anlatılıyor. Harita profilinin temelleri için [Google Business Profile yazısına](/google-business-profile) göz atabilir, görüşme için [iletişim](/iletisim) sayfasını kullanabilirsiniz.",
   "komsular": [
    "buyukcekmece",
    "catalca"
@@ -4297,7 +4297,7 @@
    },
    {
     "s": "Değirmenköy'de üretim yapan küçük bir işletme için llms.txt dosyası gerekli mi?",
-    "c": "Küçük bir işletme için öncelik, sitede doğru ve açık bilginin bulunması. llms.txt, yapay zekâ araçlarına sitenin önemli sayfalarını özetleyen bir dosya önerisi ve bu öneriye verilen destek araçtan araca değişebiliyor. Site kurulduktan sonra eklenebilir; ayrıntıları [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "c": "Küçük bir işletme için öncelik, sitede doğru ve açık bilginin bulunması. llms.txt, yapay zekâ araçlarına sitenin önemli sayfalarını özetleyen bir dosya önerisi ve bu öneriye verilen destek araçtan araca değişebiliyor. Site kurulduktan sonra eklenebilir; ayrıntıları [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    },
    {
     "s": "D-100 üzerindeki bir işletmenin asistanlarda yanlış adresle anılmasının sebebi ne olabilir?",
@@ -4319,7 +4319,7 @@
  },
  "sisli": {
   "alt": "Nişantaşı kliniklerine yabancı dilde gelen sorulardan Osmanbey toptancılarına, Şişli işletmelerinin asistan cevaplarında anılması.",
-  "desc": "Şişli GEO uzmanı: Nişantaşı klinikleri, Osmanbey toptancıları, Mecidiyeköy ofisleri ve Bomonti mekânları için yapay zekâ cevaplarında çok dilli görünürlük.",
+  "desc": "Nişantaşı klinikleri, Osmanbey toptancıları, Mecidiyeköy ofisleri ve Bomonti mekânları için çok dilli yapay zekâ cevaplarında görünürlük, Şişli GEO.",
   "giris": [
    "Londra'da yaşayan biri bir asistana \"Is there a dermatology clinic in Nişantaşı where I can book an appointment in English?\" diye yazıyor; Mecidiyeköy'de çalışan bir insan kaynakları müdürü ise \"Şişli'de ofisi olan, yabancı çalışan izni konusunda deneyimli bir danışmanlık firması önerir misin?\" diye soruyor. İki soru da Şişli'deki bir işletmeye çıkıyor ama ikisinin cevabı da birkaç isim ve kısa gerekçeden ibaret. Şişli'de GEO çalışması, bu kısa cevaplarda doğru bilgiyle yer almanın yollarını aramak demek.",
    "İlçenin yoğunluğu burada iki yönlü çalışıyor. Bir yandan Şişli'de hemen her sektörde çok sayıda işletme var ve bunların bir kısmı yıllardır basında, listelerde, forumlarda anılıyor; asistanlar da cevap oluştururken bu birikimden yararlanabiliyor. Öte yandan işletmeler çoğu zaman aynı caddede, hatta aynı binada bulunduğu için ad ve adres karışıklıkları sık yaşanıyor. Yeni bir işletme için hem bilinirlik açığını kapatmak hem de komşularından ayırt edilebilmek gerekiyor.",
@@ -4454,7 +4454,7 @@
  },
  "sultanbeyli": {
   "alt": "Çeyiz alışverişinden düğün salonu seçimine, Sultanbeyli esnafının yapay zekâ asistanlarının tavsiyelerinde adıyla geçmesi için.",
-  "desc": "Sultanbeyli GEO uzmanı: Fatih Bulvarı esnafı, düğün ve çeyiz işletmelerinin ChatGPT ve Gemini gibi yapay zekâ cevaplarında doğru tavsiye edilmesi.",
+  "desc": "Fatih Bulvarı esnafı ile düğün ve çeyiz işletmelerinin ChatGPT, Gemini ve Google AI özetlerinde doğru tavsiye edilmesi için Sultanbeyli GEO çalışması.",
   "giris": [
    "Sultanbeyli'de bir aile düğün hazırlığına başladığında yapılacaklar listesi uzayıp gidiyor: salon, çeyiz, mobilya, beyaz eşya, kuaför, fotoğrafçı. Bu listenin her satırı için eskiden akrabalara ve komşulara danışılırdı. Şimdi aynı danışmanın bir kısmı yapay zekâ asistanlarıyla yapılıyor ve “Sultanbeyli'de bütçesi makul, iki yüz kişilik düğün salonu hangileri?” gibi bir soruya gelen cevap, işletmeler için yeni bir rekabet alanı açıyor.",
    "İlçenin ticari yapısı büyük ölçüde yakın çevreye hizmet eden esnaftan oluşuyor ve bu esnafın önemli bir kısmı dijitalde yalnızca bir sosyal medya hesabıyla temsil ediliyor. Asistanlar bir işletmeyi tavsiye ederken genellikle birden fazla kaynakta tutarlı bilgi, içerikli yorumlar ve açık cevaplar arıyor gibi davranıyor. Sosyal medyadaki görseller ne kadar güzel olursa olsun, yazıyla anlatılmayan bilgi bu tavsiyelere pek yansımıyor.",
@@ -4549,7 +4549,7 @@
     "Yorumlara hiç yanıt vermemek. Özellikle olumsuz bir deneyimin cevapsız kalması, işletmenin iletişim tarzına dair asistanın çıkarabileceği tek ipucunun olumsuz olmasına yol açıyor."
    ]
   },
-  "kapanis": "Sultanbeyli'deki işletmenizin bugün asistan cevaplarında nasıl geçtiğini birlikte kaydederek yola çıkabiliriz. Genel çalışma yöntemimi [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve organik arama tarafını ise [Sultanbeyli SEO uzmanı](/sultanbeyli-seo-uzmani) sayfasında anlattım. ChatGPT özelinde marka görünürlüğünü merak ediyorsanız [bu yazıya](/blog/chatgpt-marka-gorunurlugu) da göz atabilirsiniz.",
+  "kapanis": "Sultanbeyli'deki işletmenizin bugün asistan cevaplarında nasıl geçtiğini birlikte kaydederek yola çıkabiliriz. Genel çalışma yöntemimi [GEO danışmanlığı](/geo-uzmani) sayfasında, harita ve organik arama tarafını ise [Sultanbeyli SEO uzmanı](/sultanbeyli-seo-uzmani) sayfasında anlattım. ChatGPT özelinde marka görünürlüğünü merak ediyorsanız [bu yazıya](/chatgpt-marka-gorunurlugu) da göz atabilirsiniz.",
   "komsular": [
    "pendik",
    "sancaktepe",
@@ -4584,7 +4584,7 @@
  },
  "sultangazi": {
   "alt": "Mahalle esnafı, kurslar ve atölyeler için: Sultangazi'de yapay zekâ asistanına sorulan yakınlık ve güven sorularında doğru anılmak.",
-  "desc": "Sultangazi GEO uzmanı: klinik, kurs, usta ve atölyelerin ChatGPT, Gemini ve Google yapay zekâ özetlerinde doğru bilgiyle anılması için yerel çalışma.",
+  "desc": "Klinik, kurs, usta ve atölyelerin ChatGPT, Gemini ve Google AI özetlerinde doğru bilgiyle anılması için Sultangazi'ye özel yerel GEO çalışması.",
   "giris": [
    "Sultangazi'de bir anne, akşam çocuğunu yatırdıktan sonra telefonundaki asistana şöyle yazabiliyor: \"50. Yıl'a yakın, LGS'ye hazırlayan, sınıfları kalabalık olmayan bir etüt merkezi önerir misin?\" Ya da bir esnaf, dükkânın kepengi bozulduğunda \"Habipler'de hemen gelebilecek kepenk tamircisi\" diye soruyor. Bu soruların cevabında üç dört işletme adı ve kısa bir gerekçe yer alıyor. Mahalle ölçeğinde rekabet eden bir ilçede bu kısa cevaba girmek, aynı caddedeki rakipler arasında fark yaratmanın yeni bir yolu.",
    "Asistanlar böyle bir cevabı kurarken işletmenin kendi sitesine, harita profiline, yorumlarına ve hakkında başka yerlerde yazılanlara bakabiliyor. Sultangazi'deki pek çok işletmenin sorunu kötü yorum değil, hakkında yazılmış bilginin azlığı. Profil var ama açıklama boş; sosyal hesap var ama adres yok; yorumlar var ama hepsi tek kelimelik. Asistanın elinde işletmeyi diğerlerinden ayıracak bir ayrıntı kalmıyor.",
@@ -4680,7 +4680,7 @@
     "Yorum karşılığında indirim ya da hediye teklif etmek. Bu hem platform kurallarına aykırı hem de yorumların güvenilirliğini zayıflatıyor; doğal ve ayrıntılı yorumlar asistanlar için daha değerli bir sinyal."
    ]
   },
-  "kapanis": "Sultangazi'de bir klinik, kurs, usta ya da atölye işletiyorsanız ilk görüşmede müşterilerinizin asistana ne sorduğunu birlikte yazar, bugünkü cevapları kaydederiz. Yöntemimin genel çerçevesi [İstanbul GEO uzmanı](/geo-uzmani) sayfasında, ilçedeki harita ve site çalışması ise [Sultangazi SEO uzmanı](/sultangazi-seo-uzmani) sayfasında yer alıyor. Asistanlarda markanın nasıl göründüğüne dair temel bilgiler için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısını okuyabilir, uygun bir zamanda [randevu](/randevu) alabilirsiniz.",
+  "kapanis": "Sultangazi'de bir klinik, kurs, usta ya da atölye işletiyorsanız ilk görüşmede müşterilerinizin asistana ne sorduğunu birlikte yazar, bugünkü cevapları kaydederiz. Yöntemimin genel çerçevesi [İstanbul GEO uzmanı](/geo-uzmani) sayfasında, ilçedeki harita ve site çalışması ise [Sultangazi SEO uzmanı](/sultangazi-seo-uzmani) sayfasında yer alıyor. Asistanlarda markanın nasıl göründüğüne dair temel bilgiler için [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısını okuyabilir, uygun bir zamanda [randevu](/randevu) alabilirsiniz.",
   "komsular": [
    "gaziosmanpasa",
    "eyupsultan",
@@ -4714,13 +4714,13 @@
    },
    {
     "s": "Sultangazi'deki işletmem için GEO danışmanı seçerken neye dikkat etmeliyim?",
-    "c": "Kesin sıra ya da anılma vaadi verenlerden uzak durmak, ölçüm yöntemini ve soru setini nasıl kuracağını açıkça anlatabilen birini seçmek iyi bir başlangıç. Ayrıntılı ölçütleri [GEO ajansı nasıl seçilir](/blog/geo-ajansi-nasil-secilir) yazısında topladım."
+    "c": "Kesin sıra ya da anılma vaadi verenlerden uzak durmak, ölçüm yöntemini ve soru setini nasıl kuracağını açıkça anlatabilen birini seçmek iyi bir başlangıç. Ayrıntılı ölçütleri [GEO ajansı nasıl seçilir](/geo-ajansi-nasil-secilir) yazısında topladım."
    }
   ]
  },
  "tuzla": {
   "alt": "Armatörün İngilizce sorusundan OSB satın almacısının tedarikçi kıyaslamasına, Tuzla firmalarını yapay zekâ cevaplarında doğru konumlamak.",
-  "desc": "Tuzla GEO uzmanı: tersane, İTOSB ve kimya-deri sanayi firmalarının yapay zekâ asistanlarındaki tedarikçi araştırmalarında doğru anılması için strateji.",
+  "desc": "Tersane, İTOSB ve kimya ile deri sanayi firmalarının yapay zekâ asistanlarındaki tedarikçi araştırmalarında doğru anılması için Tuzla GEO stratejisi.",
   "giris": [
    "Pire'deki bir teknik müdür, gemisinin Tuzla'da havuzlanması gerekeceğini öğrendiğinde ilk araştırmasını giderek daha sık bir yapay zekâ asistanıyla yapıyor olabilir: “Which repair yards in Tuzla can handle propeller polishing and shaft alignment during a short dry-docking?” Gelen cevapta bir avuç firma adı ve kısa açıklamalar yer alıyor. Tuzla'daki bir atölye için o listede bulunmak, tanıdık acente zincirinin dışından iş gelmesinin yeni bir yolu.",
    "Tuzla'nın ekonomisi ağırlıklı olarak işletmeler arası ilişkilere dayanıyor: tersaneler, organize sanayi bölgeleri, kimya ve deri üreticileri, lojistik firmaları. Bu firmaların müşterileri karar vermeden önce uzun bir araştırma süreci geçiriyor ve bu sürecin bir bölümü asistanlarla yapılan karşılaştırmalı sohbetlere kayıyor. Asistanlar bu tür sorularda genellikle teknik yetkinliği açıkça anlatan sayfalara, sektör dizinlerine ve firmadan bahseden bağımsız kaynaklara dayanıyor gibi davranıyor.",
@@ -4840,7 +4840,7 @@
    },
    {
     "s": "llms.txt dosyası bir sanayi firması için faydalı olur mu?",
-    "c": "Asistanların bu dosyayı nasıl ve ne ölçüde kullandığı ürüne göre belirsiz, bu yüzden öncelik listesinin başına koymuyorum. Teknik sayfalarınız ve firma kimliğiniz düzene girdikten sonra eklenebilecek tamamlayıcı bir adım olarak görüyorum. Ayrıntıları [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "c": "Asistanların bu dosyayı nasıl ve ne ölçüde kullandığı ürüne göre belirsiz, bu yüzden öncelik listesinin başına koymuyorum. Teknik sayfalarınız ve firma kimliğiniz düzene girdikten sonra eklenebilecek tamamlayıcı bir adım olarak görüyorum. Ayrıntıları [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    },
    {
     "s": "Tuzla sahilindeki restoranım için de bu çalışma uygulanabilir mi?",
@@ -4850,7 +4850,7 @@
  },
  "umraniye": {
   "alt": "Şerifali'deki yazılım ekibinden Dudullu'daki ambalaj üreticisine ve Atakent'teki veterinere, Ümraniye'de yapay zekâ cevaplarına girmek.",
-  "desc": "Ümraniye GEO uzmanı: Şerifali kurumsal firmaları, Dudullu OSB üreticileri ve çarşı esnafının yapay zekâ asistanlarında doğru anlatılması için çalışma.",
+  "desc": "Şerifali'deki kurumsal firmalar, Dudullu OSB üreticileri ve çarşı esnafı ChatGPT ile Gemini cevaplarında doğru anlatılsın diye Ümraniye GEO desteği.",
   "giris": [
    "Ümraniye'de bir gün içinde asistanlara sorulabilecek soruları yan yana koyunca ilçenin ne kadar katmanlı olduğu ortaya çıkıyor. Sabah bir BT müdürü “KOBİ'lere ERP geçişinde destek veren, İstanbul Anadolu yakasında ofisi olan yazılım firmalarını karşılaştır” diye yazıyor. Öğlen Dudullu'da bir satın almacı ambalaj tedarikçisi arıyor. Akşam Atakent'te yaşayan biri kedisi için gece açık bir veteriner kliniği soruyor. Üç soru da aynı ilçeye çıkıyor ama cevapta anılmanın koşulları birbirinden çok farklı.",
    "GEO çalışmasında işim, işletmenin bu soruların hangisinde ve hangi bilgilerle anılması gerektiğini belirleyip internetteki izlerini buna göre düzenlemek. Asistanlar bir firmayı ya da işletmeyi tavsiye ederken genellikle kendi içinde tutarlı künyeye, açıkça yazılmış yetkinliklere ve bağımsız kaynaklardaki bahislere yaslanıyor gibi davranıyor. Bunlardan biri eksik kaldığında cevap ya hiç oluşmuyor ya da rakip lehine şekilleniyor.",
@@ -4981,7 +4981,7 @@
  },
  "uskudar": {
   "alt": "Altunizade kliniklerinden Kuzguncuk kafelerine ve Kız Kulesi manzaralı mekânlara, Üsküdar'ı yapay zekâya soranların cevabında yer almak.",
-  "desc": "Üsküdar GEO uzmanı: Altunizade klinikleri, Boğaz kıyısı restoranları ve turistik işletmelerin yapay zekâ asistanlarında doğru tavsiye edilmesi için çalışma.",
+  "desc": "Altunizade klinikleri, Boğaz kıyısı restoranları ve turistik işletmeler ChatGPT ile Gemini önerilerinde doğru yer alsın diye Üsküdar GEO çalışması.",
   "giris": [
    "Üsküdar'ı yapay zekâya soran kişiler birbirine hiç benzemiyor. Biri kaygılı bir sesle “Altunizade'de ergenlik dönemindeki çocuklarla çalışan, deneyimli bir psikolog önerebilir misin?” diye yazıyor. Bir diğeri otel odasından İngilizce soruyor: “Where can I have breakfast with a view of the Maiden's Tower, somewhere locals actually go?” Üçüncüsü pazar sabahı Çengelköy'de kahvaltı yeri arıyor. İlçedeki işletmeler için bu üç sorunun cevabında anılmak, farklı hazırlıklar gerektiren ayrı hedefler.",
    "Asistanlar bir yer ya da uzman önerirken genellikle tutarlı işletme bilgisine, açıkça yazılmış uzmanlık ve hizmet ayrıntılarına, yorumların içeriğine ve bağımsız kaynaklardaki bahislere dayanıyor gibi davranıyor. Üsküdar'da sağlık ve danışmanlık alanı bu açıdan ayrı bir hassasiyet taşıyor; çünkü insanlar burada yalnızca adres değil güven arıyor ve içeriğin kimin tarafından yazıldığı önem kazanıyor.",
@@ -5107,13 +5107,13 @@
    },
    {
     "s": "GEO danışmanı seçerken nelere bakmalıyız?",
-    "c": "Ölçüm yöntemini açıkça anlatması, belirli bir anılma ya da sıralama vaadinde bulunmaması ve sağlık gibi hassas alanlarda mesleki kuralları gözetmesi önemli ölçütler. Daha ayrıntılı bir kontrol listesi için [GEO ajansı nasıl seçilir](/blog/geo-ajansi-nasil-secilir) yazısına bakabilirsiniz."
+    "c": "Ölçüm yöntemini açıkça anlatması, belirli bir anılma ya da sıralama vaadinde bulunmaması ve sağlık gibi hassas alanlarda mesleki kuralları gözetmesi önemli ölçütler. Daha ayrıntılı bir kontrol listesi için [GEO ajansı nasıl seçilir](/geo-ajansi-nasil-secilir) yazısına bakabilirsiniz."
    }
   ]
  },
  "zeytinburnu": {
   "alt": "Deri ve tekstil üreticilerine yabancı alıcıdan gelen sorulardan Orta Asya mutfağı önerilerine, Zeytinburnu için yapay zekâ görünürlüğü.",
-  "desc": "Zeytinburnu GEO uzmanı: deri ve tekstil üreticileri, Orta Asya restoranları ve mahalle işletmeleri için çok dilli yapay zekâ cevaplarında doğru anılma.",
+  "desc": "Deri ve tekstil üreticileri, Orta Asya restoranları ve mahalle işletmeleri çok dilli yapay zekâ cevaplarında doğru anılsın diye Zeytinburnu GEO.",
   "giris": [
    "Almanya'da küçük bir butik zinciri işleten biri asistana \"İstanbul'da özel etiketle deri ceket üreten, küçük siparişle çalışan üreticiler hangileri?\" diye soruyor; aynı akşam İstanbul'un başka bir semtinde oturan bir çift \"Zeytinburnu'nda gerçek Özbek pilavı yiyebileceğim aile işletmesi bir yer önerir misin?\" diye yazıyor. Zeytinburnu'nun ekonomisi bu iki soruyu aynı anda taşıyor: bir tarafta B2B üretim ve ihracat, diğer tarafta mahalle ve topluluk işletmeleri.",
    "Her iki soruda da asistan cevabını birkaç isim ve kısa açıklamayla veriyor. Bu isimler arasında yer almak için işletme hakkında farklı yerlerde yazılmış bilginin tutarlı ve anlaşılır olması gerekiyor. Zeytinburnu'nda bu tutarlılığı bozan durumlar da kendine özgü: aynı binada çok sayıda atölye, birden fazla dilde ve farklı alfabelerle yazılmış işletme adları, yemek adlarının birbirinden farklı Latin harfli yazımları.",

@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "JavaScript SEO: SPA, SSR ve Next.js Sitelerde Tarama ve Render",
  "baslik_en": "JavaScript SEO: Crawling and Rendering on SPA, SSR and Next.js Sites",
- "meta_baslik_tr": "JavaScript SEO: SPA, SSR ve Next.js'te Render",
- "meta_baslik_en": "JavaScript SEO: Rendering on SPA, SSR and Next.js",
- "meta_desc_tr": "CSR, SSR ve SSG farkı, Google'ın JavaScript'i nasıl render ettiği, URL Denetimi ile test yöntemi ve SPA ile Next.js sitelerde en sık yapılan SEO hataları.",
- "meta_desc_en": "CSR vs SSR vs SSG, how Google renders JavaScript, how to test with URL Inspection, and the SEO mistakes I see most often on SPA and Next.js sites.",
+ "meta_baslik_tr": "JavaScript SEO ve Next.js'te Render",
+ "meta_baslik_en": "JavaScript SEO and Next.js Rendering",
+ "meta_desc_tr": "CSR, SSR ve SSG farkı, Google'ın JavaScript'i nasıl render ettiği, URL Denetimi ile test ve SPA ile Next.js sitelerde en sık yapılan SEO hataları.",
+ "meta_desc_en": "CSR vs SSR vs SSG, how Google renders JavaScript, how to test with URL Inspection, and the SEO mistakes seen most often on SPA and Next.js sites.",
  "ozet_tr": "Google JavaScript'i render eder ama her zaman değil: doğru render yöntemini seçin, test edin, yaygın hatalardan kaçının.",
  "ozet_en": "Google can render JavaScript, but not everything every time: choose a rendering method, test it properly and avoid common traps.",
  "bolumler_tr": [
@@ -61,7 +61,7 @@
       ]
      }
     },
-    "Next.js'in App Router yapısında bileşenler varsayılan olarak sunucuda render edilir; sorun genellikle kritik içeriğin \"use client\" bileşenlerinde ve tarayıcıda çekilen verilerde kalmasıyla başlar. Genel tarama ve dizine ekleme mantığını [teknik SEO rehberinde](/rehber/teknik-seo) ayrıntılı anlattım."
+    "Next.js'in App Router yapısında bileşenler varsayılan olarak sunucuda render edilir; sorun genellikle kritik içeriğin \"use client\" bileşenlerinde ve tarayıcıda çekilen verilerde kalmasıyla başlar. Genel tarama ve dizine ekleme mantığını [teknik SEO rehberinde](/teknik-seo) ayrıntılı anlattım."
    ]
   },
   {
@@ -136,7 +136,7 @@
       }
      ]
     },
-    "Bu hataların çoğu Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" ya da soft 404 olarak görünür; teşhis için [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısındaki gruplama yöntemini kullanabilirsiniz. Kaynak engelleme tarafında [robots.txt yapılandırması](/blog/robots-txt) yazısı işinize yarar."
+    "Bu hataların çoğu Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" ya da soft 404 olarak görünür; teşhis için [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısındaki gruplama yöntemini kullanabilirsiniz. Kaynak engelleme tarafında [robots.txt yapılandırması](/robots-txt) yazısı işinize yarar."
    ]
   },
   {
@@ -153,7 +153,7 @@
       "Aynı kontrolü her şablondan (ürün, kategori, blog) birkaç örnekle yapın."
      ]
     },
-    "Render sorunu sayfa hızıyla da iç içe geçer: büyük JavaScript paketleri LCP ve INP değerlerini zorlar. Eşikler için [Core Web Vitals 2025 rehberi](/blog/core-web-vitals-2025) yazısına bakabilirsiniz."
+    "Render sorunu sayfa hızıyla da iç içe geçer: büyük JavaScript paketleri LCP ve INP değerlerini zorlar. Eşikler için [Core Web Vitals 2025 rehberi](/core-web-vitals-2025) yazısına bakabilirsiniz."
    ]
   },
   {
@@ -177,12 +177,12 @@
     {
      "liste": [
       "Ürün ve kategori sayfaları: SSR ya da kısa yeniden doğrulama süreli ISR. Fiyat ve stok gibi alanlar da HTML'de olmalı.",
-      "Blog ve rehber içerikleri: SSG. Yapısal veriyi de sunucuda üretin; [schema oluşturucu](/araclar/schema-olusturucu) ile JSON-LD taslağı çıkarabilirsiniz.",
+      "Blog ve rehber içerikleri: SSG. Yapısal veriyi de sunucuda üretin; [schema oluşturucu](/schema-olusturucu) ile JSON-LD taslağı çıkarabilirsiniz.",
       "Filtre ve sıralama ekranları: dizine eklenmesi istenen kombinasyonlar için gerçek URL, gerisi için parametre kontrolü.",
       "Kullanıcıya özel ekranlar: CSR, noindex gerekmez çünkü genellikle giriş gerektirir."
      ]
     },
-    "Büyük mağazalarda bu karar şablon bazında verilmeli; filtre ve varyant yapısı için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir çerçeve sunuyor. Ağır JavaScript paketlerini küçültmek ve hız bütçesi koymak [performans ve büyüme hizmeti](/performans) kapsamında ele aldığım konulardan.",
+    "Büyük mağazalarda bu karar şablon bazında verilmeli; filtre ve varyant yapısı için [e-ticaret SEO rehberi](/e-ticaret-seo) iyi bir çerçeve sunuyor. Ağır JavaScript paketlerini küçültmek ve hız bütçesi koymak [performans ve büyüme hizmeti](/performans) kapsamında ele aldığım konulardan.",
     "Next.js ya da SPA projenizde hangi şablonların risk taşıdığını görmek isterseniz [SEO uzmanı](/seo-uzmani) olarak render denetimi yapabilirim; [kısa bir görüşme](/randevu) ile başlayabiliriz."
    ]
   }
@@ -238,7 +238,7 @@
       ]
      }
     },
-    "In the Next.js App Router, components render on the server by default; trouble usually starts when critical content lives in \"use client\" components and data fetched in the browser. I cover general crawling and indexing logic in the [technical SEO guide](/en/guides/teknik-seo)."
+    "In the Next.js App Router, components render on the server by default; trouble usually starts when critical content lives in \"use client\" components and data fetched in the browser. I cover general crawling and indexing logic in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -313,7 +313,7 @@
       }
      ]
     },
-    "Most of these show up in Search Console as \"Crawled – currently not indexed\" or soft 404s; for diagnosis, use the grouping method in [fixing crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis). On the resource-blocking side, the [robots.txt configuration](/en/blog/robots-txt) article will help."
+    "Most of these show up in Search Console as \"Crawled – currently not indexed\" or soft 404s; for diagnosis, use the grouping method in [fixing crawled but not indexed pages](/en/tarandi-dizine-eklenmemis). On the resource-blocking side, the [robots.txt configuration](/en/robots-txt) article will help."
    ]
   },
   {
@@ -330,7 +330,7 @@
       "Repeat the check on a few examples from every template (product, category, blog)."
      ]
     },
-    "Large JavaScript bundles also put pressure on LCP and INP; for thresholds, see the [Core Web Vitals 2025 guide](/en/blog/core-web-vitals-2025)."
+    "Large JavaScript bundles also put pressure on LCP and INP; for thresholds, see the [Core Web Vitals 2025 guide](/en/core-web-vitals-2025)."
    ]
   },
   {
@@ -354,12 +354,12 @@
     {
      "liste": [
       "Product and category pages: SSR or ISR with a short revalidation window. Price and stock should be in the HTML too.",
-      "Blog posts and guides: SSG. Generate structured data on the server as well; the [schema generator](/en/tools/schema-generator) gives you a JSON-LD draft.",
+      "Blog posts and guides: SSG. Generate structured data on the server as well; the [schema generator](/en/schema-generator) gives you a JSON-LD draft.",
       "Filter and sort screens: real URLs for combinations you want indexed, parameter control for the rest.",
       "User-specific screens: CSR; they usually sit behind a login, so noindex is rarely needed."
      ]
     },
-    "On large stores this decision should be made per template; the [ecommerce SEO guide](/en/guides/e-ticaret-seo) offers a good framework for filters and variants. Trimming heavy bundles and setting a performance budget is part of my [performance and growth service](/en/performance-growth).",
+    "On large stores this decision should be made per template; the [ecommerce SEO guide](/en/e-ticaret-seo) offers a good framework for filters and variants. Trimming heavy bundles and setting a performance budget is part of my [performance and growth service](/en/performance-growth).",
     "If you want to know which templates on your Next.js or SPA project carry risk, I can run a rendering audit as part of [SEO consulting](/en/seo-consulting); a [short call](/en/book-a-call) is a good place to start."
    ]
   }

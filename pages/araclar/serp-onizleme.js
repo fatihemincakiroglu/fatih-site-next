@@ -4,7 +4,7 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { SINIRLAR, genislik, kisalt, durum, gorunenUrl, ipuclari } from '../../lib/serp-olcum'
 
 // SERP önizleme ve başlık uzunluğu kontrolü — ölçüm tarayıcıda canvas ile yapılır.
-// TR: /araclar/serp-onizleme   EN: /en/tools/serp-preview
+// TR: /serp-onizleme   EN: /en/serp-preview
 
 const RENK = { bos: '#9ca3af', iyi: '#15803d', sinirda: '#b45309', uzun: '#b91c1c' }
 
@@ -75,9 +75,9 @@ export default function SerpOnizleme(props) {
 
   const icerik = isEn ? {
     baslik: 'SERP Preview & Title Length Checker',
-    metaBaslik: 'SERP Preview Tool: Title & Meta Description Pixel Width',
-    metaDesc: 'See how your title and meta description may look in Google on desktop and mobile. Measures pixel width, shows where text gets cut off and flags common issues.',
-    giris: 'Type a title, meta description and URL, or fetch them from a live page, to see a Google-style result on desktop and mobile. Width is measured in pixels, the way truncation actually works, not just in characters. For the bigger picture of search result features, see the [featured snippets and SERP features article](/en/blog/featured-snippet-serp-ozellikleri).',
+    metaBaslik: 'SERP Preview and Title Length Checker | Free SEO Tool',
+    metaDesc: 'See how your title and meta description may look in Google on desktop and mobile. Measure pixel width and see where your text gets cut off.',
+    giris: 'Type a title, meta description and URL, or fetch them from a live page, to see a Google-style result on desktop and mobile. Width is measured in pixels, the way truncation actually works, not just in characters. For the bigger picture of search result features, see the [featured snippets and SERP features article](/en/featured-snippet-serp-ozellikleri).',
     adimlar: [
       'Enter your title, meta description and page URL, or paste a live URL and press **Fetch** to load them.',
       'Switch between desktop and mobile. The bars show pixel width against an approximate limit; red means the text will likely be cut off with "...".',
@@ -92,9 +92,9 @@ export default function SerpOnizleme(props) {
     ],
   } : {
     baslik: 'SERP Önizleme ve Başlık Uzunluğu Kontrolü',
-    metaBaslik: 'SERP Önizleme: Başlık ve Meta Açıklama Piksel Kontrolü',
-    metaDesc: 'Başlık ve meta açıklamanızın Google\'da masaüstü ve mobilde nasıl görünebileceğini görün. Piksel genişliğini ölçer, metnin nereden kesileceğini gösterir.',
-    giris: 'Başlık, meta açıklama ve URL\'yi yazın ya da canlı bir sayfadan getirin; masaüstü ve mobilde Google tarzı sonucu görün. Genişlik, kesilmenin gerçekte nasıl çalıştığı gibi karakterle değil pikselle ölçülür. Arama sonucu özelliklerinin genel resmi için [featured snippet ve SERP özellikleri yazısına](/blog/featured-snippet-serp-ozellikleri) bakın.',
+    metaBaslik: 'SERP Önizleme ve Başlık Kontrolü | Ücretsiz SEO Aracı',
+    metaDesc: 'Başlık ve meta açıklamanızın Google\'da masaüstü ve mobilde nasıl görünebileceğine bakın. Piksel genişliğini ve kesilme noktasını görün.',
+    giris: 'Başlık, meta açıklama ve URL\'yi yazın ya da canlı bir sayfadan getirin; masaüstü ve mobilde Google tarzı sonucu görün. Genişlik, kesilmenin gerçekte nasıl çalıştığı gibi karakterle değil pikselle ölçülür. Arama sonucu özelliklerinin genel resmi için [featured snippet ve SERP özellikleri yazısına](/featured-snippet-serp-ozellikleri) bakın.',
     adimlar: [
       'Başlığı, meta açıklamayı ve sayfa adresini yazın ya da canlı bir URL yapıştırıp **Getir**\'e basın.',
       'Masaüstü ve mobil arasında geçiş yapın. Çubuklar piksel genişliğini yaklaşık sınırla karşılaştırır; kırmızı, metnin büyük ihtimalle "..." ile kesileceği anlamına gelir.',
@@ -110,7 +110,7 @@ export default function SerpOnizleme(props) {
   }
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/serp-onizleme" yolEn="/en/tools/serp-preview" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
+    <AracSayfa isEn={isEn} yol="/serp-onizleme" yolEn="/en/serp-preview" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
       giris={icerik.giris} adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['icerik-stratejisi', 'anahtar-kelime-arastirmasi', 'teknik-seo']}>
       <div style={{ display: 'grid', gap: '16px' }}>
         <div>

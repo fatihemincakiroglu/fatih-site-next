@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Yapay Zekâ ile Üretilen İçerik ve Google: Resmi Politika Ne Diyor?",
  "baslik_en": "AI-Generated Content and Google: What Does the Official Policy Say?",
- "meta_baslik_tr": "Yapay Zekâ İçerik ve Google: Resmi Politika",
- "meta_baslik_en": "AI-Generated Content and Google: Official Policy",
- "meta_desc_tr": "Google yapay zekâ içeriğini cezalandırır mı? Search Central rehberi, ölçeklenmiş içerik spam politikası ve güvenli bir yayın süreci tek yazıda.",
- "meta_desc_en": "Does Google penalize AI content? Search Central guidance, the scaled content abuse spam policy and a safe publishing workflow, explained in one post.",
+ "meta_baslik_tr": "Yapay Zekâ İçerik ve Google Politikası",
+ "meta_baslik_en": "AI-Generated Content and Google Policy",
+ "meta_desc_tr": "Google yapay zekâ içeriğini cezalandırır mı? Search Central rehberini, ölçeklenmiş içerik spam politikasını ve güvenli yayın sürecini okuyun.",
+ "meta_desc_en": "Does Google penalize AI content? Read the Search Central guidance, the scaled content abuse spam policy and a safe publishing workflow in one post.",
  "ozet_tr": "Google yapay zekâ içeriğine nasıl bakıyor? Resmi açıklamalar, spam politikası ve güvenli bir yayın akışı.",
  "ozet_en": "How Google treats AI-generated content: official statements, the spam policy and a safe publishing workflow.",
  "bolumler_tr": [
@@ -73,7 +73,7 @@
       "Okuyucu için neredeyse anlamsız olan ama arama anahtar kelimeleri içeren çok sayıda sayfa oluşturmak."
      ]
     },
-    "Sahada en sık gördüğüm risk, şehir ya da hizmet adlarını değiştirerek yüzlerce şablon sayfa açmak. Bu yaklaşımın hangi noktada meşru, hangi noktada sorunlu olduğunu [programatik SEO ve doorway sayfa sınırı](/blog/programatik-seo) yazısında ayrıntılı anlattım. Spam politikası ihlallerinde Google otomatik sistemler kullanabildiği gibi elle işlem (manual action) de uygulayabilir; elle işlemler Search Console'daki ilgili raporda görünür."
+    "Sahada en sık gördüğüm risk, şehir ya da hizmet adlarını değiştirerek yüzlerce şablon sayfa açmak. Bu yaklaşımın hangi noktada meşru, hangi noktada sorunlu olduğunu [programatik SEO ve doorway sayfa sınırı](/programatik-seo) yazısında ayrıntılı anlattım. Spam politikası ihlallerinde Google otomatik sistemler kullanabildiği gibi elle işlem (manual action) de uygulayabilir; elle işlemler Search Console'daki ilgili raporda görünür."
    ]
   },
   {
@@ -87,11 +87,11 @@
     {
      "alt": "Yapısal veri ve kullanıcıya bağlam"
     },
-    "Yapısal veri ekliyorsanız genel yönergelere ve ilgili arama özelliğinin kurallarına uymanız, işaretlemeyi test etmeniz bekleniyor; temel kurallar için [yapısal veri (schema) rehberine](/rehber/schema-yapisal-veri) bakabilirsiniz. Doküman ayrıca içeriğin nasıl oluşturulduğunu, özellikle otomatik üretildiyse, okuyucuya uygun biçimde açıklamayı ve uygun yerlerde görsel meta verisi eklemeyi öneriyor.",
+    "Yapısal veri ekliyorsanız genel yönergelere ve ilgili arama özelliğinin kurallarına uymanız, işaretlemeyi test etmeniz bekleniyor; temel kurallar için [yapısal veri (schema) rehberine](/schema-yapisal-veri) bakabilirsiniz. Doküman ayrıca içeriğin nasıl oluşturulduğunu, özellikle otomatik üretildiyse, okuyucuya uygun biçimde açıklamayı ve uygun yerlerde görsel meta verisi eklemeyi öneriyor.",
     {
      "alt": "E-ticaret siteleri için ek kurallar"
     },
-    "Google Merchant Center kullanan siteler için kurallar daha net: Yapay zekâyla üretilmiş görseller IPTC DigitalSourceType meta verisinde TrainedAlgorithmicMedia değerini taşımalı; yapay zekâyla üretilmiş ürün başlıkları ve açıklamaları ayrı belirtilmeli ve yapay zekâ üretimi olarak etiketlenmeli. Ürün sayfalarının genel optimizasyonu için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir başlangıç."
+    "Google Merchant Center kullanan siteler için kurallar daha net: Yapay zekâyla üretilmiş görseller IPTC DigitalSourceType meta verisinde TrainedAlgorithmicMedia değerini taşımalı; yapay zekâyla üretilmiş ürün başlıkları ve açıklamaları ayrı belirtilmeli ve yapay zekâ üretimi olarak etiketlenmeli. Ürün sayfalarının genel optimizasyonu için [e-ticaret SEO rehberi](/e-ticaret-seo) iyi bir başlangıç."
    ]
   },
   {
@@ -105,7 +105,7 @@
    "baslik": "Google yapay zekâ içeriğini tespit edip cezalandırıyor mu?",
    "paragraflar": [
     "Google'ın politika metinlerinde ölçüt üretim yöntemi değil, içeriğin değeri ve amacı. “Yapay zekâ cezası” diye ayrı bir politika yok. Üçüncü taraf yapay zekâ dedektörlerinin verdiği skorları Google'ın kullandığına dair resmi bir açıklama da yok; ben bu skorları yayın kararı için güvenilir bir ölçüt olarak görmüyorum.",
-    "Pratikte asıl etki çekirdek güncellemelerinde görülüyor. Google, Mart 2024'te faydalı içerik sistemini çekirdek sıralama sistemlerinin bir parçası hâline getirdi; dolayısıyla az emekle üretilmiş, birbirinin kopyası sayfalar ayrı bir “yapay zekâ filtresi” yerine genel kalite değerlendirmesinden etkileniyor. Bir güncelleme sonrası düşüş yaşadıysanız [çekirdek güncelleme sonrası trafik düşüşü teşhis listesini](/blog/cekirdek-guncelleme-trafik-dususu) ve tarihleri karşılaştırmak için [Google güncellemeleri günlüğünü](/google-guncellemeleri) kullanabilirsiniz."
+    "Pratikte asıl etki çekirdek güncellemelerinde görülüyor. Google, Mart 2024'te faydalı içerik sistemini çekirdek sıralama sistemlerinin bir parçası hâline getirdi; dolayısıyla az emekle üretilmiş, birbirinin kopyası sayfalar ayrı bir “yapay zekâ filtresi” yerine genel kalite değerlendirmesinden etkileniyor. Bir güncelleme sonrası düşüş yaşadıysanız [çekirdek güncelleme sonrası trafik düşüşü teşhis listesini](/cekirdek-guncelleme-trafik-dususu) ve tarihleri karşılaştırmak için [Google güncellemeleri günlüğünü](/google-guncellemeleri) kullanabilirsiniz."
    ]
   },
   {
@@ -123,14 +123,14 @@
       "Yayımlanan içerik belirli aralıklarla güncellenir; değer üretmeyen sayfalar birleştirilir veya kaldırılır."
      ]
     },
-    "Bu akışın içerik planıyla nasıl birleşeceğini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım. Ekibiniz yayın hacmini kontrol kapasitesiyle dengeleyemiyorsa, [içerik stratejisi danışmanlığı](/icerik) kapsamında brief ve editör sürecini birlikte kurabiliriz."
+    "Bu akışın içerik planıyla nasıl birleşeceğini [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım. Ekibiniz yayın hacmini kontrol kapasitesiyle dengeleyemiyorsa, [içerik stratejisi danışmanlığı](/icerik) kapsamında brief ve editör sürecini birlikte kurabiliriz."
    ]
   },
   {
    "baslik": "Yapay zekâ içeriği ve GEO: asistanlar neyi alıntılar?",
    "paragraflar": [
     "Konunun bir de yapay zekâ asistanları tarafı var. ChatGPT, Gemini veya Perplexity gibi asistanlar cevap üretirken kaynak gösterebiliyor; internette zaten bulunan bilgiyi yeniden paketleyen genel bir metnin alıntılanacak özgün bir yanı yoktur. Alıntıyı kazandıran şey net tanımlar, özgün veri ve uzman görüşüdür.",
-    "Markanızın asistan cevaplarında nasıl göründüğünü ölçmek için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına göz atabilirsiniz. Mevcut içerik envanterinizi politika riski ve kalite açısından bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Markanızın asistan cevaplarında nasıl göründüğünü ölçmek için [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısına göz atabilirsiniz. Mevcut içerik envanterinizi politika riski ve kalite açısından bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -197,7 +197,7 @@
       "Creating many pages that contain search keywords but make little or no sense to a reader."
      ]
     },
-    "The most common risk I see is hundreds of template pages with swapped city or service names; see my post on [programmatic SEO and the doorway page line](/en/blog/programatik-seo). Google can act on spam policy violations through automated systems and through manual actions; manual actions are shown in the corresponding Search Console report."
+    "The most common risk I see is hundreds of template pages with swapped city or service names; see my post on [programmatic SEO and the doorway page line](/en/programatik-seo). Google can act on spam policy violations through automated systems and through manual actions; manual actions are shown in the corresponding Search Console report."
    ]
   },
   {
@@ -211,11 +211,11 @@
     {
      "alt": "Structured data and context for users"
     },
-    "If you add structured data, you are expected to follow the general guidelines and the rules of the specific search feature, and to validate your markup; the basics are covered in my [structured data (schema) guide](/en/guides/schema-yapisal-veri). The documentation also suggests telling readers how the content was created, especially when it was generated automatically, and adding image metadata where relevant.",
+    "If you add structured data, you are expected to follow the general guidelines and the rules of the specific search feature, and to validate your markup; the basics are covered in my [structured data (schema) guide](/en/schema-yapisal-veri). The documentation also suggests telling readers how the content was created, especially when it was generated automatically, and adding image metadata where relevant.",
     {
      "alt": "Extra rules for ecommerce sites"
     },
-    "For sites using Google Merchant Center the rules are stricter: AI-generated images must carry the TrainedAlgorithmicMedia value in the IPTC DigitalSourceType metadata, and AI-generated product titles and descriptions must be specified separately and labelled as AI-generated. For product page optimization in general, my [ecommerce SEO guide](/en/guides/e-ticaret-seo) is a good starting point."
+    "For sites using Google Merchant Center the rules are stricter: AI-generated images must carry the TrainedAlgorithmicMedia value in the IPTC DigitalSourceType metadata, and AI-generated product titles and descriptions must be specified separately and labelled as AI-generated. For product page optimization in general, my [ecommerce SEO guide](/en/e-ticaret-seo) is a good starting point."
    ]
   },
   {
@@ -229,7 +229,7 @@
    "baslik": "Does Google detect and penalize AI content?",
    "paragraflar": [
     "In Google's policy texts the criterion is the value and purpose of the content, not the production method. There is no separate “AI penalty” policy. There is also no official statement that Google uses scores from third-party AI detectors, and I do not treat those scores as a reliable basis for publishing decisions.",
-    "In practice, the real impact shows up in core updates. In March 2024 Google made the helpful content system part of its core ranking systems, so low-effort, near-duplicate pages are affected by overall quality assessment rather than by a dedicated “AI filter.” If you saw a drop after an update, use my [core update traffic drop diagnosis checklist](/en/blog/cekirdek-guncelleme-trafik-dususu) and compare dates in the [Google updates log](/en/google-updates)."
+    "In practice, the real impact shows up in core updates. In March 2024 Google made the helpful content system part of its core ranking systems, so low-effort, near-duplicate pages are affected by overall quality assessment rather than by a dedicated “AI filter.” If you saw a drop after an update, use my [core update traffic drop diagnosis checklist](/en/cekirdek-guncelleme-trafik-dususu) and compare dates in the [Google updates log](/en/google-updates)."
    ]
   },
   {
@@ -247,14 +247,14 @@
       "Published content is updated periodically; pages that add no value are merged or removed."
      ]
     },
-    "I explain how this workflow fits into a content plan in my [content strategy guide](/en/guides/icerik-stratejisi). If your team cannot balance publishing volume with review capacity, we can set up the brief and editing process together as part of [content strategy consulting](/en/content-strategy)."
+    "I explain how this workflow fits into a content plan in my [content strategy guide](/en/icerik-stratejisi). If your team cannot balance publishing volume with review capacity, we can set up the brief and editing process together as part of [content strategy consulting](/en/content-strategy)."
    ]
   },
   {
    "baslik": "AI content and GEO: what do assistants cite?",
    "paragraflar": [
     "There is also the AI assistant side of the story. Assistants such as ChatGPT, Gemini or Perplexity can cite sources in their answers, and a generic text that repackages what is already online has nothing original worth citing. Clear definitions, original data and expert opinion are what earn citations.",
-    "To measure how your brand appears in assistant answers, see my post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). If you would like your current content inventory reviewed for policy risk and quality by an [SEO consultant](/en/seo-consulting), you can [book a free intro call](/en/book-a-call)."
+    "To measure how your brand appears in assistant answers, see my post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu). If you would like your current content inventory reviewed for policy risk and quality by an [SEO consultant](/en/seo-consulting), you can [book a free intro call](/en/book-a-call)."
    ]
   }
  ],

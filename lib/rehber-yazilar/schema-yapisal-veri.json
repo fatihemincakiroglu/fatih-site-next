@@ -2,10 +2,10 @@
  "kategori": "Teknik",
  "baslik_tr": "Schema (Yapısal Veri) Rehberi: JSON-LD, @id Grafı ve Test Araçları",
  "baslik_en": "Schema (Structured Data) Guide: JSON-LD, @id Graphs and Testing Tools",
- "meta_baslik_tr": "Schema Yapısal Veri Rehberi: JSON-LD ve Test Araçları",
- "meta_baslik_en": "Schema Structured Data Guide: JSON-LD and Testing Tools",
- "meta_desc_tr": "Schema yapısal veri nasıl eklenir? JSON-LD ile Organization, Person, Article, Product, LocalBusiness ve FAQPage işaretlemesi, @id grafı ve test araçları.",
- "meta_desc_en": "How to add schema structured data: JSON-LD markup for Organization, Person, Article, Product, LocalBusiness and FAQPage, @id graphs and testing tools.",
+ "meta_baslik_tr": "Schema Yapısal Veri ve JSON-LD Rehberi",
+ "meta_baslik_en": "Schema Structured Data Guide with JSON-LD",
+ "meta_desc_tr": "Schema yapısal veri nasıl eklenir? Organization, Person, Article, Product, LocalBusiness ve FAQPage için JSON-LD, @id grafı ve test araçları.",
+ "meta_desc_en": "How to add schema structured data with JSON-LD for Organization, Person, Article, Product, LocalBusiness and FAQPage, plus @id graphs and testing.",
  "ozet_tr": "JSON-LD ile doğru schema işaretlemesi: hangi türü nerede kullanacağınız, @id grafı ve test adımları.",
  "ozet_en": "Correct schema markup with JSON-LD: which type goes where, how to build an @id graph and how to test it.",
  "bolumler_tr": [
@@ -13,7 +13,7 @@
    "baslik": null,
    "paragraflar": [
     "Yapısal veri (schema), sayfanızdaki bilgileri schema.org sözlüğünü kullanarak makinelerin okuyabileceği biçimde etiketlemektir. Bir insan sayfaya baktığında fiyatı, yazarı ya da adresi hemen anlar; arama motoru ise bu bilgiyi yapısal veri sayesinde tahmin etmeden, açıkça okur.",
-    "Bu rehberde formatı seçmekten @id ile birbirine bağlı bir schema grafı kurmaya ve işaretlemeyi test etmeye kadar sahada uyguladığım yöntemi anlatıyorum. Yapısal veri [teknik SEO denetiminin](/rehber/teknik-seo) bir parçası olarak ele alınmalı; tek başına bir sıralama hilesi değildir.",
+    "Bu rehberde formatı seçmekten @id ile birbirine bağlı bir schema grafı kurmaya ve işaretlemeyi test etmeye kadar sahada uyguladığım yöntemi anlatıyorum. Yapısal veri [teknik SEO denetiminin](/teknik-seo) bir parçası olarak ele alınmalı; tek başına bir sıralama hilesi değildir.",
     {
      "alinti": "Kısa cevap: Schema, sayfadaki bilgiyi schema.org sözlüğüyle etiketleyen yapısal veridir ve Google'ın önerdiği format JSON-LD'dir. Doğru işaretleme bazı zengin sonuç türleri için uygunluk sağlar; ancak zengin sonucu gösterip göstermemek Google'ın kararıdır ve işaretleme sayfada görünen içerikle birebir uyumlu olmalıdır."
     }
@@ -102,7 +102,7 @@
       ]
      }
     },
-    "Ürün sayfalarında fiyat, para birimi ve stok durumunun sayfada görünen bilgiyle aynı olması kritik; varyantlar ve stokta olmayan ürünler için yaklaşımı [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlattım. Fiziksel işletmelerde LocalBusiness yerine mümkünse Dentist, Restaurant gibi daha özel bir alt tür seçin ve adres-telefon bilgisini [Google Business Profile kaydınızla](/blog/google-business-profile) birebir eşleştirin; konunun tamamı [yerel SEO rehberinde](/rehber/yerel-seo) var.",
+    "Ürün sayfalarında fiyat, para birimi ve stok durumunun sayfada görünen bilgiyle aynı olması kritik; varyantlar ve stokta olmayan ürünler için yaklaşımı [e-ticaret SEO rehberinde](/e-ticaret-seo) anlattım. Fiziksel işletmelerde LocalBusiness yerine mümkünse Dentist, Restaurant gibi daha özel bir alt tür seçin ve adres-telefon bilgisini [Google Business Profile kaydınızla](/google-business-profile) birebir eşleştirin; konunun tamamı [yerel SEO rehberinde](/yerel-seo) var.",
     "Bir uyarı: işletmenin kendi sitesinde kendisi hakkında gösterdiği yorumlar (self-serving reviews), LocalBusiness ve Organization için yıldızlı zengin sonuç almaz. Bu yüzden ana sayfaya aggregateRating eklemek fayda sağlamaz, yorumlar sayfada görünmüyorsa yönergelere de aykırıdır."
    ]
   },
@@ -122,7 +122,7 @@
       "**sameAs'i doğru kullanın:** yalnızca markanın ya da kişinin resmî profillerini ekleyin."
      ]
     },
-    "Bu yapı, markanın kim olduğunu tutarlı biçimde tanımladığı için [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattığım varlık netliği çalışmasının da teknik temelidir."
+    "Bu yapı, markanın kim olduğunu tutarlı biçimde tanımladığı için [GEO uygulama rehberinde](/geo-uygulama) anlattığım varlık netliği çalışmasının da teknik temelidir."
    ]
   },
   {
@@ -150,7 +150,7 @@
       ]
      }
     },
-    "FAQPage işaretlemesini, sayfada kullanıcının gerçekten gördüğü soru-cevaplar varsa ekliyorum; çünkü içeriğin yapısını makineler için netleştiriyor. Ama müşterilere “SSS şeması ekleyelim, arama sonucunda yer kaplasın” vaadiyle sunmuyorum. Sağlık sitesi olmak da tek başına yeterli değil; [sağlık sektörü SEO rehberinde](/rehber/saglik-seo) bu tür sitelerin öncelikleri ayrıca anlatılıyor.",
+    "FAQPage işaretlemesini, sayfada kullanıcının gerçekten gördüğü soru-cevaplar varsa ekliyorum; çünkü içeriğin yapısını makineler için netleştiriyor. Ama müşterilere “SSS şeması ekleyelim, arama sonucunda yer kaplasın” vaadiyle sunmuyorum. Sağlık sitesi olmak da tek başına yeterli değil; [sağlık sektörü SEO rehberinde](/saglik-seo) bu tür sitelerin öncelikleri ayrıca anlatılıyor.",
     {
      "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Siparişler ne zaman kargoya verilir?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Siparişler iki iş günü içinde kargoya verilir.\"\n    }\n  }]\n}"
     },
@@ -212,7 +212,7 @@
       "**Yer tutucu değerler:** zorunlu alanları boş ya da “örnek” gibi değerlerle doldurmak."
      ]
     },
-    "Site taşıma ve platform değişikliklerinde yapısal verinin sessizce kaybolması da sık görülür; bu yüzden [site taşıma SEO](/rehber/site-tasima-seo) kontrol listenize yapısal veri testini de ekleyin. Kendi sitenizdeki işaretlemenin bir uzman gözüyle incelenmesini isterseniz [SEO uzmanı](/seo-uzmani) hizmetime göz atabilir veya [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+    "Site taşıma ve platform değişikliklerinde yapısal verinin sessizce kaybolması da sık görülür; bu yüzden [site taşıma SEO](/site-tasima-seo) kontrol listenize yapısal veri testini de ekleyin. Kendi sitenizdeki işaretlemenin bir uzman gözüyle incelenmesini isterseniz [SEO uzmanı](/seo-uzmani) hizmetime göz atabilir veya [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
    ]
   }
  ],
@@ -231,7 +231,7 @@
   },
   {
    "s": "Yapısal veri ChatGPT gibi asistanlarda görünmeye yardım eder mi?",
-   "c": "Yapay zekâ asistanlarının yapısal veriyi nasıl kullandığına dair kesin, doğrulanmış bir bilgi yok. Ben yapısal veriyi marka bilgisini tutarlı ve makine tarafından okunabilir hâle getirdiği için GEO çalışmasında da kullanıyorum, ama tek başına bir çözüm olarak görmüyorum. Ölçüm için [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemini](/blog/chatgpt-marka-gorunurlugu) kullanabilirsiniz."
+   "c": "Yapay zekâ asistanlarının yapısal veriyi nasıl kullandığına dair kesin, doğrulanmış bir bilgi yok. Ben yapısal veriyi marka bilgisini tutarlı ve makine tarafından okunabilir hâle getirdiği için GEO çalışmasında da kullanıyorum, ama tek başına bir çözüm olarak görmüyorum. Ölçüm için [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemini](/chatgpt-marka-gorunurlugu) kullanabilirsiniz."
   },
   {
    "s": "Çok dilli bir sitede schema nasıl kurulmalı?",
@@ -247,7 +247,7 @@
    "baslik": null,
    "paragraflar": [
     "Structured data (schema) means labelling the information on your page with the schema.org vocabulary so machines can read it. A person looking at a page sees the price, the author or the address instantly; a search engine reads that information explicitly through structured data instead of inferring it.",
-    "This guide covers the method I use in practice, from choosing a format to building an @id-linked schema graph and testing the markup. Structured data belongs inside a [technical SEO audit](/en/guides/teknik-seo); on its own it is not a ranking trick.",
+    "This guide covers the method I use in practice, from choosing a format to building an @id-linked schema graph and testing the markup. Structured data belongs inside a [technical SEO audit](/en/teknik-seo); on its own it is not a ranking trick.",
     {
      "alinti": "Short answer: Schema is structured data that labels page information with the schema.org vocabulary, and JSON-LD is the format Google recommends. Correct markup makes a page eligible for some rich result types, but whether a rich result appears is Google's decision, and the markup must match the visible content of the page."
     }
@@ -336,7 +336,7 @@
       ]
      }
     },
-    "On product pages, price, currency and availability must match what the page shows; I cover variants and out-of-stock products in the [e-commerce SEO guide](/en/guides/e-ticaret-seo). For physical businesses, pick a more specific subtype such as Dentist or Restaurant where one fits, and match address and phone details exactly with your [Google Business Profile listing](/en/blog/google-business-profile); the full picture is in the [local SEO guide](/en/guides/yerel-seo).",
+    "On product pages, price, currency and availability must match what the page shows; I cover variants and out-of-stock products in the [e-commerce SEO guide](/en/e-ticaret-seo). For physical businesses, pick a more specific subtype such as Dentist or Restaurant where one fits, and match address and phone details exactly with your [Google Business Profile listing](/en/google-business-profile); the full picture is in the [local SEO guide](/en/yerel-seo).",
     "One caveat: reviews a business shows about itself on its own site (self-serving reviews) are not eligible for star rich results for LocalBusiness and Organization. Adding aggregateRating to your home page brings no benefit, and if the reviews are not visible on the page it also breaks the guidelines."
    ]
   },
@@ -356,7 +356,7 @@
       "**Use sameAs correctly:** list only the official profiles of the brand or person."
      ]
     },
-    "Because this structure describes who the brand is consistently, it is also the technical foundation of the entity clarity work described in the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "Because this structure describes who the brand is consistently, it is also the technical foundation of the entity clarity work described in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
@@ -384,7 +384,7 @@
       ]
      }
     },
-    "I add FAQPage markup when the page has questions and answers that users actually see, because it clarifies the content's structure for machines. But I don't pitch it to clients as a way to take up more space in search results. Being a health site is not enough on its own either; the [healthcare SEO guide](/en/guides/saglik-seo) covers the priorities for those sites separately.",
+    "I add FAQPage markup when the page has questions and answers that users actually see, because it clarifies the content's structure for machines. But I don't pitch it to clients as a way to take up more space in search results. Being a health site is not enough on its own either; the [healthcare SEO guide](/en/saglik-seo) covers the priorities for those sites separately.",
     {
      "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"When are orders shipped?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Orders are shipped within two business days.\"\n    }\n  }]\n}"
     },
@@ -446,7 +446,7 @@
       "**Placeholder values:** filling required fields with empty or dummy values such as “example”."
      ]
     },
-    "Structured data also tends to disappear quietly during migrations and platform changes, so add a structured data test to your [site migration SEO](/en/guides/site-tasima-seo) checklist. If you want an expert review of the markup on your own site, see my [SEO consulting](/en/seo-consulting) service or reach out through the [contact page](/en/contact)."
+    "Structured data also tends to disappear quietly during migrations and platform changes, so add a structured data test to your [site migration SEO](/en/site-tasima-seo) checklist. If you want an expert review of the markup on your own site, see my [SEO consulting](/en/seo-consulting) service or reach out through the [contact page](/en/contact)."
    ]
   }
  ],
@@ -465,7 +465,7 @@
   },
   {
    "s": "Does structured data help with visibility in assistants like ChatGPT?",
-   "c": "There is no confirmed, verified information on how AI assistants use structured data. I use it in GEO work because it makes brand information consistent and machine-readable, but I don't treat it as a solution on its own. To measure where you stand, use the [method for testing how your brand appears in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu)."
+   "c": "There is no confirmed, verified information on how AI assistants use structured data. I use it in GEO work because it makes brand information consistent and machine-readable, but I don't treat it as a solution on its own. To measure where you stand, use the [method for testing how your brand appears in ChatGPT](/en/chatgpt-marka-gorunurlugu)."
   },
   {
    "s": "How should schema be set up on a multilingual site?",

@@ -400,7 +400,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{isEn ? 'SEO & GEO Blog | Fatih Emin Çakıroğlu' : 'SEO ve GEO Blog | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? `${YAZILAR.length}+ in-depth articles on SEO, GEO, technical SEO and digital marketing strategy. Practical, actionable insights to grow your organic search visibility.` : `${YAZILAR.length}+ derinlemesine makale: teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine. Organik görünürlüğünüzü artıracak uygulanabilir içgörüler.`} />
+        <meta name="description" content={isEn ? `${YAZILAR.length}+ in-depth articles on SEO, GEO, technical SEO and digital marketing strategy. Practical insights to grow your organic search visibility.` : `Teknik SEO, GEO, içerik stratejisi ve dijital pazarlama üzerine ${YAZILAR.length}+ derinlemesine makale. Organik görünürlüğünüzü artıracak içgörüleri keşfedin.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/blog' : 'https://fatihemincakiroglu.com/blog'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"Blog","name": isEn ? "Fatih Emin Çakıroğlu Blog" : "Fatih Emin Çakıroğlu Blog","url": isEn ? "https://fatihemincakiroglu.com/en/blog" : "https://fatihemincakiroglu.com/blog","author":{"@type":"Person","name":"Fatih Emin Çakıroğlu"} }) }} />
       </Head>
@@ -482,7 +482,7 @@ export default function Page(props) {
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
-                        <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
+                        <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`}
                           className={featured.length >= 2 ? undefined : 'blog-featured-card'}
                           style={{ background: kat.bg, borderRadius: '20px', padding: 0, border: `1px solid ${kat.renk}20`, textDecoration: 'none', display: 'grid', gridTemplateColumns: featured.length >= 2 ? '1fr' : '1fr 1fr', alignItems: 'stretch', minHeight: '260px', transition: 'transform 0.2s, box-shadow 0.2s', position: 'relative', overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = `0 16px 48px ${kat.renk}20` }}
@@ -510,7 +510,7 @@ export default function Page(props) {
                           const kat = getKat(y.kategori)
                           const baslik = isEn ? y.en.baslik : y.tr.baslik
                           return (
-                            <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
+                            <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`}
                               style={{ background: kat.bg, borderRadius: '16px', padding: '24px', border: `1px solid ${kat.renk}20`, textDecoration: 'none', flex: 1, transition: 'transform 0.2s', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
                               onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)' }}
                               onMouseLeave={e => { e.currentTarget.style.transform = 'none' }}>
@@ -545,7 +545,7 @@ export default function Page(props) {
                       const baslik = isEn ? y.en.baslik : y.tr.baslik
                       const ozet = isEn ? y.en.ozet : y.tr.ozet
                       return (
-                        <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`}
+                        <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`}
                           style={{ background: '#fff', borderRadius: '16px', padding: 0, border: '1px solid #eee', textDecoration: 'none', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s, box-shadow 0.2s', borderTop: `3px solid ${kat.renk}`, overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.08)' }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>

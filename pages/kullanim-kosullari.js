@@ -10,7 +10,7 @@ export default function Page(props) {
       <Head>
         <title>{isEn ? 'Terms of Service | Fatih Emin Çakıroğlu' : 'Kullanım Koşulları | Fatih Emin Çakıroğlu'}</title>
         <meta name="robots" content="noindex, follow" />
-        <meta name="description" content={isEn ? 'Terms of use for the Fatih Emin Çakıroğlu website: use of content, intellectual property, limitation of liability and conditions for the free tools.' : 'Fatih Emin Çakıroğlu web sitesinin kullanım koşulları: içeriklerin kullanımı, fikri mülkiyet, sorumluluk sınırları ve ücretsiz araçların kullanım şartları.'} />
+        <meta name="description" content={isEn ? 'The terms governing use of this website\'s content, intellectual property, limitation of liability and the conditions for using the free SEO tools.' : 'Sitedeki içeriklerin kullanımı, fikri mülkiyet, sorumluluk sınırları ve ücretsiz araçların kullanım şartlarını düzenleyen kullanım koşulları.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/terms' : 'https://fatihemincakiroglu.com/kullanim-kosullari'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>

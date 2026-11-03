@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "2026'da SEO: Sahada Gerçekten Değişen 8 Şey",
  "baslik_en": "SEO in 2026: 8 Things That Actually Changed",
- "meta_baslik_tr": "2026'da SEO: Sahada Gerçekten Değişen 8 Şey",
- "meta_baslik_en": "SEO in 2026: 8 Things That Actually Changed",
- "meta_desc_tr": "AI Modu'nun Türkiye'ye gelişi, SSS zengin sonucunun kalkması, çekirdek ve spam güncellemeleri, GA4 yapay zekâ kanalı: 2026'da doğrulanmış 8 SEO değişikliği.",
- "meta_desc_en": "AI Mode reaching Türkiye, the end of FAQ rich results, core and spam updates, the GA4 AI channel: 8 verified SEO changes in 2026, with dates and sources.",
+ "meta_baslik_tr": "2026'da SEO'da Gerçekten Değişen 8 Şey",
+ "meta_baslik_en": "SEO in 2026, 8 Things That Changed",
+ "meta_desc_tr": "AI Modu'nun Türkiye'ye gelişi, SSS zengin sonucunun kalkması, çekirdek ve spam güncellemeleri ve GA4 AI kanalıyla 2026'da doğrulanan değişiklikler.",
+ "meta_desc_en": "AI Mode reaching Türkiye, the end of FAQ rich results, core and spam updates and the GA4 AI channel. Eight verified SEO changes in 2026, with sources.",
  "ozet_tr": "Tahmin değil, kayıt: 2025 sonu ve 2026'da Google ve ölçüm araçlarında doğrulanmış 8 değişiklik ve sahadaki karşılığı.",
  "ozet_en": "A record, not predictions: 8 verified changes in Google and analytics tools across late 2025 and 2026, and what they mean.",
  "bolumler_tr": [
@@ -25,7 +25,7 @@
    "baslik": "1. AI Bakışı ve AI Modu Türkiye'de kullanıma açıldı",
    "paragraflar": [
     "Google Türkiye blogundaki 18 Şubat 2026 tarihli duyuruya göre AI Modu ve AI Bakışı (AI Overviews) Türkiye'de kademeli olarak kullanıma sunulmaya başladı; duyuruda altyapının Gemini 3 model ailesi olduğu belirtiliyor. Böylece Türkçe sorgularda yapay zekâ özetleri ve sohbet tarzı arama gündelik bir gerçek oldu.",
-    "Ölçüm tarafında önemli bir ayrıntı var: AI Modu ve AI Bakışı verileri Search Console Performans raporunun toplamlarına dahil ediliyor; ayrıca Google Haziran 2026'da bu iki yüzey için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Türkiye'deki etkisini [Google AI Modu Türkiye](/blog/google-ai-mode-turkiye) yazısında, bu yüzeylerde kaynak olma çalışmasını [GEO uygulama rehberinde](/rehber/geo-uygulama) ele aldım."
+    "Ölçüm tarafında önemli bir ayrıntı var: AI Modu ve AI Bakışı verileri Search Console Performans raporunun toplamlarına dahil ediliyor; ayrıca Google Haziran 2026'da bu iki yüzey için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Türkiye'deki etkisini [Google AI Modu Türkiye](/google-ai-mode-turkiye) yazısında, bu yüzeylerde kaynak olma çalışmasını [GEO uygulama rehberinde](/geo-uygulama) ele aldım."
    ]
   },
   {
@@ -57,7 +57,7 @@
       }
      ]
     },
-    "Pratikte şema çalışmasını “zengin sonuç avı” olmaktan çıkarıp Organization, Product, Article gibi varlığı tanımlayan türlere odaklıyorum; ayrıntısı [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri)."
+    "Pratikte şema çalışmasını “zengin sonuç avı” olmaktan çıkarıp Organization, Product, Article gibi varlığı tanımlayan türlere odaklıyorum; ayrıntısı [schema ve yapısal veri rehberinde](/schema-yapisal-veri)."
    ]
   },
   {
@@ -100,7 +100,7 @@
       ]
      }
     },
-    "Aralık 2025'te Google, çekirdek güncellemeler dokümanına arama algoritmalarını büyük güncellemeyi beklemeden sürekli olarak güncellediğini ve daha küçük çekirdek güncellemeler yaptığını ekledi. Yani duyurulmamış tarihlerde de dalgalanma normal. Bir düşüşü teşhis ederken [çekirdek güncellemesi sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) kontrol listesini kullanıyorum."
+    "Aralık 2025'te Google, çekirdek güncellemeler dokümanına arama algoritmalarını büyük güncellemeyi beklemeden sürekli olarak güncellediğini ve daha küçük çekirdek güncellemeler yaptığını ekledi. Yani duyurulmamış tarihlerde de dalgalanma normal. Bir düşüşü teşhis ederken [çekirdek güncellemesi sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) kontrol listesini kullanıyorum."
    ]
   },
   {
@@ -129,7 +129,7 @@
       "metin": "15 Haziran 2026'da rehbere eklenen nota göre Google Arama llms.txt dosyalarını kullanmıyor; dosya görünürlüğe ya da sıralamaya ne yardım ne zarar eder. Başka hizmetler için tutmak isterseniz sorun yok."
      }
     },
-    "Bu yüzden llms.txt'yi Google için bir sıralama aracı olarak değil, diğer yapay zekâ sistemleri için isteğe bağlı bir dosya olarak konumluyorum; neyi yapıp neyi yapmadığını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "Bu yüzden llms.txt'yi Google için bir sıralama aracı olarak değil, diğer yapay zekâ sistemleri için isteğe bağlı bir dosya olarak konumluyorum; neyi yapıp neyi yapmadığını [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    ]
   },
   {
@@ -143,14 +143,14 @@
    "baslik": "7. GA4'te yapay zekâ asistanlarından gelen trafik ayrı kanalda",
    "paragraflar": [
     "Mayıs 2026'dan beri GA4'ün varsayılan kanal grubunda yapay zekâ asistanlarından gelen trafik için ayrı bir kanal bulunuyor. Önceden “Referral” içinde kaybolan bu ziyaretler artık ayrıca raporlanabiliyor.",
-    "Bu kanal, ChatGPT ya da Perplexity gibi asistanlardan gelen tıklamaları görmenizi sağlar ama bir yanıtta adınız geçip tıklanmadığında oluşan görünürlüğü ölçmez. Kurulum ve okuma ayrıntıları [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında."
+    "Bu kanal, ChatGPT ya da Perplexity gibi asistanlardan gelen tıklamaları görmenizi sağlar ama bir yanıtta adınız geçip tıklanmadığında oluşan görünürlüğü ölçmez. Kurulum ve okuma ayrıntıları [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısında."
    ]
   },
   {
    "baslik": "8. Search Console sosyal ve video platformlarını raporluyor",
    "paragraflar": [
     "Temmuz 2026'da Google, Search Console'da Instagram, TikTok, X ve YouTube hesaplarının platform mülkü olarak eklenebildiğini duyurdu ve bu içeriklerin performansını analiz etmeye yönelik bir rehber yayımladı. Yardım sayfasına göre özellik kademeli olarak sunuluyor; içeriğin Google yüzeylerindeki (Arama, Discover, Haberler) performansını ölçüyor, platformların kendi içindeki görüntülemeleri ölçmüyor.",
-    "Böylece web sitesi dışındaki içeriğin Google'daki görünürlüğü de Search Console'dan izlenebiliyor. Video içeriği olan markalar için ilk adımları [video SEO](/blog/video-seo) yazısında topladım.",
+    "Böylece web sitesi dışındaki içeriğin Google'daki görünürlüğü de Search Console'dan izlenebiliyor. Video içeriği olan markalar için ilk adımları [video SEO](/video-seo) yazısında topladım.",
     "Bu değişikliklerin sitenize hangi önceliklerle yansıması gerektiğini birlikte belirleyebiliriz: arama tarafı için [SEO uzmanı](/seo-uzmani), yapay zekâ yüzeyleri için [GEO uzmanı](/geo-uzmani) olarak çalışıyorum; kısa bir [ön görüşme](/randevu) ile başlayabiliriz."
    ]
   }
@@ -170,7 +170,7 @@
    "baslik": "1. AI Overviews and AI Mode launched in Türkiye",
    "paragraflar": [
     "Google Türkiye's blog post of 18 February 2026 announced that AI Mode and AI Overviews were rolling out gradually in Türkiye, built on the Gemini 3 model family. AI summaries and conversational search are now part of everyday Turkish search.",
-    "One measurement detail matters: AI Mode and AI Overviews data counts toward the Search Console Performance report totals; in addition, Google announced separate generative AI performance reports for these surfaces in June 2026 and said on 31 August 2026 that they were available to all sites. I cover the local impact in [Google AI Mode in Türkiye](/en/blog/google-ai-mode-turkiye) and how to become a cited source in the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "One measurement detail matters: AI Mode and AI Overviews data counts toward the Search Console Performance report totals; in addition, Google announced separate generative AI performance reports for these surfaces in June 2026 and said on 31 August 2026 that they were available to all sites. I cover the local impact in [Google AI Mode in Türkiye](/en/google-ai-mode-turkiye) and how to become a cited source in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
@@ -202,7 +202,7 @@
       }
      ]
     },
-    "In practice I have moved schema work away from chasing rich results and toward types that describe the entity, such as Organization, Product and Article; details are in the [schema and structured data guide](/en/guides/schema-yapisal-veri)."
+    "In practice I have moved schema work away from chasing rich results and toward types that describe the entity, such as Organization, Product and Article; details are in the [schema and structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
@@ -245,7 +245,7 @@
       ]
      }
     },
-    "In December 2025, Google added to its core updates documentation that it continually updates its algorithms, including smaller core updates, without waiting for the next major one. Fluctuations on unannounced dates are therefore normal. To diagnose a drop, I use the [core update traffic drop](/en/blog/cekirdek-guncelleme-trafik-dususu) checklist."
+    "In December 2025, Google added to its core updates documentation that it continually updates its algorithms, including smaller core updates, without waiting for the next major one. Fluctuations on unannounced dates are therefore normal. To diagnose a drop, I use the [core update traffic drop](/en/cekirdek-guncelleme-trafik-dususu) checklist."
    ]
   },
   {
@@ -274,7 +274,7 @@
       "metin": "A note added to the guide on 15 June 2026 says Google Search does not use llms.txt files; they neither help nor hurt visibility or ranking. Keeping them for other services is fine."
      }
     },
-    "So I treat llms.txt not as a ranking lever for Google but as an optional file for other AI systems; the [llms.txt guide](/en/blog/llms-txt-rehberi) explains what it does and does not do."
+    "So I treat llms.txt not as a ranking lever for Google but as an optional file for other AI systems; the [llms.txt guide](/en/llms-txt-rehberi) explains what it does and does not do."
    ]
   },
   {
@@ -288,14 +288,14 @@
    "baslik": "7. GA4 reports AI assistant traffic as its own channel",
    "paragraflar": [
     "Since May 2026, GA4's default channel group includes a separate channel for traffic from AI assistants. Visits that used to disappear into Referral can now be reported on their own.",
-    "The channel shows clicks from assistants such as ChatGPT or Perplexity, but not the visibility you get when an answer mentions you without a click. Setup and interpretation are covered in [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+    "The channel shows clicks from assistants such as ChatGPT or Perplexity, but not the visibility you get when an answer mentions you without a click. Setup and interpretation are covered in [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi)."
    ]
   },
   {
    "baslik": "8. Search Console now reports social and video platforms",
    "paragraflar": [
     "In July 2026 Google announced that Instagram, TikTok, X and YouTube accounts can be added to Search Console as platform properties, along with a guide to analyzing that content. The help page says the feature is rolling out gradually; it measures how that content performs on Google surfaces (Search, Discover, News), not views inside the platforms themselves.",
-    "Content outside your website can now be tracked on Google from Search Console too. For brands with video, the first steps are in the [video SEO](/en/blog/video-seo) article.",
+    "Content outside your website can now be tracked on Google from Search Console too. For brands with video, the first steps are in the [video SEO](/en/video-seo) article.",
     "We can work out together how these changes should shape your priorities: I work on search as an [SEO consultant](/en/seo-consulting) and on AI surfaces as a [GEO consultant](/en/geo-consulting); a short [intro call](/en/book-a-call) is a good start."
    ]
   }

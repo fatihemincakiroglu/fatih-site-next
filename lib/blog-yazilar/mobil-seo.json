@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Mobil SEO: Mobil Öncelikli Dizine Eklemede Dikkat Edilecekler",
  "baslik_en": "Mobile SEO: What to Watch for Under Mobile-First Indexing",
- "meta_baslik_tr": "Mobil SEO: Mobil Öncelikli Dizine Ekleme Rehberi",
- "meta_baslik_en": "Mobile SEO: A Guide to Mobile-First Indexing",
- "meta_desc_tr": "Mobil öncelikli dizine eklemenin güncel durumu, masaüstü ile içerik eşitliği, akordeon ve gizli içerik, mobil kullanılabilirlik testi ve Core Web Vitals.",
- "meta_desc_en": "The current state of mobile-first indexing, content parity with desktop, accordions and hidden content, testing mobile usability, and Core Web Vitals.",
+ "meta_baslik_tr": "Mobil SEO ve Mobil Öncelikli Dizin",
+ "meta_baslik_en": "Mobile SEO and Mobile-First Indexing",
+ "meta_desc_tr": "Mobil öncelikli dizine eklemenin durumu, masaüstüyle içerik eşitliği, akordeon ve gizli içerik, mobil kullanılabilirlik testi ve Core Web Vitals.",
+ "meta_desc_en": "The current state of mobile-first indexing, content parity with desktop, accordions and hidden content, mobile usability testing and Core Web Vitals.",
  "ozet_tr": "Google sitenizi mobil sürümüyle değerlendiriyor: içerik eşitliğini, gizli içeriği ve mobil deneyimi doğru kurun.",
  "ozet_en": "Google evaluates your site through its mobile version: get content parity, hidden content and mobile experience right.",
  "bolumler_tr": [
@@ -80,7 +80,7 @@
       ]
      }
     },
-    "Son satır dokümanda tek başına geçmiyor ama denetimlerde en çok trafik kaybettiren hatalardan biri: mobil menüde kaldırılan kategori linkleri, Google için o sayfalara giden yolu da zayıflatıyor. Hangi sayfaların mobil sürümde eksik kaldığını bulmak için [teknik SEO rehberindeki](/rehber/teknik-seo) tarama yöntemini akıllı telefon user-agent'ıyla uygulayabilirsiniz."
+    "Son satır dokümanda tek başına geçmiyor ama denetimlerde en çok trafik kaybettiren hatalardan biri: mobil menüde kaldırılan kategori linkleri, Google için o sayfalara giden yolu da zayıflatıyor. Hangi sayfaların mobil sürümde eksik kaldığını bulmak için [teknik SEO rehberindeki](/teknik-seo) tarama yöntemini akıllı telefon user-agent'ıyla uygulayabilirsiniz."
    ]
   },
   {
@@ -111,7 +111,7 @@
       }
      }
     },
-    "Google'ın ifadesiyle Googlebot ana içeriği görmek için kaydırmaz, tıklamaz ya da yazmaz; bu yüzden ana içeriği kullanıcı etkileşimine bağlı lazy load ile yüklemeyin. JavaScript ile sonradan gelen içeriğin nasıl test edileceğini [JavaScript SEO](/blog/javascript-seo) yazısında anlattım."
+    "Google'ın ifadesiyle Googlebot ana içeriği görmek için kaydırmaz, tıklamaz ya da yazmaz; bu yüzden ana içeriği kullanıcı etkileşimine bağlı lazy load ile yüklemeyin. JavaScript ile sonradan gelen içeriğin nasıl test edileceğini [JavaScript SEO](/javascript-seo) yazısında anlattım."
    ]
   },
   {
@@ -155,15 +155,15 @@
    "baslik": "Core Web Vitals mobil SEO'yu nasıl etkiler?",
    "paragraflar": [
     "Core Web Vitals eşikleri mobil ve masaüstünde aynı: LCP 2,5 saniye, INP 200 milisaniye, CLS 0,1 ve altı \"iyi\" sayılıyor. Ancak mobil cihazlar ve ağlar daha yavaş olduğu için aynı sayfa mobilde çoğu zaman daha kötü sonuç veriyor.",
-    "Mobilde en sık LCP'yi büyük kahraman görselleri ve yavaş sunucu yanıtı, INP'yi ağır üçüncü taraf betikleri, CLS'yi ise boyutu belirtilmemiş görseller ve geç yüklenen bannerlar bozuyor. Ölçüm yöntemi ve iyileştirme adımları için [Core Web Vitals 2025](/blog/core-web-vitals-2025) yazısına bakın; ağır şablonların hızlandırılmasını [performans ve büyüme hizmeti](/performans) kapsamında ele alıyorum."
+    "Mobilde en sık LCP'yi büyük kahraman görselleri ve yavaş sunucu yanıtı, INP'yi ağır üçüncü taraf betikleri, CLS'yi ise boyutu belirtilmemiş görseller ve geç yüklenen bannerlar bozuyor. Ölçüm yöntemi ve iyileştirme adımları için [Core Web Vitals 2025](/core-web-vitals-2025) yazısına bakın; ağır şablonların hızlandırılmasını [performans ve büyüme hizmeti](/performans) kapsamında ele alıyorum."
    ]
   },
   {
    "baslik": "Ayrı mobil site (m.) kullananlar için notlar",
    "paragraflar": [
     "m.example.com gibi ayrı URL'li mobil siteler hâlâ varsa kurallar daha katı. Google'a göre masaüstü URL her zaman canonical, mobil URL ise onun alternatifi olmalı; hreflang mobilde mobile, masaüstünde masaüstüne işaret etmeli ve hata durum kodları iki sürümde aynı olmalı.",
-    "Bakım yükü ve hata riski yüksek olduğu için ayrı mobil siteyi duyarlı tasarıma taşımayı genellikle öneriyorum; bu bir URL değişikliği olduğundan [site taşıma SEO rehberindeki](/rehber/site-tasima-seo) yönlendirme planıyla yapılmalı.",
-    "Mobil aramaların önemli kısmı yerel niyet taşıyor; klinik, avukat ya da mağaza gibi işletmelerde mobil sayfa ile [Google Business Profile](/blog/google-business-profile) bilgilerinin tutarlı olması da önemli. Klinikler için bu çalışmayı [klinik SEO](/sektorler/klinik-seo) kapsamında yürütüyorum. Sitenizin mobil sürümünde neyin eksik kaldığını görmek isterseniz [SEO uzmanı](/seo-uzmani) olarak bakabilirim; [kısa bir görüşme](/randevu) ayarlayalım."
+    "Bakım yükü ve hata riski yüksek olduğu için ayrı mobil siteyi duyarlı tasarıma taşımayı genellikle öneriyorum; bu bir URL değişikliği olduğundan [site taşıma SEO rehberindeki](/site-tasima-seo) yönlendirme planıyla yapılmalı.",
+    "Mobil aramaların önemli kısmı yerel niyet taşıyor; klinik, avukat ya da mağaza gibi işletmelerde mobil sayfa ile [Google Business Profile](/google-business-profile) bilgilerinin tutarlı olması da önemli. Klinikler için bu çalışmayı [klinik SEO](/klinik-seo) kapsamında yürütüyorum. Sitenizin mobil sürümünde neyin eksik kaldığını görmek isterseniz [SEO uzmanı](/seo-uzmani) olarak bakabilirim; [kısa bir görüşme](/randevu) ayarlayalım."
    ]
   }
  ],
@@ -237,7 +237,7 @@
       ]
      }
     },
-    "The last row is not a separate item in the documentation, but it is one of the costliest mistakes in audits: category links dropped from the mobile menu also weaken Google's path to those pages. To find what is missing on mobile, apply the crawl method in the [technical SEO guide](/en/guides/teknik-seo) with a smartphone user agent."
+    "The last row is not a separate item in the documentation, but it is one of the costliest mistakes in audits: category links dropped from the mobile menu also weaken Google's path to those pages. To find what is missing on mobile, apply the crawl method in the [technical SEO guide](/en/teknik-seo) with a smartphone user agent."
    ]
   },
   {
@@ -268,7 +268,7 @@
       }
      }
     },
-    "In Google's words, Googlebot will not swipe, click or type to see main content, so do not lazy-load primary content upon user interaction. I explain how to test content that arrives later through JavaScript in the [JavaScript SEO](/en/blog/javascript-seo) article."
+    "In Google's words, Googlebot will not swipe, click or type to see main content, so do not lazy-load primary content upon user interaction. I explain how to test content that arrives later through JavaScript in the [JavaScript SEO](/en/javascript-seo) article."
    ]
   },
   {
@@ -312,15 +312,15 @@
    "baslik": "How do Core Web Vitals affect mobile SEO?",
    "paragraflar": [
     "Core Web Vitals thresholds are the same on mobile and desktop: LCP of 2.5 seconds, INP of 200 milliseconds and CLS of 0.1 or less count as \"good\". But because mobile devices and networks are slower, the same page often scores worse on mobile.",
-    "On mobile, LCP is most often hurt by large hero images and slow server response, INP by heavy third-party scripts, and CLS by images without dimensions and late-loading banners. For measurement and fixes, see [Core Web Vitals 2025](/en/blog/core-web-vitals-2025); speeding up heavy templates is part of my [performance and growth service](/en/performance-growth)."
+    "On mobile, LCP is most often hurt by large hero images and slow server response, INP by heavy third-party scripts, and CLS by images without dimensions and late-loading banners. For measurement and fixes, see [Core Web Vitals 2025](/en/core-web-vitals-2025); speeding up heavy templates is part of my [performance and growth service](/en/performance-growth)."
    ]
   },
   {
    "baslik": "Notes for sites with a separate mobile site (m.)",
    "paragraflar": [
     "If you still run a separate-URL mobile site such as m.example.com, the rules are stricter. Google says the desktop URL is always the canonical and the mobile URL its alternate; hreflang should point mobile to mobile and desktop to desktop, and error status codes should match on both versions.",
-    "Because maintenance cost and error risk are high, I usually recommend moving a separate mobile site to responsive design; since that is a URL change, it should follow the redirect plan in the [site migration SEO guide](/en/guides/site-tasima-seo).",
-    "A large share of mobile searches carries local intent; for businesses such as clinics, law firms or shops, keeping the mobile page consistent with your [Google Business Profile](/en/blog/google-business-profile) also matters. For clinics I run this work within [healthcare SEO](/en/industries/healthcare-seo). If you want to see what is missing from your mobile version, I can take a look through [SEO consulting](/en/seo-consulting); let's set up a [short call](/en/book-a-call)."
+    "Because maintenance cost and error risk are high, I usually recommend moving a separate mobile site to responsive design; since that is a URL change, it should follow the redirect plan in the [site migration SEO guide](/en/site-tasima-seo).",
+    "A large share of mobile searches carries local intent; for businesses such as clinics, law firms or shops, keeping the mobile page consistent with your [Google Business Profile](/en/google-business-profile) also matters. For clinics I run this work within [healthcare SEO](/en/healthcare-seo). If you want to see what is missing from your mobile version, I can take a look through [SEO consulting](/en/seo-consulting); let's set up a [short call](/en/book-a-call)."
    ]
   }
  ],

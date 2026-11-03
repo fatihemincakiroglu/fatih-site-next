@@ -13,12 +13,19 @@ import IlgiliRehberler from '../../components/IlgiliRehberler';
 import LeadMagnet from '../../components/LeadMagnet';
 import { sayfaninListesi } from '../../lib/kontrol-listeleri';
 import { blogStaticPaths, blogStaticProps } from '../../lib/blog-icerikler';
+import { isYayindaBlog } from '../../lib/content-index';
 
 // İçerik: lib/blog-icerikler.js (yalnızca getStaticProps içinde kullanılır)
 
 
+// Meta başlıktaki kategori adları (pages/blog.js KATEGORILER ile aynı)
+const KATEGORI_ADI = {
+  tr: { technical: 'Teknik SEO', geo: 'GEO', content: 'İçerik', backlink: 'Backlink', ecommerce: 'E-Ticaret', analytics: 'Analitik', local: 'Yerel SEO', strategy: 'Strateji' },
+  en: { technical: 'Technical SEO', geo: 'GEO', content: 'Content', backlink: 'Backlink', ecommerce: 'E-Commerce', analytics: 'Analytics', local: 'Local SEO', strategy: 'Strategy' },
+}
+
 // Link kartı etiketi: blog yazısı mı, site sayfası mı?
-const kartEtiketi = (url, isEn) => (url.startsWith('/blog/') || url.startsWith('/en/blog/'))
+const kartEtiketi = (url, isEn) => isYayindaBlog(url.replace(/^\/en/, '').replace(/^\//, ''))
   ? (isEn ? 'Read →' : 'Yazıyı oku →')
   : (isEn ? 'View page →' : 'Sayfaya git →')
 
@@ -50,16 +57,15 @@ export default function BlogPost(props) {
   const sss = (veri ? (isEn ? veri.sss_en : veri.sss_tr) : null) || []
   const sssBaslik = isEn ? 'Frequently Asked Questions' : 'Sıkça Sorulan Sorular'
   const sure = veri?.sure || '10'
-  const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}`
-  // Sayfa başlığı: ek, yalnızca toplam 65 karakteri aşmıyorsa eklenir.
-  // Uzun başlıklarda Google sonuçları sondan keser; kesilen kısım marka eki
-  // olacağına başlığın kendisinin tam görünmesi daha değerli.
-  const BASLIK_EKI = ' | Fatih Emin Çakıroğlu'
-  const sayfaBasligi = (metaBaslik + BASLIK_EKI).length <= 65 ? metaBaslik + BASLIK_EKI : metaBaslik
+  const canonicalUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}${slug}`
+  // Meta başlık biçimi: "Konu | Kategori" (en fazla 54 karakter, iki nokta yok).
+  // Konu: meta_baslik_tr/en; kategori: yazının blog kategorisi (pages/blog.js).
+  const kategoriAdi = KATEGORI_ADI[isEn ? 'en' : 'tr'][YAZILAR.find(y => y.slug === slug)?.kategori] || 'Blog'
+  const sayfaBasligi = `${metaBaslik} | ${kategoriAdi}`
   // Yayın ve güncelleme tarihleri: lib/blog-meta.js
   const meta = getBlogMeta(slug)
   const guncelleme = meta ? ayYil(meta.guncelleme || meta.yayin, isEn) : (isEn ? 'July 2026' : 'Temmuz 2026')
-  const mdUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/blog/' : 'blog/'}${slug}.md`
+  const mdUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}${slug}.md`
   // Kapak görseli (opsiyonel): lib/blog-kapaklar.js. Yoksa site geneli og-image kullanılır.
   const kapak = getBlogKapak(slug)
   const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
@@ -497,7 +503,7 @@ export default function BlogPost(props) {
               </h3>
               <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '14px' }}>
                 {ilgiliYazilar.map((y, i) => (
-                  <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee', display: 'block', transition: 'transform 0.2s, box-shadow 0.2s' }}
+                  <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee', display: 'block', transition: 'transform 0.2s, box-shadow 0.2s' }}
                     onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.06)' }}
                     onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
                     <div style={{ fontSize: '11px', color: '#aaa', marginBottom: '6px' }}>{y.sure} {isEn ? 'min read' : 'dk okuma'}</div>

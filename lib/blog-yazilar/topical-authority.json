@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Topical Authority Nedir? Konu Otoritesi ve Pillar-Cluster Modeli",
  "baslik_en": "What Is Topical Authority? Topic Clusters and the Pillar-Cluster Model",
- "meta_baslik_tr": "Topical Authority Nedir? Pillar-Cluster Modeli Rehberi",
- "meta_baslik_en": "What Is Topical Authority? The Pillar-Cluster Model",
- "meta_desc_tr": "Topical authority (konu otoritesi) nedir, Google bu konuda ne söylüyor? Pillar-cluster modeli, konu kümesi planlama adımları ve küme içi iç link kurgusu.",
- "meta_desc_en": "What topical authority means and what Google actually says about it: the pillar-cluster model, how to plan a topic cluster and how to link pages inside it.",
+ "meta_baslik_tr": "Topical Authority ve Pillar-Cluster Modeli",
+ "meta_baslik_en": "Topical Authority and Pillar-Cluster Model",
+ "meta_desc_tr": "Topical authority (konu otoritesi) nedir, Google ne diyor? Pillar-cluster modelini, konu kümesi planlama adımlarını ve küme içi iç linklemeyi öğrenin.",
+ "meta_desc_en": "What topical authority means and what Google says about it. See the pillar-cluster model, how to plan a topic cluster and how to link pages within it.",
  "ozet_tr": "Konu otoritesi resmi bir puan değil, bir çalışma çerçevesi. Pillar-cluster modelini adım adım planlamak.",
  "ozet_en": "Topical authority is not an official score but a working framework. How to plan a pillar-cluster model step by step.",
  "bolumler_tr": [
@@ -38,7 +38,7 @@
   {
    "baslik": "Pillar-cluster modeli nasıl çalışır?",
    "paragraflar": [
-    "Modelin mantığı basit: Geniş bir konuyu özetleyen bir pillar sayfa, her biri tek bir alt soruya odaklanan cluster sayfaları ve aralarında anlamlı iç linkler. Mimarinin genel çerçevesi [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlatılıyor; burada planlama ve uygulama tarafına odaklanıyorum.",
+    "Modelin mantığı basit: Geniş bir konuyu özetleyen bir pillar sayfa, her biri tek bir alt soruya odaklanan cluster sayfaları ve aralarında anlamlı iç linkler. Mimarinin genel çerçevesi [içerik stratejisi rehberinde](/icerik-stratejisi) anlatılıyor; burada planlama ve uygulama tarafına odaklanıyorum.",
     "Aşağıdaki örnek, endüstriyel kompresör satan bir üretici için kurduğum türden bir küme:",
     {
      "agac": {
@@ -67,7 +67,7 @@
       ]
      }
     },
-    "Bu yapı özellikle satış döngüsü uzun olan [B2B üretici sitelerinde](/sektorler/b2b-uretici-seo) iyi çalışıyor: Satın alma sürecinde sorulan her teknik soru bir cluster sayfasına, pillar sayfa da karar vericinin başlangıç noktasına dönüşüyor."
+    "Bu yapı özellikle satış döngüsü uzun olan [B2B üretici sitelerinde](/b2b-uretici-seo) iyi çalışıyor: Satın alma sürecinde sorulan her teknik soru bir cluster sayfasına, pillar sayfa da karar vericinin başlangıç noktasına dönüşüyor."
    ]
   },
   {
@@ -101,7 +101,7 @@
       ]
      }
     },
-    "Gruplama adımında [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) SERP benzerliği yöntemini kullanıyorum: İki sorgu için ilk sayfada büyük ölçüde aynı URL'ler çıkıyorsa, Google bu sorguları aynı ihtiyaç olarak görüyor demektir ve tek sayfa yeterlidir."
+    "Gruplama adımında [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) SERP benzerliği yöntemini kullanıyorum: İki sorgu için ilk sayfada büyük ölçüde aynı URL'ler çıkıyorsa, Google bu sorguları aynı ihtiyaç olarak görüyor demektir ve tek sayfa yeterlidir."
    ]
   },
   {
@@ -160,7 +160,7 @@
       "Hiçbir cluster yetim kalmaz; yeni sayfa yayınlanınca ilgili eski sayfalar da güncellenir."
      ]
     },
-    "Bağlantı metni, tıklama derinliği ve denetim yöntemini [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı anlattım. Tarama ve site mimarisinin teknik tarafı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+    "Bağlantı metni, tıklama derinliği ve denetim yöntemini [iç linkleme stratejisi](/ic-linkleme) yazısında ayrıntılı anlattım. Tarama ve site mimarisinin teknik tarafı için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
    ]
   },
   {
@@ -190,7 +190,7 @@
       }
      }
     },
-    "Hacim baskısıyla açılan çok sayıda benzer sayfa çoğu zaman fayda yerine risk üretir; bu sınırı Google'ın spam politikalarıyla birlikte [programatik SEO](/blog/programatik-seo) yazısında ele aldım. Kümede zayıf kalmış eski sayfaları ne yapacağınıza karar vermek için de [content pruning ve içerik güncelleme](/blog/content-pruning) rehberine göz atın."
+    "Hacim baskısıyla açılan çok sayıda benzer sayfa çoğu zaman fayda yerine risk üretir; bu sınırı Google'ın spam politikalarıyla birlikte [programatik SEO](/programatik-seo) yazısında ele aldım. Kümede zayıf kalmış eski sayfaları ne yapacağınıza karar vermek için de [content pruning ve içerik güncelleme](/content-pruning) rehberine göz atın."
    ]
   },
   {
@@ -220,7 +220,7 @@
   },
   {
    "s": "Topical authority ile E-E-A-T aynı şey mi?",
-   "c": "Hayır. Konu otoritesi bir konunun ne kadar kapsamlı işlendiğiyle, E-E-A-T ise içeriği kimin, hangi deneyimle ve ne kadar güvenilir biçimde hazırladığıyla ilgili. İkisi birbirini tamamlar; ayrıntı için [E-E-A-T'yi içerikte gösterme](/blog/eeat-icin-icerik) yazısına bakın."
+   "c": "Hayır. Konu otoritesi bir konunun ne kadar kapsamlı işlendiğiyle, E-E-A-T ise içeriği kimin, hangi deneyimle ve ne kadar güvenilir biçimde hazırladığıyla ilgili. İkisi birbirini tamamlar; ayrıntı için [E-E-A-T'yi içerikte gösterme](/eeat-icin-icerik) yazısına bakın."
   },
   {
    "s": "Konu kümeleri yapay zekâ cevaplarında görünürlüğe yardımcı olur mu?",
@@ -255,7 +255,7 @@
   {
    "baslik": "How does the pillar-cluster model work?",
    "paragraflar": [
-    "The logic is simple: one pillar page that summarises a broad topic, cluster pages that each focus on a single sub-question, and meaningful internal links between them. The overall architecture is covered in the [content strategy guide](/en/guides/icerik-stratejisi); here I focus on planning and execution.",
+    "The logic is simple: one pillar page that summarises a broad topic, cluster pages that each focus on a single sub-question, and meaningful internal links between them. The overall architecture is covered in the [content strategy guide](/en/icerik-stratejisi); here I focus on planning and execution.",
     "The example below is the kind of cluster I build for an industrial compressor manufacturer:",
     {
      "agac": {
@@ -284,7 +284,7 @@
       ]
      }
     },
-    "This works especially well for [B2B manufacturer websites](/en/industries/b2b-manufacturer-seo) with long sales cycles: every technical question asked during procurement becomes a cluster page."
+    "This works especially well for [B2B manufacturer websites](/en/b2b-manufacturer-seo) with long sales cycles: every technical question asked during procurement becomes a cluster page."
    ]
   },
   {
@@ -318,7 +318,7 @@
       ]
      }
     },
-    "For grouping I use the SERP similarity method from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi): if two queries return largely the same URLs on page one, Google treats them as the same need and one page is enough."
+    "For grouping I use the SERP similarity method from the [keyword research guide](/en/anahtar-kelime-arastirmasi): if two queries return largely the same URLs on page one, Google treats them as the same need and one page is enough."
    ]
   },
   {
@@ -377,7 +377,7 @@
       "No cluster is left orphaned; when a new page goes live, related older pages are updated too."
      ]
     },
-    "I cover anchor text, click depth and auditing in detail in the [internal linking strategy](/en/blog/ic-linkleme) article. For the technical side of crawling and site architecture, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "I cover anchor text, click depth and auditing in detail in the [internal linking strategy](/en/ic-linkleme) article. For the technical side of crawling and site architecture, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -407,7 +407,7 @@
       }
      }
     },
-    "Mass-produced near-identical pages usually add risk, not value; see the [programmatic SEO](/en/blog/programatik-seo) article for where Google's spam policies draw the line. To decide what to do with weak older pages in a cluster, see the guide on [content pruning and content updates](/en/blog/content-pruning)."
+    "Mass-produced near-identical pages usually add risk, not value; see the [programmatic SEO](/en/programatik-seo) article for where Google's spam policies draw the line. To decide what to do with weak older pages in a cluster, see the guide on [content pruning and content updates](/en/content-pruning)."
    ]
   },
   {
@@ -437,7 +437,7 @@
   },
   {
    "s": "Is topical authority the same as E-E-A-T?",
-   "c": "No. Topical authority is about how thoroughly a subject is covered; E-E-A-T is about who created the content, with what experience, and how trustworthy it is. The two complement each other; see [showing E-E-A-T in your content](/en/blog/eeat-icin-icerik) for details."
+   "c": "No. Topical authority is about how thoroughly a subject is covered; E-E-A-T is about who created the content, with what experience, and how trustworthy it is. The two complement each other; see [showing E-E-A-T in your content](/en/eeat-icin-icerik) for details."
   },
   {
    "s": "Do topic clusters help visibility in AI answers?",

@@ -7,10 +7,10 @@
  "h1_en": "SEO Consulting for Clinics",
  "alt_tr": "Hekim profilleri, tedavi sayfaları, şube bazlı yerel görünürlük ve yapay zekâ cevapları için mevzuata duyarlı SEO danışmanlığı.",
  "alt_en": "Regulation-aware SEO consulting for doctor profiles, treatment pages, branch-level local visibility and AI answers.",
- "meta_baslik_tr": "Klinik SEO Danışmanlığı | Fatih Emin Çakıroğlu",
- "meta_baslik_en": "SEO Consulting for Clinics | Fatih Emin Çakıroğlu",
- "meta_desc_tr": "Klinikler için SEO ve GEO danışmanlığı: hekim profilleri, tedavi sayfaları, şube bazlı yerel SEO ve yapay zekâ görünürlüğü. Mevzuata duyarlı ve ölçülebilir.",
- "meta_desc_en": "SEO and GEO consulting for clinics: doctor profiles, treatment pages, branch-level local SEO and AI visibility. Regulation-aware and measurable.",
+ "meta_baslik_tr": "Klinik SEO ve GEO Danışmanlığı",
+ "meta_baslik_en": "Healthcare SEO Consulting for Clinics",
+ "meta_desc_tr": "Klinikler için SEO ve GEO danışmanlığı. Hekim profilleri, tedavi sayfaları, şube bazlı yerel SEO ve yapay zekâ görünürlüğü mevzuata duyarlı yürütülür.",
+ "meta_desc_en": "SEO and GEO consulting for clinics, covering doctor profiles, treatment pages, branch-level local SEO and AI visibility. Regulation-aware, measurable.",
  "ozet_tr": "Diş, estetik ve poliklinikler için hekim odaklı, mevzuata duyarlı SEO ve GEO danışmanlığı.",
  "ozet_en": "Doctor-led, regulation-aware SEO and GEO consulting for dental, aesthetic and multi-specialty clinics.",
  "hizmetler_tr": [
@@ -48,7 +48,7 @@
    "baslik": null,
    "paragraflar": [
     "Bir hasta klinik ararken genellikle iki yoldan gelir: “Ataşehir diş kliniği” gibi yakınlık içeren bir aramadan harita sonuçlarına ya da “implant tedavisi ne kadar sürer” gibi bir sorudan bir tedavi sayfasına. Bu soruların bir kısmı artık Google AI Overviews, ChatGPT veya Gemini gibi asistanlara da soruluyor. Kliniğin görünürlüğü bu üç kapıda birden kuruluyor: harita, organik sonuç ve yapay zekâ cevabı.",
-    "Bu sayfa, kliniklere sunduğum SEO ve GEO danışmanlığının kapsamını anlatıyor. YMYL, hekim profilleri, tedavi sayfası yapısı ve şema gibi konuların “nasıl yapılır” tarafını [sağlık sektörü SEO rehberinde](/rehber/saglik-seo) ayrıntılı yazdım; burada o çerçeveyi bir kliniğe nasıl uyguladığımı, neyi ölçtüğümü ve kimlerle çalıştığımı bulacaksınız.",
+    "Bu sayfa, kliniklere sunduğum SEO ve GEO danışmanlığının kapsamını anlatıyor. YMYL, hekim profilleri, tedavi sayfası yapısı ve şema gibi konuların “nasıl yapılır” tarafını [sağlık sektörü SEO rehberinde](/saglik-seo) ayrıntılı yazdım; burada o çerçeveyi bir kliniğe nasıl uyguladığımı, neyi ölçtüğümü ve kimlerle çalıştığımı bulacaksınız.",
     {
      "alinti": "Kısa cevap: Klinikler için SEO danışmanlığım; hekim profillerinin ve tedavi sayfalarının güven sinyalleriyle yeniden kurulmasını, şube bazlı yerel görünürlüğü, teknik altyapıyı, yapısal veriyi ve yapay zekâ cevaplarında görünürlüğü kapsar. İçerik kararlarını sağlık tanıtım mevzuatının sınırları içinde, kliniğin hukuk danışmanıyla birlikte veririz; sonuç ya da sıralama sözü vermem."
     }
@@ -85,11 +85,11 @@
     {
      "alt": "Şube bazlı yerel görünürlük"
     },
-    "Her şube için ayrı sayfa, tutarlı ad-adres-telefon bilgisi, doğru Google Business Profile kategorileri ve hekim profilleri üzerinde çalışıyoruz. Diş kliniklerine özgü harita stratejisini [diş klinikleri için yerel SEO](/blog/dis-klinikleri-yerel-seo) yazısında ayrıca ele aldım; şube sayfası mantığının genel çerçevesi [yerel SEO rehberinde](/rehber/yerel-seo) var.",
+    "Her şube için ayrı sayfa, tutarlı ad-adres-telefon bilgisi, doğru Google Business Profile kategorileri ve hekim profilleri üzerinde çalışıyoruz. Diş kliniklerine özgü harita stratejisini [diş klinikleri için yerel SEO](/dis-klinikleri-yerel-seo) yazısında ayrıca ele aldım; şube sayfası mantığının genel çerçevesi [yerel SEO rehberinde](/yerel-seo) var.",
     {
      "alt": "Teknik altyapı, şema ve yapay zekâ görünürlüğü"
     },
-    "Hız, taranabilirlik, çok dilli yapı ve MedicalClinic, Person, MedicalWebPage gibi yapısal veri türlerini kontrol ediyoruz; işaretlemenin ayrıntıları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) anlatılıyor. Yapay zekâ asistanlarında kliniğinizin nasıl anlatıldığını belirli bir soru setiyle düzenli olarak test ediyoruz; bu tarafın yöntemi [GEO uzmanı](/geo-uzmani) hizmetimde ayrıntılı."
+    "Hız, taranabilirlik, çok dilli yapı ve MedicalClinic, Person, MedicalWebPage gibi yapısal veri türlerini kontrol ediyoruz; işaretlemenin ayrıntıları [schema yapısal veri rehberinde](/schema-yapisal-veri) anlatılıyor. Yapay zekâ asistanlarında kliniğinizin nasıl anlatıldığını belirli bir soru setiyle düzenli olarak test ediyoruz; bu tarafın yöntemi [GEO uzmanı](/geo-uzmani) hizmetimde ayrıntılı."
    ]
   },
   {
@@ -170,7 +170,7 @@
       "Randevu formlarında gereğinden fazla sağlık verisi toplamamak"
      ]
     },
-    "Google'ın sağlık içeriklerinde doğruluk ve güven sinyallerine daha fazla önem vermesi de aynı yöne işaret ediyor: abartısız, hekim imzalı ve kaynaklı içerik hem mevzuat hem arama görünürlüğü açısından daha sağlam bir zemin. Olumsuz yorumlara gizliliği koruyarak nasıl yanıt verileceğini [Google yorumlarına cevap](/blog/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+    "Google'ın sağlık içeriklerinde doğruluk ve güven sinyallerine daha fazla önem vermesi de aynı yöne işaret ediyor: abartısız, hekim imzalı ve kaynaklı içerik hem mevzuat hem arama görünürlüğü açısından daha sağlam bir zemin. Olumsuz yorumlara gizliliği koruyarak nasıl yanıt verileceğini [Google yorumlarına cevap](/google-yorumlarina-cevap) yazısında örneklerle anlattım."
    ]
   },
   {
@@ -194,7 +194,7 @@
  "sss_tr": [
   {
    "s": "Klinik SEO hizmetinin ücreti nasıl belirleniyor?",
-   "c": "Ücret; şube sayısına, branş çeşitliliğine, sitenin teknik durumuna ve içerik ihtiyacına göre değişir, bu yüzden burada sabit bir rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz. Denetimden sonra kapsamı netleştirip yazılı bir teklif sunuyorum."
+   "c": "Ücret; şube sayısına, branş çeşitliliğine, sitenin teknik durumuna ve içerik ihtiyacına göre değişir, bu yüzden burada sabit bir rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısında bulabilirsiniz. Denetimden sonra kapsamı netleştirip yazılı bir teklif sunuyorum."
   },
   {
    "s": "Mevcut ajansımızla çalışırken danışmanlık alabilir miyiz?",
@@ -222,7 +222,7 @@
    "baslik": null,
    "paragraflar": [
     "Patients usually reach a clinic through one of two doors: a proximity search such as “dentist in Ataşehir” that leads to the map, or a question such as “how long does implant treatment take” that leads to a treatment page. Many of those questions now also go to Google AI Overviews, ChatGPT or Gemini. Visibility is built across all three: the map, the organic results and the AI answer.",
-    "This page describes the SEO and GEO consulting I offer to clinics. I have covered the how-to side of YMYL, doctor profiles, treatment page structure and schema in detail in the [healthcare SEO guide](/en/guides/saglik-seo); here you will find how I apply that framework to a clinic, what I measure and who I work with.",
+    "This page describes the SEO and GEO consulting I offer to clinics. I have covered the how-to side of YMYL, doctor profiles, treatment page structure and schema in detail in the [healthcare SEO guide](/en/saglik-seo); here you will find how I apply that framework to a clinic, what I measure and who I work with.",
     {
      "alinti": "Short answer: My SEO consulting for clinics covers rebuilding doctor profiles and treatment pages around trust signals, branch-level local visibility, technical foundations, structured data and visibility in AI answers. Content decisions are made within the limits of Turkey's healthcare promotion rules, together with the clinic's legal adviser, and I make no promises about results or rankings."
     }
@@ -259,11 +259,11 @@
     {
      "alt": "Branch-level local visibility"
     },
-    "We work on a separate page for each branch, consistent name-address-phone details, the right Google Business Profile categories and doctor listings. I cover map strategy for dental practices separately in [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo), and the general logic of location pages is in the [local SEO guide](/en/guides/yerel-seo).",
+    "We work on a separate page for each branch, consistent name-address-phone details, the right Google Business Profile categories and doctor listings. I cover map strategy for dental practices separately in [local SEO for dental clinics](/en/dis-klinikleri-yerel-seo), and the general logic of location pages is in the [local SEO guide](/en/yerel-seo).",
     {
      "alt": "Technical foundations, schema and AI visibility"
     },
-    "We check speed, crawlability, multilingual setup and structured data types such as MedicalClinic, Person and MedicalWebPage; the markup details are in the [schema and structured data guide](/en/guides/schema-yapisal-veri). We regularly test how AI assistants describe your clinic using a fixed question set; the method is explained on my [GEO consulting](/en/geo-consulting) page."
+    "We check speed, crawlability, multilingual setup and structured data types such as MedicalClinic, Person and MedicalWebPage; the markup details are in the [schema and structured data guide](/en/schema-yapisal-veri). We regularly test how AI assistants describe your clinic using a fixed question set; the method is explained on my [GEO consulting](/en/geo-consulting) page."
    ]
   },
   {
@@ -344,7 +344,7 @@
       "Do not collect more health data than necessary in booking forms"
      ]
     },
-    "Google's extra weight on accuracy and trust in health content points the same way: measured, doctor-signed, sourced content is safer ground for both compliance and visibility. I show how to reply to negative reviews while protecting privacy in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap)."
+    "Google's extra weight on accuracy and trust in health content points the same way: measured, doctor-signed, sourced content is safer ground for both compliance and visibility. I show how to reply to negative reviews while protecting privacy in [how to respond to Google reviews](/en/google-yorumlarina-cevap)."
    ]
   },
   {
@@ -368,7 +368,7 @@
  "sss_en": [
   {
    "s": "How is the fee for clinic SEO set?",
-   "c": "It depends on the number of branches, the range of specialties, the site's technical condition and content needs, so I do not quote a fixed figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari). After the audit I define the scope and send a written proposal."
+   "c": "It depends on the number of branches, the range of specialties, the site's technical condition and content needs, so I do not quote a fixed figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/seo-ajansi-fiyatlari). After the audit I define the scope and send a written proposal."
   },
   {
    "s": "Can we get consulting while keeping our current agency?",

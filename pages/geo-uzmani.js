@@ -249,8 +249,8 @@ export default function Page(props) {
   const sayfaUrl = isEn ? `${BASE}/en/geo-consulting` : `${BASE}/geo-uzmani`
   const baslik = isEn ? 'GEO Consulting | AI Search Optimization' : 'İstanbul GEO Uzmanı | Fatih Emin Çakıroğlu'
   const aciklama = isEn
-    ? 'Generative Engine Optimization to appear as a cited source in ChatGPT, Perplexity and Google AI Overview. Prepare your brand for the future of AI-driven search.'
-    : "İstanbul GEO uzmanı desteğiyle markanızı ChatGPT, Google AI Overviews, Gemini ve Perplexity'de görünür kılın: AI görünürlük analizi, içerik stratejisi ve ölçüm."
+    ? 'Generative Engine Optimization to get your brand cited in ChatGPT, Perplexity and Google AI Overviews. Prepare your brand for AI-driven search.'
+    : "Markanızı ChatGPT, Google AI Overviews, Gemini ve Perplexity'de görünür kılın. AI görünürlük analizi, içerik stratejisi ve ölçüm desteği."
   // SSS cevaplarındaki **kalın** / [link](/x) işaretlerini şemada düz metne çevir
   const duzMetin = (s) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1')
 

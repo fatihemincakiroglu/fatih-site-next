@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Featured Snippet ve SERP Özellikleri: Hangi Sonuç Türü Nasıl Kazanılır?",
  "baslik_en": "Featured Snippets and SERP Features: How to Earn Each Result Type",
- "meta_baslik_tr": "Featured Snippet ve SERP Özellikleri: Nasıl Kazanılır?",
- "meta_baslik_en": "Featured Snippets and SERP Features: How to Earn Them",
- "meta_desc_tr": "Öne çıkan snippet nasıl seçilir, “Diğer kullanıcılar şunu da sordu”, görsel, video ve yerel paket nasıl kazanılır? AI Overviews ilişkisi ve snippet kontrolü.",
- "meta_desc_en": "How featured snippets are chosen, how to earn People Also Ask, image, video and local pack results, and how they relate to AI Overviews.",
+ "meta_baslik_tr": "Featured Snippet ve SERP Özellikleri Kazanmak",
+ "meta_baslik_en": "Featured Snippets and SERP Features",
+ "meta_desc_tr": "Öne çıkan snippet nasıl seçilir? Diğer kullanıcılar şunu da sordu, görsel, video ve yerel paket sonuçlarını kazanma yolları ile AI Overviews ilişkisi.",
+ "meta_desc_en": "Learn how featured snippets are chosen and how to earn People Also Ask, image, video and local pack results, plus how they relate to AI Overviews.",
  "ozet_tr": "Öne çıkan snippet, ilgili sorular, görsel, video ve yerel paket: her sonuç türünü neyin belirlediği ve ilk adımlar.",
  "ozet_en": "Featured snippets, People Also Ask, images, video and the local pack: what drives each result type and where to start.",
  "bolumler_tr": [
@@ -59,7 +59,7 @@
       }
      ]
     },
-    "Bu sonuçların bir kısmı kullanıcıya tıklamadan cevap verir. Görünürlüğü bu durumda nasıl ölçeceğinizi [zero-click arama](/blog/zero-click-arama) yazısında ele aldım."
+    "Bu sonuçların bir kısmı kullanıcıya tıklamadan cevap verir. Görünürlüğü bu durumda nasıl ölçeceğinizi [zero-click arama](/zero-click-arama) yazısında ele aldım."
    ]
   },
   {
@@ -97,7 +97,7 @@
       }
      }
     },
-    "Bu yapı aynı zamanda okuyucuya da hizmet eder; zaten amaç bu. Kısa ve net cevap bloklarının konuşma diliyle sorulan sorgulardaki yerini [sesli arama SEO](/blog/sesli-arama-seo) yazısında ayrıca anlattım. İçerikleri bu yapıda planlamak için [içerik hizmeti](/icerik) sayfasına göz atabilirsiniz."
+    "Bu yapı aynı zamanda okuyucuya da hizmet eder; zaten amaç bu. Kısa ve net cevap bloklarının konuşma diliyle sorulan sorgulardaki yerini [sesli arama SEO](/sesli-arama-seo) yazısında ayrıca anlattım. İçerikleri bu yapıda planlamak için [içerik hizmeti](/icerik) sayfasına göz atabilirsiniz."
    ]
   },
   {
@@ -145,7 +145,7 @@
       ]
      }
     },
-    "Video tarafının ayrıntıları [video SEO](/blog/video-seo) yazısında, yerel paketin temeli ise [Google Business Profile](/blog/google-business-profile) yazısında ve [yerel SEO rehberinde](/rehber/yerel-seo) anlatılıyor."
+    "Video tarafının ayrıntıları [video SEO](/video-seo) yazısında, yerel paketin temeli ise [Google Business Profile](/google-business-profile) yazısında ve [yerel SEO rehberinde](/yerel-seo) anlatılıyor."
    ]
   },
   {
@@ -158,7 +158,7 @@
       "metin": "Google, SSS (FAQ) zengin sonuçlarını 7 Mayıs 2026'dan bu yana Google Arama'da göstermiyor; HowTo zengin sonuçları daha önce kaldırılmıştı. FAQPage işaretlemesi geçerli kalıyor ve içeriğin makinelerce anlaşılmasına yardımcı olabilir, ancak artık bir zengin sonuç kazandırmıyor."
      }
     },
-    "Yapısal veri hâlâ ürün, yorum, etkinlik, video gibi pek çok sonuç türünün temeli. Hangi türün hangi sonuca uygun olduğunu [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilir, JSON-LD kodunu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz. Öne çıkan snippet için ise yapısal veri gerekmiyor."
+    "Yapısal veri hâlâ ürün, yorum, etkinlik, video gibi pek çok sonuç türünün temeli. Hangi türün hangi sonuca uygun olduğunu [schema ve yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, JSON-LD kodunu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz. Öne çıkan snippet için ise yapısal veri gerekmiyor."
    ]
   },
   {
@@ -166,12 +166,12 @@
    "paragraflar": [
     "Google'ın yapay zekâ özellikleri dokümanına göre AI Overviews ya da AI Mode'da destekleyici link olarak görünmek için ek bir gereklilik ya da özel işaretleme yok; sayfanın dizine eklenmiş ve snippet ile gösterilmeye uygun olması yeterli şart. Bu yüzden snippet'e uygun, net yapılandırılmış içerik iki taraf için de aynı temeli oluşturuyor.",
     "Snippet kontrolleri de ortak: nosnippet, data-nosnippet ve max-snippet hem klasik snippet'leri hem de yapay zekâ özelliklerinde gösterilen bilgiyi sınırlıyor. Bir sayfayı yalnızca öne çıkan snippet'ten çıkarmak isterseniz Google düşük bir max-snippet değeri denemeyi öneriyor, ancak bunun sonucu kesin değil.",
-    "Yapay zekâ özetlerinde kaynak olmanın ayrıntılarını [Google AI Overviews'da kaynak olarak görünmek](/blog/google-ai-overview-optimizasyonu) yazısında, uygulama çerçevesini [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım. Sitenizin bu sonuçlardaki görünürlüğünü birlikte değerlendirmek için [GEO danışmanlığı](/geo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz.",
+    "Yapay zekâ özetlerinde kaynak olmanın ayrıntılarını [Google AI Overviews'da kaynak olarak görünmek](/google-ai-overview-optimizasyonu) yazısında, uygulama çerçevesini [GEO uygulama rehberinde](/geo-uygulama) anlattım. Sitenizin bu sonuçlardaki görünürlüğünü birlikte değerlendirmek için [GEO danışmanlığı](/geo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: SERP önizleme",
-      "metin": "Başlık ve meta açıklamanızın masaüstü ve mobilde nereden kesileceğini [SERP önizleme aracıyla](/araclar/serp-onizleme) piksel genişliğine göre görebilirsiniz."
+      "metin": "Başlık ve meta açıklamanızın masaüstü ve mobilde nereden kesileceğini [SERP önizleme aracıyla](/serp-onizleme) piksel genişliğine göre görebilirsiniz."
      }
     }
    ]
@@ -252,7 +252,7 @@
       }
      ]
     },
-    "Some of these answer the user without a click. How to measure visibility in that case is covered in the [zero-click search](/en/blog/zero-click-arama) article."
+    "Some of these answer the user without a click. How to measure visibility in that case is covered in the [zero-click search](/en/zero-click-arama) article."
    ]
   },
   {
@@ -290,7 +290,7 @@
       }
      }
     },
-    "This structure serves readers too, which is the point. The role of short answer blocks in conversational queries is covered in [voice search SEO](/en/blog/sesli-arama-seo). To plan content this way, see my [content strategy service](/en/content-strategy)."
+    "This structure serves readers too, which is the point. The role of short answer blocks in conversational queries is covered in [voice search SEO](/en/sesli-arama-seo). To plan content this way, see my [content strategy service](/en/content-strategy)."
    ]
   },
   {
@@ -338,7 +338,7 @@
       ]
      }
     },
-    "Video details are in the [video SEO](/en/blog/video-seo) article; the basis of the local pack is covered in [Google Business Profile](/en/blog/google-business-profile) and the [local SEO guide](/en/guides/yerel-seo)."
+    "Video details are in the [video SEO](/en/video-seo) article; the basis of the local pack is covered in [Google Business Profile](/en/google-business-profile) and the [local SEO guide](/en/yerel-seo)."
    ]
   },
   {
@@ -351,7 +351,7 @@
       "metin": "Google has not shown FAQ rich results in Google Search since 7 May 2026; HowTo rich results were removed earlier. FAQPage markup remains valid and may help machines understand content, but it no longer earns a rich result."
      }
     },
-    "Structured data still underpins many result types such as products, reviews, events and videos. See which type fits which result in the [schema and structured data guide](/en/guides/schema-yapisal-veri) and draft JSON-LD with the [schema generator](/en/tools/schema-generator). Featured snippets need no structured data."
+    "Structured data still underpins many result types such as products, reviews, events and videos. See which type fits which result in the [schema and structured data guide](/en/schema-yapisal-veri) and draft JSON-LD with the [schema generator](/en/schema-generator). Featured snippets need no structured data."
    ]
   },
   {
@@ -359,12 +359,12 @@
    "paragraflar": [
     "Google's AI features documentation says there are no additional requirements or special markup to appear as a supporting link in AI Overviews or AI Mode; the page must be indexed and eligible to show with a snippet. Clear, snippet-friendly content is the same foundation for both.",
     "Snippet controls are shared as well: nosnippet, data-nosnippet and max-snippet limit both classic snippets and what is shown in AI features. To remove a page from featured snippets only, Google suggests trying a lower max-snippet value, though the outcome is not certain.",
-    "Details on being cited in AI summaries are in [appearing as a source in Google AI Overviews](/en/blog/google-ai-overview-optimizasyonu), with the wider framework in the [GEO implementation guide](/en/guides/geo-uygulama). To review your visibility in these results, see [GEO consulting](/en/geo-consulting) or [book an intro call](/en/book-a-call).",
+    "Details on being cited in AI summaries are in [appearing as a source in Google AI Overviews](/en/google-ai-overview-optimizasyonu), with the wider framework in the [GEO implementation guide](/en/geo-uygulama). To review your visibility in these results, see [GEO consulting](/en/geo-consulting) or [book an intro call](/en/book-a-call).",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: SERP preview",
-      "metin": "See where your title and meta description get cut off on desktop and mobile, measured in pixels, with the [SERP preview tool](/en/tools/serp-preview)."
+      "metin": "See where your title and meta description get cut off on desktop and mobile, measured in pixels, with the [SERP preview tool](/en/serp-preview)."
      }
     }
    ]

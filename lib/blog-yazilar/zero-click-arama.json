@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Zero-Click Arama: Tıklama Gelmeyen Sonuçlarda Görünürlük",
  "baslik_en": "Zero-Click Search: Staying Visible When Results Don't Get Clicked",
- "meta_baslik_tr": "Zero-Click Arama: Tıklama Gelmeyen Sonuçlarda Görünürlük",
- "meta_baslik_en": "Zero-Click Search: Visibility Without the Click",
- "meta_desc_tr": "Zero-click arama nedir? Tıklama gerektirmeyen sonuç türleri, gösterim ve marka aramasıyla ölçüm, hangi sorgulara içerik yazılacağına dair karar ölçütleri.",
- "meta_desc_en": "What zero-click search is: result types that answer without a click, measuring with impressions and branded search, and deciding which queries to target.",
+ "meta_baslik_tr": "Zero-Click Arama ve Tıklamasız Görünürlük",
+ "meta_baslik_en": "What Is Zero-Click Search? Staying Visible",
+ "meta_desc_tr": "Zero-click arama nedir? Tıklamasız sonuç türlerini, gösterim ve marka aramasıyla ölçümü, hangi sorgulara içerik yazılacağının ölçütlerini öğrenin.",
+ "meta_desc_en": "Learn which result types answer without a click, how to measure with impressions and branded search, and how to decide which queries to target.",
  "ozet_tr": "Kullanıcı sonuç sayfasında cevabı bulup tıklamadığında görünürlüğü nasıl ölçer, içerik kararlarını nasıl verirsiniz?",
  "ozet_en": "How to measure visibility and make content decisions when users find the answer on the results page and never click.",
  "bolumler_tr": [
@@ -68,7 +68,7 @@
       ]
      }
     },
-    "Öne çıkan snippet ve diğer SERP özelliklerinin nasıl kazanıldığını [featured snippet ve SERP özellikleri yazısında](/blog/featured-snippet-serp-ozellikleri), AI Bakışı'nda kaynak olmayı ise [Google AI Overviews optimizasyonu yazısında](/blog/google-ai-overview-optimizasyonu) ayrıntılı anlattım."
+    "Öne çıkan snippet ve diğer SERP özelliklerinin nasıl kazanıldığını [featured snippet ve SERP özellikleri yazısında](/featured-snippet-serp-ozellikleri), AI Bakışı'nda kaynak olmayı ise [Google AI Overviews optimizasyonu yazısında](/google-ai-overview-optimizasyonu) ayrıntılı anlattım."
    ]
   },
   {
@@ -99,7 +99,7 @@
       }
      ]
     },
-    "Bu göstergeleri tek bir panoda birleştirmenin yolunu [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Yapay zekâ asistanlarından gelen ziyaretleri GA4'te ayırmak için de [GA4 yapay zekâ trafiği yazısına](/blog/ga4-yapay-zeka-trafigi) bakabilirsiniz."
+    "Bu göstergeleri tek bir panoda birleştirmenin yolunu [SEO raporlama rehberinde](/seo-raporlama) anlattım. Yapay zekâ asistanlarından gelen ziyaretleri GA4'te ayırmak için de [GA4 yapay zekâ trafiği yazısına](/ga4-yapay-zeka-trafigi) bakabilirsiniz."
    ]
   },
   {
@@ -157,7 +157,7 @@
       }
      }
     },
-    "Bu önceliklendirmeyi içerik takvimine dönüştürmek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) adım adım bir yöntem sunuyor."
+    "Bu önceliklendirmeyi içerik takvimine dönüştürmek için [içerik stratejisi rehberi](/icerik-stratejisi) adım adım bir yöntem sunuyor."
    ]
   },
   {
@@ -172,7 +172,7 @@
       "Business Profile'ı fotoğraf, hizmet ve güncel saatlerle eksiksiz tutun."
      ]
     },
-    "Yerel aramalarda bu çalışmanın çerçevesi [yerel SEO rehberinde](/rehber/yerel-seo), profil tarafı ise [Google Business Profile yazısında](/blog/google-business-profile) anlatılıyor."
+    "Yerel aramalarda bu çalışmanın çerçevesi [yerel SEO rehberinde](/yerel-seo), profil tarafı ise [Google Business Profile yazısında](/google-business-profile) anlatılıyor."
    ]
   },
   {
@@ -270,7 +270,7 @@
       ]
      }
     },
-    "I explain how featured snippets and other SERP features are won in the [featured snippets and SERP features article](/en/blog/featured-snippet-serp-ozellikleri), and how to get cited in AI Overviews in the [Google AI Overviews optimisation article](/en/blog/google-ai-overview-optimizasyonu)."
+    "I explain how featured snippets and other SERP features are won in the [featured snippets and SERP features article](/en/featured-snippet-serp-ozellikleri), and how to get cited in AI Overviews in the [Google AI Overviews optimisation article](/en/google-ai-overview-optimizasyonu)."
    ]
   },
   {
@@ -301,7 +301,7 @@
       }
      ]
     },
-    "I explain how to combine these signals into one dashboard in the [SEO reporting guide](/en/guides/seo-raporlama). To separate visits from AI assistants in GA4, see the [GA4 AI traffic article](/en/blog/ga4-yapay-zeka-trafigi)."
+    "I explain how to combine these signals into one dashboard in the [SEO reporting guide](/en/seo-raporlama). To separate visits from AI assistants in GA4, see the [GA4 AI traffic article](/en/ga4-yapay-zeka-trafigi)."
    ]
   },
   {
@@ -359,7 +359,7 @@
       }
      }
     },
-    "To turn this prioritisation into a content calendar, the [content strategy guide](/en/guides/icerik-stratejisi) offers a step-by-step method."
+    "To turn this prioritisation into a content calendar, the [content strategy guide](/en/icerik-stratejisi) offers a step-by-step method."
    ]
   },
   {
@@ -374,7 +374,7 @@
       "Keep your Business Profile complete with photos, services and current hours."
      ]
     },
-    "For local searches, the framework is in the [local SEO guide](/en/guides/yerel-seo), and the profile side is covered in the [Google Business Profile article](/en/blog/google-business-profile)."
+    "For local searches, the framework is in the [local SEO guide](/en/yerel-seo), and the profile side is covered in the [Google Business Profile article](/en/google-business-profile)."
    ]
   },
   {

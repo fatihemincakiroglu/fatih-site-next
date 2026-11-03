@@ -14,14 +14,14 @@ export default function SektorSayfasi({ veri, isEn }) {
   if (!veri) return null
   const L = isEn ? 'en' : 'tr'
   const v = (k) => veri[`${k}_${L}`]
-  const yol = isEn ? `/en/industries/${veri.slug_en}` : `/sektorler/${veri.slug}`
+  const yol = isEn ? `/en/${veri.slug_en}` : `/${veri.slug}`
   const canonical = `${BASE}${yol}`
   const hubYol = isEn ? '/en/industries' : '/sektorler'
   const bolumler = v('bolumler') || []
   const sss = v('sss') || []
-  const BASLIK_EKI = ' | Fatih Emin Çakıroğlu'
+  // Meta başlık biçimi: "Konu | Sektörel SEO" (en fazla 54 karakter, iki nokta yok)
   const meta = v('meta_baslik')
-  const title = (meta + BASLIK_EKI).length <= 65 ? meta + BASLIK_EKI : meta
+  const title = `${meta} | ${isEn ? 'Industry SEO' : 'Sektörel SEO'}`
   const duz = (t) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '')
   const ilceler = (veri.ilceler || []).map(s => KONUMLAR.find(k => k.slug === s)).filter(Boolean)
   const digerSektorler = SEKTOR_LISTE.filter(s => s.slug !== veri.slug)
@@ -141,7 +141,7 @@ export default function SektorSayfasi({ veri, isEn }) {
           </h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
             {digerSektorler.map(s => (
-              <Link key={s.slug} href={isEn ? `/en/industries/${s.slug_en}` : `/sektorler/${s.slug}`} style={{ padding: '8px 14px', borderRadius: '8px', border: '1px solid #eee', background: '#fff', fontSize: '14px', color: '#333', fontWeight: 600 }}>
+              <Link key={s.slug} href={isEn ? `/en/${s.slug_en}` : `/${s.slug}`} style={{ padding: '8px 14px', borderRadius: '8px', border: '1px solid #eee', background: '#fff', fontSize: '14px', color: '#333', fontWeight: 600 }}>
                 {isEn ? s.en.ad : s.tr.ad}
               </Link>
             ))}

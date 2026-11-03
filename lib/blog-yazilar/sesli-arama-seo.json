@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Sesli Arama ve Konuşma Diliyle Sorgular: İçeriği Soru-Cevaba Hazırlamak",
  "baslik_en": "Voice Search and Conversational Queries: Preparing Content for Q&A",
- "meta_baslik_tr": "Sesli Arama SEO: İçeriği Soru-Cevaba Hazırlamak",
- "meta_baslik_en": "Voice Search SEO: Preparing Content for Q&A",
- "meta_desc_tr": "Sesli arama ve konuşma diliyle yapılan sorgular için içerik nasıl hazırlanır? Doğal dil, yerel niyet, kısa net cevap blokları ve yapısal verinin gerçek yeri.",
- "meta_desc_en": "How to prepare content for voice and conversational queries: natural language, local intent, short direct answer blocks and the real role of structured data.",
+ "meta_baslik_tr": "Sesli Arama SEO için İçerik Hazırlama",
+ "meta_baslik_en": "Voice Search SEO Content Guide",
+ "meta_desc_tr": "Konuşma diliyle yapılan sesli sorgular için doğal dil, yerel niyet, kısa net cevap blokları ve yapısal verinin gerçek yeriyle içeriğinizi hazırlayın.",
+ "meta_desc_en": "Prepare content for voice queries with natural language, local intent, short direct answer blocks and the real role of structured data.",
  "ozet_tr": "Konuşma diliyle sorulan sorulara net cevap veren içerik: doğal dil, yerel niyet ve kısa cevap blokları, abartısız.",
  "ozet_en": "Content that answers conversational questions clearly: natural language, local intent and short answer blocks, without the hype.",
  "bolumler_tr": [
@@ -56,7 +56,7 @@
       ]
      }
     },
-    "Bu soru kalıplarını bulmak için Search Console'daki uzun sorgular ve müşteri hizmetlerine gelen gerçek sorular en iyi kaynak. Yöntemi [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi) anlattım."
+    "Bu soru kalıplarını bulmak için Search Console'daki uzun sorgular ve müşteri hizmetlerine gelen gerçek sorular en iyi kaynak. Yöntemi [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) anlattım."
    ]
   },
   {
@@ -70,7 +70,7 @@
       "metin": "Hangi asistan olursa olsun, web'den cevap üretilirken taranabilir, dizine eklenmiş ve soruyu açıkça yanıtlayan sayfaların kullanılma olasılığı daha yüksektir. Bu yüzden sesli arama çalışması büyük ölçüde iyi yapılmış SEO ile örtüşür."
      }
     },
-    "Google tarafında cevap kutuları ve AI Bakışı'nın nasıl kaynak seçtiğini [Google AI Overviews optimizasyonu yazısında](/blog/google-ai-overview-optimizasyonu) ayrıntılı ele aldım."
+    "Google tarafında cevap kutuları ve AI Bakışı'nın nasıl kaynak seçtiğini [Google AI Overviews optimizasyonu yazısında](/google-ai-overview-optimizasyonu) ayrıntılı ele aldım."
    ]
   },
   {
@@ -96,7 +96,7 @@
       }
      ]
     },
-    "Business Profile'daki Soru-Cevap özelliği kaldırıldığı için sık sorulan soruları artık kendi sitenizde yanıtlamanız daha da önemli. Profil yönetimini [Google Business Profile yazısında](/blog/google-business-profile), yerel sayfa kurgusunu [yerel SEO rehberinde](/rehber/yerel-seo) bulabilirsiniz; klinikler için somut bir örnek [diş klinikleri için yerel SEO yazısında](/blog/dis-klinikleri-yerel-seo) var."
+    "Business Profile'daki Soru-Cevap özelliği kaldırıldığı için sık sorulan soruları artık kendi sitenizde yanıtlamanız daha da önemli. Profil yönetimini [Google Business Profile yazısında](/google-business-profile), yerel sayfa kurgusunu [yerel SEO rehberinde](/yerel-seo) bulabilirsiniz; klinikler için somut bir örnek [diş klinikleri için yerel SEO yazısında](/dis-klinikleri-yerel-seo) var."
    ]
   },
   {
@@ -129,7 +129,7 @@
       ]
      }
     },
-    "Bu yapı aynı zamanda öne çıkan snippet'ler için de uygundur; ayrıntısı [featured snippet ve SERP özellikleri yazısında](/blog/featured-snippet-serp-ozellikleri)."
+    "Bu yapı aynı zamanda öne çıkan snippet'ler için de uygundur; ayrıntısı [featured snippet ve SERP özellikleri yazısında](/featured-snippet-serp-ozellikleri)."
    ]
   },
   {
@@ -174,7 +174,7 @@
       "**LocalBusiness ve Organization**: Adres, saat ve iletişim bilgisini makine okunur hale getirir; sitedeki görünür bilgiyle birebir uyumlu olmalı."
      ]
     },
-    "Bu işaretlemeleri [schema yapısal veri rehberindeki](/rehber/schema-yapisal-veri) kurallara göre kurabilir, kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz."
+    "Bu işaretlemeleri [schema yapısal veri rehberindeki](/schema-yapisal-veri) kurallara göre kurabilir, kodu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz."
    ]
   },
   {
@@ -189,7 +189,7 @@
       "Sık sorulan sorular sitede görünür metin olarak yanıtlanıyor."
      ]
     },
-    "Özellikle randevuyla çalışan sektörlerde bu çalışma doğrudan aramaya ve randevuya dönüşür; [klinik SEO](/sektorler/klinik-seo) sayfasında bu yaklaşımı anlattım. Sitenizin soru-cevap yapısını birlikte gözden geçirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmetine bakabilir ya da [randevu alabilirsiniz](/randevu)."
+    "Özellikle randevuyla çalışan sektörlerde bu çalışma doğrudan aramaya ve randevuya dönüşür; [klinik SEO](/klinik-seo) sayfasında bu yaklaşımı anlattım. Sitenizin soru-cevap yapısını birlikte gözden geçirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmetine bakabilir ya da [randevu alabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -239,7 +239,7 @@
       ]
      }
     },
-    "The best sources for these question patterns are long queries in Search Console and real questions reaching your customer service. I explain the method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+    "The best sources for these question patterns are long queries in Search Console and real questions reaching your customer service. I explain the method in the [keyword research guide](/en/anahtar-kelime-arastirmasi)."
    ]
   },
   {
@@ -253,7 +253,7 @@
       "metin": "Whatever the assistant, when answers are built from the web, pages that are crawlable, indexed and answer the question clearly are more likely to be used. That is why voice search work largely overlaps with well-executed SEO."
      }
     },
-    "I cover how answer boxes and AI Overviews choose sources on Google's side in the [Google AI Overviews optimisation article](/en/blog/google-ai-overview-optimizasyonu)."
+    "I cover how answer boxes and AI Overviews choose sources on Google's side in the [Google AI Overviews optimisation article](/en/google-ai-overview-optimizasyonu)."
    ]
   },
   {
@@ -279,7 +279,7 @@
       }
      ]
     },
-    "Since the Q&A feature was removed from Business Profile, answering common questions on your own site matters even more. You will find profile management in the [Google Business Profile article](/en/blog/google-business-profile) and local page structure in the [local SEO guide](/en/guides/yerel-seo); for a concrete clinic example, see [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo)."
+    "Since the Q&A feature was removed from Business Profile, answering common questions on your own site matters even more. You will find profile management in the [Google Business Profile article](/en/google-business-profile) and local page structure in the [local SEO guide](/en/yerel-seo); for a concrete clinic example, see [local SEO for dental clinics](/en/dis-klinikleri-yerel-seo)."
    ]
   },
   {
@@ -312,7 +312,7 @@
       ]
      }
     },
-    "This structure also suits featured snippets; details are in the [featured snippets and SERP features article](/en/blog/featured-snippet-serp-ozellikleri)."
+    "This structure also suits featured snippets; details are in the [featured snippets and SERP features article](/en/featured-snippet-serp-ozellikleri)."
    ]
   },
   {
@@ -357,7 +357,7 @@
       "**LocalBusiness and Organization**: Make address, hours and contact details machine-readable; they must match the visible information on the site exactly."
      ]
     },
-    "You can set up this markup following the rules in the [schema structured data guide](/en/guides/schema-yapisal-veri) and prepare the code with the [schema generator](/en/tools/schema-generator)."
+    "You can set up this markup following the rules in the [schema structured data guide](/en/schema-yapisal-veri) and prepare the code with the [schema generator](/en/schema-generator)."
    ]
   },
   {
@@ -372,7 +372,7 @@
       "Common questions are answered on the site as visible text."
      ]
     },
-    "In appointment-based sectors, this work turns directly into calls and bookings; I describe the approach on the [healthcare SEO](/en/industries/healthcare-seo) page. If you want to review your site's Q&A structure together, see [SEO consulting](/en/seo-consulting) or [book a call](/en/book-a-call)."
+    "In appointment-based sectors, this work turns directly into calls and bookings; I describe the approach on the [healthcare SEO](/en/healthcare-seo) page. If you want to review your site's Q&A structure together, see [SEO consulting](/en/seo-consulting) or [book a call](/en/book-a-call)."
    ]
   }
  ],
@@ -399,7 +399,7 @@
   },
   {
    "s": "Sayfa hızı sesli aramayı etkiler mi?",
-   "c": "Sesli aramaya özel bir hız eşiği yok; geçerli olan genel Core Web Vitals eşikleri: LCP en fazla 2,5 saniye, INP en fazla 200 ms, CLS en fazla 0,1. Ayrıntılar [Core Web Vitals yazısında](/blog/core-web-vitals-2025)."
+   "c": "Sesli aramaya özel bir hız eşiği yok; geçerli olan genel Core Web Vitals eşikleri: LCP en fazla 2,5 saniye, INP en fazla 200 ms, CLS en fazla 0,1. Ayrıntılar [Core Web Vitals yazısında](/core-web-vitals-2025)."
   }
  ],
  "sss_en": [
@@ -425,7 +425,7 @@
   },
   {
    "s": "Does page speed affect voice search?",
-   "c": "There is no voice-specific speed threshold; the general Core Web Vitals thresholds apply: LCP up to 2.5 seconds, INP up to 200 ms, CLS up to 0.1. Details are in the [Core Web Vitals article](/en/blog/core-web-vitals-2025)."
+   "c": "There is no voice-specific speed threshold; the general Core Web Vitals thresholds apply: LCP up to 2.5 seconds, INP up to 200 ms, CLS up to 0.1. Details are in the [Core Web Vitals article](/en/core-web-vitals-2025)."
   }
  ]
 }

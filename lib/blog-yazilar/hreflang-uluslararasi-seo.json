@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Uluslararası SEO ve Hreflang: Çok Dilli Site Kurulumu",
  "baslik_en": "International SEO and Hreflang: Setting Up a Multilingual Site",
- "meta_baslik_tr": "Uluslararası SEO ve Hreflang: Çok Dilli Site Kurulumu",
- "meta_baslik_en": "International SEO and Hreflang: Multilingual Site Setup",
- "meta_desc_tr": "ccTLD mi, alt klasör mü, alt alan adı mı? Hreflang sözdizimi ve kod örneği, x-default kullanımı, sık yapılan hatalar ve çok dilli siteyi test etme adımları.",
- "meta_desc_en": "ccTLD, subfolder or subdomain? Hreflang syntax with a code example, when to use x-default, the most common mistakes and how to test a multilingual site.",
+ "meta_baslik_tr": "Hreflang ile Uluslararası SEO Kurulumu",
+ "meta_baslik_en": "Hreflang and International SEO Setup",
+ "meta_desc_tr": "ccTLD mi, alt klasör mü, alt alan adı mı? Hreflang sözdizimi ve kod örneği, x-default kullanımı, sık hatalar ve çok dilli siteyi test etme adımları.",
+ "meta_desc_en": "ccTLD, subfolder or subdomain? Hreflang syntax with a code example, when to use x-default, common mistakes and how to test a multilingual site.",
  "ozet_tr": "Çok dilli sitede URL yapısını seçmek, hreflang'i doğru yazmak ve sık yapılan hataları yakalamak için pratik rehber.",
  "ozet_en": "A practical guide to choosing a URL structure, writing hreflang correctly and catching common mistakes on a multilingual site.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Türkiye'den yurt dışına satış yapan bir üretici, Rusça ve Almanca misafir ağırlayan bir otel ya da İngilizce içerik ekleyen bir SaaS girişimi aynı soruyla karşılaşır: Her dil ve ülke için hangi URL yapısını kurmalı, Google'a hangi sayfanın kime gösterileceğini nasıl anlatmalı?",
-    "Bu yazıda URL yapısı kararını, hreflang sözdizimini, x-default'u ve denetimlerde en sık gördüğüm hreflang hatalarını anlatıyorum. Genel tarama ve indeksleme temelleri için [teknik SEO rehberi](/rehber/teknik-seo) iyi bir başlangıç.",
+    "Bu yazıda URL yapısı kararını, hreflang sözdizimini, x-default'u ve denetimlerde en sık gördüğüm hreflang hatalarını anlatıyorum. Genel tarama ve indeksleme temelleri için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç.",
     {
      "alinti": "Kısa cevap: Uluslararası SEO'da önce URL yapısını (ccTLD, alt klasör ya da alt alan adı) seçersiniz, sonra her dil sürümünü hreflang ile birbirine bağlarsınız. Hreflang karşılıklı olmalı, her sayfa kendini de listelemeli ve kodlar ISO 639-1 dil (isteğe bağlı ISO 3166-1 Alpha-2 bölge) biçiminde yazılmalıdır."
     }
@@ -61,7 +61,7 @@
       ]
      }
     },
-    "Sahada en sık önerdiğim yapı alt klasördür: tek alan adında otorite birikir ve bakım kolaydır. Ayrı yasal varlıklar ya da ülkeye özel ekipler varsa ccTLD mantıklı hale gelir. Mevcut yapıyı değiştirecekseniz süreç bir taşıma projesidir; [site taşıma SEO rehberi](/rehber/site-tasima-seo) adımları ayrıntılı anlatıyor. Klasör ve slug kararları için [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) yazısına da bakabilirsiniz."
+    "Sahada en sık önerdiğim yapı alt klasördür: tek alan adında otorite birikir ve bakım kolaydır. Ayrı yasal varlıklar ya da ülkeye özel ekipler varsa ccTLD mantıklı hale gelir. Mevcut yapıyı değiştirecekseniz süreç bir taşıma projesidir; [site taşıma SEO rehberi](/site-tasima-seo) adımları ayrıntılı anlatıyor. Klasör ve slug kararları için [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısına da bakabilirsiniz."
    ]
   },
   {
@@ -123,7 +123,7 @@
      "kutu": {
       "tur": "ipucu",
       "baslik": "Otel ve turizm sitelerinde",
-      "metin": "Rusça, Almanca, Arapça sürümleri olan sitelerde x-default'u İngilizce sürüme vermek, listede olmayan dillerdeki ziyaretçiler için en anlaşılır yedektir. Sektöre özel kurgu için [otel ve turizm SEO](/sektorler/otel-turizm-seo) sayfasına bakabilirsiniz."
+      "metin": "Rusça, Almanca, Arapça sürümleri olan sitelerde x-default'u İngilizce sürüme vermek, listede olmayan dillerdeki ziyaretçiler için en anlaşılır yedektir. Sektöre özel kurgu için [otel ve turizm SEO](/otel-turizm-seo) sayfasına bakabilirsiniz."
      }
     }
    ]
@@ -160,7 +160,7 @@
       ]
      }
     },
-    "Slug'ları her dilde yerelleştirmek kullanıcı için daha anlaşılırdır, ama eşleştirmeyi zorlaştırır. Bu yüzden CMS'te her içeriğin dil karşılıklarını bir alanda tutun; hreflang etiketlerini elle değil bu ilişkiden otomatik üretin. İhracat odaklı sitelerde bu kurguyu [B2B üretici SEO](/sektorler/b2b-uretici-seo) çalışmalarında sıkça kuruyorum."
+    "Slug'ları her dilde yerelleştirmek kullanıcı için daha anlaşılırdır, ama eşleştirmeyi zorlaştırır. Bu yüzden CMS'te her içeriğin dil karşılıklarını bir alanda tutun; hreflang etiketlerini elle değil bu ilişkiden otomatik üretin. İhracat odaklı sitelerde bu kurguyu [B2B üretici SEO](/b2b-uretici-seo) çalışmalarında sıkça kuruyorum."
    ]
   },
   {
@@ -190,7 +190,7 @@
       }
      }
     },
-    "En pahalı hata, dil sürümlerinin canonical'ını ana dile vermektir: Google bu durumda diğer sürümleri kopya sayıp dizinden dışlayabilir. Taşımalardan sonra hreflang listesinde eski, yönlendirilen URL'lerin kalması da sık görülür; yönlendirme mantığını [301 ve 302 yönlendirme farkı](/blog/301-302-yonlendirme) yazısında anlattım."
+    "En pahalı hata, dil sürümlerinin canonical'ını ana dile vermektir: Google bu durumda diğer sürümleri kopya sayıp dizinden dışlayabilir. Taşımalardan sonra hreflang listesinde eski, yönlendirilen URL'lerin kalması da sık görülür; yönlendirme mantığını [301 ve 302 yönlendirme farkı](/301-302-yonlendirme) yazısında anlattım."
    ]
   },
   {
@@ -223,12 +223,12 @@
       ]
      }
     },
-    "Tarama için hangi aracın uygun olduğunu [SEO denetim araçları karşılaştırmasında](/blog/seo-audit-araclari) ele aldım. Çok dilli bir sitenin kurulumu ya da denetimi için [SEO danışmanlığı](/seo-uzmani) kapsamında destek alabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) oluşturabilirsiniz.",
+    "Tarama için hangi aracın uygun olduğunu [SEO denetim araçları karşılaştırmasında](/seo-audit-araclari) ele aldım. Çok dilli bir sitenin kurulumu ya da denetimi için [SEO danışmanlığı](/seo-uzmani) kapsamında destek alabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) oluşturabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: hreflang oluşturucu",
-      "metin": "Dil kodlarını ISO standartlarına göre kontrol eden ve karşılıklı etiketleri otomatik üreten [hreflang oluşturucu](/araclar/hreflang-olusturucu) ile HTML, XML site haritası ya da HTTP başlığı çıktısı alabilirsiniz."
+      "metin": "Dil kodlarını ISO standartlarına göre kontrol eden ve karşılıklı etiketleri otomatik üreten [hreflang oluşturucu](/hreflang-olusturucu) ile HTML, XML site haritası ya da HTTP başlığı çıktısı alabilirsiniz."
      }
     }
    ]
@@ -239,7 +239,7 @@
    "baslik": null,
    "paragraflar": [
     "An exporting Turkish manufacturer, a hotel hosting Russian and German guests or a SaaS startup adding English all face one question: which URL structure should each language and country get, and how do you tell Google which page to show to whom?",
-    "This article covers the URL structure decision, hreflang syntax, x-default and the hreflang mistakes I see most often in audits. For crawling and indexing fundamentals, the [technical SEO guide](/en/guides/teknik-seo) is a good starting point.",
+    "This article covers the URL structure decision, hreflang syntax, x-default and the hreflang mistakes I see most often in audits. For crawling and indexing fundamentals, the [technical SEO guide](/en/teknik-seo) is a good starting point.",
     {
      "alinti": "Short answer: In international SEO you first choose a URL structure (ccTLD, subfolder or subdomain), then connect every language version with hreflang. Hreflang must be reciprocal, each page must also list itself, and codes must use ISO 639-1 for language with an optional ISO 3166-1 Alpha-2 region."
     }
@@ -285,7 +285,7 @@
       ]
      }
     },
-    "The structure I recommend most often is the subfolder: authority accumulates on one domain and maintenance stays simple. A ccTLD makes sense when you have separate legal entities or country teams. Changing an existing structure is a migration project; the [site migration SEO guide](/en/guides/site-tasima-seo) covers the steps. For folder and slug decisions, see [SEO-friendly URL structure](/en/blog/url-yapisi-seo)."
+    "The structure I recommend most often is the subfolder: authority accumulates on one domain and maintenance stays simple. A ccTLD makes sense when you have separate legal entities or country teams. Changing an existing structure is a migration project; the [site migration SEO guide](/en/site-tasima-seo) covers the steps. For folder and slug decisions, see [SEO-friendly URL structure](/en/url-yapisi-seo)."
    ]
   },
   {
@@ -347,7 +347,7 @@
      "kutu": {
       "tur": "ipucu",
       "baslik": "For hotel and tourism sites",
-      "metin": "On sites with Russian, German and Arabic versions, pointing x-default to English is the clearest fallback for visitors in unlisted languages. For an industry-specific setup, see [hotel and tourism SEO](/en/industries/hotel-tourism-seo)."
+      "metin": "On sites with Russian, German and Arabic versions, pointing x-default to English is the clearest fallback for visitors in unlisted languages. For an industry-specific setup, see [hotel and tourism SEO](/en/hotel-tourism-seo)."
      }
     }
    ]
@@ -384,7 +384,7 @@
       ]
      }
     },
-    "Localised slugs are clearer for users but harder to map. Store each item's language counterparts in a CMS field and generate hreflang tags from that relationship rather than by hand. I set up this model often in [B2B manufacturer SEO](/en/industries/b2b-manufacturer-seo) projects for export-focused sites."
+    "Localised slugs are clearer for users but harder to map. Store each item's language counterparts in a CMS field and generate hreflang tags from that relationship rather than by hand. I set up this model often in [B2B manufacturer SEO](/en/b2b-manufacturer-seo) projects for export-focused sites."
    ]
   },
   {
@@ -414,7 +414,7 @@
       }
      }
     },
-    "The costliest mistake is pointing the canonical of every language version to the main language: Google may then treat the other versions as duplicates and drop them from the index. Old, redirected URLs left in hreflang after a migration are also common; I explain redirect logic in [301 vs 302 redirects](/en/blog/301-302-yonlendirme)."
+    "The costliest mistake is pointing the canonical of every language version to the main language: Google may then treat the other versions as duplicates and drop them from the index. Old, redirected URLs left in hreflang after a migration are also common; I explain redirect logic in [301 vs 302 redirects](/en/301-302-yonlendirme)."
    ]
   },
   {
@@ -447,12 +447,12 @@
       ]
      }
     },
-    "I compare crawlers for this job in [SEO audit tools compared](/en/blog/seo-audit-araclari). For setting up or auditing a multilingual site, see [SEO consulting](/en/seo-consulting) or [book a free intro call](/en/book-a-call).",
+    "I compare crawlers for this job in [SEO audit tools compared](/en/seo-audit-araclari). For setting up or auditing a multilingual site, see [SEO consulting](/en/seo-consulting) or [book a free intro call](/en/book-a-call).",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: hreflang generator",
-      "metin": "The [hreflang generator](/en/tools/hreflang-generator) checks language codes against ISO standards, builds reciprocal tags automatically and outputs HTML, an XML sitemap or HTTP headers."
+      "metin": "The [hreflang generator](/en/hreflang-generator) checks language codes against ISO standards, builds reciprocal tags automatically and outputs HTML, an XML sitemap or HTTP headers."
      }
     }
    ]

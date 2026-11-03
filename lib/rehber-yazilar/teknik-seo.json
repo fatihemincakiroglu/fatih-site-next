@@ -2,10 +2,10 @@
  "kategori": "Teknik",
  "baslik_tr": "Teknik SEO Rehberi: Tarama, İndeksleme, Core Web Vitals ve Denetim Süreci",
  "baslik_en": "Technical SEO Guide: Crawling, Indexing, Core Web Vitals and Audits",
- "meta_baslik_tr": "Teknik SEO Rehberi: Tarama, İndeksleme ve Denetim",
- "meta_baslik_en": "Technical SEO Guide: Crawling, Indexing and Audits",
- "meta_desc_tr": "Teknik SEO nasıl yapılır? robots.txt, canonical, noindex, sitemap, Core Web Vitals, mobil öncelikli dizine ekleme, JavaScript, hreflang ve denetim önceliği.",
- "meta_desc_en": "How to do technical SEO: robots.txt, canonical, noindex, sitemaps, Core Web Vitals, mobile-first indexing, JavaScript, hreflang and audit priorities.",
+ "meta_baslik_tr": "Teknik SEO Rehberi, Tarama ve İndeksleme",
+ "meta_baslik_en": "Technical SEO Guide, Crawling and Indexing",
+ "meta_desc_tr": "Teknik SEO nasıl yapılır? robots.txt, canonical, noindex, sitemap, Core Web Vitals, JavaScript ve hreflang konularını denetim önceliğiyle öğrenin.",
+ "meta_desc_en": "Learn how to do technical SEO, from robots.txt, canonical, noindex and sitemaps to Core Web Vitals, JavaScript, hreflang and setting audit priorities.",
  "ozet_tr": "Tarama, indeksleme, site mimarisi, Core Web Vitals, JavaScript ve hreflang: teknik SEO denetimini adım adım yapın.",
  "ozet_en": "Crawling, indexing, site architecture, Core Web Vitals, JavaScript and hreflang: run a technical SEO audit step by step.",
  "bolumler_tr": [
@@ -29,13 +29,13 @@
     "Tarama bütçesi, Google'ın dokümantasyonuna göre esas olarak çok büyük sitelerde (yaklaşık bir milyonun üzerinde sayfa) ya da 10.000'den fazla sayfası olup içeriği her gün değişen sitelerde önemlidir. Küçük sitelerde asıl sorun, önemli sayfaların keşfedilememesidir. Büyük sitelerde israf genellikle şuradan gelir:",
     {
      "liste": [
-      "Filtre, sıralama ve oturum parametreleriyle çoğalan URL'ler (yönetimi [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlatılıyor).",
+      "Filtre, sıralama ve oturum parametreleriyle çoğalan URL'ler (yönetimi [e-ticaret SEO rehberinde](/e-ticaret-seo) anlatılıyor).",
       "Yönlendirme zincirleri ve iç linklerden verilen 404'ler.",
       "Yumuşak 404 üreten boş arama ve kategori sayfaları.",
       "Yavaş sunucu yanıtları; Google zorlanan sunucuda tarama hızını düşürür."
      ]
     },
-    "Bunları Search Console'daki Tarama istatistikleri raporundan izleyebilirsiniz. Sık karıştırılan llms.txt dosyasının robots.txt'nin yerini neden tutmadığını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım."
+    "Bunları Search Console'daki Tarama istatistikleri raporundan izleyebilirsiniz. Sık karıştırılan llms.txt dosyasının robots.txt'nin yerini neden tutmadığını [llms.txt rehberinde](/llms-txt-rehberi) anlattım."
    ]
   },
   {
@@ -77,7 +77,7 @@
     {
      "alt": "Search Console Sayfa dizine ekleme raporu"
     },
-    "Rapor, dizine eklenmeyen sayfaları nedenlerine göre gruplar. Noindex verdiğiniz ya da yönlendirdiğiniz sayfaların burada görünmesi normaldir. Asıl dikkat edilecekler: “Tarandı, şu anda dizine eklenmedi” (genellikle içerik zayıf veya benzer sayfalarla çakışıyor), “Keşfedildi, şu anda dizine eklenmedi” (iç linkleme veya sunucu kapasitesi) ve Google'ın sizin belirttiğinizden farklı bir standart sayfa seçtiği durumlar (çelişkili sinyaller). Tek bir URL için URL Denetimi aracı, oluşturulan HTML'i ve Google'ın seçtiği canonical'ı gösterir. Bu raporları [SEO raporlama rehberindeki](/rehber/seo-raporlama) aylık şablona ekleyin."
+    "Rapor, dizine eklenmeyen sayfaları nedenlerine göre gruplar. Noindex verdiğiniz ya da yönlendirdiğiniz sayfaların burada görünmesi normaldir. Asıl dikkat edilecekler: “Tarandı, şu anda dizine eklenmedi” (genellikle içerik zayıf veya benzer sayfalarla çakışıyor), “Keşfedildi, şu anda dizine eklenmedi” (iç linkleme veya sunucu kapasitesi) ve Google'ın sizin belirttiğinizden farklı bir standart sayfa seçtiği durumlar (çelişkili sinyaller). Tek bir URL için URL Denetimi aracı, oluşturulan HTML'i ve Google'ın seçtiği canonical'ı gösterir. Bu raporları [SEO raporlama rehberindeki](/seo-raporlama) aylık şablona ekleyin."
    ]
   },
   {
@@ -92,7 +92,7 @@
       "İç linkler yönlendirmeden geçmeden son URL'yi gösteriyor."
      ]
     },
-    "Hangi konunun hangi sayfada toplanacağını içerik planı belirler; konu kümesi mimarisini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım."
+    "Hangi konunun hangi sayfada toplanacağını içerik planı belirler; konu kümesi mimarisini [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım."
    ]
   },
   {
@@ -129,7 +129,7 @@
       ]
      }
     },
-    "Kararı saha verisine (Search Console Core Web Vitals raporu, PageSpeed Insights) göre verin; Lighthouse laboratuvar aracıdır ve INP'yi doğrudan ölçmez. CWV iyileştirmesi zayıf içeriği öne çıkarmaz ama sayfayı kullanılabilir kılar. Metrik bazında adımları [Core Web Vitals yazısında](/blog/core-web-vitals-2025) topladım."
+    "Kararı saha verisine (Search Console Core Web Vitals raporu, PageSpeed Insights) göre verin; Lighthouse laboratuvar aracıdır ve INP'yi doğrudan ölçmez. CWV iyileştirmesi zayıf içeriği öne çıkarmaz ama sayfayı kullanılabilir kılar. Metrik bazında adımları [Core Web Vitals yazısında](/core-web-vitals-2025) topladım."
    ]
   },
   {
@@ -137,7 +137,7 @@
    "paragraflar": [
     "Google siteleri ağırlıklı olarak akıllı telefon tarayıcısıyla dizine ekler; mobil sürümde eksik olan metin, link veya yapısal veri Google için yoktur. Mobil Kullanılabilirlik raporu ve Mobil Uyumluluk Testi 2023 sonunda kaldırıldı; kontrolleri artık Lighthouse, Chrome DevTools cihaz emülasyonu ve URL Denetimi aracıyla yapıyorum.",
     "HTTPS, sayfa deneyimi sinyalleri arasındadır. Tüm HTTP adresleri tek adımda HTTPS'e 301 ile yönlenmeli, karışık içerik (HTTP'den yüklenen görsel veya script) kalmamalıdır.",
-    "Kalıcı taşımada 301 veya 308, geçici durumda 302 veya 307 kullanılır. A → B → C gibi zincirler taramayı yavaşlatır; her eski URL tek adımda son adrese gitmelidir. Domain veya URL yapısı değişikliğinde yönlendirme haritası için [site taşıma SEO rehberine](/rehber/site-tasima-seo) bakın."
+    "Kalıcı taşımada 301 veya 308, geçici durumda 302 veya 307 kullanılır. A → B → C gibi zincirler taramayı yavaşlatır; her eski URL tek adımda son adrese gitmelidir. Domain veya URL yapısı değişikliğinde yönlendirme haritası için [site taşıma SEO rehberine](/site-tasima-seo) bakın."
    ]
   },
   {
@@ -206,7 +206,7 @@
       ]
      }
     },
-    "Her bulguya etkilenen URL sayısı, sorumlu ve efor eklenince liste bir plana döner. Yapısal veriyi [schema yapısal veri rehberindeki](/rehber/schema-yapisal-veri) test adımlarıyla kontrol ediyorum. Denetimi birlikte yürütmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
+    "Her bulguya etkilenen URL sayısı, sorumlu ve efor eklenince liste bir plana döner. Yapısal veriyi [schema yapısal veri rehberindeki](/schema-yapisal-veri) test adımlarıyla kontrol ediyorum. Denetimi birlikte yürütmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -231,13 +231,13 @@
     "According to Google's documentation, crawl budget mainly matters for very large sites (roughly a million pages or more) or sites with over 10,000 pages whose content changes daily. On smaller sites the real problem is important pages that never get discovered. On large sites, waste usually comes from:",
     {
      "liste": [
-      "URLs multiplied by filter, sort and session parameters (handled in the [e-commerce SEO guide](/en/guides/e-ticaret-seo)).",
+      "URLs multiplied by filter, sort and session parameters (handled in the [e-commerce SEO guide](/en/e-ticaret-seo)).",
       "Redirect chains and internal links to 404s.",
       "Empty search and category pages returning soft 404s.",
       "Slow server responses; Google crawls a struggling server more slowly."
      ]
     },
-    "You can watch this in the Crawl stats report in Search Console. Why the often-confused llms.txt file is no substitute for robots.txt is covered in my [llms.txt guide](/en/blog/llms-txt-rehberi)."
+    "You can watch this in the Crawl stats report in Search Console. Why the often-confused llms.txt file is no substitute for robots.txt is covered in my [llms.txt guide](/en/llms-txt-rehberi)."
    ]
   },
   {
@@ -279,7 +279,7 @@
     {
      "alt": "The Page indexing report in Search Console"
     },
-    "The report groups non-indexed pages by reason. Pages you set to noindex or redirected are expected there. Focus on \"Crawled – currently not indexed\" (often thin content or overlap with similar pages), \"Discovered – currently not indexed\" (internal linking or server capacity) and cases where Google chose a different canonical than yours (conflicting signals). For a single URL, the URL Inspection tool shows the rendered HTML and the canonical Google selected. Add these reports to the monthly template in the [SEO reporting guide](/en/guides/seo-raporlama)."
+    "The report groups non-indexed pages by reason. Pages you set to noindex or redirected are expected there. Focus on \"Crawled – currently not indexed\" (often thin content or overlap with similar pages), \"Discovered – currently not indexed\" (internal linking or server capacity) and cases where Google chose a different canonical than yours (conflicting signals). For a single URL, the URL Inspection tool shows the rendered HTML and the canonical Google selected. Add these reports to the monthly template in the [SEO reporting guide](/en/seo-raporlama)."
    ]
   },
   {
@@ -294,7 +294,7 @@
       "Internal links point to the final URL, not through redirects."
      ]
     },
-    "The content plan decides which topic lives on which page; I cover topic cluster architecture in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "The content plan decides which topic lives on which page; I cover topic cluster architecture in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
@@ -331,7 +331,7 @@
       ]
      }
     },
-    "Decide based on field data (the Search Console Core Web Vitals report, PageSpeed Insights); Lighthouse is a lab tool and does not measure INP directly. Better vitals will not lift weak content, but they make the page usable. Metric-by-metric steps are in my [Core Web Vitals article](/en/blog/core-web-vitals-2025)."
+    "Decide based on field data (the Search Console Core Web Vitals report, PageSpeed Insights); Lighthouse is a lab tool and does not measure INP directly. Better vitals will not lift weak content, but they make the page usable. Metric-by-metric steps are in my [Core Web Vitals article](/en/core-web-vitals-2025)."
    ]
   },
   {
@@ -339,7 +339,7 @@
    "paragraflar": [
     "Google indexes sites primarily with its smartphone crawler; text, links or structured data missing on mobile do not exist for Google. The Mobile Usability report and the Mobile-Friendly Test were retired at the end of 2023, so I now check with Lighthouse, Chrome DevTools device emulation and the URL Inspection tool.",
     "HTTPS is one of the page experience signals. Every HTTP address should 301 to HTTPS in one hop, with no mixed content (images or scripts loaded over HTTP).",
-    "Use 301 or 308 for permanent moves and 302 or 307 for temporary ones. Chains such as A → B → C slow crawling; every old URL should reach its destination in one hop. For redirect maps during domain or URL changes, see the [site migration SEO guide](/en/guides/site-tasima-seo)."
+    "Use 301 or 308 for permanent moves and 302 or 307 for temporary ones. Chains such as A → B → C slow crawling; every old URL should reach its destination in one hop. For redirect maps during domain or URL changes, see the [site migration SEO guide](/en/site-tasima-seo)."
    ]
   },
   {
@@ -408,7 +408,7 @@
       ]
      }
     },
-    "Add affected URL counts, an owner and effort to each finding and the list becomes a plan. I check structured data with the steps in the [schema structured data guide](/en/guides/schema-yapisal-veri). To work through an audit together, see my [SEO consulting](/en/seo-consulting) scope or [book a call](/en/book-a-call)."
+    "Add affected URL counts, an owner and effort to each finding and the list becomes a plan. I check structured data with the steps in the [schema structured data guide](/en/schema-yapisal-veri). To work through an audit together, see my [SEO consulting](/en/seo-consulting) scope or [book a call](/en/book-a-call)."
    ]
   }
  ],
@@ -431,7 +431,7 @@
   },
   {
    "s": "Yapay zekâ tarayıcılarını robots.txt ile engellemeli miyim?",
-   "c": "Bu bir iş kararıdır: bir yapay zekâ tarayıcısını engellemek, o sistemin içeriğinizi kullanmasını ve sizi kaynak göstermesini sınırlayabilir. Karar vermeden önce şirketin tarayıcı belgelerini okuyun; örneğin Google-Extended belirteci Google Arama'daki görünürlüğü etkilemez. Yapay zekâ görünürlüğü için [GEO uygulama rehberine](/rehber/geo-uygulama) bakın."
+   "c": "Bu bir iş kararıdır: bir yapay zekâ tarayıcısını engellemek, o sistemin içeriğinizi kullanmasını ve sizi kaynak göstermesini sınırlayabilir. Karar vermeden önce şirketin tarayıcı belgelerini okuyun; örneğin Google-Extended belirteci Google Arama'daki görünürlüğü etkilemez. Yapay zekâ görünürlüğü için [GEO uygulama rehberine](/geo-uygulama) bakın."
   }
  ],
  "sss_en": [
@@ -453,7 +453,7 @@
   },
   {
    "s": "Should I block AI crawlers in robots.txt?",
-   "c": "It is a business decision: blocking an AI crawler can limit how that system uses your content and whether it cites you. Read the company's crawler documentation first; for example, the Google-Extended token does not affect visibility in Google Search. For AI visibility, see the [GEO implementation guide](/en/guides/geo-uygulama)."
+   "c": "It is a business decision: blocking an AI crawler can limit how that system uses your content and whether it cites you. Read the company's crawler documentation first; for example, the Google-Extended token does not affect visibility in Google Search. For AI visibility, see the [GEO implementation guide](/en/geo-uygulama)."
   }
  ]
 }

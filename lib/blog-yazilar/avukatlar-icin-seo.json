@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Avukatlar İçin SEO: Reklam Yasağına Uyarak Dijital Görünürlük",
  "baslik_en": "SEO for Lawyers in Turkey: Online Visibility Within the Advertising Ban",
- "meta_baslik_tr": "Avukatlar İçin SEO: Reklam Yasağına Uygun Görünürlük",
- "meta_baslik_en": "SEO for Lawyers: Visibility Within the Advertising Ban",
- "meta_desc_tr": "Avukat ve hukuk büroları reklam yasağını aşmadan internette nasıl bulunur? Bilgilendirme ile reklam farkı, web sitesi, işletme profili ve isim aramaları.",
- "meta_desc_en": "How can lawyers in Turkey be found online without breaching the advertising ban? Information vs advertising, websites, business profiles and name searches.",
+ "meta_baslik_tr": "Avukatlar için SEO ve Reklam Yasağına Uyum",
+ "meta_baslik_en": "SEO for Lawyers Under the Advertising Ban",
+ "meta_desc_tr": "Avukat ve hukuk büroları reklam yasağını aşmadan internette nasıl bulunur? Bilgilendirme ile reklam farkını, site ve işletme profili adımlarını görün.",
+ "meta_desc_en": "How lawyers in Turkey can be found online without breaching the advertising ban, from information vs advertising to websites and business profiles.",
  "ozet_tr": "Reklam yasağı altında avukatlar için neyin mümkün, neyin riskli olduğunu ayıran dürüst bir dijital görünürlük çerçevesi.",
  "ozet_en": "An honest framework for lawyers in Turkey: what is workable online under the advertising ban and what carries risk.",
  "bolumler_tr": [
@@ -99,20 +99,20 @@
       "Kişisel veri içeren formlar için aydınlatma metni ve güvenli iletim var"
      ]
     },
-    "Altyapı tarafındaki ayrıntılar için [teknik SEO temelleri rehberine](/rehber/teknik-seo) bakabilirsiniz. Büronun kimliğini makinelere net anlatmak için schema.org'daki LegalService türüyle ad, adres ve telefonu işaretlemek yeterli olur; işaretlemenin taslağını [schema oluşturucu aracıyla](/araclar/schema-olusturucu) hazırlayıp [yapısal veri rehberindeki](/rehber/schema-yapisal-veri) kontrollerle test edebilirsiniz. Burada amaç sıralama hilesi değil, mevcut bilgiyi doğru tanımlamaktır."
+    "Altyapı tarafındaki ayrıntılar için [teknik SEO temelleri rehberine](/teknik-seo) bakabilirsiniz. Büronun kimliğini makinelere net anlatmak için schema.org'daki LegalService türüyle ad, adres ve telefonu işaretlemek yeterli olur; işaretlemenin taslağını [schema oluşturucu aracıyla](/schema-olusturucu) hazırlayıp [yapısal veri rehberindeki](/schema-yapisal-veri) kontrollerle test edebilirsiniz. Burada amaç sıralama hilesi değil, mevcut bilgiyi doğru tanımlamaktır."
    ]
   },
   {
    "baslik": "İsim aramaları ve yapay zekâ cevaplarında doğru görünmek",
    "paragraflar": [
     "Avukatlar için en değerli arama çoğu zaman büro ya da avukat adıyla yapılan aramadır. Bu aramada sitenizin ilk sırada çıkması, eski bir adresin ya da kapanmış bir ortaklığın görünmemesi, telefonun doğru olması gerekir. Bu iş anahtar kelime hedeflemesi gerektirmez; tutarlılık gerektirir.",
-    "Aynı durum Google'ın yapay zekâ özellikleri ve ChatGPT gibi asistanlar için de geçerli. Bir kullanıcı “X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” diye sorduğunda asistan, internette bulduğu bilgileri birleştirir. Bilgiler çelişkiliyse cevap da çelişkili olur. Markanızın bu cevaplarda nasıl anlatıldığını anlamak için [GEO uygulama rehberindeki](/rehber/geo-uygulama) test yöntemini, linksiz anılmaların rolü için [marka bahsi (brand mention) yazısını](/blog/marka-bahsi-brand-mention) okuyabilirsiniz. Avukatlar için bu bahislerin kaynağı tanıtım içeriği değil; akademik yayınlar, baro ve üniversite sayfaları gibi doğal kayıtlardır."
+    "Aynı durum Google'ın yapay zekâ özellikleri ve ChatGPT gibi asistanlar için de geçerli. Bir kullanıcı “X Hukuk Bürosu nerede, hangi alanlarda çalışıyor?” diye sorduğunda asistan, internette bulduğu bilgileri birleştirir. Bilgiler çelişkiliyse cevap da çelişkili olur. Markanızın bu cevaplarda nasıl anlatıldığını anlamak için [GEO uygulama rehberindeki](/geo-uygulama) test yöntemini, linksiz anılmaların rolü için [marka bahsi (brand mention) yazısını](/marka-bahsi-brand-mention) okuyabilirsiniz. Avukatlar için bu bahislerin kaynağı tanıtım içeriği değil; akademik yayınlar, baro ve üniversite sayfaları gibi doğal kayıtlardır."
    ]
   },
   {
    "baslik": "Google işletme profili ve yorumlar avukatlar için uygun mu?",
    "paragraflar": [
-    "Google'ın kuralları açısından avukatlar işletme profili açabilir. Birden fazla avukatın çalıştığı bir büroda büronun kendi profili, müvekkil kabul eden avukatların ise ayrı profilleri olabilir; destek personeli profil açmaz. Profil kurulumu, kategori ve doğrulama adımlarını [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında ayrıntılı anlattım.",
+    "Google'ın kuralları açısından avukatlar işletme profili açabilir. Birden fazla avukatın çalıştığı bir büroda büronun kendi profili, müvekkil kabul eden avukatların ise ayrı profilleri olabilir; destek personeli profil açmaz. Profil kurulumu, kategori ve doğrulama adımlarını [Google Business Profile optimizasyonu](/google-business-profile) yazısında ayrıntılı anlattım.",
     "Reklam yasağı açısından ise profilin dikkat gerektiren alanları var:",
     {
      "liste": [
@@ -122,7 +122,7 @@
       "**Yorumlara cevap:** Cevapta kişinin müvekkiliniz olduğunu doğrulayan ya da dosya ayrıntısı içeren hiçbir bilgi yer almamalı."
      ]
     },
-    "Yorum cevaplarında gizliliği korurken nasıl ölçülü yazılacağını [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında örneklerle ele aldım. Profilin yerel aramalardaki yerini anlamak için [yerel SEO rehberi](/rehber/yerel-seo) genel resmi veriyor; ancak oradaki yorum toplama ve yerel bağlantı önerilerini avukatlar için doğrudan uygulamadan önce baronuza danışın."
+    "Yorum cevaplarında gizliliği korurken nasıl ölçülü yazılacağını [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında örneklerle ele aldım. Profilin yerel aramalardaki yerini anlamak için [yerel SEO rehberi](/yerel-seo) genel resmi veriyor; ancak oradaki yorum toplama ve yerel bağlantı önerilerini avukatlar için doğrudan uygulamadan önce baronuza danışın."
    ]
   },
   {
@@ -146,7 +146,7 @@
       "Yılda en az bir kez, düzenleme değişikliklerine karşı sitenin tamamını gözden geçirin"
      ]
     },
-    "Bir SEO danışmanının bu alanda yapabileceği iş sınırlı ama değerli: teknik altyapıyı düzeltmek, tutarsız bilgileri temizlemek ve sitenin reklam niteliği taşıyan öğelerini sizinle birlikte tespit etmek. Hukuk bürolarıyla nasıl çalıştığımı [avukat SEO danışmanlığı](/sektorler/avukat-seo) sayfasında anlattım; mevcut sitenizi bu gözle incelememi isterseniz [iletişim sayfasından](/iletisim) yazabilirsiniz."
+    "Bir SEO danışmanının bu alanda yapabileceği iş sınırlı ama değerli: teknik altyapıyı düzeltmek, tutarsız bilgileri temizlemek ve sitenin reklam niteliği taşıyan öğelerini sizinle birlikte tespit etmek. Hukuk bürolarıyla nasıl çalıştığımı [avukat SEO danışmanlığı](/avukat-seo) sayfasında anlattım; mevcut sitenizi bu gözle incelememi isterseniz [iletişim sayfasından](/iletisim) yazabilirsiniz."
    ]
   }
  ],
@@ -239,20 +239,20 @@
       "Forms collecting personal data have a privacy notice and secure transmission"
      ]
     },
-    "For the infrastructure side, see the [technical SEO fundamentals guide](/en/guides/teknik-seo). To describe the firm's identity clearly to machines, marking up name, address and phone with schema.org's LegalService type is enough; you can draft the markup with the [schema generator tool](/en/tools/schema-generator) and test it using the checks in the [structured data guide](/en/guides/schema-yapisal-veri)."
+    "For the infrastructure side, see the [technical SEO fundamentals guide](/en/teknik-seo). To describe the firm's identity clearly to machines, marking up name, address and phone with schema.org's LegalService type is enough; you can draft the markup with the [schema generator tool](/en/schema-generator) and test it using the checks in the [structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
    "baslik": "Appearing correctly in name searches and AI answers",
    "paragraflar": [
     "For lawyers, the most valuable search is usually for the firm's or lawyer's name. That search needs to show your site first, no old address or dissolved partnership, and the right phone number. This does not require keyword targeting; it requires consistency.",
-    "The same applies to Google's AI features and assistants such as ChatGPT. When a user asks “Where is X Law Firm and what areas does it work in?”, the assistant combines what it finds online. If the information conflicts, so does the answer. To see how your brand is described in these answers, use the testing method in the [GEO implementation guide](/en/guides/geo-uygulama), and for the role of unlinked mentions read the [brand mention article](/en/blog/marka-bahsi-brand-mention). For lawyers, those mentions should come from natural records such as academic publications, bar and university pages, not promotional content."
+    "The same applies to Google's AI features and assistants such as ChatGPT. When a user asks “Where is X Law Firm and what areas does it work in?”, the assistant combines what it finds online. If the information conflicts, so does the answer. To see how your brand is described in these answers, use the testing method in the [GEO implementation guide](/en/geo-uygulama), and for the role of unlinked mentions read the [brand mention article](/en/marka-bahsi-brand-mention). For lawyers, those mentions should come from natural records such as academic publications, bar and university pages, not promotional content."
    ]
   },
   {
    "baslik": "Are Google Business Profiles and reviews suitable for lawyers?",
    "paragraflar": [
-    "Under Google's rules, lawyers can have a Business Profile. In a firm with several lawyers, the firm can have its own profile and client-facing lawyers can have separate ones; support staff should not. I cover setup, categories and verification in detail in the [Google Business Profile optimization](/en/blog/google-business-profile) article.",
+    "Under Google's rules, lawyers can have a Business Profile. In a firm with several lawyers, the firm can have its own profile and client-facing lawyers can have separate ones; support staff should not. I cover setup, categories and verification in detail in the [Google Business Profile optimization](/en/google-business-profile) article.",
     "From the advertising ban's perspective, some parts of the profile need care:",
     {
      "liste": [
@@ -262,7 +262,7 @@
       "**Replying to reviews:** A reply must never confirm that the person is a client or include any case details."
      ]
     },
-    "I cover how to keep replies measured while protecting confidentiality, with examples, in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap). The [local SEO guide](/en/guides/yerel-seo) gives the broader picture of the profile's role in local search, but check with your bar before applying its review and local link advice to a law firm."
+    "I cover how to keep replies measured while protecting confidentiality, with examples, in [how to respond to Google reviews](/en/google-yorumlarina-cevap). The [local SEO guide](/en/yerel-seo) gives the broader picture of the profile's role in local search, but check with your bar before applying its review and local link advice to a law firm."
    ]
   },
   {
@@ -286,7 +286,7 @@
       "Review the whole site against regulatory changes at least once a year"
      ]
     },
-    "An SEO consultant's role here is limited but useful: fixing the technical foundation, cleaning up inconsistent information and identifying, with you, what reads as advertising. I describe how I work with law firms on the [law firm SEO consulting](/en/industries/law-firm-seo) page; if you would like me to review your current site with this lens, get in touch via the [contact page](/en/contact)."
+    "An SEO consultant's role here is limited but useful: fixing the technical foundation, cleaning up inconsistent information and identifying, with you, what reads as advertising. I describe how I work with law firms on the [law firm SEO consulting](/en/law-firm-seo) page; if you would like me to review your current site with this lens, get in touch via the [contact page](/en/contact)."
    ]
   }
  ],

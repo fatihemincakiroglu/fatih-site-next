@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "WooCommerce SEO: WordPress E-Ticaret Siteleri İçin Kontrol Listesi",
  "baslik_en": "WooCommerce SEO: A Checklist for WordPress Ecommerce Sites",
- "meta_baslik_tr": "WooCommerce SEO: WordPress E-Ticaret Kontrol Listesi",
- "meta_baslik_en": "WooCommerce SEO: Checklist for WordPress Stores",
- "meta_desc_tr": "WooCommerce SEO kontrol listesi: kalıcı bağlantılar, kategori ve etiket arşivleri, varyasyonlu ürünler, filtre adresleri ve eklenti kaynaklı hız sorunları.",
- "meta_desc_en": "A WooCommerce SEO checklist: permalink settings, category and tag archives, variable products, filter URLs and speed problems caused by plugin bloat.",
+ "meta_baslik_tr": "WooCommerce SEO Kontrol Listesi",
+ "meta_baslik_en": "WooCommerce SEO Checklist",
+ "meta_desc_tr": "WooCommerce mağazanızda kalıcı bağlantıları, kategori ve etiket arşivlerini, varyasyonlu ürünleri, filtre adreslerini ve eklenti hızını kontrol edin.",
+ "meta_desc_en": "A WooCommerce SEO checklist covering permalinks, category and tag archives, variable products, filter URLs and plugin-related speed issues.",
  "ozet_tr": "WooCommerce'te kalıcı bağlantılar, kategori/etiket yapısı, varyasyonlar ve eklenti yükü için adım adım kontrol listesi.",
  "ozet_en": "A step-by-step WooCommerce checklist for permalinks, category and tag structure, variations and plugin bloat.",
  "bolumler_tr": [
@@ -61,10 +61,10 @@
      "kutu": {
       "tur": "uyari",
       "baslik": "Yayındaki mağazada yapıyı değiştirmeyin",
-      "metin": "WooCommerce dokümanına göre kalıcı bağlantı yapısını değiştirmek mevcut ürün adreslerini değiştirir; yönlendirme kurulmazsa eski linkler ve dizindeki adresler 404 verir. Değişiklik şartsa önce eski-yeni adres listesini çıkarın ve [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) ile kuralları hazırlayın."
+      "metin": "WooCommerce dokümanına göre kalıcı bağlantı yapısını değiştirmek mevcut ürün adreslerini değiştirir; yönlendirme kurulmazsa eski linkler ve dizindeki adresler 404 verir. Değişiklik şartsa önce eski-yeni adres listesini çıkarın ve [yönlendirme oluşturucu](/yonlendirme-olusturucu) ile kuralları hazırlayın."
      }
     },
-    "Türkçe karakter ve adres uzunluğu konusundaki genel ilkeler [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) yazısında var."
+    "Türkçe karakter ve adres uzunluğu konusundaki genel ilkeler [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısında var."
    ]
   },
   {
@@ -93,7 +93,7 @@
       }
      }
     },
-    "Etiketleri ya hiç kullanmayın ya da yalnızca filtreleme için kullanıp arşivlerini noindex yapın. Öznitelik arşivleri, WooCommerce dokümanına göre ancak o öznitelikte arşiv seçeneğini açarsanız oluşur; gerçekten aranan bir kombinasyon yoksa kapalı bırakın. Kategori mimarisinin nasıl kurulacağı [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ayrıntılı anlatılıyor."
+    "Etiketleri ya hiç kullanmayın ya da yalnızca filtreleme için kullanıp arşivlerini noindex yapın. Öznitelik arşivleri, WooCommerce dokümanına göre ancak o öznitelikte arşiv seçeneğini açarsanız oluşur; gerçekten aranan bir kombinasyon yoksa kapalı bırakın. Kategori mimarisinin nasıl kurulacağı [e-ticaret SEO rehberinde](/e-ticaret-seo) ayrıntılı anlatılıyor."
    ]
   },
   {
@@ -138,13 +138,13 @@
       "Parametreli adreslerin canonical etiketinin parametresiz kategori adresini gösterdiğini kontrol edin."
      ]
     },
-    "Hangi yöntemin hangi durumda doğru olduğu (robots.txt, noindex, canonical) [teknik SEO rehberinde](/rehber/teknik-seo) karşılaştırmalı anlatılıyor."
+    "Hangi yöntemin hangi durumda doğru olduğu (robots.txt, noindex, canonical) [teknik SEO rehberinde](/teknik-seo) karşılaştırmalı anlatılıyor."
    ]
   },
   {
    "baslik": "Hız ve eklenti yükü",
    "paragraflar": [
-    "WooCommerce'te hızı belirleyen üç şey var: sunucu, tema ve eklentiler. Core Web Vitals eşikleri (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) için ayrıntı [Core Web Vitals yazısında](/blog/core-web-vitals-2025).",
+    "WooCommerce'te hızı belirleyen üç şey var: sunucu, tema ve eklentiler. Core Web Vitals eşikleri (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) için ayrıntı [Core Web Vitals yazısında](/core-web-vitals-2025).",
     {
      "kartlar": [
       {
@@ -175,8 +175,8 @@
   {
    "baslik": "SEO eklentisi ve yapısal veri seçimi",
    "paragraflar": [
-    "WooCommerce tek başına başlık şablonu, site haritası ayrıntısı ve kategori meta açıklaması gibi alanlarda sınırlıdır; bu yüzden çoğu mağaza bir SEO eklentisi kullanır. Hangisinin hangi durumda uygun olduğunu [Yoast mu Rank Math mi](/blog/yoast-mu-rank-math-mi) karşılaştırmasında anlattım. Tek kural: aynı anda yalnızca bir SEO eklentisi.",
-    "WooCommerce ürün sayfalarına temel bir ürün yapısal verisi ekler; SEO eklentileri bunu genişletebilir. Kaynak kodda birden fazla Product bloğu oluşmadığını Zengin Sonuç Testi ile kontrol edin. Ayrıntı için [yapısal veri rehberine](/rehber/schema-yapisal-veri) bakabilirsiniz.",
+    "WooCommerce tek başına başlık şablonu, site haritası ayrıntısı ve kategori meta açıklaması gibi alanlarda sınırlıdır; bu yüzden çoğu mağaza bir SEO eklentisi kullanır. Hangisinin hangi durumda uygun olduğunu [Yoast mu Rank Math mi](/yoast-mu-rank-math-mi) karşılaştırmasında anlattım. Tek kural: aynı anda yalnızca bir SEO eklentisi.",
+    "WooCommerce ürün sayfalarına temel bir ürün yapısal verisi ekler; SEO eklentileri bunu genişletebilir. Kaynak kodda birden fazla Product bloğu oluşmadığını Zengin Sonuç Testi ile kontrol edin. Ayrıntı için [yapısal veri rehberine](/schema-yapisal-veri) bakabilirsiniz.",
     {
      "kontrol": [
       "Kalıcı bağlantı tabanları kısa, Türkçe ve birbirinden farklı.",
@@ -187,14 +187,14 @@
       "Ürün yapısal verisi tekrar etmiyor."
      ]
     },
-    "WooCommerce mağazanızı bu listeyle denetlemek ya da başka bir altyapıdan WooCommerce'e geçişi planlamak isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına göz atın veya [iletişim formundan](/iletisim) yazın."
+    "WooCommerce mağazanızı bu listeyle denetlemek ya da başka bir altyapıdan WooCommerce'e geçişi planlamak isterseniz [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) sayfasına göz atın veya [iletişim formundan](/iletisim) yazın."
    ]
   }
  ],
  "sss_tr": [
   {
    "s": "WooCommerce mi Shopify mı SEO için daha iyi?",
-   "c": "İkisiyle de iyi sıralanan mağazalar var. WooCommerce daha fazla kontrol, Shopify daha az bakım sunar. Karar ölçütlerini [e-ticaret altyapısı SEO karşılaştırmasında](/blog/e-ticaret-altyapisi-seo-karsilastirma) ele aldım."
+   "c": "İkisiyle de iyi sıralanan mağazalar var. WooCommerce daha fazla kontrol, Shopify daha az bakım sunar. Karar ölçütlerini [e-ticaret altyapısı SEO karşılaştırmasında](/e-ticaret-altyapisi-seo-karsilastirma) ele aldım."
   },
   {
    "s": "Mağaza sayfasını (/shop/) dizine eklemeli miyim?",
@@ -206,7 +206,7 @@
   },
   {
    "s": "Başka altyapıdan WooCommerce'e geçerken nelere dikkat etmeliyim?",
-   "c": "Eski ve yeni tüm ürün, kategori ve içerik adreslerini eşleştirip 301 yönlendirme kurmadan yayına çıkmayın. Meta başlıkları, açıklamaları ve yapısal veriyi de taşıyın. Süreç adım adım [site taşıma SEO rehberinde](/rehber/site-tasima-seo) anlatılıyor."
+   "c": "Eski ve yeni tüm ürün, kategori ve içerik adreslerini eşleştirip 301 yönlendirme kurmadan yayına çıkmayın. Meta başlıkları, açıklamaları ve yapısal veriyi de taşıyın. Süreç adım adım [site taşıma SEO rehberinde](/site-tasima-seo) anlatılıyor."
   },
   {
    "s": "Stokta olmayan WooCommerce ürünlerini gizlemeli miyim?",
@@ -268,10 +268,10 @@
      "kutu": {
       "tur": "uyari",
       "baslik": "Do not change the structure on a live store",
-      "metin": "WooCommerce's docs note that changing the permalink structure changes existing product URLs; without redirects, old links and indexed URLs return 404s. If a change is unavoidable, map old to new URLs first and prepare rules with the [redirect generator](/en/tools/redirect-generator)."
+      "metin": "WooCommerce's docs note that changing the permalink structure changes existing product URLs; without redirects, old links and indexed URLs return 404s. If a change is unavoidable, map old to new URLs first and prepare rules with the [redirect generator](/en/redirect-generator)."
      }
     },
-    "General principles on special characters and URL length are in the post on [SEO-friendly URL structure](/en/blog/url-yapisi-seo)."
+    "General principles on special characters and URL length are in the post on [SEO-friendly URL structure](/en/url-yapisi-seo)."
    ]
   },
   {
@@ -300,7 +300,7 @@
       }
      }
     },
-    "Either skip tags or use them only for filtering and set their archives to noindex. According to WooCommerce's docs, attribute archives only exist if you enable archives for that attribute; leave them off unless a combination is genuinely searched. How to build category architecture is covered in the [ecommerce SEO guide](/en/guides/e-ticaret-seo)."
+    "Either skip tags or use them only for filtering and set their archives to noindex. According to WooCommerce's docs, attribute archives only exist if you enable archives for that attribute; leave them off unless a combination is genuinely searched. How to build category architecture is covered in the [ecommerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
@@ -345,13 +345,13 @@
       "Check that parameter URLs canonicalise to the clean category URL."
      ]
     },
-    "Which method fits which case (robots.txt, noindex, canonical) is compared in the [technical SEO guide](/en/guides/teknik-seo)."
+    "Which method fits which case (robots.txt, noindex, canonical) is compared in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
    "baslik": "Speed and plugin bloat",
    "paragraflar": [
-    "Three things drive WooCommerce speed: hosting, theme and plugins. For the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1), see the [Core Web Vitals post](/en/blog/core-web-vitals-2025).",
+    "Three things drive WooCommerce speed: hosting, theme and plugins. For the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1), see the [Core Web Vitals post](/en/core-web-vitals-2025).",
     {
      "kartlar": [
       {
@@ -382,8 +382,8 @@
   {
    "baslik": "Choosing an SEO plugin and structured data",
    "paragraflar": [
-    "On its own, WooCommerce is limited for title templates, sitemap detail and category meta descriptions, so most stores use an SEO plugin. I compare when each fits in [Yoast or Rank Math](/en/blog/yoast-mu-rank-math-mi). One rule: only one SEO plugin at a time.",
-    "WooCommerce adds basic product structured data to product pages, and SEO plugins can extend it. Use the Rich Results Test to confirm the source does not contain more than one Product block. See the [structured data guide](/en/guides/schema-yapisal-veri) for details.",
+    "On its own, WooCommerce is limited for title templates, sitemap detail and category meta descriptions, so most stores use an SEO plugin. I compare when each fits in [Yoast or Rank Math](/en/yoast-mu-rank-math-mi). One rule: only one SEO plugin at a time.",
+    "WooCommerce adds basic product structured data to product pages, and SEO plugins can extend it. Use the Rich Results Test to confirm the source does not contain more than one Product block. See the [structured data guide](/en/schema-yapisal-veri) for details.",
     {
      "kontrol": [
       "Permalink bases are short, localised and distinct.",
@@ -394,14 +394,14 @@
       "Product structured data is not duplicated."
      ]
     },
-    "If you want to audit your WooCommerce store against this list or plan a migration to WooCommerce, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) or [get in touch](/en/contact)."
+    "If you want to audit your WooCommerce store against this list or plan a migration to WooCommerce, see [ecommerce SEO consulting](/en/ecommerce-seo-consulting) or [get in touch](/en/contact)."
    ]
   }
  ],
  "sss_en": [
   {
    "s": "Is WooCommerce or Shopify better for SEO?",
-   "c": "Stores rank well on both. WooCommerce offers more control, Shopify less maintenance. I cover the decision criteria in the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma)."
+   "c": "Stores rank well on both. WooCommerce offers more control, Shopify less maintenance. I cover the decision criteria in the [ecommerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma)."
   },
   {
    "s": "Should the shop page (/shop/) be indexed?",
@@ -413,7 +413,7 @@
   },
   {
    "s": "What should I watch when migrating to WooCommerce from another platform?",
-   "c": "Do not go live before mapping every old and new product, category and content URL with 301 redirects. Carry over meta titles, descriptions and structured data. The process is laid out in the [site migration SEO guide](/en/guides/site-tasima-seo)."
+   "c": "Do not go live before mapping every old and new product, category and content URL with 301 redirects. Carry over meta titles, descriptions and structured data. The process is laid out in the [site migration SEO guide](/en/site-tasima-seo)."
   },
   {
    "s": "Should I hide out-of-stock WooCommerce products?",

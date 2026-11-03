@@ -2,10 +2,10 @@
  "kategori": "AI & GEO",
  "baslik_tr": "GEO Uygulama Rehberi: Markanızı Yapay Zekâ Cevaplarına Taşımak",
  "baslik_en": "GEO Implementation Guide: Getting Your Brand into AI Answers",
- "meta_baslik_tr": "GEO Uygulama Rehberi: Yapay Zekâ Cevaplarında Görünmek",
- "meta_baslik_en": "GEO Implementation Guide: Get Your Brand into AI Answers",
- "meta_desc_tr": "GEO nasıl uygulanır? Soru seti, varlık netliği, alıntılanabilir içerik, marka bahsi ve ölçümle markanızı ChatGPT, Gemini ve AI Overviews cevaplarına taşıyın.",
- "meta_desc_en": "How to implement GEO: question sets, entity clarity, citable content, brand mentions and measurement to get your brand into ChatGPT, Gemini and AI Overviews.",
+ "meta_baslik_tr": "GEO Nasıl Uygulanır, Adım Adım Rehber",
+ "meta_baslik_en": "GEO Implementation Guide for AI Answers",
+ "meta_desc_tr": "Soru seti, varlık netliği, alıntılanabilir içerik ve marka bahsiyle markanızı ChatGPT, Gemini ve AI Overviews cevaplarına taşımayı adım adım öğrenin.",
+ "meta_desc_en": "Use question sets, entity clarity, citable content and brand mentions to help your brand appear in ChatGPT, Gemini and AI Overviews answers.",
  "ozet_tr": "Soru setinden ölçüme, markanızı yapay zekâ cevaplarına taşıyan beş adımlı GEO uygulama planı.",
  "ozet_en": "A five-step GEO plan, from question set to measurement, for getting your brand cited in AI answers.",
  "bolumler_tr": [
@@ -13,7 +13,7 @@
    "baslik": null,
    "paragraflar": [
     "GEO (Generative Engine Optimization), markanızın ChatGPT, Gemini, Perplexity, Copilot ve Google AI Overviews / AI Mode gibi yapay zekâ cevaplarında doğru bilgiyle anılması ve kaynak gösterilmesi için yapılan çalışmadır. Kavramın genel çerçevesini [GEO rehberinde](/geo-rehberi) anlattım; bu sayfa uygulama tarafına, yani bir projede hangi sırayla ne yaptığıma odaklanıyor.",
-    "Konuyla ilgili iki yazı daha var ve burada tekrar etmeyeceğim: [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemi](/blog/chatgpt-marka-gorunurlugu) ölçüm adımlarını ve OpenAI botlarının robots.txt ayarını, [llms.txt dosyasının gerçek etkisini](/blog/llms-txt-rehberi) anlatan yazı ise bu dosyanın neden öncelik olmadığını ele alıyor. Bu rehber, testten çıkan bulguları bir iş planına çevirmek için yazıldı.",
+    "Konuyla ilgili iki yazı daha var ve burada tekrar etmeyeceğim: [markanızın ChatGPT'de nasıl göründüğünü test etme yöntemi](/chatgpt-marka-gorunurlugu) ölçüm adımlarını ve OpenAI botlarının robots.txt ayarını, [llms.txt dosyasının gerçek etkisini](/llms-txt-rehberi) anlatan yazı ise bu dosyanın neden öncelik olmadığını ele alıyor. Bu rehber, testten çıkan bulguları bir iş planına çevirmek için yazıldı.",
     {
      "alinti": "Kısa cevap: GEO uygulaması beş adımdan oluşur: müşterilerin yapay zekâya sorduğu soruları belirlemek, markanızı her yerde aynı ve net biçimde tanımlamak, bu soruları doğrudan yanıtlayan alıntılanabilir içerik üretmek, üçüncü taraf kaynaklarda anılmak ve sonucu düzenli ölçmek. Ayrı bir teknik hile yoktur; çalışma sağlam bir SEO temeli üzerine kurulur."
     }
@@ -22,7 +22,7 @@
   {
    "baslik": "GEO ile SEO arasındaki fark nedir, neler ortaktır?",
    "paragraflar": [
-    "Pratikte GEO, SEO'nun yerini almıyor; onun üzerine ekleniyor. Google, AI Overviews ve AI Mode'da görünmek için ayrı bir teknik gereklilik olmadığını, temel SEO uygulamalarının geçerli olduğunu belirtiyor. Diğer asistanlar da cevap üretirken web kaynaklarına başvurabiliyor. Taranamayan ya da indekslenmeyen bir sayfanın kaynak gösterilme şansı olmadığı için işe her zaman [teknik SEO temelleri](/rehber/teknik-seo) ile başlıyorum.",
+    "Pratikte GEO, SEO'nun yerini almıyor; onun üzerine ekleniyor. Google, AI Overviews ve AI Mode'da görünmek için ayrı bir teknik gereklilik olmadığını, temel SEO uygulamalarının geçerli olduğunu belirtiyor. Diğer asistanlar da cevap üretirken web kaynaklarına başvurabiliyor. Taranamayan ya da indekslenmeyen bir sayfanın kaynak gösterilme şansı olmadığı için işe her zaman [teknik SEO temelleri](/teknik-seo) ile başlıyorum.",
     {
      "tablo": {
       "basliklar": [
@@ -73,7 +73,7 @@
       "**Eşleştirme:** her soru kümesi tek bir hedef sayfaya bağlanır; iki sayfa aynı soruyu yanıtlıyorsa birini güçlendirip diğerini sadeleştiriyorum."
      ]
     },
-    "Bu eşleştirme, [anahtar kelime araştırmasında](/rehber/anahtar-kelime-arastirmasi) yaptığımız kümeleme çalışmasının sohbet diline uyarlanmış hâlidir. Fark, soruların daha uzun olması ve sayfanın da karşılaması gereken “İstanbul'da”, “küçük işletme için”, “bütçem kısıtlı” gibi bağlam ifadeleri taşımasıdır."
+    "Bu eşleştirme, [anahtar kelime araştırmasında](/anahtar-kelime-arastirmasi) yaptığımız kümeleme çalışmasının sohbet diline uyarlanmış hâlidir. Fark, soruların daha uzun olması ve sayfanın da karşılaması gereken “İstanbul'da”, “küçük işletme için”, “bütçem kısıtlı” gibi bağlam ifadeleri taşımasıdır."
    ]
   },
   {
@@ -90,7 +90,7 @@
       "Eski marka adı, birleşme veya taşınma gibi değişiklikler sitede açıkça anlatılmış"
      ]
     },
-    "Yapısal verinin nasıl kurulacağını [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri) @id grafiğiyle birlikte anlattım. Fiziksel adresi olan işletmelerde [yerel SEO çalışması](/rehber/yerel-seo) ile varlık netliği aynı işin iki yüzüdür."
+    "Yapısal verinin nasıl kurulacağını [schema ve yapısal veri rehberinde](/schema-yapisal-veri) @id grafiğiyle birlikte anlattım. Fiziksel adresi olan işletmelerde [yerel SEO çalışması](/yerel-seo) ile varlık netliği aynı işin iki yüzüdür."
    ]
   },
   {
@@ -110,7 +110,7 @@
       "**Özgün bilgi:** kendi süreciniz, saha gözlemleriniz ve kendi verileriniz; başka yerde bulunmayan bilgi, kaynak gösterilmek için en güçlü gerekçedir."
      ]
     },
-    "Bu kuralların içerik takvimine nasıl yerleşeceğini ve hangi sayfa tiplerinin öne alınacağını [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) ele aldım. Sık kullanılan terimleri kısa tanımlarla açıklayan sözlük sayfaları da bu açıdan değerlidir; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
+    "Bu kuralların içerik takvimine nasıl yerleşeceğini ve hangi sayfa tiplerinin öne alınacağını [içerik stratejisi rehberinde](/icerik-stratejisi) ele aldım. Sık kullanılan terimleri kısa tanımlarla açıklayan sözlük sayfaları da bu açıdan değerlidir; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
    ]
   },
   {
@@ -153,7 +153,7 @@
       ]
      }
     },
-    "Bu çalışma klasik link kazanımına çok benzer; tek fark, bağlantısız marka bahsinin de değer taşımasıdır. Yöntemleri ve kaçınılması gereken riskli uygulamaları [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ayrıntılı anlattım."
+    "Bu çalışma klasik link kazanımına çok benzer; tek fark, bağlantısız marka bahsinin de değer taşımasıdır. Yöntemleri ve kaçınılması gereken riskli uygulamaları [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ayrıntılı anlattım."
    ]
   },
   {
@@ -168,7 +168,7 @@
       "**Dolaylı sinyaller:** markalı aramalardaki değişim ve yeni müşterilerin “bizi nereden duydunuz” sorusuna verdiği cevaplar."
      ]
     },
-    "Bu göstergelerin genel raporla nasıl birleştirileceğini [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Yapay zekâ kaynaklı ziyaretlerin bir kısmı doğrudan trafik olarak göründüğü için GA4'teki rakamları gerçek etkinin alt sınırı olarak okuyun."
+    "Bu göstergelerin genel raporla nasıl birleştirileceğini [SEO raporlama rehberinde](/seo-raporlama) anlattım. Yapay zekâ kaynaklı ziyaretlerin bir kısmı doğrudan trafik olarak göründüğü için GA4'teki rakamları gerçek etkinin alt sınırı olarak okuyun."
    ]
   },
   {
@@ -242,7 +242,7 @@
    "baslik": null,
    "paragraflar": [
     "GEO (Generative Engine Optimization) is the work of getting your brand mentioned accurately and cited as a source in AI answers such as ChatGPT, Gemini, Perplexity, Copilot and Google AI Overviews / AI Mode. I covered the concept in the [GEO guide](/en/geo-guide); this page covers implementation: what I do on a project, and in what order.",
-    "Two related articles cover ground I won't repeat: [testing how your brand appears in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) explains measurement and OpenAI crawler settings, and [what llms.txt really does](/en/blog/llms-txt-rehberi) explains why that file is not a priority. This guide turns the test findings into a working plan.",
+    "Two related articles cover ground I won't repeat: [testing how your brand appears in ChatGPT](/en/chatgpt-marka-gorunurlugu) explains measurement and OpenAI crawler settings, and [what llms.txt really does](/en/llms-txt-rehberi) explains why that file is not a priority. This guide turns the test findings into a working plan.",
     {
      "alinti": "Short answer: GEO implementation has five steps: identify the questions customers ask AI assistants, describe your brand clearly and consistently everywhere, publish citable content that answers those questions, get mentioned in third-party sources, and measure regularly. There is no technical trick; it builds on a solid SEO foundation."
     }
@@ -251,7 +251,7 @@
   {
    "baslik": "How is GEO different from SEO, and what do they share?",
    "paragraflar": [
-    "GEO does not replace SEO; it builds on it. Google states that appearing in AI Overviews and AI Mode has no extra technical requirements and that standard SEO practices apply, and other assistants also draw on web sources. A page that cannot be crawled or indexed cannot be cited, so I always start with [technical SEO fundamentals](/en/guides/teknik-seo).",
+    "GEO does not replace SEO; it builds on it. Google states that appearing in AI Overviews and AI Mode has no extra technical requirements and that standard SEO practices apply, and other assistants also draw on web sources. A page that cannot be crawled or indexed cannot be cited, so I always start with [technical SEO fundamentals](/en/teknik-seo).",
     {
      "tablo": {
       "basliklar": [
@@ -302,7 +302,7 @@
       "**Mapping:** each question cluster points to one target page; if two pages answer the same question, I strengthen one and trim the other."
      ]
     },
-    "This mapping is the conversational version of the clustering we do in [keyword research](/en/guides/anahtar-kelime-arastirmasi). The questions are just longer and carry context such as “in Istanbul”, “for a small business” or “on a tight budget”, which the page should address."
+    "This mapping is the conversational version of the clustering we do in [keyword research](/en/anahtar-kelime-arastirmasi). The questions are just longer and carry context such as “in Istanbul”, “for a small business” or “on a tight budget”, which the page should address."
    ]
   },
   {
@@ -319,7 +319,7 @@
       "Changes such as a former brand name, a merger or a relocation are explained clearly on the site"
      ]
     },
-    "I explain how to set up the markup, including an @id graph, in the [schema and structured data guide](/en/guides/schema-yapisal-veri). For businesses with a physical location, [local SEO](/en/guides/yerel-seo) and entity clarity are two sides of the same task."
+    "I explain how to set up the markup, including an @id graph, in the [schema and structured data guide](/en/schema-yapisal-veri). For businesses with a physical location, [local SEO](/en/yerel-seo) and entity clarity are two sides of the same task."
    ]
   },
   {
@@ -339,7 +339,7 @@
       "**Original information:** your own process, field observations and data; information that exists nowhere else is the strongest reason to be cited."
      ]
     },
-    "How these rules fit into an editorial calendar is covered in the [content strategy guide](/en/guides/icerik-stratejisi). Glossary pages with short definitions of common terms are also useful; see the [AI and SEO glossary](/en/ai-glossary) as an example."
+    "How these rules fit into an editorial calendar is covered in the [content strategy guide](/en/icerik-stratejisi). Glossary pages with short definitions of common terms are also useful; see the [AI and SEO glossary](/en/ai-glossary) as an example."
    ]
   },
   {
@@ -382,7 +382,7 @@
       ]
      }
     },
-    "This work is very close to classic link earning; the only difference is that an unlinked brand mention also counts. I go through the methods and the risky tactics to avoid in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr)."
+    "This work is very close to classic link earning; the only difference is that an unlinked brand mention also counts. I go through the methods and the risky tactics to avoid in the [backlink and digital PR guide](/en/backlink-dijital-pr)."
    ]
   },
   {
@@ -397,7 +397,7 @@
       "**Indirect signals:** changes in branded searches and how new customers answer “where did you hear about us”."
      ]
     },
-    "I explain how to combine these with your overall reporting in the [SEO reporting guide](/en/guides/seo-raporlama). Some AI-referred visits show up as direct traffic, so read the GA4 numbers as a lower bound of the real impact."
+    "I explain how to combine these with your overall reporting in the [SEO reporting guide](/en/seo-raporlama). Some AI-referred visits show up as direct traffic, so read the GA4 numbers as a lower bound of the real impact."
    ]
   },
   {

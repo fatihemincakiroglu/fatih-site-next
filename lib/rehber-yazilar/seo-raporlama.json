@@ -2,10 +2,10 @@
  "kategori": "Ölçüm",
  "baslik_tr": "SEO Raporlama Rehberi: Search Console ve GA4 ile Ölçüm, KPI'lar ve Rapor Şablonu",
  "baslik_en": "SEO Reporting Guide: Measuring with Search Console and GA4, KPIs and a Report Template",
- "meta_baslik_tr": "SEO Raporlama Rehberi: Search Console, GA4 ve KPI'lar",
- "meta_baslik_en": "SEO Reporting Guide: Search Console, GA4 and KPIs",
- "meta_desc_tr": "Search Console ve GA4 ile SEO performansını ölçmek: doğru KPI'lar, marka dışı trafik, yapay zekâ kaynaklı ziyaretler ve aylık rapor şablonu.",
- "meta_desc_en": "Measure SEO performance with Search Console and GA4: the right KPIs, non-brand traffic, AI-referred visits and a monthly report template you can reuse.",
+ "meta_baslik_tr": "SEO Raporlama Rehberi, GA4 ve KPI'lar",
+ "meta_baslik_en": "SEO Reporting with Search Console and GA4",
+ "meta_desc_tr": "Search Console ve GA4 ile SEO performansını ölçün. Doğru KPI'lar, marka dışı trafik, yapay zekâ kaynaklı ziyaretler ve aylık rapor şablonu.",
+ "meta_desc_en": "Measure SEO with Search Console and GA4. Pick the right KPIs, track non-brand traffic and AI-referred visits, and reuse a monthly report template.",
  "ozet_tr": "Search Console ve GA4 verisini karar aldıran bir SEO raporuna dönüştürmek için KPI'lar ve şablon.",
  "ozet_en": "KPIs and a template for turning Search Console and GA4 data into an SEO report that drives decisions.",
  "bolumler_tr": [
@@ -59,7 +59,7 @@
       ]
      }
     },
-    "İkisini birlikte okumak gerekir: Search Console size trafiğin nereden geldiğini, GA4 ise o trafiğin ne işe yaradığını gösterir. Search Console'un taradığı ve dizine eklediği sayfalarla ilgili raporlar için [teknik SEO temelleri rehberi](/rehber/teknik-seo) iyi bir başlangıç noktasıdır."
+    "İkisini birlikte okumak gerekir: Search Console size trafiğin nereden geldiğini, GA4 ise o trafiğin ne işe yaradığını gösterir. Search Console'un taradığı ve dizine eklediği sayfalarla ilgili raporlar için [teknik SEO temelleri rehberi](/teknik-seo) iyi bir başlangıç noktasıdır."
    ]
   },
   {
@@ -76,7 +76,7 @@
       "Yapay zekâ asistanlarından gelen oturumlar ve bu oturumların dönüşümü."
      ]
     },
-    "Tek bir anahtar kelimenin sırası ya da yalnızca toplam trafik, karar almak için zayıf göstergelerdir. Hangi sorgu gruplarını izleyeceğinizi belirlemek için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yaklaşımını raporun temeli olarak kullanabilirsiniz.",
+    "Tek bir anahtar kelimenin sırası ya da yalnızca toplam trafik, karar almak için zayıf göstergelerdir. Hangi sorgu gruplarını izleyeceğinizi belirlemek için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) kümeleme yaklaşımını raporun temeli olarak kullanabilirsiniz.",
     {
      "alt": "Marka ve marka dışı sorguları ayırmak"
     },
@@ -87,7 +87,7 @@
    "baslik": "Search Console verisini doğru okumak",
    "paragraflar": [
     "Ortalama konum, sayfanızın gösterim aldığı aramalardaki en üst konumunun ortalamasıdır; yeni sorgularda gösterim almaya başladığınızda ortalama konum düşerken trafik artabilir. Bu yüzden konumu tek başına değil, gösterim ve tıklamayla birlikte okuyun.",
-    "Karşılaştırmalarda mevsimselliği hesaba katın: önceki ayla kıyas yanıltıcı olabilir, geçen yılın aynı dönemi daha sağlıklı bir referanstır. Site taşıması, URL değişikliği veya büyük bir Google güncellemesi gibi olayları rapora not düşün; [site taşıma SEO rehberi](/rehber/site-tasima-seo) taşıma dönemlerinde hangi verilerin izleneceğini ayrıca anlatıyor.",
+    "Karşılaştırmalarda mevsimselliği hesaba katın: önceki ayla kıyas yanıltıcı olabilir, geçen yılın aynı dönemi daha sağlıklı bir referanstır. Site taşıması, URL değişikliği veya büyük bir Google güncellemesi gibi olayları rapora not düşün; [site taşıma SEO rehberi](/site-tasima-seo) taşıma dönemlerinde hangi verilerin izleneceğini ayrıca anlatıyor.",
     "Google, AI Overviews ve AI Mode'daki görünümlerin Search Console Performans raporunun toplam verisine dahil edildiğini açıkladı. Bu görünümleri ayrı bir kırılımda görüp göremeyeceğiniz arayüzdeki güncellemelere bağlıdır; raporda bu sınırı açıkça belirtmek, yanlış yorumu önler."
    ]
   },
@@ -103,10 +103,10 @@
    "baslik": "Yapay zekâ kaynaklı trafiği GA4'te nasıl ayırırsınız?",
    "paragraflar": [
     "ChatGPT, Perplexity, Gemini, Copilot veya Claude gibi asistanlar cevaplarında kaynak bağlantısı verdiğinde, kullanıcı tıklarsa ziyaret çoğu zaman GA4'e referans (referral) trafiği olarak düşer. Bu ziyaretleri ayırmanın pratik yolu oturum kaynağına göre filtrelemektir.",
-    "Google, Mayıs 2026'da GA4'ün varsayılan kanal grubuna yerleşik bir **AI Assistant** kanalı ekledi; GA4'ün tanıdığı yapay zekâ asistanlarından gelen ziyaretler artık bu kanalda toplanıyor. Bu kanal toplamı görmek için yeterli, ama ChatGPT ile Perplexity'yi ayrı ayrı izlemek ya da GA4'ün henüz tanımadığı asistanları yakalamak için aşağıdaki kaynak bazlı yöntem hâlâ gerekli. Ayrıntıları [GA4'te ChatGPT ve Perplexity trafiğini ayrı görmek](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım.",
+    "Google, Mayıs 2026'da GA4'ün varsayılan kanal grubuna yerleşik bir **AI Assistant** kanalı ekledi; GA4'ün tanıdığı yapay zekâ asistanlarından gelen ziyaretler artık bu kanalda toplanıyor. Bu kanal toplamı görmek için yeterli, ama ChatGPT ile Perplexity'yi ayrı ayrı izlemek ya da GA4'ün henüz tanımadığı asistanları yakalamak için aşağıdaki kaynak bazlı yöntem hâlâ gerekli. Ayrıntıları [GA4'te ChatGPT ve Perplexity trafiğini ayrı görmek](/ga4-yapay-zeka-trafigi) yazısında anlattım.",
     "Bir keşif raporunda ya da segmentte oturum kaynağı için şu tür bir normal ifade kullanabilirsiniz: chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai. Kalıcı bir çözüm için özel bir kanal grubu oluşturup “Yapay zekâ” kanalını Referral kanalından önce konumlandırın; kanal kuralları sırayla değerlendirildiği için sıralama önemlidir.",
     "Bu yöntemin sınırlarını raporda belirtin: mobil uygulamalardan gelen bazı tıklamalar referrer bilgisi taşımaz ve doğrudan trafik olarak görünür; bazı asistanlar bağlantılara utm_source parametresi ekleyebilir; Google AI Overviews ve AI Mode'dan gelen tıklamalar ise Google kaynaklı olduğu için organik aramanın içinde kalır. Kaynak listesini de dönem dönem güncelleyin.",
-    "Trafik, yapay zekâ görünürlüğünün yalnızca bir parçasıdır; asistanların markanızdan tıklama olmadan bahsetmesi de değerlidir. Bu bahsi ölçme yöntemleri için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına ve [GEO uygulama rehberindeki](/rehber/geo-uygulama) soru seti yaklaşımına bakabilirsiniz. Terimlerde emin olmadığınız yerler için [yapay zekâ sözlüğü](/ai-sozluk) de işinize yarar."
+    "Trafik, yapay zekâ görünürlüğünün yalnızca bir parçasıdır; asistanların markanızdan tıklama olmadan bahsetmesi de değerlidir. Bu bahsi ölçme yöntemleri için [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısına ve [GEO uygulama rehberindeki](/geo-uygulama) soru seti yaklaşımına bakabilirsiniz. Terimlerde emin olmadığınız yerler için [yapay zekâ sözlüğü](/ai-sozluk) de işinize yarar."
    ]
   },
   {
@@ -174,7 +174,7 @@
       "Yapay zekâ kaynaklı trafiğin ölçüm sınırlarını belirtmeden kesin rakam gibi sunmak."
      ]
     },
-    "Raporun asıl değeri, bir sonraki ayın içerik ve teknik önceliklerini belirlemesidir; bunu [içerik stratejisi rehberi](/rehber/icerik-stratejisi) ile birlikte planlamak işe yarar. Ölçüm kurgunuzu ya da rapor şablonunuzu bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek, yapay zekâ görünürlüğünü de kapsayan bir [GEO uzmanı](/geo-uzmani) desteği almak isterseniz [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
+    "Raporun asıl değeri, bir sonraki ayın içerik ve teknik önceliklerini belirlemesidir; bunu [içerik stratejisi rehberi](/icerik-stratejisi) ile birlikte planlamak işe yarar. Ölçüm kurgunuzu ya da rapor şablonunuzu bir [SEO uzmanı](/seo-uzmani) gözüyle değerlendirmek, yapay zekâ görünürlüğünü de kapsayan bir [GEO uzmanı](/geo-uzmani) desteği almak isterseniz [iletişim sayfasından](/iletisim) bana yazabilirsiniz."
    ]
   }
  ],
@@ -229,7 +229,7 @@
       ]
      }
     },
-    "Read them together: Search Console shows where traffic comes from, GA4 shows what that traffic achieves. For the crawling and indexing reports in Search Console, the [technical SEO fundamentals guide](/en/guides/teknik-seo) is a good starting point."
+    "Read them together: Search Console shows where traffic comes from, GA4 shows what that traffic achieves. For the crawling and indexing reports in Search Console, the [technical SEO fundamentals guide](/en/teknik-seo) is a good starting point."
    ]
   },
   {
@@ -246,7 +246,7 @@
       "Sessions from AI assistants and how they convert."
      ]
     },
-    "A single keyword's ranking, or total traffic alone, is a weak basis for decisions. To decide which query groups to track, use the clustering approach in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) as the backbone of your report.",
+    "A single keyword's ranking, or total traffic alone, is a weak basis for decisions. To decide which query groups to track, use the clustering approach in the [keyword research guide](/en/anahtar-kelime-arastirmasi) as the backbone of your report.",
     {
      "alt": "Separating brand and non-brand queries"
     },
@@ -257,7 +257,7 @@
    "baslik": "Reading Search Console data correctly",
    "paragraflar": [
     "Average position is the average of your page's topmost position across the searches where it appeared; when you start getting impressions for new queries, average position can fall while traffic rises. Read position together with impressions and clicks, never on its own.",
-    "Account for seasonality: month-over-month comparisons can mislead, and the same period last year is usually a sounder reference. Annotate events such as a site migration, URL changes or a major Google update; the [site migration SEO guide](/en/guides/site-tasima-seo) covers which data to watch during a move.",
+    "Account for seasonality: month-over-month comparisons can mislead, and the same period last year is usually a sounder reference. Annotate events such as a site migration, URL changes or a major Google update; the [site migration SEO guide](/en/site-tasima-seo) covers which data to watch during a move.",
     "Google has stated that appearances in AI Overviews and AI Mode are included in the overall Search Console Performance data. Whether you can see them as a separate breakdown depends on interface updates, so stating this limit in your report prevents misreadings."
    ]
   },
@@ -273,10 +273,10 @@
    "baslik": "How do you separate AI-referred traffic in GA4?",
    "paragraflar": [
     "When assistants such as ChatGPT, Perplexity, Gemini, Copilot or Claude link to sources and a user clicks, the visit usually lands in GA4 as referral traffic. The practical way to isolate these visits is to filter by session source.",
-    "In May 2026 Google added a built-in **AI Assistant** channel to GA4's default channel group; visits from AI assistants that GA4 recognises now land in that channel. It is enough to see the total, but you still need the source-based method below to track ChatGPT and Perplexity separately or to catch assistants GA4 does not yet recognise. I cover the details in [separating ChatGPT and Perplexity traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi).",
+    "In May 2026 Google added a built-in **AI Assistant** channel to GA4's default channel group; visits from AI assistants that GA4 recognises now land in that channel. It is enough to see the total, but you still need the source-based method below to track ChatGPT and Perplexity separately or to catch assistants GA4 does not yet recognise. I cover the details in [separating ChatGPT and Perplexity traffic in GA4](/en/ga4-yapay-zeka-trafigi).",
     "In an exploration or segment you can use a regular expression on session source along these lines: chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai. For a lasting setup, create a custom channel group and place an “AI assistants” channel above Referral; channel rules are evaluated in order, so placement matters.",
     "State the limits of this method in your report: some clicks from mobile apps carry no referrer and show up as direct traffic; some assistants may add a utm_source parameter to links; and clicks from Google AI Overviews and AI Mode come from Google, so they stay within organic search. Review your source list periodically.",
-    "Traffic is only part of AI visibility; an assistant mentioning your brand without a click also has value. For ways to measure those mentions, see the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) and the question-set approach in the [GEO implementation guide](/en/guides/geo-uygulama). The [AI glossary](/en/ai-glossary) helps with unfamiliar terms."
+    "Traffic is only part of AI visibility; an assistant mentioning your brand without a click also has value. For ways to measure those mentions, see the post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu) and the question-set approach in the [GEO implementation guide](/en/geo-uygulama). The [AI glossary](/en/ai-glossary) helps with unfamiliar terms."
    ]
   },
   {
@@ -344,7 +344,7 @@
       "Presenting AI-referred traffic as an exact figure without stating its measurement limits."
      ]
     },
-    "A report's real value is in setting next month's content and technical priorities, which works best alongside the [content strategy guide](/en/guides/icerik-stratejisi). If you want your measurement setup reviewed through [SEO consulting](/en/seo-consulting), or support with AI visibility through [GEO consulting](/en/geo-consulting), you can reach me via the [contact page](/en/contact)."
+    "A report's real value is in setting next month's content and technical priorities, which works best alongside the [content strategy guide](/en/icerik-stratejisi). If you want your measurement setup reviewed through [SEO consulting](/en/seo-consulting), or support with AI visibility through [GEO consulting](/en/geo-consulting), you can reach me via the [contact page](/en/contact)."
    ]
   }
  ],

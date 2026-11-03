@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "SEO Rakip Analizi: Arama Sonuçlarındaki Rakipleri Doğru Okumak",
  "baslik_en": "SEO Competitor Analysis: Reading Your Search Competitors Correctly",
- "meta_baslik_tr": "SEO Rakip Analizi: Arama Rakiplerini Doğru Okumak",
- "meta_baslik_en": "SEO Competitor Analysis: Read Search Rivals Right",
- "meta_desc_tr": "İş rakibi ile arama rakibi farkı, SERP analizi, içerik boşluğu ve backlink karşılaştırmasıyla SEO rakip analizini adım adım yapın ve bulguları eyleme çevirin.",
- "meta_desc_en": "Business vs search competitors, SERP analysis, content gaps and backlink comparison: run an SEO competitor analysis step by step and turn it into action.",
+ "meta_baslik_tr": "SEO Rakip Analizi Nasıl Yapılır",
+ "meta_baslik_en": "How to Run an SEO Competitor Analysis",
+ "meta_desc_tr": "İş rakibi ile arama rakibi farkı, SERP analizi, içerik boşluğu ve backlink karşılaştırmasıyla rakip analizini adım adım yapın, bulguları eyleme dökün.",
+ "meta_desc_en": "Separate business rivals from search rivals, analyse SERPs, content gaps and backlinks step by step, and turn your competitor findings into action.",
  "ozet_tr": "Arama sonuçlarında gerçekten kiminle yarıştığınızı bulup içerik ve backlink boşluklarını eyleme çevirmenin yolu.",
  "ozet_en": "Find out who you really compete with in search and turn content and backlink gaps into action.",
  "bolumler_tr": [
@@ -55,7 +55,7 @@
   {
    "baslik": "Arama rakiplerinizi nasıl belirlersiniz?",
    "paragraflar": [
-    "Başlangıç noktası anahtar kelime kümeleridir. Her küme için birkaç temsilci sorguyu gizli pencerede ya da konum ayarı yapılmış bir araçla arayın ve ilk sayfadaki alan adlarını bir tabloya yazın. Birden fazla kümede tekrar eden alan adları asıl arama rakiplerinizdir. Kümeleri oluşturmak için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemi kullanabilirsiniz.",
+    "Başlangıç noktası anahtar kelime kümeleridir. Her küme için birkaç temsilci sorguyu gizli pencerede ya da konum ayarı yapılmış bir araçla arayın ve ilk sayfadaki alan adlarını bir tabloya yazın. Birden fazla kümede tekrar eden alan adları asıl arama rakiplerinizdir. Kümeleri oluşturmak için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) yöntemi kullanabilirsiniz.",
     {
      "tablo": {
       "basliklar": [
@@ -92,7 +92,7 @@
       ]
      }
     },
-    "Üçüncü taraf SEO araçlarının “organik rakip” listeleri iyi bir başlangıçtır, ancak trafik ve sıra verileri tahminidir. Hangi aracın hangi işte güçlü olduğunu [SEO denetim araçları](/blog/seo-audit-araclari) yazısında karşılaştırdım."
+    "Üçüncü taraf SEO araçlarının “organik rakip” listeleri iyi bir başlangıçtır, ancak trafik ve sıra verileri tahminidir. Hangi aracın hangi işte güçlü olduğunu [SEO denetim araçları](/seo-audit-araclari) yazısında karşılaştırdım."
    ]
   },
   {
@@ -123,7 +123,7 @@
       }
      ]
     },
-    "Hangi SERP özelliğinin nasıl kazanılabileceğini [featured snippet ve SERP özellikleri](/blog/featured-snippet-serp-ozellikleri) yazısında ayrıca ele aldım. Rakip sayfayı okurken kelime sayısını değil, hangi alt sorulara cevap verdiğini listeleyin."
+    "Hangi SERP özelliğinin nasıl kazanılabileceğini [featured snippet ve SERP özellikleri](/featured-snippet-serp-ozellikleri) yazısında ayrıca ele aldım. Rakip sayfayı okurken kelime sayısını değil, hangi alt sorulara cevap verdiğini listeleyin."
    ]
   },
   {
@@ -157,7 +157,7 @@
       ]
      }
     },
-    "Boşlukları konu kümelerine bağlayıp yayın planına dönüştürmek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) bir çerçeve sunar. Her boşluğu kapatmak zorunda değilsiniz; işinizle ilgisi olmayan konular, trafik getirse bile dönüşüm getirmez."
+    "Boşlukları konu kümelerine bağlayıp yayın planına dönüştürmek için [içerik stratejisi rehberi](/icerik-stratejisi) bir çerçeve sunar. Her boşluğu kapatmak zorunda değilsiniz; işinizle ilgisi olmayan konular, trafik getirse bile dönüşüm getirmez."
    ]
   },
   {
@@ -173,7 +173,7 @@
       "Kopyalanabilir (rehber listesi, dernek üyeliği) ve kopyalanamaz (haber değeri) bağlantılar"
      ]
     },
-    "Kopyalanamaz bağlantıların arkasındaki içerik fikri asıl değerli bulgudur. Marka bahislerini de bu analize ekleyin; yöntem için [marka bahsi](/blog/marka-bahsi-brand-mention) yazısına, link kazanma taktikleri için [backlink ve dijital PR rehberine](/rehber/backlink-dijital-pr) bakabilirsiniz."
+    "Kopyalanamaz bağlantıların arkasındaki içerik fikri asıl değerli bulgudur. Marka bahislerini de bu analize ekleyin; yöntem için [marka bahsi](/marka-bahsi-brand-mention) yazısına, link kazanma taktikleri için [backlink ve dijital PR rehberine](/backlink-dijital-pr) bakabilirsiniz."
    ]
   },
   {
@@ -189,7 +189,7 @@
       "Etkiyi hangi metrikle ve ne zaman ölçeceğiz?"
      ]
     },
-    "Bu bulgular yıllık plana girdi olur; çeyreklere nasıl dağıtacağınızı [12 aylık SEO strateji planı](/blog/seo-strateji-plani) yazısında anlattım. Sektörünüze özgü arama rakiplerini birlikte çıkarmak isterseniz [sektörler](/sektorler) sayfasından alanınıza bakabilir, [SEO uzmanı](/seo-uzmani) desteği ve [backlink](/backlink) çalışması için [randevu](/randevu) alabilirsiniz."
+    "Bu bulgular yıllık plana girdi olur; çeyreklere nasıl dağıtacağınızı [12 aylık SEO strateji planı](/seo-strateji-plani) yazısında anlattım. Sektörünüze özgü arama rakiplerini birlikte çıkarmak isterseniz [sektörler](/sektorler) sayfasından alanınıza bakabilir, [SEO uzmanı](/seo-uzmani) desteği ve [backlink](/backlink) çalışması için [randevu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -238,7 +238,7 @@
   {
    "baslik": "How do you identify your search competitors?",
    "paragraflar": [
-    "Start from keyword clusters. For each cluster, search a few representative queries in a private window or a tool with location set, and log the first-page domains in a sheet. Domains that recur across clusters are your real search competitors. The method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) helps build the clusters.",
+    "Start from keyword clusters. For each cluster, search a few representative queries in a private window or a tool with location set, and log the first-page domains in a sheet. Domains that recur across clusters are your real search competitors. The method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) helps build the clusters.",
     {
      "tablo": {
       "basliklar": [
@@ -275,7 +275,7 @@
       ]
      }
     },
-    "Third-party SEO tools' “organic competitor” lists are a good start, but their traffic and ranking data are estimates. I compare which tool suits which job in [SEO audit tools](/en/blog/seo-audit-araclari)."
+    "Third-party SEO tools' “organic competitor” lists are a good start, but their traffic and ranking data are estimates. I compare which tool suits which job in [SEO audit tools](/en/seo-audit-araclari)."
    ]
   },
   {
@@ -306,7 +306,7 @@
       }
      ]
     },
-    "How to win each SERP feature is covered in [featured snippets and SERP features](/en/blog/featured-snippet-serp-ozellikleri). When reading a competitor page, list the sub-questions it answers rather than counting words."
+    "How to win each SERP feature is covered in [featured snippets and SERP features](/en/featured-snippet-serp-ozellikleri). When reading a competitor page, list the sub-questions it answers rather than counting words."
    ]
   },
   {
@@ -340,7 +340,7 @@
       ]
      }
     },
-    "The [content strategy guide](/en/guides/icerik-stratejisi) offers a framework for tying gaps to topic clusters and a publishing plan. You do not need to close every gap; topics unrelated to your business may bring traffic but not conversions."
+    "The [content strategy guide](/en/icerik-stratejisi) offers a framework for tying gaps to topic clusters and a publishing plan. You do not need to close every gap; topics unrelated to your business may bring traffic but not conversions."
    ]
   },
   {
@@ -356,7 +356,7 @@
       "Replicable links (directories, memberships) vs non-replicable ones (newsworthiness)"
      ]
     },
-    "The content idea behind non-replicable links is the most valuable finding. Add brand mentions to the analysis; see [brand mentions](/en/blog/marka-bahsi-brand-mention) for the method and the [backlink and digital PR guide](/en/guides/backlink-dijital-pr) for earning links."
+    "The content idea behind non-replicable links is the most valuable finding. Add brand mentions to the analysis; see [brand mentions](/en/marka-bahsi-brand-mention) for the method and the [backlink and digital PR guide](/en/backlink-dijital-pr) for earning links."
    ]
   },
   {
@@ -372,7 +372,7 @@
       "Which metric will show the impact, and when?"
      ]
     },
-    "These findings feed the annual plan; I explain how to spread them across quarters in the [12-month SEO strategy plan](/en/blog/seo-strateji-plani). To map search competitors in your field together, check the [industries](/en/industries) page, and [book a call](/en/book-a-call) for [SEO consulting](/en/seo-consulting) or [backlink and digital PR](/en/backlink-digital-pr) support."
+    "These findings feed the annual plan; I explain how to spread them across quarters in the [12-month SEO strategy plan](/en/seo-strateji-plani). To map search competitors in your field together, check the [industries](/en/industries) page, and [book a call](/en/book-a-call) for [SEO consulting](/en/seo-consulting) or [backlink and digital PR](/en/backlink-digital-pr) support."
    ]
   }
  ],
@@ -395,7 +395,7 @@
   },
   {
    "s": "Rakibin sitesi daha yavaş ama üstte; hız önemsiz mi?",
-   "c": "Sıralama çok sayıda sinyalin birleşimidir ve hız bunlardan yalnızca biridir. Rakip içerik ve otoritede güçlü olabilir. Core Web Vitals eşiklerini sağlamak kullanıcı deneyimi açısından yine değerlidir; ayrıntılar [Core Web Vitals](/blog/core-web-vitals-2025) yazısında."
+   "c": "Sıralama çok sayıda sinyalin birleşimidir ve hız bunlardan yalnızca biridir. Rakip içerik ve otoritede güçlü olabilir. Core Web Vitals eşiklerini sağlamak kullanıcı deneyimi açısından yine değerlidir; ayrıntılar [Core Web Vitals](/core-web-vitals-2025) yazısında."
   }
  ],
  "sss_en": [
@@ -417,7 +417,7 @@
   },
   {
    "s": "A competitor's site is slower but ranks higher; does speed not matter?",
-   "c": "Ranking combines many signals, and speed is only one of them. The competitor may be stronger on content and authority. Meeting Core Web Vitals thresholds is still valuable for user experience; see [Core Web Vitals](/en/blog/core-web-vitals-2025)."
+   "c": "Ranking combines many signals, and speed is only one of them. The competitor may be stronger on content and authority. Meeting Core Web Vitals thresholds is still valuable for user experience; see [Core Web Vitals](/en/core-web-vitals-2025)."
   }
  ]
 }

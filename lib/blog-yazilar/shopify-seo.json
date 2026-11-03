@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Shopify SEO: Mağaza İçin Teknik ve İçerik Kontrol Listesi",
  "baslik_en": "Shopify SEO: A Technical and Content Checklist for Your Store",
- "meta_baslik_tr": "Shopify SEO: Teknik ve İçerik Kontrol Listesi",
- "meta_baslik_en": "Shopify SEO: Technical and Content Checklist",
- "meta_desc_tr": "Shopify mağazasında SEO: sabit URL yapısı, koleksiyon içi yinelenen ürün URL'leri, robots.txt.liquid, uygulama yükü ve içerik alanları için kontrol listesi.",
- "meta_desc_en": "Shopify SEO checklist: the fixed URL structure, duplicate product URLs inside collections, robots.txt.liquid, app bloat and the content fields that matter.",
+ "meta_baslik_tr": "Shopify SEO Kontrol Listesi",
+ "meta_baslik_en": "Shopify SEO Checklist",
+ "meta_desc_tr": "Shopify mağazası için sabit URL yapısı, koleksiyonlardaki yinelenen ürün URL'leri, robots.txt.liquid, uygulama yükü ve içerik alanlarını kontrol edin.",
+ "meta_desc_en": "A Shopify SEO checklist covering the fixed URL structure, duplicate product URLs in collections, robots.txt.liquid, app bloat and key content fields.",
  "ozet_tr": "Shopify'ın sabit URL yapısı, yinelenen ürün adresleri, robots.txt.liquid ve uygulama yükü için uygulanabilir kontrol listesi.",
  "ozet_en": "A practical checklist for Shopify's fixed URL structure, duplicate product URLs, robots.txt.liquid and app bloat.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Shopify, SEO'nun temel işlerini kutudan çıktığı gibi halleder: site haritası otomatik üretilir, sayfa başlığı ve meta açıklama alanları her ürün ve koleksiyonda hazırdır. Ama platformun bazı kuralları sabittir ve bunları bilmeden yapılan kurulum, ileride düzeltilmesi zor sorunlar bırakır.",
-    "Bu yazıda Shopify'a özgü noktaları ele alıyorum: değiştiremediğiniz URL yapısı, koleksiyon içinden açılan ürün adresleri, robots.txt.liquid dosyası, uygulama yükü ve içerik alanları. Shopify'ı diğer altyapılarla kıyaslıyorsanız önce [e-ticaret altyapılarının SEO karşılaştırmasına](/blog/e-ticaret-altyapisi-seo-karsilastirma) bakın.",
+    "Bu yazıda Shopify'a özgü noktaları ele alıyorum: değiştiremediğiniz URL yapısı, koleksiyon içinden açılan ürün adresleri, robots.txt.liquid dosyası, uygulama yükü ve içerik alanları. Shopify'ı diğer altyapılarla kıyaslıyorsanız önce [e-ticaret altyapılarının SEO karşılaştırmasına](/e-ticaret-altyapisi-seo-karsilastirma) bakın.",
     {
      "alinti": "Kısa cevap: Shopify'da SEO çalışması, platformun sabit URL yapısını kabul edip onun içinde düzen kurmaktır. Koleksiyon içi ürün linklerini standart /products/ adresine yönlendiren tema ayarı, gerektiğinde robots.txt.liquid ile kontrollü tarama kuralları, gereksiz uygulamaların temizlenmesi ve özgün ürün ile koleksiyon metinleri en çok fark yaratan dört iştir."
     }
@@ -57,7 +57,7 @@
       ]
      }
     },
-    "Pratikte bu bir dezavantaj değil; Google ön ekin İngilizce olmasıyla ilgilenmez. Asıl dikkat edilmesi gereken, tanıtıcıların kısa, Türkçe karakterden arındırılmış ve kalıcı olmasıdır. Tanıtıcıyı sonradan değiştirirseniz eski adres için yönlendirme gerekir. Shopify'ın yardım dokümanına göre yönlendirmeler yalnızca artık sayfa göstermeyen (404 veren) adreslerde çalışır; toplu kural hazırlarken [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) zaman kazandırır."
+    "Pratikte bu bir dezavantaj değil; Google ön ekin İngilizce olmasıyla ilgilenmez. Asıl dikkat edilmesi gereken, tanıtıcıların kısa, Türkçe karakterden arındırılmış ve kalıcı olmasıdır. Tanıtıcıyı sonradan değiştirirseniz eski adres için yönlendirme gerekir. Shopify'ın yardım dokümanına göre yönlendirmeler yalnızca artık sayfa göstermeyen (404 veren) adreslerde çalışır; toplu kural hazırlarken [yönlendirme oluşturucu](/yonlendirme-olusturucu) zaman kazandırır."
    ]
   },
   {
@@ -87,7 +87,7 @@
       }
      }
     },
-    "Temanızı kontrol etmek için bir koleksiyon sayfasında ürün kartının linkine bakın. Koleksiyon içi adres görüyorsanız tema geliştiricinizden ürün kartı şablonunu standart adresi kullanacak şekilde düzenlemesini isteyin. Genel kanonikleştirme mantığı [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor."
+    "Temanızı kontrol etmek için bir koleksiyon sayfasında ürün kartının linkine bakın. Koleksiyon içi adres görüyorsanız tema geliştiricinizden ürün kartı şablonunu standart adresi kullanacak şekilde düzenlemesini isteyin. Genel kanonikleştirme mantığı [teknik SEO rehberinde](/teknik-seo) anlatılıyor."
    ]
   },
   {
@@ -110,7 +110,7 @@
   {
    "baslik": "Uygulama yükü ve hız: Shopify'da en sık sorun",
    "paragraflar": [
-    "Shopify'ın altyapısı hızlıdır; mağazaları yavaşlatan genellikle sonradan eklenen uygulamalar, büyük görseller ve tema içi gereksiz kodlardır. Core Web Vitals eşiklerini (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) hedefleyin; ayrıntılar [Core Web Vitals yazısında](/blog/core-web-vitals-2025).",
+    "Shopify'ın altyapısı hızlıdır; mağazaları yavaşlatan genellikle sonradan eklenen uygulamalar, büyük görseller ve tema içi gereksiz kodlardır. Core Web Vitals eşiklerini (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) hedefleyin; ayrıntılar [Core Web Vitals yazısında](/core-web-vitals-2025).",
     {
      "kartlar": [
       {
@@ -178,7 +178,7 @@
       ]
      }
     },
-    "Ürün metinlerinde üretici açıklamasını kopyalamak Shopify'a özgü değil ama en yaygın hata. Nasıl özgün metin yazılacağını [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısında anlattım. Ürün yapısal verisini temanızın üretip üretmediğini kontrol edin; eksikse [schema oluşturucu](/araclar/schema-olusturucu) ile başlayabilirsiniz."
+    "Ürün metinlerinde üretici açıklamasını kopyalamak Shopify'a özgü değil ama en yaygın hata. Nasıl özgün metin yazılacağını [ürün açıklaması ve kategori metni yazımı](/e-ticaret-urun-aciklamasi) yazısında anlattım. Ürün yapısal verisini temanızın üretip üretmediğini kontrol edin; eksikse [schema oluşturucu](/schema-olusturucu) ile başlayabilirsiniz."
    ]
   },
   {
@@ -196,7 +196,7 @@
       "Ana koleksiyonlarda özgün açıklama, ürünlerde özgün metin ve alt metin var."
      ]
     },
-    "Kategori mimarisi, filtreler ve ürün yapısal verisi gibi platformdan bağımsız konular [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ve [yapısal veri rehberinde](/rehber/schema-yapisal-veri) ayrıntılı işleniyor. Mağazanız için bu listeyi birlikte uygulamak isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfasına göz atın ya da [ön görüşme planlayın](/randevu)."
+    "Kategori mimarisi, filtreler ve ürün yapısal verisi gibi platformdan bağımsız konular [e-ticaret SEO rehberinde](/e-ticaret-seo) ve [yapısal veri rehberinde](/schema-yapisal-veri) ayrıntılı işleniyor. Mağazanız için bu listeyi birlikte uygulamak isterseniz [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) sayfasına göz atın ya da [ön görüşme planlayın](/randevu)."
    ]
   }
  ],
@@ -211,7 +211,7 @@
   },
   {
    "s": "Çok dilli Shopify mağazasında hreflang'i elle eklemem gerekir mi?",
-   "c": "Shopify, uluslararası alan adları ve dil ayarlarıyla çalışan mağazalarda dil sürümlerini site haritasına kendisi ekler. Yine de kaynak kodda hreflang etiketlerinin doğru dil-bölge eşleşmesini gösterdiğini kontrol edin. Kurulum mantığı için [hreflang ve uluslararası SEO](/blog/hreflang-uluslararasi-seo) yazısına bakabilirsiniz."
+   "c": "Shopify, uluslararası alan adları ve dil ayarlarıyla çalışan mağazalarda dil sürümlerini site haritasına kendisi ekler. Yine de kaynak kodda hreflang etiketlerinin doğru dil-bölge eşleşmesini gösterdiğini kontrol edin. Kurulum mantığı için [hreflang ve uluslararası SEO](/hreflang-uluslararasi-seo) yazısına bakabilirsiniz."
   },
   {
    "s": "Stokta olmayan ürün sayfasını silmeli miyim?",
@@ -231,7 +231,7 @@
    "baslik": null,
    "paragraflar": [
     "Shopify handles the SEO basics out of the box: an automatic sitemap and title and meta description fields everywhere. But some platform rules are fixed, and a setup that ignores them leaves problems that are hard to undo later.",
-    "This post covers what is specific to Shopify: the URL structure you cannot change, product URLs opened from inside collections, the robots.txt.liquid file, app bloat and the content fields. If you are still choosing a platform, start with the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma).",
+    "This post covers what is specific to Shopify: the URL structure you cannot change, product URLs opened from inside collections, the robots.txt.liquid file, app bloat and the content fields. If you are still choosing a platform, start with the [ecommerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma).",
     {
      "alinti": "Short answer: Shopify SEO means accepting the platform's fixed URL structure and building order inside it. A theme that links collection products to the canonical /products/ URL, controlled crawl rules via robots.txt.liquid when needed, removing unnecessary apps, and original product and collection copy are the four jobs that make the most difference."
     }
@@ -273,7 +273,7 @@
       ]
      }
     },
-    "This is not a disadvantage. What matters is that handles are short, free of special characters and permanent. If you change a handle later, the old URL needs a redirect. According to Shopify's help docs, redirects only work on URLs that no longer show a page (return a 404); a [redirect generator](/en/tools/redirect-generator) saves time when preparing rules in bulk."
+    "This is not a disadvantage. What matters is that handles are short, free of special characters and permanent. If you change a handle later, the old URL needs a redirect. According to Shopify's help docs, redirects only work on URLs that no longer show a page (return a 404); a [redirect generator](/en/redirect-generator) saves time when preparing rules in bulk."
    ]
   },
   {
@@ -303,7 +303,7 @@
       }
      }
     },
-    "To check your theme, inspect the product card link on any collection page. If you see the in-collection URL, ask your theme developer to change the product card template to use the canonical URL. The general logic of canonicalization is covered in the [technical SEO guide](/en/guides/teknik-seo)."
+    "To check your theme, inspect the product card link on any collection page. If you see the in-collection URL, ask your theme developer to change the product card template to use the canonical URL. The general logic of canonicalization is covered in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -326,7 +326,7 @@
   {
    "baslik": "App bloat and speed: the most common Shopify issue",
    "paragraflar": [
-    "Shopify's infrastructure is fast; what slows stores down is usually apps added over time, oversized images and unnecessary theme code. Aim for the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1); details are in the [Core Web Vitals post](/en/blog/core-web-vitals-2025).",
+    "Shopify's infrastructure is fast; what slows stores down is usually apps added over time, oversized images and unnecessary theme code. Aim for the Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1); details are in the [Core Web Vitals post](/en/core-web-vitals-2025).",
     {
      "kartlar": [
       {
@@ -394,7 +394,7 @@
       ]
      }
     },
-    "The most common content mistake is copying manufacturer descriptions; I cover how to write original copy in [how to write product descriptions and category copy](/en/blog/e-ticaret-urun-aciklamasi). Check whether your theme outputs product structured data; if not, the [schema generator](/en/tools/schema-generator) is a starting point."
+    "The most common content mistake is copying manufacturer descriptions; I cover how to write original copy in [how to write product descriptions and category copy](/en/e-ticaret-urun-aciklamasi). Check whether your theme outputs product structured data; if not, the [schema generator](/en/schema-generator) is a starting point."
    ]
   },
   {
@@ -412,7 +412,7 @@
       "Main collections have original descriptions; products have original copy and alt text."
      ]
     },
-    "Platform-independent topics such as category architecture, filters and product structured data are covered in the [ecommerce SEO guide](/en/guides/e-ticaret-seo) and the [structured data guide](/en/guides/schema-yapisal-veri). If you want to work through this list for your store together, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) or [book an intro call](/en/book-a-call)."
+    "Platform-independent topics such as category architecture, filters and product structured data are covered in the [ecommerce SEO guide](/en/e-ticaret-seo) and the [structured data guide](/en/schema-yapisal-veri). If you want to work through this list for your store together, see [ecommerce SEO consulting](/en/ecommerce-seo-consulting) or [book an intro call](/en/book-a-call)."
    ]
   }
  ],
@@ -427,7 +427,7 @@
   },
   {
    "s": "Do I need to add hreflang manually on a multilingual Shopify store?",
-   "c": "For stores using international domains and language settings, Shopify adds language versions to the sitemap itself. Still, check in the source code that the hreflang tags show the right language-region pairs. For the setup logic, see [hreflang and international SEO](/en/blog/hreflang-uluslararasi-seo)."
+   "c": "For stores using international domains and language settings, Shopify adds language versions to the sitemap itself. Still, check in the source code that the hreflang tags show the right language-region pairs. For the setup logic, see [hreflang and international SEO](/en/hreflang-uluslararasi-seo)."
   },
   {
    "s": "Should I delete out-of-stock product pages?",

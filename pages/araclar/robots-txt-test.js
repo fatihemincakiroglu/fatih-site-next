@@ -4,10 +4,10 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { BOTLAR, ayristir, test, ORNEK_ROBOTS } from '../../lib/robots-test'
 
 // robots.txt test aracı — kurallar tarayıcıda, Google'ın yorumuna göre değerlendirilir.
-// TR: /araclar/robots-txt-test   EN: /en/tools/robots-txt-tester
+// TR: /robots-txt-test   EN: /en/robots-txt-tester
 
 const VARSAYILAN_BOTLAR = ['googlebot', 'googlebot-image', 'bingbot', 'gptbot', 'oai-searchbot', 'claudebot', 'perplexitybot', 'google-extended']
-const ORNEK_URL = '/\n/hesabim/giris\n/hesabim/siparisler\n/kategori/ayakkabi?siralama=fiyat\n/ozel-gorseller/kampanya.jpg\n/blog/robots-txt'
+const ORNEK_URL = '/\n/hesabim/giris\n/hesabim/siparisler\n/kategori/ayakkabi?siralama=fiyat\n/ozel-gorseller/kampanya.jpg\n/robots-txt'
 
 export default function RobotsTxtTest(props) {
   const router = useRouter()
@@ -71,9 +71,9 @@ export default function RobotsTxtTest(props) {
 
   const icerik = isEn ? {
     baslik: 'robots.txt Tester',
-    metaBaslik: 'robots.txt Tester: Check URLs for Googlebot & AI Bots',
-    metaDesc: 'Test which URLs are blocked or allowed for Googlebot, Bingbot, GPTBot, ClaudeBot and PerplexityBot. Follows Google\'s robots.txt rules and flags errors.',
-    giris: 'Paste a robots.txt file (or fetch it from a site), list URLs, and see which crawler can access each one, and which rule decides it. Matching follows Google\'s documented rules. For the background, read the [robots.txt guide](/en/blog/robots-txt) and the [crawl budget article](/en/blog/crawl-butcesi).',
+    metaBaslik: 'robots.txt Tester | Free SEO Tool',
+    metaDesc: 'Check which URLs are blocked or allowed for Googlebot, Bingbot, GPTBot, ClaudeBot and PerplexityBot. Follows Google\'s rules and flags errors.',
+    giris: 'Paste a robots.txt file (or fetch it from a site), list URLs, and see which crawler can access each one, and which rule decides it. Matching follows Google\'s documented rules. For the background, read the [robots.txt guide](/en/robots-txt) and the [crawl budget article](/en/crawl-butcesi).',
     adimlar: [
       'Enter a domain and press **Fetch**, or paste your robots.txt content (for example a draft you have not published yet).',
       'List the URLs to test, one per line. Full URLs or paths both work.',
@@ -81,16 +81,16 @@ export default function RobotsTxtTest(props) {
       'Read the table: each cell shows allowed or blocked and the line number of the deciding rule. Fix the warnings below the table before publishing.',
     ],
     sss: [
-      { s: 'Does blocking a URL in robots.txt remove it from Google?', c: 'No. robots.txt controls crawling, not indexing. A blocked URL can still be indexed without its content if other pages link to it. To keep a page out of the index, allow crawling and use a noindex tag; see the [technical SEO guide](/en/guides/teknik-seo).' },
+      { s: 'Does blocking a URL in robots.txt remove it from Google?', c: 'No. robots.txt controls crawling, not indexing. A blocked URL can still be indexed without its content if other pages link to it. To keep a page out of the index, allow crawling and use a noindex tag; see the [technical SEO guide](/en/teknik-seo).' },
       { s: 'Which rule wins when Allow and Disallow both match?', c: 'Google applies the most specific rule, meaning the longest matching path. If an Allow and a Disallow rule are equally long, the less restrictive one (Allow) wins. The tool shows the deciding rule for each URL.' },
-      { s: 'Should I block AI crawlers like GPTBot or ClaudeBot?', c: 'It is a business decision. Blocking training crawlers keeps content out of future model training but does not necessarily remove you from AI answers that use search. The [GEO implementation guide](/en/guides/geo-uygulama) explains the trade-offs.' },
+      { s: 'Should I block AI crawlers like GPTBot or ClaudeBot?', c: 'It is a business decision. Blocking training crawlers keeps content out of future model training but does not necessarily remove you from AI answers that use search. The [GEO implementation guide](/en/geo-uygulama) explains the trade-offs.' },
       { s: 'Is this tool identical to Google\'s parser?', c: 'It follows Google\'s documented rules (groups, the most specific user-agent, longest match, wildcards, the 500 KiB limit), but it is not Google\'s own code. For critical changes, also check the robots.txt report in Search Console.' },
     ],
   } : {
     baslik: 'robots.txt Test Aracı',
-    metaBaslik: 'robots.txt Test Aracı: Googlebot ve Yapay Zekâ Botları',
-    metaDesc: 'URL\'lerin Googlebot, Bingbot, GPTBot, ClaudeBot ve PerplexityBot için engelli mi açık mı olduğunu test edin. Google kurallarına göre çalışır, hataları gösterir.',
-    giris: 'robots.txt dosyanızı yapıştırın ya da siteden getirin, URL\'leri listeleyin: hangi tarayıcının hangi sayfaya erişebildiğini ve kararı hangi kuralın verdiğini görün. Eşleştirme Google\'ın belgelenmiş kurallarına göre yapılır. Arka planı [robots.txt rehberi](/blog/robots-txt) ve [tarama bütçesi yazısında](/blog/crawl-butcesi) anlattım.',
+    metaBaslik: 'robots.txt Test Aracı | Ücretsiz SEO Aracı',
+    metaDesc: 'URL\'lerin Googlebot, Bingbot, GPTBot, ClaudeBot ve PerplexityBot için engelli mi açık mı olduğunu test edin. Hatalar ayrıca gösterilir.',
+    giris: 'robots.txt dosyanızı yapıştırın ya da siteden getirin, URL\'leri listeleyin: hangi tarayıcının hangi sayfaya erişebildiğini ve kararı hangi kuralın verdiğini görün. Eşleştirme Google\'ın belgelenmiş kurallarına göre yapılır. Arka planı [robots.txt rehberi](/robots-txt) ve [tarama bütçesi yazısında](/crawl-butcesi) anlattım.',
     adimlar: [
       'Alan adını yazıp **Getir**\'e basın ya da robots.txt içeriğini yapıştırın (yayınlamadığınız bir taslağı da test edebilirsiniz).',
       'Test edilecek URL\'leri her satıra bir tane yazın. Tam adres ya da yalnızca yol yazabilirsiniz.',
@@ -98,9 +98,9 @@ export default function RobotsTxtTest(props) {
       'Tabloyu okuyun: her hücre izin/engel durumunu ve kararı veren kuralın satır numarasını gösterir. Yayından önce tablonun altındaki uyarıları düzeltin.',
     ],
     sss: [
-      { s: 'robots.txt ile engellediğim sayfa Google\'dan silinir mi?', c: 'Hayır. robots.txt taramayı kontrol eder, dizine eklemeyi değil. Engellenen bir URL, başka sayfalardan link alıyorsa içeriği okunmadan dizinde kalabilir. Bir sayfayı dizin dışında tutmak için taramaya izin verip noindex etiketi kullanın; ayrıntısı [teknik SEO rehberinde](/rehber/teknik-seo).' },
+      { s: 'robots.txt ile engellediğim sayfa Google\'dan silinir mi?', c: 'Hayır. robots.txt taramayı kontrol eder, dizine eklemeyi değil. Engellenen bir URL, başka sayfalardan link alıyorsa içeriği okunmadan dizinde kalabilir. Bir sayfayı dizin dışında tutmak için taramaya izin verip noindex etiketi kullanın; ayrıntısı [teknik SEO rehberinde](/teknik-seo).' },
       { s: 'Allow ve Disallow aynı anda eşleşirse hangisi geçerli olur?', c: 'Google en özel kuralı, yani en uzun eşleşen yolu uygular. Allow ve Disallow kuralları eşit uzunluktaysa daha az kısıtlayıcı olan (Allow) kazanır. Araç her URL için kararı veren kuralı gösterir.' },
-      { s: 'GPTBot, ClaudeBot gibi yapay zekâ botlarını engellemeli miyim?', c: 'Bu bir iş kararı. Eğitim amaçlı botları engellemek içeriğinizi gelecekteki model eğitiminden çıkarır ama aramayı kullanan yapay zekâ cevaplarından mutlaka çıkarmaz. Artı ve eksileri [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım.' },
+      { s: 'GPTBot, ClaudeBot gibi yapay zekâ botlarını engellemeli miyim?', c: 'Bu bir iş kararı. Eğitim amaçlı botları engellemek içeriğinizi gelecekteki model eğitiminden çıkarır ama aramayı kullanan yapay zekâ cevaplarından mutlaka çıkarmaz. Artı ve eksileri [GEO uygulama rehberinde](/geo-uygulama) anlattım.' },
       { s: 'Bu araç Google\'ın ayrıştırıcısıyla birebir aynı mı?', c: 'Google\'ın belgelenmiş kurallarını izler (gruplar, en özel user-agent, en uzun eşleşme, joker karakterler, 500 KiB sınırı) ama Google\'ın kendi kodu değildir. Kritik değişikliklerde Search Console\'daki robots.txt raporunu da kontrol edin.' },
     ],
   }
@@ -108,7 +108,7 @@ export default function RobotsTxtTest(props) {
   const hucreStil = (izin) => ({ padding: '8px 10px', borderBottom: '1px solid #f0ece6', textAlign: 'center', fontSize: '13px', fontWeight: 700, color: izin ? '#15803d' : '#b91c1c', background: izin ? '#f0fdf4' : '#fef2f2', whiteSpace: 'nowrap' })
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/robots-txt-test" yolEn="/en/tools/robots-txt-tester" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
+    <AracSayfa isEn={isEn} yol="/robots-txt-test" yolEn="/en/robots-txt-tester" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
       giris={icerik.giris} adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['teknik-seo', 'site-tasima-seo', 'geo-uygulama']}>
       <div style={{ display: 'grid', gap: '18px' }}>
         <div>

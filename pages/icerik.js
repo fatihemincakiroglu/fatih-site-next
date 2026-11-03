@@ -116,7 +116,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{isEn ? 'Content Strategy Consulting | Fatih Emin' : 'İçerik Stratejisi Danışmanlığı | Fatih Emin'}</title>
-        <meta name="description" content={isEn ? 'Data-driven content strategy: topical authority, E-E-A-T signals, pillar-cluster modeling and AI-ready content production to grow your organic visibility.' : 'Veriye dayalı içerik stratejisi: topical authority, E-E-A-T sinyalleri, pillar-cluster modeli ve AI için optimize içerik üretimiyle organik görünürlüğünüzü artırın.'} />
+        <meta name="description" content={isEn ? 'Data-driven content strategy built on topical authority, E-E-A-T signals and pillar-cluster models, with AI-ready content to grow organic visibility.' : 'Topical authority, E-E-A-T sinyalleri ve pillar-cluster modeliyle veriye dayalı içerik stratejisi. AI için optimize içerikle görünürlüğünüzü artırın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/content-strategy' : 'https://fatihemincakiroglu.com/icerik'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))}) }} />
       </Head>

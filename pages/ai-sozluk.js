@@ -142,8 +142,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'AI & SEO Glossary | Fatih Emin Çakıroğlu' : 'Ai Sözlük ve SEO Terimleri | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? `${TERIMLER.length}+ SEO, GEO and AI terms explained in plain English. LLM, AI Overview, E-E-A-T, RAG and more — a practical glossary for the new era of search.` : `${TERIMLER.length}+ SEO, GEO ve AI terimi açık bir dille anlatılıyor. LLM, AI Overview, E-E-A-T, RAG ve daha fazlası — aramanın yeni çağı için pratik bir sözlük.`} />
+        <title>{isEn ? 'AI & SEO Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük ve SEO Terimleri | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={isEn ? `${TERIMLER.length}+ SEO, GEO and AI terms explained in plain English, including LLM, AI Overview, E-E-A-T and RAG. A practical glossary for the new era of search.` : `LLM, AI Overview, E-E-A-T ve RAG gibi ${TERIMLER.length}+ SEO, GEO ve AI terimi açık bir dille anlatılıyor. Aramanın yeni çağı için pratik bir sözlük.`} />
         <link rel="canonical" href={canonical} />
       </Head>
 

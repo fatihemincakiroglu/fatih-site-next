@@ -2,10 +2,10 @@
  "kategori": "Strateji",
  "baslik_tr": "İçerik Stratejisi Rehberi: Arama Niyeti, Konu Kümeleri, E-E-A-T ve İçerik Güncelleme",
  "baslik_en": "Content Strategy Guide: Search Intent, Topic Clusters, E-E-A-T and Content Updates",
- "meta_baslik_tr": "İçerik Stratejisi Rehberi: Niyet, Konu Kümesi, E-E-A-T",
- "meta_baslik_en": "Content Strategy Guide: Intent, Topic Clusters, E-E-A-T",
- "meta_desc_tr": "SEO içerik stratejisi nasıl kurulur? Arama niyeti, pillar-cluster mimarisi, E-E-A-T, içerik brief'i, yayın takvimi, güncelleme ve budama kararları, ölçüm.",
- "meta_desc_en": "How to build an SEO content strategy: search intent, pillar-cluster architecture, E-E-A-T, content briefs, calendars, updates, pruning and measurement.",
+ "meta_baslik_tr": "SEO İçerik Stratejisi Nasıl Kurulur",
+ "meta_baslik_en": "How to Build an SEO Content Strategy",
+ "meta_desc_tr": "Arama niyeti, pillar-cluster mimarisi, E-E-A-T ve yayın takvimiyle SEO içerik stratejinizi kurun. Güncelleme, budama ve ölçüm kararlarını görün.",
+ "meta_desc_en": "Build an SEO content strategy around search intent, pillar-cluster architecture and E-E-A-T, with briefs, calendars, updates, pruning and measurement.",
  "ozet_tr": "Hedef kitleden ölçüme: niyete uygun format, konu kümeleri, E-E-A-T, brief, takvim ve içerik güncelleme kararları.",
  "ozet_en": "From audience to measurement: intent-matched formats, topic clusters, E-E-A-T, briefs, calendars and content update decisions.",
  "bolumler_tr": [
@@ -13,7 +13,7 @@
    "baslik": null,
    "paragraflar": [
     "İçerik stratejisi, hangi içeriği kimin için, hangi formatta ve hangi iş hedefine hizmet etmek üzere üreteceğinize; yayından sonra da onu nasıl güncelleyip ölçeceğinize dair verdiğiniz kararların bütünüdür. Takvimi doldurmak için yazılan yazılar trafik getirse bile çoğu zaman satışa, randevuya ya da marka güvenine dönüşmez.",
-    "Bu rehberde bir içerik planını kurarken izlediğim sırayı anlatıyorum: hedef, niyet, mimari, güven sinyalleri, üretim süreci, güncelleme ve ölçüm. Kelime bulma kısmı [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi), yapay zekâ görünürlüğünün ayrıntısı ise GEO rehberinde.",
+    "Bu rehberde bir içerik planını kurarken izlediğim sırayı anlatıyorum: hedef, niyet, mimari, güven sinyalleri, üretim süreci, güncelleme ve ölçüm. Kelime bulma kısmı [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi), yapay zekâ görünürlüğünün ayrıntısı ise GEO rehberinde.",
     {
      "alinti": "Kısa cevap: İçerik stratejisi; hedef kitlenin sorularını iş hedefiyle eşleştirip her arama niyetine uygun formatta, konu kümeleri hâlinde içerik üretme ve bu içerikleri düzenli güncelleyip ölçme planıdır. Güçlü bir stratejide her sayfanın bir hedef sorgusu, bir görevi ve bir ölçütü vardır."
     }
@@ -74,7 +74,7 @@
       ]
      }
     },
-    "Sahada en sık gördüğüm hata, işlemsel bir sorguyu blog yazısıyla, bilgilendirici bir sorguyu satış sayfasıyla hedeflemek. Niyetin nasıl tespit edileceği ve kelimelerin nasıl kümeleneceği [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) tarafında; burada önemli olan her kümeye doğru sayfa tipini atamaktır."
+    "Sahada en sık gördüğüm hata, işlemsel bir sorguyu blog yazısıyla, bilgilendirici bir sorguyu satış sayfasıyla hedeflemek. Niyetin nasıl tespit edileceği ve kelimelerin nasıl kümeleneceği [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) tarafında; burada önemli olan her kümeye doğru sayfa tipini atamaktır."
    ]
   },
   {
@@ -82,7 +82,7 @@
    "paragraflar": [
     "Konu kümesi modelinde geniş bir konuyu özetleyen bir ana sayfa (pillar) ve alt soruları derinlemesine işleyen destek sayfaları (cluster) bulunur. Ana sayfa her destek sayfasına, destek sayfaları da ana sayfaya ve birbirine anahtar kelimeli iç linklerle bağlanır.",
     "Bu sitedeki yapı örnek olabilir: SEO rehberi genel çerçeveyi verir; teknik, yerel ve e-ticaret gibi rehberler alt konuları derinleştirir. Her destek sayfası tek bir ana soruya odaklanmalı; iki sayfa aynı sorguyu hedefliyorsa birbirinin rakibi olur ve birleştirilmeleri gerekir.",
-    "Mimarinin teknik tarafı, yani tıklama derinliği, bağlantı yapısı ve yetim sayfalar [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor. Kategori ve ürün sayfalarında aynı mantığın nasıl uygulandığını [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) bulabilirsiniz."
+    "Mimarinin teknik tarafı, yani tıklama derinliği, bağlantı yapısı ve yetim sayfalar [teknik SEO rehberinde](/teknik-seo) anlatılıyor. Kategori ve ürün sayfalarında aynı mantığın nasıl uygulandığını [e-ticaret SEO rehberinde](/e-ticaret-seo) bulabilirsiniz."
    ]
   },
   {
@@ -93,11 +93,11 @@
      "liste": [
       "**Deneyim:** Kendi uygulamanızdan gözlemler, süreç fotoğrafları, gerçek örnekler.",
       "**Uzmanlık:** Yazar adı, uzmanlığını gösteren biyografi ve profil sayfası.",
-      "**Otorite:** Sektördeki başka kaynakların sizden bahsetmesi; bu taraf [backlink ve dijital PR](/rehber/backlink-dijital-pr) çalışmasıyla güçlenir.",
+      "**Otorite:** Sektördeki başka kaynakların sizden bahsetmesi; bu taraf [backlink ve dijital PR](/backlink-dijital-pr) çalışmasıyla güçlenir.",
       "**Güvenilirlik:** Doğru ve kaynaklı bilgi, açık iletişim bilgileri, görünür güncelleme tarihi."
      ]
     },
-    "Sağlık ve finans gibi YMYL alanlarında beklenti en yüksek düzeydedir; hekim onayı ve yasal sınırlar için [sağlık sektörü SEO rehberine](/rehber/saglik-seo) bakın."
+    "Sağlık ve finans gibi YMYL alanlarında beklenti en yüksek düzeydedir; hekim onayı ve yasal sınırlar için [sağlık sektörü SEO rehberine](/saglik-seo) bakın."
    ]
   },
   {
@@ -122,7 +122,7 @@
    "baslik": "Yapay zekâ cevaplarında alıntılanabilir içerik nasıl yazılır?",
    "paragraflar": [
     "Google AI Overviews, ChatGPT veya Perplexity gibi sistemler bir sayfanın tamamını değil, çoğu zaman tek bir paragrafını ya da tablo satırını kullanır. Bu yüzden her ana başlığın altına sorunun doğrudan cevabını veren iki üç cümlelik bir blok koyuyorum; bu rehberin başındaki kısa cevap da bunun örneği.",
-    "Net tanımlar, karşılaştırma tabloları ve bağlama muhtaç olmayan paragraflar hem okuyucuya hem de makinelere yardımcı olur. Soru setinin çıkarılması, varlık netliği ve ölçüm gibi konular [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı; markanızın sohbet asistanlarında nasıl göründüğünü kontrol etmek için [ChatGPT marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısına bakabilirsiniz. Terimlerde zorlanıyorsanız [yapay zekâ ve SEO sözlüğü](/ai-sozluk) işinize yarar."
+    "Net tanımlar, karşılaştırma tabloları ve bağlama muhtaç olmayan paragraflar hem okuyucuya hem de makinelere yardımcı olur. Soru setinin çıkarılması, varlık netliği ve ölçüm gibi konular [GEO uygulama rehberinde](/geo-uygulama) ayrıntılı; markanızın sohbet asistanlarında nasıl göründüğünü kontrol etmek için [ChatGPT marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısına bakabilirsiniz. Terimlerde zorlanıyorsanız [yapay zekâ ve SEO sözlüğü](/ai-sozluk) işinize yarar."
    ]
   },
   {
@@ -172,7 +172,7 @@
    "baslik": "İçerik stratejisinin başarısı nasıl ölçülür?",
    "paragraflar": [
     "Her sayfayı görevine göre ölçüyorum. Bilgilendirici rehberlerde Search Console gösterim ve tıklamaları, sorgu çeşitliliği ve iç linkle hizmet sayfalarına geçiş; işlemsel sayfalarda GA4'teki önemli etkinlikler (form, arama, randevu) esas alınır. Konu kümesini toplu izlemek, tek tek sayfalara bakmaktan daha doğru bir tablo verir.",
-    "Kurulum ve aylık rapor şablonu [SEO raporlama rehberinde](/rehber/seo-raporlama) var. Planı birlikte kurmak isterseniz [içerik stratejisi hizmeti](/icerik) kapsamını inceleyebilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
+    "Kurulum ve aylık rapor şablonu [SEO raporlama rehberinde](/seo-raporlama) var. Planı birlikte kurmak isterseniz [içerik stratejisi hizmeti](/icerik) kapsamını inceleyebilir ya da bir [görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -181,7 +181,7 @@
    "baslik": null,
    "paragraflar": [
     "Content strategy is the set of decisions about what content you produce, for whom, in which format and in service of which business goal, plus how you update and measure it after publishing. Posts written to fill a calendar may bring traffic, but they rarely turn into sales, bookings or brand trust.",
-    "This guide follows the order I use to build a content plan: goals, intent, architecture, trust signals, production, updates and measurement. Finding the keywords is covered in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi), and the details of AI visibility in the GEO guide.",
+    "This guide follows the order I use to build a content plan: goals, intent, architecture, trust signals, production, updates and measurement. Finding the keywords is covered in the [keyword research guide](/en/anahtar-kelime-arastirmasi), and the details of AI visibility in the GEO guide.",
     {
      "alinti": "Short answer: A content strategy is a plan that matches your audience's questions with business goals, produces content in the format each search intent calls for, organises it into topic clusters, and keeps it updated and measured. In a strong strategy every page has a target query, a job and a metric."
     }
@@ -242,7 +242,7 @@
       ]
      }
     },
-    "The most common mistake I see is targeting a transactional query with a blog post, or an informational query with a sales page. How to identify intent and cluster keywords belongs to [keyword research](/en/guides/anahtar-kelime-arastirmasi); here the point is to assign the right page type to each cluster."
+    "The most common mistake I see is targeting a transactional query with a blog post, or an informational query with a sales page. How to identify intent and cluster keywords belongs to [keyword research](/en/anahtar-kelime-arastirmasi); here the point is to assign the right page type to each cluster."
    ]
   },
   {
@@ -250,7 +250,7 @@
    "paragraflar": [
     "A topic cluster has one pillar page that summarises a broad topic and supporting cluster pages that answer sub-questions in depth. The pillar links to every cluster page, and cluster pages link back to the pillar and to each other with descriptive anchor text.",
     "This site is an example: the SEO guide sets out the overall framework, while guides on technical, local and e-commerce SEO go deeper. Each cluster page should focus on one main question; if two pages target the same query they compete with each other and should be merged.",
-    "The technical side of the architecture, such as click depth, link structure and orphan pages, is covered in the [technical SEO guide](/en/guides/teknik-seo). For the same logic applied to category and product pages, see the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+    "The technical side of the architecture, such as click depth, link structure and orphan pages, is covered in the [technical SEO guide](/en/teknik-seo). For the same logic applied to category and product pages, see the [e-commerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
@@ -261,11 +261,11 @@
      "liste": [
       "**Experience:** Observations from your own work, process photos, real examples.",
       "**Expertise:** An author name, a bio showing relevant expertise and a profile page.",
-      "**Authoritativeness:** Other sources in your field mentioning you, which grows through [backlinks and digital PR](/en/guides/backlink-dijital-pr).",
+      "**Authoritativeness:** Other sources in your field mentioning you, which grows through [backlinks and digital PR](/en/backlink-dijital-pr).",
       "**Trustworthiness:** Accurate, sourced information, clear contact details and a visible update date."
      ]
     },
-    "In YMYL areas such as health and finance the bar is highest; for medical review and legal limits, see the [healthcare SEO guide](/en/guides/saglik-seo)."
+    "In YMYL areas such as health and finance the bar is highest; for medical review and legal limits, see the [healthcare SEO guide](/en/saglik-seo)."
    ]
   },
   {
@@ -290,7 +290,7 @@
    "baslik": "How do you write content that AI answers can cite?",
    "paragraflar": [
     "Systems such as Google AI Overviews, ChatGPT or Perplexity usually use a single paragraph or table row rather than a whole page. That is why I put a two-to-three-sentence block under each main heading that answers the question directly; the short answer at the top of this guide is an example.",
-    "Clear definitions, comparison tables and paragraphs that make sense on their own help readers and machines alike. Building a question set, entity clarity and measurement are covered in detail in the [GEO implementation guide](/en/guides/geo-uygulama); to check how your brand appears in chat assistants, read my article on [ChatGPT brand visibility](/en/blog/chatgpt-marka-gorunurlugu). If the terminology is new, the [AI and SEO glossary](/en/ai-glossary) helps."
+    "Clear definitions, comparison tables and paragraphs that make sense on their own help readers and machines alike. Building a question set, entity clarity and measurement are covered in detail in the [GEO implementation guide](/en/geo-uygulama); to check how your brand appears in chat assistants, read my article on [ChatGPT brand visibility](/en/chatgpt-marka-gorunurlugu). If the terminology is new, the [AI and SEO glossary](/en/ai-glossary) helps."
    ]
   },
   {
@@ -340,7 +340,7 @@
    "baslik": "How do you measure the success of a content strategy?",
    "paragraflar": [
     "I measure each page against its job. For informational guides that means Search Console impressions and clicks, query breadth and clicks through to service pages; for transactional pages it means GA4 key events such as forms, calls and bookings. Tracking a topic cluster as a group gives a truer picture than looking at pages one by one.",
-    "The setup and a monthly report template are in the [SEO reporting guide](/en/guides/seo-raporlama). If you want to build the plan together, see the scope of my [content strategy service](/en/content-strategy) or [book a call](/en/book-a-call)."
+    "The setup and a monthly report template are in the [SEO reporting guide](/en/seo-raporlama). If you want to build the plan together, see the scope of my [content strategy service](/en/content-strategy) or [book a call](/en/book-a-call)."
    ]
   }
  ],

@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Anchor Text (Bağlantı Metni) Stratejisi: Doğal Bir Link Profili",
  "baslik_en": "Anchor Text Strategy: Building a Natural Link Profile",
- "meta_baslik_tr": "Anchor Text Stratejisi: Doğal Bir Link Profili",
- "meta_baslik_en": "Anchor Text Strategy: A Natural Link Profile",
- "meta_desc_tr": "Anchor text türleri, tam eşleşme bağlantı metninin riski, Google'ın link spam politikası ve dış link ile iç link anchor'ı arasındaki fark tek yazıda.",
- "meta_desc_en": "Anchor text types, the risk of exact-match anchors, what Google's link spam policy says, and how external and internal link anchors differ, in one article.",
+ "meta_baslik_tr": "Anchor Text ile Doğal Link Profili Kurmak",
+ "meta_baslik_en": "Anchor Text for a Natural Link Profile",
+ "meta_desc_tr": "Anchor text türleri, tam eşleşme bağlantı metninin riski, Google'ın link spam politikası ve iç ile dış link farkıyla doğal bir profil oluşturun.",
+ "meta_desc_en": "Learn anchor text types, the risk of exact-match anchors, what Google's link spam policy says and how internal and external anchors differ.",
  "ozet_tr": "Marka, tam eşleşme, genel ve URL anchor'ları: aşırı optimizasyona düşmeden doğal bir bağlantı metni profili kurmak.",
  "ozet_en": "Brand, exact-match, generic and URL anchors: building a natural anchor text profile without over-optimizing.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Bağlantı metni (anchor text), bir linkte tıklanan görünür metindir ve hem kullanıcıya hem Google'a hedef sayfanın neyle ilgili olduğunu anlatır. Bu yüzden yıllarca “para kelimesini anchor'a koy” taktiğinin aşırı kullanıldığı bir alan oldu.",
-    "Bu yazıda anchor türlerini, aşırı optimizasyonun neden risk taşıdığını, Google'ın link spam politikasının bu konuda ne dediğini ve dış linklerle iç linkler arasındaki farkı anlatıyorum. Link kazanımının bütününü [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ele aldım.",
+    "Bu yazıda anchor türlerini, aşırı optimizasyonun neden risk taşıdığını, Google'ın link spam politikasının bu konuda ne dediğini ve dış linklerle iç linkler arasındaki farkı anlatıyorum. Link kazanımının bütününü [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ele aldım.",
     {
      "alinti": "Kısa cevap: Doğal bir link profilinde bağlantı metinlerinin çoğu marka adı, URL ve bağlama uygun açıklayıcı ifadelerden oluşur; bunu siz değil, link veren siteler belirler. Başka sitelerde dağıtılan makale, konuk yazı ve basın bültenlerinde optimize edilmiş anchor'lı linkler Google'ın spam politikalarında link spam örneği olarak geçer. İç linklerde ise açıklayıcı anchor kullanmak doğru uygulamadır."
     }
@@ -87,7 +87,7 @@
       "metin": "Tanıtım yazısı satın alıp metne “istanbul en iyi saç ekimi” gibi bir anchor yerleştirmek, hem ücretli link hem optimize anchor kuralına takılır. Ücretli ya da sponsorlu linkler rel=\"sponsored\" veya rel=\"nofollow\" ile işaretlenmelidir."
      }
     },
-    "Böyle bir şema geçmişte kurulduysa ve Manuel işlemler raporunda uyarı varsa temizlik süreci için [toksik backlink ve disavow](/blog/toksik-backlink-disavow) yazısına bakın. Uyarı yoksa ilk adım, yeni bu tür link üretimini durdurmaktır."
+    "Böyle bir şema geçmişte kurulduysa ve Manuel işlemler raporunda uyarı varsa temizlik süreci için [toksik backlink ve disavow](/toksik-backlink-disavow) yazısına bakın. Uyarı yoksa ilk adım, yeni bu tür link üretimini durdurmaktır."
    ]
   },
   {
@@ -118,14 +118,14 @@
       }
      }
     },
-    "Doğal profil en kolay, insanların sizden kendiliğinden bahsettiği işlerle oluşur. Bunun için [marka bahsi (brand mention)](/blog/marka-bahsi-brand-mention) çalışmalarının nasıl planlandığını ayrıca anlattım."
+    "Doğal profil en kolay, insanların sizden kendiliğinden bahsettiği işlerle oluşur. Bunun için [marka bahsi (brand mention)](/marka-bahsi-brand-mention) çalışmalarının nasıl planlandığını ayrıca anlattım."
    ]
   },
   {
    "baslik": "Dış link ve iç link anchor'ı arasındaki fark",
    "paragraflar": [
     "Dış linklerde anchor'ı link veren site belirler; sizin rolünüz en fazla bir öneride bulunmaktır. İç linklerde ise kontrol tamamen sizde ve burada açıklayıcı, anahtar kelime içeren anchor kullanmak Google'ın kendi önerisidir.",
-    "Yani dış linkte kaçınmanız gereken “her yerde aynı ticari ifade” deseni, iç linkte bir sorun değildir; yine de aynı sayfaya hep aynı metinle değil, bağlama göre değişen açıklayıcı ifadelerle link vermek kullanıcı için daha okunur. Yetim sayfalar, derinlik ve menü linkleri gibi konuları [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı ele aldım. Hangi sayfanın hangi ifadeyi hedeflediğini belirlemek için [anahtar kelime araştırması rehberi](/rehber/anahtar-kelime-arastirmasi) temel alınmalı."
+    "Yani dış linkte kaçınmanız gereken “her yerde aynı ticari ifade” deseni, iç linkte bir sorun değildir; yine de aynı sayfaya hep aynı metinle değil, bağlama göre değişen açıklayıcı ifadelerle link vermek kullanıcı için daha okunur. Yetim sayfalar, derinlik ve menü linkleri gibi konuları [iç linkleme stratejisi](/ic-linkleme) yazısında ayrıntılı ele aldım. Hangi sayfanın hangi ifadeyi hedeflediğini belirlemek için [anahtar kelime araştırması rehberi](/anahtar-kelime-arastirmasi) temel alınmalı."
    ]
   },
   {
@@ -157,7 +157,7 @@
     "Denetimden sonra yapılacaklar genellikle linklerle değil, içerikle ilgilidir:",
     {
      "liste": [
-      "Link alacak değerde rehber, araç ve veri sayfaları üretin; bunun için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) iyi bir çerçeve sunar.",
+      "Link alacak değerde rehber, araç ve veri sayfaları üretin; bunun için [içerik stratejisi rehberi](/icerik-stratejisi) iyi bir çerçeve sunar.",
       "PR ve iş birliklerinde anchor dayatmayın; marka adı ya da URL ile link istemek yeterlidir.",
       "Sponsorlu içeriklerde rel=\"sponsored\" işaretlemesini sözleşmeye yazın.",
       "Anchor dağılımını üç ayda bir gözden geçirin; ani bir tam eşleşme artışı varsa kaynağını araştırın."
@@ -172,7 +172,7 @@
    "baslik": null,
    "paragraflar": [
     "Anchor text is the visible, clickable text of a link, and it tells both users and Google what the target page is about. That is exactly why “put the money keyword in the anchor” was overused for years.",
-    "This article covers anchor types, why over-optimization is risky, what Google's link spam policy says, and how external and internal links differ. I cover link acquisition as a whole in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
+    "This article covers anchor types, why over-optimization is risky, what Google's link spam policy says, and how external and internal links differ. I cover link acquisition as a whole in the [backlink and digital PR guide](/en/backlink-dijital-pr).",
     {
      "alinti": "Short answer: In a natural link profile, most anchors are brand names, URLs and descriptive phrases that fit the context, and the linking sites choose them, not you. Google's spam policies list links with optimized anchor text in articles, guest posts or press releases distributed on other sites as link spam. For internal links, descriptive anchors are good practice."
     }
@@ -244,7 +244,7 @@
       "metin": "Buying a sponsored article and inserting an anchor like “best hair transplant istanbul” breaks both the paid link and the optimized anchor rules. Paid or sponsored links should carry rel=\"sponsored\" or rel=\"nofollow\"."
      }
     },
-    "If such a scheme was built in the past and the Manual actions report shows a warning, see [toxic backlinks and disavow](/en/blog/toksik-backlink-disavow) for the clean-up. If there is no warning, the first step is to stop building these links."
+    "If such a scheme was built in the past and the Manual actions report shows a warning, see [toxic backlinks and disavow](/en/toksik-backlink-disavow) for the clean-up. If there is no warning, the first step is to stop building these links."
    ]
   },
   {
@@ -275,14 +275,14 @@
       }
      }
     },
-    "A natural profile forms most easily from work people mention on their own. I explain how to plan that in the [brand mention](/en/blog/marka-bahsi-brand-mention) article."
+    "A natural profile forms most easily from work people mention on their own. I explain how to plan that in the [brand mention](/en/marka-bahsi-brand-mention) article."
    ]
   },
   {
    "baslik": "External vs internal link anchors",
    "paragraflar": [
     "With external links, the linking site chooses the anchor; at most you can suggest one. With internal links you are fully in control, and descriptive, keyword-bearing anchors are what Google itself recommends.",
-    "So the “same commercial phrase everywhere” pattern you should avoid externally is not a problem internally, although varying descriptive phrases by context reads better for users. I cover orphan pages, depth and menu links in the [internal linking strategy](/en/blog/ic-linkleme) article. To decide which page targets which phrase, start from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+    "So the “same commercial phrase everywhere” pattern you should avoid externally is not a problem internally, although varying descriptive phrases by context reads better for users. I cover orphan pages, depth and menu links in the [internal linking strategy](/en/ic-linkleme) article. To decide which page targets which phrase, start from the [keyword research guide](/en/anahtar-kelime-arastirmasi)."
    ]
   },
   {
@@ -314,7 +314,7 @@
     "What follows an audit is usually about content, not links:",
     {
      "liste": [
-      "Create guides, tools and data pages worth linking to; the [content strategy guide](/en/guides/icerik-stratejisi) offers a good framework.",
+      "Create guides, tools and data pages worth linking to; the [content strategy guide](/en/icerik-stratejisi) offers a good framework.",
       "Do not dictate anchors in PR and partnerships; asking for a brand or URL link is enough.",
       "Write rel=\"sponsored\" into contracts for sponsored content.",
       "Review the anchor mix quarterly and investigate any sudden jump in exact-match anchors."

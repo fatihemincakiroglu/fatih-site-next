@@ -33,7 +33,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'Useful resources, free tools and comprehensive guides for SEO and digital marketing. Discover content designed to support your organic growth journey.' : 'SEO ve dijital pazarlama için faydalı kaynaklar, ücretsiz araçlar ve kapsamlı rehberler. Organik büyüme yolculuğunuzda size destek olacak içerikleri keşfedin.'} />
+        <meta name="description" content={isEn ? 'Useful resources, free tools and comprehensive guides for SEO and digital marketing. Discover content designed to support your organic growth journey.' : 'SEO ve dijital pazarlama için faydalı kaynaklar, ücretsiz araçlar ve rehberler bir arada. Organik büyümenizi destekleyecek içerikleri keşfedin.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/resources' : 'https://fatihemincakiroglu.com/kaynaklar'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

@@ -4,7 +4,7 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { FORMATLAR, satirlariOku, analizEt, uret } from '../../lib/yonlendirme-uretici'
 
 // 301 yönlendirme oluşturucu — tamamen tarayıcıda çalışır.
-// TR: /araclar/yonlendirme-olusturucu   EN: /en/tools/redirect-generator
+// TR: /yonlendirme-olusturucu   EN: /en/redirect-generator
 
 const ORNEK = `/eski-hakkimizda\t/hakkimda
 /urun.php?id=12\t/urunler/mavi-gomlek
@@ -52,9 +52,9 @@ export default function YonlendirmeOlusturucu(props) {
 
   const icerik = isEn ? {
     baslik: '301 Redirect Generator',
-    metaBaslik: '301 Redirect Generator: htaccess, Nginx, Vercel',
-    metaDesc: 'Paste old and new URLs to generate 301 redirect rules for Apache .htaccess, Nginx, Vercel, Next.js and Netlify. Detects chains, loops and duplicates.',
-    giris: 'Paste your old and new URLs, pick your server, and copy ready-to-use 301 rules. The tool flags duplicates, chains and loops before they reach production. For the full process, see the [site migration SEO guide](/en/guides/site-tasima-seo).',
+    metaBaslik: '301 Redirect Generator | Free SEO Tool',
+    metaDesc: 'Paste old and new URLs to get 301 redirect rules for Apache .htaccess, Nginx, Vercel, Next.js and Netlify. Chains, loops and duplicates are flagged.',
+    giris: 'Paste your old and new URLs, pick your server, and copy ready-to-use 301 rules. The tool flags duplicates, chains and loops before they reach production. For the full process, see the [site migration SEO guide](/en/site-tasima-seo).',
     adimlar: [
       'Put one redirect per line: old URL first, new URL second. Copying two columns from Excel or Google Sheets works as-is.',
       'Choose your server or platform. If you are unsure, ask your developer or hosting provider.',
@@ -69,9 +69,9 @@ export default function YonlendirmeOlusturucu(props) {
     ],
   } : {
     baslik: '301 Yönlendirme Oluşturucu',
-    metaBaslik: '301 Yönlendirme Oluşturucu: htaccess, Nginx, Vercel',
-    metaDesc: 'Eski ve yeni URL listesini yapıştırın; Apache .htaccess, Nginx, Vercel, Next.js ve Netlify için 301 kuralları üretin. Zincir, döngü ve tekrarları yakalar.',
-    giris: 'Eski ve yeni adresleri yapıştırın, sunucunuzu seçin ve kullanıma hazır 301 kurallarını kopyalayın. Araç tekrarları, zincirleri ve döngüleri canlıya çıkmadan yakalar. Sürecin tamamı için [site taşıma SEO rehberine](/rehber/site-tasima-seo) bakın.',
+    metaBaslik: '301 Yönlendirme Oluşturucu | Ücretsiz SEO Aracı',
+    metaDesc: 'URL listenizi yapıştırın, Apache .htaccess, Nginx, Vercel, Next.js ve Netlify için 301 kuralları üretin. Zincir, döngü ve tekrarlar işaretlenir.',
+    giris: 'Eski ve yeni adresleri yapıştırın, sunucunuzu seçin ve kullanıma hazır 301 kurallarını kopyalayın. Araç tekrarları, zincirleri ve döngüleri canlıya çıkmadan yakalar. Sürecin tamamı için [site taşıma SEO rehberine](/site-tasima-seo) bakın.',
     adimlar: [
       'Her satıra bir yönlendirme yazın: önce eski, sonra yeni adres. Excel veya Google E-Tablolar\'dan iki sütunu kopyalayıp yapıştırmanız yeterli.',
       'Sunucunuzu veya platformunuzu seçin. Emin değilseniz geliştiricinize ya da hosting firmanıza sorun.',
@@ -87,7 +87,7 @@ export default function YonlendirmeOlusturucu(props) {
   }
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/yonlendirme-olusturucu" yolEn="/en/tools/redirect-generator"
+    <AracSayfa isEn={isEn} yol="/yonlendirme-olusturucu" yolEn="/en/redirect-generator"
       baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc} giris={icerik.giris}
       adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['site-tasima-seo', 'teknik-seo', 'seo-raporlama']}>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', alignItems: 'start' }}>

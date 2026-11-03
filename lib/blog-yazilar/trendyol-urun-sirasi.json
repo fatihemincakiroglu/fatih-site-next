@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Trendyol'da Ürün Görünürlüğü: Ürün Sayfası Optimizasyonu",
  "baslik_en": "Product Visibility on Trendyol: Optimising Your Product Pages",
- "meta_baslik_tr": "Trendyol'da Ürün Görünürlüğü: Ürün Sayfası Optimizasyonu",
- "meta_baslik_en": "Trendyol Product Visibility: Product Page Optimisation",
- "meta_desc_tr": "Trendyol ürün sayfası optimizasyonu: başlık, görsel kuralları, kategori ve özellik alanları, açıklama, yorumlar ve müşteri soruları için kontrol listesi.",
- "meta_desc_en": "Trendyol product page optimisation: titles, image rules, category and attribute fields, descriptions, reviews and customer questions, with a checklist.",
+ "meta_baslik_tr": "Trendyol Ürün Sayfası Optimizasyonu",
+ "meta_baslik_en": "Trendyol Product Page Optimisation",
+ "meta_desc_tr": "Trendyol'da ürün görünürlüğü için başlık, görsel kuralları, kategori ve özellik alanları, açıklama, yorum ve müşteri soruları için kontrol listesi.",
+ "meta_desc_en": "Improve Trendyol product visibility with a checklist for titles, images, category and attribute fields, descriptions, reviews and customer questions.",
  "ozet_tr": "Trendyol'da başlık, görsel, özellik alanları ve müşteri sorularıyla ürün sayfasını eksiksiz hale getirmenin yolları.",
  "ozet_en": "How to complete your Trendyol product pages: titles, images, attribute fields and customer questions.",
  "bolumler_tr": [
@@ -32,7 +32,7 @@
       "metin": "Bu yazıdaki teknik sınırlar Ekim 2026 itibarıyla Trendyol'un entegrasyon dokümanından alınmıştır. Pazaryeri kuralları platformun kendi kararıdır ve değişebilir; satıcı panelinizdeki ve Trendyol Akademi'deki güncel kuralları esas alın."
      }
     },
-    "Trendyol'da satış yapmakla kendi sitenizi büyütmek arasındaki kanal kararı ayrı bir konu; onu [Trendyol mağazası mı, kendi site mi](/blog/trendyol-magazasi-mi-kendi-site-mi) yazısında ele aldım. Burada odak, Trendyol içindeki ürün sayfası."
+    "Trendyol'da satış yapmakla kendi sitenizi büyütmek arasındaki kanal kararı ayrı bir konu; onu [Trendyol mağazası mı, kendi site mi](/trendyol-magazasi-mi-kendi-site-mi) yazısında ele aldım. Burada odak, Trendyol içindeki ürün sayfası."
    ]
   },
   {
@@ -61,7 +61,7 @@
       }
      }
     },
-    "Hangi ifadelerin kullanıldığını bulmak için Trendyol arama kutusunun önerilerine, rakip başlıklarına ve kendi müşteri sorularınıza bakın. Kelime araştırmasının genel yöntemi [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi) anlatılıyor."
+    "Hangi ifadelerin kullanıldığını bulmak için Trendyol arama kutusunun önerilerine, rakip başlıklarına ve kendi müşteri sorularınıza bakın. Kelime araştırmasının genel yöntemi [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) anlatılıyor."
    ]
   },
   {
@@ -132,7 +132,7 @@
    "baslik": "Ürün açıklaması: pazaryerinde ne yazılmalı?",
    "paragraflar": [
     "Dokümana göre ürün açıklaması HTML biçiminde ve oldukça uzun olabilir. Ama uzunluk değil, cevaplanan soru önemlidir. Açıklamaya ölçü ve kalıp bilgisi, malzeme, kullanım ve bakım talimatı, paket içeriği ve uyumluluk bilgisini yazın.",
-    "Üretici metnini olduğu gibi kopyalamak, aynı ürünü satan diğer satıcılardan sizi ayırmaz. Müşteri sorularında tekrar eden konuları açıklamaya taşıyın. Şablon ve örnekler için [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısına bakabilirsiniz; içeriğin hangi soruya cevap vereceğini belirlemek için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) de işe yarar."
+    "Üretici metnini olduğu gibi kopyalamak, aynı ürünü satan diğer satıcılardan sizi ayırmaz. Müşteri sorularında tekrar eden konuları açıklamaya taşıyın. Şablon ve örnekler için [ürün açıklaması ve kategori metni yazımı](/e-ticaret-urun-aciklamasi) yazısına bakabilirsiniz; içeriğin hangi soruya cevap vereceğini belirlemek için [içerik stratejisi rehberi](/icerik-stratejisi) de işe yarar."
    ]
   },
   {
@@ -180,7 +180,7 @@
       "Bekleyen müşteri sorusu yok."
      ]
     },
-    "Kasım kampanyalarına hazırlanıyorsanız kendi sitenizdeki kampanya sayfası için [Black Friday SEO stratejisi](/blog/black-friday-seo) yazısına da göz atın. Pazaryeri ile kendi sitenizi birlikte büyütmek için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfaları iyi bir başlangıç; ürün metinleri için [içerik hizmetini](/icerik) inceleyebilir ya da [ön görüşme planlayabilirsiniz](/randevu)."
+    "Kasım kampanyalarına hazırlanıyorsanız kendi sitenizdeki kampanya sayfası için [Black Friday SEO stratejisi](/black-friday-seo) yazısına da göz atın. Pazaryeri ile kendi sitenizi birlikte büyütmek için [e-ticaret SEO rehberi](/e-ticaret-seo) ve [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) sayfaları iyi bir başlangıç; ürün metinleri için [içerik hizmetini](/icerik) inceleyebilir ya da [ön görüşme planlayabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -203,7 +203,7 @@
   },
   {
    "s": "Hepsiburada için de aynı içerik kullanılabilir mi?",
-   "c": "Temel ürün bilgisi aynı olabilir, ama her pazaryerinin alan yapısı ve kuralları farklıdır. Ayrıntılar için [Hepsiburada ürün sayfası](/blog/hepsiburada-urun-sayfasi) yazısına bakabilirsiniz."
+   "c": "Temel ürün bilgisi aynı olabilir, ama her pazaryerinin alan yapısı ve kuralları farklıdır. Ayrıntılar için [Hepsiburada ürün sayfası](/hepsiburada-urun-sayfasi) yazısına bakabilirsiniz."
   },
   {
    "s": "Mevcut ürünlerin başlığını değiştirmek risk taşır mı?",
@@ -232,7 +232,7 @@
       "metin": "The technical limits in this post come from Trendyol's integration documentation as of October 2026. Marketplace rules are the platform's own decision and can change; treat the current rules in your seller panel and Trendyol Academy as the reference."
      }
     },
-    "Whether to sell on Trendyol or grow your own site is a separate decision, covered in [Trendyol store or your own site](/en/blog/trendyol-magazasi-mi-kendi-site-mi). The focus here is the product page inside Trendyol."
+    "Whether to sell on Trendyol or grow your own site is a separate decision, covered in [Trendyol store or your own site](/en/trendyol-magazasi-mi-kendi-site-mi). The focus here is the product page inside Trendyol."
    ]
   },
   {
@@ -261,7 +261,7 @@
       }
      }
     },
-    "To find which phrases are used, look at Trendyol search suggestions, competitor titles and your own customer questions. The general method is in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+    "To find which phrases are used, look at Trendyol search suggestions, competitor titles and your own customer questions. The general method is in the [keyword research guide](/en/anahtar-kelime-arastirmasi)."
    ]
   },
   {
@@ -332,7 +332,7 @@
    "baslik": "Product descriptions: what to write on a marketplace",
    "paragraflar": [
     "According to the docs, descriptions can be HTML and fairly long. But the question answered matters more than length. Include size and fit, material, use and care instructions, package contents and compatibility.",
-    "Copying manufacturer text unchanged does not set you apart from other sellers of the same product. Move recurring customer questions into the description. For a template and examples see [how to write product descriptions and category copy](/en/blog/e-ticaret-urun-aciklamasi); the [content strategy guide](/en/guides/icerik-stratejisi) helps decide which question the copy should answer."
+    "Copying manufacturer text unchanged does not set you apart from other sellers of the same product. Move recurring customer questions into the description. For a template and examples see [how to write product descriptions and category copy](/en/e-ticaret-urun-aciklamasi); the [content strategy guide](/en/icerik-stratejisi) helps decide which question the copy should answer."
    ]
   },
   {
@@ -380,7 +380,7 @@
       "No pending customer questions."
      ]
     },
-    "If you are preparing for November sales, see the [Black Friday SEO strategy](/en/blog/black-friday-seo) for your own site's sale page. To grow the marketplace and your own site together, the [ecommerce SEO guide](/en/guides/e-ticaret-seo) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) are good starting points; for product copy, see [content strategy services](/en/content-strategy) or [book an intro call](/en/book-a-call)."
+    "If you are preparing for November sales, see the [Black Friday SEO strategy](/en/black-friday-seo) for your own site's sale page. To grow the marketplace and your own site together, the [ecommerce SEO guide](/en/e-ticaret-seo) and [ecommerce SEO consulting](/en/ecommerce-seo-consulting) are good starting points; for product copy, see [content strategy services](/en/content-strategy) or [book an intro call](/en/book-a-call)."
    ]
   }
  ],
@@ -403,7 +403,7 @@
   },
   {
    "s": "Can I use the same content for Hepsiburada?",
-   "c": "Core product information can be the same, but each marketplace has different fields and rules. See the [Hepsiburada product page](/en/blog/hepsiburada-urun-sayfasi) post for details."
+   "c": "Core product information can be the same, but each marketplace has different fields and rules. See the [Hepsiburada product page](/en/hepsiburada-urun-sayfasi) post for details."
   },
   {
    "s": "Is it risky to change titles on existing products?",

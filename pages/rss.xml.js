@@ -29,7 +29,7 @@ function buildFeed() {
   const now = (enYeni ? new Date(`${enYeni}T09:00:00+03:00`) : new Date()).toUTCString()
 
   const items = sirali.map(y => {
-    const url = `${BASE}/blog/${y.slug}`
+    const url = `${BASE}/${y.slug}`
     const baslik = y.tr?.baslik || y.slug
     const ozet = y.tr?.ozet || ''
     // Yayın tarihi: lib/blog-meta.js. Tarihi olmayan yazıya bugünü

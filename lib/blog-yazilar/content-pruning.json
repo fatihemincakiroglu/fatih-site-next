@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Content Pruning ve İçerik Güncelleme: Zayıf Sayfaları Silmek mi, Birleştirmek mi?",
  "baslik_en": "Content Pruning and Content Updates: Delete or Merge Weak Pages?",
- "meta_baslik_tr": "Content Pruning: Zayıf Sayfayı Sil mi, Birleştir mi?",
- "meta_baslik_en": "Content Pruning: Should You Delete or Merge Weak Pages?",
- "meta_desc_tr": "Content pruning nasıl yapılır? Search Console verisiyle güncelle, birleştir, 301, noindex ya da sil kararı; karar ağacı ve tarih değiştirme tuzağı.",
- "meta_desc_en": "How to prune content with Search Console data: when to update, merge, redirect, noindex or delete a page, a decision tree, and the date-change trap to avoid.",
+ "meta_baslik_tr": "Content Pruning ile Zayıf Sayfaları Yönetmek",
+ "meta_baslik_en": "Content Pruning to Fix Weak Pages",
+ "meta_desc_tr": "Search Console verisiyle zayıf sayfaları güncelleme, birleştirme, 301, noindex ya da silme kararını verin. Karar ağacı ve tarih tuzağı dahil.",
+ "meta_desc_en": "Use Search Console data to decide whether to update, merge, redirect, noindex or delete a page, with a decision tree and the date-change trap.",
  "ozet_tr": "Zayıf sayfalar için veriye dayalı karar ağacı: güncelle, birleştir, 301, noindex ya da sil.",
  "ozet_en": "A data-driven decision tree for weak pages: update, merge, redirect, noindex or delete.",
  "bolumler_tr": [
@@ -24,7 +24,7 @@
   {
    "baslik": "Content pruning nedir, hangi sitelere gerekir?",
    "paragraflar": [
-    "Budama özellikle şu durumlarda gündeme gelir: Yüzlerce eski blog yazısı birikmişse, aynı konuda birkaç sayfa birbirinin sıralamasını bölüyorsa ya da bir [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yaşanmış ve kalite gözden geçirmesi gerekiyorsa.",
+    "Budama özellikle şu durumlarda gündeme gelir: Yüzlerce eski blog yazısı birikmişse, aynı konuda birkaç sayfa birbirinin sıralamasını bölüyorsa ya da bir [çekirdek güncelleme sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yaşanmış ve kalite gözden geçirmesi gerekiyorsa.",
     "Amaç sayfa sayısını azaltmak değil, sitenin her sayfasının bir işe yaraması. Google'ın yardımcı içerik dokümanı, siteyi taze göstermek amacıyla çok sayıda eski içeriği kaldırmanın sıralamalara yardımcı olmayacağını açıkça söylüyor. Budama kullanıcı ve kalite içindir; tazelik hilesi değildir."
    ]
   },
@@ -68,7 +68,7 @@
       ]
      }
     },
-    "Bu verileri tek bir envanterde toplamak ve dönem karşılaştırması yapmak için [SEO raporlama rehberindeki](/rehber/seo-raporlama) yapıyı kullanabilirsiniz. Dizine eklenmeyen sayfaların listesi de iyi bir başlangıç noktası; [tarandı – şu anda dizine eklenmemiş](/blog/tarandi-dizine-eklenmemis) sayfaları çoğu zaman budama adaylarıdır."
+    "Bu verileri tek bir envanterde toplamak ve dönem karşılaştırması yapmak için [SEO raporlama rehberindeki](/seo-raporlama) yapıyı kullanabilirsiniz. Dizine eklenmeyen sayfaların listesi de iyi bir başlangıç noktası; [tarandı – şu anda dizine eklenmemiş](/tarandi-dizine-eklenmemis) sayfaları çoğu zaman budama adaylarıdır."
    ]
   },
   {
@@ -102,7 +102,7 @@
       ]
      }
     },
-    "Karar ağacı, sitenin konu kümeleriyle birlikte düşünülmeli. Bir kümede eksik kalan alt soruları doldurmak, zayıf sayfayı silmekten daha değerli olabilir; bunu [topical authority ve pillar-cluster modeli](/blog/topical-authority) yazısında anlattım."
+    "Karar ağacı, sitenin konu kümeleriyle birlikte düşünülmeli. Bir kümede eksik kalan alt soruları doldurmak, zayıf sayfayı silmekten daha değerli olabilir; bunu [topical authority ve pillar-cluster modeli](/topical-authority) yazısında anlattım."
    ]
   },
   {
@@ -118,7 +118,7 @@
       "Site haritasından eski URL'yi çıkarın."
      ]
     },
-    "Yönlendirme türlerinin farkını [301 ve 302 yönlendirme](/blog/301-302-yonlendirme) yazısında, toplu kuralları hazırlamayı ise [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) aracında bulabilirsiniz. Yüzlerce URL'nin değiştiği büyük yapı değişikliklerinde [site taşıma SEO rehberindeki](/rehber/site-tasima-seo) eşleştirme yöntemi daha güvenli.",
+    "Yönlendirme türlerinin farkını [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısında, toplu kuralları hazırlamayı ise [yönlendirme oluşturucu](/yonlendirme-olusturucu) aracında bulabilirsiniz. Yüzlerce URL'nin değiştiği büyük yapı değişikliklerinde [site taşıma SEO rehberindeki](/site-tasima-seo) eşleştirme yöntemi daha güvenli.",
     "Sahada sık gördüğüm hata, kaldırılan onlarca sayfanın topluca ana sayfaya yönlendirilmesi. Kullanıcı aradığını bulamaz; Search Console'da bu tür URL'lerin soft 404 olarak raporlandığını da sık görüyorum."
    ]
   },
@@ -163,7 +163,7 @@
      }
     },
     "Gerçek bir güncelleme; eskimiş bilgiyi düzeltmek, yeni soruları cevaplamak, örnekleri ve ekran görüntülerini yenilemek, kaynakları kontrol etmek demek. Bunlar yapıldığında güncelleme tarihini göstermek okuyucuya bilgi verir. Yalnızca bir cümle değiştirip tarihi bugüne çekmek ise okuyucuyu yanıltır.",
-    "Yayın ve güncelleme ritminin içerik takvimine nasıl oturtulacağını [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım."
+    "Yayın ve güncelleme ritminin içerik takvimine nasıl oturtulacağını [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım."
    ]
   },
   {
@@ -223,7 +223,7 @@
   {
    "baslik": "What is content pruning and which sites need it?",
    "paragraflar": [
-    "Pruning usually comes up when hundreds of old posts have piled up, when several pages on one topic split each other's rankings, or after a [traffic drop following a core update](/en/blog/cekirdek-guncelleme-trafik-dususu) that calls for a quality review.",
+    "Pruning usually comes up when hundreds of old posts have piled up, when several pages on one topic split each other's rankings, or after a [traffic drop following a core update](/en/cekirdek-guncelleme-trafik-dususu) that calls for a quality review.",
     "The goal is not fewer pages but every page earning its place. Google's helpful content documentation states that removing lots of older content to make a site seem fresh will not help rankings. Pruning is for users and quality, not a freshness trick."
    ]
   },
@@ -267,7 +267,7 @@
       ]
      }
     },
-    "To collect this in one inventory with period comparisons, use the structure in the [SEO reporting guide](/en/guides/seo-raporlama). Non-indexed pages are a good starting point too; [crawled but not indexed](/en/blog/tarandi-dizine-eklenmemis) pages are often pruning candidates."
+    "To collect this in one inventory with period comparisons, use the structure in the [SEO reporting guide](/en/seo-raporlama). Non-indexed pages are a good starting point too; [crawled but not indexed](/en/tarandi-dizine-eklenmemis) pages are often pruning candidates."
    ]
   },
   {
@@ -301,7 +301,7 @@
       ]
      }
     },
-    "Think about the tree alongside your topic clusters. Filling a missing sub-question in a cluster can be worth more than deleting a weak page, as covered in [topical authority and the pillar-cluster model](/en/blog/topical-authority)."
+    "Think about the tree alongside your topic clusters. Filling a missing sub-question in a cluster can be worth more than deleting a weak page, as covered in [topical authority and the pillar-cluster model](/en/topical-authority)."
    ]
   },
   {
@@ -317,7 +317,7 @@
       "Remove the old URL from the sitemap."
      ]
     },
-    "The difference between redirect types is explained in [301 vs 302 redirects](/en/blog/301-302-yonlendirme), and you can draft bulk rules with the [redirect generator](/en/tools/redirect-generator). For large restructures where hundreds of URLs change, the mapping method in the [site migration SEO guide](/en/guides/site-tasima-seo) is safer.",
+    "The difference between redirect types is explained in [301 vs 302 redirects](/en/301-302-yonlendirme), and you can draft bulk rules with the [redirect generator](/en/redirect-generator). For large restructures where hundreds of URLs change, the mapping method in the [site migration SEO guide](/en/site-tasima-seo) is safer.",
     "A mistake I often see is redirecting dozens of removed pages to the homepage. Users do not find what they wanted, and I regularly see such URLs reported as soft 404s in Search Console."
    ]
   },
@@ -362,7 +362,7 @@
      }
     },
     "A real update means fixing outdated facts, answering new questions, refreshing examples and screenshots, and checking sources. When that work is done, showing an updated date informs the reader. Changing one sentence and moving the date to today misleads them.",
-    "How to fit publishing and update cycles into a content calendar is covered in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "How to fit publishing and update cycles into a content calendar is covered in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {

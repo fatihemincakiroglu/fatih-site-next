@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Black Friday ve Kasım İndirimleri İçin SEO: Sezonluk Sayfa Stratejisi",
  "baslik_en": "SEO for Black Friday and November Sales: A Seasonal Page Strategy",
- "meta_baslik_tr": "Black Friday SEO: Kasım İndirimleri İçin Sayfa Stratejisi",
- "meta_baslik_en": "Black Friday SEO: A Seasonal Page Strategy",
- "meta_desc_tr": "Black Friday ve Kasım indirimleri için SEO: yılsız kalıcı URL, hazırlık takvimi, Efsane Cuma gibi yerel terimler ve kampanya sonrası sayfaya ne olmalı.",
- "meta_desc_en": "Black Friday and November sale SEO: a permanent URL without the year, a prep timeline, local Turkish terms and what to do with the page after the sale.",
+ "meta_baslik_tr": "Black Friday SEO ve İndirim Sayfaları",
+ "meta_baslik_en": "Black Friday SEO and Seasonal Sale Pages",
+ "meta_desc_tr": "Black Friday için yılsız kalıcı URL, hazırlık takvimi, Efsane Cuma gibi yerel terimler ve kampanya sonrası sayfa yönetimini önceden planlayın.",
+ "meta_desc_en": "Plan Black Friday SEO with a permanent URL without the year, a prep timeline, local Turkish terms and a clear plan for the page after the sale.",
  "ozet_tr": "Kasım indirim sayfası için kalıcı URL, hazırlık takvimi, yerel terimler ve kampanya sonrası yapılacaklar.",
  "ozet_en": "A permanent URL, prep timeline, local terms and post-sale steps for your November sale page.",
  "bolumler_tr": [
@@ -49,7 +49,7 @@
       }
      }
     },
-    "Geçmiş yıllarda yıllı adresler açtıysanız, en güçlü olanı kalıcı adrese 301 ile yönlendirin. Yönlendirme türleri ve zincir riski için [301 ve 302 yönlendirme farkı](/blog/301-302-yonlendirme) yazısına bakabilirsiniz. Başlıkta ve metinde yıl kullanmak serbesttir; yıl yalnızca URL'de olmamalı."
+    "Geçmiş yıllarda yıllı adresler açtıysanız, en güçlü olanı kalıcı adrese 301 ile yönlendirin. Yönlendirme türleri ve zincir riski için [301 ve 302 yönlendirme farkı](/301-302-yonlendirme) yazısına bakabilirsiniz. Başlıkta ve metinde yıl kullanmak serbesttir; yıl yalnızca URL'de olmamalı."
    ]
   },
   {
@@ -97,7 +97,7 @@
       ]
      }
     },
-    "Her terim için ayrı sayfa açmak çoğu zaman gereksizdir; aynı niyete hizmet eden terimleri tek güçlü sayfada toplayın. Niyet farklıysa, örneğin 11.11 sizin için ayrı bir kampanyaysa, ayrı kalıcı sayfa düşünün. Terim seçimi için [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet gruplama yöntemi işe yarar."
+    "Her terim için ayrı sayfa açmak çoğu zaman gereksizdir; aynı niyete hizmet eden terimleri tek güçlü sayfada toplayın. Niyet farklıysa, örneğin 11.11 sizin için ayrı bir kampanyaysa, ayrı kalıcı sayfa düşünün. Terim seçimi için [içerik stratejisi rehberindeki](/icerik-stratejisi) niyet gruplama yöntemi işe yarar."
    ]
   },
   {
@@ -131,7 +131,7 @@
       ]
      }
     },
-    "Bu yazıyı ekim sonunda okuyorsanız geç değil: sayfayı hemen yayına alın ve iç linkleri bu hafta tamamlayın. Organik görünürlük kampanyaya yetişmezse, kısa dönem için ücretli reklamla nasıl dengeleneceğini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında anlattım."
+    "Bu yazıyı ekim sonunda okuyorsanız geç değil: sayfayı hemen yayına alın ve iç linkleri bu hafta tamamlayın. Organik görünürlük kampanyaya yetişmezse, kısa dönem için ücretli reklamla nasıl dengeleneceğini [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısında anlattım."
    ]
   },
   {
@@ -178,7 +178,7 @@
       "Kampanya kodu ve UTM parametreli adreslerin dizine girmesi: canonical ile ana adrese bağlayın."
      ]
     },
-    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile kontrol edebilirsiniz; hız tarafı için eşikler [Core Web Vitals yazısında](/blog/core-web-vitals-2025). Kategori ve ürün sayfası yapısının genel ilkeleri [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) anlatılıyor."
+    "Ürün yapısal verisini [schema oluşturucu](/schema-olusturucu) ile kontrol edebilirsiniz; hız tarafı için eşikler [Core Web Vitals yazısında](/core-web-vitals-2025). Kategori ve ürün sayfası yapısının genel ilkeleri [e-ticaret SEO rehberinde](/e-ticaret-seo) anlatılıyor."
    ]
   },
   {
@@ -192,7 +192,7 @@
       "metin": "Fırsat listesini kaldırın, \"Kampanya sona erdi\" bilgisini ekleyin, devam eden indirimlere ve gelecek kampanya dönemine yönlendirin. Bülten kaydı ya da hatırlatma formu sayfayı kampanya dışında da işlevsel tutar."
      }
     },
-    "Ertesi yıl aynı sayfayı yeniden doldurursunuz. Kampanya performansını Search Console'da bu adres için gösterim ve tıklama olarak yıl yıl karşılaştırmak da kolaylaşır. Sezonluk sayfaları içeren bir e-ticaret planı için [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) ve [performans ve büyüme hizmeti](/performans) sayfalarına göz atın, ya da gelecek sezon için [bir görüşme planlayın](/randevu)."
+    "Ertesi yıl aynı sayfayı yeniden doldurursunuz. Kampanya performansını Search Console'da bu adres için gösterim ve tıklama olarak yıl yıl karşılaştırmak da kolaylaşır. Sezonluk sayfaları içeren bir e-ticaret planı için [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) ve [performans ve büyüme hizmeti](/performans) sayfalarına göz atın, ya da gelecek sezon için [bir görüşme planlayın](/randevu)."
    ]
   }
  ],
@@ -261,7 +261,7 @@
       }
      }
     },
-    "If you created yearly URLs in the past, 301 the strongest one to the permanent URL. For redirect types and chain risk, see [301 vs 302 redirects](/en/blog/301-302-yonlendirme). Using the year in the title and copy is fine; it just should not be in the URL."
+    "If you created yearly URLs in the past, 301 the strongest one to the permanent URL. For redirect types and chain risk, see [301 vs 302 redirects](/en/301-302-yonlendirme). Using the year in the title and copy is fine; it just should not be in the URL."
    ]
   },
   {
@@ -309,7 +309,7 @@
       ]
      }
     },
-    "A separate page per term is usually unnecessary; group terms with the same intent on one strong page. If intent differs, for example if 11.11 is a separate campaign for you, consider a separate permanent page. The intent-grouping method in the [content strategy guide](/en/guides/icerik-stratejisi) helps here."
+    "A separate page per term is usually unnecessary; group terms with the same intent on one strong page. If intent differs, for example if 11.11 is a separate campaign for you, consider a separate permanent page. The intent-grouping method in the [content strategy guide](/en/icerik-stratejisi) helps here."
    ]
   },
   {
@@ -343,7 +343,7 @@
       ]
      }
     },
-    "If you are reading this in late October, it is not too late: publish the page now and finish internal links this week. If organic visibility will not be ready in time, I explain how to balance with paid ads short term in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi)."
+    "If you are reading this in late October, it is not too late: publish the page now and finish internal links this week. If organic visibility will not be ready in time, I explain how to balance with paid ads short term in [SEO or Google Ads](/en/seo-mu-google-ads-mi)."
    ]
   },
   {
@@ -390,7 +390,7 @@
       "Coupon and UTM parameter URLs getting indexed: canonicalise them to the main URL."
      ]
     },
-    "You can check product structured data with the [schema generator](/en/tools/schema-generator); speed thresholds are in the [Core Web Vitals post](/en/blog/core-web-vitals-2025). General principles for category and product pages are in the [ecommerce SEO guide](/en/guides/e-ticaret-seo)."
+    "You can check product structured data with the [schema generator](/en/schema-generator); speed thresholds are in the [Core Web Vitals post](/en/core-web-vitals-2025). General principles for category and product pages are in the [ecommerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
@@ -404,7 +404,7 @@
       "metin": "Remove the deal list, add a \"sale has ended\" note and point to ongoing discounts and the next sale period. A newsletter sign-up or reminder form keeps the page useful outside the sale."
      }
     },
-    "The next year you refill the same page. Year-over-year comparison in Search Console also becomes easy. For an ecommerce plan that includes seasonal pages, see [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting) and [performance and growth](/en/performance-growth), or [book a call](/en/book-a-call) ahead of next season."
+    "The next year you refill the same page. Year-over-year comparison in Search Console also becomes easy. For an ecommerce plan that includes seasonal pages, see [ecommerce SEO consulting](/en/ecommerce-seo-consulting) and [performance and growth](/en/performance-growth), or [book a call](/en/book-a-call) ahead of next season."
    ]
   }
  ],

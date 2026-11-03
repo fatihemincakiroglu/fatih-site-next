@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman \"Doorway\" Sayfaya Dönüşür?",
  "baslik_en": "Programmatic SEO: When It Works and When It Turns into Doorway Pages",
- "meta_baslik_tr": "Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman Doorway Olur?",
- "meta_baslik_en": "Programmatic SEO: When It Works, When It Becomes Doorway",
- "meta_desc_tr": "Programatik SEO nedir, hangi durumda değer üretir? Google'ın doorway ve ölçeklenmiş içerik spam politikaları, yayın öncesi kontrol listesi ve aşamalı yayın.",
- "meta_desc_en": "What programmatic SEO is and when it creates value: Google's doorway and scaled content abuse policies, a pre-launch checklist and a phased rollout plan.",
+ "meta_baslik_tr": "Programatik SEO Ne Zaman İşe Yarar",
+ "meta_baslik_en": "When Programmatic SEO Works, and When Not",
+ "meta_desc_tr": "Programatik SEO hangi durumda değer üretir, ne zaman doorway olur? Google spam politikaları, yayın öncesi kontrol listesi ve aşamalı yayın planı.",
+ "meta_desc_en": "When programmatic SEO creates value and when it turns into doorway pages, Google's spam policies, a pre-launch checklist and a phased rollout.",
  "ozet_tr": "Şablonla binlerce sayfa üretmek ne zaman değer katar, ne zaman spam politikasına takılır? Karar kriterleri ve kontrol listesi.",
  "ozet_en": "When does generating thousands of templated pages add value, and when does it hit spam policies? Criteria and a checklist.",
  "bolumler_tr": [
@@ -24,7 +24,7 @@
   {
    "baslik": "Programatik SEO nedir, nasıl çalışır?",
    "paragraflar": [
-    "Üç parçası var: tekrarlanan bir arama kalıbı (baş terim + değişken), her değişken için ayrı veri tutan bir kaynak (veritabanı, ürün akışı, envanter, API) ve bu veriyi okunur bir sayfaya çeviren şablon. Kalıbı bulmak için [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yöntemi iyi bir başlangıç; aynı niyetteki sorguları gruplayıp hangi değişkenin gerçekten farklı bir ihtiyaç doğurduğunu görürsünüz.",
+    "Üç parçası var: tekrarlanan bir arama kalıbı (baş terim + değişken), her değişken için ayrı veri tutan bir kaynak (veritabanı, ürün akışı, envanter, API) ve bu veriyi okunur bir sayfaya çeviren şablon. Kalıbı bulmak için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) kümeleme yöntemi iyi bir başlangıç; aynı niyetteki sorguları gruplayıp hangi değişkenin gerçekten farklı bir ihtiyaç doğurduğunu görürsünüz.",
     "Kritik soru şablon değil, veri: Her sayfa için başka hiçbir yerde toplu halde bulunmayan, o sayfaya özgü bilgi var mı? Yoksa şablon ne kadar iyi olursa olsun sayfalar birbirinin kopyası olur."
    ]
   },
@@ -32,7 +32,7 @@
    "baslik": "Google'ın doorway ve ölçeklenmiş içerik politikaları ne diyor?",
    "paragraflar": [
     "Google'ın spam politikaları dokümanına göre doorway kötüye kullanımı, belirli ve birbirine benzer arama sorgularında sıralanmak için site ya da sayfa oluşturulmasıdır. Verilen örnekler arasında kullanıcıları tek bir hedefe yönlendiren bölge ya da şehir odaklı sayfalar, ziyaretçiyi sitenin asıl yararlı bölümüne itmek için var olan sayfalar ve düzenli bir site yapısının önüne geçen neredeyse aynı sayfalar var.",
-    "Ölçeklenmiş içerik kötüye kullanımı ise çok sayıda sayfanın, esas amacı arama sıralamalarını manipüle etmek olacak şekilde üretilmesi. Burada üretim yöntemi belirleyici değil: Yapay zekâ, şablon, kazıma ya da insan emeği fark etmez; ölçüt kullanıcıya değer katılıp katılmadığı. Google'ın üretken yapay zekâ içeriğine dair rehberi de kullanıcıya değer katmadan çok sayıda sayfa üretmenin bu politikayı ihlal edebileceğini açıkça belirtiyor. Ayrıntıları [yapay zekâ ile üretilen içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ele alıyorum."
+    "Ölçeklenmiş içerik kötüye kullanımı ise çok sayıda sayfanın, esas amacı arama sıralamalarını manipüle etmek olacak şekilde üretilmesi. Burada üretim yöntemi belirleyici değil: Yapay zekâ, şablon, kazıma ya da insan emeği fark etmez; ölçüt kullanıcıya değer katılıp katılmadığı. Google'ın üretken yapay zekâ içeriğine dair rehberi de kullanıcıya değer katmadan çok sayıda sayfa üretmenin bu politikayı ihlal edebileceğini açıkça belirtiyor. Ayrıntıları [yapay zekâ ile üretilen içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ele alıyorum."
    ]
   },
   {
@@ -75,7 +75,7 @@
       ]
      }
     },
-    "En sık gördüğüm örnek, hizmet verilmeyen onlarca ilçe için açılan \"[ilçe] SEO hizmeti\" türü sayfalar. Yerel sayfaların doğru kurgusunu [yerel SEO rehberinde](/rehber/yerel-seo) anlattım: Her sayfanın o bölgeye özgü gerçek bilgisi olmalı."
+    "En sık gördüğüm örnek, hizmet verilmeyen onlarca ilçe için açılan \"[ilçe] SEO hizmeti\" türü sayfalar. Yerel sayfaların doğru kurgusunu [yerel SEO rehberinde](/yerel-seo) anlattım: Her sayfanın o bölgeye özgü gerçek bilgisi olmalı."
    ]
   },
   {
@@ -91,7 +91,7 @@
       "Otel, tur ve destinasyon sayfaları; oda tipi, konum, mesafe ve güncel uygunluk verisiyle."
      ]
     },
-    "Turizm ve konaklamada bu yapıyı sıkça kuruyoruz; [otel ve turizm SEO'su](/sektorler/otel-turizm-seo) sayfasında yaklaşımı anlattım. Ürün tarafında platformun şablon esnekliği belirleyici; [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) bu açıdan yardımcı olur."
+    "Turizm ve konaklamada bu yapıyı sıkça kuruyoruz; [otel ve turizm SEO'su](/otel-turizm-seo) sayfasında yaklaşımı anlattım. Ürün tarafında platformun şablon esnekliği belirleyici; [e-ticaret altyapılarının SEO karşılaştırması](/e-ticaret-altyapisi-seo-karsilastirma) bu açıdan yardımcı olur."
    ]
   },
   {
@@ -109,14 +109,14 @@
       "Rastgele seçilen 10 sayfayı bir uzmana gösterdiğinizde \"bu sayfa işime yarar\" der mi?"
      ]
     },
-    "Yapısal veri tarafında Product, LocalBusiness ya da Event gibi işaretlemeleri şablona bağlamak mantıklı; kuralları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilir, örnek kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilirsiniz."
+    "Yapısal veri tarafında Product, LocalBusiness ya da Event gibi işaretlemeleri şablona bağlamak mantıklı; kuralları [schema yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, örnek kodu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz."
    ]
   },
   {
    "baslik": "Aşamalı yayın ve indeksleme takibi",
    "paragraflar": [
     "Binlerce sayfayı tek seferde yayına almak yerine küçük bir partiyle başlayın; birkaç yüz sayfa, en güçlü veriye sahip kombinasyonlardan seçilmiş olsun. Search Console'da bu partinin dizine eklenme oranını, gösterimlerini ve tıklamalarını birkaç hafta izleyin.",
-    "Sayfaların önemli bir kısmı \"Tarandı – şu anda dizine eklenmemiş\" durumunda kalıyorsa Google size sayfaların yeterince farklı bulunmadığını söylüyor olabilir. Bu sinyali nasıl okuyacağınızı [\"Tarandı – şu anda dizine eklenmemiş\" hatasını çözme](/blog/tarandi-dizine-eklenmemis) yazısında anlattım. Bu durumda yeni parti açmak yerine şablonu ve veriyi güçlendirin.",
+    "Sayfaların önemli bir kısmı \"Tarandı – şu anda dizine eklenmemiş\" durumunda kalıyorsa Google size sayfaların yeterince farklı bulunmadığını söylüyor olabilir. Bu sinyali nasıl okuyacağınızı [\"Tarandı – şu anda dizine eklenmemiş\" hatasını çözme](/tarandi-dizine-eklenmemis) yazısında anlattım. Bu durumda yeni parti açmak yerine şablonu ve veriyi güçlendirin.",
     "Programatik bir projeyi veri modeli ve şablon kurgusundan başlayarak planlamak isterseniz [içerik stratejisi hizmeti](/icerik) ve [SEO uzmanı](/seo-uzmani) olarak teknik tarafı birlikte ele alabiliriz. Projenizi anlatmak için [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
    ]
   }
@@ -135,7 +135,7 @@
   {
    "baslik": "What is programmatic SEO and how does it work?",
    "paragraflar": [
-    "It has three parts: a repeating search pattern (head term plus variable), a source holding separate data for each variable (a database, product feed, inventory or API), and a template that turns this data into a readable page. To find the pattern, the clustering method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) is a good start; grouping queries with the same intent shows which variable truly creates a different need.",
+    "It has three parts: a repeating search pattern (head term plus variable), a source holding separate data for each variable (a database, product feed, inventory or API), and a template that turns this data into a readable page. To find the pattern, the clustering method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) is a good start; grouping queries with the same intent shows which variable truly creates a different need.",
     "The critical question is not the template but the data: is there information specific to each page that is not available in aggregate anywhere else? If not, the pages become copies of each other no matter how good the template is."
    ]
   },
@@ -143,7 +143,7 @@
    "baslik": "What do Google's doorway and scaled content policies say?",
    "paragraflar": [
     "According to Google's spam policies documentation, doorway abuse is when sites or pages are created to rank for specific, similar search queries. The examples include region- or city-targeted pages that funnel users to one destination, pages that exist only to push visitors into the useful part of a site, and near-identical pages that rank above a clear, browsable site structure.",
-    "Scaled content abuse is when many pages are generated for the primary purpose of manipulating search rankings. The production method is not what decides it: AI, templates, scraping or human effort all count; the test is whether the pages add value for users. Google's guidance on generative AI content also states plainly that generating many pages without adding value for users may violate this policy. I cover the details in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+    "Scaled content abuse is when many pages are generated for the primary purpose of manipulating search rankings. The production method is not what decides it: AI, templates, scraping or human effort all count; the test is whether the pages add value for users. Google's guidance on generative AI content also states plainly that generating many pages without adding value for users may violate this policy. I cover the details in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi)."
    ]
   },
   {
@@ -186,7 +186,7 @@
       ]
      }
     },
-    "The example I see most is \"[district] SEO services\" pages opened for dozens of districts the business does not actually serve. I explain how to build local pages properly in the [local SEO guide](/en/guides/yerel-seo): every page needs real information specific to that area."
+    "The example I see most is \"[district] SEO services\" pages opened for dozens of districts the business does not actually serve. I explain how to build local pages properly in the [local SEO guide](/en/yerel-seo): every page needs real information specific to that area."
    ]
   },
   {
@@ -202,7 +202,7 @@
       "Hotel, tour and destination pages with room types, location, distances and current availability."
      ]
     },
-    "We build this structure often in travel and hospitality; I describe the approach on the [hotel and tourism SEO](/en/industries/hotel-tourism-seo) page. On the product side, template flexibility of the platform is decisive, and the [ecommerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) helps with that."
+    "We build this structure often in travel and hospitality; I describe the approach on the [hotel and tourism SEO](/en/hotel-tourism-seo) page. On the product side, template flexibility of the platform is decisive, and the [ecommerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma) helps with that."
    ]
   },
   {
@@ -220,14 +220,14 @@
       "If you showed 10 random pages to an expert, would they say \"this page is useful to me\"?"
      ]
     },
-    "On the structured data side, it makes sense to bind markup such as Product, LocalBusiness or Event to the template; you can find the rules in the [schema structured data guide](/en/guides/schema-yapisal-veri) and prepare sample code with the [schema generator](/en/tools/schema-generator)."
+    "On the structured data side, it makes sense to bind markup such as Product, LocalBusiness or Event to the template; you can find the rules in the [schema structured data guide](/en/schema-yapisal-veri) and prepare sample code with the [schema generator](/en/schema-generator)."
    ]
   },
   {
    "baslik": "Phased rollout and indexing monitoring",
    "paragraflar": [
     "Instead of launching thousands of pages at once, start with a small batch: a few hundred pages chosen from the combinations with the strongest data. Track that batch's indexing rate, impressions and clicks in Search Console for a few weeks.",
-    "If a large share of the pages stays in \"Crawled – currently not indexed\", Google may be telling you the pages are not distinct enough. I explain how to read that signal in [fixing \"Crawled – currently not indexed\"](/en/blog/tarandi-dizine-eklenmemis). In that case, strengthen the template and the data rather than opening a new batch.",
+    "If a large share of the pages stays in \"Crawled – currently not indexed\", Google may be telling you the pages are not distinct enough. I explain how to read that signal in [fixing \"Crawled – currently not indexed\"](/en/tarandi-dizine-eklenmemis). In that case, strengthen the template and the data rather than opening a new batch.",
     "If you want to plan a programmatic project starting from the data model and template design, we can work through it together with [content strategy services](/en/content-strategy) and [SEO consulting](/en/seo-consulting) on the technical side. You can tell me about your project via the [contact page](/en/contact)."
    ]
   }

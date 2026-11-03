@@ -7,10 +7,10 @@
  "h1_en": "SEO Consulting for B2B Manufacturers and Industrial Companies",
  "alt_tr": "Satın almacıların ve mühendislerin aradığı teknik bilgiyi, yurt içi ve ihracat pazarlarında bulunur hâle getiriyorum.",
  "alt_en": "I make the technical information buyers and engineers search for easy to find, in your home market and your export markets.",
- "meta_baslik_tr": "B2B Üretici ve Sanayi SEO Danışmanlığı | Fatih Emin",
- "meta_baslik_en": "B2B Manufacturer SEO Consulting | Fatih Emin Çakıroğlu",
- "meta_desc_tr": "Üretici ve sanayi firmaları için SEO: teknik ürün sayfaları, uzun satın alma süreci, ihracat pazarları ve çok dilli site yapısı. Kapsam ve süreç burada.",
- "meta_desc_en": "SEO for manufacturers and industrial firms: technical product pages, long buying cycles, export markets and multilingual sites. See scope and process.",
+ "meta_baslik_tr": "B2B Üretici ve Sanayi SEO Danışmanlığı",
+ "meta_baslik_en": "B2B Manufacturer SEO Consulting",
+ "meta_desc_tr": "Üretici ve sanayi firmaları için SEO. Teknik ürün sayfaları, uzun satın alma süreci, ihracat pazarları ve çok dilli site için kapsamı inceleyin.",
+ "meta_desc_en": "SEO consulting for manufacturers and industrial firms. Technical product pages, long buying cycles, export markets and multilingual sites.",
  "ozet_tr": "Teknik ürün içeriği, ihracat ve çok dilli yapı ile üreticilerin doğru alıcıya organik aramada ulaşmasını sağlayan danışmanlık.",
  "ozet_en": "Consulting that helps manufacturers reach the right buyers through technical content, export markets and multilingual sites.",
  "hizmetler_tr": [
@@ -82,15 +82,15 @@
     {
      "alt": "Teknik arama talebinin çıkarılması"
     },
-    "Satın almacının kullandığı terimleri, malzeme ve standart adlarını, ürün kodlarını [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ile çıkarıyorum. B2B'de araçların gösterdiği hacim çoğu zaman sıfıra yakındır; bu yüzden satış ekibinizin sahada duyduğu soruları ve gelen teklif taleplerini de veri kaynağı olarak kullanıyoruz.",
+    "Satın almacının kullandığı terimleri, malzeme ve standart adlarını, ürün kodlarını [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) ile çıkarıyorum. B2B'de araçların gösterdiği hacim çoğu zaman sıfıra yakındır; bu yüzden satış ekibinizin sahada duyduğu soruları ve gelen teklif taleplerini de veri kaynağı olarak kullanıyoruz.",
     {
      "alt": "Teknik içerik ve uygulama sayfaları"
     },
-    "Ürün sayfalarına metin olarak teknik tablo, uygulama örnekleri ve sık sorulan teknik sorular eklenir. Hangi içeriğin hangi satın alma aşamasına hizmet ettiğini [içerik stratejisi](/rehber/icerik-stratejisi) çerçevesinde planlıyoruz; yazım desteği gerekiyorsa [içerik hizmeti](/icerik) devreye girer.",
+    "Ürün sayfalarına metin olarak teknik tablo, uygulama örnekleri ve sık sorulan teknik sorular eklenir. Hangi içeriğin hangi satın alma aşamasına hizmet ettiğini [içerik stratejisi](/icerik-stratejisi) çerçevesinde planlıyoruz; yazım desteği gerekiyorsa [içerik hizmeti](/icerik) devreye girer.",
     {
      "alt": "Yapısal veri ve varlık netliği"
     },
-    "Organization ve Product işaretlemesi ile firmanın kim olduğunu, ne ürettiğini ve nerede bulunduğunu makinelerin net anlamasını sağlıyoruz. Uygulama ayrıntıları için [schema ve yapısal veri rehberi](/rehber/schema-yapisal-veri) başlangıç noktasıdır."
+    "Organization ve Product işaretlemesi ile firmanın kim olduğunu, ne ürettiğini ve nerede bulunduğunu makinelerin net anlamasını sağlıyoruz. Uygulama ayrıntıları için [schema ve yapısal veri rehberi](/schema-yapisal-veri) başlangıç noktasıdır."
    ]
   },
   {
@@ -162,14 +162,14 @@
    "paragraflar": [
     "Sanayi alıcısı genellikle tek ziyarette karar vermez. İlk aramada bir çözüm arar, sonraki ziyaretlerde teknik föy, sertifika ve referans sektörlere bakar, en sonunda teklif ister. Bu yüzden sitenin her satın alma aşamasına bir cevabı olmalı: sorunu tanımlayan uygulama sayfası, karşılaştırmayı kolaylaştıran teknik tablo, güveni destekleyen kurumsal bilgi.",
     "Teknik içeriği yazarken mühendislik ekibinizin onayı şarttır. Yanlış bir tolerans değeri ya da hatalı bir standart numarası, hiç içerik olmamasından daha zararlıdır. Benim rolüm, bu bilgiyi aranabilir ve okunabilir bir yapıya oturtmak; teknik doğruluğun sahibi sizin ekibinizdir.",
-    "İhracatta ise her pazarın kendi arama dili vardır. Almanca konuşan bir alıcının kullandığı terim, İngilizce karşılığının çevirisi olmayabilir. Hedef dillerde terim araştırmasını ayrı yapıyor, mümkünse anadili o dil olan bir çevirmen ya da distribütörünüzle kontrol ettiriyoruz. Yapay zekâ asistanları da tedarikçi araştırmasında kullanılmaya başladı; firmanızın bu cevaplarda nasıl anlatıldığını [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlatılan yöntemlerle izleyebilir, kapsamlı çalışmayı [GEO danışmanlığı](/geo-uzmani) ile planlayabiliriz."
+    "İhracatta ise her pazarın kendi arama dili vardır. Almanca konuşan bir alıcının kullandığı terim, İngilizce karşılığının çevirisi olmayabilir. Hedef dillerde terim araştırmasını ayrı yapıyor, mümkünse anadili o dil olan bir çevirmen ya da distribütörünüzle kontrol ettiriyoruz. Yapay zekâ asistanları da tedarikçi araştırmasında kullanılmaya başladı; firmanızın bu cevaplarda nasıl anlatıldığını [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında anlatılan yöntemlerle izleyebilir, kapsamlı çalışmayı [GEO danışmanlığı](/geo-uzmani) ile planlayabiliriz."
    ]
   },
   {
    "baslik": "Kimler için uygun, kimler için değil?",
    "paragraflar": [
     "Bağımsız bir danışman olarak denetimi, satış ve mühendislik ekibinizle yapılan görüşmeleri ve raporlamayı doğrudan yürütüyorum. Teknik bir sektörde bu önemlidir: sorulan soruların ve verilen cevapların arada kaybolmaması gerekir.",
-    "Bu çalışma; ürettiği işleri tanımlayabilen, teknik bilgiyi paylaşmaya hazır, yurt içinde ya da ihracatta yeni alıcıya ulaşmak isteyen üreticiler için uygundur. Satışın tamamen birkaç büyük müşteriyle kişisel ilişkiler üzerinden yürüdüğü ve yeni alıcı aranmadığı durumlarda SEO'ya yatırım yapmak öncelik olmayabilir. Kısa vadede hızlı talep gerekiyorsa reklamın daha uygun olup olmadığını [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısındaki çerçeveyle değerlendirebilirsiniz.",
+    "Bu çalışma; ürettiği işleri tanımlayabilen, teknik bilgiyi paylaşmaya hazır, yurt içinde ya da ihracatta yeni alıcıya ulaşmak isteyen üreticiler için uygundur. Satışın tamamen birkaç büyük müşteriyle kişisel ilişkiler üzerinden yürüdüğü ve yeni alıcı aranmadığı durumlarda SEO'ya yatırım yapmak öncelik olmayabilir. Kısa vadede hızlı talep gerekiyorsa reklamın daha uygun olup olmadığını [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısındaki çerçeveyle değerlendirebilirsiniz.",
     "Çalışma modellerini [SEO danışmanlığı](/seo-uzmani) sayfasında bulabilirsiniz. Ürün gruplarınız ve hedef pazarlarınız için neyin öncelikli olduğunu konuşmak isterseniz bir [ön görüşme randevusu](/randevu) alın."
    ]
   }
@@ -177,7 +177,7 @@
  "sss_tr": [
   {
    "s": "B2B SEO danışmanlığı ne kadar tutar?",
-   "c": "Ücret ürün grubu sayısına, dil sürümlerine ve içerik yazımının kapsama girip girmediğine göre değişir. Çalışma modellerini [fiyatlandırma sayfasında](/fiyatlandirma), piyasadaki genel aralıkları [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+   "c": "Ücret ürün grubu sayısına, dil sürümlerine ve içerik yazımının kapsama girip girmediğine göre değişir. Çalışma modellerini [fiyatlandırma sayfasında](/fiyatlandirma), piyasadaki genel aralıkları [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
   },
   {
    "s": "Arama hacmi çok düşük terimler için SEO yapmaya değer mi?",
@@ -239,15 +239,15 @@
     {
      "alt": "Mapping technical search demand"
     },
-    "I use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to identify the terms, material and standard names and product codes buyers actually use. In B2B, tools often show volumes close to zero, so we also treat the questions your sales team hears in the field and incoming quote requests as data sources.",
+    "I use [keyword research](/en/anahtar-kelime-arastirmasi) to identify the terms, material and standard names and product codes buyers actually use. In B2B, tools often show volumes close to zero, so we also treat the questions your sales team hears in the field and incoming quote requests as data sources.",
     {
      "alt": "Technical content and application pages"
     },
-    "Product pages gain technical tables as text, application examples and common technical questions. We plan which content serves which stage of the buying process within a [content strategy](/en/guides/icerik-stratejisi) framework, and if you need writing support, the [content strategy service](/en/content-strategy) comes in.",
+    "Product pages gain technical tables as text, application examples and common technical questions. We plan which content serves which stage of the buying process within a [content strategy](/en/icerik-stratejisi) framework, and if you need writing support, the [content strategy service](/en/content-strategy) comes in.",
     {
      "alt": "Structured data and entity clarity"
     },
-    "Organization and Product markup help machines understand clearly who the company is, what it makes and where it is located. The [schema and structured data guide](/en/guides/schema-yapisal-veri) is the starting point for implementation details."
+    "Organization and Product markup help machines understand clearly who the company is, what it makes and where it is located. The [schema and structured data guide](/en/schema-yapisal-veri) is the starting point for implementation details."
    ]
   },
   {
@@ -319,14 +319,14 @@
    "paragraflar": [
     "Industrial buyers rarely decide in a single visit. On the first search they look for a solution, on later visits they check datasheets, certificates and reference industries, and finally they ask for a quote. Your site therefore needs an answer for each stage: an application page that defines the problem, a technical table that makes comparison easy, and company information that supports trust.",
     "Sign-off from your engineering team is essential when writing technical content. A wrong tolerance value or an incorrect standard number does more harm than having no content at all. My role is to put this information into a searchable, readable structure; your team owns the technical accuracy.",
-    "In export markets, each market has its own search language. The term a German-speaking buyer uses may not be a translation of the English one. We research terms separately in each target language and, where possible, have them checked by a native-speaking translator or your distributor. AI assistants have also started to play a part in supplier research; we can track how your company is described in their answers using the methods in the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu), and plan broader work through [GEO consulting](/en/geo-consulting)."
+    "In export markets, each market has its own search language. The term a German-speaking buyer uses may not be a translation of the English one. We research terms separately in each target language and, where possible, have them checked by a native-speaking translator or your distributor. AI assistants have also started to play a part in supplier research; we can track how your company is described in their answers using the methods in the post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu), and plan broader work through [GEO consulting](/en/geo-consulting)."
    ]
   },
   {
    "baslik": "Who this is for, and who it is not for",
    "paragraflar": [
     "As an independent consultant, I run the audit, the conversations with your sales and engineering teams and the reporting myself. In a technical industry this matters: questions and answers should not get lost along the way.",
-    "This work suits manufacturers that can define what they make, are ready to share technical information and want to reach new buyers at home or abroad. If your sales run entirely on personal relationships with a few large customers and you are not looking for new buyers, SEO may not be a priority. If you need fast demand in the short term, you can assess whether ads are a better fit using the framework in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi).",
+    "This work suits manufacturers that can define what they make, are ready to share technical information and want to reach new buyers at home or abroad. If your sales run entirely on personal relationships with a few large customers and you are not looking for new buyers, SEO may not be a priority. If you need fast demand in the short term, you can assess whether ads are a better fit using the framework in [SEO or Google Ads](/en/seo-mu-google-ads-mi).",
     "You can find the working models on the [SEO consulting](/en/seo-consulting) page. If you want to discuss what matters most for your product groups and target markets, [book an intro call](/en/book-a-call)."
    ]
   }
@@ -334,7 +334,7 @@
  "sss_en": [
   {
    "s": "How much does B2B SEO consulting cost?",
-   "c": "The fee depends on the number of product groups, the language versions and whether content writing is in scope. You can find the working models on the [pricing page](/en/pricing) and general market ranges in the post on [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+   "c": "The fee depends on the number of product groups, the language versions and whether content writing is in scope. You can find the working models on the [pricing page](/en/pricing) and general market ranges in the post on [SEO agency pricing](/en/seo-ajansi-fiyatlari)."
   },
   {
    "s": "Is SEO worth it for terms with very low search volume?",

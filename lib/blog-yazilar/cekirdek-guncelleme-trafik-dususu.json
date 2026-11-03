@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Google Çekirdek Güncellemesi Sonrası Trafik Düştü: Adım Adım Teşhis Listesi",
  "baslik_en": "Traffic Dropped After a Google Core Update: A Step-by-Step Diagnosis Checklist",
- "meta_baslik_tr": "Çekirdek Güncelleme Sonrası Trafik Düşüşü: Teşhis Listesi",
- "meta_baslik_en": "Traffic Drop After a Core Update: Diagnosis Checklist",
- "meta_desc_tr": "Google çekirdek güncellemesinden sonra trafiğiniz mi düştü? Doğru dönem karşılaştırması, ölçüm ve teknik kontroller, sayfa bazlı analiz ve toparlanma süreci.",
- "meta_desc_en": "Did traffic drop after a Google core update? Compare the right periods, rule out tracking and technical issues, analyse pages and plan a realistic recovery.",
+ "meta_baslik_tr": "Çekirdek Güncelleme Sonrası Trafik Düşüşü",
+ "meta_baslik_en": "Traffic Drop After a Core Update Checklist",
+ "meta_desc_tr": "Google çekirdek güncellemesinden sonra trafiğiniz mi düştü? Doğru dönem karşılaştırması, teknik kontroller ve sayfa bazlı analizle nedeni bulun.",
+ "meta_desc_en": "Lost traffic after a Google core update? Compare the right periods, rule out tracking and technical issues, review pages and plan a recovery.",
  "ozet_tr": "Panik yapmadan önce: dönemi doğru seçin, ölçüm ve teknik hataları eleyin, düşüşün hangi sayfa ve sorgularda olduğunu bulun.",
  "ozet_en": "Before you panic: pick the right periods, rule out tracking and technical errors, and find which pages and queries lost.",
  "bolumler_tr": [
@@ -32,7 +32,7 @@
    "baslik": "2. Doğru dönemleri karşılaştırın",
    "paragraflar": [
     "Google'ın önerisi net: Yayılım tamamlandıktan sonra en az bir tam hafta bekleyin ve o haftayı, yayılım başlamadan önceki haftayla karşılaştırın. Yayılım sürerken alınan ölçümler yanıltıcıdır; sıralamalar bu dönemde ileri geri oynayabilir.",
-    "Search Console'un Performans raporunda tarih karşılaştırmasını açın ve Web, Görsel, Video, Haberler arama türlerini ayrı ayrı inceleyin. Düşüş yalnızca bir arama türündeyse sorun farklı bir yerde olabilir. KPI ve dönem karşılaştırma mantığını [SEO raporlama rehberinde](/rehber/seo-raporlama) daha ayrıntılı anlattım."
+    "Search Console'un Performans raporunda tarih karşılaştırmasını açın ve Web, Görsel, Video, Haberler arama türlerini ayrı ayrı inceleyin. Düşüş yalnızca bir arama türündeyse sorun farklı bir yerde olabilir. KPI ve dönem karşılaştırma mantığını [SEO raporlama rehberinde](/seo-raporlama) daha ayrıntılı anlattım."
    ]
   },
   {
@@ -80,7 +80,7 @@
       ]
      }
     },
-    "Gösterimler sabitken tıklamalar düşüyorsa bunun bir kısmı yapay zekâ özetlerinden ve yapay zekâ asistanlarından gelen davranış değişikliği olabilir. Bu trafiği ayrı izlemek için [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/blog/ga4-yapay-zeka-trafigi) yazısına bakın. İndeksleme tarafında belirti varsa [\"Tarandı – şu anda dizine eklenmemiş\" sorununu çözme](/blog/tarandi-dizine-eklenmemis) yazısı işinize yarar."
+    "Gösterimler sabitken tıklamalar düşüyorsa bunun bir kısmı yapay zekâ özetlerinden ve yapay zekâ asistanlarından gelen davranış değişikliği olabilir. Bu trafiği ayrı izlemek için [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/ga4-yapay-zeka-trafigi) yazısına bakın. İndeksleme tarafında belirti varsa [\"Tarandı – şu anda dizine eklenmemiş\" sorununu çözme](/tarandi-dizine-eklenmemis) yazısı işinize yarar."
    ]
   },
   {
@@ -102,8 +102,8 @@
    "baslik": "5. İçeriği kullanıcı gözüyle dürüstçe değerlendirin",
    "paragraflar": [
     "Büyük ve kalıcı bir düşüşte Google, siteyi tarafsız biçimde (gerekirse siteyle bağı olmayan kişilere) değerlendirmeyi ve faydalı, güvenilir, insan odaklı içerik için yayımladığı öz değerlendirme sorularını kullanmayı öneriyor. Benim pratikte sorduğum sorular şunlar: Sayfa, aramayı yapan kişinin asıl sorusunu ilk ekranda yanıtlıyor mu? Rakiplerde olmayan özgün bilgi, veri ya da deneyim var mı? Yazarın kim olduğu ve neden güvenilir olduğu açık mı? İçerik arama motoru için mi, okur için mi yazılmış?",
-    "Yapay zekâ ile toplu üretilmiş sayfalar bu değerlendirmede en sık takıldığım konu. Google'ın bu konudaki resmi tutumunu [yapay zekâ ile üretilen içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ayrıca ele alıyorum. Konu kümelerini ve içerik boşluklarını sistematik biçimde çıkarmak için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) kullanılabilir.",
-    "Otorite ve marka sinyalleri de tabloya dahil. Rakipler daha çok anılan, daha çok referans alan kaynaklarsa bunu [backlink ve dijital PR rehberindeki](/rehber/backlink-dijital-pr) yöntemlerle ele almak uzun vadede işe yarar."
+    "Yapay zekâ ile toplu üretilmiş sayfalar bu değerlendirmede en sık takıldığım konu. Google'ın bu konudaki resmi tutumunu [yapay zekâ ile üretilen içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ayrıca ele alıyorum. Konu kümelerini ve içerik boşluklarını sistematik biçimde çıkarmak için [içerik stratejisi rehberi](/icerik-stratejisi) kullanılabilir.",
+    "Otorite ve marka sinyalleri de tabloya dahil. Rakipler daha çok anılan, daha çok referans alan kaynaklarsa bunu [backlink ve dijital PR rehberindeki](/backlink-dijital-pr) yöntemlerle ele almak uzun vadede işe yarar."
    ]
   },
   {
@@ -137,7 +137,7 @@
    "baslik": "2. Compare the right periods",
    "paragraflar": [
     "Google's advice is clear: wait at least one full week after the rollout completes, then compare that week with the week before the rollout began. Data taken during the rollout is misleading, because rankings can move back and forth.",
-    "Turn on date comparison in the Search Console Performance report and look at the Web, Image, Video and News search types separately. If the drop is limited to one search type, the problem may lie elsewhere. I explain KPI and period comparison in more detail in the [SEO reporting guide](/en/guides/seo-raporlama)."
+    "Turn on date comparison in the Search Console Performance report and look at the Web, Image, Video and News search types separately. If the drop is limited to one search type, the problem may lie elsewhere. I explain KPI and period comparison in more detail in the [SEO reporting guide](/en/seo-raporlama)."
    ]
   },
   {
@@ -185,7 +185,7 @@
       ]
      }
     },
-    "If impressions hold while clicks fall, part of it may be behaviour shifting to AI summaries and AI assistants. To track that traffic separately, see [separating ChatGPT and Perplexity traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi). If you see indexing symptoms, [fixing \"Crawled – currently not indexed\"](/en/blog/tarandi-dizine-eklenmemis) will help."
+    "If impressions hold while clicks fall, part of it may be behaviour shifting to AI summaries and AI assistants. To track that traffic separately, see [separating ChatGPT and Perplexity traffic in GA4](/en/ga4-yapay-zeka-trafigi). If you see indexing symptoms, [fixing \"Crawled – currently not indexed\"](/en/tarandi-dizine-eklenmemis) will help."
    ]
   },
   {
@@ -207,8 +207,8 @@
    "baslik": "5. Assess your content honestly from the user's point of view",
    "paragraflar": [
     "For a large, lasting drop, Google recommends reviewing the site objectively (if needed, by people unaffiliated with it) and using its self-assessment questions on helpful, reliable, people-first content. The questions I ask in practice are these: Does the page answer the searcher's real question on the first screen? Does it offer original information, data or experience that competitors lack? Is it clear who wrote it and why they are trustworthy? Was it written for the search engine or for the reader?",
-    "Pages mass-produced with AI are where I get stuck most often in this review. I cover Google's official position separately in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi). To map topic clusters and content gaps systematically, use the [content strategy guide](/en/guides/icerik-stratejisi).",
-    "Authority and brand signals belong in the picture too. If competitors are mentioned and cited more often, the methods in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr) pay off over time."
+    "Pages mass-produced with AI are where I get stuck most often in this review. I cover Google's official position separately in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). To map topic clusters and content gaps systematically, use the [content strategy guide](/en/icerik-stratejisi).",
+    "Authority and brand signals belong in the picture too. If competitors are mentioned and cited more often, the methods in the [backlink and digital PR guide](/en/backlink-dijital-pr) pay off over time."
    ]
   },
   {

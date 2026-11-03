@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Entity SEO: Google ve Yapay Zekâ Markanızı Nasıl Tanır?",
  "baslik_en": "Entity SEO: How Google and AI Assistants Recognise Your Brand",
- "meta_baslik_tr": "Entity SEO: Google ve Yapay Zekâ Markanızı Nasıl Tanır?",
- "meta_baslik_en": "Entity SEO: How Google and AI Recognise Your Brand",
- "meta_desc_tr": "Entity SEO nedir? Knowledge Graph, bilgi paneli, Organization şeması ve sameAs, tutarlı ad ve profil bilgisiyle markanızı Google'a ve yapay zekâya tanıtın.",
- "meta_desc_en": "What entity SEO is: the Knowledge Graph, knowledge panels, Organization markup with sameAs and consistent profiles that help Google and AI identify a brand.",
+ "meta_baslik_tr": "Entity SEO ile Markanızı Google'a Tanıtın",
+ "meta_baslik_en": "Entity SEO and How AI Recognises Your Brand",
+ "meta_desc_tr": "Entity SEO nedir? Knowledge Graph, bilgi paneli, Organization şeması ve sameAs ile markanızı Google'a ve yapay zekâya tutarlı biçimde tanıtın.",
+ "meta_desc_en": "Learn how the Knowledge Graph, knowledge panels, Organization markup with sameAs and consistent profiles help Google and AI identify your brand.",
  "ozet_tr": "Markanızın Google ve yapay zekâ için tanımlı bir varlık olması: Knowledge Graph, Organization şeması, sameAs ve tutarlı profiller.",
  "ozet_en": "Making your brand a well-defined entity for Google and AI: Knowledge Graph, Organization markup, sameAs and consistent profiles.",
  "bolumler_tr": [
@@ -68,7 +68,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "Yerel işletmeler için",
-      "metin": "Google'ın yardım sayfası, belirli bir konumda veya hizmet bölgesinde müşteriye hizmet veren işletmelerin bilgi paneli yerine Google Business Profile kullanmasını söylüyor. Ayrıntılar [Google Business Profile yazısında](/blog/google-business-profile)."
+      "metin": "Google'ın yardım sayfası, belirli bir konumda veya hizmet bölgesinde müşteriye hizmet veren işletmelerin bilgi paneli yerine Google Business Profile kullanmasını söylüyor. Ayrıntılar [Google Business Profile yazısında](/google-business-profile)."
      }
     }
    ]
@@ -110,7 +110,7 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Örnek Yazılım A.Ş.\",\n  \"alternateName\": \"Örnek Yazılım\",\n  \"url\": \"https://www.ornek.com.tr/\",\n  \"logo\": \"https://www.ornek.com.tr/logo.png\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/ornek-yazilim\",\n    \"https://www.youtube.com/@ornekyazilim\"\n  ]\n}\n</script>"
     },
-    "Google, e-ticaret için OnlineStore, fiziksel konum için LocalBusiness alt türleri gibi en belirgin türü kullanmayı öneriyor. Kodu [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayabilir, özelliklerin ayrıntısını [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilirsiniz."
+    "Google, e-ticaret için OnlineStore, fiziksel konum için LocalBusiness alt türleri gibi en belirgin türü kullanmayı öneriyor. Kodu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilir, özelliklerin ayrıntısını [schema yapısal veri rehberinde](/schema-yapisal-veri) bulabilirsiniz."
    ]
   },
   {
@@ -126,14 +126,14 @@
       "Taşınma veya isim değişikliği sonrası eski profiller güncellendi ya da kapatıldı."
      ]
     },
-    "Fiziksel konumu olan işletmelerde bu tutarlılık yerel sonuçları da etkiler; yöntemi [yerel SEO rehberinde](/rehber/yerel-seo) anlattım."
+    "Fiziksel konumu olan işletmelerde bu tutarlılık yerel sonuçları da etkiler; yöntemi [yerel SEO rehberinde](/yerel-seo) anlattım."
    ]
   },
   {
    "baslik": "Yapay zekâ asistanları markanızı nasıl tanır?",
    "paragraflar": [
     "ChatGPT, Gemini, Perplexity ve Copilot gibi asistanlar web kaynaklarını alıntılayabiliyor; ama her birinin hangi altyapıyı ve hangi kaynakları kullandığı konusunda kesin konuşmak doğru olmaz. Gözlemlenebilen şu: Markanız hakkında web'de tutarlı ve doğrulanabilir bilgi ne kadar netse, asistanın sizi doğru tarif etme olasılığı o kadar yükselir.",
-    "Bu noktada üçüncü taraf sitelerdeki bahisler devreye giriyor; konuyu [marka bahsi (brand mention) yazısında](/blog/marka-bahsi-brand-mention) ayrıntılı ele aldım. Markanızın ChatGPT'deki mevcut tarifini nasıl kontrol edeceğinizi de [ChatGPT marka görünürlüğü yazısında](/blog/chatgpt-marka-gorunurlugu) anlattım."
+    "Bu noktada üçüncü taraf sitelerdeki bahisler devreye giriyor; konuyu [marka bahsi (brand mention) yazısında](/marka-bahsi-brand-mention) ayrıntılı ele aldım. Markanızın ChatGPT'deki mevcut tarifini nasıl kontrol edeceğinizi de [ChatGPT marka görünürlüğü yazısında](/chatgpt-marka-gorunurlugu) anlattım."
    ]
   },
   {
@@ -166,7 +166,7 @@
       ]
      }
     },
-    "Bu planı içerik ve dijital PR çalışmasıyla birlikte yürütmek için [GEO uygulama rehberi](/rehber/geo-uygulama) iyi bir çerçeve sunuyor. Markanızın varlık profilini birlikte incelemek isterseniz [GEO uzmanı](/geo-uzmani) hizmetine göz atabilir ya da [randevu oluşturabilirsiniz](/randevu)."
+    "Bu planı içerik ve dijital PR çalışmasıyla birlikte yürütmek için [GEO uygulama rehberi](/geo-uygulama) iyi bir çerçeve sunuyor. Markanızın varlık profilini birlikte incelemek isterseniz [GEO uzmanı](/geo-uzmani) hizmetine göz atabilir ya da [randevu oluşturabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -228,7 +228,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "For local businesses",
-      "metin": "Google's help page says businesses serving customers at a location or within a service area should use a Google Business Profile instead of a knowledge panel. Details are in the [Google Business Profile article](/en/blog/google-business-profile)."
+      "metin": "Google's help page says businesses serving customers at a location or within a service area should use a Google Business Profile instead of a knowledge panel. Details are in the [Google Business Profile article](/en/google-business-profile)."
      }
     }
    ]
@@ -270,7 +270,7 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Example Software Ltd\",\n  \"alternateName\": \"Example Software\",\n  \"url\": \"https://www.example.com/\",\n  \"logo\": \"https://www.example.com/logo.png\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/example-software\",\n    \"https://www.youtube.com/@examplesoftware\"\n  ]\n}\n</script>"
     },
-    "Google recommends the most specific type, such as OnlineStore for ecommerce or a LocalBusiness subtype for a physical location. You can prepare the code with the [schema generator](/en/tools/schema-generator) and find property details in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+    "Google recommends the most specific type, such as OnlineStore for ecommerce or a LocalBusiness subtype for a physical location. You can prepare the code with the [schema generator](/en/schema-generator) and find property details in the [schema structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
@@ -286,14 +286,14 @@
       "Old profiles were updated or closed after a move or rebrand."
      ]
     },
-    "For businesses with a physical location, this consistency also affects local results; I explain the method in the [local SEO guide](/en/guides/yerel-seo)."
+    "For businesses with a physical location, this consistency also affects local results; I explain the method in the [local SEO guide](/en/yerel-seo)."
    ]
   },
   {
    "baslik": "How do AI assistants recognise your brand?",
    "paragraflar": [
     "Assistants such as ChatGPT, Gemini, Perplexity and Copilot can cite web sources, but it would be wrong to speak with certainty about which infrastructure or sources each one uses. What can be observed is this: the clearer and more verifiable the information about your brand on the web, the more likely an assistant is to describe you correctly.",
-    "This is where third-party mentions come in; I cover the topic in the [brand mention article](/en/blog/marka-bahsi-brand-mention). I also explain how to check how ChatGPT currently describes your brand in the [ChatGPT brand visibility article](/en/blog/chatgpt-marka-gorunurlugu)."
+    "This is where third-party mentions come in; I cover the topic in the [brand mention article](/en/marka-bahsi-brand-mention). I also explain how to check how ChatGPT currently describes your brand in the [ChatGPT brand visibility article](/en/chatgpt-marka-gorunurlugu)."
    ]
   },
   {
@@ -326,7 +326,7 @@
       ]
      }
     },
-    "The [GEO implementation guide](/en/guides/geo-uygulama) is a good framework for running this plan alongside content and digital PR work. If you would like to review your brand's entity profile together, see [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call)."
+    "The [GEO implementation guide](/en/geo-uygulama) is a good framework for running this plan alongside content and digital PR work. If you would like to review your brand's entity profile together, see [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call)."
    ]
   }
  ],

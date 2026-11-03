@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Perplexity'de Markanız Nasıl Kaynak Gösterilir?",
  "baslik_en": "How Does Your Brand Get Cited in Perplexity?",
- "meta_baslik_tr": "Perplexity'de Markanız Nasıl Kaynak Gösterilir?",
+ "meta_baslik_tr": "Perplexity'de Marka Nasıl Kaynak Gösterilir",
  "meta_baslik_en": "How to Get Your Brand Cited in Perplexity",
- "meta_desc_tr": "Perplexity cevaplarında kaynak gösterilmek için erişim, PerplexityBot ayarı, alıntılanabilir içerik, üçüncü taraf kaynaklar ve ölçüm yöntemi.",
- "meta_desc_en": "What it takes to be cited in Perplexity answers: crawler access, PerplexityBot settings, citable content, third-party sources and a way to measure it.",
+ "meta_desc_tr": "Perplexity cevaplarında kaynak olmak için erişim, PerplexityBot ayarı, alıntılanabilir içerik ve üçüncü taraf kaynaklar. Ölçüm yöntemiyle birlikte.",
+ "meta_desc_en": "What it takes to be cited in Perplexity answers, from crawler access and PerplexityBot settings to citable content, third-party sources and tracking.",
  "ozet_tr": "Perplexity'nin kaynak gösterme mantığı, PerplexityBot erişimi ve markanızın cevaplarda kaynak olarak yer alma yolları.",
  "ozet_en": "How Perplexity cites sources, how PerplexityBot access works and how your brand can show up as a cited source.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Perplexity, soruları web'de arama yaparak yanıtlayan bir cevap motorudur. Resmi yardım merkezine göre içerik soru sorulduğu anda web'den gerçek zamanlı olarak alınır ve her cevapta, bilgiyi doğrulayabilmeniz için orijinal kaynaklara giden atıflar ve bağlantılar bulunur. Bu yapı, markalar için somut bir fırsat sunar: Perplexity cevabında kaynak olarak gösterilmek, hem görünürlük hem de nitelikli bir ziyaret anlamına gelebilir.",
-    "Bu yazıda Perplexity'ye özgü kısmı anlatıyorum: tarayıcı erişimi, kaynak gösterilmeye uygun sayfa yapısı ve ölçüm. Genel GEO sürecini, yani soru seti, varlık netliği ve marka bahsi adımlarını [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı ele aldığım için burada tekrar etmiyorum.",
+    "Bu yazıda Perplexity'ye özgü kısmı anlatıyorum: tarayıcı erişimi, kaynak gösterilmeye uygun sayfa yapısı ve ölçüm. Genel GEO sürecini, yani soru seti, varlık netliği ve marka bahsi adımlarını [GEO uygulama rehberinde](/geo-uygulama) ayrıntılı ele aldığım için burada tekrar etmiyorum.",
     {
      "alinti": "Kısa cevap: Perplexity'de kaynak gösterilmek için önce sitenizin PerplexityBot'a açık olması, ardından soruları doğrudan ve doğrulanabilir biçimde yanıtlayan sayfalarınızın bulunması gerekir. Perplexity kaynak seçim formülünü kamuya açıklamıyor; bu yüzden kendi sitenizin yanında markanızın anıldığı üçüncü taraf kaynakları da güçlendirmek ve sonucu düzenli test etmek en sağlıklı yoldur."
     }
@@ -57,7 +57,7 @@
     {
      "kod": "User-agent: PerplexityBot\nAllow: /"
     },
-    "Sahada en sık gördüğüm sorun robots.txt değil, CDN ya da güvenlik duvarındaki bot koruma kurallarıdır: site sahibi farkında olmadan tüm yapay zekâ tarayıcılarını engelleyen bir ayarı açık bırakır. Perplexity, iki aracı için de IP aralıklarını yayımlıyor; güvenlik ekibiniz izin kurallarını bu listelere göre yazabilir. Tarama erişiminin genel kontrolünü [teknik SEO rehberinde](/rehber/teknik-seo) anlattım."
+    "Sahada en sık gördüğüm sorun robots.txt değil, CDN ya da güvenlik duvarındaki bot koruma kurallarıdır: site sahibi farkında olmadan tüm yapay zekâ tarayıcılarını engelleyen bir ayarı açık bırakır. Perplexity, iki aracı için de IP aralıklarını yayımlıyor; güvenlik ekibiniz izin kurallarını bu listelere göre yazabilir. Tarama erişiminin genel kontrolünü [teknik SEO rehberinde](/teknik-seo) anlattım."
    ]
   },
   {
@@ -73,20 +73,20 @@
       "**Yazar ve kurum bilgisi:** içeriği kimin, hangi uzmanlıkla yazdığını gösteren profil ve kurum sayfaları."
      ]
     },
-    "Bu kuralların hangi sayfa tiplerinde önceliklendirileceğini [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) ele aldım. Sık kullanılan terimler için kısa tanımlar içeren bir sözlük sayfası da iyi bir alıntı adayıdır; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
+    "Bu kuralların hangi sayfa tiplerinde önceliklendirileceğini [içerik stratejisi rehberinde](/icerik-stratejisi) ele aldım. Sık kullanılan terimler için kısa tanımlar içeren bir sözlük sayfası da iyi bir alıntı adayıdır; örnek olarak [yapay zekâ ve SEO sözlüğüne](/ai-sozluk) bakabilirsiniz."
    ]
   },
   {
    "baslik": "Üçüncü taraf kaynaklar Perplexity'de neden belirleyici?",
    "paragraflar": [
     "“İstanbul'da hangi firmayı seçmeliyim” gibi öneri sorularında Perplexity yalnızca sizin sitenize bakmaz; karşılaştırma yazıları, sektör listeleri, haberler, forumlar ve yorum platformları da kaynak olarak görünebilir. Kendi sayfanızda kendinizi övmeniz, bağımsız bir yayının sizi anmasıyla aynı ağırlığı taşımaz.",
-    "Bu yüzden Perplexity'de test yaparken yalnızca “markam kaynak gösterildi mi” diye değil, “hangi siteler kaynak gösterildi ve onlarda ben var mıyım” diye de bakıyorum. Linkli ya da linksiz bu bahislerin nasıl kazanılacağını [marka bahsi (brand mention) yazısında](/blog/marka-bahsi-brand-mention) anlattım."
+    "Bu yüzden Perplexity'de test yaparken yalnızca “markam kaynak gösterildi mi” diye değil, “hangi siteler kaynak gösterildi ve onlarda ben var mıyım” diye de bakıyorum. Linkli ya da linksiz bu bahislerin nasıl kazanılacağını [marka bahsi (brand mention) yazısında](/marka-bahsi-brand-mention) anlattım."
    ]
   },
   {
    "baslik": "Perplexity'de markanızın kaynak gösterilip gösterilmediğini nasıl test edersiniz?",
    "paragraflar": [
-    "Tek bir sorguyu bir kez denemek yanıltıcıdır; cevaplar zamana, soru biçimine ve bağlama göre değişebilir. Ben sabit bir soru setini aylık olarak çalıştırıp sonuçları aynı şablona kaydediyorum. Soru setinin nasıl kurulduğunu [ChatGPT'de marka görünürlüğünü test etme](/blog/chatgpt-marka-gorunurlugu) yazısında anlattım; aynı yöntem Perplexity için de geçerli.",
+    "Tek bir sorguyu bir kez denemek yanıltıcıdır; cevaplar zamana, soru biçimine ve bağlama göre değişebilir. Ben sabit bir soru setini aylık olarak çalıştırıp sonuçları aynı şablona kaydediyorum. Soru setinin nasıl kurulduğunu [ChatGPT'de marka görünürlüğünü test etme](/chatgpt-marka-gorunurlugu) yazısında anlattım; aynı yöntem Perplexity için de geçerli.",
     {
      "tablo": {
       "basliklar": [
@@ -123,7 +123,7 @@
       ]
      }
     },
-    "Perplexity'den sitenize gelen ziyaretleri ayrıca GA4'te görmek için referrer bazlı bir kanal tanımı gerekir; yöntemi [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/blog/ga4-yapay-zeka-trafigi) yazısında bulabilirsiniz."
+    "Perplexity'den sitenize gelen ziyaretleri ayrıca GA4'te görmek için referrer bazlı bir kanal tanımı gerekir; yöntemi [GA4'te ChatGPT ve Perplexity trafiğini ayırma](/ga4-yapay-zeka-trafigi) yazısında bulabilirsiniz."
    ]
   },
   {
@@ -135,7 +135,7 @@
       "Önemli bilgiyi yalnızca görsel, PDF ya da etkileşimli bileşen içinde sunmak; metin olarak erişilebilir tutmamak.",
       "Kaynak seçimi hakkında doğrulanmamış “sinyal listelerine” göre içerik üretmek.",
       "Forum ve yorum platformlarına sahte ya da teşvikli içerik yerleştirmek; bu hem platform kurallarına aykırıdır hem itibar riski taşır.",
-      "Yalnızca Perplexity'ye odaklanıp Google tarafını ihmal etmek; [Google AI Modu'nun Türkiye'deki etkisi](/blog/google-ai-mode-turkiye) de aynı içerik temeline dayanıyor."
+      "Yalnızca Perplexity'ye odaklanıp Google tarafını ihmal etmek; [Google AI Modu'nun Türkiye'deki etkisi](/google-ai-mode-turkiye) de aynı içerik temeline dayanıyor."
      ]
     },
     "Bu hataların çoğu küçük ayarlarla düzelir; zor olan, alıntılanmaya değer içeriği ve bağımsız kaynaklardaki varlığı sabırla inşa etmektir. Bunu bir plana bağlamak isterseniz [GEO danışmanlığı](/geo-uzmani) ve [içerik stratejisi hizmeti](/icerik) sayfalarına göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
@@ -147,7 +147,7 @@
    "baslik": null,
    "paragraflar": [
     "Perplexity is an answer engine that responds to questions by searching the web. According to its official help centre, content is sourced from the web in real time as you ask, and every answer includes citations and links to original sources so you can verify the information. That gives brands a concrete opportunity: being cited in a Perplexity answer can mean both visibility and a qualified visit.",
-    "In this post I cover the Perplexity-specific part: crawler access, page structure that is ready to be cited, and measurement. I cover the general GEO process, meaning the question set, entity clarity and brand mentions, in detail in the [GEO implementation guide](/en/guides/geo-uygulama), so I won't repeat it here.",
+    "In this post I cover the Perplexity-specific part: crawler access, page structure that is ready to be cited, and measurement. I cover the general GEO process, meaning the question set, entity clarity and brand mentions, in detail in the [GEO implementation guide](/en/geo-uygulama), so I won't repeat it here.",
     {
      "alinti": "Short answer: To be cited by Perplexity, your site first has to be open to PerplexityBot, and then you need pages that answer questions directly and verifiably. Perplexity does not publish its source-selection formula, so the soundest approach is to strengthen the third-party sources that mention your brand alongside your own site, and to test the results regularly."
     }
@@ -189,7 +189,7 @@
     {
      "kod": "User-agent: PerplexityBot\nAllow: /"
     },
-    "The problem I see most often in client work is not robots.txt but bot-protection rules at the CDN or firewall: site owners leave a setting on that blocks every AI crawler without realising it. Perplexity publishes IP ranges for both agents, so your security team can write allow rules against those lists. I cover crawl access checks in general in the [technical SEO guide](/en/guides/teknik-seo)."
+    "The problem I see most often in client work is not robots.txt but bot-protection rules at the CDN or firewall: site owners leave a setting on that blocks every AI crawler without realising it. Perplexity publishes IP ranges for both agents, so your security team can write allow rules against those lists. I cover crawl access checks in general in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -205,20 +205,20 @@
       "**Author and organisation details:** profile and company pages that show who wrote the content and with what expertise."
      ]
     },
-    "I explain which page types to prioritise with these rules in the [content strategy guide](/en/guides/icerik-stratejisi). A glossary with short definitions of common terms is also a good citation candidate; see the [AI and SEO glossary](/en/ai-glossary) for an example."
+    "I explain which page types to prioritise with these rules in the [content strategy guide](/en/icerik-stratejisi). A glossary with short definitions of common terms is also a good citation candidate; see the [AI and SEO glossary](/en/ai-glossary) for an example."
    ]
   },
   {
    "baslik": "Why do third-party sources matter so much in Perplexity?",
    "paragraflar": [
     "For recommendation questions such as \"which firm should I choose in Istanbul\", Perplexity does not only look at your site; comparison articles, industry lists, news, forums and review platforms can all appear as sources. Praising yourself on your own page does not carry the same weight as an independent publication mentioning you.",
-    "So when I test in Perplexity, I don't only ask \"was my brand cited\" but also \"which sites were cited, and am I on them\". I explain how to earn these mentions, linked or unlinked, in the post on [brand mentions](/en/blog/marka-bahsi-brand-mention)."
+    "So when I test in Perplexity, I don't only ask \"was my brand cited\" but also \"which sites were cited, and am I on them\". I explain how to earn these mentions, linked or unlinked, in the post on [brand mentions](/en/marka-bahsi-brand-mention)."
    ]
   },
   {
    "baslik": "How do you test whether Perplexity cites your brand?",
    "paragraflar": [
-    "Trying a single query once is misleading; answers can vary with time, phrasing and context. I run a fixed question set every month and record results in the same template. I describe how to build that question set in the post on [testing brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu); the same method applies to Perplexity.",
+    "Trying a single query once is misleading; answers can vary with time, phrasing and context. I run a fixed question set every month and record results in the same template. I describe how to build that question set in the post on [testing brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu); the same method applies to Perplexity.",
     {
      "tablo": {
       "basliklar": [
@@ -255,7 +255,7 @@
       ]
      }
     },
-    "To see visits from Perplexity to your site in GA4, you need a referrer-based channel definition; the method is in the post on [separating ChatGPT and Perplexity traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+    "To see visits from Perplexity to your site in GA4, you need a referrer-based channel definition; the method is in the post on [separating ChatGPT and Perplexity traffic in GA4](/en/ga4-yapay-zeka-trafigi)."
    ]
   },
   {
@@ -267,7 +267,7 @@
       "Putting key information only inside images, PDFs or interactive widgets instead of accessible text.",
       "Producing content based on unverified \"signal lists\" about source selection.",
       "Planting fake or incentivised content on forums and review platforms; it breaks platform rules and carries reputational risk.",
-      "Focusing only on Perplexity and neglecting Google; [Google AI Mode in Türkiye](/en/blog/google-ai-mode-turkiye) rests on the same content foundation."
+      "Focusing only on Perplexity and neglecting Google; [Google AI Mode in Türkiye](/en/google-ai-mode-turkiye) rests on the same content foundation."
      ]
     },
     "Most of these mistakes are fixed with small settings; the hard part is patiently building citable content and a presence in independent sources. If you want to turn that into a plan, see the [GEO consulting](/en/geo-consulting) and [content strategy service](/en/content-strategy) pages, or reach me through the [contact page](/en/contact)."

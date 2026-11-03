@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Google Yorumlarına Nasıl Cevap Verilir? Olumsuz Yorum Örnekleriyle",
  "baslik_en": "How to Respond to Google Reviews, With Negative Review Examples",
- "meta_baslik_tr": "Google Yorumlarına Nasıl Cevap Verilir? Örneklerle",
- "meta_baslik_en": "How to Respond to Google Reviews: With Examples",
- "meta_desc_tr": "Google yorumlarına cevap verirken nelere dikkat edilmeli? Olumsuz yorum cevap örnekleri, kaldırılabilen yorumlar, sahte yorum politikası ve haftalık rutin.",
- "meta_desc_en": "How should you reply to Google reviews? Negative review reply examples, which reviews can be removed, Google's fake review policy and a weekly routine.",
+ "meta_baslik_tr": "Google Yorumlarına Cevap Verme Örnekleri",
+ "meta_baslik_en": "How to Respond to Google Reviews",
+ "meta_desc_tr": "Olumsuz yorumlara örnek cevaplar, kaldırılabilen yorumlar, sahte yorum politikası ve haftalık rutin. Google yorumlarını güvenle yanıtlamaya başlayın.",
+ "meta_desc_en": "Negative review reply examples, which reviews can be removed, Google's fake review policy and a weekly routine to keep your review replies on track.",
  "ozet_tr": "Olumlu ve olumsuz Google yorumlarına cevap verme ilkeleri, kurgusal cevap örnekleri ve yorum bildirme süreci.",
  "ozet_en": "Principles for replying to positive and negative Google reviews, fictional reply examples and the review reporting process.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Bir işletmenin Google yorumlarını okuyan kişi, yalnızca yıldızlara değil işletmenin cevaplarına da bakar. Olumsuz bir yoruma verilen sakin, çözüm odaklı bir cevap, çoğu zaman yorumun kendisinden daha çok şey anlatır. Savunmacı ya da kopyala-yapıştır cevaplar ise tersini yapar.",
-    "Bu yazıda yorum cevaplarının nasıl yazılacağını, olumsuz yorumlara kurgusal örneklerle nasıl yaklaşılacağını, hangi yorumların Google'a bildirilebileceğini ve sahte yorumların neden risk olduğunu anlatıyorum. Profil kurulumu ve yorum isteme yöntemleri [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısında ayrıca var.",
+    "Bu yazıda yorum cevaplarının nasıl yazılacağını, olumsuz yorumlara kurgusal örneklerle nasıl yaklaşılacağını, hangi yorumların Google'a bildirilebileceğini ve sahte yorumların neden risk olduğunu anlatıyorum. Profil kurulumu ve yorum isteme yöntemleri [Google Business Profile optimizasyonu](/google-business-profile) yazısında ayrıca var.",
     {
      "alinti": "Kısa cevap: Google yorumlarına kısa, nazik, kişiselleştirilmiş ve tanıtım içermeyen cevaplar verin. Olumsuz yorumlarda teşekkür edin, gerçek bir hata varsa kabul edip özür dileyin, ayrıntıyı telefon veya e-postaya taşıyın ve müşterinin kişisel bilgisini asla paylaşmayın. Yalnızca Google politikalarını ihlal eden yorumlar kaldırılır; gerçek ama olumsuz bir deneyim silinmez."
     }
@@ -35,7 +35,7 @@
       "Cevaplarınızı sonradan düzenleyebilir veya silebilirsiniz."
      ]
     },
-    "Yorumlar ve cevaplar, Google'ın yapay zekâ özelliklerinin işletme hakkında bilgi toplarken başvurduğu kaynaklar arasında da yer alıyor. İşletmenizin yapay zekâ cevaplarında nasıl anlatıldığını anlamak için [GEO uygulama rehberine](/rehber/geo-uygulama) göz atabilirsiniz."
+    "Yorumlar ve cevaplar, Google'ın yapay zekâ özelliklerinin işletme hakkında bilgi toplarken başvurduğu kaynaklar arasında da yer alıyor. İşletmenizin yapay zekâ cevaplarında nasıl anlatıldığını anlamak için [GEO uygulama rehberine](/geo-uygulama) göz atabilirsiniz."
    ]
   },
   {
@@ -154,14 +154,14 @@
       "Olumsuz bir yorumun silinmesi ya da değiştirilmesi karşılığında teşvik sunmak"
      ]
     },
-    "Bu tür yorumlar kaldırılır ve işletme profili için ek yaptırımlara yol açabilir. Sürekli ve kurallara uygun yorum akışı kurmanın yerel görünürlüğe etkisini [yerel SEO rehberinde](/rehber/yerel-seo) anlattım."
+    "Bu tür yorumlar kaldırılır ve işletme profili için ek yaptırımlara yol açabilir. Sürekli ve kurallara uygun yorum akışı kurmanın yerel görünürlüğe etkisini [yerel SEO rehberinde](/yerel-seo) anlattım."
    ]
   },
   {
    "baslik": "Sağlık ve hukuk gibi hassas sektörlerde yorum cevapları",
    "paragraflar": [
     "Klinikler, avukatlar ve danışmanlar gibi meslek sırrı taşıyan işletmelerde cevap yazmanın kuralı bir adım daha sıkıdır: Cevapta kişinin hastanız ya da müvekkiliniz olduğunu doğrulayan hiçbir ifade yer almamalıdır. “Tedaviniz” ya da “dosyanız” yerine “paylaştığınız deneyim” gibi genel bir dil kullanın ve görüşmeyi özel kanala davet edin.",
-    "Bu sektörlerde mesleki düzenlemeler yorumların tanıtımda kullanılmasını da sınırlayabilir. Diş klinikleri için ayrıntıları [diş klinikleri için yerel SEO](/blog/dis-klinikleri-yerel-seo) yazısında, hukuk büroları için [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında ele aldım; sağlık kurumlarının genel çerçevesi ise [sağlık sektörü SEO rehberinde](/rehber/saglik-seo). Klinik ve sağlık kuruluşlarıyla nasıl çalıştığımı [klinik SEO danışmanlığı](/sektorler/klinik-seo) sayfasında bulabilirsiniz."
+    "Bu sektörlerde mesleki düzenlemeler yorumların tanıtımda kullanılmasını da sınırlayabilir. Diş klinikleri için ayrıntıları [diş klinikleri için yerel SEO](/dis-klinikleri-yerel-seo) yazısında, hukuk büroları için [avukatlar için SEO](/avukatlar-icin-seo) yazısında ele aldım; sağlık kurumlarının genel çerçevesi ise [sağlık sektörü SEO rehberinde](/saglik-seo). Klinik ve sağlık kuruluşlarıyla nasıl çalıştığımı [klinik SEO danışmanlığı](/klinik-seo) sayfasında bulabilirsiniz."
    ]
   },
   {
@@ -186,7 +186,7 @@
    "baslik": null,
    "paragraflar": [
     "People reading a business's Google reviews look not only at the stars but at the owner's replies. A calm, solution-focused reply to a negative review often says more than the review itself. Defensive or copy-paste replies do the opposite.",
-    "This article covers how to write review replies, how to approach negative reviews with fictional examples, which reviews you can report to Google and why fake reviews are a risk. Profile setup and ways to ask for reviews are covered separately in the [Google Business Profile optimization](/en/blog/google-business-profile) article.",
+    "This article covers how to write review replies, how to approach negative reviews with fictional examples, which reviews you can report to Google and why fake reviews are a risk. Profile setup and ways to ask for reviews are covered separately in the [Google Business Profile optimization](/en/google-business-profile) article.",
     {
      "alinti": "Short answer: Reply to Google reviews with short, polite, personalised replies that contain no promotion. For negative reviews, thank the reviewer, acknowledge and apologise if there was a real mistake, move details to phone or email and never share the customer's personal information. Only reviews that violate Google's policies are removed; a genuine negative experience stays."
     }
@@ -206,7 +206,7 @@
       "You can edit or delete your replies later."
      ]
     },
-    "Reviews and replies are also among the sources Google's AI features draw on when gathering information about a business. To understand how your business is described in AI answers, see the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "Reviews and replies are also among the sources Google's AI features draw on when gathering information about a business. To understand how your business is described in AI answers, see the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
@@ -325,14 +325,14 @@
       "Offering incentives for removing or changing a negative review"
      ]
     },
-    "Such reviews are removed and can lead to further restrictions on the business profile. I explain how a steady, policy-compliant flow of reviews supports local visibility in the [local SEO guide](/en/guides/yerel-seo)."
+    "Such reviews are removed and can lead to further restrictions on the business profile. I explain how a steady, policy-compliant flow of reviews supports local visibility in the [local SEO guide](/en/yerel-seo)."
    ]
   },
   {
    "baslik": "Review replies in sensitive sectors such as healthcare and law",
    "paragraflar": [
     "For businesses bound by professional confidentiality, such as clinics, lawyers and advisers, the rule is one step stricter: a reply must never confirm that the person is your patient or client. Use general wording like “the experience you shared” instead of “your treatment” or “your case”, and invite them to a private channel.",
-    "In these sectors, professional rules may also restrict using reviews for promotion. I cover the details for dental clinics in [local SEO for dental clinics](/en/blog/dis-klinikleri-yerel-seo) and for law firms in [SEO for lawyers](/en/blog/avukatlar-icin-seo); the general framework for healthcare providers is in the [healthcare SEO guide](/en/guides/saglik-seo). You can see how I work with clinics on the [healthcare SEO consulting](/en/industries/healthcare-seo) page."
+    "In these sectors, professional rules may also restrict using reviews for promotion. I cover the details for dental clinics in [local SEO for dental clinics](/en/dis-klinikleri-yerel-seo) and for law firms in [SEO for lawyers](/en/avukatlar-icin-seo); the general framework for healthcare providers is in the [healthcare SEO guide](/en/saglik-seo). You can see how I work with clinics on the [healthcare SEO consulting](/en/healthcare-seo) page."
    ]
   },
   {

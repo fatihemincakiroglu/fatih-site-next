@@ -98,7 +98,7 @@ export default async function handler(req, res) {
       status,
       score,
       checks,
-      // SERP önizleme aracı (/araclar/serp-onizleme) ham başlık ve açıklamayı kullanır
+      // SERP önizleme aracı (/serp-onizleme) ham başlık ve açıklamayı kullanır
       title: title || '',
       metaDescription: metaDescription || '',
     })

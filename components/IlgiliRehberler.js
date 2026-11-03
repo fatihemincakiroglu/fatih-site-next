@@ -17,7 +17,7 @@ export default function IlgiliRehberler({ sluglar = [], isEn = false, baslik, ko
         {liste.map(r => {
           const l = isEn ? r.en : r.tr
           return (
-            <Link key={r.slug} href={isEn ? `/en/guides/${r.slug}` : `/rehber/${r.slug}`}
+            <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`}
               style={{ display: 'block', padding: '18px', borderRadius: '12px', border: koyu ? '1px solid #2a2a2a' : '1px solid #eee', background: koyu ? '#161616' : '#fff', textDecoration: 'none' }}>
               <div style={{ fontSize: '15px', fontWeight: 700, color: koyu ? '#fff' : '#111', lineHeight: 1.4, marginBottom: '6px' }}>
                 <span aria-hidden="true" style={{ marginRight: '8px' }}>{r.ikon}</span>{l.baslik}

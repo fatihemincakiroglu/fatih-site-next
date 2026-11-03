@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "İç Linkleme Stratejisi: Sayfalar Arasında Otoriteyi Doğru Dağıtmak",
  "baslik_en": "Internal Linking Strategy: Distributing Authority Across Your Pages",
- "meta_baslik_tr": "İç Linkleme Stratejisi: Bağlantı Metni, Yetim Sayfa, Denetim",
- "meta_baslik_en": "Internal Linking Strategy: Anchors, Orphans and Audits",
- "meta_desc_tr": "İç linkleme nasıl yapılır? Bağlantı metni, yetim sayfalar, tıklama derinliği, menü ve içerik içi link farkı ile adım adım iç link denetimi yöntemi.",
- "meta_desc_en": "How to plan internal links: anchor text, orphan pages, click depth, menu vs in-content links, and a step-by-step method for auditing your internal linking.",
+ "meta_baslik_tr": "İç Linkleme Stratejisi ve Denetimi",
+ "meta_baslik_en": "Internal Linking Strategy and Audits",
+ "meta_desc_tr": "Bağlantı metni, yetim sayfalar, tıklama derinliği, menü ve içerik içi link farkı. Adım adım iç link denetimiyle sitenizin yapısını güçlendirin.",
+ "meta_desc_en": "Plan internal links around anchor text, orphan pages, click depth and menu vs in-content links, then follow a step-by-step method to audit them.",
  "ozet_tr": "Bağlantı metni, yetim sayfa, tıklama derinliği ve denetim: iç linklerle önemli sayfaları öne çıkarmanın yolu.",
  "ozet_en": "Anchor text, orphan pages, click depth and audits: using internal links to put your important pages forward.",
  "bolumler_tr": [
@@ -27,9 +27,9 @@
     "Google'ın bağlantı en iyi uygulamaları dokümanı açık: Google, bağlantıları sayfaların alakasını belirlerken bir sinyal olarak ve taranacak yeni sayfaları bulmak için kullanıyor. Aynı dokümana göre önemsediğiniz her sayfa, sitenizdeki en az bir başka sayfadan link almalı.",
     "Teknik şart da basit: Google genellikle yalnızca href özniteliği olan a etiketlerini güvenilir biçimde tarayabiliyor. JavaScript ile tıklama olayına bağlanmış butonlar ya da href'siz öğeler link sayılmayabilir.",
     {
-     "kod": "<!-- Taranabilir -->\n<a href=\"/rehber/teknik-seo\">teknik SEO rehberi</a>\n\n<!-- Güvenilir biçimde taranamaz -->\n<span onclick=\"git('/rehber/teknik-seo')\">Devamı</span>\n<a onclick=\"git('/rehber/teknik-seo')\">Devamı</a>"
+     "kod": "<!-- Taranabilir -->\n<a href=\"/teknik-seo\">teknik SEO rehberi</a>\n\n<!-- Güvenilir biçimde taranamaz -->\n<span onclick=\"git('/teknik-seo')\">Devamı</span>\n<a onclick=\"git('/teknik-seo')\">Devamı</a>"
     },
-    "Render ve taranabilirliğin geri kalanı [teknik SEO rehberinde](/rehber/teknik-seo) anlatılıyor."
+    "Render ve taranabilirliğin geri kalanı [teknik SEO rehberinde](/teknik-seo) anlatılıyor."
    ]
   },
   {
@@ -58,7 +58,7 @@
       }
      }
     },
-    "İç linklerde doğal çeşitlilik yeterli: Aynı sayfaya farklı bağlamlarda farklı ama konuyu taşıyan ifadelerle link verebilirsiniz. Dış bağlantılarda bağlantı metni profilinin nasıl yönetildiği ayrı bir konu; onu [anchor text stratejisi](/blog/anchor-text) yazısında ele alıyorum."
+    "İç linklerde doğal çeşitlilik yeterli: Aynı sayfaya farklı bağlamlarda farklı ama konuyu taşıyan ifadelerle link verebilirsiniz. Dış bağlantılarda bağlantı metni profilinin nasıl yönetildiği ayrı bir konu; onu [anchor text stratejisi](/anchor-text) yazısında ele alıyorum."
    ]
   },
   {
@@ -101,7 +101,7 @@
       ]
      }
     },
-    "E-ticarette kategori, filtre ve ürün linklerinin dengesi ayrıca önemli; bunu [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo) ayrıntılı anlattım."
+    "E-ticarette kategori, filtre ve ürün linklerinin dengesi ayrıca önemli; bunu [e-ticaret SEO rehberinde](/e-ticaret-seo) ayrıntılı anlattım."
    ]
   },
   {
@@ -132,14 +132,14 @@
       }
      ]
     },
-    "“Tarandı, dizine eklenmedi” listesinde çıkan sayfaların bir kısmı aslında zayıf iç link alan sayfalardır; bu ilişkiyi [tarandı – şu anda dizine eklenmemiş](/blog/tarandi-dizine-eklenmemis) yazısında açıkladım. Büyük sitelerde derinlik ve parametre israfı [tarama bütçesi](/blog/crawl-butcesi) konusuyla da doğrudan bağlantılı."
+    "“Tarandı, dizine eklenmedi” listesinde çıkan sayfaların bir kısmı aslında zayıf iç link alan sayfalardır; bu ilişkiyi [tarandı – şu anda dizine eklenmemiş](/tarandi-dizine-eklenmemis) yazısında açıkladım. Büyük sitelerde derinlik ve parametre israfı [tarama bütçesi](/crawl-butcesi) konusuyla da doğrudan bağlantılı."
    ]
   },
   {
    "baslik": "Otoriteyi önemli sayfalara nasıl yönlendirirsiniz?",
    "paragraflar": [
     "Bir sitede dış bağlantıların çoğu genellikle ana sayfaya ve birkaç popüler blog yazısına gelir. Bu sayfalardan, dönüşüm getiren hizmet ya da kategori sayfalarına bağlamlı linkler vermek, gücü ihtiyaç duyulan yere taşımanın en pratik yolu.",
-    "Hangi sayfaların en çok dış link aldığını Search Console'daki Bağlantılar raporunda görebilirsiniz. Ardından o sayfalarda ilgili hizmete doğal bir link verilebilecek paragrafları bulun. Konu kümelerinde pillar ve cluster sayfalarının nasıl bağlanacağını [topical authority ve pillar-cluster modeli](/blog/topical-authority) yazısında anlattım; içerik planlamasının genel çerçevesi ise [içerik stratejisi rehberinde](/rehber/icerik-stratejisi)."
+    "Hangi sayfaların en çok dış link aldığını Search Console'daki Bağlantılar raporunda görebilirsiniz. Ardından o sayfalarda ilgili hizmete doğal bir link verilebilecek paragrafları bulun. Konu kümelerinde pillar ve cluster sayfalarının nasıl bağlanacağını [topical authority ve pillar-cluster modeli](/topical-authority) yazısında anlattım; içerik planlamasının genel çerçevesi ise [içerik stratejisi rehberinde](/icerik-stratejisi)."
    ]
   },
   {
@@ -172,7 +172,7 @@
       ]
      }
     },
-    "Taşıma ya da URL değişikliği sonrası çok sayıda eski adres varsa yönlendirmeleri [yönlendirme kuralı oluşturucu](/araclar/yonlendirme-olusturucu) ile hazırlayabilirsiniz; yine de iç linkleri yeni adreslere güncellemek esas çözümdür.",
+    "Taşıma ya da URL değişikliği sonrası çok sayıda eski adres varsa yönlendirmeleri [yönlendirme kuralı oluşturucu](/yonlendirme-olusturucu) ile hazırlayabilirsiniz; yine de iç linkleri yeni adreslere güncellemek esas çözümdür.",
     {
      "kontrol": [
       "Önemli her sayfa en az bir içerik içi link alıyor",
@@ -182,7 +182,7 @@
       "Linkler JavaScript olayı değil, href'li a etiketi"
      ]
     },
-    "Özellikle binlerce ürünlü sitelerde bu denetimi [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında düzenli yapıyorum. Sitenizin iç link yapısına birlikte bakmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasını inceleyebilir ya da [iletişim formundan](/iletisim) yazabilirsiniz."
+    "Özellikle binlerce ürünlü sitelerde bu denetimi [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında düzenli yapıyorum. Sitenizin iç link yapısına birlikte bakmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasını inceleyebilir ya da [iletişim formundan](/iletisim) yazabilirsiniz."
    ]
   }
  ],
@@ -229,9 +229,9 @@
     "Google's link best practices documentation is clear: Google uses links as a signal when determining the relevance of pages and to find new pages to crawl. The same document says every page you care about should have a link from at least one other page on your site.",
     "The technical requirement is simple too: Google can generally only crawl a link reliably if it is an a element with an href attribute. Buttons wired to a JavaScript click event, or elements without an href, may not count as links.",
     {
-     "kod": "<!-- Crawlable -->\n<a href=\"/en/guides/teknik-seo\">technical SEO guide</a>\n\n<!-- Not reliably crawlable -->\n<span onclick=\"go('/en/guides/teknik-seo')\">Read more</span>\n<a onclick=\"go('/en/guides/teknik-seo')\">Read more</a>"
+     "kod": "<!-- Crawlable -->\n<a href=\"/en/teknik-seo\">technical SEO guide</a>\n\n<!-- Not reliably crawlable -->\n<span onclick=\"go('/en/teknik-seo')\">Read more</span>\n<a onclick=\"go('/en/teknik-seo')\">Read more</a>"
     },
-    "Rendering and crawlability are covered in the [technical SEO guide](/en/guides/teknik-seo)."
+    "Rendering and crawlability are covered in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -260,7 +260,7 @@
       }
      }
     },
-    "Natural variety is enough internally: you can link to the same page with different phrases that still carry the topic. Managing anchor text in external backlinks is a separate subject, covered in the [anchor text strategy](/en/blog/anchor-text) article."
+    "Natural variety is enough internally: you can link to the same page with different phrases that still carry the topic. Managing anchor text in external backlinks is a separate subject, covered in the [anchor text strategy](/en/anchor-text) article."
    ]
   },
   {
@@ -303,7 +303,7 @@
       ]
      }
     },
-    "In e-commerce, the balance between category, filter and product links matters even more; see the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+    "In e-commerce, the balance between category, filter and product links matters even more; see the [e-commerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
@@ -334,14 +334,14 @@
       }
      ]
     },
-    "Some pages in the “Crawled – currently not indexed” list are simply pages with weak internal links, as explained in the article on [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis). On large sites, depth and parameter waste also tie directly into [crawl budget](/en/blog/crawl-butcesi)."
+    "Some pages in the “Crawled – currently not indexed” list are simply pages with weak internal links, as explained in the article on [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis). On large sites, depth and parameter waste also tie directly into [crawl budget](/en/crawl-butcesi)."
    ]
   },
   {
    "baslik": "How do you send authority to your important pages?",
    "paragraflar": [
     "On most sites, external links land mainly on the homepage and a few popular blog posts. Adding contextual links from those pages to the service or category pages that convert is the most practical way to move strength where it is needed.",
-    "The Links report in Search Console shows which pages earn the most external links. Then find paragraphs on those pages where a link to the related service fits naturally. How pillar and cluster pages should link is covered in [topical authority and the pillar-cluster model](/en/blog/topical-authority); the wider content planning framework is in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "The Links report in Search Console shows which pages earn the most external links. Then find paragraphs on those pages where a link to the related service fits naturally. How pillar and cluster pages should link is covered in [topical authority and the pillar-cluster model](/en/topical-authority); the wider content planning framework is in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
@@ -374,7 +374,7 @@
       ]
      }
     },
-    "If a migration left many old URLs, you can draft redirects with the [redirect rule generator](/en/tools/redirect-generator); updating internal links to the new addresses is still the real fix.",
+    "If a migration left many old URLs, you can draft redirects with the [redirect rule generator](/en/redirect-generator); updating internal links to the new addresses is still the real fix.",
     {
      "kontrol": [
       "Every important page gets at least one in-content link",
@@ -384,7 +384,7 @@
       "Links are a elements with href, not JavaScript events"
      ]
     },
-    "On stores with thousands of products I run this audit regularly as part of [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting). To review your internal linking together, see [SEO consulting](/en/seo-consulting) or [get in touch](/en/contact)."
+    "On stores with thousands of products I run this audit regularly as part of [e-commerce SEO consulting](/en/ecommerce-seo-consulting). To review your internal linking together, see [SEO consulting](/en/seo-consulting) or [get in touch](/en/contact)."
    ]
   }
  ],

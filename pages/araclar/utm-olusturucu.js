@@ -4,7 +4,7 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { HAZIR, olustur } from '../../lib/utm'
 
 // UTM link oluşturucu — tamamen tarayıcıda çalışır.
-// TR: /araclar/utm-olusturucu   EN: /en/tools/utm-builder
+// TR: /utm-olusturucu   EN: /en/utm-builder
 
 const ALAN_BILGI = [
   { k: 'utm_source', tr: 'Kaynak (utm_source)', en: 'Source (utm_source)', ornek: 'instagram, newsletter, google', zorunlu: true },
@@ -44,9 +44,9 @@ export default function UtmOlusturucu(props) {
 
   const icerik = isEn ? {
     baslik: 'UTM Link Builder',
-    metaBaslik: 'UTM Builder: Campaign URLs for Google Analytics 4',
-    metaDesc: 'Build consistent UTM-tagged campaign links for GA4 in seconds. Presets for Instagram, email and WhatsApp, lowercase and character clean-up, bulk URLs.',
-    giris: 'Add UTM parameters to campaign links so Google Analytics 4 shows exactly which post, email or ad brought each visit. The tool keeps naming consistent (lowercase, no spaces, no special characters) and estimates the GA4 channel. For setting up the reports, see the [GA4 SEO tracking article](/en/blog/ga4-seo-takibi).',
+    metaBaslik: 'UTM Builder for GA4 Campaign URLs | Free SEO Tool',
+    metaDesc: 'Build consistent UTM-tagged campaign links for GA4 in seconds, with presets for Instagram, email and WhatsApp, text clean-up and bulk URLs.',
+    giris: 'Add UTM parameters to campaign links so Google Analytics 4 shows exactly which post, email or ad brought each visit. The tool keeps naming consistent (lowercase, no spaces, no special characters) and estimates the GA4 channel. For setting up the reports, see the [GA4 SEO tracking article](/en/ga4-seo-takibi).',
     adimlar: [
       'Paste the page URL. To tag several pages with the same campaign, put one URL per line.',
       'Pick a preset or fill in source and medium (both required) and a campaign name. Use utm_content to tell apart variants in the same campaign, such as two stories or two buttons.',
@@ -57,13 +57,13 @@ export default function UtmOlusturucu(props) {
       { s: 'Why should I not use UTMs on internal links?', c: 'A UTM on an internal link makes GA4 attribute the visit to that campaign instead of the real source, such as organic search. Your SEO and ad numbers then look worse than they are. Use UTMs only on links that bring people to your site from outside.' },
       { s: 'Which parameters are required?', c: 'utm_source and utm_medium tell GA4 where the visit came from and through which channel; utm_campaign is strongly recommended. utm_term and utm_content are optional details.' },
       { s: 'Which medium should I use so GA4 puts the traffic in the right channel?', c: 'GA4\'s default channel group uses the medium and source. For example "email" goes to Email, "social" to Organic Social, and a paid medium such as "cpc" or "paid_social" with a social source to Paid Social. The tool shows an estimate; check the final channel in your GA4 reports.' },
-      { s: 'Do UTMs affect SEO?', c: 'Not directly, because you use them on external links. If a UTM link gets crawled, use a canonical tag on the page so Google indexes the clean URL. The [technical SEO guide](/en/guides/teknik-seo) explains canonicals.' },
+      { s: 'Do UTMs affect SEO?', c: 'Not directly, because you use them on external links. If a UTM link gets crawled, use a canonical tag on the page so Google indexes the clean URL. The [technical SEO guide](/en/teknik-seo) explains canonicals.' },
     ],
   } : {
     baslik: 'UTM Link Oluşturucu',
-    metaBaslik: 'UTM Oluşturucu: GA4 İçin Kampanya Linki Hazırlama',
-    metaDesc: 'GA4 için tutarlı UTM kampanya linklerini saniyeler içinde oluşturun. Instagram, e-posta, WhatsApp hazır ayarları, küçük harf ve karakter düzeltme, toplu URL.',
-    giris: 'Kampanya linklerinize UTM parametreleri ekleyin; Google Analytics 4 hangi gönderinin, e-postanın ya da reklamın ziyaret getirdiğini tam olarak göstersin. Araç adlandırmayı tutarlı tutar (küçük harf, boşluksuz, Türkçe karaktersiz) ve GA4 kanalını tahmin eder. Raporların kurulumu için [GA4\'te SEO takibi yazısına](/blog/ga4-seo-takibi) bakın.',
+    metaBaslik: 'UTM Kampanya Linki Oluşturucu | Ücretsiz SEO Aracı',
+    metaDesc: 'GA4 için tutarlı UTM kampanya linklerini hızla oluşturun. Instagram, e-posta ve WhatsApp hazır ayarları, harf düzeltme ve toplu URL desteği.',
+    giris: 'Kampanya linklerinize UTM parametreleri ekleyin; Google Analytics 4 hangi gönderinin, e-postanın ya da reklamın ziyaret getirdiğini tam olarak göstersin. Araç adlandırmayı tutarlı tutar (küçük harf, boşluksuz, Türkçe karaktersiz) ve GA4 kanalını tahmin eder. Raporların kurulumu için [GA4\'te SEO takibi yazısına](/ga4-seo-takibi) bakın.',
     adimlar: [
       'Sayfa adresini yapıştırın. Aynı kampanyayla birden fazla sayfayı etiketlemek için her satıra bir URL yazın.',
       'Hazır ayarlardan birini seçin ya da kaynak ve aracı (ikisi zorunlu) ve kampanya adını doldurun. Aynı kampanyadaki farklı sürümleri (iki hikâye, iki buton) ayırmak için utm_content kullanın.',
@@ -74,7 +74,7 @@ export default function UtmOlusturucu(props) {
       { s: 'Site içi linklerde neden UTM kullanmamalıyım?', c: 'Site içi bir linkteki UTM, GA4\'ün ziyareti gerçek kaynağı (ör. organik arama) yerine o kampanyaya yazmasına yol açar. SEO ve reklam rakamlarınız olduğundan kötü görünür. UTM\'yi yalnızca dışarıdan sitenize gelen linklerde kullanın.' },
       { s: 'Hangi parametreler zorunlu?', c: 'utm_source ve utm_medium, ziyaretin nereden ve hangi kanalla geldiğini GA4\'e söyler; utm_campaign de kuvvetle önerilir. utm_term ve utm_content isteğe bağlı ayrıntılardır.' },
       { s: 'GA4 trafiği doğru kanala koysun diye medium ne olmalı?', c: 'GA4 varsayılan kanal grubu medium ve source değerlerini kullanır. Örneğin "email" Email\'e, "social" Organic Social\'a, sosyal bir kaynakla "cpc" ya da "paid_social" gibi ücretli bir medium Paid Social\'a gider. Araç bir tahmin gösterir; nihai kanalı GA4 raporlarınızda kontrol edin.' },
-      { s: 'UTM SEO\'yu etkiler mi?', c: 'Doğrudan etkilemez, çünkü dış linklerde kullanırsınız. UTM\'li bir link taranırsa sayfadaki canonical etiketi Google\'ın temiz adresi dizine eklemesini sağlar. Canonical ayrıntısı [teknik SEO rehberinde](/rehber/teknik-seo).' },
+      { s: 'UTM SEO\'yu etkiler mi?', c: 'Doğrudan etkilemez, çünkü dış linklerde kullanırsınız. UTM\'li bir link taranırsa sayfadaki canonical etiketi Google\'ın temiz adresi dizine eklemesini sağlar. Canonical ayrıntısı [teknik SEO rehberinde](/teknik-seo).' },
     ],
   }
 
@@ -85,7 +85,7 @@ export default function UtmOlusturucu(props) {
   )
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/utm-olusturucu" yolEn="/en/tools/utm-builder" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
+    <AracSayfa isEn={isEn} yol="/utm-olusturucu" yolEn="/en/utm-builder" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
       giris={icerik.giris} adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['seo-raporlama', 'icerik-stratejisi', 'teknik-seo']}>
       <div style={{ display: 'grid', gap: '16px' }}>
         <div>

@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Yoast mu Rank Math mi? 2026'da WordPress SEO Eklentisi Seçimi",
  "baslik_en": "Yoast or Rank Math? Choosing a WordPress SEO Plugin in 2026",
- "meta_baslik_tr": "Yoast mu Rank Math mi? 2026 WordPress SEO Eklentisi",
- "meta_baslik_en": "Yoast or Rank Math? WordPress SEO Plugin Choice 2026",
- "meta_desc_tr": "Yoast SEO ve Rank Math'i resmi dokümanlardaki özelliklerle karşılaştırdım: ücretsiz sürümler, yönlendirme, schema, llms.txt ve hangi site için hangisi.",
- "meta_desc_en": "Yoast SEO and Rank Math compared on documented features: free tiers, redirects, schema, llms.txt, switching safely and which plugin suits which WordPress site",
+ "meta_baslik_tr": "Yoast mu Rank Math mi? WordPress SEO",
+ "meta_baslik_en": "Yoast or Rank Math? WordPress SEO",
+ "meta_desc_tr": "Yoast SEO ve Rank Math'i resmi dokümanlara göre karşılaştırdım. Ücretsiz sürümler, yönlendirme, schema, llms.txt ve siteniz için doğru seçim.",
+ "meta_desc_en": "Yoast SEO and Rank Math compared on documented features, from free tiers, redirects, schema and llms.txt to which plugin fits which WordPress site.",
  "ozet_tr": "Yoast SEO ve Rank Math'in resmi dokümanlardaki özellikleri, eklenti değiştirme adımları ve hangi site için hangisi.",
  "ozet_en": "Yoast SEO and Rank Math compared on documented features, with safe switching steps and a which-fits-when view.",
  "bolumler_tr": [
@@ -108,7 +108,7 @@
    "baslik": "Hangi durumda Yoast, hangi durumda Rank Math?",
    "paragraflar": [
     "İçerik ekibi kalabalık olan ve yazarların yazarken okunabilirlik ve anahtar kelime geri bildirimi almasını isteyen sitelerde Yoast'ın yerleşik okunabilirlik analizi ve sade akışı işe yarıyor. Yoast'ın otomatik kurduğu bağlı schema grafı da kurumsal kimliği tutarlı tanımlamak isteyenler için sağlam bir temel.",
-    "Ek eklenti kurmadan yönlendirme, 404 takibi ve Search Console verisini tek panelde görmek isteyen küçük ekipler için Rank Math'in ücretsiz sürümündeki modüller pratik. Ürün sayfası çok olan WooCommerce mağazalarında her iki eklentinin de e-ticaret tarafında sunduklarını resmi sayfalarından karşılaştırın. Altyapı kararı henüz verilmediyse [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) farklı seçenekleri ele alıyor.",
+    "Ek eklenti kurmadan yönlendirme, 404 takibi ve Search Console verisini tek panelde görmek isteyen küçük ekipler için Rank Math'in ücretsiz sürümündeki modüller pratik. Ürün sayfası çok olan WooCommerce mağazalarında her iki eklentinin de e-ticaret tarafında sunduklarını resmi sayfalarından karşılaştırın. Altyapı kararı henüz verilmediyse [e-ticaret altyapılarının SEO karşılaştırması](/e-ticaret-altyapisi-seo-karsilastirma) farklı seçenekleri ele alıyor.",
     "Halihazırda biri kurulu ve sorunsuz çalışıyorsa, yalnızca diğeri “daha popüler” diye değiştirmenin SEO'ya doğrudan bir katkısı yok. Eklenti, sıralamayı değil sizin ayar yapma kolaylığınızı belirler."
    ]
   },
@@ -126,20 +126,20 @@
       "Site haritası adresi değiştiyse yenisini Search Console'a gönderin."
      ]
     },
-    "Yönlendirme listesini düzenlemek için [301 yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) işinizi kolaylaştırır. Değişiklik sonrası bazı sayfalar dizinden düşerse [“Tarandı – şu anda dizine eklenmemiş” hatasının çözümü](/blog/tarandi-dizine-eklenmemis) teşhiste yardımcı olur. URL yapısı da değişecekse [site taşıma SEO rehberini](/rehber/site-tasima-seo) okuyun."
+    "Yönlendirme listesini düzenlemek için [301 yönlendirme oluşturucu](/yonlendirme-olusturucu) işinizi kolaylaştırır. Değişiklik sonrası bazı sayfalar dizinden düşerse [“Tarandı – şu anda dizine eklenmemiş” hatasının çözümü](/tarandi-dizine-eklenmemis) teşhiste yardımcı olur. URL yapısı da değişecekse [site taşıma SEO rehberini](/site-tasima-seo) okuyun."
    ]
   },
   {
    "baslik": "Eklenti tek başına yetmez: WordPress'te teknik SEO'nun geri kalanı",
    "paragraflar": [
-    "SEO eklentisi meta etiketleri, site haritasını ve temel schema'yı yönetir; ama hosting kalitesi, tema kodu, önbellekleme, görsel optimizasyonu ve iç link yapısı eklentinin dışında kalır. Bir eklentinin “yeşil ışık” vermesi sayfanın iyi sıralanacağı anlamına gelmez. Bütün resim için [teknik SEO rehberi](/rehber/teknik-seo) ve [Core Web Vitals](/blog/core-web-vitals-2025) yazısı iyi bir başlangıç.",
-    "Eklentinin ürettiği schema'yı genişletmek, örneğin LocalBusiness ya da kişi profillerini ayrıntılandırmak istiyorsanız [schema ve yapısal veri rehberi](/rehber/schema-yapisal-veri) ile [schema oluşturucu](/araclar/schema-olusturucu) aracına göz atabilirsiniz."
+    "SEO eklentisi meta etiketleri, site haritasını ve temel schema'yı yönetir; ama hosting kalitesi, tema kodu, önbellekleme, görsel optimizasyonu ve iç link yapısı eklentinin dışında kalır. Bir eklentinin “yeşil ışık” vermesi sayfanın iyi sıralanacağı anlamına gelmez. Bütün resim için [teknik SEO rehberi](/teknik-seo) ve [Core Web Vitals](/core-web-vitals-2025) yazısı iyi bir başlangıç.",
+    "Eklentinin ürettiği schema'yı genişletmek, örneğin LocalBusiness ya da kişi profillerini ayrıntılandırmak istiyorsanız [schema ve yapısal veri rehberi](/schema-yapisal-veri) ile [schema oluşturucu](/schema-olusturucu) aracına göz atabilirsiniz."
    ]
   },
   {
    "baslik": "llms.txt ve yapay zekâ özellikleri seçimi etkilemeli mi?",
    "paragraflar": [
-    "İki eklenti de llms.txt dosyası üretebiliyor; Yoast bu özelliği Haziran 2025'te ücretsiz sürüme ekledi, Rank Math'te ise panelden açılan bir modül olarak yer alıyor. llms.txt henüz yaygın kabul görmüş bir standart değil, bu yüzden etkisini abartmamak gerekiyor. Ne işe yaradığını ve sınırlarını [llms.txt rehberinde](/blog/llms-txt-rehberi) anlattım.",
+    "İki eklenti de llms.txt dosyası üretebiliyor; Yoast bu özelliği Haziran 2025'te ücretsiz sürüme ekledi, Rank Math'te ise panelden açılan bir modül olarak yer alıyor. llms.txt henüz yaygın kabul görmüş bir standart değil, bu yüzden etkisini abartmamak gerekiyor. Ne işe yaradığını ve sınırlarını [llms.txt rehberinde](/llms-txt-rehberi) anlattım.",
     "Yapay zekâ ile metin üretme özellikleri ise zaman kazandırabilir ama editoryal kontrolün yerini tutmaz. Bu özellikler bir eklentiyi seçmek için tek başına yeterli sebep değil. WordPress sitenizin teknik kurulumunu birlikte gözden geçirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmet sayfasına bakabilir ya da [iletişim](/iletisim) formundan yazabilirsiniz."
    ]
   }
@@ -242,7 +242,7 @@
    "baslik": "When should you choose Yoast, and when Rank Math?",
    "paragraflar": [
     "On sites with larger content teams, where writers benefit from readability and keyword feedback as they write, Yoast's built-in readability analysis and simple workflow work well. The connected schema graph Yoast builds automatically is also a solid base if you want your organisation described consistently.",
-    "For small teams that want redirects, 404 tracking and Search Console data in one panel without extra plugins, the modules in Rank Math's free version are practical. For WooCommerce stores with many product pages, compare what each plugin offers for e-commerce on its official pages. If the platform decision is still open, the [e-commerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) covers other options.",
+    "For small teams that want redirects, 404 tracking and Search Console data in one panel without extra plugins, the modules in Rank Math's free version are practical. For WooCommerce stores with many product pages, compare what each plugin offers for e-commerce on its official pages. If the platform decision is still open, the [e-commerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma) covers other options.",
     "If one of them is already installed and working well, switching just because the other seems more popular brings no direct SEO gain. The plugin determines how easily you configure things, not how you rank."
    ]
   },
@@ -260,20 +260,20 @@
       "If the sitemap URL changed, submit the new one in Search Console."
      ]
     },
-    "A [301 redirect generator](/en/tools/redirect-generator) makes it easier to tidy up the redirect list. If some pages drop out of the index after the switch, the post on [fixing “Crawled – currently not indexed”](/en/blog/tarandi-dizine-eklenmemis) helps with diagnosis. If URLs are changing too, read the [site migration SEO guide](/en/guides/site-tasima-seo)."
+    "A [301 redirect generator](/en/redirect-generator) makes it easier to tidy up the redirect list. If some pages drop out of the index after the switch, the post on [fixing “Crawled – currently not indexed”](/en/tarandi-dizine-eklenmemis) helps with diagnosis. If URLs are changing too, read the [site migration SEO guide](/en/site-tasima-seo)."
    ]
   },
   {
    "baslik": "A plugin isn't enough: the rest of technical SEO on WordPress",
    "paragraflar": [
-    "An SEO plugin manages meta tags, the sitemap and basic schema, but hosting quality, theme code, caching, image optimisation and internal linking sit outside it. A plugin's “green light” doesn't mean the page will rank well. For the full picture, the [technical SEO guide](/en/guides/teknik-seo) and the [Core Web Vitals](/en/blog/core-web-vitals-2025) post are good starting points.",
-    "If you want to extend the schema your plugin outputs, for instance by detailing LocalBusiness or author profiles, see the [schema and structured data guide](/en/guides/schema-yapisal-veri) and the [schema generator](/en/tools/schema-generator)."
+    "An SEO plugin manages meta tags, the sitemap and basic schema, but hosting quality, theme code, caching, image optimisation and internal linking sit outside it. A plugin's “green light” doesn't mean the page will rank well. For the full picture, the [technical SEO guide](/en/teknik-seo) and the [Core Web Vitals](/en/core-web-vitals-2025) post are good starting points.",
+    "If you want to extend the schema your plugin outputs, for instance by detailing LocalBusiness or author profiles, see the [schema and structured data guide](/en/schema-yapisal-veri) and the [schema generator](/en/schema-generator)."
    ]
   },
   {
    "baslik": "Should llms.txt and AI features influence your choice?",
    "paragraflar": [
-    "Both plugins can generate an llms.txt file; Yoast added it to the free version in June 2025, and Rank Math offers it as a module you switch on in the dashboard. llms.txt isn't a widely adopted standard yet, so its impact shouldn't be overstated. I cover what it does and its limits in the [llms.txt guide](/en/blog/llms-txt-rehberi).",
+    "Both plugins can generate an llms.txt file; Yoast added it to the free version in June 2025, and Rank Math offers it as a module you switch on in the dashboard. llms.txt isn't a widely adopted standard yet, so its impact shouldn't be overstated. I cover what it does and its limits in the [llms.txt guide](/en/llms-txt-rehberi).",
     "AI writing features can save time but don't replace editorial review, and on their own they aren't a reason to pick one plugin over the other. If you'd like to review your WordPress site's technical setup together, see [SEO consulting](/en/seo-consulting) or get in touch through the [contact](/en/contact) page."
    ]
   }

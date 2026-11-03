@@ -179,7 +179,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? `${SORULAR_EN.length}+ frequently asked questions about SEO, GEO and AI search consulting, pricing, timelines and how the collaboration process works from start to finish.` : `${SORULAR_TR.length}+ soru-cevap: SEO, GEO ve AI arama danışmanlığı, fiyatlandırma, süreçler ve iş birliğinin nasıl işlediği hakkında bilmeniz gereken her şey burada.`} />
+        <meta name="description" content={isEn ? `${SORULAR_EN.length}+ answers about SEO, GEO and AI search consulting, pricing, timelines and how the collaboration process works from start to finish.` : `SEO, GEO ve AI arama danışmanlığı, fiyatlandırma ve iş birliği süreci hakkında ${SORULAR_TR.length}+ soru ve cevap. Merak ettiklerinizin yanıtını burada bulun.`} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/faq' : 'https://fatihemincakiroglu.com/sss'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"FAQPage","mainEntity": filtered.slice(0,10).map(s => ({"@type":"Question","name":s.soru,"acceptedAnswer":{"@type":"Answer","text":s.cevap}})) }) }} />
       </Head>

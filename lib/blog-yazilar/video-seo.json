@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Video SEO: YouTube ve Google Aramada Videoları Görünür Kılmak",
  "baslik_en": "Video SEO: Making Videos Visible on YouTube and Google Search",
- "meta_baslik_tr": "Video SEO: YouTube ve Google Aramada Görünürlük",
- "meta_baslik_en": "Video SEO: Visibility on YouTube and Google Search",
- "meta_desc_tr": "İzleme sayfası, VideoObject yapısal verisi, video site haritası, önemli anlar ve YouTube bölümleri: Google'ın video dokümanına göre adım adım video SEO.",
- "meta_desc_en": "Watch pages, VideoObject structured data, video sitemaps, key moments and YouTube chapters: step-by-step video SEO based on Google's video documentation.",
+ "meta_baslik_tr": "Video SEO ile YouTube ve Google'da Görünürlük",
+ "meta_baslik_en": "Video SEO for YouTube and Google Search",
+ "meta_desc_tr": "İzleme sayfası, VideoObject yapısal verisi, video site haritası, önemli anlar ve YouTube bölümleriyle Google dokümanına dayalı adım adım video SEO.",
+ "meta_desc_en": "Watch pages, VideoObject structured data, video sitemaps, key moments and YouTube chapters in a step-by-step video SEO guide based on Google's docs.",
  "ozet_tr": "Videonuzun Google'da video sonucu olarak görünmesi için izleme sayfası, VideoObject, site haritası ve YouTube bölümleri.",
  "ozet_en": "Watch pages, VideoObject, video sitemaps and YouTube chapters to get your videos shown as video results on Google.",
  "bolumler_tr": [
@@ -24,7 +24,7 @@
   {
    "baslik": "Google videoyu nasıl bulur ve dizine ekler?",
    "paragraflar": [
-    "Google videoları sayfadaki <video>, <embed>, <iframe> ya da <object> gibi yaygın öğelerden bulur. Video yalnızca kullanıcı bir düğmeye tıkladığında yükleniyorsa ya da JavaScript ile ekleniyorsa, işlenmiş HTML'de görünüp görünmediğini kontrol etmek gerekir; render konusunun ayrıntısı [JavaScript SEO](/blog/javascript-seo) yazısında.",
+    "Google videoları sayfadaki <video>, <embed>, <iframe> ya da <object> gibi yaygın öğelerden bulur. Video yalnızca kullanıcı bir düğmeye tıkladığında yükleniyorsa ya da JavaScript ile ekleniyorsa, işlenmiş HTML'de görünüp görünmediğini kontrol etmek gerekir; render konusunun ayrıntısı [JavaScript SEO](/javascript-seo) yazısında.",
     {
      "akis": {
       "baslik": "Videonun dizine eklenme yolu",
@@ -79,7 +79,7 @@
       }
      }
     },
-    "Pratikte şu soruyu soruyorum: bu video aramada tek başına bir sonuç olmayı hak ediyor mu? Ediyorsa ona ayrı bir izleme sayfası açın; diğer videolar için sayfayı metin sonucu olarak optimize etmek yeterlidir. Hangi konulara video ayıracağınızı [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet analiziyle belirleyebilirsiniz."
+    "Pratikte şu soruyu soruyorum: bu video aramada tek başına bir sonuç olmayı hak ediyor mu? Ediyorsa ona ayrı bir izleme sayfası açın; diğer videolar için sayfayı metin sonucu olarak optimize etmek yeterlidir. Hangi konulara video ayıracağınızı [içerik stratejisi rehberindeki](/icerik-stratejisi) niyet analiziyle belirleyebilirsiniz."
    ]
   },
   {
@@ -135,7 +135,7 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Implant tedavisi adım adım\",\n  \"description\": \"Muayeneden kontrole implant sürecinin aşamaları.\",\n  \"thumbnailUrl\": [\"https://www.ornek.com.tr/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Örnek Klinik\"}\n}\n</script>"
     },
-    "Google işaretlemenin belirli bir video özelliği üreteceğini taahhüt etmiyor. Şema türlerinin genel mantığı için [schema ve yapısal veri rehberine](/rehber/schema-yapisal-veri) bakın; JSON-LD'yi elle yazmak istemiyorsanız [schema oluşturucu](/araclar/schema-olusturucu) aracını kullanabilirsiniz."
+    "Google işaretlemenin belirli bir video özelliği üreteceğini taahhüt etmiyor. Şema türlerinin genel mantığı için [schema ve yapısal veri rehberine](/schema-yapisal-veri) bakın; JSON-LD'yi elle yazmak istemiyorsanız [schema oluşturucu](/schema-olusturucu) aracını kullanabilirsiniz."
    ]
   },
   {
@@ -151,7 +151,7 @@
       "video:content_loc veya video:player_loc: ikisinden biri zorunlu; dokümana göre mümkünse content_loc tercih edilmeli"
      ]
     },
-    "Dokümana göre video:category ve video:gallery_loc gibi bazı etiketler kullanımdan kaldırıldı; eski eklentilerin ürettiği haritaları bu açıdan kontrol edin. Site haritalarının genel kurgusu için [teknik SEO rehberi](/rehber/teknik-seo) yol gösterir."
+    "Dokümana göre video:category ve video:gallery_loc gibi bazı etiketler kullanımdan kaldırıldı; eski eklentilerin ürettiği haritaları bu açıdan kontrol edin. Site haritalarının genel kurgusu için [teknik SEO rehberi](/teknik-seo) yol gösterir."
    ]
   },
   {
@@ -177,7 +177,7 @@
       }
      ]
     },
-    "Önemli anların gösterilmesini istemiyorsanız sayfada nosnippet kullanılabilir. Video sonuçlarının diğer SERP özellikleriyle ilişkisini [featured snippet ve SERP özellikleri](/blog/featured-snippet-serp-ozellikleri) yazısında ele aldım."
+    "Önemli anların gösterilmesini istemiyorsanız sayfada nosnippet kullanılabilir. Video sonuçlarının diğer SERP özellikleriyle ilişkisini [featured snippet ve SERP özellikleri](/featured-snippet-serp-ozellikleri) yazısında ele aldım."
    ]
   },
   {
@@ -199,7 +199,7 @@
   {
    "baslik": "Video performansını Search Console'da izlemek",
    "paragraflar": [
-    "Search Console'daki video dizine ekleme raporu, dizine eklenmiş izleme sayfalarınızın kaçında dizine eklenmiş video olduğunu ve diğerlerinin neden eklenmediğini gösterir. Performans raporunda Videolar arama görünümü filtresiyle video sonuçlarından gelen tıklamaları ayırabilirsiniz; temeller [Search Console rehberi](/blog/search-console-rehberi) yazısında.",
+    "Search Console'daki video dizine ekleme raporu, dizine eklenmiş izleme sayfalarınızın kaçında dizine eklenmiş video olduğunu ve diğerlerinin neden eklenmediğini gösterir. Performans raporunda Videolar arama görünümü filtresiyle video sonuçlarından gelen tıklamaları ayırabilirsiniz; temeller [Search Console rehberi](/search-console-rehberi) yazısında.",
     "Temmuz 2026'dan itibaren Search Console, YouTube kanallarını da platform mülkü olarak eklemeye izin veriyor; yardım sayfasına göre özellik kademeli olarak kullanıma sunuluyor ve yalnızca Google Arama'daki etkinliği ölçüyor, YouTube içindeki izlenmeleri değil.",
     "Video içeriği planlama ve izleme sayfası kurulumunu [içerik hizmeti](/icerik) kapsamında birlikte yapabiliriz. Sitenizdeki videoların neden video sonucu almadığını teşhis etmek için [SEO uzmanı](/seo-uzmani) olarak kısa bir [ön görüşme randevusu](/randevu) almanız yeterli."
    ]
@@ -219,7 +219,7 @@
   {
    "baslik": "How does Google find and index videos?",
    "paragraflar": [
-    "Google finds videos through common elements such as <video>, <embed>, <iframe> or <object>. If the video loads only after a user clicks, or is injected with JavaScript, check that it appears in the rendered HTML; rendering is covered in [JavaScript SEO](/en/blog/javascript-seo).",
+    "Google finds videos through common elements such as <video>, <embed>, <iframe> or <object>. If the video loads only after a user clicks, or is injected with JavaScript, check that it appears in the rendered HTML; rendering is covered in [JavaScript SEO](/en/javascript-seo).",
     {
      "akis": {
       "baslik": "How a video gets indexed",
@@ -274,7 +274,7 @@
       }
      }
     },
-    "In practice I ask: does this video deserve to be a search result on its own? If so, give it a dedicated watch page; otherwise optimize the page as a text result. The [content strategy guide](/en/guides/icerik-stratejisi) helps decide which topics deserve video."
+    "In practice I ask: does this video deserve to be a search result on its own? If so, give it a dedicated watch page; otherwise optimize the page as a text result. The [content strategy guide](/en/icerik-stratejisi) helps decide which topics deserve video."
    ]
   },
   {
@@ -330,7 +330,7 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Dental implant treatment step by step\",\n  \"description\": \"The stages of implant treatment from exam to follow-up.\",\n  \"thumbnailUrl\": [\"https://www.example.com/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Example Clinic\"}\n}\n</script>"
     },
-    "Google does not promise that markup will produce a specific video feature. For how schema types fit together, see the [schema and structured data guide](/en/guides/schema-yapisal-veri); if you would rather not hand-write JSON-LD, use the [schema generator](/en/tools/schema-generator)."
+    "Google does not promise that markup will produce a specific video feature. For how schema types fit together, see the [schema and structured data guide](/en/schema-yapisal-veri); if you would rather not hand-write JSON-LD, use the [schema generator](/en/schema-generator)."
    ]
   },
   {
@@ -346,7 +346,7 @@
       "video:content_loc or video:player_loc: one is required; the documentation prefers content_loc when available"
      ]
     },
-    "Several tags, such as video:category and video:gallery_loc, are deprecated, so check sitemaps from older plugins. For sitemaps in general, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "Several tags, such as video:category and video:gallery_loc, are deprecated, so check sitemaps from older plugins. For sitemaps in general, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -372,7 +372,7 @@
       }
      ]
     },
-    "To opt out of key moments, you can use nosnippet on the page. I cover how video results relate to other SERP features in [featured snippets and SERP features](/en/blog/featured-snippet-serp-ozellikleri)."
+    "To opt out of key moments, you can use nosnippet on the page. I cover how video results relate to other SERP features in [featured snippets and SERP features](/en/featured-snippet-serp-ozellikleri)."
    ]
   },
   {
@@ -394,7 +394,7 @@
   {
    "baslik": "Tracking video performance in Search Console",
    "paragraflar": [
-    "Search Console's video indexing report shows how many indexed watch pages contain an indexed video and why others were not indexed. The Videos search appearance filter in the Performance report isolates video clicks; basics are in the [Search Console guide](/en/blog/search-console-rehberi).",
+    "Search Console's video indexing report shows how many indexed watch pages contain an indexed video and why others were not indexed. The Videos search appearance filter in the Performance report isolates video clicks; basics are in the [Search Console guide](/en/search-console-rehberi).",
     "Since July 2026, Search Console also lets you add YouTube channels as platform properties. The help page says the feature is rolling out gradually and tracks activity on Google Search only, not views on YouTube itself.",
     "We can plan video content and watch pages together through [content strategy](/en/content-strategy). To find out why your videos get no video results, [book a short intro call](/en/book-a-call) for an [SEO consulting](/en/seo-consulting) review."
    ]

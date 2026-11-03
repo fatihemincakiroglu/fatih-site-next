@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Meta Ads ve SEO Birlikte: Reklam Verisini İçerik Stratejisine Taşımak",
  "baslik_en": "Meta Ads and SEO Together: Turning Ad Data into Content Strategy",
- "meta_baslik_tr": "Meta Ads ve SEO: Reklam Verisini İçeriğe Taşımak",
- "meta_baslik_en": "Meta Ads and SEO: Turning Ad Data into Content",
- "meta_desc_tr": "Meta reklam testlerinden içerik içgörüsü çıkarmak, açılış sayfasını iki kanala göre kurmak ve marka araması etkisini ölçmenin sınırlarını bilmek.",
- "meta_desc_en": "How to pull content insight from Meta ad tests, build landing pages for both channels and understand the limits of measuring branded search impact.",
+ "meta_baslik_tr": "Meta Ads Verisini SEO İçeriğine Taşımak",
+ "meta_baslik_en": "Turning Meta Ads Data into SEO Content",
+ "meta_desc_tr": "Meta reklam testlerinden içerik içgörüsü çıkarın, açılış sayfasını iki kanala göre kurun ve marka araması etkisini ölçmenin sınırlarını öğrenin.",
+ "meta_desc_en": "Pull content insight from Meta ad tests, build landing pages that serve both channels and understand the limits of measuring branded search impact.",
  "ozet_tr": "Meta reklam testlerini içerik kararlarına çevirmek ve marka araması etkisini dürüstçe ölçmek.",
  "ozet_en": "Turning Meta ad tests into content decisions and measuring branded search impact honestly.",
  "bolumler_tr": [
@@ -87,7 +87,7 @@
       ]
      }
     },
-    "Son satırdaki uyarı önemli: Sosyal akışta ilgi çeken bir mesaj, Google'da aranan bir konu olmayabilir. Talebi [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemlerle doğrulamadan sayfa açmayın."
+    "Son satırdaki uyarı önemli: Sosyal akışta ilgi çeken bir mesaj, Google'da aranan bir konu olmayabilir. Talebi [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) yöntemlerle doğrulamadan sayfa açmayın."
    ]
   },
   {
@@ -102,7 +102,7 @@
       "Rakiplerle hangi karşılaştırma yapılıyor?"
      ]
     },
-    "Bu listeden çıkan sorular, ürün sayfası SSS'lerine ve blog konularına dönüşebilir. İçerik planını kurarken [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) kümeleme yaklaşımını kullanmak, tek tek sorulara dağınık yazılar açmaktan daha sağlıklı."
+    "Bu listeden çıkan sorular, ürün sayfası SSS'lerine ve blog konularına dönüşebilir. İçerik planını kurarken [içerik stratejisi rehberindeki](/icerik-stratejisi) kümeleme yaklaşımını kullanmak, tek tek sorulara dağınık yazılar açmaktan daha sağlıklı."
    ]
   },
   {
@@ -131,7 +131,7 @@
       }
      }
     },
-    "Kampanyaya özel, kısa ömürlü ve içeriği zayıf sayfalar açıyorsanız bunları arama sonuçlarına açmak zorunda değilsiniz. Kalıcı sayfalarda ise üst kısımda net fayda ve görsel, alt kısımda organik ziyaretçinin aradığı ayrıntı dengesi iyi çalışıyor. Dönüşüm tarafının ayrıntılarını [CRO ve SEO](/blog/cro-ve-seo) yazısında ele aldım."
+    "Kampanyaya özel, kısa ömürlü ve içeriği zayıf sayfalar açıyorsanız bunları arama sonuçlarına açmak zorunda değilsiniz. Kalıcı sayfalarda ise üst kısımda net fayda ve görsel, alt kısımda organik ziyaretçinin aradığı ayrıntı dengesi iyi çalışıyor. Dönüşüm tarafının ayrıntılarını [CRO ve SEO](/cro-ve-seo) yazısında ele aldım."
    ]
   },
   {
@@ -145,14 +145,14 @@
       "metin": "Search Console'da marka sorgularının kampanya dönemiyle aynı anda yükselmesi bir ipucudur, kanıt değildir. Raporlarda \"reklam marka aramasını şu kadar artırdı\" gibi kesin ifadelerden kaçının."
      }
     },
-    "Daha güvenilir bir okuma için kontrollü yaklaşım gerekir. Kampanyayı yalnızca bazı şehirlerde açıp diğerleriyle marka araması eğilimini karşılaştırmak, kampanya öncesi ve sonrası dönemleri mevsimselliği hesaba katarak kıyaslamak işe yarayabilir. Meta da uygun hesaplarda lift (artış) ölçümü gibi deneysel yöntemler sunuyor; erişim koşulları hesaba göre değişebildiği için güncel durumu Meta'nın yardım merkezinden kontrol edin. Marka sinyallerinin genel resmi için [marka bahsi ve brand mention](/blog/marka-bahsi-brand-mention) yazısına da bakabilirsiniz."
+    "Daha güvenilir bir okuma için kontrollü yaklaşım gerekir. Kampanyayı yalnızca bazı şehirlerde açıp diğerleriyle marka araması eğilimini karşılaştırmak, kampanya öncesi ve sonrası dönemleri mevsimselliği hesaba katarak kıyaslamak işe yarayabilir. Meta da uygun hesaplarda lift (artış) ölçümü gibi deneysel yöntemler sunuyor; erişim koşulları hesaba göre değişebildiği için güncel durumu Meta'nın yardım merkezinden kontrol edin. Marka sinyallerinin genel resmi için [marka bahsi ve brand mention](/marka-bahsi-brand-mention) yazısına da bakabilirsiniz."
    ]
   },
   {
    "baslik": "Ölçüm altyapısı: UTM, Meta Pixel ve Conversions API",
    "paragraflar": [
-    "Reklam ve organik trafiği karşılaştırabilmek için önce ayırabilmek gerekir. Meta reklam bağlantılarına tutarlı UTM parametreleri eklemek, GA4'te bu trafiğin organik sosyal ve organik arama ile karışmasını önler. Organik kanalın kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım.",
-    "Meta tarafında Meta Pixel tarayıcı üzerinden, Conversions API ise Meta'nın geliştirici dokümanına göre sunucu tarafından dönüşüm olaylarını iletir. İkisi birlikte kullanıldığında aynı olayın iki kez sayılmaması için tekilleştirme ayarını kontrol etmek gerekir. Kanal raporlarını tek bir çerçevede toplamak için [SEO raporlama rehberi](/rehber/seo-raporlama) iyi bir referans."
+    "Reklam ve organik trafiği karşılaştırabilmek için önce ayırabilmek gerekir. Meta reklam bağlantılarına tutarlı UTM parametreleri eklemek, GA4'te bu trafiğin organik sosyal ve organik arama ile karışmasını önler. Organik kanalın kurulumunu [GA4'te organik trafik takibi](/ga4-seo-takibi) yazısında anlattım.",
+    "Meta tarafında Meta Pixel tarayıcı üzerinden, Conversions API ise Meta'nın geliştirici dokümanına göre sunucu tarafından dönüşüm olaylarını iletir. İkisi birlikte kullanıldığında aynı olayın iki kez sayılmaması için tekilleştirme ayarını kontrol etmek gerekir. Kanal raporlarını tek bir çerçevede toplamak için [SEO raporlama rehberi](/seo-raporlama) iyi bir referans."
    ]
   },
   {
@@ -185,12 +185,12 @@
       ]
      }
     },
-    "Bu döngüyü kuran şirketlerde reklam ve SEO ekipleri aynı toplantıda aynı veriye bakmaya başlıyor. Bütçeyi kanallar arasında nasıl böleceğinize dair çerçeve için [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısı yol gösterebilir. İçerik üretimi için [SEO içerik hizmetine](/icerik), kanal ölçümü ve büyüme için [performans hizmetine](/performans) göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz.",
+    "Bu döngüyü kuran şirketlerde reklam ve SEO ekipleri aynı toplantıda aynı veriye bakmaya başlıyor. Bütçeyi kanallar arasında nasıl böleceğinize dair çerçeve için [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısı yol gösterebilir. İçerik üretimi için [SEO içerik hizmetine](/icerik), kanal ölçümü ve büyüme için [performans hizmetine](/performans) göz atabilir ya da [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: UTM link oluşturucu",
-      "metin": "Reklam ve organik gönderi linklerinizi GA4'te karşılaştırılabilir tutmak için [UTM link oluşturucuyu](/araclar/utm-olusturucu) kullanın; küçük harf ve tutarlı kaynak adları raporu temiz tutar."
+      "metin": "Reklam ve organik gönderi linklerinizi GA4'te karşılaştırılabilir tutmak için [UTM link oluşturucuyu](/utm-olusturucu) kullanın; küçük harf ve tutarlı kaynak adları raporu temiz tutar."
      }
     }
    ]
@@ -299,7 +299,7 @@
       ]
      }
     },
-    "The last row matters: a message that grabs attention in a feed may not be something people search for. Validate demand with the methods in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) before creating a page."
+    "The last row matters: a message that grabs attention in a feed may not be something people search for. Validate demand with the methods in the [keyword research guide](/en/anahtar-kelime-arastirmasi) before creating a page."
    ]
   },
   {
@@ -314,7 +314,7 @@
       "Which competitor comparisons come up?"
      ]
     },
-    "The resulting questions can become product page FAQs and blog topics. The clustering approach in the [content strategy guide](/en/guides/icerik-stratejisi) works better than scattering one post per question."
+    "The resulting questions can become product page FAQs and blog topics. The clustering approach in the [content strategy guide](/en/icerik-stratejisi) works better than scattering one post per question."
    ]
   },
   {
@@ -343,7 +343,7 @@
       }
      }
     },
-    "Short-lived, thin campaign pages do not need to be open to search results. On permanent pages, a clear benefit and visual at the top with the detail organic visitors need further down works well. I cover conversion in [CRO and SEO](/en/blog/cro-ve-seo)."
+    "Short-lived, thin campaign pages do not need to be open to search results. On permanent pages, a clear benefit and visual at the top with the detail organic visitors need further down works well. I cover conversion in [CRO and SEO](/en/cro-ve-seo)."
    ]
   },
   {
@@ -357,14 +357,14 @@
       "metin": "Branded queries rising in Search Console during a campaign are a clue, not evidence. Avoid definitive report lines such as \"ads increased branded search by X\"."
      }
     },
-    "A more reliable reading needs a controlled approach: running the campaign only in some cities and comparing branded search trends with the rest, or comparing before and after periods while accounting for seasonality. Meta also offers experimental methods such as lift measurement for eligible accounts; access varies, so check Meta's help centre for current conditions. For the wider picture of brand signals, see [brand mentions](/en/blog/marka-bahsi-brand-mention)."
+    "A more reliable reading needs a controlled approach: running the campaign only in some cities and comparing branded search trends with the rest, or comparing before and after periods while accounting for seasonality. Meta also offers experimental methods such as lift measurement for eligible accounts; access varies, so check Meta's help centre for current conditions. For the wider picture of brand signals, see [brand mentions](/en/marka-bahsi-brand-mention)."
    ]
   },
   {
    "baslik": "Measurement setup: UTM, Meta Pixel and Conversions API",
    "paragraflar": [
-    "To compare ad and organic traffic, you first have to separate them. Consistent UTM parameters on Meta ad links stop that traffic blending with organic social and organic search in GA4. I cover the organic setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi).",
-    "On the Meta side, the Meta Pixel sends conversion events from the browser, while according to Meta's developer documentation the Conversions API sends them from the server. When you use both, check deduplication so the same event is not counted twice. The [SEO reporting guide](/en/guides/seo-raporlama) is a useful reference for bringing channel reports into one frame."
+    "To compare ad and organic traffic, you first have to separate them. Consistent UTM parameters on Meta ad links stop that traffic blending with organic social and organic search in GA4. I cover the organic setup in [organic traffic tracking in GA4](/en/ga4-seo-takibi).",
+    "On the Meta side, the Meta Pixel sends conversion events from the browser, while according to Meta's developer documentation the Conversions API sends them from the server. When you use both, check deduplication so the same event is not counted twice. The [SEO reporting guide](/en/seo-raporlama) is a useful reference for bringing channel reports into one frame."
    ]
   },
   {
@@ -397,12 +397,12 @@
       ]
      }
     },
-    "Where this loop exists, ad and SEO teams start looking at the same data in the same meeting. For splitting budget between channels, [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi) offers a framework. See [content strategy services](/en/content-strategy) for production, [performance and growth](/en/performance-growth) for channel measurement, or reach me via the [contact page](/en/contact).",
+    "Where this loop exists, ad and SEO teams start looking at the same data in the same meeting. For splitting budget between channels, [SEO or Google Ads](/en/seo-mu-google-ads-mi) offers a framework. See [content strategy services](/en/content-strategy) for production, [performance and growth](/en/performance-growth) for channel measurement, or reach me via the [contact page](/en/contact).",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: UTM link builder",
-      "metin": "Use the [UTM link builder](/en/tools/utm-builder) to keep ad and organic post links comparable in GA4; lowercase, consistent source names keep reports clean."
+      "metin": "Use the [UTM link builder](/en/utm-builder) to keep ad and organic post links comparable in GA4; lowercase, consistent source names keep reports clean."
      }
     }
    ]

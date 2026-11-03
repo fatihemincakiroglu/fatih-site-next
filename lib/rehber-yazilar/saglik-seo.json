@@ -2,10 +2,10 @@
  "kategori": "Strateji",
  "baslik_tr": "Sağlık Sektörü SEO Rehberi: Klinik ve Hekim Siteleri için YMYL, E-E-A-T ve Sağlık Turizmi",
  "baslik_en": "Healthcare SEO Guide: YMYL, E-E-A-T and Medical Tourism for Clinic and Doctor Websites",
- "meta_baslik_tr": "Sağlık SEO Rehberi: Klinik ve Hekim Siteleri",
- "meta_baslik_en": "Healthcare SEO Guide: Clinic and Doctor Websites",
- "meta_desc_tr": "Klinik ve hekim siteleri için sağlık SEO: YMYL ve E-E-A-T, hekim profilleri, tedavi sayfaları, yerel SEO, çok dilli sağlık turizmi ve yasal hassasiyetler.",
- "meta_desc_en": "Healthcare SEO for clinics and doctors: YMYL and E-E-A-T, physician profiles, treatment pages, local SEO, multilingual medical tourism and legal risks.",
+ "meta_baslik_tr": "Sağlık SEO, Klinik ve Hekim Siteleri",
+ "meta_baslik_en": "Healthcare SEO for Clinic and Doctor Sites",
+ "meta_desc_tr": "Klinik ve hekim siteleri için sağlık SEO rehberi. YMYL ve E-E-A-T, hekim profilleri, tedavi sayfaları, yerel SEO, sağlık turizmi ve yasal riskler.",
+ "meta_desc_en": "Healthcare SEO for clinics and doctors, covering YMYL and E-E-A-T, physician profiles, treatment pages, local SEO, medical tourism and legal risks.",
  "ozet_tr": "Klinik ve hekim siteleri için güven odaklı SEO: uzman profilleri, tedavi sayfaları, yerel görünürlük, çok dilli yapı ve mevzuat.",
  "ozet_en": "Trust-first SEO for clinics and doctors: expert profiles, treatment pages, local visibility, multilingual setup and regulation.",
  "bolumler_tr": [
@@ -23,7 +23,7 @@
    "baslik": "Sağlık siteleri neden YMYL kapsamında ve E-E-A-T ne anlama gelir?",
    "paragraflar": [
     "Google'ın arama kalitesi değerlendirici yönergelerinde YMYL (Your Money or Your Life), kişinin sağlığını, maddi durumunu veya güvenliğini etkileyebilecek konular için kullanılır. Sağlık bu kapsamın merkezindedir. Aynı yönergelerdeki E-E-A-T kavramı ise deneyim (Experience), uzmanlık (Expertise), otorite (Authoritativeness) ve güvenilirlik (Trust) anlamına gelir; güvenilirlik bunların en önemlisi olarak tanımlanır.",
-    "Değerlendiricilerin puanları sıralamayı doğrudan değiştirmez; Google bu yönergeleri sistemlerinin hedeflediği kaliteyi tarif etmek için kullanır. Pratikte bunun anlamı şu: Sağlık sitesinde yazarı belirsiz, kaynaksız, güncellenmemiş içerik, rakip sitelerdeki hekim imzalı ve kaynaklı içerik karşısında zayıf kalır. İçerik planını bu çerçeveye göre kurmanın genel yöntemini [içerik stratejisi rehberi](/rehber/icerik-stratejisi) anlatıyor."
+    "Değerlendiricilerin puanları sıralamayı doğrudan değiştirmez; Google bu yönergeleri sistemlerinin hedeflediği kaliteyi tarif etmek için kullanır. Pratikte bunun anlamı şu: Sağlık sitesinde yazarı belirsiz, kaynaksız, güncellenmemiş içerik, rakip sitelerdeki hekim imzalı ve kaynaklı içerik karşısında zayıf kalır. İçerik planını bu çerçeveye göre kurmanın genel yöntemini [içerik stratejisi rehberi](/icerik-stratejisi) anlatıyor."
    ]
   },
   {
@@ -79,13 +79,13 @@
       ]
      }
     },
-    "Tedavi sayfalarında riskleri ve herkes için uygun olmadığını açıkça yazmak, hem etik hem de güven açısından doğru olandır. Kesin sonuç vaadi, abartılı başarı ifadeleri ve korkutucu dil kullanmayın. Hangi konulara sayfa açılacağını belirlerken hastaların gerçekten aradığı ifadeleri bulmak için [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) yapın; tıbbi terim ile halkın kullandığı ifade çoğu zaman farklıdır."
+    "Tedavi sayfalarında riskleri ve herkes için uygun olmadığını açıkça yazmak, hem etik hem de güven açısından doğru olandır. Kesin sonuç vaadi, abartılı başarı ifadeleri ve korkutucu dil kullanmayın. Hangi konulara sayfa açılacağını belirlerken hastaların gerçekten aradığı ifadeleri bulmak için [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) yapın; tıbbi terim ile halkın kullandığı ifade çoğu zaman farklıdır."
    ]
   },
   {
    "baslik": "Klinikler için yerel SEO: harita, şubeler ve hasta yorumları",
    "paragraflar": [
-    "Hastaların büyük kısmı kliniği yakınlığa göre seçtiği için yerel görünürlük sağlık SEO'sunun temel parçasıdır. Profil kurulumu ve kategori seçimi için [Google Business Profile optimizasyonu](/blog/google-business-profile) yazısını, şube sayfaları ve NAP tutarlılığı için [yerel SEO rehberini](/rehber/yerel-seo) izleyebilirsiniz. Google'ın yönergeleri, kurum profilinin yanı sıra belirli koşullarda hekimler için ayrı profil açılmasına da izin verir; bu kararı yönergeleri inceleyerek verin.",
+    "Hastaların büyük kısmı kliniği yakınlığa göre seçtiği için yerel görünürlük sağlık SEO'sunun temel parçasıdır. Profil kurulumu ve kategori seçimi için [Google Business Profile optimizasyonu](/google-business-profile) yazısını, şube sayfaları ve NAP tutarlılığı için [yerel SEO rehberini](/yerel-seo) izleyebilirsiniz. Google'ın yönergeleri, kurum profilinin yanı sıra belirli koşullarda hekimler için ayrı profil açılmasına da izin verir; bu kararı yönergeleri inceleyerek verin.",
     "Hasta yorumlarına yanıt verirken en kritik kural gizliliktir. Yanıtta kişinin hasta olduğunu doğrulayan, tanı veya tedavi ayrıntısı içeren hiçbir bilgi yer almamalı. Olumsuz yorumlarda genel, saygılı bir yanıt verip görüşmeyi telefon veya e-posta gibi özel bir kanala taşımak en güvenli yoldur.",
     "İstanbul'da birden fazla ilçede hizmet veren kliniklerde her şubenin kendi sayfası ve profili olmalı. Bu yapının bir danışmanlık sitesindeki karşılığını [Şişli SEO uzmanı](/sisli-seo-uzmani) gibi ilçe sayfalarında görebilirsiniz."
    ]
@@ -102,7 +102,7 @@
       "**FAQPage**: sayfada gerçekten soru-cevap bölümü varsa"
      ]
     },
-    "FAQ konusunda beklentiyi doğru kurmak gerekiyor: Google, SSS zengin sonuçlarını 2023'te yetkili devlet ve sağlık siteleriyle sınırladı, 7 Mayıs 2026'dan itibaren ise hiç göstermiyor. Bu yüzden zengin sonuç beklemeyin; FAQPage işaretlemesini zengin sonuç için değil, içeriğin anlaşılması için kullanın. Varlıkları @id ile birbirine bağlamanın ayrıntıları [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde."
+    "FAQ konusunda beklentiyi doğru kurmak gerekiyor: Google, SSS zengin sonuçlarını 2023'te yetkili devlet ve sağlık siteleriyle sınırladı, 7 Mayıs 2026'dan itibaren ise hiç göstermiyor. Bu yüzden zengin sonuç beklemeyin; FAQPage işaretlemesini zengin sonuç için değil, içeriğin anlaşılması için kullanın. Varlıkları @id ile birbirine bağlamanın ayrıntıları [schema yapısal veri rehberi](/schema-yapisal-veri) içinde."
    ]
   },
   {
@@ -118,7 +118,7 @@
       "Sağdan sola yazılan diller için tasarımın doğru çalıştığını test edin."
      ]
     },
-    "Hreflang, taranabilirlik ve hız gibi altyapı konuları için [teknik SEO temelleri](/rehber/teknik-seo) rehberine bakabilirsiniz."
+    "Hreflang, taranabilirlik ve hız gibi altyapı konuları için [teknik SEO temelleri](/teknik-seo) rehberine bakabilirsiniz."
    ]
   },
   {
@@ -126,7 +126,7 @@
    "paragraflar": [
     "Türkiye'de sağlık hizmetlerinin tanıtımı ve reklamı mevzuatla sınırlandırılmıştır ve kurallar sağlık kuruluşunun türüne göre farklılaşabilir. Hasta yorumlarının tanıtım amaçlı kullanımı, önce-sonra görselleri, fiyat ve kampanya duyuruları, üstünlük iddiaları gibi konular bu açıdan ayrıca değerlendirilmesi gereken alanlardır. Burada genel bir çerçeve çiziyorum; site içeriği ve pazarlama planı için mutlaka sağlık hukuku alanında hukuki danışmanlık alın.",
     "Sağlık verileri, kişisel verilerin korunması mevzuatında özel nitelikli veri olarak ayrıca korunur. Randevu formları, WhatsApp yönlendirmeleri ve analitik araçlarının hangi bilgileri topladığını gözden geçirin; formlarda gereğinden fazla sağlık bilgisi istemeyin.",
-    "Hastalar sorularını giderek daha fazla Google AI Overviews, ChatGPT veya Gemini gibi asistanlara da soruyor. Bu cevaplarda kaynak gösterilen site olmak için hekim imzalı, net ve alıntılanabilir içerikler gerekir; yöntemini [GEO uygulama rehberi](/rehber/geo-uygulama) ve [GEO uzmanı](/geo-uzmani) hizmet sayfası anlatıyor. Randevu talepleri ve organik trafiği birlikte izlemek için [SEO raporlama rehberini](/rehber/seo-raporlama) kullanın.",
+    "Hastalar sorularını giderek daha fazla Google AI Overviews, ChatGPT veya Gemini gibi asistanlara da soruyor. Bu cevaplarda kaynak gösterilen site olmak için hekim imzalı, net ve alıntılanabilir içerikler gerekir; yöntemini [GEO uygulama rehberi](/geo-uygulama) ve [GEO uzmanı](/geo-uzmani) hizmet sayfası anlatıyor. Randevu talepleri ve organik trafiği birlikte izlemek için [SEO raporlama rehberini](/seo-raporlama) kullanın.",
     "Kliniğinizin sitesini bu çerçevede değerlendirmek isterseniz [SEO uzmanı](/seo-uzmani) hizmet kapsamına göz atabilir ya da [bir ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
@@ -146,7 +146,7 @@
    "baslik": "Why healthcare sites fall under YMYL and what E-E-A-T means",
    "paragraflar": [
     "Google's Search Quality Rater Guidelines use YMYL (Your Money or Your Life) for topics that can affect a person's health, finances or safety, and health sits at the centre of that category. The same guidelines describe E-E-A-T: Experience, Expertise, Authoritativeness and Trust, with trust defined as the most important of the four.",
-    "Rater scores do not change rankings directly; Google uses the guidelines to describe the quality its systems aim for. In practice, unattributed, unsourced and outdated medical content struggles against competitors' physician-signed, referenced pages. The general method for building a content plan around this is in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "Rater scores do not change rankings directly; Google uses the guidelines to describe the quality its systems aim for. In practice, unattributed, unsourced and outdated medical content struggles against competitors' physician-signed, referenced pages. The general method for building a content plan around this is in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
@@ -202,13 +202,13 @@
       ]
      }
     },
-    "Stating risks plainly on treatment pages, and that a procedure is not right for everyone, is the ethical choice and builds trust. Avoid promising definite outcomes, exaggerated success claims and fear-driven language. Use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to find the phrases patients actually search; the medical term and the everyday phrase often differ."
+    "Stating risks plainly on treatment pages, and that a procedure is not right for everyone, is the ethical choice and builds trust. Avoid promising definite outcomes, exaggerated success claims and fear-driven language. Use [keyword research](/en/anahtar-kelime-arastirmasi) to find the phrases patients actually search; the medical term and the everyday phrase often differ."
    ]
   },
   {
    "baslik": "Local SEO for clinics: maps, branches and patient reviews",
    "paragraflar": [
-    "Many patients choose a clinic by proximity, so local visibility is a core part of healthcare SEO. For profile setup and categories, see the [Google Business Profile optimization](/en/blog/google-business-profile) article; for branch pages and NAP consistency, follow the [local SEO guide](/en/guides/yerel-seo). Google's guidelines also allow separate profiles for individual practitioners under certain conditions, so check them before deciding.",
+    "Many patients choose a clinic by proximity, so local visibility is a core part of healthcare SEO. For profile setup and categories, see the [Google Business Profile optimization](/en/google-business-profile) article; for branch pages and NAP consistency, follow the [local SEO guide](/en/yerel-seo). Google's guidelines also allow separate profiles for individual practitioners under certain conditions, so check them before deciding.",
     "The most important rule when replying to patient reviews is confidentiality. A reply should never confirm that someone is a patient or mention any diagnosis or treatment detail. For negative reviews, a general, respectful reply that moves the conversation to a private channel such as phone or email is the safest approach.",
     "Clinics with branches in several districts should give each branch its own page and profile."
    ]
@@ -225,7 +225,7 @@
       "**FAQPage**: only where the page genuinely has a Q&A section"
      ]
     },
-    "Set expectations on FAQ correctly: Google limited FAQ rich results to authoritative government and health sites in 2023 and has not shown them at all since May 7, 2026. So do not expect a rich result; use FAQPage markup to help machines understand the content, not to win a rich result. Connecting entities with @id is covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+    "Set expectations on FAQ correctly: Google limited FAQ rich results to authoritative government and health sites in 2023 and has not shown them at all since May 7, 2026. So do not expect a rich result; use FAQPage markup to help machines understand the content, not to win a rich result. Connecting entities with @id is covered in the [schema structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
@@ -241,7 +241,7 @@
       "Test that the design works properly for right-to-left languages."
      ]
     },
-    "For infrastructure topics such as hreflang, crawlability and speed, see the [technical SEO fundamentals](/en/guides/teknik-seo) guide."
+    "For infrastructure topics such as hreflang, crawlability and speed, see the [technical SEO fundamentals](/en/teknik-seo) guide."
    ]
   },
   {
@@ -249,7 +249,7 @@
    "paragraflar": [
     "In Turkey, the promotion and advertising of healthcare services is restricted by regulation, and the rules can differ by type of healthcare provider. Using patient testimonials for promotion, before-and-after images, price and campaign announcements, and superiority claims are areas that need separate review. This is only a general outline; get legal advice from a healthcare law specialist for your site content and marketing plan.",
     "Health data is treated as a special category of personal data under Turkish data protection law. Review what your appointment forms, WhatsApp links and analytics tools collect, and do not ask for more health information on forms than you need.",
-    "Patients increasingly put their questions to Google AI Overviews and assistants such as ChatGPT or Gemini as well. Being a cited source there requires physician-signed, clear and quotable content; the [GEO implementation guide](/en/guides/geo-uygulama) and my [GEO consulting](/en/geo-consulting) page explain the approach. To track appointment requests alongside organic traffic, use the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "Patients increasingly put their questions to Google AI Overviews and assistants such as ChatGPT or Gemini as well. Being a cited source there requires physician-signed, clear and quotable content; the [GEO implementation guide](/en/geo-uygulama) and my [GEO consulting](/en/geo-consulting) page explain the approach. To track appointment requests alongside organic traffic, use the [SEO reporting guide](/en/seo-raporlama).",
     "If you would like your clinic's site assessed against this framework, see the scope of my [SEO consulting](/en/seo-consulting) service or [book an intro call](/en/book-a-call)."
    ]
   }

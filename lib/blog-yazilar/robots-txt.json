@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "robots.txt Rehberi: Doğru Yapılandırma ve Sık Yapılan Hatalar",
  "baslik_en": "robots.txt Guide: Correct Configuration and Common Mistakes",
- "meta_baslik_tr": "robots.txt Rehberi: Doğru Yapılandırma ve Sık Hatalar",
- "meta_baslik_en": "robots.txt Guide: Configuration and Common Mistakes",
- "meta_desc_tr": "robots.txt sözdizimi, noindex ile farkı, yapay zekâ botlarının user-agent adları, llms.txt ile farkı ve sitelerde en sık gördüğüm robots.txt hataları.",
- "meta_desc_en": "robots.txt syntax, how it differs from noindex, AI crawler user-agent names, how it differs from llms.txt, and the robots.txt mistakes I see most often.",
+ "meta_baslik_tr": "robots.txt Yapılandırması ve Sık Hatalar",
+ "meta_baslik_en": "robots.txt Setup and Common Mistakes",
+ "meta_desc_tr": "robots.txt sözdizimi, noindex ve llms.txt ile farkı, yapay zekâ botlarının user-agent adları ve sahada en sık görülen hatalar. Dosyanızı kontrol edin.",
+ "meta_desc_en": "robots.txt syntax, how it differs from noindex and llms.txt, AI crawler user-agent names and the mistakes I see most often. Check your own file today.",
  "ozet_tr": "robots.txt taramayı yönetir, dizine eklemeyi değil: doğru sözdizimi, yapay zekâ botları ve en sık hatalar tek yerde.",
  "ozet_en": "robots.txt controls crawling, not indexing: correct syntax, AI crawlers and the most common mistakes in one place.",
  "bolumler_tr": [
@@ -37,7 +37,7 @@
      "kod": "User-agent: *\nDisallow: /sepet/\nDisallow: /hesabim/\nDisallow: /*?sirala=\nAllow: /*?sirala=*&sayfa=\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://www.example.com/sitemap.xml"
     },
     "Çakışan kurallarda en uzun, yani en spesifik eşleşme kazanır; eşitlikte daha az kısıtlayıcı kural uygulanır. Bir bot için kendi adıyla bir grup varsa, o bot yalnızca o gruba uyar ve * grubunu dikkate almaz. Bu yüzden özel bir bot grubu açtığınızda genel kuralları oraya da yazmanız gerekir.",
-    "Sitemap satırları tam URL olmalı ve herhangi bir user-agent grubuna bağlı değildir. Tarama bütçesi açısından hangi URL'lerin engellenmesi mantıklı, hangilerinin değil, [tarama bütçesi](/blog/crawl-butcesi) yazısında ayrıntılı anlattım."
+    "Sitemap satırları tam URL olmalı ve herhangi bir user-agent grubuna bağlı değildir. Tarama bütçesi açısından hangi URL'lerin engellenmesi mantıklı, hangilerinin değil, [tarama bütçesi](/crawl-butcesi) yazısında ayrıntılı anlattım."
    ]
   },
   {
@@ -68,7 +68,7 @@
       }
      }
     },
-    "Klasik hata ikisini birlikte kullanmaktır: Sayfaya noindex ekleyip robots.txt ile de engellerseniz Googlebot noindex'i hiç göremez. Önce noindex ile sayfanın dizinden çıkmasını bekleyin, gerekiyorsa sonra engelleyin. Genel tarama-dizine ekleme ayrımı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+    "Klasik hata ikisini birlikte kullanmaktır: Sayfaya noindex ekleyip robots.txt ile de engellerseniz Googlebot noindex'i hiç göremez. Önce noindex ile sayfanın dizinden çıkmasını bekleyin, gerekiyorsa sonra engelleyin. Genel tarama-dizine ekleme ayrımı için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
    ]
   },
   {
@@ -128,14 +128,14 @@
       "metin": "Google'ın dokümanına göre Google-Extended, Google Arama'daki yer almayı ve sıralamayı etkilemez. AI Overviews ve AI Mode Arama'nın parçasıdır; onlar için Googlebot kuralları ile nosnippet, max-snippet ve noindex gibi kontroller geçerlidir."
      }
     },
-    "Benim önerim, eğitim botları ile arama botlarını ayrı değerlendirmek. Eğitimi engelleyip arama botlarına izin vermek, yapay zekâ asistanlarında kaynak olarak görünme şansını korur. Bu kararın marka görünürlüğüne etkisini [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında, uygulama adımlarını [GEO uygulama rehberinde](/rehber/geo-uygulama) bulabilirsiniz. Terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) işinizi kolaylaştırır."
+    "Benim önerim, eğitim botları ile arama botlarını ayrı değerlendirmek. Eğitimi engelleyip arama botlarına izin vermek, yapay zekâ asistanlarında kaynak olarak görünme şansını korur. Bu kararın marka görünürlüğüne etkisini [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında, uygulama adımlarını [GEO uygulama rehberinde](/geo-uygulama) bulabilirsiniz. Terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) işinizi kolaylaştırır."
    ]
   },
   {
    "baslik": "robots.txt ile llms.txt arasındaki fark",
    "paragraflar": [
     "llms.txt, sitenin önemli içeriklerini dil modellerine özetlemek için önerilen bir dosya biçimi; erişim izni vermez ya da engellemez. robots.txt ise botların uyduğu bir tarama protokolüdür.",
-    "Google, AI Overviews ve AI Mode'da görünmek için yeni makine okunur dosyalar ya da yapay zekâ metin dosyaları oluşturmanın gerekmediğini açıkça belirtiyor. llms.txt'nin ne işe yaradığını ve hangi durumda denemeye değer olduğunu [llms.txt rehberi](/blog/llms-txt-rehberi) yazısında ayrıca ele aldım."
+    "Google, AI Overviews ve AI Mode'da görünmek için yeni makine okunur dosyalar ya da yapay zekâ metin dosyaları oluşturmanın gerekmediğini açıkça belirtiyor. llms.txt'nin ne işe yaradığını ve hangi durumda denemeye değer olduğunu [llms.txt rehberi](/llms-txt-rehberi) yazısında ayrıca ele aldım."
    ]
   },
   {
@@ -145,7 +145,7 @@
     {
      "kontrol": [
       "Test ortamındaki \"Disallow: /\" canlıya taşınmış mı?",
-      "CSS, JavaScript ya da API uç noktaları engellenmiş mi? Render eksik kalır; ayrıntı için [JavaScript SEO](/blog/javascript-seo) yazısına bakın.",
+      "CSS, JavaScript ya da API uç noktaları engellenmiş mi? Render eksik kalır; ayrıntı için [JavaScript SEO](/javascript-seo) yazısına bakın.",
       "Dizinden çıkarılmak istenen sayfalar hem noindex hem Disallow ile mi işaretli?",
       "Özel bot grubu açılmış ama genel kurallar o gruba kopyalanmamış mı?",
       "Yol büyük-küçük harf farkı yüzünden eşleşmiyor mu (/Sepet/ ve /sepet/)?",
@@ -158,7 +158,7 @@
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: robots.txt test aracı",
-      "metin": "Bir URL'nin Googlebot, GPTBot, ClaudeBot gibi botlar için engelli olup olmadığını ve kararı hangi kuralın verdiğini [robots.txt test aracıyla](/araclar/robots-txt-test) kontrol edebilirsiniz; taslak dosyayı yayınlamadan önce de test edebilirsiniz."
+      "metin": "Bir URL'nin Googlebot, GPTBot, ClaudeBot gibi botlar için engelli olup olmadığını ve kararı hangi kuralın verdiğini [robots.txt test aracıyla](/robots-txt-test) kontrol edebilirsiniz; taslak dosyayı yayınlamadan önce de test edebilirsiniz."
      }
     }
    ]
@@ -191,7 +191,7 @@
      "kod": "User-agent: *\nDisallow: /cart/\nDisallow: /account/\nDisallow: /*?sort=\nAllow: /*?sort=*&page=\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://www.example.com/sitemap.xml"
     },
     "When rules conflict, the longest, most specific match wins; on a tie the less restrictive rule applies. If there is a group for a bot by name, that bot follows only that group and ignores the * group. So when you open a group for a specific bot, you need to repeat the general rules there too.",
-    "Sitemap lines must be full URLs and are not tied to any user-agent group. I cover which URLs are worth blocking for crawl efficiency, and which are not, in the [crawl budget](/en/blog/crawl-butcesi) article."
+    "Sitemap lines must be full URLs and are not tied to any user-agent group. I cover which URLs are worth blocking for crawl efficiency, and which are not, in the [crawl budget](/en/crawl-butcesi) article."
    ]
   },
   {
@@ -222,7 +222,7 @@
       }
      }
     },
-    "The classic mistake is using both: if you add noindex and also block the page in robots.txt, Googlebot never sees the noindex. Wait for the page to drop out with noindex first, then block it if needed. For the broader crawling versus indexing distinction, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "The classic mistake is using both: if you add noindex and also block the page in robots.txt, Googlebot never sees the noindex. Wait for the page to drop out with noindex first, then block it if needed. For the broader crawling versus indexing distinction, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -282,14 +282,14 @@
       "metin": "Google's documentation says Google-Extended does not affect inclusion or ranking in Google Search. AI Overviews and AI Mode are part of Search, so Googlebot rules and controls such as nosnippet, max-snippet and noindex apply to them."
      }
     },
-    "My advice is to treat training bots and search bots separately. Blocking training while allowing search bots keeps your chance of being cited by AI assistants. You will find the brand visibility side of this decision in [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu) and the implementation steps in the [GEO implementation guide](/en/guides/geo-uygulama). If the terms are new to you, the [AI glossary](/en/ai-glossary) helps."
+    "My advice is to treat training bots and search bots separately. Blocking training while allowing search bots keeps your chance of being cited by AI assistants. You will find the brand visibility side of this decision in [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu) and the implementation steps in the [GEO implementation guide](/en/geo-uygulama). If the terms are new to you, the [AI glossary](/en/ai-glossary) helps."
    ]
   },
   {
    "baslik": "How robots.txt differs from llms.txt",
    "paragraflar": [
     "llms.txt is a proposed file format for summarising a site's key content for language models; it neither grants nor blocks access. robots.txt is a crawling protocol that bots follow.",
-    "Google states plainly that you do not need to create new machine-readable files or AI text files to appear in AI Overviews or AI Mode. I cover what llms.txt does and when it is worth trying in the [llms.txt guide](/en/blog/llms-txt-rehberi)."
+    "Google states plainly that you do not need to create new machine-readable files or AI text files to appear in AI Overviews or AI Mode. I cover what llms.txt does and when it is worth trying in the [llms.txt guide](/en/llms-txt-rehberi)."
    ]
   },
   {
@@ -299,7 +299,7 @@
     {
      "kontrol": [
       "Has the staging \"Disallow: /\" made it to production?",
-      "Are CSS, JavaScript or API endpoints blocked? Rendering will be incomplete; see [JavaScript SEO](/en/blog/javascript-seo).",
+      "Are CSS, JavaScript or API endpoints blocked? Rendering will be incomplete; see [JavaScript SEO](/en/javascript-seo).",
       "Are pages you want removed marked with both noindex and Disallow?",
       "Was a bot-specific group opened without copying the general rules into it?",
       "Does a path fail to match because of case (/Cart/ versus /cart/)?",
@@ -312,7 +312,7 @@
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: robots.txt tester",
-      "metin": "Check whether a URL is blocked for Googlebot, GPTBot, ClaudeBot and others, and which rule decides it, with the [robots.txt tester](/en/tools/robots-txt-tester); you can test a draft before publishing it."
+      "metin": "Check whether a URL is blocked for Googlebot, GPTBot, ClaudeBot and others, and which rule decides it, with the [robots.txt tester](/en/robots-txt-tester); you can test a draft before publishing it."
      }
     }
    ]

@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "SEO mu Google Ads mi? Bütçeyi Nasıl Bölmeli?",
  "baslik_en": "SEO or Google Ads? How Should You Split Your Budget?",
- "meta_baslik_tr": "SEO mu Google Ads mi? Bütçe Nasıl Bölünür?",
- "meta_baslik_en": "SEO or Google Ads? How to Split Your Budget",
- "meta_desc_tr": "SEO ile Google Ads arasındaki farklar, hangi durumda hangisinin öne çıktığı ve bütçeyi aşamalara göre bölmek için pratik bir karar çerçevesi.",
- "meta_desc_en": "The differences between SEO and Google Ads, when each one makes more sense, and a practical framework for splitting your budget by growth stage.",
+ "meta_baslik_tr": "SEO mu Google Ads mi, Bütçe Nasıl Bölünür",
+ "meta_baslik_en": "SEO or Google Ads, How to Split Budget",
+ "meta_desc_tr": "SEO ile Google Ads arasındaki farkları, hangisinin ne zaman öne çıktığını görün, bütçeyi büyüme aşamasına göre bölmek için çerçeveyi kullanın.",
+ "meta_desc_en": "See how SEO and Google Ads differ, when each makes more sense, and use a practical framework to split your marketing budget by growth stage.",
  "ozet_tr": "SEO ve Google Ads'i rakip değil, aşamalara göre ağırlığı değişen iki kanal olarak planlamak için karar çerçevesi.",
  "ozet_en": "A decision framework for treating SEO and Google Ads as two channels whose weight shifts by stage, not as rivals.",
  "bolumler_tr": [
@@ -97,7 +97,7 @@
       "Reklamın yasal veya platform kuralları nedeniyle kısıtlı olduğu alanlar."
      ]
     },
-    "Son madde Türkiye'de özellikle önemli. Avukatlar için meslek kuralları reklamı yasaklar; sağlık hizmetlerinin tanıtımı da mevzuatla sınırlandırılmıştır ve Google Ads'in sağlıkla ilgili kendi politikaları vardır. Bu alanlarda bilgilendirici organik içerik ana kanal olur; ayrıntıları [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında anlattım. Uzun satış döngüsüne sahip işletmeler için [B2B üretici SEO](/sektorler/b2b-uretici-seo) sayfasına da göz atabilirsiniz."
+    "Son madde Türkiye'de özellikle önemli. Avukatlar için meslek kuralları reklamı yasaklar; sağlık hizmetlerinin tanıtımı da mevzuatla sınırlandırılmıştır ve Google Ads'in sağlıkla ilgili kendi politikaları vardır. Bu alanlarda bilgilendirici organik içerik ana kanal olur; ayrıntıları [avukatlar için SEO](/avukatlar-icin-seo) yazısında anlattım. Uzun satış döngüsüne sahip işletmeler için [B2B üretici SEO](/b2b-uretici-seo) sayfasına da göz atabilirsiniz."
    ]
   },
   {
@@ -106,7 +106,7 @@
     {
      "alt": "1. Talebi haritalayın"
     },
-    "Hedef kitlenizin aradığı sorguları niyetlerine göre gruplayın: bilgi, karşılaştırma, satın alma ve marka. Bu işi [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) kümeleme yöntemiyle yapabilirsiniz.",
+    "Hedef kitlenizin aradığı sorguları niyetlerine göre gruplayın: bilgi, karşılaştırma, satın alma ve marka. Bu işi [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) kümeleme yöntemiyle yapabilirsiniz.",
     {
      "alt": "2. Mevcut organik gücünüzü işaretleyin"
     },
@@ -162,8 +162,8 @@
   {
    "baslik": "Bütçe kararını hangi metriklerle ölçmeli?",
    "paragraflar": [
-    "Kanalları karşılaştırırken tıklama sayısı yerine iş sonucuna bakın. Her iki kanal için de GA4'teki önemli etkinlik (key event) başına maliyeti, müşteri edinme maliyetini ve dönüşüm yolundaki destekleyici rolü izleyin. Rapor kurgusunun ayrıntılarını [SEO raporlama rehberinde](/rehber/seo-raporlama), yapay zekâ asistanlarından gelen ziyaretleri ayrı bir kanal olarak görmeyi de [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım.",
-    "SEO maliyetini değerlendirirken bunu aylık bir gider değil, birikimli bir yatırım olarak hesaplayın; piyasadaki fiyat yapısı için [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısı, benim çalışma modelim için [fiyatlandırma](/fiyatlandirma) sayfası fikir verir.",
+    "Kanalları karşılaştırırken tıklama sayısı yerine iş sonucuna bakın. Her iki kanal için de GA4'teki önemli etkinlik (key event) başına maliyeti, müşteri edinme maliyetini ve dönüşüm yolundaki destekleyici rolü izleyin. Rapor kurgusunun ayrıntılarını [SEO raporlama rehberinde](/seo-raporlama), yapay zekâ asistanlarından gelen ziyaretleri ayrı bir kanal olarak görmeyi de [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısında anlattım.",
+    "SEO maliyetini değerlendirirken bunu aylık bir gider değil, birikimli bir yatırım olarak hesaplayın; piyasadaki fiyat yapısı için [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısı, benim çalışma modelim için [fiyatlandırma](/fiyatlandirma) sayfası fikir verir.",
     "Kendi rakamlarınızla bir bütçe dağılımı kurmak isterseniz, mevcut Search Console ve Ads verinizi birlikte inceleyerek bir [SEO uzmanı](/seo-uzmani) gözüyle yol haritası çıkarabiliriz; [ön görüşme randevusu](/randevu) almanız yeterli."
    ]
   }
@@ -255,7 +255,7 @@
       "Fields where advertising is restricted by law or platform rules."
      ]
     },
-    "The last point matters especially in Turkey. Professional rules prohibit lawyers from advertising, the promotion of healthcare services is restricted by law, and Google Ads has its own healthcare-related policies. In these fields informative organic content becomes the main channel; I go into detail in my post on [SEO for law firms](/en/blog/avukatlar-icin-seo). Businesses with long sales cycles may also want to see my [B2B manufacturer SEO](/en/industries/b2b-manufacturer-seo) page."
+    "The last point matters especially in Turkey. Professional rules prohibit lawyers from advertising, the promotion of healthcare services is restricted by law, and Google Ads has its own healthcare-related policies. In these fields informative organic content becomes the main channel; I go into detail in my post on [SEO for law firms](/en/avukatlar-icin-seo). Businesses with long sales cycles may also want to see my [B2B manufacturer SEO](/en/b2b-manufacturer-seo) page."
    ]
   },
   {
@@ -264,7 +264,7 @@
     {
      "alt": "1. Map the demand"
     },
-    "Group the queries your audience searches for by intent: informational, comparison, transactional and brand. You can do this with the clustering method in my [keyword research guide](/en/guides/anahtar-kelime-arastirmasi).",
+    "Group the queries your audience searches for by intent: informational, comparison, transactional and brand. You can do this with the clustering method in my [keyword research guide](/en/anahtar-kelime-arastirmasi).",
     {
      "alt": "2. Mark your current organic strength"
     },
@@ -320,8 +320,8 @@
   {
    "baslik": "Which metrics should drive the budget decision?",
    "paragraflar": [
-    "When comparing channels, look at business outcomes rather than clicks. For both channels, track the cost per key event in GA4, customer acquisition cost and the assisting role along the conversion path. I cover report setup in detail in my [SEO reporting guide](/en/guides/seo-raporlama), and seeing AI assistant visits as a separate channel in my post on [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi).",
-    "When assessing SEO cost, treat it as a compounding investment rather than a monthly expense; my post on [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari) explains market pricing, and the [pricing](/en/pricing) page shows how I work.",
+    "When comparing channels, look at business outcomes rather than clicks. For both channels, track the cost per key event in GA4, customer acquisition cost and the assisting role along the conversion path. I cover report setup in detail in my [SEO reporting guide](/en/seo-raporlama), and seeing AI assistant visits as a separate channel in my post on [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi).",
+    "When assessing SEO cost, treat it as a compounding investment rather than a monthly expense; my post on [SEO agency pricing](/en/seo-ajansi-fiyatlari) explains market pricing, and the [pricing](/en/pricing) page shows how I work.",
     "If you want to build a budget split with your own numbers, we can review your Search Console and Ads data together and draw up a roadmap from an [SEO consultant](/en/seo-consulting)'s perspective; just [book an intro call](/en/book-a-call)."
    ]
   }

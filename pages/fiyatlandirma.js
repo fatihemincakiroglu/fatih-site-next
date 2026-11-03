@@ -29,7 +29,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? 'SEO consulting packages and pricing. Monthly retainer, project-based work and one-time technical SEO audit options to fit every budget and business need.' : 'SEO danışmanlık paketleri ve fiyatları. Aylık retainer, proje bazlı çalışma ve tek seferlik teknik SEO denetimi seçenekleriyle bütçenize uygun çözüm bulun.'} />
+        <meta name="description" content={isEn ? 'SEO consulting packages and pricing. Monthly retainer, project-based work and one-time technical SEO audit options to fit your budget and goals.' : 'Aylık retainer, proje bazlı çalışma ve tek seferlik teknik SEO denetimi seçenekleriyle SEO danışmanlık paketleri. Bütçenize uygun çözümü bulun.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/pricing' : 'https://fatihemincakiroglu.com/fiyatlandirma'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

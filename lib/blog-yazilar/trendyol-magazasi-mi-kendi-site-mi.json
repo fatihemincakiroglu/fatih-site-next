@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Trendyol Mağazası mı, Kendi E-ticaret Siteniz mi? Organik Trafik Açısından Değerlendirme",
  "baslik_en": "Trendyol Store or Your Own E-commerce Site? An Organic Traffic Perspective",
- "meta_baslik_tr": "Trendyol Mağazası mı Kendi Site mi? Organik Trafik",
- "meta_baslik_en": "Trendyol Store or Your Own Site? Organic Traffic View",
- "meta_desc_tr": "Trendyol mağazası ile kendi e-ticaret sitenizi organik trafik, marka araması, içerik kontrolü ve uzun vadeli SEO değeri açısından karşılaştırıyorum.",
- "meta_desc_en": "A Trendyol store versus your own e-commerce site, compared on organic traffic, brand searches, content control and long-term SEO value for growing brands.",
+ "meta_baslik_tr": "Trendyol Mağazası mı Kendi Site mi",
+ "meta_baslik_en": "Trendyol Store or Your Own Website?",
+ "meta_desc_tr": "Trendyol mağazası ile kendi e-ticaret sitenizi organik trafik, marka araması, içerik kontrolü ve uzun vadeli SEO değeri açısından karşılaştırın.",
+ "meta_desc_en": "Compare a Trendyol store with your own e-commerce site on organic traffic, brand searches, content control and long-term SEO value before you commit.",
  "ozet_tr": "Pazaryeri mağazası ile kendi sitenin organik trafikteki rolleri ve ikisini birlikte kullanmanın yolu.",
  "ozet_en": "How a marketplace store and your own site play different roles in organic traffic, and how to run both.",
  "bolumler_tr": [
@@ -90,14 +90,14 @@
       "Ziyaretçi davranışını Search Console ve GA4 ile doğrudan ölçersiniz."
      ]
     },
-    "Yapay zekâ asistanları bir markayı önerirken çoğu zaman markanın kendi sitesini ve hakkında yazılanları kaynak gösterir. Bu yüzden kendi site, [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattığım varlık netliği çalışmasının da merkezinde durur. Kategori ve ürün sayfası kurgusunun ayrıntıları [e-ticaret SEO rehberinde](/rehber/e-ticaret-seo)."
+    "Yapay zekâ asistanları bir markayı önerirken çoğu zaman markanın kendi sitesini ve hakkında yazılanları kaynak gösterir. Bu yüzden kendi site, [GEO uygulama rehberinde](/geo-uygulama) anlattığım varlık netliği çalışmasının da merkezinde durur. Kategori ve ürün sayfası kurgusunun ayrıntıları [e-ticaret SEO rehberinde](/e-ticaret-seo)."
    ]
   },
   {
    "baslik": "Kendi siteniz hangi durumda henüz öncelik olmayabilir?",
    "paragraflar": [
     "Her marka için doğru zaman aynı değil. Ürün yelpazesi çok dar, içerik üretecek kaynak yok ve nakit akışı sınırlıysa pazaryeri, talebi test etmek için daha az riskli bir başlangıç olabilir. Hangi ürünlerin sattığını, müşterilerin hangi kelimelerle aradığını ve hangi soruları sorduğunu pazaryerinde öğrenmek, kendi sitenin planını da güçlendirir.",
-    "Öte yandan kendi siteyi “ileride bakarız” diye sürekli ertelemek de bir maliyet. Alan adının yaşı, biriken içerik ve bağlantılar bir gecede oluşmaz. Bütçeyi kanallar arasında nasıl böleceğinizi düşünüyorsanız [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısı benzer bir dengeyi ele alıyor."
+    "Öte yandan kendi siteyi “ileride bakarız” diye sürekli ertelemek de bir maliyet. Alan adının yaşı, biriken içerik ve bağlantılar bir gecede oluşmaz. Bütçeyi kanallar arasında nasıl böleceğinizi düşünüyorsanız [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısı benzer bir dengeyi ele alıyor."
    ]
   },
   {
@@ -114,15 +114,15 @@
       "Ürün verinizi Google Merchant Center'a gönderip hesabınızdaki ücretsiz listeleme seçeneklerini kontrol edin."
      ]
     },
-    "Merchant Center tarafında Google'ın resmi dokümanı, ücretsiz listelemelerin bazı yüzeylerde dünya genelinde, bazılarında ise yalnızca belirli ülkelerde kullanılabildiğini belirtiyor; uygunluğu kendi hesabınızda doğrulayın. Altyapı seçimine geldiyseniz [e-ticaret altyapılarının SEO karşılaştırması](/blog/e-ticaret-altyapisi-seo-karsilastirma) yardımcı olur."
+    "Merchant Center tarafında Google'ın resmi dokümanı, ücretsiz listelemelerin bazı yüzeylerde dünya genelinde, bazılarında ise yalnızca belirli ülkelerde kullanılabildiğini belirtiyor; uygunluğu kendi hesabınızda doğrulayın. Altyapı seçimine geldiyseniz [e-ticaret altyapılarının SEO karşılaştırması](/e-ticaret-altyapisi-seo-karsilastirma) yardımcı olur."
    ]
   },
   {
    "baslik": "Kendi sitede organik trafiği nasıl ölçüp karar vermeli?",
    "paragraflar": [
     "Kendi siteyi kurduktan sonra karar vermek için iki metriğe bakıyorum: markasız aramalardan gelen tıklamalar ve marka aramalarının zaman içindeki seyri. Search Console'da sorguları marka adınızı içeren ve içermeyen olarak ayırmak, sitenin gerçekten yeni müşteri getirip getirmediğini gösterir. Marka araması artıyorsa pazaryerindeki görünürlüğünüz de kendi sitenize talep yaratıyor demektir.",
-    "Markanızın internette ne sıklıkla anıldığını takip etmek de bu tablonun parçası; [marka bahsi (brand mention)](/blog/marka-bahsi-brand-mention) hem SEO hem GEO için değer taşır. Bağlantı kazanma tarafını [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) anlattım.",
-    "Pazaryeri ile kendi site arasındaki dengeyi markanıza göre kurmak isterseniz [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında birlikte çalışabiliriz; kendi sitede teknik ve içerik işleri için [SEO uzmanı](/seo-uzmani), yapay zekâ görünürlüğü için [GEO uzmanı](/geo-uzmani) sayfalarına bakabilir ya da doğrudan [randevu](/randevu) alabilirsiniz."
+    "Markanızın internette ne sıklıkla anıldığını takip etmek de bu tablonun parçası; [marka bahsi (brand mention)](/marka-bahsi-brand-mention) hem SEO hem GEO için değer taşır. Bağlantı kazanma tarafını [backlink ve dijital PR rehberinde](/backlink-dijital-pr) anlattım.",
+    "Pazaryeri ile kendi site arasındaki dengeyi markanıza göre kurmak isterseniz [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında birlikte çalışabiliriz; kendi sitede teknik ve içerik işleri için [SEO uzmanı](/seo-uzmani), yapay zekâ görünürlüğü için [GEO uzmanı](/geo-uzmani) sayfalarına bakabilir ya da doğrudan [randevu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -206,14 +206,14 @@
       "You measure visitor behaviour directly with Search Console and GA4."
      ]
     },
-    "When AI assistants recommend a brand, they often cite the brand's own site and what's been written about it. That's why your site sits at the centre of the entity clarity work I describe in the [GEO implementation guide](/en/guides/geo-uygulama). Category and product page structure is covered in the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+    "When AI assistants recommend a brand, they often cite the brand's own site and what's been written about it. That's why your site sits at the centre of the entity clarity work I describe in the [GEO implementation guide](/en/geo-uygulama). Category and product page structure is covered in the [e-commerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
    "baslik": "When might your own site not be the priority yet?",
    "paragraflar": [
     "The right timing differs for every brand. If your range is very narrow, you have no resources for content and cash flow is tight, a marketplace can be a lower-risk way to test demand. Learning which products sell, which words customers use and what questions they ask on the marketplace also strengthens the plan for your own site.",
-    "On the other hand, constantly postponing your own site has a cost. Domain age, accumulated content and links don't appear overnight. If you're weighing how to split budget between channels, the post on [SEO vs Google Ads](/en/blog/seo-mu-google-ads-mi) looks at a similar balance."
+    "On the other hand, constantly postponing your own site has a cost. Domain age, accumulated content and links don't appear overnight. If you're weighing how to split budget between channels, the post on [SEO vs Google Ads](/en/seo-mu-google-ads-mi) looks at a similar balance."
    ]
   },
   {
@@ -230,15 +230,15 @@
       "Submit your product data to Google Merchant Center and check the free listing options available in your account."
      ]
     },
-    "On the Merchant Center side, Google's official documentation says free listings are available worldwide on some surfaces and only in certain countries on others; confirm eligibility in your own account. If you've reached the platform decision, the [e-commerce platform SEO comparison](/en/blog/e-ticaret-altyapisi-seo-karsilastirma) will help."
+    "On the Merchant Center side, Google's official documentation says free listings are available worldwide on some surfaces and only in certain countries on others; confirm eligibility in your own account. If you've reached the platform decision, the [e-commerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma) will help."
    ]
   },
   {
    "baslik": "How should you measure organic traffic on your own site and decide?",
    "paragraflar": [
     "Once your site is live, I look at two metrics to guide decisions: clicks from non-branded searches and the trend in branded searches over time. Splitting Search Console queries into those that contain your brand name and those that don't shows whether the site is genuinely bringing in new customers. If branded searches rise, your marketplace visibility is creating demand for your own site too.",
-    "Tracking how often your brand is mentioned online is part of the same picture; a [brand mention](/en/blog/marka-bahsi-brand-mention) carries value for both SEO and GEO. I cover earning links in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
-    "If you'd like to set the balance between marketplace and own site for your brand, we can work together through [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting); for technical and content work on your site see [SEO consulting](/en/seo-consulting), for AI visibility see [GEO consulting](/en/geo-consulting), or simply [book a call](/en/book-a-call)."
+    "Tracking how often your brand is mentioned online is part of the same picture; a [brand mention](/en/marka-bahsi-brand-mention) carries value for both SEO and GEO. I cover earning links in the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    "If you'd like to set the balance between marketplace and own site for your brand, we can work together through [e-commerce SEO consulting](/en/ecommerce-seo-consulting); for technical and content work on your site see [SEO consulting](/en/seo-consulting), for AI visibility see [GEO consulting](/en/geo-consulting), or simply [book a call](/en/book-a-call)."
    ]
   }
  ],

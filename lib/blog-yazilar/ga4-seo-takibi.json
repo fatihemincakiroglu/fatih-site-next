@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "GA4'te Organik Trafik Takibi: SEO İçin Kurulacak Raporlar",
  "baslik_en": "Tracking Organic Traffic in GA4: The Reports to Set Up for SEO",
- "meta_baslik_tr": "GA4'te Organik Trafik Takibi: SEO Raporları",
- "meta_baslik_en": "Tracking Organic Traffic in GA4: SEO Reports",
- "meta_desc_tr": "GA4'te organik arama trafiğini ayırmak, Search Console bağlantısı, açılış sayfası raporu ve anahtar etkinliklerle SEO'nun iş sonucunu ölçmek için kurulum.",
- "meta_desc_en": "How to isolate organic search in GA4, link Search Console, use the landing page report and key events to measure what SEO contributes to the business.",
+ "meta_baslik_tr": "GA4'te Organik Trafik ve SEO Raporları",
+ "meta_baslik_en": "Tracking Organic Traffic in GA4",
+ "meta_desc_tr": "GA4'te organik trafiği ayırın, Search Console'u bağlayın, açılış sayfası raporu ve anahtar etkinliklerle SEO'nun iş sonucunu ölçün.",
+ "meta_desc_en": "Isolate organic search in GA4, link Search Console and use the landing page report and key events to measure what SEO contributes to the business.",
  "ozet_tr": "Organic Search kanalı, Search Console bağlantısı ve anahtar etkinliklerle GA4'ü SEO için okunur hâle getirin.",
  "ozet_en": "Make GA4 readable for SEO with the Organic Search channel, the Search Console link and properly marked key events.",
  "bolumler_tr": [
@@ -25,7 +25,7 @@
    "baslik": "GA4 organik arama trafiğini nasıl tanımlar?",
    "paragraflar": [
     "Google'ın trafik kaynağı boyutlarını anlatan yardım sayfasına göre bir oturum, kaynağı GA4'ün arama siteleri listesindeki bir siteyle eşleştiğinde ya da aracı (medium) tam olarak “organic” olduğunda **Organic Search** kanalına atanır. Aynı sayfa, Google'ın AI Overviews ve AI Mode bağlantılarından gelen reklamsız tıklamaları da bu kanala dahil ediyor.",
-    "ChatGPT, Gemini veya Copilot gibi asistanlardan gelen ziyaretler ise Ekim 2026 itibarıyla ayrı bir **AI Assistant** kanalında toplanıyor. Bu kanalın ayrıntılarını ve asistanları birbirinden ayırma yöntemini [GA4'te yapay zekâ trafiğini ayırmak](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım; burada yalnızca klasik organik aramaya odaklanıyorum.",
+    "ChatGPT, Gemini veya Copilot gibi asistanlardan gelen ziyaretler ise Ekim 2026 itibarıyla ayrı bir **AI Assistant** kanalında toplanıyor. Bu kanalın ayrıntılarını ve asistanları birbirinden ayırma yöntemini [GA4'te yapay zekâ trafiğini ayırmak](/ga4-yapay-zeka-trafigi) yazısında anlattım; burada yalnızca klasik organik aramaya odaklanıyorum.",
     {
      "kutu": {
       "tur": "uyari",
@@ -62,14 +62,14 @@
       ]
      }
     },
-    "İki sınırı bilmek yanlış yorumu önler. Search Console metrikleri GA4 boyutlarından yalnızca açılış sayfası, cihaz ve ülke ile birleşebilir; yani sorgu bazında dönüşüm göremezsiniz. Ayrıca veri en fazla 16 ay geriye gider, çünkü Search Console da bu kadar saklar. Search Console raporlarının kendisini nasıl okuyacağınızı [Search Console rehberi](/blog/search-console-rehberi) yazısında bulabilirsiniz."
+    "İki sınırı bilmek yanlış yorumu önler. Search Console metrikleri GA4 boyutlarından yalnızca açılış sayfası, cihaz ve ülke ile birleşebilir; yani sorgu bazında dönüşüm göremezsiniz. Ayrıca veri en fazla 16 ay geriye gider, çünkü Search Console da bu kadar saklar. Search Console raporlarının kendisini nasıl okuyacağınızı [Search Console rehberi](/search-console-rehberi) yazısında bulabilirsiniz."
    ]
   },
   {
    "baslik": "Açılış sayfası raporu SEO için neden en değerli rapor?",
    "paragraflar": [
     "Organik ziyaretçi sitenize çoğunlukla ana sayfadan değil, bir blog yazısından, kategori ya da hizmet sayfasından girer. Açılış sayfası raporunu oturum varsayılan kanal grubu = Organic Search filtresiyle açtığınızda, hangi sayfaların organik trafiği karşıladığını ve bu oturumların ne kadarının anahtar etkinliğe dönüştüğünü tek tabloda görürsünüz.",
-    "Sahada bu raporda en sık gördüğüm tablo şu: trafiğin büyük kısmını bilgi amaçlı blog yazıları alıyor, dönüşümün büyük kısmı ise birkaç hizmet sayfasından geliyor. Bu iki grup arasında iç link köprüsü yoksa trafik dönüşüme taşınmıyor. Sayfa gruplarını ve iç link yapısını kurarken [teknik SEO rehberindeki](/rehber/teknik-seo) site mimarisi bölümü yol gösterir."
+    "Sahada bu raporda en sık gördüğüm tablo şu: trafiğin büyük kısmını bilgi amaçlı blog yazıları alıyor, dönüşümün büyük kısmı ise birkaç hizmet sayfasından geliyor. Bu iki grup arasında iç link köprüsü yoksa trafik dönüşüme taşınmıyor. Sayfa gruplarını ve iç link yapısını kurarken [teknik SEO rehberindeki](/teknik-seo) site mimarisi bölümü yol gösterir."
    ]
   },
   {
@@ -85,13 +85,13 @@
       "Katalog, fiyat listesi gibi B2B içerik indirmeleri"
      ]
     },
-    "Bir uyarı: aynı eylemi iki ayrı etkinlikle (ör. form_submit ve generate_lead) işaretlerseniz anahtar etkinlik sayısı şişer. Her iş eylemi için tek bir etkinlik seçin ve bunu ekipçe belgeleyin. Gelir verisi olan e-ticaret sitelerinde bu kurgu, [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) projelerinde ilk kontrol ettiğim konudur."
+    "Bir uyarı: aynı eylemi iki ayrı etkinlikle (ör. form_submit ve generate_lead) işaretlerseniz anahtar etkinlik sayısı şişer. Her iş eylemi için tek bir etkinlik seçin ve bunu ekipçe belgeleyin. Gelir verisi olan e-ticaret sitelerinde bu kurgu, [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) projelerinde ilk kontrol ettiğim konudur."
    ]
   },
   {
    "baslik": "SEO için kalıcı olarak kurulacak 5 rapor",
    "paragraflar": [
-    "Her ay sıfırdan filtre kurmak yerine aşağıdaki görünümleri kaydedin ya da kitaplıkta özel rapor olarak ekleyin. Hangi KPI'ları aylık rapora taşıyacağınızı [SEO raporlama rehberinde](/rehber/seo-raporlama) ayrıca anlattım.",
+    "Her ay sıfırdan filtre kurmak yerine aşağıdaki görünümleri kaydedin ya da kitaplıkta özel rapor olarak ekleyin. Hangi KPI'ları aylık rapora taşıyacağınızı [SEO raporlama rehberinde](/seo-raporlama) ayrıca anlattım.",
     {
      "tablo": {
       "basliklar": [
@@ -164,12 +164,12 @@
       }
      }
     },
-    "Bu kurulum tamamlandığında organik trafiğin değerini parayla ifade etmek mümkün hâle gelir; hesaplama yöntemini [SEO ROI ölçümü](/blog/seo-roi-olcumu) yazısında adım adım anlattım. Mülkünüzün ölçüm kurgusunu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) hizmeti kapsamında birlikte bakabiliriz; organik verinin büyüme kararlarına nasıl bağlandığını [performans ve büyüme](/performans) sayfasında görebilir, uygun bir zaman için [randevu](/randevu) alabilirsiniz.",
+    "Bu kurulum tamamlandığında organik trafiğin değerini parayla ifade etmek mümkün hâle gelir; hesaplama yöntemini [SEO ROI ölçümü](/seo-roi-olcumu) yazısında adım adım anlattım. Mülkünüzün ölçüm kurgusunu denetletmek isterseniz [SEO uzmanı](/seo-uzmani) hizmeti kapsamında birlikte bakabiliriz; organik verinin büyüme kararlarına nasıl bağlandığını [performans ve büyüme](/performans) sayfasında görebilir, uygun bir zaman için [randevu](/randevu) alabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: UTM link oluşturucu",
-      "metin": "Sosyal medya, e-posta ve QR kod trafiğini organik aramadan ayırmak için kampanya linklerinizi [UTM link oluşturucu](/araclar/utm-olusturucu) ile tutarlı adlandırın; site içi linklerde UTM kullanmayın."
+      "metin": "Sosyal medya, e-posta ve QR kod trafiğini organik aramadan ayırmak için kampanya linklerinizi [UTM link oluşturucu](/utm-olusturucu) ile tutarlı adlandırın; site içi linklerde UTM kullanmayın."
      }
     }
    ]
@@ -190,7 +190,7 @@
    "baslik": "How does GA4 define organic search traffic?",
    "paragraflar": [
     "According to Google's help page on traffic-source dimensions, a session goes to the **Organic Search** channel when its source matches a site on GA4's list of search sites or its medium is exactly “organic”. The same page includes non-ad clicks from Google's AI Overviews and AI Mode in this channel.",
-    "Visits from assistants such as ChatGPT, Gemini or Copilot are, as of October 2026, grouped in a separate **AI Assistant** channel. I explain that channel and how to separate individual assistants in [separating AI assistant traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi); here I focus on classic organic search.",
+    "Visits from assistants such as ChatGPT, Gemini or Copilot are, as of October 2026, grouped in a separate **AI Assistant** channel. I explain that channel and how to separate individual assistants in [separating AI assistant traffic in GA4](/en/ga4-yapay-zeka-trafigi); here I focus on classic organic search.",
     {
      "kutu": {
       "tur": "uyari",
@@ -227,14 +227,14 @@
       ]
      }
     },
-    "Two limits matter. Search Console metrics combine only with landing page, device and country in GA4, so there are no conversions per query, and data goes back at most 16 months. For reading the Search Console reports themselves, see the [Search Console guide](/en/blog/search-console-rehberi)."
+    "Two limits matter. Search Console metrics combine only with landing page, device and country in GA4, so there are no conversions per query, and data goes back at most 16 months. For reading the Search Console reports themselves, see the [Search Console guide](/en/search-console-rehberi)."
    ]
   },
   {
    "baslik": "Why is the landing page report the most useful for SEO?",
    "paragraflar": [
     "Organic visitors rarely enter through the homepage; they land on a blog post, a category or a service page. Open the landing page report filtered to session default channel group = Organic Search and you see, in one table, which pages receive organic traffic and how many of those sessions become key events.",
-    "The pattern I see most: informational blog posts take most of the traffic while a few service pages produce most conversions. Without internal links between the two, traffic does not reach conversion. The site architecture section of the [technical SEO guide](/en/guides/teknik-seo) helps here."
+    "The pattern I see most: informational blog posts take most of the traffic while a few service pages produce most conversions. Without internal links between the two, traffic does not reach conversion. The site architecture section of the [technical SEO guide](/en/teknik-seo) helps here."
    ]
   },
   {
@@ -250,13 +250,13 @@
       "B2B downloads such as catalogues or price lists"
      ]
     },
-    "Marking the same action with two events (say form_submit and generate_lead) inflates counts, so pick one event per action and document it. On stores this is the first thing I check in [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting) projects."
+    "Marking the same action with two events (say form_submit and generate_lead) inflates counts, so pick one event per action and document it. On stores this is the first thing I check in [e-commerce SEO consulting](/en/ecommerce-seo-consulting) projects."
    ]
   },
   {
    "baslik": "Five reports to keep permanently for SEO",
    "paragraflar": [
-    "Instead of rebuilding filters every month, save the views below or add them to the Library as custom reports. Which KPIs belong in the monthly report is covered in the [SEO reporting guide](/en/guides/seo-raporlama).",
+    "Instead of rebuilding filters every month, save the views below or add them to the Library as custom reports. Which KPIs belong in the monthly report is covered in the [SEO reporting guide](/en/seo-raporlama).",
     {
      "tablo": {
       "basliklar": [
@@ -329,12 +329,12 @@
       }
      }
     },
-    "Once this setup is in place you can express the value of organic traffic in money; I walk through the calculation in [measuring SEO ROI](/en/blog/seo-roi-olcumu). If you want your property's measurement audited, we can review it together as part of [SEO consulting](/en/seo-consulting); you can see how organic data feeds growth decisions on the [performance and growth](/en/performance-growth) page and [book a call](/en/book-a-call) at a time that suits you.",
+    "Once this setup is in place you can express the value of organic traffic in money; I walk through the calculation in [measuring SEO ROI](/en/seo-roi-olcumu). If you want your property's measurement audited, we can review it together as part of [SEO consulting](/en/seo-consulting); you can see how organic data feeds growth decisions on the [performance and growth](/en/performance-growth) page and [book a call](/en/book-a-call) at a time that suits you.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: UTM link builder",
-      "metin": "To keep social, email and QR traffic separate from organic search, name campaign links consistently with the [UTM link builder](/en/tools/utm-builder); never use UTMs on internal links."
+      "metin": "To keep social, email and QR traffic separate from organic search, name campaign links consistently with the [UTM link builder](/en/utm-builder); never use UTMs on internal links."
      }
     }
    ]

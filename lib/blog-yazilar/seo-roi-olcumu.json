@@ -4,9 +4,9 @@
  "sure": 8,
  "baslik_tr": "SEO ROI Nasıl Hesaplanır? Organik Trafiğin Gelire Katkısı",
  "baslik_en": "How to Calculate SEO ROI: Organic Traffic's Contribution to Revenue",
- "meta_baslik_tr": "SEO ROI Nasıl Hesaplanır? Formül ve Örnek",
- "meta_baslik_en": "How to Calculate SEO ROI: Formula and Example",
- "meta_desc_tr": "SEO yatırım getirisi formülü, organik gelir ve potansiyel müşteri değerini hesaplama, GA4 atıf sınırları ve temsili 12 aylık ROI tablosuyla adım adım rehber.",
+ "meta_baslik_tr": "SEO ROI Nasıl Hesaplanır, Formül ve Örnek",
+ "meta_baslik_en": "How to Calculate SEO ROI with an Example",
+ "meta_desc_tr": "SEO yatırım getirisi formülü, organik gelir ve müşteri adayı değeri, GA4 atıf sınırları ve temsili 12 aylık ROI tablosuyla adım adım hesaplayın.",
  "meta_desc_en": "The SEO ROI formula, how to value organic revenue and leads, GA4 attribution limits and an illustrative 12-month ROI table, explained step by step.",
  "ozet_tr": "SEO ROI'yi kâr, artımlı trafik ve atıf sınırlarını hesaba katarak hesaplamanın pratik yolu.",
  "ozet_en": "A practical way to calculate SEO ROI using profit, incremental traffic and honest attribution limits.",
@@ -34,7 +34,7 @@
   {
    "baslik": "Organik gelir nereden alınır? E-ticaret ve potansiyel müşteri",
    "paragraflar": [
-    "E-ticarette iş görece kolaydır: GA4'te satın alma etkinliği ve gelir değeri doğru kuruluysa organik kanalın gelirini doğrudan raporlayabilirsiniz. Ölçüm kurulumunu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım. Sipariş iadeleri yüksekse net geliri ERP veya mağaza panelinden doğrulayın.",
+    "E-ticarette iş görece kolaydır: GA4'te satın alma etkinliği ve gelir değeri doğru kuruluysa organik kanalın gelirini doğrudan raporlayabilirsiniz. Ölçüm kurulumunu [GA4'te organik trafik takibi](/ga4-seo-takibi) yazısında anlattım. Sipariş iadeleri yüksekse net geliri ERP veya mağaza panelinden doğrulayın.",
     "Hizmet ve B2B sitelerinde satış sitede gerçekleşmez; form veya telefon araması bir potansiyel müşteridir. Bu durumda her potansiyel müşteriye değer biçmeniz gerekir:",
     {
      "liste": [
@@ -45,7 +45,7 @@
       "Tekrar satın alma varsa müşteri yaşam boyu değeri"
      ]
     },
-    "Satış döngüsü aylar süren [B2B üreticilerde](/sektorler/b2b-uretici-seo) form ile sözleşme arasındaki gecikme büyüktür; CRM'de kaynak alanını doldurmadan bu hesap tahmine dayanır. Raporlamanın genel çerçevesi için [SEO raporlama rehberine](/rehber/seo-raporlama) bakabilirsiniz."
+    "Satış döngüsü aylar süren [B2B üreticilerde](/b2b-uretici-seo) form ile sözleşme arasındaki gecikme büyüktür; CRM'de kaynak alanını doldurmadan bu hesap tahmine dayanır. Raporlamanın genel çerçevesi için [SEO raporlama rehberine](/seo-raporlama) bakabilirsiniz."
    ]
   },
   {
@@ -88,7 +88,7 @@
       ]
      }
     },
-    "Piyasadaki ücret modellerini ve neye göre değiştiklerini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında, benim çalışma modelimi de [fiyatlandırma](/fiyatlandirma) sayfasında bulabilirsiniz."
+    "Piyasadaki ücret modellerini ve neye göre değiştiklerini [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısında, benim çalışma modelimi de [fiyatlandırma](/fiyatlandirma) sayfasında bulabilirsiniz."
    ]
   },
   {
@@ -193,14 +193,14 @@
       }
      ]
     },
-    "Bu yüzden organik ile ücretli aramayı birlikte değerlendirmek gerekir; iki kanalın bütçe ilişkisini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında tartıştım."
+    "Bu yüzden organik ile ücretli aramayı birlikte değerlendirmek gerekir; iki kanalın bütçe ilişkisini [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısında tartıştım."
    ]
   },
   {
    "baslik": "SEO ROI'yi yönetime nasıl sunmalısınız?",
    "paragraflar": [
     "Tek bir yüzde yerine kötümser, beklenen ve iyimser olmak üzere üç senaryolu bir aralık sunun ve varsayımları (kâr marjı, kapanış oranı, taban dönem) yazılı olarak ekleyin. Böylece rakam tartışması varsayım tartışmasına döner; bu çok daha verimli bir toplantıdır.",
-    "E-ticaret sitelerinde kategori bazlı ROI, hangi ürün gruplarına içerik yatırımı yapılacağını gösterir; yöntem için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) göz atın. Ölçümü büyüme planına bağlamak istiyorsanız [performans ve büyüme](/performans) yaklaşımımı inceleyebilir, kendi verinizle bir ROI modeli kurmak için [SEO uzmanı](/seo-uzmani) olarak [randevu](/randevu) üzerinden görüşebiliriz."
+    "E-ticaret sitelerinde kategori bazlı ROI, hangi ürün gruplarına içerik yatırımı yapılacağını gösterir; yöntem için [e-ticaret SEO rehberine](/e-ticaret-seo) göz atın. Ölçümü büyüme planına bağlamak istiyorsanız [performans ve büyüme](/performans) yaklaşımımı inceleyebilir, kendi verinizle bir ROI modeli kurmak için [SEO uzmanı](/seo-uzmani) olarak [randevu](/randevu) üzerinden görüşebiliriz."
    ]
   }
  ],
@@ -228,7 +228,7 @@
   {
    "baslik": "Where does organic revenue come from? Stores vs leads",
    "paragraflar": [
-    "In e-commerce it is relatively simple: if the purchase event and revenue value are set up correctly in GA4, you can report organic revenue directly. I cover the setup in [tracking organic traffic in GA4](/en/blog/ga4-seo-takibi). If returns are high, confirm net revenue in your ERP or store admin.",
+    "In e-commerce it is relatively simple: if the purchase event and revenue value are set up correctly in GA4, you can report organic revenue directly. I cover the setup in [tracking organic traffic in GA4](/en/ga4-seo-takibi). If returns are high, confirm net revenue in your ERP or store admin.",
     "On service and B2B sites the sale does not happen on the site; a form or call is a lead. You need to put a value on each lead:",
     {
      "liste": [
@@ -239,7 +239,7 @@
       "Customer lifetime value if customers buy again"
      ]
     },
-    "For [B2B manufacturers](/en/industries/b2b-manufacturer-seo) with months-long sales cycles, the gap between form and contract is large; without a source field in the CRM this calculation is guesswork. For the wider reporting framework, see the [SEO reporting guide](/en/guides/seo-raporlama)."
+    "For [B2B manufacturers](/en/b2b-manufacturer-seo) with months-long sales cycles, the gap between form and contract is large; without a source field in the CRM this calculation is guesswork. For the wider reporting framework, see the [SEO reporting guide](/en/seo-raporlama)."
    ]
   },
   {
@@ -282,7 +282,7 @@
       ]
      }
     },
-    "Market fee models and what drives them are covered in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari); my own working model is on the [pricing](/en/pricing) page."
+    "Market fee models and what drives them are covered in [SEO agency pricing](/en/seo-ajansi-fiyatlari); my own working model is on the [pricing](/en/pricing) page."
    ]
   },
   {
@@ -387,14 +387,14 @@
       }
      ]
     },
-    "That is why organic and paid search need to be assessed together; I discuss the budget relationship in [SEO vs Google Ads](/en/blog/seo-mu-google-ads-mi)."
+    "That is why organic and paid search need to be assessed together; I discuss the budget relationship in [SEO vs Google Ads](/en/seo-mu-google-ads-mi)."
    ]
   },
   {
    "baslik": "How should you present SEO ROI to management?",
    "paragraflar": [
     "Instead of a single percentage, present a range with pessimistic, expected and optimistic scenarios, and attach the assumptions (margin, close rate, baseline period) in writing. The debate then shifts from the number to the assumptions, which is a far more productive meeting.",
-    "On stores, ROI by category shows which product groups deserve content investment; see the [e-commerce SEO guide](/en/guides/e-ticaret-seo) for the method. To connect measurement with a growth plan, look at my [performance and growth](/en/performance-growth) approach, and to build an ROI model with your own data through [SEO consulting](/en/seo-consulting), [book a call](/en/book-a-call)."
+    "On stores, ROI by category shows which product groups deserve content investment; see the [e-commerce SEO guide](/en/e-ticaret-seo) for the method. To connect measurement with a growth plan, look at my [performance and growth](/en/performance-growth) approach, and to build an ROI model with your own data through [SEO consulting](/en/seo-consulting), [book a call](/en/book-a-call)."
    ]
   }
  ],
@@ -417,7 +417,7 @@
   },
   {
    "s": "Yapay zekâ asistanlarından gelen trafik SEO ROI'ye dahil mi?",
-   "c": "GA4'te bu trafik ayrı bir AI Assistant kanalında görünür; organik aramaya değil, ayrı bir GEO kalemine yazmak daha temizdir. Ayırma yöntemini [GA4 yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım."
+   "c": "GA4'te bu trafik ayrı bir AI Assistant kanalında görünür; organik aramaya değil, ayrı bir GEO kalemine yazmak daha temizdir. Ayırma yöntemini [GA4 yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısında anlattım."
   }
  ],
  "sss_en": [
@@ -439,7 +439,7 @@
   },
   {
    "s": "Does AI assistant traffic count toward SEO ROI?",
-   "c": "In GA4 this traffic appears in a separate AI Assistant channel; booking it as its own GEO line rather than organic search keeps things clean. I explain how to separate it in [AI assistant traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi)."
+   "c": "In GA4 this traffic appears in a separate AI Assistant channel; booking it as its own GEO line rather than organic search keeps things clean. I explain how to separate it in [AI assistant traffic in GA4](/en/ga4-yapay-zeka-trafigi)."
   }
  ]
 }

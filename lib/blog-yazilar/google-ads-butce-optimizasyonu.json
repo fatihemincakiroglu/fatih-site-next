@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Google Ads Bütçesini Verimli Kullanmak: SEO Verisiyle Çalışan Ayarlar",
  "baslik_en": "Using Your Google Ads Budget Efficiently: Settings Driven by SEO Data",
- "meta_baslik_tr": "Google Ads Bütçe Optimizasyonu: SEO Verisiyle Ayarlar",
- "meta_baslik_en": "Google Ads Budget Optimisation with SEO Data",
- "meta_desc_tr": "Arama terimleri raporu, negatif anahtar kelimeler, ücretli ve organik raporu ve dönüşüm takibiyle Google Ads bütçesini SEO verisiyle birlikte yönetin.",
- "meta_desc_en": "Manage your Google Ads budget with SEO data: the search terms report, negative keywords, the paid and organic report and proper conversion tracking.",
+ "meta_baslik_tr": "Google Ads Bütçesini SEO Verisiyle Yönetmek",
+ "meta_baslik_en": "Google Ads Budget Optimisation with SEO",
+ "meta_desc_tr": "Arama terimleri raporu, negatif anahtar kelimeler, ücretli ve organik raporu ile dönüşüm takibiyle Google Ads bütçenizi verimli kullanın.",
+ "meta_desc_en": "Manage your Google Ads budget using SEO data, the search terms report, negative keywords, the paid and organic report and proper conversion tracking.",
  "ozet_tr": "Arama terimleri, negatif kelimeler ve organik veriyle Google Ads bütçesinde israfı bulup azaltmak.",
  "ozet_en": "Finding and cutting Google Ads waste with search terms, negative keywords and organic search data.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Google Ads hesaplarını denetlediğimde bütçe sorunu çoğu zaman \"az para\" değil, \"yanlış yere giden para\" çıkıyor. Alakasız aramalara ödenen tıklamalar, ölçülmeyen dönüşümler ve organikte zaten güçlü olunan terimlere hiç sorgulanmadan verilen teklifler aynı hesapta yan yana duruyor.",
-    "Bu yazıda reklam bütçesini SEO verisiyle birlikte okumanın pratik yollarını anlatıyorum. Bütçeyi SEO ile reklam arasında nasıl böleceğiniz sorusunu [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında ayrıca ele aldım.",
+    "Bu yazıda reklam bütçesini SEO verisiyle birlikte okumanın pratik yollarını anlatıyorum. Bütçeyi SEO ile reklam arasında nasıl böleceğiniz sorusunu [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısında ayrıca ele aldım.",
     {
      "alinti": "Kısa cevap: Google Ads bütçesini verimli kullanmanın temeli üç adımdır: arama terimleri raporundan alakasız sorguları bulup negatif anahtar kelime eklemek, dönüşüm takibini doğru kurmak ve Search Console bağlantısıyla organikte güçlü olduğunuz terimleri görüp reklamın gerçekten ek değer kattığı yerleri test etmek."
     }
@@ -56,7 +56,7 @@
    "paragraflar": [
     "Anahtar kelime, sizin teklif verdiğiniz ifadedir; arama terimi ise kullanıcının gerçekten yazdığı sorgu. Google Ads yardım merkezine göre arama terimleri raporu, reklamınızı tetikleyen ve yeterli sayıda kişinin aradığı terimleri listeler; yani düşük hacimli bazı sorgular raporda görünmeyebilir.",
     "Rapora Google Ads'de Kampanyalar menüsü altındaki Analizler ve raporlar bölümünden ulaşılıyor (Ekim 2026 itibarıyla yardım dokümanındaki yol bu; arayüz adları değişebilir). Raporu tıklama ve maliyete göre sıralayın, dönüşüm getirmeyen ama bütçe tüketen terimleri işaretleyin.",
-    "Bu rapor SEO için de altın değerinde: Kullanıcıların ürününüzü hangi kelimelerle aradığını gerçek veriyle gösterir. Dönüşüm getiren ama sitenizde karşılığı olmayan sorgular, [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) içerik planına doğrudan girdi olabilir."
+    "Bu rapor SEO için de altın değerinde: Kullanıcıların ürününüzü hangi kelimelerle aradığını gerçek veriyle gösterir. Dönüşüm getiren ama sitenizde karşılığı olmayan sorgular, [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) içerik planına doğrudan girdi olabilir."
    ]
   },
   {
@@ -112,14 +112,14 @@
       ]
      }
     },
-    "Bu tür testlerde mevsimsellik ve kampanya dönemleri sonucu bozabilir; tek haftalık veriye dayanarak karar vermeyin. Organik tarafı okumak için [Search Console raporları rehberi](/blog/search-console-rehberi) iyi bir başlangıç."
+    "Bu tür testlerde mevsimsellik ve kampanya dönemleri sonucu bozabilir; tek haftalık veriye dayanarak karar vermeyin. Organik tarafı okumak için [Search Console raporları rehberi](/search-console-rehberi) iyi bir başlangıç."
    ]
   },
   {
    "baslik": "Dönüşüm takibi olmadan bütçe optimize edilemez",
    "paragraflar": [
     "Otomatik teklif stratejileri, hesaptaki dönüşüm verisine göre karar verir. Dönüşüm olarak sayfa görüntülemeyi ya da \"iletişim sayfasına giriş\" gibi zayıf sinyalleri saymak, sistemi yanlış hedefe yönlendirir.",
-    "Satış, gönderilen form, tıklanan telefon numarası gibi gerçek iş sonuçlarını dönüşüm olarak tanımlayın. GA4 tarafında organik ve ücretli trafiği aynı anahtar etkinliklerle izlemek, iki kanalı eşit ölçüyle karşılaştırmayı sağlar; kurulumu [GA4'te organik trafik takibi](/blog/ga4-seo-takibi) yazısında anlattım. Raporlama ritmi için [SEO raporlama rehberi](/rehber/seo-raporlama) de işinize yarar."
+    "Satış, gönderilen form, tıklanan telefon numarası gibi gerçek iş sonuçlarını dönüşüm olarak tanımlayın. GA4 tarafında organik ve ücretli trafiği aynı anahtar etkinliklerle izlemek, iki kanalı eşit ölçüyle karşılaştırmayı sağlar; kurulumu [GA4'te organik trafik takibi](/ga4-seo-takibi) yazısında anlattım. Raporlama ritmi için [SEO raporlama rehberi](/seo-raporlama) de işinize yarar."
    ]
   },
   {
@@ -167,7 +167,7 @@
       ]
      }
     },
-    "Açılış sayfası tarafı genellikle en az ilgilenilen ama en çok kazandıran adımdır; ayrıntılarını [CRO ve SEO](/blog/cro-ve-seo) yazısında ele aldım. Reklam ile organik kanalı birlikte yönetmek isteyen işletmelere [performans ve büyüme hizmeti](/performans) kapsamında destek veriyorum; organik taraf için [SEO danışmanlığı](/seo-uzmani) ve tüm [hizmetlere](/hizmetler) göz atabilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
+    "Açılış sayfası tarafı genellikle en az ilgilenilen ama en çok kazandıran adımdır; ayrıntılarını [CRO ve SEO](/cro-ve-seo) yazısında ele aldım. Reklam ile organik kanalı birlikte yönetmek isteyen işletmelere [performans ve büyüme hizmeti](/performans) kapsamında destek veriyorum; organik taraf için [SEO danışmanlığı](/seo-uzmani) ve tüm [hizmetlere](/hizmetler) göz atabilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -202,7 +202,7 @@
    "baslik": null,
    "paragraflar": [
     "When I audit Google Ads accounts, the budget problem is rarely \"too little money\". It is usually money going to the wrong place: clicks on irrelevant searches, unmeasured conversions and bids on terms where the site already ranks well organically, never questioned.",
-    "This post covers practical ways to read your ad budget alongside SEO data. How to split budget between SEO and ads is a separate question I covered in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi).",
+    "This post covers practical ways to read your ad budget alongside SEO data. How to split budget between SEO and ads is a separate question I covered in [SEO or Google Ads](/en/seo-mu-google-ads-mi).",
     {
      "alinti": "Short answer: Efficient Google Ads spending rests on three steps: find irrelevant queries in the search terms report and add negative keywords, set up conversion tracking properly, and link Search Console to see where you are already strong organically, then test where ads genuinely add value."
     }
@@ -243,7 +243,7 @@
    "paragraflar": [
     "A keyword is what you bid on; a search term is what the user actually typed. According to the Google Ads Help Center, the search terms report lists terms that triggered your ad and were searched by a significant number of people, so some low-volume queries may not appear.",
     "In Google Ads the report sits under Campaigns, in the Insights and reports section (that is the path in the help documentation as of October 2026; interface names can change). Sort by clicks and cost and flag terms that spend budget without converting.",
-    "The report is just as valuable for SEO: it shows, with real data, the words people use to find your product. Converting queries with no matching page on your site can feed straight into the content plan from the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi)."
+    "The report is just as valuable for SEO: it shows, with real data, the words people use to find your product. Converting queries with no matching page on your site can feed straight into the content plan from the [keyword research guide](/en/anahtar-kelime-arastirmasi)."
    ]
   },
   {
@@ -299,14 +299,14 @@
       ]
      }
     },
-    "Seasonality and campaigns can distort these tests, so do not decide on a single week of data. To read the organic side, start with the [Search Console reports guide](/en/blog/search-console-rehberi)."
+    "Seasonality and campaigns can distort these tests, so do not decide on a single week of data. To read the organic side, start with the [Search Console reports guide](/en/search-console-rehberi)."
    ]
   },
   {
    "baslik": "You cannot optimise budget without conversion tracking",
    "paragraflar": [
     "Automated bidding strategies make decisions from the conversion data in the account. Counting page views or weak signals such as \"visited the contact page\" as conversions points the system at the wrong target.",
-    "Define real business outcomes as conversions: sales, submitted forms, phone number clicks. Tracking organic and paid traffic with the same key events in GA4 lets you compare both channels on equal terms; I cover the setup in [organic traffic tracking in GA4](/en/blog/ga4-seo-takibi). For reporting cadence, the [SEO reporting guide](/en/guides/seo-raporlama) also helps."
+    "Define real business outcomes as conversions: sales, submitted forms, phone number clicks. Tracking organic and paid traffic with the same key events in GA4 lets you compare both channels on equal terms; I cover the setup in [organic traffic tracking in GA4](/en/ga4-seo-takibi). For reporting cadence, the [SEO reporting guide](/en/seo-raporlama) also helps."
    ]
   },
   {
@@ -354,7 +354,7 @@
       ]
      }
     },
-    "Landing pages are usually the least attended step and the most rewarding; I cover them in [CRO and SEO](/en/blog/cro-ve-seo). I support businesses running paid and organic together through [performance and growth work](/en/performance-growth); for the organic side see [SEO consulting](/en/seo-consulting) and all [services](/en/services), or simply [book a call](/en/book-a-call)."
+    "Landing pages are usually the least attended step and the most rewarding; I cover them in [CRO and SEO](/en/cro-ve-seo). I support businesses running paid and organic together through [performance and growth work](/en/performance-growth); for the organic side see [SEO consulting](/en/seo-consulting) and all [services](/en/services), or simply [book a call](/en/book-a-call)."
    ]
   }
  ],

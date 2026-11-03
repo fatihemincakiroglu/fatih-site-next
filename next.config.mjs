@@ -1,3 +1,4 @@
+import fs from 'fs'
 // ── KALDIRILMIŞ ESKİ ADRESLER → ANA SAYFA (301) ─────────────
 // Eski WordPress temasından kalan (kategori, etiket, portfolyo, ekip, tarih
 // arşivi) ve hiç yayına alınmamış blog/rehber adresleri. Hepsi 404 veriyordu.
@@ -45,16 +46,52 @@ const ANASAYFAYA_YONLENEN = [
 // Eski blog adresleri: içeriği artık sitede bulunan konuya yönlenir (ana sayfa yerine).
 // /blog/eeat-icin-icerik ve /en/blog/google-ai-overview-optimizasyonu yeniden yayında olduğu için listede yok.
 const KONUYA_YONLENEN = [
-  ['/blog/icerik-guncelleme-stratejisi', '/blog/content-pruning'],
-  ['/blog/programatik-seo-rehberi', '/blog/programatik-seo'],
-  ['/blog/pillar-cluster-modeli', '/blog/topical-authority'],
-  ['/blog/backlink-stratejisi-2025', '/rehber/backlink-dijital-pr'],
-  ['/blog/teknik-seo-2025', '/rehber/teknik-seo'],
-  ['/en/guides/mobil-seo', '/en/blog/mobil-seo'],
-  ['/en/blog/site-migrasyonu-seo', '/en/guides/site-tasima-seo'],
+  ['/blog/icerik-guncelleme-stratejisi', '/content-pruning'],
+  ['/blog/programatik-seo-rehberi', '/programatik-seo'],
+  ['/blog/pillar-cluster-modeli', '/topical-authority'],
+  ['/blog/backlink-stratejisi-2025', '/backlink-dijital-pr'],
+  ['/blog/teknik-seo-2025', '/teknik-seo'],
+  ['/en/guides/mobil-seo', '/en/mobil-seo'],
+  ['/en/blog/site-migrasyonu-seo', '/en/site-tasima-seo'],
   // Eski kontrol listesi PDF'i → güncel teknik SEO denetim listesi
   ['/downloads/2025-teknik-seo-kontrol-listesi.pdf', '/downloads/teknik-seo-denetim-kontrol-listesi.pdf'],
 ]
+
+// ── DÜZ ADRESLER (ara kırılım yok) ──────────────────────────
+// Blog yazıları, rehberler, sektör sayfaları ve araçlar kök adreste yayında:
+//   /<slug>  ve  /en/<slug>
+// Sayfa dosyaları klasörlerinde duruyor (pages/blog/[slug].js, pages/rehber/[slug].js,
+// pages/sektorler/[slug].js, pages/araclar/*.js ve EN karşılıkları); düz adres
+// rewrite ile bu dosyalara bağlanır. Eski /blog/x, /rehber/x, /sektorler/x, /araclar/x
+// (ve /en/blog/x, /en/guides/x, /en/industries/x, /en/tools/x) adresleri 301 ile düz adrese gider.
+// Liste kaynakları: lib/content-index.js (blog + rehber), lib/sektorler/*.json, ARACLAR.
+// Yeni bir yazı/rehber yayına alındığında ek bir şey yapmaya gerek yok.
+const ARACLAR = [
+  ['schema-olusturucu', 'schema-generator'],
+  ['yonlendirme-olusturucu', 'redirect-generator'],
+  ['robots-txt-test', 'robots-txt-tester'],
+  ['hreflang-olusturucu', 'hreflang-generator'],
+  ['serp-onizleme', 'serp-preview'],
+  ['utm-olusturucu', 'utm-builder'],
+]
+function duzRotalar() {
+  const oku = (y) => fs.readFileSync(new URL(y, import.meta.url), 'utf8')
+  const [blogKismi, rehberKismi] = oku('./lib/content-index.js').split('export const YAYINDAKI_REHBER_SLUGS')
+  const sluglar = (t) => [...t.matchAll(/^ {2}'([a-z0-9-]+)',$/gm)].map(m => m[1])
+  const sektorler = fs.readdirSync(new URL('./lib/sektorler/', import.meta.url))
+    .filter(f => f.endsWith('.json'))
+    .map(f => [f.slice(0, -5), JSON.parse(oku(`./lib/sektorler/${f}`)).slug_en])
+  return [
+    ...sluglar(blogKismi).flatMap(s => [[`/${s}`, `/blog/${s}`], [`/en/${s}`, `/en/blog/${s}`]]),
+    ...sluglar(rehberKismi.split(']')[0]).flatMap(s => [[`/${s}`, `/rehber/${s}`], [`/en/${s}`, `/en/guides/${s}`]]),
+    ...sektorler.flatMap(([tr, en]) => [[`/${tr}`, `/sektorler/${tr}`], [`/en/${en}`, `/en/industries/${en}`]]),
+    ...ARACLAR.flatMap(([tr, en]) => [[`/${tr}`, `/araclar/${tr}`], [`/en/${en}`, `/en/tools/${en}`]]),
+  ]
+}
+// Eski ara kırılımlı adresler → düz adres. Next'in istemci tarafı veri isteklerine
+// (x-nextjs-data başlığı) uygulanmaz; aksi hâlde sayfa içi geçişlerde döngü oluşurdu.
+const ESKI_ONEKLER = ['/blog', '/rehber', '/sektorler', '/araclar', '/en/blog', '/en/guides', '/en/industries', '/en/tools']
+const veriIstegiDegil = [{ type: 'header', key: 'x-nextjs-data' }]
 
 // ── GÜVENLİK BAŞLIKLARI ─────────────────────────────────────
 // Content-Security-Policy: sayfanın hangi kaynaklardan script, stil, görsel,
@@ -152,6 +189,12 @@ const nextConfig = {
         { source: `${u}/`, destination: hedef, statusCode: 301 },
       ]),
       // Kaldırılmış eski adresler → ana sayfa. statusCode: 301 (permanent: true 308 verir).
+      ...ESKI_ONEKLER.map(onek => ({
+        source: `${onek}/:slug`,
+        destination: `${onek.startsWith('/en') ? '/en' : ''}/:slug`,
+        statusCode: 301,
+        missing: veriIstegiDegil,
+      })),
       ...ANASAYFAYA_YONLENEN.flatMap(u => [
         { source: u, destination: '/', statusCode: 301 },
         { source: `${u}/`, destination: '/', statusCode: 301 },
@@ -167,11 +210,12 @@ const nextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
-        { source: '/blog/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr' },
-        { source: '/en/blog/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en' },
-        { source: '/rehber/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr&tur=rehber' },
-        { source: '/en/guides/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en&tur=rehber' },
+        // Markdown sürümleri: /<slug>.md ve /en/<slug>.md (blog mu rehber mi API slug'dan anlar)
+        { source: '/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr' },
+        { source: '/en/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en' },
       ],
+      // Düz adres → sayfa dosyası (sayfa ve public dosyalarından sonra, dinamik rotalardan önce)
+      afterFiles: duzRotalar().map(([source, destination]) => ({ source, destination })),
     }
   },
 

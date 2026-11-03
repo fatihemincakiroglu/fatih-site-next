@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "Marka Bahsi (Brand Mention) Nedir? Linksiz Bahsin SEO ve GEO'daki Yeri",
  "baslik_en": "What Is a Brand Mention? The Role of Unlinked Mentions in SEO and GEO",
- "meta_baslik_tr": "Marka Bahsi (Brand Mention) Nedir? SEO ve GEO'daki Yeri",
- "meta_baslik_en": "What Is a Brand Mention? Unlinked Mentions in SEO and GEO",
- "meta_desc_tr": "Marka bahsi nedir, backlinkten farkı ne? Linksiz bahsin SEO ve yapay zekâ cevaplarındaki yeri, değerli bahsin özellikleri, izleme ve riskler.",
- "meta_desc_en": "What a brand mention is and how it differs from a backlink: the role of unlinked mentions in SEO and AI answers, what makes one valuable, tracking and risks.",
+ "meta_baslik_tr": "Marka Bahsi Nedir, SEO ve GEO'daki Yeri",
+ "meta_baslik_en": "What Is a Brand Mention in SEO and GEO",
+ "meta_desc_tr": "Marka bahsinin backlinkten farkını, linksiz bahsin SEO ve AI cevaplarındaki yerini, değerli bahsin özelliklerini, izlemeyi ve riskleri öğrenin.",
+ "meta_desc_en": "How a brand mention differs from a backlink, the role of unlinked mentions in SEO and AI answers, what makes one valuable, tracking and risks.",
  "ozet_tr": "Linksiz marka bahsi SEO'da ve yapay zekâ cevaplarında ne işe yarar, hangi bahis değerlidir, nasıl izlenir?",
  "ozet_en": "What unlinked brand mentions do for SEO and AI answers, which mentions are valuable and how to track them.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Marka bahsi (brand mention), markanızın, ürününüzün ya da kurucunuzun adının başka bir sitede, haberde, forumda veya yorum platformunda anılmasıdır. Bu anma bir bağlantıyla birlikte gelebilir; ama çoğu zaman gelmez. Bir gazeteci sizden alıntı yapar, bir sektör listesi firmanızı sayar, bir forum kullanıcısı hizmetinizi önerir; hiçbirinde link yoktur.",
-    "Uzun süre SEO'da yalnızca linkli bahisler önemsendi. Yapay zekâ asistanlarının cevaplarını birden çok kaynaktan sentezlemesiyle, linksiz bahis de daha çok konuşulur oldu. Bu yazıda konunun abartısız bir çerçevesini çiziyorum. Link kazanma yöntemlerini [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) ayrıntılı anlattığım için burada tekrar etmiyorum.",
+    "Uzun süre SEO'da yalnızca linkli bahisler önemsendi. Yapay zekâ asistanlarının cevaplarını birden çok kaynaktan sentezlemesiyle, linksiz bahis de daha çok konuşulur oldu. Bu yazıda konunun abartısız bir çerçevesini çiziyorum. Link kazanma yöntemlerini [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ayrıntılı anlattığım için burada tekrar etmiyorum.",
     {
      "alinti": "Kısa cevap: Marka bahsi, markanızın başka bir kaynakta link verilerek ya da verilmeden anılmasıdır. Google, linksiz bahsin doğrudan bir sıralama sinyali olduğunu kamuya açık biçimde söylemiyor; ancak bağımsız kaynaklardaki tutarlı bahisler itibarı, marka aramalarını ve yapay zekâ cevaplarında markanın doğru tanınmasını destekleyebilir. Değerli olan bahis sayısı değil, bağlamı ve kaynağıdır."
     }
@@ -70,7 +70,7 @@
    "baslik": "GEO'da marka bahsi neden önemli?",
    "paragraflar": [
     "ChatGPT, Gemini, Perplexity, Copilot ve Google'ın AI özellikleri gibi asistanlar cevap üretirken web kaynaklarına başvurabiliyor. “Kimi önerirsin” ya da “A mı B mi” gibi sorularda cevabın hammaddesi çoğu zaman karşılaştırma yazıları, sektör listeleri, haberler ve forumlardır. Bu kaynaklarda anılmayan bir markanın cevaba girmesi zorlaşır.",
-    "Kaynak seçiminin kamuya açık bir formülü yok; dolayısıyla “şu kadar bahis, şu kadar görünürlük” demek doğru olmaz. Gözlemlediğim şu: bir marka güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda cevap üreten sistemin markayı tanıma ve doğru tanımlama ihtimali artabilir. Bunun Perplexity tarafındaki pratik karşılığını [Perplexity'de kaynak gösterilme](/blog/perplexity-kaynak-gosterilme) yazısında, test yöntemini ise [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlattım. Genel çerçeve için [GEO uygulama rehberindeki](/rehber/geo-uygulama) marka bahsi adımına bakabilirsiniz."
+    "Kaynak seçiminin kamuya açık bir formülü yok; dolayısıyla “şu kadar bahis, şu kadar görünürlük” demek doğru olmaz. Gözlemlediğim şu: bir marka güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda cevap üreten sistemin markayı tanıma ve doğru tanımlama ihtimali artabilir. Bunun Perplexity tarafındaki pratik karşılığını [Perplexity'de kaynak gösterilme](/perplexity-kaynak-gosterilme) yazısında, test yöntemini ise [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında anlattım. Genel çerçeve için [GEO uygulama rehberindeki](/geo-uygulama) marka bahsi adımına bakabilirsiniz."
    ]
   },
   {
@@ -86,7 +86,7 @@
       "Kaynak tek seferlik bir sayfa değil, düzenli yayın yapan ve kendi itibarı olan bir site mi?"
      ]
     },
-    "Yerel işletmelerde Google yorumları ve yerel haber siteleri de bu tablonun parçasıdır. Yorumlarla ilgili doğru yaklaşımı [Google yorumlarına cevap verme](/blog/google-yorumlarina-cevap) yazısında, yerel kaynakları ise [yerel SEO rehberinde](/rehber/yerel-seo) ele aldım."
+    "Yerel işletmelerde Google yorumları ve yerel haber siteleri de bu tablonun parçasıdır. Yorumlarla ilgili doğru yaklaşımı [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında, yerel kaynakları ise [yerel SEO rehberinde](/yerel-seo) ele aldım."
    ]
   },
   {
@@ -131,7 +131,7 @@
    "baslik": null,
    "paragraflar": [
     "A brand mention is when your brand, product or founder's name is mentioned on another site, in the news, on a forum or on a review platform. The mention may come with a link, but often it doesn't. A journalist quotes you, an industry list includes your firm, a forum user recommends your service, and none of them link.",
-    "For a long time SEO cared only about linked mentions. Now that AI assistants synthesise answers from multiple sources, unlinked mentions get far more attention. In this post I draw a sober frame around the topic. I cover link-earning methods in detail in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr), so I won't repeat them here.",
+    "For a long time SEO cared only about linked mentions. Now that AI assistants synthesise answers from multiple sources, unlinked mentions get far more attention. In this post I draw a sober frame around the topic. I cover link-earning methods in detail in the [backlink and digital PR guide](/en/backlink-dijital-pr), so I won't repeat them here.",
     {
      "alinti": "Short answer: A brand mention is when your brand is named on another source, with or without a link. Google does not publicly say that unlinked mentions are a direct ranking signal; however, consistent mentions in independent sources can support reputation, branded searches and accurate recognition of the brand in AI answers. What matters is not the number of mentions but their context and source."
     }
@@ -186,7 +186,7 @@
    "baslik": "Why do brand mentions matter for GEO?",
    "paragraflar": [
     "Assistants such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI features can draw on web sources when generating answers. For questions like \"who would you recommend\" or \"A or B\", the raw material is often comparison articles, industry lists, news and forums. A brand that isn't mentioned in these sources has a harder time getting into the answer.",
-    "There is no public formula for source selection, so saying \"this many mentions, this much visibility\" would be wrong. What I observe is this: when a brand is consistently mentioned together with a specific topic in trustworthy, independent sources, a system answering questions on that topic may be more likely to recognise and describe the brand correctly. I cover the practical side for Perplexity in the post on [getting cited by Perplexity](/en/blog/perplexity-kaynak-gosterilme) and the testing method in the post on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu). For the overall frame, see the brand mention step in the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "There is no public formula for source selection, so saying \"this many mentions, this much visibility\" would be wrong. What I observe is this: when a brand is consistently mentioned together with a specific topic in trustworthy, independent sources, a system answering questions on that topic may be more likely to recognise and describe the brand correctly. I cover the practical side for Perplexity in the post on [getting cited by Perplexity](/en/perplexity-kaynak-gosterilme) and the testing method in the post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu). For the overall frame, see the brand mention step in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
@@ -202,7 +202,7 @@
       "Is the source a regularly publishing site with its own reputation, not a one-off page?"
      ]
     },
-    "For local businesses, Google reviews and local news sites are part of this picture too. I cover the right approach to reviews in the post on [responding to Google reviews](/en/blog/google-yorumlarina-cevap) and local sources in the [local SEO guide](/en/guides/yerel-seo)."
+    "For local businesses, Google reviews and local news sites are part of this picture too. I cover the right approach to reviews in the post on [responding to Google reviews](/en/google-yorumlarina-cevap) and local sources in the [local SEO guide](/en/yerel-seo)."
    ]
   },
   {

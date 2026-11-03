@@ -4,10 +4,10 @@
  "sure": 6,
  "baslik_tr": "Google Sitelink'leri: Nasıl Oluşur, Neyi Etkileyebilirsiniz?",
  "baslik_en": "Google Sitelinks: How They Form and What You Can Influence",
- "meta_baslik_tr": "Google Sitelink'leri: Nasıl Oluşur, Neyi Etkileyebilirsiniz?",
- "meta_baslik_en": "Google Sitelinks: How They Form, What You Can Influence",
- "meta_desc_tr": "Google sitelink'leri otomatik oluşur; site yapısı, başlıklar ve iç linklerle zemini hazırlarsınız. İstenmeyen sitelink'i kaldırma ve arama kutusunun sonu.",
- "meta_desc_en": "Google sitelinks are automated, but structure, titles and internal links shape them. How to remove an unwanted sitelink and what happened to the search box.",
+ "meta_baslik_tr": "Google Sitelink'leri Nasıl Oluşur",
+ "meta_baslik_en": "Google Sitelinks and How They Form",
+ "meta_desc_tr": "Sitelink'ler otomatik oluşur, ama site yapısı, başlıklar ve iç linklerle zemini siz hazırlarsınız. İstenmeyen sitelink'i kaldırmayı da öğrenin.",
+ "meta_desc_en": "Google sitelinks are automated, but site structure, titles and internal links shape them. Learn how to remove an unwanted sitelink.",
  "ozet_tr": "Sitelink'leri Google seçer; site yapısı, başlıklar ve iç linklerle bu seçimi kolaylaştırırsınız.",
  "ozet_en": "Google picks sitelinks; you make the choice easier with structure, titles and internal links. Here is what actually helps.",
  "bolumler_tr": [
@@ -57,7 +57,7 @@
       }
      ]
     },
-    "Bu dört başlığın hepsi aslında temel teknik SEO ve bilgi mimarisi işidir; ayrıca “sitelink optimizasyonu” diye bir çalışma yoktur. Genel çerçeve için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+    "Bu dört başlığın hepsi aslında temel teknik SEO ve bilgi mimarisi işidir; ayrıca “sitelink optimizasyonu” diye bir çalışma yoktur. Genel çerçeve için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
    ]
   },
   {
@@ -99,7 +99,7 @@
       ]
      }
     },
-    "İç linklerin nasıl kurgulanacağını [iç linkleme stratejisi](/blog/ic-linkleme) yazısında ayrıntılı anlattım. Klasör ve slug düzenini ise [SEO uyumlu URL yapısı](/blog/url-yapisi-seo) ele alıyor: /hizmetler/implant/ gibi okunur yollar, hem kullanıcıya hem Google'a bölümleri anlatır."
+    "İç linklerin nasıl kurgulanacağını [iç linkleme stratejisi](/ic-linkleme) yazısında ayrıntılı anlattım. Klasör ve slug düzenini ise [SEO uyumlu URL yapısı](/url-yapisi-seo) ele alıyor: /hizmetler/implant/ gibi okunur yollar, hem kullanıcıya hem Google'a bölümleri anlatır."
    ]
   },
   {
@@ -133,7 +133,7 @@
       ]
      }
     },
-    "Tersi bir örnek: Aynı tedavi için “implant”, “implant-tedavisi” ve “implant-fiyatlari” gibi üç ince sayfa varsa Google'ın hangisini sitelink yapacağı belirsizleşir. Sağlık sitelerine özgü yapı için [klinik SEO](/sektorler/klinik-seo) sayfasına bakabilirsiniz."
+    "Tersi bir örnek: Aynı tedavi için “implant”, “implant-tedavisi” ve “implant-fiyatlari” gibi üç ince sayfa varsa Google'ın hangisini sitelink yapacağı belirsizleşir. Sağlık sitelerine özgü yapı için [klinik SEO](/klinik-seo) sayfasına bakabilirsiniz."
    ]
   },
   {
@@ -162,7 +162,7 @@
       }
      }
     },
-    "noindex'in sayfayı tüm arama sonuçlarından çıkaracağını unutmayın. Sayfa başka sorgularda değerliyse kaldırmak yerine önemli sayfaları güçlendirmek daha akıllıca olabilir; değişikliklerin etkisini Search Console'da izlemek için [Search Console rehberi](/blog/search-console-rehberi) yol gösterir."
+    "noindex'in sayfayı tüm arama sonuçlarından çıkaracağını unutmayın. Sayfa başka sorgularda değerliyse kaldırmak yerine önemli sayfaları güçlendirmek daha akıllıca olabilir; değişikliklerin etkisini Search Console'da izlemek için [Search Console rehberi](/search-console-rehberi) yol gösterir."
    ]
   },
   {
@@ -175,7 +175,7 @@
       "metin": "Google, Ekim 2024'te yaptığı duyuruyla sitelinks arama kutusunu 21 Kasım 2024'ten itibaren tüm dillerde ve bölgelerde kaldırdı. İlgili Search Console raporu da kaldırıldı. Google'a göre bu değişiklik sıralamaları ve normal sitelink'leri etkilemiyor."
      }
     },
-    "Mevcut WebSite işaretlemesindeki SearchAction bölümünü silmek zorunda değilsiniz; Google kalan işaretlemenin sorun ya da hata yaratmayacağını belirtti. Site adının gösterimi için kullanılan WebSite yapısal verisi ise desteklenmeye devam ediyor. Organizasyon ve WebSite şemasını kurmak için [yapısal veri rehberi](/rehber/schema-yapisal-veri) ve [schema oluşturucu](/araclar/schema-olusturucu) işinizi kolaylaştırır."
+    "Mevcut WebSite işaretlemesindeki SearchAction bölümünü silmek zorunda değilsiniz; Google kalan işaretlemenin sorun ya da hata yaratmayacağını belirtti. Site adının gösterimi için kullanılan WebSite yapısal verisi ise desteklenmeye devam ediyor. Organizasyon ve WebSite şemasını kurmak için [yapısal veri rehberi](/schema-yapisal-veri) ve [schema oluşturucu](/schema-olusturucu) işinizi kolaylaştırır."
    ]
   },
   {
@@ -191,7 +191,7 @@
       "Marka adınız tutarlı mı ve marka aramalarında sitenizi net biçimde tanımlıyor mu?"
      ]
     },
-    "Son madde, markanın Google ve yapay zekâ sistemlerince nasıl tanındığıyla ilgili; ayrıntısını [entity SEO](/blog/entity-seo) yazısında bulabilirsiniz. Sitenizin bilgi mimarisini gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da [iletişim](/iletisim) sayfasından bana ulaşabilirsiniz."
+    "Son madde, markanın Google ve yapay zekâ sistemlerince nasıl tanındığıyla ilgili; ayrıntısını [entity SEO](/entity-seo) yazısında bulabilirsiniz. Sitenizin bilgi mimarisini gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamına bakabilir ya da [iletişim](/iletisim) sayfasından bana ulaşabilirsiniz."
    ]
   }
  ],
@@ -242,7 +242,7 @@
       }
      ]
     },
-    "All four are core technical SEO and information architecture work; there is no separate “sitelink optimisation”. For the broader framework, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "All four are core technical SEO and information architecture work; there is no separate “sitelink optimisation”. For the broader framework, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -284,7 +284,7 @@
       ]
      }
     },
-    "I cover how to plan internal links in [internal linking strategy](/en/blog/ic-linkleme). Folder and slug layout is covered in [SEO-friendly URL structure](/en/blog/url-yapisi-seo): readable paths like /services/implants/ explain your sections to users and Google alike."
+    "I cover how to plan internal links in [internal linking strategy](/en/ic-linkleme). Folder and slug layout is covered in [SEO-friendly URL structure](/en/url-yapisi-seo): readable paths like /services/implants/ explain your sections to users and Google alike."
    ]
   },
   {
@@ -318,7 +318,7 @@
       ]
      }
     },
-    "The opposite: with three thin pages such as “implants”, “implant-treatment” and “implant-prices” for one treatment, it becomes unclear which one Google should use. For healthcare site structure, see [healthcare SEO](/en/industries/healthcare-seo)."
+    "The opposite: with three thin pages such as “implants”, “implant-treatment” and “implant-prices” for one treatment, it becomes unclear which one Google should use. For healthcare site structure, see [healthcare SEO](/en/healthcare-seo)."
    ]
   },
   {
@@ -347,7 +347,7 @@
       }
      }
     },
-    "Remember that noindex removes the page from all search results. If the page has value for other queries, strengthening your key pages may be smarter than removing it; the [Search Console guide](/en/blog/search-console-rehberi) shows how to monitor the effect."
+    "Remember that noindex removes the page from all search results. If the page has value for other queries, strengthening your key pages may be smarter than removing it; the [Search Console guide](/en/search-console-rehberi) shows how to monitor the effect."
    ]
   },
   {
@@ -360,7 +360,7 @@
       "metin": "In an October 2024 announcement, Google removed the sitelinks search box in all languages and regions from 21 November 2024. The related Search Console report was removed too. Google says the change does not affect rankings or regular sitelinks."
      }
     },
-    "You do not have to delete the SearchAction part of your WebSite markup; Google said leftover markup causes no issues or errors. WebSite structured data used for site names remains supported. To set up Organization and WebSite schema, the [structured data guide](/en/guides/schema-yapisal-veri) and the [schema generator](/en/tools/schema-generator) help."
+    "You do not have to delete the SearchAction part of your WebSite markup; Google said leftover markup causes no issues or errors. WebSite structured data used for site names remains supported. To set up Organization and WebSite schema, the [structured data guide](/en/schema-yapisal-veri) and the [schema generator](/en/schema-generator) help."
    ]
   },
   {
@@ -376,7 +376,7 @@
       "Is your brand name consistent and does it clearly identify your site in brand searches?"
      ]
     },
-    "The last item relates to how Google and AI systems recognise your brand; see [entity SEO](/en/blog/entity-seo). To review your site's information architecture, see [SEO consulting](/en/seo-consulting) or reach me via the [contact page](/en/contact)."
+    "The last item relates to how Google and AI systems recognise your brand; see [entity SEO](/en/entity-seo). To review your site's information architecture, see [SEO consulting](/en/seo-consulting) or reach me via the [contact page](/en/contact)."
    ]
   }
  ],
@@ -399,7 +399,7 @@
   },
   {
    "s": "Sitelink'ler Google Ads'deki site bağlantılarıyla aynı şey mi?",
-   "c": "Hayır. Organik sitelink'ler otomatik oluşur; Google Ads'deki site bağlantısı öğeleri ise reklamveren tarafından reklama eklenir. İkisi birbirini etkilemez. Reklam ve organik dengesini [SEO mu Google Ads mi](/blog/seo-mu-google-ads-mi) yazısında ele aldım."
+   "c": "Hayır. Organik sitelink'ler otomatik oluşur; Google Ads'deki site bağlantısı öğeleri ise reklamveren tarafından reklama eklenir. İkisi birbirini etkilemez. Reklam ve organik dengesini [SEO mu Google Ads mi](/seo-mu-google-ads-mi) yazısında ele aldım."
   },
   {
    "s": "Mobilde sitelink'ler farklı mı görünür?",
@@ -425,7 +425,7 @@
   },
   {
    "s": "Are sitelinks the same as Google Ads sitelinks?",
-   "c": "No. Organic sitelinks are automated; sitelink assets in Google Ads are added by the advertiser. Neither affects the other. I discuss the paid and organic balance in [SEO or Google Ads](/en/blog/seo-mu-google-ads-mi)."
+   "c": "No. Organic sitelinks are automated; sitelink assets in Google Ads are added by the advertiser. Neither affects the other. I discuss the paid and organic balance in [SEO or Google Ads](/en/seo-mu-google-ads-mi)."
   },
   {
    "s": "Do sitelinks look different on mobile?",

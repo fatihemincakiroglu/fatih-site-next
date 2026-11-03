@@ -21,7 +21,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? "Book a free SEO discovery call today. I'll analyze your website and create a custom roadmap that reveals your organic growth opportunities and next steps." : 'Ücretsiz SEO keşif görüşmesi için hemen randevu alın. Sitenizi analiz edip organik büyüme fırsatlarını ortaya çıkaran özel bir yol haritası hazırlıyorum.'} />
+        <meta name="description" content={isEn ? "Book a free SEO discovery call. I'll analyze your website and create a custom roadmap that reveals your organic growth opportunities and next steps." : 'Ücretsiz SEO keşif görüşmesi için randevu alın. Sitenizi analiz edip organik büyüme fırsatlarını gösteren size özel bir yol haritası hazırlıyorum.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/book-a-call' : 'https://fatihemincakiroglu.com/randevu'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

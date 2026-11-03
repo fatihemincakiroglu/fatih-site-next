@@ -4,7 +4,7 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { analizEt, uret, sutunOku, satirOku } from '../../lib/hreflang-uretici'
 
 // hreflang oluşturucu — tamamen tarayıcıda çalışır.
-// TR: /araclar/hreflang-olusturucu   EN: /en/tools/hreflang-generator
+// TR: /hreflang-olusturucu   EN: /en/hreflang-generator
 
 const ORNEK_SUTUN = 'tr, en, de-DE, x-default'
 const ORNEK_SATIR = `https://www.ornek.com/\thttps://www.ornek.com/en/\thttps://www.ornek.com/de/\thttps://www.ornek.com/
@@ -68,9 +68,9 @@ export default function HreflangOlusturucu(props) {
 
   const icerik = isEn ? {
     baslik: 'hreflang Generator',
-    metaBaslik: 'hreflang Generator: HTML Tags, XML Sitemap, HTTP',
-    metaDesc: 'Generate valid hreflang tags for multilingual sites as HTML link tags, an XML sitemap or HTTP headers. Checks language and region codes and x-default.',
-    giris: 'List your language codes and the URL of each page in every language. The tool checks the codes against ISO standards, makes every version list all the others (reciprocity), and outputs the format you need. Background: the [international SEO and hreflang article](/en/blog/hreflang-uluslararasi-seo).',
+    metaBaslik: 'hreflang Tag Generator | Free SEO Tool',
+    metaDesc: 'Generate valid hreflang tags for multilingual sites as HTML link tags, an XML sitemap or HTTP headers. Language, region and x-default are checked.',
+    giris: 'List your language codes and the URL of each page in every language. The tool checks the codes against ISO standards, makes every version list all the others (reciprocity), and outputs the format you need. Background: the [international SEO and hreflang article](/en/hreflang-uluslararasi-seo).',
     adimlar: [
       'In the first box, write the language codes in column order, e.g. "tr, en, de-DE, x-default". Use a language code (ISO 639-1) with an optional country code (ISO 3166-1), never a country on its own.',
       'In the second box, put one page per row and its language versions in the same column order. Copying columns from Excel or Google Sheets works as-is (tab-separated). Leave a cell empty if a page has no version in that language.',
@@ -81,13 +81,13 @@ export default function HreflangOlusturucu(props) {
       { s: 'Which method should I use: HTML, sitemap or HTTP header?', c: 'Google treats all three as equivalent. HTML tags are easiest on small sites; a sitemap is easier to manage on large sites because it keeps the markup out of page templates. HTTP headers are for non-HTML files such as PDFs. Use one method consistently.' },
       { s: 'What is x-default for?', c: 'x-default marks the page to show users whose language or region does not match any of your versions, typically a language selector or your main international page. It is optional but recommended.' },
       { s: 'Why do I get "en-UK is not valid"?', c: 'The ISO code for the United Kingdom is GB, so the correct value is en-GB. Similarly, EU is not a country code, and JP, CN and KR are country codes, not language codes (ja, zh and ko are).' },
-      { s: 'Does hreflang need canonical tags too?', c: 'Yes, each language version should have a self-referencing canonical pointing to itself, not to another language. Pointing all versions to one canonical tells Google they are duplicates. The [technical SEO guide](/en/guides/teknik-seo) covers canonicals.' },
+      { s: 'Does hreflang need canonical tags too?', c: 'Yes, each language version should have a self-referencing canonical pointing to itself, not to another language. Pointing all versions to one canonical tells Google they are duplicates. The [technical SEO guide](/en/teknik-seo) covers canonicals.' },
     ],
   } : {
     baslik: 'hreflang Oluşturucu',
-    metaBaslik: 'hreflang Oluşturucu: HTML Etiketi, XML Site Haritası',
-    metaDesc: 'Çok dilli siteler için geçerli hreflang etiketlerini HTML, XML site haritası ya da HTTP başlığı olarak oluşturun. Dil ve bölge kodlarını, x-default\'u kontrol eder.',
-    giris: 'Dil kodlarınızı ve her sayfanın dil sürümlerinin adreslerini girin. Araç kodları ISO standartlarına göre kontrol eder, her sürümün diğerlerini listelemesini (karşılıklılık) sağlar ve ihtiyacınız olan biçimde çıktı verir. Arka plan için [uluslararası SEO ve hreflang yazısı](/blog/hreflang-uluslararasi-seo).',
+    metaBaslik: 'hreflang Etiketi Oluşturucu | Ücretsiz SEO Aracı',
+    metaDesc: 'Çok dilli siteniz için hreflang etiketlerini HTML, XML site haritası ya da HTTP başlığı olarak üretin. Dil, bölge kodu ve x-default denetlenir.',
+    giris: 'Dil kodlarınızı ve her sayfanın dil sürümlerinin adreslerini girin. Araç kodları ISO standartlarına göre kontrol eder, her sürümün diğerlerini listelemesini (karşılıklılık) sağlar ve ihtiyacınız olan biçimde çıktı verir. Arka plan için [uluslararası SEO ve hreflang yazısı](/hreflang-uluslararasi-seo).',
     adimlar: [
       'İlk kutuya dil kodlarını sütun sırasıyla yazın, ör. "tr, en, de-DE, x-default". Dil kodu (ISO 639-1) ve isteğe bağlı ülke kodu (ISO 3166-1) kullanın; ülke kodu tek başına kullanılamaz.',
       'İkinci kutuya her satıra bir sayfa, sütunlara aynı sırayla o sayfanın dil sürümlerini yazın. Excel ya da Google E-Tablolar\'dan sütun kopyalayıp yapıştırabilirsiniz (sekmeyle ayrılmış). Bir sayfanın o dilde sürümü yoksa hücreyi boş bırakın.',
@@ -98,12 +98,12 @@ export default function HreflangOlusturucu(props) {
       { s: 'Hangi yöntemi kullanmalıyım: HTML, site haritası, HTTP başlığı?', c: 'Google üçünü de eşdeğer kabul eder. Küçük sitelerde HTML etiketleri en kolayıdır; büyük sitelerde site haritası yönetimi kolaylaştırır çünkü işaretleme sayfa şablonlarına girmez. HTTP başlığı PDF gibi HTML olmayan dosyalar içindir. Tek yöntemi tutarlı kullanın.' },
       { s: 'x-default ne işe yarar?', c: 'x-default, dili ya da bölgesi sürümlerinizden hiçbiriyle eşleşmeyen kullanıcılara gösterilecek sayfayı belirtir; genellikle dil seçici ya da ana uluslararası sayfadır. Zorunlu değildir ama önerilir.' },
       { s: '"en-UK geçerli değil" uyarısı neden çıkıyor?', c: 'Birleşik Krallık\'ın ISO kodu GB\'dir; doğru değer en-GB. Benzer şekilde EU bir ülke kodu değildir; JP, CN ve KR ülke kodudur, dil kodları ja, zh ve ko\'dur.' },
-      { s: 'hreflang ile birlikte canonical da gerekir mi?', c: 'Evet. Her dil sürümünün canonical etiketi kendisini göstermeli, başka bir dili değil. Tüm sürümleri tek bir canonical\'a bağlamak Google\'a bunların kopya olduğunu söyler. Canonical ayrıntısı [teknik SEO rehberinde](/rehber/teknik-seo).' },
+      { s: 'hreflang ile birlikte canonical da gerekir mi?', c: 'Evet. Her dil sürümünün canonical etiketi kendisini göstermeli, başka bir dili değil. Tüm sürümleri tek bir canonical\'a bağlamak Google\'a bunların kopya olduğunu söyler. Canonical ayrıntısı [teknik SEO rehberinde](/teknik-seo).' },
     ],
   }
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/hreflang-olusturucu" yolEn="/en/tools/hreflang-generator" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
+    <AracSayfa isEn={isEn} yol="/hreflang-olusturucu" yolEn="/en/hreflang-generator" baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc}
       giris={icerik.giris} adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['teknik-seo', 'site-tasima-seo', 'e-ticaret-seo']}>
       <div style={{ display: 'grid', gap: '16px' }}>
         <div>

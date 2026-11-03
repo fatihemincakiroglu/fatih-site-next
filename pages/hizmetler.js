@@ -34,7 +34,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{t.title}</title>
-        <meta name="description" content={isEn ? "SEO consulting, GEO, content strategy, backlink building and performance marketing optimization services to accelerate your business's organic growth." : 'SEO danışmanlığı, GEO, içerik stratejisi, backlink inşası ve performans pazarlama optimizasyonu hizmetleriyle işletmenizin organik büyümesini hızlandırıyorum.'} />
+        <meta name="description" content={isEn ? "SEO and GEO consulting, content strategy, backlink building and performance marketing services designed to accelerate your business's organic growth." : 'SEO ve GEO danışmanlığı, içerik stratejisi, backlink inşası ve performans pazarlama hizmetleriyle işletmenizin organik büyümesini hızlandırın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/services' : 'https://fatihemincakiroglu.com/hizmetler'} />
       </Head>
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#f8f7f5' }}>

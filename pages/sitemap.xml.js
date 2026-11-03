@@ -29,17 +29,17 @@ const TR_PAGES = [
   { url: '/iletisim',       priority: '0.6', changefreq: 'monthly' },
   { url: '/randevu',        priority: '0.6', changefreq: 'monthly' },
   { url: '/sektorler',      priority: '0.8', changefreq: 'monthly' },
-  { url: '/sektorler/klinik-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/sektorler/avukat-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/sektorler/e-ticaret-seo-danismanligi', priority: '0.8', changefreq: 'monthly' },
-  { url: '/sektorler/otel-turizm-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/sektorler/b2b-uretici-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/araclar/schema-olusturucu', priority: '0.7', changefreq: 'monthly' },
-  { url: '/araclar/yonlendirme-olusturucu', priority: '0.7', changefreq: 'monthly' },
-  { url: '/araclar/robots-txt-test', priority: '0.7', changefreq: 'monthly' },
-  { url: '/araclar/hreflang-olusturucu', priority: '0.7', changefreq: 'monthly' },
-  { url: '/araclar/serp-onizleme', priority: '0.7', changefreq: 'monthly' },
-  { url: '/araclar/utm-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/klinik-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/avukat-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/e-ticaret-seo-danismanligi', priority: '0.8', changefreq: 'monthly' },
+  { url: '/otel-turizm-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/b2b-uretici-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/schema-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/yonlendirme-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/robots-txt-test', priority: '0.7', changefreq: 'monthly' },
+  { url: '/hreflang-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/serp-onizleme', priority: '0.7', changefreq: 'monthly' },
+  { url: '/utm-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -70,17 +70,17 @@ const EN_PAGES = [
   { url: '/en/contact',              priority: '0.6', changefreq: 'monthly' },
   { url: '/en/book-a-call',          priority: '0.6', changefreq: 'monthly' },
   { url: '/en/industries',           priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/industries/healthcare-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/industries/law-firm-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/industries/ecommerce-seo-consulting', priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/industries/hotel-tourism-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/industries/b2b-manufacturer-seo', priority: '0.8', changefreq: 'monthly' },
-  { url: '/en/tools/schema-generator', priority: '0.7', changefreq: 'monthly' },
-  { url: '/en/tools/redirect-generator', priority: '0.7', changefreq: 'monthly' },
-  { url: '/en/tools/robots-txt-tester', priority: '0.7', changefreq: 'monthly' },
-  { url: '/en/tools/hreflang-generator', priority: '0.7', changefreq: 'monthly' },
-  { url: '/en/tools/serp-preview', priority: '0.7', changefreq: 'monthly' },
-  { url: '/en/tools/utm-builder', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/healthcare-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/law-firm-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/ecommerce-seo-consulting', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/hotel-tourism-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/b2b-manufacturer-seo', priority: '0.8', changefreq: 'monthly' },
+  { url: '/en/schema-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/redirect-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/robots-txt-tester', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/hreflang-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/serp-preview', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/utm-builder', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -142,18 +142,18 @@ const TR_EN_MAP = {
   '/gizlilik': '/en/privacy',
   '/kullanim-kosullari': '/en/terms',
   '/sektorler': '/en/industries',
-  '/araclar/schema-olusturucu': '/en/tools/schema-generator',
-  '/araclar/yonlendirme-olusturucu': '/en/tools/redirect-generator',
-  '/araclar/robots-txt-test': '/en/tools/robots-txt-tester',
-  '/araclar/hreflang-olusturucu': '/en/tools/hreflang-generator',
-  '/araclar/serp-onizleme': '/en/tools/serp-preview',
-  '/araclar/utm-olusturucu': '/en/tools/utm-builder',
+  '/schema-olusturucu': '/en/schema-generator',
+  '/yonlendirme-olusturucu': '/en/redirect-generator',
+  '/robots-txt-test': '/en/robots-txt-tester',
+  '/hreflang-olusturucu': '/en/hreflang-generator',
+  '/serp-onizleme': '/en/serp-preview',
+  '/utm-olusturucu': '/en/utm-builder',
   '/google-guncellemeleri': '/en/google-updates',
-  '/sektorler/klinik-seo': '/en/industries/healthcare-seo',
-  '/sektorler/avukat-seo': '/en/industries/law-firm-seo',
-  '/sektorler/e-ticaret-seo-danismanligi': '/en/industries/ecommerce-seo-consulting',
-  '/sektorler/otel-turizm-seo': '/en/industries/hotel-tourism-seo',
-  '/sektorler/b2b-uretici-seo': '/en/industries/b2b-manufacturer-seo',
+  '/klinik-seo': '/en/healthcare-seo',
+  '/avukat-seo': '/en/law-firm-seo',
+  '/e-ticaret-seo-danismanligi': '/en/ecommerce-seo-consulting',
+  '/otel-turizm-seo': '/en/hotel-tourism-seo',
+  '/b2b-uretici-seo': '/en/b2b-manufacturer-seo',
 }
 
 function buildSitemapTR() {
@@ -163,11 +163,11 @@ function buildSitemapTR() {
   }).join('')
 
   const blogUrls = BLOG_SLUGS.map(slug =>
-    buildUrlEntry(`/blog/${slug}`, '0.6', 'monthly', `/blog/${slug}`, `/en/blog/${slug}`)
+    buildUrlEntry(`/${slug}`, '0.6', 'monthly', `/${slug}`, `/en/${slug}`)
   ).join('')
 
   const rehberUrls = REHBER_SLUGS.map(slug =>
-    buildUrlEntry(`/rehber/${slug}`, '0.6', 'monthly', `/rehber/${slug}`, `/en/guides/${slug}`)
+    buildUrlEntry(`/${slug}`, '0.6', 'monthly', `/${slug}`, `/en/${slug}`)
   ).join('')
 
   // Yerel GEO ve SEO uzmanı sayfaları (menüye bağlı değil; keşif sitemap üzerinden)
@@ -195,11 +195,11 @@ function buildSitemapEN() {
   }).join('')
 
   const blogUrls = BLOG_SLUGS.map(slug =>
-    buildUrlEntry(`/en/blog/${slug}`, '0.6', 'monthly', `/blog/${slug}`, `/en/blog/${slug}`)
+    buildUrlEntry(`/en/${slug}`, '0.6', 'monthly', `/${slug}`, `/en/${slug}`)
   ).join('')
 
   const rehberUrls = REHBER_SLUGS.map(slug =>
-    buildUrlEntry(`/en/guides/${slug}`, '0.6', 'monthly', `/rehber/${slug}`, `/en/guides/${slug}`)
+    buildUrlEntry(`/en/${slug}`, '0.6', 'monthly', `/${slug}`, `/en/${slug}`)
   ).join('')
 
   return `<?xml version="1.0" encoding="UTF-8"?>

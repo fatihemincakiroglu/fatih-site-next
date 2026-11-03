@@ -31,9 +31,8 @@ export default function Page(props) {
   const baslik = veri ? (isEn ? veri.baslik_en : veri.baslik_tr) : ''
   const sss = (veri ? (isEn ? veri.sss_en : veri.sss_tr) : null) || []
   const metaBaslik = (veri && (isEn ? veri.meta_baslik_en : veri.meta_baslik_tr)) || baslik
-  // Başlık eki yalnızca toplam 65 karakteri aşmıyorsa eklenir (blog ile aynı kural).
-  const BASLIK_EKI = ' | Fatih Emin Çakıroğlu'
-  const sayfaBasligi = (metaBaslik + BASLIK_EKI).length <= 65 ? metaBaslik + BASLIK_EKI : metaBaslik
+  // Meta başlık biçimi: "Konu | SEO Rehberi" (en fazla 54 karakter, iki nokta yok)
+  const sayfaBasligi = `${metaBaslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'}`
   // İlgili rehberler: önce aynı kategori, sonra diğerleri; en fazla 3.
   const digerRehberler = REHBER_LISTE.filter(r => r.slug !== slug)
   const ilgiliRehberler = [
@@ -63,8 +62,8 @@ export default function Page(props) {
   }, [bolumler, isMobile])
 
   const canonicalUrl = isEn
-    ? `https://fatihemincakiroglu.com/en/guides/${slug}`
-    : `https://fatihemincakiroglu.com/rehber/${slug}`
+    ? `https://fatihemincakiroglu.com/en/${slug}`
+    : `https://fatihemincakiroglu.com/${slug}`
   const mdUrl = `${canonicalUrl}.md`
   const meta = getRehberMeta(slug)
   const metaDesc = (veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)) || `${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
@@ -159,7 +158,7 @@ export default function Page(props) {
             {ilgiliRehberler.map(r => {
               const l = isEn ? r.en : r.tr
               return (
-                <Link key={r.slug} href={isEn ? `/en/guides/${r.slug}` : `/rehber/${r.slug}`} style={{ display: 'block', padding: '16px', borderRadius: '12px', border: '1px solid #eee', background: '#faf9f7', textDecoration: 'none' }}>
+                <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`} style={{ display: 'block', padding: '16px', borderRadius: '12px', border: '1px solid #eee', background: '#faf9f7', textDecoration: 'none' }}>
                   <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>
                   <div style={{ fontSize: '12.5px', color: '#777', lineHeight: 1.55, marginBottom: '8px' }}>{l.ozet}</div>
                   <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>

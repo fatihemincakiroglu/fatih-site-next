@@ -2,9 +2,11 @@ import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
+import { duzYol } from '../lib/urls'
 
-const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/araclar/schema-olusturucu', yonlendirmeArac:'/araclar/yonlendirme-olusturucu', robotsArac:'/araclar/robots-txt-test', hreflangArac:'/araclar/hreflang-olusturucu', serpArac:'/araclar/serp-onizleme', utmArac:'/araclar/utm-olusturucu', guncellemeler:'/google-guncellemeleri' }
-const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/tools/schema-generator', yonlendirmeArac:'/en/tools/redirect-generator', robotsArac:'/en/tools/robots-txt-tester', hreflangArac:'/en/tools/hreflang-generator', serpArac:'/en/tools/serp-preview', utmArac:'/en/tools/utm-builder', guncellemeler:'/en/google-updates' }
+const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/schema-olusturucu', yonlendirmeArac:'/yonlendirme-olusturucu', robotsArac:'/robots-txt-test', hreflangArac:'/hreflang-olusturucu', serpArac:'/serp-onizleme', utmArac:'/utm-olusturucu', guncellemeler:'/google-guncellemeleri' }
+const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/schema-generator', yonlendirmeArac:'/en/redirect-generator', robotsArac:'/en/robots-txt-tester', hreflangArac:'/en/hreflang-generator', serpArac:'/en/serp-preview', utmArac:'/en/utm-builder', guncellemeler:'/en/google-updates' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
@@ -18,43 +20,32 @@ const TR_TO_EN = {
   '/kaynaklar':'/en/resources', '/seo-rehberi':'/en/seo-guide',
   '/geo-rehberi':'/en/geo-guide', '/ai-sozluk':'/en/ai-glossary',
   '/sektorler':'/en/industries',
-  '/araclar/schema-olusturucu':'/en/tools/schema-generator',
-  '/araclar/yonlendirme-olusturucu':'/en/tools/redirect-generator',
-  '/araclar/robots-txt-test':'/en/tools/robots-txt-tester',
-  '/araclar/hreflang-olusturucu':'/en/tools/hreflang-generator',
-  '/araclar/serp-onizleme':'/en/tools/serp-preview',
-  '/araclar/utm-olusturucu':'/en/tools/utm-builder',
+  '/schema-olusturucu':'/en/schema-generator',
+  '/yonlendirme-olusturucu':'/en/redirect-generator',
+  '/robots-txt-test':'/en/robots-txt-tester',
+  '/hreflang-olusturucu':'/en/hreflang-generator',
+  '/serp-onizleme':'/en/serp-preview',
+  '/utm-olusturucu':'/en/utm-builder',
   '/google-guncellemeleri':'/en/google-updates',
-  '/sektorler/klinik-seo':'/en/industries/healthcare-seo',
-  '/sektorler/avukat-seo':'/en/industries/law-firm-seo',
-  '/sektorler/e-ticaret-seo-danismanligi':'/en/industries/ecommerce-seo-consulting',
-  '/sektorler/otel-turizm-seo':'/en/industries/hotel-tourism-seo',
-  '/sektorler/b2b-uretici-seo':'/en/industries/b2b-manufacturer-seo',
+  '/klinik-seo':'/en/healthcare-seo',
+  '/avukat-seo':'/en/law-firm-seo',
+  '/e-ticaret-seo-danismanligi':'/en/ecommerce-seo-consulting',
+  '/otel-turizm-seo':'/en/hotel-tourism-seo',
+  '/b2b-uretici-seo':'/en/b2b-manufacturer-seo',
 }
 const EN_TO_TR = Object.fromEntries(Object.entries(TR_TO_EN).map(([k,v])=>[v,k]))
 
-// Dynamic (slug-based) route pairs: TR prefix <-> EN prefix
-const DYNAMIC_PREFIX_PAIRS = [
-  { tr: '/blog/', en: '/en/blog/' },
-  { tr: '/rehber/', en: '/en/guides/' },
-]
+// Blog yazıları ve rehberler düz adreste: TR /<slug>, EN /en/<slug> (aynı slug)
+const ICERIK_SLUGLARI = new Set([...YAYINDAKI_BLOG_SLUGS, ...YAYINDAKI_REHBER_SLUGS])
 
 // Resolve the equivalent path in the other language for the CURRENT real URL
 // (asPath includes the actual slug, unlike router.pathname which stays as "/blog/[slug]")
 function resolveAltPath(asPath, isEn) {
   const cleanPath = asPath.split('?')[0].split('#')[0]
 
-  // Dynamic slug routes: swap prefix, keep slug
-  for (const pair of DYNAMIC_PREFIX_PAIRS) {
-    if (!isEn && cleanPath.startsWith(pair.tr)) {
-      const slug = cleanPath.slice(pair.tr.length)
-      return slug ? pair.en + slug : pair.en.replace(/\/$/, '')
-    }
-    if (isEn && cleanPath.startsWith(pair.en)) {
-      const slug = cleanPath.slice(pair.en.length)
-      return slug ? pair.tr + slug : pair.tr.replace(/\/$/, '')
-    }
-  }
+  // Blog yazısı / rehber: aynı slug, yalnızca /en öneki değişir
+  const m = cleanPath.match(/^(\/en)?\/([a-z0-9-]+)$/)
+  if (m && ICERIK_SLUGLARI.has(m[2])) return isEn ? `/${m[2]}` : `/en/${m[2]}`
 
   // Static routes: use the pathname-based map
   if (isEn) return EN_TO_TR[cleanPath] || '/'
@@ -136,8 +127,10 @@ export default function Navbar({ onSearchOpen }) {
   const navRef = useRef(null)
 
   const currentPath = router.pathname
-  const enPath = isEn ? router.asPath : resolveAltPath(router.asPath, false)
-  const trPath = isEn ? resolveAltPath(router.asPath, true) : router.asPath
+  // Derleme anında asPath iç yol (/blog/x) olabilir; düz biçime çevir ki sunucu ve tarayıcı aynı linki üretsin
+  const gercekYol = duzYol(router.asPath)
+  const enPath = isEn ? gercekYol : resolveAltPath(gercekYol, false)
+  const trPath = isEn ? resolveAltPath(gercekYol, true) : gercekYol
 
   useEffect(() => {
     const h = (e) => { if (navRef.current && !navRef.current.contains(e.target)) setAcik(null) }

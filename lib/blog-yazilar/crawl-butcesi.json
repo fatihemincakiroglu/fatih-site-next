@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Tarama Bütçesi (Crawl Budget) Nedir? Büyük Sitelerde Optimizasyon",
  "baslik_en": "What Is Crawl Budget? Optimisation for Large Sites",
- "meta_baslik_tr": "Tarama Bütçesi (Crawl Budget) Nedir, Nasıl İyileştirilir?",
- "meta_baslik_en": "What Is Crawl Budget and How to Optimise It",
- "meta_desc_tr": "Tarama bütçesi kimin için önemli, Google bunu nasıl belirliyor, filtre ve parametre israfı nasıl önlenir ve Tarama İstatistikleri raporu nasıl okunur?",
- "meta_desc_en": "Who crawl budget matters for, how Google sets it, how to stop filter and parameter waste, and how to read the Crawl Stats report in Search Console.",
+ "meta_baslik_tr": "Tarama Bütçesi Nedir, Nasıl İyileştirilir",
+ "meta_baslik_en": "Crawl Budget and How to Optimise It",
+ "meta_desc_tr": "Tarama bütçesinin kimin için önemli olduğunu, Google'ın bunu nasıl belirlediğini, parametre israfını önlemeyi ve Tarama İstatistikleri raporunu görün.",
+ "meta_desc_en": "Find out who crawl budget matters for, how Google sets it, how to cut filter and parameter waste and how to read the Crawl Stats report.",
  "ozet_tr": "Tarama bütçesi her sitenin sorunu değil; büyük sitelerde israfı bulup Googlebot'u değerli sayfalara yönlendirin.",
  "ozet_en": "Crawl budget is not every site's problem; on large sites, find the waste and steer Googlebot to pages that matter.",
  "bolumler_tr": [
@@ -64,7 +64,7 @@
       ]
      }
     },
-    "Küçük bir sitede sayfa dizine eklenmiyorsa sorun büyük olasılıkla kalite ya da benzersizliktir; o durumda [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısındaki teşhis adımları daha işe yarar."
+    "Küçük bir sitede sayfa dizine eklenmiyorsa sorun büyük olasılıkla kalite ya da benzersizliktir; o durumda [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısındaki teşhis adımları daha işe yarar."
    ]
   },
   {
@@ -100,7 +100,7 @@
       }
      ]
     },
-    "Bu desenin uç örneği, yüzlerce şablon sayfayı aynı anda yayına almaktır; [programatik SEO](/blog/programatik-seo) projelerinde envanter kontrolü bu yüzden ilk iştir. JavaScript ile üretilen linkler ve render maliyeti de taramayı etkiler; ayrıntısı [JavaScript SEO](/blog/javascript-seo) yazısında."
+    "Bu desenin uç örneği, yüzlerce şablon sayfayı aynı anda yayına almaktır; [programatik SEO](/programatik-seo) projelerinde envanter kontrolü bu yüzden ilk iştir. JavaScript ile üretilen linkler ve render maliyeti de taramayı etkiler; ayrıntısı [JavaScript SEO](/javascript-seo) yazısında."
    ]
   },
   {
@@ -134,7 +134,7 @@
       ]
      }
     },
-    "Dokümandaki ince ama önemli bir nokta: Bütçe kazanmak için noindex kullanmayın; Google noindex sayfayı yine de ister, sadece dizine eklemez. Taramayı gerçekten durdurmak istediğiniz URL'ler için doğru araç robots.txt'dir; sözdizimi ve tuzakları için [robots.txt rehberi](/blog/robots-txt) yazısına bakın. Zincirleri temizlerken [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) toplu kural yazmayı hızlandırır.",
+    "Dokümandaki ince ama önemli bir nokta: Bütçe kazanmak için noindex kullanmayın; Google noindex sayfayı yine de ister, sadece dizine eklemez. Taramayı gerçekten durdurmak istediğiniz URL'ler için doğru araç robots.txt'dir; sözdizimi ve tuzakları için [robots.txt rehberi](/robots-txt) yazısına bakın. Zincirleri temizlerken [yönlendirme oluşturucu](/yonlendirme-olusturucu) toplu kural yazmayı hızlandırır.",
     {
      "kutu": {
       "tur": "uyari",
@@ -182,19 +182,19 @@
       "not": "Temsili örnek: gerçek bir siteye ait veri değildir. Bu tür dağılım rapordaki tarama örnekleri ya da sunucu günlükleri gruplanarak çıkarılır."
      }
     },
-    "Böyle bir tabloda Googlebot'un neredeyse yarısını filtre URL'lerine harcadığı görülüyorsa ilk iş filtre mimarisidir. Faceted navigasyonun nasıl kurulacağını [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) ayrıntılı anlatıyor; genel tarama ve dizine ekleme çerçevesi ise [teknik SEO rehberinde](/rehber/teknik-seo)."
+    "Böyle bir tabloda Googlebot'un neredeyse yarısını filtre URL'lerine harcadığı görülüyorsa ilk iş filtre mimarisidir. Faceted navigasyonun nasıl kurulacağını [e-ticaret SEO rehberi](/e-ticaret-seo) ayrıntılı anlatıyor; genel tarama ve dizine ekleme çerçevesi ise [teknik SEO rehberinde](/teknik-seo)."
    ]
   },
   {
    "baslik": "Ne zaman uzman desteği gerekir?",
    "paragraflar": [
     "URL Denetimi'nde \"Hostload exceeded\" uyarısı görüyorsanız Google'ın dokümanı sunucu kaynaklarını artırmayı öneriyor. Günlük analizi, filtre mimarisi ve sunucu tarafı ayarlar ise genellikle geliştirici ve SEO ekibinin birlikte çalışmasını gerektirir.",
-    "Yüz binlerce URL'li mağazalarda bu çalışmayı [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir planla yürütüyorum. Sitenizde bütçenin gerçekten sorun olup olmadığını birlikte görmek için [SEO uzmanı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz.",
+    "Yüz binlerce URL'li mağazalarda bu çalışmayı [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir planla yürütüyorum. Sitenizde bütçenin gerçekten sorun olup olmadığını birlikte görmek için [SEO uzmanı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [görüşme randevusu](/randevu) alabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: robots.txt test aracı",
-      "metin": "Filtre ve parametre URL'lerini engelleyen kurallarınızın beklediğiniz gibi çalıştığını [robots.txt test aracıyla](/araclar/robots-txt-test) örnek URL'ler üzerinde doğrulayın."
+      "metin": "Filtre ve parametre URL'lerini engelleyen kurallarınızın beklediğiniz gibi çalıştığını [robots.txt test aracıyla](/robots-txt-test) örnek URL'ler üzerinde doğrulayın."
      }
     }
    ]
@@ -254,7 +254,7 @@
       ]
      }
     },
-    "If a page on a small site is not indexed, the issue is most likely quality or uniqueness; the diagnosis steps in [fixing crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis) are more useful there."
+    "If a page on a small site is not indexed, the issue is most likely quality or uniqueness; the diagnosis steps in [fixing crawled but not indexed pages](/en/tarandi-dizine-eklenmemis) are more useful there."
    ]
   },
   {
@@ -290,7 +290,7 @@
       }
      ]
     },
-    "The extreme case is launching hundreds of templated pages at once, which is why inventory control comes first in [programmatic SEO](/en/blog/programatik-seo) projects. Links generated by JavaScript and rendering cost also affect crawling; see [JavaScript SEO](/en/blog/javascript-seo) for details."
+    "The extreme case is launching hundreds of templated pages at once, which is why inventory control comes first in [programmatic SEO](/en/programatik-seo) projects. Links generated by JavaScript and rendering cost also affect crawling; see [JavaScript SEO](/en/javascript-seo) for details."
    ]
   },
   {
@@ -324,7 +324,7 @@
       ]
      }
     },
-    "A subtle but important point in the documentation: do not use noindex to save budget, because Google still requests the page and simply does not index it. For URLs you truly want left uncrawled, robots.txt is the right tool; see the [robots.txt guide](/en/blog/robots-txt) for syntax and pitfalls. When cleaning up chains, the [redirect generator](/en/tools/redirect-generator) speeds up writing rules in bulk.",
+    "A subtle but important point in the documentation: do not use noindex to save budget, because Google still requests the page and simply does not index it. For URLs you truly want left uncrawled, robots.txt is the right tool; see the [robots.txt guide](/en/robots-txt) for syntax and pitfalls. When cleaning up chains, the [redirect generator](/en/redirect-generator) speeds up writing rules in bulk.",
     {
      "kutu": {
       "tur": "uyari",
@@ -372,19 +372,19 @@
       "not": "Illustrative example, not data from a real site. A split like this comes from grouping the report's crawl examples or server logs."
      }
     },
-    "If Googlebot spends almost half its time on filter URLs, filter architecture is the first job. The [ecommerce SEO guide](/en/guides/e-ticaret-seo) explains how to build faceted navigation, and the broader crawling and indexing framework is in the [technical SEO guide](/en/guides/teknik-seo)."
+    "If Googlebot spends almost half its time on filter URLs, filter architecture is the first job. The [ecommerce SEO guide](/en/e-ticaret-seo) explains how to build faceted navigation, and the broader crawling and indexing framework is in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
    "baslik": "When do you need expert help?",
    "paragraflar": [
     "If URL Inspection shows a \"Hostload exceeded\" warning, Google's documentation recommends adding server resources. Log analysis, filter architecture and server-side settings usually need developers and SEO working together.",
-    "For stores with hundreds of thousands of URLs, I run this work as a template-level plan within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting). To find out together whether budget is really a problem on your site, see [SEO consulting](/en/seo-consulting) or simply [book a call](/en/book-a-call).",
+    "For stores with hundreds of thousands of URLs, I run this work as a template-level plan within [ecommerce SEO consulting](/en/ecommerce-seo-consulting). To find out together whether budget is really a problem on your site, see [SEO consulting](/en/seo-consulting) or simply [book a call](/en/book-a-call).",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: robots.txt tester",
-      "metin": "Use the [robots.txt tester](/en/tools/robots-txt-tester) on sample URLs to confirm that rules blocking filter and parameter URLs work as intended."
+      "metin": "Use the [robots.txt tester](/en/robots-txt-tester) on sample URLs to confirm that rules blocking filter and parameter URLs work as intended."
      }
     }
    ]

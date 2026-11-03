@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "SEO Uyumlu URL Yapısı: Türkçe Karakter, Hiyerarşi ve Parametreler",
  "baslik_en": "SEO-Friendly URL Structure: Turkish Characters, Hierarchy and Parameters",
- "meta_baslik_tr": "SEO Uyumlu URL Yapısı: Türkçe Karakter ve Hiyerarşi",
- "meta_baslik_en": "SEO-Friendly URLs: Non-ASCII Characters and Hierarchy",
- "meta_desc_tr": "URL'de Türkçe karakter kullanılır mı, kısa ve okunur URL nasıl kurulur, hiyerarşi ve parametreler nasıl yönetilir, URL değişince 301 nasıl planlanır?",
- "meta_desc_en": "Should URLs use Turkish characters, how to build short readable URLs, how to manage hierarchy and parameters, and how to plan 301s when URLs change.",
+ "meta_baslik_tr": "SEO Uyumlu URL Yapısı ve Türkçe Karakter",
+ "meta_baslik_en": "SEO-Friendly URLs and Site Hierarchy",
+ "meta_desc_tr": "URL'de Türkçe karakter kullanılır mı? Kısa ve okunur URL kurmayı, hiyerarşi ile parametre yönetimini ve URL değişiminde 301 planlamasını öğrenin.",
+ "meta_desc_en": "Should URLs use Turkish characters? Learn to build short, readable URLs, manage hierarchy and parameters, and plan 301 redirects when URLs change.",
  "ozet_tr": "Türkçe karakterden parametrelere: okunur, tutarlı ve kalıcı URL yapısını kurmak ve değiştirirken trafiği korumak.",
  "ozet_en": "From Turkish characters to parameters: building readable, consistent, lasting URLs and protecting traffic when they change.",
  "bolumler_tr": [
@@ -142,7 +142,7 @@
       ]
      }
     },
-    "Bu örnekte ürünler kategori yolundan bağımsız /urun/ altında duruyor. Bir ürün birden fazla kategoride yer alıyorsa bu yapı aynı ürünün farklı yollarla çoğalmasını önler; kategori hiyerarşisi ise breadcrumb ile gösterilir. Derin klasörlerden kaçının: dört-beş seviyeden sonra adres hem uzar hem kırılganlaşır. Mağazalarda kategori ve ürün yapısının ayrıntısı için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) bakabilirsiniz. Çok dilli bir sitede dil klasörünün (/en/ gibi) nasıl kurulacağını [hreflang ve uluslararası SEO](/blog/hreflang-uluslararasi-seo) yazısı anlatıyor."
+    "Bu örnekte ürünler kategori yolundan bağımsız /urun/ altında duruyor. Bir ürün birden fazla kategoride yer alıyorsa bu yapı aynı ürünün farklı yollarla çoğalmasını önler; kategori hiyerarşisi ise breadcrumb ile gösterilir. Derin klasörlerden kaçının: dört-beş seviyeden sonra adres hem uzar hem kırılganlaşır. Mağazalarda kategori ve ürün yapısının ayrıntısı için [e-ticaret SEO rehberine](/e-ticaret-seo) bakabilirsiniz. Çok dilli bir sitede dil klasörünün (/en/ gibi) nasıl kurulacağını [hreflang ve uluslararası SEO](/hreflang-uluslararasi-seo) yazısı anlatıyor."
    ]
   },
   {
@@ -158,7 +158,7 @@
       "**Fragment (#):** İçerik değiştirmek için kullanmayın; Google genellikle desteklemez, History API tercih edin."
      ]
     },
-    "Parametre çoğalmasının tarama tarafındaki maliyetini [tarama bütçesi](/blog/crawl-butcesi) yazısında ayrıntılı ele aldım. Google birden fazla parametre için = ve & kullanımını, bir anahtara birden fazla değer için virgülü öneriyor."
+    "Parametre çoğalmasının tarama tarafındaki maliyetini [tarama bütçesi](/crawl-butcesi) yazısında ayrıntılı ele aldım. Google birden fazla parametre için = ve & kullanımını, bir anahtara birden fazla değer için virgülü öneriyor."
    ]
   },
   {
@@ -192,7 +192,7 @@
       ]
      }
     },
-    "Yüzlerce kural yazmanız gerekiyorsa [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) Apache ve Nginx için kural taslağı çıkarır. 301 ile 302 arasındaki farkı [301 ve 302 yönlendirme](/blog/301-302-yonlendirme) yazısında, alan adı ya da altyapı değişikliğinin tamamını [site taşıma SEO rehberinde](/rehber/site-tasima-seo) bulabilirsiniz."
+    "Yüzlerce kural yazmanız gerekiyorsa [yönlendirme oluşturucu](/yonlendirme-olusturucu) Apache ve Nginx için kural taslağı çıkarır. 301 ile 302 arasındaki farkı [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısında, alan adı ya da altyapı değişikliğinin tamamını [site taşıma SEO rehberinde](/site-tasima-seo) bulabilirsiniz."
    ]
   },
   {
@@ -208,7 +208,7 @@
       "Kalıcı sayfaların adresinde yıl, kampanya ya da stok kodu var mı?"
      ]
     },
-    "Genel teknik denetim çerçevesi için [teknik SEO rehberi](/rehber/teknik-seo) iyi bir başlangıç. Büyük bir mağazada URL yapısını yeniden kuruyorsanız bu işi [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında eşleme tablosundan izlemeye kadar birlikte yürütebiliriz; [SEO uzmanı](/seo-uzmani) sayfasından çalışma biçimime bakabilir ya da [görüşme randevusu](/randevu) alabilirsiniz."
+    "Genel teknik denetim çerçevesi için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç. Büyük bir mağazada URL yapısını yeniden kuruyorsanız bu işi [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında eşleme tablosundan izlemeye kadar birlikte yürütebiliriz; [SEO uzmanı](/seo-uzmani) sayfasından çalışma biçimime bakabilir ya da [görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -344,7 +344,7 @@
       ]
      }
     },
-    "In this example, products sit under /product/, independent of the category path. If a product appears in several categories, this prevents the same product multiplying across paths, while breadcrumbs show the category hierarchy. Avoid deep folders: beyond four or five levels the address gets long and fragile. For category and product structure on stores, see the [ecommerce SEO guide](/en/guides/e-ticaret-seo). How to set up a language folder such as /en/ on a multilingual site is covered in [hreflang and international SEO](/en/blog/hreflang-uluslararasi-seo)."
+    "In this example, products sit under /product/, independent of the category path. If a product appears in several categories, this prevents the same product multiplying across paths, while breadcrumbs show the category hierarchy. Avoid deep folders: beyond four or five levels the address gets long and fragile. For category and product structure on stores, see the [ecommerce SEO guide](/en/e-ticaret-seo). How to set up a language folder such as /en/ on a multilingual site is covered in [hreflang and international SEO](/en/hreflang-uluslararasi-seo)."
    ]
   },
   {
@@ -360,7 +360,7 @@
       "**Fragments (#):** do not use them to change content; Google generally does not support them, so prefer the History API."
      ]
     },
-    "I cover the crawling cost of parameter sprawl in the [crawl budget](/en/blog/crawl-butcesi) article. For multiple parameters Google recommends = and &, and a comma for several values of one key."
+    "I cover the crawling cost of parameter sprawl in the [crawl budget](/en/crawl-butcesi) article. For multiple parameters Google recommends = and &, and a comma for several values of one key."
    ]
   },
   {
@@ -394,7 +394,7 @@
       ]
      }
     },
-    "If you need hundreds of rules, the [redirect generator](/en/tools/redirect-generator) drafts them for Apache and Nginx. The difference between 301 and 302 is covered in [301 vs 302 redirects](/en/blog/301-302-yonlendirme), and full domain or platform changes in the [site migration SEO guide](/en/guides/site-tasima-seo)."
+    "If you need hundreds of rules, the [redirect generator](/en/redirect-generator) drafts them for Apache and Nginx. The difference between 301 and 302 is covered in [301 vs 302 redirects](/en/301-302-yonlendirme), and full domain or platform changes in the [site migration SEO guide](/en/site-tasima-seo)."
    ]
   },
   {
@@ -410,7 +410,7 @@
       "Do permanent pages carry a year, campaign or stock code in the address?"
      ]
     },
-    "The [technical SEO guide](/en/guides/teknik-seo) is a good starting point for a broader audit. If you are rebuilding URL structure on a large store, we can run it together from mapping table to monitoring within [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting); see how I work on the [SEO consulting](/en/seo-consulting) page or [book a call](/en/book-a-call)."
+    "The [technical SEO guide](/en/teknik-seo) is a good starting point for a broader audit. If you are rebuilding URL structure on a large store, we can run it together from mapping table to monitoring within [ecommerce SEO consulting](/en/ecommerce-seo-consulting); see how I work on the [SEO consulting](/en/seo-consulting) page or [book a call](/en/book-a-call)."
    ]
   }
  ],

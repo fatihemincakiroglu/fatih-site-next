@@ -7,10 +7,10 @@
  "h1_en": "SEO Consulting for Hotels and Tourism Businesses",
  "alt_tr": "Çok dilli site, mevsime göre içerik planı ve yapay zekâ görünürlüğüyle doğrudan rezervasyon payını büyütmeye odaklı SEO danışmanlığı.",
  "alt_en": "SEO consulting focused on growing direct bookings through multilingual sites, seasonal content planning and AI visibility.",
- "meta_baslik_tr": "Otel ve Turizm SEO Danışmanlığı | Fatih Emin Çakıroğlu",
- "meta_baslik_en": "Hotel and Tourism SEO Consulting | F. E. Çakıroğlu",
- "meta_desc_tr": "Oteller ve turizm işletmeleri için SEO ve GEO danışmanlığı: çok dilli site, marka araması, sezon planı ve OTA bağımlılığını azaltan doğrudan rezervasyon.",
- "meta_desc_en": "SEO and GEO consulting for hotels and tourism businesses: multilingual sites, brand search, seasonal planning and more direct bookings beyond the OTAs.",
+ "meta_baslik_tr": "Otel ve Turizm SEO Danışmanlığı",
+ "meta_baslik_en": "Hotel and Tourism SEO Consulting",
+ "meta_desc_tr": "Oteller için SEO ve GEO danışmanlığı. Çok dilli site, marka araması ve sezon planıyla doğrudan rezervasyona odaklanıp OTA bağımlılığını azaltın.",
+ "meta_desc_en": "SEO and GEO consulting for hotels and tourism businesses. Multilingual sites, brand search and seasonal planning for more direct bookings.",
  "ozet_tr": "Oteller, butik oteller ve tur işletmeleri için çok dilli, sezona duyarlı ve doğrudan rezervasyon odaklı SEO danışmanlığı.",
  "ozet_en": "Multilingual, season-aware SEO consulting for hotels, boutique hotels and tour operators, focused on direct bookings.",
  "hizmetler_tr": [
@@ -80,11 +80,11 @@
     {
      "alt": "Çok dilli yapı"
     },
-    "Her pazar için ayrı URL, doğru hreflang, o dili ana dili olarak konuşan biri tarafından kontrol edilmiş içerik ve o ülkedeki arama alışkanlıklarına göre sayfa kurgusu. Altyapı tarafını [teknik SEO temelleri](/rehber/teknik-seo) rehberinde ayrıntılı anlattım.",
+    "Her pazar için ayrı URL, doğru hreflang, o dili ana dili olarak konuşan biri tarafından kontrol edilmiş içerik ve o ülkedeki arama alışkanlıklarına göre sayfa kurgusu. Altyapı tarafını [teknik SEO temelleri](/teknik-seo) rehberinde ayrıntılı anlattım.",
     {
      "alt": "Yerel ve deneyim içerikleri"
     },
-    "Otelin çevresini gerçekten bilen birinin yazabileceği içerikler üretiyoruz: ulaşım, yürüme mesafesindeki yerler, sezona göre öneriler. Bu içerikler uzun kuyruklu aramalarda ve yapay zekâ cevaplarında kaynak olma şansını artırır; aramadaki bu değişimi [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısında ele aldım. Harita kaydı, yorumlar ve NAP tutarlılığı için [yerel SEO rehberini](/rehber/yerel-seo) temel alıyoruz.",
+    "Otelin çevresini gerçekten bilen birinin yazabileceği içerikler üretiyoruz: ulaşım, yürüme mesafesindeki yerler, sezona göre öneriler. Bu içerikler uzun kuyruklu aramalarda ve yapay zekâ cevaplarında kaynak olma şansını artırır; aramadaki bu değişimi [Google AI Mode Türkiye](/google-ai-mode-turkiye) yazısında ele aldım. Harita kaydı, yorumlar ve NAP tutarlılığı için [yerel SEO rehberini](/yerel-seo) temel alıyoruz.",
     {
      "alt": "Teknik performans ve yapısal veri"
     },
@@ -135,7 +135,7 @@
       ]
      }
     },
-    "Doluluk tek başına SEO'ya bağlanamayacak kadar çok etkene bağlıdır: fiyat, sezon, OTA kampanyaları, ekonomik koşullar. Bu yüzden raporda organik kanaldan başlayan rezervasyonları ve talepleri ayrı izliyoruz; kurulumu [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım."
+    "Doluluk tek başına SEO'ya bağlanamayacak kadar çok etkene bağlıdır: fiyat, sezon, OTA kampanyaları, ekonomik koşullar. Bu yüzden raporda organik kanaldan başlayan rezervasyonları ve talepleri ayrı izliyoruz; kurulumu [SEO raporlama rehberinde](/seo-raporlama) anlattım."
    ]
   },
   {
@@ -172,7 +172,7 @@
     {
      "alt": "Fiyat, kampanya ve yorumlar"
     },
-    "Kampanya ve indirim duyuruları, yorumların sitede gösterilmesi ve sosyal medya iş birlikleri tüketici mevzuatına tabidir; Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde 2026'da indirim gösterimi, tüketici yorumları ve sosyal medya tanıtımlarıyla ilgili değişiklikler yapıldı. Bu sayfaları hukuk danışmanınızla gözden geçirmenizi öneririm. Misafir yorumlarına nasıl yanıt verileceğini [Google yorumlarına cevap](/blog/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+    "Kampanya ve indirim duyuruları, yorumların sitede gösterilmesi ve sosyal medya iş birlikleri tüketici mevzuatına tabidir; Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde 2026'da indirim gösterimi, tüketici yorumları ve sosyal medya tanıtımlarıyla ilgili değişiklikler yapıldı. Bu sayfaları hukuk danışmanınızla gözden geçirmenizi öneririm. Misafir yorumlarına nasıl yanıt verileceğini [Google yorumlarına cevap](/google-yorumlarina-cevap) yazısında örneklerle anlattım."
    ]
   },
   {
@@ -195,7 +195,7 @@
  "sss_tr": [
   {
    "s": "Otel SEO danışmanlığının ücreti nasıl belirleniyor?",
-   "c": "Ücret; dil sayısına, sitenin teknik durumuna, tesis sayısına ve içerik ihtiyacına göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/blog/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
+   "c": "Ücret; dil sayısına, sitenin teknik durumuna, tesis sayısına ve içerik ihtiyacına göre değişir, bu yüzden burada rakam vermiyorum. Çalışma modellerini [fiyatlandırma](/fiyatlandirma) sayfasında, piyasadaki ücretleri neyin belirlediğini [SEO ajansı fiyatları](/seo-ajansi-fiyatlari) yazısında bulabilirsiniz."
   },
   {
    "s": "OTA'lardan tamamen vazgeçmeli miyiz?",
@@ -211,7 +211,7 @@
   },
   {
    "s": "Yapay zekâ asistanları otel önerirken nelere bakıyor?",
-   "c": "Hangi asistanın kaynakları nasıl seçtiğine dair kesin bir formül yok. Pratikte resmi sitede açık ve tutarlı bilgi, güvenilir kaynaklarda marka bahsi ve güncel yorumlar asistanların oteli doğru tanımasına yardım ediyor. Yöntemi [GEO uygulama rehberinde](/rehber/geo-uygulama) anlattım."
+   "c": "Hangi asistanın kaynakları nasıl seçtiğine dair kesin bir formül yok. Pratikte resmi sitede açık ve tutarlı bilgi, güvenilir kaynaklarda marka bahsi ve güncel yorumlar asistanların oteli doğru tanımasına yardım ediyor. Yöntemi [GEO uygulama rehberinde](/geo-uygulama) anlattım."
   },
   {
    "s": "Tur ve deneyim işletmeleriyle de çalışıyor musunuz?",
@@ -255,11 +255,11 @@
     {
      "alt": "Multilingual structure"
     },
-    "A separate URL for each market, correct hreflang, content checked by a native speaker and page structure that follows search habits in that country. I cover the infrastructure side in [technical SEO fundamentals](/en/guides/teknik-seo).",
+    "A separate URL for each market, correct hreflang, content checked by a native speaker and page structure that follows search habits in that country. I cover the infrastructure side in [technical SEO fundamentals](/en/teknik-seo).",
     {
      "alt": "Local and experience content"
     },
-    "We produce content that only someone who knows the area could write: transport, places within walking distance, seasonal tips. This content improves the chance of being a source in long-tail searches and AI answers; I discuss that shift in [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye). For the map listing, reviews and NAP consistency we follow the [local SEO guide](/en/guides/yerel-seo).",
+    "We produce content that only someone who knows the area could write: transport, places within walking distance, seasonal tips. This content improves the chance of being a source in long-tail searches and AI answers; I discuss that shift in [Google AI Mode in Turkey](/en/google-ai-mode-turkiye). For the map listing, reviews and NAP consistency we follow the [local SEO guide](/en/yerel-seo).",
     {
      "alt": "Technical performance and structured data"
     },
@@ -310,7 +310,7 @@
       ]
      }
     },
-    "Occupancy depends on too many factors to be tied to SEO alone: price, season, OTA promotions, economic conditions. So we track bookings and enquiries that start from organic search separately; the setup is explained in the [SEO reporting guide](/en/guides/seo-raporlama)."
+    "Occupancy depends on too many factors to be tied to SEO alone: price, season, OTA promotions, economic conditions. So we track bookings and enquiries that start from organic search separately; the setup is explained in the [SEO reporting guide](/en/seo-raporlama)."
    ]
   },
   {
@@ -347,7 +347,7 @@
     {
      "alt": "Prices, promotions and reviews"
     },
-    "Discount announcements, reviews displayed on the site and social media partnerships fall under consumer protection rules; in 2026 Turkey's Regulation on Commercial Advertising and Unfair Commercial Practices was amended on how discounts, consumer reviews and social media promotions are presented. I recommend reviewing these pages with your legal adviser. I show how to reply to guest reviews in [how to respond to Google reviews](/en/blog/google-yorumlarina-cevap)."
+    "Discount announcements, reviews displayed on the site and social media partnerships fall under consumer protection rules; in 2026 Turkey's Regulation on Commercial Advertising and Unfair Commercial Practices was amended on how discounts, consumer reviews and social media promotions are presented. I recommend reviewing these pages with your legal adviser. I show how to reply to guest reviews in [how to respond to Google reviews](/en/google-yorumlarina-cevap)."
    ]
   },
   {
@@ -370,7 +370,7 @@
  "sss_en": [
   {
    "s": "How is the fee for hotel SEO set?",
-   "c": "It depends on the number of languages, the site's technical condition, the number of properties and content needs, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/blog/seo-ajansi-fiyatlari)."
+   "c": "It depends on the number of languages, the site's technical condition, the number of properties and content needs, so I do not quote a figure here. You can see my working models on the [pricing](/en/pricing) page and what drives market rates in [SEO agency pricing](/en/seo-ajansi-fiyatlari)."
   },
   {
    "s": "Should we drop the OTAs altogether?",
@@ -386,7 +386,7 @@
   },
   {
    "s": "What do AI assistants look at when recommending hotels?",
-   "c": "There is no exact formula for how each assistant picks its sources. In practice, clear and consistent information on the official site, brand mentions on trusted sources and recent reviews help assistants describe the hotel correctly. I explain the method in the [GEO implementation guide](/en/guides/geo-uygulama)."
+   "c": "There is no exact formula for how each assistant picks its sources. In practice, clear and consistent information on the official site, brand mentions on trusted sources and recent reviews help assistants describe the hotel correctly. I explain the method in the [GEO implementation guide](/en/geo-uygulama)."
   },
   {
    "s": "Do you work with tour and experience businesses?",

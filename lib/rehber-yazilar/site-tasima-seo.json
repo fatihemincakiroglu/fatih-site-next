@@ -2,10 +2,10 @@
  "kategori": "Teknik",
  "baslik_tr": "Site Taşıma (Migrasyon) SEO Rehberi: 301 Haritası, Adres Değişikliği ve İzleme",
  "baslik_en": "Site Migration SEO Guide: 301 Redirect Maps, Change of Address and Monitoring",
- "meta_baslik_tr": "Site Taşıma SEO Rehberi: 301 Haritası ve İzleme",
- "meta_baslik_en": "Site Migration SEO Guide: 301 Maps and Monitoring",
- "meta_desc_tr": "Domain, platform veya URL değişikliğinde organik trafiği korumak için 301 haritası, Search Console Adres Değişikliği aracı ve taşıma sonrası izleme adımları.",
- "meta_desc_en": "How to protect organic traffic during a domain, platform or URL change: 301 redirect maps, the Change of Address tool and post-migration monitoring.",
+ "meta_baslik_tr": "Site Taşıma SEO Rehberi ve 301 Haritası",
+ "meta_baslik_en": "Site Migration SEO with 301 Redirect Maps",
+ "meta_desc_tr": "Domain, platform veya URL değişikliğinde organik trafiği koruyun. 301 haritası, Search Console Adres Değişikliği aracı ve taşıma sonrası izleme.",
+ "meta_desc_en": "Protect organic traffic during a domain, platform or URL change with 301 redirect maps, the Change of Address tool and post-migration monitoring.",
  "ozet_tr": "Domain, platform ya da URL yapısı değişirken organik trafiği korumak için adım adım taşıma planı.",
  "ozet_en": "A step-by-step plan for keeping organic traffic when your domain, platform or URL structure changes.",
  "bolumler_tr": [
@@ -71,7 +71,7 @@
       ]
      }
     },
-    "URL'lerin değişmediği taşımalarda bile risk sıfır değildir: yeni şablon başlık etiketlerini, iç linkleri, yapısal veriyi ya da sayfa hızını bozabilir. Bu yüzden her taşımada lansman öncesi bir [teknik SEO denetimi](/rehber/teknik-seo) yapmanızı öneririm."
+    "URL'lerin değişmediği taşımalarda bile risk sıfır değildir: yeni şablon başlık etiketlerini, iç linkleri, yapısal veriyi ya da sayfa hızını bozabilir. Bu yüzden her taşımada lansman öncesi bir [teknik SEO denetimi](/teknik-seo) yapmanızı öneririm."
    ]
   },
   {
@@ -87,7 +87,7 @@
       "Önemli sorgulardaki mevcut konumları, sayfa bazlı tıklamaları ve Core Web Vitals değerlerini kayıt altına alın."
      ]
     },
-    "Bu kıyaslama verisi olmadan taşıma sonrası “düştük mü, ne kadar düştük?” sorusuna cevap veremezsiniz. Ölçüm kurgusu için [SEO raporlama rehberi](/rehber/seo-raporlama) hangi metrikleri saklamanız gerektiğini ayrıntılı anlatıyor; hız tarafında ise [Core Web Vitals eşikleri](/blog/core-web-vitals-2025) referans noktası olur.",
+    "Bu kıyaslama verisi olmadan taşıma sonrası “düştük mü, ne kadar düştük?” sorusuna cevap veremezsiniz. Ölçüm kurgusu için [SEO raporlama rehberi](/seo-raporlama) hangi metrikleri saklamanız gerektiğini ayrıntılı anlatıyor; hız tarafında ise [Core Web Vitals eşikleri](/core-web-vitals-2025) referans noktası olur.",
     "Test ortamını (staging) şifreyle ya da noindex ile kapalı tutun, ama canlıya geçişte bu engellerin kaldırıldığını mutlaka kontrol edin. Lansmanda unutulmuş bir noindex veya robots.txt engeli, en pahalı taşıma hatalarından biridir."
    ]
   },
@@ -109,7 +109,7 @@
     {
      "kod": "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^(www\\.)?eskimarka\\.com$ [NC]\nRewriteRule ^(.*)$ https://www.yenimarka.com/$1 [R=301,L]"
     },
-    "URL yapısı da değişiyorsa genel kural yetmez; haritadaki satırları sunucu ya da platform düzeyinde tek tek tanımlamanız gerekir. E-ticaret sitelerinde kategori, ürün ve filtre URL'leri ayrı ele alınmalıdır; bu konuyu [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) içinde ayrıca işledim."
+    "URL yapısı da değişiyorsa genel kural yetmez; haritadaki satırları sunucu ya da platform düzeyinde tek tek tanımlamanız gerekir. E-ticaret sitelerinde kategori, ürün ve filtre URL'leri ayrı ele alınmalıdır; bu konuyu [e-ticaret SEO rehberi](/e-ticaret-seo) içinde ayrıca işledim."
    ]
   },
   {
@@ -140,7 +140,7 @@
      "alt": "Sitemap ve iç linkler"
     },
     "Yeni XML sitemap yalnızca yeni, 200 durum kodu dönen ve canonical URL'leri içermeli; Search Console'daki yeni mülke gönderilmelidir. Eski URL'leri içeren sitemap'i geçici olarak tutmak, Google'ın yönlendirmeleri daha hızlı keşfetmesine yardımcı olabilir. İç linkleri ise yönlendirmeye bırakmayın, doğrudan yeni URL'lere güncelleyin.",
-    "Yapısal verideki url ve @id alanları da gözden kaçmamalı; [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) bu alanların nasıl kurgulanacağını anlatıyor. Google Business Profile'daki web sitesi adresini, sosyal medya profillerini ve reklam hedef URL'lerini de güncelleyin; yerel işletmeler için bu adım [yerel SEO rehberi](/rehber/yerel-seo) ile birlikte ele alınmalı."
+    "Yapısal verideki url ve @id alanları da gözden kaçmamalı; [schema yapısal veri rehberi](/schema-yapisal-veri) bu alanların nasıl kurgulanacağını anlatıyor. Google Business Profile'daki web sitesi adresini, sosyal medya profillerini ve reklam hedef URL'lerini de güncelleyin; yerel işletmeler için bu adım [yerel SEO rehberi](/yerel-seo) ile birlikte ele alınmalı."
    ]
   },
   {
@@ -239,7 +239,7 @@
       ]
      }
     },
-    "Even when URLs stay put, a new template can break title tags, internal links, structured data or speed, so I recommend a pre-launch [technical SEO audit](/en/guides/teknik-seo) for every migration."
+    "Even when URLs stay put, a new template can break title tags, internal links, structured data or speed, so I recommend a pre-launch [technical SEO audit](/en/teknik-seo) for every migration."
    ]
   },
   {
@@ -255,7 +255,7 @@
       "Record current positions for key queries, clicks per page and Core Web Vitals values."
      ]
     },
-    "Without this benchmark you cannot answer “did we drop, and by how much?” after launch. The [SEO reporting guide](/en/guides/seo-raporlama) explains which metrics to keep, and the [Core Web Vitals thresholds](/en/blog/core-web-vitals-2025) give you a reference point for speed.",
+    "Without this benchmark you cannot answer “did we drop, and by how much?” after launch. The [SEO reporting guide](/en/seo-raporlama) explains which metrics to keep, and the [Core Web Vitals thresholds](/en/core-web-vitals-2025) give you a reference point for speed.",
     "Keep staging behind a password or noindex, and confirm those blocks are removed at go-live; a forgotten noindex or robots.txt block is one of the costliest migration mistakes."
    ]
   },
@@ -277,7 +277,7 @@
     {
      "kod": "RewriteEngine On\nRewriteCond %{HTTP_HOST} ^(www\\.)?oldbrand\\.com$ [NC]\nRewriteRule ^(.*)$ https://www.newbrand.com/$1 [R=301,L]"
     },
-    "If the URL structure changes too, you need to define the map's rows individually at server or platform level. Category, product and filter URLs need separate handling, as covered in the [e-commerce SEO guide](/en/guides/e-ticaret-seo)."
+    "If the URL structure changes too, you need to define the map's rows individually at server or platform level. Category, product and filter URLs need separate handling, as covered in the [e-commerce SEO guide](/en/e-ticaret-seo)."
    ]
   },
   {
@@ -308,7 +308,7 @@
      "alt": "Sitemaps and internal links"
     },
     "The new XML sitemap should list only new, canonical URLs returning a 200 status code, submitted to the new Search Console property. Temporarily keeping a sitemap of the old URLs can help Google discover the redirects faster. Update internal links to point straight at the new URLs rather than through redirects.",
-    "The url and @id fields in structured data are easy to miss; the [schema structured data guide](/en/guides/schema-yapisal-veri) explains how to set them up. Also update the website address in Google Business Profile, your social profiles and ad destination URLs; for local businesses this step belongs alongside the [local SEO guide](/en/guides/yerel-seo)."
+    "The url and @id fields in structured data are easy to miss; the [schema structured data guide](/en/schema-yapisal-veri) explains how to set them up. Also update the website address in Google Business Profile, your social profiles and ad destination URLs; for local businesses this step belongs alongside the [local SEO guide](/en/yerel-seo)."
    ]
   },
   {

@@ -453,8 +453,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Fatih Emin Çakıroğlu | SEO & GEO Consultant' : 'SEO Uzmanı - GEO Uzmanı | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? "8+ years of experience growing organic traffic for 150+ businesses. SEO, GEO and digital marketing consulting to boost visibility on Google and AI search." : "8+ yıllık deneyimle 150+ işletmenin organik trafiğini büyüttüm. SEO, GEO ve dijital pazarlama danışmanlığıyla Google ve AI aramalarında görünürlük kazanın."} />
+        <title>{isEn ? 'Fatih Emin Çakıroğlu | SEO & GEO Consultant' : 'SEO ve GEO Uzmanı | Fatih Emin Çakıroğlu'}</title>
+        <meta name="description" content={isEn ? "8+ years growing organic traffic for 150+ businesses. SEO, GEO and digital marketing consulting to boost your visibility on Google and AI search." : "8+ yıllık deneyimle 150+ işletmenin organik trafiğini büyüttüm. SEO ve GEO danışmanlığıyla Google ve AI aramalarında görünür olun."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en' : 'https://fatihemincakiroglu.com'} />
         {/* FAQ Schema */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -1157,7 +1157,7 @@ export default function Page(props) {
                 ))}
               </div>
               {BLOG_YAZILARI.map((y, i) => (
-                <Link key={i} href={isEn ? `/en/blog/${y.slug}` : `/blog/${y.slug}`} style={{ display: 'grid', gridTemplateColumns: '60px 1fr 200px 80px', padding: '16px 24px', borderBottom: i < BLOG_YAZILARI.length - 1 ? '1px solid #f5f5f5' : 'none', alignItems: 'center', textDecoration: 'none', transition: 'background 0.15s' }}
+                <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`} style={{ display: 'grid', gridTemplateColumns: '60px 1fr 200px 80px', padding: '16px 24px', borderBottom: i < BLOG_YAZILARI.length - 1 ? '1px solid #f5f5f5' : 'none', alignItems: 'center', textDecoration: 'none', transition: 'background 0.15s' }}
                   onMouseEnter={e => e.currentTarget.style.background = '#faf9f7'}
                   onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
                 >

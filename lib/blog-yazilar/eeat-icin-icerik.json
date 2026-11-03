@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "E-E-A-T Nedir? Deneyim, Uzmanlık, Otorite ve Güveni İçerikte Göstermek",
  "baslik_en": "What Is E-E-A-T? Showing Experience, Expertise, Authority and Trust",
- "meta_baslik_tr": "E-E-A-T Nedir? İçerikte Deneyim ve Güveni Göstermek",
- "meta_baslik_en": "What Is E-E-A-T? Showing Experience and Trust in Content",
- "meta_desc_tr": "E-E-A-T nedir, sıralama faktörü mü? Kalite Değerlendirme Yönergeleri bağlamı, YMYL, yazar sayfası, kaynak gösterme ve güven sinyallerini içerikte göstermek.",
- "meta_desc_en": "What E-E-A-T is and whether it is a ranking factor: quality rater guidelines context, YMYL, author pages, citing sources and showing trust signals in content.",
+ "meta_baslik_tr": "E-E-A-T Nedir, İçerikte Nasıl Gösterilir",
+ "meta_baslik_en": "What Is E-E-A-T and How to Show It",
+ "meta_desc_tr": "E-E-A-T sıralama faktörü mü? Kalite yönergeleri, YMYL, yazar sayfası, kaynak gösterme ve güven sinyallerini içeriğinize nasıl yansıtacağınızı öğrenin.",
+ "meta_desc_en": "Is E-E-A-T a ranking factor? Learn the quality rater guidelines context, YMYL, author pages, citing sources and how to show trust in your content.",
  "ozet_tr": "E-E-A-T doğrudan bir sıralama faktörü değil; ama deneyim, uzmanlık ve güveni sayfada görünür kılmanın somut yolları var.",
  "ozet_en": "E-E-A-T is not a direct ranking factor, but there are concrete ways to make experience, expertise and trust visible.",
  "bolumler_tr": [
@@ -86,7 +86,7 @@
    "baslik": "YMYL konularda E-E-A-T neden daha kritik?",
    "paragraflar": [
     "Google, insanların sağlığını, maddi güvenliğini, can güvenliğini ya da toplumun refahını önemli ölçüde etkileyebilecek konuları “Your Money or Your Life” (YMYL) olarak adlandırıyor. Dokümana göre bu konularda güçlü E-E-A-T taşıyan içeriğe daha fazla ağırlık veriliyor.",
-    "Sağlık, hukuk ve finans siteleri bu yüzden en yüksek beklentiyle karşılaşır. Hekim profilleri ve tıbbi içerik onay süreci için [sağlık SEO rehberine](/rehber/saglik-seo), uygulamada nasıl kurguladığım için [klinik SEO](/sektorler/klinik-seo) sayfasına bakabilirsiniz. Hukuk tarafında meslek kurallarıyla uyumlu içerik dili [avukatlar için SEO](/blog/avukatlar-icin-seo) yazısında ve [avukat SEO](/sektorler/avukat-seo) sayfasında anlatılıyor."
+    "Sağlık, hukuk ve finans siteleri bu yüzden en yüksek beklentiyle karşılaşır. Hekim profilleri ve tıbbi içerik onay süreci için [sağlık SEO rehberine](/saglik-seo), uygulamada nasıl kurguladığım için [klinik SEO](/klinik-seo) sayfasına bakabilirsiniz. Hukuk tarafında meslek kurallarıyla uyumlu içerik dili [avukatlar için SEO](/avukatlar-icin-seo) yazısında ve [avukat SEO](/avukat-seo) sayfasında anlatılıyor."
    ]
   },
   {
@@ -102,7 +102,7 @@
       "Türkiye'ye özgü bağlam: e-Devlet adımları, yerel mevzuat, yerel platformlardaki gerçek kullanım."
      ]
     },
-    "Bu işaretler aynı zamanda içeriği benzerlerinden ayırır. Yapay zekâ ile hazırlanan taslaklarda en çok eksik kalan kısım da burası; Google'ın bu konudaki yaklaşımını [yapay zekâ içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında ele aldım."
+    "Bu işaretler aynı zamanda içeriği benzerlerinden ayırır. Yapay zekâ ile hazırlanan taslaklarda en çok eksik kalan kısım da burası; Google'ın bu konudaki yaklaşımını [yapay zekâ içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ele aldım."
    ]
   },
   {
@@ -145,7 +145,7 @@
       ]
      }
     },
-    "Person ve Article işaretlemesinin ayrıntıları [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri), JSON-LD kodu için [schema oluşturucu](/araclar/schema-olusturucu) aracında. İşaretleme, sayfada görünen bilginin yerine geçmez; önce yazar bilgisinin kendisi gerçek olmalı."
+    "Person ve Article işaretlemesinin ayrıntıları [schema ve yapısal veri rehberinde](/schema-yapisal-veri), JSON-LD kodu için [schema oluşturucu](/schema-olusturucu) aracında. İşaretleme, sayfada görünen bilginin yerine geçmez; önce yazar bilgisinin kendisi gerçek olmalı."
    ]
   },
   {
@@ -161,14 +161,14 @@
       "Otomasyon ya da yapay zekâ kullanıldıysa ve okuyucu bunu bekleyecekse açıklanıyor"
      ]
     },
-    "Google'ın dokümanındaki “nasıl” sorusu da bununla ilgili: İçeriğin nasıl üretildiğini, özellikle otomasyonun rolünü, okuyucunun beklediği yerde açıklamak. Genel içerik planlamasında E-E-A-T'nin yeri için [içerik stratejisi rehberine](/rehber/icerik-stratejisi) bakabilirsiniz."
+    "Google'ın dokümanındaki “nasıl” sorusu da bununla ilgili: İçeriğin nasıl üretildiğini, özellikle otomasyonun rolünü, okuyucunun beklediği yerde açıklamak. Genel içerik planlamasında E-E-A-T'nin yeri için [içerik stratejisi rehberine](/icerik-stratejisi) bakabilirsiniz."
    ]
   },
   {
    "baslik": "Otorite site dışında nasıl oluşur?",
    "paragraflar": [
-    "Otorite, sitenizin kendi hakkında söylediğiyle değil, başkalarının sizin hakkınızda söyledikleriyle oluşur. Yönergeler değerlendiricilerden sitenin ve içerik üreticisinin itibarını dış kaynaklardan araştırmalarını istiyor. Sektör yayınlarında yer almak, meslek kuruluşlarındaki kayıtlar ve bağımsız yorumlar bu yüzden değerli; bu tarafı [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) anlattım.",
-    "Sitenin içinde ise bir konuyu derinlemesine ve tutarlı işlemek otoriteyi destekler; bunun için [topical authority ve pillar-cluster modeli](/blog/topical-authority) yazısına göz atabilirsiniz. İçeriklerinizi bu çerçeveyle gözden geçirmek isterseniz [içerik hizmeti](/icerik) kapsamında çalışabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Otorite, sitenizin kendi hakkında söylediğiyle değil, başkalarının sizin hakkınızda söyledikleriyle oluşur. Yönergeler değerlendiricilerden sitenin ve içerik üreticisinin itibarını dış kaynaklardan araştırmalarını istiyor. Sektör yayınlarında yer almak, meslek kuruluşlarındaki kayıtlar ve bağımsız yorumlar bu yüzden değerli; bu tarafı [backlink ve dijital PR rehberinde](/backlink-dijital-pr) anlattım.",
+    "Sitenin içinde ise bir konuyu derinlemesine ve tutarlı işlemek otoriteyi destekler; bunun için [topical authority ve pillar-cluster modeli](/topical-authority) yazısına göz atabilirsiniz. İçeriklerinizi bu çerçeveyle gözden geçirmek isterseniz [içerik hizmeti](/icerik) kapsamında çalışabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -187,7 +187,7 @@
   },
   {
    "s": "Çekirdek güncellemede yaşanan düşüş E-E-A-T eksikliği mi demek?",
-   "c": "Olabilir ama tek açıklama değil. Çekirdek güncellemeler genel değerlendirmeyi yeniler; düşüşün nedenini sayfa ve sorgu bazında incelemek gerekir. Yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısında anlattım."
+   "c": "Olabilir ama tek açıklama değil. Çekirdek güncellemeler genel değerlendirmeyi yeniler; düşüşün nedenini sayfa ve sorgu bazında incelemek gerekir. Yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yazısında anlattım."
   },
   {
    "s": "Sağlık içeriklerinde uzman onayı şart mı?",
@@ -274,7 +274,7 @@
    "baslik": "Why does E-E-A-T matter more for YMYL topics?",
    "paragraflar": [
     "Google calls topics that could significantly affect people's health, financial stability, safety or the welfare of society “Your Money or Your Life” (YMYL). According to its documentation, content aligned with strong E-E-A-T is given more weight on these topics.",
-    "Health, legal and finance sites therefore face the highest bar. For doctor profiles and medical review workflows, see the [healthcare SEO guide](/en/guides/saglik-seo) and how I apply it on the [healthcare SEO](/en/industries/healthcare-seo) page. For legal content that respects professional rules, see [SEO for lawyers](/en/blog/avukatlar-icin-seo) and [law firm SEO](/en/industries/law-firm-seo)."
+    "Health, legal and finance sites therefore face the highest bar. For doctor profiles and medical review workflows, see the [healthcare SEO guide](/en/saglik-seo) and how I apply it on the [healthcare SEO](/en/healthcare-seo) page. For legal content that respects professional rules, see [SEO for lawyers](/en/avukatlar-icin-seo) and [law firm SEO](/en/law-firm-seo)."
    ]
   },
   {
@@ -290,7 +290,7 @@
       "Local context: real steps on government portals, local regulations, actual use of local platforms."
      ]
     },
-    "These signals also set content apart from look-alikes. They are what AI-drafted content most often lacks; I cover Google's stance in [AI-generated content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+    "These signals also set content apart from look-alikes. They are what AI-drafted content most often lacks; I cover Google's stance in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi)."
    ]
   },
   {
@@ -333,7 +333,7 @@
       ]
      }
     },
-    "Person and Article markup are covered in the [schema and structured data guide](/en/guides/schema-yapisal-veri), and you can draft JSON-LD with the [schema generator](/en/tools/schema-generator). Markup does not replace visible information; the author details must be real first."
+    "Person and Article markup are covered in the [schema and structured data guide](/en/schema-yapisal-veri), and you can draft JSON-LD with the [schema generator](/en/schema-generator). Markup does not replace visible information; the author details must be real first."
    ]
   },
   {
@@ -349,14 +349,14 @@
       "Use of automation or AI is disclosed where readers would expect it"
      ]
     },
-    "The “how” question in Google's documentation is about this: explaining how content was produced, especially the role of automation, where readers would expect it. For E-E-A-T's place in overall content planning, see the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "The “how” question in Google's documentation is about this: explaining how content was produced, especially the role of automation, where readers would expect it. For E-E-A-T's place in overall content planning, see the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
    "baslik": "How is authority built outside your site?",
    "paragraflar": [
-    "Authority comes from what others say about you, not what your site says about itself. The guidelines ask raters to research the reputation of the website and content creator using outside sources. Coverage in industry publications, professional registrations and independent reviews are valuable for that reason; see the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
-    "On your own site, covering a subject in depth supports authority; see [topical authority and the pillar-cluster model](/en/blog/topical-authority). To review your content through this lens, we can work together through my [content strategy service](/en/content-strategy), or you can [book an intro call](/en/book-a-call)."
+    "Authority comes from what others say about you, not what your site says about itself. The guidelines ask raters to research the reputation of the website and content creator using outside sources. Coverage in industry publications, professional registrations and independent reviews are valuable for that reason; see the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    "On your own site, covering a subject in depth supports authority; see [topical authority and the pillar-cluster model](/en/topical-authority). To review your content through this lens, we can work together through my [content strategy service](/en/content-strategy), or you can [book an intro call](/en/book-a-call)."
    ]
   }
  ],
@@ -375,7 +375,7 @@
   },
   {
    "s": "Does a core update drop mean my E-E-A-T is lacking?",
-   "c": "Possibly, but it is not the only explanation. Core updates refresh overall assessments; the cause needs to be examined by page and query. I explain the method in [traffic drops after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu)."
+   "c": "Possibly, but it is not the only explanation. Core updates refresh overall assessments; the cause needs to be examined by page and query. I explain the method in [traffic drops after a core update](/en/cekirdek-guncelleme-trafik-dususu)."
   },
   {
    "s": "Is expert review required for health content?",

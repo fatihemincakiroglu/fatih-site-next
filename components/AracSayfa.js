@@ -5,7 +5,7 @@ import { renderInline } from './IcerikBlok'
 
 const BASE = 'https://fatihemincakiroglu.com'
 
-// Bağımsız araç sayfaları (/araclar/schema-olusturucu, /araclar/yonlendirme-olusturucu
+// Bağımsız araç sayfaları (/schema-olusturucu, /yonlendirme-olusturucu
 // ve EN karşılıkları) için ortak kabuk: breadcrumb, başlık, araç, "nasıl kullanılır",
 // SSS (FAQPage), ilgili rehberler ve WebApplication şeması.
 export default function AracSayfa({ isEn, yol, yolEn, baslik, metaBaslik, metaDesc, giris, adimlar = [], sss = [], rehberler = [], children }) {

@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Hepsiburada'da Ürün Görünürlüğü: Ürün Sayfası ve İçerik",
  "baslik_en": "Product Visibility on Hepsiburada: Product Page and Content",
- "meta_baslik_tr": "Hepsiburada Ürün Sayfası: Görünürlük ve İçerik Rehberi",
- "meta_baslik_en": "Hepsiburada Product Page: Visibility and Content Guide",
- "meta_desc_tr": "Hepsiburada'da ortak ürün sayfası mantığı, başlık, görsel, kategori özellikleri, açıklama ve soru-cevap: satıcının kontrol edebildiği içerik alanları.",
- "meta_desc_en": "How Hepsiburada's shared product pages work, plus titles, images, category attributes, descriptions and Q&A: the content fields a seller can control.",
+ "meta_baslik_tr": "Hepsiburada Ürün Sayfası İçerik Rehberi",
+ "meta_baslik_en": "Hepsiburada Product Page Content Guide",
+ "meta_desc_tr": "Hepsiburada'da ortak ürün sayfası mantığı ile başlık, görsel, kategori özellikleri, açıklama ve soru-cevapta satıcının kontrol ettiği alanlar.",
+ "meta_desc_en": "How Hepsiburada's shared product pages work and which fields a seller controls, from titles and images to category attributes, descriptions and Q&A.",
  "ozet_tr": "Hepsiburada'da ortak ürün sayfasını doğru kurmak: başlık, görsel, özellik alanları, açıklama ve soru-cevap.",
  "ozet_en": "Building a solid shared product page on Hepsiburada: title, images, attribute fields, description and Q&A.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Hepsiburada'da satış yapan markalarla çalışırken ilk sorulan soru hep aynı: \"Ürünümüzü nasıl üst sıralara taşırız?\" Dürüst cevap şu: Hepsiburada sıralama mantığını ayrıntılı olarak kamuya açıklamıyor; dışarıdan \"şu ayar sizi birinci yapar\" diyen herkes tahmin yürütüyor. Satıcının elinde olan ise ürün sayfasının kalitesi, eksiksizliği ve müşterinin sorusuna verdiği cevap.",
-    "Bu yazıda Hepsiburada'ya özgü ortak ürün sayfası yapısını, başlık ve görsel kurgusunu, kategori özelliklerini, açıklama metnini ve soru-cevap yönetimini anlatıyorum. Trendyol tarafındaki benzer çalışmayı [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazısında ayrıca ele aldım; burada örnekleri bilerek farklı tuttum.",
+    "Bu yazıda Hepsiburada'ya özgü ortak ürün sayfası yapısını, başlık ve görsel kurgusunu, kategori özelliklerini, açıklama metnini ve soru-cevap yönetimini anlatıyorum. Trendyol tarafındaki benzer çalışmayı [Trendyol ürün sayfası optimizasyonu](/trendyol-urun-sirasi) yazısında ayrıca ele aldım; burada örnekleri bilerek farklı tuttum.",
     {
      "alinti": "Kısa cevap: Hepsiburada'da görünürlük için satıcının kontrol edebildiği şey ürün sayfasının kendisidir: doğru kategori, marka ve modeli net veren başlık, kurallara uygun görseller, eksiksiz doldurulmuş kategori özellikleri ve hızlı yanıtlanan sorular. Sıralama algoritması hakkında resmi ayrıntı yoktur; satıcı panelinizdeki güncel kuralları esas alın."
     }
@@ -80,7 +80,7 @@
       ]
      }
     },
-    "Müşterinin arama kutusuna yazacağı kelimeleri tahmin etmek yerine verisini toplayın. Platform içi arama önerileri ve [anahtar kelime araştırması rehberindeki](/rehber/anahtar-kelime-arastirmasi) yöntemler, \"su ısıtıcı\" mı \"kettle\" mı sorusunu netleştirmeye yardım eder."
+    "Müşterinin arama kutusuna yazacağı kelimeleri tahmin etmek yerine verisini toplayın. Platform içi arama önerileri ve [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) yöntemler, \"su ısıtıcı\" mı \"kettle\" mı sorusunu netleştirmeye yardım eder."
    ]
   },
   {
@@ -118,7 +118,7 @@
    "baslik": "Ürün açıklaması: platform ve kendi siteniz için ayrı metin",
    "paragraflar": [
     "Açıklamada teknik özellik listesini tekrarlamak yerine kullanım senaryosunu, kutu içeriğini ve sık sorulan noktaları yazın. Abartılı ya da doğrulanamayan iddialar hem platform kurallarına takılabilir hem de iade riskini artırır.",
-    "Hepsiburada ürün sayfaları Google'da da sıralanabildiği için aynı metni kendi sitenizde birebir kullanmak, iki sayfanın aynı sorguda yarışmasına neden olabilir. Kendi sitenizde daha kapsamlı, markanızın deneyimini taşıyan bir metin yazmanızı öneririm; yöntemi [ürün açıklaması ve kategori metni yazımı](/blog/e-ticaret-urun-aciklamasi) yazısında anlattım. Teknik altyapı tarafı için [e-ticaret SEO rehberi](/rehber/e-ticaret-seo) iyi bir başlangıç."
+    "Hepsiburada ürün sayfaları Google'da da sıralanabildiği için aynı metni kendi sitenizde birebir kullanmak, iki sayfanın aynı sorguda yarışmasına neden olabilir. Kendi sitenizde daha kapsamlı, markanızın deneyimini taşıyan bir metin yazmanızı öneririm; yöntemi [ürün açıklaması ve kategori metni yazımı](/e-ticaret-urun-aciklamasi) yazısında anlattım. Teknik altyapı tarafı için [e-ticaret SEO rehberi](/e-ticaret-seo) iyi bir başlangıç."
    ]
   },
   {
@@ -154,8 +154,8 @@
   {
    "baslik": "Hepsiburada mı, kendi site mi: kanal kararı",
    "paragraflar": [
-    "Pazaryeri hızlı talep ve hazır trafik sunar; kendi site ise müşteri verisi, marka araması ve uzun vadeli organik varlık sağlar. Çoğu marka için doğru soru \"hangisi\" değil, \"hangi ürün hangi kanalda\" sorusudur. Bu dengeyi [Trendyol mağazası mı kendi site mi](/blog/trendyol-magazasi-mi-kendi-site-mi) yazısında, altyapı seçimini ise [e-ticaret altyapılarının SEO karşılaştırmasında](/blog/e-ticaret-altyapisi-seo-karsilastirma) ele aldım.",
-    "Pazaryeri ile kendi sitesini birlikte büyütmek isteyen markalarla [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) kapsamında ürün içeriği ve kategori yapısını birlikte planlıyoruz; içerik üretimi tarafında [SEO içerik hizmeti](/icerik) de devreye girebiliyor. Mevcut durumunuzu konuşmak için [kısa bir görüşme planlayabilirsiniz](/randevu)."
+    "Pazaryeri hızlı talep ve hazır trafik sunar; kendi site ise müşteri verisi, marka araması ve uzun vadeli organik varlık sağlar. Çoğu marka için doğru soru \"hangisi\" değil, \"hangi ürün hangi kanalda\" sorusudur. Bu dengeyi [Trendyol mağazası mı kendi site mi](/trendyol-magazasi-mi-kendi-site-mi) yazısında, altyapı seçimini ise [e-ticaret altyapılarının SEO karşılaştırmasında](/e-ticaret-altyapisi-seo-karsilastirma) ele aldım.",
+    "Pazaryeri ile kendi sitesini birlikte büyütmek isteyen markalarla [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında ürün içeriği ve kategori yapısını birlikte planlıyoruz; içerik üretimi tarafında [SEO içerik hizmeti](/icerik) de devreye girebiliyor. Mevcut durumunuzu konuşmak için [kısa bir görüşme planlayabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -190,7 +190,7 @@
    "baslik": null,
    "paragraflar": [
     "Brands selling on Hepsiburada usually ask me first: \"How do we get our product to the top?\" Hepsiburada does not publish the details of its ranking logic, so any promise about a specific setting is a guess. What a seller does control is the quality and completeness of the product page.",
-    "This post covers Hepsiburada's shared product page structure, title and image setup, category attributes, description copy and Q&A management. I covered similar work for Trendyol in [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi); the examples here are deliberately different.",
+    "This post covers Hepsiburada's shared product page structure, title and image setup, category attributes, description copy and Q&A management. I covered similar work for Trendyol in [Trendyol product page optimisation](/en/trendyol-urun-sirasi); the examples here are deliberately different.",
     {
      "alinti": "Short answer: On Hepsiburada, the part of visibility a seller controls is the product page itself: the right category, a title that states brand and model clearly, compliant images, fully completed category attributes and quickly answered questions. There is no official detail on the ranking algorithm, so treat the current rules in your seller panel as the reference."
     }
@@ -255,7 +255,7 @@
       ]
      }
     },
-    "Rather than guessing what shoppers type, collect the data. On-site search suggestions and the methods in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) help settle questions like \"su ısıtıcı\" versus \"kettle\" for Turkish shoppers."
+    "Rather than guessing what shoppers type, collect the data. On-site search suggestions and the methods in the [keyword research guide](/en/anahtar-kelime-arastirmasi) help settle questions like \"su ısıtıcı\" versus \"kettle\" for Turkish shoppers."
    ]
   },
   {
@@ -292,7 +292,7 @@
    "baslik": "Product description: separate copy for marketplace and site",
    "paragraflar": [
     "Use the description for use cases, box contents and common questions rather than repeating specs. Unverifiable claims can clash with platform rules.",
-    "Because Hepsiburada product pages can also rank on Google, using identical copy on your own site may leave two pages competing for the same query. I recommend a deeper, brand-specific text on your own site; the method is in [how to write product and category descriptions](/en/blog/e-ticaret-urun-aciklamasi). For the technical side, the [e-commerce SEO guide](/en/guides/e-ticaret-seo) is a good starting point."
+    "Because Hepsiburada product pages can also rank on Google, using identical copy on your own site may leave two pages competing for the same query. I recommend a deeper, brand-specific text on your own site; the method is in [how to write product and category descriptions](/en/e-ticaret-urun-aciklamasi). For the technical side, the [e-commerce SEO guide](/en/e-ticaret-seo) is a good starting point."
    ]
   },
   {
@@ -328,8 +328,8 @@
   {
    "baslik": "Hepsiburada or your own site: the channel decision",
    "paragraflar": [
-    "A marketplace offers fast demand and ready traffic; your own site gives you customer data, branded search and long-term organic presence. For most brands the real question is not \"which one\" but \"which product in which channel\". I cover that balance in [Trendyol store or your own site](/en/blog/trendyol-magazasi-mi-kendi-site-mi), and platform choice in the [SEO comparison of e-commerce platforms](/en/blog/e-ticaret-altyapisi-seo-karsilastirma).",
-    "For brands growing a marketplace presence and their own site together, I plan product content and category structure as part of [e-commerce SEO consulting](/en/industries/ecommerce-seo-consulting), with [content strategy work](/en/content-strategy) where copy production is needed. To talk through your situation, [book a short call](/en/book-a-call)."
+    "A marketplace offers fast demand and ready traffic; your own site gives you customer data, branded search and long-term organic presence. For most brands the real question is not \"which one\" but \"which product in which channel\". I cover that balance in [Trendyol store or your own site](/en/trendyol-magazasi-mi-kendi-site-mi), and platform choice in the [SEO comparison of e-commerce platforms](/en/e-ticaret-altyapisi-seo-karsilastirma).",
+    "For brands growing a marketplace presence and their own site together, I plan product content and category structure as part of [e-commerce SEO consulting](/en/ecommerce-seo-consulting), with [content strategy work](/en/content-strategy) where copy production is needed. To talk through your situation, [book a short call](/en/book-a-call)."
    ]
   }
  ],

@@ -4,10 +4,10 @@
  "sure": 7,
  "baslik_tr": "Ürün Açıklaması ve Kategori Metni Nasıl Yazılır?",
  "baslik_en": "How to Write Product Descriptions and Category Copy",
- "meta_baslik_tr": "Ürün Açıklaması ve Kategori Metni Nasıl Yazılır?",
- "meta_baslik_en": "How to Write Product Descriptions and Category Copy",
- "meta_desc_tr": "SEO ve satış için ürün açıklaması şablonu, üretici metnini kopyalamanın sorunu, kategori metninin sayfadaki yeri ve uzunluğu üzerine uygulanabilir rehber.",
- "meta_desc_en": "A practical guide to product description templates, why copying manufacturer text hurts, and where category copy should sit and how long it should be.",
+ "meta_baslik_tr": "Ürün Açıklaması ve Kategori Metni Yazımı",
+ "meta_baslik_en": "Product Descriptions and Category Copy",
+ "meta_desc_tr": "SEO ve satış için ürün açıklaması şablonu, üretici metnini kopyalamanın sorunu, kategori metninin yeri ve uzunluğuyla uygulanabilir bir rehber.",
+ "meta_desc_en": "A practical guide with a product description template, why copying manufacturer text hurts, and where category copy belongs and how long it should be.",
  "ozet_tr": "Satan ve aranan ürün açıklaması için şablon, üretici metni sorunu ve kategori metninin doğru yeri ile uzunluğu.",
  "ozet_en": "A template for product descriptions that sell and rank, the manufacturer copy problem and where category copy belongs.",
  "bolumler_tr": [
@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "E-ticaret denetimlerinde en sık gördüğüm içerik sorunu, binlerce üründe tek kelimesi değişmemiş üretici metinleri ve kategori sayfalarının altına yığılmış, kimsenin okumadığı anahtar kelime paragraflarıdır. İkisi de hem müşteriye hem arama motoruna aynı mesajı verir: bu sayfada başka yerde olmayan bir şey yok.",
-    "Bu yazıda ürün açıklaması için kullandığım şablonu, üretici metniyle ne yapmanız gerektiğini ve kategori metninin nereye, ne uzunlukta yazılacağını anlatıyorum. Kategori yapısı, filtreler ve teknik kurulum için [e-ticaret SEO rehberine](/rehber/e-ticaret-seo) bakın.",
+    "Bu yazıda ürün açıklaması için kullandığım şablonu, üretici metniyle ne yapmanız gerektiğini ve kategori metninin nereye, ne uzunlukta yazılacağını anlatıyorum. Kategori yapısı, filtreler ve teknik kurulum için [e-ticaret SEO rehberine](/e-ticaret-seo) bakın.",
     {
      "alinti": "Kısa cevap: İyi bir ürün açıklaması, müşterinin satın almadan önce sorduğu soruları cevaplar: kime uygun, neden bu ürün, teknik ölçüler, kullanım ve bakım, kargo ve iade. Üretici metni ancak başlangıç noktasıdır; kendi bilginizle zenginleştirin. Kategori metni ise ürün listesini aşağı itmeyen kısa bir giriş ve isteğe bağlı olarak listenin altında bir seçim rehberinden oluşmalıdır."
     }
@@ -25,7 +25,7 @@
    "baslik": "Üretici açıklamasını kopyalamak neden sorun?",
    "paragraflar": [
     "Aynı ürünü satan onlarca mağaza aynı üretici metnini kullandığında, Google'ın elinde birbirinin kopyası olan onlarca sayfa olur. Google bu tür yinelenen içerikte genellikle bir ya da birkaç sürümü öne çıkarır; hangisinin seçileceği çoğu zaman alan adının genel gücüne bağlıdır ve küçük mağaza bu yarışta geride kalır.",
-    "Ceza meselesi değil, ayırt edicilik meselesi. Ürününüz rakip sayfadan farklı bir bilgi sunmuyorsa sıralanması için bir neden de yoktur. Search Console'da ürün sayfalarının \"Tarandı – şu anda dizine eklenmemiş\" satırında birikmesi bunun sık görülen belirtisidir; teşhisi [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısında anlattım.",
+    "Ceza meselesi değil, ayırt edicilik meselesi. Ürününüz rakip sayfadan farklı bir bilgi sunmuyorsa sıralanması için bir neden de yoktur. Search Console'da ürün sayfalarının \"Tarandı – şu anda dizine eklenmemiş\" satırında birikmesi bunun sık görülen belirtisidir; teşhisi [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında anlattım.",
     {
      "karsilastir": {
       "sol": {
@@ -83,7 +83,7 @@
       ]
      }
     },
-    "Türkiye'de sık atlanan bir nokta, müşterinin kullandığı kelimeleri metne taşımaktır. Siz \"pamuklu nevresim takımı\" yazarken müşteri \"çift kişilik nevresim takımı ranforce\" diye arıyor olabilir. Bu terimleri [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ile bulun ve metne doğal biçimde yerleştirin."
+    "Türkiye'de sık atlanan bir nokta, müşterinin kullandığı kelimeleri metne taşımaktır. Siz \"pamuklu nevresim takımı\" yazarken müşteri \"çift kişilik nevresim takımı ranforce\" diye arıyor olabilir. Bu terimleri [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) ile bulun ve metne doğal biçimde yerleştirin."
    ]
   },
   {
@@ -121,7 +121,7 @@
       ]
      }
     },
-    "Yapay zekâ araçları taslak üretmeyi hızlandırabilir, ama özellik ve ölçüleri mutlaka gerçek ürün verisiyle karşılaştırın. Google'ın bu konudaki tutumu, içeriğin nasıl üretildiğinden çok kullanıcıya fayda sağlayıp sağlamadığıyla ilgili; ayrıntı [yapay zekâ içeriği ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi) yazısında."
+    "Yapay zekâ araçları taslak üretmeyi hızlandırabilir, ama özellik ve ölçüleri mutlaka gerçek ürün verisiyle karşılaştırın. Google'ın bu konudaki tutumu, içeriğin nasıl üretildiğinden çok kullanıcıya fayda sağlayıp sağlamadığıyla ilgili; ayrıntı [yapay zekâ içeriği ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında."
    ]
   },
   {
@@ -152,7 +152,7 @@
       }
      ]
     },
-    "Kategori metninin kategori adını tekrar eden boş cümlelerle dolması yerine, müşterinin seçim yaparken takıldığı noktaları çözmesi gerekir: \"Koşu ayakkabısında drop nedir, size hangisi uygun?\" gibi. Metnin hangi aramaya hizmet edeceğini belirlemek için [içerik stratejisi rehberindeki](/rehber/icerik-stratejisi) niyet eşleştirme yaklaşımını kullanabilirsiniz."
+    "Kategori metninin kategori adını tekrar eden boş cümlelerle dolması yerine, müşterinin seçim yaparken takıldığı noktaları çözmesi gerekir: \"Koşu ayakkabısında drop nedir, size hangisi uygun?\" gibi. Metnin hangi aramaya hizmet edeceğini belirlemek için [içerik stratejisi rehberindeki](/icerik-stratejisi) niyet eşleştirme yaklaşımını kullanabilirsiniz."
    ]
   },
   {
@@ -169,12 +169,12 @@
       "Sayfa ilgili kategoriye ve bir rehber yazısına link veriyor."
      ]
     },
-    "Ürün yapısal verisini [schema oluşturucu](/araclar/schema-olusturucu) ile hazırlayıp test edebilirsiniz. Platforma özgü alanlar için [Shopify SEO kontrol listesi](/blog/shopify-seo) ve pazaryeri tarafı için [Trendyol ürün sayfası optimizasyonu](/blog/trendyol-urun-sirasi) yazılarına bakın. Ürün ve kategori metinlerinizi ölçekli bir planla yazmak isterseniz [içerik hizmeti](/icerik) ve [e-ticaret SEO danışmanlığı](/sektorler/e-ticaret-seo-danismanligi) sayfalarını inceleyin.",
+    "Ürün yapısal verisini [schema oluşturucu](/schema-olusturucu) ile hazırlayıp test edebilirsiniz. Platforma özgü alanlar için [Shopify SEO kontrol listesi](/shopify-seo) ve pazaryeri tarafı için [Trendyol ürün sayfası optimizasyonu](/trendyol-urun-sirasi) yazılarına bakın. Ürün ve kategori metinlerinizi ölçekli bir planla yazmak isterseniz [içerik hizmeti](/icerik) ve [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) sayfalarını inceleyin.",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Ücretsiz araç: SERP önizleme",
-      "metin": "Kategori ve ürün sayfalarının başlık ve meta açıklamalarını yayından önce [SERP önizleme aracında](/araclar/serp-onizleme) deneyin; en önemli kelimelerin kesilmeden kaldığından emin olun."
+      "metin": "Kategori ve ürün sayfalarının başlık ve meta açıklamalarını yayından önce [SERP önizleme aracında](/serp-onizleme) deneyin; en önemli kelimelerin kesilmeden kaldığından emin olun."
      }
     }
    ]
@@ -211,7 +211,7 @@
    "baslik": null,
    "paragraflar": [
     "The content problem I see most in ecommerce audits is manufacturer copy left unchanged across thousands of products, plus keyword paragraphs stacked under category pages that nobody reads. Both tell shoppers and search engines the same thing: this page offers nothing you cannot find elsewhere.",
-    "This post covers the template I use for product descriptions, what to do with manufacturer text, and where and how long category copy should be. For category structure, filters and technical setup, see the [ecommerce SEO guide](/en/guides/e-ticaret-seo).",
+    "This post covers the template I use for product descriptions, what to do with manufacturer text, and where and how long category copy should be. For category structure, filters and technical setup, see the [ecommerce SEO guide](/en/e-ticaret-seo).",
     {
      "alinti": "Short answer: a good product description answers the questions shoppers ask before buying: who it suits, why this product, specs, use and care, shipping and returns. Manufacturer text is only a starting point; enrich it with your own knowledge. Category copy should be a short intro that does not push the product grid down, optionally followed by a buying guide below the grid."
     }
@@ -221,7 +221,7 @@
    "baslik": "Why is copying manufacturer descriptions a problem?",
    "paragraflar": [
     "When dozens of stores selling the same product use the same manufacturer text, Google is left with dozens of near-identical pages. For duplicate content like this, Google usually surfaces one or a few versions; which one often depends on the overall strength of the domain, and smaller stores lose that contest.",
-    "It is not about penalties; it is about distinctiveness. If your page offers nothing the competing page does not, there is no reason for it to rank. Product pages piling up under \"Crawled – currently not indexed\" in Search Console is a common symptom; I cover the diagnosis in [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis).",
+    "It is not about penalties; it is about distinctiveness. If your page offers nothing the competing page does not, there is no reason for it to rank. Product pages piling up under \"Crawled – currently not indexed\" in Search Console is a common symptom; I cover the diagnosis in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis).",
     {
      "karsilastir": {
       "sol": {
@@ -279,7 +279,7 @@
       ]
      }
     },
-    "A step often skipped is using the words shoppers actually use. You may write \"cotton duvet set\" while shoppers search \"double duvet cover set percale\". Find these terms through [keyword research](/en/guides/anahtar-kelime-arastirmasi) and place them naturally in the copy."
+    "A step often skipped is using the words shoppers actually use. You may write \"cotton duvet set\" while shoppers search \"double duvet cover set percale\". Find these terms through [keyword research](/en/anahtar-kelime-arastirmasi) and place them naturally in the copy."
    ]
   },
   {
@@ -317,7 +317,7 @@
       ]
      }
     },
-    "AI tools can speed up drafting, but always check specs and dimensions against real product data. Google's position focuses on whether content helps users rather than how it was produced; details are in [AI content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi)."
+    "AI tools can speed up drafting, but always check specs and dimensions against real product data. Google's position focuses on whether content helps users rather than how it was produced; details are in [AI content and Google's policy](/en/yapay-zeka-icerik-google-politikasi)."
    ]
   },
   {
@@ -348,7 +348,7 @@
       }
      ]
     },
-    "Instead of filler sentences repeating the category name, category copy should resolve the points where shoppers get stuck, such as \"What is drop in running shoes, and which suits you?\". To decide which query the copy should serve, use the intent-matching approach in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "Instead of filler sentences repeating the category name, category copy should resolve the points where shoppers get stuck, such as \"What is drop in running shoes, and which suits you?\". To decide which query the copy should serve, use the intent-matching approach in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
@@ -365,12 +365,12 @@
       "The page links to its category and to a guide."
      ]
     },
-    "You can build and test product structured data with the [schema generator](/en/tools/schema-generator). For platform fields see the [Shopify SEO checklist](/en/blog/shopify-seo), and for marketplaces see [Trendyol product page optimisation](/en/blog/trendyol-urun-sirasi). If you want product and category copy written to a scalable plan, see [content strategy services](/en/content-strategy) and [ecommerce SEO consulting](/en/industries/ecommerce-seo-consulting).",
+    "You can build and test product structured data with the [schema generator](/en/schema-generator). For platform fields see the [Shopify SEO checklist](/en/shopify-seo), and for marketplaces see [Trendyol product page optimisation](/en/trendyol-urun-sirasi). If you want product and category copy written to a scalable plan, see [content strategy services](/en/content-strategy) and [ecommerce SEO consulting](/en/ecommerce-seo-consulting).",
     {
      "kutu": {
       "tur": "ipucu",
       "baslik": "Free tool: SERP preview",
-      "metin": "Try category and product titles and meta descriptions in the [SERP preview tool](/en/tools/serp-preview) before publishing, so the key words survive truncation."
+      "metin": "Try category and product titles and meta descriptions in the [SERP preview tool](/en/serp-preview) before publishing, so the key words survive truncation."
      }
     }
    ]

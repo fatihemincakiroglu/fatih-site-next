@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Google Search Console Rehberi: Temel Raporları Okumak",
  "baslik_en": "Google Search Console Guide: Reading the Core Reports",
- "meta_baslik_tr": "Google Search Console Rehberi: Temel Raporları Okumak",
- "meta_baslik_en": "Google Search Console Guide: Reading the Core Reports",
- "meta_desc_tr": "Search Console'da Performans, Sayfa dizine ekleme, URL Denetimi, Site haritaları ve Deneyim raporları nasıl okunur? Haftalık kontrol rutini ve sık hatalar.",
- "meta_desc_en": "How to read the Performance, Page indexing, URL Inspection, Sitemaps and Experience reports in Search Console, plus a weekly routine and common mistakes.",
+ "meta_baslik_tr": "Search Console Raporları Nasıl Okunur",
+ "meta_baslik_en": "How to Read Google Search Console",
+ "meta_desc_tr": "Performans, Sayfa dizine ekleme, URL Denetimi, Site haritaları ve Deneyim raporlarını okumayı öğrenin. Haftalık kontrol rutini ve sık hatalar dahil.",
+ "meta_desc_en": "Learn to read the Performance, Page indexing, URL Inspection, Sitemaps and Experience reports in Search Console, plus a weekly check routine.",
  "ozet_tr": "Search Console'un temel raporlarını doğru okumak için pratik rehber: neye bakmalı, neyi dert etmemeli?",
  "ozet_en": "A practical guide to reading Search Console's core reports: what to watch and what not to worry about.",
  "bolumler_tr": [
@@ -77,7 +77,7 @@
       }
      ]
     },
-    "En faydalı alışkanlık, iki dönemi karşılaştırıp sayfa ve sorgu kırılımına inmektir. Trafik düşüşü varsa önce hangi sayfa grubunda olduğunu bulun; olası nedenleri ve tarihleri [Google güncellemeleri günlüğüyle](/google-guncellemeleri) eşleştirin. Ani düşüşleri teşhis etme yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısında anlattım.",
+    "En faydalı alışkanlık, iki dönemi karşılaştırıp sayfa ve sorgu kırılımına inmektir. Trafik düşüşü varsa önce hangi sayfa grubunda olduğunu bulun; olası nedenleri ve tarihleri [Google güncellemeleri günlüğüyle](/google-guncellemeleri) eşleştirin. Ani düşüşleri teşhis etme yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yazısında anlattım.",
     "Marka sorgularını ayırmak için Google'ın sunduğu markalı sorgular filtresi, uygun mülklerde Performans raporunda yer alıyor. Filtre yalnızca raporlama içindir ve sıralamayı etkilemez; Google bazı sorguların yanlış sınıflandırılabileceğini de belirtiyor."
    ]
   },
@@ -90,7 +90,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "En sık sorulan satır",
-      "metin": "“Tarandı – şu anda dizine eklenmemiş” durumu teknik bir engel değil, bir kalite ve öncelik kararıdır. Teşhis ve çözüm adımlarını [tarandı ama dizine eklenmemiş sayfalar](/blog/tarandi-dizine-eklenmemis) yazısında ayrıntılı anlattım."
+      "metin": "“Tarandı – şu anda dizine eklenmemiş” durumu teknik bir engel değil, bir kalite ve öncelik kararıdır. Teşhis ve çözüm adımlarını [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında ayrıntılı anlattım."
      }
     },
     "Rapordaki site haritası filtresi çok işe yarar: “Gönderilen tüm sayfalar” seçildiğinde yalnızca dizine eklenmesini istediğinizi beyan ettiğiniz URL'lerin durumunu görürsünüz."
@@ -123,14 +123,14 @@
       ]
      }
     },
-    "JavaScript ile oluşturulan sayfalarda işlenmiş HTML'i kontrol etmek, içerik ve linklerin Google'a ulaşıp ulaşmadığını görmenin en hızlı yoludur. Genel tarama mantığı için [teknik SEO rehberine](/rehber/teknik-seo) bakabilirsiniz."
+    "JavaScript ile oluşturulan sayfalarda işlenmiş HTML'i kontrol etmek, içerik ve linklerin Google'a ulaşıp ulaşmadığını görmenin en hızlı yoludur. Genel tarama mantığı için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
    ]
   },
   {
    "baslik": "Site haritaları ve Deneyim raporları",
    "paragraflar": [
     "Site haritaları raporunda gönderdiğiniz XML haritalarının okunup okunmadığını ve kaç URL keşfedildiğini görürsünüz. Haritada yalnızca 200 dönen, standart ve dizine eklenmesini istediğiniz URL'ler bulunmalı; yönlendirilen ya da noindex sayfalar haritayı kirletir.",
-    "Deneyim bölümünde Core Web Vitals ve HTTPS raporları yer alır. Eskiden bunları özetleyen Sayfa deneyimi raporu kaldırıldı; veriler bu iki raporda duruyor. Core Web Vitals raporu gerçek kullanıcı verisine dayanır ve eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1'dir. Ayrıntılar için [Core Web Vitals yazısına](/blog/core-web-vitals-2025) bakabilirsiniz.",
+    "Deneyim bölümünde Core Web Vitals ve HTTPS raporları yer alır. Eskiden bunları özetleyen Sayfa deneyimi raporu kaldırıldı; veriler bu iki raporda duruyor. Core Web Vitals raporu gerçek kullanıcı verisine dayanır ve eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1'dir. Ayrıntılar için [Core Web Vitals yazısına](/core-web-vitals-2025) bakabilirsiniz.",
     {
      "kontrol": [
       "Site haritası durumu “Başarılı” mı ve keşfedilen URL sayısı beklentiyle uyumlu mu?",
@@ -145,7 +145,7 @@
    "baslik": "Yapay zekâ özellikleri Search Console'da nasıl görünür?",
    "paragraflar": [
     "AI Overviews ve AI Mode'daki gösterim ve tıklamalar, genel Web arama verisinin içinde sayılıyor. Google, Haziran 2026'da AI Overviews ve AI Mode için ayrı üretken yapay zekâ performans raporlarını duyurdu ve 31 Ağustos 2026'da tüm sitelere açıldığını bildirdi. Raporu mülkünüzde henüz görmüyorsanız birkaç gün bekleyin; veri yine de genel Web toplamlarında yer alır.",
-    "Yapay zekâ asistanlarından gelen ziyaretleri ise Search Console değil GA4 gösterir; bu kanalı [GA4'te yapay zekâ trafiği](/blog/ga4-yapay-zeka-trafigi) yazısında anlattım. AI Mode'un Türkiye'deki durumu için [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısına bakabilirsiniz."
+    "Yapay zekâ asistanlarından gelen ziyaretleri ise Search Console değil GA4 gösterir; bu kanalı [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısında anlattım. AI Mode'un Türkiye'deki durumu için [Google AI Mode Türkiye](/google-ai-mode-turkiye) yazısına bakabilirsiniz."
    ]
   },
   {
@@ -160,7 +160,7 @@
       "E-posta bildirimleri: Search Console'un gönderdiği uyarıları kaçırmamak için doğru kişilere ulaştığından emin olun."
      ]
     },
-    "Bu verileri yönetime aylık rapora dönüştürmek için [SEO raporlama rehberindeki](/rehber/seo-raporlama) çerçeveyi kullanabilirsiniz. Sitedeki [ücretsiz SEO araçları](/araclar) da yapısal veri ve yönlendirme işlerinde yardımcı olur. Search Console verinizi birlikte yorumlamak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Bu verileri yönetime aylık rapora dönüştürmek için [SEO raporlama rehberindeki](/seo-raporlama) çerçeveyi kullanabilirsiniz. Sitedeki [ücretsiz SEO araçları](/araclar) da yapısal veri ve yönlendirme işlerinde yardımcı olur. Search Console verinizi birlikte yorumlamak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -231,7 +231,7 @@
       }
      ]
     },
-    "The most useful habit is comparing two periods and drilling into pages and queries. If traffic dropped, first find which page group lost it, then match dates against the [Google updates log](/en/google-updates). I explain how to diagnose sudden drops in [traffic loss after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu).",
+    "The most useful habit is comparing two periods and drilling into pages and queries. If traffic dropped, first find which page group lost it, then match dates against the [Google updates log](/en/google-updates). I explain how to diagnose sudden drops in [traffic loss after a core update](/en/cekirdek-guncelleme-trafik-dususu).",
     "To separate brand queries, Google's branded queries filter is available in the Performance report for eligible properties. It is reporting-only and does not affect rankings; Google also notes some queries may be misclassified."
    ]
   },
@@ -244,7 +244,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "The most asked-about status",
-      "metin": "“Crawled – currently not indexed” is not a technical block but a quality and priority decision. I cover diagnosis and fixes in [crawled but not indexed pages](/en/blog/tarandi-dizine-eklenmemis)."
+      "metin": "“Crawled – currently not indexed” is not a technical block but a quality and priority decision. I cover diagnosis and fixes in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis)."
      }
     },
     "The sitemap filter is very handy: choosing “All submitted pages” shows only the URLs you have declared you want indexed."
@@ -277,14 +277,14 @@
       ]
      }
     },
-    "On JavaScript-built pages, checking the rendered HTML is the fastest way to see whether content and links reach Google. For crawling basics, see the [technical SEO guide](/en/guides/teknik-seo)."
+    "On JavaScript-built pages, checking the rendered HTML is the fastest way to see whether content and links reach Google. For crawling basics, see the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
    "baslik": "Sitemaps and Experience reports",
    "paragraflar": [
     "The Sitemaps report shows whether your XML sitemaps were read and how many URLs were discovered. A sitemap should only list canonical URLs that return 200 and that you want indexed; redirected or noindex pages pollute it.",
-    "The Experience section holds the Core Web Vitals and HTTPS reports. The Page experience report that summarised them was removed; the data remains in these two reports. Core Web Vitals uses real-user data, with thresholds of LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. See the [Core Web Vitals article](/en/blog/core-web-vitals-2025).",
+    "The Experience section holds the Core Web Vitals and HTTPS reports. The Page experience report that summarised them was removed; the data remains in these two reports. Core Web Vitals uses real-user data, with thresholds of LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. See the [Core Web Vitals article](/en/core-web-vitals-2025).",
     {
      "kontrol": [
       "Is the sitemap status “Success” and the discovered URL count as expected?",
@@ -299,7 +299,7 @@
    "baslik": "How do AI features show up in Search Console?",
    "paragraflar": [
     "Impressions and clicks from AI Overviews and AI Mode are counted within overall Web search data. In June 2026 Google announced separate generative AI performance reports for AI Overviews and AI Mode, and on 31 August 2026 said they were available to all sites. If your property does not show the report yet, give it a few days; the data still appears in the overall Web totals.",
-    "Visits from AI assistants show up in GA4, not Search Console; I cover that channel in [AI traffic in GA4](/en/blog/ga4-yapay-zeka-trafigi). For AI Mode in Turkey, see [Google AI Mode in Turkey](/en/blog/google-ai-mode-turkiye)."
+    "Visits from AI assistants show up in GA4, not Search Console; I cover that channel in [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi). For AI Mode in Turkey, see [Google AI Mode in Turkey](/en/google-ai-mode-turkiye)."
    ]
   },
   {
@@ -314,7 +314,7 @@
       "Email alerts: make sure Search Console notifications reach the right people."
      ]
     },
-    "To turn this data into a monthly management report, use the framework in the [SEO reporting guide](/en/guides/seo-raporlama). The site's [free SEO tools](/en/tools) help with structured data and redirects. To interpret your Search Console data together, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+    "To turn this data into a monthly management report, use the framework in the [SEO reporting guide](/en/seo-raporlama). The site's [free SEO tools](/en/tools) help with structured data and redirects. To interpret your Search Console data together, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
    ]
   }
  ],

@@ -221,8 +221,8 @@ export default function Page(props) {
   return (
     <>
       <Head>
-        <title>{isEn ? 'Performance Marketing & Growth Consulting' : 'Performans Pazarlama & Growth Danışmanlığı'}</title>
-        <meta name="description" content={isEn ? 'Performance marketing and growth consulting: Google Ads, Meta Ads, CRO and marketing automation for measurable ROI and sustainable customer acquisition growth.' : 'Performans pazarlama ve growth danışmanlığı: Google Ads, Meta Ads, CRO ve marketing automation ile ölçülebilir ROI ve sürdürülebilir müşteri büyümesi sağlayın.'} />
+        <title>{isEn ? 'Performance Marketing & Growth Consulting' : 'Performans Pazarlama ve Growth Danışmanlığı'}</title>
+        <meta name="description" content={isEn ? 'Performance marketing and growth consulting across Google Ads, Meta Ads, CRO and marketing automation for measurable ROI and steady customer growth.' : 'Google Ads, Meta Ads, CRO ve marketing automation ile performans pazarlama danışmanlığı. Ölçülebilir ROI ve sürdürülebilir müşteri büyümesi sağlayın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/performance-growth' : 'https://fatihemincakiroglu.com/performans'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqlar.map(f=>({ "@type":"Question","name":f.s,"acceptedAnswer":{"@type":"Answer","text":f.c} }))}) }} />
       </Head>

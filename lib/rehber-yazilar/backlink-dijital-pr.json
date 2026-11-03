@@ -2,10 +2,10 @@
  "kategori": "Strateji",
  "baslik_tr": "Backlink ve Dijital PR Rehberi: Kaliteli Link Kazanmak, Riskleri Yönetmek",
  "baslik_en": "Backlink and Digital PR Guide: Earning Quality Links and Managing Risk",
- "meta_baslik_tr": "Backlink ve Dijital PR Rehberi | Link Kazanma",
- "meta_baslik_en": "Backlink and Digital PR Guide | Earning Links",
- "meta_desc_tr": "Backlink kalitesi, dijital PR ve link kazanma yöntemleri; Google link spam politikaları, rel nitelikleri, disavow ve marka bahsinin GEO'daki rolü.",
- "meta_desc_en": "Backlink quality, digital PR and link earning tactics; Google's link spam policies, rel attributes, disavow and the role of brand mentions in GEO.",
+ "meta_baslik_tr": "Backlink ve Dijital PR ile Link Kazanma",
+ "meta_baslik_en": "Backlinks and Digital PR for Link Earning",
+ "meta_desc_tr": "Backlink kalitesi, dijital PR ve link kazanma yöntemlerini öğrenin. Link spam politikaları, rel nitelikleri, disavow ve marka bahsinin GEO'daki rolü.",
+ "meta_desc_en": "Learn backlink quality, digital PR and link earning tactics, plus Google's link spam policies, rel attributes, disavow and brand mentions in GEO.",
  "ozet_tr": "Kaliteli backlink nasıl kazanılır, dijital PR nasıl yürütülür ve Google'ın link spam politikalarına nasıl uyulur?",
  "ozet_en": "How to earn quality backlinks, run digital PR and stay within Google's link spam policies.",
  "bolumler_tr": [
@@ -59,7 +59,7 @@
       ]
      }
     },
-    "Link, teknik olarak sağlıklı ve faydalı bir sayfaya gitmeli; bu yüzden backlink çalışmasından önce [teknik SEO denetimi](/rehber/teknik-seo) ve net bir [içerik stratejisi](/rehber/icerik-stratejisi) gerekir."
+    "Link, teknik olarak sağlıklı ve faydalı bir sayfaya gitmeli; bu yüzden backlink çalışmasından önce [teknik SEO denetimi](/teknik-seo) ve net bir [içerik stratejisi](/icerik-stratejisi) gerekir."
    ]
   },
   {
@@ -67,7 +67,7 @@
    "paragraflar": [
     "Dijital PR, markanızı haber değeri taşıyan bir hikâye, veri ya da uzman görüşüyle gazetecilerin, editörlerin ve sektör yayınlarının gündemine sokma işidir. Hedef doğrudan \"link almak\" değil, yayımlanmaya değer bir şey sunmaktır; link çoğu zaman bunun doğal sonucu olarak gelir.",
     "Klasik link kurulumunda pazarlık konusu linkin kendisidir; dijital PR'da ise içeriktir ve editör, okuyucusuna faydalı olduğu için kaynak gösterir. Bu fark hem Google'ın politikaları hem de itibar açısından önemlidir. Bazı yayınlar markayı link vermeden anar; bu da bilinirlik ve güven üretir, GEO tarafında da işe yarayabilir.",
-    "Türkiye'de ulusal haber sitelerinin yanında sektör portallarını, meslek örgütlerini, üniversiteleri ve yerel basını da listeye koyun. Yerel işletmeler için yerel haber siteleri, [yerel SEO stratejisi](/rehber/yerel-seo) ile birlikte iyi çalışır."
+    "Türkiye'de ulusal haber sitelerinin yanında sektör portallarını, meslek örgütlerini, üniversiteleri ve yerel basını da listeye koyun. Yerel işletmeler için yerel haber siteleri, [yerel SEO stratejisi](/yerel-seo) ile birlikte iyi çalışır."
    ]
   },
   {
@@ -84,7 +84,7 @@
       "İş ortaklıkları ve etkinlikler: konuşmalar, sponsorluklar, ortak projeler; ücretli sponsorluk linkleri rel=\"sponsored\" ile işaretlenmeli."
      ]
     },
-    "Eski URL'lere giden linkleri korumak [site taşıma SEO](/rehber/site-tasima-seo) sürecinde kritiktir; [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) ise hangi kaynak içeriği üreteceğinize karar vermenizi kolaylaştırır."
+    "Eski URL'lere giden linkleri korumak [site taşıma SEO](/site-tasima-seo) sürecinde kritiktir; [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) ise hangi kaynak içeriği üreteceğinize karar vermenizi kolaylaştırır."
    ]
   },
   {
@@ -148,7 +148,7 @@
    "baslik": "Marka bahsi ve GEO: backlink yapay zekâ cevaplarını nasıl etkiler?",
    "paragraflar": [
     "Google AI Overviews, ChatGPT, Gemini, Perplexity ve Copilot gibi asistanlar cevap üretirken web kaynaklarını alıntılayabiliyor. Kaynak seçiminin kamuya açık bir formülü yok; dolayısıyla \"şu kadar bahis, şu kadar görünürlük\" demek doğru olmaz.",
-    "Yine de mantık şunu söylüyor: Bir marka, güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda bir cevap üreten sistemin markayı tanıma ve anma ihtimali artabilir. Bu yüzden dijital PR'ın ürettiği linksiz marka bahislerini de değerli görüyorum. Bu yaklaşımın ayrıntılarını [GEO uygulama rehberi](/rehber/geo-uygulama) ve [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) yazısında anlatıyorum; terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) iyi bir başlangıç noktası."
+    "Yine de mantık şunu söylüyor: Bir marka, güvenilir ve bağımsız kaynaklarda belirli bir konuyla birlikte tutarlı biçimde anılıyorsa, o konuda bir cevap üreten sistemin markayı tanıma ve anma ihtimali artabilir. Bu yüzden dijital PR'ın ürettiği linksiz marka bahislerini de değerli görüyorum. Bu yaklaşımın ayrıntılarını [GEO uygulama rehberi](/geo-uygulama) ve [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında anlatıyorum; terimlere yabancıysanız [yapay zekâ sözlüğü](/ai-sozluk) iyi bir başlangıç noktası."
    ]
   },
   {
@@ -164,7 +164,7 @@
       "Marka adıyla yapılan aramalar ve yapay zekâ cevaplarındaki marka anılmaları zaman içinde değişiyor mu?"
      ]
     },
-    "Bu verileri düzenli bir rapora bağlamak için [SEO raporlama rehberi](/rehber/seo-raporlama) yol gösterir. Kendi sitenizin link profilini değerlendirmek ve politikalara uygun bir dijital PR planı kurmak isterseniz [backlink ve dijital PR danışmanlığı](/backlink) sayfasına göz atabilir ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+    "Bu verileri düzenli bir rapora bağlamak için [SEO raporlama rehberi](/seo-raporlama) yol gösterir. Kendi sitenizin link profilini değerlendirmek ve politikalara uygun bir dijital PR planı kurmak isterseniz [backlink ve dijital PR danışmanlığı](/backlink) sayfasına göz atabilir ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -219,7 +219,7 @@
       ]
      }
     },
-    "Links should point to pages that are technically sound and useful, so a [technical SEO audit](/en/guides/teknik-seo) and a clear [content strategy](/en/guides/icerik-stratejisi) should come before link work."
+    "Links should point to pages that are technically sound and useful, so a [technical SEO audit](/en/teknik-seo) and a clear [content strategy](/en/icerik-stratejisi) should come before link work."
    ]
   },
   {
@@ -227,7 +227,7 @@
    "paragraflar": [
     "Digital PR means getting your brand onto the agenda of journalists, editors and trade publications with a newsworthy story, data or expert opinion. The goal is not \"getting a link\" as such but offering something worth publishing; the link usually follows as a natural result.",
     "In traditional link building, the link itself is negotiated; in digital PR, the content is, and an editor cites you because it serves their readers. That difference matters for Google's policies and for reputation. Some outlets mention your brand without linking, which still builds awareness and trust and can help with GEO.",
-    "Whether in Turkey or elsewhere, look beyond national news sites to industry portals, professional associations, universities and local press. For local businesses, local news sites pair well with a [local SEO strategy](/en/guides/yerel-seo)."
+    "Whether in Turkey or elsewhere, look beyond national news sites to industry portals, professional associations, universities and local press. For local businesses, local news sites pair well with a [local SEO strategy](/en/yerel-seo)."
    ]
   },
   {
@@ -244,7 +244,7 @@
       "Partnerships and events: talks, sponsorships, joint projects; mark paid sponsorship links rel=\"sponsored\"."
      ]
     },
-    "Keeping links to old URLs is critical during a [site migration SEO](/en/guides/site-tasima-seo) project, and [keyword research](/en/guides/anahtar-kelime-arastirmasi) helps you decide which reference asset to build."
+    "Keeping links to old URLs is critical during a [site migration SEO](/en/site-tasima-seo) project, and [keyword research](/en/anahtar-kelime-arastirmasi) helps you decide which reference asset to build."
    ]
   },
   {
@@ -308,7 +308,7 @@
    "baslik": "Brand mentions and GEO: how do backlinks affect AI answers?",
    "paragraflar": [
     "Assistants such as Google AI Overviews, ChatGPT, Gemini, Perplexity and Copilot can cite web sources when they generate answers. How they choose sources has no public formula, so claiming \"this many mentions, this much visibility\" would be wrong.",
-    "The reasoning still holds, though: if a brand is mentioned consistently alongside a topic in trustworthy, independent sources, a system answering a question on that topic may be more likely to recognize and mention it. That is why I also value the unlinked brand mentions digital PR produces. I cover this approach in more detail in the [GEO implementation guide](/en/guides/geo-uygulama) and the article on [brand visibility in ChatGPT](/en/blog/chatgpt-marka-gorunurlugu); if the terms are new to you, the [AI glossary](/en/ai-glossary) is a good starting point."
+    "The reasoning still holds, though: if a brand is mentioned consistently alongside a topic in trustworthy, independent sources, a system answering a question on that topic may be more likely to recognize and mention it. That is why I also value the unlinked brand mentions digital PR produces. I cover this approach in more detail in the [GEO implementation guide](/en/geo-uygulama) and the article on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu); if the terms are new to you, the [AI glossary](/en/ai-glossary) is a good starting point."
    ]
   },
   {
@@ -324,7 +324,7 @@
       "Are branded searches and brand mentions in AI answers changing over time?"
      ]
     },
-    "The [SEO reporting guide](/en/guides/seo-raporlama) shows how to report on this regularly. For a link profile review and a policy-compliant digital PR plan, see the [backlink and digital PR consulting](/en/backlink-digital-pr) page or [book a free intro call](/en/book-a-call)."
+    "The [SEO reporting guide](/en/seo-raporlama) shows how to report on this regularly. For a link profile review and a policy-compliant digital PR plan, see the [backlink and digital PR consulting](/en/backlink-digital-pr) page or [book a free intro call](/en/book-a-call)."
    ]
   }
  ],

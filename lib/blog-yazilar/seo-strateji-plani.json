@@ -4,10 +4,10 @@
  "sure": 9,
  "baslik_tr": "12 Aylık SEO Strateji Planı: Ay Ay Yol Haritası",
  "baslik_en": "A 12-Month SEO Strategy Plan: A Month-by-Month Roadmap",
- "meta_baslik_tr": "12 Aylık SEO Strateji Planı: Ay Ay Yol Haritası",
- "meta_baslik_en": "12-Month SEO Strategy Plan: Monthly Roadmap",
- "meta_desc_tr": "Denetimden ölçeklendirmeye çeyrek çeyrek 12 aylık SEO yol haritası: her dönemin işleri, etki-efor öncelik matrisi ve haftalık-aylık raporlama ritmi.",
- "meta_desc_en": "A quarter-by-quarter 12-month SEO roadmap from audit to scale: the work in each period, an impact-effort priority matrix and a reporting rhythm.",
+ "meta_baslik_tr": "12 Aylık SEO Strateji Planı ve Yol Haritası",
+ "meta_baslik_en": "12-Month SEO Strategy Plan and Roadmap",
+ "meta_desc_tr": "Denetimden ölçeklendirmeye çeyrek çeyrek SEO yol haritası, her dönemin işleri, etki-efor öncelik matrisi ve rapor ritmi. Planınızı buna göre kurun.",
+ "meta_desc_en": "A quarter-by-quarter SEO roadmap from audit to scale, with the work for each period, an impact-effort priority matrix and a steady reporting rhythm.",
  "ozet_tr": "Bir yıllık SEO çalışmasını çeyreklere bölen, önceliklendiren ve raporlama ritmine bağlayan yol haritası.",
  "ozet_en": "A roadmap that splits a year of SEO into quarters, sets priorities and ties the work to a reporting rhythm.",
  "bolumler_tr": [
@@ -54,7 +54,7 @@
    "baslik": "1. çeyrek (1-3. ay): Denetim, ölçüm ve hızlı düzeltmeler",
    "paragraflar": [
     "İlk ay ölçüm kurulmadan başka bir işe geçmeyin: Search Console doğrulaması, GA4'te anahtar etkinlikler ve taban dönem verisi. Bu taban olmadan yıl sonunda neyin işe yaradığını gösteremezsiniz.",
-    "Ardından teknik denetim gelir. [Teknik SEO rehberindeki](/rehber/teknik-seo) başlıklar bir kontrol listesi olarak kullanılabilir; önce tarama ve dizine eklemeyi engelleyen hatalar, sonra şablon düzeyindeki sorunlar düzeltilir. Son olarak hedef kitle, anahtar kelime kümeleri ve [arama sonuçlarındaki rakip analizi](/blog/rakip-analizi-seo) ile ikinci çeyreğin içerik listesi çıkarılır.",
+    "Ardından teknik denetim gelir. [Teknik SEO rehberindeki](/teknik-seo) başlıklar bir kontrol listesi olarak kullanılabilir; önce tarama ve dizine eklemeyi engelleyen hatalar, sonra şablon düzeyindeki sorunlar düzeltilir. Son olarak hedef kitle, anahtar kelime kümeleri ve [arama sonuçlarındaki rakip analizi](/rakip-analizi-seo) ile ikinci çeyreğin içerik listesi çıkarılır.",
     {
      "kutu": {
       "tur": "ipucu",
@@ -67,22 +67,22 @@
   {
    "baslik": "2. çeyrek (4-6. ay): İçerik mimarisi ve öncelikli sayfalar",
    "paragraflar": [
-    "Bu çeyrekte dönüşüm getiren sayfalar önceliklidir: hizmet, kategori ve ürün sayfaları. Blog içeriği bu sayfaları destekleyen konu kümeleri olarak planlanır; her yazı ilgili ticari sayfaya bağlanır. Kümeleme yaklaşımını [konu otoritesi ve pillar-cluster modeli](/blog/topical-authority) yazısında ayrıntılı anlattım.",
-    "Yayın hızını ekibin kapasitesine göre belirleyin. Az ama her biri arama niyetine tam cevap veren sayfa, çok sayıda ince sayfadan daha sağlıklıdır. İçerik brifinden yayın akışına kadar süreç için [içerik stratejisi rehberi](/rehber/icerik-stratejisi) bir şablon sunar; üretim desteğine ihtiyacınız varsa [içerik hizmeti](/icerik) sayfasına bakabilirsiniz."
+    "Bu çeyrekte dönüşüm getiren sayfalar önceliklidir: hizmet, kategori ve ürün sayfaları. Blog içeriği bu sayfaları destekleyen konu kümeleri olarak planlanır; her yazı ilgili ticari sayfaya bağlanır. Kümeleme yaklaşımını [konu otoritesi ve pillar-cluster modeli](/topical-authority) yazısında ayrıntılı anlattım.",
+    "Yayın hızını ekibin kapasitesine göre belirleyin. Az ama her biri arama niyetine tam cevap veren sayfa, çok sayıda ince sayfadan daha sağlıklıdır. İçerik brifinden yayın akışına kadar süreç için [içerik stratejisi rehberi](/icerik-stratejisi) bir şablon sunar; üretim desteğine ihtiyacınız varsa [içerik hizmeti](/icerik) sayfasına bakabilirsiniz."
    ]
   },
   {
    "baslik": "3. çeyrek (7-9. ay): Otorite, dijital PR ve GEO",
    "paragraflar": [
-    "Sağlam sayfalar olmadan link kazanmak verimsizdir; bu yüzden otorite çalışması üçüncü çeyreğe kalır. Odak, sektör yayınlarında haber değeri taşıyan içerik, özgün veri ve uzman görüşüyle doğal bağlantı ve marka bahsi kazanmaktır. Yöntemleri [backlink ve dijital PR rehberinde](/rehber/backlink-dijital-pr) bulabilirsiniz.",
-    "Aynı dönemde yapay zekâ asistanlarında görünürlük de ölçülmeye başlanır: belirli soru setlerinde markanızın anılıp anılmadığı ve hangi sayfaların kaynak gösterildiği. Uygulama adımları [GEO uygulama rehberinde](/rehber/geo-uygulama) yer alıyor."
+    "Sağlam sayfalar olmadan link kazanmak verimsizdir; bu yüzden otorite çalışması üçüncü çeyreğe kalır. Odak, sektör yayınlarında haber değeri taşıyan içerik, özgün veri ve uzman görüşüyle doğal bağlantı ve marka bahsi kazanmaktır. Yöntemleri [backlink ve dijital PR rehberinde](/backlink-dijital-pr) bulabilirsiniz.",
+    "Aynı dönemde yapay zekâ asistanlarında görünürlük de ölçülmeye başlanır: belirli soru setlerinde markanızın anılıp anılmadığı ve hangi sayfaların kaynak gösterildiği. Uygulama adımları [GEO uygulama rehberinde](/geo-uygulama) yer alıyor."
    ]
   },
   {
    "baslik": "4. çeyrek (10-12. ay): Budama, ölçeklendirme ve yeni plan",
    "paragraflar": [
-    "Son çeyrekte yılın verisi elinizdedir. Trafik ve dönüşüm getirmeyen sayfalar güncellenir, birleştirilir ya da kaldırılır; karar yöntemini [content pruning](/blog/content-pruning) yazısında anlattım. İşe yarayan sayfa kalıpları (şablon, içerik yapısı, iç link düzeni) yeni sayfalara çoğaltılır.",
-    "Yıl sonu değerlendirmesinde Google güncellemelerinin etkisini ayrı not edin; dönem içinde bir çekirdek güncelleme olduysa [çekirdek güncelleme sonrası trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu) yazısındaki analiz adımları işinize yarar. Bu değerlendirme yeni yılın 1. çeyreğine girdi olur."
+    "Son çeyrekte yılın verisi elinizdedir. Trafik ve dönüşüm getirmeyen sayfalar güncellenir, birleştirilir ya da kaldırılır; karar yöntemini [content pruning](/content-pruning) yazısında anlattım. İşe yarayan sayfa kalıpları (şablon, içerik yapısı, iç link düzeni) yeni sayfalara çoğaltılır.",
+    "Yıl sonu değerlendirmesinde Google güncellemelerinin etkisini ayrı not edin; dönem içinde bir çekirdek güncelleme olduysa [çekirdek güncelleme sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yazısındaki analiz adımları işinize yarar. Bu değerlendirme yeni yılın 1. çeyreğine girdi olur."
    ]
   },
   {
@@ -172,7 +172,7 @@
       "Çeyreklik: hedeflerle karşılaştırma, tamamlanan ve ertelenen işler, sonraki çeyreğin önceliği."
      ]
     },
-    "Hangi KPI'ları nasıl raporlayacağınızı [SEO raporlama rehberinde](/rehber/seo-raporlama) anlattım. Bu planı kendi sitenize uyarlamak isterseniz [SEO uzmanı](/seo-uzmani) olarak ilk denetimden başlayarak birlikte kurabiliriz; uygun bir zaman için [randevu](/randevu) alabilirsiniz."
+    "Hangi KPI'ları nasıl raporlayacağınızı [SEO raporlama rehberinde](/seo-raporlama) anlattım. Bu planı kendi sitenize uyarlamak isterseniz [SEO uzmanı](/seo-uzmani) olarak ilk denetimden başlayarak birlikte kurabiliriz; uygun bir zaman için [randevu](/randevu) alabilirsiniz."
    ]
   }
  ],
@@ -220,7 +220,7 @@
    "baslik": "Q1 (months 1-3): Audit, measurement and quick fixes",
    "paragraflar": [
     "Do not move on in month one until measurement is in place: Search Console verification, key events in GA4 and baseline data. Without that baseline you cannot show what worked at year end.",
-    "The technical audit comes next. The topics in the [technical SEO guide](/en/guides/teknik-seo) work as a checklist: first errors that block crawling and indexing, then template-level issues. Finally, audience research, keyword clusters and [search competitor analysis](/en/blog/rakip-analizi-seo) produce the content list for Q2.",
+    "The technical audit comes next. The topics in the [technical SEO guide](/en/teknik-seo) work as a checklist: first errors that block crawling and indexing, then template-level issues. Finally, audience research, keyword clusters and [search competitor analysis](/en/rakip-analizi-seo) produce the content list for Q2.",
     {
      "kutu": {
       "tur": "ipucu",
@@ -233,22 +233,22 @@
   {
    "baslik": "Q2 (months 4-6): Content architecture and priority pages",
    "paragraflar": [
-    "Pages that drive conversions come first this quarter: service, category and product pages. Blog content is planned as topic clusters supporting them, with each post linking to the relevant commercial page. I explain clustering in [topical authority and the pillar-cluster model](/en/blog/topical-authority).",
-    "Set the publishing pace by team capacity. Fewer pages that fully answer search intent beat many thin ones. The [content strategy guide](/en/guides/icerik-stratejisi) provides a template from brief to publication; if you need production support, see [content strategy services](/en/content-strategy)."
+    "Pages that drive conversions come first this quarter: service, category and product pages. Blog content is planned as topic clusters supporting them, with each post linking to the relevant commercial page. I explain clustering in [topical authority and the pillar-cluster model](/en/topical-authority).",
+    "Set the publishing pace by team capacity. Fewer pages that fully answer search intent beat many thin ones. The [content strategy guide](/en/icerik-stratejisi) provides a template from brief to publication; if you need production support, see [content strategy services](/en/content-strategy)."
    ]
   },
   {
    "baslik": "Q3 (months 7-9): Authority, digital PR and GEO",
    "paragraflar": [
-    "Earning links without solid pages is inefficient, which is why authority work waits until Q3. The focus is on earning natural links and brand mentions in industry publications through newsworthy content, original data and expert commentary. Methods are in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr).",
-    "In the same period, start measuring visibility in AI assistants: whether your brand is mentioned for a defined question set and which pages are cited. The steps are in the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "Earning links without solid pages is inefficient, which is why authority work waits until Q3. The focus is on earning natural links and brand mentions in industry publications through newsworthy content, original data and expert commentary. Methods are in the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    "In the same period, start measuring visibility in AI assistants: whether your brand is mentioned for a defined question set and which pages are cited. The steps are in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
    "baslik": "Q4 (months 10-12): Pruning, scaling and the next plan",
    "paragraflar": [
-    "By the last quarter you have a year of data. Pages that bring neither traffic nor conversions are updated, merged or removed; I describe the decision process in [content pruning](/en/blog/content-pruning). Page patterns that work (templates, content structure, internal linking) are replicated on new pages.",
-    "In the year-end review, log the effect of Google updates separately; if a core update landed during the period, the steps in [traffic drops after a core update](/en/blog/cekirdek-guncelleme-trafik-dususu) help. This review becomes the input for next year's Q1."
+    "By the last quarter you have a year of data. Pages that bring neither traffic nor conversions are updated, merged or removed; I describe the decision process in [content pruning](/en/content-pruning). Page patterns that work (templates, content structure, internal linking) are replicated on new pages.",
+    "In the year-end review, log the effect of Google updates separately; if a core update landed during the period, the steps in [traffic drops after a core update](/en/cekirdek-guncelleme-trafik-dususu) help. This review becomes the input for next year's Q1."
    ]
   },
   {
@@ -338,7 +338,7 @@
       "Quarterly: comparison with goals, completed and deferred work, next quarter's priorities."
      ]
     },
-    "I cover which KPIs to report and how in the [SEO reporting guide](/en/guides/seo-raporlama). If you want to adapt this plan to your site, we can build it together through [SEO consulting](/en/seo-consulting), starting with an initial audit; [book a call](/en/book-a-call) at a time that suits you."
+    "I cover which KPIs to report and how in the [SEO reporting guide](/en/seo-raporlama). If you want to adapt this plan to your site, we can build it together through [SEO consulting](/en/seo-consulting), starting with an initial audit; [book a call](/en/book-a-call) at a time that suits you."
    ]
   }
  ],
@@ -357,7 +357,7 @@
   },
   {
    "s": "Site yenileme veya taşıma planın neresine yerleşir?",
-   "c": "Taşıma kendi başına bir projedir ve öncesinde URL eşleme, sonrasında yakın izleme gerektirir. Mümkünse 1. çeyrekteki denetimden sonra, içerik yayınının yoğun olmadığı bir döneme koyun; ayrıntılar [site taşıma rehberinde](/rehber/site-tasima-seo) yer alıyor."
+   "c": "Taşıma kendi başına bir projedir ve öncesinde URL eşleme, sonrasında yakın izleme gerektirir. Mümkünse 1. çeyrekteki denetimden sonra, içerik yayınının yoğun olmadığı bir döneme koyun; ayrıntılar [site taşıma rehberinde](/site-tasima-seo) yer alıyor."
   },
   {
    "s": "SEO planını kim yönetmeli: iç ekip mi, dış danışman mı?",
@@ -379,7 +379,7 @@
   },
   {
    "s": "Where does a redesign or migration fit in the plan?",
-   "c": "A migration is a project of its own, with URL mapping beforehand and close monitoring afterwards. Ideally schedule it after the Q1 audit, in a period with little content publishing; details are in the [site migration guide](/en/guides/site-tasima-seo)."
+   "c": "A migration is a project of its own, with URL mapping beforehand and close monitoring afterwards. Ideally schedule it after the Q1 audit, in a period with little content publishing; details are in the [site migration guide](/en/site-tasima-seo)."
   },
   {
    "s": "Who should own the SEO plan: in-house team or external consultant?",

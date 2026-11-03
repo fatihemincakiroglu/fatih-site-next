@@ -4,7 +4,7 @@ import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { semaUret, uyarilar, jsonLdMetni, ISLETME_TURLERI, GUNLER } from '../../lib/schema-uretici'
 
 // Schema (JSON-LD) oluşturucu — tamamen tarayıcıda çalışır, veri sunucuya gitmez.
-// TR: /araclar/schema-olusturucu   EN: /en/tools/schema-generator
+// TR: /schema-olusturucu   EN: /en/schema-generator
 
 const TURLER = [
   { id: 'LocalBusiness', tr: 'Yerel İşletme', en: 'Local Business' },
@@ -55,9 +55,9 @@ export default function SchemaOlusturucu(props) {
   const icerik = {
     tr: {
       baslik: 'Schema Oluşturucu (JSON-LD)',
-      metaBaslik: 'Schema Oluşturucu: Ücretsiz JSON-LD Aracı | Fatih Emin Çakıroğlu',
-      metaDesc: 'LocalBusiness, Organization, FAQPage ve Article için ücretsiz JSON-LD schema oluşturucu. Bilgileri girin, kodu kopyalayın; veriler tarayıcınızdan çıkmaz.',
-      giris: 'İşletme türünüzü seçin, bilgileri doldurun; araç sitenize ekleyebileceğiniz JSON-LD kodunu anında üretir. Hangi türün ne işe yaradığını [schema ve yapısal veri rehberinde](/rehber/schema-yapisal-veri) anlattım.',
+      metaBaslik: 'JSON-LD Schema Oluşturucu | Ücretsiz SEO Aracı',
+      metaDesc: 'LocalBusiness, Organization, FAQPage ve Article için ücretsiz JSON-LD kodu oluşturun. Bilgileri girip kodu kopyalayın, veriler tarayıcıda kalır.',
+      giris: 'İşletme türünüzü seçin, bilgileri doldurun; araç sitenize ekleyebileceğiniz JSON-LD kodunu anında üretir. Hangi türün ne işe yaradığını [schema ve yapısal veri rehberinde](/schema-yapisal-veri) anlattım.',
       adimlar: [
         'Üstten şema türünü seçin. Fiziksel adresi olan işletmeler için **Yerel İşletme**, marka veya şirket için **Kurum** uygundur.',
         'Bilgileri sitenizde ve Google Business Profile\'da göründüğü şekilde, birebir aynı yazımla girin.',
@@ -66,16 +66,16 @@ export default function SchemaOlusturucu(props) {
       ],
       sss: [
         { s: 'Girdiğim bilgiler bir yere kaydediliyor mu?', c: 'Hayır. Araç tamamen tarayıcınızda çalışır; girdiğiniz bilgiler sunucuya gönderilmez ve kaydedilmez.' },
-        { s: 'Schema eklemek sıralamamı yükseltir mi?', c: 'Yapısal veri tek başına bir sıralama garantisi değildir. Arama motorlarının ve yapay zekâ sistemlerinin içeriğinizi doğru anlamasına yardımcı olur ve bazı türler zengin sonuçlara uygun olabilir. Ayrıntılar için [teknik SEO rehberine](/rehber/teknik-seo) bakın.' },
+        { s: 'Schema eklemek sıralamamı yükseltir mi?', c: 'Yapısal veri tek başına bir sıralama garantisi değildir. Arama motorlarının ve yapay zekâ sistemlerinin içeriğinizi doğru anlamasına yardımcı olur ve bazı türler zengin sonuçlara uygun olabilir. Ayrıntılar için [teknik SEO rehberine](/teknik-seo) bakın.' },
         { s: 'Kodu sitenin neresine eklemeliyim?', c: 'JSON-LD kodu sayfanın <head> veya <body> bölümüne eklenebilir. Yerel işletme ve kurum şeması genellikle ana sayfaya ya da iletişim sayfasına, makale şeması ilgili yazının sayfasına eklenir.' },
-        { s: 'WordPress kullanıyorum, yine de gerekir mi?', c: 'SEO eklentileri temel şemaları otomatik üretir; eksik kalan alanları (çalışma saatleri, sameAs bağlantıları gibi) tamamlamak için bu araçtan yararlanabilirsiniz. Eklenti seçimi için [Yoast mu Rank Math mi](/blog/yoast-mu-rank-math-mi) yazısına göz atın.' },
+        { s: 'WordPress kullanıyorum, yine de gerekir mi?', c: 'SEO eklentileri temel şemaları otomatik üretir; eksik kalan alanları (çalışma saatleri, sameAs bağlantıları gibi) tamamlamak için bu araçtan yararlanabilirsiniz. Eklenti seçimi için [Yoast mu Rank Math mi](/yoast-mu-rank-math-mi) yazısına göz atın.' },
       ],
     },
     en: {
       baslik: 'Schema Generator (JSON-LD)',
-      metaBaslik: 'Schema Generator: Free JSON-LD Tool | Fatih Emin Çakıroğlu',
-      metaDesc: 'Free JSON-LD schema generator for LocalBusiness, Organization, FAQPage and Article. Fill in the fields and copy the code; your data never leaves the browser.',
-      giris: 'Choose your schema type and fill in the details; the tool instantly produces JSON-LD you can add to your site. I explain what each type does in the [schema and structured data guide](/en/guides/schema-yapisal-veri).',
+      metaBaslik: 'JSON-LD Schema Generator | Free SEO Tool',
+      metaDesc: 'Generate free JSON-LD schema for LocalBusiness, Organization, FAQPage and Article. Fill in the fields and copy the code. Data stays in your browser.',
+      giris: 'Choose your schema type and fill in the details; the tool instantly produces JSON-LD you can add to your site. I explain what each type does in the [schema and structured data guide](/en/schema-yapisal-veri).',
       adimlar: [
         'Pick a schema type at the top. **Local Business** suits businesses with a physical address; **Organization** suits a brand or company.',
         'Enter your details exactly as they appear on your website and Google Business Profile.',
@@ -84,15 +84,15 @@ export default function SchemaOlusturucu(props) {
       ],
       sss: [
         { s: 'Is the information I enter stored anywhere?', c: 'No. The tool runs entirely in your browser; nothing you type is sent to a server or saved.' },
-        { s: 'Will adding schema improve my rankings?', c: 'Structured data is not a ranking guarantee on its own. It helps search engines and AI systems understand your content, and some types can be eligible for rich results. See the [technical SEO guide](/en/guides/teknik-seo) for context.' },
+        { s: 'Will adding schema improve my rankings?', c: 'Structured data is not a ranking guarantee on its own. It helps search engines and AI systems understand your content, and some types can be eligible for rich results. See the [technical SEO guide](/en/teknik-seo) for context.' },
         { s: 'Where should I put the code?', c: 'JSON-LD can go in the page <head> or <body>. Local business and organization markup usually goes on the home or contact page; article markup goes on the article itself.' },
-        { s: 'I use WordPress. Do I still need this?', c: 'SEO plugins generate basic schema automatically; you can use this tool to fill gaps such as opening hours or sameAs links. For choosing a plugin, see [Yoast vs Rank Math](/en/blog/yoast-mu-rank-math-mi).' },
+        { s: 'I use WordPress. Do I still need this?', c: 'SEO plugins generate basic schema automatically; you can use this tool to fill gaps such as opening hours or sameAs links. For choosing a plugin, see [Yoast vs Rank Math](/en/yoast-mu-rank-math-mi).' },
       ],
     },
   }[isEn ? 'en' : 'tr']
 
   return (
-    <AracSayfa isEn={isEn} yol="/araclar/schema-olusturucu" yolEn="/en/tools/schema-generator"
+    <AracSayfa isEn={isEn} yol="/schema-olusturucu" yolEn="/en/schema-generator"
       baslik={icerik.baslik} metaBaslik={icerik.metaBaslik} metaDesc={icerik.metaDesc} giris={icerik.giris}
       adimlar={icerik.adimlar} sss={icerik.sss} rehberler={['schema-yapisal-veri', 'yerel-seo', 'teknik-seo']}>
 

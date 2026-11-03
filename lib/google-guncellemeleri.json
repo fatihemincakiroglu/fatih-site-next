@@ -72,8 +72,8 @@
    "bitis": null,
    "ozet_tr": "Google, Search Console'a Google Arama'daki üretken yapay zekâ özelliklerine (AI Overviews ve AI Mode gibi) yönelik ayrı performans raporlarını tanıttı. Böylece site sahipleri bu yüzeylerdeki görünürlüğü genel performans raporundan ayrı izleyebiliyor.",
    "ozet_en": "Google introduced dedicated Search Console performance reports for generative AI features in Google Search, such as AI Overviews and AI Mode. Site owners can now track visibility in these surfaces separately from the overall performance report.",
-   "ne_yapmali_tr": "Rapor hesabınızda görünüyorsa yapay zekâ yüzeylerinde hangi sayfaların göründüğünü düzenli olarak izleyin ve raporlamanıza ekleyin; ayrıntılar için [SEO raporlama rehberi](/rehber/seo-raporlama).",
-   "ne_yapmali_en": "If the report is available in your property, track which pages appear in AI surfaces and add it to your reporting; see the [SEO reporting guide](/en/guides/seo-raporlama).",
+   "ne_yapmali_tr": "Rapor hesabınızda görünüyorsa yapay zekâ yüzeylerinde hangi sayfaların göründüğünü düzenli olarak izleyin ve raporlamanıza ekleyin; ayrıntılar için [SEO raporlama rehberi](/seo-raporlama).",
+   "ne_yapmali_en": "If the report is available in your property, track which pages appear in AI surfaces and add it to your reporting; see the [SEO reporting guide](/en/seo-raporlama).",
    "kaynak": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
   },
   {
@@ -85,8 +85,8 @@
    "bitis": "2026-06-02",
    "ozet_tr": "Google, Mayıs 2026 çekirdek güncellemesini yayınladı ve yayılımın iki haftaya kadar sürebileceğini belirtti. Güncelleme 2 Haziran 2026'da tamamlandı. Çekirdek güncellemeleri, Google'ın sıralama sistemlerinde içeriğin genel kalitesini değerlendirme biçimini etkileyen geniş çaplı değişikliklerdir.",
    "ozet_en": "Google released the May 2026 core update, noting that the rollout could take up to two weeks. It was completed on June 2, 2026. Core updates are broad changes to how Google's ranking systems assess the overall quality of content.",
-   "ne_yapmali_tr": "Yayılım bitmeden sonuç çıkarmayın; ardından etkilenen sayfaları Google'ın faydalı içerik sorularıyla değerlendirin. Adım adım yol haritası: [Çekirdek güncellemesinde trafik düşüşü](/blog/cekirdek-guncelleme-trafik-dususu).",
-   "ne_yapmali_en": "Don't draw conclusions before the rollout ends; then assess affected pages against Google's helpful content questions. Step-by-step plan: [Core update traffic drop](/en/blog/cekirdek-guncelleme-trafik-dususu).",
+   "ne_yapmali_tr": "Yayılım bitmeden sonuç çıkarmayın; ardından etkilenen sayfaları Google'ın faydalı içerik sorularıyla değerlendirin. Adım adım yol haritası: [Çekirdek güncellemesinde trafik düşüşü](/cekirdek-guncelleme-trafik-dususu).",
+   "ne_yapmali_en": "Don't draw conclusions before the rollout ends; then assess affected pages against Google's helpful content questions. Step-by-step plan: [Core update traffic drop](/en/cekirdek-guncelleme-trafik-dususu).",
    "kaynak": "https://status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE"
   },
   {
@@ -98,8 +98,8 @@
    "bitis": null,
    "ozet_tr": "Google, I/O 2026'da arama kutusunun 25 yılı aşkın sürede aldığı en büyük güncelleme olarak tanımladığı, metin, görsel, dosya ve Chrome sekmelerini girdi olarak kabul eden yeni arama kutusunu duyurdu; kutu AI Mode'un sunulduğu tüm ülke ve dillerde kademeli olarak açılıyor. Gemini 3.5 Flash, AI Mode'un küresel varsayılan modeli oldu ve AI Overviews'dan doğrudan takip sorusu sorup AI Mode'a geçmek dünya genelinde kullanıma girdi.",
    "ozet_en": "At I/O 2026 Google announced what it called the biggest upgrade to the Search box in over 25 years, accepting text, images, files and Chrome tabs as input; it is rolling out in every country and language where AI Mode is available. Gemini 3.5 Flash became the default model in AI Mode globally, and follow-up questions from AI Overviews into AI Mode went live worldwide.",
-   "ne_yapmali_tr": "Yapay zekâ yanıtlarında kaynak olarak gösterilmek için özgün, net yapılandırılmış ve güvenilir içerik üretmeye odaklanın; uygulama adımları için [GEO uygulama rehberi](/rehber/geo-uygulama).",
-   "ne_yapmali_en": "Focus on original, clearly structured and trustworthy content so you can be cited in AI answers; see the [GEO implementation guide](/en/guides/geo-uygulama).",
+   "ne_yapmali_tr": "Yapay zekâ yanıtlarında kaynak olarak gösterilmek için özgün, net yapılandırılmış ve güvenilir içerik üretmeye odaklanın; uygulama adımları için [GEO uygulama rehberi](/geo-uygulama).",
+   "ne_yapmali_en": "Focus on original, clearly structured and trustworthy content so you can be cited in AI answers; see the [GEO implementation guide](/en/geo-uygulama).",
    "kaynak": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
   },
   {
@@ -124,8 +124,8 @@
    "bitis": null,
    "ozet_tr": "Google, FAQ (sıkça sorulan sorular) zengin sonuç özelliğinin 7 Mayıs 2026'dan itibaren Google Arama'da gösterilmeyeceğini dokümantasyon değişiklik kaydında duyurdu. FAQ zengin sonuç dokümantasyonu 15 Haziran 2026'da tamamen kaldırıldı.",
    "ozet_en": "Google announced in its documentation changelog that the FAQ rich result feature would no longer appear in Google Search from May 7, 2026. The FAQ rich result documentation was removed entirely on June 15, 2026.",
-   "ne_yapmali_tr": "FAQPage işaretlemesinden zengin sonuç beklemeyin; SSS bölümlerini kullanıcıya faydalı oldukları için tutun ve yapısal veri önceliklerinizi [Schema rehberi](/rehber/schema-yapisal-veri) ile yeniden gözden geçirin.",
-   "ne_yapmali_en": "Don't expect rich results from FAQPage markup; keep FAQ sections only where they help users and revisit your structured data priorities with the [Schema guide](/en/guides/schema-yapisal-veri).",
+   "ne_yapmali_tr": "FAQPage işaretlemesinden zengin sonuç beklemeyin; SSS bölümlerini kullanıcıya faydalı oldukları için tutun ve yapısal veri önceliklerinizi [Schema rehberi](/schema-yapisal-veri) ile yeniden gözden geçirin.",
+   "ne_yapmali_en": "Don't expect rich results from FAQPage markup; keep FAQ sections only where they help users and revisit your structured data priorities with the [Schema guide](/en/schema-yapisal-veri).",
    "kaynak": "https://developers.google.com/search/updates"
   },
   {
@@ -176,8 +176,8 @@
    "bitis": null,
    "ozet_tr": "Google Türkiye, Gemini 3 model ailesiyle çalışan AI Modu ve AI Bakışı (AI Overviews) özelliklerinin Türkiye'deki Google Arama'da kullanıma sunulduğunu duyurdu. Özellikler Android ve iOS'ta, Google uygulamasında ve arama sonuçları sayfasında kademeli olarak açılıyor; AI Bakışı yalnızca sistemler üretken yapay zekânın faydalı olacağına karar verdiğinde görünüyor.",
    "ozet_en": "Google Türkiye announced that AI Mode and AI Overviews, powered by the Gemini 3 model family, were launching in Google Search in Türkiye. The features are rolling out gradually on Android and iOS, in the Google app and on the results page, and AI Overviews appear only when Google's systems judge generative AI to be useful for a query.",
-   "ne_yapmali_tr": "Türkçe sorgularınızda AI Bakışı görünen aramaları ve tıklama oranındaki değişimi izleyin; Türkiye'ye özel etkiler için [Google AI Mode Türkiye](/blog/google-ai-mode-turkiye) yazısına bakın.",
-   "ne_yapmali_en": "Track which Turkish queries now show AI Overviews and how click-through rates change; see [Google AI Mode in Türkiye](/en/blog/google-ai-mode-turkiye) for local effects.",
+   "ne_yapmali_tr": "Türkçe sorgularınızda AI Bakışı görünen aramaları ve tıklama oranındaki değişimi izleyin; Türkiye'ye özel etkiler için [Google AI Mode Türkiye](/google-ai-mode-turkiye) yazısına bakın.",
+   "ne_yapmali_en": "Track which Turkish queries now show AI Overviews and how click-through rates change; see [Google AI Mode in Türkiye](/en/google-ai-mode-turkiye) for local effects.",
    "kaynak": "https://blog.google/intl/tr-tr/urun-duyurulari/turkiyede-ai-modu-ve-ai-bakisi-donemi-basliyor/"
   },
   {
@@ -215,8 +215,8 @@
    "bitis": "2025-09-22",
    "ozet_tr": "Google, tüm dünyada ve tüm dillerde geçerli olan Ağustos 2025 spam güncellemesini yayınladı ve yayılımın birkaç hafta sürebileceğini bildirdi. Yayılım 22 Eylül 2025'te tamamlandı.",
    "ozet_en": "Google released the August 2025 spam update, applying globally and to all languages, and said the rollout could take a few weeks. It was completed on September 22, 2025.",
-   "ne_yapmali_tr": "Uzun süren bu yayılımda değişimleri haftalık izleyin; spam politikalarına aykırı içerik veya bağlantı varsa temizleyin. Bağlantı edinme yaklaşımı için [Backlink ve dijital PR rehberi](/rehber/backlink-dijital-pr).",
-   "ne_yapmali_en": "During this long rollout, monitor changes weekly and remove content or links that breach spam policies. For link building, see the [Backlinks and digital PR guide](/en/guides/backlink-dijital-pr).",
+   "ne_yapmali_tr": "Uzun süren bu yayılımda değişimleri haftalık izleyin; spam politikalarına aykırı içerik veya bağlantı varsa temizleyin. Bağlantı edinme yaklaşımı için [Backlink ve dijital PR rehberi](/backlink-dijital-pr).",
+   "ne_yapmali_en": "During this long rollout, monitor changes weekly and remove content or links that breach spam policies. For link building, see the [Backlinks and digital PR guide](/en/backlink-dijital-pr).",
    "kaynak": "https://status.search.google.com/incidents/a7Aainy6E9rZsmfq82xt"
   },
   {
@@ -228,8 +228,8 @@
    "bitis": "2025-07-17",
    "ozet_tr": "Google, Haziran 2025 çekirdek güncellemesini yayınladı ve yayılımın üç haftaya kadar sürebileceğini belirtti. Güncelleme 17 Temmuz 2025'te tamamlandı.",
    "ozet_en": "Google released the June 2025 core update and said the rollout could take up to three weeks. It was completed on July 17, 2025.",
-   "ne_yapmali_tr": "Etkilenen sayfaların arama niyetini gerçekten karşılayıp karşılamadığını ve içeriğin özgün bilgi sunup sunmadığını değerlendirin; içerik planlaması için [İçerik stratejisi rehberi](/rehber/icerik-stratejisi).",
-   "ne_yapmali_en": "Assess whether affected pages truly satisfy search intent and offer original information; for planning, see the [Content strategy guide](/en/guides/icerik-stratejisi).",
+   "ne_yapmali_tr": "Etkilenen sayfaların arama niyetini gerçekten karşılayıp karşılamadığını ve içeriğin özgün bilgi sunup sunmadığını değerlendirin; içerik planlaması için [İçerik stratejisi rehberi](/icerik-stratejisi).",
+   "ne_yapmali_en": "Assess whether affected pages truly satisfy search intent and offer original information; for planning, see the [Content strategy guide](/en/icerik-stratejisi).",
    "kaynak": "https://status.search.google.com/incidents/riq1AuqETW46NfBCe5NT"
   },
   {
@@ -267,8 +267,8 @@
    "bitis": null,
    "ozet_tr": "Google, AI Overviews'un yeteneklerini daha gelişmiş akıl yürütme ve çok modlu özelliklerle genişleten AI Mode'u Labs'te erken bir deney olarak tanıttı. Gemini 2.0'ın özel bir sürümünü kullanan AI Mode, birden çok ilgili aramayı aynı anda yapıp sonuçları tek yanıtta birleştiriyor; ilk davetler Google One AI Premium abonelerine gönderildi.",
    "ozet_en": "Google introduced AI Mode as an early experiment in Labs, expanding on AI Overviews with more advanced reasoning and multimodal capabilities. Using a custom version of Gemini 2.0, it runs several related searches at once and combines the results into one answer; Google One AI Premium subscribers were invited first.",
-   "ne_yapmali_tr": "Kullanıcıların uzun ve çok adımlı sorularına yanıt veren kapsamlı içerikler hazırlayın; yapay zekâ ve arama ilişkisini [GEO uygulama rehberi](/rehber/geo-uygulama) ile planlayın.",
-   "ne_yapmali_en": "Create comprehensive content that answers longer, multi-step questions; plan for AI search with the [GEO implementation guide](/en/guides/geo-uygulama).",
+   "ne_yapmali_tr": "Kullanıcıların uzun ve çok adımlı sorularına yanıt veren kapsamlı içerikler hazırlayın; yapay zekâ ve arama ilişkisini [GEO uygulama rehberi](/geo-uygulama) ile planlayın.",
+   "ne_yapmali_en": "Create comprehensive content that answers longer, multi-step questions; plan for AI search with the [GEO implementation guide](/en/geo-uygulama).",
    "kaynak": "https://blog.google/products-and-platforms/products/search/ai-mode-search/"
   },
   {
@@ -371,8 +371,8 @@
    "bitis": null,
    "ozet_tr": "Interaction to Next Paint (INP), 12 Mart 2024'te resmi olarak Core Web Vitals metriği oldu ve First Input Delay'in (FID) yerini aldı. INP, sayfanın kullanıcı etkileşimlerine genel yanıt verme hızını ölçer; Google iyi bir deneyim için 200 milisaniyenin altını hedeflemeyi önerir.",
    "ozet_en": "Interaction to Next Paint (INP) officially became a Core Web Vital on March 12, 2024, replacing First Input Delay (FID). INP measures how responsive a page is to user interactions overall, and Google recommends aiming for under 200 milliseconds.",
-   "ne_yapmali_tr": "Search Console'daki Core Web Vitals raporunda INP sorunlu URL gruplarını belirleyin ve ağır JavaScript görevlerini azaltın; ayrıntılar için [Core Web Vitals 2025](/blog/core-web-vitals-2025).",
-   "ne_yapmali_en": "Find URL groups with INP issues in the Search Console Core Web Vitals report and cut heavy JavaScript tasks; details in [Core Web Vitals 2025](/en/blog/core-web-vitals-2025).",
+   "ne_yapmali_tr": "Search Console'daki Core Web Vitals raporunda INP sorunlu URL gruplarını belirleyin ve ağır JavaScript görevlerini azaltın; ayrıntılar için [Core Web Vitals 2025](/core-web-vitals-2025).",
+   "ne_yapmali_en": "Find URL groups with INP issues in the Search Console Core Web Vitals report and cut heavy JavaScript tasks; details in [Core Web Vitals 2025](/en/core-web-vitals-2025).",
    "kaynak": "https://web.dev/blog/inp-cwv-march-12"
   },
   {
@@ -397,8 +397,8 @@
    "bitis": null,
    "ozet_tr": "Google üç yeni spam politikası ekledi: otomasyonla, insanla veya ikisinin birleşimiyle sıralama amacıyla toplu içerik üretimini kapsayan ölçeklenmiş içerik kötüye kullanımı; güvenilir sitelerde sıralama gücünden yararlanmak için barındırılan düşük değerli üçüncü taraf içeriği kapsayan site itibarı kötüye kullanımı; düşük kaliteli içeriği öne çıkarmak için satın alınıp yeniden kullanılan alan adlarını kapsayan süresi dolmuş alan adı kötüye kullanımı. Site itibarı politikasının uygulanması 5 Mayıs 2024'te başladı.",
    "ozet_en": "Google added three spam policies: scaled content abuse, covering content produced at scale to manipulate rankings whether by automation, humans or both; site reputation abuse, covering low-value third-party content hosted on reputable sites to exploit their ranking strength; and expired domain abuse, covering expired domains bought and repurposed to boost low-quality content. Enforcement of the site reputation policy began on May 5, 2024.",
-   "ne_yapmali_tr": "Yapay zekâyla veya şablonla toplu sayfa üretiyorsanız her sayfanın kullanıcıya gerçek değer kattığından emin olun; Google'ın yaklaşımı için [Yapay zekâ içerik ve Google politikası](/blog/yapay-zeka-icerik-google-politikasi).",
-   "ne_yapmali_en": "If you generate pages at scale with AI or templates, make sure each one adds real value for users; see [AI content and Google's policy](/en/blog/yapay-zeka-icerik-google-politikasi).",
+   "ne_yapmali_tr": "Yapay zekâyla veya şablonla toplu sayfa üretiyorsanız her sayfanın kullanıcıya gerçek değer kattığından emin olun; Google'ın yaklaşımı için [Yapay zekâ içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi).",
+   "ne_yapmali_en": "If you generate pages at scale with AI or templates, make sure each one adds real value for users; see [AI content and Google's policy](/en/yapay-zeka-icerik-google-politikasi).",
    "kaynak": "https://blog.google/products/search/google-search-update-march-2024/"
   },
   {
@@ -449,8 +449,8 @@
    "bitis": "2023-10-19",
    "ozet_tr": "Google, Ekim 2023 çekirdek güncellemesini yayınladı. İki haftaya kadar sürebileceği belirtilen yayılım 19 Ekim 2023'te tamamlandı.",
    "ozet_en": "Google released the October 2023 core update. The rollout, expected to take up to two weeks, was completed on October 19, 2023.",
-   "ne_yapmali_tr": "Aynı dönemde spam güncellemesi de sürdüğü için etkiyi doğru güncellemeye bağlamak adına günlük verileri karşılaştırın; teknik altyapı için [Teknik SEO rehberi](/rehber/teknik-seo).",
-   "ne_yapmali_en": "A spam update ran at the same time, so compare daily data to attribute the impact correctly; for the technical side, see the [Technical SEO guide](/en/guides/teknik-seo).",
+   "ne_yapmali_tr": "Aynı dönemde spam güncellemesi de sürdüğü için etkiyi doğru güncellemeye bağlamak adına günlük verileri karşılaştırın; teknik altyapı için [Teknik SEO rehberi](/teknik-seo).",
+   "ne_yapmali_en": "A spam update ran at the same time, so compare daily data to attribute the impact correctly; for the technical side, see the [Technical SEO guide](/en/teknik-seo).",
    "kaynak": "https://status.search.google.com/incidents/VKyoS53ULWzSp8BoDxqk"
   },
   {

@@ -61,7 +61,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{isEn ? 'SEO Guides | Fatih Emin Çakıroğlu' : 'SEO Rehberleri | Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'Comprehensive step-by-step guides on technical SEO, GEO, backlink building and content strategy. Actionable tactics to boost your organic search visibility.' : 'Teknik SEO, GEO, backlink inşası ve içerik stratejisi hakkında adım adım kapsamlı rehberler. Uygulanabilir taktiklerle organik görünürlüğünüzü artırın.'} />
+        <meta name="description" content={isEn ? 'Step-by-step guides on technical SEO, GEO, backlink building and content strategy. Actionable tactics to boost your organic search visibility.' : 'Teknik SEO, GEO, backlink inşası ve içerik stratejisi için adım adım rehberler. Uygulanabilir taktiklerle organik görünürlüğünüzü artırın.'} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/guides' : 'https://fatihemincakiroglu.com/rehber'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "CollectionPage", "name": isEn ? "SEO Guides" : "SEO Rehberleri", "url": isEn ? "https://fatihemincakiroglu.com/en/guides" : "https://fatihemincakiroglu.com/rehber", "description": isEn ? "Comprehensive guides on technical SEO, GEO, backlinks and content strategy." : "Teknik SEO, GEO, backlink ve içerik stratejisi hakkında kapsamlı rehberler.", "author": {"@id": "https://fatihemincakiroglu.com/#person"}}) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": "https://fatihemincakiroglu.com"}, {"@type": "ListItem", "position": 2, "name": t.breadcrumbSelf, "item": isEn ? "https://fatihemincakiroglu.com/en/guides" : "https://fatihemincakiroglu.com/rehber"}]}) }} />
@@ -119,7 +119,7 @@ export default function Page(props) {
                 ? (Object.keys(KAT_EN_TO_TR).find(k => KAT_EN_TO_TR[k] === r.kategori) || r.kategori)
                 : r.kategori
               return (
-                <Link key={i} href={isEn ? `/en/guides/${r.slug}` : `/rehber/${r.slug}`} style={{ textDecoration: 'none' }}>
+                <Link key={i} href={isEn ? `/en/${r.slug}` : `/${r.slug}`} style={{ textDecoration: 'none' }}>
                   <div style={{
                     background: '#fff', borderRadius: '14px', padding: '24px',
                     border: '1px solid #eee', transition: 'transform 0.2s, box-shadow 0.2s',

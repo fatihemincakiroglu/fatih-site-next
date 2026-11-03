@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "Google AI Overviews'da Kaynak Olarak Görünmek: Ne Yapılabilir?",
  "baslik_en": "Getting Cited in Google AI Overviews: What You Can Actually Do",
- "meta_baslik_tr": "AI Overviews'da Kaynak Olarak Görünmek: Ne Yapılabilir?",
- "meta_baslik_en": "Getting Cited in Google AI Overviews: What You Can Do",
- "meta_desc_tr": "Google'ın AI özellikleri dokümanına göre AI Bakışı'nda kaynak olmak için ne gerekir, ne gerekmez? Ek işaretleme, kontrol seçenekleri ve Search Console ölçümü.",
- "meta_desc_en": "What Google's AI features documentation says about being cited in AI Overviews: no special markup, what still matters, opt-out controls and measurement.",
+ "meta_baslik_tr": "AI Overviews'da Kaynak Olarak Görünmek",
+ "meta_baslik_en": "Getting Cited in Google AI Overviews",
+ "meta_desc_tr": "Google dokümanına göre AI Bakışı'nda kaynak olmak için ne gerekir, ne gerekmez? Ek işaretleme, kontrol seçenekleri ve Search Console ölçümünü öğrenin.",
+ "meta_desc_en": "What Google's AI features documentation says about being cited in AI Overviews, why no special markup is needed, opt-out controls and measurement.",
  "ozet_tr": "AI Bakışı'nda kaynak bağlantısı olmak için özel bir işaretleme yok; Google'ın resmi dokümanı neyi öne çıkarıyor, ne yapılabilir?",
  "ozet_en": "There is no special markup for AI Overviews citations. What Google's documentation stresses and what you can realistically do.",
  "bolumler_tr": [
@@ -26,7 +26,7 @@
    "paragraflar": [
     "AI Bakışı, klasik sonuçların üstünde yapay zekâ ile oluşturulmuş kısa bir özet ve onu destekleyen bağlantılar gösterir. Google'ın dokümanına göre bu özet her sorguda çıkmaz; sistemler yalnızca klasik aramaya bir katkı sağlayacağına karar verdiğinde tetiklenir.",
     "Dokümanda dikkat çeken bir kavram var: **query fan-out**. AI Bakışı ve AI Modu bir cevap oluştururken alt konular ve veri kaynakları genelinde birden fazla ilişkili arama yapabiliyor. Bu yüzden destekleyici bağlantılar klasik ilk 10 sonuçtan daha geniş ve çeşitli bir kümeden gelebiliyor; ana sorguda ilk sayfada olmayan ama bir alt soruyu iyi yanıtlayan sayfa da kaynak olabilir.",
-    "AI Modu'nun Türkiye'deki kullanımı ve AI Bakışı'ndan farkı için [Google AI Mode Türkiye yazısına](/blog/google-ai-mode-turkiye) bakabilirsiniz; burada yalnızca AI Bakışı'nda kaynak olma tarafına odaklanıyorum."
+    "AI Modu'nun Türkiye'deki kullanımı ve AI Bakışı'ndan farkı için [Google AI Mode Türkiye yazısına](/google-ai-mode-turkiye) bakabilirsiniz; burada yalnızca AI Bakışı'nda kaynak olma tarafına odaklanıyorum."
    ]
   },
   {
@@ -69,7 +69,7 @@
       ]
      }
     },
-    "Dizine eklenme tarafında sorun varsa önce onu çözün; [teknik SEO rehberi](/rehber/teknik-seo) bu temel kontrolleri sırasıyla anlatıyor. Yapısal veri kullanıyorsanız kuralları [schema yapısal veri rehberinde](/rehber/schema-yapisal-veri) bulabilirsiniz."
+    "Dizine eklenme tarafında sorun varsa önce onu çözün; [teknik SEO rehberi](/teknik-seo) bu temel kontrolleri sırasıyla anlatıyor. Yapısal veri kullanıyorsanız kuralları [schema yapısal veri rehberinde](/schema-yapisal-veri) bulabilirsiniz."
    ]
   },
   {
@@ -138,7 +138,7 @@
       }
      }
     },
-    "Bu yaklaşımın içerik planına nasıl yansıdığını [GEO uygulama rehberinde](/rehber/geo-uygulama) ayrıntılı anlattım."
+    "Bu yaklaşımın içerik planına nasıl yansıdığını [GEO uygulama rehberinde](/geo-uygulama) ayrıntılı anlattım."
    ]
   },
   {
@@ -184,7 +184,7 @@
       ]
      }
     },
-    "Yapay zekâ asistanlarından gelen yönlendirmeleri GA4'te ayrı izlemek için [GA4 yapay zekâ trafiği yazısına](/blog/ga4-yapay-zeka-trafigi) bakın. Sitenizin AI Bakışı'ndaki durumunu birlikte değerlendirmek isterseniz [GEO uzmanı](/geo-uzmani) hizmetini inceleyebilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
+    "Yapay zekâ asistanlarından gelen yönlendirmeleri GA4'te ayrı izlemek için [GA4 yapay zekâ trafiği yazısına](/ga4-yapay-zeka-trafigi) bakın. Sitenizin AI Bakışı'ndaki durumunu birlikte değerlendirmek isterseniz [GEO uzmanı](/geo-uzmani) hizmetini inceleyebilir ya da doğrudan [görüşme planlayabilirsiniz](/randevu)."
    ]
   }
  ],
@@ -204,7 +204,7 @@
    "paragraflar": [
     "AI Overviews shows a short AI-generated summary above classic results, along with links that support it. According to Google's documentation, it does not appear for every query; it is triggered only when the systems decide it adds something to classic Search.",
     "One concept in the documentation stands out: **query fan-out**. When building a response, AI Overviews and AI Mode may issue multiple related searches across subtopics and data sources. That is why supporting links can come from a wider, more varied set than the classic top ten; a page that is not on page one for the main query but answers a sub-question well can still be cited.",
-    "For how AI Mode works in Turkey and how it differs from AI Overviews, see the [Google AI Mode in Turkey article](/en/blog/google-ai-mode-turkiye)."
+    "For how AI Mode works in Turkey and how it differs from AI Overviews, see the [Google AI Mode in Turkey article](/en/google-ai-mode-turkiye)."
    ]
   },
   {
@@ -247,7 +247,7 @@
       ]
      }
     },
-    "If indexing is the problem, fix that first; the [technical SEO guide](/en/guides/teknik-seo) covers these baseline checks in order. If you use structured data, the rules are in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+    "If indexing is the problem, fix that first; the [technical SEO guide](/en/teknik-seo) covers these baseline checks in order. If you use structured data, the rules are in the [schema structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
@@ -316,7 +316,7 @@
       }
      }
     },
-    "I explain how this approach feeds into a content plan in the [GEO implementation guide](/en/guides/geo-uygulama)."
+    "I explain how this approach feeds into a content plan in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },
   {
@@ -362,7 +362,7 @@
       ]
      }
     },
-    "To track referrals from AI assistants separately in GA4, see the [GA4 AI traffic article](/en/blog/ga4-yapay-zeka-trafigi). If you want to review your site's position in AI Overviews together, take a look at [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call) directly."
+    "To track referrals from AI assistants separately in GA4, see the [GA4 AI traffic article](/en/ga4-yapay-zeka-trafigi). If you want to review your site's position in AI Overviews together, take a look at [GEO consulting](/en/geo-consulting) or [book a call](/en/book-a-call) directly."
    ]
   }
  ],
@@ -373,7 +373,7 @@
   },
   {
    "s": "llms.txt dosyası AI Bakışı'nda görünmeye yardım eder mi?",
-   "c": "Google'ın dokümanına göre AI özellikleri için yeni makine okunur dosya ya da yapay zekâ metin dosyası gerekmiyor. Dosyanın diğer platformlar açısından anlamını [llms.txt rehberinde](/blog/llms-txt-rehberi) ele aldım."
+   "c": "Google'ın dokümanına göre AI özellikleri için yeni makine okunur dosya ya da yapay zekâ metin dosyası gerekmiyor. Dosyanın diğer platformlar açısından anlamını [llms.txt rehberinde](/llms-txt-rehberi) ele aldım."
   },
   {
    "s": "FAQPage işaretlemesi AI Bakışı'nda avantaj sağlar mı?",
@@ -399,7 +399,7 @@
   },
   {
    "s": "Does an llms.txt file help with AI Overviews?",
-   "c": "According to Google's documentation, no new machine-readable files or AI text files are needed for AI features. I cover what the file means for other platforms in the [llms.txt guide](/en/blog/llms-txt-rehberi)."
+   "c": "According to Google's documentation, no new machine-readable files or AI text files are needed for AI features. I cover what the file means for other platforms in the [llms.txt guide](/en/llms-txt-rehberi)."
   },
   {
    "s": "Does FAQPage markup give an advantage in AI Overviews?",

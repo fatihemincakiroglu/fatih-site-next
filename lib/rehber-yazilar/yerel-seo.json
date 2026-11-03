@@ -2,10 +2,10 @@
  "kategori": "Strateji",
  "baslik_tr": "Yerel SEO Rehberi: Google Haritalar, Yerel Sayfalar, Yorumlar ve NAP Tutarlılığı",
  "baslik_en": "Local SEO Guide: Google Maps, Location Pages, Reviews and NAP Consistency",
- "meta_baslik_tr": "Yerel SEO Rehberi: Haritalar, Yerel Sayfalar ve Yorumlar",
- "meta_baslik_en": "Local SEO Guide: Maps, Location Pages and Reviews",
- "meta_desc_tr": "Yerel SEO nasıl yapılır? Google Haritalar görünürlüğü, yerel açılış sayfaları, NAP tutarlılığı, yorum yönetimi, yerel bağlantılar ve ölçüm rehberi.",
- "meta_desc_en": "How to do local SEO: Google Maps visibility, location landing pages, NAP consistency, review management, local links and measurement in one practical guide.",
+ "meta_baslik_tr": "Yerel SEO Rehberi, Haritalar ve Yorumlar",
+ "meta_baslik_en": "Local SEO Guide to Maps and Reviews",
+ "meta_desc_tr": "Google Haritalar görünürlüğü, yerel açılış sayfaları, NAP tutarlılığı, yorum yönetimi ve yerel bağlantılarla yerel SEO'yu adım adım uygulayın.",
+ "meta_desc_en": "A practical local SEO guide to Google Maps visibility, location landing pages, NAP consistency, review management, local links and measuring results.",
  "ozet_tr": "Haritalarda ve yerel aramalarda görünmek için profilin ötesinde yapılacaklar: yerel sayfalar, NAP, yorumlar, bağlantılar, ölçüm.",
  "ozet_en": "What local visibility needs beyond your business profile: location pages, NAP, reviews, local links and measurement.",
  "bolumler_tr": [
@@ -13,7 +13,7 @@
    "baslik": null,
    "paragraflar": [
     "“Kadıköy diş hekimi”, “yakınımdaki veteriner”, “Şişli muhasebeci” gibi aramalarda müşteri çoğu zaman bir web sitesine değil, doğrudan harita sonuçlarına bakar. Yerel SEO, işletmenizin bu aramalarda hem haritada hem organik sonuçlarda hem de yapay zekâ cevaplarında doğru bilgilerle görünmesini sağlayan çalışmaların toplamıdır.",
-    "Danışmanlık yaptığım yerel işletmelerde en sık gördüğüm durum şu: Google Business Profile iyi kurulmuş, ama web sitesi, dizin kayıtları ve yorumlar bu profili desteklemiyor. Profil optimizasyonunun ayrıntılarını [Google Business Profile optimizasyonu](/blog/google-business-profile) yazımda adım adım anlattım. Bu rehber o yazıyı tamamlıyor: profilin dışında kalan ve yerel görünürlüğü asıl belirleyen parçalara odaklanıyor.",
+    "Danışmanlık yaptığım yerel işletmelerde en sık gördüğüm durum şu: Google Business Profile iyi kurulmuş, ama web sitesi, dizin kayıtları ve yorumlar bu profili desteklemiyor. Profil optimizasyonunun ayrıntılarını [Google Business Profile optimizasyonu](/google-business-profile) yazımda adım adım anlattım. Bu rehber o yazıyı tamamlıyor: profilin dışında kalan ve yerel görünürlüğü asıl belirleyen parçalara odaklanıyor.",
     {
      "alinti": "Kısa cevap: Yerel SEO; eksiksiz bir Google Business Profile, her lokasyon için özgün bilgi taşıyan sayfalar, internetin her yerinde aynı ad-adres-telefon (NAP) bilgisi, düzenli ve gerçek müşteri yorumları ile yerel kaynaklardan gelen bağlantı ve bahislerin birleşimidir. Google yerel sonuçları alaka, mesafe ve öne çıkma faktörlerine göre sıraladığı için mesafe dışındaki iki faktörü güçlendirmek gerekir."
     }
@@ -56,7 +56,7 @@
    "baslik": "Google Business Profile: yerel SEO'nun temeli, ama tamamı değil",
    "paragraflar": [
     "Profil kurulumu, doğrulama, kategori seçimi, fotoğraflar ve askıya alınma riskleri ayrı bir konu; burada tekrar etmeyeceğim. Yerel SEO açısından profille ilgili bilmeniz gereken asıl nokta, profilin tek başına çalışmadığıdır. Google profildeki bilgiyi web sitenizle ve diğer kaynaklarla karşılaştırır; çelişki gördüğünde güven azalır.",
-    "Profilin Soru-Cevap bölümü kaldırıldığı için müşterilerin sorduğu soruların cevaplarını artık profil özelliklerine, hizmet açıklamalarına ve web sitenizdeki SSS içeriklerine yerleştirmeniz gerekiyor. Bu içerikler hem Google'ın yapay zekâ özelliklerine hem de ChatGPT, Gemini veya Perplexity gibi web kaynaklarını alıntılayabilen asistanlara malzeme sağlar. Markanızın bu asistanlarda nasıl anlatıldığını kontrol etmek için [ChatGPT'de marka görünürlüğü](/blog/chatgpt-marka-gorunurlugu) testini uygulayabilirsiniz."
+    "Profilin Soru-Cevap bölümü kaldırıldığı için müşterilerin sorduğu soruların cevaplarını artık profil özelliklerine, hizmet açıklamalarına ve web sitenizdeki SSS içeriklerine yerleştirmeniz gerekiyor. Bu içerikler hem Google'ın yapay zekâ özelliklerine hem de ChatGPT, Gemini veya Perplexity gibi web kaynaklarını alıntılayabilen asistanlara malzeme sağlar. Markanızın bu asistanlarda nasıl anlatıldığını kontrol etmek için [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) testini uygulayabilirsiniz."
    ]
   },
   {
@@ -76,7 +76,7 @@
      ]
     },
     "Kendi sitemde de bu yapıyı kullanıyorum: [Kadıköy SEO uzmanı](/kadikoy-seo-uzmani) ve [Beşiktaş SEO uzmanı](/besiktas-seo-uzmani) sayfaları gibi her ilçe sayfası o bölgeye özgü bilgiyle ayrışmak zorunda. Fiziksel adresiniz olmayan bölgeler için sayfa açacaksanız, orada gerçekten hizmet verdiğinizi gösteren somut içerik (tamamlanan işler, bölgeye özgü koşullar) ekleyin.",
-    "Sayfaların taranabilir, hızlı ve doğru iç linklerle bağlanmış olması da gerekir; bu kısmı [teknik SEO temelleri](/rehber/teknik-seo) rehberinde ayrıntılı ele aldım. Hangi bölge ve hizmet kombinasyonlarına sayfa açacağınıza karar verirken [anahtar kelime araştırması](/rehber/anahtar-kelime-arastirmasi) yaparak gerçek arama talebi olan eşleşmeleri seçin."
+    "Sayfaların taranabilir, hızlı ve doğru iç linklerle bağlanmış olması da gerekir; bu kısmı [teknik SEO temelleri](/teknik-seo) rehberinde ayrıntılı ele aldım. Hangi bölge ve hizmet kombinasyonlarına sayfa açacağınıza karar verirken [anahtar kelime araştırması](/anahtar-kelime-arastirmasi) yaparak gerçek arama talebi olan eşleşmeleri seçin."
    ]
   },
   {
@@ -97,7 +97,7 @@
      ]
     },
     "Yüzlerce düşük kaliteli dizine kayıt açmak yerine, müşterilerinizin gerçekten kullandığı ve bilgileri güncel tutabileceğiniz platformları seçin. Adres yazımında bir standart belirleyin (mahalle, cadde, no, ilçe, il sırası gibi) ve her yerde onu kullanın.",
-    "Web sitenizde işletme bilgilerini schema.org LocalBusiness ya da sektöre uygun alt türüyle işaretlemek, NAP bilgisini makinelerin okuyabileceği biçimde sunar. Hangi özelliklerin kullanılacağı ve @id ile varlıkların nasıl bağlanacağı [schema yapısal veri rehberi](/rehber/schema-yapisal-veri) içinde anlatılıyor."
+    "Web sitenizde işletme bilgilerini schema.org LocalBusiness ya da sektöre uygun alt türüyle işaretlemek, NAP bilgisini makinelerin okuyabileceği biçimde sunar. Hangi özelliklerin kullanılacağı ve @id ile varlıkların nasıl bağlanacağı [schema yapısal veri rehberi](/schema-yapisal-veri) içinde anlatılıyor."
    ]
   },
   {
@@ -126,7 +126,7 @@
       "Bölgeye dair gerçekten faydalı bir rehber ya da kaynak sayfası"
      ]
     },
-    "Bağlantı satın almak veya alakasız sitelerden toplu link almak risklidir. Hangi bağlantıların değer taşıdığını ve dijital PR ile bunların nasıl kazanılacağını [backlink ve dijital PR rehberi](/rehber/backlink-dijital-pr) içinde ayrıntılı anlattım. Bağlantı olmasa bile güvenilir kaynaklarda adınızın geçmesi, yapay zekâ asistanlarının işletmenizi tanımasına katkı sağlar; bu konuyu [GEO uygulama rehberi](/rehber/geo-uygulama) ele alıyor."
+    "Bağlantı satın almak veya alakasız sitelerden toplu link almak risklidir. Hangi bağlantıların değer taşıdığını ve dijital PR ile bunların nasıl kazanılacağını [backlink ve dijital PR rehberi](/backlink-dijital-pr) içinde ayrıntılı anlattım. Bağlantı olmasa bile güvenilir kaynaklarda adınızın geçmesi, yapay zekâ asistanlarının işletmenizi tanımasına katkı sağlar; bu konuyu [GEO uygulama rehberi](/geo-uygulama) ele alıyor."
    ]
   },
   {
@@ -140,7 +140,7 @@
       "**Konuma göre görünürlük:** Hizmet bölgenizin farklı noktalarından sıralamayı harita üzerinde gösteren yerel takip araçlarıyla rakiplere göre durumu görmek."
      ]
     },
-    "Son aşamada asıl iş metriğine bağlayın: telefonla gelen randevu, form, mağaza ziyareti. Raporu nasıl kuracağınızı [SEO raporlama rehberi](/rehber/seo-raporlama) anlatıyor.",
+    "Son aşamada asıl iş metriğine bağlayın: telefonla gelen randevu, form, mağaza ziyareti. Raporu nasıl kuracağınızı [SEO raporlama rehberi](/seo-raporlama) anlatıyor.",
     "Yerel görünürlüğünüzü birlikte değerlendirmek isterseniz kapsamı [SEO uzmanı](/seo-uzmani) sayfamda bulabilir, doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
@@ -150,7 +150,7 @@
    "baslik": null,
    "paragraflar": [
     "When someone searches “dentist near me” or “accountant in Şişli”, they often never reach a website; they decide straight from the map results. Local SEO is the combined work that makes your business appear with accurate information in the map pack, in organic results and in AI-generated answers for those searches.",
-    "The pattern I see most often with local clients: the Google Business Profile is set up well, but the website, directory listings and reviews do not back it up. I covered profile optimization step by step in my [Google Business Profile optimization](/en/blog/google-business-profile) article. This guide complements it and focuses on the pieces outside the profile that actually shape local visibility.",
+    "The pattern I see most often with local clients: the Google Business Profile is set up well, but the website, directory listings and reviews do not back it up. I covered profile optimization step by step in my [Google Business Profile optimization](/en/google-business-profile) article. This guide complements it and focuses on the pieces outside the profile that actually shape local visibility.",
     {
      "alinti": "Short answer: Local SEO combines a complete Google Business Profile, location pages that carry genuinely unique information, the same name, address and phone (NAP) details everywhere online, a steady flow of real customer reviews, and links and mentions from local sources. Google ranks local results by relevance, distance and prominence, so the work goes into strengthening the two factors other than distance."
     }
@@ -193,7 +193,7 @@
    "baslik": "Google Business Profile: the foundation of local SEO, not the whole of it",
    "paragraflar": [
     "Setup, verification, category choice, photos and suspension risks are a separate topic, and I will not repeat them here. The key point for local SEO is that the profile does not work in isolation. Google compares what your profile says with your website and other sources, and contradictions reduce trust.",
-    "Because the profile's Q&A feature has been removed, the answers to questions customers ask now need to live in profile attributes, service descriptions and FAQ content on your website. That content feeds Google's AI features as well as assistants such as ChatGPT, Gemini or Perplexity that can cite web sources. To see how assistants currently describe your business, run the [ChatGPT brand visibility](/en/blog/chatgpt-marka-gorunurlugu) test."
+    "Because the profile's Q&A feature has been removed, the answers to questions customers ask now need to live in profile attributes, service descriptions and FAQ content on your website. That content feeds Google's AI features as well as assistants such as ChatGPT, Gemini or Perplexity that can cite web sources. To see how assistants currently describe your business, run the [ChatGPT brand visibility](/en/chatgpt-marka-gorunurlugu) test."
    ]
   },
   {
@@ -213,7 +213,7 @@
      ]
     },
     "If you create pages for areas where you have no physical address, add concrete evidence that you genuinely serve them, such as completed jobs or local conditions that affect the service.",
-    "The pages also need to be crawlable, fast and well linked internally; I cover that in the [technical SEO fundamentals](/en/guides/teknik-seo) guide. When deciding which area and service combinations deserve a page, use [keyword research](/en/guides/anahtar-kelime-arastirmasi) to pick the ones with real search demand."
+    "The pages also need to be crawlable, fast and well linked internally; I cover that in the [technical SEO fundamentals](/en/teknik-seo) guide. When deciding which area and service combinations deserve a page, use [keyword research](/en/anahtar-kelime-arastirmasi) to pick the ones with real search demand."
    ]
   },
   {
@@ -234,7 +234,7 @@
      ]
     },
     "Rather than opening listings on hundreds of low-quality directories, choose the platforms your customers actually use and that you can keep up to date. Set one address format and use it everywhere.",
-    "Marking up business details on your site with schema.org LocalBusiness, or a more specific subtype, makes NAP machine-readable. The relevant properties and how to connect entities with @id are covered in the [schema structured data guide](/en/guides/schema-yapisal-veri)."
+    "Marking up business details on your site with schema.org LocalBusiness, or a more specific subtype, makes NAP machine-readable. The relevant properties and how to connect entities with @id are covered in the [schema structured data guide](/en/schema-yapisal-veri)."
    ]
   },
   {
@@ -263,7 +263,7 @@
       "A genuinely useful local guide or resource page"
      ]
     },
-    "Buying links or collecting them in bulk from irrelevant sites is risky. I explain which links carry value and how to earn them through digital PR in the [backlink and digital PR guide](/en/guides/backlink-dijital-pr). Even without a link, being named in trusted sources helps AI assistants recognise your business, which the [GEO implementation guide](/en/guides/geo-uygulama) covers."
+    "Buying links or collecting them in bulk from irrelevant sites is risky. I explain which links carry value and how to earn them through digital PR in the [backlink and digital PR guide](/en/backlink-dijital-pr). Even without a link, being named in trusted sources helps AI assistants recognise your business, which the [GEO implementation guide](/en/geo-uygulama) covers."
    ]
   },
   {
@@ -277,7 +277,7 @@
       "**Visibility by location:** local rank tracking tools that plot rankings across points in your service area on a map, compared with competitors."
      ]
     },
-    "Finally, tie it to the business metric that matters: booked calls, form submissions, store visits. The [SEO reporting guide](/en/guides/seo-raporlama) shows how to build that report.",
+    "Finally, tie it to the business metric that matters: booked calls, form submissions, store visits. The [SEO reporting guide](/en/seo-raporlama) shows how to build that report.",
     "If you would like a second pair of eyes on your local visibility, see the scope on my [SEO consulting](/en/seo-consulting) page or [book a free intro call](/en/book-a-call)."
    ]
   }

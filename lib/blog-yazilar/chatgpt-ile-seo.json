@@ -4,10 +4,10 @@
  "sure": 8,
  "baslik_tr": "ChatGPT ve Yapay Zekâ Araçlarıyla SEO Çalışması: Nerede İşe Yarar?",
  "baslik_en": "Doing SEO with ChatGPT and AI Tools: Where They Actually Help",
- "meta_baslik_tr": "ChatGPT ile SEO: Yapay Zekâ Araçları Nerede İşe Yarar?",
- "meta_baslik_en": "SEO with ChatGPT: Where AI Tools Actually Help",
- "meta_desc_tr": "ChatGPT ve benzeri araçlar SEO'da nerede işe yarar? Anahtar kelime kümeleme, içerik brifi, şema ve regex işleri, riskler ve yayın öncesi doğrulama akışı.",
- "meta_desc_en": "Where ChatGPT and similar tools help in SEO: keyword clustering, content briefs, schema and regex tasks, the risks, and a verification flow before publishing.",
+ "meta_baslik_tr": "ChatGPT ile SEO, Yapay Zekâ Nerede İşe Yarar",
+ "meta_baslik_en": "SEO with ChatGPT and Where AI Tools Help",
+ "meta_desc_tr": "ChatGPT ve benzeri araçların SEO'da işe yaradığı alanlar, anahtar kelime kümeleme, içerik brifi, şema ve regex işleri, riskler ve doğrulama akışı.",
+ "meta_desc_en": "See where ChatGPT and similar tools help in SEO, from keyword clustering and content briefs to schema and regex, plus risks and a pre-publish check.",
  "ozet_tr": "Yapay zekâ araçlarını SEO iş akışında nerede kullanmalı, nerede kullanmamalı? Somut görevler ve doğrulama adımları.",
  "ozet_en": "Where to use AI tools in an SEO workflow and where not to: concrete tasks and verification steps.",
  "bolumler_tr": [
@@ -72,7 +72,7 @@
    "baslik": "Anahtar kelime kümeleme ve niyet analizi",
    "paragraflar": [
     "En verimli kullanım alanlarından biri: Search Console'dan ya da bir anahtar kelime aracından aldığınız sorgu listesini araca verip niyete göre gruplamasını istemek. Burada kritik nokta, veriyi sizin sağlamanız. Araçtan kelime ya da hacim üretmesini istediğinizde gerçek olmayan rakamlarla karşılaşabilirsiniz.",
-    "Kümeler çıktıktan sonra her kümeden birkaç sorguyu Google'da aratıp sonuç sayfasının gerçekten aynı niyete hizmet edip etmediğine bakın. Kümeleme yöntemini [anahtar kelime araştırması rehberinde](/rehber/anahtar-kelime-arastirmasi), kümeleri bir içerik planına dönüştürmeyi [içerik stratejisi rehberinde](/rehber/icerik-stratejisi) anlattım."
+    "Kümeler çıktıktan sonra her kümeden birkaç sorguyu Google'da aratıp sonuç sayfasının gerçekten aynı niyete hizmet edip etmediğine bakın. Kümeleme yöntemini [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi), kümeleri bir içerik planına dönüştürmeyi [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım."
    ]
   },
   {
@@ -103,7 +103,7 @@
       }
      }
     },
-    "Şablonla çok sayıda sayfa üretme fikri aklınızdaysa önce [programatik SEO yazısındaki](/blog/programatik-seo) doorway ve ölçeklenmiş içerik sınırlarını okuyun."
+    "Şablonla çok sayıda sayfa üretme fikri aklınızdaysa önce [programatik SEO yazısındaki](/programatik-seo) doorway ve ölçeklenmiş içerik sınırlarını okuyun."
    ]
   },
   {
@@ -113,7 +113,7 @@
     {
      "kod": "^(nasıl|neden|hangi|kaç|ne zaman)\\s|\\s(nedir|ne demek|mı|mi|mu|mü)$"
     },
-    "Bu ifadeyi kullanmadan önce birkaç gerçek sorguda deneyin; Türkçe ekler ve boşluklar beklenmedik eşleşmeler doğurabilir. Şema için [schema oluşturucu](/araclar/schema-olusturucu), yönlendirme kuralları için [yönlendirme oluşturucu](/araclar/yonlendirme-olusturucu) gibi kural tabanlı araçlar, sözdizimi hatası riskini azaltır. Teknik kontrollerin bütününü [teknik SEO rehberinde](/rehber/teknik-seo) bulabilirsiniz."
+    "Bu ifadeyi kullanmadan önce birkaç gerçek sorguda deneyin; Türkçe ekler ve boşluklar beklenmedik eşleşmeler doğurabilir. Şema için [schema oluşturucu](/schema-olusturucu), yönlendirme kuralları için [yönlendirme oluşturucu](/yonlendirme-olusturucu) gibi kural tabanlı araçlar, sözdizimi hatası riskini azaltır. Teknik kontrollerin bütününü [teknik SEO rehberinde](/teknik-seo) bulabilirsiniz."
    ]
   },
   {
@@ -156,7 +156,7 @@
    "baslik": "Google yapay zekâ ile üretilen içerik hakkında ne diyor?",
    "paragraflar": [
     "Google Search Central'ın 2023'te yayımladığı rehberde odak, içeriğin nasıl üretildiği değil kalitesi ve kullanıcıya yararıdır. Öte yandan spam politikalarındaki ölçeklenmiş içerik kötüye kullanımı maddesi, değer katmadan çok sayıda sayfa üretmeyi yöntemden bağımsız olarak kapsıyor.",
-    "Politikanın ayrıntısını ve yayın sürecine etkisini [yapay zekâ içeriği ve Google politikası yazısında](/blog/yapay-zeka-icerik-google-politikasi) ele aldım. Yapay zekâ araçlarının markanızı nasıl anlattığını merak ediyorsanız [ChatGPT marka görünürlüğü yazısı](/blog/chatgpt-marka-gorunurlugu) iyi bir başlangıç."
+    "Politikanın ayrıntısını ve yayın sürecine etkisini [yapay zekâ içeriği ve Google politikası yazısında](/yapay-zeka-icerik-google-politikasi) ele aldım. Yapay zekâ araçlarının markanızı nasıl anlattığını merak ediyorsanız [ChatGPT marka görünürlüğü yazısı](/chatgpt-marka-gorunurlugu) iyi bir başlangıç."
    ]
   },
   {
@@ -262,7 +262,7 @@
    "baslik": "Keyword clustering and intent analysis",
    "paragraflar": [
     "One of the most productive uses: giving the tool a query list from Search Console or a keyword tool and asking it to group the queries by intent. The key point is that you supply the data. If you ask the tool to generate keywords or volumes, you may get figures that are not real.",
-    "Once the clusters are ready, search a few queries from each one on Google and check whether the results page really serves the same intent. I explain the clustering method in the [keyword research guide](/en/guides/anahtar-kelime-arastirmasi) and turning clusters into a content plan in the [content strategy guide](/en/guides/icerik-stratejisi)."
+    "Once the clusters are ready, search a few queries from each one on Google and check whether the results page really serves the same intent. I explain the clustering method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) and turning clusters into a content plan in the [content strategy guide](/en/icerik-stratejisi)."
    ]
   },
   {
@@ -293,7 +293,7 @@
       }
      }
     },
-    "If you are thinking of generating many pages from a template, first read the doorway and scaled content limits in the [programmatic SEO article](/en/blog/programatik-seo)."
+    "If you are thinking of generating many pages from a template, first read the doorway and scaled content limits in the [programmatic SEO article](/en/programatik-seo)."
    ]
   },
   {
@@ -303,7 +303,7 @@
     {
      "kod": "^(nasıl|neden|hangi|kaç|ne zaman)\\s|\\s(nedir|ne demek|mı|mi|mu|mü)$"
     },
-    "Test the expression on a few real queries before relying on it; Turkish suffixes and spacing can produce unexpected matches. Rule-based tools such as the [schema generator](/en/tools/schema-generator) for markup and the [redirect generator](/en/tools/redirect-generator) for redirect rules reduce the risk of syntax errors. The full set of technical checks is in the [technical SEO guide](/en/guides/teknik-seo)."
+    "Test the expression on a few real queries before relying on it; Turkish suffixes and spacing can produce unexpected matches. Rule-based tools such as the [schema generator](/en/schema-generator) for markup and the [redirect generator](/en/redirect-generator) for redirect rules reduce the risk of syntax errors. The full set of technical checks is in the [technical SEO guide](/en/teknik-seo)."
    ]
   },
   {
@@ -346,7 +346,7 @@
    "baslik": "What does Google say about AI-generated content?",
    "paragraflar": [
     "In the guidance Google Search Central published in 2023, the focus is on the quality and usefulness of content, not on how it was produced. At the same time, the scaled content abuse item in the spam policies covers producing many pages without adding value, whatever the method.",
-    "I cover the policy in detail and its effect on publishing workflows in the [AI content and Google policy article](/en/blog/yapay-zeka-icerik-google-politikasi). If you are curious how AI tools describe your brand, the [ChatGPT brand visibility article](/en/blog/chatgpt-marka-gorunurlugu) is a good place to start."
+    "I cover the policy in detail and its effect on publishing workflows in the [AI content and Google policy article](/en/yapay-zeka-icerik-google-politikasi). If you are curious how AI tools describe your brand, the [ChatGPT brand visibility article](/en/chatgpt-marka-gorunurlugu) is a good place to start."
    ]
   },
   {
