@@ -10,18 +10,18 @@ import YazarFoto from '../components/YazarFoto';
 
 const TIMELINE = {
   tr: [
-    { yil: '2009–2013', ikon: '🎓', renk: '#6366f1', baslik: 'Marmara Üniversitesi', alt: 'Bilgisayar ve Öğretim Teknolojileri Eğitimi', detay: 'Eğitim teknolojileri, pedagoji ve bilgisayar bilimleri üzerine lisans eğitimi. Teknoloji ile öğrenmeyi birleştirme tutkusu bu dönemde filizlendi.' },
-    { yil: '2013–2018', ikon: '📚', renk: '#0ea5e9', baslik: 'IB Öğretmeni', alt: 'Uluslararası Bakalorya Programı · Özel Okul', detay: '5 yıl boyunca IB eğitimi veren özel bir okulda görev yaptım. Teknoloji destekli öğrenme metodolojileri geliştirdim. Analitik düşünme ve veri odaklı karar alma süreçleri bu dönemde şekillendi.' },
-    { yil: '2018–2020', ikon: '📈', renk: '#f59e0b', baslik: 'SEO Uzmanı — Ajans', alt: 'Dijital Pazarlama Ajansı', detay: 'Dijital pazarlamaya geçişin ilk yılları. Teknik SEO, içerik stratejisi ve e-ticaret optimizasyonu alanlarında hızla büyüdüm. İlk büyük ölçekli projelerde liderlik üstlendim.' },
-    { yil: '2020–2022', ikon: '🚀', renk: '#16a34a', baslik: 'Kıdemli SEO Uzmanı', alt: 'E-Ticaret & Büyük Ölçekli Projeler', detay: 'Türkiye\'nin lider markalarının SEO stratejilerinde aktif rol. Programatik SEO, Core Web Vitals optimizasyonu ve yapay zekâ destekli içerik süreçlerinde öncü çalışmalar.' },
-    { yil: '2022–Günümüz', ikon: '🌐', renk: '#e8560a', baslik: 'Bağımsız SEO & GEO Danışmanı', alt: 'fatihemincakiroglu.com', detay: 'Bağımsız danışmanlık döneminde 150+ marka, 14 sektör. SEO\'nun ötesinde GEO (Generative Engine Optimization) ve yapay zekâ arama sistemlerinde görünürlük konusunda öncü çalışmalar.' },
+    { yil: '2009-2013', ikon: '🎓', renk: '#6366f1', baslik: 'Marmara Üniversitesi', alt: 'Bilgisayar ve Öğretim Teknolojileri Eğitimi', detay: 'Eğitim teknolojileri, pedagoji ve bilgisayar bilimleri üzerine lisans eğitimi. Teknoloji ile öğrenmeyi birleştirme tutkusu bu dönemde filizlendi.' },
+    { yil: '2013-2018', ikon: '📚', renk: '#0ea5e9', baslik: 'IB Öğretmeni', alt: 'Uluslararası Bakalorya Programı · Özel Okul', detay: '5 yıl boyunca IB eğitimi veren özel bir okulda görev yaptım. Teknoloji destekli öğrenme metodolojileri geliştirdim. Analitik düşünme ve veri odaklı karar alma süreçleri bu dönemde şekillendi.' },
+    { yil: '2018-2020', ikon: '📈', renk: '#f59e0b', baslik: 'SEO Uzmanı - Ajans', alt: 'Dijital Pazarlama Ajansı', detay: 'Dijital pazarlamaya geçişin ilk yılları. Teknik SEO, içerik stratejisi ve e-ticaret optimizasyonu alanlarında hızla büyüdüm. İlk büyük ölçekli projelerde liderlik üstlendim.' },
+    { yil: '2020-2022', ikon: '🚀', renk: '#16a34a', baslik: 'Kıdemli SEO Uzmanı', alt: 'E-Ticaret & Büyük Ölçekli Projeler', detay: 'Türkiye\'nin lider markalarının SEO stratejilerinde aktif rol. Programatik SEO, Core Web Vitals optimizasyonu ve yapay zekâ destekli içerik süreçlerinde öncü çalışmalar.' },
+    { yil: '2022-Günümüz', ikon: '🌐', renk: '#e8560a', baslik: 'Bağımsız SEO & GEO Danışmanı', alt: 'fatihemincakiroglu.com', detay: 'Bağımsız danışmanlık döneminde 150+ marka, 14 sektör. SEO\'nun ötesinde GEO (Generative Engine Optimization) ve yapay zekâ arama sistemlerinde görünürlük konusunda öncü çalışmalar.' },
   ],
   en: [
-    { yil: '2009–2013', ikon: '🎓', renk: '#6366f1', baslik: 'Marmara University', alt: 'Computer Education & Instructional Technology', detay: 'Bachelor\'s studies combining educational technology, pedagogy and computer science. Passion for merging technology with learning took root during this period.' },
-    { yil: '2013–2018', ikon: '📚', renk: '#0ea5e9', baslik: 'IB Teacher', alt: 'International Baccalaureate Program · Private School', detay: '5 years at an IB-certified private school developing technology-assisted learning methodologies. Analytical thinking and data-driven decision-making were deeply internalized.' },
-    { yil: '2018–2020', ikon: '📈', renk: '#f59e0b', baslik: 'SEO Specialist — Agency', alt: 'Digital Marketing Agency', detay: 'First years transitioning to digital marketing. Rapid growth in technical SEO, content strategy and e-commerce optimization. Led first large-scale projects.' },
-    { yil: '2020–2022', ikon: '🚀', renk: '#16a34a', baslik: 'Senior SEO Specialist', alt: 'E-Commerce & Large-Scale Projects', detay: 'Active role in SEO strategies for Turkey\'s leading brands. Pioneering work in programmatic SEO, Core Web Vitals optimization and AI-assisted content workflows.' },
-    { yil: '2022–Present', ikon: '🌐', renk: '#e8560a', baslik: 'Independent SEO & GEO Consultant', alt: 'fatihemincakiroglu.com', detay: 'Independent consulting across 150+ brands in 14 sectors. Pioneering GEO (Generative Engine Optimization) — visibility in AI search systems like ChatGPT, Perplexity and Google AI Overview.' },
+    { yil: '2009-2013', ikon: '🎓', renk: '#6366f1', baslik: 'Marmara University', alt: 'Computer Education & Instructional Technology', detay: 'Bachelor\'s studies combining educational technology, pedagogy and computer science. Passion for merging technology with learning took root during this period.' },
+    { yil: '2013-2018', ikon: '📚', renk: '#0ea5e9', baslik: 'IB Teacher', alt: 'International Baccalaureate Program · Private School', detay: '5 years at an IB-certified private school developing technology-assisted learning methodologies. Analytical thinking and data-driven decision-making were deeply internalized.' },
+    { yil: '2018-2020', ikon: '📈', renk: '#f59e0b', baslik: 'SEO Specialist (Agency)', alt: 'Digital Marketing Agency', detay: 'First years transitioning to digital marketing. Rapid growth in technical SEO, content strategy and e-commerce optimization. Led first large-scale projects.' },
+    { yil: '2020-2022', ikon: '🚀', renk: '#16a34a', baslik: 'Senior SEO Specialist', alt: 'E-Commerce & Large-Scale Projects', detay: 'Active role in SEO strategies for Turkey\'s leading brands. Pioneering work in programmatic SEO, Core Web Vitals optimization and AI-assisted content workflows.' },
+    { yil: '2022-Present', ikon: '🌐', renk: '#e8560a', baslik: 'Independent SEO & GEO Consultant', alt: 'fatihemincakiroglu.com', detay: 'Independent consulting across 150+ brands in 14 sectors. Pioneering GEO (Generative Engine Optimization) for visibility in AI search systems like ChatGPT, Perplexity and Google AI Overview.' },
   ],
 }
 
@@ -88,8 +88,8 @@ const KARSILASTIRMA = {
 
 const TESTIMONIALS = [
   {
-    tr: 'Karmaşık SEO konularını bu kadar net anlatan bir danışmanla daha önce çalışmadık. Eğitimci geçmişi belli — her şeyi öğretiyor, sadece yapıyor değil.',
-    en: 'We\'ve never worked with a consultant who explains complex SEO topics this clearly. His teaching background shows — he teaches everything, not just does it.',
+    tr: 'Karmaşık SEO konularını bu kadar net anlatan bir danışmanla daha önce çalışmadık. Eğitimci geçmişi belli. Her şeyi öğretiyor, sadece yapıyor değil.',
+    en: 'We\'ve never worked with a consultant who explains complex SEO topics this clearly. His teaching background shows. He teaches everything, not just does it.',
     isim: 'Ahmet B.', unvan_tr: 'Pazarlama Direktörü', unvan_en: 'Marketing Director',
     sektor_tr: 'E-Ticaret', sektor_en: 'E-Commerce',
   },
@@ -100,8 +100,8 @@ const TESTIMONIALS = [
     sektor_tr: 'Fintech', sektor_en: 'Fintech',
   },
   {
-    tr: 'Hem öğretmen hem danışman kimliğini çok iyi harmanlıyor. Ekibimiz SEO\'yu gerçekten öğrendi — sadece rapor almadık, strateji kavradık.',
-    en: 'Blends teacher and consultant identity brilliantly. Our team actually learned SEO — we didn\'t just receive reports, we understood the strategy.',
+    tr: 'Hem öğretmen hem danışman kimliğini çok iyi harmanlıyor. Ekibimiz SEO\'yu gerçekten öğrendi; sadece rapor almadık, strateji kavradık.',
+    en: 'Blends teacher and consultant identity brilliantly. Our team actually learned SEO. We didn\'t just receive reports, we understood the strategy.',
     isim: 'Mert K.', unvan_tr: 'Genel Müdür', unvan_en: 'General Manager',
     sektor_tr: 'SaaS', sektor_en: 'SaaS',
   },
@@ -109,18 +109,18 @@ const TESTIMONIALS = [
 
 const FAQS = {
   tr: [
-    { s: 'Öğretmenlikten SEO\'ya geçişiniz nasıl oldu?', c: 'IB öğretmenliği sırasında teknolojiyi öğrenme süreçlerine entegre etmek beni analitik düşünmeye yöneltti. Öğrencilerimin performans verilerini takip ederken veri ile karar almanın gücünü fark ettim. SEO\'nun yapısı — içerik kalitesi, kullanıcı odaklılık, sürekli öğrenme döngüsü — öğretmenlikle birebir örtüşüyordu. Bu geçiş çok doğal hissettirdi.' },
+    { s: 'Öğretmenlikten SEO\'ya geçişiniz nasıl oldu?', c: 'IB öğretmenliği sırasında teknolojiyi öğrenme süreçlerine entegre etmek beni analitik düşünmeye yöneltti. Öğrencilerimin performans verilerini takip ederken veri ile karar almanın gücünü fark ettim. SEO\'nun yapısı (içerik kalitesi, kullanıcı odaklılık, sürekli öğrenme döngüsü) öğretmenlikle birebir örtüşüyordu. Bu geçiş çok doğal hissettirdi.' },
     { s: 'Hangi sektörlerde deneyiminiz bulunuyor?', c: 'E-ticaret, fintech, sağlık, hukuk, SaaS, gayrimenkul, turizm, eğitim, medya, sigortacılık, havacılık, otomotiv dahil 14 farklı sektörde çalıştım. Her sektörün kendine özgü arama davranışı, E-E-A-T gereksinimleri ve rekabet dinamikleri olduğunu bizzat deneyimledim.' },
     { s: 'GEO\'ya neden odaklandınız?', c: '2023\'te yapay zekâ destekli arama motorlarının kullanıcı davranışını dönüştürmeye başladığını erken fark ettim. Öğretmenlik geçmişim sayesinde yeni disiplinleri hızla sistemize etme konusunda rahatım. GEO\'nun SEO\'nun bir uzantısı değil, tamamen ayrı bir disiplin olduğunu ve bu alana erken yatırım yapmanın kritik olduğunu gördüm.' },
     { s: 'Danışmanlık süreciniz nasıl işliyor?', c: 'Her proje ücretsiz bir keşif görüşmesiyle başlar. Sitenizi, hedeflerinizi ve rekabet ortamınızı derinlemesine analiz ederek özel bir yol haritası hazırlarım. Ardından aylık retainer veya proje bazlı iş birliği modellerinden birini seçeriz. Tüm çalışmalar şeffaf raporlama ve haftalık güncellemeye dayanır.' },
-    { s: 'Öğretmenlik SEO danışmanlığında ne fark yaratıyor?', c: 'İki kritik avantaj sağlıyor: (1) Karmaşık teknik konuları anlaşılır biçimde aktarabiliyorum — müşterilerim neden ve nasıl çalıştığını anlıyor, körü körüne rapor takip etmiyor. (2) Öğrenmeyi sürekli bir süreç olarak görüyorum. Algoritma güncellemeleri geldiğinde, eğitimci refleksiyle sistematik adaptasyon yapıyorum.' },
+    { s: 'Öğretmenlik SEO danışmanlığında ne fark yaratıyor?', c: 'İki kritik avantaj sağlıyor: (1) Karmaşık teknik konuları anlaşılır biçimde aktarabiliyorum; müşterilerim neden ve nasıl çalıştığını anlıyor, körü körüne rapor takip etmiyor. (2) Öğrenmeyi sürekli bir süreç olarak görüyorum. Algoritma güncellemeleri geldiğinde, eğitimci refleksiyle sistematik adaptasyon yapıyorum.' },
   ],
   en: [
-    { s: 'How did you transition from teaching to SEO?', c: 'Integrating technology into learning during my IB teaching years pushed me toward analytical thinking. While tracking my students\' performance data, I realized the power of data-driven decisions. SEO\'s structure — content quality, user focus, continuous learning cycles — mirrored teaching perfectly. The transition felt very natural.' },
+    { s: 'How did you transition from teaching to SEO?', c: 'Integrating technology into learning during my IB teaching years pushed me toward analytical thinking. While tracking my students\' performance data, I realized the power of data-driven decisions. SEO\'s structure (content quality, user focus, continuous learning cycles) mirrored teaching perfectly. The transition felt very natural.' },
     { s: 'Which sectors do you have experience in?', c: 'I have worked across 14 sectors including e-commerce, fintech, healthcare, legal, SaaS, real estate, tourism, education, media, insurance, aviation and automotive. I\'ve personally experienced how each sector has unique search behaviors, E-E-A-T requirements and competitive dynamics.' },
     { s: 'Why did you focus on GEO?', c: 'In 2023, I was early to recognize that AI-powered search engines were beginning to transform user behavior. My teaching background makes me comfortable with systematizing new disciplines rapidly. I saw that GEO is not an extension of SEO but an entirely separate discipline, and that early investment would be critical.' },
     { s: 'How does your consulting process work?', c: 'Every project starts with a free discovery call. I conduct a deep analysis of your site, goals and competitive landscape, then prepare a custom roadmap. We then choose either a monthly retainer or project-based collaboration model. All work is based on transparent reporting and weekly updates.' },
-    { s: 'What difference does a teaching background make in SEO consulting?', c: 'It provides two critical advantages: (1) I communicate complex technical topics clearly — clients understand the why and how, not just follow reports blindly. (2) I view learning as a continuous process. When algorithm updates arrive, I approach adaptation with an educator\'s systematic mindset.' },
+    { s: 'What difference does a teaching background make in SEO consulting?', c: 'It provides two critical advantages: (1) I communicate complex technical topics clearly, so clients understand the why and how, not just follow reports blindly. (2) I view learning as a continuous process. When algorithm updates arrive, I approach adaptation with an educator\'s systematic mindset.' },
   ],
 }
 
@@ -157,11 +157,11 @@ export default function Page(props) {
     h1a: 'From Classroom',
     h1b: 'to AI Search.',
     tagline: 'Teacher → Analyst → SEO & GEO Expert',
-    intro: 'I graduated from Marmara University\'s Computer Education and Instructional Technology department, then spent 5 years as an IB teacher applying technology-driven learning methods. Since 2018 I\'ve been a dedicated SEO specialist — and since 2022 an independent consultant pioneering GEO alongside SEO.',
+    intro: 'I graduated from Marmara University\'s Computer Education and Instructional Technology department, then spent 5 years as an IB teacher applying technology-driven learning methods. Since 2018 I\'ve been a dedicated SEO specialist, and since 2022 an independent consultant pioneering GEO alongside SEO.',
     story_h2: 'My Story',
     p1: 'After graduating from Marmara University\'s Computer Education and Instructional Technology department, I started my career as a teacher at an IB-certified private school. During five years of applying innovative, technology-assisted learning methods, I discovered the power of making decisions with data.',
     p2: 'In 2018 I made a deliberate pivot to digital marketing and began my SEO career at an agency. In those early years I worked on large-scale e-commerce and fintech projects, rising to a senior role by 2020 working with Turkey\'s leading brands.',
-    p3: 'Since 2022 I have operated as an independent SEO & GEO consultant. Working with 150+ brands across 14 sectors, I was early to recognize that AI is rewriting the future of search. Today I specialize not only in SEO but in GEO — being cited as a source in ChatGPT, Perplexity and Google AI Overview.',
+    p3: 'Since 2022 I have operated as an independent SEO & GEO consultant. Working with 150+ brands across 14 sectors, I was early to recognize that AI is rewriting the future of search. Today I specialize not only in SEO but in GEO: being cited as a source in ChatGPT, Perplexity and Google AI Overview.',
     edu_h2: 'Education',
     timeline_h2: 'Career Journey',
     stats_h2: 'By the Numbers',
@@ -309,7 +309,7 @@ export default function Page(props) {
                     <div style={{ fontSize:'13px', color:'var(--text2)', marginBottom:'4px' }}>{isEn ? 'Computer Education & Instructional Technology' : 'Bilgisayar ve Öğretim Teknolojileri Eğitimi'}</div>
                     <div style={{ display:'flex', gap:'8px', flexWrap:'wrap' }}>
                       <span style={{ fontSize:'11px', color:'#6366f1', padding:'2px 8px', background:'rgba(99,102,241,0.1)', borderRadius:'4px', fontWeight:600 }}>{isEn ? "Bachelor's Degree" : 'Lisans'}</span>
-                      <span style={{ fontSize:'11px', color:'var(--text3)', padding:'2px 8px', background:'var(--border)', borderRadius:'4px' }}>2009 – 2013</span>
+                      <span style={{ fontSize:'11px', color:'var(--text3)', padding:'2px 8px', background:'var(--border)', borderRadius:'4px' }}>2009-2013</span>
                     </div>
                   </div>
                 </div>

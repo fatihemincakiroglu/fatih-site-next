@@ -69,7 +69,7 @@ function MetaChecker({ isEn }) {
         </button>
       </div>
       <p style={{ fontSize: '12px', color: '#aaa', marginBottom: '20px' }}>
-        {isEn ? 'This tool fetches the page you enter server-side in real time and checks core on-page SEO signals — it is not a simulation.' : 'Bu araç girdiğiniz sayfayı gerçek zamanlı olarak sunucu tarafında çeker ve temel on-page SEO sinyallerini kontrol eder — simülasyon değildir.'}
+        {isEn ? 'This tool fetches the page you enter server-side in real time and checks core on-page SEO signals; it is not a simulation.' : 'Bu araç girdiğiniz sayfayı gerçek zamanlı olarak sunucu tarafında çeker ve temel on-page SEO sinyallerini kontrol eder, simülasyon değildir.'}
       </p>
 
       {hata && (
@@ -205,9 +205,9 @@ function SkorHesap({ isEn }) {
       else { detaylar.push({ konu: 'HTTPS', puan: 0, max: 20, durum: 'kötü', not: 'HTTPS is not used!' }); }
 
       const hiz = parseInt(form.hiz);
-      if (hiz >= 90) { puan += 20; detaylar.push({ konu: 'Page Speed', puan: 20, max: 20, durum: 'iyi', not: `${hiz}/100 — Excellent` }); }
-      else if (hiz >= 50) { puan += 10; detaylar.push({ konu: 'Page Speed', puan: 10, max: 20, durum: 'orta', not: `${hiz}/100 — Needs improvement` }); }
-      else if (form.hiz) { detaylar.push({ konu: 'Page Speed', puan: 0, max: 20, durum: 'kötü', not: `${hiz}/100 — Critical issue!` }); }
+      if (hiz >= 90) { puan += 20; detaylar.push({ konu: 'Page Speed', puan: 20, max: 20, durum: 'iyi', not: `${hiz}/100, Excellent` }); }
+      else if (hiz >= 50) { puan += 10; detaylar.push({ konu: 'Page Speed', puan: 10, max: 20, durum: 'orta', not: `${hiz}/100 - Needs improvement` }); }
+      else if (form.hiz) { detaylar.push({ konu: 'Page Speed', puan: 0, max: 20, durum: 'kötü', not: `${hiz}/100. Critical issue!` }); }
       else { detaylar.push({ konu: 'Page Speed', puan: 0, max: 20, durum: 'kötü', not: 'No speed score entered.' }); }
     } else {
       if (form.baslik.length >= 40 && form.baslik.length <= 60) { puan += 20; detaylar.push({ konu: 'Başlık Etiketi', puan: 20, max: 20, durum: 'iyi', not: 'Uzunluk ideal.' }); }
@@ -225,9 +225,9 @@ function SkorHesap({ isEn }) {
       else { detaylar.push({ konu: 'HTTPS', puan: 0, max: 20, durum: 'kötü', not: 'HTTPS kullanılmıyor!' }); }
 
       const hiz = parseInt(form.hiz);
-      if (hiz >= 90) { puan += 20; detaylar.push({ konu: 'Sayfa Hızı', puan: 20, max: 20, durum: 'iyi', not: `${hiz}/100 — Mükemmel` }); }
-      else if (hiz >= 50) { puan += 10; detaylar.push({ konu: 'Sayfa Hızı', puan: 10, max: 20, durum: 'orta', not: `${hiz}/100 — İyileştirme gerekli` }); }
-      else if (form.hiz) { detaylar.push({ konu: 'Sayfa Hızı', puan: 0, max: 20, durum: 'kötü', not: `${hiz}/100 — Kritik sorun!` }); }
+      if (hiz >= 90) { puan += 20; detaylar.push({ konu: 'Sayfa Hızı', puan: 20, max: 20, durum: 'iyi', not: `${hiz}/100 - Mükemmel` }); }
+      else if (hiz >= 50) { puan += 10; detaylar.push({ konu: 'Sayfa Hızı', puan: 10, max: 20, durum: 'orta', not: `${hiz}/100, İyileştirme gerekli` }); }
+      else if (form.hiz) { detaylar.push({ konu: 'Sayfa Hızı', puan: 0, max: 20, durum: 'kötü', not: `${hiz}/100 - Kritik sorun!` }); }
       else { detaylar.push({ konu: 'Sayfa Hızı', puan: 0, max: 20, durum: 'kötü', not: 'Hız skoru girilmedi.' }); }
     }
 
@@ -337,7 +337,7 @@ function MetaUzunlukHesap({ isEn }) {
         </div>
       </div>
       <div style={{ padding: '14px', background: 'rgba(232,86,10,0.05)', borderRadius: '8px', border: '1px solid rgba(232,86,10,0.15)', fontSize: '13px', color: '#666', lineHeight: 1.6 }}>
-        💡 <strong>{isEn ? 'Ideal lengths:' : 'İdeal uzunluklar:'}</strong> {isEn ? 'Title: 40–60 characters · Meta: 120–160 characters' : 'Title: 40–60 karakter · Meta: 120–160 karakter'}
+        💡 <strong>{isEn ? 'Ideal lengths:' : 'İdeal uzunluklar:'}</strong> {isEn ? 'Title: 40-60 characters · Meta: 120-160 characters' : 'Title: 40-60 karakter · Meta: 120-160 karakter'}
       </div>
     </div>
   );

@@ -279,7 +279,7 @@
     {
      "alt": "The Page indexing report in Search Console"
     },
-    "The report groups non-indexed pages by reason. Pages you set to noindex or redirected are expected there. Focus on \"Crawled – currently not indexed\" (often thin content or overlap with similar pages), \"Discovered – currently not indexed\" (internal linking or server capacity) and cases where Google chose a different canonical than yours (conflicting signals). For a single URL, the URL Inspection tool shows the rendered HTML and the canonical Google selected. Add these reports to the monthly template in the [SEO reporting guide](/en/seo-raporlama)."
+    "The report groups non-indexed pages by reason. Pages you set to noindex or redirected are expected there. Focus on \"Crawled - currently not indexed\" (often thin content or overlap with similar pages), \"Discovered - currently not indexed\" (internal linking or server capacity) and cases where Google chose a different canonical than yours (conflicting signals). For a single URL, the URL Inspection tool shows the rendered HTML and the canonical Google selected. Add these reports to the monthly template in the [SEO reporting guide](/en/seo-raporlama)."
    ]
   },
   {

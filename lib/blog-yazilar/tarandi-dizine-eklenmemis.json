@@ -2,8 +2,8 @@
  "kategori": "technical",
  "etiket": "Teknik SEO",
  "sure": 8,
- "baslik_tr": "Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" Hatası Nasıl Çözülür?",
- "baslik_en": "How to Fix \"Crawled – Currently Not Indexed\" in Google Search Console",
+ "baslik_tr": "Search Console'da \"Tarandı - şu anda dizine eklenmemiş\" Hatası Nasıl Çözülür?",
+ "baslik_en": "How to Fix \"Crawled - Currently Not Indexed\" in Google Search Console",
  "meta_baslik_tr": "Tarandı Ama Dizine Eklenmemiş Çözümü",
  "meta_baslik_en": "Fixing Crawled, Currently Not Indexed",
  "meta_desc_tr": "Search Console'daki \"Tarandı, şu anda dizine eklenmemiş\" durumunun nedenleri, URL tipine göre teşhis tablosu, yapılacaklar ve beklenecek süre.",
@@ -14,15 +14,15 @@
   {
    "baslik": null,
    "paragraflar": [
-    "Search Console'daki Sayfa dizine ekleme (Page indexing) raporunda \"Tarandı – şu anda dizine eklenmemiş\" satırını görmek, site sahiplerini en çok endişelendiren durumlardan biri. Googlebot sayfaya gelmiş, içeriği okumuş ama sayfayı arama sonuçlarında göstermeye değer bulmamış. Teknik bir engel yok; ortada bir karar var.",
-    "Bu yazıda bu durumun ne anlama geldiğini, \"Keşfedildi – şu anda dizine eklenmemiş\" ile farkını, hangi URL tipinde neye bakmanız gerektiğini ve düzeltmeden sonra ne kadar beklemeniz gerektiğini anlatıyorum. Genel tarama ve indeksleme mantığı için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç noktası.",
+    "Search Console'daki Sayfa dizine ekleme (Page indexing) raporunda \"Tarandı - şu anda dizine eklenmemiş\" satırını görmek, site sahiplerini en çok endişelendiren durumlardan biri. Googlebot sayfaya gelmiş, içeriği okumuş ama sayfayı arama sonuçlarında göstermeye değer bulmamış. Teknik bir engel yok; ortada bir karar var.",
+    "Bu yazıda bu durumun ne anlama geldiğini, \"Keşfedildi - şu anda dizine eklenmemiş\" ile farkını, hangi URL tipinde neye bakmanız gerektiğini ve düzeltmeden sonra ne kadar beklemeniz gerektiğini anlatıyorum. Genel tarama ve indeksleme mantığı için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç noktası.",
     {
-     "alinti": "Kısa cevap: \"Tarandı – şu anda dizine eklenmemiş\", Google'ın sayfayı taradığı ama dizine eklememeyi seçtiği anlamına gelir. Çözüm genellikle teknik bir ayar değil; sayfanın benzersiz değer taşıması, kopya ve ince sayfaların birleştirilmesi ve önemli sayfaların iç linklerle güçlendirilmesidir. Düzeltmeden sonra tekrar tekrar dizine ekleme istemek süreci hızlandırmaz."
+     "alinti": "Kısa cevap: \"Tarandı - şu anda dizine eklenmemiş\", Google'ın sayfayı taradığı ama dizine eklememeyi seçtiği anlamına gelir. Çözüm genellikle teknik bir ayar değil; sayfanın benzersiz değer taşıması, kopya ve ince sayfaların birleştirilmesi ve önemli sayfaların iç linklerle güçlendirilmesidir. Düzeltmeden sonra tekrar tekrar dizine ekleme istemek süreci hızlandırmaz."
     }
    ]
   },
   {
-   "baslik": "\"Tarandı – şu anda dizine eklenmemiş\" tam olarak ne demek?",
+   "baslik": "\"Tarandı - şu anda dizine eklenmemiş\" tam olarak ne demek?",
    "paragraflar": [
     "Google'ın Search Console yardım dokümanına göre bu durumdaki sayfa taranmış ama dizine eklenmemiştir; gelecekte dizine eklenebilir de eklenmeyebilir de ve URL'yi yeniden göndermenize gerek yoktur. Yani rapor size bir hata değil, bir değerlendirme sonucunu gösteriyor.",
     "Bu ayrım önemli. robots.txt engeli, noindex etiketi ya da 404 gibi durumlar raporda ayrı nedenler olarak listelenir. Bu satıra düşen URL'lerde Google teknik olarak sayfaya erişebilmiş, ama ya içeriği yeterince farklı ya da yeterince önemli bulmamış, ya da sitenin bütününe dair sinyaller o URL'yi öncelikli kılmamış.",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "baslik": "\"Keşfedildi – şu anda dizine eklenmemiş\" ile farkı nedir?",
+   "baslik": "\"Keşfedildi - şu anda dizine eklenmemiş\" ile farkı nedir?",
    "paragraflar": [
     "İki durum sık karıştırılıyor ama farklı sorunlara işaret ediyor. Google'ın dokümanına göre \"Keşfedildi\" durumunda sayfa bulunmuş ama henüz taranmamıştır; Google çoğunlukla siteyi aşırı yüklememek için taramayı ertelemiştir. \"Tarandı\" durumunda ise tarama gerçekleşmiş ve dizine ekleme kararı olumsuz çıkmıştır.",
     {
@@ -42,12 +42,12 @@
       ],
       "satirlar": [
        [
-        "Keşfedildi – şu anda dizine eklenmemiş",
+        "Keşfedildi - şu anda dizine eklenmemiş",
         "URL biliniyor, henüz taranmadı",
         "Sunucu yanıt süresi, tarama israfı, iç link derinliği"
        ],
        [
-        "Tarandı – şu anda dizine eklenmemiş",
+        "Tarandı - şu anda dizine eklenmemiş",
         "Tarandı, dizine eklenmedi",
         "İçerik değeri, kopya/benzer sayfalar, iç link sinyali"
        ],
@@ -122,15 +122,15 @@
   {
    "baslik": null,
    "paragraflar": [
-    "Seeing \"Crawled – currently not indexed\" in the Page indexing report of Google Search Console worries site owners more than almost any other status. Googlebot visited the page, read it, and decided it was not worth showing in search results. There is no technical block here; there is a decision.",
-    "This article explains what the status means, how it differs from \"Discovered – currently not indexed\", what to check for each type of URL, and how long to wait after fixing it. For the broader crawling and indexing logic, the [technical SEO guide](/en/teknik-seo) is a good starting point.",
+    "Seeing \"Crawled - currently not indexed\" in the Page indexing report of Google Search Console worries site owners more than almost any other status. Googlebot visited the page, read it, and decided it was not worth showing in search results. There is no technical block here; there is a decision.",
+    "This article explains what the status means, how it differs from \"Discovered - currently not indexed\", what to check for each type of URL, and how long to wait after fixing it. For the broader crawling and indexing logic, the [technical SEO guide](/en/teknik-seo) is a good starting point.",
     {
-     "alinti": "Short answer: \"Crawled – currently not indexed\" means Google crawled the page but chose not to index it. The fix is usually not a technical setting; it is giving the page unique value, consolidating duplicate and thin pages, and strengthening important pages with internal links. Requesting indexing again and again after a fix does not speed anything up."
+     "alinti": "Short answer: \"Crawled - currently not indexed\" means Google crawled the page but chose not to index it. The fix is usually not a technical setting; it is giving the page unique value, consolidating duplicate and thin pages, and strengthening important pages with internal links. Requesting indexing again and again after a fix does not speed anything up."
     }
    ]
   },
   {
-   "baslik": "What does \"Crawled – currently not indexed\" actually mean?",
+   "baslik": "What does \"Crawled - currently not indexed\" actually mean?",
    "paragraflar": [
     "According to Google's Search Console help documentation, a page with this status was crawled but not indexed; it may or may not be indexed in the future, and there is no need to resubmit the URL. In other words, the report is showing you an evaluation result, not an error.",
     "That distinction matters. A robots.txt block, a noindex tag or a 404 is listed as a separate reason in the report. For URLs in this bucket, Google could technically reach the page but did not find it distinct enough or important enough, or site-wide signals did not make that URL a priority.",
@@ -138,7 +138,7 @@
    ]
   },
   {
-   "baslik": "How is it different from \"Discovered – currently not indexed\"?",
+   "baslik": "How is it different from \"Discovered - currently not indexed\"?",
    "paragraflar": [
     "The two statuses are often confused but point to different problems. Google's documentation says a \"Discovered\" page has been found but not yet crawled, usually because Google rescheduled the crawl to avoid overloading the site. With \"Crawled\", the crawl happened and the indexing decision was negative.",
     {
@@ -150,12 +150,12 @@
       ],
       "satirlar": [
        [
-        "Discovered – currently not indexed",
+        "Discovered - currently not indexed",
         "URL known, not crawled yet",
         "Server response time, crawl waste, internal link depth"
        ],
        [
-        "Crawled – currently not indexed",
+        "Crawled - currently not indexed",
         "Crawled, not indexed",
         "Content value, duplicate or similar pages, internal link signals"
        ],
@@ -228,7 +228,7 @@
  ],
  "sss_tr": [
   {
-   "s": "\"Tarandı – şu anda dizine eklenmemiş\" bir ceza mı?",
+   "s": "\"Tarandı - şu anda dizine eklenmemiş\" bir ceza mı?",
    "c": "Hayır. Bu durum manuel işlem ya da spam cezası değildir; Google'ın o URL'yi şimdilik dizine eklememeyi seçtiğini gösterir. Manuel işlemler Search Console'da ayrı bir raporda görünür."
   },
   {
@@ -254,7 +254,7 @@
  ],
  "sss_en": [
   {
-   "s": "Is \"Crawled – currently not indexed\" a penalty?",
+   "s": "Is \"Crawled - currently not indexed\" a penalty?",
    "c": "No. It is not a manual action or a spam penalty; it shows that Google chose not to index that URL for now. Manual actions appear in a separate report in Search Console."
   },
   {

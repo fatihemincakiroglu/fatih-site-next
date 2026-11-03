@@ -47,7 +47,7 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [llms.txt Nedir? Nasıl Oluşturulur ve 2026'da Gerçekten İşe Yarıyor mu?](https://fatihemincakiroglu.com/llms-txt-rehberi.md)
 - [SEO Uzmanı mı, SEO Ajansı mı? Doğru Seçim İçin Kapsamlı Karşılaştırma](https://fatihemincakiroglu.com/seo-uzmani-mi-seo-ajansi-mi.md)
 - [Google Business Profile Optimizasyonu: 2026 İçin Eksiksiz Rehber](https://fatihemincakiroglu.com/google-business-profile.md)
-- [Search Console'da "Tarandı – şu anda dizine eklenmemiş" Hatası Nasıl Çözülür?](https://fatihemincakiroglu.com/tarandi-dizine-eklenmemis.md)
+- [Search Console'da "Tarandı - şu anda dizine eklenmemiş" Hatası Nasıl Çözülür?](https://fatihemincakiroglu.com/tarandi-dizine-eklenmemis.md)
 - [Google Çekirdek Güncellemesi Sonrası Trafik Düştü: Adım Adım Teşhis Listesi](https://fatihemincakiroglu.com/cekirdek-guncelleme-trafik-dususu.md)
 - [Programatik SEO: Ne Zaman İşe Yarar, Ne Zaman "Doorway" Sayfaya Dönüşür?](https://fatihemincakiroglu.com/programatik-seo.md)
 - [ikas, IdeaSoft, T-Soft ve Shopify: SEO Açısından Karşılaştırma](https://fatihemincakiroglu.com/e-ticaret-altyapisi-seo-karsilastirma.md)

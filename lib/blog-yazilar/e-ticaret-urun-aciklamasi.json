@@ -25,7 +25,7 @@
    "baslik": "Üretici açıklamasını kopyalamak neden sorun?",
    "paragraflar": [
     "Aynı ürünü satan onlarca mağaza aynı üretici metnini kullandığında, Google'ın elinde birbirinin kopyası olan onlarca sayfa olur. Google bu tür yinelenen içerikte genellikle bir ya da birkaç sürümü öne çıkarır; hangisinin seçileceği çoğu zaman alan adının genel gücüne bağlıdır ve küçük mağaza bu yarışta geride kalır.",
-    "Ceza meselesi değil, ayırt edicilik meselesi. Ürününüz rakip sayfadan farklı bir bilgi sunmuyorsa sıralanması için bir neden de yoktur. Search Console'da ürün sayfalarının \"Tarandı – şu anda dizine eklenmemiş\" satırında birikmesi bunun sık görülen belirtisidir; teşhisi [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında anlattım.",
+    "Ceza meselesi değil, ayırt edicilik meselesi. Ürününüz rakip sayfadan farklı bir bilgi sunmuyorsa sıralanması için bir neden de yoktur. Search Console'da ürün sayfalarının \"Tarandı - şu anda dizine eklenmemiş\" satırında birikmesi bunun sık görülen belirtisidir; teşhisi [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında anlattım.",
     {
      "karsilastir": {
       "sol": {
@@ -221,7 +221,7 @@
    "baslik": "Why is copying manufacturer descriptions a problem?",
    "paragraflar": [
     "When dozens of stores selling the same product use the same manufacturer text, Google is left with dozens of near-identical pages. For duplicate content like this, Google usually surfaces one or a few versions; which one often depends on the overall strength of the domain, and smaller stores lose that contest.",
-    "It is not about penalties; it is about distinctiveness. If your page offers nothing the competing page does not, there is no reason for it to rank. Product pages piling up under \"Crawled – currently not indexed\" in Search Console is a common symptom; I cover the diagnosis in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis).",
+    "It is not about penalties; it is about distinctiveness. If your page offers nothing the competing page does not, there is no reason for it to rank. Product pages piling up under \"Crawled - currently not indexed\" in Search Console is a common symptom; I cover the diagnosis in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis).",
     {
      "karsilastir": {
       "sol": {

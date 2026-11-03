@@ -23,7 +23,7 @@ const VAKALAR = {
       cozum: [
         '100+ kontrol noktasında kapsamlı teknik SEO denetimi yapıldı',
         '3.200\'den fazla ürün sayfası için programatik içerik şablonu oluşturuldu',
-        'Kategori sayfaları yeniden yapılandırıldı — topical authority inşası',
+        'Kategori sayfaları yeniden yapılandırıldı (topical authority inşası)',
         'Core Web Vitals tamamen optimize edildi (LCP 4.2s → 1.8s)',
         'İç linkleme mimarisi pillar-cluster modeline geçirildi',
         'Aylık 12 adet editoryal backlink kazanımı kampanyası başlatıldı',
@@ -57,7 +57,7 @@ const VAKALAR = {
       ],
       video_id: null,
       yorum: '"Fatih ile çalışmaya başladıktan 4 ay sonra organik trafiğimiz %280 arttı. Her adımı şeffaf şekilde takip edebildik."',
-      yorum_kisi: 'Mehmet A. — E-Ticaret Direktörü',
+      yorum_kisi: 'Mehmet A., E-Ticaret Direktörü',
     },
     {
       no: '02',
@@ -107,7 +107,7 @@ const VAKALAR = {
       ],
       video_id: null,
       yorum: '"8 ay içinde organik trafiği sıfırdan 50K\'a taşıdı. Aylık MRR\'miz 4 katına çıktı."',
-      yorum_kisi: 'Can S. — Kurucu & CEO',
+      yorum_kisi: 'Can S., Kurucu & CEO',
     },
     {
       no: '03',
@@ -153,11 +153,11 @@ const VAKALAR = {
       },
       faqs: [
         { s: 'Sağlık sektöründe SEO neden daha zor?', c: 'Google, hatalı tıbbi içeriğin doğrudan zarar verebileceğini düşündüğü YMYL sayfalarına çok daha katı E-E-A-T standartları uygular. Her içerik doktor tarafından yazılmış veya onaylanmış olmalıdır.' },
-        { s: 'Medikal içerik SEO\'ya uygun yazılabilir mi?', c: 'Evet — ama doğru dengeyle. SEO anahtar kelimeleri ve tıbbi doğruluk birbirini dışlamaz. Anahtar kelime araştırmasını doktorla birlikte planlamak en iyi yaklaşımdır.' },
+        { s: 'Medikal içerik SEO\'ya uygun yazılabilir mi?', c: 'Evet, ama doğru dengeyle. SEO anahtar kelimeleri ve tıbbi doğruluk birbirini dışlamaz. Anahtar kelime araştırmasını doktorla birlikte planlamak en iyi yaklaşımdır.' },
       ],
       video_id: null,
       yorum: '"Medikal SEO alanında gerçek bir uzman. E-E-A-T odaklı çalışma sonrasında randevu oranımız %200 arttı."',
-      yorum_kisi: 'Dr. Ayşe M. — Klinik Direktörü',
+      yorum_kisi: 'Dr. Ayşe M., Klinik Direktörü',
     },
     {
       no: '04',
@@ -207,7 +207,7 @@ const VAKALAR = {
       ],
       video_id: null,
       yorum: '"Dijital varlığımızı sıfırdan inşa etti. Yerel SEO sayesinde ilk sayfaya çıktık, müvekkil sayımız 3 katına çıktı."',
-      yorum_kisi: 'Zeynep K. — Büro Ortağı',
+      yorum_kisi: 'Zeynep K., Büro Ortağı',
     },
   ],
   en: [
@@ -220,7 +220,7 @@ const VAKALAR = {
       cozum: [
         'Comprehensive technical SEO audit conducted at 100+ checkpoints',
         'Programmatic content template created for 3,200+ product pages',
-        'Category pages restructured — topical authority building',
+        'Category pages restructured for topical authority building',
         'Core Web Vitals fully optimized (LCP 4.2s → 1.8s)',
         'Internal linking architecture migrated to pillar-cluster model',
         'Monthly editorial backlink acquisition campaign launched (12 links/month)',
@@ -253,7 +253,7 @@ const VAKALAR = {
         { s: 'Which tools were used?', c: 'Screaming Frog (technical audit), Ahrefs (keyword & backlink), Google Search Console + GA4 (performance tracking), PageSpeed Insights (CWV monitoring).' },
       ],
       yorum: '"After working with Fatih for 4 months, our organic traffic grew by 280%. We could track every step transparently."',
-      yorum_kisi: 'Mehmet A. — E-Commerce Director',
+      yorum_kisi: 'Mehmet A., E-Commerce Director',
     },
     {
       no: '02', sektor: 'SaaS', sure: '8 months', slug: 'saas-platform',
@@ -297,7 +297,7 @@ const VAKALAR = {
         { s: 'How did organic growth connect to MRR?', c: 'Free trial → activation → paid conversion funnel was tracked in GA4. 18% of organically-sourced free trial users converted to paid plans.' },
       ],
       yorum: '"He grew organic traffic from zero to 50K in 8 months. Our monthly MRR quadrupled."',
-      yorum_kisi: 'Can S. — Founder & CEO',
+      yorum_kisi: 'Can S., Founder & CEO',
     },
     {
       no: '03', sektor: 'Healthcare', sure: '5 months', slug: 'health-clinic',
@@ -338,10 +338,10 @@ const VAKALAR = {
       },
       faqs: [
         { s: 'Why is SEO harder in healthcare?', c: 'Google applies much stricter E-E-A-T standards to YMYL pages where incorrect medical content could cause direct harm. Every piece of content must be written or approved by a doctor.' },
-        { s: 'Can medical content be written for SEO?', c: 'Yes — but with the right balance. SEO keywords and medical accuracy aren\'t mutually exclusive. Planning keyword research together with a doctor is the best approach.' },
+        { s: 'Can medical content be written for SEO?', c: 'Yes, but with the right balance. SEO keywords and medical accuracy aren\'t mutually exclusive. Planning keyword research together with a doctor is the best approach.' },
       ],
       yorum: '"A true expert in medical SEO. After the E-E-A-T focused work, our appointment rate grew by 200%."',
-      yorum_kisi: 'Dr. Ayşe M. — Clinic Director',
+      yorum_kisi: 'Dr. Ayşe M., Clinic Director',
     },
     {
       no: '04', sektor: 'Legal', sure: '7 months', slug: 'law-firm',
@@ -385,7 +385,7 @@ const VAKALAR = {
         { s: 'How long should legal content be?', c: 'SERP analysis for legal queries shows that comprehensive content in the 1,500-2,500 word range is preferred. Delivering real legal guide value on each topic is critical.' },
       ],
       yorum: '"He built our digital presence from scratch. Thanks to local SEO, we appeared on the first page and our client base tripled."',
-      yorum_kisi: 'Zeynep K. — Law Firm Partner',
+      yorum_kisi: 'Zeynep K., Law Firm Partner',
     },
   ],
 }
@@ -511,7 +511,7 @@ export default function Page(props) {
             {vakalar.map((v, i) => (
               <button key={i} onClick={() => { setAktifVaka(i); setAktifTab('metrikler'); setAktifFaq(null) }}
                 style={{ padding: '16px 24px', border: 'none', background: 'none', cursor: 'pointer', fontFamily: 'var(--font-body)', fontWeight: aktifVaka === i ? 700 : 400, fontSize: '14px', color: aktifVaka === i ? vaka.renk : '#aaa', borderBottom: aktifVaka === i ? `3px solid ${v.renk}` : '3px solid transparent', whiteSpace: 'nowrap', transition: 'all 0.15s', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span>{v.emoji}</span> {v.no} — {v.sektor}
+                <span>{v.emoji}</span> {v.no} -{v.sektor}
               </button>
             ))}
           </div>

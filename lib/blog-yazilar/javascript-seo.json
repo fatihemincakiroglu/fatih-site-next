@@ -136,7 +136,7 @@
       }
      ]
     },
-    "Bu hataların çoğu Search Console'da \"Tarandı – şu anda dizine eklenmemiş\" ya da soft 404 olarak görünür; teşhis için [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısındaki gruplama yöntemini kullanabilirsiniz. Kaynak engelleme tarafında [robots.txt yapılandırması](/robots-txt) yazısı işinize yarar."
+    "Bu hataların çoğu Search Console'da \"Tarandı - şu anda dizine eklenmemiş\" ya da soft 404 olarak görünür; teşhis için [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısındaki gruplama yöntemini kullanabilirsiniz. Kaynak engelleme tarafında [robots.txt yapılandırması](/robots-txt) yazısı işinize yarar."
    ]
   },
   {
@@ -313,7 +313,7 @@
       }
      ]
     },
-    "Most of these show up in Search Console as \"Crawled – currently not indexed\" or soft 404s; for diagnosis, use the grouping method in [fixing crawled but not indexed pages](/en/tarandi-dizine-eklenmemis). On the resource-blocking side, the [robots.txt configuration](/en/robots-txt) article will help."
+    "Most of these show up in Search Console as \"Crawled - currently not indexed\" or soft 404s; for diagnosis, use the grouping method in [fixing crawled but not indexed pages](/en/tarandi-dizine-eklenmemis). On the resource-blocking side, the [robots.txt configuration](/en/robots-txt) article will help."
    ]
   },
   {

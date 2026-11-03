@@ -313,7 +313,7 @@ export default function BlogPost(props) {
           {isEn ? 'Made it this far? You might be dealing with this yourself.' : 'Bu noktaya kadar geldiyseniz, muhtemelen bununla kendiniz uğraşıyorsunuzdur.'}
         </div>
         <div style={{ fontSize: '13px', color: '#777' }}>
-          {isEn ? 'Let\'s talk about how this applies to your site — free, no obligation.' : 'Bunun sizin sitenize nasıl uygulanacağını konuşalım — ücretsiz, hiçbir taahhüt yok.'}
+          {isEn ? 'Let\'s talk about how this applies to your site (free, no obligation).' : 'Bunun sizin sitenize nasıl uygulanacağını konuşalım. Ücretsiz, hiçbir taahhüt yok.'}
         </div>
       </div>
       <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '11px 20px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '13px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap', flexShrink: 0 }}>
@@ -471,7 +471,7 @@ export default function BlogPost(props) {
           </div>
         )}
 
-        {/* Genişletilmiş Yazar Kutusu (E-E-A-T) — içeriğin hemen altında, tüm görünümlerde */}
+        {/* Genişletilmiş Yazar Kutusu (E-E-A-T) - içeriğin hemen altında, tüm görünümlerde */}
         <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 16px 48px' }}>
           <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee', display: 'flex', gap: '20px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
             <YazarFoto size={64} />

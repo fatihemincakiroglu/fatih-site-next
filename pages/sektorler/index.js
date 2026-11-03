@@ -5,7 +5,7 @@ import { SEKTOR_LISTE } from '../../lib/sektor-liste'
 
 const BASE = 'https://fatihemincakiroglu.com'
 
-// Sektör hizmetleri merkez sayfası — TR: /sektorler, EN: /en/industries
+// Sektör hizmetleri merkez sayfası - TR: /sektorler, EN: /en/industries
 export default function Sektorler(props) {
   const router = useRouter()
   const isEn = props.__forceLocale === 'en' || router.pathname.startsWith('/en')

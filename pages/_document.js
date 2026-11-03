@@ -92,7 +92,7 @@ class MyDocument extends Document {
             // Yerel arama sinyali: İstanbul merkezli danışmanlık.
             "@type": "ProfessionalService",
             "@id": "https://fatihemincakiroglu.com/#business",
-            "name": "Fatih Emin Çakıroğlu — SEO & GEO Danışmanlığı",
+            "name": "Fatih Emin Çakıroğlu - SEO & GEO Danışmanlığı",
             "url": "https://fatihemincakiroglu.com",
             "image": "https://fatihemincakiroglu.com/og-image.jpg",
             "email": "info@fatihemincakiroglu.com",

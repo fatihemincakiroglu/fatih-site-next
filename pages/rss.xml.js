@@ -49,7 +49,7 @@ function buildFeed() {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fatih Emin Çakıroğlu — Blog</title>
+    <title>Fatih Emin Çakıroğlu - Blog</title>
     <link>${BASE}/blog</link>
     <description>SEO, GEO ve dijital pazarlama üzerine yazılar.</description>
     <language>tr</language>

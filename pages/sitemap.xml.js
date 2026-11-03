@@ -242,7 +242,7 @@ export async function getServerSideProps({ req, res }) {
     res.setHeader('Content-Type', 'application/xml; charset=utf-8')
     res.write(buildSitemapEN())
   } else {
-    // /sitemap.xml — index
+    // /sitemap.xml - index
     res.setHeader('Content-Type', 'application/xml; charset=utf-8')
     res.write(buildSitemapIndex())
   }

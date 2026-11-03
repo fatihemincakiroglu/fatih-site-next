@@ -71,13 +71,13 @@ const SUREC = {
 
 const FAQS = {
   tr: [
-    { s: 'GEO ile SEO\'yu birlikte yürütmek gerekiyor mu?', c: 'Evet — en etkili yaklaşım her ikisini birlikte uygulamaktır. SEO organik sıralamaları hedeflerken GEO, AI yanıt sistemlerinde görünürlüğü sağlar. İkisi birbirini güçlendirir: güçlü SEO temeli, GEO başarısını da hızlandırır.' },
+    { s: 'GEO ile SEO\'yu birlikte yürütmek gerekiyor mu?', c: 'Evet, en etkili yaklaşım her ikisini birlikte uygulamaktır. SEO organik sıralamaları hedeflerken GEO, AI yanıt sistemlerinde görünürlüğü sağlar. İkisi birbirini güçlendirir: güçlü SEO temeli, GEO başarısını da hızlandırır.' },
     { s: 'GEO sonuçları ne kadar sürede görülür?', c: 'Teknik iyileştirmeler (schema, llms.txt) 4-8 haftada etkisini gösterebilir. İçerik kaynak seçimi için 2-3 ay, markalı AI görünürlüğü için 3-6 ay perspektifi doğru beklenti seviyesidir.' },
     { s: 'Hangi AI sistemlerini hedefliyorsunuz?', c: 'Birincil hedefler: Google AI Overview, Perplexity AI, ChatGPT Search ve Bing Copilot. Her sistemin kaynak seçim kriterleri farklıdır; stratejiyi bu farklılıklara göre özelleştiriyorum.' },
     { s: 'GEO trafik getirir mi?', c: 'Doğrudan trafik yerine marka bilinirliği ve otorite kazanımı sağlar. Ancak AI Overview kaynaklarından referral trafik giderek artmakta; markalı aramalardaki artış da GEO\'nun somut göstergesidir.' },
   ],
   en: [
-    { s: 'Do I need to run GEO alongside SEO?', c: 'Yes — the most effective approach is implementing both together. SEO targets organic rankings while GEO ensures visibility in AI response systems. They reinforce each other: a strong SEO foundation also accelerates GEO success.' },
+    { s: 'Do I need to run GEO alongside SEO?', c: 'Yes, the most effective approach is implementing both together. SEO targets organic rankings while GEO ensures visibility in AI response systems. They reinforce each other: a strong SEO foundation also accelerates GEO success.' },
     { s: 'How quickly do GEO results appear?', c: 'Technical improvements (schema, llms.txt) can show impact in 4-8 weeks. A 2-3 month timeline for content source selection and 3-6 months for branded AI visibility are the right expectations.' },
     { s: 'Which AI systems do you target?', c: 'Primary targets: Google AI Overview, Perplexity AI, ChatGPT Search and Bing Copilot. Each system has different source selection criteria; I customize strategy according to these differences.' },
     { s: 'Does GEO drive traffic?', c: 'It delivers brand awareness and authority rather than direct traffic. However, referral traffic from AI Overview sources is growing steadily; an increase in branded searches is also a concrete indicator of GEO success.' },
@@ -87,7 +87,7 @@ const FAQS = {
 const ISTATISTIKLER = [
   { rakam: '%46', tr: 'Google aramalarında AI Overview gösterilme oranı (2025)', en: 'Google searches showing AI Overview (2025)' },
   { rakam: '3.5x', tr: 'AI kaynak görünürlüğünün sağladığı marka recall artışı', en: 'Brand recall increase from AI source visibility' },
-  { rakam: '%32', tr: 'Zero-click aramaların oranı — AI yanıtlar nedeniyle', en: 'Zero-click searches — due to AI answers' },
+  { rakam: '%32', tr: 'Zero-click aramaların oranı (AI yanıtlar nedeniyle)', en: 'Zero-click searches (due to AI answers)' },
   { rakam: '%78', tr: 'İçerik kalitesini AI kaynak seçiminin #1 faktörü sayan LLM araştırması', en: 'LLM research ranking content quality as #1 source factor' },
 ]
 
@@ -169,10 +169,10 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'GEO CONSULTING',
-    h1a: 'Get Cited by AI —',
+    h1a: 'Get Cited by AI -',
     h1b: 'GEO Consulting',
     h1c: 'Appear in ChatGPT, Gemini & Perplexity Answers',
-    subtitle: 'The Future of Search is AI — Is Your Brand Ready?',
+    subtitle: 'The Future of Search is AI. Is Your Brand Ready?',
     desc: 'AI search engines are rewriting the rules of visibility. I help brands appear as trusted sources in ChatGPT, Perplexity, Google AI Overview and Bing Copilot through proven GEO strategies.',
     btn1: 'Get a Free GEO Audit →',
     btn2: 'View Case Studies',
@@ -183,7 +183,7 @@ export default function Page(props) {
     how_p: 'AI search engines use a process called Retrieval-Augmented Generation (RAG): they retrieve relevant documents from the web, process them through a large language model, and generate a synthesized response. Your content needs to pass three filters to become a source:',
     how_filters: ['Retrieval: Googlebot or AI crawlers must find and index your page', 'Relevance: The content must directly and accurately answer the query', 'Trust: E-E-A-T signals, citations and entity authority must confirm credibility'],
     hizmetler_h2: 'Our GEO Services',
-    diff_h2: 'GEO vs SEO — Key Differences',
+    diff_h2: 'GEO vs SEO - Key Differences',
     why_not_h2: 'Why AI Isn\'t Mentioning Your Brand',
     why_not_points: [
       { ikon: '📄', baslik: 'Content isn\'t structured for AI', aciklama: 'LLMs prefer content with clear definitions, direct answers and summarizable structure. Generic content gets skipped.' },
@@ -285,7 +285,7 @@ export default function Page(props) {
       {
         '@type': 'Service',
         '@id': `${sayfaUrl}#service`,
-        name: isEn ? 'GEO Consulting' : 'İstanbul GEO Uzmanı — GEO Danışmanlığı',
+        name: isEn ? 'GEO Consulting' : 'İstanbul GEO Uzmanı - GEO Danışmanlığı',
         alternateName: isEn
           ? ['Generative Engine Optimization', 'AI Search Optimization']
           : ['GEO Danışmanlığı', 'Generative Engine Optimization', 'Yapay Zekâ Arama Optimizasyonu'],
@@ -380,7 +380,7 @@ export default function Page(props) {
           </div>
         </section>
 
-        {/* ─── GİRİŞ (TR) — H1'in hemen altındaki tanım paragrafları ─── */}
+        {/* ─── GİRİŞ (TR) - H1'in hemen altındaki tanım paragrafları ─── */}
         {!isEn && (
           <section style={{ padding: '64px 32px 24px', background: '#fff' }}>
             <div style={{ maxWidth: '820px', margin: '0 auto' }}>

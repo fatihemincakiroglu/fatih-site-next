@@ -360,7 +360,7 @@ export default function App({ Component, pageProps }) {
   // İki dilli bir sitede her sayfanın diğer dildeki karşılığını bildirmek
   // gerekir. Tek tek sayfalara eklemek yerine burada merkezî olarak üretiyoruz;
   // böylece yeni sayfa eklenince unutulma riski kalmıyor.
-  // hreflang karşılıklı (reciprocal) olmalı — getAlternates iki yönü de üretir.
+  // hreflang karşılıklı (reciprocal) olmalı - getAlternates iki yönü de üretir.
   const alternates = getAlternates(router.asPath || router.pathname)
 
   return (
@@ -371,7 +371,7 @@ export default function App({ Component, pageProps }) {
         {alternates && <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${alternates.tr}`} key="alt-x" />}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         {/* RSS: feed okuyucuların ve tarayıcıların keşfedebilmesi için */}
-        <link rel="alternate" type="application/rss+xml" title="Fatih Emin Çakıroğlu — Blog" href={`${SITE_URL}/rss.xml`} />
+        <link rel="alternate" type="application/rss+xml" title="Fatih Emin Çakıroğlu - Blog" href={`${SITE_URL}/rss.xml`} />
         <meta property="og:type" content="website" key="og-type" />
         <meta property="og:site_name" content="Fatih Emin Çakıroğlu" key="og-site-name" />
         <meta property="og:locale" content={isEn ? 'en_US' : 'tr_TR'} key="og-locale" />
@@ -382,7 +382,7 @@ export default function App({ Component, pageProps }) {
         <meta name="google-site-verification" content="AN9Hgw1XodseTVx-GX5u_0CXwRxQPaoXmhsnfXX3-QA" />
       </Head>
 
-      {/* Google Analytics 4 — next/script ile, afterInteractive: sayfa etkileşime
+      {/* Google Analytics 4 - next/script ile, afterInteractive: sayfa etkileşime
           hazır olduktan sonra yüklenir. Başlatma kodu public/ga-init.js'te
           (inline script yok → CSP 'unsafe-inline' gerektirmiyor). */}
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-WZBHKP34SD" strategy="afterInteractive" />

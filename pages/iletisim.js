@@ -108,7 +108,7 @@ export default function Page(props) {
           <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
             {status === 'done' ? (
               <div role="status" style={{ padding: '18px 20px', background: 'rgba(34,197,94,0.12)', border: '1px solid rgba(34,197,94,0.3)', borderRadius: '10px', color: '#16a34a', fontSize: '15px', fontWeight: 600 }}>
-                {isEn ? '✓ Thank you! Your message has been sent — we will get back to you within 24 hours.' : '✓ Teşekkürler! Mesajınız gönderildi, 24 saat içinde size dönüş yapacağız.'}
+                {isEn ? '✓ Thank you! Your message has been sent. We will get back to you within 24 hours.' : '✓ Teşekkürler! Mesajınız gönderildi, 24 saat içinde size dönüş yapacağız.'}
               </div>
             ) : (
               <form onSubmit={handleSubmit} autoComplete="off" data-lpignore="true" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>

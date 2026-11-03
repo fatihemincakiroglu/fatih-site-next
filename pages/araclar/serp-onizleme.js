@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { SINIRLAR, genislik, kisalt, durum, gorunenUrl, ipuclari } from '../../lib/serp-olcum'
 
-// SERP önizleme ve başlık uzunluğu kontrolü — ölçüm tarayıcıda canvas ile yapılır.
+// SERP önizleme ve başlık uzunluğu kontrolü - ölçüm tarayıcıda canvas ile yapılır.
 // TR: /serp-onizleme   EN: /en/serp-preview
 
 const RENK = { bos: '#9ca3af', iyi: '#15803d', sinirda: '#b45309', uzun: '#b91c1c' }

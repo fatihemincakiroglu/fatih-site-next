@@ -116,7 +116,7 @@
    "baslik": "Aşamalı yayın ve indeksleme takibi",
    "paragraflar": [
     "Binlerce sayfayı tek seferde yayına almak yerine küçük bir partiyle başlayın; birkaç yüz sayfa, en güçlü veriye sahip kombinasyonlardan seçilmiş olsun. Search Console'da bu partinin dizine eklenme oranını, gösterimlerini ve tıklamalarını birkaç hafta izleyin.",
-    "Sayfaların önemli bir kısmı \"Tarandı – şu anda dizine eklenmemiş\" durumunda kalıyorsa Google size sayfaların yeterince farklı bulunmadığını söylüyor olabilir. Bu sinyali nasıl okuyacağınızı [\"Tarandı – şu anda dizine eklenmemiş\" hatasını çözme](/tarandi-dizine-eklenmemis) yazısında anlattım. Bu durumda yeni parti açmak yerine şablonu ve veriyi güçlendirin.",
+    "Sayfaların önemli bir kısmı \"Tarandı - şu anda dizine eklenmemiş\" durumunda kalıyorsa Google size sayfaların yeterince farklı bulunmadığını söylüyor olabilir. Bu sinyali nasıl okuyacağınızı [\"Tarandı - şu anda dizine eklenmemiş\" hatasını çözme](/tarandi-dizine-eklenmemis) yazısında anlattım. Bu durumda yeni parti açmak yerine şablonu ve veriyi güçlendirin.",
     "Programatik bir projeyi veri modeli ve şablon kurgusundan başlayarak planlamak isterseniz [içerik stratejisi hizmeti](/icerik) ve [SEO uzmanı](/seo-uzmani) olarak teknik tarafı birlikte ele alabiliriz. Projenizi anlatmak için [iletişim sayfasından](/iletisim) bana ulaşabilirsiniz."
    ]
   }
@@ -227,7 +227,7 @@
    "baslik": "Phased rollout and indexing monitoring",
    "paragraflar": [
     "Instead of launching thousands of pages at once, start with a small batch: a few hundred pages chosen from the combinations with the strongest data. Track that batch's indexing rate, impressions and clicks in Search Console for a few weeks.",
-    "If a large share of the pages stays in \"Crawled – currently not indexed\", Google may be telling you the pages are not distinct enough. I explain how to read that signal in [fixing \"Crawled – currently not indexed\"](/en/tarandi-dizine-eklenmemis). In that case, strengthen the template and the data rather than opening a new batch.",
+    "If a large share of the pages stays in \"Crawled - currently not indexed\", Google may be telling you the pages are not distinct enough. I explain how to read that signal in [fixing \"Crawled - currently not indexed\"](/en/tarandi-dizine-eklenmemis). In that case, strengthen the template and the data rather than opening a new batch.",
     "If you want to plan a programmatic project starting from the data model and template design, we can work through it together with [content strategy services](/en/content-strategy) and [SEO consulting](/en/seo-consulting) on the technical side. You can tell me about your project via the [contact page](/en/contact)."
    ]
   }

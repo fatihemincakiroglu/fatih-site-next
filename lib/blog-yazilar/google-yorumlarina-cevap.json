@@ -91,7 +91,7 @@
    "paragraflar": [
     "Olumlu yorumlarda amaç teşekkür etmek ve yorumu yazanın bahsettiği ayrıntıyı karşılık vererek göstermek. Kısa tutun; her yoruma aynı cümleyi yazmayın. Yıldız verip metin yazmayan yorumlar için tek cümlelik bir teşekkür yeterlidir.",
     {
-     "alinti": "Örnek (kurgusal bir kafe): “Merhaba Elif Hanım, güzel yorumunuz için teşekkür ederiz. Bahçe bölümünü beğenmenize sevindik; hafta sonu kahvaltısı için de bekleriz. — Kafe ekibi adına Murat”"
+     "alinti": "Örnek (kurgusal bir kafe): “Merhaba Elif Hanım, güzel yorumunuz için teşekkür ederiz. Bahçe bölümünü beğenmenize sevindik; hafta sonu kahvaltısı için de bekleriz. Kafe ekibi adına, Murat”"
     }
    ]
   },
@@ -113,19 +113,19 @@
      "alt": "Örnek 1: Uzun bekleme şikâyeti"
     },
     {
-     "alinti": "Yorum: “Rezervasyonumuz olmasına rağmen 40 dakika bekledik, kimse bilgi vermedi.” Cevap: “Merhaba, yaşadığınız bekleme ve bilgilendirme eksikliği için özür dileriz; bu bizim hatamızdı. Yoğun akşamlarda rezervasyonlu misafirlerimize gecikmeyi önceden haber verecek şekilde düzen değiştirdik. Deneyiminizi dinlemek isteriz, dilerseniz bize iletişim numaramızdan ulaşabilirsiniz. — Ayşe, işletme müdürü”"
+     "alinti": "Yorum: “Rezervasyonumuz olmasına rağmen 40 dakika bekledik, kimse bilgi vermedi.” Cevap: “Merhaba, yaşadığınız bekleme ve bilgilendirme eksikliği için özür dileriz; bu bizim hatamızdı. Yoğun akşamlarda rezervasyonlu misafirlerimize gecikmeyi önceden haber verecek şekilde düzen değiştirdik. Deneyiminizi dinlemek isteriz, dilerseniz bize iletişim numaramızdan ulaşabilirsiniz. Ayşe, işletme müdürü”"
     },
     {
      "alt": "Örnek 2: Yanlış bilgi içeren yorum"
     },
     {
-     "alinti": "Yorum: “Kartla ödeme kabul etmiyorlar.” Cevap: “Merhaba, geri bildiriminiz için teşekkür ederiz. Tüm banka kartlarıyla ödeme alıyoruz; ziyaretiniz sırasında cihazla ilgili bir sorun yaşanmış olabilir. Bunu yaşattığımız için üzgünüz, ekibimizle konuştuk. — Kerem”"
+     "alinti": "Yorum: “Kartla ödeme kabul etmiyorlar.” Cevap: “Merhaba, geri bildiriminiz için teşekkür ederiz. Tüm banka kartlarıyla ödeme alıyoruz; ziyaretiniz sırasında cihazla ilgili bir sorun yaşanmış olabilir. Bunu yaşattığımız için üzgünüz, ekibimizle konuştuk. - Kerem”"
     },
     {
      "alt": "Örnek 3: Müşteri kaydı bulunamayan yorum"
     },
     {
-     "alinti": "Yorum: “Berbat hizmet, bir daha asla.” Cevap: “Merhaba, yorumunuz için teşekkür ederiz. Kayıtlarımızda yaşadığınız deneyimi bulamadık ve ne olduğunu anlamak istiyoruz. Bize e-posta adresimizden ulaşırsanız konuyu birebir inceleriz. — Destek ekibi”"
+     "alinti": "Yorum: “Berbat hizmet, bir daha asla.” Cevap: “Merhaba, yorumunuz için teşekkür ederiz. Kayıtlarımızda yaşadığınız deneyimi bulamadık ve ne olduğunu anlamak istiyoruz. Bize e-posta adresimizden ulaşırsanız konuyu birebir inceleriz. Destek ekibi”"
     },
     {
      "alt": "Örnek 4: Kaba dil veya hakaret içeren yorum"
@@ -262,7 +262,7 @@
    "paragraflar": [
     "With positive reviews, the goal is to say thank you and show you noticed what the reviewer mentioned. Keep it short and don't reuse the same sentence. For star-only reviews with no text, a one-line thank you is enough.",
     {
-     "alinti": "Example (fictional café): “Hi Elif, thank you for the kind review. We're glad you enjoyed the garden; we'd love to see you for weekend breakfast too. — Murat, for the café team”"
+     "alinti": "Example (fictional café): “Hi Elif, thank you for the kind review. We're glad you enjoyed the garden; we'd love to see you for weekend breakfast too. Murat, for the café team”"
     }
    ]
   },
@@ -284,19 +284,19 @@
      "alt": "Example 1: Long wait complaint"
     },
     {
-     "alinti": "Review: “We had a reservation but waited 40 minutes and nobody told us anything.” Reply: “Hello, we're sorry for the wait and the lack of updates; that was our mistake. On busy evenings we now let guests with reservations know about delays in advance. We'd like to hear more, so please contact us on our phone number. — Ayşe, manager”"
+     "alinti": "Review: “We had a reservation but waited 40 minutes and nobody told us anything.” Reply: “Hello, we're sorry for the wait and the lack of updates; that was our mistake. On busy evenings we now let guests with reservations know about delays in advance. We'd like to hear more, so please contact us on our phone number. Ayşe, manager”"
     },
     {
      "alt": "Example 2: Review with incorrect information"
     },
     {
-     "alinti": "Review: “They don't accept card payments.” Reply: “Hello, thank you for the feedback. We accept all bank cards; there may have been a problem with the terminal during your visit. We're sorry about that and have spoken to the team. — Kerem”"
+     "alinti": "Review: “They don't accept card payments.” Reply: “Hello, thank you for the feedback. We accept all bank cards; there may have been a problem with the terminal during your visit. We're sorry about that and have spoken to the team. - Kerem”"
     },
     {
      "alt": "Example 3: Review you can't match to a customer"
     },
     {
-     "alinti": "Review: “Terrible service, never again.” Reply: “Hello, thank you for your review. We couldn't find your experience in our records and would like to understand what happened. If you email us, we'll look into it personally. — Support team”"
+     "alinti": "Review: “Terrible service, never again.” Reply: “Hello, thank you for your review. We couldn't find your experience in our records and would like to understand what happened. If you email us, we'll look into it personally. Support team”"
     },
     {
      "alt": "Example 4: Rude or abusive review"

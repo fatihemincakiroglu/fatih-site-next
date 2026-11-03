@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react'
 import { renderInline } from '../components/IcerikBlok'
 import IlgiliRehberler from '../components/IlgiliRehberler'
 
-// Google güncellemeleri günlüğü — TR: /google-guncellemeleri, EN: /en/google-updates
+// Google güncellemeleri günlüğü - TR: /google-guncellemeleri, EN: /en/google-updates
 // Veri: lib/google-guncellemeleri.json (her kayıtta resmi kaynak URL'si).
 // Yeni güncelleme: JSON'daki "kayitlar" dizisinin başına ekleyin, "son_kontrol" tarihini güncelleyin.
 
@@ -41,13 +41,13 @@ export default function GoogleGuncellemeleri({ isEn = false, veri }) {
   const duz = (t) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '')
 
   const t = isEn ? {
-    title: 'Google Algorithm Updates Log (2023–2026)',
+    title: 'Google Algorithm Updates Log (2023-2026)',
     desc: 'Every confirmed Google core, spam and policy update and AI search milestone since 2023, with dates, official sources and what site owners should do.',
     h1: 'Google Updates Log',
     son: 'Last checked',
     hepsi: 'All', kaynak: 'Official source ↗', ne: 'What to do', devam: 'ongoing / end not announced',
   } : {
-    title: 'Google Algoritma Güncellemeleri Günlüğü (2023–2026) | Fatih Emin Çakıroğlu',
+    title: 'Google Algoritma Güncellemeleri Günlüğü (2023-2026) | Fatih Emin Çakıroğlu',
     desc: "2023'ten bu yana Google'ın çekirdek, spam ve politika güncellemeleri ile AI arama gelişmeleri. Tarihler, resmi kaynaklar ve yapılması gerekenler.",
     h1: 'Google Güncellemeleri Günlüğü',
     son: 'Son kontrol',
@@ -127,7 +127,7 @@ export default function GoogleGuncellemeleri({ isEn = false, veri }) {
                         <span style={{ fontSize: '11px', fontWeight: 700, color: tur.renk, background: tur.bg, padding: '3px 8px', borderRadius: '4px' }}>{isEn ? tur.en : tur.tr}</span>
                         <span style={{ fontSize: '13px', color: '#888' }}>
                           <time dateTime={k.baslangic}>{tarihMetni(k.baslangic, isEn)}</time>
-                          {k.bitis ? <> – <time dateTime={k.bitis}>{tarihMetni(k.bitis, isEn)}</time></> : (k.tur === 'core' || k.tur === 'spam' ? ` (${t.devam})` : '')}
+                          {k.bitis ? <> -<time dateTime={k.bitis}>{tarihMetni(k.bitis, isEn)}</time></> : (k.tur === 'core' || k.tur === 'spam' ? ` (${t.devam})` : '')}
                         </span>
                       </div>
                       <h3 style={{ fontSize: '17px', fontWeight: 800, color: '#111', margin: '0 0 8px', lineHeight: 1.35 }}>{k.ad}</h3>

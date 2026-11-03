@@ -31,7 +31,7 @@ export default function ExitIntentPopup() {
     }
     document.addEventListener('mouseleave', onMouseLeave)
 
-    // 2) Dokunmatik cihazlarda: sayfanın büyük kısmı okunduğunda — ama blog,
+    // 2) Dokunmatik cihazlarda: sayfanın büyük kısmı okunduğunda - ama blog,
     //    rehber ve ilçe sayfalarında DEĞİL (okuma ortasında açılan popup
     //    deneyimi bozuyordu) ve sayfada en az 30 saniye geçtikten sonra.
     const dokunmatik = window.matchMedia('(hover: none)').matches
@@ -65,13 +65,13 @@ export default function ExitIntentPopup() {
   const t = isEn ? {
     badge: 'BEFORE YOU GO',
     title: 'Want a free SEO audit?',
-    desc: 'I\'ll review your site\'s technical SEO health and send you a short, actionable report — no strings attached.',
+    desc: 'I\'ll review your site\'s technical SEO health and send you a short, actionable report, no strings attached.',
     btn: 'Get my free audit →',
     dismiss: 'No thanks, maybe later',
   } : {
     badge: 'GİTMEDEN ÖNCE',
     title: 'Ücretsiz SEO denetimi ister misiniz?',
-    desc: 'Sitenizin teknik SEO durumunu inceleyip kısa, uygulanabilir bir rapor göndereyim — hiçbir şart yok.',
+    desc: 'Sitenizin teknik SEO durumunu inceleyip kısa, uygulanabilir bir rapor göndereyim, hiçbir şart yok.',
     btn: 'Ücretsiz denetimimi al →',
     dismiss: 'Hayır, belki sonra',
   }

@@ -55,7 +55,7 @@
        [
         "URL parametresi",
         "example.com?loc=de",
-        "—",
+        "-",
         "Google önermiyor; bölümlemek zor"
        ]
       ]
@@ -279,7 +279,7 @@
        [
         "URL parameter",
         "example.com?loc=de",
-        "—",
+        "-",
         "Not recommended by Google; hard to segment"
        ]
       ]

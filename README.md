@@ -1,7 +1,7 @@
 # fatihemincakiroglu.com
 
 Fatih Emin Çakıroğlu'nun SEO & GEO danışmanlık sitesi. Next.js 14 **Pages Router**,
-TR/EN iki dilli, headless CMS yok — içerik doğrudan sayfa dosyalarında.
+TR/EN iki dilli, headless CMS yok - içerik doğrudan sayfa dosyalarında.
 
 ## Kurulum
 
@@ -31,11 +31,11 @@ npm start
 
 ```
 pages/            TR sayfaları (kanonik içerik burada)
-pages/en/         EN sayfaları — TR bileşenini __forceLocale="en" ile sarar
+pages/en/         EN sayfaları - TR bileşenini __forceLocale="en" ile sarar
 pages/api/        contact (form) ve seo-audit (mini denetim aracı)
 components/       Navbar, Footer, arama, popup'lar vb.
 lib/urls.js       TR↔EN URL eşlemesi + getAlternates() (hreflang kaynağı)
-lib/content-index.js  Yayındaki blog/rehber slug'ları — TEK KAYNAK
+lib/content-index.js  Yayındaki blog/rehber slug'ları - TEK KAYNAK
 lib/safe-fetch.js     SSRF korumalı dış istek yardımcısı
 lib/rate-limit.js     Basit in-memory rate limiter
 ```
@@ -46,7 +46,7 @@ lib/rate-limit.js     Basit in-memory rate limiter
 `__forceLocale="en"` prop'u ile render eder; metinler bileşen içinde
 `isEn ? ... : ...` şeklinde seçilir.
 
-Yeni bir sayfa çifti eklerken `lib/urls.js` içindeki `URL_MAP`'e de ekleyin —
+Yeni bir sayfa çifti eklerken `lib/urls.js` içindeki `URL_MAP`'e de ekleyin -
 hreflang ve dil değiştirici oradan besleniyor.
 
 ### İçerik yayınlama

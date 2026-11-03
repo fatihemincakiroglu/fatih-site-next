@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { FORMATLAR, satirlariOku, analizEt, uret } from '../../lib/yonlendirme-uretici'
 
-// 301 yönlendirme oluşturucu — tamamen tarayıcıda çalışır.
+// 301 yönlendirme oluşturucu - tamamen tarayıcıda çalışır.
 // TR: /yonlendirme-olusturucu   EN: /en/redirect-generator
 
 const ORNEK = `/eski-hakkimizda\t/hakkimda
@@ -110,8 +110,8 @@ export default function YonlendirmeOlusturucu(props) {
             <div>
               <label htmlFor="y-kod" style={F.etiket}>{t('Durum kodu', 'Status code')}</label>
               <select id="y-kod" value={kod} onChange={e => setKod(Number(e.target.value))} style={F.girdi}>
-                <option value={301}>{t('301 — kalıcı', '301 — permanent')}</option>
-                <option value={302}>{t('302 — geçici', '302 — temporary')}</option>
+                <option value={301}>{t('301 (kalıcı)', '301 (permanent)')}</option>
+                <option value={302}>{t('302 (geçici)', '302 - temporary')}</option>
               </select>
             </div>
           </div>

@@ -26,14 +26,14 @@ const TERIMLER = [
     aciklama: 'Google\'ın resmi sıralama sinyali olarak kullandığı kullanıcı deneyimi metrikleri: LCP (yükleme <2.5s), INP (etkileşim <200ms), CLS (görsel kararlılık <0.1). Teknik SEO\'nun temel bileşenlerinden biridir.',
     aciklama_en: 'Google\'s official user experience ranking signals: LCP (loading <2.5s), INP (interaction <200ms), CLS (visual stability <0.1). One of the core pillars of technical SEO.' },
   { terim: 'Crawl Bütçesi', trTerim: 'Tarama Bütçesi', kategori: 'Teknik SEO', ilgili: ['İndeksleme', 'Robots.txt', 'Site Mimarisi'],
-    aciklama: 'Google\'ın sitenize belirli bir sürede ayırdığı tarama kapasitesi. Büyük siteler için kritiktir — düşük kaliteli sayfalar crawl bütçesini boşa harcatır ve önemli sayfaların indexlenmesini engeller.',
-    aciklama_en: 'The crawling capacity Google allocates to your site within a given timeframe. Critical for large sites — low-quality pages waste crawl budget and prevent important pages from being indexed.' },
+    aciklama: 'Google\'ın sitenize belirli bir sürede ayırdığı tarama kapasitesi. Büyük siteler için kritiktir; düşük kaliteli sayfalar crawl bütçesini boşa harcatır ve önemli sayfaların indexlenmesini engeller.',
+    aciklama_en: 'The crawling capacity Google allocates to your site within a given timeframe. Critical for large sites, since low-quality pages waste crawl budget and prevent important pages from being indexed.' },
   { terim: 'Domain Authority', trTerim: 'Alan Otoritesi', kategori: 'Otorite', ilgili: ['Backlink', 'Trust Score', 'Page Authority'],
     aciklama: 'Bir domainin sıralama gücünü backlink profiline göre tahmin eden 1-100 arası skor. Moz (DA) ve Ahrefs (DR) tarafından hesaplanır. Resmi Google metriği değildir; karşılaştırma için pratik göstergedir.',
     aciklama_en: 'A 1-100 score predicting a domain\'s ranking strength based on its backlink profile. Calculated by Moz (DA) and Ahrefs (DR). Not an official Google metric, but a practical comparison benchmark.' },
   { terim: 'E-E-A-T', trTerim: 'Deneyim-Uzmanlık-Otorite-Güven', kategori: 'Otorite', ilgili: ['Topical Authority', 'Schema Markup', 'Yazar Profili'],
-    aciklama: 'Experience, Expertise, Authoritativeness, Trustworthiness — Google\'ın içerik kalitesini değerlendirdiği çerçeve. YMYL siteleri için özellikle katı uygulanır. AI sistemleri de kaynak seçiminde E-E-A-T sinyallerini kullanır.',
-    aciklama_en: 'Experience, Expertise, Authoritativeness, Trustworthiness — Google\'s content quality evaluation framework. Applied especially strictly for YMYL sites. AI systems also use E-E-A-T signals for source selection.' },
+    aciklama: 'Experience, Expertise, Authoritativeness, Trustworthiness: Google\'ın içerik kalitesini değerlendirdiği çerçeve. YMYL siteleri için özellikle katı uygulanır. AI sistemleri de kaynak seçiminde E-E-A-T sinyallerini kullanır.',
+    aciklama_en: 'Experience, Expertise, Authoritativeness, Trustworthiness: Google\'s content quality evaluation framework. Applied especially strictly for YMYL sites. AI systems also use E-E-A-T signals for source selection.' },
   { terim: 'Embedding', trTerim: 'Vektör Temsil', kategori: 'AI & LLM', ilgili: ['Semantic Search', 'RAG', 'LLM'],
     aciklama: 'Metnin anlamını matematiksel vektör formunda kodlayan temsil. LLM\'ler içerikleri anlayabilmek için embedding vektörlerine çevirir. Semantik açıdan zengin içerikler vektör benzerliğinde yüksek skor alır.',
     aciklama_en: 'A vector representation that encodes the meaning of text in mathematical form. LLMs convert content into embedding vectors to understand semantics. Semantically rich content scores well in vector similarity.' },
@@ -41,8 +41,8 @@ const TERIMLER = [
     aciklama: 'Google arama sonuçlarının üstünde (Sıfır Konum) görünen, bir web sayfasından alınan doğrudan yanıt kutusu. Paragraf, liste veya tablo formatında olabilir. AI Overview kaynak seçimiyle güçlü korelasyon taşır.',
     aciklama_en: 'The highlighted answer box at the top of Google search results (Position Zero) showing a direct answer from a webpage. Can be paragraph, list or table format. Strong correlation with AI Overview source selection.' },
   { terim: 'GEO', trTerim: 'Üretken Arama Optimizasyonu', kategori: 'GEO', ilgili: ['AI Overview', 'LLM', 'AEO'],
-    aciklama: 'Generative Engine Optimization — yapay zekâ destekli arama motorlarında içeriklerin kaynak olarak alıntılanmasını sağlayan optimizasyon pratiği. Google AI Overview, ChatGPT, Perplexity ve Bing Copilot birincil hedeflerdir.',
-    aciklama_en: 'Generative Engine Optimization — the practice of optimizing content to be cited as a source in AI-powered search engines. Google AI Overview, ChatGPT, Perplexity and Bing Copilot are the primary targets.' },
+    aciklama: 'Generative Engine Optimization: yapay zekâ destekli arama motorlarında içeriklerin kaynak olarak alıntılanmasını sağlayan optimizasyon pratiği. Google AI Overview, ChatGPT, Perplexity ve Bing Copilot birincil hedeflerdir.',
+    aciklama_en: 'Generative Engine Optimization, the practice of optimizing content to be cited as a source in AI-powered search engines. Google AI Overview, ChatGPT, Perplexity and Bing Copilot are the primary targets.' },
   { terim: 'Grounding', trTerim: 'Kaynak Bağlama', kategori: 'AI & LLM', ilgili: ['RAG', 'GEO', 'E-E-A-T'],
     aciklama: 'LLM\'lerin yanıtlarını iç model bilgisi yerine doğrulanabilir gerçek dünya kaynaklarına dayandırması. Özgün veri, araştırma atıfları ve uzman görüşleri grounding kaynağı seçilme olasılığını artırır.',
     aciklama_en: 'LLMs basing their responses on verifiable real-world sources rather than internal model knowledge. Original data, research citations and expert opinions increase the chance of being selected as a grounding source.' },
@@ -50,8 +50,8 @@ const TERIMLER = [
     aciklama: 'Çok dilli veya çok bölgeli sitelerde hangi sayfanın hangi dil ve bölge için hedeflendiğini arama motorlarına bildiren HTML attribute. Hatalı implementasyon duplicate content sorununa ve yanlış sıralamaya yol açar.',
     aciklama_en: 'An HTML attribute telling search engines which language and region each page targets on multilingual/multi-regional sites. Incorrect implementation leads to duplicate content and wrong pages ranking in wrong countries.' },
   { terim: 'INP', trTerim: 'Sonraki Etkileşime Boyama Süresi', kategori: 'Teknik SEO', ilgili: ['Core Web Vitals', 'CLS', 'LCP'],
-    aciklama: 'Interaction to Next Paint — Mart 2024\'te FID\'in yerini aldı. Sayfadaki tüm tıklama, dokunma ve klavye etkileşimlerinin yanıt süresini ölçer. Hedef: 200ms altı. Ana thread blokajı birincil sorundur.',
-    aciklama_en: 'Interaction to Next Paint — replaced FID in March 2024. Measures the response time for all click, touch and keyboard interactions. Target: under 200ms. Main thread blocking is the primary issue.' },
+    aciklama: 'Interaction to Next Paint: Mart 2024\'te FID\'in yerini aldı. Sayfadaki tüm tıklama, dokunma ve klavye etkileşimlerinin yanıt süresini ölçer. Hedef: 200ms altı. Ana thread blokajı birincil sorundur.',
+    aciklama_en: 'Interaction to Next Paint. It replaced FID in March 2024. Measures the response time for all click, touch and keyboard interactions. Target: under 200ms. Main thread blocking is the primary issue.' },
   { terim: 'Knowledge Graph', trTerim: 'Bilgi Grafiği', kategori: 'SEO', ilgili: ['Entity SEO', 'Schema Markup', 'GEO'],
     aciklama: 'Google\'ın gerçek dünya varlıklarını (kişi, yer, organizasyon, kavram) ve aralarındaki ilişkileri içeren yapılandırılmış veritabanı. Knowledge Graph\'ta yer almak AI Overview kaynak seçiminde önemli avantaj sağlar.',
     aciklama_en: 'Google\'s structured database of real-world entities (people, places, organizations, concepts) and their relationships. Appearing in the Knowledge Graph provides a significant advantage for AI Overview source selection.' },
@@ -63,7 +63,7 @@ const TERIMLER = [
     aciklama_en: 'Large Language Model. An AI model trained on large-scale text data capable of generating human-like text. GPT-4, Claude, Gemini and Llama are examples. The primary target systems for GEO strategy.' },
   { terim: 'llms.txt', trTerim: 'LLM Yönlendirme Dosyası', kategori: 'Teknik SEO', ilgili: ['GEO', 'Robots.txt', 'Crawl Bütçesi'],
     aciklama: 'Web sitelerinin AI sistemlerine içeriklerini nasıl kullanmalarını istediklerini bildirdiği standart dosya. Robots.txt\'in AI eşdeğeri. GEO teknik stratejisinin temel bileşenlerinden biridir.',
-    aciklama_en: 'A standard file that tells AI systems how a website wants its content used — robots.txt for AI. One of the core technical components of a GEO strategy.' },
+    aciklama_en: 'A standard file that tells AI systems how a website wants its content used (robots.txt for AI). One of the core technical components of a GEO strategy.' },
   { terim: 'Prompt Engineering', trTerim: 'İstem Mühendisliği', kategori: 'AI & LLM', ilgili: ['LLM', 'AI Agent', 'GEO'],
     aciklama: 'LLM tabanlı yapay zekâ sistemlerinden en iyi yanıtları almak için girdi talimatlarını optimize etme pratiği. SEO bağlamında, AI sistemlerinin içerikleri nasıl yorumladığını anlamak için gereklidir.',
     aciklama_en: 'The practice of crafting optimal input instructions to get the best responses from LLM-based AI systems. In the SEO context, relevant for understanding how AI systems interpret and use content.' },
@@ -175,8 +175,8 @@ export default function Page(props) {
             </h1>
             <p style={{ color: '#777', fontSize: '15px', paddingLeft: '18px' }}>
               {isEn
-                ? 'Filter by category, jump to a letter on the A–Z strip, or search within terms and definitions.'
-                : 'Kategori seçerek daraltın, A–Z şeridinden harfe atlayın veya arama kutusuyla terim ve tanım içinde arayın.'}
+                ? 'Filter by category, jump to a letter on the A-Z strip, or search within terms and definitions.'
+                : 'Kategori seçerek daraltın, A-Z şeridinden harfe atlayın veya arama kutusuyla terim ve tanım içinde arayın.'}
             </p>
           </div>
         </div>

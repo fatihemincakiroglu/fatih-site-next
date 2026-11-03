@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { analizEt, uret, sutunOku, satirOku } from '../../lib/hreflang-uretici'
 
-// hreflang oluşturucu — tamamen tarayıcıda çalışır.
+// hreflang oluşturucu - tamamen tarayıcıda çalışır.
 // TR: /hreflang-olusturucu   EN: /en/hreflang-generator
 
 const ORNEK_SUTUN = 'tr, en, de-DE, x-default'

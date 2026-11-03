@@ -1,4 +1,4 @@
-// İletişim formu — Google Workspace (Gmail SMTP) üzerinden e-posta gönderir.
+// İletişim formu - Google Workspace (Gmail SMTP) üzerinden e-posta gönderir.
 //
 // Gerekli ortam değişkenleri (.env.local veya hosting sağlayıcınızın
 // "Environment Variables" ayarları içinde tanımlanmalı):
@@ -23,7 +23,7 @@ import { rateLimit, getClientIp } from '../../lib/rate-limit'
 
 // E-posta BAŞLIKLARINA (from / replyTo / subject) giren kullanıcı verisinden
 // satır sonlarını ve tırnakları temizler. Aksi hâlde isim alanına \r\n
-// koyan biri kendi başlığını ekleyebilir (header injection) — nodemailer'ın
+// koyan biri kendi başlığını ekleyebilir (header injection) - nodemailer'ın
 // CRLF açıklarının kaynağı da buydu. Uzunluk da sınırlanıyor.
 function sanitizeHeader(str = '', max = 100) {
   return String(str)
@@ -93,7 +93,7 @@ export default async function handler(req, res) {
       from: `"${sanitizeHeader(isim)} (Web Sitesi Formu)" <${process.env.GMAIL_USER}>`,
       to: toAddress,
       replyTo: `"${sanitizeHeader(isim)}" <${sanitizeHeader(email, 254)}>`,
-      subject: sanitizeHeader(`[İletişim Formu] ${konu ? konu : 'Yeni Mesaj'} — ${isim}`, 200),
+      subject: sanitizeHeader(`[İletişim Formu] ${konu ? konu : 'Yeni Mesaj'}-${isim}`, 200),
       text: `Ad Soyad: ${isim}\nE-posta: ${email}\nTelefon: ${telefon || '-'}\nKonu: ${konu || '-'}\n\nMesaj:\n${mesaj}`,
       html: `
         <div style="font-family: -apple-system, Arial, sans-serif; font-size: 14px; color: #222; line-height: 1.6;">

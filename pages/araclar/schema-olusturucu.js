@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { semaUret, uyarilar, jsonLdMetni, ISLETME_TURLERI, GUNLER } from '../../lib/schema-uretici'
 
-// Schema (JSON-LD) oluşturucu — tamamen tarayıcıda çalışır, veri sunucuya gitmez.
+// Schema (JSON-LD) oluşturucu - tamamen tarayıcıda çalışır, veri sunucuya gitmez.
 // TR: /schema-olusturucu   EN: /en/schema-generator
 
 const TURLER = [
@@ -144,7 +144,7 @@ export default function SchemaOlusturucu(props) {
                     )
                   })}
                   <input aria-label={t('Açılış', 'Opens')} type="time" value={s.acilis} onChange={e => saatGuncelle(i, 'acilis', e.target.value)} style={{ ...F.girdi, width: 'auto' }} />
-                  <span aria-hidden="true">–</span>
+                  <span aria-hidden="true">-</span>
                   <input aria-label={t('Kapanış', 'Closes')} type="time" value={s.kapanis} onChange={e => saatGuncelle(i, 'kapanis', e.target.value)} style={{ ...F.girdi, width: 'auto' }} />
                   <button type="button" onClick={() => set('saatler')(d.saatler.filter((_, j) => j !== i))} aria-label={t('Satırı sil', 'Remove row')} style={{ ...F.ikincil, padding: '6px 10px' }}>✕</button>
                 </div>

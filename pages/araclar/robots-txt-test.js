@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { BOTLAR, ayristir, test, ORNEK_ROBOTS } from '../../lib/robots-test'
 
-// robots.txt test aracı — kurallar tarayıcıda, Google'ın yorumuna göre değerlendirilir.
+// robots.txt test aracı - kurallar tarayıcıda, Google'ın yorumuna göre değerlendirilir.
 // TR: /robots-txt-test   EN: /en/robots-txt-tester
 
 const VARSAYILAN_BOTLAR = ['googlebot', 'googlebot-image', 'bingbot', 'gptbot', 'oai-searchbot', 'claudebot', 'perplexitybot', 'google-extended']

@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { HAZIR, olustur } from '../../lib/utm'
 
-// UTM link oluşturucu — tamamen tarayıcıda çalışır.
+// UTM link oluşturucu - tamamen tarayıcıda çalışır.
 // TR: /utm-olusturucu   EN: /en/utm-builder
 
 const ALAN_BILGI = [

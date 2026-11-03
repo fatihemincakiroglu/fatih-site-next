@@ -61,10 +61,10 @@ export default async function handler(req, res) {
     })
 
     await transporter.sendMail({
-      from: `"Web Sitesi — PDF Kaydı" <${process.env.GMAIL_USER}>`,
+      from: `"Web Sitesi - PDF Kaydı" <${process.env.GMAIL_USER}>`,
       to,
       replyTo: adres,
-      subject: `[PDF Kaydı] ${secilen.tr.baslik} — ${adres}`,
+      subject: `[PDF Kaydı] ${secilen.tr.baslik}-${adres}`,
       text: `Yeni PDF kaydı\n\nListe: ${secilen.tr.baslik}\nE-posta: ${adres}\nSayfa: ${sayfa}\nTarih: ${new Date().toISOString()}`,
     })
 

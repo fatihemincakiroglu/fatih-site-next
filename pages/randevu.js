@@ -56,7 +56,7 @@ export default function Page(props) {
             </div>
             <div style={{ padding: '32px', textAlign: 'center' }}>
               <p style={{ fontSize: '14px', color: '#aaa', marginBottom: '20px' }}>
-                {isEn ? 'Calendly integration — add your Calendly link below.' : 'Calendly entegrasyonu — Calendly linkinizi aşağıya ekleyin.'}
+                {isEn ? 'Calendly integration. Add your Calendly link below.' : 'Calendly entegrasyonu. Calendly linkinizi aşağıya ekleyin.'}
               </p>
               <a href="https://calendly.com/fatihemincakiroglu" target="_blank" rel="noreferrer"
                 style={{ display: 'inline-block', padding: '14px 32px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '15px', fontFamily: 'var(--font-body)' }}>

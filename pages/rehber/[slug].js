@@ -66,7 +66,7 @@ export default function Page(props) {
     : `https://fatihemincakiroglu.com/${slug}`
   const mdUrl = `${canonicalUrl}.md`
   const meta = getRehberMeta(slug)
-  const metaDesc = (veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)) || `${baslik} — ${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
+  const metaDesc = (veri && (isEn ? veri.meta_desc_en : veri.meta_desc_tr)) || `${baslik}-${isEn ? 'Comprehensive guide by Fatih Emin Çakıroğlu. Strategy, technical details and implementation steps.' : 'Fatih Emin Çakıroğlu\'nun hazırladığı kapsamlı rehber. Strateji, teknik detaylar ve uygulama adımları.'}`
 
   // Article şeması. Yazar ve yayıncı, _document.js'teki global Person
   // grafiğine @id ile bağlanır. Tarihler: lib/blog-meta.js → REHBER_META

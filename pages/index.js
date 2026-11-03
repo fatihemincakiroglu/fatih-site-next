@@ -88,13 +88,13 @@ const SUREC_ADIMLARI = {
   tr: [
     { no: '01', baslik: 'Derin Analiz', aciklama: 'Site denetimi, rakip analizi, keyword fırsatları. Neyin işe yarayıp yaramadığını veriyle ortaya koyuyorum.', ikon: '🔬' },
     { no: '02', baslik: 'Özel Strateji', aciklama: 'Sektörünüze, hedef kitlenize ve bütçenize özel SEO & GEO yol haritası. Genel şablonlar yok.', ikon: '🗺️' },
-    { no: '03', baslik: 'Uygulama', aciklama: 'Teknik düzeltmeler, içerik üretimi, link inşası — hepsini koordineli yürütüyorum.', ikon: '⚙️' },
+    { no: '03', baslik: 'Uygulama', aciklama: 'Teknik düzeltmeler, içerik üretimi, link inşası, hepsini koordineli yürütüyorum.', ikon: '⚙️' },
     { no: '04', baslik: 'Ölçüm & Büyüme', aciklama: 'Aylık raporlar, GSC + GA4 entegrasyonu, sürekli optimizasyon. Sürpriz yok, şeffaf iletişim.', ikon: '📈' },
   ],
   en: [
     { no: '01', baslik: 'Deep Analysis', aciklama: 'Site audit, competitor analysis, keyword opportunities. I reveal what works and what doesn\'t with data.', ikon: '🔬' },
     { no: '02', baslik: 'Custom Strategy', aciklama: 'An SEO & GEO roadmap tailored to your sector, target audience, and budget. No generic templates.', ikon: '🗺️' },
-    { no: '03', baslik: 'Execution', aciklama: 'Technical fixes, content production, link building — all coordinated by me.', ikon: '⚙️' },
+    { no: '03', baslik: 'Execution', aciklama: 'Technical fixes, content production, link building, all coordinated by me.', ikon: '⚙️' },
     { no: '04', baslik: 'Measure & Grow', aciklama: 'Monthly reports, GSC + GA4 integration, continuous optimization. No surprises, transparent communication.', ikon: '📈' },
   ],
 }
@@ -135,20 +135,20 @@ const SAYISAL_SONUCLAR = {
 
 const FAQ_SORULAR = {
   tr: [
-    { soru: 'Kaç ayda sonuç alırım?', cevap: 'Teknik düzeltmeler ve hızlı kazanımlar genellikle 4–8 haftada görünür. Organik trafik büyümesi ise rekabete göre değişmekle birlikte 3–6 ayda belirginleşir. Gerçekçi beklentiler ve net kilometre taşları için ilk görüşmede sizi bilgilendiriyorum.' },
+    { soru: 'Kaç ayda sonuç alırım?', cevap: 'Teknik düzeltmeler ve hızlı kazanımlar genellikle 4-8 haftada görünür. Organik trafik büyümesi ise rekabete göre değişmekle birlikte 3-6 ayda belirginleşir. Gerçekçi beklentiler ve net kilometre taşları için ilk görüşmede sizi bilgilendiriyorum.' },
     { soru: 'Fiyatlandırma nasıl?', cevap: 'Proje kapsamına göre aylık retainer veya proje bazlı modelle çalışıyorum. Detaylı fiyatlandırma için /fiyatlandirma sayfasını ziyaret edebilir ya da doğrudan iletişime geçebilirsiniz.' },
     { soru: 'GEO ve SEO arasındaki fark nedir?', cevap: 'SEO, Google gibi geleneksel arama motorlarında görünürlüğü artırmayı hedefler. GEO (Generative Engine Optimization) ise ChatGPT, Perplexity ve Google AI Overview gibi yapay zekâ tabanlı arama sistemlerinde kaynak olarak görünmenizi sağlar. İkisi birbirini tamamlar.' },
     { soru: 'Tek bir hizmet mi almak zorundayım?', cevap: 'Hayır. İhtiyacınıza göre yalnızca teknik SEO, yalnızca içerik stratejisi ya da tüm hizmetleri kapsayan bütünsel bir paket alabilirsiniz. İlk görüşmede ihtiyacınızı birlikte değerlendiriyoruz.' },
-    { soru: 'Ajanslarla mı, bağımsız danışmanla mı çalışmalıyım?', cevap: 'Bağımsız danışman olarak doğrudan sizinle çalışıyorum — ara katmanlar yok. Bu sayede hızlı karar alınıyor, iletişim şeffaf kalıyor ve bütçeniz gereksiz genel giderlere gitmeden işe yatırılıyor.' },
+    { soru: 'Ajanslarla mı, bağımsız danışmanla mı çalışmalıyım?', cevap: 'Bağımsız danışman olarak doğrudan sizinle çalışıyorum, ara katmanlar yok. Bu sayede hızlı karar alınıyor, iletişim şeffaf kalıyor ve bütçeniz gereksiz genel giderlere gitmeden işe yatırılıyor.' },
     { soru: 'Raporlama nasıl ilerliyor?', cevap: 'Her ay GA4 + GSC verilerine dayalı detaylı rapor paylaşıyorum. Trafik, sıralama hareketleri, dönüşüm verileri ve bir sonraki ayın öncelikleri hepsini şeffaf biçimde sunuyorum.' },
   ],
   en: [
-    { soru: 'How soon will I see results?', cevap: 'Technical fixes and quick wins are typically visible within 4–8 weeks. Organic traffic growth becomes more significant in 3–6 months, depending on competition. I set realistic expectations and clear milestones in our first meeting.' },
+    { soru: 'How soon will I see results?', cevap: 'Technical fixes and quick wins are typically visible within 4-8 weeks. Organic traffic growth becomes more significant in 3-6 months, depending on competition. I set realistic expectations and clear milestones in our first meeting.' },
     { soru: 'How does pricing work?', cevap: 'I work on a monthly retainer or project-based model depending on scope. Visit the /pricing page or get in touch directly for detailed pricing.' },
     { soru: 'What is the difference between GEO and SEO?', cevap: 'SEO aims to improve visibility in traditional search engines like Google. GEO (Generative Engine Optimization) makes you appear as a source in AI-based search systems like ChatGPT, Perplexity and Google AI Overview. The two complement each other.' },
     { soru: 'Do I have to buy a single service?', cevap: 'No. Depending on your needs, you can choose only technical SEO, only content strategy, or a comprehensive package covering all services. We assess your needs together in the first meeting.' },
-    { soru: 'Agency vs. independent consultant?', cevap: 'As an independent consultant, I work directly with you — no intermediary layers. This means faster decisions, transparent communication, and your budget goes into the work rather than overhead.' },
-    { soru: 'How does reporting work?', cevap: 'I share a detailed report based on GA4 + GSC data every month. Traffic, ranking movements, conversion data, and next month\'s priorities — all presented transparently.' },
+    { soru: 'Agency vs. independent consultant?', cevap: 'As an independent consultant, I work directly with you, with no intermediary layers. This means faster decisions, transparent communication, and your budget goes into the work rather than overhead.' },
+    { soru: 'How does reporting work?', cevap: 'I share a detailed report based on GA4 + GSC data every month. Traffic, ranking movements, conversion data, and next month\'s priorities, all presented transparently.' },
   ],
 }
 
@@ -178,7 +178,7 @@ const GUIDE_SECTIONS = [
       "Bir markanın hem Google'ın klasik sonuçlarında hem de ChatGPT, Perplexity veya Google AI Overview'ın yanıt kaynaklarında görünmesi için SEO ve GEO çalışmalarının eşgüdümlü yürütülmesi gerekir. Danışmanlığımda bu iki alanı ayrı projeler olarak değil, tek bir görünürlük stratejisinin parçaları olarak yönetiyorum.",
     ]},
     en: { h2: "Why SEO and GEO Should Be Handled Together", body: [
-      "Classic SEO aims to rank in search engine results pages, while GEO (Generative Engine Optimization) aims to get your content cited as a source inside AI-generated answers. These two disciplines aren't alternatives — they're complementary.",
+      "Classic SEO aims to rank in search engine results pages, while GEO (Generative Engine Optimization) aims to get your content cited as a source inside AI-generated answers. These two disciplines aren't alternatives; they're complementary.",
       "For a brand to appear both in Google's classic results and in the source list of answers from ChatGPT, Perplexity or Google AI Overview, SEO and GEO work needs to move together. I manage both as one coordinated visibility strategy, not two separate projects.",
     ]}},
   { id: 'teknik-seo-temel', type: 'text',
@@ -187,17 +187,17 @@ const GUIDE_SECTIONS = [
       "Bir projeye başlarken önceliğim, sitenin teknik sağlığını tam kapsamlı bir denetimle ortaya çıkarmaktır. İçerik ve otorite çalışmaları, sağlam bir teknik temel olmadan beklenen etkiyi göstermez.",
     ]},
     en: { h2: "Why Technical SEO Is the Foundation of Everything", body: [
-      "Even the strongest content strategy underperforms on a site that search engines and AI bots can't crawl properly. Technical SEO covers the invisible but decisive layers — server response times, URL structure, redirects and crawl budget.",
+      "Even the strongest content strategy underperforms on a site that search engines and AI bots can't crawl properly. Technical SEO covers the invisible but decisive layers: server response times, URL structure, redirects and crawl budget.",
       "At the start of any engagement, my priority is a full technical audit to surface the site's actual health. Content and authority work simply won't deliver their expected impact without a solid technical foundation underneath.",
     ]}},
   { id: 'site-hizi-cwv', type: 'text',
     tr: { h2: "Site Hızı ve Core Web Vitals Neden Önemli?", body: [
-      "Core Web Vitals — LCP, INP ve CLS — hem kullanıcı deneyimini hem de Google'ın sıralama algoritmasını doğrudan etkiler. Yavaş açılan, sayfa içinde beklenmedik kaymalar yaşanan bir site, hem ziyaretçiyi hem de arama motorunu kaybettirir.",
+      "Core Web Vitals (LCP, INP ve CLS) hem kullanıcı deneyimini hem de Google'ın sıralama algoritmasını doğrudan etkiler. Yavaş açılan, sayfa içinde beklenmedik kaymalar yaşanan bir site, hem ziyaretçiyi hem de arama motorunu kaybettirir.",
       "Site hızı optimizasyonunu görüntü sıkıştırma, gereksiz script temizliği ve önbellekleme stratejileriyle birlikte ele alıyorum; amaç sadece skor yükseltmek değil, gerçek kullanıcı deneyimini iyileştirmektir.",
     ]},
     en: { h2: "Why Site Speed and Core Web Vitals Matter", body: [
-      "Core Web Vitals — LCP, INP and CLS — directly affect both user experience and Google's ranking algorithm. A slow-loading site with unexpected layout shifts loses both visitors and search engine favor.",
-      "I approach speed optimization holistically — image compression, script cleanup and caching strategy together — because the goal isn't a higher lab score, it's a genuinely better experience for real users.",
+      "Core Web Vitals (LCP, INP and CLS) directly affect both user experience and Google's ranking algorithm. A slow-loading site with unexpected layout shifts loses both visitors and search engine favor.",
+      "I approach speed optimization holistically (image compression, script cleanup and caching strategy together) because the goal isn't a higher lab score, it's a genuinely better experience for real users.",
     ]}},
   { id: 'taranabilirlik', type: 'text',
     tr: { h2: "Taranabilirlik ve İndeksleme Nasıl Yönetilir?", body: [
@@ -256,24 +256,24 @@ const GUIDE_SECTIONS = [
     ]}},
   { id: 'seo-tablo', type: 'table',
     tr: { h2: "SEO Çalışmalarının Markanıza Katkısı", body: [
-      "Organik trafik tek başına sadece bir sayıdır. Nitelikli görünürlük, arama niyetiyle örtüşen sonuçlar demektir — sadece ziyaret eden değil, dönüşen bir kitle. Bu görünürlük pratikte şu şekilde inşa edilir:",
+      "Organik trafik tek başına sadece bir sayıdır. Nitelikli görünürlük, arama niyetiyle örtüşen sonuçlar demektir, yani sadece ziyaret eden değil, dönüşen bir kitle. Bu görünürlük pratikte şu şekilde inşa edilir:",
     ]},
     en: { h2: "What SEO Work Delivers for Your Brand", body: [
-      "Organic traffic alone is just a number. Qualified visibility means results that match real search intent — visitors who convert, not just visit. Here is how that visibility is built in practice:",
+      "Organic traffic alone is just a number. Qualified visibility means results that match real search intent: visitors who convert, not just visit. Here is how that visibility is built in practice:",
     ]}},
   { id: 'geo-nedir', type: 'text',
     tr: { h2: "GEO (Generative Engine Optimization) Nedir?", body: [
       "GEO, içeriğinizin yapay zekâ destekli yanıt motorları (ChatGPT, Perplexity, Google Gemini, Google AI Overview) tarafından anlaşılabilir, taranabilir ve kaynak olarak gösterilebilir hale getirilmesidir. Klasik SERP sıralamasından farklı olarak, GEO'nun ölçütü tıklama değil, yanıt içinde alıntılanma sıklığıdır.",
     ]},
     en: { h2: "What Is GEO (Generative Engine Optimization)?", body: [
-      "GEO is the practice of making your content understandable, crawlable and citable by AI-driven answer engines like ChatGPT, Perplexity, Google Gemini and Google AI Overview. Unlike classic SERP ranking, GEO's success metric isn't clicks — it's citation frequency inside generated answers.",
+      "GEO is the practice of making your content understandable, crawlable and citable by AI-driven answer engines like ChatGPT, Perplexity, Google Gemini and Google AI Overview. Unlike classic SERP ranking, GEO's success metric isn't clicks; it's citation frequency inside generated answers.",
     ]}},
   { id: 'ai-yanit-motoru', type: 'text',
     tr: { h2: "Yapay Zekâ Yanıt Motorlarında Kaynak Olmak", body: [
-      "AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır. Kullanıcı sizin sitenize hiç gelmeden de markanızla tanışabilir — bu da marka bilinirliğinin yeni bir kanalıdır.",
+      "AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır. Kullanıcı sizin sitenize hiç gelmeden de markanızla tanışabilir; bu da marka bilinirliğinin yeni bir kanalıdır.",
     ]},
     en: { h2: "Becoming a Cited Source in AI Answer Engines", body: [
-      "Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy. A user can discover your brand without ever visiting your site — a new channel for brand awareness in itself.",
+      "Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy. A user can discover your brand without ever visiting your site. That is a new channel for brand awareness in itself.",
     ]}},
   { id: 'llms-txt', type: 'text',
     tr: { h2: "LLMs.txt ve Yeni Teknik Standartlar", body: [
@@ -291,10 +291,10 @@ const GUIDE_SECTIONS = [
     ]}},
   { id: 'soru-cevap-format', type: 'text',
     tr: { h2: "Soru-Cevap Formatında İçerik Neden Alıntılanır?", body: [
-      "Yapay zekâ sistemleri, net bir soruya net bir cevap veren blokları daha kolay ayrıştırır ve alıntılar. Bu nedenle sayfalarımda uzun paragraflar yerine, konunun alt başlıklarını doğrudan soru cümleleriyle kurup her birine odaklı bir yanıt veriyorum — tam da bu bölümde uyguladığım format gibi.",
+      "Yapay zekâ sistemleri, net bir soruya net bir cevap veren blokları daha kolay ayrıştırır ve alıntılar. Bu nedenle sayfalarımda uzun paragraflar yerine, konunun alt başlıklarını doğrudan soru cümleleriyle kurup her birine odaklı bir yanıt veriyorum, tam da bu bölümde uyguladığım format gibi.",
     ]},
     en: { h2: "Why Q&A-Formatted Content Gets Cited More", body: [
-      "AI systems parse and cite blocks that answer a clear question with a clear answer far more easily. That's why I structure subheadings as direct questions with focused answers rather than long, undifferentiated paragraphs — exactly the format you're reading in this section.",
+      "AI systems parse and cite blocks that answer a clear question with a clear answer far more easily. That's why I structure subheadings as direct questions with focused answers rather than long, undifferentiated paragraphs, exactly the format you're reading in this section.",
     ]}},
   { id: 'geo-kazanim', type: 'list',
     tr: { h2: "GEO ve AI Görünürlüğü Markanıza Ne Kazandırır?", body: [
@@ -308,7 +308,7 @@ const GUIDE_SECTIONS = [
       "Arama motorları ve AI sistemleri markanızı bir 'entity' (varlık) olarak tanımlar; adınızın, hizmetlerinizin ve ilişkili kavramların farklı platformlarda tutarlı şekilde geçmesi bu tanımı güçlendirir. Knowledge Graph'ta tutarlı bir varlık olmak, hem klasik aramada hem de AI yanıtlarında güven puanınızı yükseltir.",
     ]},
     en: { h2: "Entity Authority and Knowledge Graph Consistency", body: [
-      "Search engines and AI systems identify your brand as an 'entity' — consistent mentions of your name, services and related concepts across platforms strengthen that identity. Being a consistent entity in the Knowledge Graph raises your trust score in both classic search and AI answers.",
+      "Search engines and AI systems identify your brand as an 'entity', and consistent mentions of your name, services and related concepts across platforms strengthen that identity. Being a consistent entity in the Knowledge Graph raises your trust score in both classic search and AI answers.",
     ]}},
   { id: 'backlink-pr', type: 'text',
     tr: { h2: "Backlink ve Dijital PR'ın Rolü", body: [
@@ -329,7 +329,7 @@ const GUIDE_SECTIONS = [
       "Görünürlük tek başına yeterli değildir; siteye gelen ziyaretçinin aradığını hızlıca bulup bir eyleme (form doldurma, arama, satın alma) yönelmesi gerekir. Mobil uyum, sayfa hızı ve sade bir dönüşüm akışı, aynı trafikten daha fazla nitelikli talep üretmenin en doğrudan yoludur.",
     ]},
     en: { h2: "User Experience and Conversion Optimization", body: [
-      "Visibility alone isn't enough — a visitor needs to quickly find what they're looking for and move toward an action (filling a form, searching, buying). Mobile responsiveness, page speed and a simplified conversion flow are the most direct way to generate more qualified demand from the same traffic.",
+      "Visibility alone isn't enough; a visitor needs to quickly find what they're looking for and move toward an action (filling a form, searching, buying). Mobile responsiveness, page speed and a simplified conversion flow are the most direct way to generate more qualified demand from the same traffic.",
     ]}},
   { id: 'yerel-seo', type: 'text',
     tr: { h2: "Yerel SEO ile Bölgesel Görünürlük", body: [
@@ -364,14 +364,14 @@ const GUIDE_SECTIONS = [
       "Domain değişikliği, platform geçişi veya site yeniden tasarımı, doğru yönetilmediğinde yıllarca biriken organik otoritenin kaybolmasına yol açabilir. URL eşleştirme, 301 yönlendirme planı ve geçiş sonrası izleme, bu risklerin önüne geçmenin tek yoludur.",
     ]},
     en: { h2: "Risk Management in Site Migrations and Technical Transitions", body: [
-      "A domain change, platform migration or site redesign — if mismanaged — can wipe out years of accumulated organic authority. URL mapping, a proper 301 redirect plan and post-migration monitoring are the only way to prevent that loss.",
+      "A domain change, platform migration or site redesign, if mismanaged, can wipe out years of accumulated organic authority. URL mapping, a proper 301 redirect plan and post-migration monitoring are the only way to prevent that loss.",
     ]}},
   { id: 'neden-bagimsiz', type: 'cta',
     tr: { h2: "Neden Bağımsız Bir SEO Danışmanı?", body: [
       "8+ yıllık deneyimle 14 sektörde 150+ markaya danışmanlık verdim; hazırladığım her yol haritası o markaya özeldir, standart bir pakete sıkıştırılmaz. Hesabınız bir junior ekip üyesine devredilmez: sitenizi denetleyen kişi ile size her ay sonucu raporlayan kişi aynı kişidir.",
     ]},
     en: { h2: "Why Work with an Independent Consultant?", body: [
-      "With 8+ years of hands-on experience across 150+ brands in 14 sectors, every roadmap I build is tailored to that specific business — not a templated package. There's no account handoff to a junior team member: the person who audits your site is the same person who reports the results to you, every month.",
+      "With 8+ years of hands-on experience across 150+ brands in 14 sectors, every roadmap I build is tailored to that specific business, not a templated package. There's no account handoff to a junior team member: the person who audits your site is the same person who reports the results to you, every month.",
     ]}},
 ]
 
@@ -517,7 +517,7 @@ export default function Page(props) {
               </div>
             </div>
 
-            {/* Sağ — Google Mock */}
+            {/* Sağ - Google Mock */}
             <div style={{ position: 'relative' }}>
               <div style={{ position: 'absolute', top: '-12px', right: '20px', background: '#fff', border: '1px solid #eee', borderRadius: '10px', padding: '8px 14px', boxShadow: '0 4px 16px rgba(0,0,0,0.1)', zIndex: 2, display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <span style={{ fontSize: '18px', fontWeight: 900, color: '#111' }}>#1</span>
@@ -697,7 +697,7 @@ export default function Page(props) {
                 {isEn ? 'Sustainable Growth with SEO, GEO and AI Visibility' : 'SEO, GEO ve AI Görünürlüğü ile Sürdürülebilir Büyüme'}
               </h2>
               <p style={{ fontSize: '15px', color: '#9ca3af', maxWidth: '620px', margin: '0 auto 24px', lineHeight: 1.7 }}>
-                {isEn ? "Organic rankings, AI answer engines and LLM citation — strategy, technical execution and measurement, managed under one roof by a single dedicated consultant." : 'Organik sıralamalar, yapay zekâ yanıt motorları ve LLM kaynaklığı — strateji, teknik uygulama ve ölçümleme, tek bir uzman danışman çatısı altında yönetilir.'}
+                {isEn ? "Organic rankings, AI answer engines and LLM citation. Strategy, technical execution and measurement, managed under one roof by a single dedicated consultant." : 'Organik sıralamalar, yapay zekâ yanıt motorları ve LLM kaynaklığı. Strateji, teknik uygulama ve ölçümleme, tek bir uzman danışman çatısı altında yönetilir.'}
               </p>
               <div style={{ display: 'flex', gap: '8px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '28px' }}>
                 {['SEO', 'GEO', 'AI SEO'].map(tag => (
@@ -712,7 +712,7 @@ export default function Page(props) {
             {/* İçerik: sol TOC (scroll ile hareket eden + aktif başlığı takip eden) + sağ içerik */}
             <div className="seo-guide-grid" style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px' }}>
 
-              {/* Sol TOC — dış hücre grid tarafından tam yüksekliğe stretch edilir, sticky iç div'de */}
+              {/* Sol TOC - dış hücre grid tarafından tam yüksekliğe stretch edilir, sticky iç div'de */}
               <div className="seo-guide-toc">
                 <div className="sticky-sidebar" style={{ background: '#141414', borderRadius: '16px', border: '1px solid #262626', padding: '20px', position: 'sticky', top: 'calc(var(--nav-h) + 24px)', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
                   <div style={{ fontSize: '11px', fontWeight: 700, color: '#777', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '14px' }}>
@@ -800,7 +800,7 @@ export default function Page(props) {
                           {(isEn ? [
                             'Being cited as a trusted source inside AI Overview, ChatGPT or Perplexity answers builds authority that clicks alone cannot buy.',
                             "Classic ranking factors lean on link authority; GEO leans on semantic depth, citability and how directly your content answers a question.",
-                            'A page that ranks lower in classic search can still be the first source an AI system cites — if its answer is the clearest one available.',
+                            'A page that ranks lower in classic search can still be the first source an AI system cites, if its answer is the clearest one available.',
                             'Brands that establish themselves early in AI-driven discovery gain a durable edge as algorithms keep evolving.',
                           ] : [
                             'AI Overview, ChatGPT veya Perplexity yanıtlarında güvenilir bir kaynak olarak gösterilmek, tek başına tıklamayla satın alınamayacak bir otorite kazandırır.',
@@ -824,7 +824,7 @@ export default function Page(props) {
                               {isEn ? 'Want a roadmap tailored to your brand?' : 'Markanıza özel bir yol haritası ister misiniz?'}
                             </div>
                             <div style={{ fontSize: '14px', color: '#777' }}>
-                              {isEn ? 'Book a free discovery call — no obligation.' : 'Ücretsiz keşif görüşmesi için hemen randevu alın.'}
+                              {isEn ? 'Book a free discovery call, no obligation.' : 'Ücretsiz keşif görüşmesi için hemen randevu alın.'}
                             </div>
                           </div>
                           <Link href={isEn ? '/en/book-a-call' : '/randevu'} style={{ padding: '12px 26px', background: 'var(--orange)', color: '#fff', borderRadius: '8px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)', whiteSpace: 'nowrap' }}>
@@ -862,13 +862,13 @@ export default function Page(props) {
               </h2>
               <p style={{ fontSize: '15px', color: '#aaa', lineHeight: 1.8, marginBottom: '20px' }}>
                 {isEn
-                  ? "I taught IB curriculum for 5 years. Teaching isn't about transferring knowledge — it's about making someone understand. That perspective shapes everything I do in SEO: clear strategies, explainable results, no jargon."
-                  : '5 yıl IB müfredatıyla öğretmenlik yaptım. Öğretmek, bilgiyi aktarmak değil — karşındakinin anlamasını sağlamaktır. Bu bakış açısı SEO\'daki her şeyimi şekillendiriyor: net stratejiler, açıklanabilir sonuçlar, jargon yok.'}
+                  ? "I taught IB curriculum for 5 years. Teaching isn't about transferring knowledge; it's about making someone understand. That perspective shapes everything I do in SEO: clear strategies, explainable results, no jargon."
+                  : '5 yıl IB müfredatıyla öğretmenlik yaptım. Öğretmek, bilgiyi aktarmak değil, karşındakinin anlamasını sağlamaktır. Bu bakış açısı SEO\'daki her şeyimi şekillendiriyor: net stratejiler, açıklanabilir sonuçlar, jargon yok.'}
               </p>
               <p style={{ fontSize: '15px', color: '#aaa', lineHeight: 1.8, marginBottom: '32px' }}>
                 {isEn
                   ? '2018\'den beri 150+ markayla, 14 farklı sektörde büyüme hikâyeleri yazdım. Bağımsız danışman olarak doğrudan sizinle çalışıyorum.'
-                  : '2018\'den beri 150+ markayla, 14 farklı sektörde büyüme hikâyeleri yazdım. Bağımsız danışman olarak doğrudan sizinle çalışıyorum — ara katmanlar yok.'}
+                  : '2018\'den beri 150+ markayla, 14 farklı sektörde büyüme hikâyeleri yazdım. Bağımsız danışman olarak doğrudan sizinle çalışıyorum; ara katmanlar yok.'}
               </p>
               <Link href={isEn ? '/en/about' : '/hakkimda'} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '12px 24px', borderRadius: '8px', background: 'var(--orange)', color: '#fff', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-body)' }}>
                 {isEn ? 'Full Story →' : 'Hikâyemi Oku →'}
@@ -877,9 +877,9 @@ export default function Page(props) {
             {/* Zaman çizelgesi */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
               {[
-                { yil: '2013–2018', baslik: isEn ? 'IB Teacher' : 'IB Öğretmeni', aciklama: isEn ? 'Marmara University Computer Education graduate. 5 years teaching critical thinking and structured problem-solving.' : 'Marmara Üniversitesi Bilgisayar Eğitimi mezunu. 5 yıl eleştirel düşünme ve yapılandırılmış problem çözme öğrettim.', ikon: '🎓', renk: '#7c3aed' },
-                { yil: '2018–2022', baslik: isEn ? 'SEO Specialist' : 'SEO Uzmanı', aciklama: isEn ? 'Entered the digital world. Worked with agencies and in-house teams, grew across 14 sectors.' : 'Dijital dünyaya girdim. Ajans ve in-house ekiplerde çalışarak 14 sektörde büyüdüm.', ikon: '🔍', renk: '#0891b2' },
-                { yil: '2022–', baslik: isEn ? 'Independent Consultant' : 'Bağımsız Danışman', aciklama: isEn ? '150+ brands, direct collaboration, sustainable growth. Both SEO and GEO.' : '150+ marka, doğrudan iş birliği, sürdürülebilir büyüme. Hem SEO hem GEO.', ikon: '🚀', renk: '#e8560a' },
+                { yil: '2013-2018', baslik: isEn ? 'IB Teacher' : 'IB Öğretmeni', aciklama: isEn ? 'Marmara University Computer Education graduate. 5 years teaching critical thinking and structured problem-solving.' : 'Marmara Üniversitesi Bilgisayar Eğitimi mezunu. 5 yıl eleştirel düşünme ve yapılandırılmış problem çözme öğrettim.', ikon: '🎓', renk: '#7c3aed' },
+                { yil: '2018-2022', baslik: isEn ? 'SEO Specialist' : 'SEO Uzmanı', aciklama: isEn ? 'Entered the digital world. Worked with agencies and in-house teams, grew across 14 sectors.' : 'Dijital dünyaya girdim. Ajans ve in-house ekiplerde çalışarak 14 sektörde büyüdüm.', ikon: '🔍', renk: '#0891b2' },
+                { yil: '2022-', baslik: isEn ? 'Independent Consultant' : 'Bağımsız Danışman', aciklama: isEn ? '150+ brands, direct collaboration, sustainable growth. Both SEO and GEO.' : '150+ marka, doğrudan iş birliği, sürdürülebilir büyüme. Hem SEO hem GEO.', ikon: '🚀', renk: '#e8560a' },
               ].map((item, i, arr) => (
                 <div key={i} style={{ display: 'flex', gap: '20px', position: 'relative' }}>
                   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

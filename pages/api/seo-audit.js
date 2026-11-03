@@ -81,7 +81,7 @@ export default async function handler(req, res) {
       https: { ok: isHttps, label: isHttps ? 'Aktif' : 'Yok', detail: isHttps ? 'Bağlantı SSL ile şifreleniyor.' : 'Site HTTPS üzerinden sunulmuyor.' },
       title: { ok: !!title && titleLength >= 15 && titleLength <= 65, label: title ? `${titleLength} karakter` : 'Bulunamadı', detail: title || 'Title etiketi bulunamadı.' },
       metaDescription: { ok: !!metaDescription && descLength >= 50 && descLength <= 165, label: metaDescription ? `${descLength} karakter` : 'Bulunamadı', detail: metaDescription || 'Meta açıklama bulunamadı.' },
-      viewport: { ok: !!viewport, label: viewport ? 'Var' : 'Yok', detail: viewport ? 'Mobil viewport etiketi mevcut.' : 'Mobil viewport etiketi eksik — mobil uyumluluk riskli.' },
+      viewport: { ok: !!viewport, label: viewport ? 'Var' : 'Yok', detail: viewport ? 'Mobil viewport etiketi mevcut.' : 'Mobil viewport etiketi eksik, mobil uyumluluk riskli.' },
       canonical: { ok: !!canonical, label: canonical ? 'Var' : 'Yok', detail: canonical || 'Canonical etiketi bulunamadı.' },
       h1: { ok: h1Matches.length === 1, label: `${h1Matches.length} adet`, detail: h1Matches.length === 0 ? 'H1 etiketi bulunamadı.' : h1Matches.length > 1 ? 'Birden fazla H1 etiketi var, tek olması önerilir.' : 'Sayfada tek bir H1 etiketi var.' },
       imagesAlt: { ok: imgsWithoutAlt === 0, label: `${imgsWithoutAlt} / ${imgMatches.length} eksik`, detail: imgsWithoutAlt === 0 ? 'Tüm görsellerde alt metin mevcut.' : `${imgsWithoutAlt} görselde alt metin eksik.` },

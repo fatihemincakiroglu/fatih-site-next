@@ -90,7 +90,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "En sık sorulan satır",
-      "metin": "“Tarandı – şu anda dizine eklenmemiş” durumu teknik bir engel değil, bir kalite ve öncelik kararıdır. Teşhis ve çözüm adımlarını [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında ayrıntılı anlattım."
+      "metin": "“Tarandı - şu anda dizine eklenmemiş” durumu teknik bir engel değil, bir kalite ve öncelik kararıdır. Teşhis ve çözüm adımlarını [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısında ayrıntılı anlattım."
      }
     },
     "Rapordaki site haritası filtresi çok işe yarar: “Gönderilen tüm sayfalar” seçildiğinde yalnızca dizine eklenmesini istediğinizi beyan ettiğiniz URL'lerin durumunu görürsünüz."
@@ -244,7 +244,7 @@
      "kutu": {
       "tur": "not",
       "baslik": "The most asked-about status",
-      "metin": "“Crawled – currently not indexed” is not a technical block but a quality and priority decision. I cover diagnosis and fixes in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis)."
+      "metin": "“Crawled - currently not indexed” is not a technical block but a quality and priority decision. I cover diagnosis and fixes in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis)."
      }
     },
     "The sitemap filter is very handy: choosing “All submitted pages” shows only the URLs you have declared you want indexed."

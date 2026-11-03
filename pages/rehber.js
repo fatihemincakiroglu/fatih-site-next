@@ -110,7 +110,7 @@ export default function Page(props) {
             <span style={{ marginLeft: 'auto', fontSize: '13px', color: '#aaa' }}>{filtered.length} {t.countSuffix}</span>
           </div>
 
-          {/* Grid — tıklandığında ayrı sayfaya */}
+          {/* Grid - tıklandığında ayrı sayfaya */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
             {filtered.map((r, i) => {
               const renk = KAT_RENK[r.kategori] || { bg: '#f5f5f5', color: '#555' };

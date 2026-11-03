@@ -11,7 +11,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
-        <title>Sitemap — fatihemincakiroglu.com</title>
+        <title>Sitemap | fatihemincakiroglu.com</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <style>
@@ -130,7 +130,7 @@
       <div class="intro-divider"/>
       <div class="intro-text">
         <a href="/sitemap.xml" style="color:#e8560a;font-weight:700;">← Sitemap Index</a>
-        — Her URL hreflang alternate linkleri içerir.
+        · Her URL hreflang alternate linkleri içerir.
       </div>
     </div>
 

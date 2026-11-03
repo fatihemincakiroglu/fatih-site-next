@@ -105,13 +105,13 @@ const FAQS = {
     { s: 'SEO sonuçları ne zaman görülür?', c: 'Teknik iyileştirmeler 4-8 haftada etkisini gösterir. Anlamlı sıralama yükselişleri 3-4 ayda başlar; kalıcı büyüme 6-12 ay perspektifinde değerlendirilmelidir.' },
     { s: 'Aylık ne kadar yatırım gerekli?', c: 'Projenin kapsamına, sektörünüze ve rekabet düzeyine göre değişir. İlk görüşmede sitenizi analiz edip özel teklif hazırlarım.' },
     { s: 'Garanti var mı?', c: 'Google sıralama garantisi veren hiçbir ajans veya danışman dürüst değildir. Ben ölçülebilir ilerleme, şeffaf raporlama ve veri odaklı strateji taahhüt ederim.' },
-    { s: 'Mevcut sitem varken SEO\'ya başlayabilir miyim?', c: 'Evet — mevcut site yapısına en az müdahaleyle maksimum iyileştirme sağlayan bir yaklaşım benimsiyorum. İlk adım kapsamlı bir teknik ve içerik denetimidir.' },
+    { s: 'Mevcut sitem varken SEO\'ya başlayabilir miyim?', c: 'Evet, mevcut site yapısına en az müdahaleyle maksimum iyileştirme sağlayan bir yaklaşım benimsiyorum. İlk adım kapsamlı bir teknik ve içerik denetimidir.' },
   ],
   en: [
     { s: 'When do SEO results appear?', c: 'Technical improvements show impact within 4-8 weeks. Meaningful ranking improvements start at 3-4 months; sustainable growth should be evaluated on a 6-12 month horizon.' },
     { s: 'How much monthly investment is needed?', c: 'It varies based on your project scope, industry and competition level. In the initial call, I analyze your site and prepare a custom proposal.' },
     { s: 'Is there a guarantee?', c: 'Any agency or consultant that guarantees Google rankings is not being honest. I commit to measurable progress, transparent reporting and data-driven strategy.' },
-    { s: 'Can I start SEO with my existing site?', c: 'Yes — I take an approach that maximizes improvement with minimal disruption to your existing site structure. The first step is a comprehensive technical and content audit.' },
+    { s: 'Can I start SEO with my existing site?', c: 'Yes, I take an approach that maximizes improvement with minimal disruption to your existing site structure. The first step is a comprehensive technical and content audit.' },
   ],
 }
 
@@ -140,7 +140,7 @@ export default function Page(props) {
     ],
     hizmetler_h2: 'Our Services',
     teknik_h2: 'Technical SEO Audit',
-    teknik_desc: 'A slow, broken or poorly structured site can never rank — no matter how good the content is. My technical SEO process starts with a deep crawl and ends with a prioritized action plan.',
+    teknik_desc: 'A slow, broken or poorly structured site can never rank, no matter how good the content is. My technical SEO process starts with a deep crawl and ends with a prioritized action plan.',
     teknik_liste: [
       'Crawl error detection and resolution',
       'Core Web Vitals optimization (LCP, INP, CLS)',
@@ -171,7 +171,7 @@ export default function Page(props) {
     stats_h2: 'The Numbers Behind SEO',
     faq_h2: 'FAQ',
     cta_h2: 'Get Your Free SEO Audit',
-    cta_desc: 'I\'ll analyze your site, identify top opportunities, and show you exactly what\'s holding your rankings back — no strings attached.',
+    cta_desc: 'I\'ll analyze your site, identify top opportunities, and show you exactly what\'s holding your rankings back, no strings attached.',
     cta_btn: 'Book a Free Call →',
     breadcrumb: ['Home', 'Services', 'SEO Consulting'],
   } : {
@@ -224,7 +224,7 @@ export default function Page(props) {
     stats_h2: 'SEO\'nun Arkasındaki Rakamlar',
     faq_h2: 'Sık Sorulan Sorular',
     cta_h2: 'Ücretsiz SEO Analizi Alın',
-    cta_desc: 'Sitenizi analiz edip en büyük fırsatları tespit edeceğim ve sıralamalarınızı geri tutan engelleri net biçimde göstereceğim — hiçbir yükümlülük olmadan.',
+    cta_desc: 'Sitenizi analiz edip en büyük fırsatları tespit edeceğim ve sıralamalarınızı geri tutan engelleri net biçimde göstereceğim, hiçbir yükümlülük olmadan.',
     cta_btn: 'Ücretsiz Görüşme Başlat →',
     breadcrumb: ['Ana Sayfa', 'Hizmetler', 'SEO Uzmanı'],
   }
@@ -383,8 +383,8 @@ export default function Page(props) {
               {/* H3 sub-sections */}
               {[
                 { h3: t.anahtar_h3, icerik: isEn
-                  ? 'Every strategy starts with finding the right keywords — not just high-volume terms, but queries your ideal customer actually types at each stage of their journey. I use a combination of Ahrefs, SEMrush and Search Console data to build a keyword map that drives real business results.'
-                  : 'Her strateji doğru anahtar kelimeleri bulmakla başlar — yalnızca yüksek hacimli terimler değil, ideal müşterinizin yolculuğunun her aşamasında gerçekten yazdığı sorgular. Gerçek iş sonuçları yaratan bir anahtar kelime haritası oluşturmak için Ahrefs, SEMrush ve Search Console verilerini birleştiriyorum.' },
+                  ? 'Every strategy starts with finding the right keywords, not just high-volume terms, but queries your ideal customer actually types at each stage of their journey. I use a combination of Ahrefs, SEMrush and Search Console data to build a keyword map that drives real business results.'
+                  : 'Her strateji doğru anahtar kelimeleri bulmakla başlar: yalnızca yüksek hacimli terimler değil, ideal müşterinizin yolculuğunun her aşamasında gerçekten yazdığı sorgular. Gerçek iş sonuçları yaratan bir anahtar kelime haritası oluşturmak için Ahrefs, SEMrush ve Search Console verilerini birleştiriyorum.' },
                 { h3: t.rakip_h3, icerik: isEn
                   ? 'Understanding what\'s working for your competitors is as important as knowing your own site. I analyze competitor keyword gaps, backlink profiles, content strategies and SERP feature visibility to identify actionable opportunities you can act on immediately.'
                   : 'Rakiplerinizde neyin işe yaradığını anlamak, kendi sitenizi bilmek kadar önemlidir. Anında harekete geçebileceğiniz fırsatlar belirlemek için rakiplerin anahtar kelime boşluklarını, backlink profillerini, içerik stratejilerini ve SERP özellik görünürlüklerini analiz ediyorum.' },

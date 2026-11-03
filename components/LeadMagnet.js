@@ -23,7 +23,7 @@ export default function LeadMagnet({ isEn = false, compact = false, liste = 'tek
     placeholder: 'Your email address',
     btn: 'Send me the PDF →',
     sending: 'Sending...',
-    done: '✓ Your download has started — enjoy!',
+    done: '✓ Your download has started, enjoy!',
     error: 'Please enter a valid email address.',
     failed: 'We could not save your email right now, but you can still download the PDF:',
     download: 'Download the PDF',
