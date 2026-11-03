@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import AiOzetle from '../../components/AiOzetle';
@@ -10,6 +11,7 @@ import { sayfaninListesi } from '../../lib/kontrol-listeleri';
 import { renderInline, renderBlok } from '../../components/IcerikBlok';
 import { rehberStaticPaths, rehberStaticProps } from '../../lib/rehber-icerikler';
 import { REHBER_LISTE } from '../../lib/rehber-liste';
+import { ILGILI_REHBERLER, getRehberKapak } from '../../lib/ilgili-icerik';
 
 const KAT_RENK = {
   'Teknik':        { bg: '#e0f2fe', color: '#0369a1', accent: '#0ea5e9' },
@@ -33,11 +35,12 @@ export default function Page(props) {
   const metaBaslik = (veri && (isEn ? veri.meta_baslik_en : veri.meta_baslik_tr)) || baslik
   // Meta başlık biçimi: "Konu | SEO Rehberi" (en fazla 54 karakter, iki nokta yok)
   const sayfaBasligi = `${metaBaslik} | ${isEn ? 'SEO Guide' : 'SEO Rehberi'}`
-  // İlgili rehberler: önce aynı kategori, sonra diğerleri; en fazla 3.
+  // İlgili rehberler: lib/ilgili-icerik.js (elle seçilmiş), eksikse aynı kategori
   const digerRehberler = REHBER_LISTE.filter(r => r.slug !== slug)
+  const seciliRehberler = (ILGILI_REHBERLER[slug] || []).map(s => digerRehberler.find(r => r.slug === s)).filter(Boolean)
   const ilgiliRehberler = [
-    ...digerRehberler.filter(r => r.kategori === veri?.kategori),
-    ...digerRehberler.filter(r => r.kategori !== veri?.kategori),
+    ...seciliRehberler,
+    ...digerRehberler.filter(r => r.kategori === veri?.kategori && !seciliRehberler.includes(r)),
   ].slice(0, 3)
 
   const [aktifBolum, setAktifBolum] = useState(0)
@@ -158,10 +161,15 @@ export default function Page(props) {
             {ilgiliRehberler.map(r => {
               const l = isEn ? r.en : r.tr
               return (
-                <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`} style={{ display: 'block', padding: '16px', borderRadius: '12px', border: '1px solid #eee', background: '#faf9f7', textDecoration: 'none' }}>
-                  <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>
-                  <div style={{ fontSize: '12.5px', color: '#777', lineHeight: 1.55, marginBottom: '8px' }}>{l.ozet}</div>
-                  <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>
+                <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`} style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '12px', border: '1px solid #eee', background: '#fff', textDecoration: 'none' }}>
+                  <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: '#f3f3f3' }}>
+                    <Image src={getRehberKapak(r.slug)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
+                  </div>
+                  <div style={{ padding: '14px 16px 16px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>
+                    <div style={{ fontSize: '12.5px', color: '#777', lineHeight: 1.55, marginBottom: '8px', flex: 1 }}>{l.ozet}</div>
+                    <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>
+                  </div>
                 </Link>
               )
             })}

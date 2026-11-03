@@ -10,6 +10,7 @@ import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
 import { renderBlok, renderInline } from '../../components/IcerikBlok';
 import IlgiliRehberler from '../../components/IlgiliRehberler';
+import { ILGILI_YAZILAR, YAZI_REHBERLERI } from '../../lib/ilgili-icerik';
 import LeadMagnet from '../../components/LeadMagnet';
 import { sayfaninListesi } from '../../lib/kontrol-listeleri';
 import { blogStaticPaths, blogStaticProps } from '../../lib/blog-icerikler';
@@ -70,82 +71,14 @@ export default function BlogPost(props) {
   const kapak = getBlogKapak(slug)
   const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
 
-  // İlgili rehberler: her yazı için konuya en yakın rehberler (components/IlgiliRehberler.js)
-  const REHBER_ESLESME = {
-    'core-web-vitals-2025': ['teknik-seo', 'site-tasima-seo', 'e-ticaret-seo'],
-    'seo-ajansi-nasil-secilir': ['seo-raporlama', 'anahtar-kelime-arastirmasi', 'teknik-seo'],
-    'geo-ajansi-nasil-secilir': ['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr'],
-    'sosyal-medya-ajansi-nasil-secilir': ['icerik-stratejisi', 'seo-raporlama', 'backlink-dijital-pr'],
-    'dijital-pazarlama-ajansi-nasil-secilir': ['seo-raporlama', 'icerik-stratejisi', 'anahtar-kelime-arastirmasi'],
-    'seo-ajansi-fiyatlari': ['seo-raporlama', 'teknik-seo', 'anahtar-kelime-arastirmasi'],
-    'chatgpt-marka-gorunurlugu': ['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr'],
-    'llms-txt-rehberi': ['geo-uygulama', 'schema-yapisal-veri', 'teknik-seo'],
-    'seo-uzmani-mi-seo-ajansi-mi': ['seo-raporlama', 'anahtar-kelime-arastirmasi', 'site-tasima-seo'],
-    'google-business-profile': ['yerel-seo', 'saglik-seo', 'schema-yapisal-veri'],
-    'tarandi-dizine-eklenmemis': ["teknik-seo", "e-ticaret-seo", "icerik-stratejisi"],
-    'cekirdek-guncelleme-trafik-dususu': ["seo-raporlama", "icerik-stratejisi", "backlink-dijital-pr"],
-    'programatik-seo': ["anahtar-kelime-arastirmasi", "yerel-seo", "schema-yapisal-veri"],
-    'e-ticaret-altyapisi-seo-karsilastirma': ["e-ticaret-seo", "site-tasima-seo", "schema-yapisal-veri"],
-    'trendyol-magazasi-mi-kendi-site-mi': ["geo-uygulama", "e-ticaret-seo", "backlink-dijital-pr"],
-    'avukatlar-icin-seo': ["teknik-seo", "schema-yapisal-veri", "geo-uygulama"],
-    'dis-klinikleri-yerel-seo': ["saglik-seo", "yerel-seo", "seo-raporlama"],
-    'google-ai-mode-turkiye': ["geo-uygulama", "schema-yapisal-veri", "seo-raporlama"],
-    'perplexity-kaynak-gosterilme': ["geo-uygulama", "teknik-seo", "icerik-stratejisi"],
-    'marka-bahsi-brand-mention': ["backlink-dijital-pr", "geo-uygulama", "yerel-seo"],
-    'yoast-mu-rank-math-mi': ["site-tasima-seo", "teknik-seo", "schema-yapisal-veri"],
-    'yapay-zeka-icerik-google-politikasi': ["schema-yapisal-veri", "e-ticaret-seo", "icerik-stratejisi"],
-    'ga4-yapay-zeka-trafigi': ["seo-raporlama", "geo-uygulama"],
-    'seo-mu-google-ads-mi': ["anahtar-kelime-arastirmasi", "seo-raporlama"],
-    'google-yorumlarina-cevap': ["geo-uygulama", "yerel-seo", "saglik-seo"],
-    '301-302-yonlendirme': ["site-tasima-seo", "teknik-seo", "icerik-stratejisi"],
-    'anchor-text': ["backlink-dijital-pr", "anahtar-kelime-arastirmasi", "icerik-stratejisi"],
-    'black-friday-seo': ["icerik-stratejisi", "e-ticaret-seo", "teknik-seo"],
-    'chatgpt-ile-seo': ["anahtar-kelime-arastirmasi", "icerik-stratejisi", "teknik-seo"],
-    'content-pruning': ["seo-raporlama", "site-tasima-seo", "icerik-stratejisi"],
-    'crawl-butcesi': ["e-ticaret-seo", "teknik-seo", "icerik-stratejisi"],
-    'cro-ve-seo': ["icerik-stratejisi", "teknik-seo", "seo-raporlama"],
-    'e-ticaret-urun-aciklamasi': ["e-ticaret-seo", "anahtar-kelime-arastirmasi", "icerik-stratejisi"],
-    'eeat-icin-icerik': ["saglik-seo", "schema-yapisal-veri", "icerik-stratejisi"],
-    'entity-seo': ["schema-yapisal-veri", "yerel-seo", "geo-uygulama"],
-    'featured-snippet-serp-ozellikleri': ["yerel-seo", "schema-yapisal-veri", "geo-uygulama"],
-    'ga4-seo-takibi': ["teknik-seo", "seo-raporlama", "icerik-stratejisi"],
-    'google-ads-butce-optimizasyonu': ["anahtar-kelime-arastirmasi", "seo-raporlama", "teknik-seo"],
-    'google-ai-overview-optimizasyonu': ["teknik-seo", "schema-yapisal-veri", "geo-uygulama"],
-    'google-sitelinks': ["teknik-seo", "schema-yapisal-veri", "icerik-stratejisi"],
-    'hepsiburada-urun-sayfasi': ["anahtar-kelime-arastirmasi", "e-ticaret-seo", "teknik-seo"],
-    'hreflang-uluslararasi-seo': ["teknik-seo", "site-tasima-seo", "icerik-stratejisi"],
-    'ic-linkleme': ["teknik-seo", "e-ticaret-seo", "icerik-stratejisi"],
-    'javascript-seo': ["teknik-seo", "e-ticaret-seo", "icerik-stratejisi"],
-    'meta-ads-ve-seo': ["anahtar-kelime-arastirmasi", "icerik-stratejisi", "seo-raporlama"],
-    'mobil-seo': ["teknik-seo", "site-tasima-seo", "icerik-stratejisi"],
-    'rakip-analizi-seo': ["anahtar-kelime-arastirmasi", "icerik-stratejisi", "backlink-dijital-pr"],
-    'robots-txt': ["teknik-seo", "geo-uygulama", "icerik-stratejisi"],
-    'search-console-rehberi': ["teknik-seo", "seo-raporlama", "icerik-stratejisi"],
-    'seo-audit-araclari': ["teknik-seo", "seo-raporlama", "icerik-stratejisi"],
-    'seo-roi-olcumu': ["seo-raporlama", "e-ticaret-seo", "teknik-seo"],
-    'seo-strateji-plani': ["teknik-seo", "icerik-stratejisi", "backlink-dijital-pr"],
-    'seo-trendleri-2026': ["geo-uygulama", "schema-yapisal-veri", "teknik-seo"],
-    'sesli-arama-seo': ["anahtar-kelime-arastirmasi", "yerel-seo", "schema-yapisal-veri"],
-    'shopify-seo': ["teknik-seo", "e-ticaret-seo", "schema-yapisal-veri"],
-    'toksik-backlink-disavow': ["backlink-dijital-pr", "seo-raporlama", "teknik-seo"],
-    'topical-authority': ["icerik-stratejisi", "anahtar-kelime-arastirmasi", "teknik-seo"],
-    'trendyol-urun-sirasi': ["anahtar-kelime-arastirmasi", "icerik-stratejisi", "e-ticaret-seo"],
-    'url-yapisi-seo': ["e-ticaret-seo", "site-tasima-seo", "teknik-seo"],
-    'video-seo': ["icerik-stratejisi", "schema-yapisal-veri", "teknik-seo"],
-    'woocommerce-seo': ["e-ticaret-seo", "teknik-seo", "schema-yapisal-veri"],
-    'zero-click-arama': ["seo-raporlama", "icerik-stratejisi", "yerel-seo"],
-  }
-  const ilgiliRehberSluglari = REHBER_ESLESME[slug]
-    || (slug?.includes('geo') ? ['geo-uygulama', 'schema-yapisal-veri', 'backlink-dijital-pr']
-      : slug?.includes('seo') ? ['seo-raporlama', 'anahtar-kelime-arastirmasi', 'teknik-seo']
-        : ['icerik-stratejisi', 'seo-raporlama', 'backlink-dijital-pr'])
-
-  // İlgili yazılar: aynı kategoriden, mevcut yazı hariç, en fazla 3 tane
+  // İlgili rehberler ve yazılar: lib/ilgili-icerik.js (elle seçilmiş eşlemeler)
+  const ilgiliRehberSluglari = YAZI_REHBERLERI[slug] || ['icerik-stratejisi', 'seo-raporlama', 'teknik-seo']
   const mevcutYazi = YAZILAR.find(y => y.slug === slug)
-  const ilgiliYazilar = (mevcutYazi
-    ? YAZILAR.filter(y => y.kategori === mevcutYazi.kategori && y.slug !== slug)
-    : YAZILAR.filter(y => y.slug !== slug)
-  ).slice(0, 3)
+  const secili = (ILGILI_YAZILAR[slug] || []).map(s => YAZILAR.find(y => y.slug === s)).filter(Boolean)
+  const ilgiliYazilar = [
+    ...secili,
+    ...YAZILAR.filter(y => y.slug !== slug && mevcutYazi && y.kategori === mevcutYazi.kategori && !secili.includes(y)),
+  ].slice(0, 3)
 
   useEffect(() => {
     if (isMobile) return
@@ -502,15 +435,25 @@ export default function BlogPost(props) {
                 {isEn ? 'Related Articles' : 'İlgili Yazılar'}
               </h3>
               <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '14px' }}>
-                {ilgiliYazilar.map((y, i) => (
-                  <Link key={i} href={isEn ? `/en/${y.slug}` : `/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', padding: '20px', border: '1px solid #eee', display: 'block', transition: 'transform 0.2s, box-shadow 0.2s' }}
+                {ilgiliYazilar.map((y) => {
+                  const yKapak = getBlogKapak(y.slug)
+                  return (
+                  <Link key={y.slug} href={isEn ? `/en/${y.slug}` : `/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', border: '1px solid #eee', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'transform 0.2s, box-shadow 0.2s' }}
                     onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.06)' }}
                     onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
-                    <div style={{ fontSize: '11px', color: '#aaa', marginBottom: '6px' }}>{y.sure} {isEn ? 'min read' : 'dk okuma'}</div>
-                    <div style={{ fontSize: '15px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{isEn ? y.en.baslik : y.tr.baslik}</div>
-                    <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read →' : 'Oku →'}</span>
+                    {yKapak && (
+                      <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: '#f3f3f3' }}>
+                        <Image src={yKapak} alt={isEn ? y.en.baslik : y.tr.baslik} fill sizes="(max-width: 768px) 100vw, 320px" style={{ objectFit: 'cover' }} />
+                      </div>
+                    )}
+                    <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                      <div style={{ fontSize: '11px', color: '#aaa', marginBottom: '6px' }}>{y.sure} {isEn ? 'min read' : 'dk okuma'}</div>
+                      <div style={{ fontSize: '15px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '10px', flex: 1 }}>{isEn ? y.en.baslik : y.tr.baslik}</div>
+                      <span style={{ fontSize: '12px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read →' : 'Oku →'}</span>
+                    </div>
                   </Link>
-                ))}
+                  )
+                })}
               </div>
             </div>
           )}

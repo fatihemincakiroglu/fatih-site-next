@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import { getRehberKapak } from '../lib/ilgili-icerik'
 import { REHBER_LISTE } from '../lib/rehber-liste'
 
 // Hizmet sayfaları, pillar rehberler ve blog yazılarının sonunda gösterilen
@@ -13,17 +15,20 @@ export default function IlgiliRehberler({ sluglar = [], isEn = false, baslik, ko
       <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(20px, 3vw, 26px)', fontWeight: 800, color: koyu ? '#fff' : '#111', marginBottom: '16px' }}>
         {baslik || (isEn ? 'Related guides' : 'İlgili rehberler')}
       </h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '12px' }}>
         {liste.map(r => {
           const l = isEn ? r.en : r.tr
           return (
             <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`}
-              style={{ display: 'block', padding: '18px', borderRadius: '12px', border: koyu ? '1px solid #2a2a2a' : '1px solid #eee', background: koyu ? '#161616' : '#fff', textDecoration: 'none' }}>
-              <div style={{ fontSize: '15px', fontWeight: 700, color: koyu ? '#fff' : '#111', lineHeight: 1.4, marginBottom: '6px' }}>
-                <span aria-hidden="true" style={{ marginRight: '8px' }}>{r.ikon}</span>{l.baslik}
+              style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '12px', border: koyu ? '1px solid #2a2a2a' : '1px solid #eee', background: koyu ? '#161616' : '#fff', textDecoration: 'none' }}>
+              <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: koyu ? '#222' : '#f3f3f3' }}>
+                <Image src={getRehberKapak(r.slug)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 320px" style={{ objectFit: 'cover' }} />
               </div>
-              <div style={{ fontSize: '13px', color: koyu ? '#aaa' : '#777', lineHeight: 1.6, marginBottom: '8px' }}>{l.ozet}</div>
-              <span style={{ fontSize: '12.5px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>
+              <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                <div style={{ fontSize: '15px', fontWeight: 700, color: koyu ? '#fff' : '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>
+                <div style={{ fontSize: '13px', color: koyu ? '#aaa' : '#777', lineHeight: 1.6, marginBottom: '10px', flex: 1 }}>{l.ozet}</div>
+                <span style={{ fontSize: '12.5px', color: 'var(--orange)', fontWeight: 600 }}>{isEn ? 'Read the guide →' : 'Rehberi oku →'}</span>
+              </div>
             </Link>
           )
         })}
