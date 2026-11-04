@@ -70,10 +70,11 @@
    ]
   },
   {
-   "baslik": "Masaüstü tarayıcılar: Screaming Frog ve Sitebulb",
+   "baslik": "Masaüstü tarayıcılar: Screaming Frog, Sitebulb ve SEOSage",
    "paragraflar": [
     "**Screaming Frog SEO Spider**, bilgisayarınıza kurulan bir site tarayıcısıdır. Ham veriye hızlı erişim, özel çıkarım (custom extraction), filtreleme ve dışa aktarma esnekliği nedeniyle teknik SEO uzmanlarının en yaygın kullandığı araçlardan biri. Ücretsiz sürüm 500 URL ile sınırlı; lisans daha büyük taramalar ve gelişmiş özellikler için gerekiyor.",
     "**Sitebulb** da tarayıcıdır ama farklı bir yaklaşımla çalışır. Resmi sitesine göre masaüstü (Windows ve Mac) ve bulut olmak üzere iki ürünü var; bulguları önceliklendirilmiş “hint”ler halinde açıklamasıyla sunar, tarama haritaları gibi görselleştirmeler ve özelleştirilebilir PDF raporlar üretir. Bulguları müşteriye ya da geliştiriciye anlatmanız gerektiğinde bu açıklamalar zaman kazandırır.",
+    "**SEOSage**, masaüstünde tarama yazılımı kullananlar için denemeye değer bir seçenek olabilir. Mac ve Windows için sayfa sınırlaması olmayan bir masaüstü SEO denetim yazılımıdır. Test ortamını ve şifre korumalı siteleri tarar, her soruna Google Analytics trafiğini ekler ve beyaz etiketli PDF, PowerPoint ve Excel raporları dışa aktarır. Trafik verisi sayesinde hangi sorunun gerçekten ziyaret alan sayfaları etkilediğini görmek kolaylaşır. Planlar aylık 9 dolardan başlıyor. Ayrıntılar için [SEOSage](https://seosage.co/) sitesine bakabilirsiniz.",
     {
      "kutu": {
       "tur": "ipucu",
@@ -116,6 +117,11 @@
         "Önceliklendirilmiş bulgu ve rapor",
         "Sitebulb",
         "Açıklamalı hint'ler, görselleştirme, PDF rapor"
+       ],
+       [
+        "Sayfa sınırı olmadan masaüstü tarama, beyaz etiketli rapor",
+        "SEOSage",
+        "Sorunlara Analytics trafiği eklenir; PDF, PowerPoint ve Excel çıktısı"
        ],
        [
         "Denetim + backlink + rakip verisi",
@@ -247,10 +253,11 @@
    ]
   },
   {
-   "baslik": "Desktop crawlers: Screaming Frog and Sitebulb",
+   "baslik": "Desktop crawlers: Screaming Frog, Sitebulb and SEOSage",
    "paragraflar": [
     "**Screaming Frog SEO Spider** is a crawler you install on your computer. Fast access to raw data, custom extraction, filtering and flexible exports make it one of the most widely used tools among technical SEOs. The free version is capped at 500 URLs; a licence is needed for larger crawls and advanced features.",
     "**Sitebulb** is also a crawler but takes a different approach. According to its official site it comes as desktop (Windows and Mac) and cloud products; it presents findings as prioritised, explained “hints” and produces visualisations such as crawl maps plus customisable PDF reports. Those explanations save time when you need to brief a client or developer.",
+    "**SEOSage** may be worth trying if you use desktop crawling software. It is a desktop SEO audit tool for Mac and Windows with no page limit. It crawls staging environments and password-protected sites, attaches Google Analytics traffic to every issue and exports white-label PDF, PowerPoint and Excel reports. The traffic data makes it easier to see which issues actually affect pages that get visits. Plans start at $9 per month. See [SEOSage](https://seosage.co/) for details.",
     {
      "kutu": {
       "tur": "ipucu",
@@ -293,6 +300,11 @@
         "Prioritised findings and reports",
         "Sitebulb",
         "Explained hints, visualisations, PDF reports"
+       ],
+       [
+        "Unlimited desktop crawling, white-label reports",
+        "SEOSage",
+        "Analytics traffic on each issue; PDF, PowerPoint and Excel exports"
        ],
        [
         "Audit + backlink + competitor data",
