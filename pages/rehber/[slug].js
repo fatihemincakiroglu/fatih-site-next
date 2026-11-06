@@ -73,6 +73,18 @@ export default function Page(props) {
 
   // Article şeması. Yazar ve yayıncı, _document.js'teki global Person
   // grafiğine @id ile bağlanır. Tarihler: lib/blog-meta.js → REHBER_META
+  // Kapak görseli: public/images/rehber/<slug>.png (tools/kapak_uret.py ile üretildi).
+  // Makale kartının en üstünde gösterilir ve paylaşım görseli (og:image) olarak kullanılır.
+  const kapak = getRehberKapak(slug)
+  const kapakUrl = `https://fatihemincakiroglu.com${kapak}`
+  const KapakGorseli = (
+    <figure style={{ margin: isMobile ? '0 0 24px' : '0 0 36px' }}>
+      <Image src={kapak} alt={baslik} width={1280} height={720} priority
+        sizes="(max-width: 768px) 100vw, 760px"
+        style={{ width: '100%', height: 'auto', display: 'block', borderRadius: isMobile ? '10px' : '12px' }} />
+    </figure>
+  )
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -80,7 +92,7 @@ export default function Page(props) {
     mainEntityOfPage: canonicalUrl,
     headline: baslik,
     description: metaDesc,
-    image: 'https://fatihemincakiroglu.com/og-image.jpg',
+    image: kapakUrl,
     inLanguage: isEn ? 'en' : 'tr-TR',
     articleSection: veri?.kategori,
     ...(meta?.yayin && { datePublished: meta.yayin }),
@@ -221,6 +233,11 @@ export default function Page(props) {
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:type" content="article" key="og-type" />
         <meta property="article:author" content="Fatih Emin Çakıroğlu" key="article-author" />
+        <meta property="og:image" content={kapakUrl} key="og-image" />
+        <meta property="og:image:width" content="1280" key="og-image-width" />
+        <meta property="og:image:height" content="720" key="og-image-height" />
+        <meta property="og:image:alt" content={baslik} key="og-image-alt" />
+        <meta name="twitter:image" content={kapakUrl} key="twitter-image" />
         <link rel="alternate" type="text/markdown" href={mdUrl} title={isEn ? 'Markdown version' : 'Markdown sürümü'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
@@ -267,6 +284,7 @@ export default function Page(props) {
           <div style={{ padding: '20px 16px 64px', maxWidth: '1100px', margin: '0 auto' }}>
             {TOC}
             <div style={{ background: '#fff', borderRadius: '14px', padding: '24px', border: '1px solid #eee', marginBottom: '16px' }}>
+              {KapakGorseli}
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
@@ -295,6 +313,7 @@ export default function Page(props) {
             </div>
             {/* Article */}
             <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
+              {KapakGorseli}
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} tur="rehber" />
               {bolumler.map((b, bi) => (
                 <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
