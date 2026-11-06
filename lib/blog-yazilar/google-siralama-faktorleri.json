@@ -1,0 +1,507 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 9,
+ "baslik_tr": "Google Sıralamasını Etkileyen 12 Önemli Faktör",
+ "baslik_en": "12 Important Factors That Affect Google Rankings",
+ "meta_baslik_tr": "Google Sıralama Faktörleri, 12 Resmi Sinyal",
+ "meta_baslik_en": "Google Ranking Factors, 12 Official Signals",
+ "meta_desc_tr": "Google'ın resmi dokümanlarında adı geçen 12 sıralama faktörü, her birinin bağlı olduğu sistem ve 200 faktör listeleri gibi efsanelere karşı uyarılar.",
+ "meta_desc_en": "The 12 ranking factors Google names in its own documentation, the systems behind each one, and why 200-factor lists and myths mislead you.",
+ "ozet_tr": "Google'ın kendi dokümanlarında söylediği 12 sıralama faktörü, uydurma listeler ve ağırlık iddiaları olmadan.",
+ "ozet_en": "The 12 ranking factors Google itself documents, without invented lists or made-up weightings.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "\"Google sıralama faktörleri\" diye arattığınızda karşınıza yüzlerce maddelik listeler çıkar. Bu listelerin çoğu Google'ın hiç söylemediği varsayımları, yüzdelik ağırlıklarla süsleyerek sunar. Danışmanlık yaptığım sitelerde en çok zaman kaybettiren şey de bu varsayımlara göre yapılan işler oluyor.",
+    "Bu yazıda yalnızca Google'ın Search Central dokümanlarında, \"How Search Works\" sayfalarında ve sıralama sistemleri rehberinde açıkça adı geçen 12 faktörü anlatıyorum. Hiçbirine ağırlık ya da yüzde vermiyorum, çünkü Google bu ağırlıkların sorguya göre değiştiğini söylüyor. Faktörlerin teknik uygulaması için [teknik SEO rehberi](/teknik-seo) iyi bir tamamlayıcı.",
+    {
+     "alinti": "Kısa cevap: Google, sıralamayı sorgunun anlamı, içeriğin alakası, kalitesi, kullanılabilirliği ve kullanıcının bağlamı üzerinden yapar. Resmi dokümanlarda adı geçen başlıca sinyaller yararlı ve özgün içerik, linkler (PageRank), tazelik, spam politikalarına uyum, Core Web Vitals, HTTPS, mobil uyum ve konum ile dildir. Bu sinyallerin ağırlığı sorguya göre değişir ve Google bunları yüzde olarak açıklamaz."
+    }
+   ]
+  },
+  {
+   "baslik": "Google sıralama faktörleri hakkında ne söylüyor?",
+   "paragraflar": [
+    "Google'ın \"How Search Works\" sayfası sonuçları belirleyen beş ana etkeni sayar. Aşağıdaki 12 faktörün her biri bu beş etkenden birine bağlanır.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧭",
+       "baslik": "Anlam",
+       "metin": "Google önce sorgunun neyi aradığını anlamaya çalışır; yazım hatası düzeltme ve eş anlamlılar bu adımdadır."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Alaka",
+       "metin": "İçerik, sorgudaki kelimeleri ve konuyu karşılıyor mu? En temel sinyal budur."
+      },
+      {
+       "ikon": "🏅",
+       "baslik": "Kalite",
+       "metin": "Uzmanlık, otorite ve güvenilirlik gösteren içerik öne çıkarılır; diğer sitelerden gelen linkler bunun bir parçasıdır."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Kullanılabilirlik",
+       "metin": "Diğer sinyaller yakınsa erişilebilir, mobilde iyi çalışan ve hızlı açılan sayfa avantaj kazanabilir."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Bağlam",
+       "metin": "Konum, dil, arama ayarları ve geçmiş, kullanıcıya gösterilen sonucu şekillendirir."
+      }
+     ]
+    },
+    "Google bu etkenlerin ağırlığının sorgu türüne göre değiştiğini açıkça yazar. Örneğin güncel bir haber sorgusunda tazelik, sözlük tanımı arayan bir sorguda olduğundan çok daha önemlidir."
+   ]
+  },
+  {
+   "baslik": "İçerik ve alaka faktörleri",
+   "paragraflar": [
+    {
+     "alt": "1. Sorgunun anlamı ve arama niyeti"
+    },
+    "Google, sıralama sistemleri rehberinde BERT, RankBrain ve neural matching gibi yapay zekâ sistemleriyle sorgudaki kelimelerin kavramlarla ilişkisini anladığını anlatır. Pratikte bu, \"kadıköy diş kliniği\" yazan kişinin bilgi değil hizmet aradığını anlayıp sayfanızı buna göre değerlendirmesi demek. Sayfanın niyete uyması, kelimeyi kaç kez geçirdiğinizden önemlidir; niyeti nasıl belirleyeceğinizi [anahtar kelime araştırması rehberi](/anahtar-kelime-arastirmasi) anlatıyor.",
+    {
+     "alt": "2. İçeriğin alakası ve anahtar kelimeler"
+    },
+    "Google'a göre alakanın en temel sinyali, içerikte sorgudaki kelimelerin geçmesidir; başlıklarda ve metin gövdesinde geçmesi alaka sinyalini güçlendirebilir. Passage ranking sistemi de sayfanın tamamına değil tek tek bölümlerine bakabilir. Bu yüzden net h2 başlıkları ve her bölümde bir soruya cevap veren yapı işe yarar.",
+    {
+     "alt": "3. Yararlı, insan odaklı içerik"
+    },
+    "\"Helpful content\" sistemi Mart 2024'te çekirdek sıralama sistemlerinin parçası oldu ve ayrı bir sistem olarak artık listelenmiyor. Google'ın yararlı içerik dokümanı, içeriğin öncelikle insanlara yardım etmek için mi yoksa arama trafiği çekmek için mi üretildiğini sorgulamanızı ister. Ürün inceleme içerikleri için ayrıca reviews system çalışır; konu üzerinde gerçek deneyimi olan kişilerin yazdığı incelemeler ödüllendirilir. Bu ilkeyi içerik planına nasıl çevireceğinizi [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım.",
+    {
+     "alt": "4. Özgün içerik"
+    },
+    "Google'ın original content sistemleri, bir haberi ya da bilgiyi ilk üreten kaynağı, yalnızca alıntılayanların önünde göstermeye çalışır. Deduplication sistemleri de aynı bilgiyi tekrarlayan sonuçları eler. Rakip metinleri yeniden yazmak bu nedenle sınırlı fayda sağlar; kendi verinizi, örneğinizi ve deneyiminizi eklemek fark yaratır.",
+    {
+     "alt": "5. Tazelik"
+    },
+    "Freshness sistemleri, güncel bilginin beklendiği sorgularda daha yeni içeriği öne çıkarır. Her sayfanın sık güncellenmesi gerekmez. Fiyat, mevzuat, etkinlik ya da yazılım sürümü gibi zamana bağlı konularda içeriği gerçekten güncellemek, yalnızca tarih değiştirmekten çok daha anlamlıdır."
+   ]
+  },
+  {
+   "baslik": "Güven ve otorite faktörleri",
+   "paragraflar": [
+    {
+     "alt": "6. Linkler ve PageRank"
+    },
+    "Google'ın rehberine göre PageRank hâlâ çekirdek sıralama sistemlerinin bir parçası ve link analiz sistemleri sayfaların birbirine nasıl link verdiğini kullanır. \"How Search Works\" sayfası da diğer önemli sitelerin içeriğe link vermesini kalite sinyallerinden biri olarak sayar. Hem dış linkler hem de site içi linkleme bu faktörün parçasıdır; doğal link kazanımını [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ele aldım.",
+    {
+     "alt": "7. E-E-A-T ve güvenilir bilgi"
+    },
+    "Google, E-E-A-T'nin (deneyim, uzmanlık, otorite, güvenilirlik) tek başına belirli bir sıralama faktörü olmadığını, ama sistemlerinin iyi E-E-A-T taşıyan içeriği tanıyan sinyallerin bir karışımını kullandığını yazar. Bu dört unsur arasında en önemlisi güvendir ve sağlık, finans gibi YMYL konularda bu sinyaller daha fazla ağırlık taşır. Yazar bilgisi ve kaynak gösterme gibi pratik adımlar için [E-E-A-T için içerik yazısına](/eeat-icin-icerik) bakabilirsiniz.",
+    {
+     "alt": "8. Spam politikalarına uyum"
+    },
+    "SpamBrain dahil spam tespit sistemleri, Google'ın spam politikalarını ihlal eden içerik ve davranışları hedefler. Link satın alma, anahtar kelime doldurma, ölçekli düşük değerli içerik ve gizleme (cloaking) bu kapsamdadır. Yapay zekâ ile üretilen içeriğin sıralamayı manipüle etmek amacıyla kullanılması da politika ihlali sayılır; ayrıntılar [yapay zekâ içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında. Şüpheli link profiliniz varsa [toksik backlink ve disavow kararı](/toksik-backlink-disavow) rehberi işinize yarar."
+   ]
+  },
+  {
+   "baslik": "Sayfa deneyimi, teknik ve bağlam faktörleri",
+   "paragraflar": [
+    {
+     "alt": "9. Core Web Vitals ve sayfa deneyimi"
+    },
+    "Google'ın sayfa deneyimi dokümanı, Core Web Vitals'ın sıralama sistemleri tarafından kullanıldığını söyler. Eşikler LCP için 2,5 saniye, INP için 200 milisaniye, CLS için 0,1'dir; ölçüm ayrıntıları [Core Web Vitals yazısında](/core-web-vitals-2025). Aynı doküman tek bir \"sayfa deneyimi sinyali\" olmadığını ve Google'ın sayfa deneyimi zayıf olsa bile en alakalı içeriği göstermeye çalıştığını da vurgular.",
+    {
+     "alt": "10. HTTPS ve güvenli sunum"
+    },
+    "Sayfa deneyimi dokümanındaki öz değerlendirme sorularından biri sayfaların güvenli biçimde sunulup sunulmadığıdır. Search Console'daki HTTPS raporu, hangi URL'lerin HTTPS üzerinden sunulmadığını gösterir. HTTP'den HTTPS'e geçişte tüm eski adresleri 301 ile yönlendirmek gerekir.",
+    {
+     "alt": "11. Mobil uyum ve mobil öncelikli dizine ekleme"
+    },
+    "Google, dizine ekleme ve sıralama için sitenin akıllı telefon tarayıcısıyla taranan mobil sürümünü kullanır. Mobil sürümde masaüstüyle aynı içerik, aynı yapısal veri, eşdeğer başlık ve meta açıklama bulunmalıdır. Masaüstünde olup mobilde gizlenen içerik, Google açısından büyük ölçüde yok sayılmış olur.",
+    {
+     "alt": "12. Konum, dil ve arama ayarları"
+    },
+    "\"How Search Works\" sayfasına göre konum, dil ve arama ayarları gösterilen sonucu etkiler; sorgunun dili sonuçların dilini büyük ölçüde belirler. \"Yakınımdaki eczane\" gibi sorgularda konum belirleyicidir. Yerel işletmeler için bu faktörün uygulaması [yerel SEO rehberinin](/yerel-seo) konusu."
+   ]
+  },
+  {
+   "baslik": "Hangi faktör hangi Google sistemine bağlı?",
+   "paragraflar": [
+    "Aşağıdaki tablo, faktörleri Google'ın kendi kullandığı adlarla eşleştirir. Bir sorunu teşhis ederken hangi dokümana bakacağınızı bilmek işi hızlandırır.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Faktör",
+       "Google'daki karşılığı",
+       "İlk yapılacak iş"
+      ],
+      "satirlar": [
+       [
+        "Anlam ve niyet",
+        "BERT, RankBrain, neural matching",
+        "Sayfa tipini sorgu niyetine göre seçmek"
+       ],
+       [
+        "Alaka",
+        "Anahtar kelime eşleşmesi, passage ranking",
+        "Başlık ve bölümleri soruya göre kurmak"
+       ],
+       [
+        "Yararlı ve özgün içerik",
+        "Çekirdek sistemler, original content, reviews system",
+        "Kendi veri ve deneyimini eklemek"
+       ],
+       [
+        "Tazelik",
+        "Freshness sistemleri",
+        "Zamana bağlı sayfaları gerçekten güncellemek"
+       ],
+       [
+        "Linkler",
+        "Link analizi ve PageRank",
+        "Doğal link ve güçlü iç link yapısı"
+       ],
+       [
+        "Güven",
+        "Reliable information sistemleri",
+        "Yazar, kaynak ve iletişim bilgisini görünür kılmak"
+       ],
+       [
+        "Spam",
+        "SpamBrain ve spam politikaları",
+        "Manuel işlemler raporunu kontrol etmek"
+       ],
+       [
+        "Sayfa deneyimi",
+        "Core Web Vitals, HTTPS, mobil",
+        "Search Console raporlarındaki sorunları gidermek"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "200 faktör efsanesi ve doğrulanmamış faktörler",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Yüzdelik ağırlık veren listelere güvenmeyin",
+      "metin": "\"Google'ın 200 sıralama faktörü\" listeleri resmi bir kaynağa dayanmaz. Google faktörleri ve ağırlıklarını yayımlamaz; bir faktöre \"%15 etki\" yazan her tablo tahmindir. Karar verirken yalnızca Google'ın dokümante ettiği sinyalleri ve kendi Search Console verinizi esas alın."
+     }
+    },
+    "Sahada en sık karşılaştığım ve Google'ın resmi açıklamalarıyla çelişen inanışlar şunlar:",
+    {
+     "liste": [
+      "**Belirli bir kelime sayısı:** Google'ın yararlı içerik dokümanı, tercih ettiği bir kelime sayısı olmadığını açıkça yazar.",
+      "**Meta keywords etiketi:** Google bu etiketi sıralamada kullanmaz.",
+      "**Kalite değerlendiricilerinin puanı:** Google'a göre değerlendiriciler sayfaların sıralamasını kontrol etmez, verileri sıralama algoritmalarında doğrudan kullanılmaz.",
+      "**DR, DA, TF gibi skorlar:** Bunlar üçüncü taraf araçların metrikleridir, Google metriği değildir.",
+      "**Tek başına bir \"E-E-A-T puanı\":** Google böyle bir puan olmadığını, E-E-A-T'nin sinyallerin karışımıyla yansıtıldığını söyler."
+     ]
+    },
+    "Bir değişikliğin ardından trafik düştüğünde de bu listeler yerine resmi güncelleme duyurularına bakın. [Google algoritma güncellemeleri](/google-guncellemeleri) sayfasında duyuruları takip ediyorum; çekirdek güncellemeden sonra yaşanan düşüşler için [trafik düşüşü teşhis listesi](/cekirdek-guncelleme-trafik-dususu) hazır."
+   ]
+  },
+  {
+   "baslik": "Bu 12 faktörü sitenizde nereden başlayarak ele almalı?",
+   "paragraflar": [
+    "Önce erişim ve dizine ekleme sorunlarını giderin, çünkü taranamayan bir sayfa için diğer faktörler hiç devreye girmez. Ardından sayfaların niyete uyumuna ve içerik kalitesine geçin; linkler ve sayfa deneyimi bu temelin üzerine eklenir.",
+    {
+     "akis": {
+      "baslik": "Önceliklendirme sırası",
+      "adimlar": [
+       {
+        "baslik": "Erişim",
+        "metin": "Tarama, dizine ekleme, HTTPS ve mobil sürüm sorunları."
+       },
+       {
+        "baslik": "Niyet ve alaka",
+        "metin": "Her hedef sorgu için doğru sayfa tipi ve net yapı."
+       },
+       {
+        "baslik": "Kalite ve güven",
+        "metin": "Özgün bilgi, yazar ve kaynak sinyalleri."
+       },
+       {
+        "baslik": "Otorite",
+        "metin": "İç linkleme ve doğal dış linkler."
+       },
+       {
+        "baslik": "Deneyim",
+        "metin": "Core Web Vitals ve sayfa kullanılabilirliği."
+       }
+      ]
+     }
+    },
+    "Bu sırayı kendi sitenize uygulamak için yazılı bir plan isterseniz [SEO uzmanı](/seo-uzmani) olarak sitenize birlikte bakabiliriz; içerik tarafı ağır basıyorsa [içerik hizmeti](/icerik) daha uygun bir başlangıç olur. Kısa bir [ön görüşme randevusu](/randevu) ile başlayabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Search for \"Google ranking factors\" and you get lists with hundreds of items, most of them assumptions Google never made, dressed up with neat percentages. In my consulting work, effort built on those assumptions is what wastes the most time.",
+    "This article covers only the 12 factors Google names in its Search Central documentation, its \"How Search Works\" pages and its ranking systems guide. I give them no weights, because Google says weights vary by query. For implementation, see the [technical SEO guide](/en/teknik-seo).",
+    {
+     "alinti": "Short answer: Google ranks results by query meaning, content relevance, quality and usability, and the searcher's context. Documented signals include helpful and original content, links (PageRank), freshness, spam policy compliance, Core Web Vitals, HTTPS, mobile friendliness, location and language. Weights vary by query and are not published."
+    }
+   ]
+  },
+  {
+   "baslik": "What does Google say about ranking factors?",
+   "paragraflar": [
+    "Google's \"How Search Works\" page lists five main things that determine results. Each of the 12 factors below ties back to one of them.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🧭",
+       "baslik": "Meaning",
+       "metin": "Google first works out what the query is looking for, including spelling correction and synonyms."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Relevance",
+       "metin": "Does the content match the words and topic of the query? This is the most basic signal."
+      },
+      {
+       "ikon": "🏅",
+       "baslik": "Quality",
+       "metin": "Content showing expertise, authoritativeness and trustworthiness is prioritised; links from other sites are part of this."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Usability",
+       "metin": "When other signals are close, accessible, mobile-friendly, fast pages can gain an edge."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Context",
+       "metin": "Location, language, search settings and history shape what each searcher sees."
+      }
+     ]
+    },
+    "Google says their weight depends on the query: freshness matters far more for news than for a dictionary definition."
+   ]
+  },
+  {
+   "baslik": "Content and relevance factors",
+   "paragraflar": [
+    {
+     "alt": "1. Query meaning and search intent"
+    },
+    "Google's ranking systems guide says AI systems such as BERT, RankBrain and neural matching help it understand how query words relate to concepts. Someone typing \"dentist in Kadikoy\" wants a service, not an explainer. Matching intent matters more than keyword frequency; the [keyword research guide](/en/anahtar-kelime-arastirmasi) shows how to identify it.",
+    {
+     "alt": "2. Content relevance and keywords"
+    },
+    "Google calls the presence of the query's words in the content the most basic relevance signal, especially in headings and body text. Passage ranking can also assess individual sections, so clear h2 headings that each answer one question work well.",
+    {
+     "alt": "3. Helpful, people-first content"
+    },
+    "The helpful content system became part of Google's core ranking systems in March 2024. Google's documentation asks whether content is made primarily to help people or to attract search visits. Reviews are also assessed by the reviews system, which rewards reviewers with real experience. The [content strategy guide](/en/icerik-stratejisi) turns this into a plan.",
+    {
+     "alt": "4. Original content"
+    },
+    "Original content systems try to rank the source that first produced information ahead of those that merely cite it, and deduplication systems filter repeated results. Rewriting competitor copy helps little; your own data and experience make the difference.",
+    {
+     "alt": "5. Freshness"
+    },
+    "Freshness systems surface newer content where up-to-date information is expected. For prices, regulations or software versions, genuinely updating content means far more than changing a date."
+   ]
+  },
+  {
+   "baslik": "Trust and authority factors",
+   "paragraflar": [
+    {
+     "alt": "6. Links and PageRank"
+    },
+    "Google's guide says PageRank is still part of its core ranking systems, and \"How Search Works\" counts links from prominent websites as a quality signal. Internal links matter here too; earning links naturally is covered in the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    {
+     "alt": "7. E-E-A-T and reliable information"
+    },
+    "Google writes that E-E-A-T is not a specific ranking factor, but its systems use a mix of signals that identify content with good E-E-A-T. Trust matters most, and these signals weigh more on YMYL topics such as health and finance. For practical steps, see [writing content for E-E-A-T](/en/eeat-icin-icerik).",
+    {
+     "alt": "8. Compliance with spam policies"
+    },
+    "Spam detection systems, including SpamBrain, target violations such as link buying, keyword stuffing, scaled low-value content and cloaking. Using AI content to manipulate rankings also violates policy; see [AI content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). For a suspicious link profile, read about [toxic backlinks and disavow decisions](/en/toksik-backlink-disavow)."
+   ]
+  },
+  {
+   "baslik": "Page experience, technical and context factors",
+   "paragraflar": [
+    {
+     "alt": "9. Core Web Vitals and page experience"
+    },
+    "Google says Core Web Vitals are used by its ranking systems. Thresholds are 2.5 s for LCP, 200 ms for INP and 0.1 for CLS; see the [Core Web Vitals article](/en/core-web-vitals-2025). Google also says there is no single page experience signal and the most relevant content can still rank with weak page experience.",
+    {
+     "alt": "10. HTTPS and secure delivery"
+    },
+    "Google's page experience checklist asks whether pages are served securely, and the Search Console HTTPS report shows which URLs are not. When moving to HTTPS, 301-redirect every old address.",
+    {
+     "alt": "11. Mobile friendliness and mobile-first indexing"
+    },
+    "Google indexes and ranks the mobile version of a site, crawled with its smartphone agent. It should carry the same content, structured data and equivalent titles and descriptions as desktop.",
+    {
+     "alt": "12. Location, language and search settings"
+    },
+    "Location, language and search settings shape results, and the query language largely sets the results language. For \"pharmacy near me\", location is decisive; see the [local SEO guide](/en/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Which Google system is behind each factor?",
+   "paragraflar": [
+    "The table maps each factor to the name Google uses, which tells you which document to check.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Factor",
+       "Google's name for it",
+       "First thing to do"
+      ],
+      "satirlar": [
+       [
+        "Meaning and intent",
+        "BERT, RankBrain, neural matching",
+        "Pick the page type that fits the query intent"
+       ],
+       [
+        "Relevance",
+        "Keyword matching, passage ranking",
+        "Build headings and sections around questions"
+       ],
+       [
+        "Helpful and original content",
+        "Core systems, original content, reviews system",
+        "Add your own data and experience"
+       ],
+       [
+        "Freshness",
+        "Freshness systems",
+        "Genuinely update time-sensitive pages"
+       ],
+       [
+        "Links",
+        "Link analysis and PageRank",
+        "Natural links and a strong internal link structure"
+       ],
+       [
+        "Trust",
+        "Reliable information systems",
+        "Make author, sources and contact details visible"
+       ],
+       [
+        "Spam",
+        "SpamBrain and spam policies",
+        "Check the Manual actions report"
+       ],
+       [
+        "Page experience",
+        "Core Web Vitals, HTTPS, mobile",
+        "Fix the issues in Search Console reports"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "The 200-factor myth and unverified factors",
+   "paragraflar": [
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Do not trust lists with percentage weights",
+      "metin": "\"Google's 200 ranking factors\" lists are not based on an official source. Google does not publish its factors or their weights, so any table claiming a factor has \"15% impact\" is a guess. Base decisions only on signals Google documents and on your own Search Console data."
+     }
+    },
+    "These are the beliefs I run into most often that contradict Google's official statements:",
+    {
+     "liste": [
+      "**A target word count:** Google's helpful content documentation says plainly that it has no preferred word count.",
+      "**The meta keywords tag:** Google does not use it for ranking.",
+      "**Quality rater scores:** Google says raters have no control over how pages rank and rater data is not used directly in ranking algorithms.",
+      "**Scores like DR, DA or TF:** These are third-party tool metrics, not Google metrics.",
+      "**A single \"E-E-A-T score\":** Google says there is no such score; E-E-A-T is reflected through a mix of signals."
+     ]
+    },
+    "When traffic drops, check official announcements on the [Google algorithm updates](/en/google-updates) page, and use the [core update traffic drop checklist](/en/cekirdek-guncelleme-trafik-dususu)."
+   ]
+  },
+  {
+   "baslik": "Where to start with these 12 factors on your site",
+   "paragraflar": [
+    "Fix access and indexing first, since no other factor applies to a page Google cannot crawl. Then work on intent fit and content quality.",
+    {
+     "akis": {
+      "baslik": "Order of priority",
+      "adimlar": [
+       {
+        "baslik": "Access",
+        "metin": "Crawling, indexing, HTTPS and mobile version issues."
+       },
+       {
+        "baslik": "Intent and relevance",
+        "metin": "The right page type and a clear structure for each target query."
+       },
+       {
+        "baslik": "Quality and trust",
+        "metin": "Original information, author and source signals."
+       },
+       {
+        "baslik": "Authority",
+        "metin": "Internal linking and natural external links."
+       },
+       {
+        "baslik": "Experience",
+        "metin": "Core Web Vitals and page usability."
+       }
+      ]
+     }
+    },
+    "If you want a written plan that applies this order to your own site, we can review it together through [SEO consulting](/en/seo-consulting); if content is the main gap, [content strategy services](/en/content-strategy) are a better starting point. You can begin with a short [intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Google kaç sıralama faktörü kullanıyor?",
+   "c": "Google kesin bir sayı ya da tam liste yayımlamıyor. Resmi dokümanlarda sıralama sistemleri ve sinyaller anlatılıyor, ama bunların sayısı ve ağırlığı açıklanmıyor. Belirli bir sayı veren listeler tahmine dayanır."
+  },
+  {
+   "s": "Sosyal medya paylaşımları sıralamayı etkiler mi?",
+   "c": "Google'ın sıralama sistemleri rehberinde sosyal medya beğeni ya da paylaşım sayısı bir sinyal olarak geçmiyor. Sosyal medya içeriğinizin keşfedilmesine ve doğal link kazanmasına dolaylı katkı yapabilir, ama bunu doğrudan bir sıralama faktörü olarak görmeyin."
+  },
+  {
+   "s": "Alan adının yaşı ya da içinde anahtar kelime geçmesi önemli mi?",
+   "c": "Google'ın exact match domain sistemi, yalnızca sorguyla birebir eşleşen alan adlarının fazla avantaj almasını engellemek için var. Alan adında anahtar kelime olması tek başına avantaj sağlamaz; içerik ve linkler belirleyicidir."
+  },
+  {
+   "s": "Yapısal veri sıralama faktörü mü?",
+   "c": "Google yapısal veriyi içeriği anlamak ve zengin sonuçlara uygunluk için kullanır, ama genel bir sıralama sinyali olduğunu söylemez. Yine de doğru işaretleme, içeriğin makineler tarafından doğru yorumlanmasına yardımcı olur."
+  },
+  {
+   "s": "Faktörlerin hepsini aynı anda iyileştirmem gerekir mi?",
+   "c": "Hayır. Önce taranma ve dizine eklenme sorunlarını, sonra niyet uyumunu ve içerik kalitesini ele alın. Sayfa deneyimi ve link çalışmaları bu temel sağlamsa anlamlı sonuç verir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many ranking factors does Google use?",
+   "c": "Google publishes no exact number or full list, and does not say how much each signal weighs. Lists with a specific number are estimates."
+  },
+  {
+   "s": "Do social media shares affect rankings?",
+   "c": "Google's ranking systems guide does not list social likes or shares as a signal. Social media can help content get discovered and earn links, but treat that as indirect."
+  },
+  {
+   "s": "Do domain age or keywords in the domain matter?",
+   "c": "Google's exact match domain system exists to stop domains that exactly match a query from getting too much credit. A keyword in the domain is not an advantage on its own; content and links decide."
+  },
+  {
+   "s": "Is structured data a ranking factor?",
+   "c": "Google uses structured data to understand content and for rich result eligibility, but it does not describe it as a general ranking signal. Correct markup still helps machines interpret your content accurately."
+  },
+  {
+   "s": "Do I need to improve every factor at once?",
+   "c": "No. Start with crawling and indexing issues, then intent fit and content quality. Page experience and link work pay off once that foundation is solid."
+  }
+ ]
+}

@@ -1,0 +1,493 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 8,
+ "baslik_tr": "Dönüşüm Getiren Landing Page İçin 10 SEO Kuralı",
+ "baslik_en": "10 SEO Rules for a Landing Page That Converts",
+ "meta_baslik_tr": "Landing Page İçin 10 SEO Kuralı",
+ "meta_baslik_en": "10 SEO Rules for Landing Pages",
+ "meta_desc_tr": "Arama niyeti, tek hedef, hız, güven öğeleri, form ve reklam sayfalarında noindex kararı. Dönüşüm getiren landing page için 10 SEO kuralı.",
+ "meta_desc_en": "Search intent, one goal, speed, trust signals, forms and the noindex decision for ad pages. 10 SEO rules for landing pages that convert.",
+ "ozet_tr": "Hem Google'da bulunan hem de ziyaretçiyi müşteriye çeviren bir landing page için 10 net kural.",
+ "ozet_en": "10 clear rules for a landing page that both ranks on Google and turns visitors into customers.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Landing page denince çoğu ekip reklam için hazırlanmış, menüsüz, tek formlu bir sayfa düşünüyor. Oysa organik aramadan gelen ziyaretçi de bir açılış sayfasına iner ve aynı soruyu sorar: aradığım şey burada mı, ne yapmam gerekiyor? Sahada en sık gördüğüm sorun, ya Google'da hiç bulunmayan bir reklam sayfası ya da trafik alıp hiç dönüşüm getirmeyen bir blog yazısı.",
+    "Bu yazıdaki 10 kural, ikisini aynı sayfada birleştirmek için. Her kural için neyi etkilediğini ve nasıl kontrol edeceğinizi de yazdım.",
+    {
+     "alinti": "Kısa cevap: Dönüşüm getiren bir SEO landing page tek bir arama niyetine ve tek bir dönüşüm hedefine odaklanır, başlıkta ve ilk ekranda aynı vaadi verir, hızlı açılır ve güven öğeleri sunar. Reklama özel kopya sayfalar için ise noindex kararı bilinçli verilmelidir."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO landing page ile reklam landing page arasındaki fark",
+   "paragraflar": [
+    "İki sayfa türü aynı amaca hizmet eder ama trafiği farklı yoldan alır. Reklam sayfasında mesajı siz seçersiniz; organik sayfada ise Google'ın sayfayı o aramaya uygun bulması gerekir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "SEO landing page",
+       "tur": "notr",
+       "maddeler": [
+        "Trafik arama niyetine uyumla gelir",
+        "Arama niyetini karşılayacak kadar içerik ister",
+        "İç linklerle site yapısına bağlanır",
+        "Dizine eklenir ve uzun vadede trafik getirir"
+       ]
+      },
+      "sag": {
+       "baslik": "Reklam landing page",
+       "tur": "notr",
+       "maddeler": [
+        "Trafik reklam bütçesiyle gelir",
+        "Kısa ve tek mesaja odaklı olabilir",
+        "Çoğu zaman menüsüz ve yalnız durur",
+        "Kopya varyantlarda noindex düşünülebilir"
+       ]
+      }
+     }
+    },
+    "Hangi kanala ne kadar yatırım yapacağınızı tartıyorsanız [SEO mu Google Ads mi](/seo-mu-google-ads-mi) karşılaştırması bu kararı kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "Niyet ve hedef için 3 kural",
+   "paragraflar": [
+    {
+     "alt": "1. Tek bir arama niyetine odaklanın"
+    },
+    "Bir landing page, “kurumsal web tasarım fiyatı” gibi bir ticari aramayı ve “web tasarım nedir” gibi bilgi aramasını aynı anda karşılayamaz. Hedef kelimeyi Google'da aratın ve ilk sayfadaki sonuçların türüne bakın; hizmet sayfaları mı, rehberler mi, karşılaştırmalar mı? Niyet analizinin ayrıntısı [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) var.",
+    {
+     "alt": "2. Tek bir dönüşüm hedefi belirleyin"
+    },
+    "Sayfanın ana eylemi tek olsun: teklif formu, telefon araması ya da randevu. İkincil bir eylem (ör. broşür indirme) eklenebilir ama görsel olarak ana eylemle yarışmamalı. Ölçüm için bu hedefi GA4'te önemli etkinlik olarak tanımlayın.",
+    {
+     "alt": "3. Başlık etiketi, H1 ve ilk ekran aynı vaadi versin"
+    },
+    "Arama sonucunda tıklanan başlık ile sayfada görülen H1 birbirini tutmazsa ziyaretçi yanlış yere geldiğini düşünür. Google, title link oluştururken sayfanın başlık etiketini ve sayfadaki başlıkları kullanabildiğini, gerektiğinde başlığı yeniden yazabildiğini belirtiyor. Başlığın arama sonucunda nasıl görüneceğini [SERP önizleme aracıyla](/serp-onizleme) kontrol edin; kurallar için [meta başlık ve açıklama kuralları](/meta-baslik-aciklama-kurallari) yazısına bakın."
+   ]
+  },
+  {
+   "baslik": "İlk ekran, hız ve mobil deneyim için 3 kural",
+   "paragraflar": [
+    {
+     "alt": "4. Değer önerisini ve eylemi ilk ekrana koyun"
+    },
+    "Google Ads yardım sayfası, önemli bilgileri sayfanın üst kısmına koymayı ve istenen eylemi kolaylaştırmayı öneriyor. Bu öneri organik ziyaretçi için de geçerli. İlk ekranda ne sunduğunuzu, kime sunduğunuzu ve bir sonraki adımı tek bakışta gösterin.",
+    {
+     "alt": "5. Core Web Vitals eşiklerini tutturun"
+    },
+    "Google'ın iyi kabul ettiği eşikler LCP için 2,5 saniye, INP için 200 milisaniye ve CLS için 0,1. Landing page'lerde en sık LCP sorununu büyük kahraman görseli, CLS sorununu ise sonradan yüklenen form ya da çerez bandı yaratıyor. Ölçüm ve çözüm adımları [Core Web Vitals yazısında](/core-web-vitals-2025) anlatılıyor.",
+    {
+     "alt": "6. Mobilde araya giren pencerelerden kaçının"
+    },
+    "Google Ads'in önerileri arasında sayfayı çok sayıda pop-up ve reklamla doldurmamak da var. Mobilde içeriği kapatan bir kampanya penceresi, ziyaretçinin aradığını görmeden ayrılmasına yol açabilir. Gerekiyorsa küçük bir banner ya da sayfa içi bir kutu kullanın."
+   ]
+  },
+  {
+   "baslik": "Güven, form ve site yapısı için 3 kural",
+   "paragraflar": [
+    {
+     "alt": "7. Güven öğelerini eylemin yanına koyun"
+    },
+    "Aşağıdaki öğeler ziyaretçinin kararını kolaylaştırır. Bunları sayfanın en altına değil, form ya da buton yakınına yerleştirin ve uydurma yorum ya da doğrulanamayan rakam kullanmayın.",
+    {
+     "liste": [
+      "Gerçek müşteri yorumları ve vaka örnekleri",
+      "Açık adres, telefon ve çalışma saatleri",
+      "Ekip ya da uzman fotoğrafı ve kısa özgeçmiş",
+      "Sertifika, üyelik ve iş ortağı logoları"
+     ]
+    },
+    {
+     "alt": "8. Formu yalnızca gerekli alanlara indirin"
+    },
+    "İlk temas için ad, telefon ya da e-posta ve kısa bir not çoğu zaman yeterli. Her ek alan, özellikle mobilde, formu tamamlamayı zorlaştırır. Form alanlarını azaltma ve test etme yöntemlerini [CRO ve SEO](/cro-ve-seo) yazısında örneklerle anlattım.",
+    {
+     "alt": "9. Sayfayı iç linklerle site yapısına bağlayın"
+    },
+    "Organik landing page'in menüden, ilgili blog yazılarından ve hizmet sayfalarından link alması gerekir; hiçbir yerden link almayan sayfayı Google bulmakta ve önemini anlamakta zorlanır. Bağlantı metninde sayfanın ana kelimesini doğal biçimde kullanın. Yöntem için [iç linkleme rehberine](/ic-linkleme) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Reklam sayfalarında noindex kararı",
+   "paragraflar": [
+    {
+     "alt": "10. Reklama özel kopya sayfalarda noindex'i bilinçli kullanın"
+    },
+    "Aynı hizmet için onlarca reklam varyantı açıyorsanız bunlar organik dizinde birbirine çok benzeyen sayfalar yaratır. Bu durumda varyantlara noindex eklemek ve organik trafiği tek bir ana sayfada toplamak mantıklı olabilir. Google'a göre noindex'in görülebilmesi için sayfanın robots.txt ile engellenmemesi gerekir; engellenirse tarayıcı kuralı hiç göremez.",
+    {
+     "kod": "<!-- Reklam varyantının <head> bölümüne -->\n<meta name=\"robots\" content=\"noindex\">\n\n# robots.txt: Google'a göre AdsBot genel (*) kuralı yok sayar\nUser-agent: *\nDisallow: /kampanya-taslak/"
+    },
+    "Google'ın özel durum tarayıcıları dokümanına göre Google Ads'in sayfa kalitesini kontrol eden AdsBot, robots.txt'teki genel (*) kuralı yok sayar. Yani reklam sayfasını Googlebot için robots.txt ile kapatmak, AdsBot'u otomatik olarak kapatmaz. robots.txt mantığının ayrıntısı [robots.txt yazısında](/robots-txt) var.",
+    {
+     "akis": {
+      "baslik": "Noindex karar akışı",
+      "adimlar": [
+       {
+        "baslik": "Organik niyet var mı?",
+        "metin": "Sayfa bir aramaya cevap veriyorsa dizinde kalmalı."
+       },
+       {
+        "baslik": "Kopya mı?",
+        "metin": "Ana sayfayla neredeyse aynı içerikteki reklam varyantlarını belirleyin."
+       },
+       {
+        "baslik": "Noindex ekle",
+        "metin": "Kopya varyantlara meta robots noindex ekleyin, robots.txt ile engellemeyin."
+       },
+       {
+        "baslik": "Doğrula",
+        "metin": "Search Console URL Denetimi ile Google'ın kuralı gördüğünü kontrol edin."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "10 kuralın özeti ve kontrol yöntemi",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Kural",
+       "Neyi etkiler",
+       "Nasıl kontrol edilir"
+      ],
+      "satirlar": [
+       [
+        "Tek niyet",
+        "Sıralama ve hemen çıkma",
+        "Hedef kelimenin ilk sayfa sonuçlarına bakın"
+       ],
+       [
+        "Tek hedef",
+        "Dönüşüm oranı",
+        "GA4'te önemli etkinlik tanımlayın"
+       ],
+       [
+        "Başlık ve H1 uyumu",
+        "Tıklama ve güven",
+        "SERP önizleme ve sayfayı yan yana koyun"
+       ],
+       [
+        "İlk ekran",
+        "Kaydırmadan ayrılma",
+        "Mobilde ilk ekranı kontrol edin"
+       ],
+       [
+        "Core Web Vitals",
+        "Sayfa deneyimi",
+        "PageSpeed Insights ve Search Console"
+       ],
+       [
+        "Pop-up'sız mobil",
+        "İçeriğe erişim",
+        "Telefonda sayfayı açıp deneyin"
+       ],
+       [
+        "Güven öğeleri",
+        "Karar verme",
+        "Formun yanında yorum ve iletişim var mı?"
+       ],
+       [
+        "Kısa form",
+        "Form tamamlama",
+        "Form başlatma ve gönderme oranını karşılaştırın"
+       ],
+       [
+        "İç linkler",
+        "Keşif ve önem",
+        "Sayfaya gelen iç linkleri sayın"
+       ],
+       [
+        "Noindex kararı",
+        "Kopya içerik",
+        "URL Denetimi ve Sayfa Dizine Ekleme raporu"
+       ]
+      ]
+     }
+    },
+    "Teknik altyapının genel denetimi için [teknik SEO rehberi](/teknik-seo), sayfaya giden içerik kümesini planlamak için [içerik stratejisi rehberi](/icerik-stratejisi) iyi bir başlangıç.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Reklam verisini SEO için kullanın",
+      "metin": "Reklamda en çok dönüşüm getiren başlık ve teklif, organik landing page'in H1'i için güçlü bir aday. Reklam bütçesini verimli kullanma yolları [Google Ads bütçe optimizasyonu](/google-ads-butce-optimizasyonu) yazısında."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Landing page'inizi birlikte değerlendirelim",
+   "paragraflar": [
+    "Organik trafik alan ama dönüşmeyen ya da reklamda iyi çalışıp Google'da hiç görünmeyen bir sayfanız varsa, sorun genellikle bu 10 kuraldan birkaçında. Hız ve dönüşüm tarafını birlikte ele aldığım çalışmalar için [performans ve büyüme hizmeti](/performans) sayfasına göz atabilir ya da [ücretsiz bir ön görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When teams hear “landing page”, most picture an ad page with no menu and one form. Yet visitors from organic search also land on a page and ask the same question: is what I need here, and what should I do next? The problem I see most often is either an ad page that never appears on Google or a blog post that gets traffic and never converts.",
+    "The 10 rules below combine both on the same page. For each rule I note what it affects and how to check it.",
+    {
+     "alinti": "Short answer: A landing page that ranks and converts focuses on one search intent and one conversion goal, makes the same promise in the title and first screen, loads fast and shows trust signals. For ad only copies of a page, the noindex decision should be made deliberately."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO landing pages versus ad landing pages",
+   "paragraflar": [
+    "Both page types serve the same goal but get traffic differently. On an ad page you choose the message; on an organic page Google has to consider the page a good match for the query.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "SEO landing page",
+       "tur": "notr",
+       "maddeler": [
+        "Traffic comes from matching search intent",
+        "Needs enough content to satisfy the intent",
+        "Linked into the site structure",
+        "Indexed and brings traffic over time"
+       ]
+      },
+      "sag": {
+       "baslik": "Ad landing page",
+       "tur": "notr",
+       "maddeler": [
+        "Traffic comes from ad spend",
+        "Can be short and single message",
+        "Often standalone with no menu",
+        "Duplicate variants may warrant noindex"
+       ]
+      }
+     }
+    },
+    "If you are weighing how much to invest in each channel, the [SEO or Google Ads](/en/seo-mu-google-ads-mi) comparison helps."
+   ]
+  },
+  {
+   "baslik": "3 rules for intent and goal",
+   "paragraflar": [
+    {
+     "alt": "1. Focus on one search intent"
+    },
+    "A landing page cannot serve a commercial query like “corporate web design price” and an informational one like “what is web design” at once. Search the target term and look at the type of results on page one: service pages, guides or comparisons? Intent analysis is covered in the [keyword research guide](/en/anahtar-kelime-arastirmasi).",
+    {
+     "alt": "2. Set one conversion goal"
+    },
+    "Give the page one main action: a quote form, a phone call or a booking. A secondary action can exist, but it should not compete visually with the main one. Define the goal as a key event in GA4 so you can measure it.",
+    {
+     "alt": "3. Make the title tag, H1 and first screen promise the same thing"
+    },
+    "If the title clicked in search and the H1 on the page do not match, visitors feel they landed in the wrong place. Google says it can use the title element and headings on the page to build title links, and may rewrite them. Check how the title looks with the [SERP preview tool](/en/serp-preview) and see the [meta title and description rules](/en/meta-baslik-aciklama-kurallari)."
+   ]
+  },
+  {
+   "baslik": "3 rules for first screen, speed and mobile",
+   "paragraflar": [
+    {
+     "alt": "4. Put the value proposition and action on the first screen"
+    },
+    "Google Ads help recommends placing important information near the top of the page and making the desired action easy. That applies to organic visitors too. Show what you offer, to whom, and the next step at a glance.",
+    {
+     "alt": "5. Meet the Core Web Vitals thresholds"
+    },
+    "Google's good thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS. On landing pages, a large hero image is the usual LCP problem and a late loading form or cookie banner the usual CLS problem. The [Core Web Vitals post](/en/core-web-vitals-2025) covers measurement and fixes.",
+    {
+     "alt": "6. Avoid intrusive pop-ups on mobile"
+    },
+    "Google Ads advice includes not cluttering the page with too many ads or pop-ups. A campaign window that covers content on mobile can make visitors leave before they see what they came for. If needed, use a small banner or an inline box."
+   ]
+  },
+  {
+   "baslik": "3 rules for trust, forms and site structure",
+   "paragraflar": [
+    {
+     "alt": "7. Place trust signals next to the action"
+    },
+    "The elements below make the decision easier. Put them near the form or button, not at the very bottom, and never use invented reviews or numbers you cannot back up.",
+    {
+     "liste": [
+      "Real customer reviews and case examples",
+      "A clear address, phone and opening hours",
+      "Team or expert photos with a short bio",
+      "Certificates, memberships and partner logos"
+     ]
+    },
+    {
+     "alt": "8. Cut the form to the fields you need"
+    },
+    "For a first contact, name, phone or email and a short note are usually enough. Every extra field makes completion harder, especially on mobile. I cover reducing and testing form fields in the [CRO and SEO](/en/cro-ve-seo) post.",
+    {
+     "alt": "9. Link the page into your site structure"
+    },
+    "An organic landing page needs links from the menu, related blog posts and service pages; a page with no internal links is harder for Google to find and understand. Use the page's main term naturally in anchor text. See the [internal linking guide](/en/ic-linkleme) for the method."
+   ]
+  },
+  {
+   "baslik": "The noindex decision for ad pages",
+   "paragraflar": [
+    {
+     "alt": "10. Use noindex deliberately on ad only copies"
+    },
+    "If you run dozens of ad variants for one service, they create near identical pages in the organic index. Adding noindex to the variants and concentrating organic traffic on one main page can make sense. Google says the page must not be blocked by robots.txt for noindex to work; otherwise the crawler never sees the rule.",
+    {
+     "kod": "<!-- In the <head> of the ad variant -->\n<meta name=\"robots\" content=\"noindex\">\n\n# robots.txt: per Google, AdsBot ignores the global (*) group\nUser-agent: *\nDisallow: /campaign-drafts/"
+    },
+    "According to Google's special case crawlers documentation, AdsBot, which checks ad landing page quality, ignores the global (*) user agent in robots.txt. So blocking a page for Googlebot with a wildcard rule does not block AdsBot. The [robots.txt post](/en/robots-txt) explains the logic.",
+    {
+     "akis": {
+      "baslik": "Noindex decision flow",
+      "adimlar": [
+       {
+        "baslik": "Organic intent?",
+        "metin": "If the page answers a search, keep it indexed."
+       },
+       {
+        "baslik": "Duplicate?",
+        "metin": "Identify ad variants that are almost the same as the main page."
+       },
+       {
+        "baslik": "Add noindex",
+        "metin": "Add meta robots noindex and do not block them in robots.txt."
+       },
+       {
+        "baslik": "Verify",
+        "metin": "Use URL Inspection in Search Console to confirm Google sees the rule."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "The 10 rules at a glance",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Rule",
+       "What it affects",
+       "How to check"
+      ],
+      "satirlar": [
+       [
+        "One intent",
+        "Rankings and bounces",
+        "Review page one results for the term"
+       ],
+       [
+        "One goal",
+        "Conversion rate",
+        "Define a key event in GA4"
+       ],
+       [
+        "Title and H1 match",
+        "Clicks and trust",
+        "Compare the SERP preview with the page"
+       ],
+       [
+        "First screen",
+        "Leaving without scrolling",
+        "Check the first screen on mobile"
+       ],
+       [
+        "Core Web Vitals",
+        "Page experience",
+        "PageSpeed Insights and Search Console"
+       ],
+       [
+        "No intrusive pop-ups",
+        "Access to content",
+        "Open the page on a phone"
+       ],
+       [
+        "Trust signals",
+        "Decision making",
+        "Are reviews and contact details near the form?"
+       ],
+       [
+        "Short form",
+        "Form completion",
+        "Compare form starts with submissions"
+       ],
+       [
+        "Internal links",
+        "Discovery and importance",
+        "Count internal links to the page"
+       ],
+       [
+        "Noindex decision",
+        "Duplicate content",
+        "URL Inspection and Page Indexing report"
+       ]
+      ]
+     }
+    },
+    "For a broader infrastructure audit, see the [technical SEO guide](/en/teknik-seo); to plan the content cluster that feeds the page, see the [content strategy guide](/en/icerik-stratejisi).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Use ad data for SEO",
+      "metin": "The headline and offer that convert best in ads are strong candidates for the organic page's H1. Ways to spend the ad budget efficiently are in [Google Ads budget optimization](/en/google-ads-butce-optimizasyonu)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Let's review your landing page together",
+   "paragraflar": [
+    "If a page gets organic traffic but does not convert, or works in ads but never shows on Google, the cause is usually a few of these 10 rules. See the [performance and growth service](/en/performance-growth) for work that covers speed and conversion together, or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Landing page'te menüyü kaldırmak SEO'ya zarar verir mi?",
+   "c": "Menüyü kaldırmanın kendisi bir sıralama cezası değildir, ama sayfanın site içinden link alması gerekir. Reklam sayfasında menüsüz tasarım dikkat dağınıklığını azaltabilir. Organik landing page'te ise kısa bir menü ya da alt bilgi linkleri hem ziyaretçiye hem Google'a sayfanın siteyle bağını gösterir."
+  },
+  {
+   "s": "Landing page ne kadar uzun olmalı?",
+   "c": "Google bir kelime sayısı ölçütü kullanmadığını belirtiyor. Sayfa, arama niyetini karşılayacak ve karar için gereken soruları cevaplayacak kadar uzun olmalı. Basit bir randevu sayfası kısa olabilir; karmaşık bir B2B hizmeti için süreç, kapsam ve sık sorular gerekir."
+  },
+  {
+   "s": "Her şehir için ayrı landing page açmalı mıyım?",
+   "c": "Her şehirde gerçekten hizmet veriyor ve her sayfaya o şehre özgü bilgi koyabiliyorsanız evet. Yalnızca şehir adı değişen kopya sayfalar, Google'ın spam politikalarındaki doorway sayfalara benzeyebilir. Yerel sayfaların doğru kurgusu [yerel SEO rehberinde](/yerel-seo) anlatılıyor."
+  },
+  {
+   "s": "A/B testi yaparken SEO'ya zarar vermemek için ne yapmalıyım?",
+   "c": "Google, test varyantları için rel=canonical kullanmayı, geçici yönlendirmelerde 302 tercih etmeyi ve testi gereğinden uzun tutmamayı öneriyor. Googlebot'a kullanıcılardan farklı içerik göstermek ise gizleme sayılır. Ayrıntılar [CRO ve SEO](/cro-ve-seo) yazısındaki test bölümünde."
+  },
+  {
+   "s": "Landing page'e schema eklemek gerekir mi?",
+   "c": "Zorunlu değildir, ama sayfanın konusuna uygun yapısal veri Google'ın içeriği anlamasına yardımcı olabilir. Hizmet veren bir işletme için Organization ya da LocalBusiness işaretlemesi sık kullanılır. Kodu hazırlamak için [schema oluşturucu aracını](/schema-olusturucu) kullanabilirsiniz."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does removing the menu from a landing page hurt SEO?",
+   "c": "Removing the menu is not a ranking penalty in itself, but the page still needs internal links. On an ad page, a menu free design can reduce distraction. On an organic landing page, a short menu or footer links show both visitors and Google how the page connects to the site."
+  },
+  {
+   "s": "How long should a landing page be?",
+   "c": "Google says it does not use a word count criterion. The page should be long enough to satisfy the intent and answer the questions needed for a decision. A simple booking page can be short; a complex B2B service needs process, scope and common questions."
+  },
+  {
+   "s": "Should I create a landing page for every city?",
+   "c": "Yes, if you actually serve each city and can add information specific to it. Copies where only the city name changes can resemble the doorway pages described in Google's spam policies. The [local SEO guide](/en/yerel-seo) explains how to build local pages properly."
+  },
+  {
+   "s": "How do I run A/B tests without hurting SEO?",
+   "c": "Google recommends using rel=canonical on test variants, using 302 for temporary redirects and not running tests longer than needed. Showing Googlebot different content from users counts as cloaking. Details are in the testing section of the [CRO and SEO](/en/cro-ve-seo) post."
+  },
+  {
+   "s": "Do landing pages need schema markup?",
+   "c": "It is not required, but structured data that fits the page can help Google understand the content. Service businesses often use Organization or LocalBusiness markup. You can generate the code with the [schema generator](/en/schema-generator)."
+  }
+ ]
+}

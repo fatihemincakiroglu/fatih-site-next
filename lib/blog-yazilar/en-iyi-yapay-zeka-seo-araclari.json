@@ -1,0 +1,457 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 9,
+ "baslik_tr": "En İyi 10 Yapay Zekâ Destekli SEO Aracı",
+ "baslik_en": "10 Best AI-Powered SEO Tools",
+ "meta_baslik_tr": "En İyi 10 Yapay Zekâ Destekli SEO Aracı",
+ "meta_baslik_en": "10 Best AI-Powered SEO Tools Compared",
+ "meta_desc_tr": "ChatGPT, Gemini, Claude, Perplexity, Semrush, Ahrefs, Surfer ve diğerleri. 10 yapay zekâ destekli SEO aracının uygun olduğu işler ve sınırları.",
+ "meta_desc_en": "ChatGPT, Gemini, Claude, Perplexity, Semrush, Ahrefs, Surfer and more. Where 10 AI-powered SEO tools fit, what they do well and their limits.",
+ "ozet_tr": "Genel asistanlardan yapay zekâ görünürlüğü ölçen platformlara, 10 aracın hangi SEO işine uygun olduğu ve sınırları.",
+ "ozet_en": "From general assistants to AI visibility platforms, which SEO job each of 10 tools suits and where it falls short.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yapay zekâ destekli SEO araçları iki gruba ayrılıyor: her işe yardım eden genel asistanlar ve belirli bir SEO işi için yapay zekâ özelliği eklenmiş uzman araçlar. Danışanlarımın en sık yaptığı hata, bir asistanın anahtar kelime hacmi ya da sıralama verisi bildiğini varsaymak. Asistan veri üretmez, elindeki veriyi yorumlar.",
+    "Bu listede sıralama iddiası yok; her aracı en uygun olduğu durum ve sınırıyla anlatıyorum. Özellikleri Kasım 2026 itibarıyla resmi sitelerden kontrol ettim. Fiyat vermiyorum, paketler sık değişiyor. Bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Taslak, sınıflandırma ve veri yorumlama için ChatGPT, Gemini, Claude ve Perplexity gibi asistanlar; yapay zekâ cevaplarındaki marka görünürlüğü için Semrush ve Ahrefs; içerik optimizasyonu için Surfer, Clearscope ve Frase; tarama sırasında toplu yapay zekâ işlemleri için Screaming Frog kullanılır. Hiçbir aracın çıktısı doğrulanmadan yayına girmemeli."
+    }
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ SEO araçları hangi gruplara ayrılır?",
+   "paragraflar": [
+    "Araç seçmeden önce hangi işi çözmek istediğinizi belirleyin. Aşağıdaki dört grup, listedeki 10 aracın hangi işe hizmet ettiğini özetliyor.",
+    {
+     "kartlar": [
+      {
+       "ikon": "💬",
+       "baslik": "Genel asistanlar",
+       "metin": "Taslak, özetleme, sınıflandırma, formül ve regex yazımı. Kendi başına arama hacmi ya da sıralama verisi vermez."
+      },
+      {
+       "ikon": "📡",
+       "baslik": "Görünürlük platformları",
+       "metin": "Markanızın yapay zekâ cevaplarında anılıp anılmadığını ve hangi kaynakların alıntılandığını izler."
+      },
+      {
+       "ikon": "📝",
+       "baslik": "İçerik optimizasyonu",
+       "metin": "Bir sorgu için kapsanması gereken konu ve terimleri çıkarır, taslağı puanlar ya da brif üretir."
+      },
+      {
+       "ikon": "🕷️",
+       "baslik": "Teknik tarama",
+       "metin": "Tarama sırasında binlerce sayfaya aynı yapay zekâ işlemini uygular: sınıflandırma, alt metin önerisi, benzerlik."
+      }
+     ]
+    },
+    "İçerik planının kendisi araçtan önce gelir. Konu kümeleri ve öncelik sırası için [içerik stratejisi rehberi](/icerik-stratejisi), sorgu seçimi için [anahtar kelime araştırması rehberi](/anahtar-kelime-arastirmasi) temel çerçeveyi veriyor."
+   ]
+  },
+  {
+   "baslik": "Genel amaçlı yapay zekâ asistanları",
+   "paragraflar": [
+    {
+     "alt": "1. ChatGPT"
+    },
+    "OpenAI'nin asistanı; web araması yaptığında cevabın yanında kaynak bağlantıları gösterir, deep research özelliği ise kaynaklı uzun raporlar hazırlar. **En uygun olduğu durum:** içerik taslağı, meta açıklama varyasyonları, Search Console dışa aktarımlarını sınıflandırma. **Sınırı:** hacim ya da sıralama verisi uydurabilir; rakamları her zaman kendi aracınızdan alın. Kullanım senaryolarını [ChatGPT ile SEO](/chatgpt-ile-seo) yazısında, hazır komutları [ChatGPT SEO promptları](/chatgpt-seo-promptlari) listesinde topladım.",
+    {
+     "alt": "2. Gemini"
+    },
+    "Google'ın asistanı; Deep Research özelliği bir konuyu birçok kaynaktan tarayıp rapor halinde özetler. **En uygun olduğu durum:** Google ekosistemiyle (Dokümanlar, E-Tablolar) çalışan ekipler ve bir konunun hızlı haritasını çıkarmak. **Sınırı:** Gemini'nin cevabı, Google Arama'daki AI Overviews ile aynı şey değildir; birinde görünmek diğerinde görünmeyi göstermez.",
+    {
+     "alt": "3. Claude"
+    },
+    "Anthropic'in asistanı; web araması açıkken kaynak göstererek cevap verebilir. **En uygun olduğu durum:** uzun dokümanları özetlemek, mevcut bir yazıyı yapı ve tutarlılık açısından elden geçirmek, teknik metinleri sadeleştirmek. **Sınırı:** diğer asistanlar gibi gerçek zamanlı SEO verisine kendiliğinden erişmez; analiz için veriyi siz sağlarsınız.",
+    {
+     "alt": "4. Perplexity"
+    },
+    "Cevaplarını numaralı kaynaklarla veren bir yapay zekâ arama motoru. **En uygun olduğu durum:** bir sorguda hangi sayfaların kaynak gösterildiğine bakmak ve rakiplerin yapay zekâ cevaplarındaki yerini gözlemlemek. **Sınırı:** tek tek elle yapılan sorgular ölçüm değil, gözlemdir. Kaynak olarak seçilme koşullarını [Perplexity'de kaynak gösterilme](/perplexity-kaynak-gosterilme) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ görünürlüğünü ölçen SEO platformları",
+   "paragraflar": [
+    {
+     "alt": "5. Semrush AI Visibility Toolkit"
+    },
+    "Semrush'ın bilgi bankasına göre bu araç seti markanın yapay zekâ cevaplarındaki görünürlüğünü ölçer; Visibility Overview, Prompt Research, Brand Performance ve Prompt Tracking raporlarının yanında yapay zekâ tarayıcılarını engelleyen teknik sorunlar için bir AI Search Site Audit içerir. **En uygun olduğu durum:** zaten Semrush kullanan ve rakip karşılaştırması isteyen ekipler. **Sınırı:** ücretli bir abonelik gerektirir; izlenen promptlar gerçek kullanıcı sorgularının bir örneklemidir.",
+    {
+     "alt": "6. Ahrefs Brand Radar"
+    },
+    "Ahrefs'in resmi sayfasına göre Brand Radar; AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini ve Copilot cevaplarında markanın anılmasını izler, özel prompt takibinde Claude da yer alır. Ücretsiz bir AI Visibility Checker ile ön izleme yapılabiliyor. **En uygun olduğu durum:** marka bahsi ve backlink verisini aynı yerde görmek isteyenler. **Sınırı:** tam ürün ücretli; veriler modelleme içerir, kesin trafik değildir. Gerçek ziyaretleri [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısındaki kanal ayarıyla ölçün."
+   ]
+  },
+  {
+   "baslik": "İçerik optimizasyonu için yapay zekâ araçları",
+   "paragraflar": [
+    {
+     "alt": "7. Surfer"
+    },
+    "Content Editor ile bir sorgu için kapsanması gereken terim ve konuları gösterir. 2026 güncellemelerine göre AI Tracker'a Gemini eklendi; Mention Gap ve Sentiment Analysis gibi özelliklerle yapay zekâ aramasındaki görünürlüğe de odaklanıyor. **En uygun olduğu durum:** düzenli içerik üreten ve yazarlarına net bir kontrol listesi vermek isteyen ekipler. **Sınırı:** içerik puanı Google'ın bir sinyali değildir; puanı yükseltmek için terim doldurmak okunabilirliği bozar.",
+    {
+     "alt": "8. Clearscope"
+    },
+    "Resmi sitesine göre Google Docs ve Office 365 entegrasyonları, içerik envanteri (Content Inventory), AI Drafts ve yapay zekâ cevaplarında marka bahsi ve alıntı takibi sunuyor. **En uygun olduğu durum:** editoryal ekibi olan, mevcut içeriğin hangisinin güncellenmesi gerektiğini izlemek isteyen siteler. **Sınırı:** Türkçe sorgularda öneri kalitesini kendi örnek sayfalarınızla test edin.",
+    {
+     "alt": "9. Frase"
+    },
+    "Şubat 2026'da yenilenen platform; içerik brifleri, geleneksel SEO ile yapay zekâ araması için eş zamanlı optimizasyon ve AI Visibility takibi sunuyor. Ücretsiz bir GEO Score Checker aracı da var. **En uygun olduğu durum:** brif hazırlama süresini kısaltmak isteyen küçük ekipler ve serbest yazarlar. **Sınırı:** brif, sahadaki uzmanlığın yerini tutmaz; özgün örnek ve deneyim katmazsanız içerik rakiplerden ayrışmaz."
+   ]
+  },
+  {
+   "baslik": "Teknik SEO için yapay zekâ entegrasyonu",
+   "paragraflar": [
+    {
+     "alt": "10. Screaming Frog SEO Spider"
+    },
+    "Resmi dokümanına göre SEO Spider; OpenAI, Gemini, Anthropic ve yerel modeller için Ollama API'lerine bağlanarak tarama sırasında her sayfaya prompt çalıştırabiliyor. Örnekler: dil ve niyet sınıflandırması, alt metin ve meta açıklama önerisi, anlamsal benzerlik için vektör gömmeleri. **En uygun olduğu durum:** yüzlerce sayfayı aynı ölçütle sınıflandırmak, yinelenen ya da birbirine çok benzeyen içerikleri bulmak. **Sınırı:** OpenAI, Gemini ve Anthropic için kendi API anahtarınız gerekir ve kullanım ücreti sağlayıcıya ödenir. Genel denetim araçları için [SEO denetim araçları](/seo-audit-araclari) karşılaştırmasına bakın."
+   ]
+  },
+  {
+   "baslik": "Hangi iş için hangi yapay zekâ SEO aracı?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "İş",
+       "Uygun araçlar",
+       "Dikkat edilecek nokta"
+      ],
+      "satirlar": [
+       [
+        "İçerik taslağı ve yeniden yazım",
+        "ChatGPT, Claude, Gemini",
+        "Bilgi ve rakamları elle doğrulayın"
+       ],
+       [
+        "Konu araştırması ve kaynak taraması",
+        "Perplexity, Gemini Deep Research, ChatGPT deep research",
+        "Kaynakların kendisini açıp okuyun"
+       ],
+       [
+        "Yapay zekâ cevaplarında marka takibi",
+        "Semrush AI Visibility Toolkit, Ahrefs Brand Radar",
+        "Prompt seti sizin pazarınızı temsil etmeli"
+       ],
+       [
+        "Terim ve konu kapsamı",
+        "Surfer, Clearscope, Frase",
+        "Puan Google sinyali değildir"
+       ],
+       [
+        "Toplu sayfa sınıflandırma",
+        "Screaming Frog + API",
+        "Küçük bir örneklemle test edip ölçeklendirin"
+       ]
+      ]
+     }
+    },
+    "Yapay zekâ cevaplarında görünürlüğü artırmanın içerik tarafını [GEO uygulama rehberi](/geo-uygulama), terimlerin tanımlarını [yapay zekâ sözlüğü](/ai-sozluk) anlatıyor."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ çıktısı yayına nasıl hazırlanır?",
+   "paragraflar": [
+    "Google, yapay zekâyla üretilmiş içeriği kendi başına cezalandırmıyor; esas olan içeriğin insanlara faydalı olması ve sıralamayı manipüle etmek için toplu üretilmemesi. Ayrıntıları [yapay zekâ içeriği ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında topladım. Pratikte her çıktıyı şu akıştan geçiriyorum:",
+    {
+     "akis": {
+      "baslik": "Yapay zekâ çıktısı yayın akışı",
+      "adimlar": [
+       {
+        "baslik": "Veriyi siz verin",
+        "metin": "Search Console, GA4 ya da tarama verisini prompta ekleyin; aracın tahmin etmesine izin vermeyin."
+       },
+       {
+        "baslik": "Taslağı alın",
+        "metin": "Çıktıyı ham malzeme olarak görün, nihai metin olarak değil."
+       },
+       {
+        "baslik": "Doğrulayın",
+        "metin": "Her rakam, tarih, ürün özelliği ve alıntıyı resmi kaynaktan kontrol edin."
+       },
+       {
+        "baslik": "Deneyim ekleyin",
+        "metin": "Kendi örneğiniz, ekran görüntünüz ve kararınız içeriği ayrıştırır."
+       },
+       {
+        "baslik": "Ölçün",
+        "metin": "Yayından sonra tıklama, gösterim ve yapay zekâ trafiğini izleyin."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Rakamlar kendi veri kaynağınızdan mı?",
+      "Ürün ve özellik adları resmi sitede geçiyor mu?",
+      "Türkçe karakterler ve terimler doğru mu?",
+      "Yazar bilgisi ve tarih sayfada görünüyor mu?",
+      "Metin, rakip sayfalarda olmayan bir bilgi ya da örnek içeriyor mu?"
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Toplu üretim riski",
+      "metin": "Yüzlerce sayfayı yapay zekâyla aynı şablonda üretip yayınlamak, Google'ın ölçekli içerik kötüye kullanımı politikasına takılabilir. Az ama doğrulanmış içerik, çok ama yüzeysel içerikten daha güvenlidir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Araçlar yeterli olmadığında",
+   "paragraflar": [
+    "Araçlar veri toplar ve taslak üretir; hangi sayfanın neden yapay zekâ cevaplarında yer almadığını ve hangi içeriğin önce düzeltileceğini yorumlamak ayrı bir iştir. Yapay zekâ aramasında görünürlük için [GEO danışmanlığı](/geo-uzmani), içerik üretimi ve güncelleme planı için [içerik hizmeti](/icerik) sayfalarına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "AI-powered SEO tools fall into two groups: general assistants that help with almost anything, and specialist SEO tools that have added AI features for a specific job. The most common mistake I see is assuming an assistant knows search volume. It does not produce data, it interprets yours.",
+    "There is no ranking here; each tool comes with its best fit and main limit. I checked the features on official sites as of November 2026. I do not list prices because plans change often. This post is not sponsored.",
+    {
+     "alinti": "Short answer: Use assistants such as ChatGPT, Gemini, Claude and Perplexity for drafts, classification and data interpretation; Semrush and Ahrefs for brand visibility in AI answers; Surfer, Clearscope and Frase for content optimization; and Screaming Frog for bulk AI tasks during a crawl. No tool's output should go live without verification."
+    }
+   ]
+  },
+  {
+   "baslik": "What types of AI SEO tools are there?",
+   "paragraflar": [
+    "Decide on the job before the tool. The four groups below summarize what the 10 tools are for.",
+    {
+     "kartlar": [
+      {
+       "ikon": "💬",
+       "baslik": "General assistants",
+       "metin": "Drafting, summarizing, classifying, writing formulas and regex. They do not provide search volume or rankings on their own."
+      },
+      {
+       "ikon": "📡",
+       "baslik": "Visibility platforms",
+       "metin": "Track whether your brand is mentioned in AI answers and which sources get cited."
+      },
+      {
+       "ikon": "📝",
+       "baslik": "Content optimization",
+       "metin": "Extract the topics and terms a query expects, score drafts or generate briefs."
+      },
+      {
+       "ikon": "🕷️",
+       "baslik": "Technical crawling",
+       "metin": "Apply the same AI task to thousands of pages during a crawl, such as classification, alt text ideas or similarity."
+      }
+     ]
+    },
+    "The content plan comes before the tool. The [content strategy guide](/en/icerik-stratejisi) covers topic clusters and priorities, and the [keyword research guide](/en/anahtar-kelime-arastirmasi) covers how to choose queries."
+   ]
+  },
+  {
+   "baslik": "General-purpose AI assistants",
+   "paragraflar": [
+    {
+     "alt": "1. ChatGPT"
+    },
+    "OpenAI's assistant. When it searches the web it shows source links next to the answer, and its deep research feature produces longer reports with citations. **Best for:** content drafts, meta description variations, classifying Search Console exports. **Limit:** it can invent volume or ranking numbers, so always take figures from your own tools. I cover use cases in [SEO with ChatGPT](/en/chatgpt-ile-seo) and ready-made prompts in [ChatGPT SEO prompts](/en/chatgpt-seo-promptlari).",
+    {
+     "alt": "2. Gemini"
+    },
+    "Google's assistant. Its Deep Research feature scans many sources on a topic and summarizes them in a report. **Best for:** teams working in Google Docs and mapping a topic quickly. **Limit:** a Gemini answer is not the same thing as AI Overviews in Google Search; appearing in one says nothing about the other.",
+    {
+     "alt": "3. Claude"
+    },
+    "Anthropic's assistant. With web search turned on it can answer with cited sources. **Best for:** summarizing long documents and reviewing an article for structure. **Limit:** like other assistants it does not access live SEO data by itself; you supply the data for analysis.",
+    {
+     "alt": "4. Perplexity"
+    },
+    "An AI search engine that answers with numbered sources. **Best for:** checking which pages are cited for a query and observing where competitors appear in AI answers. **Limit:** individual manual queries are observation, not measurement. I explain what makes a page a likely source in [getting cited by Perplexity](/en/perplexity-kaynak-gosterilme)."
+   ]
+  },
+  {
+   "baslik": "SEO platforms that measure AI visibility",
+   "paragraflar": [
+    {
+     "alt": "5. Semrush AI Visibility Toolkit"
+    },
+    "According to Semrush's knowledge base, this toolkit measures brand visibility in AI answers. It includes Visibility Overview, Prompt Research, Brand Performance and Prompt Tracking reports, plus an AI Search Site Audit for technical issues that can block AI crawlers. **Best for:** teams already on Semrush who want competitor comparisons. **Limit:** it requires a paid subscription, and tracked prompts are only a sample of real user queries.",
+    {
+     "alt": "6. Ahrefs Brand Radar"
+    },
+    "According to Ahrefs' official page, Brand Radar tracks brand mentions in AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot, and custom prompt tracking also covers Claude. A free AI Visibility Checker offers a preview. **Best for:** anyone who wants brand mentions and backlink data in one place. **Limit:** the full product is paid, and the data involves modeling rather than exact traffic. Measure real visits with the channel setup in [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi)."
+   ]
+  },
+  {
+   "baslik": "AI tools for content optimization",
+   "paragraflar": [
+    {
+     "alt": "7. Surfer"
+    },
+    "Its Content Editor shows the terms and topics a query expects. According to its 2026 updates, Gemini was added to the AI Tracker, and features such as Mention Gap and Sentiment Analysis focus on visibility in AI search. **Best for:** teams publishing regularly who want to give writers a clear checklist. **Limit:** the content score is not a Google signal, and stuffing terms to raise it hurts readability.",
+    {
+     "alt": "8. Clearscope"
+    },
+    "According to its official site, Clearscope offers Google Docs and Office 365 integrations, a Content Inventory, AI Drafts, and tracking of brand mentions and citations in AI answers. **Best for:** editorial teams tracking which content needs a refresh. **Limit:** test suggestion quality on non-English queries with your own sample pages.",
+    {
+     "alt": "9. Frase"
+    },
+    "Relaunched in February 2026, the platform offers content briefs, optimization for traditional SEO and AI search at the same time, and AI Visibility tracking. It also has a free GEO Score Checker. **Best for:** small teams and freelance writers who want to cut brief preparation time. **Limit:** a brief does not replace expertise or original examples."
+   ]
+  },
+  {
+   "baslik": "AI integration for technical SEO",
+   "paragraflar": [
+    {
+     "alt": "10. Screaming Frog SEO Spider"
+    },
+    "According to its official documentation, the SEO Spider connects to the OpenAI, Gemini and Anthropic APIs, and to Ollama for local models, so it can run prompts against every page during a crawl. Examples include language and intent classification, alt text and meta description suggestions, and vector embeddings for semantic similarity. **Best for:** classifying hundreds of pages consistently and finding near-duplicate content. **Limit:** OpenAI, Gemini and Anthropic need your own API key and usage is billed by the provider. For general audit tools, see the [SEO audit tools](/en/seo-audit-araclari) comparison."
+   ]
+  },
+  {
+   "baslik": "Which AI SEO tool for which job?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Job",
+       "Suitable tools",
+       "Watch out for"
+      ],
+      "satirlar": [
+       [
+        "Content drafts and rewrites",
+        "ChatGPT, Claude, Gemini",
+        "Verify facts and numbers manually"
+       ],
+       [
+        "Topic research and source review",
+        "Perplexity, Gemini Deep Research, ChatGPT deep research",
+        "Open and read the sources themselves"
+       ],
+       [
+        "Brand tracking in AI answers",
+        "Semrush AI Visibility Toolkit, Ahrefs Brand Radar",
+        "The prompt set must represent your market"
+       ],
+       [
+        "Term and topic coverage",
+        "Surfer, Clearscope, Frase",
+        "The score is not a Google signal"
+       ],
+       [
+        "Bulk page classification",
+        "Screaming Frog + API",
+        "Test on a small sample, then scale"
+       ]
+      ]
+     }
+    },
+    "The [GEO implementation guide](/en/geo-uygulama) covers the content side of appearing in AI answers, and the [AI glossary](/en/ai-glossary) defines the terms."
+   ]
+  },
+  {
+   "baslik": "How to get AI output ready to publish",
+   "paragraflar": [
+    "Google does not penalize AI-generated content by itself; what matters is that content helps people and is not mass-produced to manipulate rankings. I summarize the details in [AI content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). In practice I run every output through this flow:",
+    {
+     "akis": {
+      "baslik": "AI output publishing flow",
+      "adimlar": [
+       {
+        "baslik": "Supply the data",
+        "metin": "Add Search Console, GA4 or crawl data to the prompt; do not let the tool guess."
+       },
+       {
+        "baslik": "Get a draft",
+        "metin": "Treat the output as raw material, not final copy."
+       },
+       {
+        "baslik": "Verify",
+        "metin": "Check every number, date, product feature and quote against an official source."
+       },
+       {
+        "baslik": "Add experience",
+        "metin": "Your own example, screenshot and judgment make the content distinct."
+       },
+       {
+        "baslik": "Measure",
+        "metin": "After publishing, track clicks, impressions and AI traffic."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Do the numbers come from your own data source?",
+      "Do product and feature names appear on the official site?",
+      "Are terms and local spellings correct?",
+      "Are the author and date visible on the page?",
+      "Does the text include information or an example competitors lack?"
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Mass production risk",
+      "metin": "Publishing hundreds of AI-generated pages from the same template can run into Google's scaled content abuse policy. A few verified pages are safer than many shallow ones."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "When tools are not enough",
+   "paragraflar": [
+    "Tools collect data and draft; deciding why a page is missing from AI answers and what to fix first is a separate job. See [GEO consulting](/en/geo-consulting) for AI search visibility, [content strategy services](/en/content-strategy) for production and refresh plans, or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yapay zekâ SEO araçları anahtar kelime hacmini doğru verir mi?",
+   "c": "Genel asistanlar kendi başına güvenilir hacim verisi sunmaz ve rakam uydurabilir. Hacim için Google Ads Anahtar Kelime Planlayıcı ya da Semrush, Ahrefs gibi veritabanı olan araçları kullanın. Asistanı bu veriyi yorumlamak ve gruplamak için devreye alın."
+  },
+  {
+   "s": "Ücretsiz bir yapay zekâ aracıyla SEO yapılabilir mi?",
+   "c": "ChatGPT, Gemini, Claude ve Perplexity'nin ücretsiz kullanım seçenekleri taslak ve sınıflandırma için çoğu zaman yeterlidir. Özellik ve kullanım sınırları plana göre değiştiği için güncel durumu resmi sayfadan kontrol edin. Yapay zekâ görünürlüğü takibi ise genellikle ücretli platform gerektirir."
+  },
+  {
+   "s": "Yapay zekâyla yazılmış içerik Google'da sıralama kaybeder mi?",
+   "c": "Üretim yöntemi tek başına belirleyici değildir. İçerik faydalı, doğru ve özgünse sıralanabilir; toplu ve yüzeysel üretim ise spam politikalarına takılabilir. Belirleyici olan, yayın öncesi doğrulama ve eklediğiniz deneyimdir."
+  },
+  {
+   "s": "Hassas müşteri verisini yapay zekâ araçlarına yüklemek güvenli mi?",
+   "c": "Her aracın veri kullanımı ve saklama koşulları farklıdır. Kişisel veri içeren dosyaları yüklemeden önce anonimleştirin ve kurumsal planlardaki veri ayarlarını kontrol edin. KVKK açısından şirketinizin iç politikasına uyun."
+  },
+  {
+   "s": "Hangi yapay zekâ aracını önce denemeliyim?",
+   "c": "Zaten kullandığınız bir SEO platformu varsa önce onun yapay zekâ özelliklerine bakın; ek bir abonelik gerekmeyebilir. Yoksa bir genel asistanla Search Console verinizi sınıflandırarak başlayın. Belirli bir ihtiyaç ortaya çıktığında uzman araca geçin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do AI SEO tools give accurate keyword volume?",
+   "c": "General assistants do not provide reliable volume data on their own and can make numbers up. Use Google Ads Keyword Planner or database tools such as Semrush and Ahrefs for volume. Bring in the assistant to interpret and group that data."
+  },
+  {
+   "s": "Can you do SEO with a free AI tool?",
+   "c": "The free options of ChatGPT, Gemini, Claude and Perplexity are often enough for drafts and classification. Features and usage limits vary by plan, so check the official page for the current situation. Tracking AI visibility usually needs a paid platform."
+  },
+  {
+   "s": "Does AI-written content lose rankings on Google?",
+   "c": "The production method is not decisive by itself. Helpful, accurate and original content can rank, while mass-produced shallow content can run into spam policies. What matters is verification before publishing and the experience you add."
+  },
+  {
+   "s": "Is it safe to upload sensitive client data to AI tools?",
+   "c": "Data use and retention terms differ by tool. Anonymize personal data before uploading and check business plan data settings. Follow your company's internal policy and local privacy law."
+  },
+  {
+   "s": "Which AI tool should I try first?",
+   "c": "If you already pay for an SEO platform, check its AI features first; you may not need another subscription. Otherwise start by classifying your Search Console data with a general assistant. Move to a specialist tool once a specific need appears."
+  }
+ ]
+}

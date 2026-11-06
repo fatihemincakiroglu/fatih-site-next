@@ -1,0 +1,447 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "En İyi 7 WordPress SEO Eklentisi",
+ "baslik_en": "7 Best WordPress SEO Plugins",
+ "meta_baslik_tr": "En İyi 7 WordPress SEO Eklentisi",
+ "meta_baslik_en": "7 Best WordPress SEO Plugins Compared",
+ "meta_desc_tr": "Yoast SEO, Rank Math, AIOSEO, SEOPress, The SEO Framework, Redirection ve WP-Optimize. Ücretsiz sürümlerde neler var, hangisi hangi siteye uygun?",
+ "meta_desc_en": "Yoast SEO, Rank Math, AIOSEO, SEOPress, The SEO Framework, Redirection and WP-Optimize. What the free versions include and which site each one suits.",
+ "ozet_tr": "Beş kapsamlı SEO eklentisi ve iki teknik destek eklentisi, ücretsiz sürüm kapsamları ve hangi siteye uygun oldukları.",
+ "ozet_en": "Five all-in-one SEO plugins and two technical helpers, what their free versions cover and which sites they suit.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "WordPress sitelerde SEO eklentisi meta etiketleri, site haritasını, canonical ve robots ayarlarını, yapısal veriyi tek panelden yönetmenizi sağlar. Ama eklenti kendi başına sıralama getirmez; yanlış ayarlanmış bir eklenti ise önemli sayfaları noindex yapabilir. Sahada en sık gördüğüm sorun, iki SEO eklentisinin aynı anda açık olması.",
+    "Bu listede beş kapsamlı SEO eklentisi ve onları tamamlayan iki teknik eklenti var. Sıralama iddiası kurmuyorum; her eklentinin en uygun olduğu durumu ve sınırını yazdım. Özellikleri Kasım 2026 itibarıyla WordPress.org eklenti sayfalarından ve resmi sitelerden kontrol ettim. Fiyat vermiyorum. Bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Kapsamlı SEO eklentisi olarak Yoast SEO, Rank Math, All in One SEO, SEOPress ya da The SEO Framework'ten yalnızca birini kullanın. Yönlendirme yönetimi ücretsiz sürümde yoksa Redirection eklentisini, önbellek ve veritabanı temizliği için WP-Optimize gibi bir performans eklentisini ekleyin. Seçimi ücretsiz sürümün kapsamına ve sitenizin ihtiyacına göre yapın."
+    }
+   ]
+  },
+  {
+   "baslik": "WordPress SEO eklentisi seçerken neye bakmalı?",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "1️⃣",
+       "baslik": "Tek SEO eklentisi",
+       "metin": "İki eklenti aynı meta etiketleri ve site haritasını üretirse çakışma çıkar. Biri seçilir, diğeri kaldırılır."
+      },
+      {
+       "ikon": "🆓",
+       "baslik": "Ücretsiz sürümün kapsamı",
+       "metin": "Yönlendirme, 404 izleme ve schema türleri bazı eklentilerde ücretli sürümde. İhtiyacınızla karşılaştırın."
+      },
+      {
+       "ikon": "🔄",
+       "baslik": "İçe aktarma",
+       "metin": "Eklenti değiştirirken başlık ve açıklamaların taşınabilmesi için içe aktarma aracına bakın."
+      },
+      {
+       "ikon": "⚡",
+       "baslik": "Yük ve sadelik",
+       "metin": "Kullanmayacağınız modülleri kapatabilmek, panelin ve sitenin hafif kalmasını sağlar."
+      }
+     ]
+    },
+    "Eklenti, [teknik SEO rehberinde](/teknik-seo) anlattığım temellerin uygulama aracıdır. Hangi ayarın neden yapıldığını bilmeden yapılan kurulum, varsayılan ayarların sitenize uygun olmadığı durumları gözden kaçırır."
+   ]
+  },
+  {
+   "baslik": "Kapsamlı WordPress SEO eklentileri",
+   "paragraflar": [
+    {
+     "alt": "1. Yoast SEO"
+    },
+    "WordPress.org sayfasına göre ücretsiz sürüm SEO, okunabilirlik ve kapsayıcı dil analizi, schema işaretlemesi, XML site haritası, breadcrumbs bloğu, canonical URL ve llms.txt yönetimi içeriyor. Yönlendirme yöneticisi, akıllı iç link önerileri ve yapay zekâ araçları Premium sürümde. **En uygun olduğu durum:** editörlerin yazarken yönlendirme isteyen içerik ağırlıklı siteler. **Sınırı:** ücretsiz sürümde yönlendirme yöneticisi yok, ayrı bir eklenti gerekir.",
+    {
+     "alt": "2. Rank Math"
+    },
+    "Ücretsiz sürümde gönderi başına varsayılan olarak beş odak anahtar kelime, 16'dan fazla schema türü, yönlendirme yöneticisi, 404 izleyici ve temel Search Console ile Analytics entegrasyonu var. Content AI için ücretsiz başlangıç seçeneği sunuluyor; sıralama geçmişi gibi özellikler PRO'da. **En uygun olduğu durum:** ek eklenti kurmadan yönlendirme ve schema ihtiyacını karşılamak isteyenler. **Sınırı:** modül sayısı fazla; kullanmadıklarınızı kapatmazsanız panel karmaşıklaşır. Yoast ile ayrıntılı karşılaştırma [Yoast mu Rank Math mi](/yoast-mu-rank-math-mi) yazısında.",
+    {
+     "alt": "3. All in One SEO (AIOSEO)"
+    },
+    "Ücretsiz sürümü WordPress.org'da yayınlanıyor; TruSEO sayfa içi analizi, kurulum sihirbazı, XML site haritası ve schema özellikleri öne çıkıyor. AIOSEO'nun resmi duyurusuna göre Redirection Manager, Pro ve üstü planlarda. **En uygun olduğu durum:** adım adım kurulum sihirbazıyla ilerlemek isteyen yeni site sahipleri. **Sınırı:** yönlendirme ve bazı gelişmiş modüller ücretli planlarda.",
+    {
+     "alt": "4. SEOPress"
+    },
+    "Ücretsiz sürümde başlık ve meta açıklama şablonları, XML site haritası, gönderi düzeyinde yönlendirme, sınırsız hedef anahtar kelimeyle içerik analizi ve Yoast ile Rank Math'ten tek tıkla taşıma var. Tam yönlendirme yöneticisi, 404 izleme, schema düzenleyici ve Search Console entegrasyonu PRO sürümde. **En uygun olduğu durum:** sade bir arayüz ve başka eklentiden kolay geçiş isteyenler. **Sınırı:** gelişmiş schema ihtiyacı için PRO gerekir.",
+    {
+     "alt": "5. The SEO Framework"
+    },
+    "Ücretli sürümü olmayan, reklam ve bildirim göstermeyen hafif bir eklenti. Başlık ve açıklamaları otomatik üretir; XML site haritası, JSON-LD yapısal veri, canonical ve robots yönergeleri sunar. Geliştiricisi analitik ve 404 izlemeyi bilinçli olarak dışarıda bırakıyor; ek özellikler Extension Manager ile geliyor. **En uygun olduğu durum:** performansa önem veren, ayarları az ve sabit siteler. **Sınırı:** içerik puanlama ya da yönlendirme gibi özellikleri ayrı araçla karşılamanız gerekir."
+   ]
+  },
+  {
+   "baslik": "SEO eklentisini tamamlayan teknik eklentiler",
+   "paragraflar": [
+    {
+     "alt": "6. Redirection"
+    },
+    "Premium sürümü olmayan, ücretsiz bir yönlendirme yöneticisi. 301 yönlendirme, regex desteği, 404 kaydı, koşullu yönlendirmeler, Apache ve Nginx kuralı dışa aktarma ile CSV ve JSON içe ve dışa aktarma sunuyor. **En uygun olduğu durum:** SEO eklentisinin ücretsiz sürümünde yönlendirme olmayan siteler ve site taşıma projeleri. **Sınırı:** SEO eklentinizde de yönlendirme modülü açıksa ikisini birlikte kullanmayın. Kural yazmayı [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısında anlattım.",
+    {
+     "alt": "7. WP-Optimize"
+    },
+    "Ücretsiz sürümde sayfa önbelleği, kayıplı ya da kayıpsız görsel sıkıştırma ve WebP dönüştürme, revizyon ve transient gibi veritabanı kalıntılarını temizleme ve HTML, CSS, JavaScript küçültme var. Tembel yükleme ve kullanılmayan görselleri silme Premium'da. **En uygun olduğu durum:** önbellek, görsel ve veritabanı işini tek eklentide toplamak isteyen küçük ve orta siteler. **Sınırı:** sunucunuz LiteSpeed ise, LiteSpeed uyumlu sunucu gerektiren LiteSpeed Cache eklentisi daha uygun olabilir; iki önbellek eklentisini aynı anda çalıştırmayın.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Hız tek eklentiyle çözülmez",
+      "metin": "Önbellek eklentisi hosting, tema ve ağır eklenti sorunlarını kapatamaz. Tüm adımları [WordPress site hızını artırma](/wordpress-site-hizi) yazısında, ölçüm eşiklerini [Core Web Vitals](/core-web-vitals-2025) yazısında anlattım."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Ücretsiz sürümlerde hangi özellikler var?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Eklenti",
+       "Ücretsiz sürümde öne çıkan",
+       "Ücretli sürümde ya da yok"
+      ],
+      "satirlar": [
+       [
+        "Yoast SEO",
+        "Analizler, schema, site haritası, breadcrumbs, llms.txt",
+        "Yönlendirme yöneticisi, iç link önerileri, yapay zekâ araçları"
+       ],
+       [
+        "Rank Math",
+        "5 odak anahtar kelime, schema, yönlendirme, 404 izleyici",
+        "Sıralama geçmişi ve daha fazla schema türü"
+       ],
+       [
+        "AIOSEO",
+        "TruSEO analizi, kurulum sihirbazı, site haritası",
+        "Redirection Manager"
+       ],
+       [
+        "SEOPress",
+        "Meta şablonları, site haritası, gönderi yönlendirmesi, taşıma",
+        "Yönlendirme yöneticisi, 404 izleme, schema düzenleyici"
+       ],
+       [
+        "The SEO Framework",
+        "Otomatik meta, site haritası, JSON-LD",
+        "Ücretli sürüm yok; analitik ve 404 izleme bilinçli olarak yok"
+       ],
+       [
+        "Redirection",
+        "301, regex, 404 kaydı, dışa aktarma",
+        "Ücretli sürüm yok"
+       ],
+       [
+        "WP-Optimize",
+        "Önbellek, görsel sıkıştırma, veritabanı temizliği",
+        "Tembel yükleme, kullanılmayan görselleri silme"
+       ]
+      ]
+     }
+    },
+    "WooCommerce mağazalarında ürün ve kategori şablonları için ek ayarlar gerekir; ayrıntılar [WooCommerce SEO](/woocommerce-seo) yazısında. Schema'nın hangi türde ve hangi sayfada kullanılacağını [schema ve yapısal veri rehberi](/schema-yapisal-veri) anlatıyor."
+   ]
+  },
+  {
+   "baslik": "SEO eklentisi değiştirirken nasıl ilerlemeli?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Eklenti değişim akışı",
+      "adimlar": [
+       {
+        "baslik": "Yedek alın",
+        "metin": "Veritabanı ve dosya yedeğini alın, mümkünse test ortamında başlayın."
+       },
+       {
+        "baslik": "Mevcut durumu kaydedin",
+        "metin": "Önemli sayfaların title, meta açıklama, canonical ve robots değerlerini tarayıcıyla dışa aktarın."
+       },
+       {
+        "baslik": "İçe aktarın",
+        "metin": "Yeni eklentinin içe aktarma aracıyla ayarları ve meta verileri taşıyın."
+       },
+       {
+        "baslik": "Eskisini kapatın",
+        "metin": "Eski SEO eklentisini devre dışı bırakın, iki eklenti aynı anda açık kalmasın."
+       },
+       {
+        "baslik": "Karşılaştırın",
+        "metin": "Siteyi yeniden tarayıp değerleri ilk dışa aktarımla karşılaştırın, site haritasını Search Console'a yeniden gönderin."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Yönlendirme kurallarını unutmayın",
+      "metin": "Eski eklentide tanımlı yönlendirmeler içe aktarılmayabilir. Kuralları önceden dışa aktarın; gerekirse [yönlendirme oluşturucu](/yonlendirme-olusturucu) ile sunucu kuralı olarak yeniden yazın."
+     }
+    },
+    "Alan adı ya da URL yapısı da değişiyorsa süreç daha kapsamlıdır; [site taşıma SEO rehberi](/site-tasima-seo) adım adım ilerliyor."
+   ]
+  },
+  {
+   "baslik": "Eklentinin yapamadığı işler",
+   "paragraflar": [
+    "SEO eklentisi ayarları yönetir, stratejiyi belirlemez. Şu işler eklentiden bağımsızdır:",
+    {
+     "liste": [
+      "Hangi sorguların hangi sayfayla hedefleneceğine karar vermek",
+      "İçeriğin gerçekten faydalı ve özgün olması",
+      "Sunucu yanıt süresi, tema kalitesi ve JavaScript yükü",
+      "Dış bağlantılar ve marka bahsi",
+      "Search Console'daki dizine ekleme sorunlarını yorumlamak"
+     ]
+    },
+    "Eklentinin ürettiği robots.txt dosyasını [robots.txt test aracıyla](/robots-txt-test) kontrol edin; llms.txt dosyası için [llms.txt rehberi](/llms-txt-rehberi) neyi beklemeniz gerektiğini anlatıyor. WordPress sitenizin teknik denetimi için [SEO danışmanlığı](/seo-uzmani) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "On WordPress sites, an SEO plugin lets you manage meta tags, the sitemap, canonical and robots settings, and structured data from one panel. But a plugin does not bring rankings by itself, and a misconfigured one can noindex important pages. The most common problem I find in audits is two SEO plugins running at the same time.",
+    "This list has five all-in-one SEO plugins and two technical plugins that complement them. I do not rank them; for each I describe the best fit and the main limit. I checked the features on WordPress.org plugin pages and official sites as of November 2026. I do not list prices. This post is not sponsored.",
+    {
+     "alinti": "Short answer: Use only one all-in-one SEO plugin, choosing from Yoast SEO, Rank Math, All in One SEO, SEOPress or The SEO Framework. If redirect management is missing from the free version, add Redirection, and add a performance plugin such as WP-Optimize for caching and database cleanup. Choose based on what the free version covers and what your site needs."
+    }
+   ]
+  },
+  {
+   "baslik": "What to look for in a WordPress SEO plugin",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "1️⃣",
+       "baslik": "One SEO plugin",
+       "metin": "Two plugins producing the same meta tags and sitemap will conflict. Pick one, remove the other."
+      },
+      {
+       "ikon": "🆓",
+       "baslik": "Free version scope",
+       "metin": "Redirects, 404 monitoring and schema types are paid features in some plugins. Compare with your needs."
+      },
+      {
+       "ikon": "🔄",
+       "baslik": "Import tools",
+       "metin": "Check for an import tool so titles and descriptions move with you when switching plugins."
+      },
+      {
+       "ikon": "⚡",
+       "baslik": "Weight and simplicity",
+       "metin": "Being able to turn off unused modules keeps the dashboard and site light."
+      }
+     ]
+    },
+    "A plugin is the implementation tool for the basics in my [technical SEO guide](/en/teknik-seo). Installing without knowing why each setting matters means missing the cases where defaults do not suit your site."
+   ]
+  },
+  {
+   "baslik": "All-in-one WordPress SEO plugins",
+   "paragraflar": [
+    {
+     "alt": "1. Yoast SEO"
+    },
+    "According to its WordPress.org page, the free version includes SEO, readability and inclusive language analysis, schema markup, XML sitemaps, a breadcrumbs block, canonical URLs and llms.txt management. The redirect manager, smart internal linking suggestions and AI tools are in Premium. **Best for:** content-heavy sites where editors want guidance while writing. **Limit:** no redirect manager in the free version, so you need a separate plugin.",
+    {
+     "alt": "2. Rank Math"
+    },
+    "The free version includes five focus keywords per post by default, more than 16 schema types, a redirection manager, a 404 monitor and basic Search Console and Analytics integration. Content AI has a free starting option, while features such as position history are in PRO. **Best for:** sites that want redirects and schema without extra plugins. **Limit:** there are many modules, and the dashboard gets cluttered unless you turn off the ones you do not use. A detailed comparison with Yoast is in [Yoast or Rank Math](/en/yoast-mu-rank-math-mi).",
+    {
+     "alt": "3. All in One SEO (AIOSEO)"
+    },
+    "The free version is published on WordPress.org, with TruSEO on-page analysis, a setup wizard, XML sitemaps and schema features. According to AIOSEO's official announcement, the Redirection Manager is in Pro and higher plans. **Best for:** new site owners who want a step-by-step setup wizard. **Limit:** redirects and some advanced modules are in paid plans.",
+    {
+     "alt": "4. SEOPress"
+    },
+    "The free version has title and meta description templates, XML sitemaps, post-level redirects, content analysis with unlimited target keywords and one-click migration from Yoast and Rank Math. The full redirect manager, 404 monitoring, schema editor and Search Console integration are in PRO. **Best for:** anyone wanting a clean interface and an easy switch from another plugin. **Limit:** advanced schema needs PRO.",
+    {
+     "alt": "5. The SEO Framework"
+    },
+    "A lightweight plugin with no paid version, no ads and no nags. It generates titles and descriptions automatically and provides XML sitemaps, JSON-LD structured data, canonical URLs and robots directives. Its developer deliberately leaves out analytics and 404 monitoring; extra features come through the Extension Manager. **Best for:** performance-focused sites with few, stable settings. **Limit:** content scoring and redirects need separate tools."
+   ]
+  },
+  {
+   "baslik": "Technical plugins that complement your SEO plugin",
+   "paragraflar": [
+    {
+     "alt": "6. Redirection"
+    },
+    "A free redirect manager with no premium version. It offers 301 redirects, regex support, 404 logging, conditional redirects, Apache and Nginx rule export, and CSV and JSON import and export. **Best for:** sites whose SEO plugin lacks redirects in the free version, and site migration projects. **Limit:** if your SEO plugin's redirect module is also on, do not run both. I explain writing rules in [301 and 302 redirects](/en/301-302-yonlendirme).",
+    {
+     "alt": "7. WP-Optimize"
+    },
+    "The free version includes page caching, lossy or lossless image compression with WebP conversion, cleanup of database leftovers such as revisions and transients, and HTML, CSS and JavaScript minification. Lazy loading and removing unused images are in Premium. **Best for:** small and mid-sized sites that want caching, images and database cleanup in one plugin. **Limit:** if your server runs LiteSpeed, LiteSpeed Cache, which needs a LiteSpeed-compatible server, may suit better; never run two caching plugins together.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Speed is not one plugin",
+      "metin": "A caching plugin cannot fix hosting, theme and heavy plugin problems. I cover every step in [speeding up WordPress](/en/wordpress-site-hizi) and the thresholds in [Core Web Vitals](/en/core-web-vitals-2025)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "What do the free versions include?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Plugin",
+       "Highlights in the free version",
+       "Paid version or not offered"
+      ],
+      "satirlar": [
+       [
+        "Yoast SEO",
+        "Analyses, schema, sitemap, breadcrumbs, llms.txt",
+        "Redirect manager, internal link suggestions, AI tools"
+       ],
+       [
+        "Rank Math",
+        "5 focus keywords, schema, redirects, 404 monitor",
+        "Position history and more schema types"
+       ],
+       [
+        "AIOSEO",
+        "TruSEO analysis, setup wizard, sitemap",
+        "Redirection Manager"
+       ],
+       [
+        "SEOPress",
+        "Meta templates, sitemap, post redirects, migration",
+        "Redirect manager, 404 monitoring, schema editor"
+       ],
+       [
+        "The SEO Framework",
+        "Automatic meta, sitemap, JSON-LD",
+        "No paid version; analytics and 404 monitoring left out by design"
+       ],
+       [
+        "Redirection",
+        "301, regex, 404 log, export",
+        "No paid version"
+       ],
+       [
+        "WP-Optimize",
+        "Caching, image compression, database cleanup",
+        "Lazy loading, removing unused images"
+       ]
+      ]
+     }
+    },
+    "WooCommerce stores need extra settings for product and category templates; see [WooCommerce SEO](/en/woocommerce-seo). The [schema and structured data guide](/en/schema-yapisal-veri) explains which types to use on which pages."
+   ]
+  },
+  {
+   "baslik": "How to switch SEO plugins safely",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Plugin switch flow",
+      "adimlar": [
+       {
+        "baslik": "Back up",
+        "metin": "Take a database and file backup and start on a staging site if you can."
+       },
+       {
+        "baslik": "Record the current state",
+        "metin": "Export title, meta description, canonical and robots values for key pages with a crawler."
+       },
+       {
+        "baslik": "Import",
+        "metin": "Move settings and metadata with the new plugin's import tool."
+       },
+       {
+        "baslik": "Deactivate the old one",
+        "metin": "Deactivate the old SEO plugin so two plugins are never active together."
+       },
+       {
+        "baslik": "Compare",
+        "metin": "Recrawl, compare values with the first export, and resubmit the sitemap in Search Console."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Do not forget redirect rules",
+      "metin": "Redirects defined in the old plugin may not be imported. Export them first, and if needed rewrite them as server rules with the [redirect generator](/en/redirect-generator)."
+     }
+    },
+    "If the domain or URL structure is also changing, the process is broader; the [site migration SEO guide](/en/site-tasima-seo) walks through it step by step."
+   ]
+  },
+  {
+   "baslik": "What an SEO plugin cannot do",
+   "paragraflar": [
+    "An SEO plugin manages settings; it does not set strategy. These jobs are independent of the plugin:",
+    {
+     "liste": [
+      "Deciding which queries each page should target",
+      "Making content genuinely helpful and original",
+      "Server response time, theme quality and JavaScript weight",
+      "External links and brand mentions",
+      "Interpreting indexing issues in Search Console"
+     ]
+    },
+    "Check the robots.txt file your plugin generates with the [robots.txt tester](/en/robots-txt-tester); the [llms.txt guide](/en/llms-txt-rehberi) explains what to expect from llms.txt. For a technical audit of your WordPress site, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "İki SEO eklentisini aynı anda kullanabilir miyim?",
+   "c": "Önermiyorum. İki kapsamlı SEO eklentisi aynı title, meta, canonical ve site haritası çıktısını üretirse yinelenen etiketler ve çakışan ayarlar oluşur. Yönlendirme ya da önbellek gibi farklı işler yapan eklentiler ise birlikte kullanılabilir."
+  },
+  {
+   "s": "SEO eklentisi siteyi yavaşlatır mı?",
+   "c": "Kapsamlı SEO eklentileri genellikle sitenin ön yüzüne az yük bindirir; yük çoğunlukla yönetim panelinde hissedilir. Kullanmadığınız modülleri kapatmak bu yükü azaltır. Gerçek etkiyi PageSpeed Insights ve Search Console'daki Core Web Vitals raporuyla ölçün."
+  },
+  {
+   "s": "Ücretsiz sürüm yeterli mi, yoksa ücretli sürüme mi geçmeliyim?",
+   "c": "Çoğu kurumsal site ve blog için ücretsiz sürüm ile ayrı bir yönlendirme eklentisi yeterlidir. Ücretli sürüm; çok sayıda yönlendirme, gelişmiş schema ya da ekip iş akışı ihtiyacı olduğunda anlam kazanır. Güncel fiyatı her eklentinin resmi sitesinden kontrol edin."
+  },
+  {
+   "s": "Eklentinin yeşil ışığı sayfanın iyi sıralanacağını gösterir mi?",
+   "c": "Hayır. Okunabilirlik ve SEO puanları eklentinin kendi kurallarıdır, Google'ın sinyali değildir. Puanı yükseltmek için anahtar kelime tekrarı yapmak metni bozabilir; esas olan arama niyetini karşılamaktır."
+  },
+  {
+   "s": "Eklentiyi kaldırırsam ayarlarım kaybolur mu?",
+   "c": "Eklentiyi devre dışı bıraktığınızda title ve meta açıklamaları sayfada çıkmaz, çünkü bu çıktıyı eklenti üretir. Veriler çoğu zaman veritabanında kalır ama yeni bir eklentiye içe aktarılmadan kullanılmaz. Değişiklikten önce mutlaka yedek ve tarama dışa aktarımı alın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can I use two SEO plugins at the same time?",
+   "c": "I do not recommend it. Two all-in-one SEO plugins producing the same title, meta, canonical and sitemap output create duplicate tags and conflicting settings. Plugins doing different jobs, such as redirects or caching, can run together."
+  },
+  {
+   "s": "Does an SEO plugin slow down my site?",
+   "c": "All-in-one SEO plugins usually add little load to the front end; most of the weight is felt in the admin area. Turning off unused modules reduces it. Measure the real effect with PageSpeed Insights and the Core Web Vitals report in Search Console."
+  },
+  {
+   "s": "Is the free version enough, or should I upgrade?",
+   "c": "For most company sites and blogs, the free version plus a separate redirect plugin is enough. A paid version makes sense when you need many redirects, advanced schema or team workflows. Check current pricing on each plugin's official site."
+  },
+  {
+   "s": "Does a green light in the plugin mean the page will rank well?",
+   "c": "No. Readability and SEO scores are the plugin's own rules, not Google signals. Repeating keywords to raise the score can hurt the text; what matters is meeting search intent."
+  },
+  {
+   "s": "Will I lose my settings if I remove the plugin?",
+   "c": "Once the plugin is deactivated, titles and meta descriptions stop appearing on the page because the plugin produces that output. The data often stays in the database but is not used unless imported into a new plugin. Always take a backup and a crawl export before switching."
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "En İyi 10 Ücretsiz SEO Aracı (2026)",
+ "baslik_en": "10 Best Free SEO Tools (2026)",
+ "meta_baslik_tr": "En İyi 10 Ücretsiz SEO Aracı (2026)",
+ "meta_baslik_en": "10 Best Free SEO Tools (2026)",
+ "meta_desc_tr": "Search Console, GA4, PageSpeed Insights, Bing Webmaster Tools ve Screaming Frog dahil 10 ücretsiz SEO aracı, kullanım alanları ve sınırları.",
+ "meta_desc_en": "Search Console, GA4, PageSpeed Insights, Bing Webmaster Tools, Screaming Frog and more. 10 free SEO tools, what each is for and its limits.",
+ "ozet_tr": "Bütçe ayırmadan SEO yapmak için 10 ücretsiz araç, her birinin en uygun olduğu iş ve ücretsiz sürümün sınırı.",
+ "ozet_en": "Ten free tools for doing SEO without a budget, the job each one suits best and the limits of the free version.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bütçe ayırmadan ciddi bir SEO çalışması yapılabilir mi? Küçük işletmelerle, yeni açılan e-ticaret siteleriyle ve kurumsal sitelerin ilk denetimlerinde bu soruyla çok karşılaşıyorum. Cevabım evet: Google'ın kendi araçları ve ücretsiz sürümü olan birkaç bağımsız araç, çoğu sitenin ilk yılını rahatça taşır.",
+    "Aşağıdaki 10 araç bir sıralama değil, her biri farklı bir işi çözüyor. Her aracın en uygun olduğu durumu ve sınırını yazdım. Ücretsiz sürümlerin kapsamı zaman zaman değiştiği için Kasım 2026 itibarıyla resmi sitelerde yazanı esas aldım. Fiyat vermiyorum ve bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Ücretsiz SEO çalışmasının temeli Google Search Console, Google Analytics 4 ve PageSpeed Insights'tır. Bunlara Zengin Sonuç Testi, Google Trends ve Looker Studio eklenir. Google dışı veri için Bing Webmaster Tools, Ahrefs Webmaster Tools, Screaming Frog'un ücretsiz sürümü ve Semrush'ın ücretsiz hesabı tamamlayıcı rol oynar."
+    }
+   ]
+  },
+  {
+   "baslik": "Ücretsiz SEO araçlarını hangi ölçütlerle seçtim?",
+   "paragraflar": [
+    "Listeye yalnızca resmi sitesinde ücretsiz kullanım açıkça belirtilen araçları aldım. Deneme süresiyle sınırlı olanları saymadım, çünkü iki hafta sonra kapanan bir araç düzenli bir iş akışının parçası olamaz.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🆓",
+       "baslik": "Kalıcı ücretsiz",
+       "metin": "Deneme süresi değil, süresiz kullanılabilen bir plan ya da sürüm."
+      },
+      {
+       "ikon": "📊",
+       "baslik": "Birinci taraf veri",
+       "metin": "Mümkün olduğunda Google ve Bing'in kendi verisi, yani tahmin değil gerçek gösterim ve tıklama."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Net bir iş",
+       "metin": "Tarama, ölçüm, performans ya da araştırma işlerinden en az birini iyi yapmalı."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Düzenli kullanım",
+       "metin": "Haftalık rutine girebilecek kadar pratik olmalı."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Google'ın ücretsiz SEO araçları",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console"
+    },
+    "Google'ın sitenizi nasıl gördüğünü doğrudan gösteren tek kaynak. Performans raporunda tıklama, gösterim, TO ve ortalama konumu, Sayfa dizine ekleme raporunda hangi URL'lerin neden dizinde olmadığını görürsünüz. **En uygun olduğu durum:** her site, her hafta. **Sınırı:** rakip verisi yoktur ve Bağlantılar raporu yalnızca bir örneklem gösterir. Raporların okunuşunu [Google Search Console rehberinde](/search-console-rehberi) anlattım.",
+    {
+     "alt": "2. Google Analytics 4"
+    },
+    "Organik ziyaretçinin sitede ne yaptığını ve hangi sayfaların dönüşüm getirdiğini gösterir. Search Console ile bağlandığında sorgu verisini de aynı arayüzde görebilirsiniz. **En uygun olduğu durum:** organik trafiği dönüşüme bağlamak. **Sınırı:** olay ve dönüşüm kurulumu doğru yapılmazsa raporlar yanıltır. Kurulum ayrıntıları [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında, yapay zekâ asistanlarından gelen trafiğin nasıl ayrıldığı ise [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısında.",
+    {
+     "alt": "3. PageSpeed Insights"
+    },
+    "Bir URL için varsa Chrome UX Report saha verisini ve Lighthouse laboratuvar ölçümünü birlikte verir. Core Web Vitals eşikleri LCP için 2,5 sn, INP için 200 ms, CLS için 0,1'dir. **En uygun olduğu durum:** şablon bazında hız sorunu teşhisi. **Sınırı:** trafiği düşük sayfalarda saha verisi çıkmayabilir. Ayrıntılar [Core Web Vitals yazısında](/core-web-vitals-2025).",
+    {
+     "alt": "4. Zengin Sonuç Testi"
+    },
+    "Yapısal verinin Google tarafından okunup okunmadığını ve sayfanın hangi zengin sonuç türlerine uygun olduğunu gösterir. **En uygun olduğu durum:** ürün, makale ya da yerel işletme işaretlemesini yayına almadan önce test etmek. **Sınırı:** testin geçmesi zengin sonucun gösterileceği anlamına gelmez. SSS zengin sonuçları 7 Mayıs 2026'dan beri Google Arama'da gösterilmiyor, FAQPage işaretlemesi geçerli kalsa da görünür bir kazanç beklemeyin. Şema türlerini [schema ve yapısal veri rehberinde](/schema-yapisal-veri) topladım.",
+    {
+     "alt": "5. Google Trends"
+    },
+    "Bir aramanın zaman içindeki göreli ilgisini ve bölgesel dağılımını gösterir. Türkiye'de Black Friday, bayram ve okul dönemi aramalarının ne zaman yükseldiğini görmek için ilk açtığım araç budur. **En uygun olduğu durum:** içerik takvimi ve kampanya zamanlaması. **Sınırı:** mutlak arama hacmi vermez, 0 ile 100 arasında göreli bir endeks gösterir.",
+    {
+     "alt": "6. Looker Studio"
+    },
+    "Search Console ve GA4 verisini tek panoda birleştiren ücretsiz raporlama aracı. **En uygun olduğu durum:** yönetime ya da müşteriye düzenli, otomatik güncellenen rapor. **Sınırı:** panoyu kurmak zaman ister ve veri kaynakları doğru eşleşmezse metrikler çelişebilir. Panoya hangi metriklerin girmesi gerektiğini [SEO raporlama rehberinde](/seo-raporlama) anlattım."
+   ]
+  },
+  {
+   "baslik": "Ücretsiz sürümü olan bağımsız SEO araçları",
+   "paragraflar": [
+    {
+     "alt": "7. Bing Webmaster Tools"
+    },
+    "Microsoft'un ücretsiz aracı. Site Scan ile teknik denetim, Keyword Research ile Bing arama verisi ve Backlinks bölümüyle bağlantı görünümü sunar. Şubat 2026'da public preview olarak açılan AI Performance raporu, içeriğinizin Microsoft Copilot ve Bing'deki yapay zekâ özetlerinde kaynak olarak ne sıklıkla gösterildiğini raporluyor. **En uygun olduğu durum:** Google dışı görünürlük ve yapay zekâ alıntılarına ilk bakış. **Sınırı:** veriler Bing ekosistemine aittir, Google davranışını temsil etmez.",
+    {
+     "alt": "8. Ahrefs Webmaster Tools"
+    },
+    "Ahrefs'in resmi sayfasına göre doğrulanmış siteler için Site Audit, Site Explorer ve Web Analytics araçlarını ücretsiz sunuyor. Site Audit 170'ten fazla teknik ve sayfa içi sorunu tarıyor, Site Explorer ise sitenize gelen backlinkleri ve sıralandığınız anahtar kelimeleri gösteriyor. **En uygun olduğu durum:** kendi sitenizin backlink ve teknik sağlık takibi. **Sınırı:** yalnızca sahipliğini doğruladığınız siteler için çalışır, rakip analizi ücretli Ahrefs gerektirir.",
+    {
+     "alt": "9. Screaming Frog SEO Spider (ücretsiz sürüm)"
+    },
+    "Bilgisayara kurulan bir site tarayıcısı. Ücretsiz sürüm resmi sitesine göre 500 URL'ye kadar tarar ve kırık linkleri, yönlendirme zincirlerini, başlık ve meta açıklama sorunlarını çıkarır. **En uygun olduğu durum:** küçük sitelerde hızlı teknik tarama. **Sınırı:** 500 URL sınırı var, taramayı kaydetme ve gelişmiş yapılandırma lisans gerektirir. Diğer tarayıcılarla kıyası [SEO denetim araçları](/seo-audit-araclari) yazısında.",
+    {
+     "alt": "10. Semrush ücretsiz hesap"
+    },
+    "Semrush'ın resmi blogundaki Aralık 2025 tarihli yazıya göre ücretsiz hesap, anahtar kelime ve backlink araştırmasında günlük 10 sorgu, 10 anahtar kelimelik sıralama takibi ve aylık 100 sayfalık site denetimi sunuyor. **En uygun olduğu durum:** ara sıra rakip ve anahtar kelime kontrolü. **Sınırı:** günlük sorgu sınırı düzenli araştırma için dar kalır.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Sitedeki ücretsiz araçlar",
+      "metin": "Bu 10 araca ek olarak tarayıcıda çalışan küçük yardımcılar da işinizi hızlandırır. [robots.txt test aracı](/robots-txt-test) ile engelleme kurallarını, [SERP önizleme aracı](/serp-onizleme) ile başlık ve açıklamanın arama sonucunda nasıl görüneceğini kontrol edebilirsiniz. Tamamı [ücretsiz SEO araçları](/araclar) sayfasında."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hangi ücretsiz SEO aracı hangi iş için?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "İş",
+       "Araç",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Dizine ekleme ve sorgu verisi",
+        "Search Console",
+        "Google'dan gelen birinci taraf veri"
+       ],
+       [
+        "Organik dönüşüm",
+        "GA4",
+        "Olay kurulumu şart"
+       ],
+       [
+        "Sayfa hızı ve Core Web Vitals",
+        "PageSpeed Insights",
+        "Saha ve laboratuvar verisi"
+       ],
+       [
+        "Yapısal veri kontrolü",
+        "Zengin Sonuç Testi",
+        "Uygunluğu gösterir, gösterimi değil"
+       ],
+       [
+        "Mevsimsellik",
+        "Google Trends",
+        "Göreli endeks"
+       ],
+       [
+        "Rapor panosu",
+        "Looker Studio",
+        "GSC ve GA4 bağlantısı"
+       ],
+       [
+        "Bing ve yapay zekâ alıntıları",
+        "Bing Webmaster Tools",
+        "AI Performance önizlemede"
+       ],
+       [
+        "Kendi backlink profiliniz",
+        "Ahrefs Webmaster Tools",
+        "Doğrulanmış siteler"
+       ],
+       [
+        "Teknik tarama",
+        "Screaming Frog",
+        "500 URL'ye kadar"
+       ],
+       [
+        "Rakip kontrolü",
+        "Semrush ücretsiz hesap",
+        "Günlük sorgu sınırı"
+       ]
+      ]
+     }
+    },
+    "Küçük bir kurumsal site ya da yeni bir blog için ilk altı araç çoğu zaman yeter. Binlerce URL'li bir e-ticaret sitesinde ise ücretsiz sürümlerin sınırlarına hızla takılırsınız. O noktada ücretli bir tarayıcı ya da platform anlam kazanır."
+   ]
+  },
+  {
+   "baslik": "Ücretsiz araçlarla haftalık SEO rutini",
+   "paragraflar": [
+    "Araçların değeri düzenli kullanıldığında ortaya çıkar. Küçük sitelerde önerdiğim haftalık akış şöyle:",
+    {
+     "akis": {
+      "baslik": "Haftalık 30 dakikalık kontrol",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "Tıklama düşüşleri ve yeni dizine ekleme sorunları."
+       },
+       {
+        "baslik": "GA4",
+        "metin": "Organik oturum ve dönüşüm eğilimi."
+       },
+       {
+        "baslik": "PageSpeed Insights",
+        "metin": "Yeni şablon ya da eklenti sonrası hız kontrolü."
+       },
+       {
+        "baslik": "Screaming Frog",
+        "metin": "Ayda bir kırık link ve yönlendirme taraması."
+       },
+       {
+        "baslik": "Looker Studio",
+        "metin": "Özetin panoya yansıması ve paylaşım."
+       }
+      ]
+     }
+    },
+    "Bu rutine [teknik SEO rehberindeki](/teknik-seo) kontrol adımlarını eklerseniz önemli bir sorunu haftalar sonra fark etme riski azalır."
+   ]
+  },
+  {
+   "baslik": "Ücretli bir SEO aracına ne zaman geçmeli?",
+   "paragraflar": [
+    "Ücretsiz araçlar yetmemeye başladığında bunu genellikle şu işaretlerden anlarsınız:",
+    {
+     "liste": [
+      "Rakiplerin backlink ve anahtar kelime verisine düzenli ihtiyaç duyuyorsanız.",
+      "Sitenizde 500'den fazla URL varsa ve düzenli tam tarama gerekiyorsa.",
+      "Birden fazla siteyi ya da müşteriyi tek panelden takip ediyorsanız.",
+      "Günlük sıralama takibi ve şehir bazında konum verisi istiyorsanız."
+     ]
+    },
+    "Ücretli platformların kıyası için [en iyi anahtar kelime araştırma araçları](/en-iyi-anahtar-kelime-araclari) ve [sıralama takip araçları](/en-iyi-siralama-takip-araclari) yazılarına bakabilirsiniz. Hangi aracın siteniz için gerçekten gerekli olduğuna birlikte karar vermek isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasından çalışma biçimimi inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Can you do serious SEO without a budget? I hear this question a lot from small businesses. My answer is yes. Google's own tools plus a few independent tools with free versions can carry most sites through their first year.",
+    "The 10 tools below are not a ranking; each one solves a different job. For every tool I note the situation it suits best and its limit. Free tiers change from time to time, so I relied on what the official sites say as of November 2026. I do not list prices and there is no sponsorship here.",
+    {
+     "alinti": "Short answer: Free SEO work rests on Google Search Console, Google Analytics 4 and PageSpeed Insights. Add the Rich Results Test, Google Trends and Looker Studio. For data beyond Google, Bing Webmaster Tools, Ahrefs Webmaster Tools, the free Screaming Frog and a free Semrush account fill the gaps."
+    }
+   ]
+  },
+  {
+   "baslik": "How I chose these free SEO tools",
+   "paragraflar": [
+    "I only included tools whose official site clearly states free use. Trials did not count, because a tool that shuts off after two weeks cannot be part of a regular workflow.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🆓",
+       "baslik": "Free for good",
+       "metin": "A plan or version you can keep using, not a time-limited trial."
+      },
+      {
+       "ikon": "📊",
+       "baslik": "First-party data",
+       "metin": "Where possible, data from Google and Bing themselves: real impressions and clicks, not estimates."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "A clear job",
+       "metin": "Each tool must do at least one of crawling, measurement, performance or research well."
+      },
+      {
+       "ikon": "🔁",
+       "baslik": "Regular use",
+       "metin": "Practical enough to fit into a weekly routine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Google's free SEO tools",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console"
+    },
+    "The only source that shows directly how Google sees your site. The Performance report gives clicks, impressions, CTR and average position; the Page indexing report shows which URLs are not indexed and why. **Best for:** every site, every week. **Limit:** no competitor data, and the Links report only shows a sample. I explain the reports in the [Google Search Console guide](/en/search-console-rehberi).",
+    {
+     "alt": "2. Google Analytics 4"
+    },
+    "Shows what organic visitors do on the site and which pages convert. Once linked to Search Console, you can see query data in the same interface. **Best for:** tying organic traffic to conversions. **Limit:** reports mislead if events and conversions are set up wrongly. Setup details are in [GA4 for SEO tracking](/en/ga4-seo-takibi), and how traffic from AI assistants is separated is covered in [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi).",
+    {
+     "alt": "3. PageSpeed Insights"
+    },
+    "For a URL it shows Chrome UX Report field data where available, together with a Lighthouse lab test. Core Web Vitals thresholds are 2.5 s for LCP, 200 ms for INP and 0.1 for CLS. **Best for:** diagnosing speed issues by template. **Limit:** low-traffic pages may have no field data. More in the [Core Web Vitals article](/en/core-web-vitals-2025).",
+    {
+     "alt": "4. Rich Results Test"
+    },
+    "Shows whether Google can read your structured data and which rich result types the page is eligible for. **Best for:** testing product, article or local business markup before release. **Limit:** passing the test does not mean a rich result will appear. FAQ rich results have not been shown in Google Search since 7 May 2026; FAQPage markup is still valid, but do not expect a visible gain. I list the schema types in the [schema and structured data guide](/en/schema-yapisal-veri).",
+    {
+     "alt": "5. Google Trends"
+    },
+    "Shows relative interest in a search over time and by region. It is the first tool I open to see when searches for Black Friday, public holidays or back to school peak in Turkey. **Best for:** content calendars and campaign timing. **Limit:** no absolute search volume, only a relative index from 0 to 100.",
+    {
+     "alt": "6. Looker Studio"
+    },
+    "A free reporting tool that combines Search Console and GA4 data in one dashboard. **Best for:** regular, auto-updating reports for management or clients. **Limit:** building the dashboard takes time. Which metrics belong on it is covered in the [SEO reporting guide](/en/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "Independent SEO tools with a free version",
+   "paragraflar": [
+    {
+     "alt": "7. Bing Webmaster Tools"
+    },
+    "Microsoft's free tool. It offers a technical audit through Site Scan, Bing search data through Keyword Research and a link view in the Backlinks section. The AI Performance report, opened as a public preview in February 2026, shows how often your content is cited as a source in Microsoft Copilot and AI summaries in Bing. **Best for:** visibility beyond Google and a first look at AI citations. **Limit:** the data belongs to the Bing ecosystem and does not represent Google.",
+    {
+     "alt": "8. Ahrefs Webmaster Tools"
+    },
+    "According to Ahrefs' official page, it gives free access to Site Audit, Site Explorer and Web Analytics for verified websites. Site Audit checks for more than 170 technical and on-page issues, while Site Explorer shows backlinks to your site and the keywords you rank for. **Best for:** tracking your own site's backlinks and technical health. **Limit:** works only for sites you verify; competitor analysis needs paid Ahrefs.",
+    {
+     "alt": "9. Screaming Frog SEO Spider (free version)"
+    },
+    "A crawler you install on your computer. According to its official site, the free version crawls up to 500 URLs and surfaces broken links, redirect chains, and title and meta description issues. **Best for:** quick technical crawls of small sites. **Limit:** the 500 URL cap, and saving crawls and advanced configuration need a licence. I compare it with other crawlers in [SEO audit tools](/en/seo-audit-araclari).",
+    {
+     "alt": "10. Semrush free account"
+    },
+    "According to a December 2025 post on Semrush's official blog, the free account offers 10 keyword and backlink research queries a day, rank tracking for 10 keywords and a site audit of 100 pages a month. **Best for:** occasional competitor and keyword checks. **Limit:** the daily query cap is tight for regular research.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Free tools on this site",
+      "metin": "Alongside these 10, small browser-based helpers speed things up. Check blocking rules with the [robots.txt tester](/en/robots-txt-tester) and see how your title and description will look in results with the [SERP preview tool](/en/serp-preview). All of them are on the [free SEO tools](/en/tools) page."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Which free SEO tool for which job?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Job",
+       "Tool",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Indexing and query data",
+        "Search Console",
+        "First-party data from Google"
+       ],
+       [
+        "Organic conversions",
+        "GA4",
+        "Event setup required"
+       ],
+       [
+        "Page speed and Core Web Vitals",
+        "PageSpeed Insights",
+        "Field and lab data"
+       ],
+       [
+        "Structured data check",
+        "Rich Results Test",
+        "Shows eligibility, not display"
+       ],
+       [
+        "Seasonality",
+        "Google Trends",
+        "Relative index"
+       ],
+       [
+        "Reporting dashboard",
+        "Looker Studio",
+        "Connects GSC and GA4"
+       ],
+       [
+        "Bing and AI citations",
+        "Bing Webmaster Tools",
+        "AI Performance in preview"
+       ],
+       [
+        "Your own backlink profile",
+        "Ahrefs Webmaster Tools",
+        "Verified sites"
+       ],
+       [
+        "Technical crawl",
+        "Screaming Frog",
+        "Up to 500 URLs"
+       ],
+       [
+        "Competitor checks",
+        "Semrush free account",
+        "Daily query cap"
+       ]
+      ]
+     }
+    },
+    "For a small corporate site or a new blog, the first six tools are often enough. On an e-commerce site with thousands of URLs you will hit free-tier limits quickly. That is when a paid crawler or platform starts to make sense."
+   ]
+  },
+  {
+   "baslik": "A weekly SEO routine with free tools",
+   "paragraflar": [
+    "Tools pay off when you use them regularly. This is the weekly flow I suggest for small sites:",
+    {
+     "akis": {
+      "baslik": "A 30 minute weekly check",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "Click drops and new indexing issues."
+       },
+       {
+        "baslik": "GA4",
+        "metin": "Organic sessions and conversion trend."
+       },
+       {
+        "baslik": "PageSpeed Insights",
+        "metin": "Speed check after a new template or plugin."
+       },
+       {
+        "baslik": "Screaming Frog",
+        "metin": "Monthly crawl for broken links and redirects."
+       },
+       {
+        "baslik": "Looker Studio",
+        "metin": "Summary on the dashboard and shared."
+       }
+      ]
+     }
+    },
+    "Add the checks from the [technical SEO guide](/en/teknik-seo) to this routine and you are far less likely to spot a serious problem weeks too late."
+   ]
+  },
+  {
+   "baslik": "When should you move to a paid SEO tool?",
+   "paragraflar": [
+    "You usually notice free tools falling short through these signs:",
+    {
+     "liste": [
+      "You regularly need competitors' backlink and keyword data.",
+      "Your site has more than 500 URLs and needs regular full crawls.",
+      "You track several sites or clients from one panel.",
+      "You want daily rank tracking and city-level location data."
+     ]
+    },
+    "For paid platforms, see the [best keyword research tools](/en/en-iyi-anahtar-kelime-araclari) and [rank tracking tools](/en/en-iyi-siralama-takip-araclari) articles. If you would like to decide together which tools your site really needs, see how I work on the [SEO consulting](/en/seo-consulting) page or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Ücretsiz SEO araçları ücretli araçların yerini tutar mı?",
+   "c": "Kendi sitenizin birinci taraf verisi söz konusu olduğunda evet. Search Console'un verdiği tıklama ve dizine ekleme bilgisini hiçbir ücretli araç doğrudan veremez. Rakip, backlink ve geniş anahtar kelime veritabanı ihtiyacında ise ücretsiz sürümler sınırlı kalır."
+  },
+  {
+   "s": "Search Console verisi ne kadar geriye gider?",
+   "c": "Performans raporunda son 16 aya kadar veri görebilirsiniz. Daha uzun dönem karşılaştırma istiyorsanız veriyi düzenli olarak dışa aktarın ya da toplu veri dışa aktarımıyla BigQuery'ye gönderin."
+  },
+  {
+   "s": "Ücretsiz araçların verileri neden birbirini tutmuyor?",
+   "c": "Her araç farklı kaynaktan ve farklı yöntemle ölçer. Search Console Google aramasındaki tıklamayı, GA4 sitedeki oturumu sayar; çerez onayı, bot filtresi ve saat dilimi farkları sayıları ayırır. Karar verirken eğilime bakın, iki aracın birebir eşleşmesini beklemeyin."
+  },
+  {
+   "s": "Yeni bir sitede önce hangi aracı kurmalıyım?",
+   "c": "Önce Search Console ve GA4. İkisi de veri biriktirmeye kurulduğu andan itibaren başlar ve geriye dönük veri vermez. Ardından site haritasını gönderin ve PageSpeed Insights ile ana şablonları ölçün."
+  },
+  {
+   "s": "Tarayıcı eklentileri de ücretsiz SEO aracı sayılır mı?",
+   "c": "Birçok eklenti başlık, meta etiket ve durum kodu gibi bilgileri hızlıca gösterir ve işe yarar. Ancak gösterdikleri otorite ya da trafik metrikleri çoğunlukla üçüncü taraf tahminleridir. Kararları Search Console ve kendi tarama verinize dayandırın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can free SEO tools replace paid ones?",
+   "c": "For your own site's first-party data, yes. No paid tool can give you the click and indexing data Search Console provides. For competitor, backlink and large keyword database needs, free versions stay limited."
+  },
+  {
+   "s": "How far back does Search Console data go?",
+   "c": "The Performance report shows up to the last 16 months. For longer comparisons, export the data regularly or send it to BigQuery with the bulk data export."
+  },
+  {
+   "s": "Why do free tools show different numbers?",
+   "c": "Each tool measures from a different source with a different method. Search Console counts clicks in Google Search, GA4 counts sessions on the site, and cookie consent, bot filtering and time zones pull the numbers apart. Look at trends and do not expect two tools to match exactly."
+  },
+  {
+   "s": "Which tool should I set up first on a new site?",
+   "c": "Search Console and GA4 first. Both start collecting data only from the moment they are set up and give no historical data. Then submit your sitemap and measure your main templates with PageSpeed Insights."
+  },
+  {
+   "s": "Do browser extensions count as free SEO tools?",
+   "c": "Many extensions quickly show titles, meta tags and status codes, and they are useful. But the authority or traffic metrics they display are mostly third-party estimates. Base decisions on Search Console and your own crawl data."
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 9,
+ "baslik_tr": "Yeni Web Sitesi İçin 10 Adımlık SEO Kontrol Listesi",
+ "baslik_en": "A 10-Step SEO Checklist for a New Website",
+ "meta_baslik_tr": "Yeni Site İçin 10 Adımlık SEO Listesi",
+ "meta_baslik_en": "10-Step SEO Checklist for New Websites",
+ "meta_desc_tr": "Yeni bir siteyi yayına almadan önce ve ilk 30 günde yapılacak 10 SEO adımı. Robots, site haritası, Search Console, yönlendirme, schema ve hız.",
+ "meta_desc_en": "Ten SEO steps to complete before launching a new website and in its first 30 days, from robots and sitemaps to Search Console, redirects and speed.",
+ "ozet_tr": "Yayından önce, yayın günü ve ilk 30 gün için 10 adımlık, işaretlenebilir yeni site SEO kontrol listesi.",
+ "ozet_en": "A 10-step, tickable SEO checklist for a new site, covering pre-launch, launch day and the first 30 days.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yeni bir site yayına alınırken SEO çoğu zaman en sona bırakılır: tasarım onaylanır, içerik yüklenir, alan adı bağlanır ve ancak birkaç hafta sonra \"neden Google'da çıkmıyoruz?\" sorusu gelir. Sahada gördüğüm sorunların büyük kısmı, yayın öncesi on dakikalık bir kontrolle önlenebilecek ayarlardan kaynaklanıyor.",
+    "Bu kontrol listesini üç aşamaya böldüm: yayından önce, yayın günü ve ilk 30 gün. Her adım kısa; ayrıntılı bilgi için ilgili yazıya link veriyorum. Teknik altyapının bütününü [teknik SEO rehberi](/teknik-seo) anlatıyor.",
+    {
+     "alinti": "Kısa cevap: Yeni bir sitede yayından önce sayfa ve URL planını, robots ve noindex ayarlarını, meta etiketleri, mobil ve hız performansını, yapısal veriyi ve eski site varsa 301 yönlendirmelerini kontrol edin. Yayın günü Search Console'u doğrulayıp site haritasını gönderin ve analitiği kurun. İlk 30 günde dizine eklemeyi izleyin ve iç linkleri güçlendirin."
+    }
+   ]
+  },
+  {
+   "baslik": "Yeni site SEO süreci üç aşamada",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Yeni site SEO akışı",
+      "adimlar": [
+       {
+        "baslik": "Yayından önce",
+        "metin": "Adım 1-6. Yapı, erişim, meta, hız, schema ve yönlendirme."
+       },
+       {
+        "baslik": "Yayın günü",
+        "metin": "Adım 7-8. Search Console, site haritası ve analitik."
+       },
+       {
+        "baslik": "İlk 30 gün",
+        "metin": "Adım 9-10. Dizine ekleme takibi, iç link ve içerik."
+       }
+      ]
+     }
+    },
+    "Sıra önemli. Örneğin Search Console'u yayın günü kurmazsanız ilk haftaların verisini kaybedersiniz; yönlendirme haritasını yayından sonra hazırlamaya kalkarsanız eski URL'ler o arada 404 verir."
+   ]
+  },
+  {
+   "baslik": "Yayından önce yapılacak 6 adım",
+   "paragraflar": [
+    {
+     "alt": "1. Sayfa ve URL planını anahtar kelimelere göre kurun"
+    },
+    "Her önemli arama niyeti için tek bir hedef sayfa belirleyin ve bunu bir tabloda tutun. Kısa, küçük harfli, tireyle ayrılmış URL'ler seçin; Türkçe karakterleri nasıl ele alacağınıza baştan karar verin. Eşleştirme yöntemi [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi), URL kuralları [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısında.",
+    {
+     "alt": "2. Test ortamı engellerini canlıda kaldırın"
+    },
+    "Geliştirme ortamı şifreyle korunmalı, canlı site ise taranabilir olmalı. Yayın anında robots.txt'deki \"Disallow: /\" kuralını, şablonlardaki noindex etiketini ve WordPress'teki \"arama motorlarının bu siteyi dizine eklemesini engelle\" ayarını kontrol edin. Doğru robots.txt yapısı için [robots.txt yazısı](/robots-txt).",
+    {
+     "alt": "3. Başlık, meta açıklama ve h1'i her sayfa için yazın"
+    },
+    "Her sayfanın benzersiz bir title etiketi, açıklayıcı bir meta açıklaması ve tek bir h1'i olsun. Şablonun ürettiği \"Ana Sayfa | Firma\" gibi başlıklar yeni sitelerde çok sık kalıyor. Kuralları [meta başlık ve açıklama yazısında](/meta-baslik-aciklama-kurallari) topladım; görünümü [SERP önizleme aracı](/serp-onizleme) ile test edebilirsiniz.",
+    {
+     "alt": "4. Mobil görünümü ve hızı ölçün"
+    },
+    "Google dizine ekleme için sitenin mobil sürümünü kullanır, bu yüzden mobilde içerik eksik olmamalı. Yayından önce ana şablonları PageSpeed Insights'ta test edin; yeni sitede saha verisi olmayacağı için laboratuvar sonuçlarına bakarsınız. Hedef eşikler ve iyileştirme yolları [Core Web Vitals yazısında](/core-web-vitals-2025).",
+    {
+     "alt": "5. Temel yapısal veriyi ekleyin"
+    },
+    "Ana sayfaya Organization ya da LocalBusiness, ürün sayfalarına Product, blog yazılarına Article işaretlemesi ekleyin ve Zengin Sonuç Testi ile doğrulayın. Hangi sayfaya hangi tip uygun, [schema ve yapısal veri rehberi](/schema-yapisal-veri) anlatıyor; JSON-LD kodunu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz.",
+    {
+     "alt": "6. Eski site varsa 301 yönlendirme haritası hazırlayın"
+    },
+    "Yeni site eski bir sitenin yerine geçiyorsa her eski URL'yi en yakın yeni karşılığına 301 ile eşleyin. Bu adım atlanırsa eski sayfaların biriktirdiği sinyaller kaybolur. Search Console'daki Adres değişikliği aracı yalnızca alan adı değişiyorsa kullanılır. Süreç [site taşıma SEO rehberinde](/site-tasima-seo), kurallar için [301 yönlendirme oluşturucu](/yonlendirme-olusturucu).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "En pahalı hata",
+      "metin": "Yeniden tasarım projelerinde en sık gördüğüm kayıp, eski URL'lerin yönlendirilmeden kapatılmasıdır. Yayından önce eski sitenin tam URL listesini bir taramayla dışa aktarın ve saklayın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Yayın günü yapılacak 2 adım",
+   "paragraflar": [
+    {
+     "alt": "7. Search Console'u doğrulayın ve site haritasını gönderin"
+    },
+    "Alan adı mülkü eklemek için DNS doğrulaması gerekir; bu mülk http, https ve tüm alt alan adlarını birlikte kapsar. Ardından Site haritaları raporundan sitemap.xml adresini gönderin ve robots.txt'ye \"Sitemap:\" satırı ekleyin. Google'a göre site haritası bir ipucudur, tarama sözü değildir. Raporların okunuşu [Search Console rehberinde](/search-console-rehberi).",
+    {
+     "alt": "8. Analitiği ve dönüşüm takibini kurun"
+    },
+    "GA4 mülkünü kurun, form gönderimi, telefon tıklaması ya da satın alma gibi anahtar olayları tanımlayın ve Search Console ile bağlayın. İlk günden doğru veri toplamazsanız SEO'nun etkisini sonradan gösteremezsiniz. Kurulum ayrıntıları [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında."
+   ]
+  },
+  {
+   "baslik": "İlk 30 günde yapılacak 2 adım",
+   "paragraflar": [
+    {
+     "alt": "9. Dizine eklenmeyi haftalık izleyin"
+    },
+    "Sayfa dizine ekleme raporuna haftada bir bakın ve önemli sayfaları URL Denetimi ile kontrol edin. Yeni sitelerde \"Keşfedildi\" ya da \"Tarandı, şu anda dizine eklenmemiş\" satırlarını görmek olağandır. Önemli sayfalar haftalarca bu durumda kalırsa [tarandı ama dizine eklenmemiş çözümü](/tarandi-dizine-eklenmemis) yazısındaki teşhis adımlarını uygulayın.",
+    {
+     "alt": "10. İç linkleri güçlendirin ve ilk içerik planını başlatın"
+    },
+    "Yeni bir sitenin dış linki azdır, bu yüzden Google'a hangi sayfanın önemli olduğunu iç linklerle anlatırsınız. Hizmet ve kategori sayfalarına menüden, ilgili yazılardan ve ana sayfadan anahtar kelimeli link verin; yöntemi [iç linkleme yazısında](/ic-linkleme) anlattım. İlk aylar için düzenli yayınlanacak birkaç kapsamlı içerik planlayın."
+   ]
+  },
+  {
+   "baslik": "Yazdırılabilir yeni site SEO kontrol listesi",
+   "paragraflar": [
+    "Yayın toplantısında ekiple birlikte bu listenin üzerinden geçin:",
+    {
+     "kontrol": [
+      "Her hedef sorgu için bir sayfa ve temiz bir URL belirlendi",
+      "robots.txt, noindex ve CMS dizine ekleme ayarı canlıda kontrol edildi",
+      "Tüm sayfalarda benzersiz title, meta açıklama ve tek h1 var",
+      "Ana şablonlar mobilde ve PageSpeed Insights'ta test edildi",
+      "Organization, Product ya da Article işaretlemesi doğrulandı",
+      "Eski URL'lerin 301 haritası hazır ve test edildi",
+      "Search Console doğrulandı, site haritası gönderildi",
+      "GA4 kuruldu, anahtar olaylar tanımlandı",
+      "Dizine ekleme raporu için haftalık takvim oluşturuldu",
+      "Önemli sayfalara iç link verildi, ilk içerik takvimi hazır"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Zaman",
+       "Adımlar",
+       "Kullanılacak araç"
+      ],
+      "satirlar": [
+       [
+        "Yayından 1-2 hafta önce",
+        "1, 3, 5, 6",
+        "Tablo, site tarayıcısı, Zengin Sonuç Testi"
+       ],
+       [
+        "Yayından hemen önce",
+        "2, 4",
+        "robots.txt, PageSpeed Insights"
+       ],
+       [
+        "Yayın günü",
+        "7, 8",
+        "Search Console, GA4"
+       ],
+       [
+        "1-30. gün",
+        "9, 10",
+        "Sayfa dizine ekleme raporu, URL Denetimi"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Yeni site lansmanında destek almak",
+   "paragraflar": [
+    "Bu listenin çoğunu kendiniz uygulayabilirsiniz. Eski bir siteden geçiş, çok dilli yapı ya da binlerce ürünlü bir katalog söz konusuysa yayından önce bağımsız bir teknik kontrol yaptırmak riski azaltır.",
+    "Lansman öncesi kontrol ya da taşıma planı için [ön görüşme randevusu](/randevu) alabilirsiniz; birlikte sitenizin hangi adımlarda risk taşıdığına bakalım."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When a new site launches, SEO is often left until last: the design is approved, content is uploaded, the domain is connected, and a few weeks later someone asks why the site does not show up on Google. Most of the problems I see in the field come from settings a ten-minute pre-launch check would have caught.",
+    "I split this checklist into three phases: before launch, launch day and the first 30 days. Each step is short, with a link to the article that covers it in detail. The [technical SEO guide](/en/teknik-seo) explains the wider technical foundation.",
+    {
+     "alinti": "Short answer: Before launching a new site, check the page and URL plan, robots and noindex settings, meta tags, mobile and speed performance, structured data and, if an old site exists, 301 redirects. On launch day, verify Search Console, submit the sitemap and set up analytics. In the first 30 days, monitor indexing and strengthen internal links."
+    }
+   ]
+  },
+  {
+   "baslik": "New site SEO in three phases",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "New site SEO flow",
+      "adimlar": [
+       {
+        "baslik": "Before launch",
+        "metin": "Steps 1-6. Structure, access, meta, speed, schema and redirects."
+       },
+       {
+        "baslik": "Launch day",
+        "metin": "Steps 7-8. Search Console, sitemap and analytics."
+       },
+       {
+        "baslik": "First 30 days",
+        "metin": "Steps 9-10. Indexing checks, internal links and content."
+       }
+      ]
+     }
+    },
+    "Order matters. If you do not set up Search Console on launch day, you lose the first weeks of data; if you build the redirect map after launch, old URLs return 404 in the meantime."
+   ]
+  },
+  {
+   "baslik": "Six steps before launch",
+   "paragraflar": [
+    {
+     "alt": "1. Plan pages and URLs around keywords"
+    },
+    "Pick one target page for each important search intent and keep the mapping in a spreadsheet. Choose short, lowercase, hyphenated URLs and decide early how you will handle Turkish characters. The mapping method is in the [keyword research guide](/en/anahtar-kelime-arastirmasi) and URL rules in [SEO-friendly URL structure](/en/url-yapisi-seo).",
+    {
+     "alt": "2. Remove staging blocks on the live site"
+    },
+    "The development environment should be password-protected and the live site crawlable. At launch, check for a \"Disallow: /\" rule in robots.txt, noindex tags in templates and the WordPress setting that discourages search engines from indexing the site. For a correct robots.txt, see the [robots.txt article](/en/robots-txt).",
+    {
+     "alt": "3. Write a title, meta description and h1 for every page"
+    },
+    "Every page needs a unique title tag, a descriptive meta description and a single h1. Template defaults like \"Home | Company\" survive on new sites far too often. I collected the rules in the [meta title and description article](/en/meta-baslik-aciklama-kurallari), and you can test how they look with the [SERP preview tool](/en/serp-preview).",
+    {
+     "alt": "4. Check mobile display and speed"
+    },
+    "Google uses the mobile version of a site for indexing, so nothing should be missing on mobile. Test the main templates in PageSpeed Insights before launch; a new site has no field data yet, so you rely on lab results. Thresholds and fixes are in the [Core Web Vitals article](/en/core-web-vitals-2025).",
+    {
+     "alt": "5. Add core structured data"
+    },
+    "Add Organization or LocalBusiness markup to the homepage, Product to product pages and Article to blog posts, then validate with the Rich Results Test. The [schema and structured data guide](/en/schema-yapisal-veri) explains which type fits which page, and the [schema generator](/en/schema-generator) builds the JSON-LD.",
+    {
+     "alt": "6. Build a 301 redirect map if an old site exists"
+    },
+    "If the new site replaces an old one, map every old URL to its closest new equivalent with a 301. Skip this and the signals the old pages built up are lost. The Change of Address tool in Search Console is only for domain changes. The process is in the [site migration SEO guide](/en/site-tasima-seo), and the [301 redirect generator](/en/redirect-generator) writes the rules.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "The most expensive mistake",
+      "metin": "The loss I see most in redesign projects is old URLs being switched off without redirects. Before launch, export a full URL list of the old site with a crawl and keep it."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Two steps on launch day",
+   "paragraflar": [
+    {
+     "alt": "7. Verify Search Console and submit the sitemap"
+    },
+    "A Domain property requires DNS verification and covers http, https and all subdomains together. Then submit your sitemap.xml in the Sitemaps report and add a \"Sitemap:\" line to robots.txt. Google treats a sitemap as a hint, not a promise to crawl. How to read the reports is in the [Search Console guide](/en/search-console-rehberi).",
+    {
+     "alt": "8. Set up analytics and conversion tracking"
+    },
+    "Create a GA4 property, define key events such as form submissions, phone clicks or purchases, and link it to Search Console. Without clean data from day one you cannot show the impact of SEO later. Setup details are in [tracking SEO with GA4](/en/ga4-seo-takibi)."
+   ]
+  },
+  {
+   "baslik": "Two steps in the first 30 days",
+   "paragraflar": [
+    {
+     "alt": "9. Monitor indexing every week"
+    },
+    "Check the Page indexing report weekly and inspect important pages with URL Inspection. On new sites it is normal to see \"Discovered\" or \"Crawled, currently not indexed\" rows. If key pages stay there for weeks, follow the diagnosis steps in [crawled, currently not indexed](/en/tarandi-dizine-eklenmemis).",
+    {
+     "alt": "10. Strengthen internal links and start a content plan"
+    },
+    "A new site has few external links, so internal links are how you tell Google which pages matter. Link to service and category pages from the menu, related articles and the homepage with descriptive anchors; the method is in the [internal linking article](/en/ic-linkleme). Plan a few in-depth pieces to publish regularly in the first months."
+   ]
+  },
+  {
+   "baslik": "Printable new site SEO checklist",
+   "paragraflar": [
+    "Go through this list with the team at the launch meeting:",
+    {
+     "kontrol": [
+      "One page and a clean URL set for each target query",
+      "robots.txt, noindex and the CMS indexing setting checked on the live site",
+      "Unique title, meta description and a single h1 on every page",
+      "Main templates tested on mobile and in PageSpeed Insights",
+      "Organization, Product or Article markup validated",
+      "301 map for old URLs ready and tested",
+      "Search Console verified and sitemap submitted",
+      "GA4 set up with key events defined",
+      "Weekly slot booked for the Page indexing report",
+      "Important pages linked internally, first content calendar ready"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "When",
+       "Steps",
+       "Tools"
+      ],
+      "satirlar": [
+       [
+        "1-2 weeks before launch",
+        "1, 3, 5, 6",
+        "Spreadsheet, site crawler, Rich Results Test"
+       ],
+       [
+        "Just before launch",
+        "2, 4",
+        "robots.txt, PageSpeed Insights"
+       ],
+       [
+        "Launch day",
+        "7, 8",
+        "Search Console, GA4"
+       ],
+       [
+        "Days 1-30",
+        "9, 10",
+        "Page indexing report, URL Inspection"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Getting support for a new site launch",
+   "paragraflar": [
+    "You can do most of this list yourself. When a migration from an old site, a multilingual setup or a catalogue with thousands of products is involved, an independent technical check before launch reduces the risk.",
+    "For a pre-launch review or a migration plan, [book an intro call](/en/book-a-call) and we will look at which steps carry risk for your site."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Yeni bir site Google'da ne zaman görünmeye başlar?",
+   "c": "Kesin bir süre yok. Search Console'u doğrulayıp site haritasını gönderdiyseniz ilk sayfaların birkaç gün ile birkaç hafta içinde taranması olağandır; rekabetçi sorgularda sıralama kazanmak ise çok daha uzun sürer."
+  },
+  {
+   "s": "Site yapım aşamasındayken yayına alıp sonra düzeltmek sorun olur mu?",
+   "c": "Yarım içerikli sayfalar ince ya da kopya içerik olarak değerlendirilebilir ve ilk izlenim zayıf kalır. Hazır olmayan bölümleri yayına almamak ya da noindex ile tutmak daha güvenlidir."
+  },
+  {
+   "s": "Yeni sitede blog açmak şart mı?",
+   "c": "Şart değil, ama bilgi arayan sorguları hedeflemenin ve hizmet sayfalarına iç link vermenin en pratik yolu çoğu zaman bir blog ya da rehber bölümüdür. Az ama kapsamlı içerik, çok sayıda kısa yazıdan daha iyi sonuç verir."
+  },
+  {
+   "s": "Alan adı değişmeden sadece tasarım yenilendiyse ne yapmalıyım?",
+   "c": "URL'ler aynı kalıyorsa yönlendirme gerekmez, ama başlık, içerik, iç link ve yapısal verinin korunduğunu kontrol edin. URL'ler değişiyorsa eski adresleri 301 ile yeni karşılıklarına yönlendirin."
+  },
+  {
+   "s": "Yerel işletmeyim, ek olarak ne yapmalıyım?",
+   "c": "Google Business Profile kaydınızı oluşturup doğrulayın, web sitenizi profile ekleyin ve ad, adres, telefon bilgisinin sitedekiyle aynı olduğundan emin olun. Sitede LocalBusiness işaretlemesi de bu bilgileri destekler."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "When will a new site start showing up on Google?",
+   "c": "There is no fixed timeline. If you verified Search Console and submitted a sitemap, the first pages are usually crawled within a few days to a few weeks; ranking for competitive queries takes much longer."
+  },
+  {
+   "s": "Is it a problem to launch while the site is still under construction?",
+   "c": "Half-finished pages can be seen as thin or duplicate content and make a weak first impression. It is safer not to publish unfinished sections, or to keep them noindexed."
+  },
+  {
+   "s": "Does a new site need a blog?",
+   "c": "Not necessarily, but a blog or guides section is often the most practical way to target informational queries and link to service pages. A few in-depth pieces work better than many short posts."
+  },
+  {
+   "s": "What if only the design changed and the domain stayed the same?",
+   "c": "If URLs stay the same, no redirects are needed, but check that titles, content, internal links and structured data were preserved. If URLs change, 301-redirect old addresses to their new equivalents."
+  },
+  {
+   "s": "I run a local business. What else should I do?",
+   "c": "Create and verify your Google Business Profile, add your website to it and make sure the name, address and phone match the site. LocalBusiness markup on the site supports the same details."
+  }
+ ]
+}

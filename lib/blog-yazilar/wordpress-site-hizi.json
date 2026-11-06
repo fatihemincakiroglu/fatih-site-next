@@ -1,0 +1,505 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 9,
+ "baslik_tr": "WordPress Site Hızını Artırmanın 12 Yolu",
+ "baslik_en": "12 Ways to Speed Up Your WordPress Site",
+ "meta_baslik_tr": "WordPress Site Hızını Artırmanın 12 Yolu",
+ "meta_baslik_en": "12 Ways to Speed Up a WordPress Site",
+ "meta_desc_tr": "Hosting, PHP sürümü, önbellek, görsel, eklenti, tema, font, CDN ve veritabanı. WordPress sitenizi hızlandırmanın 12 yolu ve doğru ölçüm yöntemi.",
+ "meta_desc_en": "Hosting, PHP version, caching, images, plugins, theme, fonts, CDN and database. 12 ways to speed up your WordPress site and how to measure it right.",
+ "ozet_tr": "Sunucudan fonta, ölçümle başlayan ve Core Web Vitals'a bağlanan 12 somut WordPress hızlandırma adımı.",
+ "ozet_en": "12 concrete WordPress speed steps from server to fonts, starting with measurement and tied to Core Web Vitals.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "WordPress sitelerde yavaşlığın tek bir nedeni nadiren olur. Sahada en sık gördüğüm tablo şu: zayıf bir paylaşımlı hosting, ağır bir sayfa oluşturucu tema, otuzu aşkın eklenti ve sıkıştırılmamış görseller aynı anda. Tek bir önbellek eklentisi kurmak bu tabloyu kısmen gizler ama çözmez.",
+    "Aşağıdaki 12 yol sunucudan başlayıp ön yüze doğru ilerliyor. Her adımı uygulamadan önce ve sonra ölçün; aksi halde neyin işe yaradığını bilemezsiniz. Eklenti adlarını Kasım 2026 itibarıyla WordPress.org sayfalarından kontrol ettim.",
+    {
+     "alinti": "Kısa cevap: WordPress hızı için önce PageSpeed Insights ve Search Console'daki Core Web Vitals raporuyla saha verisine bakın. Ardından hosting ve PHP sürümünü güncelleyin, sayfa önbelleği kurun, görselleri doğru boyut ve formatta sunun, gereksiz eklenti ve ağır tema yükünü azaltın, fontları ve CDN'i düzenleyin, veritabanını temizleyin."
+    }
+   ]
+  },
+  {
+   "baslik": "Önce ölçün, sonra düzeltin",
+   "paragraflar": [
+    "Hız çalışmasında iki tür veri var. Saha verisi gerçek Chrome kullanıcılarından gelir (Chrome UX Report) ve Google'ın değerlendirdiği deneyimi gösterir. Laboratuvar verisi (Lighthouse) ise tek bir test ortamında ölçülür ve sorunun nedenini bulmaya yarar.",
+    {
+     "akis": {
+      "baslik": "WordPress hız ölçüm döngüsü",
+      "adimlar": [
+       {
+        "baslik": "Saha verisine bakın",
+        "metin": "Search Console Core Web Vitals raporunda hangi URL gruplarının sorunlu olduğunu bulun."
+       },
+       {
+        "baslik": "Sayfa türünü seçin",
+        "metin": "Ana sayfa, kategori, ürün ve blog şablonundan birer örnek URL alın."
+       },
+       {
+        "baslik": "Nedeni teşhis edin",
+        "metin": "PageSpeed Insights ve Lighthouse önerileriyle LCP öğesini ve uzun görevleri belirleyin."
+       },
+       {
+        "baslik": "Tek değişiklik yapın",
+        "metin": "Aynı anda birden fazla ayar değiştirirseniz etkiyi ayıramazsınız."
+       },
+       {
+        "baslik": "Yeniden ölçün",
+        "metin": "Laboratuvar sonucu hemen, saha verisi ise haftalar içinde değişir."
+       }
+      ]
+     }
+    },
+    "Eşikler şöyle: LCP en fazla 2,5 saniye, INP en fazla 200 milisaniye, CLS en fazla 0,1. Ölçüm farklarını ve her metriğin anlamını [Core Web Vitals](/core-web-vitals-2025) yazısında ayrıntılı anlattım. Mobil ölçüm masaüstünden çoğu zaman kötüdür; [mobil SEO](/mobil-seo) yazısı mobil tarafa özgü kontrolleri içeriyor."
+   ]
+  },
+  {
+   "baslik": "Sunucu tarafında WordPress hızlandırma",
+   "paragraflar": [
+    {
+     "alt": "1. Hosting ve sunucu yanıt süresini iyileştirin"
+    },
+    "Sunucu ilk baytı geç gönderiyorsa ön yüzde yapacağınız her iyileştirme bu gecikmenin üstüne biner. PageSpeed Insights'taki sunucu yanıt süresi uyarısı ve TTFB değeri ilk göstergedir. Türkiye'deki ziyaretçileriniz için sunucu konumu ve hosting paketinin kaynak sınırları (CPU, bellek, eş zamanlı işlem) belirleyicidir.",
+    {
+     "alt": "2. PHP sürümünü güncelleyin"
+    },
+    "WordPress'in resmi gereksinimler sayfası PHP 8.3 ya da üstünü, veritabanı için MySQL 8.0 ya da MariaDB 10.11 ve üstünü öneriyor. Eski sürümler çalışmaya devam etse de destek süresi dolmuş durumda. Güncellemeden önce test ortamında tema ve eklenti uyumluluğunu kontrol edin.",
+    {
+     "alt": "3. Sayfa önbelleği kurun"
+    },
+    "Sayfa önbelleği, her ziyarette PHP ve veritabanı sorgusu çalıştırmak yerine hazır HTML sunar. Seçenekler: Automattic'in WP Super Cache eklentisi, LiteSpeed sunucularda LiteSpeed Cache (sayfa önbelleği LiteSpeed uyumlu sunucu gerektirir) ya da önbellek, görsel ve veritabanı işini birleştiren WP-Optimize. Birçok yönetilen hosting kendi sunucu önbelleğini sunar; o durumda ikinci bir önbellek eklentisi kurmayın.",
+    {
+     "alt": "4. Kalıcı nesne önbelleği kullanın"
+    },
+    "Redis ya da Memcached gibi kalıcı nesne önbelleği, tekrar eden veritabanı sorgularının sonucunu bellekte tutar. Oturum açmış kullanıcıların, sepetin ve yönetim panelinin önbelleklenemediği sitelerde özellikle fark yaratır. Hosting firmanızın bu hizmeti sunup sunmadığını sorun.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Speculative loading",
+      "metin": "WordPress 6.8 ile birlikte, oturum açmamış ziyaretçiler için varsayılan olarak tutucu ayarlı prefetch etkin. Kullanıcı bir linke tıklamaya başladığında sonraki sayfa önceden yüklenmeye başlar. Ayarı değiştirmek için çekirdekteki filtreler kullanılabiliyor."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Görsellerle WordPress hızlandırma",
+   "paragraflar": [
+    {
+     "alt": "5. Görselleri doğru boyut ve formatta sunun"
+    },
+    "Telefon ekranında 400 piksel görünen bir görsel için 4000 piksellik dosya yüklemek en yaygın hatadır. Görseli yüklemeden önce boyutlandırın ve sıkıştırın. WordPress 6.5'ten beri, sunucunuzun görsel kütüphanesi destekliyorsa AVIF yüklenebiliyor; WebP dönüşümü için Performance Lab ekibinin Modern Image Formats eklentisi ya da WP-Optimize kullanılabilir. Dosya adı ve alt metin gibi diğer konular [görsel SEO](/gorsel-seo) yazısında.",
+    {
+     "alt": "6. LCP görselini tembel yüklemeden çıkarın"
+    },
+    "WordPress görsellere varsayılan olarak tembel yükleme ekler, ama ekranın üst kısmındaki büyük görsel (genellikle LCP öğesi) geç yüklenmemeli. Tema ya da sayfa oluşturucu bu görsele loading=\"lazy\" ekliyorsa kaldırın ve fetchpriority=\"high\" ile öncelik verin. Performance Lab ekibinin Image Prioritizer eklentisi bu önceliklendirmeyi otomatikleştirmeyi hedefler."
+   ]
+  },
+  {
+   "baslik": "Tema, eklenti ve kod yükünü azaltma",
+   "paragraflar": [
+    {
+     "alt": "7. Eklenti yükünü denetleyin"
+    },
+    "Sorun eklenti sayısı değil, her sayfada ne kadar kod ve sorgu çalıştırdıklarıdır. Query Monitor eklentisi yavaş ve yinelenen veritabanı sorgularını, HTTP API çağrılarını ve bunların hangi eklentiden geldiğini gösterir. Kullanılmayan eklentileri silin, aynı işi yapan iki eklentiden birini kaldırın. SEO eklentisi seçimi için [WordPress SEO eklentileri](/en-iyi-wordpress-seo-eklentileri) karşılaştırmasına bakabilirsiniz.",
+    {
+     "alt": "8. Hafif bir tema seçin"
+    },
+    "Sayfa oluşturucu temalar her sayfaya büyük CSS ve JavaScript dosyaları ekleyebilir. Yeni bir projede blok teması ya da hafif bir tema ile başlamak, sonradan optimize etmekten kolaydır. Mevcut sitede tema değiştirmek büyük bir iş olduğu için önce tema ayarlarındaki kullanılmayan modülleri kapatın.",
+    {
+     "alt": "9. CSS ve JavaScript'i düzenleyin"
+    },
+    "Küçültme (minify), kritik olmayan JavaScript'i erteleme (defer) ve kullanılmayan CSS'i kaldırma, render engelleyen kaynakları azaltır. Birleştirme ve erteleme ayarları menü, form ya da kaydırıcıyı bozabilir; her ayardan sonra sayfayı elle test edin. INP sorunlarında uzun JavaScript görevleri genellikle asıl nedendir; ayrıntılar [JavaScript SEO](/javascript-seo) yazısında.",
+    {
+     "alt": "10. Fontları optimize edin"
+    },
+    "Font dosyalarını kendi sunucunuzdan sunun, yalnızca kullandığınız ağırlıkları yükleyin ve font-display: swap kullanın. Ana başlık fontunu önceden yükleyerek (preload) metnin geç görünmesini önleyin. Alt kümeyi daraltırken Türkçe karakterleri (ğ, ş, ı, İ) içeren latin-ext kümesini çıkarmayın; aksi halde bu harfler yedek fontla görünür ve kayma (CLS) oluşabilir."
+   ]
+  },
+  {
+   "baslik": "Dağıtım ve veritabanı",
+   "paragraflar": [
+    {
+     "alt": "11. CDN kullanın"
+    },
+    "CDN, statik dosyaları ziyaretçiye yakın sunuculardan dağıtır. Ziyaretçileriniz farklı şehir ve ülkelerden geliyorsa etkisi daha belirgindir. LiteSpeed Cache kullanıcıları için QUIC.cloud CDN seçeneği eklentiyle entegre çalışır; diğer sitelerde hosting firmanızın ya da bağımsız bir CDN sağlayıcısının hizmetini kullanabilirsiniz.",
+    {
+     "alt": "12. Veritabanını temizleyin"
+    },
+    "Yıllar içinde biriken yazı revizyonları, süresi dolmuş transient kayıtları, spam yorumlar ve kaldırılmış eklentilerden kalan otomatik yüklenen ayarlar sorguları yavaşlatır. WP-Optimize bu temizliği zamanlayarak yapabiliyor. Temizlikten önce mutlaka veritabanı yedeği alın."
+   ]
+  },
+  {
+   "baslik": "Hangi yol hangi metriği iyileştirir?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Belirti",
+       "Etkilenen metrik",
+       "İlgili yollar"
+      ],
+      "satirlar": [
+       [
+        "Sayfa geç açılmaya başlıyor",
+        "TTFB, LCP",
+        "1, 2, 3, 4, 11"
+       ],
+       [
+        "Ana görsel geç görünüyor",
+        "LCP",
+        "5, 6, 11"
+       ],
+       [
+        "Tıklamalara geç tepki veriliyor",
+        "INP",
+        "7, 8, 9"
+       ],
+       [
+        "Sayfa yüklenirken içerik kayıyor",
+        "CLS",
+        "5, 10"
+       ],
+       [
+        "Yönetim paneli ve sepet yavaş",
+        "Sunucu süresi",
+        "2, 4, 7, 12"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Tipik bir paylaşımlı hosting WordPress sitesinde öncelik",
+      "birim": "puan",
+      "veriler": [
+       {
+        "etiket": "Sayfa önbelleği",
+        "deger": 9
+       },
+       {
+        "etiket": "Görsel boyut ve format",
+        "deger": 8
+       },
+       {
+        "etiket": "Hosting ve PHP sürümü",
+        "deger": 8
+       },
+       {
+        "etiket": "Eklenti denetimi",
+        "deger": 7
+       },
+       {
+        "etiket": "CSS ve JavaScript",
+        "deger": 6
+       },
+       {
+        "etiket": "Fontlar",
+        "deger": 4
+       }
+      ],
+      "not": "Etki puanı (1-10), yazarın değerlendirmesi. Sitenizde sıralama ölçüm sonucuna göre değişir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "WooCommerce mağazalarında hız",
+   "paragraflar": [
+    "Sepet, ödeme ve hesap sayfaları kişiye özel olduğu için sayfa önbelleğinden çıkarılmalıdır; bu yüzden mağazalarda sunucu ve nesne önbelleği daha önemlidir. Filtreli kategori sayfaları ve çok sayıda ürün varyasyonu veritabanı yükünü artırır. Mağazaya özgü teknik ayarlar [WooCommerce SEO](/woocommerce-seo) yazısında, genel çerçeve [e-ticaret SEO rehberinde](/e-ticaret-seo).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Önbellek ve sepet",
+      "metin": "Önbellek eklentisi sepet ya da ödeme sayfasını önbelleğe alırsa müşteriler birbirinin sepetini görebilir. Kurulumdan sonra bu sayfaların hariç tutulduğunu mutlaka test edin."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hız çalışmasını kalıcı kılmak",
+   "paragraflar": [
+    "Hız tek seferlik bir proje değildir; her yeni eklenti, tema güncellemesi ya da kampanya görseli kazanımları geri alabilir. Şu kontrolleri ayda bir tekrarlıyorum:",
+    {
+     "kontrol": [
+      "Search Console Core Web Vitals raporunda yeni sorunlu URL grubu var mı?",
+      "Son eklenen eklentiler Query Monitor'da yavaş sorgu üretiyor mu?",
+      "Yeni yüklenen görseller doğru boyutta mı?",
+      "PHP ve WordPress sürümü güncel mi?",
+      "Önbellek sepet ve ödeme sayfalarını hariç tutuyor mu?"
+     ]
+    },
+    "Hız sorunları çoğu zaman genel teknik sorunlarla birlikte gelir; kapsamlı kontrol listesi için [teknik SEO rehberine](/teknik-seo) bakın. Sitenizin hızını ve dönüşümünü birlikte ele almak isterseniz [performans ve büyüme hizmeti](/performans), mağazalar için [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi), teknik denetim için [SEO danışmanlığı](/seo-uzmani) sayfalarına göz atabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A slow WordPress site rarely has a single cause. The picture I see most in audits is all of these at once: weak shared hosting, a heavy page builder theme, more than thirty plugins and uncompressed images. One caching plugin hides this but does not fix it.",
+    "The 12 ways below start at the server and move toward the front end. Measure before and after each step, or you will not know what worked. I checked plugin names on WordPress.org pages as of November 2026.",
+    {
+     "alinti": "Short answer: For WordPress speed, first check field data in PageSpeed Insights and the Core Web Vitals report in Search Console. Then update hosting and PHP, add page caching, serve images at the right size and format, cut unnecessary plugin and heavy theme weight, sort out fonts and a CDN, and clean the database."
+    }
+   ]
+  },
+  {
+   "baslik": "Measure first, then fix",
+   "paragraflar": [
+    "Speed work uses two kinds of data. Field data comes from real Chrome users (Chrome UX Report) and shows the experience Google evaluates. Lab data (Lighthouse) is measured in a single test environment and helps find the cause of a problem.",
+    {
+     "akis": {
+      "baslik": "WordPress speed measurement loop",
+      "adimlar": [
+       {
+        "baslik": "Check field data",
+        "metin": "Find which URL groups have issues in the Search Console Core Web Vitals report."
+       },
+       {
+        "baslik": "Pick page types",
+        "metin": "Take one sample URL each from the home, category, product and blog templates."
+       },
+       {
+        "baslik": "Diagnose",
+        "metin": "Use PageSpeed Insights and Lighthouse to identify the LCP element and long tasks."
+       },
+       {
+        "baslik": "Change one thing",
+        "metin": "If you change several settings at once you cannot separate their effects."
+       },
+       {
+        "baslik": "Measure again",
+        "metin": "Lab results change at once; field data changes over weeks."
+       }
+      ]
+     }
+    },
+    "The thresholds: LCP at most 2.5 seconds, INP at most 200 milliseconds, CLS at most 0.1. I cover measurement differences and each metric in [Core Web Vitals](/en/core-web-vitals-2025). Mobile scores are usually worse than desktop; [mobile SEO](/en/mobil-seo) covers mobile-specific checks."
+   ]
+  },
+  {
+   "baslik": "Speeding up WordPress on the server side",
+   "paragraflar": [
+    {
+     "alt": "1. Improve hosting and server response time"
+    },
+    "If the server sends the first byte late, every front-end improvement sits on top of that delay. The server response time warning and TTFB in PageSpeed Insights are the first signs. Server location and your plan's resource limits (CPU, memory, processes) are decisive.",
+    {
+     "alt": "2. Update your PHP version"
+    },
+    "WordPress's official requirements page recommends PHP 8.3 or higher, and MySQL 8.0 or MariaDB 10.11 or higher for the database. Older versions still run but have reached end of life. Test theme and plugin compatibility on a staging site before upgrading.",
+    {
+     "alt": "3. Add page caching"
+    },
+    "Page caching serves ready HTML instead of running PHP and database queries on every visit. Options include Automattic's WP Super Cache, LiteSpeed Cache on LiteSpeed servers (its page cache needs a LiteSpeed-compatible server), or WP-Optimize, which combines caching, images and database cleanup. Many managed hosts provide their own server cache; in that case do not add a second caching plugin.",
+    {
+     "alt": "4. Use a persistent object cache"
+    },
+    "A persistent object cache such as Redis or Memcached keeps the results of repeated database queries in memory. It makes a real difference on sites where logged-in users, the cart and the admin area cannot be page cached. Ask your host whether they offer it.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Speculative loading",
+      "metin": "Since WordPress 6.8, prefetch with conservative eagerness is enabled by default for logged-out visitors. The next page starts loading when a user begins clicking a link. Core filters let you change the setting."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Speeding up WordPress with images",
+   "paragraflar": [
+    {
+     "alt": "5. Serve images at the right size and format"
+    },
+    "Uploading a 4000-pixel file for an image shown at 400 pixels on a phone is the most common mistake. Resize and compress images before uploading. Since WordPress 6.5 you can upload AVIF if your server's image library supports it, and for WebP conversion you can use the Performance Lab team's Modern Image Formats plugin or WP-Optimize. File names and alt text are covered in [image SEO](/en/gorsel-seo).",
+    {
+     "alt": "6. Exclude the LCP image from lazy loading"
+    },
+    "WordPress adds lazy loading to images by default, but the large image at the top of the screen (usually the LCP element) should not load late. If your theme or page builder adds loading=\"lazy\" to it, remove it and prioritize it with fetchpriority=\"high\". The Performance Lab team's Image Prioritizer plugin aims to automate this prioritization."
+   ]
+  },
+  {
+   "baslik": "Reducing theme, plugin and code weight",
+   "paragraflar": [
+    {
+     "alt": "7. Audit plugin load"
+    },
+    "The problem is not the number of plugins but how much code and how many queries they run on each page. The Query Monitor plugin shows slow and duplicate database queries, HTTP API calls and which plugin they come from. Delete unused plugins and remove one of any two that do the same job. For choosing an SEO plugin, see the [WordPress SEO plugins](/en/en-iyi-wordpress-seo-eklentileri) comparison.",
+    {
+     "alt": "8. Choose a lightweight theme"
+    },
+    "Page builder themes can add large CSS and JavaScript files to every page. On a new project, starting with a lightweight or block theme is easier than optimizing later. Switching themes on an existing site is a big job, so first turn off unused modules in the theme settings.",
+    {
+     "alt": "9. Tidy up CSS and JavaScript"
+    },
+    "Minifying, deferring non-critical JavaScript and removing unused CSS reduce render-blocking resources. Combine and defer settings can break menus, forms or sliders, so test the page by hand after each change. Long JavaScript tasks are usually the root cause of INP issues; see [JavaScript SEO](/en/javascript-seo).",
+    {
+     "alt": "10. Optimize fonts"
+    },
+    "Host font files on your own server, load only the weights you use and use font-display: swap. Preload the main heading font so text does not appear late. When subsetting, keep the character sets your languages need (Turkish letters such as ğ, ş and ı sit in latin-ext); otherwise those letters render in a fallback font and can cause layout shift (CLS)."
+   ]
+  },
+  {
+   "baslik": "Delivery and database",
+   "paragraflar": [
+    {
+     "alt": "11. Use a CDN"
+    },
+    "A CDN delivers static files from servers close to the visitor. The effect is clearer when visitors come from many cities and countries. For LiteSpeed Cache users, the QUIC.cloud CDN option integrates with the plugin; other sites can use their host's CDN or an independent provider.",
+    {
+     "alt": "12. Clean the database"
+    },
+    "Post revisions, expired transients, spam comments and autoloaded options left by removed plugins pile up over the years and slow queries. WP-Optimize can schedule this cleanup. Always take a database backup first."
+   ]
+  },
+  {
+   "baslik": "Which step improves which metric?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Symptom",
+       "Affected metric",
+       "Related steps"
+      ],
+      "satirlar": [
+       [
+        "The page starts loading late",
+        "TTFB, LCP",
+        "1, 2, 3, 4, 11"
+       ],
+       [
+        "The main image appears late",
+        "LCP",
+        "5, 6, 11"
+       ],
+       [
+        "Clicks respond slowly",
+        "INP",
+        "7, 8, 9"
+       ],
+       [
+        "Content shifts while loading",
+        "CLS",
+        "5, 10"
+       ],
+       [
+        "Admin and cart are slow",
+        "Server time",
+        "2, 4, 7, 12"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Priority on a typical shared-hosting WordPress site",
+      "birim": "points",
+      "veriler": [
+       {
+        "etiket": "Page caching",
+        "deger": 9
+       },
+       {
+        "etiket": "Image size and format",
+        "deger": 8
+       },
+       {
+        "etiket": "Hosting and PHP version",
+        "deger": 8
+       },
+       {
+        "etiket": "Plugin audit",
+        "deger": 7
+       },
+       {
+        "etiket": "CSS and JavaScript",
+        "deger": 6
+       },
+       {
+        "etiket": "Fonts",
+        "deger": 4
+       }
+      ],
+      "not": "Impact score (1-10), the author's assessment. The order on your site depends on your measurements."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Speed for WooCommerce stores",
+   "paragraflar": [
+    "Cart, checkout and account pages are personal, so they must be excluded from page caching; that makes server and object caching more important for stores. Filtered category pages and many product variations increase database load. Store-specific technical settings are in [WooCommerce SEO](/en/woocommerce-seo), and the general framework is in the [ecommerce SEO guide](/en/e-ticaret-seo).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Caching and the cart",
+      "metin": "If a caching plugin caches the cart or checkout page, customers may see each other's carts. After setup, always test that these pages are excluded."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Making speed gains last",
+   "paragraflar": [
+    "Speed is not a one-off project; every new plugin, theme update or campaign image can undo the gains. I repeat these checks monthly:",
+    {
+     "kontrol": [
+      "Is there a new failing URL group in the Search Console Core Web Vitals report?",
+      "Do recently added plugins produce slow queries in Query Monitor?",
+      "Are newly uploaded images the right size?",
+      "Are PHP and WordPress up to date?",
+      "Does the cache exclude cart and checkout pages?"
+     ]
+    },
+    "For a full checklist of related technical issues, see the [technical SEO guide](/en/teknik-seo). To tackle speed and conversion together, see [performance and growth](/en/performance-growth), [ecommerce SEO consulting](/en/ecommerce-seo-consulting) for stores, or [SEO consulting](/en/seo-consulting) for a technical audit, or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "PageSpeed Insights puanı 100 olmadan iyi sıralama alınabilir mi?",
+   "c": "Evet. Laboratuvar puanı bir teşhis aracıdır; Google'ın sayfa deneyimi değerlendirmesinde saha verisi esas alınır. Hedef puanı 100 yapmak değil, Core Web Vitals eşiklerini gerçek kullanıcılarda geçmektir."
+  },
+  {
+   "s": "Kaç eklenti fazla sayılır?",
+   "c": "Kesin bir sayı yok. Tek bir ağır eklenti, on hafif eklentiden daha fazla yavaşlatabilir. Sayıya değil, Query Monitor ve PageSpeed Insights'ta görünen gerçek yüke bakın."
+  },
+  {
+   "s": "Hız iyileştirmesi Search Console'a ne zaman yansır?",
+   "c": "Core Web Vitals raporu saha verisine dayandığı için değişiklikler birkaç hafta içinde yansır. Rapordaki doğrulama özelliğiyle düzeltmeyi izleyebilirsiniz. Laboratuvar testleri ise hemen değişir."
+  },
+  {
+   "s": "Ücretsiz önbellek eklentisi yeterli mi?",
+   "c": "Çoğu küçük ve orta site için ücretsiz bir önbellek eklentisi yeterlidir. Asıl fark, hosting kaynakları ve eklentinin doğru yapılandırılmasıyla ortaya çıkar. Yönetilen hosting kullanıyorsanız önce sunucunun kendi önbelleğini kontrol edin."
+  },
+  {
+   "s": "Hız eklentisi siteyi bozabilir mi?",
+   "c": "Evet, özellikle CSS ve JavaScript birleştirme ile erteleme ayarları menü, form ve kaydırıcıları bozabilir. Ayarları tek tek açın ve her adımdan sonra önemli sayfaları test edin. Mümkünse değişiklikleri önce test ortamında yapın."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can a page rank well without a PageSpeed Insights score of 100?",
+   "c": "Yes. The lab score is a diagnostic tool; Google's page experience assessment relies on field data. The goal is not a perfect score but passing Core Web Vitals thresholds for real users."
+  },
+  {
+   "s": "How many plugins are too many?",
+   "c": "There is no fixed number. One heavy plugin can slow a site more than ten light ones. Look at the real load shown in Query Monitor and PageSpeed Insights, not the count."
+  },
+  {
+   "s": "When do speed improvements show up in Search Console?",
+   "c": "The Core Web Vitals report uses field data, so changes appear within a few weeks. You can track a fix with the report's validation feature. Lab tests change immediately."
+  },
+  {
+   "s": "Is a free caching plugin enough?",
+   "c": "For most small and mid-sized sites a free caching plugin is enough. The real difference comes from hosting resources and correct configuration. On managed hosting, check the server's own cache first."
+  },
+  {
+   "s": "Can a speed plugin break my site?",
+   "c": "Yes, especially CSS and JavaScript combine and defer settings can break menus, forms and sliders. Turn settings on one at a time and test key pages after each step. Make changes on a staging site first if possible."
+  }
+ ]
+}

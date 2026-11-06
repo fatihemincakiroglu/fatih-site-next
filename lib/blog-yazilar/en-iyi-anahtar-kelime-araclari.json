@@ -1,0 +1,491 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 8,
+ "baslik_tr": "En İyi 10 Anahtar Kelime Araştırma Aracı",
+ "baslik_en": "10 Best Keyword Research Tools",
+ "meta_baslik_tr": "En İyi 10 Anahtar Kelime Araştırma Aracı",
+ "meta_baslik_en": "10 Best Keyword Research Tools",
+ "meta_desc_tr": "Keyword Planner, Search Console, Semrush, Ahrefs, KWFinder ve AlsoAsked dahil 10 anahtar kelime aracı, Türkçe veri notları ve sınırları.",
+ "meta_desc_en": "Keyword Planner, Search Console, Semrush, Ahrefs, KWFinder, AlsoAsked and more. 10 keyword research tools, notes on Turkish data and limits.",
+ "ozet_tr": "Google'ın ücretsiz araçlarından kapsamlı platformlara 10 anahtar kelime aracı, Türkçe veri notlarıyla.",
+ "ozet_en": "Ten keyword research tools, from Google's free tools to full platforms, with notes on Turkish data.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Anahtar kelime araştırmasında en sık gördüğüm hata, tek bir aracın hacim rakamını kesin gerçek gibi okumak. Oysa her araç farklı bir kaynaktan beslenir: Google'ın reklam verisi, Search Console'daki gerçek gösterimler, üçüncü taraf tıklama akışı tahminleri ya da otomatik tamamlama önerileri.",
+    "Bu yazıda 10 aracı bir sıralama olarak değil, hangi soruya cevap verdikleri üzerinden anlatıyorum. Her biri için en uygun olduğu durumu, sınırını ve Türkçe veri notunu yazdım. Fiyat vermiyorum, güncel paketleri resmi sitelerden kontrol edin. Bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Ücretsiz başlangıç için Google Keyword Planner, Search Console ve Google Trends yeterli bir temel kurar. Rakip analizi ve geniş veritabanı için Semrush, Ahrefs, Moz ya da KWFinder gibi bir platform, soru ve niyet keşfi için AnswerThePublic ve AlsoAsked kullanılır. Doğru araç, yapacağınız işe ve Türkiye verisinin kapsamına göre seçilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime aracı seçerken neye bakmalı?",
+   "paragraflar": [
+    "Araç seçmeden önce hangi veri türüne ihtiyacınız olduğunu belirleyin. Araçlar bu türlerden birinde güçlüdür, hepsinde değil.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📈",
+       "baslik": "Hacim",
+       "metin": "Aylık ortalama arama tahmini. Kaynak ve yuvarlama yöntemi araçtan araca değişir."
+      },
+      {
+       "ikon": "🧗",
+       "baslik": "Zorluk",
+       "metin": "Aracın kendi formülüyle hesaplanan bir puan. Google metriği değildir."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Niyet ve sorular",
+       "metin": "Kullanıcının ne sorduğu ve hangi aşamada olduğu."
+      },
+      {
+       "ikon": "🥊",
+       "baslik": "Rakip verisi",
+       "metin": "Rakiplerin hangi kelimelerde sıralandığı. Yalnızca üçüncü taraf platformlar verir."
+      }
+     ]
+    },
+    "Bu verileri bir stratejiye nasıl dönüştüreceğinizi [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) adım adım anlattım. Bu yazı yalnızca araç tarafına odaklanıyor."
+   ]
+  },
+  {
+   "baslik": "Google ve Bing'in ücretsiz anahtar kelime araçları",
+   "paragraflar": [
+    {
+     "alt": "1. Google Keyword Planner"
+    },
+    "Google Ads içindeki araç, Google'ın kendi arama verisinden aylık ortalama arama ve kelime önerisi verir. Google'ın yardım dokümanına göre temel özelliklere erişmek için Google Ads hesap kurulumunu fatura bilgileriyle tamamlamanız gerekiyor ve hacimler yuvarlanmış olarak gösteriliyor. **En uygun olduğu durum:** Türkiye için Google kaynaklı hacim karşılaştırması. **Sınırı:** reklamcı için tasarlanmıştır, rekabet sütunu organik zorluğu değil reklam rekabetini gösterir.",
+    {
+     "alt": "2. Google Search Console"
+    },
+    "Sitenizin zaten gösterim aldığı sorguları gerçek veriyle gösterir. Ortalama konumu 8 ile 20 arasında olan, gösterimi yüksek ama tıklaması düşük sorgular en hızlı fırsatlardır. **En uygun olduğu durum:** mevcut içeriği güçlendirmek. **Sınırı:** yalnızca sitenizin görünür olduğu sorguları gösterir, yeni konu keşfi için yetmez. Raporu filtreleme yöntemleri [Search Console rehberinde](/search-console-rehberi).",
+    {
+     "alt": "3. Google Trends"
+    },
+    "Bir aramanın zaman içindeki göreli ilgisini ve bölgesel dağılımını gösterir. İki kelimeyi karşılaştırmak, mevsimselliği görmek ve yükselen sorguları yakalamak için idealdir. **En uygun olduğu durum:** içerik takvimi ve iki ifade arasında seçim. **Sınırı:** mutlak hacim vermez.",
+    {
+     "alt": "4. Bing Webmaster Tools Keyword Research"
+    },
+    "Bing'in ücretsiz aracı, anahtar kelime verisini ülke, dil ve cihaza göre filtrelemenize izin veriyor. **En uygun olduğu durum:** ikinci bir birinci taraf kaynakla Google verisini çapraz kontrol etmek. **Sınırı:** veriler Bing aramasına aittir ve Türkiye'de Google'a göre çok daha küçük bir örneklemi temsil eder."
+   ]
+  },
+  {
+   "baslik": "Kapsamlı anahtar kelime platformları",
+   "paragraflar": [
+    {
+     "alt": "5. Semrush Keyword Magic Tool"
+    },
+    "Tek bir tohum kelimeden binlerce öneriyi soru, eşleme türü ve konu gruplarına ayırır. Semrush'ın ülke listesinde Türkiye veritabanı yer alıyor. Resmi bloguna göre ücretsiz hesapta anahtar kelime araştırması günde 10 sorguyla sınırlı. **En uygun olduğu durum:** rakip kelime boşluğu ve geniş liste çıkarma. **Sınırı:** hacimler tahmindir ve küçük nişlerde Türkçe veri zayıflayabilir.",
+    {
+     "alt": "6. Ahrefs Keywords Explorer"
+    },
+    "Hacim, Keyword Difficulty, tıklama ve SERP geçmişini birlikte gösterir. Ahrefs'in yardım sayfasındaki listede Türkiye, Türkçe (tr-TR) olarak bulunuyor. **En uygun olduğu durum:** bir kelimenin sonuç sayfasını ve sıralanan sayfaların backlink gücünü birlikte incelemek. **Sınırı:** tam erişim ücretli plan gerektirir.",
+    {
+     "alt": "7. Moz Keyword Explorer"
+    },
+    "Kelime önerileri, zorluk puanı ve SERP analizi sunan, sade arayüzlü bir araç. **En uygun olduğu durum:** anahtar kelime listelerini gruplayıp önceliklendirmek isteyen küçük ekipler. **Sınırı:** Türkiye verisinin derinliğini kendi nişinizde denemeden karar vermeyin.",
+    {
+     "alt": "8. KWFinder (Mangools)"
+    },
+    "Mangools'un yardım dokümanına göre konum alanında ülke, bölge ve şehir seçilebiliyor, 43 dil destekleniyor ve öneriler ilgili kelimeler, otomatik tamamlama ve sorular olarak üç türde geliyor. Mangools SSS sayfasına göre kredi kartı istemeyen bir Free plan da var. **En uygun olduğu durum:** yerel SEO için şehir bazlı uzun kuyruklu kelimeler. **Sınırı:** arama sayısı plana göre günlük kotayla sınırlı."
+   ]
+  },
+  {
+   "baslik": "Soru ve niyet keşfi için araçlar",
+   "paragraflar": [
+    {
+     "alt": "9. AnswerThePublic"
+    },
+    "Otomatik tamamlama önerilerini soru, edat ve karşılaştırma kalıplarına göre görselleştirir. Bir konunun etrafındaki \"nasıl\", \"neden\", \"hangisi\" sorularını hızlıca görmek için kullanışlıdır. **En uygun olduğu durum:** blog ve SSS konusu bulmak. **Sınırı:** hacim odaklı değildir, arama sayısı plana göre sınırlıdır.",
+    {
+     "alt": "10. AlsoAsked"
+    },
+    "Google'daki \"Diğer kullanıcılar şunları da sordu\" kutusundaki soruları ve bu soruların birbirine nasıl dallandığını gösterir. Yardım sayfasına göre hesap açmadan günde 3 ücretsiz arama hakkı veriyor. **En uygun olduğu durum:** bir yazının h2 yapısını kurmak. **Sınırı:** yalnızca PAA kutusu çıkan sorgularda işe yarar. Bu soruların sonuç sayfasındaki yerini [featured snippet ve SERP özellikleri](/featured-snippet-serp-ozellikleri) yazısında ele aldım."
+   ]
+  },
+  {
+   "baslik": "Türkçe anahtar kelime verisinde nelere dikkat etmeli?",
+   "paragraflar": [
+    "Türkçe karakterler araçlarda ayrı satırlar oluşturabilir: \"koşu ayakkabısı\" ile \"kosu ayakkabisi\" bazı araçlarda ayrı, bazılarında birleşik görünür. Google'ın yardım dokümanı Keyword Planner'daki hacmin kelimeyi ve yakın varyantlarını kapsadığını söylüyor. Bu yüzden iki aracın hacmini toplamak çoğu zaman aynı aramayı iki kez saymak demektir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru okuma",
+       "tur": "iyi",
+       "maddeler": [
+        "Hacimleri aralık ve eğilim olarak yorumlamak",
+        "Varyantları tek konu altında gruplamak",
+        "Search Console verisiyle çapraz kontrol",
+        "Sonuç sayfasını elle incelemek"
+       ]
+      },
+      "sag": {
+       "baslik": "Yanlış okuma",
+       "tur": "kotu",
+       "maddeler": [
+        "Tek aracın rakamını kesin kabul etmek",
+        "Türkçe karaktersiz varyantı ayrı sayfa yapmak",
+        "Zorluk puanını Google metriği sanmak",
+        "Hacmi sıfır görünen kelimeyi hemen elemek"
+       ]
+      }
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Hacmi sıfır görünen kelimeler",
+      "metin": "B2B ve niş sektörlerde araçlar çoğu zaman \"0\" ya da \"10\" gösterir. Bu, aramanın hiç olmadığı anlamına gelmez. Search Console'da gösterim alıp almadığınıza ve satış ekibinin müşteriden duyduğu ifadelere bakın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime araçları karşılaştırma tablosu",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Araç",
+       "Veri kaynağı",
+       "En uygun iş"
+      ],
+      "satirlar": [
+       [
+        "Keyword Planner",
+        "Google reklam verisi",
+        "Hacim karşılaştırması"
+       ],
+       [
+        "Search Console",
+        "Sitenizin gerçek gösterimleri",
+        "Mevcut içeriği güçlendirme"
+       ],
+       [
+        "Google Trends",
+        "Göreli arama ilgisi",
+        "Mevsimsellik"
+       ],
+       [
+        "Bing Keyword Research",
+        "Bing arama verisi",
+        "Çapraz kontrol"
+       ],
+       [
+        "Semrush",
+        "Kendi veritabanı",
+        "Rakip kelime boşluğu"
+       ],
+       [
+        "Ahrefs",
+        "Kendi veritabanı",
+        "SERP ve backlink birlikte"
+       ],
+       [
+        "Moz",
+        "Kendi veritabanı",
+        "Liste önceliklendirme"
+       ],
+       [
+        "KWFinder",
+        "Kendi veritabanı",
+        "Şehir bazlı uzun kuyruk"
+       ],
+       [
+        "AnswerThePublic",
+        "Otomatik tamamlama",
+        "Soru keşfi"
+       ],
+       [
+        "AlsoAsked",
+        "PAA kutuları",
+        "Yazı yapısı"
+       ]
+      ]
+     }
+    },
+    "Bütçe kısıtlıysa ilk dört ücretsiz araçla başlayın. Rakip analizi işin merkezine geldiğinde bir platform ekleyin. Ücretsiz seçeneklerin tamamı için [en iyi ücretsiz SEO araçları](/en-iyi-ucretsiz-seo-araclari) yazısına, rakip tarafı için [SEO rakip analizi](/rakip-analizi-seo) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Araç verisini içerik planına dönüştürmek",
+   "paragraflar": [
+    "Kelime listesi tek başına bir plan değildir. Benim projelerde izlediğim sıra şu:",
+    {
+     "liste": [
+      "Kelimeleri arama niyetine ve konuya göre gruplayın, her grup için tek hedef sayfa belirleyin.",
+      "Her grubun sonuç sayfasını elle inceleyin; hangi içerik türünün sıralandığını not edin.",
+      "Mevcut sayfaları önce güçlendirin, yeni sayfayı ancak boşluk varsa açın.",
+      "Konu kümelerini birbirine iç linklerle bağlayın."
+     ]
+    },
+    "Konu kümeleri kurmayı [topical authority](/topical-authority) yazısında, uzun vadeli planı [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım. Anahtar kelime araştırmasından içerik üretimine kadar süreci birlikte yürütmek isterseniz [içerik ve SEO hizmeti](/icerik) sayfasına göz atabilir, [SEO danışmanlığı](/seo-uzmani) kapsamını inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The most common keyword research mistake I see is reading one tool's volume figure as hard fact. Each tool draws on a different source: Google's ad data, real impressions in Search Console, third-party clickstream estimates or autocomplete suggestions.",
+    "This article covers 10 tools, not as a ranking but by the question each one answers. For each I note the situation it suits best, its limit and a note on Turkish data. I do not list prices; check current plans on the official sites. There is no sponsorship here.",
+    {
+     "alinti": "Short answer: Google Keyword Planner, Search Console and Google Trends make a solid free foundation. For competitor analysis and a large database, use a platform such as Semrush, Ahrefs, Moz or KWFinder; for questions and intent, AnswerThePublic and AlsoAsked. Pick by the job and by how well the tool covers your market."
+    }
+   ]
+  },
+  {
+   "baslik": "What to look for in a keyword tool",
+   "paragraflar": [
+    "Before choosing a tool, decide which kind of data you need. Tools are strong in one of these, not all of them.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📈",
+       "baslik": "Volume",
+       "metin": "An estimate of average monthly searches. Source and rounding differ by tool."
+      },
+      {
+       "ikon": "🧗",
+       "baslik": "Difficulty",
+       "metin": "A score from the tool's own formula. Not a Google metric."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Intent and questions",
+       "metin": "What users ask and which stage they are at."
+      },
+      {
+       "ikon": "🥊",
+       "baslik": "Competitor data",
+       "metin": "Which keywords competitors rank for. Only third-party platforms provide it."
+      }
+     ]
+    },
+    "I explain how to turn this data into a strategy step by step in the [keyword research guide](/en/anahtar-kelime-arastirmasi). This article focuses only on the tools."
+   ]
+  },
+  {
+   "baslik": "Free keyword tools from Google and Bing",
+   "paragraflar": [
+    {
+     "alt": "1. Google Keyword Planner"
+    },
+    "Part of Google Ads, it gives average monthly searches and keyword ideas from Google's own data. According to Google's help documentation, you must complete account setup with billing information to access basic features, and volumes are rounded. **Best for:** comparing Google-sourced volumes. **Limit:** it is built for advertisers, and the competition column reflects ad competition, not organic difficulty.",
+    {
+     "alt": "2. Google Search Console"
+    },
+    "Shows, with real data, the queries your site already gets impressions for. Queries with an average position between 8 and 20, high impressions and few clicks are the quickest wins. **Best for:** strengthening existing content. **Limit:** it only shows queries where you already appear. Filtering methods are in the [Search Console guide](/en/search-console-rehberi).",
+    {
+     "alt": "3. Google Trends"
+    },
+    "Shows relative interest in a search over time and by region. Ideal for comparing two terms, spotting seasonality and catching rising queries. **Best for:** content calendars and choosing between two phrases. **Limit:** no absolute volume.",
+    {
+     "alt": "4. Bing Webmaster Tools Keyword Research"
+    },
+    "Bing's free tool lets you filter keyword data by country, language and device. **Best for:** cross-checking Google data against a second first-party source. **Limit:** the data comes from Bing search, which is a much smaller sample than Google in markets like Turkey."
+   ]
+  },
+  {
+   "baslik": "Full keyword research platforms",
+   "paragraflar": [
+    {
+     "alt": "5. Semrush Keyword Magic Tool"
+    },
+    "Splits thousands of ideas from one seed term into questions, match types and topic groups. Semrush's country list includes a Turkey database. According to its official blog, keyword research on the free account is limited to 10 queries a day. **Best for:** competitor keyword gaps and large lists. **Limit:** volumes are estimates and can thin out in small niches.",
+    {
+     "alt": "6. Ahrefs Keywords Explorer"
+    },
+    "Shows volume, Keyword Difficulty, clicks and SERP history together. Ahrefs' help page lists Turkey as Turkish (tr-TR). **Best for:** studying a results page together with the backlink strength of ranking pages. **Limit:** full access requires a paid plan.",
+    {
+     "alt": "7. Moz Keyword Explorer"
+    },
+    "A clean tool offering keyword ideas, a difficulty score and SERP analysis. **Best for:** small teams that want to group and prioritise keyword lists. **Limit:** test how deep its data goes in your niche and market before committing.",
+    {
+     "alt": "8. KWFinder (Mangools)"
+    },
+    "According to Mangools' help docs, you can pick a country, region or city, 43 languages are supported, and ideas come as related keywords, autocomplete and questions. The Mangools FAQ also mentions a Free plan with no credit card required. **Best for:** city-level long-tail keywords for local SEO. **Limit:** lookups are capped daily by plan."
+   ]
+  },
+  {
+   "baslik": "Tools for questions and intent",
+   "paragraflar": [
+    {
+     "alt": "9. AnswerThePublic"
+    },
+    "Visualises autocomplete suggestions as questions, prepositions and comparisons. Useful for quickly seeing the \"how\", \"why\" and \"which\" questions around a topic. **Best for:** finding blog and FAQ topics. **Limit:** it is not volume focused, and searches are limited by plan.",
+    {
+     "alt": "10. AlsoAsked"
+    },
+    "Shows the questions in Google's \"People also ask\" box and how they branch into each other. Its help page says you get 3 free searches a day without an account. **Best for:** building the h2 structure of an article. **Limit:** it only helps on queries that show a PAA box. I cover where these questions sit on the results page in [featured snippets and SERP features](/en/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "What to watch for with Turkish keyword data",
+   "paragraflar": [
+    "Turkish characters can create separate rows: \"koşu ayakkabısı\" and \"kosu ayakkabisi\" (running shoes) appear separately in some tools and merged in others. Google's help documentation says Keyword Planner volume covers a keyword and its close variants. Adding up two tools' volumes often means counting the same search twice.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Right reading",
+       "tur": "iyi",
+       "maddeler": [
+        "Treat volumes as ranges and trends",
+        "Group variants under one topic",
+        "Cross-check with Search Console",
+        "Review the results page by hand"
+       ]
+      },
+      "sag": {
+       "baslik": "Wrong reading",
+       "tur": "kotu",
+       "maddeler": [
+        "Treat one tool's figure as fact",
+        "Build a separate page for the unaccented variant",
+        "Mistake difficulty for a Google metric",
+        "Drop every zero-volume keyword"
+       ]
+      }
+     }
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Zero-volume keywords",
+      "metin": "In B2B and niche sectors tools often show \"0\" or \"10\". That does not mean nobody searches. Check whether you get impressions in Search Console and what phrases your sales team hears from customers."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Keyword research tools compared",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Tool",
+       "Data source",
+       "Best job"
+      ],
+      "satirlar": [
+       [
+        "Keyword Planner",
+        "Google ad data",
+        "Volume comparison"
+       ],
+       [
+        "Search Console",
+        "Your real impressions",
+        "Strengthening content"
+       ],
+       [
+        "Google Trends",
+        "Relative interest",
+        "Seasonality"
+       ],
+       [
+        "Bing Keyword Research",
+        "Bing search data",
+        "Cross-checking"
+       ],
+       [
+        "Semrush",
+        "Own database",
+        "Competitor gaps"
+       ],
+       [
+        "Ahrefs",
+        "Own database",
+        "SERP plus backlinks"
+       ],
+       [
+        "Moz",
+        "Own database",
+        "List prioritisation"
+       ],
+       [
+        "KWFinder",
+        "Own database",
+        "City-level long tail"
+       ],
+       [
+        "AnswerThePublic",
+        "Autocomplete",
+        "Question discovery"
+       ],
+       [
+        "AlsoAsked",
+        "PAA boxes",
+        "Article structure"
+       ]
+      ]
+     }
+    },
+    "On a tight budget, start with the four free tools and add a platform once competitor analysis becomes central. For all the free options see [best free SEO tools](/en/en-iyi-ucretsiz-seo-araclari), and for the competitor side see [SEO competitor analysis](/en/rakip-analizi-seo)."
+   ]
+  },
+  {
+   "baslik": "Turning tool data into a content plan",
+   "paragraflar": [
+    "A keyword list is not a plan on its own. This is the order I follow:",
+    {
+     "liste": [
+      "Group keywords by intent and topic, with one target page per group.",
+      "Review each group's results page by hand and note which content type ranks.",
+      "Strengthen existing pages first; open a new page only where there is a gap.",
+      "Connect topic clusters with internal links."
+     ]
+    },
+    "I cover building topic clusters in [topical authority](/en/topical-authority) and long-term planning in the [content strategy guide](/en/icerik-stratejisi). If you want to run the process from keyword research to content together, see the [content strategy service](/en/content-strategy), the scope of [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Anahtar kelime araçlarının hacim rakamları neden farklı?",
+   "c": "Her araç farklı kaynak ve yöntem kullanır. Keyword Planner Google'ın reklam verisini yuvarlayarak gösterir, Semrush ve Ahrefs gibi platformlar kendi veritabanlarından tahmin üretir. Rakamları kesin değil, kelimeler arasında karşılaştırma yapmak için kullanın."
+  },
+  {
+   "s": "Keyword Planner için reklam vermem gerekiyor mu?",
+   "c": "Google'ın yardım dokümanına göre temel özelliklere erişmek için Google Ads hesap kurulumunu fatura bilgileriyle tamamlamanız gerekiyor. Hesap ayarlarının ayrıntısı değişebildiği için güncel koşulları Google Ads yardım merkezinden kontrol edin."
+  },
+  {
+   "s": "Keyword Difficulty puanı Google'ın bir metriği mi?",
+   "c": "Hayır. Zorluk puanı her aracın kendi formülüyle, çoğunlukla sıralanan sayfaların backlink verisine bakılarak hesaplanır. Aynı kelime için iki araç farklı puan verebilir; puanı ön eleme için kullanın, kararı sonuç sayfasını inceleyerek verin."
+  },
+  {
+   "s": "Yapay zekâ asistanlarındaki aramalar bu araçlarda görünüyor mu?",
+   "c": "Bu araçların hacim verileri ağırlıklı olarak arama motoru verisine dayanıyor. ChatGPT ya da Gemini gibi asistanlarda sorulan soruların hacmi aynı şekilde ölçülemiyor. Bu alanı nasıl ele aldığımı [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısında anlattım."
+  },
+  {
+   "s": "Anahtar kelime araştırmasını ne sıklıkla tekrarlamalıyım?",
+   "c": "Kapsamlı araştırmayı yılda bir kez, yeni ürün ya da hizmet eklendiğinde ise ilgili konu için yeniden yapın. Search Console'daki yeni sorguları aylık takip etmek, araştırmayı sürekli güncel tutmanın en pratik yoludur."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why do keyword tools show different volumes?",
+   "c": "Each tool uses a different source and method. Keyword Planner shows Google's ad data rounded, while platforms such as Semrush and Ahrefs estimate from their own databases. Use the figures to compare keywords with each other, not as exact counts."
+  },
+  {
+   "s": "Do I have to run ads to use Keyword Planner?",
+   "c": "According to Google's help documentation, you must complete Google Ads account setup with billing information to access basic features. Account details can change, so check current conditions in the Google Ads help centre."
+  },
+  {
+   "s": "Is Keyword Difficulty a Google metric?",
+   "c": "No. Each tool calculates difficulty with its own formula, usually from the backlink data of ranking pages. Two tools can give the same keyword different scores; use the score for a first filter and decide after reviewing the results page."
+  },
+  {
+   "s": "Do these tools show searches made in AI assistants?",
+   "c": "Their volume data is mainly based on search engine data. The volume of questions asked in assistants like ChatGPT or Gemini cannot be measured the same way. I explain how I approach this in [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu)."
+  },
+  {
+   "s": "How often should I repeat keyword research?",
+   "c": "Run a full round once a year, and again for the relevant topic whenever you add a new product or service. Reviewing new queries in Search Console every month is the most practical way to keep research current."
+  }
+ ]
+}

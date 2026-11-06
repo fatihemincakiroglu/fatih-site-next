@@ -1,0 +1,495 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "Takip Edilmesi Gereken 10 SEO KPI'ı",
+ "baslik_en": "10 SEO KPIs Worth Tracking",
+ "meta_baslik_tr": "Takip Edilmesi Gereken 10 SEO KPI'ı",
+ "meta_baslik_en": "10 SEO KPIs Worth Tracking",
+ "meta_desc_tr": "Tıklama, gösterim, CTR, ortalama konum, dizine ekleme, dönüşüm, gelir, markasız trafik, Core Web Vitals ve yapay zekâ trafiği nasıl ölçülür?",
+ "meta_desc_en": "Clicks, impressions, CTR, position, indexing, conversions, revenue, non-branded traffic, Core Web Vitals and AI traffic, and how to measure each.",
+ "ozet_tr": "Görünürlükten gelire 10 SEO KPI'ı, her birinin hangi araçta ve hangi raporda ölçüldüğü ve nasıl yorumlanacağı.",
+ "ozet_en": "10 SEO KPIs from visibility to revenue, where each one is measured and how to read it.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "SEO raporlarında en sık gördüğüm sorun eksik veri değil, fazla veri. Onlarca metrik içeren bir tablo, yönetime “SEO işe yarıyor mu?” sorusunun cevabını vermez. İyi bir KPI seti, görünürlükten iş sonucuna kadar zinciri birkaç sayıyla anlatır.",
+    "Bu yazıda takip edilmesi gereken 10 SEO KPI'ını, her birinin hangi araçtan ve hangi rapordan ölçüldüğünü ve nasıl yorumlanacağını anlatıyorum. Rapor şablonu ve sunum düzeni için [SEO raporlama rehberine](/seo-raporlama), yatırım getirisi hesabı için [SEO ROI ölçümü](/seo-roi-olcumu) yazısına bakabilirsiniz.",
+    {
+     "alinti": "Kısa cevap: Temel SEO KPI'ları Search Console'dan organik tıklama, gösterim, CTR, ortalama konum ve dizine eklenen sayfa; GA4'ten organik dönüşüm, gelir ve yapay zekâ asistanı trafiğidir. Bunlara markalı ve markasız trafik ayrımı ile Core Web Vitals eklenir. Her KPI'ı tek başına değil, bir öncekiyle ilişkisi içinde okuyun."
+    }
+   ]
+  },
+  {
+   "baslik": "SEO KPI'ları hangi katmanlarda düşünülmeli?",
+   "paragraflar": [
+    "KPI'ları üç katmanda gruplamak, bir düşüşün nerede başladığını bulmayı kolaylaştırır. Gelir düştüyse önce dönüşüme, sonra tıklamaya, sonra gösterime ve dizine eklemeye inersiniz.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🩺",
+       "baslik": "Sağlık",
+       "metin": "Dizine eklenen sayfalar ve Core Web Vitals. Sitenin aramada görünmeye hazır olup olmadığını gösterir."
+      },
+      {
+       "ikon": "👁️",
+       "baslik": "Görünürlük",
+       "metin": "Gösterim, ortalama konum, CTR ve tıklama. Aramada ne kadar görüldüğünüzü ve seçildiğinizi gösterir."
+      },
+      {
+       "ikon": "💼",
+       "baslik": "İş sonucu",
+       "metin": "Organik dönüşüm, gelir ve markasız trafik payı. SEO'nun işe katkısını gösterir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Search Console'dan ölçülen görünürlük KPI'ları",
+   "paragraflar": [
+    {
+     "alt": "1. Organik tıklama"
+    },
+    "Search Console Performans raporundaki tıklama, Google arama sonuçlarından sitenize gelen ziyaretlerin en doğrudan ölçüsüdür. Aylık değil, geçen yılın aynı dönemiyle karşılaştırın; çoğu sektörde mevsimsellik ay ay karşılaştırmayı yanıltıcı yapar.",
+    {
+     "alt": "2. Gösterim"
+    },
+    "Gösterim, sayfanızın bir arama sonucunda kaç kez göründüğünü sayar. Tıklama düşerken gösterim artıyorsa sorun görünürlükte değil, sonuçta seçilmekte demektir. Google'a göre AI Overviews ve AI Mode'da görünen sitelerin verisi de Performans raporunda web arama türüne dahildir.",
+    {
+     "alt": "3. Tıklama oranı (CTR)"
+    },
+    "CTR, tıklamanın gösterime oranıdır ve konuma, sorgu türüne ve sonuç sayfasındaki özelliklere göre değişir. Site geneli CTR yerine sayfa ve sorgu bazında, benzer konumdaki sayfalarla karşılaştırarak okuyun. Düşük CTR'li sayfalar için [meta başlık ve açıklama kuralları](/meta-baslik-aciklama-kurallari) iyi bir başlangıçtır.",
+    {
+     "alt": "4. Ortalama konum"
+    },
+    "Ortalama konum, sitenizin sonuçlarda göründüğü en üst konumun ortalamasıdır. Sorgu ve sayfa filtresi olmadan bakılan site geneli ortalama konum, yeni sorgularda görünmeye başladığınızda düşebilir; bu kötü bir haber olmayabilir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Ortalama konum tuzağı",
+      "metin": "Site yeni ve uzak sorgularda görünmeye başladığında gösterim artar, ortalama konum kötüleşmiş gibi görünür. Ortalama konumu her zaman belirli sorgu ya da sayfa gruplarına filtreleyerek yorumlayın."
+     }
+    },
+    "Bu raporların filtrelerini ve karşılaştırma ayarlarını [Search Console rehberinde](/search-console-rehberi) ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "Teknik sağlık KPI'ları",
+   "paragraflar": [
+    {
+     "alt": "5. Dizine eklenen önemli sayfalar"
+    },
+    "Sayfa dizine ekleme raporundaki toplam sayı tek başına anlamlı değildir; asıl soru, trafik getirmesi gereken sayfaların dizinde olup olmadığıdır. Önemli sayfalarınızı içeren ayrı bir site haritası gönderip raporu o site haritasına göre filtrelemek bunu izlemenin pratik yoludur. Dizine eklenmeyen sayfaların teşhisi için [tarandı ama dizine eklenmemiş](/tarandi-dizine-eklenmemis) yazısına bakın.",
+    {
+     "alt": "6. Core Web Vitals"
+    },
+    "Search Console'daki Core Web Vitals raporu, Chrome kullanıcılarından toplanan saha verisiyle URL gruplarını iyi, iyileştirme gerekli ve kötü olarak sınıflandırır. Eşikler LCP için 2,5 saniye, INP için 200 milisaniye, CLS için 0,1'dir. KPI olarak “iyi” durumdaki URL oranını mobil ve masaüstü ayrı izleyin; düzeltme adımları [Core Web Vitals yazısında](/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "GA4'ten ölçülen iş sonucu KPI'ları",
+   "paragraflar": [
+    {
+     "alt": "7. Organik dönüşüm"
+    },
+    "GA4'te önemli eylemler (form gönderimi, telefon tıklaması, satın alma) “temel etkinlik” (key event) olarak işaretlenir. Organic Search kanalına filtrelenmiş temel etkinlik sayısı ve oranı, SEO'nun iş katkısının en net göstergesidir. Kurulumu [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında adım adım anlattım.",
+    {
+     "alt": "8. Organik gelir"
+    },
+    "E-ticaret sitelerinde satın alma etkinliği ve gelir verisi doğru gönderiliyorsa, organik kanaldan gelen gelir doğrudan izlenebilir. Satış sitede gerçekleşmiyorsa form başına ortalama değer gibi bir varsayımla tahmini değer hesaplanabilir; varsayımı raporda açıkça yazın.",
+    {
+     "alt": "9. Markalı ve markasız trafik"
+    },
+    "Marka adınızla yapılan aramalar büyük ölçüde bilinirlikten gelir; SEO'nun yeni müşteri getirip getirmediğini markasız sorgular gösterir. Google, Kasım 2025'te Search Console Performans raporuna markalı ve markasız sorguları otomatik ayıran bir filtre ekledi. Filtre yeterli sorgu hacmi olan mülklerde görünüyor ve Google bazı sorguların yanlış sınıflandırılabileceğini belirtiyor. Filtre yoksa marka adınızı ve yazım varyasyonlarını içeren bir normal ifade filtresi kullanabilirsiniz.",
+    {
+     "alt": "10. Yapay zekâ asistanı trafiği"
+    },
+    "ChatGPT, Gemini ve Perplexity gibi asistanlardan gelen ziyaretler henüz küçük ama izlenmesi gereken bir kanal. GA4, Mayıs 2026'dan beri tanıdığı asistanlardan gelen trafiği varsayılan kanal grubunda ayrı bir kanalda gösteriyor. Asistanları birbirinden ayırma ve referrer taşımayan tıklamaların sınırları için [GA4'te yapay zekâ trafiği](/ga4-yapay-zeka-trafigi) yazısına bakın; görünürlüğü artırma tarafı [GEO uygulama rehberinde](/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Hangi SEO KPI'ı hangi araçtan ölçülür?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "KPI",
+       "Araç",
+       "Rapor veya ayar",
+       "İzleme sıklığı"
+      ],
+      "satirlar": [
+       [
+        "Organik tıklama",
+        "Search Console",
+        "Performans, Arama sonuçları",
+        "Haftalık"
+       ],
+       [
+        "Gösterim",
+        "Search Console",
+        "Performans, Arama sonuçları",
+        "Haftalık"
+       ],
+       [
+        "CTR",
+        "Search Console",
+        "Performans, sayfa ve sorgu sekmeleri",
+        "Aylık"
+       ],
+       [
+        "Ortalama konum",
+        "Search Console",
+        "Performans, sorgu filtresiyle",
+        "Aylık"
+       ],
+       [
+        "Dizine eklenen önemli sayfalar",
+        "Search Console",
+        "Sayfa dizine ekleme, site haritası filtresi",
+        "Haftalık"
+       ],
+       [
+        "Core Web Vitals",
+        "Search Console, PageSpeed Insights",
+        "Core Web Vitals raporu",
+        "Aylık"
+       ],
+       [
+        "Organik dönüşüm",
+        "GA4",
+        "Organic Search kanalında temel etkinlikler",
+        "Aylık"
+       ],
+       [
+        "Organik gelir",
+        "GA4",
+        "Satın alma geliri, kanal kırılımı",
+        "Aylık"
+       ],
+       [
+        "Markalı ve markasız trafik",
+        "Search Console",
+        "Markalı sorgular filtresi ya da normal ifade",
+        "Aylık"
+       ],
+       [
+        "Yapay zekâ asistanı trafiği",
+        "GA4",
+        "Varsayılan kanal grubu, oturum kaynağı",
+        "Aylık"
+       ]
+      ]
+     }
+    },
+    "Kampanya bağlantılarınızın organik veriye karışmaması için e-posta ve sosyal medya linklerinde UTM parametresi kullanın; [UTM oluşturucu](/utm-olusturucu) bu işi hızlandırır. Search Console verisinin 16 ay geriye gittiğini de hatırlayın; yıllık karşılaştırma için verinizi düzenli dışa aktarın."
+   ]
+  },
+  {
+   "baslik": "SEO KPI'larını aylık nasıl gözden geçirmeli?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Aylık KPI incelemesi",
+      "adimlar": [
+       {
+        "baslik": "Sağlığı kontrol et",
+        "metin": "Dizine eklenen önemli sayfalar ve Core Web Vitals durumu."
+       },
+       {
+        "baslik": "Görünürlüğü oku",
+        "metin": "Gösterim, tıklama ve CTR'yi geçen yılın aynı dönemiyle karşılaştır."
+       },
+       {
+        "baslik": "Markasız payı ayır",
+        "metin": "Büyümenin bilinirlikten mi SEO'dan mı geldiğini gör."
+       },
+       {
+        "baslik": "İş sonucuna bağla",
+        "metin": "Organik dönüşüm ve gelirdeki değişimi yorumla."
+       },
+       {
+        "baslik": "Aksiyon belirle",
+        "metin": "En büyük sapmaya yönelik bir sonraki adımı yaz."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Her KPI için bir hedef değil, önce bir taban çizgisi belirleyin",
+      "Raporda sayının yanına bir cümlelik yorum ve bir sonraki adımı yazın",
+      "Yönetim raporunda en fazla 5-6 KPI gösterin, gerisini ekte tutun",
+      "Google güncellemesi, site değişikliği ve kampanya tarihlerini grafik üzerine not edin"
+     ]
+    },
+    "KPI setinizi işinize göre kurmak ya da mevcut raporunuzu sadeleştirmek isterseniz [performans ve büyüme danışmanlığı](/performans) ile [SEO danışmanlığı](/seo-uzmani) sayfalarına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Search Console ve GA4'teki organik rakamlar neden farklı?",
+   "c": "Search Console arama sonucundaki tıklamaları, GA4 ise sitede başlayan oturumları sayar. Çerez onayı vermeyen kullanıcılar, reklam engelleyiciler ve sayfa yüklenmeden çıkan ziyaretçiler GA4'te eksik görünebilir. İki aracı aynı sayıyı vermesi beklenmeden, trend olarak birlikte okuyun."
+  },
+  {
+   "s": "Hemen çıkma oranı bir SEO KPI'ı mı?",
+   "c": "GA4'te hemen çıkma oranı, etkileşimli olmayan oturumların oranıdır ve etkileşim oranının tersidir. Sayfa kalitesi hakkında ipucu verir ama tek başına SEO KPI'ı olarak kullanmak yanıltıcıdır; tek soruya hızlı cevap veren bir sayfa düşük etkileşimle de işini yapmış olabilir."
+  },
+  {
+   "s": "Backlink sayısı KPI olarak izlenmeli mi?",
+   "c": "Ham backlink sayısı kaliteyi göstermez ve üçüncü taraf araçların otorite puanları Google metriği değildir. İzlenecekse, ilgili sitelerden kazanılan yeni referans alan adı sayısı gibi daha anlamlı bir ölçü seçin ve iş sonucu KPI'larının yanında ikincil gösterge olarak tutun."
+  },
+  {
+   "s": "Küçük bir işletme kaç KPI izlemeli?",
+   "c": "Çoğu küçük işletme için organik tıklama, markasız tıklama, organik dönüşüm ve dizine eklenen önemli sayfalar yeterli bir başlangıçtır. Yerel işletmelerde Google Business Profile performans verisi de eklenebilir. Az ama düzenli izlenen KPI, çok ama okunmayan rapordan daha değerlidir."
+  },
+  {
+   "s": "SEO KPI'larında hedef nasıl belirlenir?",
+   "c": "Önce en az birkaç aylık taban çizgisi oluşturun, sonra geçen yılın aynı dönemine ve planlanan çalışmalara göre gerçekçi bir aralık belirleyin. Rakip tahminleri yön gösterebilir ama kendi verinizin yerini tutmaz. Hedefi tek bir sayı yerine bir aralık olarak koymak beklenti yönetimini kolaylaştırır."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The most common problem I see in SEO reports is not missing data but too much of it. A table with dozens of metrics does not answer management's question: “Is SEO working?” A good KPI set tells the story from visibility to business results in a few numbers.",
+    "This article covers 10 SEO KPIs worth tracking, which tool and report each comes from and how to read it. For a report template and presentation layout, see the [SEO reporting guide](/en/seo-raporlama); for return on investment, see [measuring SEO ROI](/en/seo-roi-olcumu).",
+    {
+     "alinti": "Short answer: The core SEO KPIs are organic clicks, impressions, CTR, average position and indexed pages from Search Console, plus organic conversions, revenue and AI assistant traffic from GA4. Add the split between branded and non-branded traffic and Core Web Vitals. Read each KPI in relation to the one before it, not on its own."
+    }
+   ]
+  },
+  {
+   "baslik": "Which layers should SEO KPIs cover?",
+   "paragraflar": [
+    "Grouping KPIs into three layers makes it easier to find where a drop started. If revenue falls, you move down to conversions, then clicks, then impressions and indexing.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🩺",
+       "baslik": "Health",
+       "metin": "Indexed pages and Core Web Vitals. Shows whether the site is ready to appear in search."
+      },
+      {
+       "ikon": "👁️",
+       "baslik": "Visibility",
+       "metin": "Impressions, average position, CTR and clicks. Shows how often you are seen and chosen."
+      },
+      {
+       "ikon": "💼",
+       "baslik": "Business results",
+       "metin": "Organic conversions, revenue and non-branded share. Shows what SEO contributes to the business."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Visibility KPIs measured in Search Console",
+   "paragraflar": [
+    {
+     "alt": "1. Organic clicks"
+    },
+    "Clicks in the Search Console Performance report are the most direct measure of visits from Google search results. Compare them with the same period last year rather than month on month; in most industries seasonality makes monthly comparisons misleading.",
+    {
+     "alt": "2. Impressions"
+    },
+    "Impressions count how many times your page appeared in a search result. If clicks fall while impressions rise, the problem is not visibility but being chosen. According to Google, data for sites shown in AI Overviews and AI Mode is also included in the web search type of the Performance report.",
+    {
+     "alt": "3. Click-through rate (CTR)"
+    },
+    "CTR is clicks divided by impressions, and it varies with position, query type and features on the results page. Read it per page and query, compared with pages at a similar position, rather than as a site-wide figure. For low CTR pages, [rules for meta titles and descriptions](/en/meta-baslik-aciklama-kurallari) are a good start.",
+    {
+     "alt": "4. Average position"
+    },
+    "Average position is the average of the topmost position at which your site appeared. A site-wide average without query or page filters can drop when you start appearing for new queries, which may not be bad news.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "The average position trap",
+      "metin": "When a site starts appearing for new, distant queries, impressions rise and average position looks worse. Always interpret average position filtered to specific query or page groups."
+     }
+    },
+    "I explain the filters and comparison settings of these reports in the [Search Console guide](/en/search-console-rehberi)."
+   ]
+  },
+  {
+   "baslik": "Technical health KPIs",
+   "paragraflar": [
+    {
+     "alt": "5. Indexed important pages"
+    },
+    "The total in the Page indexing report means little on its own; the real question is whether the pages that should bring traffic are indexed. Submitting a separate sitemap of your important pages and filtering the report by it is a practical way to track this. To diagnose non-indexed pages, see [crawled but not indexed](/en/tarandi-dizine-eklenmemis).",
+    {
+     "alt": "6. Core Web Vitals"
+    },
+    "The Core Web Vitals report in Search Console classifies URL groups as good, needs improvement or poor using field data from Chrome users. The thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS. Track the share of URLs rated good as a KPI, separately for mobile and desktop; fixes are in the [Core Web Vitals article](/en/core-web-vitals-2025)."
+   ]
+  },
+  {
+   "baslik": "Business result KPIs measured in GA4",
+   "paragraflar": [
+    {
+     "alt": "7. Organic conversions"
+    },
+    "In GA4, important actions (form submissions, phone clicks, purchases) are marked as key events. The number and rate of key events filtered to the Organic Search channel is the clearest indicator of SEO's business contribution. I explain the setup step by step in [tracking SEO with GA4](/en/ga4-seo-takibi).",
+    {
+     "alt": "8. Organic revenue"
+    },
+    "On e-commerce sites, if purchase events and revenue are sent correctly, revenue from the organic channel can be tracked directly. If the sale does not happen on the site, you can estimate value with an assumption such as the average value per lead; state the assumption clearly in the report.",
+    {
+     "alt": "9. Branded and non-branded traffic"
+    },
+    "Searches for your brand name mostly come from awareness; non-branded queries show whether SEO brings new customers. In November 2025 Google added a filter to the Search Console Performance report that automatically separates branded and non-branded queries. It appears for properties with enough query volume, and Google notes that some queries may be misclassified. Without the filter, you can use a regular expression filter with your brand name and its spelling variants.",
+    {
+     "alt": "10. AI assistant traffic"
+    },
+    "Visits from assistants such as ChatGPT, Gemini and Perplexity are still small but worth tracking. Since May 2026, GA4 shows traffic from the assistants it recognises in a separate channel in the default channel group. For separating assistants and the limits of clicks without a referrer, see [AI traffic in GA4](/en/ga4-yapay-zeka-trafigi); for growing visibility, see the [GEO implementation guide](/en/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Which tool measures which SEO KPI?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "KPI",
+       "Tool",
+       "Report or setting",
+       "Review frequency"
+      ],
+      "satirlar": [
+       [
+        "Organic clicks",
+        "Search Console",
+        "Performance, Search results",
+        "Weekly"
+       ],
+       [
+        "Impressions",
+        "Search Console",
+        "Performance, Search results",
+        "Weekly"
+       ],
+       [
+        "CTR",
+        "Search Console",
+        "Performance, page and query tabs",
+        "Monthly"
+       ],
+       [
+        "Average position",
+        "Search Console",
+        "Performance, with query filter",
+        "Monthly"
+       ],
+       [
+        "Indexed important pages",
+        "Search Console",
+        "Page indexing, sitemap filter",
+        "Weekly"
+       ],
+       [
+        "Core Web Vitals",
+        "Search Console, PageSpeed Insights",
+        "Core Web Vitals report",
+        "Monthly"
+       ],
+       [
+        "Organic conversions",
+        "GA4",
+        "Key events in the Organic Search channel",
+        "Monthly"
+       ],
+       [
+        "Organic revenue",
+        "GA4",
+        "Purchase revenue by channel",
+        "Monthly"
+       ],
+       [
+        "Branded and non-branded traffic",
+        "Search Console",
+        "Branded queries filter or regex",
+        "Monthly"
+       ],
+       [
+        "AI assistant traffic",
+        "GA4",
+        "Default channel group, session source",
+        "Monthly"
+       ]
+      ]
+     }
+    },
+    "Use UTM parameters on email and social links so campaign traffic does not mix with organic data; the [UTM builder](/en/utm-builder) speeds this up. Also remember that Search Console data goes back 16 months; export it regularly for year-on-year comparisons."
+   ]
+  },
+  {
+   "baslik": "How should you review SEO KPIs each month?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Monthly KPI review",
+      "adimlar": [
+       {
+        "baslik": "Check health",
+        "metin": "Indexed important pages and Core Web Vitals status."
+       },
+       {
+        "baslik": "Read visibility",
+        "metin": "Compare impressions, clicks and CTR with the same period last year."
+       },
+       {
+        "baslik": "Separate non-branded share",
+        "metin": "See whether growth comes from awareness or SEO."
+       },
+       {
+        "baslik": "Link to business results",
+        "metin": "Interpret changes in organic conversions and revenue."
+       },
+       {
+        "baslik": "Set an action",
+        "metin": "Write the next step for the biggest deviation."
+       }
+      ]
+     }
+    },
+    {
+     "liste": [
+      "Set a baseline for each KPI before you set a target",
+      "Add a one-sentence interpretation and a next step next to each number",
+      "Show at most 5 or 6 KPIs in the management report and keep the rest in an appendix",
+      "Annotate Google updates, site changes and campaign dates on the chart"
+     ]
+    },
+    "If you want a KPI set built around your business or a simpler version of your current report, see [performance and growth consulting](/en/performance-growth) and [SEO consulting](/en/seo-consulting), or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why do organic numbers differ between Search Console and GA4?",
+   "c": "Search Console counts clicks on search results, while GA4 counts sessions that start on your site. Users who decline cookie consent, ad blockers and visitors who leave before the page loads can be missing in GA4. Do not expect the same number; read both as trends."
+  },
+  {
+   "s": "Is bounce rate an SEO KPI?",
+   "c": "In GA4, bounce rate is the share of sessions that were not engaged, the inverse of engagement rate. It hints at page quality, but using it alone as an SEO KPI is misleading; a page that answers one question quickly may do its job with low engagement."
+  },
+  {
+   "s": "Should backlink count be tracked as a KPI?",
+   "c": "Raw backlink counts do not show quality, and third-party authority scores are not Google metrics. If you track links, choose something more meaningful, such as new referring domains earned from relevant sites, and keep it as a secondary indicator next to business KPIs."
+  },
+  {
+   "s": "How many KPIs should a small business track?",
+   "c": "For most small businesses, organic clicks, non-branded clicks, organic conversions and indexed important pages are a sufficient start. Local businesses can add Google Business Profile performance data. A few KPIs reviewed regularly are worth more than a large report nobody reads."
+  },
+  {
+   "s": "How do you set targets for SEO KPIs?",
+   "c": "First build a baseline of at least a few months, then set a realistic range based on the same period last year and the planned work. Competitor estimates can give direction but do not replace your own data. A range rather than a single number makes expectations easier to manage."
+  }
+ ]
+}

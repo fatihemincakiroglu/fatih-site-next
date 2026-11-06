@@ -1,0 +1,397 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 10,
+ "baslik_tr": "En Sık Yapılan 15 Teknik SEO Hatası ve Çözümleri",
+ "baslik_en": "The 15 Most Common Technical SEO Mistakes and How to Fix Them",
+ "meta_baslik_tr": "En Sık 15 Teknik SEO Hatası ve Çözümü",
+ "meta_baslik_en": "15 Common Technical SEO Errors, Fixed",
+ "meta_desc_tr": "Robots.txt, noindex, canonical, yönlendirme, JavaScript ve hreflang dahil en sık 15 teknik SEO hatası, nasıl tespit edileceği ve çözümü.",
+ "meta_desc_en": "The 15 most common technical SEO mistakes, from robots.txt and noindex to redirects, JavaScript and hreflang, with how to spot and fix each one.",
+ "ozet_tr": "Denetimlerde en sık çıkan 15 teknik SEO hatası, her biri için belirti, tespit yöntemi ve çözüm.",
+ "ozet_en": "The 15 technical SEO mistakes that show up most in audits, each with symptom, detection method and fix.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Teknik SEO hatalarının çoğu tek bir satırlık ayardan doğar: test ortamından kalan bir Disallow, unutulmuş bir noindex, yanlış yazılmış bir canonical. Bu satırlar sessizce çalışır ve trafik düşene kadar fark edilmez.",
+    "Aşağıda denetimlerde en sık karşılaştığım 15 hatayı topladım. Her biri için belirtiyi, nasıl tespit edeceğinizi ve çözümü kısaca veriyorum; konuyu derinlemesine işleyen yazıya da link veriyorum. Genel çerçeve için [teknik SEO rehberi](/teknik-seo) başlangıç noktası.",
+    {
+     "alinti": "Kısa cevap: En sık teknik SEO hataları önemli sayfaları robots.txt ile engellemek, canlı sitede noindex unutmak, yanlış canonical, yönlendirme zincirleri, soft 404, kontrolsüz parametre URL'leri, yalnızca JavaScript ile gelen içerik ve hatalı hreflang'dir. Çoğu Search Console'daki Sayfa dizine ekleme raporu, URL Denetimi aracı ve bir site taramasıyla tespit edilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Tarama ve dizine ekleme hataları",
+   "paragraflar": [
+    {
+     "alt": "1. Önemli bölümleri robots.txt ile engellemek"
+    },
+    "**Belirti:** Search Console'da \"robots.txt tarafından engellendi\" satırı büyür. **Tespit:** robots.txt raporu ve URL Denetimi. **Çözüm:** Test ortamından kalan \"Disallow: /\" gibi kuralları kaldırın, yalnızca gerçekten taranmaması gereken yolları engelleyin. Sözdizimi için [robots.txt yazısı](/robots-txt), kontrol için [robots.txt test aracı](/robots-txt-test).",
+    {
+     "alt": "2. Robots.txt ile engellenen sayfada noindex beklemek"
+    },
+    "**Belirti:** Engellediğiniz URL'ler yine de sonuçlarda görünür. **Tespit:** \"Engellenmesine rağmen dizine eklendi\" uyarısı. **Çözüm:** Google'ın dokümanına göre robots.txt bir sayfayı dizin dışında tutma yöntemi değildir; taranamayan sayfadaki noindex okunamaz. Dizinden çıkarmak istediğiniz sayfada taramaya izin verip noindex kullanın.",
+    {
+     "alt": "3. Canlı sitede unutulmuş noindex"
+    },
+    "**Belirti:** Yeni yayına alınan site hiç trafik almaz. **Tespit:** Sayfa dizine ekleme raporunda \"noindex etiketi tarafından hariç tutuldu\" ve kaynak koddaki robots meta etiketi ya da X-Robots-Tag başlığı. **Çözüm:** CMS'teki \"arama motorlarını engelle\" ayarını kapatın, şablon ve HTTP başlıklarını kontrol edin.",
+    {
+     "alt": "4. Yanlış ya da çelişkili canonical"
+    },
+    "**Belirti:** \"Kopya, Google kullanıcıdan farklı bir standart sayfa seçti\" durumu. **Tespit:** URL Denetimi'nde kullanıcı tarafından belirtilen ve Google'ın seçtiği standart URL'yi karşılaştırın. **Çözüm:** Canonical'ı tüm sayfalarda ana sayfaya değil, kendi standart sürümüne verin; iç linkler ve site haritası da aynı URL'yi göstermeli. Dizine eklenmeyen sayfalar için [tarandı ama dizine eklenmemiş çözümü](/tarandi-dizine-eklenmemis).",
+    {
+     "alt": "5. Site haritasında hatalı URL'ler"
+    },
+    "**Belirti:** Site haritası raporunda gönderilen ve dizine eklenen sayı arasında büyük fark. **Tespit:** Haritayı tarayıcıda listeleyip durum kodlarını kontrol edin. **Çözüm:** Haritada yalnızca 200 dönen, noindex olmayan, standart URL'ler kalsın. Google'a göre site haritası bir ipucudur ve priority ile changefreq değerlerini yok sayar; lastmod'u yalnızca doğruysa kullanır."
+   ]
+  },
+  {
+   "baslik": "Yönlendirme, durum kodu ve URL hataları",
+   "paragraflar": [
+    {
+     "alt": "6. Kalıcı taşımada geçici yönlendirme"
+    },
+    "**Belirti:** Eski URL'ler uzun süre dizinde kalır. **Tespit:** Taramada 302 ve 307 yanıtlarını filtreleyin. **Çözüm:** Kalıcı taşımalarda 301 ya da 308 kullanın; ayrıntılar [301 ve 302 yönlendirme farkı](/301-302-yonlendirme) yazısında.",
+    {
+     "alt": "7. Yönlendirme zincirleri ve döngüleri"
+    },
+    "**Belirti:** Sayfalar yavaş açılır, bazı URL'lerde \"yönlendirme hatası\" görünür. **Tespit:** Site tarayıcısındaki yönlendirme zinciri raporu. **Çözüm:** Her eski URL'yi tek adımda nihai hedefe yönlendirin ve iç linkleri doğrudan son URL'ye güncelleyin.",
+    {
+     "alt": "8. Soft 404"
+    },
+    "**Belirti:** Boş kategori, stoksuz ürün ya da \"sonuç bulunamadı\" sayfaları 200 döner. **Tespit:** Sayfa dizine ekleme raporundaki Soft 404 satırı. **Çözüm:** Gerçekten kaldırılan sayfaya 404 ya da 410 döndürün, yerini alan bir sayfa varsa 301 verin.",
+    {
+     "alt": "9. Kontrolsüz parametre ve filtre URL'leri"
+    },
+    "**Belirti:** Tarama istatistiklerinde parametreli URL'ler baskındır. **Tespit:** Sunucu günlükleri ve Tarama istatistikleri raporu. **Çözüm:** Değersiz kombinasyonlara iç link vermeyin, gerekirse robots.txt ile taramayı sınırlayın; strateji için [tarama bütçesi](/crawl-butcesi) yazısı.",
+    {
+     "alt": "10. Tutarsız URL yapısı"
+    },
+    "**Belirti:** Aynı sayfa büyük/küçük harf, sondaki eğik çizgi ya da Türkçe karakter farkıyla birden fazla adreste açılır. **Tespit:** Taramada yinelenen başlıklar. **Çözüm:** Google URL'lerde büyük/küçük harf ayrımı yapar; tek bir biçim seçip diğerlerini 301 ile yönlendirin. Kurallar için [SEO uyumlu URL yapısı](/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "Render, performans ve mobil hataları",
+   "paragraflar": [
+    {
+     "alt": "11. Yalnızca JavaScript ile gelen içerik ve linkler"
+    },
+    "**Belirti:** Kategori ya da ürün içeriği dizinde görünmez. **Tespit:** URL Denetimi'nde canlı testi çalıştırıp işlenmiş HTML'e bakın. **Çözüm:** Kritik içeriği sunucu tarafında üretin, linkleri href içeren a etiketleriyle verin. Ayrıntılar [JavaScript SEO](/javascript-seo) yazısında.",
+    {
+     "alt": "12. Zayıf Core Web Vitals"
+    },
+    "**Belirti:** Search Console'daki Core Web Vitals raporunda \"Kötü\" URL grupları. **Tespit:** PageSpeed Insights'taki saha verisi. **Çözüm:** LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1 hedefleyin; ilk ekran görselini öncelikli yükleyin, görsellere boyut verin. Yöntemler [Core Web Vitals yazısında](/core-web-vitals-2025).",
+    {
+     "alt": "13. Mobil sürümde eksik içerik"
+    },
+    "**Belirti:** Masaüstünde sıralanan bilgi mobilde yoktur. **Tespit:** URL Denetimi'nde akıllı telefon tarayıcısının gördüğü HTML. **Çözüm:** Google dizine ekleme için mobil sürümü kullanır; içerik, yapısal veri ve meta etiketler iki sürümde eşdeğer olmalı. Bkz. [mobil SEO](/mobil-seo)."
+   ]
+  },
+  {
+   "baslik": "Uluslararası ve yapısal veri hataları",
+   "paragraflar": [
+    {
+     "alt": "14. Hatalı hreflang"
+    },
+    "**Belirti:** Yanlış ülke ya da dil sürümü sıralanır. **Tespit:** Taramada dönüş linki olmayan ve geçersiz kodlu hreflang'leri listeleyin. **Çözüm:** Her sürüm diğerlerine ve kendine işaret etmeli, kodlar ISO formatında olmalı (ör. tr-TR, en-GB). [Hreflang ve uluslararası SEO](/hreflang-uluslararasi-seo) yazısı ve [hreflang oluşturucu](/hreflang-olusturucu) işi kolaylaştırır.",
+    {
+     "alt": "15. Sayfayla uyuşmayan yapısal veri"
+    },
+    "**Belirti:** Search Console geliştirme raporlarında hata ya da manuel işlem. **Tespit:** Zengin Sonuç Testi ve Schema Markup Validator. **Çözüm:** İşaretleme yalnızca sayfada görünen içeriği anlatmalı. FAQPage işaretlemesi geçerli kalır ama Google SSS zengin sonuçlarını Mayıs 2026'dan beri göstermiyor. Doğru tipler için [schema ve yapısal veri rehberi](/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Teknik SEO hatalarını hangi sırayla düzeltmeli?",
+   "paragraflar": [
+    "Hepsi aynı ağırlıkta değil. Dizine eklemeyi tamamen engelleyen bir hata, yavaş bir sayfadan çok daha acildir.",
+    "Her yayından sonra beş dakikada yapabileceğiniz hızlı kontrol:",
+    {
+     "kontrol": [
+      "robots.txt'de beklenmedik bir Disallow yok",
+      "Ana şablonlarda noindex yok",
+      "Canonical her sayfanın kendi standart URL'sini gösteriyor",
+      "Örnek bir eski URL tek adımda 301 ile yönleniyor",
+      "URL Denetimi'nde işlenmiş HTML ana içeriği içeriyor"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Öncelik",
+       "Hatalar",
+       "Neden"
+      ],
+      "satirlar": [
+       [
+        "Acil",
+        "1, 2, 3",
+        "Sayfalar taranamaz ya da dizinden çıkar"
+       ],
+       [
+        "Yüksek",
+        "4, 6, 7, 11, 13",
+        "Sinyaller yanlış URL'ye gider ya da içerik görünmez"
+       ],
+       [
+        "Orta",
+        "5, 8, 9, 10, 14",
+        "Tarama israfı ve yanlış sürümün sıralanması"
+       ],
+       [
+        "Planlı",
+        "12, 15",
+        "Deneyim ve görünüm iyileştirmesi"
+       ]
+      ]
+     }
+    },
+    {
+     "akis": {
+      "baslik": "Hata düzeltme döngüsü",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "Sayfa dizine ekleme ve Tarama istatistikleri raporları."
+       },
+       {
+        "baslik": "Site taraması",
+        "metin": "Durum kodu, canonical, yönlendirme ve hreflang kontrolü."
+       },
+       {
+        "baslik": "Düzeltme",
+        "metin": "Önce şablon, sonra tek tek URL."
+       },
+       {
+        "baslik": "Doğrulama",
+        "metin": "Raporda \"Düzeltmeyi doğrula\" ve birkaç hafta izleme."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Tek URL değil şablon",
+      "metin": "Hataların çoğu şablondan gelir. Bir ürün sayfasında gördüğünüz sorun büyük olasılıkla bütün ürün sayfalarında vardır; düzeltmeyi şablonda yapın."
+     }
+    },
+    "Raporları nasıl okuyacağınızı [Search Console rehberinde](/search-console-rehberi) anlattım. Bu listeyi sitenize uygulayacak zamanınız yoksa [SEO uzmanı](/seo-uzmani) olarak kapsamlı bir teknik denetim yapabilirim; [ön görüşme randevusu](/randevu) ile başlayalım."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most technical SEO mistakes come from a single line: a Disallow left over from staging, a forgotten noindex, a mistyped canonical. These lines work silently and nobody notices until traffic drops.",
+    "Below are the 15 mistakes I find most often in audits. For each one I give the symptom, how to detect it and the fix, with a link to the article that covers it in depth. For the overall framework, start with the [technical SEO guide](/en/teknik-seo).",
+    {
+     "alinti": "Short answer: The most common technical SEO mistakes are blocking key sections in robots.txt, a forgotten noindex on the live site, wrong canonicals, redirect chains, soft 404s, uncontrolled parameter URLs, content that only loads with JavaScript and broken hreflang. Most can be found with the Page indexing report and URL Inspection in Search Console plus a site crawl."
+    }
+   ]
+  },
+  {
+   "baslik": "Crawling and indexing mistakes",
+   "paragraflar": [
+    {
+     "alt": "1. Blocking important sections in robots.txt"
+    },
+    "**Symptom:** \"Blocked by robots.txt\" grows in Search Console. **Detect:** robots.txt report and URL Inspection. **Fix:** Remove leftover staging rules such as \"Disallow: /\" and block only paths that should not be crawled. Syntax is in the [robots.txt article](/en/robots-txt); test with the [robots.txt tester](/en/robots-txt-tester).",
+    {
+     "alt": "2. Expecting noindex to work on a page blocked by robots.txt"
+    },
+    "**Symptom:** Blocked URLs still appear in results. **Detect:** The \"Indexed, though blocked by robots.txt\" warning. **Fix:** Google's documentation says robots.txt is not a way to keep a page out of Google; a noindex on an uncrawlable page cannot be read. Allow crawling and use noindex instead.",
+    {
+     "alt": "3. A forgotten noindex on the live site"
+    },
+    "**Symptom:** A newly launched site gets no traffic. **Detect:** \"Excluded by noindex tag\" in Page indexing, plus the robots meta tag or X-Robots-Tag header. **Fix:** Turn off the CMS setting that discourages search engines and check templates and HTTP headers.",
+    {
+     "alt": "4. Wrong or conflicting canonicals"
+    },
+    "**Symptom:** \"Duplicate, Google chose different canonical than user\". **Detect:** Compare the user-declared and Google-selected canonical in URL Inspection. **Fix:** Point each page's canonical at its own preferred version, not the homepage, and make internal links and the sitemap use the same URL. See [crawled, currently not indexed](/en/tarandi-dizine-eklenmemis) for indexing issues.",
+    {
+     "alt": "5. Bad URLs in the sitemap"
+    },
+    "**Symptom:** A big gap between submitted and indexed URLs in the Sitemaps report. **Detect:** Crawl the sitemap in list mode and check status codes. **Fix:** Keep only canonical, indexable URLs that return 200. Google treats a sitemap as a hint, ignores priority and changefreq, and uses lastmod only when it is accurate."
+   ]
+  },
+  {
+   "baslik": "Redirect, status code and URL mistakes",
+   "paragraflar": [
+    {
+     "alt": "6. Temporary redirects for permanent moves"
+    },
+    "**Symptom:** Old URLs linger in the index. **Detect:** Filter 302 and 307 responses in a crawl. **Fix:** Use 301 or 308 for permanent moves; details in [301 vs 302 redirects](/en/301-302-yonlendirme).",
+    {
+     "alt": "7. Redirect chains and loops"
+    },
+    "**Symptom:** Slow page loads and \"redirect error\" on some URLs. **Detect:** The redirect chain report in your crawler. **Fix:** Redirect every old URL to its final target in one hop and update internal links to the final URL.",
+    {
+     "alt": "8. Soft 404s"
+    },
+    "**Symptom:** Empty categories, out-of-stock products or \"no results\" pages return 200. **Detect:** The Soft 404 row in Page indexing. **Fix:** Return 404 or 410 for pages that are gone, or a 301 where a replacement exists.",
+    {
+     "alt": "9. Uncontrolled parameter and filter URLs"
+    },
+    "**Symptom:** Parameter URLs dominate crawl activity. **Detect:** Server logs and the Crawl stats report. **Fix:** Stop linking to worthless combinations and limit crawling in robots.txt where needed; strategy is in the [crawl budget](/en/crawl-butcesi) article.",
+    {
+     "alt": "10. Inconsistent URL formats"
+    },
+    "**Symptom:** The same page opens at several addresses differing by case, trailing slash or Turkish characters. **Detect:** Duplicate titles in a crawl. **Fix:** Google treats URLs as case-sensitive, so choose one format and 301 the rest. Rules are in [SEO-friendly URL structure](/en/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "Rendering, performance and mobile mistakes",
+   "paragraflar": [
+    {
+     "alt": "11. Content and links that exist only in JavaScript"
+    },
+    "**Symptom:** Category or product content does not show up in the index. **Detect:** Run a live test in URL Inspection and check the rendered HTML. **Fix:** Render critical content on the server and use a elements with href for links. More in [JavaScript SEO](/en/javascript-seo).",
+    {
+     "alt": "12. Poor Core Web Vitals"
+    },
+    "**Symptom:** \"Poor\" URL groups in the Core Web Vitals report. **Detect:** Field data in PageSpeed Insights. **Fix:** Aim for LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1; prioritise the above-the-fold image and give images dimensions. Methods are in the [Core Web Vitals article](/en/core-web-vitals-2025).",
+    {
+     "alt": "13. Missing content on the mobile version"
+    },
+    "**Symptom:** Information that ranks on desktop is missing on mobile. **Detect:** The HTML seen by the smartphone crawler in URL Inspection. **Fix:** Google indexes the mobile version, so content, structured data and meta tags must be equivalent on both. See [mobile SEO](/en/mobil-seo)."
+   ]
+  },
+  {
+   "baslik": "International and structured data mistakes",
+   "paragraflar": [
+    {
+     "alt": "14. Broken hreflang"
+    },
+    "**Symptom:** The wrong country or language version ranks. **Detect:** List hreflang tags with missing return links or invalid codes in a crawl. **Fix:** Every version must point to all others and to itself, using valid codes such as tr-TR or en-GB. The [hreflang and international SEO](/en/hreflang-uluslararasi-seo) article and the [hreflang generator](/en/hreflang-generator) help.",
+    {
+     "alt": "15. Structured data that does not match the page"
+    },
+    "**Symptom:** Errors in Search Console enhancement reports, or a manual action. **Detect:** The Rich Results Test and Schema Markup Validator. **Fix:** Markup must describe only content visible on the page. FAQPage markup remains valid, but Google has not shown FAQ rich results since May 2026. For the right types, see the [schema and structured data guide](/en/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "In what order should you fix technical SEO mistakes?",
+   "paragraflar": [
+    "They do not carry equal weight. A mistake that blocks indexing outright is far more urgent than a slow page.",
+    "A quick five-minute check after every release:",
+    {
+     "kontrol": [
+      "No unexpected Disallow in robots.txt",
+      "No noindex on the main templates",
+      "Each page's canonical points to its own preferred URL",
+      "A sample old URL 301-redirects in one hop",
+      "The rendered HTML in URL Inspection contains the main content"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Priority",
+       "Mistakes",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Urgent",
+        "1, 2, 3",
+        "Pages cannot be crawled or drop out of the index"
+       ],
+       [
+        "High",
+        "4, 6, 7, 11, 13",
+        "Signals go to the wrong URL or content is invisible"
+       ],
+       [
+        "Medium",
+        "5, 8, 9, 10, 14",
+        "Crawl waste and the wrong version ranking"
+       ],
+       [
+        "Planned",
+        "12, 15",
+        "Experience and appearance improvements"
+       ]
+      ]
+     }
+    },
+    {
+     "akis": {
+      "baslik": "Fix cycle",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "Page indexing and Crawl stats reports."
+       },
+       {
+        "baslik": "Site crawl",
+        "metin": "Status codes, canonicals, redirects and hreflang."
+       },
+       {
+        "baslik": "Fix",
+        "metin": "Templates first, then individual URLs."
+       },
+       {
+        "baslik": "Validate",
+        "metin": "\"Validate fix\" in the report, then monitor for a few weeks."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Think template, not URL",
+      "metin": "Most mistakes come from templates. A problem on one product page is almost certainly on every product page, so fix it in the template."
+     }
+    },
+    "I explain how to read the reports in the [Search Console guide](/en/search-console-rehberi). If you do not have time to work through this list, I can run a full technical audit as part of [SEO consulting](/en/seo-consulting); start with an [intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Teknik SEO denetimini ne sıklıkla yapmalıyım?",
+   "c": "Orta ölçekli bir sitede üç ayda bir tam tarama, Search Console raporlarına ise haftalık bakış yeterlidir. Tema değişikliği, eklenti güncellemesi ya da taşıma gibi büyük değişikliklerden hemen sonra ayrıca kontrol edin."
+  },
+  {
+   "s": "Search Console'daki her uyarıyı düzeltmem gerekir mi?",
+   "c": "Hayır. Bilinçli olarak noindex yaptığınız ya da yönlendirdiğiniz URL'ler raporda görünmeye devam eder ve bu normaldir. Önemli olan, sıralanmasını istediğiniz sayfaların hangi satırda olduğudur."
+  },
+  {
+   "s": "404 hataları sıralamaya zarar verir mi?",
+   "c": "Gerçekten kaldırılmış sayfaların 404 döndürmesi normaldir ve sitenin geri kalanını cezalandırmaz. Sorun, hâlâ değerli olan ya da iç link alan sayfaların 404 vermesidir; bunları düzeltin ya da yönlendirin."
+  },
+  {
+   "s": "Düzeltmeden sonra sonuç ne zaman görülür?",
+   "c": "Google'ın değişikliği fark etmesi tarama sıklığına bağlıdır ve birkaç günden birkaç haftaya uzanabilir. Önemli birkaç URL için URL Denetimi'nden dizine ekleme isteyebilirsiniz, ama bunu tekrar tekrar yapmak süreci hızlandırmaz."
+  },
+  {
+   "s": "Teknik SEO hatalarını eklentiyle çözebilir miyim?",
+   "c": "Meta etiket, site haritası ve basit yönlendirmeler için eklentiler işe yarar. Render, şablon kaynaklı kopya içerik ve parametre yönetimi gibi sorunlar ise genellikle geliştirici müdahalesi ister."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How often should I run a technical SEO audit?",
+   "c": "For a mid-sized site, a full crawl every three months and a weekly look at Search Console reports is enough. Check again right after major changes such as a theme switch, plugin update or migration."
+  },
+  {
+   "s": "Do I need to fix every warning in Search Console?",
+   "c": "No. URLs you deliberately noindexed or redirected will keep appearing in the report, and that is normal. What matters is which bucket your ranking pages sit in."
+  },
+  {
+   "s": "Do 404 errors hurt rankings?",
+   "c": "Pages that are genuinely gone should return 404, and that does not penalise the rest of the site. The problem is valuable or internally linked pages returning 404; fix or redirect those."
+  },
+  {
+   "s": "When will I see results after a fix?",
+   "c": "It depends on how often Google crawls the pages and can take from a few days to a few weeks. You can request indexing for a few key URLs in URL Inspection, but repeating the request does not speed things up."
+  },
+  {
+   "s": "Can a plugin fix technical SEO mistakes?",
+   "c": "Plugins help with meta tags, sitemaps and simple redirects. Rendering issues, template-driven duplicate content and parameter handling usually need a developer."
+  }
+ ]
+}

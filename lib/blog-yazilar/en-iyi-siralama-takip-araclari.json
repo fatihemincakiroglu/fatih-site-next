@@ -1,0 +1,513 @@
+{
+ "kategori": "analytics",
+ "etiket": "Analitik",
+ "sure": 8,
+ "baslik_tr": "En İyi 10 Sıralama Takip (Rank Tracker) Aracı",
+ "baslik_en": "10 Best Rank Tracking Tools",
+ "meta_baslik_tr": "En İyi 10 Sıralama Takip Aracı",
+ "meta_baslik_en": "10 Best Rank Tracking Tools",
+ "meta_desc_tr": "Search Console, Semrush, Ahrefs, SE Ranking, AccuRanker ve diğerleri. 10 rank tracker aracı, yerel ve mobil takip, AI Overviews desteği.",
+ "meta_desc_en": "Search Console, Semrush, Ahrefs, SE Ranking, AccuRanker and more. 10 rank tracking tools compared on local, mobile and AI Overviews tracking.",
+ "ozet_tr": "Search Console'dan özel rank tracker'lara 10 sıralama takip aracı, yerel, mobil ve yapay zekâ takibi notlarıyla.",
+ "ozet_en": "Ten rank tracking tools, from Search Console to dedicated trackers, with notes on local, mobile and AI tracking.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Müşterilerin bana en sık gönderdiği ekran görüntülerinden biri, kendi tarayıcılarında aradıkları bir kelimenin sonucu. Oysa kişiselleştirme, konum ve cihaz yüzünden tek bir aramanın gösterdiği konum güvenilir bir ölçüm değildir. Sıralama takip araçları bu yüzden var: belirli bir konum ve cihaz için her gün ya da her hafta aynı yöntemle ölçüm yaparlar.",
+    "Aşağıdaki 10 aracı sıralama yapmadan, güçlü oldukları işe göre anlatıyorum. Her biri için en uygun durumu ve sınırı, yerel, mobil ve AI Overviews takibi gibi özellikleri Kasım 2026 itibarıyla resmi sayfalarda yazdığı şekliyle verdim. Fiyat vermiyorum ve bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Gerçek performans için ücretsiz Google Search Console'un ortalama konum verisi temeldir. Belirli kelimeleri konum ve cihaz bazında düzenli izlemek için Semrush, Ahrefs, SE Ranking, AccuRanker, Wincher, SERPWatcher, Nightwatch, Advanced Web Ranking ya da SEO PowerSuite Rank Tracker gibi bir araç kullanılır. Yapay zekâ yanıtlarındaki görünürlüğü izleme desteği araçtan araca değişir."
+    }
+   ]
+  },
+  {
+   "baslik": "Sıralama takibinde neyi ölçmelisiniz?",
+   "paragraflar": [
+    "Bir araç seçmeden önce hangi boyutları izlemek istediğinizi netleştirin. Sahada en çok işe yarayan dört boyut şunlar:",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Konum",
+       "metin": "Ülke, şehir ya da posta kodu. Yerel işletmelerde İstanbul ile Ankara sonuçları çok farklı olabilir."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Cihaz",
+       "metin": "Mobil ve masaüstü sonuçları ayrı izlenmeli."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "SERP özellikleri",
+       "metin": "Yerel paket, öne çıkan snippet, AI Overviews gibi alanlarda yer alıp almadığınız."
+      },
+      {
+       "ikon": "🤖",
+       "baslik": "Yapay zekâ görünürlüğü",
+       "metin": "AI Overviews, AI Mode ya da ChatGPT gibi asistanlarda kaynak gösterilip gösterilmediğiniz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Ücretsiz temel, Google Search Console",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console (ortalama konum)"
+    },
+    "Google'ın yardım dokümanına göre ortalama konum, her sorguda sitenize ait bağlantının gösterim aldığı en üst konumun ortalamasıdır. AI Overviews tek bir konum kaplar ve içindeki tüm bağlantılar bu konumu paylaşır. AI Mode için de aynı hesaplama yöntemi kullanılır. **En uygun olduğu durum:** gerçek gösterim ve tıklamayla birlikte konum eğilimi. **Sınırı:** sabit bir konum ve cihazda günlük ölçüm vermez, rakip konumu göstermez.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Search Console ortalama konum",
+       "tur": "notr",
+       "maddeler": [
+        "Gerçek kullanıcı gösterimlerine dayanır",
+        "Tüm konum ve cihazların ortalamasıdır",
+        "Tıklama ve TO ile birlikte gelir",
+        "Rakip verisi yok"
+       ]
+      },
+      "sag": {
+       "baslik": "Rank tracker konumu",
+       "tur": "notr",
+       "maddeler": [
+        "Seçtiğiniz konum ve cihazda ölçülür",
+        "Her gün ya da hafta aynı yöntem",
+        "Rakipleri yan yana gösterir",
+        "Tıklama verisi yok"
+       ]
+      }
+     }
+    },
+    "İkisi birbirinin yerine geçmez. Hangi metriklerin rapora girmesi gerektiğini [SEO KPI](/seo-kpi) yazısında, GA4 ile birlikte okumayı [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "SEO platformlarındaki sıralama takip modülleri",
+   "paragraflar": [
+    {
+     "alt": "2. Semrush Position Tracking"
+    },
+    "Semrush'ın yardım sayfasına göre günlük takip, posta kodu düzeyinde konum, mobil, tablet ve masaüstü karşılaştırması sunuyor ve AI Overviews dahil SERP özelliklerini tespit ediyor. Desteklenen motorlar arasında Google, Bing, ChatGPT Search ve Google AI Mode var. SEO Toolkit aboneliği olmadan 10 anahtar kelime izlenebiliyor. **En uygun olduğu durum:** araştırma ve takibi tek platformda toplamak. **Sınırı:** kelime ve konum kapasitesi plana bağlı.",
+    {
+     "alt": "3. Ahrefs Rank Tracker"
+    },
+    "Resmi sayfasına göre haftalık güncellenir, masaüstü ve mobili izler, 190'dan fazla konumda şehir ve posta kodu düzeyine iner ve AI Overviews dahil 19 SERP özelliğini takip eder. Yapay zekâ asistanlarındaki marka görünürlüğü ayrı bir ürün olan Brand Radar'da. **En uygun olduğu durum:** zaten Ahrefs kullanan ekipler. **Sınırı:** günlük güncelleme gereken projelerde yetersiz kalabilir.",
+    {
+     "alt": "4. SE Ranking"
+    },
+    "Resmi sayfasına göre konumları her gün ilk 100 sonuç içinde kontrol ediyor, şehir, bölge ya da posta kodu seçilebiliyor, masaüstü ve mobil ayrı izleniyor. AI Overviews, AI Mode, ChatGPT ve Gemini görünürlüğünü de takip ediyor. **En uygun olduğu durum:** ajans ve danışmanlar için uygun maliyetli günlük takip. **Sınırı:** tam kullanım ücretli plan gerektirir."
+   ]
+  },
+  {
+   "baslik": "Özel sıralama takip araçları",
+   "paragraflar": [
+    {
+     "alt": "5. AccuRanker"
+    },
+    "Resmi sitesine göre günlük güncellemenin yanında isteğe bağlı anlık yenileme, yerel ve mobil takip, AccuLLM ile AI Overviews, AI Mode, ChatGPT ve Perplexity görünürlüğü ve Looker Studio entegrasyonu sunuyor. **En uygun olduğu durum:** çok sayıda kelimeyi hızlı yenilemesi gereken büyük siteler. **Sınırı:** anahtar kelime araştırması ve teknik denetim için ayrıca araç gerekir.",
+    {
+     "alt": "6. Wincher"
+    },
+    "Resmi sayfasına göre sıralamaları her gün güncelliyor, şehir düzeyi dahil 190'dan fazla konumu destekliyor ve WordPress, Wix ve Looker Studio ile bağlantı kurulabiliyor. **En uygun olduğu durum:** WordPress sitesi olan küçük işletmeler. **Sınırı:** resmi sayfada AI Overviews takibinden söz edilmiyor.",
+    {
+     "alt": "7. Mangools SERPWatcher"
+    },
+    "Mangools SSS sayfasına göre haftalık güncelleniyor (Agency planında günlük) ve şehir düzeyinde konum seçilebiliyor. Mangools'un kredi kartı istemeyen bir Free planı da var. **En uygun olduğu durum:** KWFinder ile araştırıp aynı pakette takip etmek. **Sınırı:** çoğu planda günlük değil haftalık veri.",
+    {
+     "alt": "8. Nightwatch"
+    },
+    "Resmi sitesine göre Google, Bing, YouTube, DuckDuckGo ve Yahoo'da günlük konum takibi, posta kodu düzeyinde yerel takip ve yerel paket ile organik sonucun yan yana karşılaştırmasını sunuyor. ChatGPT, Claude, Gemini ve Perplexity'de markanızın anılıp anılmadığını da izliyor. **En uygun olduğu durum:** çok lokasyonlu işletmeler. **Sınırı:** yapay zekâ ölçüm yöntemleri araca özgüdür.",
+    {
+     "alt": "9. Advanced Web Ranking (AWR)"
+    },
+    "Resmi yardım sayfasına göre 170'ten fazla ülkede binlerce arama motorunu, sokak düzeyinde konumu ve piksel konumunu izliyor. AI Overviews için marka anılması, alıntı ve alıntı sırası metrikleri ve beyaz etiketli raporlar sunuyor. **En uygun olduğu durum:** ajanslar ve uluslararası projeler. **Sınırı:** kurulum ve raporlama seçenekleri öğrenme süresi ister.",
+    {
+     "alt": "10. SEO PowerSuite Rank Tracker"
+    },
+    "Bilgisayara kurulan bir araç. Resmi yazısına göre ücretsiz sürümde anahtar kelime araştırması ve sıralama takibi sınırsız, ancak yalnızca bir rakip eklenebiliyor ve proje kaydetme lisans gerektiriyor. **En uygun olduğu durum:** bütçesiz başlangıç. **Sınırı:** kontroller sizin bilgisayarınızdan çalışır ve otomatik bulut takibi kadar pratik değildir."
+   ]
+  },
+  {
+   "baslik": "Sıralama takip araçları karşılaştırma tablosu",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Araç",
+       "Güncelleme",
+       "Yerel takip",
+       "Yapay zekâ takibi"
+      ],
+      "satirlar": [
+       [
+        "Search Console",
+        "Günlük veri, ortalama",
+        "Ülke filtresi",
+        "AIO ve AI Mode konuma dahil"
+       ],
+       [
+        "Semrush",
+        "Günlük",
+        "Posta kodu",
+        "AIO, AI Mode, ChatGPT Search"
+       ],
+       [
+        "Ahrefs",
+        "Haftalık",
+        "Posta kodu",
+        "AIO SERP özelliği"
+       ],
+       [
+        "SE Ranking",
+        "Günlük",
+        "Posta kodu",
+        "AIO, AI Mode, ChatGPT, Gemini"
+       ],
+       [
+        "AccuRanker",
+        "Günlük ve anlık",
+        "Var",
+        "AccuLLM"
+       ],
+       [
+        "Wincher",
+        "Günlük",
+        "Şehir",
+        "Resmi sayfada yok"
+       ],
+       [
+        "SERPWatcher",
+        "Haftalık",
+        "Şehir",
+        "Resmi SSS'de yok"
+       ],
+       [
+        "Nightwatch",
+        "Günlük",
+        "Posta kodu",
+        "Asistanlarda marka izleme"
+       ],
+       [
+        "AWR",
+        "Plana göre",
+        "Sokak düzeyi",
+        "AIO alıntı metrikleri"
+       ],
+       [
+        "SEO PowerSuite",
+        "Siz çalıştırdığınızda",
+        "Var",
+        "Kontrol edin"
+       ]
+      ]
+     }
+    },
+    "Tablodaki yapay zekâ sütunu hızla değişiyor. Satın almadan önce aracın deneme sürümünde Türkiye konumu ve Türkçe sorgularla test yapın."
+   ]
+  },
+  {
+   "baslik": "Rank tracker kurulumunda yapılan hatalar",
+   "paragraflar": [
+    {
+     "liste": [
+      "Yalnızca marka kelimelerini izlemek. Markasız, ticari niyetli kelimeler asıl resmi verir.",
+      "Konumu ülke düzeyinde bırakmak. [Yerel SEO](/yerel-seo) çalışan bir klinik ya da avukatlık bürosu için şehir ya da ilçe seçin.",
+      "Mobili atlamak. Türkiye'de birçok sektörde aramaların önemli kısmı mobilden gelir.",
+      "Kelimeleri etiketlememek. Kategori, niyet ve sayfa etiketi olmadan rapor okunmaz.",
+      "Tek günlük dalgalanmaya tepki vermek. Kararları haftalık eğilime göre verin."
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "AI Overviews çıkan kelimeleri ayırın",
+      "metin": "Konumunuz değişmediği halde tıklamalarınız düşüyorsa sorguda AI Overviews çıkıp çıkmadığına bakın. Bu durumu [AI Overviews optimizasyonu](/google-ai-overview-optimizasyonu) ve [sıfır tıklamalı arama](/zero-click-arama) yazılarında ele aldım."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Sıralama verisini rapora dönüştürmek",
+   "paragraflar": [
+    "Konum tek başına bir hedef değil, trafik ve dönüşümün öncü göstergesidir. Raporda konumu Search Console tıklaması ve GA4 dönüşümüyle yan yana koyun. Çerçeveyi [SEO raporlama rehberinde](/seo-raporlama) anlattım, ücretsiz başlangıç seçenekleri için [en iyi ücretsiz SEO araçları](/en-iyi-ucretsiz-seo-araclari) yazısına bakabilirsiniz.",
+    "Takip kurulumunu ve raporlamayı birlikte yapmak isterseniz [performans ve büyüme hizmeti](/performans) sayfasına göz atabilir, [SEO danışmanlığı](/seo-uzmani) kapsamını inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "One of the screenshots clients send me most is the result of a search they ran in their own browser. Because of personalisation, location and device, the position one search shows is not a reliable measurement. That is why rank trackers exist: they measure the same way every day or week for a set location and device.",
+    "I cover the 10 tools below without ranking them, by the job they do well. For each I give the best use, the limit and features such as local, mobile and AI Overviews tracking as stated on official pages in November 2026. I do not list prices and there is no sponsorship here.",
+    {
+     "alinti": "Short answer: For real performance, the free average position data in Google Search Console is the foundation. To monitor specific keywords by location and device, use a tool such as Semrush, Ahrefs, SE Ranking, AccuRanker, Wincher, SERPWatcher, Nightwatch, Advanced Web Ranking or SEO PowerSuite Rank Tracker. Support for tracking visibility in AI answers varies by tool."
+    }
+   ]
+  },
+  {
+   "baslik": "What should you measure in rank tracking?",
+   "paragraflar": [
+    "Before picking a tool, be clear about which dimensions you want to track. These four matter most in practice:",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Location",
+       "metin": "Country, city or postcode. For local businesses, results in Istanbul and Ankara can differ a lot."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Device",
+       "metin": "Track mobile and desktop separately."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "SERP features",
+       "metin": "Whether you appear in the local pack, featured snippets or AI Overviews."
+      },
+      {
+       "ikon": "🤖",
+       "baslik": "AI visibility",
+       "metin": "Whether AI Overviews, AI Mode or assistants like ChatGPT cite you."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "The free foundation, Google Search Console",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console (average position)"
+    },
+    "According to Google's help documentation, average position is the average of the topmost position your site's link held when it got an impression for each query. An AI Overview occupies a single position and all links in it share it; AI Mode uses the same method. **Best for:** position trends alongside real impressions and clicks. **Limit:** no daily measurement for a fixed location and device, and no competitor positions.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Search Console average position",
+       "tur": "notr",
+       "maddeler": [
+        "Based on real user impressions",
+        "An average across all locations and devices",
+        "Comes with clicks and CTR",
+        "No competitor data"
+       ]
+      },
+      "sag": {
+       "baslik": "Rank tracker position",
+       "tur": "notr",
+       "maddeler": [
+        "Measured at the location and device you pick",
+        "Same method every day or week",
+        "Shows competitors side by side",
+        "No click data"
+       ]
+      }
+     }
+    },
+    "Neither replaces the other. I cover which metrics belong in a report in [SEO KPIs](/en/seo-kpi) and reading them with GA4 in [GA4 for SEO tracking](/en/ga4-seo-takibi)."
+   ]
+  },
+  {
+   "baslik": "Rank tracking modules in SEO platforms",
+   "paragraflar": [
+    {
+     "alt": "2. Semrush Position Tracking"
+    },
+    "According to Semrush's help page, it offers daily tracking, postcode-level locations and mobile, tablet and desktop comparison, and detects SERP features including AI Overviews. Supported engines include Google, Bing, ChatGPT Search and Google AI Mode. Without an SEO Toolkit subscription you can track 10 keywords. **Best for:** keeping research and tracking in one platform. **Limit:** keyword and location capacity depends on the plan.",
+    {
+     "alt": "3. Ahrefs Rank Tracker"
+    },
+    "According to its official page, it updates weekly, tracks desktop and mobile, covers 190+ locations down to city and postcode, and monitors 19 SERP features including AI Overviews. Brand visibility in AI assistants sits in a separate product, Brand Radar. **Best for:** teams already on Ahrefs. **Limit:** can fall short where daily updates are needed.",
+    {
+     "alt": "4. SE Ranking"
+    },
+    "According to its official page, it checks positions daily within the top 100, lets you choose city, region or postcode and tracks desktop and mobile separately. It also tracks visibility in AI Overviews, AI Mode, ChatGPT and Gemini. **Best for:** affordable daily tracking for agencies and consultants. **Limit:** full use needs a paid plan."
+   ]
+  },
+  {
+   "baslik": "Dedicated rank tracking tools",
+   "paragraflar": [
+    {
+     "alt": "5. AccuRanker"
+    },
+    "According to its official site, it offers on-demand refresh alongside daily updates, local and mobile tracking, AI Overviews, AI Mode, ChatGPT and Perplexity visibility through AccuLLM, and a Looker Studio integration. **Best for:** large sites refreshing many keywords quickly. **Limit:** keyword research and technical audits need other tools.",
+    {
+     "alt": "6. Wincher"
+    },
+    "According to its official page, it updates rankings daily, supports 190+ locations including city level and connects with WordPress, Wix and Looker Studio. **Best for:** small businesses on WordPress. **Limit:** the official page does not mention AI Overviews tracking.",
+    {
+     "alt": "7. Mangools SERPWatcher"
+    },
+    "According to the Mangools FAQ, it updates weekly (daily on the Agency plan) with city-level locations. Mangools also has a Free plan with no credit card required. **Best for:** researching in KWFinder and tracking in the same suite. **Limit:** weekly rather than daily data on most plans.",
+    {
+     "alt": "8. Nightwatch"
+    },
+    "According to its official site, it tracks daily positions on Google, Bing, YouTube, DuckDuckGo and Yahoo, offers postcode-level local tracking and compares the local pack with organic results side by side. It also tracks whether ChatGPT, Claude, Gemini and Perplexity mention your brand. **Best for:** multi-location businesses. **Limit:** AI measurement methods are tool specific.",
+    {
+     "alt": "9. Advanced Web Ranking (AWR)"
+    },
+    "According to its official help page, it tracks thousands of search engines in 170+ countries, street-level locations and pixel position. For AI Overviews it reports brand mentions, citations and citation rank, with white-label reports. **Best for:** agencies and international projects. **Limit:** setup and reporting options take time to learn.",
+    {
+     "alt": "10. SEO PowerSuite Rank Tracker"
+    },
+    "A desktop tool. According to its official article, the free version allows unlimited keyword research and rank tracking but only one competitor, and saving projects needs a licence. **Best for:** starting with no budget. **Limit:** checks run from your computer and are less convenient than automated cloud tracking."
+   ]
+  },
+  {
+   "baslik": "Rank tracking tools compared",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Tool",
+       "Updates",
+       "Local tracking",
+       "AI tracking"
+      ],
+      "satirlar": [
+       [
+        "Search Console",
+        "Daily data, averaged",
+        "Country filter",
+        "AIO and AI Mode in position"
+       ],
+       [
+        "Semrush",
+        "Daily",
+        "Postcode",
+        "AIO, AI Mode, ChatGPT Search"
+       ],
+       [
+        "Ahrefs",
+        "Weekly",
+        "Postcode",
+        "AIO as SERP feature"
+       ],
+       [
+        "SE Ranking",
+        "Daily",
+        "Postcode",
+        "AIO, AI Mode, ChatGPT, Gemini"
+       ],
+       [
+        "AccuRanker",
+        "Daily and on demand",
+        "Yes",
+        "AccuLLM"
+       ],
+       [
+        "Wincher",
+        "Daily",
+        "City",
+        "Not on official page"
+       ],
+       [
+        "SERPWatcher",
+        "Weekly",
+        "City",
+        "Not in official FAQ"
+       ],
+       [
+        "Nightwatch",
+        "Daily",
+        "Postcode",
+        "Brand tracking in assistants"
+       ],
+       [
+        "AWR",
+        "Depends on plan",
+        "Street level",
+        "AIO citation metrics"
+       ],
+       [
+        "SEO PowerSuite",
+        "When you run it",
+        "Yes",
+        "Check"
+       ]
+      ]
+     }
+    },
+    "The AI column changes fast. Before buying, test the tool's trial with your target location and real queries."
+   ]
+  },
+  {
+   "baslik": "Common rank tracker setup mistakes",
+   "paragraflar": [
+    {
+     "liste": [
+      "Tracking only brand keywords. Non-brand, commercial terms give the real picture.",
+      "Leaving location at country level. For a clinic or law firm doing [local SEO](/en/yerel-seo), choose a city or district.",
+      "Skipping mobile. In many sectors a large share of searches come from mobile.",
+      "Not tagging keywords. Without category, intent and page tags the report is unreadable.",
+      "Reacting to one day's fluctuation. Decide on weekly trends."
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Separate keywords with AI Overviews",
+      "metin": "If clicks fall while your position holds, check whether the query shows an AI Overview. I cover this in [AI Overviews optimisation](/en/google-ai-overview-optimizasyonu) and [zero-click search](/en/zero-click-arama)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Turning ranking data into a report",
+   "paragraflar": [
+    "Position is not a goal on its own but a leading indicator of traffic and conversions. In reports, put position next to Search Console clicks and GA4 conversions. I explain the framework in the [SEO reporting guide](/en/seo-raporlama); for free starting options see [best free SEO tools](/en/en-iyi-ucretsiz-seo-araclari).",
+    "If you want to set up tracking and reporting together, see the [performance and growth service](/en/performance-growth), the scope of [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Rank tracker konumu neden Search Console'dan farklı?",
+   "c": "Rank tracker seçtiğiniz tek bir konum ve cihazda ölçer, Search Console ise tüm kullanıcıların gerçek gösterimlerinin ortalamasını verir. Kişiselleştirme ve konum farkları iki sayıyı ayırır. Eğilim aynı yönde ilerliyorsa sorun yoktur."
+  },
+  {
+   "s": "Sıralamaları günlük mü haftalık mı takip etmeliyim?",
+   "c": "Haber, e-ticaret kampanyası ya da yoğun rekabetli kelimeler için günlük takip anlamlıdır. Çoğu kurumsal site ve blog için haftalık veri yeterlidir ve daha sakin karar vermenizi sağlar."
+  },
+  {
+   "s": "Kaç anahtar kelime izlemeliyim?",
+   "c": "Önce her önemli sayfanın ana kelimesi ve birkaç ticari varyantıyla başlayın. Küçük bir site için birkaç düzine, büyük bir e-ticaret sitesi için kategori bazında yüzlerce kelime makul olabilir. Asıl ölçüt, raporu okuyup karar verebilmenizdir."
+  },
+  {
+   "s": "Google güncellemelerinden sonra sıralamalar ne kadar dalgalanır?",
+   "c": "Çekirdek güncellemeler sırasında birkaç hafta boyunca dalgalanma görülebilir. Bu dönemde aceleci değişiklik yapmak yerine güncellemenin tamamlanmasını bekleyin. Ayrıntıları [çekirdek güncelleme ve trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yazısında anlattım."
+  },
+  {
+   "s": "ChatGPT'deki görünürlüğü klasik rank tracker ölçer mi?",
+   "c": "Klasik konum takibi arama sonuçlarındaki sırayı ölçer. Bazı araçlar ChatGPT, Gemini ya da Perplexity için ayrı modüller ekledi, ancak bu modüller örnek sorgularla çalışır ve yöntemleri araca özgüdür. Sonuçları kesin pazar payı olarak değil, yön gösteren bir sinyal olarak okuyun."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why does my rank tracker position differ from Search Console?",
+   "c": "A rank tracker measures at one location and device you choose, while Search Console averages the real impressions of all users. Personalisation and location pull the numbers apart. If both trend the same way, there is no problem."
+  },
+  {
+   "s": "Should I track rankings daily or weekly?",
+   "c": "Daily tracking makes sense for news, e-commerce campaigns or highly competitive keywords. For most corporate sites and blogs, weekly data is enough and leads to calmer decisions."
+  },
+  {
+   "s": "How many keywords should I track?",
+   "c": "Start with the main keyword of each important page and a few commercial variants. A few dozen may suit a small site, hundreds by category a large store. The real test is whether you can read the report and act on it."
+  },
+  {
+   "s": "How much do rankings fluctuate after Google updates?",
+   "c": "During core updates you may see fluctuation for a few weeks. Rather than making hasty changes, wait for the update to finish. Details in [core updates and traffic drops](/en/cekirdek-guncelleme-trafik-dususu)."
+  },
+  {
+   "s": "Does a classic rank tracker measure visibility in ChatGPT?",
+   "c": "Classic rank tracking measures order in search results. Some tools have added separate modules for ChatGPT, Gemini or Perplexity, but these work from sample prompts and their methods are tool specific. Read the results as a directional signal, not exact market share."
+  }
+ ]
+}

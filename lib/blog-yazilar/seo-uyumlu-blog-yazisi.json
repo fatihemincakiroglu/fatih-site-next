@@ -1,0 +1,459 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "SEO Uyumlu Blog Yazısı İçin 12 Kural",
+ "baslik_en": "12 Rules for Writing an SEO-Friendly Blog Post",
+ "meta_baslik_tr": "SEO Uyumlu Blog Yazısı İçin 12 Kural",
+ "meta_baslik_en": "12 Rules for an SEO-Friendly Blog Post",
+ "meta_desc_tr": "Arama niyeti, başlık, giriş, h2 yapısı, iç link, görsel, yazar bilgisi ve güncelleme. SEO uyumlu blog yazısı için 12 kural ve yayın öncesi liste.",
+ "meta_desc_en": "Search intent, titles, intros, heading structure, internal links, images, author info and updates. 12 rules for an SEO-friendly blog post.",
+ "ozet_tr": "Arama niyetinden yazar bilgisine, SEO uyumlu bir blog yazısını yayına hazırlarken uyduğum 12 kural.",
+ "ozet_en": "From search intent to author information, the 12 rules I follow before publishing an SEO-friendly blog post.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir blog yazısının SEO uyumlu olması, anahtar kelimeyi belli sayıda tekrar etmesi demek değil. Google'ın yararlı içerik dokümanı, içeriğin öncelikle insanlara yardım etmek için yazılıp yazılmadığını soruyor; teknik kurallar bu amacın üstüne kurulur.",
+    "Bu yazıda kendi yazılarımda ve müşteri sitelerinde uyguladığım 12 kuralı, yazımdan yayına ve güncellemeye kadar sırasıyla topladım. Hangi konuları yazacağınızı belirlemek ayrı bir iş; onu [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım.",
+    {
+     "alinti": "Kısa cevap: SEO uyumlu bir blog yazısı tek bir arama niyetine cevap verir, cevabı girişte net biçimde sunar, h2 ve h3 başlıklarıyla taranabilir bir yapı kurar ve ilgili sayfalara açıklayıcı iç linkler verir. Yazar bilgisi, dürüst tarih ve düzenli güncelleme de yazının güvenilirliğini destekler."
+    }
+   ]
+  },
+  {
+   "baslik": "Yazmaya başlamadan önce",
+   "paragraflar": [
+    {
+     "alt": "1. Arama niyetini belirleyin"
+    },
+    "Hedef sorguyu Google'da arayın ve ilk sayfada hangi tür içeriklerin olduğuna bakın: rehber mi, liste mi, karşılaştırma mı, ürün sayfası mı? Kullanıcının bilgi mi aradığını yoksa karar mı vermeye çalıştığını anlamadan yazılan yazı, ne kadar iyi olursa olsun yanlış soruya cevap verir.",
+    {
+     "alt": "2. Her yazıya tek bir ana konu verin"
+    },
+    "Bir yazı bir ana sorguyu ve onun yakın varyasyonlarını hedeflemeli. Aynı soruyu cevaplayan iki yazı birbiriyle yarışır. Ana ve yan sorguları [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) yöntemle gruplayın ve her grubu tek bir URL'ye atayın."
+   ]
+  },
+  {
+   "baslik": "Başlık ve giriş nasıl yazılır?",
+   "paragraflar": [
+    {
+     "alt": "3. Başlık ana konuyu açıkça söylesin"
+    },
+    "Title etiketi ve sayfadaki h1, yazının ne cevap verdiğini ilk bakışta anlatmalı. Ana ifadeyi başa yakın koyun, anahtar kelimeyi tekrarlamayın, sayfa Türkçe ise başlığı da Türkçe karakterlerle yazın. Ayrıntılı kurallar [meta başlık ve açıklama kuralları](/meta-baslik-aciklama-kurallari) yazısında.",
+    {
+     "alt": "4. Cevabı girişte verin"
+    },
+    "Okur ve arama motoru, yazının sorusuna ilk paragraflarda bir cevap bulmalı. Uzun bir hikâye ya da genel tanımla açılan girişler okuru kaybettirir. Ben her yazıya 2-3 cümlelik bir “kısa cevap” ile başlıyorum; bu bölüm yapay zekâ yanıtlarında alıntılanmaya da uygun bir özet olur.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Güçlü giriş",
+       "tur": "iyi",
+       "maddeler": [
+        "İlk iki cümlede sorunun cevabı",
+        "Yazıda ne bulunacağının kısa planı",
+        "Somut bir örnek ya da ölçüt"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf giriş",
+       "tur": "kotu",
+       "maddeler": [
+        "Konunun öneminden bahseden genel cümleler",
+        "Anahtar kelimenin art arda tekrarı",
+        "Cevabın yazının sonuna saklanması"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Gövde yapısı ve içerik kalitesi",
+   "paragraflar": [
+    {
+     "alt": "5. H2 ve h3 başlıklarıyla taranabilir bir yapı kurun"
+    },
+    "Her h2 bir alt soruya cevap versin, h3'ler o cevabı adımlara ya da örneklere bölsün. Başlıkları sıralı okuyan biri yazının özetini çıkarabilmeli. Paragrafları 2-4 cümlede tutun; adım içeren yerlerde liste, karşılaştırmada tablo kullanın.",
+    {
+     "alt": "6. İlk elden deneyim ve özgün bilgi ekleyin"
+    },
+    "Başka yazıların özetinden farkı olmayan bir içerik, sıralanmak için bir neden sunmaz. Kendi denemelerinizi, müşteri sorularını, ekran görüntülerini ve karar ölçütlerinizi ekleyin. Bunu nasıl görünür kıldığımı [E-E-A-T için içerik](/eeat-icin-icerik) yazısında anlattım. Yazım sürecinde yapay zekâ kullanıyorsanız [Google'ın yapay zekâ içerik politikasını](/yapay-zeka-icerik-google-politikasi) bilmekte yarar var.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Kelime sayısı bir kural değil",
+      "metin": "Google'ın yararlı içerik dokümanı, belirli bir kelime sayısını tercih etmediğini açıkça yazıyor. Yazı, soruyu eksiksiz cevaplayacak kadar uzun olmalı; doldurmak için uzatılmamalı."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Linkler, görseller ve meta açıklama",
+   "paragraflar": [
+    {
+     "alt": "7. Açıklayıcı bağlantı metniyle iç link verin"
+    },
+    "Yazıyı aynı konudaki ana sayfaya ve ilgili alt yazılara bağlayın; ana sayfadan da bu yazıya link verin. Bağlantı metni hedef sayfanın konusunu söylesin, “buraya tıklayın” gibi ifadeler kullanmayın. Yapıyı [iç linkleme](/ic-linkleme) ve [topical authority](/topical-authority) yazılarında ayrıntılı ele aldım.",
+    {
+     "alt": "8. Görselleri anlam katan yerde ve doğru ayarlarla kullanın"
+    },
+    "Ekran görüntüsü, şema ya da özgün fotoğraf, stok görselden daha çok bilgi taşır. Görseli anlatan alt metin, açıklayıcı dosya adı ve sıkıştırılmış modern formatlar kullanın. Teknik ayrıntılar [görsel SEO](/gorsel-seo) yazısında.",
+    {
+     "alt": "9. Sayfayı özetleyen bir meta açıklama yazın"
+    },
+    "Google snippet'i çoğunlukla sayfa içeriğinden oluşturur, ama meta açıklama sayfayı daha doğru anlatıyorsa onu kullanabilir. Her yazıya özgü, yazının tamamını özetleyen doğal bir cümle yazın. Arama sonucundaki görünümü [SERP önizleme aracında](/serp-onizleme) kontrol edebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Güven ve güncellik sinyalleri",
+   "paragraflar": [
+    {
+     "alt": "10. Yazar bilgisini görünür kılın"
+    },
+    "Google, okurun yazarı merak edeceği içeriklerde doğru yazar bilgisi ve imza eklemeyi açıkça öneriyor. Yazar adını, kısa uzmanlık açıklamasını ve yazar sayfasına bağlantıyı ekleyin; yanıltıcı yazar bilgisi kullanmayın.",
+    {
+     "alt": "11. Tarihleri dürüst gösterin, içeriği gerçekten güncelleyin"
+    },
+    "Google'ın tarih dokümanı, sayfada görünen bir yayın ya da güncelleme tarihi bulunmasını ve yapısal verideki tarihle aynı olmasını öneriyor. İçerikte esaslı bir değişiklik yapmadan tarihi yenilemek, yararlı içerik dokümanında olumsuz örnek olarak geçiyor.",
+    {
+     "alt": "12. Kısa URL ve Article yapısal verisi kullanın"
+    },
+    "Yazının konusunu anlatan kısa, tarih içermeyen bir URL seçin; çoğu sitede Türkçe karakterleri sade harfe çevirmek (ş yerine s gibi) daha pratiktir; ilkeler [URL yapısı](/url-yapisi-seo) yazısında. Article ya da BlogPosting işaretlemesine başlık, yazar, datePublished ve dateModified alanlarını ekleyin. İşaretlemeyi [schema oluşturucu](/schema-olusturucu) ile hazırlayabilir, kuralları [schema ve yapısal veri rehberinde](/schema-yapisal-veri) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yayın öncesi SEO kontrol listesi",
+   "paragraflar": [
+    "Her yazıyı yayımlamadan önce bu listeyi hızlıca gözden geçiriyorum. Kuralların nerede kontrol edildiğini de tabloda topladım.",
+    {
+     "kontrol": [
+      "Hedef sorgu ve arama niyeti belli, başka bir yazıyla çakışmıyor",
+      "Title ve h1 ana konuyu açıkça söylüyor",
+      "Girişte 2-3 cümlelik net cevap var",
+      "H2 başlıkları sırayla okununca yazının özeti çıkıyor",
+      "En az bir özgün örnek, veri ya da ekran görüntüsü var",
+      "İlgili yazılara ve ana konu sayfasına iç link verildi",
+      "Görsellerde alt metin ve açıklayıcı dosya adı var",
+      "Yazar adı, görünür tarih ve yapısal veri tutarlı"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Kural",
+       "Nerede kontrol edilir?",
+       "Ne zaman?"
+      ],
+      "satirlar": [
+       [
+        "Arama niyeti, tek konu",
+        "Google arama sonuçları, Search Console sorguları",
+        "Yazmadan önce"
+       ],
+       [
+        "Başlık ve meta açıklama",
+        "SERP önizleme, Search Console CTR",
+        "Yayın öncesi ve sonrası"
+       ],
+       [
+        "İç linkler",
+        "Site tarayıcısı, CMS",
+        "Yayın anında"
+       ],
+       [
+        "Yapısal veri",
+        "Zengin Sonuç Testi",
+        "Yayın öncesi"
+       ],
+       [
+        "Güncellik",
+        "Search Console performans trendi",
+        "Düzenli aralıklarla"
+       ]
+      ]
+     }
+    },
+    {
+     "akis": {
+      "baslik": "Bir blog yazısının yaşam döngüsü",
+      "adimlar": [
+       {
+        "baslik": "Araştır",
+        "metin": "Niyet, sorgu grubu ve rakip sayfalar."
+       },
+       {
+        "baslik": "Yaz",
+        "metin": "Kısa cevap, h2 iskeleti, özgün örnekler."
+       },
+       {
+        "baslik": "Bağla",
+        "metin": "İç linkler, görseller, yapısal veri."
+       },
+       {
+        "baslik": "Yayımla ve ölç",
+        "metin": "Search Console'da gösterim ve CTR."
+       },
+       {
+        "baslik": "Güncelle",
+        "metin": "Eskiyen bilgiyi yenile, boşlukları kapat."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Blog içeriğinizi birlikte planlayalım",
+   "paragraflar": [
+    "Bu kurallar tek bir yazıyı güçlendirir; trafiği büyüten ise doğru konuların doğru sırayla yazılmasıdır. Blogunuz için konu haritası ve yazım standardı oluşturmak isterseniz [içerik danışmanlığı](/icerik) sayfasına bakabilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bir blog yazısında anahtar kelime kaç kez geçmeli?",
+   "c": "Belirli bir sayı ya da yoğunluk oranı yoktur. Ana ifadenin başlıkta, girişte ve uygun bir alt başlıkta doğal biçimde geçmesi yeterlidir. Aynı ifadeyi zorla tekrarlamak okumayı bozar ve Google'ın spam politikalarındaki anahtar kelime doldurma örneğine yaklaşır."
+  },
+  {
+   "s": "Eski blog yazılarını silmeli miyim?",
+   "c": "Trafik, link ya da dönüşüm getirmeyen ve güncellenmeye değmeyen yazılar için silmek ya da benzer bir yazıyla birleştirip yönlendirmek mantıklı olabilir. Karar vermeden önce her yazının verisine bakın; trafik getiren bir yazıyı silmek kayıp yaratır."
+  },
+  {
+   "s": "Blog yazılarına SSS bölümü eklemek hâlâ işe yarar mı?",
+   "c": "Google, SSS zengin sonuçlarını Mayıs 2026'dan beri arama sonuçlarında göstermiyor. Okurun gerçekten sorduğu soruları cevaplayan bir SSS bölümü içerik olarak yine değerlidir ve FAQPage işaretlemesi geçerliliğini koruyor, ama zengin sonuç kazandırmaz."
+  },
+  {
+   "s": "Blog yazısı ne sıklıkla yayımlanmalı?",
+   "c": "Yayın sıklığı tek başına bir sıralama ölçütü değildir. Ekibinizin kaliteyi koruyarak sürdürebileceği bir ritim seçin; ayda iki iyi yazı, haftada beş yüzeysel yazıdan daha değerlidir. Mevcut yazıların güncellenmesini de takvime ekleyin."
+  },
+  {
+   "s": "Yazıyı yayımladıktan sonra Google'a nasıl bildiririm?",
+   "c": "Site haritanız güncelse Google yeni URL'yi zamanla keşfeder. Önemli bir yazıda Search Console'daki URL Denetimi aracından dizine ekleme isteyebilirsiniz. Ana sayfadan ya da ilgili yazılardan verilen iç linkler de keşfi hızlandırır."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "An SEO-friendly blog post is not one that repeats a keyword a certain number of times. Google's helpful content documentation asks whether content is created primarily to help people; technical rules are built on top of that purpose.",
+    "In this article I collected the 12 rules I apply in my own posts and on client sites, in order from writing to publishing and updating. Deciding which topics to write about is a separate job, which I cover in the [content strategy guide](/en/icerik-stratejisi).",
+    {
+     "alinti": "Short answer: An SEO-friendly blog post answers one search intent, gives a clear answer in the intro, builds a scannable structure with h2 and h3 headings and links to related pages with descriptive anchor text. Author information, honest dates and regular updates support its credibility."
+    }
+   ]
+  },
+  {
+   "baslik": "Before you start writing",
+   "paragraflar": [
+    {
+     "alt": "1. Identify the search intent"
+    },
+    "Search for the target query on Google and look at what type of content ranks on page one: a guide, a list, a comparison or a product page? A post written without understanding whether the user wants information or is trying to make a decision answers the wrong question, however good it is.",
+    {
+     "alt": "2. Give each post one main topic"
+    },
+    "A post should target one main query and its close variations. Two posts answering the same question compete with each other. Group main and secondary queries with the method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) and assign each group to a single URL."
+   ]
+  },
+  {
+   "baslik": "How to write the title and intro",
+   "paragraflar": [
+    {
+     "alt": "3. Make the title state the main topic clearly"
+    },
+    "The title tag and the h1 on the page should tell at a glance what the post answers. Put the main phrase near the start, do not repeat the keyword, and write in the same language and script as the page. Detailed rules are in [rules for meta titles and descriptions](/en/meta-baslik-aciklama-kurallari).",
+    {
+     "alt": "4. Give the answer in the intro"
+    },
+    "Readers and search engines should find an answer to the post's question in the first paragraphs. Intros that open with a long story or a generic definition lose readers. I start every post with a 2 to 3 sentence “short answer”, which also works as a summary that AI answers can quote.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Strong intro",
+       "tur": "iyi",
+       "maddeler": [
+        "The answer within the first two sentences",
+        "A short plan of what the post covers",
+        "A concrete example or criterion"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak intro",
+       "tur": "kotu",
+       "maddeler": [
+        "Generic sentences about why the topic matters",
+        "The keyword repeated over and over",
+        "The answer hidden at the end of the post"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Body structure and content quality",
+   "paragraflar": [
+    {
+     "alt": "5. Build a scannable structure with h2 and h3 headings"
+    },
+    "Each h2 should answer a sub-question, and h3s should break that answer into steps or examples. Someone reading only the headings should be able to summarise the post. Keep paragraphs to 2 to 4 sentences; use lists for steps and tables for comparisons.",
+    {
+     "alt": "6. Add first-hand experience and original information"
+    },
+    "Content that adds nothing beyond a summary of other articles gives no reason to rank. Add your own tests, client questions, screenshots and decision criteria. I explain how I make this visible in [content for E-E-A-T](/en/eeat-icin-icerik). If you use AI while writing, it is worth knowing [Google's policy on AI content](/en/yapay-zeka-icerik-google-politikasi).",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Word count is not a rule",
+      "metin": "Google's helpful content documentation states plainly that it does not have a preferred word count. A post should be long enough to answer the question fully, not padded to reach a number."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Links, images and the meta description",
+   "paragraflar": [
+    {
+     "alt": "7. Add internal links with descriptive anchor text"
+    },
+    "Link the post to the main page on the same topic and to related articles, and link to the post from the main page too. The anchor text should describe the target page; avoid phrases like “click here”. I cover the structure in [internal linking](/en/ic-linkleme) and [topical authority](/en/topical-authority).",
+    {
+     "alt": "8. Use images where they add meaning, with the right settings"
+    },
+    "A screenshot, diagram or original photo carries more information than a stock image. Use alt text that describes the image, a descriptive file name and compressed modern formats. Technical details are in [image SEO](/en/gorsel-seo).",
+    {
+     "alt": "9. Write a meta description that summarises the page"
+    },
+    "Google builds snippets mostly from page content, but it may use the meta description when it describes the page more accurately. Write a natural, unique sentence for each post that summarises the whole post. You can check how it looks in search results with the [SERP preview tool](/en/serp-preview)."
+   ]
+  },
+  {
+   "baslik": "Trust and freshness signals",
+   "paragraflar": [
+    {
+     "alt": "10. Make author information visible"
+    },
+    "Google explicitly encourages accurate authorship information, such as bylines, on content where readers would expect it. Add the author's name, a short note on their expertise and a link to an author page; never use misleading author information.",
+    {
+     "alt": "11. Show dates honestly and actually update the content"
+    },
+    "Google's byline date documentation recommends a user-visible publication or update date that matches the date in structured data. Refreshing the date without substantial changes to the content is listed as a negative example in the helpful content documentation.",
+    {
+     "alt": "12. Use a short URL and Article structured data"
+    },
+    "Choose a short URL that describes the topic, without dates; on Turkish sites transliterating characters such as ş to s is usually more practical; the principles are in [URL structure](/en/url-yapisi-seo). Add headline, author, datePublished and dateModified to your Article or BlogPosting markup. You can build the markup with the [schema generator](/en/schema-generator) and find the rules in the [schema and structured data guide](/en/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Pre-publish SEO checklist",
+   "paragraflar": [
+    "I run through this list quickly before publishing any post. The table shows where each rule is checked.",
+    {
+     "kontrol": [
+      "Target query and search intent are clear and do not overlap with another post",
+      "Title and h1 state the main topic clearly",
+      "The intro contains a clear 2 to 3 sentence answer",
+      "Reading the h2 headings in order summarises the post",
+      "There is at least one original example, data point or screenshot",
+      "Internal links point to related posts and the main topic page",
+      "Images have alt text and descriptive file names",
+      "Author name, visible date and structured data are consistent"
+     ]
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Rule",
+       "Where to check",
+       "When"
+      ],
+      "satirlar": [
+       [
+        "Search intent, single topic",
+        "Google results, Search Console queries",
+        "Before writing"
+       ],
+       [
+        "Title and meta description",
+        "SERP preview, Search Console CTR",
+        "Before and after publishing"
+       ],
+       [
+        "Internal links",
+        "Site crawler, CMS",
+        "At publishing"
+       ],
+       [
+        "Structured data",
+        "Rich Results Test",
+        "Before publishing"
+       ],
+       [
+        "Freshness",
+        "Search Console performance trend",
+        "At regular intervals"
+       ]
+      ]
+     }
+    },
+    {
+     "akis": {
+      "baslik": "The life cycle of a blog post",
+      "adimlar": [
+       {
+        "baslik": "Research",
+        "metin": "Intent, query group and competing pages."
+       },
+       {
+        "baslik": "Write",
+        "metin": "Short answer, h2 outline, original examples."
+       },
+       {
+        "baslik": "Connect",
+        "metin": "Internal links, images, structured data."
+       },
+       {
+        "baslik": "Publish and measure",
+        "metin": "Impressions and CTR in Search Console."
+       },
+       {
+        "baslik": "Update",
+        "metin": "Refresh outdated facts and close gaps."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Let's plan your blog content together",
+   "paragraflar": [
+    "These rules strengthen a single post; what grows traffic is writing the right topics in the right order. If you want a topic map and a writing standard for your blog, see [content strategy services](/en/content-strategy) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many times should a keyword appear in a blog post?",
+   "c": "There is no set number or density ratio. It is enough for the main phrase to appear naturally in the title, the intro and a relevant subheading. Forcing repetition hurts readability and gets close to the keyword stuffing example in Google's spam policies."
+  },
+  {
+   "s": "Should I delete old blog posts?",
+   "c": "For posts that bring no traffic, links or conversions and are not worth updating, deleting them or merging them into a similar post with a redirect can make sense. Check each post's data before deciding; deleting a post that brings traffic creates a loss."
+  },
+  {
+   "s": "Is adding an FAQ section to blog posts still useful?",
+   "c": "Google has not shown FAQ rich results in search since May 2026. An FAQ section that answers questions readers really ask still has value as content, and FAQPage markup remains valid, but it will not earn a rich result."
+  },
+  {
+   "s": "How often should I publish blog posts?",
+   "c": "Publishing frequency on its own is not a ranking criterion. Choose a pace your team can sustain without losing quality; two good posts a month are worth more than five shallow ones a week. Add updates to existing posts to the calendar too."
+  },
+  {
+   "s": "How do I tell Google about a post after publishing it?",
+   "c": "If your sitemap is up to date, Google will discover the new URL over time. For an important post you can request indexing with the URL Inspection tool in Search Console. Internal links from the home page or related posts also speed up discovery."
+  }
+ ]
+}

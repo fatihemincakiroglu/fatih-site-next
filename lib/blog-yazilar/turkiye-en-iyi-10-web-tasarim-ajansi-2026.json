@@ -1,0 +1,689 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 10,
+ "baslik_tr": "Türkiye'nin En İyi 10 Web Tasarım Ajansı - Güncel 2026",
+ "baslik_en": "Turkey's Best 10 Web Design Agencies - Updated 2026",
+ "meta_baslik_tr": "En İyi 10 Web Tasarım Ajansı 2026",
+ "meta_baslik_en": "Best 10 Web Design Agencies 2026",
+ "meta_desc_tr": "İstanbul, Ankara, İzmir, Antalya, Aydın ve Samsun'dan 10 web tasarım ajansı. SEO uyumlu site için sorulacak sorular ve fiyatı belirleyen etkenler.",
+ "meta_desc_en": "Ten web design agencies from cities across Turkey, plus the questions to ask for an SEO-friendly site and the factors that set the price.",
+ "ozet_tr": "Türkiye'den 10 web tasarım ajansı, SEO uyumlu site için seçim ölçütleri, sorulacak sorular ve fiyat etkenleri.",
+ "ozet_en": "Ten web design agencies in Turkey, with criteria for an SEO-friendly site, questions to ask and pricing factors.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Yeni bir web sitesi yaptırırken çoğu işletme tasarıma ve fiyata bakıyor; oysa sitenin aramada görünür olup olmayacağını belirleyen kararların büyük kısmı da bu aşamada veriliyor. URL yapısı, sayfa hızı, mobil uyum, yapısal veri ve eski siteden yönlendirmeler sonradan düzeltilmesi pahalı işler.",
+    "Bu yazıda web tasarım ve web geliştirme hizmetini açıkça sunan, İstanbul, Ankara, İzmir, Antalya, Aydın ve Samsun gibi farklı şehirlerden 10 ajansı alfabetik sırayla derledim. Ardından ajans seçerken bakılacak ölçütleri, sorulacak soruları ve fiyatı belirleyen etkenleri anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Türkiye'de web tasarım ajansı seçerken yalnızca portföye değil, ajansın SEO uyumlu altyapı, Core Web Vitals, yönlendirme planı ve teslim sonrası destek konusunda ne taahhüt ettiğine bakın. Aşağıdaki 10 ajans bir sıralama değildir; alfabetik bir başlangıç listesidir ve son kararı yazılı teklif ile referans görüşmesi vermelidir."
+    }
+   ]
+  },
+  {
+   "baslik": "Bu Liste Nasıl Hazırlandı?",
+   "paragraflar": [
+    "Bu bir performans sıralaması değildir. Ajanslar alfabetik olarak listelenmiştir ve sıra numaraları yalnızca takibi kolaylaştırmak içindir.",
+    "Listeye yalnızca web tasarım ya da web geliştirme hizmetini açıkça sunan ajanslar alındı. Konum, hizmet kapsamı ve deneyim bilgileri ajansların kendi sitelerinde ya da ajansın kendi doldurduğu dizin profillerinde belirtildiği şekilde aktarıldı.",
+    "Ödül, sertifika, proje sayısı ve iş ortaklığı beyanları bağımsız olarak doğrulanmamıştır. Bu liste için hiçbir ajanstan ücret alınmamıştır; sponsorluk yoktur."
+   ]
+  },
+  {
+   "baslik": "1. Adapte Dijital",
+   "paragraflar": [
+    "Adapte Dijital, iletişim sayfasında Beylikdüzü / İstanbul adresini veren ve kendini yapay zekâ destekli dijital danışmanlık ajansı olarak tanımlayan bir şirket. Sitesinde 13 yılı aşkın ajans deneyimi ve Google Partner rozeti beyan ediliyor.",
+    "Menüde Web Tasarım, Kurumsal Web Sitesi, WordPress Ajansı ve WooCommerce Ajansı ayrı başlıklar olarak yer alıyor; yanında SEO, GEO ve Google Ads hizmetleri de var. Web tasarım sayfasında WordPress ve WooCommerce ile mobil öncelikli, hafif bir altyapı kurulduğu, site yenilenirken URL yapısının korunduğu ve alan adı ile hosting hesaplarının müşteriye ait olduğu belirtiliyor.",
+    "WordPress tabanlı bir kurumsal site ya da WooCommerce mağazası isteyen, yayından sonra da aylık yönetim desteği arayan KOBİ'ler için değerlendirilebilir."
+   ],
+   "linkler": [
+    {
+     "isim": "Adapte Dijital web sitesi",
+     "aciklama": "Beylikdüzü / İstanbul",
+     "url": "https://adaptedijital.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "2. Bravery Technology",
+   "paragraflar": [
+    "Bravery Technology, sitesinde adres ya da şehir vermiyor; İzmir ve Ege bölgesindeki işletmelere uzaktan hizmet verebilen bir sağlayıcı olarak konumlanıyor ve iletişim için yalnızca e-posta adresi paylaşıyor.",
+    "Menüsünde \"Web Site\" hizmeti \"Bir web sitesi kurun ve büyütün\" sloganıyla yer alıyor. Sitesinde SEO uyumlu, hızlı ve mobil uyumlu siteler kurduğu; bunun yanında Google Ads yönetimi, sosyal medya reklamları ve e-posta pazarlaması yürüttüğü, yapay zekâ destekli analiz araçları kullandığı belirtiliyor.",
+    "Web sitesini reklam kampanyalarıyla birlikte tek bir ekipten kurdurmak isteyen ve yüz yüze toplantıya ihtiyaç duymayan küçük işletmeler için bir seçenek olabilir. Fiziksel ofis önemliyse bunu görüşmede sormak gerekir."
+   ],
+   "linkler": [
+    {
+     "isim": "Bravery Technology web sitesi",
+     "aciklama": "Uzaktan / İzmir ve Ege odaklı",
+     "url": "https://braverytechnology.com/tr/"
+    }
+   ]
+  },
+  {
+   "baslik": "3. Digital Karınca",
+   "paragraflar": [
+    "Digital Karınca, sitesinde Karşıyaka / İzmir adresini veren ve 2016'dan beri faaliyet gösterdiğini belirten bir yazılım ajansı. Sitesinde 215'ten fazla tamamlanmış proje ve 10 yılı aşkın deneyim beyan ediliyor.",
+    "Hizmet başlıkları web yazılım projeleri, özel web tasarım ve geliştirme, e-ticaret çözümleri, mobil uygulama, yapay zekâ destekli yazılım ve SEO. Web tasarım sayfasında hazır şablon kullanmadan Next.js, React ve headless bir CMS (Payload) ile geliştirme yapıldığı, Core Web Vitals, yapısal veri ve meta etiketlerin baştan ele alındığı anlatılıyor.",
+    "Hazır tema yerine özel kodlanmış, modern JavaScript altyapılı bir kurumsal site ya da web uygulaması isteyen markalar için uygun bir profil. Bu tür altyapılarda arama motorlarının içeriği nasıl gördüğünü [JavaScript SEO](/javascript-seo) açısından teslimden önce kontrol etmek iyi olur."
+   ],
+   "linkler": [
+    {
+     "isim": "Digital Karınca web sitesi",
+     "aciklama": "Karşıyaka / İzmir",
+     "url": "https://digitalkarinca.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "4. Doruk Labs",
+   "paragraflar": [
+    "Doruk Labs, hakkımızda sayfasında kendini Türkiye merkezli bir yazılım stüdyosu olarak tanımlıyor; sitede şehir ya da ofis adresi verilmiyor.",
+    "Hizmetler sayfasında web geliştirme, mobil uygulama geliştirme ve UI/UX tasarım olmak üzere üç ana başlık var. Web sitelerini \"hızlı, güvenli ve SEO dostu\" olarak modern teknolojilerle geliştirdiği, fikirleri birkaç hafta içinde test edilebilir bir MVP'ye dönüştürmeyi hedeflediği ve kendi uygulamalarını da yayınladığı belirtiliyor.",
+    "Klasik bir kurumsal siteden çok web platformu, SaaS ya da MVP geliştirmek isteyen girişimler için daha uygun görünüyor."
+   ],
+   "linkler": [
+    {
+     "isim": "Doruk Labs web sitesi",
+     "aciklama": "Türkiye (şehir belirtilmemiş)",
+     "url": "https://doruklabs.com/tr"
+    }
+   ]
+  },
+  {
+   "baslik": "5. KARAKAR Web",
+   "paragraflar": [
+    "KARAKAR Web Tasarım ve Yazılım Ajansı, ajansın kendi doldurduğu dizin profilinde İstanbul merkezli ve 2022'de kurulmuş olarak görünüyor; adından da anlaşılacağı gibi ana odağı web tasarım ve yazılım.",
+    "Öne çıkan hizmetleri web tasarım ve geliştirme, e-ticaret çözümleri, özel yazılım geliştirme, kurumsal kimlik ve grafik tasarım ile dijital pazarlama ve SEO olarak listeleniyor.",
+    "Görece genç bir ekiple doğrudan iletişim kurmak isteyen ve site, kurumsal kimlik ile temel SEO'yu birlikte çözmek isteyen küçük işletmeler için değerlendirilebilir. Portföyü ve referansları görüşmede ayrıca isteyin."
+   ],
+   "linkler": [
+    {
+     "isim": "KARAKAR Web web sitesi",
+     "aciklama": "İstanbul",
+     "url": "https://www.karakarweb.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "6. Majesty Ajans",
+   "paragraflar": [
+    "Majesty Ajans, sitesinde Muratpaşa / Antalya adresini veren ve 2009'dan beri faaliyet gösterdiğini belirten entegre bir reklam ajansı. Web tasarımın yanında sosyal medya, grafik tasarım, foto ve video prodüksiyon, açık hava ve basılı medya, arama motoru optimizasyonu ve Google Ads hizmetleri listeleniyor.",
+    "Web tasarım sayfasında kurumsal site, e-ticaret (WooCommerce, Shopify ya da özel), landing page ve web uygulaması geliştirildiği; teslim kapsamında duyarlı tasarım, SSL, Google Analytics ve Tag Manager, Search Console bağlantısı, temel SEO, schema işaretlemesi ve Core Web Vitals optimizasyonu bulunduğu belirtiliyor. Site yenilemelerinde mevcut sıralamaları korumak için 301 yönlendirme haritası hazırlandığı da yazıyor.",
+    "Antalya ve çevresinde web sitesini baskı, açık hava ve sosyal medya işleriyle aynı ajanstan yürütmek isteyen turizm, sağlık ve yerel hizmet işletmeleri için mantıklı bir seçenek."
+   ],
+   "linkler": [
+    {
+     "isim": "Majesty Ajans web sitesi",
+     "aciklama": "Muratpaşa / Antalya",
+     "url": "https://majestyajans.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "7. Mobitek",
+   "paragraflar": [
+    "Sitesinde 2003'ten beri dijital pazarlama alanında hizmet verdiğini belirten Mobitek, iletişim sayfasında Kadıköy / İstanbul'daki genel merkez adresini veriyor. SEO ve GEO, Google Ads, sosyal medya ve medya planlamasının yanında Web Design ayrı bir hizmet başlığı olarak yer alıyor.",
+    "Web tasarım sayfasında kurumsal web sitesi, e-ticaret ve e-ihracat sitesi tasarımı, SPA geliştirme, WordPress ve Shopify için özel tema geliştirme ile yazılım bakım desteği listeleniyor. Desteklenen altyapılar arasında WordPress, OpenCart ve Shopify'ın yanında ikas, Ideasoft, T-Soft ve Ticimax sayılıyor; mevcut bir siteyi devralıp yarım kalan kurulumu tamamladıkları da belirtiliyor.",
+    "Google Premier Partner, Meta, Shopify ve diğer iş ortaklığı rozetleri sitesinde beyan ediliyor. Siteyi SEO ve reklam ekibiyle aynı çatı altında kurdurmak isteyen e-ticaret ve kurumsal markalar için uygun bir kapsam."
+   ],
+   "linkler": [
+    {
+     "isim": "Mobitek web sitesi",
+     "aciklama": "Kadıköy / İstanbul",
+     "url": "https://mobitek.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "8. Umay Ajans",
+   "paragraflar": [
+    "Umay Ajans, sitesinin alt bilgisinde Kuşadası / Aydın adresini veriyor ve 2015'ten beri faaliyet gösterdiğini belirtiyor. Hizmetler Tasarım ve Geliştirme (Web Tasarım, E-Ticaret Çözümleri, WordPress VIP, Mobil Uygulama), Yazılım ve Yapay Zekâ ile Büyüme ve Pazarlama (SEO, GEO, dijital pazarlama, sosyal medya) başlıklarında toplanıyor.",
+    "Web tasarım sayfasında her projede duyarlı tasarım, teknik SEO temeli, SSL, hız optimizasyonu ve Core Web Vitals uyumu, analitik kurulumu, içerik yönetim paneli ve çok dilli altyapı bulunduğu; keşif, UX ve mimari, arayüz tasarımı, geliştirme ve test, yayın ve büyüme olmak üzere beş adımlı bir süreç izlendiği anlatılıyor. Sitede 450'den fazla proje ve çeşitli uluslararası tasarım ödülleri beyan ediliyor.",
+    "Tasarım kalitesini ve çok dilli yapıyı önemseyen, yurt dışına da hitap eden turizm, ihracat ve hizmet markaları için incelenebilir."
+   ],
+   "linkler": [
+    {
+     "isim": "Umay Ajans web sitesi",
+     "aciklama": "Kuşadası / Aydın",
+     "url": "https://www.umayajans.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "9. Vayes",
+   "paragraflar": [
+    "Vayes, ajansın kendi doldurduğu dizin profilinde 2010'da kurulmuş, merkezi Beylikdüzü / İstanbul'da olan ve Samsun'da da ofisi bulunan bir ajans olarak görünüyor; Samsun'daki Ar-Ge ofisinin Ondokuz Mayıs Üniversitesi teknoparkında olduğu belirtiliyor.",
+    "Hizmet alanları arasında web tasarım, web geliştirme, UX/UI tasarım, mobil uygulama geliştirme, SEO ve tıklama başı ödemeli reklam yönetimi sayılıyor; marka tescili, ürün fotoğrafçılığı ve ticari yazılım da listede yer alıyor.",
+    "Karadeniz bölgesinde yakın bir muhatap arayan ya da tasarım, yazılım ve reklamı tek ajansta toplamak isteyen işletmeler için değerlendirilebilir."
+   ],
+   "linkler": [
+    {
+     "isim": "Vayes web sitesi",
+     "aciklama": "Beylikdüzü / İstanbul ve Samsun",
+     "url": "https://www.vayes.com.tr/"
+    }
+   ]
+  },
+  {
+   "baslik": "10. Webolizma",
+   "paragraflar": [
+    "Webolizma, ajansın kendi doldurduğu dizin profilinde Söğütözü / Ankara adresli ve 1997'de kurulmuş olarak görünüyor; kendini 360 derece dijital pazarlama hizmeti veren bir ajans olarak tanımlıyor.",
+    "Hizmet başlıkları arasında web tasarım, UX/UI tasarım, marka, dijital strateji, SEO, tıklama başı ödemeli reklam ve medya planlama yer alıyor.",
+    "Ankara'da uzun süredir faaliyet gösteren bir ajansla yüz yüze çalışmak isteyen kurumsal ve kamuya yakın sektörlerdeki markalar için bir seçenek."
+   ],
+   "linkler": [
+    {
+     "isim": "Webolizma web sitesi",
+     "aciklama": "Söğütözü / Ankara",
+     "url": "https://www.webolizma.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "SEO Uyumlu Web Tasarım İçin Ajansta Neye Bakmalı?",
+   "paragraflar": [
+    "Görsel olarak güzel bir site, arama motorunda görünür bir site anlamına gelmiyor. Teklif aşamasında aşağıdaki ölçütleri tek tek sorun; yayın öncesi kontrolleri adım adım görmek için [yeni web sitesi SEO kontrol listesi](/yeni-site-seo-kontrol-listesi) yazısını ajansla paylaşabilirsiniz.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Ölçüt",
+       "Neden önemli",
+       "Ajanstan isteyin"
+      ],
+      "satirlar": [
+       [
+        "Sayfa hızı ve Core Web Vitals",
+        "LCP ≤ 2,5 sn, INP ≤ 200 ms ve CLS ≤ 0,1 eşikleri kullanıcı deneyimi ölçüsüdür",
+        "Yayın öncesi PageSpeed Insights sonucu ve [Core Web Vitals](/core-web-vitals-2025) hedefi"
+       ],
+       [
+        "URL yapısı",
+        "Kısa, anlamlı ve kalıcı adresler sonradan taşıma ihtiyacını azaltır",
+        "Sayfa haritası ve [URL yapısı](/url-yapisi-seo) önerisi"
+       ],
+       [
+        "Yönlendirme planı",
+        "Eski sitenin sıralamaları 301 yönlendirmeyle korunur",
+        "Eski ve yeni URL eşleştirme tablosu"
+       ],
+       [
+        "Yapısal veri",
+        "Google'ın sayfayı anlamasına yardımcı olur",
+        "Organization, LocalBusiness ya da Product işaretlemesi"
+       ],
+       [
+        "Mobil uyum",
+        "Google siteyi ağırlıklı olarak mobil sürümüyle değerlendirir",
+        "Gerçek cihazlarda test raporu"
+       ],
+       [
+        "Sahiplik",
+        "Alan adı, hosting ve kaynak kod sizin olmalı",
+        "Sözleşmede sahiplik maddesi"
+       ]
+      ]
+     }
+    },
+    "WordPress tercih edilecekse tema ve eklenti yükünün hıza etkisini [WordPress site hızı](/wordpress-site-hizi) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Web Tasarım Ajansına Sorulacak Sorular",
+   "paragraflar": [
+    "İki teklif arasındaki fark çoğu zaman kapsamdan gelir. Görüşmede şu soruların cevabını yazılı isteyin.",
+    {
+     "kontrol": [
+      "Mevcut sitemiz varsa eski URL'lerin tamamı için 301 yönlendirme haritasını kim hazırlayacak?",
+      "Yayından önce hangi hız ve mobil testleri yapılacak, sonuçlar bize raporlanacak mı?",
+      "Title, meta açıklama, başlık hiyerarşisi ve görsel alt metinleri kim yazacak?",
+      "Site haritası, robots.txt ve Search Console kurulumu teslim kapsamında mı?",
+      "Hangi altyapı kullanılacak (WordPress, Shopify, özel kod) ve bu seçimin gerekçesi ne?",
+      "Yayından sonra güncelleme, güvenlik ve yedekleme kimin sorumluluğunda?",
+      "Alan adı, hosting ve kaynak kod kimin adına kayıtlı olacak?"
+     ]
+    },
+    "Site taşıma içeren projelerde yönlendirme planı en sık atlanan kalem. Süreci [site taşıma SEO rehberi](/site-tasima-seo) üzerinden kontrol edebilir, eşleştirme kurallarını [yönlendirme oluşturucu](/yonlendirme-olusturucu) ile hazırlayabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Yayın günü sıralama kaybını önleyin",
+      "metin": "Yeni site yayına alınmadan önce test ortamının dizine kapatıldığından, canlıda ise noindex etiketinin kaldırıldığından emin olun. Sahada en sık gördüğüm trafik kaybı bu iki adımın unutulmasından kaynaklanıyor."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Web Tasarım Fiyatını Belirleyen Etkenler",
+   "paragraflar": [
+    "Bu yazıda bilerek fiyat rakamı vermiyorum; aynı başlık altında çok farklı kapsamlar satılıyor. Teklifleri karşılaştırırken şu değişkenleri eşitleyin.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📄",
+       "baslik": "Sayfa sayısı ve içerik",
+       "metin": "Metin ve görsel üretiminin ajansa mı size mi ait olduğu toplam emeği belirgin biçimde değiştirir."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "E-ticaret ve entegrasyon",
+       "metin": "Ödeme, kargo, ERP ya da pazaryeri entegrasyonları kurumsal siteye göre ek iş demektir. Altyapı seçimi için [e-ticaret SEO rehberi](/e-ticaret-seo) yol gösterebilir."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "Hazır tema mı özel kod mu",
+       "metin": "Özel tasarım ve özel yazılım daha esnektir ama daha uzun sürer ve bakım ihtiyacı farklıdır."
+      },
+      {
+       "ikon": "🌍",
+       "baslik": "Dil sayısı",
+       "metin": "Çok dilli yapı, hreflang kurulumu ve çeviri yönetimi kapsamı genişletir."
+      },
+      {
+       "ikon": "🔧",
+       "baslik": "Teslim sonrası destek",
+       "metin": "Bakım, güvenlik güncellemesi ve küçük geliştirmelerin aylık pakete dahil olup olmadığı toplam maliyeti etkiler."
+      }
+     ]
+    },
+    "Genel kural şu: en düşük teklif çoğu zaman en dar kapsamlı tekliftir. Sorun ucuzluk değil, kapsamın sözleşmede yazılı olmamasıdır."
+   ]
+  },
+  {
+   "baslik": "Ajans mı Serbest Geliştirici mi?",
+   "paragraflar": [
+    "Her proje için ajans gerekmiyor. Karar verirken iki modelin güçlü ve zayıf yanlarını yan yana koyun.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Web tasarım ajansı",
+       "tur": "iyi",
+       "maddeler": [
+        "Tasarım, yazılım, içerik ve SEO aynı ekipte",
+        "Ekip değişse de proje devam eder",
+        "Büyük ve entegrasyonlu projelerde daha fazla kapasite",
+        "Genellikle daha yüksek maliyet ve daha uzun onay süreçleri"
+       ]
+      },
+      "sag": {
+       "baslik": "Serbest geliştirici",
+       "tur": "notr",
+       "maddeler": [
+        "Küçük kurumsal siteler için hızlı ve esnek",
+        "Doğrudan iletişim, daha az aracı",
+        "Tek kişiye bağımlılık riski",
+        "SEO ve içerik için ayrıca destek gerekebilir"
+       ]
+      }
+     }
+    },
+    "Hangi modeli seçerseniz seçin, yayından önce teknik SEO kontrolünü bağımsız bir gözle yaptırmak riski azaltır. [Teknik SEO rehberi](/teknik-seo) neye bakılacağını özetliyor; ajans seçiminin genel ölçütleri için [SEO ajansı nasıl seçilir](/seo-ajansi-nasil-secilir) ve tüm kanalları kapsayan [Türkiye'nin en iyi 10 dijital pazarlama ajansı](/turkiye-en-iyi-10-dijital-pazarlama-ajansi-2026) listesine de bakabilirsiniz.",
+    "Yeni sitenizin ya da site yenilemenizin SEO tarafını ajansla birlikte planlamak isterseniz [SEO uzmanı](/seo-uzmani) hizmetimi inceleyebilir ya da [ücretsiz bir ön görüşme için randevu](/randevu) alabilirsiniz.",
+    "Bu listedeki bilgiler tavsiye ya da taahhüt niteliği taşımaz. Teklif, referans, hizmet kapsamı ve sözleşme şartlarını doğrudan ilgili ajanstan doğrulayın."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When commissioning a new website, most businesses focus on design and price, yet many decisions that shape search visibility are made at this stage too. URL structure, speed, mobile usability and redirects are expensive to fix later.",
+    "Below are 10 agencies, in alphabetical order, that clearly offer web design and development, from Istanbul, Ankara, Izmir, Antalya, Aydin and Samsun, followed by selection criteria, questions to ask and pricing factors.",
+    {
+     "alinti": "Short answer: When choosing a web design agency in Turkey, look beyond the portfolio at what the agency commits to on SEO-friendly infrastructure, Core Web Vitals, a redirect plan and post-launch support. The 10 agencies below are not a ranking; they are an alphabetical starting list, and the final decision should rest on a written proposal and reference calls."
+    }
+   ]
+  },
+  {
+   "baslik": "How Was This List Prepared?",
+   "paragraflar": [
+    "This is not a performance ranking. The agencies are listed alphabetically and the numbering exists only to make the list easier to follow.",
+    "Only agencies that clearly offer web design or web development were included. Location, service scope and experience details are reported as stated on the agencies' own sites or in directory profiles the agencies filled in themselves.",
+    "Award, certification, project count and partnership claims have not been independently verified. No agency paid to be included in this list; there is no sponsorship."
+   ]
+  },
+  {
+   "baslik": "1. Adapte Dijital",
+   "paragraflar": [
+    "Adapte Dijital gives Beylikduzu, Istanbul on its contact page and describes itself as an AI-supported digital consultancy. Its site declares more than 13 years of agency experience and shows a Google Partner badge.",
+    "Web Design, Corporate Website, WordPress Agency and WooCommerce Agency appear as separate menu items, alongside SEO, GEO and Google Ads. The web design page states that sites are built mobile first on a lightweight WordPress and WooCommerce setup, that URL structure is preserved during redesigns, and that the domain and hosting accounts belong to the client.",
+    "Worth considering for SMEs that want a WordPress corporate site or a WooCommerce shop and ongoing monthly management after launch."
+   ],
+   "linkler": [
+    {
+     "isim": "Adapte Dijital website",
+     "aciklama": "Beylikduzu / Istanbul",
+     "url": "https://adaptedijital.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "2. Bravery Technology",
+   "paragraflar": [
+    "Bravery Technology gives no address or city on its site; it positions itself as a provider able to serve businesses in Izmir and the Aegean region remotely and lists only an email address for contact.",
+    "Its menu includes a \"Web Site\" service with the slogan \"set up a website and grow it\". The site states that it builds SEO-friendly, fast, mobile-responsive websites and also runs Google Ads management, social media advertising and email marketing, using AI-supported analysis tools.",
+    "An option for small businesses that want the site and ads from one team and do not need meetings in person; ask about a physical office if that matters."
+   ],
+   "linkler": [
+    {
+     "isim": "Bravery Technology website",
+     "aciklama": "Remote / Izmir and Aegean focus",
+     "url": "https://braverytechnology.com/tr/"
+    }
+   ]
+  },
+  {
+   "baslik": "3. Digital Karınca",
+   "paragraflar": [
+    "Digital Karinca is a software agency that gives Karsiyaka, Izmir as its address and states it has been operating since 2016. Its site declares more than 215 completed projects and over 10 years of experience.",
+    "Its services include custom web design and development, web software, e-commerce, mobile apps and SEO. The web design page says it builds without templates using Next.js, React and a headless CMS (Payload), handling Core Web Vitals and structured data from the start.",
+    "A fitting profile for brands that want a custom-coded corporate site or web application on a modern JavaScript stack rather than an off-the-shelf theme. With this kind of stack, check how search engines see the content from a [JavaScript SEO](/en/javascript-seo) angle before handover."
+   ],
+   "linkler": [
+    {
+     "isim": "Digital Karınca website",
+     "aciklama": "Karsiyaka / Izmir",
+     "url": "https://digitalkarinca.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "4. Doruk Labs",
+   "paragraflar": [
+    "Doruk Labs describes itself on its about page as a Turkey-based software studio; no city or office address is given on the site.",
+    "Its services page has three main headings: web development, mobile app development and UI/UX design. It states that it builds \"fast, secure and SEO-friendly\" websites with modern technology, aims to turn ideas into a testable MVP within weeks, and also publishes its own apps.",
+    "Looks better suited to startups building a web platform, SaaS product or MVP than to a classic corporate brochure site."
+   ],
+   "linkler": [
+    {
+     "isim": "Doruk Labs website",
+     "aciklama": "Turkey (city not stated)",
+     "url": "https://doruklabs.com/tr"
+    }
+   ]
+  },
+  {
+   "baslik": "5. KARAKAR Web",
+   "paragraflar": [
+    "KARAKAR Web Design and Software Agency appears, in the directory profile the agency filled in itself, as Istanbul-based and founded in 2022; as the name suggests, its main focus is web design and software.",
+    "Its featured services are listed as web design and development, e-commerce solutions, custom software development, corporate identity and graphic design, and digital marketing and SEO.",
+    "Worth considering for small businesses that want direct contact with a relatively young team and want the site, brand identity and basic SEO handled together. Ask separately for the portfolio and references in the meeting."
+   ],
+   "linkler": [
+    {
+     "isim": "KARAKAR Web website",
+     "aciklama": "Istanbul",
+     "url": "https://www.karakarweb.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "6. Majesty Ajans",
+   "paragraflar": [
+    "Majesty Ajans gives Muratpasa, Antalya as its address and states it has been operating since 2009 as an integrated advertising agency. Alongside web design it lists social media, graphic design, photo and video production, outdoor and print media, search engine optimisation and Google Ads.",
+    "Its web design page covers corporate sites, e-commerce (WooCommerce, Shopify or custom), landing pages and web apps, with delivery including responsive design, SSL, Analytics and Tag Manager, Search Console, basic SEO, schema markup and Core Web Vitals work. It also states that a 301 redirect map is prepared during redesigns to protect existing rankings.",
+    "A sensible option for tourism, healthcare and local service businesses in and around Antalya that want the website run by the same agency as their print, outdoor and social media work."
+   ],
+   "linkler": [
+    {
+     "isim": "Majesty Ajans website",
+     "aciklama": "Muratpasa / Antalya",
+     "url": "https://majestyajans.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "7. Mobitek",
+   "paragraflar": [
+    "Declaring on its site that it has served digital marketing since 2003, Mobitek gives a head office address in Kadikoy, Istanbul on its contact page. Alongside SEO and GEO, Google Ads, social media and media planning, Web Design appears as a separate service heading.",
+    "Its web design page lists corporate website design, e-commerce and e-export site design, SPA development, custom theme development for WordPress and Shopify, and software maintenance. Supported platforms include WordPress, OpenCart and Shopify as well as ikas, Ideasoft, T-Soft and Ticimax, and the page says it can take over an existing site and finish incomplete setup work.",
+    "Partnership badges (Google Premier Partner, Meta, Shopify and others) appear on its site as the agency's own statements. Suits brands wanting the site built alongside their SEO and ads team."
+   ],
+   "linkler": [
+    {
+     "isim": "Mobitek website",
+     "aciklama": "Kadikoy / Istanbul",
+     "url": "https://mobitek.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "8. Umay Ajans",
+   "paragraflar": [
+    "Umay Ajans gives Kusadasi, Aydin as its address in the site footer and states it has been operating since 2015. Its services are grouped under Design and Development (Web Design, E-Commerce Solutions, WordPress VIP, Mobile App), Software and AI, and Growth and Marketing (SEO, GEO, digital marketing, social media).",
+    "Its web design page says every project includes responsive design, a technical SEO foundation, SSL, speed optimisation and Core Web Vitals compliance, analytics setup, a content management panel and multilingual infrastructure, following a five-step process from discovery to launch. The site declares more than 450 projects and several international design awards.",
+    "Worth reviewing for tourism, export and service brands that value design quality and a multilingual setup."
+   ],
+   "linkler": [
+    {
+     "isim": "Umay Ajans website",
+     "aciklama": "Kusadasi / Aydin",
+     "url": "https://www.umayajans.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "9. Vayes",
+   "paragraflar": [
+    "Vayes appears, in the directory profile the agency filled in itself, as an agency founded in 2010 with its head office in Beylikduzu, Istanbul and a second office in Samsun; its Samsun R&D office is stated to be in the Ondokuz Mayis University technopark.",
+    "Its service areas include web design, web development, UX/UI design, mobile app development, SEO and pay-per-click management, with trademark registration, product photography and commercial software also on the list.",
+    "Worth considering for businesses in the Black Sea region looking for a nearby contact, or for those wanting design, software and advertising from one agency."
+   ],
+   "linkler": [
+    {
+     "isim": "Vayes website",
+     "aciklama": "Beylikduzu / Istanbul and Samsun",
+     "url": "https://www.vayes.com.tr/"
+    }
+   ]
+  },
+  {
+   "baslik": "10. Webolizma",
+   "paragraflar": [
+    "Webolizma appears, in the directory profile the agency filled in itself, with an address in Sogutozu, Ankara and a founding year of 1997; it describes itself as an agency offering 360-degree digital marketing.",
+    "Its service headings include web design, UX/UI design, branding, digital strategy, SEO, pay-per-click advertising and media planning.",
+    "An option for corporate brands, and those in sectors close to the public sector, that want to work face to face with a long-established Ankara agency."
+   ],
+   "linkler": [
+    {
+     "isim": "Webolizma website",
+     "aciklama": "Sogutozu / Ankara",
+     "url": "https://www.webolizma.com/"
+    }
+   ]
+  },
+  {
+   "baslik": "What to Check for SEO-Friendly Web Design",
+   "paragraflar": [
+    "A visually attractive site does not automatically mean a site that is visible in search. Ask about each criterion below at the proposal stage; to see the pre-launch checks step by step, share the [new website SEO checklist](/en/yeni-site-seo-kontrol-listesi) with the agency.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Criterion",
+       "Why it matters",
+       "Ask the agency for"
+      ],
+      "satirlar": [
+       [
+        "Page speed and Core Web Vitals",
+        "LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 are user experience thresholds",
+        "Pre-launch PageSpeed Insights results and a [Core Web Vitals](/en/core-web-vitals-2025) target"
+       ],
+       [
+        "URL structure",
+        "Short, meaningful, stable addresses reduce the need for later migrations",
+        "A sitemap plan and a [URL structure](/en/url-yapisi-seo) proposal"
+       ],
+       [
+        "Redirect plan",
+        "The old site's rankings are preserved with 301 redirects",
+        "An old-to-new URL mapping table"
+       ],
+       [
+        "Structured data",
+        "Helps Google understand the page",
+        "Organization, LocalBusiness or Product markup"
+       ],
+       [
+        "Mobile usability",
+        "Google evaluates sites mainly through their mobile version",
+        "A test report on real devices"
+       ],
+       [
+        "Ownership",
+        "The domain, hosting and source code should be yours",
+        "An ownership clause in the contract"
+       ]
+      ]
+     }
+    },
+    "If WordPress is the choice, the [WordPress site speed](/en/wordpress-site-hizi) article covers how themes and plugins affect speed."
+   ]
+  },
+  {
+   "baslik": "Questions to Ask a Web Design Agency",
+   "paragraflar": [
+    "The gap between two proposals usually comes from scope. Ask for written answers to these questions in the meeting.",
+    {
+     "kontrol": [
+      "If we have an existing site, who will prepare the 301 redirect map for every old URL?",
+      "Which speed and mobile tests will run before launch, and will the results be reported to us?",
+      "Who will write titles, meta descriptions, heading hierarchy and image alt text?",
+      "Are the XML sitemap, robots.txt and Search Console setup part of the delivery?",
+      "Which platform will be used (WordPress, Shopify, custom code) and why?",
+      "After launch, who is responsible for updates, security and backups?",
+      "In whose name will the domain, hosting and source code be registered?"
+     ]
+    },
+    "In migrations the redirect plan is the most often skipped item; check it against the [site migration SEO guide](/en/site-tasima-seo) and build rules with the [redirect generator](/en/redirect-generator).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Prevent ranking loss on launch day",
+      "metin": "Before the new site goes live, make sure the staging environment is blocked from indexing and that the noindex tag is removed on the live site. The traffic drop I see most often in the field comes from forgetting one of these two steps."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Factors That Set Web Design Pricing",
+   "paragraflar": [
+    "I deliberately give no price figures here; very different scopes are sold under the same name. When comparing proposals, equalise these variables.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📄",
+       "baslik": "Page count and content",
+       "metin": "Whether copy and images are produced by the agency or by you changes the total effort considerably."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "E-commerce and integrations",
+       "metin": "Payment, shipping, ERP or marketplace integrations add work compared with a corporate site. The [e-commerce SEO guide](/en/e-ticaret-seo) can help with platform choice."
+      },
+      {
+       "ikon": "🧩",
+       "baslik": "Theme or custom code",
+       "metin": "Custom design and custom software are more flexible but take longer and need different maintenance."
+      },
+      {
+       "ikon": "🌍",
+       "baslik": "Number of languages",
+       "metin": "A multilingual structure, hreflang setup and translation management widen the scope."
+      },
+      {
+       "ikon": "🔧",
+       "baslik": "Post-launch support",
+       "metin": "Whether maintenance, security updates and small improvements are included in a monthly package affects the total cost."
+      }
+     ]
+    },
+    "The lowest proposal is often the narrowest in scope; the real problem is scope missing from the contract."
+   ]
+  },
+  {
+   "baslik": "Agency or Freelance Developer?",
+   "paragraflar": [
+    "Not every project needs an agency; compare the two models.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Web design agency",
+       "tur": "iyi",
+       "maddeler": [
+        "Design, development, content and SEO in one team",
+        "The project continues even if staff change",
+        "More capacity for large, integration-heavy projects",
+        "Usually higher cost and longer approval cycles"
+       ]
+      },
+      "sag": {
+       "baslik": "Freelance developer",
+       "tur": "notr",
+       "maddeler": [
+        "Fast and flexible for small corporate sites",
+        "Direct communication, fewer intermediaries",
+        "Risk of depending on one person",
+        "SEO and content may need separate support"
+       ]
+      }
+     }
+    },
+    "Either way, an independent technical SEO check before launch reduces risk; the [technical SEO guide](/en/teknik-seo) summarises it. See also [how to choose an SEO agency](/en/seo-ajansi-nasil-secilir) and [Turkey's best 10 digital marketing agencies](/en/turkiye-en-iyi-10-dijital-pazarlama-ajansi-2026).",
+    "If you want to plan the SEO side of your new site or redesign together with your agency, see my [SEO consulting](/en/seo-consulting) service or [book a free intro call](/en/book-a-call).",
+    "The information in this list is not advice or a commitment. Verify proposals, references, service scope and contract terms directly with the agency concerned."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Web tasarım ajansı SEO hizmeti de vermeli mi?",
+   "c": "Şart değil, ancak sitenin teknik SEO temelini (hız, URL yapısı, yönlendirmeler, site haritası, yapısal veri) doğru kurması gerekir. İçerik ve bağlantı çalışması gibi süreklilik isteyen SEO işleri ayrı bir uzman ya da ajansla da yürütülebilir. Önemli olan iki tarafın yayın öncesinde aynı kontrol listesi üzerinde anlaşmasıdır."
+  },
+  {
+   "s": "Yeni site yayına alınınca Google sıralamaları düşer mi?",
+   "c": "Doğru planlanmış bir geçişte kalıcı kayıp beklenmez, ancak birkaç hafta dalgalanma olabilir. Eski URL'lerin 301 ile yeni karşılıklarına yönlendirilmesi, iç linklerin güncellenmesi ve yeni site haritasının Search Console'a gönderilmesi riski azaltır. Alan adı da değişiyorsa Search Console'daki adres değişikliği aracı kullanılır."
+  },
+  {
+   "s": "WordPress mi özel yazılım mı daha SEO uyumlu?",
+   "c": "İkisi de SEO uyumlu olabilir; belirleyici olan altyapının kendisi değil, nasıl kurulduğudur. WordPress hızlı yayın ve kolay içerik yönetimi sunar, ama ağır tema ve eklentiler hızı düşürebilir. Özel yazılımda ise sunucu tarafı işleme, meta etiketler ve site haritası gibi temellerin baştan planlanması gerekir."
+  },
+  {
+   "s": "Web sitesinin alan adı ve hosting'i kimin adına olmalı?",
+   "c": "Alan adı, hosting hesabı ve mümkünse kaynak kod işletmenin kendi adına kayıtlı olmalıdır. Ajans değişikliğinde erişim sorunu yaşamamak için bu maddeyi sözleşmeye yazdırın. Yönetici erişimlerinin bir kopyasını da kurum içinde saklayın."
+  },
+  {
+   "s": "Web tasarım projesi ne kadar sürer?",
+   "c": "Süre sayfa sayısına, içeriğin hazır olup olmamasına, entegrasyonlara ve onay hızına bağlıdır. Listedeki bazı ajanslar kurumsal siteler için birkaç haftalık takvimler beyan ediyor; e-ticaret ve özel yazılım projeleri daha uzun sürer. Teslim takvimini aşamalarıyla birlikte sözleşmede yazılı isteyin."
+  },
+  {
+   "s": "Ajansın şehri ne kadar önemli?",
+   "c": "Web tasarım işinin büyük kısmı uzaktan yürütülebiliyor, bu yüzden şehir çoğu projede belirleyici değil. Yerinde çekim, düzenli yüz yüze toplantı ya da yerel pazarı tanıma ihtiyacınız varsa yakın bir ajans avantaj sağlar."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should a web design agency also offer SEO?",
+   "c": "Not necessarily, but it must set up the technical SEO foundation correctly: speed, URL structure, redirects, sitemap and structured data. Ongoing content and link work can sit with a separate specialist, as long as both sides share one pre-launch checklist."
+  },
+  {
+   "s": "Will Google rankings drop when the new site goes live?",
+   "c": "A properly planned migration should not cause a lasting loss, although rankings may fluctuate for a few weeks. Redirecting old URLs to their new equivalents with 301s, updating internal links and submitting the new sitemap in Search Console reduce the risk. If the domain also changes, the Change of Address tool in Search Console is used."
+  },
+  {
+   "s": "Is WordPress or custom software more SEO-friendly?",
+   "c": "Both can be; setup matters more than the platform. WordPress is quick to publish and manage but heavy themes and plugins slow it down, while custom software needs rendering, meta tags and the sitemap planned from the start."
+  },
+  {
+   "s": "In whose name should the domain and hosting be registered?",
+   "c": "The domain, hosting account and, if possible, the source code should be registered in the business's own name. Put this in the contract so you do not lose access if you change agencies. Keep a copy of the admin credentials in-house as well."
+  },
+  {
+   "s": "How long does a web design project take?",
+   "c": "It depends on page count, content readiness, integrations and approval speed. Some agencies here state a few weeks for corporate sites; e-commerce and custom builds take longer. Get the phased schedule in writing."
+  },
+  {
+   "s": "How much does the agency's city matter?",
+   "c": "Most web design work can be done remotely, so the city rarely decides it. A nearby agency helps if you need on-site shoots, regular meetings or local market knowledge."
+  }
+ ]
+}

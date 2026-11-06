@@ -1,0 +1,461 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 7,
+ "baslik_tr": "Instagram SEO İçin 10 İpucu",
+ "baslik_en": "10 Instagram SEO Tips to Get Found in Search",
+ "meta_baslik_tr": "Instagram SEO İçin 10 İpucu ve Profil",
+ "meta_baslik_en": "10 Instagram SEO Tips for Search",
+ "meta_desc_tr": "Instagram araması kullanıcı adı, biyografi, açıklama ve konumu nasıl eşleştirir? Resmi açıklamalara dayanan 10 Instagram SEO ipucu.",
+ "meta_desc_en": "How Instagram search matches usernames, bios, captions and places. 10 Instagram SEO tips based on what Instagram itself has published.",
+ "ozet_tr": "Kullanıcı adından alt metne, Instagram'ın kendi açıkladığı arama sinyallerine dayanan 10 pratik ipucu.",
+ "ozet_en": "From username to alt text, 10 practical tips built on the search signals Instagram has publicly explained.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Instagram'da kuaför, kafe ya da butik arayan kişi çoğu zaman Google'a değil, doğrudan uygulamanın arama çubuğuna yazıyor. Sahada en sık gördüğüm durum, işletmenin güzel gönderiler paylaşıp aramada hiç çıkmaması. Kullanıcı adı anlamsız, biyografi yalnızca emoji, açıklamalarda tek bir anahtar kelime yok.",
+    "Bu yazıda Instagram'ın kendi açıkladığı arama sinyallerine dayanan 10 ipucunu sıralıyorum. Algoritma hakkında tahmin yürütmüyorum; her ipucu ya Instagram'ın resmi açıklamasına ya da sizin de test edebileceğiniz bir alışkanlığa dayanıyor.",
+    {
+     "alinti": "Kısa cevap: Instagram araması, yazılan metni kullanıcı adı, profil adı, biyografi, açıklama, hashtag ve konumlarla eşleştirir; ardından kişinin etkinliğine ve hesabın popülerliğine bakar. Instagram SEO, insanların gerçekten aradığı kelimeleri bu alanlara doğal biçimde yerleştirmek ve önerilebilir bir hesap olarak kalmaktır."
+    }
+   ]
+  },
+  {
+   "baslik": "Instagram araması hangi sinyallere bakar?",
+   "paragraflar": [
+    "Instagram, arama sonuçlarını nasıl sıraladığını resmi blogunda üç sinyal grubuyla anlatıyor. Bunların açık ara en önemlisi arama çubuğuna yazılan metin.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔤",
+       "baslik": "Yazılan metin",
+       "metin": "Instagram'a göre en önemli sinyal. Metin kullanıcı adları, biyografiler, açıklamalar, hashtag'ler ve konumlarla eşleştirilir."
+      },
+      {
+       "ikon": "👤",
+       "baslik": "Kullanıcının etkinliği",
+       "metin": "Takip edilen hesaplar, görüntülenen gönderiler ve geçmiş etkileşimler. Daha önce ziyaret edilen hesaplar genelde üstte çıkar."
+      },
+      {
+       "ikon": "📈",
+       "baslik": "Popülerlik",
+       "metin": "Çok sayıda eşleşme varsa hesabın, hashtag'in ya da konumun aldığı tıklama, beğeni, paylaşım ve takip sayısına bakılır."
+      }
+     ]
+    },
+    "İlk sinyali doğrudan siz kontrol edersiniz, diğer ikisi zamanla iyi içerikle oluşur. Hangi kelimeleri hedefleyeceğinizi bulmak için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) yöntem Instagram için de geçerli. Kendi sektör jargonunuzu değil, müşterinin kullandığı dili esas alın."
+   ]
+  },
+  {
+   "baslik": "Profil alanları için 4 ipucu",
+   "paragraflar": [
+    {
+     "alt": "1. Kullanıcı adını aranan konuyla ilişkilendirin"
+    },
+    "Instagram'ın tavsiyesi açık: içeriğinizle ilgili bir kullanıcı adı ya da profil adı kullanmak, aramada bulunmanın en sağlam yolu. Marka adınız zaten biliniyorsa onu koruyun. Yeni bir işletmeyseniz marka adına kısa bir konu ya da semt eki (ör. @atolyekahve.kadikoy) eklemeyi düşünebilirsiniz.",
+    {
+     "alt": "2. İsim alanına marka ve ana hizmeti birlikte yazın"
+    },
+    "Instagram, insanlar sizi belirli bir adla tanıyorsa o adı kullanıcı adınıza ya da profilinize eklemenizi öneriyor. “Selin Yılmaz” yerine “Selin Yılmaz | Gelinlik Tasarım” gibi bir isim, sizi adınızla bilmeyen kişiye de ne yaptığınızı söyler. Kelime yığmayın, tek bir ana hizmet yeterli.",
+    {
+     "alt": "3. Biyografiye anahtar kelime ve konum ekleyin"
+    },
+    "Instagram, kim olduğunuzu ve profilinizin neyi kapsadığını anlatan anahtar kelimeleri biyografiye eklemeyi, yerel bir hesapsanız konumu da yazmayı öneriyor. “Moda'da üçüncü dalga kahve ve ev yapımı tatlı” cümlesi, “Hayat kahveyle güzel” cümlesinden çok daha fazla aramayla eşleşir.",
+    {
+     "alt": "4. Profili web sitenize ve işletme kaydınıza bağlayın"
+    },
+    "Biyografi linki, Instagram'dan gelen ziyaretçiyi ölçülebilir hale getirir. Linke kampanya parametresi eklemek için [UTM oluşturucu aracını](/utm-olusturucu) kullanabilirsiniz. Fiziksel bir işletmeyseniz ad, adres ve telefonun [Google Business Profile](/google-business-profile) kaydınızdakiyle birebir aynı olmasına dikkat edin.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Aranabilir profil",
+       "tur": "iyi",
+       "maddeler": [
+        "Kullanıcı adı marka ve semti içeriyor",
+        "İsim alanı: Atölye Kahve | Kadıköy Kafe",
+        "Biyografide hizmet ve konum yazıyor",
+        "Biyografi linki UTM parametreli"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf profil",
+       "tur": "kotu",
+       "maddeler": [
+        "Kullanıcı adı rastgele harf ve rakam",
+        "İsim alanında yalnızca kısaltma",
+        "Biyografi yalnızca emoji",
+        "Link yok ya da ölçülmüyor"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Gönderi açıklamaları ve görseller için 4 ipucu",
+   "paragraflar": [
+    {
+     "alt": "5. Anahtar kelimeyi açıklamaya yazın, yoruma değil"
+    },
+    "Instagram, anahtar kelimeleri ve hashtag'leri yorumlara değil açıklamaya koymayı öneriyor. İlk cümlede gönderinin konusunu açıkça söyleyin. “Kadıköy'de glutensiz brownie tarifimizi denediniz mi?” cümlesi hem okuru hem de aramayı karşılar.",
+    {
+     "alt": "6. Hashtag'leri az ve konuya uygun seçin"
+    },
+    "Hashtag'ler aramada eşleşen alanlardan biri, ancak Instagram resmi bir “ideal hashtag sayısı” vermiyor. Benim önerim, gönderiyi gerçekten tanımlayan birkaç hashtag seçmek ve her gönderiye aynı uzun listeyi yapıştırmamak.",
+    {
+     "alt": "7. Gönderilere konum etiketi ekleyin"
+    },
+    "Instagram araması konumları da eşleştiriyor. Yerel bir işletme için gönderiye ve Reels videosuna doğru konumu eklemek, o semti arayan kişinin karşısına çıkma şansı verir. Konum adının Google'daki işletme adınızla tutarlı olması da karışıklığı önler.",
+    {
+     "alt": "8. Alt metni boş bırakmayın"
+    },
+    "Instagram fotoğraflar için otomatik alt metin üretiyor, ayrıca paylaşım ekranındaki gelişmiş ayarlardan kendi alt metninizi yazabiliyorsunuz. Instagram alt metni ekran okuyucu kullananlar için bir erişilebilirlik özelliği olarak tanımlıyor ve aramaya etkisi hakkında resmi bir açıklama yapmadı. Yine de görseli kelimelerle doğru anlatmak iyi bir alışkanlık; web sitesindeki karşılığı için [görsel SEO tekniklerine](/gorsel-seo) bakabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Türkçe yazım testi",
+      "metin": "Müşteriniz “kuaför” yerine “kuafor”, “Kadıköy” yerine “kadikoy” yazabilir. Hedef kelimenizi uygulamada iki yazımla da aratın ve hangi hesapların çıktığını not edin. Biyografi ve açıklamalarda doğru Türkçe yazımı kullanmaya devam edin."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Önerilebilir kalmak ve Google görünürlüğü için 2 ipucu",
+   "paragraflar": [
+    {
+     "alt": "9. Özgün içerik paylaşın ve Hesap Durumu'nu kontrol edin"
+    },
+    "Instagram'ın öneri yönergeleri Keşfet ve Reels'in yanında Arama için de geçerli. Instagram, başka yerde paylaşılmış ya da belirgin filigranlı Reels videolarını daha az önerdiğini açıklıyor. Hesap Durumu ekranı ise hesabınızın aramada ve önerilen hesaplarda görünmeye uygun olup olmadığını gösteriyor; uygun değilse inceleme talep edebiliyorsunuz.",
+    {
+     "alt": "10. Arama motorlarında görünme ayarını bilinçli yönetin"
+    },
+    "Instagram Yardım Merkezi'nde, herkese açık fotoğraf ve videoların arama motorlarınca dizine eklenebileceği ve bunun nasıl kapatılacağı anlatılıyor. Hangi hesap türlerini kapsadığını ve ayarın uygulamadaki güncel adını Yardım Merkezi'nden kontrol edin. Bu görünürlüğü isteyen bir işletme için gönderinin ne anlattığını ilk cümlede söylemek ayrıca önem kazanır.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Instagram web sitesinin yerini tutmaz",
+      "metin": "Instagram profili kendi uygulamasında aranan bir vitrindir. Hizmet ayrıntıları, fiyat soruları ve uzun anlatımlar için sahibi olduğunuz web sitesi hâlâ temel kaynaktır."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hangi Instagram alanına ne yazılmalı?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Ne yazılmalı",
+       "Instagram'ın resmi açıklaması"
+      ],
+      "satirlar": [
+       [
+        "Kullanıcı adı",
+        "Marka ya da konu, gerekirse semt",
+        "İçerikle ilgili kullanıcı adı önerilir"
+       ],
+       [
+        "İsim alanı",
+        "Marka adı ve ana hizmet",
+        "Sizi bildikleri adı profilinize ekleyin"
+       ],
+       [
+        "Biyografi",
+        "Hizmet, uzmanlık, konum",
+        "Anahtar kelime ve konum önerilir"
+       ],
+       [
+        "Açıklama",
+        "Konuyu söyleyen ilk cümle ve birkaç hashtag",
+        "Kelime ve hashtag yoruma değil açıklamaya"
+       ],
+       [
+        "Konum etiketi",
+        "Doğru işletme konumu",
+        "Aramada konumlar da eşleştirilir"
+       ],
+       [
+        "Alt metin",
+        "Görselin kısa ve doğru tanımı",
+        "Erişilebilirlik özelliği olarak tanımlanır"
+       ]
+      ]
+     }
+    },
+    "Sitenizdeki hizmet sayfaları ve blog yazıları için yürüttüğünüz [içerik stratejisi](/icerik-stratejisi) ile Instagram'daki kelime seçimi aynı müşteri dilinden beslenmeli. Kısa video tarafını da ele alıyorsanız [TikTok SEO taktikleri](/tiktok-seo) yazısı bu listeyi tamamlıyor."
+   ]
+  },
+  {
+   "baslik": "Instagram SEO için aylık kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Hedef 3-5 kelimeyi Instagram aramasında aratıp çıkan hesapları not ettim",
+      "Kullanıcı adı, isim alanı ve biyografi bu kelimelerle uyumlu",
+      "Son gönderilerin ilk cümlesi konuyu açıkça söylüyor",
+      "Yerel gönderilerde konum etiketi var",
+      "Fotoğraflarda alt metin boş bırakılmadı",
+      "Hesap Durumu ekranında öneri ya da arama kısıtı görünmüyor",
+      "Biyografi linkinden gelen trafik GA4'te ayrı izleniyor"
+     ]
+    },
+    "Reklamla desteklenen gönderilerde hangi mesajın tuttuğunu görmek için [Meta Ads verisini içerik stratejisine taşıma](/meta-ads-ve-seo) yöntemini kullanabilirsiniz. Bu işi bir ajansa vermeyi düşünüyorsanız [sosyal medya ajansı seçerken](/sosyal-medya-ajansi-nasil-secilir) Instagram aramasını nasıl ele aldıklarını mutlaka sorun."
+   ]
+  },
+  {
+   "baslik": "Instagram'ı web sitesi ve yerel SEO ile birleştirmek",
+   "paragraflar": [
+    "Yerel bir işletme için Instagram, Google Haritalar ve web sitesi aynı müşteriye üç farklı kapıdan ulaşır. Ad, adres ve telefonun her yerde aynı olması güven verir; yerel aramanın genel çerçevesi [yerel SEO rehberinde](/yerel-seo) anlatılıyor.",
+    "Reels videolarını web sitenizde de kullanacaksanız [video SEO](/video-seo) yazısındaki izleme sayfası ilkelerine bakın. Instagram ile sitenizin içerik planını birlikte kurmak isterseniz [içerik hizmeti](/icerik) sayfasından nasıl çalıştığıma göz atabilir ya da doğrudan [ücretsiz bir ön görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "People looking for a hairdresser, a café or a boutique often skip Google and type straight into Instagram's search bar. The most common case I see is a business with beautiful posts that never shows up in search, because the username, bio and captions say nothing about what it does.",
+    "This post lists 10 tips built on the search signals Instagram itself has explained. I am not guessing about the algorithm; every tip rests either on an official Instagram statement or on a habit you can test yourself.",
+    {
+     "alinti": "Short answer: Instagram search matches the text people type against usernames, profile names, bios, captions, hashtags and places, then looks at the searcher's activity and the account's popularity. Instagram SEO means placing the words people actually search for in those fields naturally and staying eligible for recommendations."
+    }
+   ]
+  },
+  {
+   "baslik": "Which signals does Instagram search use?",
+   "paragraflar": [
+    "Instagram's official blog describes search ranking with three groups of signals. By far the most important one is the text typed into the search bar.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔤",
+       "baslik": "Text entered",
+       "metin": "The most important signal according to Instagram. It is matched against usernames, bios, captions, hashtags and places."
+      },
+      {
+       "ikon": "👤",
+       "baslik": "Your activity",
+       "metin": "Accounts you follow, posts you viewed and past interactions. Accounts you have visited usually rank higher for you."
+      },
+      {
+       "ikon": "📈",
+       "baslik": "Popularity",
+       "metin": "When many results match, Instagram looks at clicks, likes, shares and follows for an account, hashtag or place."
+      }
+     ]
+    },
+    "The method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) works on Instagram too. Start from the words your customers use, not your industry jargon."
+   ]
+  },
+  {
+   "baslik": "4 tips for your profile fields",
+   "paragraflar": [
+    {
+     "alt": "1. Tie your username to what people search for"
+    },
+    "Instagram's advice is plain: a handle or profile name related to the content of your posts is your best bet. If your brand name is already known, keep it. If you are a new business, consider adding a short topic or neighbourhood to the brand name (for example @atolyekahve.kadikoy).",
+    {
+     "alt": "2. Put your brand and main service in the name field"
+    },
+    "Instagram suggests that if people know you by a certain name, you include it in your username or profile. A name such as “Selin Yilmaz | Bridal Design” tells someone who does not know you by name what you actually do. Do not stuff keywords; one main service is enough.",
+    {
+     "alt": "3. Add keywords and location to your bio"
+    },
+    "Instagram recommends adding keywords about who you are and what your profile covers, and adding your location if you are a local account. “Third wave coffee and homemade desserts in Moda” matches far more searches than a line like “Life is better with coffee”.",
+    {
+     "alt": "4. Connect the profile to your website and business listing"
+    },
+    "The bio link makes Instagram visitors measurable. Use the [UTM builder](/en/utm-builder) to add campaign parameters. If you have a physical location, make sure your name, address and phone match your [Google Business Profile](/en/google-business-profile) listing exactly.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Searchable profile",
+       "tur": "iyi",
+       "maddeler": [
+        "Username includes brand and neighbourhood",
+        "Name field shows brand and main service",
+        "Bio states service and location",
+        "Bio link carries UTM parameters"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak profile",
+       "tur": "kotu",
+       "maddeler": [
+        "Username is random letters and numbers",
+        "Name field is only an abbreviation",
+        "Bio is only emoji",
+        "No link, or a link nobody measures"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "4 tips for captions and images",
+   "paragraflar": [
+    {
+     "alt": "5. Put keywords in the caption, not the comments"
+    },
+    "Instagram advises putting keywords and hashtags in the caption rather than in the comments. Say what the post is about in the first sentence. “Have you tried our gluten free brownie in Kadikoy?” serves both the reader and search.",
+    {
+     "alt": "6. Use a few relevant hashtags"
+    },
+    "Hashtags are one of the fields search matches against, but Instagram does not publish an “ideal number”. My advice is to choose a handful that genuinely describe the post and to stop pasting the same long block under every post.",
+    {
+     "alt": "7. Tag a location on your posts"
+    },
+    "Instagram search also matches places. For a local business, adding the right location to posts and Reels gives you a chance to appear for people searching that area.",
+    {
+     "alt": "8. Do not leave alt text empty"
+    },
+    "Instagram generates automatic alt text for photos, and you can write your own from the advanced settings on the post screen. Instagram describes alt text as an accessibility feature for screen reader users and has not said anything official about its effect on search. Describing the image accurately is still a good habit; for the website side, see the [image SEO techniques](/en/gorsel-seo).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Test spelling variants",
+      "metin": "In Turkey, people often type without Turkish characters, for example “kuafor” instead of “kuaför”. Search your target term both ways in the app and note which accounts appear. Keep using correct spelling in your bio and captions."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tips for staying recommendable and visible on Google",
+   "paragraflar": [
+    {
+     "alt": "9. Post original content and check Account Status"
+    },
+    "Instagram's Recommendation Guidelines apply to Search as well as Explore and Reels. Instagram says it recommends reposted Reels or Reels with visible watermarks less often. The Account Status screen shows whether your account is eligible to appear in Search and as a suggested account, and you can request a review if it is not.",
+    {
+     "alt": "10. Manage search engine visibility on purpose"
+    },
+    "Instagram's Help Center explains that public photos and videos may be indexed by search engines and how to turn this off. Check the Help Center for which account types it covers and the current name of the setting in the app.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Instagram does not replace your website",
+      "metin": "An Instagram profile is a storefront searched inside one app. Service details, pricing questions and long explanations still belong on a website you own."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "What to write in each Instagram field",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Field",
+       "What to write",
+       "What Instagram officially says"
+      ],
+      "satirlar": [
+       [
+        "Username",
+        "Brand or topic, neighbourhood if useful",
+        "Use a handle related to your content"
+       ],
+       [
+        "Name field",
+        "Brand name and main service",
+        "Add the name people know you by"
+       ],
+       [
+        "Bio",
+        "Service, specialty, location",
+        "Keywords and location are recommended"
+       ],
+       [
+        "Caption",
+        "A first sentence that states the topic, plus a few hashtags",
+        "Keywords and hashtags go in the caption"
+       ],
+       [
+        "Location tag",
+        "Your correct business location",
+        "Search also matches places"
+       ],
+       [
+        "Alt text",
+        "A short, accurate description",
+        "Described as an accessibility feature"
+       ]
+      ]
+     }
+    },
+    "The words you choose on Instagram should come from the same customer language as your website's [content strategy](/en/icerik-stratejisi). If you also work on short video, the [TikTok SEO tactics](/en/tiktok-seo) post completes this list."
+   ]
+  },
+  {
+   "baslik": "Monthly Instagram SEO checklist",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "I searched my 3 to 5 target terms in Instagram and noted the accounts that appear",
+      "Username, name field and bio match those terms",
+      "The first sentence of recent posts states the topic clearly",
+      "Local posts have a location tag",
+      "Photos do not have empty alt text",
+      "Account Status shows no recommendation or search restriction",
+      "Traffic from the bio link is tracked separately in GA4"
+     ]
+    },
+    "To see which messages work in boosted posts, use the method in [bringing Meta Ads data into content strategy](/en/meta-ads-ve-seo). If you plan to outsource this, ask how they handle Instagram search when [choosing a social media agency](/en/sosyal-medya-ajansi-nasil-secilir)."
+   ]
+  },
+  {
+   "baslik": "Connecting Instagram with your website and local SEO",
+   "paragraflar": [
+    "For a local business, Instagram, Google Maps and the website reach the same customer through three doors. Using the same name, address and phone everywhere builds trust; the wider framework is in the [local SEO guide](/en/yerel-seo).",
+    "If you reuse Reels on your website, follow the watch page principles in the [video SEO](/en/video-seo) post. If you want to plan Instagram and your site's content together, see how I work on the [content strategy service](/en/content-strategy) page or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Instagram'da profesyonel hesaba geçmek aramada öne çıkarır mı?",
+   "c": "Instagram, profesyonel hesabın aramada avantaj sağladığına dair resmi bir açıklama yapmadı. Profesyonel hesap size istatistikler ve iletişim seçenekleri gibi araçlar verir; bu veriler hangi içeriğin keşfedildiğini anlamanızı kolaylaştırır. Aramadaki eşleşme ise yine kullanıcı adı, isim, biyografi ve açıklamadaki metne dayanır."
+  },
+  {
+   "s": "Instagram'da hashtag mi anahtar kelime mi daha önemli?",
+   "c": "Instagram ikisini de aramada eşleştirilen alanlar arasında sayıyor ve ikisinin de açıklamaya yazılmasını öneriyor. Açıklamada konuyu anlatan doğal bir cümle kurup birkaç ilgili hashtag eklemek dengeli bir yaklaşım. Yalnızca hashtag listesinden oluşan açıklama, gönderinin ne anlattığını okura söylemez."
+  },
+  {
+   "s": "Yayınladıktan sonra açıklamayı düzenlemek işe yarar mı?",
+   "c": "Açıklamayı sonradan düzenleyebilirsiniz; Instagram Yardım Merkezi mevcut bir gönderinin açıklamasını ekleme, düzenleme ve silme adımlarını anlatıyor. Hâlâ ilgi gören eski gönderilerin ilk cümlesini netleştirmek pratik bir düzeltme. Etkisini görmek için profil ziyaretlerini birkaç hafta izleyin."
+  },
+  {
+   "s": "Reels mi fotoğraf mı aramada daha çok çıkar?",
+   "c": "Instagram arama için içerik türüne göre bir öncelik açıklamadı. Reels'in kendi öneri yüzeyi var ve Instagram orada izleyenin zamanına değecek, özgün içerik aradığını söylüyor. Aramadaki eşleşme için belirleyici olan yine açıklama, hashtag ve konum gibi metin alanları."
+  },
+  {
+   "s": "Instagram SEO sonuçlarını nasıl ölçerim?",
+   "c": "Profesyonel hesap istatistiklerinde takipçi olmayan hesaplara ulaşım ve profil ziyaretleri ilk göstergedir. Biyografi linkine UTM ekleyip GA4'te Instagram'dan gelen oturumları ve dönüşümleri izleyin. Hangi göstergelerin rapora gireceği için [izlenmesi gereken SEO KPI'ları](/seo-kpi) yazısına bakabilirsiniz."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does switching to a professional account help in Instagram search?",
+   "c": "Instagram has not said that professional accounts get any search advantage. A professional account gives you tools such as insights and contact options, which make it easier to see what content gets discovered. Search matching still relies on the text in your username, name, bio and captions."
+  },
+  {
+   "s": "Are hashtags or keywords more important on Instagram?",
+   "c": "Instagram lists both among the fields search matches against and recommends putting both in the caption. A natural sentence that explains the topic plus a few relevant hashtags is a balanced approach. A caption made only of hashtags does not tell the reader what the post is about."
+  },
+  {
+   "s": "Does editing a caption after publishing help?",
+   "c": "You can edit it later; the Instagram Help Center explains how to add, edit or delete the caption of an existing post. Clarifying the first sentence of older posts that still get attention is a practical fix. Watch profile visits for a few weeks to see the effect."
+  },
+  {
+   "s": "Do Reels or photos show up more in search?",
+   "c": "Instagram has not published a content type priority for search. Reels have their own recommendation surface, where Instagram says it looks for original content worth the viewer's time. For search matching, the deciding factors are still text fields such as caption, hashtags and location."
+  },
+  {
+   "s": "How do I measure Instagram SEO results?",
+   "c": "In professional account insights, reach among non-followers and profile visits are the first indicators. Add UTM parameters to the bio link and track sessions and conversions from Instagram in GA4. For which metrics belong in a report, see the post on [SEO KPIs to track](/en/seo-kpi)."
+  }
+ ]
+}

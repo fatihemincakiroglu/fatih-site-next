@@ -1,0 +1,385 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 9,
+ "baslik_tr": "Görsel SEO İçin 10 Optimizasyon Tekniği",
+ "baslik_en": "10 Image SEO Optimization Techniques",
+ "meta_baslik_tr": "Görsel SEO İçin 10 Optimizasyon Tekniği",
+ "meta_baslik_en": "10 Image SEO Optimization Techniques",
+ "meta_desc_tr": "Alt metin, dosya adı, WebP ve AVIF, srcset, lazy loading, görsel site haritası ve ImageObject ile görsel SEO için 10 teknik, Google'ın kurallarıyla.",
+ "meta_desc_en": "Ten image SEO techniques based on Google's guidelines, covering alt text, file names, WebP and AVIF, srcset, lazy loading, image sitemaps and markup.",
+ "ozet_tr": "Google Görseller dokümanına dayanan 10 görsel SEO tekniği, alt metinden lazy loading ve görsel site haritasına.",
+ "ozet_en": "Ten image SEO techniques based on Google's Images documentation, from alt text to lazy loading and image sitemaps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Görseller hem Google Görseller'den trafik getirebilir hem de sayfa hızını en çok etkileyen öğelerdendir. Google'ın kendi dokümanı, görsellerin genellikle sayfa boyutuna en büyük katkıyı yapan unsur olduğunu söyler. Yani görsel SEO hem görünürlük hem de performans işidir.",
+    "Bu yazıda Google'ın görsel SEO en iyi uygulamaları dokümanına dayanan 10 tekniği anlatıyorum. Hız tarafının ayrıntısı [Core Web Vitals yazısında](/core-web-vitals-2025), teknik altyapının bütünü [teknik SEO rehberinde](/teknik-seo).",
+    {
+     "alinti": "Kısa cevap: Görselleri HTML img öğesiyle ekleyin, açıklayıcı alt metin ve anlamlı dosya adı verin, WebP ya da AVIF gibi verimli formatlar ve srcset ile doğru boyut sunun. Ekranın altında kalan görselleri lazy loading ile yükleyin ama LCP görselini asla lazy yüklemeyin. Görsel site haritası ve yapısal veri, Google'ın görselleri bulmasına ve doğru göstermesine yardımcı olur."
+    }
+   ]
+  },
+  {
+   "baslik": "Google görselleri nasıl buluyor ve anlıyor?",
+   "paragraflar": [
+    "Google görseli önce sayfanın HTML'inde bulur, sonra alt metin, dosya adı, çevresindeki metin, sayfa başlığı ve yapısal veriden ne anlattığını çıkarır. Bu yüzden aşağıdaki tekniklerin ilk yarısı keşif ve anlam, ikinci yarısı hız ve ek sinyallerle ilgili.",
+    {
+     "liste": [
+      "**Keşif:** Teknik 1, 7 ve 9 (img öğesi, lazy loading, site haritası)",
+      "**Anlam:** Teknik 2, 3 ve 8 (alt metin, dosya adı, bağlam)",
+      "**Hız:** Teknik 4, 5 ve 6 (format, boyut, srcset)",
+      "**Ek sinyaller:** Teknik 10 (yapısal veri ve görsel meta verisi)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Keşif ve anlam için 3 temel teknik",
+   "paragraflar": [
+    {
+     "alt": "1. Görselleri HTML img öğesiyle ekleyin"
+    },
+    "Google'ın dokümanı CSS ile eklenen görselleri dizine eklemediğini açıkça yazar. Ürün fotoğrafı, infografik ya da aramada bulunmasını istediğiniz her görsel, src özelliği olan bir img öğesiyle verilmeli. CSS arka planını yalnızca dekoratif görseller için kullanın.",
+    {
+     "alt": "2. Açıklayıcı alt metin yazın"
+    },
+    "Google'a göre alt metin görsel için en önemli meta veridir; görselin konusunu anlamasına yardım eder ve ekran okuyucu kullananlar için de gereklidir. Görseli kısa ve bağlama uygun biçimde anlatın, anahtar kelimeleri art arda dizmeyin.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İyi alt metin",
+       "tur": "iyi",
+       "maddeler": [
+        "Kahverengi deri sırt çantası, ön cepli model",
+        "İstanbul Kadıköy şubemizin giriş kapısı",
+        "LCP değerinin 2,5 saniye eşiğini gösteren grafik"
+       ]
+      },
+      "sag": {
+       "baslik": "Zayıf alt metin",
+       "tur": "kotu",
+       "maddeler": [
+        "resim1",
+        "çanta çanta ucuz çanta deri çanta en iyi çanta",
+        "Boş bırakılmış ya da dosya adıyla aynı alt metin"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "3. Anlamlı dosya adı kullanın"
+    },
+    "Google, dosya adının görselin konusu hakkında ipucu verebileceğini ve IMG00023.JPG gibi genel adlardan kaçınılması gerektiğini söyler. \"kahverengi-deri-sirt-cantasi.webp\" gibi kısa, tireyle ayrılmış adlar seçin. Sahada Türkçe karakterleri dosya adında ASCII karşılıklarıyla yazmayı tercih ediyorum, çünkü bazı CMS ve CDN'ler bu karakterleri tutarsız kodluyor."
+   ]
+  },
+  {
+   "baslik": "Hız ve boyut için 3 teknik",
+   "paragraflar": [
+    {
+     "alt": "4. WebP ya da AVIF gibi verimli formatlar seçin"
+    },
+    "Google Arama BMP, GIF, JPEG, PNG, WebP, SVG ve AVIF formatlarını destekler. Fotoğraflarda WebP ya da AVIF genellikle aynı görsel kalitede daha küçük dosya sağlar; eski tarayıcılar için picture öğesiyle yedek format sunabilirsiniz. Dosya uzantısının gerçek formatla aynı olmasına dikkat edin.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Format",
+       "En uygun kullanım",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "AVIF",
+        "Fotoğraf ve büyük görseller",
+        "Picture ile yedek format önerilir"
+       ],
+       [
+        "WebP",
+        "Fotoğraf, ürün görseli, şeffaf görsel",
+        "Geniş tarayıcı desteği"
+       ],
+       [
+        "JPEG",
+        "Yedek format olarak fotoğraf",
+        "Şeffaflık desteklemez"
+       ],
+       [
+        "PNG",
+        "Ekran görüntüsü, keskin kenarlı grafik",
+        "Fotoğrafta dosya büyük olur"
+       ],
+       [
+        "SVG",
+        "Logo, ikon, basit çizim",
+        "Vektör, her boyutta net"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "5. Görseli gösterileceği boyutta sunun ve sıkıştırın"
+    },
+    "800 piksel genişlikte gösterilecek bir alana 4000 piksellik fotoğraf yüklemek, en sık gördüğüm hız hatasıdır. Görseli gösterim boyutuna göre ölçeklendirin, makul bir kalite ayarıyla sıkıştırın ve img öğesine width ile height verin; bu, yüklenirken düzenin kaymasını (CLS) önler. Hızlı ama net görseller Google'ın da önerdiği yaklaşımdır.",
+    {
+     "alt": "6. srcset ve sizes ile duyarlı görsel kullanın"
+    },
+    "Google, duyarlı görseller için srcset ve sizes özelliklerini ya da picture öğesini destekler ve her durumda src ile bir yedek URL verilmesini ister. Böylece telefon küçük, masaüstü büyük dosyayı indirir.",
+    {
+     "kod": "<img src=\"/img/deri-canta-800.webp\"\n     srcset=\"/img/deri-canta-400.webp 400w,\n             /img/deri-canta-800.webp 800w,\n             /img/deri-canta-1600.webp 1600w\"\n     sizes=\"(max-width: 600px) 100vw, 800px\"\n     width=\"800\" height=\"600\"\n     alt=\"Kahverengi deri sırt çantası, ön cepli model\"\n     loading=\"lazy\">"
+    }
+   ]
+  },
+  {
+   "baslik": "Lazy loading ve bağlam için 2 teknik",
+   "paragraflar": [
+    {
+     "alt": "7. Lazy loading kullanın, LCP görseli hariç"
+    },
+    "Ekranın altında kalan görsellerde tarayıcının yerleşik loading=\"lazy\" özelliği yeterlidir ve görsel src'si HTML'de bulunduğu için Google görseli yine görür. İlk ekrandaki büyük görsel ise çoğu zaman LCP öğesidir; onu lazy yüklemek LCP'yi geciktirir. Bu görseli normal yükleyin ve fetchpriority=\"high\" ile önceliklendirin. Mobil sürümde de ana içeriği kullanıcı etkileşimine bağlı lazy loading ile gizlemeyin; ayrıntılar [mobil SEO yazısında](/mobil-seo).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "WordPress ve hazır temalarda kontrol edin",
+      "metin": "Bazı temalar ve eklentiler sayfadaki tüm görsellere lazy loading ekler, buna kahraman görseli de dahildir. PageSpeed Insights'ta LCP öğesinin lazy yüklenip yüklenmediğine bakın. Diğer hız adımları için [WordPress site hızı yazısı](/wordpress-site-hizi)."
+     }
+    },
+    {
+     "alt": "8. Görseli ilgili metnin yanına yerleştirin"
+    },
+    "Google, görselleri konuyla ilgili sayfalarda ve ilgili metnin yakınında kullanmanızı önerir; sayfa başlığı ve açıklaması da görsel sonuçlarda kullanılabilir. Ürün sayfalarında görseli ürün açıklamasıyla desteklemek bu yüzden önemli; yöntem için [e-ticaret ürün açıklaması yazısı](/e-ticaret-urun-aciklamasi). Aynı görseli farklı sayfalarda aynı URL ile kullanmak da Google'ın önbelleğe almasını kolaylaştırır."
+   ]
+  },
+  {
+   "baslik": "Site haritası ve yapısal veri için 2 teknik",
+   "paragraflar": [
+    {
+     "alt": "9. Görsel site haritası ekleyin"
+    },
+    "Google, başka yolla bulamayabileceği görseller için görsel site haritası kullanmanızı önerir; CDN'de barındırılan görseller de listelenebilir. 2022'den beri Google yalnızca image:image ve image:loc etiketlerini destekliyor; başlık ve açıklama gibi eski etiketleri eklemenize gerek yok.",
+    {
+     "kod": "<url>\n  <loc>https://example.com/deri-sirt-cantasi</loc>\n  <image:image>\n    <image:loc>https://cdn.example.com/img/deri-canta-1600.webp</image:loc>\n  </image:image>\n</url>"
+    },
+    {
+     "alt": "10. Yapısal veri ve görsel meta verisi ekleyin"
+    },
+    "Product, Article ya da Recipe gibi işaretlemelerde image özelliği zengin sonuç uygunluğu için gereklidir. Görsel lisanslıyorsanız ImageObject ile license, acquireLicensePage, creator, creditText ve copyrightNotice bilgilerini verebilirsiniz; Google'a göre license içeren işaretleme görseli \"Lisanslanabilir\" rozeti için uygun hâle getirebilir, gösterimi kesin değildir. Doğru tipler için [schema ve yapısal veri rehberi](/schema-yapisal-veri), kod için [schema oluşturucu](/schema-olusturucu)."
+   ]
+  },
+  {
+   "baslik": "Görsel SEO hangi sitelerde öncelikli?",
+   "paragraflar": [
+    "Görsel aramadan gelen trafik her sektörde aynı değerde değil. Ürünün görünüşünün satın alma kararını etkilediği e-ticaret, mobilya, moda, turizm ve tarif siteleri en çok fayda sağlar. Bu sitelerde görsel optimizasyonu [e-ticaret SEO rehberindeki](/e-ticaret-seo) katalog yapısıyla birlikte planlamak gerekir; video içerik de kullanıyorsanız [video SEO](/video-seo) yazısı tamamlayıcıdır.",
+    "Binlerce ürün görselinin bulunduğu mağazalarda bu işi şablon düzeyinde ele alıyorum; [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) ve hız tarafı için [performans hizmeti](/performans) sayfalarına göz atabilir ya da doğrudan [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Images can bring traffic from Google Images, and they are also among the elements that affect page speed most. Google's own documentation says images are often the largest contributor to overall page size. Image SEO is therefore about both visibility and performance.",
+    "This article covers 10 techniques based on Google's image SEO best practices documentation. The speed side is covered in detail in the [Core Web Vitals article](/en/core-web-vitals-2025), and the wider technical foundation in the [technical SEO guide](/en/teknik-seo).",
+    {
+     "alinti": "Short answer: Add images with the HTML img element, give them descriptive alt text and meaningful file names, and serve the right size in efficient formats such as WebP or AVIF with srcset. Lazy-load images below the fold but never the LCP image. Image sitemaps and structured data help Google find images and display them correctly."
+    }
+   ]
+  },
+  {
+   "baslik": "How does Google find and understand images?",
+   "paragraflar": [
+    "Google first finds an image in the page HTML, then works out what it shows from the alt text, file name, surrounding text, page title and structured data. That is why the first techniques below deal with discovery and meaning, and the later ones with speed and extra signals.",
+    {
+     "liste": [
+      "**Discovery:** Techniques 1, 7 and 9 (img element, lazy loading, sitemap)",
+      "**Meaning:** Techniques 2, 3 and 8 (alt text, file name, context)",
+      "**Speed:** Techniques 4, 5 and 6 (format, size, srcset)",
+      "**Extra signals:** Technique 10 (structured data and image metadata)"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Three core techniques for discovery and meaning",
+   "paragraflar": [
+    {
+     "alt": "1. Add images with the HTML img element"
+    },
+    "Google's documentation states plainly that it does not index CSS images. Product photos, infographics and any image you want found in search should use an img element with a src attribute. Keep CSS backgrounds for decorative images only.",
+    {
+     "alt": "2. Write descriptive alt text"
+    },
+    "Google calls alt text the most important metadata for an image; it helps Google understand the subject and is essential for screen reader users. Describe the image briefly and in context, and do not stuff keywords.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Good alt text",
+       "tur": "iyi",
+       "maddeler": [
+        "Brown leather backpack with a front pocket",
+        "Entrance of our Kadikoy, Istanbul branch",
+        "Chart showing the 2.5 second LCP threshold"
+       ]
+      },
+      "sag": {
+       "baslik": "Weak alt text",
+       "tur": "kotu",
+       "maddeler": [
+        "image1",
+        "bag bag cheap bag leather bag best bag",
+        "Empty alt text, or alt text identical to the file name"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "3. Use meaningful file names"
+    },
+    "Google says a file name can give clues about an image's subject and recommends avoiding generic names like IMG00023.JPG. Choose short, hyphenated names such as \"brown-leather-backpack.webp\". For Turkish sites I prefer writing Turkish characters as ASCII in file names, because some CMSs and CDNs encode them inconsistently."
+   ]
+  },
+  {
+   "baslik": "Three techniques for speed and size",
+   "paragraflar": [
+    {
+     "alt": "4. Choose efficient formats like WebP or AVIF"
+    },
+    "Google Search supports BMP, GIF, JPEG, PNG, WebP, SVG and AVIF. For photos, WebP or AVIF usually give a smaller file at the same visual quality, and the picture element lets you offer a fallback for older browsers. Make sure the file extension matches the actual format.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Format",
+       "Best for",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "AVIF",
+        "Photos and large images",
+        "A picture fallback is advisable"
+       ],
+       [
+        "WebP",
+        "Photos, product images, transparent images",
+        "Broad browser support"
+       ],
+       [
+        "JPEG",
+        "Photos as a fallback format",
+        "No transparency"
+       ],
+       [
+        "PNG",
+        "Screenshots, sharp-edged graphics",
+        "Large files for photos"
+       ],
+       [
+        "SVG",
+        "Logos, icons, simple illustrations",
+        "Vector, sharp at any size"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "5. Serve images at display size and compress them"
+    },
+    "Uploading a 4000-pixel photo into a slot displayed at 800 pixels is the speed mistake I see most. Scale images to their display size, compress them at a sensible quality setting and give the img element width and height to prevent layout shift (CLS) while loading. Fast but sharp images are what Google recommends too.",
+    {
+     "alt": "6. Use responsive images with srcset and sizes"
+    },
+    "Google supports the srcset and sizes attributes, or the picture element, for responsive images, and asks you to always provide a fallback URL in src. That way phones download a small file and desktops a large one.",
+    {
+     "kod": "<img src=\"/img/leather-backpack-800.webp\"\n     srcset=\"/img/leather-backpack-400.webp 400w,\n             /img/leather-backpack-800.webp 800w,\n             /img/leather-backpack-1600.webp 1600w\"\n     sizes=\"(max-width: 600px) 100vw, 800px\"\n     width=\"800\" height=\"600\"\n     alt=\"Brown leather backpack with a front pocket\"\n     loading=\"lazy\">"
+    }
+   ]
+  },
+  {
+   "baslik": "Two techniques for lazy loading and context",
+   "paragraflar": [
+    {
+     "alt": "7. Use lazy loading, except for the LCP image"
+    },
+    "For images below the fold, the browser's built-in loading=\"lazy\" attribute is enough, and because the src is in the HTML Google still sees the image. The large image in the first screen is often the LCP element, and lazy-loading it delays LCP. Load it normally and prioritise it with fetchpriority=\"high\". On mobile, do not hide primary content behind lazy loading that waits for user interaction either; see [mobile SEO](/en/mobil-seo).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Check WordPress and off-the-shelf themes",
+      "metin": "Some themes and plugins add lazy loading to every image on the page, including the hero image. Check in PageSpeed Insights whether the LCP element is lazy-loaded. For other speed steps, see [speeding up WordPress](/en/wordpress-site-hizi)."
+     }
+    },
+    {
+     "alt": "8. Place images next to relevant text"
+    },
+    "Google recommends using images on pages about the same topic and near related text, and the page title and description may be used in image results. That is why supporting product images with a proper product description matters; see [writing ecommerce product descriptions](/en/e-ticaret-urun-aciklamasi). Reusing the same image URL across pages also makes caching easier for Google."
+   ]
+  },
+  {
+   "baslik": "Two techniques for sitemaps and structured data",
+   "paragraflar": [
+    {
+     "alt": "9. Add an image sitemap"
+    },
+    "Google recommends image sitemaps for images it might not otherwise find, and images hosted on a CDN can be listed too. Since 2022 Google supports only the image:image and image:loc tags, so there is no need for the old title or caption tags.",
+    {
+     "kod": "<url>\n  <loc>https://example.com/leather-backpack</loc>\n  <image:image>\n    <image:loc>https://cdn.example.com/img/leather-backpack-1600.webp</image:loc>\n  </image:image>\n</url>"
+    },
+    {
+     "alt": "10. Add structured data and image metadata"
+    },
+    "In markup such as Product, Article or Recipe, the image property is required for rich result eligibility. If you license images, ImageObject lets you provide license, acquireLicensePage, creator, creditText and copyrightNotice; Google says markup that includes license can make an image eligible for the Licensable badge, though display is not assured. See the [schema and structured data guide](/en/schema-yapisal-veri) for types and the [schema generator](/en/schema-generator) for code."
+   ]
+  },
+  {
+   "baslik": "Which sites should prioritise image SEO?",
+   "paragraflar": [
+    "Traffic from image search is not equally valuable in every sector. Ecommerce, furniture, fashion, travel and recipe sites, where appearance drives the decision, benefit most. On these sites, plan image optimisation together with the catalogue structure in the [ecommerce SEO guide](/en/e-ticaret-seo); if you also use video, the [video SEO](/en/video-seo) article complements this one.",
+    "For stores with thousands of product images I handle this at template level; see [ecommerce SEO consulting](/en/ecommerce-seo-consulting) and, for the speed side, [performance and growth](/en/performance-growth), or simply [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Her görsele alt metin yazmak gerekir mi?",
+   "c": "Bilgi taşıyan her görsele evet. Yalnızca süs amaçlı görsellerde boş alt özelliği (alt=\"\") kullanmak erişilebilirlik açısından doğru kabul edilir; ekran okuyucular bu görselleri atlar."
+  },
+  {
+   "s": "Görsel başlığı (title özelliği) SEO'ya katkı sağlar mı?",
+   "c": "Google'ın görsel dokümanı en önemli meta veri olarak alt metni öne çıkarır. title özelliği kullanıcıya fareyle üzerine gelince ipucu gösterir; alt metnin yerine geçmez."
+  },
+  {
+   "s": "Görsellerimin başka sitelerde Google'da görünmesini engelleyebilir miyim?",
+   "c": "Google'ın dokümanı, görselin satır içi gösterimini istemiyorsanız istek Google alan adından geldiğinde 200 ya da 204 yanıtıyla içerik dönmemenizi anlatır. Görseli aramadan tamamen kaldırmak için ise robots.txt ya da noindex gibi ayrı yöntemler vardır."
+  },
+  {
+   "s": "Yapay zekâ ile üretilmiş görselleri kullanmak sorun olur mu?",
+   "c": "Google'ın görsel dokümanında yapay zekâ görselini yasaklayan bir kural yok. Görsel meta verisinde IPTC Digital Source Type alanıyla görselin nasıl üretildiğini belirtebilirsiniz; ürün görsellerinde ise gerçek ürünü yansıtmayan görseller güveni zedeler."
+  },
+  {
+   "s": "CDN kullanmak görsel SEO'yu etkiler mi?",
+   "c": "Olumsuz etkilemez; görseller farklı bir alan adında barındırılabilir ve görsel site haritasında listelenebilir. CDN alan adını Search Console'da doğrulamak tarama hatalarını görmenize yardımcı olur."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does every image need alt text?",
+   "c": "Every image that carries information does. For purely decorative images, an empty alt attribute (alt=\"\") is considered correct for accessibility; screen readers skip those images."
+  },
+  {
+   "s": "Does the image title attribute help SEO?",
+   "c": "Google's image documentation highlights alt text as the most important metadata. The title attribute shows a tooltip on hover and is not a substitute for alt text."
+  },
+  {
+   "s": "Can I stop my images from being shown inline in Google results?",
+   "c": "Google's documentation describes responding with 200 or 204 and no content when the request comes from a Google domain if you do not want inline display. Removing an image from search entirely uses separate methods such as robots.txt or noindex."
+  },
+  {
+   "s": "Is it a problem to use AI-generated images?",
+   "c": "Google's image documentation has no rule against AI images. You can state how an image was created with the IPTC Digital Source Type field in image metadata; on product pages, images that do not reflect the real product damage trust."
+  },
+  {
+   "s": "Does using a CDN affect image SEO?",
+   "c": "Not negatively; images can be hosted on another domain and listed in an image sitemap. Verifying the CDN domain in Search Console helps you see crawl errors."
+  }
+ ]
+}

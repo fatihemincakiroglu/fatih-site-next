@@ -1,0 +1,675 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 10,
+ "baslik_tr": "ChatGPT İçin En İyi 20 SEO Promptu",
+ "baslik_en": "20 Best ChatGPT Prompts for SEO",
+ "meta_baslik_tr": "ChatGPT İçin 20 Hazır SEO Promptu",
+ "meta_baslik_en": "20 Ready-to-Use ChatGPT SEO Prompts",
+ "meta_desc_tr": "Anahtar kelime, içerik brifi, meta, schema, regex, iç link ve rakip analizi için kopyalanabilir 20 ChatGPT promptu ve her biri için doğrulama notu.",
+ "meta_desc_en": "20 copy-ready ChatGPT prompts for keywords, briefs, meta tags, schema, regex, internal links and competitor analysis, each with a verification note.",
+ "ozet_tr": "Yedi kategoride kopyalanabilir 20 SEO promptu ve her çıktıyı yayına almadan önce neyi kontrol etmeniz gerektiği.",
+ "ozet_en": "20 copy-ready SEO prompts in seven categories, plus what to check before you use each output.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "ChatGPT'den iyi SEO çıktısı almanın sırrı, aracı veriyle beslemek ve neyi yapmaması gerektiğini açıkça söylemektir. Aşağıdaki 20 prompt, kendi projelerimde tekrar tekrar kullandığım kalıplardan derlendi. Köşeli parantez içindeki alanları kendi verinizle doldurun.",
+    "ChatGPT'nin SEO'da nerede işe yarayıp nerede yanılttığını [ChatGPT ile SEO](/chatgpt-ile-seo) yazısında ayrıntılı anlattım. Bu yazı doğrudan kullanıma hazır promptlara odaklanıyor; her promptun altında çıktıyı neyle doğrulamanız gerektiğini yazdım.",
+    {
+     "alinti": "Kısa cevap: En iyi SEO promptları bağlam, gerçek veri, net görev, çıktı biçimi ve kısıt içerir. ChatGPT'yi anahtar kelime sınıflandırma, içerik brifi, meta önerisi, JSON-LD taslağı, regex, iç link ve rakip karşılaştırması için kullanın; hacim, sıralama ve istatistik için değil. Her çıktıyı resmi araç ya da kendi verinizle doğrulayın."
+    }
+   ]
+  },
+  {
+   "baslik": "İyi bir SEO promptu nasıl kurulur?",
+   "paragraflar": [
+    "Listedeki promptların hepsi aynı beş parçadan oluşuyor. Kendi promptunuzu yazarken bu yapıyı şablon olarak kullanabilirsiniz.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎭",
+       "baslik": "Rol",
+       "metin": "Kimin gözüyle bakacağını söyleyin: teknik SEO uzmanı, editör, e-ticaret yöneticisi."
+      },
+      {
+       "ikon": "📎",
+       "baslik": "Veri",
+       "metin": "Search Console dışa aktarımı, URL listesi, mevcut metin. Veri yoksa araç tahmin eder."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Görev",
+       "metin": "Tek ve ölçülebilir bir iş isteyin: sınıflandır, grupla, öner, karşılaştır."
+      },
+      {
+       "ikon": "📋",
+       "baslik": "Biçim",
+       "metin": "Tablo, CSV, madde listesi ya da JSON. Biçim belli olunca çıktıyı doğrudan kullanırsınız."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "Kısıt",
+       "metin": "Uydurma rakam verme, bilmediğini belirt, şu terimleri kullanma gibi sınırlar."
+      }
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Zayıf prompt",
+       "tur": "kotu",
+       "maddeler": [
+        "SEO için anahtar kelime öner",
+        "Veri yok, bağlam yok",
+        "Biçim belirsiz",
+        "Araç hacim uydurabilir"
+       ]
+      },
+      "sag": {
+       "baslik": "Güçlü prompt",
+       "tur": "iyi",
+       "maddeler": [
+        "Ekteki 200 sorguyu niyete göre sınıflandır",
+        "Search Console verisi ekli",
+        "Tablo biçimi istenmiş",
+        "Emin olmadığını belirsiz işaretle kısıtı var"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Anahtar kelime araştırması promptları",
+   "paragraflar": [
+    {
+     "alt": "1. Arama niyetine göre sınıflandırma"
+    },
+    {
+     "kod": "Sen deneyimli bir SEO uzmanısın. Aşağıdaki anahtar kelime listesini arama niyetine göre sınıflandır: bilgi, ticari araştırma, işlem, navigasyon. Sonucu tablo olarak ver: anahtar kelime | niyet | tek cümlelik gerekçe. Emin olmadığın satırları 'belirsiz' olarak işaretle.\nListe:\n[ANAHTAR KELİMELERİ YAPIŞTIR]"
+    },
+    "**Doğrulama:** 'Belirsiz' çıkan sorguları Google'da arayıp ilk sayfadaki sonuç türüne bakın. Niyeti asıl belirleyen, Google'ın o sorguda gösterdiği sayfalardır.",
+    {
+     "alt": "2. Aynı sayfada hedeflenecek grupları bulma"
+    },
+    {
+     "kod": "Aşağıdaki anahtar kelimeleri aynı sayfada hedeflenebilecek gruplara ayır. Aynı niyeti taşıyan ve aynı içerikle cevaplanabilecek sorguları birleştir. Her grup için bir ana anahtar kelime ve önerilen sayfa türü (blog, kategori, ürün, hizmet) yaz. Arama hacmi tahmini yapma.\n[LİSTE]"
+    },
+    "**Doğrulama:** İki sorgunun ilk sayfa sonuçları büyük ölçüde aynıysa tek sayfada birleştirmek mantıklıdır. Yöntemin tamamı [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi).",
+    {
+     "alt": "3. Uzun kuyruk soru üretme"
+    },
+    {
+     "kod": "[KONU] hakkında Türkiye'deki kullanıcıların Google'a yazabileceği 30 soru üret. Günlük dil kullan. Türkçe karakter olmadan yazılmış yaygın varyasyonları (ör. 'nasil', 'fiyatlari') ayrı bir sütunda göster. Soruları bilgi ve satın alma niyetine göre ikiye ayır."
+    },
+    "**Doğrulama:** Üretilen sorular fikir listesidir. Gerçekten aranıp aranmadığını Search Console, Google Trends ya da bir anahtar kelime aracıyla kontrol edin.",
+    {
+     "alt": "4. Search Console fırsat sorguları"
+    },
+    {
+     "kod": "Ekteki Search Console sorgu dışa aktarımında sütunlar şunlar: sorgu, tıklama, gösterim, CTR, ortalama konum. Ortalama konumu 4 ile 15 arasında olan, gösterimi yüksek ama CTR'si aynı konumdaki diğer sorgulara göre düşük kalan 20 sorguyu bul. Her biri için olası nedeni (başlık uyumsuzluğu, niyet farkı, SERP özelliği) ve önerilen aksiyonu yaz."
+    },
+    "**Doğrulama:** Seçilen sorguları Search Console'da filtreleyip rakamları tek tek kontrol edin. Raporların okunuşu için [Search Console rehberi](/search-console-rehberi) işinize yarar."
+   ]
+  },
+  {
+   "baslik": "İçerik taslağı ve brif promptları",
+   "paragraflar": [
+    {
+     "alt": "5. İçerik brifi"
+    },
+    {
+     "kod": "[ANAHTAR KELİME] için bir içerik brifi hazırla: hedef okuyucu, arama niyeti, önerilen H2 ve H3 yapısı, cevaplanması gereken sorular, eklenmesi gereken özgün örnek ya da veri önerileri. Hiçbir rakam veya istatistik uydurma; kaynak gereken yerleri [KAYNAK GEREKLİ] olarak işaretle."
+    },
+    "**Doğrulama:** Brifi ilk sayfadaki sonuçlarla karşılaştırın ve sizin ekleyebileceğiniz deneyimi belirleyin. Brifin hangi konu kümesine ait olduğunu [içerik stratejisi rehberi](/icerik-stratejisi) netleştirir.",
+    {
+     "alt": "6. Kısa cevap paragrafı"
+    },
+    {
+     "kod": "Aşağıdaki yazının ana sorusu: [SORU]. Bu soruyu doğrudan cevaplayan, 2-3 cümlelik, tanım ve ana öneriyi içeren bir 'kısa cevap' paragrafı yaz. Pazarlama dili ve abartı kullanma.\n[METİN]"
+    },
+    "**Doğrulama:** Paragraf, metnin geri kalanıyla çelişmemeli. Kısa cevabın her iddiası gövdede desteklenmiş olmalı.",
+    {
+     "alt": "7. Eski içerikte eksikleri bulma"
+    },
+    {
+     "kod": "Aşağıdaki yazıyı ve hedef sorguyu incele. Eksik alt konuları, güncelliğini yitirmiş olabilecek ifadeleri (tarih, sürüm, özellik adı) ve tekrar eden bölümleri madde madde listele. Metni yeniden yazma, yalnızca liste ver.\nSorgu: [SORGU]\nMetin: [METİN]"
+    },
+    "**Doğrulama:** 'Güncelliğini yitirmiş' işaretlenen her ifadeyi resmi kaynakta kontrol edin; araç güncel olanı da eski sanabilir.",
+    {
+     "alt": "8. SSS soruları"
+    },
+    {
+     "kod": "Aşağıdaki yazının gövdesinde cevaplanmamış ama okurun gerçekten sorabileceği 6 soru öner. Her biri için 2-3 cümlelik, net bir cevap yaz. Gövdede zaten cevaplanan soruları tekrar etme.\n[METİN]"
+    },
+    "**Doğrulama:** Cevapları uzmanlığınızla düzeltin. FAQPage işaretlemesi geçerli kalır ama Google, Mayıs 2026'dan beri SSS zengin sonuçlarını Arama'da göstermiyor."
+   ]
+  },
+  {
+   "baslik": "Meta başlık ve açıklama promptları",
+   "paragraflar": [
+    {
+     "alt": "9. Başlık etiketi varyasyonları"
+    },
+    {
+     "kod": "Aşağıdaki sayfa için 5 farklı title öner. Ana anahtar kelime başa yakın olsun, marka adı sonda yer alsın, arama sonucunda kesilmemesi için kısa tut. Her öneriyi karakter sayısıyla ver.\nSayfa konusu: [KONU]\nAna anahtar kelime: [ANAHTAR KELİME]\nMarka: [MARKA]"
+    },
+    "**Doğrulama:** ChatGPT karakter sayısını yanlış hesaplayabilir. Önerileri [SERP önizleme aracında](/serp-onizleme) deneyin; Google başlığı yine de yeniden yazabilir.",
+    {
+     "alt": "10. Meta açıklama"
+    },
+    {
+     "kod": "Aşağıdaki sayfa için tıklamaya teşvik eden, sayfada gerçekten bulunan bilgiyi özetleyen 3 meta açıklama yaz. Her biri 150 karakteri geçmesin, abartılı vaat içermesin.\n[SAYFA METNİ]"
+    },
+    "**Doğrulama:** Açıklamadaki her vaadin sayfada karşılığı olsun. Kuralların tamamı [meta başlık ve açıklama kuralları](/meta-baslik-aciklama-kurallari) yazısında.",
+    {
+     "alt": "11. Toplu kategori meta etiketleri"
+    },
+    {
+     "kod": "Ekteki CSV'de URL, kategori adı ve üst kategori sütunları var. Her satır için bir title ve bir meta description üret. Aynı kalıbı tekrar etme, kategoriye özgü bir ayrıntı kullan. Çıktıyı aynı sütunlara iki yeni sütun ekleyerek CSV olarak ver."
+    },
+    "**Doğrulama:** İlk 20 satırı elle okuyun; kalıp tekrarı ve yanlış kategori bilgisi en sık görülen sorunlardır."
+   ]
+  },
+  {
+   "baslik": "Schema yapısal veri promptları",
+   "paragraflar": [
+    {
+     "alt": "12. JSON-LD taslağı"
+    },
+    {
+     "kod": "Aşağıdaki bilgilerle LocalBusiness türünde JSON-LD üret. Yalnızca verdiğim alanları kullan, bilmediğin hiçbir alanı ekleme veya tahmin etme.\nAd: [AD]\nAdres: [ADRES]\nTelefon: [TELEFON]\nÇalışma saatleri: [SAATLER]\nURL: [URL]"
+    },
+    "**Doğrulama:** Kodu Google'ın Zengin Sonuç Testi'nde kontrol edin. Hazır bir alternatif için [schema oluşturucu](/schema-olusturucu) aracını kullanabilirsiniz.",
+    {
+     "alt": "13. Mevcut işaretlemede hata bulma"
+    },
+    {
+     "kod": "Aşağıdaki JSON-LD kodunu sözdizimi hataları, yanlış özellik adları ve sayfadaki görünür içerikle uyuşmayan değerler açısından incele. Hataları liste halinde ver, ardından düzeltilmiş kodu yaz.\n[KOD]"
+    },
+    "**Doğrulama:** Hangi türün hangi özellikleri gerektirdiğini Google'ın yapısal veri dokümanından teyit edin; [schema ve yapısal veri rehberi](/schema-yapisal-veri) bu kontrolü adım adım anlatıyor."
+   ]
+  },
+  {
+   "baslik": "Regex ve veri analizi promptları",
+   "paragraflar": [
+    {
+     "alt": "14. Soru sorgularını filtreleyen regex"
+    },
+    {
+     "kod": "Google Search Console performans raporunda soru içeren Türkçe sorguları filtrelemek için Search Console'un regex filtresinde çalışacak bir ifade yaz. Şu kelimeleri kapsasın: nasıl, nedir, neden, ne zaman, kaç, hangi, mi, mı, mu, mü. Türkçe karakter olmadan yazılmış hallerini de ekle (nasil, kac). Regex'i ve neyi yakalayıp neyi kaçırabileceğini açıkla."
+    },
+    "**Doğrulama:** Regex'i önce küçük bir sorgu listesinde deneyin. 'mi' gibi kısa ekler istemediğiniz kelimeleri de yakalayabilir; kelime sınırı kullanıp kullanmadığına bakın.",
+    {
+     "alt": "15. Marka ve markasız sorguları ayırma"
+    },
+    {
+     "kod": "Markamın adı [MARKA]. Search Console'un regex filtresinde marka sorgularını ayıracak bir ifade yaz. Yaygın yazım hatalarını, boşluklu ve bitişik yazımları, Türkçe karakterli ve karaktersiz halleri kapsasın."
+    },
+    "**Doğrulama:** Filtreyi uyguladıktan sonra markasız tarafta kalan ilk 50 sorguyu okuyun; gözden kaçan bir yazım varsa regex'e ekleyin.",
+    {
+     "alt": "16. Google E-Tablolar formülü"
+    },
+    {
+     "kod": "Google E-Tablolar'da A sütununda tam URL'ler var. B sütununa URL'nin ilk klasörünü (ör. /blog/) çıkaran bir REGEXEXTRACT formülü yaz. Klasör yoksa boş bırakılsın. Formülü ve nasıl çalıştığını açıkla."
+    },
+    "**Doğrulama:** Formülü kök URL, parametreli URL ve sonu eğik çizgisiz URL üzerinde test edin."
+   ]
+  },
+  {
+   "baslik": "İç link promptları",
+   "paragraflar": [
+    {
+     "alt": "17. Yeni yazı için iç link önerisi"
+    },
+    {
+     "kod": "Aşağıda sitemdeki sayfaların URL ve başlık listesi, ardından yeni yazımın metni var. Yeni yazıdan link verilebilecek en alakalı 5 sayfayı seç. Her biri için metindeki uygun cümleyi ve doğal, anahtar kelime içeren bir bağlantı metni öner. 'Buraya tıklayın' gibi ifadeler kullanma.\nSayfalar: [LİSTE]\nYazı: [METİN]"
+    },
+    "**Doğrulama:** Önerilen URL'lerin gerçekten listede olduğunu kontrol edin; araç bazen var olmayan adres üretir. İlkeler için [iç linkleme](/ic-linkleme) yazısına bakın.",
+    {
+     "alt": "18. Az link alan sayfalar"
+    },
+    {
+     "kod": "Ekteki tarama dışa aktarımında URL, başlık ve gelen iç link sayısı sütunları var. Gelen iç linki 3'ten az olan sayfaları listele ve her biri için konu olarak en yakın 3 kaynak sayfayı öner."
+    },
+    "**Doğrulama:** Önerileri trafik getiren sayfalarla eşleştirin; her az linkli sayfa öncelikli değildir."
+   ]
+  },
+  {
+   "baslik": "Rakip analizi promptları",
+   "paragraflar": [
+    {
+     "alt": "19. Rakip başlık yapısı karşılaştırması"
+    },
+    {
+     "kod": "Aşağıda aynı sorguda ilk sayfada yer alan üç rakip sayfanın H2 ve H3 başlıkları var. Üç grup halinde listele: hepsinde ortak olan konular, yalnızca birinde olan konular, hiçbirinde olmayan ama kullanıcının sorabileceği konular.\n[BAŞLIKLAR]"
+    },
+    "**Doğrulama:** Başlıkları sayfalardan kendiniz kopyalayın; araçtan rakip sayfayı 'okumasını' istemek eksik ya da eski sonuç verebilir.",
+    {
+     "alt": "20. Hizmet sayfası değer önerisi karşılaştırması"
+    },
+    {
+     "kod": "Aşağıda benim ve iki rakibin hizmet sayfası metinleri var. Değer önerisi, güven öğeleri (referans, sertifika, süreç açıklaması), fiyat bilgisini sunma biçimi ve harekete geçirici mesajları tablo halinde karşılaştır. Benim sayfamda eksik olanları ayrı bir listede ver."
+    },
+    "**Doğrulama:** Tablo bir başlangıç noktasıdır; kararı müşteri görüşmeleri ve dönüşüm verisiyle verin. Yöntemin tamamı [SEO rakip analizi](/rakip-analizi-seo) yazısında."
+   ]
+  },
+  {
+   "baslik": "Prompt çıktısını neyle doğrulamalı?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Kategori",
+       "Promptu besleyecek veri",
+       "Doğrulama aracı"
+      ],
+      "satirlar": [
+       [
+        "Anahtar kelime",
+        "Search Console sorguları, araç dışa aktarımı",
+        "Google sonuç sayfası, Search Console"
+       ],
+       [
+        "İçerik taslağı",
+        "Mevcut metin, rakip başlıkları",
+        "Uzman okuması, resmi kaynaklar"
+       ],
+       [
+        "Meta etiketler",
+        "Sayfa metni, kategori listesi",
+        "SERP önizleme"
+       ],
+       [
+        "Schema",
+        "İşletme bilgileri, mevcut kod",
+        "Zengin Sonuç Testi"
+       ],
+       [
+        "Regex ve formül",
+        "Örnek sorgu ve URL listesi",
+        "Küçük örneklemde test"
+       ],
+       [
+        "İç link",
+        "URL ve başlık listesi, tarama verisi",
+        "Tarama aracı"
+       ]
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Çıktıdaki her rakam kendi veri kaynağınızdan mı geliyor?",
+      "Önerilen URL'ler sitenizde gerçekten var mı?",
+      "Kod ve regex küçük bir örneklemde test edildi mi?",
+      "Metin sizin deneyiminizi ve örneğinizi içeriyor mu?"
+     ]
+    },
+    "Yapay zekâ çıktısını yayına alırken Google'ın ne beklediğini [yapay zekâ içeriği ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında özetledim. ChatGPT dışındaki seçenekler için [yapay zekâ destekli SEO araçları](/en-iyi-yapay-zeka-seo-araclari) listesine bakabilirsiniz.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Veri gizliliği",
+      "metin": "Müşteri adı, e-posta ya da sipariş verisi içeren dosyaları yüklemeden önce anonimleştirin. Hangi verinin paylaşılabileceğini şirket politikanız ve KVKK belirler."
+     }
+    },
+    "Promptları kendi içerik sürecinize oturtmak ya da ekibinize uygun bir iş akışı kurmak isterseniz [içerik hizmeti](/icerik) sayfasına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The secret to good SEO output from ChatGPT is feeding it data and saying clearly what it must not do. The 20 prompts below come from patterns I use again and again in my own projects. Fill the fields in square brackets with your own data.",
+    "I explain where ChatGPT helps and where it misleads in [SEO with ChatGPT](/en/chatgpt-ile-seo). This post focuses on ready-to-use prompts, and under each one I note what to verify the output against.",
+    {
+     "alinti": "Short answer: The best SEO prompts include context, real data, a clear task, an output format and constraints. Use ChatGPT for keyword classification, content briefs, meta suggestions, JSON-LD drafts, regex, internal links and competitor comparison, not for volume, rankings or statistics. Verify every output with an official tool or your own data."
+    }
+   ]
+  },
+  {
+   "baslik": "How do you build a good SEO prompt?",
+   "paragraflar": [
+    "Every prompt in this list uses the same five parts. You can use this structure as a template for your own prompts.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎭",
+       "baslik": "Role",
+       "metin": "Say whose eyes it should use: technical SEO, editor, ecommerce manager."
+      },
+      {
+       "ikon": "📎",
+       "baslik": "Data",
+       "metin": "A Search Console export, a URL list, existing copy. Without data the tool guesses."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Task",
+       "metin": "Ask for one measurable job: classify, group, suggest, compare."
+      },
+      {
+       "ikon": "📋",
+       "baslik": "Format",
+       "metin": "Table, CSV, bullet list or JSON. A fixed format makes the output usable right away."
+      },
+      {
+       "ikon": "🚫",
+       "baslik": "Constraint",
+       "metin": "Limits such as do not invent numbers, flag what you do not know, avoid these terms."
+      }
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Weak prompt",
+       "tur": "kotu",
+       "maddeler": [
+        "Suggest keywords for SEO",
+        "No data, no context",
+        "Unclear format",
+        "The tool may invent volume"
+       ]
+      },
+      "sag": {
+       "baslik": "Strong prompt",
+       "tur": "iyi",
+       "maddeler": [
+        "Classify the attached 200 queries by intent",
+        "Search Console data attached",
+        "Table format requested",
+        "Includes a mark-uncertain-rows constraint"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Keyword research prompts",
+   "paragraflar": [
+    {
+     "alt": "1. Classify by search intent"
+    },
+    {
+     "kod": "You are an experienced SEO specialist. Classify the keyword list below by search intent: informational, commercial investigation, transactional, navigational. Return a table: keyword | intent | one-sentence reason. Mark rows you are unsure about as 'unclear'.\nList:\n[PASTE KEYWORDS]"
+    },
+    "**Verify:** Search the 'unclear' queries on Google and look at the result types on page one. What Google shows for a query is what really defines its intent.",
+    {
+     "alt": "2. Group keywords for one page"
+    },
+    {
+     "kod": "Group the keywords below into sets that can be targeted by a single page. Merge queries with the same intent that one piece of content can answer. For each group, give a primary keyword and a suggested page type (blog, category, product, service). Do not estimate search volume.\n[LIST]"
+    },
+    "**Verify:** If two queries share most of their page-one results, one page makes sense. The full method is in the [keyword research guide](/en/anahtar-kelime-arastirmasi).",
+    {
+     "alt": "3. Generate long-tail questions"
+    },
+    {
+     "kod": "Generate 30 questions that users in [COUNTRY] might type into Google about [TOPIC]. Use everyday language. Show common misspellings and variants in a separate column. Split the questions into informational and purchase intent."
+    },
+    "**Verify:** The questions are an idea list. Check whether people actually search them with Search Console, Google Trends or a keyword tool.",
+    {
+     "alt": "4. Search Console opportunity queries"
+    },
+    {
+     "kod": "The attached Search Console query export has these columns: query, clicks, impressions, CTR, average position. Find 20 queries with an average position between 4 and 15, high impressions and a CTR below other queries at similar positions. For each, give a likely cause (title mismatch, intent gap, SERP feature) and a suggested action."
+    },
+    "**Verify:** Filter the chosen queries in Search Console and check the numbers one by one. The [Search Console guide](/en/search-console-rehberi) explains how to read the reports."
+   ]
+  },
+  {
+   "baslik": "Content draft and brief prompts",
+   "paragraflar": [
+    {
+     "alt": "5. Content brief"
+    },
+    {
+     "kod": "Prepare a content brief for [KEYWORD]: target reader, search intent, suggested H2 and H3 structure, questions to answer, and ideas for original examples or data to add. Do not invent any numbers or statistics; mark places that need a source as [SOURCE NEEDED]."
+    },
+    "**Verify:** Compare the brief with page-one results and decide what experience you can add. The [content strategy guide](/en/icerik-stratejisi) clarifies which topic cluster the brief belongs to.",
+    {
+     "alt": "6. Short answer paragraph"
+    },
+    {
+     "kod": "The main question of the article below is: [QUESTION]. Write a 2-3 sentence 'short answer' paragraph that answers it directly with a definition and the main recommendation. No marketing language or hype.\n[TEXT]"
+    },
+    "**Verify:** The paragraph must not contradict the rest of the text. Every claim in the short answer should be supported in the body.",
+    {
+     "alt": "7. Find gaps in old content"
+    },
+    {
+     "kod": "Review the article and target query below. List missing subtopics, statements that may be outdated (dates, versions, feature names) and repeated sections as bullet points. Do not rewrite the text, only give the list.\nQuery: [QUERY]\nText: [TEXT]"
+    },
+    "**Verify:** Check every statement flagged as outdated against an official source; the tool can mistake current facts for old ones.",
+    {
+     "alt": "8. FAQ questions"
+    },
+    {
+     "kod": "Suggest 6 questions a reader might genuinely ask that the body of the article below does not answer. Write a clear 2-3 sentence answer for each. Do not repeat questions the body already answers.\n[TEXT]"
+    },
+    "**Verify:** Correct the answers with your own expertise. FAQPage markup remains valid, but since May 2026 Google no longer shows FAQ rich results in Search."
+   ]
+  },
+  {
+   "baslik": "Meta title and description prompts",
+   "paragraflar": [
+    {
+     "alt": "9. Title tag variations"
+    },
+    {
+     "kod": "Suggest 5 different title tags for the page below. Keep the primary keyword near the start and the brand name at the end, and keep it short enough not to be truncated in search results. Give each with its character count.\nPage topic: [TOPIC]\nPrimary keyword: [KEYWORD]\nBrand: [BRAND]"
+    },
+    "**Verify:** ChatGPT can miscount characters. Test the options in the [SERP preview tool](/en/serp-preview); Google may still rewrite the title.",
+    {
+     "alt": "10. Meta description"
+    },
+    {
+     "kod": "Write 3 meta descriptions for the page below that encourage clicks and summarize information that is actually on the page. Keep each under 150 characters with no exaggerated promises.\n[PAGE TEXT]"
+    },
+    "**Verify:** Every promise in the description must be backed up on the page. The full rules are in [meta title and description rules](/en/meta-baslik-aciklama-kurallari).",
+    {
+     "alt": "11. Bulk category meta tags"
+    },
+    {
+     "kod": "The attached CSV has URL, category name and parent category columns. Generate a title and a meta description for each row. Do not repeat the same pattern; use a detail specific to each category. Return a CSV with the same columns plus two new ones."
+    },
+    "**Verify:** Read the first 20 rows by hand; repeated patterns and wrong category details are the most common problems."
+   ]
+  },
+  {
+   "baslik": "Schema structured data prompts",
+   "paragraflar": [
+    {
+     "alt": "12. JSON-LD draft"
+    },
+    {
+     "kod": "Generate LocalBusiness JSON-LD with the details below. Use only the fields I provide; do not add or guess any field you do not know.\nName: [NAME]\nAddress: [ADDRESS]\nPhone: [PHONE]\nOpening hours: [HOURS]\nURL: [URL]"
+    },
+    "**Verify:** Check the code in Google's Rich Results Test. For a ready-made alternative, use the [schema generator](/en/schema-generator).",
+    {
+     "alt": "13. Debug existing markup"
+    },
+    {
+     "kod": "Review the JSON-LD below for syntax errors, wrong property names and values that do not match the visible content of the page. List the errors, then write the corrected code.\n[CODE]"
+    },
+    "**Verify:** Confirm which properties each type needs in Google's structured data documentation; the [schema and structured data guide](/en/schema-yapisal-veri) walks through this check."
+   ]
+  },
+  {
+   "baslik": "Regex and data analysis prompts",
+   "paragraflar": [
+    {
+     "alt": "14. Regex for question queries"
+    },
+    {
+     "kod": "Write a regex for the Google Search Console performance report filter that matches question queries. Cover: how, what, why, when, where, which, who, can, does, is. Explain what it matches and what it might miss."
+    },
+    "**Verify:** Test the regex on a small query list first. Short words such as 'is' can match queries you do not want; check whether word boundaries are used.",
+    {
+     "alt": "15. Separate branded and non-branded queries"
+    },
+    {
+     "kod": "My brand name is [BRAND]. Write a regex for the Search Console regex filter that isolates branded queries. Cover common misspellings, spaced and joined spellings, and versions with and without accents."
+    },
+    "**Verify:** After applying the filter, read the top 50 non-branded queries; add any missed spelling to the regex.",
+    {
+     "alt": "16. Google Sheets formula"
+    },
+    {
+     "kod": "In Google Sheets, column A has full URLs. Write a REGEXEXTRACT formula for column B that extracts the first folder of the URL (for example /blog/). Leave it blank if there is no folder. Explain how the formula works."
+    },
+    "**Verify:** Test the formula on a root URL, a URL with parameters and a URL without a trailing slash."
+   ]
+  },
+  {
+   "baslik": "Internal linking prompts",
+   "paragraflar": [
+    {
+     "alt": "17. Internal links for a new article"
+    },
+    {
+     "kod": "Below is a list of URLs and titles on my site, followed by the text of my new article. Pick the 5 most relevant pages to link to from the new article. For each, suggest the right sentence and a natural, keyword-rich anchor text. Do not use phrases like 'click here'.\nPages: [LIST]\nArticle: [TEXT]"
+    },
+    "**Verify:** Check that the suggested URLs really exist in your list; the tool sometimes invents addresses. See [internal linking](/en/ic-linkleme) for the principles.",
+    {
+     "alt": "18. Pages with few links"
+    },
+    {
+     "kod": "The attached crawl export has URL, title and inlinks columns. List pages with fewer than 3 internal inlinks and suggest the 3 closest source pages by topic for each."
+    },
+    "**Verify:** Match the suggestions against pages that bring traffic; not every page with few links is a priority."
+   ]
+  },
+  {
+   "baslik": "Competitor analysis prompts",
+   "paragraflar": [
+    {
+     "alt": "19. Compare competitor heading structure"
+    },
+    {
+     "kod": "Below are the H2 and H3 headings of three competitor pages ranking on page one for the same query. List in three groups: topics all of them cover, topics only one covers, and topics none cover that users might ask about.\n[HEADINGS]"
+    },
+    "**Verify:** Copy the headings from the pages yourself; asking the tool to 'read' a competitor page can return incomplete or outdated results.",
+    {
+     "alt": "20. Compare service page value propositions"
+    },
+    {
+     "kod": "Below are my service page copy and two competitors' pages. Compare value proposition, trust elements (testimonials, certifications, process description), how pricing information is presented, and calls to action in a table. List what my page is missing separately."
+    },
+    "**Verify:** The table is a starting point; base decisions on client conversations and conversion data. The full method is in [SEO competitor analysis](/en/rakip-analizi-seo)."
+   ]
+  },
+  {
+   "baslik": "What should you verify prompt output with?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Category",
+       "Data to feed the prompt",
+       "Verification tool"
+      ],
+      "satirlar": [
+       [
+        "Keywords",
+        "Search Console queries, tool exports",
+        "Google results page, Search Console"
+       ],
+       [
+        "Content drafts",
+        "Existing copy, competitor headings",
+        "Expert review, official sources"
+       ],
+       [
+        "Meta tags",
+        "Page copy, category list",
+        "SERP preview"
+       ],
+       [
+        "Schema",
+        "Business details, existing code",
+        "Rich Results Test"
+       ],
+       [
+        "Regex and formulas",
+        "Sample query and URL lists",
+        "Test on a small sample"
+       ],
+       [
+        "Internal links",
+        "URL and title list, crawl data",
+        "Crawler"
+       ]
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Does every number in the output come from your own data?",
+      "Do the suggested URLs actually exist on your site?",
+      "Have code and regex been tested on a small sample?",
+      "Does the text include your own experience and examples?"
+     ]
+    },
+    "I summarize what Google expects when you publish AI output in [AI content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). For options beyond ChatGPT, see the list of [AI-powered SEO tools](/en/en-iyi-yapay-zeka-seo-araclari).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Data privacy",
+      "metin": "Anonymize files containing client names, emails or order data before uploading. Your company policy and local privacy law decide what can be shared."
+     }
+    },
+    "If you want to fit these prompts into your content process or build a workflow for your team, see [content strategy services](/en/content-strategy) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bu promptlar ChatGPT dışındaki asistanlarda çalışır mı?",
+   "c": "Evet, yapı aynı olduğu için Gemini, Claude ya da Copilot'ta da kullanılabilir. Çıktı biçimi ve uzunluk araca göre değişebilir. Aynı promptu iki araçta deneyip sonucu karşılaştırmak iyi bir kalite kontrolüdür."
+  },
+  {
+   "s": "Promptları İngilizce mi yazmalıyım?",
+   "c": "Türkçe içerik için Türkçe prompt genellikle daha doğal sonuç verir. Teknik görevlerde (regex, JSON-LD, formül) dil fark etmez. Çıktının dilini promptta açıkça belirtin."
+  },
+  {
+   "s": "ChatGPT'nin verdiği arama hacmine güvenebilir miyim?",
+   "c": "Hayır. Genel asistanlar kendi başına güvenilir hacim verisi sunmaz ve rakam uydurabilir. Hacmi Google Ads Anahtar Kelime Planlayıcı ya da bir anahtar kelime aracından alın, ChatGPT'yi yorumlamak için kullanın."
+  },
+  {
+   "s": "Aynı prompt neden her seferinde farklı sonuç veriyor?",
+   "c": "Dil modelleri her çalıştırmada küçük farklarla cevap üretir. Tutarlılık için biçimi ve kısıtları sıkı tanımlayın, örnek bir çıktı satırı ekleyin. Toplu işlerde önce küçük bir örneklemle test edin."
+  },
+  {
+   "s": "Promptları ekibimle nasıl paylaşmalıyım?",
+   "c": "Kullandığınız promptları kategori, amaç ve doğrulama adımıyla birlikte ortak bir dokümanda tutun. Her güncellemede hangi sonucun değiştiğini not edin. Böylece ekip aynı kaliteyi tekrarlanabilir biçimde elde eder."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do these prompts work in assistants other than ChatGPT?",
+   "c": "Yes, the structure is the same, so you can use them in Gemini, Claude or Copilot. Output format and length may vary by tool. Running the same prompt in two tools and comparing results is a good quality check."
+  },
+  {
+   "s": "Should I write prompts in the language of my content?",
+   "c": "For content tasks, prompting in the target language usually gives more natural results. For technical tasks such as regex, JSON-LD or formulas, language does not matter. State the output language explicitly in the prompt."
+  },
+  {
+   "s": "Can I trust search volume figures from ChatGPT?",
+   "c": "No. General assistants do not provide reliable volume data on their own and can invent numbers. Take volume from Google Ads Keyword Planner or a keyword tool, and use ChatGPT to interpret it."
+  },
+  {
+   "s": "Why does the same prompt give different results each time?",
+   "c": "Language models produce slightly different answers on each run. For consistency, define the format and constraints tightly and include a sample output row. Test bulk jobs on a small sample first."
+  },
+  {
+   "s": "How should I share prompts with my team?",
+   "c": "Keep your prompts in a shared document with category, purpose and verification step. Note what changed in the output after each update. That way the team gets the same quality repeatably."
+  }
+ ]
+}

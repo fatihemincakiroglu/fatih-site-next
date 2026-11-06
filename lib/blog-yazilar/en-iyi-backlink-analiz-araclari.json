@@ -1,0 +1,487 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 8,
+ "baslik_tr": "En İyi 10 Backlink Analiz Aracı",
+ "baslik_en": "10 Best Backlink Analysis Tools",
+ "meta_baslik_tr": "En İyi 10 Backlink Analiz Aracı",
+ "meta_baslik_en": "10 Best Backlink Analysis Tools",
+ "meta_desc_tr": "Search Console, Ahrefs, Semrush, Majestic, Moz ve SE Ranking dahil 10 backlink analiz aracı, kullanım alanları ve DR, DA, TF metriklerinin anlamı.",
+ "meta_desc_en": "Search Console, Ahrefs, Semrush, Majestic, Moz, SE Ranking and more. 10 backlink analysis tools, their best uses and what DR, DA and TF mean.",
+ "ozet_tr": "Ücretsiz Google ve Bing raporlarından bağımsız veritabanlarına 10 backlink aracı ve metriklerinin doğru okunuşu.",
+ "ozet_en": "Ten backlink tools, from free Google and Bing reports to independent link databases, and how to read their metrics.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Backlink analizinde iki farklı soru vardır: Google sitenize gelen hangi bağlantıları görüyor ve rakiplerinizin bağlantı profili nasıl? İlk soruya yalnızca Search Console birinci taraf veriyle cevap verir. İkinci soru için kendi tarayıcısıyla web'i dolaşan bağımsız bir veritabanı gerekir.",
+    "Aşağıdaki 10 aracı sıralama yapmadan, hangi işte güçlü olduklarına göre anlatıyorum. Her biri için en uygun durumu ve sınırı yazdım. Fiyat vermiyorum, güncel paketleri resmi sitelerden kontrol edin. Bu yazıda sponsorluk yoktur.",
+    {
+     "alinti": "Kısa cevap: Kendi sitenizin backlinklerini görmek için ücretsiz Google Search Console ve Bing Webmaster Tools ile başlayın. Rakip ve geniş link verisi için Ahrefs, Semrush, Majestic, Moz ya da SE Ranking gibi bir veritabanı kullanılır. DR, DA ve Trust Flow gibi puanlar araçların kendi metrikleridir, Google'ın sıralama sinyali değildir."
+    }
+   ]
+  },
+  {
+   "baslik": "Backlink araçlarındaki metrikler ne anlama geliyor?",
+   "paragraflar": [
+    "Her platform bağlantı gücünü kendi formülüyle puanlar. Bu puanlar karşılaştırma için faydalıdır ama aynı site için araçtan araca farklı çıkar.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🅰️",
+       "baslik": "Domain Rating (Ahrefs)",
+       "metin": "Ahrefs'in bir alan adının backlink profilini puanladığı metrik."
+      },
+      {
+       "ikon": "🅼",
+       "baslik": "Domain Authority (Moz)",
+       "metin": "Moz'un alan adı düzeyindeki otorite tahmini."
+      },
+      {
+       "ikon": "🛡️",
+       "baslik": "Trust Flow (Majestic)",
+       "metin": "Majestic'e göre bir linkin otoritesini temsil eder; Citation Flow ise popülerliğini."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "Domain Trust (SE Ranking)",
+       "metin": "SE Ranking'in alan adı ve sayfa düzeyinde güven tahmini."
+      }
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Bu metrikler Google metriği değildir",
+      "metin": "DR, DA, Trust Flow ya da Domain Trust'ı Google kullanmaz. Bir bağlantı kampanyasını yalnızca bu puanı yükseltmek için kurmak yanlış hedeftir. Asıl ölçüt, bağlantının alakalı bir siteden, doğal bir bağlamla ve gerçek ziyaretçi getirme potansiyeliyle gelmesidir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Ücretsiz backlink raporları",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console Bağlantılar raporu"
+    },
+    "Google'ın yardım dokümanına göre rapor en çok bağlantı alan sayfaları, en çok bağlantı veren siteleri ve en sık kullanılan bağlantı metinlerini gösterir. Dışa aktarma ile 100.000 satıra kadar veri alınabilir. **En uygun olduğu durum:** Google'ın gördüğü bağlantıların örneklemi. **Sınırı:** Google'a göre tam liste değildir, bir örneklem gösterir ve rakip verisi yoktur.",
+    {
+     "alt": "2. Bing Webmaster Tools Backlinks"
+    },
+    "Bing'in ücretsiz aracında All Links, Similar Sites ve Disavow seçenekleri bulunuyor. Similar Sites ile kendi profilinizi başka bir sitenin profiliyle, o siteyi doğrulamadan karşılaştırabiliyorsunuz. **En uygun olduğu durum:** ücretsiz rakip karşılaştırması. **Sınırı:** veri Bing'in tarama kapsamına bağlıdır."
+   ]
+  },
+  {
+   "baslik": "Kapsamlı backlink veritabanları",
+   "paragraflar": [
+    {
+     "alt": "3. Ahrefs Site Explorer"
+    },
+    "Referans alan adları, yeni ve kaybedilen bağlantılar, bağlantı metinleri ve sayfa bazında link dağılımını gösterir. Kendi siteniz içinse Ahrefs Webmaster Tools, doğrulanmış sitelerde Site Explorer'ı ücretsiz sunuyor. **En uygun olduğu durum:** rakip link profili ve link boşluğu analizi. **Sınırı:** rakip analizi ücretli plan gerektirir.",
+    {
+     "alt": "4. Semrush Backlink Analytics"
+    },
+    "Referans alan adları, bağlantı türleri ve Authority Score ile rakip karşılaştırması sunar. Resmi bloguna göre ücretsiz hesapta günde 10 backlink sorgusu yapılabiliyor. **En uygun olduğu durum:** anahtar kelime ve link verisini aynı platformda birleştirmek. **Sınırı:** ücretsiz sorgu hakkı düzenli analiz için yetmez.",
+    {
+     "alt": "5. Majestic"
+    },
+    "Yalnızca bağlantı verisine odaklanan bir platform. Majestic'in SSS sayfasına göre Fresh Index son 120 günde görülen bağlantıları içerir ve sık güncellenir, Historic Index ise 2006'dan beri görülen tüm bağlantıları kapsar. **En uygun olduğu durum:** uzun dönem link geçmişi ve Trust Flow ile Citation Flow karşılaştırması. **Sınırı:** anahtar kelime ve teknik denetim tarafı yoktur.",
+    {
+     "alt": "6. Moz Link Explorer"
+    },
+    "Bağlantı veren alan adlarını, bağlantı metinlerini ve Domain Authority değerini gösterir. **En uygun olduğu durum:** ekip ve müşterinin zaten Moz metrikleriyle konuştuğu projeler. **Sınırı:** Türkiye'deki küçük sitelerde kapsamı kendi nişinizde test edin.",
+    {
+     "alt": "7. SE Ranking Backlink Checker"
+    },
+    "Resmi sayfasına göre Domain Trust ve Page Trust puanları, dofollow ve nofollow oranı, bağlantı metinleri ve 7 günden 1 yıla kadar kazanılan ve kaybedilen bağlantı grafikleri sunuyor. Ücretsiz kullanımda günlük birkaç kontrolle verinin bir özeti görülebiliyor. **En uygun olduğu durum:** sıralama takibiyle aynı platformda link izleme. **Sınırı:** tam veri için ücretli plan gerekir.",
+    {
+     "alt": "8. Mangools LinkMiner"
+    },
+    "Mangools paketindeki backlink aracı. SSS sayfasına göre son 90 günde keşfedilen bağlantıları \"yeni\" olarak işaretliyor. **En uygun olduğu durum:** KWFinder kullananlar için hızlı link fırsatı keşfi. **Sınırı:** derin link denetimi için diğer veritabanları kadar kapsamlı değildir."
+   ]
+  },
+  {
+   "baslik": "Masaüstü backlink ve doğrulama araçları",
+   "paragraflar": [
+    {
+     "alt": "9. SEO SpyGlass"
+    },
+    "SEO PowerSuite'in masaüstü backlink aracı. Resmi karşılaştırma sayfasına göre ücretsiz sürümü herhangi bir site için 1.100 backlinke kadar veri gösteriyor, iki sitenin profilini karşılaştırıyor, Search Console ve Google Analytics'ten bağlantı çekiyor ve disavow dosyası oluşturuyor. **En uygun olduğu durum:** bütçesiz link denetimi. **Sınırı:** dışa aktarma ve rapor özelliklerinin bir kısmı ücretli sürümde.",
+    {
+     "alt": "10. Screaming Frog SEO Spider"
+    },
+    "Bir backlink veritabanı değil, ama liste modunda bağlantı veren sayfaları tarayıp özel çıkarım (custom extraction) ile linkin hâlâ yerinde olup olmadığını ve rel değerini kontrol edebilirsiniz. **En uygun olduğu durum:** kazanılan bağlantıların yayında kaldığını doğrulamak. **Sınırı:** ücretsiz sürüm 500 URL ile sınırlı ve kurulum biraz teknik bilgi ister."
+   ]
+  },
+  {
+   "baslik": "Hangi backlink aracı hangi iş için?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "İş",
+       "Uygun araç",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Google'ın gördüğü bağlantılar",
+        "Search Console",
+        "Örneklem, tam liste değil"
+       ],
+       [
+        "Ücretsiz rakip karşılaştırması",
+        "Bing Webmaster Tools",
+        "Similar Sites"
+       ],
+       [
+        "Rakip link boşluğu",
+        "Ahrefs, Semrush",
+        "Ücretli plan"
+       ],
+       [
+        "Uzun dönem link geçmişi",
+        "Majestic",
+        "Historic Index"
+       ],
+       [
+        "Moz metrikleriyle raporlama",
+        "Moz Link Explorer",
+        "Domain Authority"
+       ],
+       [
+        "Link ve sıralama tek panelde",
+        "SE Ranking",
+        "Kazanılan ve kaybedilen linkler"
+       ],
+       [
+        "Hızlı fırsat keşfi",
+        "LinkMiner",
+        "Mangools paketi"
+       ],
+       [
+        "Bütçesiz link denetimi",
+        "SEO SpyGlass",
+        "1.100 backlinke kadar"
+       ],
+       [
+        "Linkin yayında kaldığını doğrulama",
+        "Screaming Frog",
+        "Liste modu"
+       ]
+      ]
+     }
+    },
+    "Tek bir veritabanı web'deki tüm bağlantıları görmez. Önemli kararlarda, örneğin bir disavow öncesinde, en az iki kaynağı Search Console ile birleştirmenizi öneririm."
+   ]
+  },
+  {
+   "baslik": "Backlink analizi adım adım nasıl yapılır?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Backlink analizi akışı",
+      "adimlar": [
+       {
+        "baslik": "Veriyi topla",
+        "metin": "Search Console dışa aktarımı ve bir bağımsız veritabanı."
+       },
+       {
+        "baslik": "Birleştir",
+        "metin": "Alan adı bazında tekilleştirin."
+       },
+       {
+        "baslik": "Sınıflandır",
+        "metin": "Alakalı, nötr, şüpheli olarak ayırın; bağlantı metinlerine bakın."
+       },
+       {
+        "baslik": "Rakiple kıyasla",
+        "metin": "Rakiplerin alıp sizin almadığınız alan adlarını listeleyin."
+       },
+       {
+        "baslik": "Aksiyon al",
+        "metin": "Kazanılacak linkler için plan, gerçekten zararlı olanlar için değerlendirme."
+       }
+      ]
+     }
+    },
+    "Bağlantı metni dağılımını yorumlamayı [anchor text](/anchor-text) yazısında, disavow kararının ne zaman gerektiğini [toksik backlink ve disavow](/toksik-backlink-disavow) yazısında anlattım. Bağlantı olmadan yapılan marka anılmaları da değerlidir, bunu [marka bahsi](/marka-bahsi-brand-mention) yazısında ele aldım. Rakip tarafını [SEO rakip analizi](/rakip-analizi-seo) ile birlikte okuyun."
+   ]
+  },
+  {
+   "baslik": "Analizden link kazanımına geçmek",
+   "paragraflar": [
+    "Araçlar size nereden link alınabileceğini gösterir, ama linki kazandıran şey referans verilmeye değer içerik ve doğru ilişkilerdir. Kalıcı bağlantı stratejisini [backlink ve dijital PR rehberinde](/backlink-dijital-pr), raporlamayı [SEO raporlama rehberinde](/seo-raporlama) anlattım.",
+    "Araçtan çıkan bir link fırsatını değerlendirirken şu soruları sorun:",
+    {
+     "kontrol": [
+      "Site konu olarak sizinle alakalı mı?",
+      "Sayfa gerçek ziyaretçi alıyor mu?",
+      "Bağlantı doğal bir bağlamda mı duracak?",
+      "Aynı sitede rakipleriniz de yer alıyor mu?"
+     ]
+    },
+    "Link profilinizin denetimini ya da bir dijital PR çalışmasını birlikte yürütmek isterseniz [backlink ve dijital PR hizmeti](/backlink) sayfasına göz atabilir, [SEO danışmanlığı](/seo-uzmani) kapsamını inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Backlink analysis asks two different questions: which links to your site does Google see, and what do your competitors' link profiles look like? Only Search Console answers the first with first-party data. The second needs an independent database that crawls the web with its own bot.",
+    "I cover the 10 tools below without ranking them, by the job each one does well. For each I note the situation it suits best and its limit. I do not list prices; check current plans on the official sites. There is no sponsorship here.",
+    {
+     "alinti": "Short answer: To see your own backlinks, start with the free Google Search Console and Bing Webmaster Tools. For competitor and wider link data, use a database such as Ahrefs, Semrush, Majestic, Moz or SE Ranking. Scores like DR, DA and Trust Flow are the tools' own metrics, not Google ranking signals."
+    }
+   ]
+  },
+  {
+   "baslik": "What do backlink tool metrics mean?",
+   "paragraflar": [
+    "Each platform scores link strength with its own formula. The scores help with comparison but differ from tool to tool for the same site.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🅰️",
+       "baslik": "Domain Rating (Ahrefs)",
+       "metin": "Ahrefs' score for a domain's backlink profile."
+      },
+      {
+       "ikon": "🅼",
+       "baslik": "Domain Authority (Moz)",
+       "metin": "Moz's domain-level authority estimate."
+      },
+      {
+       "ikon": "🛡️",
+       "baslik": "Trust Flow (Majestic)",
+       "metin": "According to Majestic, it represents a link's authority; Citation Flow represents its popularity."
+      },
+      {
+       "ikon": "📐",
+       "baslik": "Domain Trust (SE Ranking)",
+       "metin": "SE Ranking's trust estimate at domain and page level."
+      }
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "These are not Google metrics",
+      "metin": "Google does not use DR, DA, Trust Flow or Domain Trust. Running a link campaign just to raise one of these scores is the wrong goal. What matters is that a link comes from a relevant site, in a natural context, with real potential to send visitors."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Free backlink reports",
+   "paragraflar": [
+    {
+     "alt": "1. Google Search Console Links report"
+    },
+    "According to Google's help documentation, the report shows your most linked pages, top linking sites and top linking text. Exports can provide up to 100,000 rows. **Best for:** a sample of the links Google sees. **Limit:** Google says it is not a complete list, only a sample, and there is no competitor data.",
+    {
+     "alt": "2. Bing Webmaster Tools Backlinks"
+    },
+    "Bing's free tool offers All Links, Similar Sites and Disavow. Similar Sites lets you compare your profile with another site's without verifying that site. **Best for:** free competitor comparison. **Limit:** the data depends on Bing's crawl coverage."
+   ]
+  },
+  {
+   "baslik": "Full backlink databases",
+   "paragraflar": [
+    {
+     "alt": "3. Ahrefs Site Explorer"
+    },
+    "Shows referring domains, new and lost links, anchor text and link distribution by page. For your own site, Ahrefs Webmaster Tools offers Site Explorer free for verified sites. **Best for:** competitor link profiles and link gap analysis. **Limit:** competitor analysis needs a paid plan.",
+    {
+     "alt": "4. Semrush Backlink Analytics"
+    },
+    "Offers referring domains, link types and competitor comparison with Authority Score. According to its official blog, the free account allows 10 backlink queries a day. **Best for:** combining keyword and link data in one platform. **Limit:** the free quota is not enough for regular analysis.",
+    {
+     "alt": "5. Majestic"
+    },
+    "A platform focused purely on link data. According to Majestic's FAQ, the Fresh Index holds links seen in the last 120 days and updates often, while the Historic Index covers every link seen since 2006. **Best for:** long-term link history and comparing Trust Flow with Citation Flow. **Limit:** no keyword or technical audit side.",
+    {
+     "alt": "6. Moz Link Explorer"
+    },
+    "Shows linking domains, anchor text and Domain Authority. **Best for:** projects where the team and client already talk in Moz metrics. **Limit:** test its coverage of small sites in your own niche.",
+    {
+     "alt": "7. SE Ranking Backlink Checker"
+    },
+    "According to its official page, it offers Domain Trust and Page Trust scores, dofollow and nofollow ratios, anchor text and charts of gained and lost links from 7 days to 1 year. Free use gives a few daily checks with a snapshot of the data. **Best for:** link monitoring alongside rank tracking. **Limit:** full data needs a paid plan.",
+    {
+     "alt": "8. Mangools LinkMiner"
+    },
+    "The backlink tool in the Mangools suite. Its FAQ says links discovered in the last 90 days are marked as \"new\". **Best for:** quick link opportunity discovery for KWFinder users. **Limit:** not as deep as the other databases for full link audits."
+   ]
+  },
+  {
+   "baslik": "Desktop backlink and verification tools",
+   "paragraflar": [
+    {
+     "alt": "9. SEO SpyGlass"
+    },
+    "SEO PowerSuite's desktop backlink tool. According to its official comparison page, the free version shows up to 1,100 backlinks for any site, compares two sites, pulls links from Search Console and Google Analytics and generates a disavow file. **Best for:** link audits without a budget. **Limit:** some export and reporting features are paid only.",
+    {
+     "alt": "10. Screaming Frog SEO Spider"
+    },
+    "Not a backlink database, but in list mode you can crawl linking pages and use custom extraction to check whether the link is still there and what its rel value is. **Best for:** confirming that earned links stay live. **Limit:** the free version is capped at 500 URLs and setup needs some technical skill."
+   ]
+  },
+  {
+   "baslik": "Which backlink tool for which job?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Job",
+       "Suitable tool",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Links Google sees",
+        "Search Console",
+        "A sample, not a full list"
+       ],
+       [
+        "Free competitor comparison",
+        "Bing Webmaster Tools",
+        "Similar Sites"
+       ],
+       [
+        "Competitor link gap",
+        "Ahrefs, Semrush",
+        "Paid plan"
+       ],
+       [
+        "Long-term link history",
+        "Majestic",
+        "Historic Index"
+       ],
+       [
+        "Reporting in Moz metrics",
+        "Moz Link Explorer",
+        "Domain Authority"
+       ],
+       [
+        "Links and rankings in one panel",
+        "SE Ranking",
+        "Gained and lost links"
+       ],
+       [
+        "Quick opportunity discovery",
+        "LinkMiner",
+        "Mangools suite"
+       ],
+       [
+        "Link audit without a budget",
+        "SEO SpyGlass",
+        "Up to 1,100 backlinks"
+       ],
+       [
+        "Confirming links stay live",
+        "Screaming Frog",
+        "List mode"
+       ]
+      ]
+     }
+    },
+    "No single database sees every link on the web. For important decisions, such as before a disavow, I recommend combining at least two sources with Search Console."
+   ]
+  },
+  {
+   "baslik": "How to run a backlink analysis step by step",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Backlink analysis workflow",
+      "adimlar": [
+       {
+        "baslik": "Collect",
+        "metin": "A Search Console export plus one independent database."
+       },
+       {
+        "baslik": "Merge",
+        "metin": "Deduplicate by domain."
+       },
+       {
+        "baslik": "Classify",
+        "metin": "Sort into relevant, neutral and suspicious; review anchor text."
+       },
+       {
+        "baslik": "Compare",
+        "metin": "List domains linking to competitors but not to you."
+       },
+       {
+        "baslik": "Act",
+        "metin": "A plan for links to earn and a review of truly harmful ones."
+       }
+      ]
+     }
+    },
+    "I explain how to read anchor text distribution in [anchor text](/en/anchor-text) and when a disavow is needed in [toxic backlinks and disavow](/en/toksik-backlink-disavow). Unlinked brand mentions also matter, covered in [brand mentions](/en/marka-bahsi-brand-mention). Read the competitor side together with [SEO competitor analysis](/en/rakip-analizi-seo)."
+   ]
+  },
+  {
+   "baslik": "From analysis to earning links",
+   "paragraflar": [
+    "Tools show where links could come from, but what earns them is content worth citing and the right relationships. I cover lasting link strategy in the [backlink and digital PR guide](/en/backlink-dijital-pr) and reporting in the [SEO reporting guide](/en/seo-raporlama).",
+    "When assessing a link opportunity from a tool, ask:",
+    {
+     "kontrol": [
+      "Is the site topically relevant to you?",
+      "Does the page get real visitors?",
+      "Will the link sit in a natural context?",
+      "Do your competitors appear on the same site?"
+     ]
+    },
+    "If you want to audit your link profile or run a digital PR campaign together, see the [backlink and digital PR service](/en/backlink-digital-pr), the scope of [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Search Console bağlantıları ile Ahrefs verisi neden farklı?",
+   "c": "Search Console Google'ın gördüğü bağlantılardan bir örneklem gösterir, Ahrefs ise kendi tarayıcısının bulduğu bağlantıları. İki kaynak farklı tarama kapsamına sahip olduğu için sayılar hiçbir zaman birebir tutmaz. Kendi siteniz için ikisini birlikte kullanmak en eksiksiz resmi verir."
+  },
+  {
+   "s": "Domain Rating ya da Domain Authority yükselirse sıralamam yükselir mi?",
+   "c": "Doğrudan değil. Bu puanlar araçların kendi tahminleridir ve Google tarafından kullanılmaz. Puanı yükselten alakalı, kaliteli bağlantılar sıralamaya da katkı sağlayabilir, ama hedef puan değil bağlantının kendisi olmalıdır."
+  },
+  {
+   "s": "Kaybedilen backlinkler için ne yapmalıyım?",
+   "c": "Önce linkin neden kaybolduğuna bakın: sayfa silinmiş, link kaldırılmış ya da sizin hedef URL'niz 404 vermeye başlamış olabilir. Son durumda 301 yönlendirmesiyle değeri geri kazanabilirsiniz; ayrıntılar [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısında."
+  },
+  {
+   "s": "Backlink analizi ne sıklıkla yapılmalı?",
+   "c": "Aktif link çalışması yürütüyorsanız aylık, yürütmüyorsanız üç ayda bir kontrol çoğu site için yeterlidir. Ani bir sıralama düşüşü ya da şüpheli bağlantı artışında ise beklemeden bakın."
+  },
+  {
+   "s": "Nofollow bağlantılar analizde dikkate alınmalı mı?",
+   "c": "Evet. Google nofollow, sponsored ve ugc değerlerini ipucu olarak değerlendirdiğini açıklamıştır. Bu bağlantılar trafik ve marka görünürlüğü de getirebilir; profilde doğal bir oranda bulunmaları normaldir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Why do Search Console links and Ahrefs data differ?",
+   "c": "Search Console shows a sample of the links Google sees, while Ahrefs shows links its own crawler found. The two have different crawl coverage, so the numbers never match exactly. Using both for your own site gives the fullest picture."
+  },
+  {
+   "s": "Will my rankings rise if my Domain Rating or Domain Authority goes up?",
+   "c": "Not directly. These scores are the tools' own estimates and Google does not use them. Relevant, quality links that raise the score can also help rankings, but the goal should be the link, not the score."
+  },
+  {
+   "s": "What should I do about lost backlinks?",
+   "c": "First find out why the link disappeared: the page was deleted, the link removed, or your target URL started returning 404. In the last case a 301 redirect can recover the value; details in [301 and 302 redirects](/en/301-302-yonlendirme)."
+  },
+  {
+   "s": "How often should I run a backlink analysis?",
+   "c": "Monthly if you are actively building links, otherwise every three months is enough for most sites. After a sudden ranking drop or a spike in suspicious links, check right away."
+  },
+  {
+   "s": "Should nofollow links count in the analysis?",
+   "c": "Yes. Google has said it treats nofollow, sponsored and ugc as hints. These links can also bring traffic and brand visibility, and a natural share of them in a profile is normal."
+  }
+ ]
+}

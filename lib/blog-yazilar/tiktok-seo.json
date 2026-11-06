@@ -1,0 +1,479 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 7,
+ "baslik_tr": "TikTok SEO İçin 8 Taktik",
+ "baslik_en": "8 TikTok SEO Tactics for Search",
+ "meta_baslik_tr": "TikTok SEO İçin 8 Taktik ve Arama",
+ "meta_baslik_en": "8 TikTok SEO Tactics for Search",
+ "meta_desc_tr": "TikTok aramasında bulunmak için açıklama, altyazı, ekran metni, ses ve hashtag nasıl kullanılır? Resmi kaynaklara dayanan 8 taktik.",
+ "meta_desc_en": "How to use captions, subtitles, on screen text, sounds and hashtags to get found in TikTok search. 8 tactics based on official sources.",
+ "ozet_tr": "Açıklamadan altyazıya, TikTok'un resmi olarak açıkladıklarına dayanan ve algoritma efsanesi içermeyen 8 taktik.",
+ "ozet_en": "From captions to subtitles, 8 tactics based on what TikTok has officially said, with no algorithm myths.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Danışanlarımın çoğu TikTok'u eğlence platformu olarak görüyor, ama müşterileri orada “Kadıköy'de kahvaltı” ya da “kuru cilt bakımı” gibi ifadeleri aratıyor. Bir video For You akışında ilgi görmese bile aramada aylarca izlenebilir. Bunun için videonun ne anlattığını TikTok'un okuyabileceği her alanda açıkça söylemesi gerekir.",
+    "Bu yazıdaki 8 taktik, TikTok'un resmi olarak açıkladığı bilgilere dayanıyor. “Şu saatte paylaşın, şu kadar hashtag kullanın” gibi kaynağı olmayan algoritma iddialarına yer vermiyorum.",
+    {
+     "alinti": "Kısa cevap: TikTok, öneri sisteminin videoyu anlamak için açıklama, ses ve hashtag gibi video bilgilerini kullandığını açıklıyor. TikTok SEO, aranan ifadeyi açıklamada, konuşmada, altyazıda ve ekran metninde net biçimde kullanmak ve topluluk kurallarına uygun, özgün video üretmektir."
+    }
+   ]
+  },
+  {
+   "baslik": "TikTok resmi olarak ne açıkladı?",
+   "paragraflar": [
+    "TikTok, For You akışındaki önerilerin nasıl çalıştığını kendi haber merkezinde üç faktör grubuyla anlatıyor.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👆",
+       "baslik": "Kullanıcı etkileşimleri",
+       "metin": "Beğenilen ve paylaşılan videolar, takip edilen hesaplar, yazılan yorumlar ve kişinin ürettiği içerik."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Video bilgileri",
+       "metin": "TikTok'a göre açıklama, ses ve hashtag gibi ayrıntılar. Videonun hangi konuya ait olduğu buradan anlaşılır."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Cihaz ve hesap ayarları",
+       "metin": "Dil tercihi, ülke ayarı ve cihaz türü. TikTok bunlara davranış sinyallerinden daha az ağırlık verdiğini söylüyor."
+      }
+     ]
+    },
+    "Aynı açıklamada TikTok, takipçi sayısının ve hesabın daha önce yüksek performanslı videolar yayınlamış olmasının öneri sisteminde doğrudan bir faktör olmadığını belirtiyor. Bu, küçük bir işletme hesabı için iyi haber: iyi tanımlanmış tek bir video da keşfedilebilir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Arama sıralaması ayrıntılı açıklanmadı",
+      "metin": "TikTok, arama sonuçlarını hangi ağırlıklarla sıraladığını ayrıntılı olarak yayımlamadı. Aşağıdaki taktikler bir sıralama formülü değil, videonun konusunu okunabilir kılan alışkanlıklardır."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Konu ve kelime seçimi için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "1. Creator Search Insights ile aranan konuları bulun"
+    },
+    "TikTok'un Creator Search Insights aracı, insanların TikTok'ta neleri aradığını gösteriyor. Uygulamada arama çubuğuna “Creator Search Insights” yazarak açılıyor ve TikTok'a göre yalnızca belirli bölgelerde kullanılabiliyor. Araçtaki içerik boşluğu filtresi, çok aranan ama az videoyla karşılanan konuları listeliyor; bölgenizde açıksa fikir listesinin ilk kaynağı burası olsun.",
+    {
+     "alt": "2. Arama önerilerinden müşterinin dilini çıkarın"
+    },
+    "Arama çubuğuna ana kelimenizi yazdığınızda çıkan öneriler, insanların konuyu hangi ifadelerle aradığını gösterir. “Saç boyası” yazan biri “evde saç boyası nasıl yapılır” ya da “saç boyası sonrası bakım” arıyor olabilir. Bu ifadeleri not edin ve her videoyu tek bir ifadeye odaklayın. Aynı mantığı web için [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) anlattım."
+   ]
+  },
+  {
+   "baslik": "Açıklama, konuşma ve ekran metni için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "3. Açıklamanın ilk cümlesinde konuyu söyleyin"
+    },
+    "TikTok açıklamayı videonun bilgileri arasında sayıyor. “Bunu denemeden geçmeyin” yerine “Kuru cilt için 3 adımlı akşam bakımı” gibi konuyu söyleyen bir cümleyle başlayın. Aranan ifadeyi doğal bir cümle içinde kullanın, kelime listesi yapıştırmayın.",
+    {
+     "alt": "4. Anahtar ifadeyi sesli söyleyin, otomatik altyazıyı düzeltin"
+    },
+    "TikTok'un otomatik altyazı özelliği konuşmayı metne döküyor ve oluşturucu bu metni düzenleyebiliyor. İlk saniyelerde konuyu sesli söyleyin ve altyazıdaki yanlış yazılmış ürün, semt ya da marka adlarını düzeltin. Sesi kapalı izleyen kişi de videonun ne anlattığını böylece anlar.",
+    {
+     "alt": "5. Ekran metnine konuyu yazın"
+    },
+    "TikTok ekran metninin aramaya etkisini resmi olarak açıklamadı. Ama izleyicinin ilk saniyede neyi izlediğini anlaması için en net alan bu. “Kadıköy'de bütçe dostu kahvaltı” gibi kısa bir başlık, videonun vaadini hem izleyiciye hem de aramadan gelen kişiye söyler.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Aranabilir video",
+       "tur": "iyi",
+       "maddeler": [
+        "Açıklama konuyu söyleyen bir cümleyle başlıyor",
+        "Konu ilk saniyelerde sesli söyleniyor",
+        "Altyazı düzeltilmiş, özel adlar doğru",
+        "Ekran metni videonun vaadini veriyor"
+       ]
+      },
+      "sag": {
+       "baslik": "Kaybolan video",
+       "tur": "kotu",
+       "maddeler": [
+        "Açıklama yalnızca emoji ve genel hashtag",
+        "Konu hiç söylenmiyor",
+        "Altyazı yok ya da hatalı",
+        "Ekran metni konudan bağımsız"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hashtag, ses ve profil için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "6. Hashtag'leri konuyu tanımlamak için kullanın"
+    },
+    "Hashtag'ler TikTok'un saydığı video bilgileri arasında. Konuyu ve kitleyi tanımlayan birkaç hashtag (#kurucilt, #ciltbakımı gibi) seçin; TikTok resmi bir ideal sayı vermiyor. Her videoya aynı genel etiket listesini yapıştırmak, videoların birbirinden ayrışmasını zorlaştırır.",
+    {
+     "alt": "7. Sesi konuya göre seçin"
+    },
+    "Ses de TikTok'un video bilgileri arasında sayılıyor. Popüler bir ses kullanmak her zaman doğru değil; bir diş kliniği ya da muhasebe bürosu için konuyu anlatan bir dış ses çoğu zaman daha işlevsel. Trend sesi kullanıyorsanız konunun yine açıklamada ve konuşmada geçtiğinden emin olun.",
+    {
+     "alt": "8. Profili netleştirin ve topluluk kurallarına uyun"
+    },
+    "Kullanıcı adınız, profil adınız ve biyografiniz ne yaptığınızı ve nerede olduğunuzu söylesin; arama sonuçlarında hesaplar da listeleniyor. TikTok topluluk kurallarında For You akışı için ayrı uygunluk standartları var. Bu standartlara takılan içerik önerilerde sınırlı kalabilir, bu yüzden ürün ve sağlık iddialarında özellikle dikkatli olun."
+   ]
+  },
+  {
+   "baslik": "Hangi TikTok alanı ne işe yarar?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Ne yapmalı",
+       "Resmi dayanak"
+      ],
+      "satirlar": [
+       [
+        "Açıklama",
+        "Konuyu söyleyen ilk cümle",
+        "TikTok video bilgisi olarak sayıyor"
+       ],
+       [
+        "Hashtag",
+        "Konuyu ve kitleyi tanımlayan birkaç etiket",
+        "TikTok video bilgisi olarak sayıyor"
+       ],
+       [
+        "Ses",
+        "Konuya uygun ses ya da dış ses",
+        "TikTok video bilgisi olarak sayıyor"
+       ],
+       [
+        "Otomatik altyazı",
+        "Düzeltilmiş, özel adları doğru metin",
+        "Oluşturucu düzenleyebiliyor"
+       ],
+       [
+        "Ekran metni",
+        "Videonun vaadini veren kısa başlık",
+        "Aramaya etkisi açıklanmadı"
+       ],
+       [
+        "Profil",
+        "Ne yaptığınız ve nerede olduğunuz",
+        "Arama sonuçlarında hesaplar da listeleniyor"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "TikTok videosunu aramaya hazırlama akışı",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Yayından önce",
+      "adimlar": [
+       {
+        "baslik": "İfadeyi seç",
+        "metin": "Creator Search Insights ya da arama önerilerinden tek bir aranan ifade belirleyin."
+       },
+       {
+        "baslik": "Senaryoya yerleştir",
+        "metin": "İfadeyi ilk saniyelerde sesli söyleyin ve ekran metnine yazın."
+       },
+       {
+        "baslik": "Altyazıyı düzelt",
+        "metin": "Otomatik altyazıyı açın, özel adları ve yanlış kelimeleri düzeltin."
+       },
+       {
+        "baslik": "Açıklamayı yaz",
+        "metin": "Konuyu söyleyen ilk cümle ve birkaç ilgili hashtag ekleyin."
+       },
+       {
+        "baslik": "Kendin ara",
+        "metin": "Birkaç gün sonra ifadeyi aratıp videonun nerede çıktığına bakın."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Videonun tek bir hedef ifadesi var",
+      "İfade ilk saniyelerde sesli söyleniyor",
+      "Otomatik altyazı düzeltildi",
+      "Açıklamanın ilk cümlesi konuyu söylüyor",
+      "Biyografi linki UTM parametreli"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "TikTok SEO'yu web sitesi ve reklamla birleştirmek",
+   "paragraflar": [
+    "TikTok'ta çok izlenen bir konu, sitenizde de bir rehber ya da hizmet sayfası hak ediyor olabilir. Videoyu web sitenize gömecekseniz [video SEO](/video-seo) yazısındaki izleme sayfası ve yapısal veri ilkeleri geçerli. Instagram tarafını da yönetiyorsanız [Instagram SEO ipuçları](/instagram-seo) aynı müşteri dilini kullanmanıza yardım eder.",
+    "Reklam kreatiflerinden hangi mesajın tuttuğunu içerik planına taşımak için [Meta Ads verisini SEO'ya taşıma](/meta-ads-ve-seo) yöntemi TikTok reklamlarına da uyarlanabilir. Biyografi linkini [UTM oluşturucu](/utm-olusturucu) ile işaretleyin ki TikTok'tan gelen ziyaretçiyi GA4'te ayrı görebilesiniz.",
+    "Sosyal aramayı genel [içerik stratejisi rehberindeki](/icerik-stratejisi) konu kümeleriyle birlikte planlamak en verimli yol. Bu işi dışarıya vermeyi düşünüyorsanız [sosyal medya ajansı seçerken](/sosyal-medya-ajansi-nasil-secilir) TikTok aramasını nasıl ele aldıklarını sorun. Site ve sosyal içeriği birlikte kurgulamak isterseniz [içerik hizmetime](/icerik) göz atabilir ya da [ücretsiz bir ön görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most of my clients see TikTok as entertainment, yet their customers search there for phrases like “breakfast in Kadikoy” or “dry skin routine”. A video that gets little traction in For You can still be watched from search for months. For that, it has to say clearly what it is about in every field TikTok can read.",
+    "The 8 tactics below rest on what TikTok has officially published. I leave out unsourced algorithm claims such as “post at this hour” or “use exactly this many hashtags”.",
+    {
+     "alinti": "Short answer: TikTok says its recommendation system uses video information such as captions, sounds and hashtags to understand a video. TikTok SEO means using the searched phrase clearly in the caption, speech, subtitles and on screen text, and making original videos that follow the Community Guidelines."
+    }
+   ]
+  },
+  {
+   "baslik": "What has TikTok officially said?",
+   "paragraflar": [
+    "TikTok's newsroom explains For You recommendations with three groups of factors.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👆",
+       "baslik": "User interactions",
+       "metin": "Videos you like or share, accounts you follow, comments you post and content you create."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Video information",
+       "metin": "Details such as captions, sounds and hashtags, according to TikTok. This is how a video's topic is understood."
+      },
+      {
+       "ikon": "📱",
+       "baslik": "Device and account settings",
+       "metin": "Language preference, country setting and device type. TikTok says these carry less weight than behaviour."
+      }
+     ]
+    },
+    "In the same explanation, TikTok states that neither follower count nor a history of high performing videos is a direct factor in the recommendation system. That is good news for a small business account: a single well described video can be discovered.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Search ranking is not documented in detail",
+      "metin": "TikTok has not published how search results are weighted. The tactics below are not a ranking formula; they are habits that make a video's topic readable."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tactics for choosing topics and phrases",
+   "paragraflar": [
+    {
+     "alt": "1. Find searched topics with Creator Search Insights"
+    },
+    "TikTok's Creator Search Insights shows what people search for on TikTok. You open it by typing “Creator Search Insights” in the app's search bar, and TikTok says it is available in select regions. Its content gap filter lists topics that are searched often but covered by few videos; if it is available to you, start your idea list there.",
+    {
+     "alt": "2. Learn your customers' wording from search suggestions"
+    },
+    "The suggestions that appear as you type your main term show how people phrase the topic. Someone typing “hair dye” may be looking for “how to dye hair at home” or “hair care after dyeing”. Note these phrases and focus each video on one of them. The [keyword research guide](/en/anahtar-kelime-arastirmasi) explains the same logic for the web."
+   ]
+  },
+  {
+   "baslik": "3 tactics for captions, speech and on screen text",
+   "paragraflar": [
+    {
+     "alt": "3. State the topic in the first sentence of the caption"
+    },
+    "TikTok counts the caption as video information. Instead of “Don't miss this”, open with a sentence like “3 step evening routine for dry skin”. Use the searched phrase inside a natural sentence rather than pasting a keyword list.",
+    {
+     "alt": "4. Say the key phrase out loud and fix the auto captions"
+    },
+    "TikTok's auto captions transcribe speech, and creators can edit the text. Say the topic in the first seconds and correct misspelled product, place or brand names. Viewers watching with the sound off will then understand the video too.",
+    {
+     "alt": "5. Put the topic in on screen text"
+    },
+    "TikTok has not said how on screen text affects search. It is still the clearest place for viewers to understand in the first second what they are watching. A short title such as “Budget breakfast in Kadikoy” states the promise to both viewers and searchers.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Searchable video",
+       "tur": "iyi",
+       "maddeler": [
+        "Caption opens with a sentence that states the topic",
+        "Topic is spoken in the first seconds",
+        "Captions are corrected, names are right",
+        "On screen text states the promise"
+       ]
+      },
+      "sag": {
+       "baslik": "Video that gets lost",
+       "tur": "kotu",
+       "maddeler": [
+        "Caption is only emoji and generic hashtags",
+        "Topic is never said",
+        "No captions or wrong ones",
+        "On screen text is unrelated"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "3 tactics for hashtags, sounds and profile",
+   "paragraflar": [
+    {
+     "alt": "6. Use hashtags to describe the topic"
+    },
+    "Hashtags are part of the video information TikTok lists. Pick a few that describe the topic and audience; TikTok does not publish an ideal number. Pasting the same generic list under every video makes your videos harder to tell apart.",
+    {
+     "alt": "7. Choose sounds that fit the topic"
+    },
+    "Sounds are also listed as video information. A trending sound is not always right; for a dental clinic or an accounting firm, a voiceover that explains the topic is often more useful. If you use a trending sound, make sure the topic still appears in the caption and speech.",
+    {
+     "alt": "8. Clarify your profile and follow the guidelines"
+    },
+    "Your username, profile name and bio should say what you do and where; accounts are listed in search results too. TikTok's Community Guidelines include separate eligibility standards for the For You feed. Content that falls short may be limited in recommendations, so take extra care with product and health claims."
+   ]
+  },
+  {
+   "baslik": "What each TikTok field does",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Field",
+       "What to do",
+       "Official basis"
+      ],
+      "satirlar": [
+       [
+        "Caption",
+        "A first sentence that states the topic",
+        "Listed by TikTok as video information"
+       ],
+       [
+        "Hashtags",
+        "A few tags describing topic and audience",
+        "Listed by TikTok as video information"
+       ],
+       [
+        "Sound",
+        "A fitting sound or voiceover",
+        "Listed by TikTok as video information"
+       ],
+       [
+        "Auto captions",
+        "Corrected text with accurate names",
+        "Creators can edit them"
+       ],
+       [
+        "On screen text",
+        "A short title stating the promise",
+        "Effect on search not documented"
+       ],
+       [
+        "Profile",
+        "What you do and where",
+        "Accounts are listed in search results"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Workflow for preparing a TikTok video for search",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Before publishing",
+      "adimlar": [
+       {
+        "baslik": "Pick a phrase",
+        "metin": "Choose one searched phrase from Creator Search Insights or search suggestions."
+       },
+       {
+        "baslik": "Write it in",
+        "metin": "Say the phrase in the first seconds and add it to on screen text."
+       },
+       {
+        "baslik": "Fix captions",
+        "metin": "Turn on auto captions and correct names and wrong words."
+       },
+       {
+        "baslik": "Write the caption",
+        "metin": "Add a first sentence that states the topic and a few relevant hashtags."
+       },
+       {
+        "baslik": "Search yourself",
+        "metin": "A few days later, search the phrase and see where the video appears."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "The video has one target phrase",
+      "The phrase is spoken in the first seconds",
+      "Auto captions are corrected",
+      "The caption's first sentence states the topic",
+      "The bio link carries UTM parameters"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Connecting TikTok SEO with your website and ads",
+   "paragraflar": [
+    "A topic that does well on TikTok may deserve a guide or service page on your site. If you embed the video, the watch page and structured data principles in the [video SEO](/en/video-seo) post apply. If you also run Instagram, the [Instagram SEO tips](/en/instagram-seo) help you use the same customer language.",
+    "The method in [bringing Meta Ads data into SEO](/en/meta-ads-ve-seo) can be adapted to TikTok ad creatives. Tag the bio link with the [UTM builder](/en/utm-builder) so TikTok visitors show up separately in GA4.",
+    "Planning social search together with the topic clusters in the [content strategy guide](/en/icerik-stratejisi) is the most efficient route. If you are outsourcing, ask how they handle TikTok search when [choosing a social media agency](/en/sosyal-medya-ajansi-nasil-secilir). To plan site and social content together, see my [content strategy service](/en/content-strategy) or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "TikTok videoları Google'da çıkar mı?",
+   "c": "Google arama sonuçlarında zaman zaman TikTok videoları görünebiliyor, ama bunun hangi koşullarda olduğunu ne Google ne TikTok bir kural olarak açıkladı. Bu yüzden Google görünürlüğünü TikTok'a bırakmayın. Önemli konular için sitenizde ayrı bir sayfa hazırlayıp videoyu oraya da ekleyin."
+  },
+  {
+   "s": "TikTok'ta reklamla aramada öne çıkmak mümkün mü?",
+   "c": "TikTok Ads Manager'da anahtar kelimelerle çalışan Search Ads Campaign adlı bir kampanya türü bulunuyor ve TikTok bunun kullanılabilirliğini ayrı bir sayfada ülkelere göre açıklıyor. Türkiye'de hesabınızda açık olup olmadığını reklam panelinizden kontrol edin. Reklam organik sıralamanın yerine geçmez, ayrı bir yerleşimdir."
+  },
+  {
+   "s": "Takipçim az, TikTok SEO yine işe yarar mı?",
+   "c": "TikTok, takipçi sayısının öneri sisteminde doğrudan bir faktör olmadığını açıklıyor. Az takipçili bir hesap da iyi tanımlanmış videolarla keşfedilebilir, ama sonuç kesin değildir. Düzenli paylaşım ve net konu seçimi, küçük hesaplar için en gerçekçi yol."
+  },
+  {
+   "s": "Aynı videoyu Instagram Reels ve TikTok'ta paylaşmak sorun olur mu?",
+   "c": "Instagram, belirgin filigranlı ya da başka yerde paylaşılmış Reels videolarını daha az önerdiğini açıklıyor. Aynı fikri iki platformda kullanabilirsiniz, ama filigransız ham dosyadan yükleyin ve açıklamayı her platformun diline göre yeniden yazın."
+  },
+  {
+   "s": "TikTok SEO sonucunu nasıl ölçerim?",
+   "c": "En basit yöntem, hedef ifadeyi düzenli aralıklarla kendiniz aratıp videonun nerede çıktığını not etmek. Biyografi linkine UTM ekleyerek TikTok'tan gelen ziyaretleri ve dönüşümleri GA4'te izleyin. Hangi göstergelerin rapora gireceğini [izlenmesi gereken SEO KPI'ları](/seo-kpi) yazısında anlattım."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do TikTok videos show up on Google?",
+   "c": "TikTok videos do sometimes appear in Google results, but neither Google nor TikTok has published rules for when that happens. So do not rely on TikTok for Google visibility. For important topics, create a dedicated page on your site and embed the video there as well."
+  },
+  {
+   "s": "Can ads put me at the top of TikTok search?",
+   "c": "TikTok Ads Manager offers a keyword based campaign type called Search Ads Campaign, and TikTok lists its availability by country on a separate page. Check in your ad account whether it is available in your market. Ads are a separate placement and do not replace organic visibility."
+  },
+  {
+   "s": "I have few followers. Does TikTok SEO still work?",
+   "c": "TikTok states that follower count is not a direct factor in its recommendation system. A small account can be discovered with well described videos, though nothing is promised. Regular posting and clear topic choice are the most realistic path for small accounts."
+  },
+  {
+   "s": "Is posting the same video on Instagram Reels and TikTok a problem?",
+   "c": "Instagram says it recommends Reels with visible watermarks or reposted content less often. You can reuse the idea on both platforms, but upload the clean original file and rewrite the caption for each platform."
+  },
+  {
+   "s": "How do I measure TikTok SEO results?",
+   "c": "The simplest method is to search your target phrase at regular intervals and note where the video appears. Add UTM parameters to the bio link and track TikTok visits and conversions in GA4. I cover which metrics belong in a report in [SEO KPIs to track](/en/seo-kpi)."
+  }
+ ]
+}

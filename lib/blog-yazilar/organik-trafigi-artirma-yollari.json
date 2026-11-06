@@ -1,0 +1,523 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 9,
+ "baslik_tr": "Organik Trafiği Artırmanın 15 Etkili Yolu",
+ "baslik_en": "15 Effective Ways to Increase Organic Traffic",
+ "meta_baslik_tr": "Organik Trafiği Artırmanın 15 Yolu",
+ "meta_baslik_en": "15 Ways to Increase Organic Traffic",
+ "meta_desc_tr": "Hızlı kazanımlardan uzun vadeli otoriteye organik trafiği artırmanın 15 somut yolu, her biri için ne zaman işe yaradığı ve nereden başlanacağı.",
+ "meta_desc_en": "15 practical ways to grow organic traffic, from quick wins in Search Console to long term authority, with when each one works and where to start.",
+ "ozet_tr": "Search Console'daki hızlı kazanımlardan içerik, teknik temel ve dijital PR'a uzanan 15 somut organik trafik yolu.",
+ "ozet_en": "15 practical organic traffic levers, from Search Console quick wins to content, technical foundations and digital PR.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "“Organik trafiğimizi nasıl artırırız?” sorusunu duyduğumda ilk işim yeni içerik planlamak değil, mevcut veriye bakmak oluyor. Çoğu sitede trafik potansiyelinin önemli bir kısmı zaten yayımlanmış sayfalarda, ama dizine eklenmemiş, düşük tıklanan ya da ikinci sayfada kalmış durumda.",
+    "Bu yazıda karışık seviyede 15 yol topladım: birkaç hafta içinde etkisini görebileceğiniz hızlı kazanımlar ve aylar süren ama kalıcı büyüme getiren yatırımlar. Her yolun ayrıntısını işleyen yazıya bağlantı verdim; burada amaç önceliği doğru kurmanız. Hiçbir yol belli bir trafik artışı vaat etmez, etkisi sitenizin durumuna bağlıdır.",
+    {
+     "alinti": "Kısa cevap: Organik trafiği artırmanın en hızlı yolu, Search Console'da gösterimi olan ama tıklanmayan, dizine eklenmeyen ya da 11-20. konumda kalan sayfaları düzeltmektir. Kalıcı büyüme ise arama niyetine uygun yeni içerik, güçlü iç linkleme, sağlam teknik temel ve doğal backlinklerle gelir."
+    }
+   ]
+  },
+  {
+   "baslik": "Organik trafik artırmaya nereden başlamalı?",
+   "paragraflar": [
+    "Başlamadan önce bir taban çizgisi alın. Search Console'daki Performans raporundan son 3 ve 12 ayın tıklama, gösterim ve ortalama konum verisini, GA4'ten organik oturum ve dönüşümleri kaydedin. Hangi ölçütleri izleyeceğinizi [takip edilmesi gereken SEO KPI'ları](/seo-kpi) yazısında ayrıntılı anlattım.",
+    {
+     "kontrol": [
+      "Search Console Performans raporu, son 3 ve 12 ay (tıklama, gösterim, CTR, ortalama konum)",
+      "Sayfa dizine ekleme raporundaki dizine eklenmeyen önemli URL'ler",
+      "GA4'te Organic Search kanalının oturum ve temel etkinlik sayısı",
+      "En çok trafik getiren 20 sayfanın listesi",
+      "Son 12 ayda trafik kaybeden sayfalar"
+     ]
+    },
+    {
+     "akis": {
+      "baslik": "Önceliklendirme akışı",
+      "adimlar": [
+       {
+        "baslik": "Ölç",
+        "metin": "Search Console ve GA4'te mevcut durumu kaydedin."
+       },
+       {
+        "baslik": "Kayıpları bul",
+        "metin": "Dizine eklenmeyen, düşük CTR'li ve 2. sayfadaki sayfaları listeleyin."
+       },
+       {
+        "baslik": "Hızlı kazanımları uygula",
+        "metin": "Az eforla etki eden düzeltmeleri önce yapın."
+       },
+       {
+        "baslik": "Uzun vadeye yatırım yap",
+        "metin": "İçerik kümeleri, teknik iyileştirme ve dijital PR planlayın."
+       },
+       {
+        "baslik": "Tekrar ölç",
+        "metin": "Aynı dönem karşılaştırmasıyla etkiyi izleyin."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hızlı kazanımlar, ilk 30 günde yapılacaklar",
+   "paragraflar": [
+    {
+     "alt": "1. Dizine eklenmeyen önemli sayfaları düzeltin"
+    },
+    "Search Console'daki Sayfa dizine ekleme raporunda trafik getirmesi gereken sayfalar “Tarandı, şu anda dizine eklenmemiş” ya da “Hariç tutuldu” durumundaysa diğer her çalışma boşa gider. Nedenini URL tipine göre bulmak için [tarandı ama dizine eklenmemiş sayfalar](/tarandi-dizine-eklenmemis) yazısındaki teşhis tablosunu kullanın.",
+    {
+     "alt": "2. Gösterimi yüksek, CTR'si düşük sayfaların başlığını yenileyin"
+    },
+    "Performans raporunda sayfaları gösterime göre sıralayın ve tıklama oranı benzer konumdaki diğer sayfalarınızdan belirgin düşük olanları seçin. Başlık ve açıklamayı arama niyetine göre yeniden yazmak çoğu zaman en ucuz trafik artışıdır; kuralları [meta başlık ve açıklama yazma kuralları](/meta-baslik-aciklama-kurallari) yazısında, görünümü [SERP önizleme aracında](/serp-onizleme) test edebilirsiniz.",
+    {
+     "alt": "3. İkinci sayfadaki sorguları öne çekin"
+    },
+    "Ortalama konumu 11 ile 20 arasında olan sorgular, ilk sayfaya en yakın adaylardır. Bu sorguların sayfasında eksik kalan alt başlıkları ekleyin, cevabı yukarı taşıyın ve sayfaya ilgili yazılardan link verin.",
+    {
+     "alt": "4. İç linkleri trafik potansiyeline göre dağıtın"
+    },
+    "Güçlü sayfalarınızdan önemli ama zayıf sayfalara açıklayıcı bağlantı metinleriyle link vermek, Google'ın sayfayı keşfetmesine ve konusunu anlamasına yardım eder. Yöntem için [iç linkleme rehberime](/ic-linkleme) bakın.",
+    {
+     "alt": "5. Eskiyen içerikleri güncelleyin"
+    },
+    "Bir zamanlar trafik getirip düşüşe geçen yazılar, sıfırdan yazılacak bir yazıdan daha hızlı karşılık verir. Güncel olmayan bilgiyi, ekran görüntülerini ve örnekleri yenileyin; yalnızca tarihi değiştirmek bir güncelleme değildir."
+   ]
+  },
+  {
+   "baslik": "İçerikle organik trafiği büyütmek",
+   "paragraflar": [
+    {
+     "alt": "6. Arama niyetine göre yeni içerik planlayın"
+    },
+    "Yeni içeriği hacmi yüksek kelimeye göre değil, o sorguda ilk sayfada hangi türde sayfaların sıralandığına göre planlayın. Bilgi arayan birine ürün sayfası, satın almaya hazır birine uzun bir rehber sunmak işe yaramaz. Süreci [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) adım adım anlattım.",
+    {
+     "alt": "7. Tek tek yazılar yerine konu kümeleri kurun"
+    },
+    "Bir ana sayfa ve onu destekleyen alt yazılardan oluşan kümeler, sitenin bir konuda derinliğini gösterir. Kümeyi nasıl kurguladığımı [topical authority](/topical-authority) yazısında bulabilirsiniz.",
+    {
+     "alt": "8. Öne çıkan snippet ve diğer SERP özelliklerini hedefleyin"
+    },
+    "Soru içeren sorgularda ilk paragrafta birkaç cümlelik net bir cevap, adım içeren konularda numaralı liste, karşılaştırmalarda tablo kullanın. Hangi formatın hangi özelliğe uygun olduğunu [featured snippet ve SERP özellikleri](/featured-snippet-serp-ozellikleri) yazısında topladım.",
+    {
+     "alt": "9. Zayıf ve birbirini tekrar eden içerikleri birleştirin"
+    },
+    "Aynı sorguyu hedefleyen birkaç zayıf yazı, birbirinin önünü keser. Benzer yazıları tek ve güçlü bir sayfada birleştirip diğerlerini 301 ile yönlendirmek trafiği toplar. Hangi sayfanın silineceğine nasıl karar verdiğimi [content pruning](/content-pruning) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Teknik temeli güçlendirmek",
+   "paragraflar": [
+    {
+     "alt": "10. Core Web Vitals ve mobil deneyimi iyileştirin"
+    },
+    "Google'ın önerdiği eşikler LCP için 2,5 saniye, INP için 200 milisaniye, CLS için 0,1'dir. Sayfa deneyimi tek başına sıralamayı belirlemez, ama yavaş ve kayan bir mobil sayfa ziyaretçiyi kaybettirir. Ölçüm ve düzeltme adımları [Core Web Vitals yazısında](/core-web-vitals-2025).",
+    {
+     "alt": "11. Yapısal veriyle sayfanızı anlaşılır kılın"
+    },
+    "Ürün, makale, yerel işletme ve etkinlik gibi türler için doğru işaretleme, uygun olduğunda zengin sonuçlara aday olmanızı sağlar. SSS zengin sonuçlarının Mayıs 2026'dan beri gösterilmediğini unutmayın; ayrıntılar [schema ve yapısal veri rehberinde](/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Arama sonuçlarının farklı yüzeylerinde görünmek",
+   "paragraflar": [
+    {
+     "alt": "12. Görsel ve video aramasını hesaba katın"
+    },
+    "Ürün, tarif, mimari ya da eğitim içeriklerinde Google Görseller ve video sonuçları ciddi bir giriş kapısıdır. Açıklayıcı dosya adları, alt metin ve hızlı yüklenen görsellerle başlayın; görsellerin LCP'yi yavaşlatmamasına da dikkat edin.",
+    {
+     "alt": "13. Yerel aramalar için Business Profile'ı tamamlayın"
+    },
+    "Fiziksel bir adresiniz ya da hizmet bölgeniz varsa harita sonuçları, web sonuçlarından önce görünebilir. Doğru kategori, güncel çalışma saatleri ve düzenli yorum yönetimi bu trafiğin temelidir; adımları [Google Business Profile](/google-business-profile) yazısında anlattım.",
+    {
+     "alt": "14. Yapay zekâ yanıtlarında kaynak olun"
+    },
+    "Google AI Overviews ve AI Mode Türkiye'de kullanılabiliyor; ChatGPT, Gemini ve Perplexity gibi asistanlar da web kaynaklarını alıntılayabiliyor. Google'ın resmi dokümanına göre AI Overviews için ek bir gereklilik ya da özel işaretleme yok; net cevaplar, özgün bilgi ve iyi yapılandırılmış sayfalar burada da işe yarar. Uygulama adımları [GEO uygulama rehberinde](/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Uzun vadede otorite kazanmak",
+   "paragraflar": [
+    {
+     "alt": "15. Dijital PR ile doğal backlink kazanın"
+    },
+    "Özgün veri, araştırma, ücretsiz araçlar ve uzman görüşleri, sektör sitelerinin ve haber kaynaklarının size kendiliğinden link vermesini sağlar. Link satın almak Google'ın spam politikalarına aykırıdır ve kalıcı değildir. Planlama ve ölçüm için [backlink ve dijital PR rehberine](/backlink-dijital-pr) bakın.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Kısa yollara dikkat",
+      "metin": "Toplu link paketleri, otomatik üretilip kontrol edilmeyen yüzlerce sayfa ya da başka sitelerden kopyalanan içerik, kısa süreli bir artıştan sonra trafik kaybına yol açabilir. Google'ın spam politikaları bu yöntemleri açıkça kapsar."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Hangi yol ne kadar efor ister?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Yol",
+       "Efor",
+       "Etkinin görülme süresi",
+       "En uygun olduğu durum"
+      ],
+      "satirlar": [
+       [
+        "1-5 Hızlı kazanımlar",
+        "Düşük",
+        "Genellikle haftalar",
+        "Mevcut içeriği olan her site"
+       ],
+       [
+        "6-9 İçerik",
+        "Orta ve yüksek",
+        "Aylar",
+        "Konusunda derinleşmek isteyen siteler"
+       ],
+       [
+        "10-11 Teknik temel",
+        "Orta",
+        "Yeniden tarama sonrası",
+        "Yavaş ya da büyük siteler"
+       ],
+       [
+        "12-14 Farklı yüzeyler",
+        "Orta",
+        "Değişken",
+        "Görsel, yerel ya da bilgi yoğun işletmeler"
+       ],
+       [
+        "15 Dijital PR",
+        "Yüksek",
+        "Aylar",
+        "Rekabetçi sektörler"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Etki ve efor dengesi",
+      "birim": "puan",
+      "veriler": [
+       {
+        "etiket": "Dizine ekleme düzeltmeleri",
+        "deger": 9
+       },
+       {
+        "etiket": "Başlık ve açıklama yenileme",
+        "deger": 8
+       },
+       {
+        "etiket": "İçerik güncelleme",
+        "deger": 8
+       },
+       {
+        "etiket": "İç linkleme",
+        "deger": 7
+       },
+       {
+        "etiket": "Yeni konu kümesi",
+        "deger": 6
+       },
+       {
+        "etiket": "Dijital PR",
+        "deger": 5
+       }
+      ],
+      "not": "Etki/efor puanı (1-10), yazarın değerlendirmesi. Yüksek puan, az eforla yüksek etki beklenen işi gösterir; gerçek bir siteye ait veri değildir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Organik trafik için uzman desteği ne zaman gerekir?",
+   "paragraflar": [
+    "Hızlı kazanımları kendi ekibinizle uygulayabilirsiniz. Trafik nedeni anlaşılmadan düştüyse, site taşıması planlıyorsanız ya da hangi yola önce yatırım yapacağınıza karar veremiyorsanız dışarıdan bir göz zaman kazandırır.",
+    "Sitenizi birlikte incelemek ve önceliklendirilmiş bir yol haritası çıkarmak isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir ya da doğrudan [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Organik trafik ne kadar sürede artar?",
+   "c": "Başlık yenileme ve dizine ekleme düzeltmeleri, Google sayfayı yeniden taradıktan sonra birkaç hafta içinde etkisini gösterebilir. Yeni içerik ve otorite çalışmaları ise genellikle aylar alır. Kesin bir süre vermek mümkün değildir, rekabete ve sitenin geçmişine bağlıdır."
+  },
+  {
+   "s": "Daha fazla içerik yayımlamak trafiği her zaman artırır mı?",
+   "c": "Hayır. Aynı sorguyu hedefleyen ya da kimsenin aramadığı konulardaki yazılar trafik getirmez, bazen mevcut sayfalarla yarışır. Yeni yazıdan önce mevcut içeriği güncellemek ve boşlukları anahtar kelime araştırmasıyla bulmak daha verimlidir."
+  },
+  {
+   "s": "Yapay zekâ yanıtları organik trafiği azaltıyor mu?",
+   "c": "Bazı bilgi sorgularında kullanıcı cevabı arama sonuçlarında aldığı için tıklama azalabilir. Google, AI Overviews ve AI Mode'da görünen sitelerin trafiğini Search Console Performans raporunda genel web trafiğine dahil ediyor. Bu yüzden tıklamanın yanında gösterim ve dönüşüm verisini birlikte izlemek gerekir."
+  },
+  {
+   "s": "Sosyal medyadan gelen ziyaretler organik trafik sayılır mı?",
+   "c": "SEO bağlamında organik trafik, arama motorlarının ücretsiz sonuçlarından gelen ziyaretlerdir. GA4 varsayılan kanal grubunda Organic Search ve Organic Social ayrı kanallardır; raporlarken ikisini karıştırmayın."
+  },
+  {
+   "s": "Organik trafik birden düştüyse ilk neye bakmalıyım?",
+   "c": "Önce düşüşün tarihini Search Console'da netleştirin ve tüm sitede mi yoksa belli sayfa gruplarında mı olduğuna bakın. Aynı tarihte bir site değişikliği, yönlendirme hatası, noindex ya da robots.txt değişikliği olup olmadığını kontrol edin. Teknik bir neden yoksa Google'ın duyurduğu güncellemelerle tarihleri karşılaştırın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "When a client asks “how do we grow our organic traffic?”, my first move is not to plan new content but to look at existing data. On most sites a large share of the traffic potential already sits in published pages that are not indexed, rarely clicked or stuck on page two.",
+    "This article collects 15 levers at mixed levels: quick wins whose effect you can often see within weeks, and investments that take months but bring lasting growth. Each one links to an in-depth article. None of them promises a specific traffic increase, because the effect depends on your site.",
+    {
+     "alinti": "Short answer: The fastest way to grow organic traffic is to fix pages that have impressions but few clicks, pages that are not indexed and pages stuck in positions 11 to 20 in Search Console. Lasting growth comes from new content that matches search intent, strong internal linking, a solid technical foundation and earned backlinks."
+    }
+   ]
+  },
+  {
+   "baslik": "Where should you start growing organic traffic?",
+   "paragraflar": [
+    "Before you start, take a baseline. Record clicks, impressions and average position for the last 3 and 12 months from the Search Console Performance report, plus organic sessions and key events from GA4. I cover which metrics to watch in [the SEO KPIs worth tracking](/en/seo-kpi).",
+    {
+     "kontrol": [
+      "Search Console Performance report for the last 3 and 12 months (clicks, impressions, CTR, average position)",
+      "Important non-indexed URLs in the Page indexing report",
+      "Sessions and key events for the Organic Search channel in GA4",
+      "A list of your top 20 traffic pages",
+      "Pages that lost traffic over the last 12 months"
+     ]
+    },
+    {
+     "akis": {
+      "baslik": "Prioritisation flow",
+      "adimlar": [
+       {
+        "baslik": "Measure",
+        "metin": "Record the current state in Search Console and GA4."
+       },
+       {
+        "baslik": "Find the leaks",
+        "metin": "List non-indexed, low CTR and page-two pages."
+       },
+       {
+        "baslik": "Apply quick wins",
+        "metin": "Do the low effort, high impact fixes first."
+       },
+       {
+        "baslik": "Invest long term",
+        "metin": "Plan topic clusters, technical work and digital PR."
+       },
+       {
+        "baslik": "Measure again",
+        "metin": "Track impact with like-for-like period comparisons."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Quick wins for the first 30 days",
+   "paragraflar": [
+    {
+     "alt": "1. Fix important pages that are not indexed"
+    },
+    "If pages that should bring traffic show as “Crawled, currently not indexed” or are excluded in the Search Console Page indexing report, every other effort is wasted. Use the diagnosis table in [crawled but not indexed pages](/en/tarandi-dizine-eklenmemis) to find the cause by URL type.",
+    {
+     "alt": "2. Rewrite titles on pages with high impressions and low CTR"
+    },
+    "Sort pages by impressions in the Performance report and pick the ones whose click-through rate is clearly lower than your other pages at a similar position. Rewriting the title and description around search intent is often the cheapest traffic gain. The rules are in [how to write meta titles and descriptions](/en/meta-baslik-aciklama-kurallari), and you can test the look in the [SERP preview tool](/en/serp-preview).",
+    {
+     "alt": "3. Push page-two queries forward"
+    },
+    "Queries with an average position between 11 and 20 are the closest candidates for page one. Add the missing subtopics on their page, move the answer higher up and link to the page from related articles.",
+    {
+     "alt": "4. Distribute internal links by traffic potential"
+    },
+    "Linking from strong pages to important but weak ones with descriptive anchor text helps Google discover them and understand their topic. See my [internal linking guide](/en/ic-linkleme) for the method.",
+    {
+     "alt": "5. Refresh content that is losing traffic"
+    },
+    "Articles that used to bring traffic and are now declining respond faster than a brand new article. Update outdated facts, screenshots and examples; changing only the date is not an update."
+   ]
+  },
+  {
+   "baslik": "Growing organic traffic with content",
+   "paragraflar": [
+    {
+     "alt": "6. Plan new content around search intent"
+    },
+    "Plan new content not by the highest volume keyword but by the type of page that ranks on page one for that query. A product page for someone looking for information, or a long guide for someone ready to buy, will not work. I describe the process step by step in the [keyword research guide](/en/anahtar-kelime-arastirmasi).",
+    {
+     "alt": "7. Build topic clusters instead of single posts"
+    },
+    "A cluster made of one main page and supporting articles shows the depth of a site on a topic. You can find how I structure clusters in [topical authority](/en/topical-authority).",
+    {
+     "alt": "8. Target featured snippets and other SERP features"
+    },
+    "For question queries, give a clear answer of a few sentences in the first paragraph; for step-based topics use numbered lists, and for comparisons use tables. I collected which format suits which feature in [featured snippets and SERP features](/en/featured-snippet-serp-ozellikleri).",
+    {
+     "alt": "9. Merge weak and overlapping content"
+    },
+    "Several weak articles targeting the same query hold each other back. Merging similar posts into one strong page and redirecting the others with a 301 consolidates traffic. I explain how I decide what to remove in [content pruning](/en/content-pruning)."
+   ]
+  },
+  {
+   "baslik": "Strengthening the technical foundation",
+   "paragraflar": [
+    {
+     "alt": "10. Improve Core Web Vitals and the mobile experience"
+    },
+    "Google's recommended thresholds are 2.5 seconds for LCP, 200 milliseconds for INP and 0.1 for CLS. Page experience alone does not decide rankings, but a slow, shifting mobile page loses visitors. Measurement and fixes are in the [Core Web Vitals article](/en/core-web-vitals-2025).",
+    {
+     "alt": "11. Make your pages clear with structured data"
+    },
+    "Correct markup for types such as products, articles, local businesses and events makes you eligible for rich results where they apply. Remember that FAQ rich results have not been shown since May 2026; details are in the [schema and structured data guide](/en/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Showing up on different search surfaces",
+   "paragraflar": [
+    {
+     "alt": "12. Account for image and video search"
+    },
+    "For products, recipes, architecture or education content, Google Images and video results are a serious entry point. Start with descriptive file names, alt text and fast loading images; make sure images do not slow down LCP.",
+    {
+     "alt": "13. Complete your Business Profile for local searches"
+    },
+    "If you have a physical address or a service area, map results can appear above web results. The right category, current opening hours and regular review management are the basis of this traffic; the steps are in [Google Business Profile](/en/google-business-profile).",
+    {
+     "alt": "14. Become a source in AI answers"
+    },
+    "Google AI Overviews and AI Mode are available in Turkey, and assistants such as ChatGPT, Gemini and Perplexity can cite web sources. According to Google's official documentation there are no additional requirements or special markup for AI Overviews; clear answers, original information and well structured pages help here too. The practical steps are in the [GEO implementation guide](/en/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "Building authority over the long term",
+   "paragraflar": [
+    {
+     "alt": "15. Earn natural backlinks with digital PR"
+    },
+    "Original data, research, free tools and expert commentary lead industry sites and news outlets to link to you on their own. Buying links violates Google's spam policies and does not last. For planning and measurement, see the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Beware of shortcuts",
+      "metin": "Bulk link packages, hundreds of auto-generated pages nobody reviews, or content copied from other sites can lead to traffic loss after a short spike. Google's spam policies explicitly cover these methods."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How much effort does each lever take?",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Lever",
+       "Effort",
+       "Time to see impact",
+       "Best suited for"
+      ],
+      "satirlar": [
+       [
+        "1-5 Quick wins",
+        "Low",
+        "Often weeks",
+        "Any site with existing content"
+       ],
+       [
+        "6-9 Content",
+        "Medium to high",
+        "Months",
+        "Sites aiming for topical depth"
+       ],
+       [
+        "10-11 Technical foundation",
+        "Medium",
+        "After recrawling",
+        "Slow or large sites"
+       ],
+       [
+        "12-14 Other surfaces",
+        "Medium",
+        "Varies",
+        "Visual, local or information-heavy businesses"
+       ],
+       [
+        "15 Digital PR",
+        "High",
+        "Months",
+        "Competitive industries"
+       ]
+      ]
+     }
+    },
+    {
+     "cubuk": {
+      "baslik": "Impact versus effort",
+      "birim": "points",
+      "veriler": [
+       {
+        "etiket": "Indexing fixes",
+        "deger": 9
+       },
+       {
+        "etiket": "Title and description rewrites",
+        "deger": 8
+       },
+       {
+        "etiket": "Content refresh",
+        "deger": 8
+       },
+       {
+        "etiket": "Internal linking",
+        "deger": 7
+       },
+       {
+        "etiket": "New topic cluster",
+        "deger": 6
+       },
+       {
+        "etiket": "Digital PR",
+        "deger": 5
+       }
+      ],
+      "not": "Impact/effort score (1-10), the author's assessment. A higher score means more expected impact for less effort; illustrative, not data from a real site."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "When do you need expert help with organic traffic?",
+   "paragraflar": [
+    "If traffic dropped for no clear reason, you are planning a site migration or you cannot decide which lever deserves investment first, an outside view saves time.",
+    "If you would like to review your site together and get a prioritised roadmap, take a look at [SEO consulting](/en/seo-consulting) or go straight to [booking an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How long does it take for organic traffic to grow?",
+   "c": "Title rewrites and indexing fixes can show an effect within a few weeks after Google recrawls the page. New content and authority work usually take months. An exact timeline is not possible; it depends on competition and the site's history."
+  },
+  {
+   "s": "Does publishing more content always increase traffic?",
+   "c": "No. Posts that target the same query or topics nobody searches for bring no traffic and sometimes compete with existing pages. Updating existing content and finding real gaps is usually more efficient."
+  },
+  {
+   "s": "Are AI answers reducing organic traffic?",
+   "c": "For some informational queries clicks can drop because users get the answer on the results page. Google includes traffic from sites shown in AI Overviews and AI Mode in the overall web traffic of the Search Console Performance report. That is why you should track impressions and conversions alongside clicks."
+  },
+  {
+   "s": "Do visits from social media count as organic traffic?",
+   "c": "In an SEO context, organic traffic means visits from the unpaid results of search engines. In the GA4 default channel group, Organic Search and Organic Social are separate channels; keep them apart when you report."
+  },
+  {
+   "s": "What should I check first if organic traffic suddenly drops?",
+   "c": "First pin down the date of the drop in Search Console and check whether it affects the whole site or specific page groups. Look for a site change, a redirect error, a noindex or a robots.txt change on the same date. If there is no technical cause, compare the dates with the updates Google has announced."
+  }
+ ]
+}

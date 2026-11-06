@@ -1,0 +1,439 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 8,
+ "baslik_tr": "Meta Başlık ve Açıklama Yazarken Uyulacak 10 Kural",
+ "baslik_en": "10 Rules for Writing Meta Titles and Descriptions",
+ "meta_baslik_tr": "Meta Başlık ve Açıklama İçin 10 Kural",
+ "meta_baslik_en": "10 Rules for Meta Titles and Descriptions",
+ "meta_desc_tr": "Google'ın resmi dokümanına göre title ve meta açıklama yazmanın 10 kuralı, Google'ın başlığı neden değiştirdiği ve karakter yerine kesilme mantığı.",
+ "meta_desc_en": "10 rules for title tags and meta descriptions based on Google's documentation, why Google rewrites titles and why truncation beats character counts.",
+ "ozet_tr": "Google'ın title link ve snippet dokümanına dayanan 10 kural, yeniden yazılma nedenleri ve Türkçe örnekler.",
+ "ozet_en": "10 rules based on Google's title link and snippet documentation, with reasons for rewrites and Turkish examples.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Meta başlık (title etiketi) ve meta açıklama, arama sonucunda kullanıcının sizi görüp görmeyeceğine ve tıklayıp tıklamayacağına karar verdiği ilk yerdir. Sıralamayı tek başına değiştirmeseler de aynı konumda daha fazla tıklama almanın en ucuz yoludur.",
+    "Bu yazıdaki 10 kuralı Google Search Central'daki title link ve snippet dokümanlarına dayandırdım, Kasım 2026 itibarıyla resmi metinle karşılaştırdım. “60 karakter” gibi ezber kurallar yerine Google'ın gerçekte ne söylediğini ve Türkçe sitelerde sahada en sık gördüğüm hataları anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Her sayfaya o sayfaya özgü, ana konuyu başta söyleyen, anahtar kelime doldurulmamış bir title yazın ve sayfanın tamamını özetleyen doğal bir meta açıklama ekleyin. Google ikisi için de katı bir karakter sınırı koymaz ama sonuçları cihaz genişliğine göre keser. Google, title ve açıklamanızı sayfayı daha iyi anlatan bir metinle değiştirebilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Google başlığı ve açıklamayı nereden alır?",
+   "paragraflar": [
+    "Google'ın dokümanına göre arama sonucundaki başlık (title link) tamamen otomatik oluşturulur. Ana kaynak title etiketidir, ama Google sayfadaki başka metinlere ve sayfaya verilen linklere de bakar.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏷️",
+       "baslik": "Title etiketi",
+       "metin": "Başlığın birincil kaynağı. Açıklayıcı ve sayfaya özgü olduğunda çoğu zaman olduğu gibi kullanılır."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Sayfadaki ana başlık",
+       "metin": "H1 ve öne çıkan diğer başlıklar, title yetersizse devreye girer."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Link metinleri",
+       "metin": "Sayfaya verilen iç ve dış linklerin bağlantı metinleri de değerlendirilir."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Sayfa içeriği",
+       "metin": "Snippet çoğunlukla sayfa metninden, sorguya göre seçilerek oluşturulur."
+      }
+     ]
+    },
+    "Dokümanda sayılan diğer kaynaklar og:title etiketi ve WebSite yapısal verisidir. Snippet tarafında ise Google önce sayfa içeriğini kullanır; meta açıklamayı, sayfayı daha doğru anlattığını düşündüğünde gösterir. Snippet'lerin arama sonucundaki diğer görünümlerle ilişkisini [featured snippet ve SERP özellikleri](/featured-snippet-serp-ozellikleri) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Meta başlık için 6 kural",
+   "paragraflar": [
+    {
+     "alt": "1. Her sayfaya benzersiz ve açıklayıcı bir title verin"
+    },
+    "Google, her sayfada bir title bulunmasını ve bu başlığın sayfaya özgü olmasını istiyor. “Ana Sayfa” ya da tüm ürünlerde aynı kalan şablon başlıklar kullanıcının sayfaları ayırt etmesini imkânsız kılıyor. Yalnızca bir kelimesi değişen şablonlar da dokümanda sorunlu örnek olarak geçiyor.",
+    {
+     "alt": "2. Ana konuyu başa koyun, anahtar kelime doldurmayın"
+    },
+    "Kullanıcının aradığı ifadeyi başlığın başına yakın yerleştirin. Aynı kelimeyi farklı biçimlerde tekrar etmek (“İstanbul SEO, SEO İstanbul, İstanbul SEO Uzmanı”) Google'ın ifadesiyle sonucu spam gibi gösterebilir.",
+    {
+     "alt": "3. Marka adını kısa tutun ve ayraçla sona ekleyin"
+    },
+    "Ana sayfada başlık siteyi tanıtabilir. Diğer sayfalarda marka adını başa ya da sona, tire, iki nokta ya da dikey çizgi gibi bir ayraçla eklemek yeterli. Uzun slogan eklemek, asıl konuyu kesilen kısma iter.",
+    {
+     "alt": "4. Karakter sayısı yerine kesilmeyi kontrol edin"
+    },
+    "Google, title etiketinin uzunluğu için bir sınır olmadığını, ama uzun başlıkların sonuçta kesildiğini söylüyor. Kesilme karaktere değil, kullanılan alana bağlıdır: “Ğ” ve “W” gibi geniş harfler, “ı” ve “l” gibi dar harflerden fazla yer kaplar. Bu yüzden ezber bir sayı yerine başlığı [SERP önizleme aracında](/serp-onizleme) masaüstü ve mobil görünümde test edin ve en önemli bilgiyi ilk kelimelere koyun.",
+    {
+     "alt": "5. Title ile H1'i uyumlu ve sayfanın dilinde yazın"
+    },
+    "Sayfadaki ana başlık belirgin olmalı ve title ile aynı konuyu söylemeli. Title, sayfanın ana içeriğiyle aynı dilde ve yazı sisteminde olmalı. Türkçe bir sayfada Türkçe karakterleri kullanın; “Istanbul'da Dis Klinigi” gibi karaktersiz başlıklar hem okunurluğu bozar hem de dokümandaki dil uyumsuzluğu kuralına yaklaşır.",
+    {
+     "alt": "6. Tarih, sayı ve fiyat gibi değişken bilgileri güncel tutun"
+    },
+    "Başlıkta “2025 Rehberi” yazarken sayfada 2026 güncellemesi görünüyorsa Google sayfadaki daha yeni tarihi kullanabilir. Sık değişen bilgileri başlığa yazacaksanız sayfayla birlikte güncelleyin; Google'ın dokümanı uçuş fiyatlarını başlığa koymamayı örnek olarak veriyor.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İyi title örnekleri",
+       "tur": "iyi",
+       "maddeler": [
+        "Erkek Deri Bot Modelleri | Marka",
+        "Kadıköy Diş Kliniği, İmplant ve Ortodonti | Marka",
+        "Search Console Kurulumu Adım Adım (2026)"
+       ]
+      },
+      "sag": {
+       "baslik": "Sorunlu title örnekleri",
+       "tur": "kotu",
+       "maddeler": [
+        "Ana Sayfa",
+        "Ürün | Ürün | Marka",
+        "En Ucuz Bot, Ucuz Bot, Bot Fiyatları, Bot Al"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Meta açıklama için 4 kural",
+   "paragraflar": [
+    {
+     "alt": "7. Her sayfaya özgü bir açıklama yazın"
+    },
+    "Google, tüm sayfalarda aynı ya da birbirine çok benzeyen açıklamaların işe yaramadığını belirtiyor. Ana sayfa için site düzeyinde, diğer sayfalar için sayfa düzeyinde açıklama yazın. Binlerce sayfalı bir sitede şablonla üretmek dokümanda açıkça destekleniyor; yeter ki sonuç okunur ve sayfaya göre değişken olsun.",
+    {
+     "alt": "8. Sayfanın tamamını özetleyen somut bilgi verin"
+    },
+    "Açıklama, sayfadaki tek bir anekdotu değil, ana içeriği özetlemeli. Google bir makalede yazar ve yayın tarihi, bir ürün sayfasında üretici ve ürün ayrıntıları gibi bilgilerin açıklamada bir araya getirilebileceğini söylüyor. Ürün açıklamalarının sayfa içi tarafı için [e-ticaret ürün açıklaması](/e-ticaret-urun-aciklamasi) yazısına bakabilirsiniz.",
+    {
+     "alt": "9. Anahtar kelime listesi değil, doğal cümle yazın"
+    },
+    "Uzun kelime dizilerinden oluşan açıklamaların sayfanın içeriği hakkında net fikir vermediğini ve gösterilme ihtimalinin düştüğünü Google'ın kendisi yazıyor. Kullanıcıya sayfada ne bulacağını ve neden tıklaması gerektiğini bir iki cümleyle söyleyin.",
+    {
+     "alt": "10. Yeniden yazılmayı izleyin, snippet kontrollerini bilinçli kullanın"
+    },
+    "Google'ın başlığınızı ya da açıklamanızı değiştirmesi, çoğu zaman metnin sayfayı yeterince anlatmadığının işaretidir. Snippet'i tamamen kapatmak için nosnippet, uzunluğunu sınırlamak için max-snippet, sayfanın bir bölümünü snippet dışında tutmak için data-nosnippet kullanılabilir. Bunlar görünürlüğü azaltabileceği için yalnızca gerçek bir ihtiyaç varsa kullanın.",
+    {
+     "kod": "<title>Kadıköy Diş Kliniği, İmplant ve Ortodonti | Marka</title>\n<meta name=\"description\" content=\"Kadıköy'de implant, ortodonti ve diş beyazlatma. Uzman hekim kadrosu, hafta sonu randevu ve tedavi öncesi ücretsiz muayene.\">\n\n<!-- Yalnızca gerekiyorsa -->\n<meta name=\"robots\" content=\"max-snippet:160\">\n<p data-nosnippet>Snippet'te görünmesini istemediğiniz metin</p>"
+    }
+   ]
+  },
+  {
+   "baslik": "Google başlığımı neden değiştiriyor?",
+   "paragraflar": [
+    "Google'ın dokümanı, title etiketinin arama sonucunda neden farklı görünebileceğine dair durumları tek tek sayıyor. Aşağıdaki tablo bu durumları ve benim önerdiğim düzeltmeyi özetliyor.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Durum",
+       "Google ne yapabilir?",
+       "Ne yapmalı?"
+      ],
+      "satirlar": [
+       [
+        "Yarı boş title (yalnızca marka adı gibi)",
+        "Title'ı sayfadaki başlıkla birleştirir",
+        "Sayfanın konusunu title'a yazın"
+       ],
+       [
+        "Eski tarih",
+        "Sayfadaki yeni tarihi kullanır",
+        "Title ve sayfadaki tarihi birlikte güncelleyin"
+       ],
+       [
+        "Sayfayı yansıtmayan title",
+        "Daha doğru bir metin seçer",
+        "Title'ı içerikle eşleştirin"
+       ],
+       [
+        "Neredeyse aynı şablon başlıklar",
+        "Sayfadan ayırt edici bilgi ekler",
+        "Her sayfaya ayırt edici bilgi koyun"
+       ],
+       [
+        "Belirgin bir ana başlık yok",
+        "İlk büyük başlığı kullanabilir",
+        "Tek ve belirgin bir H1 kullanın"
+       ],
+       [
+        "Dil veya yazı sistemi uyumsuz",
+        "Farklı bir metin seçebilir",
+        "Title'ı sayfanın dilinde yazın"
+       ]
+      ]
+     }
+    },
+    "Değişikliklerin sonuca yansıması, Google sayfayı yeniden taradıkça birkaç gün ile birkaç hafta sürebilir. Değişiklik sonrası tıklama oranını Search Console'da sayfa bazında izleyin; okumayı [Search Console rehberinde](/search-console-rehberi) anlattım.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Önce tıklanmayan sayfalar",
+      "metin": "Tüm siteyi yeniden yazmak yerine Search Console'da gösterimi yüksek, CTR'si benzer konumdaki sayfalarınıza göre düşük olan 10-20 sayfayla başlayın. Etkiyi en hızlı bu sayfalarda görürsünüz."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Meta başlık ve açıklama kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Her indekslenebilir sayfanın kendine özgü bir title etiketi var",
+      "Ana konu title'ın ilk kelimelerinde",
+      "Marka adı kısa ve ayraçla eklenmiş",
+      "Başlık SERP önizlemesinde mobilde kesilmeden okunuyor",
+      "H1 ile title aynı konuyu söylüyor",
+      "Meta açıklama sayfanın tamamını özetliyor ve sayfaya özgü",
+      "Açıklamada anahtar kelime listesi yok"
+     ]
+    },
+    "Bu kontrol, [teknik SEO rehberindeki](/teknik-seo) sayfa içi denetimin bir parçası olarak tarayıcı aracıyla toplu yapılabilir. Blog yazılarında başlığın yazının geri kalanıyla nasıl uyum içinde olacağını [SEO uyumlu blog yazısı kuralları](/seo-uyumlu-blog-yazisi) yazısında, büyük kataloglarda şablon başlık kurgusunu [e-ticaret SEO rehberinde](/e-ticaret-seo) ele aldım.",
+    "Yüzlerce sayfanın başlık ve açıklamalarını öncelik sırasına koymak ya da şablon kurgulamak isterseniz [içerik danışmanlığı](/icerik) ve [SEO danışmanlığı](/seo-uzmani) sayfalarına göz atabilir veya [ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Meta açıklama sıralamayı etkiler mi?",
+   "c": "Meta açıklama bir sıralama sinyali olarak tanımlanmıyor; asıl etkisi tıklama oranı üzerindedir. İyi bir açıklama, aynı konumda daha fazla kullanıcının sizi seçmesini sağlayabilir. Bu yüzden düşük tıklanan sayfalarda öncelikli iyileştirme alanıdır."
+  },
+  {
+   "s": "Meta açıklama boş bırakılırsa ne olur?",
+   "c": "Google snippet'i zaten çoğunlukla sayfa içeriğinden oluşturduğu için sayfanız sonuçta açıklamasız kalmaz. Ama Google'ın seçtiği metin her zaman sayfanın en iyi özeti olmayabilir. Önemli sayfalarda kendi açıklamanızı yazmak kontrolü artırır."
+  },
+  {
+   "s": "Title'a büyük harf ya da emoji koymak işe yarar mı?",
+   "c": "Tamamı büyük harfle yazılmış başlıklar daha fazla yer kaplar ve kesilmeye daha yatkındır. Emoji konusunda Google'ın gösterip göstermemesi değişkendir; kullanıcı kitlenize ve markanıza uymuyorsa kullanmayın. Kararı tıklama oranını test ederek verin."
+  },
+  {
+   "s": "Yapay zekâ yanıtları meta açıklamayı kullanır mı?",
+   "c": "AI Overviews gibi özellikler cevabı sayfa içeriğinden oluşturur ve kaynak olarak sayfanıza bağlantı verebilir. Google bu özellikler için ek bir işaretleme gerektirmediğini belirtiyor. Bu yüzden sayfa içindeki net cevap, meta açıklamadan daha belirleyicidir; tıklamasız aramaların etkisini [zero-click arama](/zero-click-arama) yazısında ele aldım."
+  },
+  {
+   "s": "Başlığı değiştirdikten sonra ne kadar beklemeliyim?",
+   "c": "Google'ın dokümanına göre değişikliğin sonuçlara yansıması birkaç gün ile birkaç hafta arasında sürebilir. Önemli bir sayfada URL Denetimi ile yeniden tarama isteyebilirsiniz. Karşılaştırmayı en az birkaç haftalık eşit dönemlerle yapın."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The meta title (the title tag) and the meta description are the first place where a user decides whether to notice you in search results and whether to click. They rarely move rankings, but they are the cheapest way to earn more clicks.",
+    "I based the 10 rules in this article on Google Search Central's title link and snippet documentation, checked as of November 2026. Instead of rules of thumb such as “60 characters”, I explain what Google actually says and the mistakes I see most often on Turkish sites.",
+    {
+     "alinti": "Short answer: Give every page a unique title that states the main topic first without keyword stuffing, and add a natural meta description that summarises the whole page. Google sets no strict character limit for either, but it truncates results to fit the device width. Google may replace your title and description with text that describes the page better."
+    }
+   ]
+  },
+  {
+   "baslik": "Where does Google take titles and descriptions from?",
+   "paragraflar": [
+    "According to Google's documentation, the title shown in results (the title link) is generated fully automatically. The main source is the title element, but Google also looks at other text on the page and at links pointing to it.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏷️",
+       "baslik": "Title element",
+       "metin": "The primary source. When it is descriptive and page-specific it is often used as is."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Main heading on the page",
+       "metin": "The H1 and other prominent headings come into play when the title falls short."
+      },
+      {
+       "ikon": "🔗",
+       "baslik": "Anchor text",
+       "metin": "The anchor text of internal and external links to the page is also considered."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Page content",
+       "metin": "Snippets are mostly built from page text, selected according to the query."
+      }
+     ]
+    },
+    "Other sources listed in the documentation are the og:title tag and WebSite structured data. For snippets, Google primarily uses page content and shows the meta description when it thinks it describes the page more accurately. I explain how snippets relate to other search features in [featured snippets and SERP features](/en/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "6 rules for meta titles",
+   "paragraflar": [
+    {
+     "alt": "1. Give every page a unique, descriptive title"
+    },
+    "Google wants every page to have a title, and that title to be specific to the page. “Home” or template titles that stay the same across all products make it impossible for users to tell pages apart.",
+    {
+     "alt": "2. Put the main topic first and avoid keyword stuffing"
+    },
+    "Place the phrase users search for near the start of the title. Repeating the same term in different forms (“Istanbul SEO, SEO Istanbul, Istanbul SEO Expert”) can, in Google's words, make the result look spammy.",
+    {
+     "alt": "3. Keep the brand short and add it with a delimiter"
+    },
+    "On the home page the title can describe the site. On other pages it is enough to add the brand at the start or end with a delimiter such as a hyphen, colon or pipe.",
+    {
+     "alt": "4. Check truncation instead of counting characters"
+    },
+    "Google says there is no limit on the length of a title element, but long titles get truncated in results. Truncation depends on the space used, not on characters: wide letters such as “Ğ” and “W” take more room than narrow ones such as “ı” and “l”. So instead of a fixed number, test the title in desktop and mobile view with the [SERP preview tool](/en/serp-preview) and put the most important information in the first words.",
+    {
+     "alt": "5. Align the title with the H1 and write it in the page's language"
+    },
+    "The main heading on the page should be prominent and state the same topic as the title. The title should use the same language and script as the page's main content. On a Turkish page, use Turkish characters; “Istanbul'da Dis Klinigi” hurts readability.",
+    {
+     "alt": "6. Keep variable information such as dates, numbers and prices current"
+    },
+    "If the title says “2025 Guide” while the page shows a 2026 update, Google may use the newer date from the page. If you put fast-changing information in the title, update it together with the page; Google's documentation uses flight prices as an example of what not to put in titles.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Good title examples",
+       "tur": "iyi",
+       "maddeler": [
+        "Men's Leather Boots | Brand",
+        "Kadıköy Dental Clinic, Implants and Orthodontics | Brand",
+        "Setting Up Search Console Step by Step (2026)"
+       ]
+      },
+      "sag": {
+       "baslik": "Problematic title examples",
+       "tur": "kotu",
+       "maddeler": [
+        "Home",
+        "Product | Product | Brand",
+        "Cheapest Boots, Cheap Boots, Boot Prices, Buy Boots"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "4 rules for meta descriptions",
+   "paragraflar": [
+    {
+     "alt": "7. Write a description specific to each page"
+    },
+    "Google states that identical or very similar descriptions on every page are not helpful. Write a site-level description for the home page and page-level descriptions for the rest. On a site with thousands of pages, generating them from a template is explicitly encouraged in the documentation, as long as the result is readable and varies by page.",
+    {
+     "alt": "8. Give concrete information that summarises the whole page"
+    },
+    "The description should summarise the main content, not a single anecdote from the page. Google says details such as the author and publication date for an article, or the manufacturer and product details for a product page, can be brought together in the description. For the on-page side of product copy, see [e-commerce product descriptions](/en/e-ticaret-urun-aciklamasi).",
+    {
+     "alt": "9. Write natural sentences, not keyword lists"
+    },
+    "Google itself writes that descriptions made of long strings of keywords do not give a clear idea of the page and are less likely to be shown. Tell users in one or two sentences what they will find and why they should click.",
+    {
+     "alt": "10. Watch for rewrites and use snippet controls deliberately"
+    },
+    "When Google changes your title or description, it is often a sign that the text does not describe the page well enough. You can use nosnippet to turn off the snippet entirely, max-snippet to limit its length and data-nosnippet to keep part of a page out of snippets. Use them only when truly needed.",
+    {
+     "kod": "<title>Kadıköy Dental Clinic, Implants and Orthodontics | Brand</title>\n<meta name=\"description\" content=\"Implants, orthodontics and teeth whitening in Kadıköy. Specialist dentists, weekend appointments and a free check-up before treatment.\">\n\n<!-- Only if needed -->\n<meta name=\"robots\" content=\"max-snippet:160\">\n<p data-nosnippet>Text you do not want shown in snippets</p>"
+    }
+   ]
+  },
+  {
+   "baslik": "Why does Google change my title?",
+   "paragraflar": [
+    "Google's documentation lists when a title may appear differently in results. Here they are with my recommended fix.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Case",
+       "What Google may do",
+       "What to do"
+      ],
+      "satirlar": [
+       [
+        "Half-empty title (brand name only)",
+        "Combine it with the heading on the page",
+        "Write the page's topic in the title"
+       ],
+       [
+        "Obsolete date",
+        "Use the newer date from the page",
+        "Update the title and page date together"
+       ],
+       [
+        "Title does not reflect the page",
+        "Pick more accurate text",
+        "Match the title to the content"
+       ],
+       [
+        "Near-identical template titles",
+        "Add distinguishing details from the page",
+        "Give each page distinguishing information"
+       ],
+       [
+        "No clear main heading",
+        "Use the first large heading",
+        "Use one prominent H1"
+       ],
+       [
+        "Language or script mismatch",
+        "Choose different text",
+        "Write the title in the page's language"
+       ]
+      ]
+     }
+    },
+    "Changes can take from a few days to a few weeks to show as Google recrawls the page. Track the click-through rate per page in Search Console after the change; I explain how to read it in the [Search Console guide](/en/search-console-rehberi).",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Start with pages nobody clicks",
+      "metin": "Start with the 10 to 20 pages in Search Console with high impressions and a CTR below similar positions; the effect shows fastest there."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Meta title and description checklist",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Every indexable page has its own title element",
+      "The main topic is in the first words of the title",
+      "The brand name is short and added with a delimiter",
+      "The title reads without truncation on mobile in the SERP preview",
+      "The H1 and title state the same topic",
+      "The meta description summarises the whole page and is page-specific",
+      "The description contains no keyword lists"
+     ]
+    },
+    "You can run this check in bulk with a crawler as part of the on-page audit in the [technical SEO guide](/en/teknik-seo). I cover how the title fits the rest of a blog post in [rules for an SEO-friendly blog post](/en/seo-uyumlu-blog-yazisi), and template titles for large catalogues in the [e-commerce SEO guide](/en/e-ticaret-seo).",
+    "If you need to prioritise titles and descriptions across hundreds of pages or design templates for them, see [content strategy services](/en/content-strategy) and [SEO consulting](/en/seo-consulting), or [book an intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does the meta description affect rankings?",
+   "c": "The meta description is not described as a ranking signal; its real effect is on click-through rate. A good description can make more users choose you at the same position."
+  },
+  {
+   "s": "What happens if I leave the meta description empty?",
+   "c": "Since Google mostly builds snippets from page content anyway, your page will not appear without a description. But the text Google picks is not always the best summary of the page. Write your own on important pages."
+  },
+  {
+   "s": "Do capital letters or emoji in the title help?",
+   "c": "Titles written entirely in capitals take up more space and are more likely to be truncated. Whether Google shows emoji varies; skip them if they do not suit your audience and brand."
+  },
+  {
+   "s": "Do AI answers use the meta description?",
+   "c": "Features such as AI Overviews build answers from page content and may link to your page as a source. Google states that these features need no additional markup. So a clear answer on the page matters more than the meta description; I cover the effect of searches without clicks in [zero-click search](/en/zero-click-arama)."
+  },
+  {
+   "s": "How long should I wait after changing a title?",
+   "c": "According to Google's documentation, it can take from a few days to a few weeks for a change to show in results. For an important page you can request a recrawl with URL Inspection. Compare equal periods of at least a few weeks."
+  }
+ ]
+}

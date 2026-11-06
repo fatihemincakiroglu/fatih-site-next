@@ -1,0 +1,485 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 7,
+ "baslik_tr": "Küçük İşletmeler İçin 10 Yerel SEO Taktiği",
+ "baslik_en": "10 Local SEO Tactics for Small Businesses",
+ "meta_baslik_tr": "Küçük İşletmeye 10 Yerel SEO Taktiği",
+ "meta_baslik_en": "10 Local SEO Tactics for Small Business",
+ "meta_desc_tr": "Esnaf ve KOBİ'ler için düşük bütçeli 10 yerel SEO taktiği. Business Profile, kategori, NAP, yorum, yerel sayfa ve dizinler adım adım.",
+ "meta_desc_en": "10 low budget local SEO tactics for small businesses. Business Profile, categories, NAP, reviews, a local page and directories step by step.",
+ "ozet_tr": "Esnaf ve KOBİ'ler için bütçe gerektirmeyen, bu hafta uygulanabilecek 10 yerel SEO taktiği.",
+ "ozet_en": "10 local SEO tactics small businesses can apply this week without a big budget.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Mahalledeki kuaför, oto servis ya da pastane için müşteri çoğu zaman “yakınımdaki” bir aramayla geliyor. Bu işletmelerin büyük bir SEO bütçesi yok ve buna çoğu zaman ihtiyaçları da yok. Sahada gördüğüm en büyük kayıp, ücretsiz araçların yarım bırakılması: doğrulanmamış bir profil, yanlış kategori, yıllardır cevaplanmamış yorumlar.",
+    "Bu yazı kapsamlı bir rehber değil, bu hafta uygulanabilecek 10 taktiklik hızlı bir liste. Her taktik Google'ın resmi Business Profile dokümanlarına dayanıyor; konunun tamamı için [yerel SEO rehberine](/yerel-seo) bakabilirsiniz.",
+    {
+     "alinti": "Kısa cevap: Küçük bir işletme için yerel SEO, doğrulanmış ve eksiksiz bir Google Business Profile, doğru birincil kategori, her yerde aynı ad, adres ve telefon, düzenli istenen ve cevaplanan yorumlar ve sitede tek bir güçlü yerel sayfa ile başlar. Google'a göre yerel sıralama için ödeme yapmanın bir yolu yoktur."
+    }
+   ]
+  },
+  {
+   "baslik": "Google yerel sonuçları neye göre sıralar?",
+   "paragraflar": [
+    "Google Business Profile yardım sayfasına göre yerel sonuçlar temelde üç faktöre dayanıyor.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎯",
+       "baslik": "Alaka",
+       "metin": "Profilin aranan şeyle ne kadar eşleştiği. Eksiksiz ve ayrıntılı bilgi alakayı güçlendirir."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Mesafe",
+       "metin": "İşletmenin arama yapan kişiye ya da aramada geçen konuma uzaklığı."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Öne çıkma",
+       "metin": "İşletmenin ne kadar bilindiği. Google buna diğer sitelerden gelen linkleri, yorum sayısını ve puanı dahil ediyor."
+      }
+     ]
+    },
+    "Mesafeyi değiştiremezsiniz; aşağıdaki 10 taktik alaka ve öne çıkma üzerinde çalışıyor. Google aynı sayfada yerel sıralamayı talep etmenin ya da bunun için ödeme yapmanın mümkün olmadığını açıkça yazıyor. Size “haritada ilk sıra” satan birine bu cümleyi hatırlatın."
+   ]
+  },
+  {
+   "baslik": "Business Profile için 5 taktik",
+   "paragraflar": [
+    {
+     "alt": "1. Profili sahiplenin ve doğrulayın"
+    },
+    "Google'a göre doğrulanmış işletmelerin yerel sonuçlarda görünme olasılığı daha yüksek. Profiliniz başkası tarafından açılmışsa sahiplik talep edin. Dükkânı olmayan, müşteriye giden bir işletmeyseniz (tesisatçı, temizlik firması gibi) Google adresi gizleyip hizmet bölgesi tanımlamanızı istiyor. Kurulum adımları [Google Business Profile yazısında](/google-business-profile) var.",
+    {
+     "alt": "2. Birincil kategoriyi en spesifik haliyle seçin"
+    },
+    "Google, olabildiğince az ve işi en spesifik tanımlayan kategorileri kullanmayı öneriyor. Ölçütü basit: “Bu işletme bir ... dır” cümlesini tamamlayan kategori. “Pastane”, “Kafe” ya da “Restoran” arasında kararsızsanız müşterilerin sizi en çok ne için aradığına bakın. Kategorileri anahtar kelime eklemek için kullanmak yönergelere aykırı.",
+    {
+     "alt": "3. İşletme adına anahtar kelime eklemeyin"
+    },
+    "Google'ın yönergelerine göre işletme adı tabeladaki gerçek adla aynı olmalı. “Yıldız Kuaför | Kadıköy En İyi Saç Kesimi” gibi eklemeler kurallara aykırı ve profilin askıya alınma riskini doğurur. Hizmet ve semt bilgisini açıklama, hizmetler ve kategori alanlarında verin.",
+    {
+     "alt": "4. Saatleri ve özel saatleri güncel tutun"
+    },
+    "Google, normal çalışma saatlerinin yanında bayram ve tatil günleri için özel saat girmeyi öneriyor. Kurban Bayramı'nda kapalı olduğu halde açık görünen bir dükkân, gelen müşteriyi kapıda kaybeder ve olumsuz yorum riskini artırır.",
+    {
+     "alt": "5. Fotoğraf ve video ekleyin"
+    },
+    "Google, fotoğraf ve videolarla ne sunduğunuzu gösterebileceğinizi ve işletmenizin hikâyesini anlatabileceğinizi belirtiyor. Dış cephe, iç mekân, ekip ve ürün fotoğrafları müşterinin sizi kapıda tanımasını sağlar. Stok fotoğraf yerine kendi çekiminizi kullanın.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Soru-Cevap bölümü artık yok",
+      "metin": "Google Business Profile'daki Soru-Cevap özelliği kaldırıldı. Müşterilerin sık sorduğu soruları web sitenizdeki yerel sayfaya ve profil açıklamasına taşıyın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Yorumlar için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "6. Yorumları kurallara uygun biçimde isteyin"
+    },
+    "Google, müşterilerden yorum istemek için bir link ya da QR kod paylaşmanızı öneriyor. İndirim, hediye ya da ödeme karşılığında yorum istemek kesinlikle yasak. Yasaklı içerik politikası, yalnızca memnun müşterilerden seçerek yorum istemeyi ve çalışanların ya da işletme sahibinin yorum yazmasını da kapsıyor.",
+    {
+     "akis": {
+      "baslik": "Haftalık yorum isteme rutini",
+      "adimlar": [
+       {
+        "baslik": "Linki hazırla",
+        "metin": "Business Profile'dan yorum linkini ya da QR kodunu alın."
+       },
+       {
+        "baslik": "Görünür yap",
+        "metin": "QR kodu kasaya, faturaya ya da kartvizite ekleyin."
+       },
+       {
+        "baslik": "Herkese iste",
+        "metin": "Hizmet sonrası tüm müşterilere aynı mesajı gönderin, seçim yapmayın."
+       },
+       {
+        "baslik": "Cevapla",
+        "metin": "Haftada bir gün tüm yeni yorumlara kısa ve kişisel cevap yazın."
+       }
+      ]
+     }
+    },
+    {
+     "alt": "7. Her yoruma kısa ve kişisel cevap verin"
+    },
+    "Google'a göre yorumlara cevap vermek müşterinin geri bildirimine değer verdiğinizi gösterir. Cevapları kısa, sohbet havasında ve reklamsız tutun; her yoruma aynı teşekkür metnini yapıştırmayın. Olumsuz yorumlara nasıl yaklaşacağınızı örnek cevaplarla [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Web sitesi ve dış kaynaklar için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "8. Ad, adres ve telefonu her yerde aynı yazın"
+    },
+    "Ad, adres ve telefon (NAP) web sitenizde, Business Profile'da, Instagram biyografinizde ve dizinlerde birebir aynı olmalı. “Cad.” ile “Caddesi” farkı küçük görünür ama farklı numara ya da eski adres müşteriyi yanlış yere gönderir. Google ayrıca konuma bağlı ve doğrudan işletmenin kontrolündeki bir telefon numarası istiyor. Instagram tarafı için [Instagram SEO ipuçlarına](/instagram-seo) bakabilirsiniz.",
+    {
+     "alt": "9. Sitede tek bir güçlü yerel sayfa hazırlayın"
+    },
+    "Sitenizde adres, telefon, çalışma saatleri, hizmet bölgesi, yol tarifi ve sık sorulan soruların olduğu bir iletişim ya da şube sayfası hazırlayın. Sayfaya Google Haritalar haritasını gömmek ziyaretçinin yolu bulmasını kolaylaştırır. LocalBusiness yapısal verisini [schema oluşturucu aracıyla](/schema-olusturucu) hazırlayabilir, ayrıntısını [schema ve yapısal veri rehberinde](/schema-yapisal-veri) okuyabilirsiniz.",
+    {
+     "alt": "10. Yerel dizinlerde ve komşu sitelerde yer alın"
+    },
+    "Google, öne çıkma faktörüne diğer sitelerden gelen linkleri de dahil ediyor. Apple Haritalar, Yandex Haritalar ve Bing Places gibi harita servislerine, sektör odalarının ve meslek birliklerinin üye listelerine, semt derneği ya da yerel haber sitelerine kaydolun. Her kayıtta aynı ad, adres ve telefonu kullanın; para karşılığı link satan dizinlerden uzak durun."
+   ]
+  },
+  {
+   "baslik": "10 taktiğin öncelik tablosu",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Taktik",
+       "Etkilediği faktör",
+       "Ne zaman yapılır"
+      ],
+      "satirlar": [
+       [
+        "Profili doğrulama",
+        "Görünürlük",
+        "İlk gün"
+       ],
+       [
+        "Birincil kategori",
+        "Alaka",
+        "İlk gün"
+       ],
+       [
+        "Gerçek işletme adı",
+        "Yönergelere uyum",
+        "İlk gün"
+       ],
+       [
+        "Saatler ve özel saatler",
+        "Müşteri deneyimi",
+        "İlk hafta, sonra her bayram öncesi"
+       ],
+       [
+        "Fotoğraf ve video",
+        "Müşteri kararı",
+        "İlk hafta, sonra ayda bir"
+       ],
+       [
+        "Yorum isteme",
+        "Öne çıkma",
+        "Her hafta"
+       ],
+       [
+        "Yorum cevaplama",
+        "Güven",
+        "Her hafta"
+       ],
+       [
+        "NAP tutarlılığı",
+        "Alaka ve güven",
+        "İlk ay"
+       ],
+       [
+        "Yerel sayfa ve harita",
+        "Alaka",
+        "İlk ay"
+       ],
+       [
+        "Yerel dizinler ve linkler",
+        "Öne çıkma",
+        "İlk üç ay"
+       ]
+      ]
+     }
+    },
+    "Sıralama benim saha önceliğim; Google bu taktikler için bir ağırlık açıklamıyor. Sağlık sektöründeyseniz [diş klinikleri için yerel SEO](/dis-klinikleri-yerel-seo) yazısı sektöre özgü ayrıntıları ekliyor."
+   ]
+  },
+  {
+   "baslik": "Aylık yerel SEO kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Business Profile'daki ad, adres ve telefon sitedekiyle aynı",
+      "Yaklaşan bayram ve tatiller için özel saatler girildi",
+      "Bu ay en az birkaç yeni fotoğraf eklendi",
+      "Tüm yeni yorumlara cevap verildi",
+      "Yorum linki ya da QR kodu kasada ve faturada görünüyor",
+      "Sitedeki yerel sayfa mobilde hızlı açılıyor",
+      "Performans ekranında arama ve harita görüntülemeleri not edildi"
+     ]
+    },
+    "Profil performansınızı ayda bir kontrol etmek, hangi taktiğin işe yaradığını görmenin en kolay yolu. Telefondan gelen yerel aramaların çoğu mobilde olduğu için sitenizin [mobil SEO](/mobil-seo) durumunu da gözden geçirin."
+   ]
+  },
+  {
+   "baslik": "Yerel SEO'da ne zaman destek almalı?",
+   "paragraflar": [
+    "Bu 10 taktik, tek şubeli bir işletmenin kendi başına yapabileceği işler. Birden fazla şubeniz, askıya alınmış bir profiliniz ya da rakiplerinizin sahte yorumlarıyla ilgili bir sorununuz varsa uzman desteği zaman kazandırır.",
+    "Klinikler için [klinik SEO](/klinik-seo), diğer sektörler için [SEO danışmanlığı](/seo-uzmani) sayfasından nasıl çalıştığıma bakabilir ya da doğrudan [ücretsiz bir ön görüşme planlayabilirsiniz](/randevu)."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "For a neighbourhood hairdresser, car repair shop or bakery, customers often arrive through a “near me” search. These businesses rarely have a big SEO budget, and most do not need one. The biggest loss I see in the field is free tools left half done: an unverified profile, the wrong category, reviews unanswered for years.",
+    "This is not a comprehensive guide but a quick list of 10 tactics you can apply this week. Each one rests on Google's official Business Profile documentation; for the full picture, see the [local SEO guide](/en/yerel-seo).",
+    {
+     "alinti": "Short answer: For a small business, local SEO starts with a verified, complete Google Business Profile, the right primary category, the same name, address and phone everywhere, reviews that are requested and answered regularly, and one strong local page on the website. According to Google, there is no way to pay for a better local ranking."
+    }
+   ]
+  },
+  {
+   "baslik": "How does Google rank local results?",
+   "paragraflar": [
+    "According to Google Business Profile Help, local results are mainly based on three factors.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🎯",
+       "baslik": "Relevance",
+       "metin": "How well a profile matches what someone searches for. Complete, detailed information helps."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Distance",
+       "metin": "How far the business is from the searcher or from the location in the query."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Prominence",
+       "metin": "How well known a business is. Google includes links from other sites, review count and rating."
+      }
+     ]
+    },
+    "You cannot change distance; the 10 tactics below work on relevance and prominence. Google states on the same page that there is no way to request or pay for a better local ranking. Remind anyone selling you “first place on the map” of that sentence."
+   ]
+  },
+  {
+   "baslik": "5 tactics for your Business Profile",
+   "paragraflar": [
+    {
+     "alt": "1. Claim and verify your profile"
+    },
+    "Google says verified businesses are more likely to appear in local results. If someone else created your profile, request ownership. If you have no storefront and travel to customers (a plumber or cleaning company, for example), Google asks you to hide your address and set a service area. Setup steps are in the [Google Business Profile post](/en/google-business-profile).",
+    {
+     "alt": "2. Choose the most specific primary category"
+    },
+    "Google recommends using as few categories as possible and the most specific ones that describe your core business. The test is simple: the category that completes “This business is a ...”. If you are torn between bakery, café and restaurant, look at what customers most often search for you. Using categories as keywords breaks the guidelines.",
+    {
+     "alt": "3. Do not add keywords to your business name"
+    },
+    "Under Google's guidelines, the business name must match the real world name on your signage. Additions like “Star Hair | Best Haircut in Kadikoy” break the rules and put the profile at risk of suspension. Give service and area information in the description, services and category fields.",
+    {
+     "alt": "4. Keep regular and special hours up to date"
+    },
+    "Google recommends adding special hours for holidays as well as regular hours. A shop that shows as open on a public holiday when it is closed loses the customer at the door and invites a negative review.",
+    {
+     "alt": "5. Add photos and videos"
+    },
+    "Google notes that photos and videos let you show what you offer and tell your business's story. Exterior, interior, team and product photos help customers recognise you at the door. Use your own photos rather than stock images.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Q&A is gone",
+      "metin": "The Questions and Answers feature has been removed from Google Business Profile. Move common customer questions to your website's local page and the profile description."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tactics for reviews",
+   "paragraflar": [
+    {
+     "alt": "6. Ask for reviews within the rules"
+    },
+    "Google suggests sharing a link or QR code to ask customers for reviews. Offering discounts, gifts or payment in exchange for reviews is strictly prohibited. The prohibited content policy also covers selectively asking only happy customers and reviews written by employees or owners.",
+    {
+     "akis": {
+      "baslik": "Weekly review routine",
+      "adimlar": [
+       {
+        "baslik": "Get the link",
+        "metin": "Copy the review link or QR code from Business Profile."
+       },
+       {
+        "baslik": "Make it visible",
+        "metin": "Put the QR code at the till, on receipts or business cards."
+       },
+       {
+        "baslik": "Ask everyone",
+        "metin": "Send the same message to every customer after service, no filtering."
+       },
+       {
+        "baslik": "Reply",
+        "metin": "One day a week, write short, personal replies to all new reviews."
+       }
+      ]
+     }
+    },
+    {
+     "alt": "7. Reply to every review briefly and personally"
+    },
+    "Google says replying to reviews shows you value customer feedback. Keep replies short, conversational and free of promotion; do not paste the same thank you under every review. I cover negative reviews with sample replies in [how to reply to Google reviews](/en/google-yorumlarina-cevap)."
+   ]
+  },
+  {
+   "baslik": "3 tactics for your website and other sites",
+   "paragraflar": [
+    {
+     "alt": "8. Write name, address and phone the same everywhere"
+    },
+    "Name, address and phone (NAP) should match exactly on your website, Business Profile, Instagram bio and directories. Abbreviations look harmless, but a different number or an old address sends customers to the wrong place. Google also asks for a phone number tied to the location and under the business's direct control. For the Instagram side, see the [Instagram SEO tips](/en/instagram-seo).",
+    {
+     "alt": "9. Build one strong local page on your site"
+    },
+    "Create a contact or branch page with address, phone, hours, service area, directions and common questions. Embedding a Google Maps map helps visitors find you. Generate LocalBusiness structured data with the [schema generator](/en/schema-generator) and read the details in the [schema and structured data guide](/en/schema-yapisal-veri).",
+    {
+     "alt": "10. Get listed in local directories and neighbouring sites"
+    },
+    "Google includes links from other websites in prominence. List your business on map services such as Apple Maps, Yandex Maps and Bing Places, in chamber of commerce and trade association member lists, and on neighbourhood or local news sites. Use the same name, address and phone each time, and stay away from directories that sell links."
+   ]
+  },
+  {
+   "baslik": "Priority table for the 10 tactics",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Tactic",
+       "Factor it affects",
+       "When to do it"
+      ],
+      "satirlar": [
+       [
+        "Verify profile",
+        "Visibility",
+        "Day one"
+       ],
+       [
+        "Primary category",
+        "Relevance",
+        "Day one"
+       ],
+       [
+        "Real business name",
+        "Guideline compliance",
+        "Day one"
+       ],
+       [
+        "Regular and special hours",
+        "Customer experience",
+        "Week one, then before each holiday"
+       ],
+       [
+        "Photos and videos",
+        "Customer decision",
+        "Week one, then monthly"
+       ],
+       [
+        "Asking for reviews",
+        "Prominence",
+        "Every week"
+       ],
+       [
+        "Replying to reviews",
+        "Trust",
+        "Every week"
+       ],
+       [
+        "NAP consistency",
+        "Relevance and trust",
+        "Month one"
+       ],
+       [
+        "Local page and map",
+        "Relevance",
+        "Month one"
+       ],
+       [
+        "Local directories and links",
+        "Prominence",
+        "First three months"
+       ]
+      ]
+     }
+    },
+    "The order is my field priority; Google does not publish weights for these tactics. If you are in healthcare, [local SEO for dental clinics](/en/dis-klinikleri-yerel-seo) adds sector specific details."
+   ]
+  },
+  {
+   "baslik": "Monthly local SEO checklist",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Name, address and phone on Business Profile match the website",
+      "Special hours are set for upcoming holidays",
+      "A few new photos were added this month",
+      "All new reviews have replies",
+      "The review link or QR code is visible at the till and on receipts",
+      "The local page loads fast on mobile",
+      "Search and Maps views in the performance screen are noted"
+     ]
+    },
+    "Checking profile performance monthly is the easiest way to see which tactic works. Since most local searches happen on phones, also review your site's [mobile SEO](/en/mobil-seo)."
+   ]
+  },
+  {
+   "baslik": "When to get help with local SEO",
+   "paragraflar": [
+    "These 10 tactics are work a single location business can do itself. If you have several branches, a suspended profile or a problem with fake reviews from competitors, expert support saves time.",
+    "See [healthcare SEO](/en/healthcare-seo) for clinics or [SEO consulting](/en/seo-consulting) for other sectors to learn how I work, or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Evden çalışıyorum, Business Profile açabilir miyim?",
+   "c": "Müşteriye giden bir hizmet veriyorsanız açabilirsiniz, ama Google ev adresinizi gizleyip hizmet bölgesi tanımlamanızı istiyor. Hizmet bölgesi genel olarak işletmeden yaklaşık iki saatlik sürüş mesafesini aşmamalı. Sanal ofis adresleri ise profil için uygun kabul edilmiyor."
+  },
+  {
+   "s": "Her semt için ayrı profil açabilir miyim?",
+   "c": "Hayır. Google her fiziksel konum için tek profil istiyor ve bir konum için birden fazla sayfa açmayı yasaklıyor. Birden fazla semte hizmet veriyorsanız tek profilde hizmet bölgesi tanımlayın ve semtleri web sitenizdeki yerel sayfada anlatın."
+  },
+  {
+   "s": "Profilime ne sıklıkla güncelleme paylaşmalıyım?",
+   "c": "Google bir sıklık zorunluluğu açıklamıyor. Kampanya, yeni ürün ya da etkinlik olduğunda kısa bir güncelleme paylaşmak, profili ziyaret eden müşteriye güncel bilgi verir. Düzenli olmayan ama doğru bilgi, sık ama boş paylaşımdan daha değerlidir."
+  },
+  {
+   "s": "Olumsuz bir yorumu sildirebilir miyim?",
+   "c": "Yalnızca Google'ın politikalarını ihlal eden yorumlar kaldırılabilir; sahte, teşvikli ya da çıkar çatışması içeren yorumlar bunlara örnektir. Sadece olumsuz olduğu için bir yorum kaldırılmaz. Bu durumda en iyi yol sakin ve çözüm odaklı bir cevap yazmaktır."
+  },
+  {
+   "s": "Yerel SEO sonuçları ne kadar sürede görülür?",
+   "c": "Profil doğrulama ve kategori düzeltmesi gibi değişikliklerin etkisi bazen birkaç hafta içinde görülebilir, yorum ve link gibi öne çıkma çalışmaları ise aylara yayılır. Kesin bir süre vermek mümkün değil, çünkü rakiplerin durumu ve mesafe her aramada farklı. Değişimi Business Profile performans ekranından aylık takip edin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "I work from home. Can I have a Business Profile?",
+   "c": "Yes, if you serve customers at their location, but Google asks you to hide your home address and set a service area. A service area should generally stay within about two hours of driving time from the business. Virtual office addresses are not eligible."
+  },
+  {
+   "s": "Can I create a separate profile for each neighbourhood?",
+   "c": "No. Google wants one profile per physical location and does not allow more than one page for a location. If you serve several neighbourhoods, set a service area on one profile and describe the areas on your website's local page."
+  },
+  {
+   "s": "How often should I post updates on my profile?",
+   "c": "Google does not set a required frequency. Posting a short update when you have a campaign, a new product or an event gives profile visitors current information. Accurate but occasional updates are worth more than frequent empty ones."
+  },
+  {
+   "s": "Can I get a negative review removed?",
+   "c": "Only reviews that violate Google's policies can be removed; fake, incentivised or conflict of interest reviews are examples. A review is not removed just because it is negative. In that case the best path is a calm, solution focused reply."
+  },
+  {
+   "s": "How long until local SEO shows results?",
+   "c": "Changes such as verification or fixing the category can show an effect within a few weeks, while prominence work such as reviews and links takes months. No exact timeline is possible, since competitors and distance differ for every search. Track the change monthly in the Business Profile performance screen."
+  }
+ ]
+}
