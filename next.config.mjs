@@ -41,6 +41,45 @@ const ANASAYFAYA_YONLENEN = [
   '/e-ticaret-site-kurulumu',
   '/contact',
   '/elements',
+  // Kasım 2026: Search Console'da 404 görünen eski blog/rehber ve deneme adresleri
+  '/blog/algoritma-guncelleme-rehberi',
+  '/rehber/on-page-seo',
+  '/blog/anchor-text-optimizasyonu',
+  '/blog/broken-link-building',
+  '/blog/dijital-pr-seo-2',
+  '/blog/dijital-pr-seo',
+  '/blog/faceted-navigation-seo',
+  '/blog/javascript-seo-rehberi',
+  '/blog/ctr-optimizasyonu',
+  '/blog/site-migrasyonu-seo',
+  '/blog/geo-nedir-rehber',
+  '/rehber/ai-overview',
+  '/rehber/geo-nedir',
+  '/blog/answer-engine-optimization',
+  '/blog/shopify-seo-optimizasyonu',
+  '/blog/e-ticaret-seo-rehberi',
+  '/rehber/off-page-seo',
+  '/rehber/geo-optimizasyonu',
+  '/rehber/aeo',
+  '/blog/nap-tutarliligi',
+  '/blog/toksik-backlink-temizleme',
+  '/blog/entity-seo-rehberi',
+  '/blog/seo-yatirim-donusu',
+  '/blog/ai-icin-icerik-yazma',
+  '/10',
+  '/blog/canonical-tag-stratejisi',
+  '/blog/2026/10/20/post-1',
+  '/de/kontakt',
+  '/blog/yerel-seo-rehberi',
+  '/blog/topical-authority-rehberi',
+  '/blog/teknik-seo-denetim',
+  '/blog/featured-snippet-stratejisi',
+  '/blog/chatgpt-search-seo',
+  '/rehber/performans-pazarlama',
+  '/blog/[slug]',
+  '/blog/sayfa-hizi-optimizasyonu',
+  '/blog/backlink-stratejisi-2025-2',
+  '/blog/schema-markup-rehberi',
 ]
 
 // Eski blog adresleri: içeriği artık sitede bulunan konuya yönlenir (ana sayfa yerine).
@@ -199,16 +238,21 @@ const nextConfig = {
         { source: `${u}/`, destination: hedef, statusCode: 301 },
       ]),
       // Kaldırılmış eski adresler → ana sayfa. statusCode: 301 (permanent: true 308 verir).
+      // Önek kurallarından ÖNCE gelmeli: /blog/x tek adımda ana sayfaya gitsin, /x'e gidip 404 vermesin.
+      ...ANASAYFAYA_YONLENEN.flatMap(u => [
+        { source: u.replace(/[[\]()]/g, '\\$&'), destination: '/', statusCode: 301 },
+        { source: `${u.replace(/[[\]()]/g, '\\$&')}/`, destination: '/', statusCode: 301 },
+      ]),
+      // Next şablon adı yanlışlıkla taranmış: /blog/[slug] (tarayıcı köşeli parantezi %5B %5D olarak da gönderebilir)
+      { source: '/blog/%5Bslug%5D', destination: '/', statusCode: 301 },
+      { source: '/blog/%5bslug%5d', destination: '/', statusCode: 301 },
+      // Eski önekli adresler (/blog/x, /rehber/x ...) → düz adres
       ...ESKI_ONEKLER.map(onek => ({
         source: `${onek}/:slug`,
         destination: `${onek.startsWith('/en') ? '/en' : ''}/:slug`,
         statusCode: 301,
         missing: veriIstegiDegil,
       })),
-      ...ANASAYFAYA_YONLENEN.flatMap(u => [
-        { source: u, destination: '/', statusCode: 301 },
-        { source: `${u}/`, destination: '/', statusCode: 301 },
-      ]),
       // Genel kural (en sonda kalmalı): /sayfa/ → /sayfa (308, Next'in varsayılanıyla aynı)
       { source: '/:path+/', destination: '/:path+', permanent: true },
     ]
