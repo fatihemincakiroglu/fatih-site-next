@@ -1,0 +1,435 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Restoran ve Kafeler İçin 10 Yerel SEO Taktiği",
+ "baslik_en": "10 Local SEO Tactics for Restaurants and Cafes",
+ "meta_baslik_tr": "Restoran ve Kafeler İçin 10 SEO Taktiği",
+ "meta_baslik_en": "10 Local SEO Tactics for Restaurants",
+ "meta_desc_tr": "Restoran ve kafeler için Business Profile menüsü, fotoğraf, yorum, HTML menü sayfası, rezervasyon ve Restaurant schema üzerine 10 yerel SEO taktiği.",
+ "meta_desc_en": "Ten local SEO tactics for restaurants and cafes covering the Business Profile menu, photos, reviews, HTML menu pages, bookings and Restaurant schema.",
+ "ozet_tr": "Menüden fotoğraflara, rezervasyondan Restaurant schema'ya, haritalarda bulunmak isteyen restoran ve kafeler için 10 taktik.",
+ "ozet_en": "From menus and photos to bookings and Restaurant schema, 10 tactics for restaurants and cafes that want to be found on maps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir restoran ya da kafe için arama çoğu zaman birkaç dakika içinde karara dönüşür. “Yakınımdaki kahvaltı”, “Moda'da çalışmaya uygun kafe” ya da “Beşiktaş balık restoranı” diye arayan kişi harita sonuçlarına bakar, fotoğrafları ve menüyü inceler, yol tarifine ya da telefona tıklar. Bu kararın büyük kısmı sitenizde değil, Google Haritalar'da verilir.",
+    "Genel yerel SEO temelleri için [küçük işletmeler için yerel SEO taktikleri](/kucuk-isletme-yerel-seo) yazısını öneririm. Bu yazıda yalnızca yeme içme işletmelerine özgü 10 taktiği anlatıyorum: menü, fotoğraf, rezervasyon, şube ve yapısal veri.",
+    {
+     "alinti": "Kısa cevap: Restoran ve kafelerde yerel SEO'nun merkezinde Google Business Profile vardır. Doğru kategori, güncel menü, düzenli yenilenen fotoğraflar ve yorumlar harita görünürlüğünü belirler; web sitesinde ise menünün PDF değil HTML olarak yayınlanması, kolay rezervasyon yolu ve Restaurant yapısal verisi bu görünürlüğü destekler."
+    }
+   ]
+  },
+  {
+   "baslik": "Restoran ve kafe aramaları nasıl işler?",
+   "paragraflar": [
+    "Yeme içme aramalarının çoğu konum odaklıdır ve kullanıcı genellikle mobildedir. Google “yakınımdaki” aramalarda kullanıcının konumunu zaten bilir; bu yüzden sayfaya “yakınımdaki” kelimesini doldurmak işe yaramaz. Asıl fark, sizi doğru anda doğru niyetle eşleştiren bilgilerde ortaya çıkar.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Anlık arama",
+       "metin": "“Yakınımdaki kafe”, “şu an açık restoran”. Mesafe, açık olma durumu ve puan belirleyicidir."
+      },
+      {
+       "ikon": "🍽️",
+       "baslik": "Mutfak ve semt",
+       "metin": "“Kadıköy kahvaltı”, “Karaköy burger”. Kategori, menü ve yorumlardaki yemek adları önemlidir."
+      },
+      {
+       "ikon": "🎉",
+       "baslik": "Durum araması",
+       "metin": "“Doğum günü için restoran”, “iftar menüsü”, “laptopla çalışılacak kafe”. Özellikler ve özel sayfalar devreye girer."
+      },
+      {
+       "ikon": "🔎",
+       "baslik": "Marka araması",
+       "metin": "İşletme adı ile “menü”, “fiyat”, “rezervasyon”. Kullanıcı sizi bulmuş, karar vermek istiyor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Business Profile için 4 taktik",
+   "paragraflar": [
+    {
+     "alt": "1. Birincil kategoriyi mutfağınıza göre seçin"
+    },
+    "Genel “Restoran” kategorisi yerine işletmenizi en iyi anlatan spesifik kategoriyi seçin: kahvaltı salonu, balık restoranı, kebapçı, kahve dükkânı gibi. Google'ın yönergeleri kategorilerin işletmenin ne olduğunu anlatmasını ve mümkün olduğunca az sayıda tutulmasını istiyor. Kategori seçiminin genel mantığını [Google Business Profile optimizasyonu](/google-business-profile) rehberinde anlattım.",
+    {
+     "alt": "2. Menüyü doğrudan profile ekleyin"
+    },
+    "Google'ın yardım sayfasına göre yeme içme işletmeleri profillerine bölümler, ürün adları, açıklamalar ve fiyatlarla bir menü ekleyebiliyor, ayrıca bir menü bağlantısı tanımlayabiliyor. Google menü bilgisini web sitenizden de aktarabiliyor; yanlış aktarılan ürünleri düzenleyebilir ya da silebilirsiniz. Değişikliklerin Haritalar'da görünmesi 24 ila 48 saat sürebiliyor, bu yüzden fiyat güncellemesini son ana bırakmayın.",
+    {
+     "alt": "3. Fotoğrafları düzenli olarak yenileyin"
+    },
+    "Müşteri fotoğrafları kontrolünüzde değil ama sizin yüklediğiniz fotoğraflar öyle. Dış cephe ve giriş (yeri bulmayı kolaylaştırır), iç mekân, en çok satan tabaklar ve mevsimsel menü için ayrı fotoğraflar yükleyin. Görsellerin web sitesindeki kullanımı için [görsel SEO](/gorsel-seo) yazısına bakabilirsiniz.",
+    {
+     "alt": "4. Özellikleri ve özel saatleri güncel tutun"
+    },
+    "Teras, vegan seçenek, rezervasyon kabulü, çocuk sandalyesi gibi özellikler durum aramalarında eşleşmeyi kolaylaştırır. Ramazan'da iftar saatine göre değişen düzen, bayram ve yılbaşı saatleri için özel saat tanımlayın; kapalı olduğunuz bir saatte “açık” görünmek en hızlı olumsuz yorum nedenidir.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Web sitesi bağlantısını ölçün",
+      "metin": "Profildeki web sitesi ve menü bağlantılarına UTM parametresi ekleyin. [UTM oluşturucu](/utm-olusturucu) ile hazırladığınız bağlantılar sayesinde haritadan gelen ziyaretleri Analytics'te ayrı görürsünüz."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Web sitesinde menü ve rezervasyon için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "5. Menüyü PDF değil HTML sayfa olarak yayınlayın"
+    },
+    "QR menüler ve PDF dosyaları masada pratiktir ama aramada zayıftır. HTML menü sayfası mobilde hızlı açılır, yemek adlarıyla aranabilir ve fiyat değiştiğinde dakikalar içinde güncellenir. Mobil deneyimin ayrıntıları için [mobil SEO](/mobil-seo) yazısına göz atın.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "HTML menü sayfası",
+       "tur": "iyi",
+       "maddeler": [
+        "Yemek adları metin olarak okunur",
+        "Mobilde hızlı açılır, yakınlaştırma gerekmez",
+        "Fiyat ve ürün anında güncellenir",
+        "Fotoğraf ve alerjen bilgisi eklenebilir"
+       ]
+      },
+      "sag": {
+       "baslik": "PDF ya da görsel menü",
+       "tur": "kotu",
+       "maddeler": [
+        "Metin çoğu zaman taranamaz ya da zor okunur",
+        "Mobilde büyük dosya, yavaş açılış",
+        "Eski sürümler arama sonucunda kalabilir",
+        "Her değişiklikte dosya yeniden hazırlanır"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "6. Rezervasyonu tek adımda mümkün kılın"
+    },
+    "Rezervasyon alıyorsanız ana sayfada ve menü sayfasında açık bir “Rezervasyon yap” butonu, tıklanabilir telefon ve WhatsApp bağlantısı bulunsun. Business Profile'da da kategoriye ve ülkeye göre rezervasyon ya da sipariş bağlantısı eklenebiliyor; panelinizde bu seçeneğin görünüp görünmediğini kontrol edin. Grup yemeği, doğum günü ve iftar gibi durumlar için ayrı bir sayfa açmak durum aramalarında görünmenizi sağlar.",
+    {
+     "alt": "7. Her şube için ayrı ve özgün bir sayfa açın"
+    },
+    "Birden fazla şubeniz varsa her biri için adresi, haritası, saatleri, telefonu ve o şubeye özgü bilgileri (otopark, deniz manzarası, bahçe) içeren bir sayfa hazırlayın. Her şubenin Business Profile'ındaki web sitesi bağlantısı ana sayfaya değil, kendi şube sayfasına gitmeli."
+   ]
+  },
+  {
+   "baslik": "Yorumlar ve platformlar için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "8. Yorumu kurallara uygun biçimde isteyin"
+    },
+    "Hesap fişindeki ya da masadaki QR kodla yorum bağlantısı paylaşmak meşru bir yöntemdir. Ancak “yorum yapana tatlı ikram” gibi teşvikler Google'ın politikalarına aykırıdır ve yorumların kaldırılmasına yol açabilir. Gelen yorumlara, özellikle servis ve bekleme şikâyetlerine nasıl cevap vereceğinizi [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında örneklerle anlattım.",
+    {
+     "alt": "9. Sipariş platformları ve haritalarda bilgiyi tutarlı tutun"
+    },
+    "Yemeksepeti, Getir gibi sipariş platformlarında, Tripadvisor'da, Apple Haritalar ve Yandex Haritalar'da işletme adı, adres, telefon ve saatler aynı olmalı. Çelişen bilgi hem kullanıcıyı yanıltır hem de Google'ın işletmeniz hakkındaki güvenini zayıflatır. Taşınma ya da saat değişikliğinde bu listeyi tek tek güncelleyin."
+   ]
+  },
+  {
+   "baslik": "Restaurant yapısal verisi için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "10. Restaurant schema ile menüyü ve mutfağı tanımlayın"
+    },
+    "Google'ın yerel işletme yapısal veri dokümanı mümkün olan en spesifik LocalBusiness alt türünü (ör. Restaurant) kullanmayı öneriyor ve yeme içme işletmeleri için servesCuisine, menu ve priceRange alanlarını tavsiye ediyor. Adres ve telefon, Business Profile'daki bilgiyle birebir aynı olmalı.",
+    {
+     "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Restaurant\",\n  \"name\": \"Örnek Kahvaltı Evi\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Moda Caddesi No 10\",\n    \"addressLocality\": \"Kadıköy\",\n    \"addressRegion\": \"İstanbul\",\n    \"addressCountry\": \"TR\"\n  },\n  \"telephone\": \"+90 216 000 00 00\",\n  \"servesCuisine\": \"Türk mutfağı\",\n  \"priceRange\": \"₺₺\",\n  \"menu\": \"https://www.ornekkahvalti.com/menu\"\n}"
+    },
+    "Kodu elle yazmak yerine [Schema oluşturucu](/schema-olusturucu) ile hazırlayabilir, tür ve alan seçimlerini [Schema yapısal veri rehberinden](/schema-yapisal-veri) kontrol edebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "10 taktiğin öncelik tablosu",
+   "paragraflar": [
+    "Hepsini aynı anda yapmak zorunda değilsiniz. Yeni açılan ya da hiç çalışılmamış bir işletmede benim önerdiğim sıra şöyle:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Öncelik",
+       "Taktik",
+       "Süre"
+      ],
+      "satirlar": [
+       [
+        "İlk hafta",
+        "Kategori, menü, özel saatler (1, 2, 4)",
+        "Birkaç saat"
+       ],
+       [
+        "İlk ay",
+        "Fotoğraflar, yorum isteme düzeni, platform tutarlılığı (3, 8, 9)",
+        "Düzenli rutin"
+       ],
+       [
+        "İlk üç ay",
+        "HTML menü, rezervasyon yolu, şube sayfaları (5, 6, 7)",
+        "Web geliştirme gerektirir"
+       ],
+       [
+        "Site yenilenirken",
+        "Restaurant schema (10)",
+        "Tek seferlik kurulum"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Restoranlar için haftalık kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Menüdeki fiyatlar sitede ve Business Profile'da aynı mı?",
+      "Önümüzdeki bayram ya da özel gün için özel saat girildi mi?",
+      "Bu hafta en az birkaç yeni fotoğraf yüklendi mi?",
+      "Haftanın tüm yorumlarına cevap verildi mi?",
+      "Sipariş platformlarındaki saatler ve telefon güncel mi?"
+     ]
+    },
+    "Birden fazla şubeli bir zincir ya da turistik bölgede bir işletme yönetiyorsanız [otel ve turizm SEO](/otel-turizm-seo) yaklaşımım da size uygun olabilir. Profilinizi ve sitenizi birlikte değerlendirmek için [yerel SEO rehberine](/yerel-seo) göz atabilir ya da [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Instagram hesabım varken web sitesine ihtiyacım var mı?",
+   "c": "Instagram keşif için güçlüdür ama menü, saat ve rezervasyon aramalarında Google sonuçlarında web sitesi ve Business Profile öne çıkar. Profilinize bağlayacağınız sade bir site, menüyü ve şube bilgilerini tek yerde toplar. Instagram tarafı için [Instagram SEO](/instagram-seo) yazısına bakabilirsiniz."
+  },
+  {
+   "s": "Müşterilerin yüklediği kötü fotoğrafları silebilir miyim?",
+   "c": "Başkasının yüklediği fotoğrafı doğrudan silemezsiniz; politikaya aykırıysa bildirebilirsiniz. En etkili yol, kendi kaliteli fotoğraflarınızı düzenli yükleyerek profilin genel görünümünü iyileştirmektir."
+  },
+  {
+   "s": "İşletme adına “Kadıköy Kahvaltı” gibi kelimeler ekleyebilir miyim?",
+   "c": "Tabelanızda ve resmi kullanımınızda adınız gerçekten buysa evet; değilse hayır. Google'ın yönergeleri işletme adına anahtar kelime ve konum eklenmesini yasaklıyor ve bu durum profilin askıya alınmasına neden olabilir."
+  },
+  {
+   "s": "Paket servis yapıyorsam hizmet bölgesi tanımlamalı mıyım?",
+   "c": "Müşterilerin geldiği bir salonunuz varsa adresiniz görünür kalmalı. Hizmet bölgesi seçeneği daha çok müşteriye giden işletmeler içindir; paket servis bölgenizi sipariş platformlarında ve sitenizde belirtmeniz yeterlidir."
+  },
+  {
+   "s": "Sesli asistanlar restoran önerirken neye bakıyor?",
+   "c": "Asistanların çalışma biçimi farklılık gösterir ama hepsi doğru ve tutarlı işletme bilgisine ihtiyaç duyar. Güncel saatler, açık kategori ve iyi yorumlar burada da işe yarar. Ayrıntılar için [sesli arama SEO](/sesli-arama-seo) yazısını okuyabilirsiniz."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "For a restaurant or cafe, a search often turns into a decision within minutes. Someone searching “breakfast near me”, “cafe to work from in Moda” or “fish restaurant Beşiktaş” looks at the map results, checks photos and the menu, then taps directions or call. Most of that decision happens on Google Maps, not on your website.",
+    "For general local SEO foundations, I recommend [local SEO tactics for small businesses](/en/kucuk-isletme-yerel-seo). This post covers only the 10 tactics specific to food and drink businesses: menu, photos, bookings, branches and structured data.",
+    {
+     "alinti": "Short answer: Google Business Profile sits at the centre of local SEO for restaurants and cafes. The right category, a current menu, regularly refreshed photos and reviews drive map visibility; on the website, an HTML menu instead of a PDF, an easy booking path and Restaurant structured data support it."
+    }
+   ]
+  },
+  {
+   "baslik": "How do restaurant and cafe searches work?",
+   "paragraflar": [
+    "Most food and drink searches are location driven and happen on mobile. Google already knows the user's location for “near me” searches, so stuffing “near me” into your pages does nothing. The difference comes from information that matches you with the right intent at the right moment.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Immediate search",
+       "metin": "“Cafe near me”, “restaurant open now”. Distance, opening status and rating decide."
+      },
+      {
+       "ikon": "🍽️",
+       "baslik": "Cuisine and area",
+       "metin": "“Kadıköy breakfast”, “Karaköy burger”. Category, menu and dish names in reviews matter."
+      },
+      {
+       "ikon": "🎉",
+       "baslik": "Occasion search",
+       "metin": "“Restaurant for a birthday”, “iftar menu”, “cafe to work with a laptop”. Attributes and dedicated pages count."
+      },
+      {
+       "ikon": "🔎",
+       "baslik": "Brand search",
+       "metin": "Your name plus “menu”, “prices” or “booking”. The user found you and wants to decide."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "4 tactics for Business Profile",
+   "paragraflar": [
+    {
+     "alt": "1. Choose the primary category by cuisine"
+    },
+    "Instead of the generic “Restaurant” category, pick the most specific one that describes you: breakfast restaurant, seafood restaurant, kebab shop, coffee shop and so on. Google's guidelines ask that categories describe what the business is and that you use as few as possible. I explain category logic in the [Google Business Profile optimization](/en/google-business-profile) guide.",
+    {
+     "alt": "2. Add the menu directly to your profile"
+    },
+    "According to Google's help page, food and drink businesses can add a menu with sections, item names, descriptions and prices, and set a menu link. Google may also transcribe menu data from your website; you can edit or delete items it gets wrong. Changes can take 24 to 48 hours to show on Maps, so do not leave price updates to the last minute.",
+    {
+     "alt": "3. Refresh photos regularly"
+    },
+    "Customer photos are outside your control, but your own uploads are not. Add separate photos of the exterior and entrance (to help people find you), the interior, best selling dishes and the seasonal menu. For how images work on your website, see [image SEO](/en/gorsel-seo).",
+    {
+     "alt": "4. Keep attributes and special hours current"
+    },
+    "Attributes such as terrace, vegan options, reservations and high chairs help with occasion searches. Set special hours for Ramadan iftar schedules, public holidays and New Year; showing “open” when you are closed is the fastest route to a negative review.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Measure the website link",
+      "metin": "Add UTM parameters to the website and menu links on your profile. With links built in the [UTM builder](/en/utm-builder), visits from Maps show up separately in Analytics."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "3 tactics for menus and bookings on your website",
+   "paragraflar": [
+    {
+     "alt": "5. Publish the menu as an HTML page, not a PDF"
+    },
+    "QR menus and PDFs are practical at the table but weak in search. An HTML menu loads fast on mobile, can be found by dish names and can be updated in minutes when prices change. For mobile experience details, see [mobile SEO](/en/mobil-seo).",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "HTML menu page",
+       "tur": "iyi",
+       "maddeler": [
+        "Dish names are readable text",
+        "Loads fast on mobile, no zooming",
+        "Prices and items update instantly",
+        "Photos and allergen info can be added"
+       ]
+      },
+      "sag": {
+       "baslik": "PDF or image menu",
+       "tur": "kotu",
+       "maddeler": [
+        "Text is often hard or impossible to read",
+        "Large file, slow on mobile",
+        "Old versions can linger in results",
+        "Every change means a new file"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "6. Make booking possible in one step"
+    },
+    "If you take reservations, put a clear “Book a table” button, a tappable phone number and a WhatsApp link on the home and menu pages. Business Profile can also show booking or ordering links depending on category and country; check whether the option appears in your dashboard. Separate pages for group dinners, birthdays and iftar help you appear in occasion searches.",
+    {
+     "alt": "7. Create a separate, original page for each branch"
+    },
+    "If you have several branches, give each one a page with its address, map, hours, phone and branch specific details (parking, sea view, garden). The website link on each branch's Business Profile should point to its own branch page, not the home page."
+   ]
+  },
+  {
+   "baslik": "2 tactics for reviews and platforms",
+   "paragraflar": [
+    {
+     "alt": "8. Ask for reviews within the rules"
+    },
+    "Sharing a review link through a QR code on the bill or the table is legitimate. Incentives like “free dessert for a review”, however, break Google's policies and can lead to reviews being removed. I show how to answer reviews, especially service and waiting time complaints, in [how to respond to Google reviews](/en/google-yorumlarina-cevap).",
+    {
+     "alt": "9. Keep information consistent across delivery apps and maps"
+    },
+    "Your name, address, phone and hours should match on delivery platforms such as Yemeksepeti and Getir, on Tripadvisor, Apple Maps and Yandex Maps. Conflicting details mislead users and weaken Google's confidence in your business. Update the list one by one after a move or a change of hours."
+   ]
+  },
+  {
+   "baslik": "1 tactic for Restaurant structured data",
+   "paragraflar": [
+    {
+     "alt": "10. Describe menu and cuisine with Restaurant schema"
+    },
+    "Google's local business structured data documentation recommends using the most specific LocalBusiness subtype (for example Restaurant) and lists servesCuisine, menu and priceRange as recommended properties for food establishments. Address and phone must match your Business Profile exactly.",
+    {
+     "kod": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Restaurant\",\n  \"name\": \"Örnek Kahvaltı Evi\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Moda Caddesi No 10\",\n    \"addressLocality\": \"Kadıköy\",\n    \"addressRegion\": \"İstanbul\",\n    \"addressCountry\": \"TR\"\n  },\n  \"telephone\": \"+90 216 000 00 00\",\n  \"servesCuisine\": \"Turkish\",\n  \"priceRange\": \"₺₺\",\n  \"menu\": \"https://www.ornekkahvalti.com/menu\"\n}"
+    },
+    "Rather than writing the code by hand, use the [Schema generator](/en/schema-generator) and check type and property choices in the [Schema structured data guide](/en/schema-yapisal-veri)."
+   ]
+  },
+  {
+   "baslik": "Priority table for the 10 tactics",
+   "paragraflar": [
+    "You do not have to do everything at once. For a new or never optimised venue, this is the order I recommend:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Priority",
+       "Tactic",
+       "Effort"
+      ],
+      "satirlar": [
+       [
+        "First week",
+        "Category, menu, special hours (1, 2, 4)",
+        "A few hours"
+       ],
+       [
+        "First month",
+        "Photos, review routine, platform consistency (3, 8, 9)",
+        "Ongoing routine"
+       ],
+       [
+        "First three months",
+        "HTML menu, booking path, branch pages (5, 6, 7)",
+        "Needs web development"
+       ],
+       [
+        "During a site rebuild",
+        "Restaurant schema (10)",
+        "One time setup"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Weekly checklist for restaurants",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Do menu prices match on the website and Business Profile?",
+      "Are special hours set for the next holiday or special day?",
+      "Were a few new photos uploaded this week?",
+      "Has every review this week received a reply?",
+      "Are hours and phone current on delivery platforms?"
+     ]
+    },
+    "If you run a multi branch chain or a venue in a tourist area, my [hotel and tourism SEO](/en/hotel-tourism-seo) approach may suit you too. To review your profile and website together, read the [local SEO guide](/en/yerel-seo) or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Do I need a website if I have an Instagram account?",
+   "c": "Instagram is strong for discovery, but for menu, hours and booking searches, Google shows websites and Business Profiles. A simple site linked from your profile keeps the menu and branch details in one place. For the Instagram side, see [Instagram SEO](/en/instagram-seo)."
+  },
+  {
+   "s": "Can I delete bad photos uploaded by customers?",
+   "c": "You cannot delete someone else's photo directly; you can report it if it breaks policy. The most effective approach is to upload good photos of your own regularly to improve the overall look of the profile."
+  },
+  {
+   "s": "Can I add words like “Kadıköy Breakfast” to my business name?",
+   "c": "Only if that really is your name on your signage and in official use. Google's guidelines prohibit adding keywords and locations to the business name, and doing so can get the profile suspended."
+  },
+  {
+   "s": "Should I set a service area if I offer delivery?",
+   "c": "If customers visit your premises, your address should stay visible. The service area option is mainly for businesses that travel to customers; state your delivery zone on delivery platforms and your website instead."
+  },
+  {
+   "s": "What do voice assistants look at when recommending restaurants?",
+   "c": "Assistants work in different ways, but all of them need accurate, consistent business information. Current hours, a clear category and good reviews help here too. See [voice search SEO](/en/sesli-arama-seo) for details."
+  }
+ ]
+}

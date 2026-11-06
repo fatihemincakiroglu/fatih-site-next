@@ -1,0 +1,447 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Mimarlık Ofisleri İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Architecture Firms",
+ "meta_baslik_tr": "Mimarlık Ofisi SEO İçin 10 Taktik",
+ "meta_baslik_en": "10 SEO Tactics for Architecture Firms",
+ "meta_desc_tr": "Mimarlık ofisleri için proje portföyü, görsel SEO ve alt metin, hizmet ve bölge sayfaları, ödül ve yayın bahsi ile Business Profile üzerine 10 taktik.",
+ "meta_desc_en": "Ten SEO tactics for architecture firms covering project portfolios, image SEO, alt text, service and area pages, awards, press and Business Profile.",
+ "ozet_tr": "Proje portföyünden görsel SEO'ya, ödül ve yayın bahislerinden Business Profile'a mimarlık ofisleri için 10 SEO taktiği.",
+ "ozet_en": "From project portfolios and image SEO to awards, press mentions and Business Profile, ten SEO tactics for architects.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Mimarlık ofislerinin web siteleri genelde çok güzel görünür ama arama motoru için neredeyse boştur. Tam ekran bir slayt, birkaç proje görseli ve bir iletişim sayfası; metin yok, görsellerin adı `DSC_0081.jpg`. Oysa \"Bodrum villa mimarı\" ya da \"ofis iç mimari projesi İstanbul\" diye arayan biri, tam da bu portföyü görmek istiyor.",
+    "Bu yazıda tasarım kalitesinden ödün vermeden portföyü aranabilir hale getirmek için uyguladığım 10 taktiği anlatıyorum. Meslek kurallarına da kısaca değiniyorum, çünkü mimarlık reklam konusunda dikkat isteyen bir meslek.",
+    {
+     "alinti": "Kısa cevap: Mimarlık ofisi SEO'sunun merkezinde, her proje için metni ve doğru etiketlenmiş görselleri olan ayrı bir portföy sayfası durur. Bunu süreç anlatan hizmet sayfaları, gerçekten çalışılan bölgeler için sayfalar, ödül ve yayın bahisleri ve güncel bir Business Profile kaydı tamamlar."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Her proje için ayrı ve metinli bir portföy sayfası açın",
+   "paragraflar": [
+    "Tüm projeleri tek bir galeri sayfasında açılır pencerelerle göstermek, Google'a tek bir sayfa ve onlarca isimsiz görsel verir. Her proje kendi URL'sine sahip olmalı, ör. `/projeler/bodrum-yalikavak-villa`.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Künye",
+       "metin": "Proje adı, konum (ilçe düzeyinde), yıl, yapı türü ve yaklaşık alan."
+      },
+      {
+       "ikon": "✏️",
+       "baslik": "Tasarım fikri",
+       "metin": "Arsa, ihtiyaç ve çözüm. Birkaç paragraflık gerçek bir anlatı."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Süreç ve rol",
+       "metin": "Ofisin rolü (konsept, uygulama projesi, iç mimari) ve iş birlikleri."
+      },
+      {
+       "ikon": "📷",
+       "baslik": "Görseller",
+       "metin": "Fotoğraf ve renderlar ayrı belirtilmiş, fotoğrafçısı anılmış."
+      }
+     ]
+    },
+    "Bu dört blok, sayfaya hem arama motorunun okuyacağı metni hem de ziyaretçinin aradığı bağlamı ekler."
+   ]
+  },
+  {
+   "baslik": "2. Görselleri dosya adı ve alt metinle anlatın",
+   "paragraflar": [
+    "Mimarlıkta görsel ana içeriktir; Google Görseller'den gelen trafik de bu yüzden değerlidir. Görselin ne gösterdiğini dosya adı ve alt metinle anlatmak, sahada en hızlı sonuç veren düzeltmelerden biridir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Alan",
+       "Zayıf örnek",
+       "Güçlü örnek"
+      ],
+      "satirlar": [
+       [
+        "Dosya adı",
+        "DSC_0081.jpg",
+        "yalikavak-villa-teras-gun-batimi.jpg"
+       ],
+       [
+        "Alt metin",
+        "proje1",
+        "Yalıkavak'ta taş duvarlı villanın denize bakan terası"
+       ],
+       [
+        "Görsel başlığı",
+        "Boş",
+        "Teras, fotoğraf ofis adıyla değil fotoğrafçı adıyla anılır"
+       ],
+       [
+        "Format ve boyut",
+        "8 MB JPEG",
+        "WebP ya da AVIF, ekran genişliğine göre farklı boyutlar"
+       ]
+      ]
+     }
+    },
+    "Ayrıntılı kurallar [görsel SEO rehberinde](/gorsel-seo) var. Büyük görsellerin hızı nasıl etkilediğini [WordPress site hızı](/wordpress-site-hizi) yazısında da örnekledim."
+   ]
+  },
+  {
+   "baslik": "3. Projeleri yapı türüne göre gruplayın",
+   "paragraflar": [
+    "Konut, ofis, iç mimari, restorasyon ya da otel gibi kategori sayfaları, \"restorasyon mimarı\" gibi genel aramaları karşılar ve proje sayfalarına iç link dağıtır. Her kategori sayfasında kısa bir giriş metni olsun, yalnızca küçük resim ızgarası değil.",
+    {
+     "agac": {
+      "kok": "ofisiniz.com",
+      "dallar": [
+       {
+        "ad": "/projeler/konut/",
+        "alt": [
+         "/projeler/bodrum-yalikavak-villa",
+         "/projeler/kadikoy-apartman-donusumu"
+        ]
+       },
+       {
+        "ad": "/projeler/ic-mimari/",
+        "alt": [
+         "/projeler/levent-ofis-kati",
+         "/projeler/karakoy-kafe"
+        ]
+       },
+       {
+        "ad": "/hizmetler/",
+        "alt": [
+         "/hizmetler/mimari-proje",
+         "/hizmetler/restorasyon"
+        ]
+       }
+      ]
+     }
+    },
+    "URL'leri kısa ve Türkçe karaktersiz tutmanın mantığı [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısında anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "4. Hizmet sayfalarını süreç anlatarak yazın",
+   "paragraflar": [
+    "Potansiyel müşteri çoğu zaman \"mimari proje nasıl çizdirilir\", \"ruhsat süreci ne kadar sürer\" gibi sorularla başlar. Mimari proje, uygulama projesi, iç mimarlık ve restorasyon gibi her hizmet için süreci, aşamaları ve müşteriden beklenen belgeleri anlatan ayrı bir sayfa açın.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Meslek odası kurallarını kontrol edin",
+      "metin": "TMMOB Mimarlar Odası'nın Mesleki Davranış Kuralları Yönetmeliği'nin erişebildiğim metninde reklam yasağına ve hizmetin kalitesi, ucuzluğu ya da hızı hakkında gerçeğe aykırı iddialara ilişkin hükümler var. Sitedeki dilin bu kurallara uygunluğunu odanızın güncel düzenlemesinden kontrol edin; üstünlük, fiyat ve hız vaatlerinden uzak durun."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "5. Bölge sayfalarını yalnızca gerçek projeler varsa açın",
+   "paragraflar": [
+    "\"Bodrum mimarlık ofisi\" ya da \"Çeşme villa projesi\" gibi aramalar, bölgeye özel sayfalarla karşılanabilir. Ama bu sayfa o bölgede yapılmış gerçek projeleri, bölgenin yapı koşullarını (eğim, iklim, imar özellikleri) ve ofisin oradaki deneyimini anlatmalı.",
+    "Hiç proje yapmadığınız 20 ilçe için şehir adı değiştirilmiş kopya sayfalar açmak, Google'ın kapı sayfası (doorway) olarak nitelendirdiği yaklaşıma girer. Bir iki gerçek bölge sayfası, onlarca boş sayfadan daha iyi çalışır."
+   ]
+  },
+  {
+   "baslik": "6. Ödül, yarışma ve yayın bahislerini toplayın",
+   "paragraflar": [
+    "Mimarlık yarışmaları, ödüller ve mimarlık yayınlarında çıkan proje haberleri, ofisin otoritesini gösteren en güçlü dış sinyallerdendir. Bu bahisleri bir \"Ödüller ve yayınlar\" sayfasında tarih ve yayın adıyla listeleyin, ilgili proje sayfasından bu sayfaya link verin.",
+    {
+     "liste": [
+      "Proje yayımlandığında yayından proje sayfanıza link isteyin",
+      "Yarışma sonuç sayfalarında ofis adının doğru yazıldığını kontrol edin",
+      "Fotoğrafçı ve iş birliği yapılan firmalarla karşılıklı kredi verin",
+      "Söyleşi ve konuşmaları kendi sitenizde de arşivleyin"
+     ]
+    },
+    "Linksiz bahislerin de değerli olduğunu [marka bahsi (brand mention)](/marka-bahsi-brand-mention) yazısında, yayınlarla ilişki kurmayı [backlink ve dijital PR rehberinde](/backlink-dijital-pr) anlattım."
+   ]
+  },
+  {
+   "baslik": "7. Google Business Profile kaydını eksiksiz tutun",
+   "paragraflar": [
+    "\"Yakınımdaki mimar\" ve \"Kadıköy mimarlık ofisi\" gibi aramalarda Haritalar sonuçları öne çıkar. Ofisin gerçek adresiyle bir kayıt açın, birincil kategoriyi işinizi en doğru anlatan seçenekten seçin ve proje fotoğraflarını düzenli ekleyin.",
+    "Kayıttaki ad, adres ve telefonun sitedekiyle birebir aynı olması önemli. Kurulum ve ayarların tamamı [Google Business Profile rehberinde](/google-business-profile), yerel sinyallerin genel mantığı [yerel SEO rehberinde](/yerel-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "8. Mimar ve ekip sayfalarıyla güven oluşturun",
+   "paragraflar": [
+    "Mimarlık hizmeti kişiye bağlı bir hizmettir; müşteri kiminle çalışacağını görmek ister. Kurucu mimarların eğitimini, oda üyeliğini, uzmanlık alanlarını ve sorumlu oldukları projeleri bir ekip sayfasında anlatın.",
+    "Proje sayfasından ilgili mimarın sayfasına link vermek, hem kullanıcıya hem arama motoruna \"bu işi kim yaptı\" sorusunun cevabını verir."
+   ]
+  },
+  {
+   "baslik": "9. Organization ve görsel meta verisi işaretlemesi ekleyin",
+   "paragraflar": [
+    "Ofis düzeyinde `Organization` ya da `LocalBusiness` işaretlemesi ad, adres, logo ve sosyal profilleri makinelerin anlayacağı biçimde tanımlar. Proje görselleri için ise Google'ın görsel meta verisi dokümanı, `creator`, `creditText`, `copyrightNotice` ve `license` gibi alanları tanımlıyor.",
+    "Bu alanlar Google Görseller'de görselin kime ait olduğunun ve telif bilgisinin gösterilmesine yardımcı olabilir; gösterilip gösterilmeyeceği Google'ın kararıdır. Temeller [schema yapısal veri rehberinde](/schema-yapisal-veri), ofis işaretlemesi için başlangıç kodu [schema oluşturucu](/schema-olusturucu) aracında."
+   ]
+  },
+  {
+   "baslik": "10. Instagram ile siteyi birbirine bağlayın ve ölçün",
+   "paragraflar": [
+    "Mimarlık ofislerinin çoğu en aktif olarak Instagram'da paylaşım yapar. Her paylaşımı sitedeki proje sayfasıyla eşleştirin, profil linkinden proje listesine yönlendirin ve böylece sosyal ilginin sitede kalıcı bir sayfaya dönüşmesini sağlayın. Platformun kendi arama tarafı için [Instagram SEO](/instagram-seo) yazısına bakabilirsiniz.",
+    "Ölçümde proje talebi formunu, telefon ve e-posta tıklamalarını GA4'te anahtar etkinlik olarak tanımlayın. Hangi proje sayfasının talep getirdiğini görmek, portföyde neyi öne çıkaracağınıza da karar verdirir."
+   ]
+  },
+  {
+   "baslik": "Mimarlık ofisi sitesi için kısa kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Her proje ayrı URL'de ve en az birkaç paragraf metinle mi?",
+      "Görsel dosya adları ve alt metinler projeyi anlatıyor mu?",
+      "Hizmet sayfaları süreci ve aşamaları açıklıyor mu?",
+      "Bölge sayfaları yalnızca gerçek projelerin olduğu yerler için mi?",
+      "Ödül ve yayınlar tarih ve kaynakla listeleniyor mu?",
+      "Business Profile bilgileri siteyle tutarlı mı?"
+     ]
+    },
+    "Diğer sektörlerdeki yaklaşımları [sektöre özel SEO](/sektorler) sayfasında görebilirsiniz. Ofisinizin sitesini birlikte değerlendirmek için [SEO danışmanlığı](/seo-uzmani) sayfasına göz atabilir ya da [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Architecture firm websites usually look beautiful but are almost empty for search engines. A full screen slider, a few project images and a contact page; no text, and images named `DSC_0081.jpg`. Yet someone searching \"villa architect Bodrum\" or \"office interior design project Istanbul\" wants to see exactly that portfolio.",
+    "This post covers 10 tactics I use to make a portfolio searchable without compromising design quality. I also touch briefly on professional rules, because architecture is a profession that needs care around advertising.",
+    {
+     "alinti": "Short answer: At the centre of SEO for an architecture firm is a separate portfolio page for each project, with real text and properly labelled images. Service pages that explain the process, pages for areas where you genuinely work, award and press mentions and a current Business Profile complete the picture."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Give every project its own portfolio page with text",
+   "paragraflar": [
+    "Showing all projects on one gallery page with pop-ups gives Google a single page and dozens of unnamed images. Each project needs its own URL, for example `/projects/bodrum-yalikavak-villa`.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📍",
+       "baslik": "Project facts",
+       "metin": "Name, location (district level), year, building type and approximate area."
+      },
+      {
+       "ikon": "✏️",
+       "baslik": "Design idea",
+       "metin": "Site, brief and solution. A real narrative of a few paragraphs."
+      },
+      {
+       "ikon": "🧱",
+       "baslik": "Process and role",
+       "metin": "The firm's role (concept, construction drawings, interiors) and collaborators."
+      },
+      {
+       "ikon": "📷",
+       "baslik": "Images",
+       "metin": "Photos and renders labelled separately, with the photographer credited."
+      }
+     ]
+    },
+    "These four blocks add both the text a search engine reads and the context a visitor is looking for."
+   ]
+  },
+  {
+   "baslik": "2. Describe images with file names and alt text",
+   "paragraflar": [
+    "In architecture the image is the main content, which is why traffic from Google Images is valuable. Describing what each image shows through its file name and alt text is one of the fastest fixes I apply.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Field",
+       "Weak example",
+       "Strong example"
+      ],
+      "satirlar": [
+       [
+        "File name",
+        "DSC_0081.jpg",
+        "yalikavak-villa-terrace-sunset.jpg"
+       ],
+       [
+        "Alt text",
+        "project1",
+        "Sea-facing terrace of a stone-walled villa in Yalıkavak"
+       ],
+       [
+        "Caption",
+        "Empty",
+        "Terrace, with the photographer credited by name"
+       ],
+       [
+        "Format and size",
+        "8 MB JPEG",
+        "WebP or AVIF, with sizes for different screen widths"
+       ]
+      ]
+     }
+    },
+    "Detailed rules are in the [image SEO guide](/en/gorsel-seo). I also showed how large images affect speed in the post on [WordPress site speed](/en/wordpress-site-hizi)."
+   ]
+  },
+  {
+   "baslik": "3. Group projects by building type",
+   "paragraflar": [
+    "Category pages such as residential, office, interiors, restoration or hospitality answer broader searches like \"restoration architect\" and pass internal links to project pages. Give each category page a short intro, not just a thumbnail grid.",
+    {
+     "agac": {
+      "kok": "yourfirm.com",
+      "dallar": [
+       {
+        "ad": "/projects/residential/",
+        "alt": [
+         "/projects/bodrum-yalikavak-villa",
+         "/projects/kadikoy-apartment-conversion"
+        ]
+       },
+       {
+        "ad": "/projects/interiors/",
+        "alt": [
+         "/projects/levent-office-floor",
+         "/projects/karakoy-cafe"
+        ]
+       },
+       {
+        "ad": "/services/",
+        "alt": [
+         "/services/architectural-design",
+         "/services/restoration"
+        ]
+       }
+      ]
+     }
+    },
+    "The logic of short, clean URLs is explained in the post on [SEO-friendly URL structure](/en/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "4. Write service pages that explain the process",
+   "paragraflar": [
+    "Prospective clients often start with questions like \"how do I commission architectural drawings\" or \"how long does the permit process take\". Create a separate page for each service, such as architectural design, construction drawings, interior architecture and restoration, explaining the process, the stages and the documents expected from the client.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Check your chamber's rules",
+      "metin": "The text I could access of the Chamber of Architects' (TMMOB Mimarlar Odası) professional conduct regulation contains provisions on an advertising ban and on false claims about the quality, cost or speed of service. Check your site's wording against the chamber's current rules, and avoid promises of superiority, low prices or speed."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "5. Create area pages only where you have real projects",
+   "paragraflar": [
+    "Searches like \"architecture firm Bodrum\" or \"Çeşme villa project\" can be answered by area pages. But such a page should describe real projects completed there, local building conditions (slope, climate, zoning) and the firm's experience in that area.",
+    "Creating copies with only the city name changed for 20 districts where you have no projects falls into what Google calls doorway pages. One or two genuine area pages work better than dozens of empty ones."
+   ]
+  },
+  {
+   "baslik": "6. Collect awards, competitions and press mentions",
+   "paragraflar": [
+    "Architecture competitions, awards and project features in architecture publications are among the strongest external signals of a firm's authority. List them on an \"Awards and press\" page with dates and publication names, and link to that page from the relevant project pages.",
+    {
+     "liste": [
+      "When a project is published, ask for a link to your project page",
+      "Check that your firm's name is spelled correctly on competition result pages",
+      "Credit photographers and collaborating firms, and ask them to do the same",
+      "Archive interviews and talks on your own site too"
+     ]
+    },
+    "I explain why unlinked mentions still matter in the post on [brand mentions](/en/marka-bahsi-brand-mention), and how to work with publications in the [backlink and digital PR guide](/en/backlink-dijital-pr)."
+   ]
+  },
+  {
+   "baslik": "7. Keep your Google Business Profile complete",
+   "paragraflar": [
+    "For searches like \"architect near me\" or \"architecture firm Kadıköy\", Maps results stand out. Create a listing with the office's real address, choose the primary category that describes your work most accurately and add project photos regularly.",
+    "Name, address and phone in the listing should match your site exactly. Setup and settings are in the [Google Business Profile guide](/en/google-business-profile), and the logic of local signals is in the [local SEO guide](/en/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "8. Build trust with architect and team pages",
+   "paragraflar": [
+    "Architecture is a personal service; clients want to see who they will work with. Describe the founding architects' education, chamber membership, areas of expertise and the projects they led on a team page.",
+    "Linking from a project page to the responsible architect's page answers the question \"who did this work\" for both users and search engines."
+   ]
+  },
+  {
+   "baslik": "9. Add Organization and image metadata markup",
+   "paragraflar": [
+    "At firm level, `Organization` or `LocalBusiness` markup describes your name, address, logo and social profiles for machines. For project images, Google's image metadata documentation defines fields such as `creator`, `creditText`, `copyrightNotice` and `license`.",
+    "These fields can help Google Images show who an image belongs to and its copyright details; whether they are shown is Google's decision. The basics are in the [schema structured data guide](/en/schema-yapisal-veri), and starter code for firm markup is in the [schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "10. Connect Instagram to your site and measure",
+   "paragraflar": [
+    "Most architecture firms are most active on Instagram. Match each post to its project page on the site and point the profile link to the project list, so social attention turns into a lasting page on your site. For search within the platform itself, see the [Instagram SEO](/en/instagram-seo) post.",
+    "For measurement, set up the project enquiry form, phone and email clicks as key events in GA4. Seeing which project pages bring enquiries also tells you what to feature in your portfolio."
+   ]
+  },
+  {
+   "baslik": "A short checklist for architecture firm websites",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Is every project on its own URL with at least a few paragraphs of text?",
+      "Do image file names and alt texts describe the project?",
+      "Do service pages explain the process and stages?",
+      "Are area pages limited to places with real projects?",
+      "Are awards and press listed with dates and sources?",
+      "Is Business Profile information consistent with the site?"
+     ]
+    },
+    "You can see approaches for other sectors on the [industry-specific SEO](/en/industries) page. To review your firm's site together, take a look at the [SEO consulting](/en/seo-consulting) page or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Render görselleri kullanmak SEO açısından sorun olur mu?",
+   "c": "Sorun olmaz, ama render ile gerçek fotoğrafı ayırt etmek dürüstlük açısından önemlidir. Görsel başlığında ya da proje künyesinde hangi görselin render, hangisinin fotoğraf olduğunu belirtin."
+  },
+  {
+   "s": "Müşteri adını proje sayfasında yazabilir miyim?",
+   "c": "Yalnızca müşterinin yazılı izniyle. Özel konut projelerinde müşteri adı yerine konum ve yapı türüyle tanımlama yapmak hem gizliliği korur hem de arama terimleriyle daha iyi eşleşir."
+  },
+  {
+   "s": "Portföy sitesi için hangi altyapı uygundur?",
+   "c": "Her projeye ayrı URL verebilen, başlık ve açıklamayı sayfa bazında düzenlemenize izin veren ve görselleri farklı boyutlarda sunabilen her altyapı uygundur. Tamamen JavaScript ile yüklenen portföy temalarında içeriğin HTML'de göründüğünü kontrol edin."
+  },
+  {
+   "s": "Mimarlık ofisi blog yazmalı mı?",
+   "c": "Genel dekorasyon yazıları yerine \"eğimli arsada konut tasarımı\" ya da \"tarihi yapıda restorasyon izin süreci\" gibi uzmanlığınızı gösteren yazılar daha değerlidir. Bu yazılardan ilgili proje ve hizmet sayfalarına link verin."
+  },
+  {
+   "s": "İngilizce sayfa açmalı mıyım?",
+   "c": "Yurtdışından müşteri ya da yabancı yatırımcı hedefliyorsanız evet. Her dil için ayrı URL kullanın, hreflang ile bağlayın ve proje metinlerini yalnızca çevirmek yerine hedef okura göre düzenleyin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is it a problem to use renders for SEO?",
+   "c": "No, but distinguishing renders from real photos matters for honesty. State in the caption or project facts which images are renders and which are photographs."
+  },
+  {
+   "s": "Can I name the client on a project page?",
+   "c": "Only with the client's written consent. For private homes, describing the project by location and building type protects privacy and matches search terms better."
+  },
+  {
+   "s": "Which platform suits a portfolio site?",
+   "c": "Any platform works if it gives each project its own URL, lets you edit titles and descriptions per page and serves images in multiple sizes. With portfolio themes that load everything through JavaScript, check that the content appears in the HTML."
+  },
+  {
+   "s": "Should an architecture firm blog?",
+   "c": "Posts that show your expertise, such as \"designing homes on sloping plots\" or \"permits for restoring historic buildings\", are worth more than general decor posts. Link from them to the related project and service pages."
+  },
+  {
+   "s": "Should I add English pages?",
+   "c": "Yes, if you target clients or investors from abroad. Use separate URLs per language, connect them with hreflang and adapt project texts for the target reader rather than only translating them."
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Emlak Siteleri İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Real Estate Websites",
+ "meta_baslik_tr": "Emlak Siteleri İçin 10 SEO Taktiği",
+ "meta_baslik_en": "10 SEO Tactics for Real Estate Websites",
+ "meta_desc_tr": "Emlak ofisleri için ilan sayfaları, satılan ilanlar, filtre URL'leri, mahalle sayfaları, portal dengesi ve Business Profile üzerine 10 SEO taktiği.",
+ "meta_desc_en": "Ten SEO tactics for real estate agencies covering listing pages, sold listings, filter URLs, neighbourhood pages, portals and Business Profile.",
+ "ozet_tr": "İlan sayfalarından mahalle rehberlerine, portal dengesinden Business Profile'a emlak ofisleri için 10 SEO taktiği.",
+ "ozet_en": "Ten practical SEO tactics for real estate agencies, from listing pages and neighbourhood guides to portals and Business Profile.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Emlak sektöründe Google'daki ilk sayfa büyük ölçüde Sahibinden, Hepsiemlak ve Emlakjet gibi portallara ait. Bu yüzden birçok emlak ofisi kendi sitesini bir kartvizit gibi görüyor ve SEO'ya hiç yatırım yapmıyor. Oysa portalların kazanamadığı aramalar var: mahalle bilgisi, ofis adı, “yakınımdaki emlakçı” ve belirli bir site ya da proje adıyla yapılan aramalar.",
+    "Bu yazıda emlak sitelerine özgü 10 taktiği anlatıyorum. Genel yerel SEO adımları için [küçük işletmeler için yerel SEO taktikleri](/kucuk-isletme-yerel-seo) yazısına bakabilirsiniz; burada yalnızca ilan, bölge ve portal ilişkisine özgü konulara odaklanıyorum.",
+    {
+     "alinti": "Kısa cevap: Emlak sitesinde SEO, portallarla ilan sayısında yarışmak değil; portalların derinlemesine işlemediği mahalle, proje ve ofis aramalarında görünür olmaktır. Bunun için ilan sayfalarının yaşam döngüsünü yönetmek, filtre URL'lerini kontrol altına almak, gerçek bilgi içeren bölge sayfaları yazmak ve Business Profile'ı doğru kurmak gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "Emlak aramaları nasıl işler?",
+   "paragraflar": [
+    "Emlak aramaları tek bir niyetten oluşmaz. Aynı kişi sabah “Ataşehir'de yaşamak nasıl” diye araştırır, akşam “Ataşehir satılık 3+1” diye ilan bakar, birkaç gün sonra da ofis adını yazarak sizi bulur. Her niyet için farklı bir sayfa türü gerekir.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏠",
+       "baslik": "İlan araması",
+       "metin": "“Kadıköy kiralık 2+1” gibi sorgular. Sonuçlarda çoğunlukla portallar öne çıkar."
+      },
+      {
+       "ikon": "🗺️",
+       "baslik": "Bölge araştırması",
+       "metin": "“Beylikdüzü'nde hangi mahalle” gibi sorgular. Kendi sitenizin en çok şansı olduğu alan."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Ofis araması",
+       "metin": "“Yakınımdaki emlakçı” ya da ofis adı. Harita sonuçları ve Business Profile belirleyicidir."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Süreç bilgisi",
+       "metin": "Tapu masrafları, kira sözleşmesi, ekspertiz gibi sorular. Uzman içerikle güven kazanılır."
+      }
+     ]
+    },
+    "Arama niyetini nasıl okuyacağınızı [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) anlattım. Emlakta pratik kural şu: ilan aramalarında portal ile yarışmak zordur, bölge ve süreç aramalarında ise kendi siteniz öne geçebilir."
+   ]
+  },
+  {
+   "baslik": "Portal mı kendi site mi, emlak ofisi için doğru denge",
+   "paragraflar": [
+    {
+     "alt": "1. Portalı vitrin, kendi sitenizi kalıcı varlık olarak konumlayın"
+    },
+    "Portallar trafik getirir ama müşteri ilişkisi ve ilan geçmişi onlarda kalır. Kendi siteniz ise ofisin uzmanlığını, bölge bilgisini ve satılmış portföyünü biriktirdiği tek yerdir. İkisini rakip değil, farklı görevleri olan kanallar olarak düşünün.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Portalda güçlü",
+       "tur": "notr",
+       "maddeler": [
+        "Yüksek ilan trafiği",
+        "Hazır filtre ve arama altyapısı",
+        "İlan veren kimlik ve yetki doğrulaması",
+        "Hızlı ilan yayını"
+       ]
+      },
+      "sag": {
+       "baslik": "Kendi sitenizde güçlü",
+       "tur": "iyi",
+       "maddeler": [
+        "Mahalle ve proje rehberleri",
+        "Ofis ve danışman güvenilirliği",
+        "Satılan portföy geçmişi",
+        "Size ait iletişim verisi"
+       ]
+      }
+     }
+    },
+    "Ticaret Bakanlığı'nın Elektronik İlan Doğrulama Sistemi (EİDS) ile 1 Ocak 2025'ten itibaren ilan platformlarında yetki doğrulaması olmayan taşınmaz ilanları yayınlanamıyor. Bu yükümlülük ilan platformlarına getirildi; kendi sitenizde ilan yayınlarken hangi kuralların geçerli olduğunu güncel mevzuattan ve bağlı olduğunuz meslek kuruluşundan teyit edin."
+   ]
+  },
+  {
+   "baslik": "İlan sayfaları için 4 taktik",
+   "paragraflar": [
+    {
+     "alt": "2. Her ilana tekil ve kalıcı bir URL verin"
+    },
+    "İlan adresi oturum kimliği, sıralama ya da ilan numarası dışında değişken içermemeli. “/satilik/kadikoy/moda/3-1-daire-12345” gibi okunabilir bir yapı hem kullanıcıya hem Google'a sayfanın ne olduğunu anlatır. URL tasarımının ayrıntıları için [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısına bakabilirsiniz.",
+    {
+     "alt": "3. Satılan ve süresi dolan ilanları planlı yönetin"
+    },
+    "Emlak sitelerinde en sık gördüğüm hata, satılan ilanın sessizce silinip yüzlerce 404 sayfası bırakmasıdır. Her ilan durumu için önceden bir kural belirleyin:",
+    {
+     "tablo": {
+      "basliklar": [
+       "İlan durumu",
+       "Önerilen işlem",
+       "Neden"
+      ],
+      "satirlar": [
+       [
+        "Satıldı, sayfa link ve trafik alıyor",
+        "Sayfayı “Satıldı” etiketiyle tutun, benzer ilanlara link verin",
+        "Ofisin başarı geçmişini gösterir, değeri korur"
+       ],
+       [
+        "Satıldı, sayfa hiç trafik almıyor",
+        "404 ya da 410 döndürün",
+        "İnce sayfa birikimini önler"
+       ],
+       [
+        "İlan geçici olarak askıda",
+        "Sayfayı yayında tutup durumu belirtin",
+        "Kısa süreli değişiklikte URL değeri korunur"
+       ],
+       [
+        "Aynı mülk yeniden ilana çıktı",
+        "Eski URL'yi yeniden kullanın ya da yeniye 301 verin",
+        "Yinelenen sayfa oluşmaz"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "4. Yinelenen ilanları tek sayfada birleştirin"
+    },
+    "Aynı daire hem “satılık” hem “yatırımlık” kategorisinde ya da iki danışmanın girişiyle iki ayrı sayfada yayınlanabiliyor. Portala girdiğiniz açıklamayı kelimesi kelimesine sitenize kopyalamak da aynı metni birden çok yerde çoğaltır. Her mülk için tek bir ana sayfa tutun, kendi sitenizde daha ayrıntılı bir açıklama ve özgün fotoğraf kullanın.",
+    {
+     "alt": "5. Filtre URL'lerini kontrol altına alın"
+    },
+    "Oda sayısı, fiyat aralığı, metrekare ve kat gibi filtrelerin her kombinasyonu ayrı bir URL üretirse Googlebot binlerce neredeyse aynı sayfayla uğraşır. Yalnızca arama talebi olan birkaç kombinasyonu (ör. “Kadıköy satılık 2+1”) dizine açık, statik bir sayfa olarak tutun; geri kalan filtreleri dizin dışında bırakın. Bu konunun teknik tarafını [crawl bütçesi](/crawl-butcesi) yazısında ele aldım.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sıralama parametreleri",
+      "metin": "“Fiyata göre artan” gibi sıralama seçenekleri yeni içerik üretmez. Bu URL'lerin canonical etiketi her zaman sıralamasız ana listeye işaret etmeli."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Bölge ve mahalle sayfaları için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "6. Mahalle sayfalarını gerçek bilgiyle yazın"
+    },
+    "Bölge sayfası, ilçe adının değiştirildiği bir şablon değildir. Ulaşım seçenekleri, okul ve sağlık kuruluşlarına yakınlık, bina stoku (yeni proje mi, eski yapı mı), kentsel dönüşüm durumu ve ofisinizin o bölgede gözlemledikleri gibi bilgiler sayfayı değerli kılar. Yüzlerce mahalle için aynı kalıbı çoğaltmanın risklerini [programatik SEO](/programatik-seo) yazısında anlattım.",
+    {
+     "alt": "7. Site yapısını il, ilçe ve mahalle hiyerarşisiyle kurun"
+    },
+    "Hiyerarşik bir yapı hem iç linklemeyi kolaylaştırır hem de Google'ın bölgeler arasındaki ilişkiyi anlamasına yardım eder. Her ilan, bağlı olduğu mahalle sayfasına; her mahalle sayfası da ilçe sayfasına link verir.",
+    {
+     "agac": {
+      "kok": "emlakofisi.com",
+      "dallar": [
+       {
+        "ad": "/istanbul/kadikoy/",
+        "alt": [
+         "/istanbul/kadikoy/moda/",
+         "/istanbul/kadikoy/fenerbahce/",
+         "/istanbul/kadikoy/kosuyolu/"
+        ]
+       },
+       {
+        "ad": "/satilik/kadikoy/moda/",
+        "alt": [
+         "/satilik/kadikoy/moda/3-1-daire-12345",
+         "/satilik/kadikoy/moda/2-1-daire-12388"
+        ]
+       },
+       {
+        "ad": "/rehber/",
+        "alt": [
+         "/rehber/tapu-masraflari",
+         "/rehber/kira-sozlesmesi"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Business Profile ve yorumlar için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "8. Ofis ve danışman profillerini kurallara göre kurun"
+    },
+    "Google'ın Business Profile yönergeleri emlak danışmanlarını, doğrulanmış konumda doğrudan ulaşılabiliyorsa kendi profilini açabilen “bireysel uygulayıcılar” arasında sayıyor. Ofis için bir konum profili, müşteriyle doğrudan çalışan danışmanlar için de yalnızca kendi adlarını taşıyan profiller açılabilir. Sanal ofis adresleri ise profil için uygun değil. Kategori, fotoğraf ve açıklama ayarları için [Google Business Profile optimizasyonu](/google-business-profile) rehberine bakabilirsiniz.",
+    {
+     "alt": "9. Yorumları işlem tamamlandıktan sonra düzenli isteyin"
+    },
+    "Tapu devri ya da kira sözleşmesi tamamlandığında müşteriye kısa bir mesajla yorum bağlantısı gönderin. Yorumlarda danışmanın adı ve mahalle geçmesi doğal bir güven sinyalidir; ancak müşteriye ne yazacağını söylemeyin ve karşılığında indirim teklif etmeyin. Olumsuz yorumlara nasıl yaklaşacağınızı [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+   ]
+  },
+  {
+   "baslik": "Yapısal veri için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "10. RealEstateAgent ve ilan işaretlemesini doğru beklentiyle kullanın"
+    },
+    "Ofis sayfası için Schema.org'daki LocalBusiness alt türü olan **RealEstateAgent**, ilan sayfaları için **RealEstateListing** türü kullanılabilir. Ancak Kasım 2026 itibarıyla Google'ın yapısal veri galerisinde emlak ilanlarına özel bir zengin sonuç bulunmuyor. Bu işaretleme sayfanın ne olduğunu makinelere net anlatır ama arama sonucunda görsel bir değişiklik vaat etmez.",
+    "Doğru türleri ve alanları [Schema yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, JSON-LD kodunu [Schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz. Ad, adres ve telefonun Business Profile ile birebir aynı olmasına dikkat edin."
+   ]
+  },
+  {
+   "baslik": "Emlak sitesi için aylık kontrol listesi",
+   "paragraflar": [
+    "Taktikleri bir kez uygulamak yetmez; ilan sitesi her gün değişir. Ayda bir şu kontrolleri yapın:",
+    {
+     "kontrol": [
+      "Search Console'da 404 sayısı satılan ilanlar yüzünden ani artış gösteriyor mu?",
+      "Dizine eklenen sayfalar arasında filtre ya da sıralama parametreli URL var mı?",
+      "Aynı mülk için birden fazla ilan sayfası oluşmuş mu?",
+      "Yeni eklenen mahalle sayfaları özgün bilgi içeriyor mu?",
+      "Business Profile'daki saatler, telefon ve fotoğraflar güncel mi?",
+      "Son ayın yorumlarının tamamına cevap verildi mi?"
+     ]
+    },
+    "Site yapınızı ve ilan akışınızı birlikte değerlendirmek isterseniz [emlak sitenizi bir SEO uzmanıyla inceleyin](/seo-uzmani) ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alın. Diğer sektörlerdeki yaklaşımlarımı [sektörel SEO çözümleri](/sektorler) sayfasında bulabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Emlak ofisi portallarda varken ayrı bir siteye ihtiyaç duyar mı?",
+   "c": "Yalnızca ilan yayınlıyorsanız portal yeterli olabilir. Ancak ofis adıyla, mahalle bilgisiyle ya da proje adıyla yapılan aramalarda görünmek ve müşteri verisini kendi elinizde tutmak istiyorsanız kendi siteniz gerekir."
+  },
+  {
+   "s": "Portaldaki ilan açıklamasını kendi siteme kopyalayabilir miyim?",
+   "c": "Teknik olarak yasak değil ama aynı metin birçok yerde yayında olduğunda Google genellikle yalnızca birini öne çıkarır. Kendi sitenizde daha ayrıntılı bir açıklama, özgün fotoğraf ve mahalle bilgisi kullanmak sayfanızı farklılaştırır."
+  },
+  {
+   "s": "Kaç mahalle sayfası açmalıyım?",
+   "c": "Gerçekten çalıştığınız ve hakkında özgün bilgi yazabileceğiniz mahalle kadar. Ofisinizin hiç portföyü olmayan bölgeler için sayfa açmak ince içerik üretir ve güven sinyali vermez."
+  },
+  {
+   "s": "Satılan bir ilanı ne kadar süre yayında tutmalıyım?",
+   "c": "Sabit bir süre yok. Sayfa link alıyor, arama trafiği getiriyor ya da ofisin referans portföyü olarak işe yarıyorsa tutun; hiçbir değeri yoksa 404 ya da 410 ile kaldırın."
+  },
+  {
+   "s": "Her danışman için ayrı Business Profile açılmalı mı?",
+   "c": "Danışman müşteriye doğrudan hizmet veriyor ve ofiste belirtilen saatlerde ulaşılabiliyorsa açılabilir. Destek personeli için profil açılmaz ve bir danışman uzmanlık alanı başına ayrı profil oluşturmamalıdır."
+  },
+  {
+   "s": "Emlak sitesinde blog yazmak işe yarar mı?",
+   "c": "Tapu masrafları, kira artış süreci ya da konut kredisi adımları gibi gerçek sorulara cevap veren yazılar işe yarar. Yasal ve mali konularda bilgiyi güncel tutmak ve kaynağını belirtmek gerekir."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "In Turkish real estate search, the first page of Google largely belongs to portals such as Sahibinden, Hepsiemlak and Emlakjet. Yet there are searches the portals do not win: neighbourhood information, agency names, “estate agent near me” and searches for a specific housing project.",
+    "In this post I cover 10 tactics specific to real estate websites. For general local SEO steps, see [local SEO tactics for small businesses](/en/kucuk-isletme-yerel-seo); here I focus only on listings, areas and the relationship with portals.",
+    {
+     "alinti": "Short answer: SEO for a real estate site is not about competing with portals on listing volume. It is about being visible for neighbourhood, project and agency searches that portals do not cover in depth. That requires managing the listing lifecycle, controlling filter URLs, writing area pages with real information and setting up Business Profile correctly."
+    }
+   ]
+  },
+  {
+   "baslik": "How do real estate searches work?",
+   "paragraflar": [
+    "The same person researches “living in Ataşehir” in the morning, browses “Ataşehir 3+1 for sale” in the evening and finds you a few days later by typing your agency name. Each intent needs a different page type.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏠",
+       "baslik": "Listing search",
+       "metin": "Queries like “Kadıköy 2+1 for rent”. Portals usually dominate these results."
+      },
+      {
+       "ikon": "🗺️",
+       "baslik": "Area research",
+       "metin": "Queries like “which neighbourhood in Beylikdüzü”. This is where your own site has the best chance."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Agency search",
+       "metin": "“Estate agent near me” or your agency name. Map results and Business Profile decide these."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Process questions",
+       "metin": "Title deed costs, rental contracts, valuations. Expert content builds trust here."
+      }
+     ]
+    },
+    "I explain how to read search intent in the [keyword research guide](/en/anahtar-kelime-arastirmasi). The practical rule in real estate: competing with portals on listing queries is hard, but on area and process queries your own site can pull ahead."
+   ]
+  },
+  {
+   "baslik": "Portal or own website, the right balance for an agency",
+   "paragraflar": [
+    {
+     "alt": "1. Treat portals as a shop window and your site as a lasting asset"
+    },
+    "Portals bring traffic, but the customer relationship and listing history stay with them. Your own site is the only place where the agency's expertise, local knowledge and sold portfolio accumulate.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Stronger on portals",
+       "tur": "notr",
+       "maddeler": [
+        "High listing traffic",
+        "Ready made filters and search",
+        "Identity and authority checks for advertisers",
+        "Fast listing publication"
+       ]
+      },
+      "sag": {
+       "baslik": "Stronger on your site",
+       "tur": "iyi",
+       "maddeler": [
+        "Neighbourhood and project guides",
+        "Agency and agent credibility",
+        "History of sold properties",
+        "Contact data you own"
+       ]
+      }
+     }
+    },
+    "Under the Turkish Ministry of Trade's Electronic Listing Verification System (EİDS), property listings without authority verification cannot be published on listing platforms since 1 January 2025. This obligation applies to listing platforms; check current regulations and your professional body for the rules that apply to listings on your own website."
+   ]
+  },
+  {
+   "baslik": "4 tactics for listing pages",
+   "paragraflar": [
+    {
+     "alt": "2. Give every listing a unique, permanent URL"
+    },
+    "A readable structure such as “/satilik/kadikoy/moda/3-1-daire-12345” tells both users and Google what the page is. For URL design details, see [SEO friendly URL structure](/en/url-yapisi-seo).",
+    {
+     "alt": "3. Plan how you handle sold and expired listings"
+    },
+    "The most common mistake I see on property sites is deleting sold listings silently and leaving hundreds of 404 pages behind. Decide on a rule for each listing status in advance:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Listing status",
+       "Recommended action",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Sold, page earns links and traffic",
+        "Keep it with a “Sold” label and link to similar listings",
+        "Shows the agency's track record and keeps value"
+       ],
+       [
+        "Sold, page gets no traffic",
+        "Return 404 or 410",
+        "Prevents a build up of thin pages"
+       ],
+       [
+        "Listing temporarily on hold",
+        "Keep the page live and state the status",
+        "URL value is kept during a short change"
+       ],
+       [
+        "Same property listed again",
+        "Reuse the old URL or 301 it to the new one",
+        "Avoids duplicate pages"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "4. Merge duplicate listings into one page"
+    },
+    "The same flat can appear under both “for sale” and “investment” categories, or as two pages entered by two agents. Keep one main page per property and use a more detailed description and original photos on your own site.",
+    {
+     "alt": "5. Keep filter URLs under control"
+    },
+    "If every combination of rooms, price range, size and floor creates its own URL, Googlebot ends up crawling thousands of near identical pages. Keep only the few combinations with real search demand (for example “Kadıköy 2+1 for sale”) as static, indexable pages and keep the remaining filters out of the index. I cover the technical side in the [crawl budget](/en/crawl-butcesi) post.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sort parameters",
+      "metin": "Sort options such as “price ascending” create no new content. The canonical tag on these URLs should always point to the unsorted main list."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tactics for area and neighbourhood pages",
+   "paragraflar": [
+    {
+     "alt": "6. Write neighbourhood pages with real information"
+    },
+    "An area page is not a template with the district name swapped. Transport options, proximity to schools and health facilities, building stock (new projects or older buildings), urban renewal status and your own local observations make the page valuable. I explain the risks of cloning one pattern across hundreds of neighbourhoods in the [programmatic SEO](/en/programatik-seo) post.",
+    {
+     "alt": "7. Build the site as a province, district and neighbourhood hierarchy"
+    },
+    "Each listing links to its neighbourhood page, and each neighbourhood page links to its district page.",
+    {
+     "agac": {
+      "kok": "agency.com",
+      "dallar": [
+       {
+        "ad": "/istanbul/kadikoy/",
+        "alt": [
+         "/istanbul/kadikoy/moda/",
+         "/istanbul/kadikoy/fenerbahce/",
+         "/istanbul/kadikoy/kosuyolu/"
+        ]
+       },
+       {
+        "ad": "/for-sale/kadikoy/moda/",
+        "alt": [
+         "/for-sale/kadikoy/moda/3-1-flat-12345",
+         "/for-sale/kadikoy/moda/2-1-flat-12388"
+        ]
+       },
+       {
+        "ad": "/guides/",
+        "alt": [
+         "/guides/title-deed-costs",
+         "/guides/rental-contract"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tactics for Business Profile and reviews",
+   "paragraflar": [
+    {
+     "alt": "8. Set up agency and agent profiles by the rules"
+    },
+    "Google's Business Profile guidelines list real estate agents among “individual practitioners” who may have their own profile if they can be contacted directly at the verified location. The agency gets one location profile, and agents who work directly with clients can have profiles that carry only their own names. Virtual office addresses are not eligible. For categories, photos and descriptions, see the [Google Business Profile optimization](/en/google-business-profile) guide.",
+    {
+     "alt": "9. Ask for reviews consistently after each completed deal"
+    },
+    "When a title transfer or rental contract is completed, send the client a short message with your review link. A review that mentions the agent's name and the neighbourhood is a natural trust signal; but do not tell clients what to write and do not offer a discount in return. I show how to handle negative reviews in [how to respond to Google reviews](/en/google-yorumlarina-cevap)."
+   ]
+  },
+  {
+   "baslik": "1 tactic for structured data",
+   "paragraflar": [
+    {
+     "alt": "10. Use RealEstateAgent and listing markup with the right expectations"
+    },
+    "For the agency page you can use **RealEstateAgent**, a LocalBusiness subtype in Schema.org, and for listing pages the **RealEstateListing** type. However, as of November 2026 Google's structured data gallery has no rich result specific to property listings. The markup describes the page to machines but promises no visual change in results.",
+    "You can find the right types and properties in the [Schema structured data guide](/en/schema-yapisal-veri) and generate the JSON-LD with the [Schema generator](/en/schema-generator). Make sure the name, address and phone number match your Business Profile exactly."
+   ]
+  },
+  {
+   "baslik": "Monthly checklist for a real estate site",
+   "paragraflar": [
+    "A listing site changes daily, so run these checks monthly:",
+    {
+     "kontrol": [
+      "Has the 404 count in Search Console jumped because of sold listings?",
+      "Are any filter or sort parameter URLs among the indexed pages?",
+      "Has more than one listing page been created for the same property?",
+      "Do newly added neighbourhood pages contain original information?",
+      "Are hours, phone number and photos on Business Profile up to date?",
+      "Has every review from the past month received a reply?"
+     ]
+    },
+    "If you would like your site structure and listing flow reviewed together, [work with an independent SEO consultant](/en/seo-consulting) or simply [book a free intro call](/en/book-a-call). See my approach for other sectors on the [industry SEO solutions](/en/industries) page."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does an agency need its own website if it is already on portals?",
+   "c": "If you only publish listings, portals may be enough. But if you want to appear for agency name, neighbourhood and project searches and keep customer data in your own hands, you need your own site."
+  },
+  {
+   "s": "Can I copy my portal listing description to my own site?",
+   "c": "It is not forbidden, but when the same text is live in many places Google usually surfaces only one of them. A more detailed description, original photos and neighbourhood information on your own site set your page apart."
+  },
+  {
+   "s": "How many neighbourhood pages should I create?",
+   "c": "As many as the neighbourhoods you genuinely work in and can write original information about. Pages for areas where your agency has no portfolio produce thin content and send no trust signal."
+  },
+  {
+   "s": "How long should a sold listing stay online?",
+   "c": "There is no fixed period. Keep it if the page earns links, brings search traffic or works as a reference for the agency; if it has no value, remove it with a 404 or 410."
+  },
+  {
+   "s": "Should every agent have a separate Business Profile?",
+   "c": "Yes, if the agent serves clients directly and can be reached at the office during stated hours. Support staff should not have profiles, and an agent should not create separate profiles for each speciality."
+  },
+  {
+   "s": "Is blogging worth it on a real estate site?",
+   "c": "Posts that answer real questions, such as title deed costs, rent increase rules or mortgage steps, are worth it. Keep legal and financial information current and sourced."
+  }
+ ]
+}

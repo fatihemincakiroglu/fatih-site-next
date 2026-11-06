@@ -54,7 +54,7 @@ export default function YonlendirmeOlusturucu(props) {
     baslik: '301 Redirect Generator',
     metaBaslik: '301 Redirect Generator | Free SEO Tool',
     metaDesc: 'Paste old and new URLs to get 301 redirect rules for Apache .htaccess, Nginx, Vercel, Next.js and Netlify. Chains, loops and duplicates are flagged.',
-    giris: 'Paste your old and new URLs, pick your server, and copy ready-to-use 301 rules. The tool flags duplicates, chains and loops before they reach production. For the full process, see the [site migration SEO guide](/en/site-tasima-seo).',
+    giris: 'Paste your old and new URLs, pick your server, and copy ready-to-use 301 rules. The tool flags duplicates, chains and loops before they reach production. For the full process, see the [site migration SEO guide](/en/site-tasima-seo). After go-live, test the live rules with the [redirect chain checker](/en/redirect-checker).',
     adimlar: [
       'Put one redirect per line: old URL first, new URL second. Copying two columns from Excel or Google Sheets works as-is.',
       'Choose your server or platform. If you are unsure, ask your developer or hosting provider.',
@@ -71,7 +71,7 @@ export default function YonlendirmeOlusturucu(props) {
     baslik: '301 Yönlendirme Oluşturucu',
     metaBaslik: '301 Yönlendirme Oluşturucu | Ücretsiz SEO Aracı',
     metaDesc: 'URL listenizi yapıştırın, Apache .htaccess, Nginx, Vercel, Next.js ve Netlify için 301 kuralları üretin. Zincir, döngü ve tekrarlar işaretlenir.',
-    giris: 'Eski ve yeni adresleri yapıştırın, sunucunuzu seçin ve kullanıma hazır 301 kurallarını kopyalayın. Araç tekrarları, zincirleri ve döngüleri canlıya çıkmadan yakalar. Sürecin tamamı için [site taşıma SEO rehberine](/site-tasima-seo) bakın.',
+    giris: 'Eski ve yeni adresleri yapıştırın, sunucunuzu seçin ve kullanıma hazır 301 kurallarını kopyalayın. Araç tekrarları, zincirleri ve döngüleri canlıya çıkmadan yakalar. Sürecin tamamı için [site taşıma SEO rehberine](/site-tasima-seo) bakın. Yayından sonra canlı kuralları [yönlendirme zinciri kontrol aracıyla](/yonlendirme-zinciri-kontrol) test edin.',
     adimlar: [
       'Her satıra bir yönlendirme yazın: önce eski, sonra yeni adres. Excel veya Google E-Tablolar\'dan iki sütunu kopyalayıp yapıştırmanız yeterli.',
       'Sunucunuzu veya platformunuzu seçin. Emin değilseniz geliştiricinize ya da hosting firmanıza sorun.',

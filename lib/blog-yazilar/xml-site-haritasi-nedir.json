@@ -1,0 +1,451 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "XML Site Haritası Nedir? 7 Hazırlama Kuralı",
+ "baslik_en": "What Is an XML Sitemap? 7 Rules for Building One",
+ "meta_baslik_tr": "XML Site Haritası Nedir? 7 Kural",
+ "meta_baslik_en": "What Is an XML Sitemap? 7 Rules",
+ "meta_desc_tr": "XML site haritası nedir, nasıl hazırlanır? Google'ın 50 MB ve 50.000 URL sınırı, lastmod kullanımı, Search Console'a gönderme ve 7 temel kural.",
+ "meta_desc_en": "What an XML sitemap is and how to build one. Google's 50 MB and 50,000 URL limits, using lastmod, submitting in Search Console and 7 core rules.",
+ "ozet_tr": "XML site haritasının ne işe yaradığını, Google'ın resmi sınırlarını ve doğru site haritası hazırlamanın 7 kuralını anlatıyorum.",
+ "ozet_en": "What an XML sitemap does, Google's official limits and 7 rules for building a sitemap that actually helps.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "XML site haritası, sitenizde arama motorlarının bulmasını istediğiniz URL'leri ve bu URL'ler hakkındaki ek bilgileri (son değişiklik tarihi, görsel, video, dil sürümleri) listeleyen bir dosyadır. Google bu dosyayı sitenizi daha verimli taramak için bir ipucu olarak kullanır.",
+    "Teknik denetimlerde site haritasında en sık gördüğüm sorun eksiklik değil, gereksiz URL kalabalığı: yönlendirilen, noindex olan ya da kanonik olmayan sayfalar. Bu yazıda site haritasının ne işe yaradığını ve Google'ın dokümanına dayanan 7 hazırlama kuralını anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: XML site haritası, Google'a sitenizdeki önemli URL'leri bildiren bir dosyadır. Tek bir site haritası en fazla 50 MB (sıkıştırılmamış) ya da 50.000 URL içerebilir. Yalnızca kanonik ve dizine eklenmesini istediğiniz URL'leri ekleyin, lastmod değerini doğru tutun ve dosyayı Search Console'dan gönderin."
+    }
+   ]
+  },
+  {
+   "baslik": "XML site haritası ne işe yarar, her siteye gerekli mi?",
+   "paragraflar": [
+    "Site haritası taramayı kolaylaştırır ama dizine eklenmeyi kesinleştirmez; Google'ın ifadesiyle gönderilen site haritası yalnızca bir ipucudur. Google'ın site haritası dokümanına göre büyük siteler, dış bağlantısı az olan yeni siteler ve çok sayıda görsel, video ya da haber içeriği olan siteler site haritasından en çok yararlananlardır.",
+    "Aynı dokümana göre yaklaşık 500 sayfa ya da daha az, iç linklemesi eksiksiz bir sitenin site haritasına ihtiyacı olmayabilir. Yine de çoğu CMS site haritasını otomatik ürettiği için küçük sitelerde de kullanmanın bir zararı yok. Terimin kısa tanımı için [AI sözlüğüne](/ai-sozluk) bakabilirsiniz.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📄",
+       "baslik": "Standart site haritası",
+       "metin": "Sayfa URL'leri ve isteğe bağlı lastmod değeri."
+      },
+      {
+       "ikon": "🌐",
+       "baslik": "hreflang site haritası",
+       "metin": "Her URL'nin dil ve bölge sürümlerini xhtml:link ile listeler."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Görsel site haritası",
+       "metin": "Sayfadaki görsellerin adreslerini image:loc ile bildirir."
+      },
+      {
+       "ikon": "🎬",
+       "baslik": "Video site haritası",
+       "metin": "Video başlığı, açıklaması, küçük resmi ve video ya da oynatıcı adresi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Örnek bir XML site haritası",
+   "paragraflar": [
+    "En sade haliyle bir site haritası şöyle görünür:",
+    {
+     "kod": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.ornekmagaza.com/kadin-mont/</loc>\n    <lastmod>2026-10-28</lastmod>\n  </url>\n  <url>\n    <loc>https://www.ornekmagaza.com/kadin-mont/kapitone-sisme-mont</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n</urlset>"
+    },
+    "Elle yazmak yerine [site haritası oluşturucu aracımızla](/site-haritasi-olusturucu) URL listenizden geçerli bir XML dosyası üretebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "XML site haritası hazırlamanın 7 kuralı",
+   "paragraflar": [
+    {
+     "alt": "1. Yalnızca kanonik ve dizine eklenmesini istediğiniz URL'leri ekleyin"
+    },
+    "Site haritası, \"bu sayfaların aranmasını istiyorum\" listesidir. Yönlendirilen (301), 404 veren, noindex etiketli, robots.txt ile engellenmiş ya da başka bir sayfayı kanonik gösteren URL'ler listede olmamalı. Google arama sonuçlarında genellikle kanonik URL'leri gösterdiği için site haritasına da kanonik sürümü koyun. Kanonik mantığını [canonical etiket nedir yazısında](/canonical-etiket-nedir) anlattım.",
+    {
+     "alt": "2. Tam ve mutlak URL kullanın, dosyayı UTF-8 kaydedin"
+    },
+    "Google, site haritasında protokol ve alan adını içeren tam URL'ler istiyor: `/urun-a` değil, `https://www.ornek.com/urun-a`. Dosya UTF-8 kodlamalı olmalı. Türkçe karakterli URL'lerde (ör. `/çocuk-ayakkabı`) karakterlerin doğru kodlandığını kontrol edin; mümkünse URL'lerde Türkçe karakter kullanmayın.",
+    {
+     "alt": "3. 50 MB ve 50.000 URL sınırına uyun, gerekirse bölün"
+    },
+    "Google'ın dokümanına göre tek bir site haritası sıkıştırılmamış halde 50 MB'ı ya da 50.000 URL'yi geçemez. Daha büyük sitelerde haritayı bölüp bir site haritası dizin dosyası (sitemap index) kullanın. Bir dizin dosyası en fazla 50.000 site haritası listeleyebilir ve Search Console'da site başına 500'e kadar dizin dosyası gönderebilirsiniz.",
+    {
+     "agac": {
+      "kok": "sitemap_index.xml",
+      "dallar": [
+       {
+        "ad": "sitemap-kategoriler.xml",
+        "alt": [
+         "/kadin-mont/",
+         "/erkek-ayakkabi/"
+        ]
+       },
+       {
+        "ad": "sitemap-urunler-1.xml",
+        "alt": [
+         "/kadin-mont/kapitone-sisme-mont",
+         "... 50.000 URL'ye kadar"
+        ]
+       },
+       {
+        "ad": "sitemap-urunler-2.xml",
+        "alt": [
+         "sonraki ürün URL'leri"
+        ]
+       },
+       {
+        "ad": "sitemap-blog.xml",
+        "alt": [
+         "/blog/mont-nasil-yikanir"
+        ]
+       }
+      ]
+     }
+    },
+    "Haritayı içerik türüne göre bölmek (kategori, ürün, blog) Search Console'da hangi bölümde dizine ekleme sorunu olduğunu görmeyi de kolaylaştırır.",
+    {
+     "alt": "4. lastmod değerini doğru tutun, priority ve changefreq ile uğraşmayın"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Etiket",
+       "Google ne yapıyor",
+       "Öneri"
+      ],
+      "satirlar": [
+       [
+        "loc",
+        "URL'yi okur",
+        "Zorunlu, tam URL"
+       ],
+       [
+        "lastmod",
+        "Tutarlı ve doğrulanabilir şekilde doğruysa kullanır",
+        "Yalnızca anlamlı değişiklikte güncelleyin"
+       ],
+       [
+        "changefreq",
+        "Görmezden gelir",
+        "Eklemeniz gerekmez"
+       ],
+       [
+        "priority",
+        "Görmezden gelir",
+        "Eklemeniz gerekmez"
+       ]
+      ]
+     }
+    },
+    "Google'a göre ana içerikte, yapısal veride ya da bağlantılarda yapılan önemli bir değişiklik lastmod güncellemesini hak eder; telif yılını değiştirmek etmez. Her gece tüm URL'lerin lastmod değerini bugüne çeken eklentiler bu sinyali değersizleştirir.",
+    {
+     "alt": "5. Site haritasını kök dizine koyun"
+    },
+    "Site haritası sitenin herhangi bir yerinde durabilir, ama Search Console üzerinden gönderilmedikçe yalnızca bulunduğu dizinin altındaki URL'leri etkiler. `https://www.ornek.com/blog/sitemap.xml` dosyası `/urunler/` altındaki URL'ler için işe yaramaz. Google bu yüzden kök dizini öneriyor. Dizin dosyasının listelediği site haritaları da aynı sitede ve dizin dosyasının bulunduğu klasörde ya da altında olmalı.",
+    {
+     "alt": "6. Search Console'dan gönderin ve robots.txt'ye ekleyin"
+    },
+    {
+     "akis": {
+      "baslik": "Site haritasını Google'a bildirme",
+      "adimlar": [
+       {
+        "baslik": "Dosyayı yayınlayın",
+        "metin": "Tarayıcıda açılabildiğini ve 200 döndüğünü kontrol edin."
+       },
+       {
+        "baslik": "robots.txt'ye ekleyin",
+        "metin": "Sitemap: https://www.ornek.com/sitemap_index.xml satırını yazın."
+       },
+       {
+        "baslik": "Search Console'dan gönderin",
+        "metin": "Site haritaları raporuna dosya adresini girin."
+       },
+       {
+        "baslik": "Durumu izleyin",
+        "metin": "Raporda son okunma tarihini ve işleme hatalarını takip edin."
+       }
+      ]
+     }
+    },
+    "Google 2023'te site haritası ping uç noktasını kullanımdan kaldırdığını duyurdu; artık Search Console, Search Console API ya da robots.txt kullanılıyor. robots.txt satırını [robots.txt test aracıyla](/robots-txt-test) doğrulayabilir, raporun okunuşu için [Search Console rehberine](/search-console-rehberi) bakabilirsiniz.",
+    {
+     "alt": "7. Görsel, video ve hreflang site haritalarını doğru kurun"
+    },
+    "Görsel site haritasında her görsel için `image:image` ve `image:loc` zorunlu; bir URL için en fazla 1.000 görsel eklenebilir ve `image:caption`, `image:title` gibi etiketler Google dokümanından kaldırıldı. Video site haritasında başlık, açıklama, küçük resim ve `video:content_loc` ya da `video:player_loc` adreslerinden en az biri zorunlu. Ayrıntılar için [görsel SEO](/gorsel-seo) ve [video SEO](/video-seo) yazılarına bakın.",
+    "hreflang site haritasında her `url` öğesi, kendisi dahil tüm dil sürümlerini `xhtml:link` ile listelemeli ve sürümler birbirini karşılıklı göstermeli; aksi halde etiketler yok sayılır. Kodları [hreflang oluşturucu](/hreflang-olusturucu) ile hazırlayabilir, uluslararası yapıyı [hreflang ve uluslararası SEO yazısında](/hreflang-uluslararasi-seo) inceleyebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Yayına almadan önce site haritası kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Tüm URL'ler 200 dönüyor, yönlendirme ya da 404 yok",
+      "noindex ve robots.txt ile engellenen URL yok",
+      "URL'ler kanonik sürüm (https, www tercihi, sondaki eğik çizgi tutarlı)",
+      "Dosya UTF-8, 50 MB ve 50.000 URL altında",
+      "lastmod yalnızca gerçek değişiklikte güncelleniyor",
+      "robots.txt'de Sitemap satırı var, Search Console'a gönderildi"
+     ]
+    },
+    "Büyük sitelerde site haritasının tarama önceliğine etkisini [tarama bütçesi yazısında](/crawl-butcesi) ele aldım. Site taşımalarında eski ve yeni site haritalarının nasıl yönetileceği ise [site taşıma SEO rehberinde](/site-tasima-seo) anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Site haritası ve teknik SEO desteği",
+   "paragraflar": [
+    "Site haritası, teknik altyapının yalnızca bir parçası. Tarama, dizine ekleme ve kanonik sorunlarını birlikte ele almak için [teknik SEO rehberine](/teknik-seo) göz atabilir ya da [SEO danışmanlığı](/seo-uzmani) kapsamında sitenizi birlikte inceleyebiliriz. [Ücretsiz ön görüşme randevusu](/randevu) alarak başlayabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "An XML sitemap is a file listing the URLs on your site that you want search engines to find, along with extra details about them (last modified date, images, videos, language versions). Google uses this file as a hint to crawl your site more efficiently.",
+    "The sitemap problem I see most in technical audits is not missing URLs but clutter: redirected, noindexed or non canonical pages. This article explains what a sitemap does and 7 rules for building one, based on Google's documentation.",
+    {
+     "alinti": "Short answer: An XML sitemap is a file that tells Google about the important URLs on your site. A single sitemap can hold up to 50 MB (uncompressed) or 50,000 URLs. Include only canonical URLs you want indexed, keep lastmod accurate and submit the file in Search Console."
+    }
+   ]
+  },
+  {
+   "baslik": "What does an XML sitemap do, and does every site need one?",
+   "paragraflar": [
+    "A sitemap makes crawling easier but does not guarantee indexing; Google calls a submitted sitemap merely a hint. According to Google's sitemap documentation, large sites, new sites with few external links and sites with lots of images, video or news content benefit most.",
+    "The same documentation says a site with about 500 pages or fewer that is comprehensively linked internally may not need one. Still, most CMSs generate sitemaps automatically, so there is no harm in using one on a small site. For a short definition, see the [AI glossary](/en/ai-glossary).",
+    {
+     "kartlar": [
+      {
+       "ikon": "📄",
+       "baslik": "Standard sitemap",
+       "metin": "Page URLs with an optional lastmod value."
+      },
+      {
+       "ikon": "🌐",
+       "baslik": "hreflang sitemap",
+       "metin": "Lists each URL's language and region versions with xhtml:link."
+      },
+      {
+       "ikon": "🖼️",
+       "baslik": "Image sitemap",
+       "metin": "Declares the images on a page with image:loc."
+      },
+      {
+       "ikon": "🎬",
+       "baslik": "Video sitemap",
+       "metin": "Video title, description, thumbnail and the video or player URL."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "An example XML sitemap",
+   "paragraflar": [
+    "In its simplest form, a sitemap looks like this:",
+    {
+     "kod": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://www.examplestore.com/womens-coats/</loc>\n    <lastmod>2026-10-28</lastmod>\n  </url>\n  <url>\n    <loc>https://www.examplestore.com/womens-coats/quilted-puffer-coat</loc>\n    <lastmod>2026-11-02</lastmod>\n  </url>\n</urlset>"
+    },
+    "Instead of writing it by hand, use our [sitemap generator tool](/en/sitemap-generator) to turn a URL list into a valid XML file."
+   ]
+  },
+  {
+   "baslik": "7 rules for building an XML sitemap",
+   "paragraflar": [
+    {
+     "alt": "1. Include only canonical URLs you want indexed"
+    },
+    "A sitemap is your \"I want these pages in search\" list. Redirected (301), 404, noindexed, robots.txt blocked URLs and URLs that point to another page as canonical do not belong in it. Google generally shows canonical URLs in search results, so list the canonical version. I explain canonical logic in the [what is a canonical tag article](/en/canonical-etiket-nedir).",
+    {
+     "alt": "2. Use full, absolute URLs and save the file as UTF-8"
+    },
+    "Google wants fully qualified URLs including protocol and domain: not `/product-a` but `https://www.example.com/product-a`. The file must be UTF-8 encoded. For URLs with non ASCII characters (such as Turkish letters), make sure they are encoded correctly; ideally avoid them in URLs altogether.",
+    {
+     "alt": "3. Respect the 50 MB and 50,000 URL limits, split when needed"
+    },
+    "According to Google's documentation, a single sitemap cannot exceed 50 MB uncompressed or 50,000 URLs. On larger sites, split it and use a sitemap index file. One index file can list up to 50,000 sitemaps, and you can submit up to 500 index files per site in Search Console.",
+    {
+     "agac": {
+      "kok": "sitemap_index.xml",
+      "dallar": [
+       {
+        "ad": "sitemap-categories.xml",
+        "alt": [
+         "/womens-coats/",
+         "/mens-shoes/"
+        ]
+       },
+       {
+        "ad": "sitemap-products-1.xml",
+        "alt": [
+         "/womens-coats/quilted-puffer-coat",
+         "... up to 50,000 URLs"
+        ]
+       },
+       {
+        "ad": "sitemap-products-2.xml",
+        "alt": [
+         "next product URLs"
+        ]
+       },
+       {
+        "ad": "sitemap-blog.xml",
+        "alt": [
+         "/blog/how-to-wash-a-coat"
+        ]
+       }
+      ]
+     }
+    },
+    "Splitting by content type (categories, products, blog) also makes it easier to see in Search Console which section has indexing problems.",
+    {
+     "alt": "4. Keep lastmod accurate and skip priority and changefreq"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Tag",
+       "What Google does",
+       "Recommendation"
+      ],
+      "satirlar": [
+       [
+        "loc",
+        "Reads the URL",
+        "Required, full URL"
+       ],
+       [
+        "lastmod",
+        "Uses it if consistently and verifiably accurate",
+        "Update only on meaningful changes"
+       ],
+       [
+        "changefreq",
+        "Ignores it",
+        "No need to add"
+       ],
+       [
+        "priority",
+        "Ignores it",
+        "No need to add"
+       ]
+      ]
+     }
+    },
+    "According to Google, a significant change to main content, structured data or links justifies a lastmod update; changing the copyright year does not. Plugins that reset every URL's lastmod to today each night make the signal worthless.",
+    {
+     "alt": "5. Put the sitemap in the root directory"
+    },
+    "A sitemap can live anywhere on your site, but unless submitted through Search Console it only affects URLs under its own directory. A file at `https://www.example.com/blog/sitemap.xml` does nothing for URLs under `/products/`. That is why Google recommends the root. Sitemaps listed in an index file must also be on the same site and in the index file's folder or below.",
+    {
+     "alt": "6. Submit in Search Console and add it to robots.txt"
+    },
+    {
+     "akis": {
+      "baslik": "Telling Google about your sitemap",
+      "adimlar": [
+       {
+        "baslik": "Publish the file",
+        "metin": "Check that it opens in a browser and returns 200."
+       },
+       {
+        "baslik": "Add it to robots.txt",
+        "metin": "Write the line Sitemap: https://www.example.com/sitemap_index.xml"
+       },
+       {
+        "baslik": "Submit in Search Console",
+        "metin": "Enter the file URL in the Sitemaps report."
+       },
+       {
+        "baslik": "Monitor status",
+        "metin": "Track the last read date and processing errors in the report."
+       }
+      ]
+     }
+    },
+    "Google announced in 2023 that it was deprecating the sitemaps ping endpoint; the options now are Search Console, the Search Console API or robots.txt. Check your robots.txt line with the [robots.txt tester](/en/robots-txt-tester), and see the [Search Console guide](/en/search-console-rehberi) for reading the report.",
+    {
+     "alt": "7. Build image, video and hreflang sitemaps correctly"
+    },
+    "In an image sitemap, `image:image` and `image:loc` are required for each image; up to 1,000 images can be listed per URL, and tags such as `image:caption` and `image:title` have been removed from Google's documentation. A video sitemap requires a title, description, thumbnail and at least one of `video:content_loc` or `video:player_loc`. See the [image SEO](/en/gorsel-seo) and [video SEO](/en/video-seo) articles for details.",
+    "In an hreflang sitemap, each `url` element must list every language version, including itself, with `xhtml:link`, and the versions must point to each other; otherwise the annotations are ignored. Generate the code with the [hreflang generator](/en/hreflang-generator) and review the international setup in the [hreflang and international SEO article](/en/hreflang-uluslararasi-seo)."
+   ]
+  },
+  {
+   "baslik": "Sitemap checklist before going live",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Every URL returns 200, no redirects or 404s",
+      "No noindexed or robots.txt blocked URLs",
+      "URLs are the canonical version (https, www preference, consistent trailing slash)",
+      "File is UTF-8 and under 50 MB and 50,000 URLs",
+      "lastmod changes only on real updates",
+      "robots.txt has a Sitemap line and the file is submitted in Search Console"
+     ]
+    },
+    "I cover how sitemaps affect crawl priority on large sites in the [crawl budget article](/en/crawl-butcesi). How to handle old and new sitemaps during a migration is explained in the [site migration SEO guide](/en/site-tasima-seo)."
+   ]
+  },
+  {
+   "baslik": "Sitemap and technical SEO support",
+   "paragraflar": [
+    "A sitemap is only one part of the technical foundation. To handle crawling, indexing and canonical issues together, read the [technical SEO guide](/en/teknik-seo) or let us review your site as part of [SEO consulting](/en/seo-consulting). [Book a free intro call](/en/book-a-call) to get started."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Site haritası gönderdim ama sayfalar dizine eklenmedi, neden?",
+   "c": "Site haritası yalnızca bir ipucudur; Google URL'yi tarasa bile kalite, yinelenen içerik ya da teknik nedenlerle dizine eklemeyebilir. Search Console'da ilgili URL'yi URL Denetimi ile kontrol edin ve Sayfa dizine ekleme raporundaki nedene bakın."
+  },
+  {
+   "s": "Site haritasını sıkıştırarak (gzip) gönderebilir miyim?",
+   "c": "Evet, site haritaları gzip ile sıkıştırılmış olarak sunulabilir. Ancak 50 MB sınırı sıkıştırılmamış boyut için geçerlidir; sıkıştırma bu sınırı aşmanıza izin vermez."
+  },
+  {
+   "s": "WordPress'te site haritası nasıl oluşturulur?",
+   "c": "WordPress sürüm 5.5'ten beri temel bir site haritasını wp-sitemap.xml adresinde otomatik üretir. Yoast SEO ya da Rank Math gibi SEO eklentileri kendi site haritalarını oluşturur; çekirdek haritanın kapandığını ve Search Console'a iki ayrı haritanın gönderilmediğini kontrol edin."
+  },
+  {
+   "s": "HTML site haritası ile XML site haritası aynı şey mi?",
+   "c": "Hayır. HTML site haritası ziyaretçiler için hazırlanmış, bağlantılardan oluşan bir sayfadır. XML site haritası ise arama motorları için makine tarafından okunan bir dosyadır. Büyük sitelerde ikisi birlikte kullanılabilir."
+  },
+  {
+   "s": "Site haritasını ne sıklıkla güncellemeliyim?",
+   "c": "İdeal olan, sayfa eklendiğinde, silindiğinde ya da önemli ölçüde değiştiğinde site haritasının CMS tarafından otomatik güncellenmesidir. Elle hazırlanan haritalar hızla eskir ve silinmiş URL'leri içermeye başlar."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "I submitted a sitemap but the pages are not indexed. Why?",
+   "c": "A sitemap is only a hint; even if Google crawls a URL, it may not index it for quality, duplication or technical reasons. Check the URL with URL Inspection in Search Console and look at the reason in the Page indexing report."
+  },
+  {
+   "s": "Can I submit a gzip compressed sitemap?",
+   "c": "Yes, sitemaps can be served gzip compressed. The 50 MB limit applies to the uncompressed size, though, so compression does not let you exceed it."
+  },
+  {
+   "s": "How do I create a sitemap in WordPress?",
+   "c": "Since version 5.5, WordPress generates a basic sitemap at wp-sitemap.xml automatically. SEO plugins such as Yoast SEO or Rank Math create their own sitemaps; check that the core sitemap is turned off and that you are not submitting both in Search Console."
+  },
+  {
+   "s": "Is an HTML sitemap the same as an XML sitemap?",
+   "c": "No. An HTML sitemap is a page of links built for visitors. An XML sitemap is a machine readable file for search engines. Large sites can use both."
+  },
+  {
+   "s": "How often should I update my sitemap?",
+   "c": "Ideally your CMS updates the sitemap automatically whenever a page is added, removed or significantly changed. Hand built sitemaps go stale quickly and start listing deleted URLs."
+  }
+ ]
+}

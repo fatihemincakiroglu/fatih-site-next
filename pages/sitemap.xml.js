@@ -42,6 +42,10 @@ const TR_PAGES = [
   { url: '/utm-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/og-onizleme', priority: '0.7', changefreq: 'monthly' },
   { url: '/seo-roi-hesaplayici', priority: '0.7', changefreq: 'monthly' },
+  { url: '/yonlendirme-zinciri-kontrol', priority: '0.7', changefreq: 'monthly' },
+  { url: '/anahtar-kelime-gruplama', priority: '0.7', changefreq: 'monthly' },
+  { url: '/site-haritasi-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/meta-etiket-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -85,6 +89,10 @@ const EN_PAGES = [
   { url: '/en/utm-builder', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/og-preview', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/seo-roi-calculator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/redirect-checker', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/keyword-clustering', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/sitemap-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/meta-tag-generator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -154,6 +162,10 @@ const TR_EN_MAP = {
   '/utm-olusturucu': '/en/utm-builder',
   '/og-onizleme': '/en/og-preview',
   '/seo-roi-hesaplayici': '/en/seo-roi-calculator',
+  '/yonlendirme-zinciri-kontrol': '/en/redirect-checker',
+  '/anahtar-kelime-gruplama': '/en/keyword-clustering',
+  '/site-haritasi-olusturucu': '/en/sitemap-generator',
+  '/meta-etiket-olusturucu': '/en/meta-tag-generator',
   '/google-guncellemeleri': '/en/google-updates',
   '/klinik-seo': '/en/healthcare-seo',
   '/avukat-seo': '/en/law-firm-seo',

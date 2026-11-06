@@ -1,0 +1,455 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 8,
+ "baslik_tr": "Schema Markup Nedir? En Çok Kullanılan 8 Tür",
+ "baslik_en": "What Is Schema Markup? The 8 Most Used Types",
+ "meta_baslik_tr": "Schema Markup Nedir? 8 Yaygın Tür",
+ "meta_baslik_en": "What Is Schema Markup? 8 Common Types",
+ "meta_desc_tr": "Schema markup nedir, JSON-LD nasıl eklenir? En çok kullanılan 8 schema türü ve Kasım 2026 itibarıyla hangilerinin Google'da zengin sonuç verdiği.",
+ "meta_desc_en": "What schema markup is, how JSON-LD works, the 8 most used schema types and which of them still produce Google rich results as of November 2026.",
+ "ozet_tr": "Schema markup içeriğinizi arama motorlarına makinece okunur biçimde anlatır. En yaygın 8 tür ve zengin sonuç durumu.",
+ "ozet_en": "Schema markup describes your content to search engines. The 8 most used types and their current rich result status.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Schema markup (yapısal veri işaretlemesi), bir sayfadaki bilgileri schema.org sözlüğüyle etiketleyerek arama motorlarına \"bu bir ürün, fiyatı bu, bu da işletmenin adresi\" diye açıkça anlatan koddur. Ziyaretçi bu kodu görmez; Google ve diğer sistemler sayfayı daha doğru anlamak için okur.",
+    "Bu yazıda schema markup'ın nasıl çalıştığını, en çok kullanılan 8 türü ve hangilerinin Kasım 2026 itibarıyla Google'da hâlâ zengin sonuç ürettiğini anlatıyorum. Uygulama ayrıntıları için kapsamlı [schema ve yapısal veri rehberi](/schema-yapisal-veri) var; burada temel kavramlara ve tür seçimine odaklanıyorum.",
+    {
+     "alinti": "Kısa cevap: Schema markup, sayfadaki içeriği schema.org sözlüğüyle etiketleyen yapısal veridir ve Google'ın önerdiği biçim JSON-LD'dir. Doğru işaretleme bazı türlerde zengin sonuçlara uygunluk sağlar ama bunu kesinleştirmez; FAQPage gibi bazı türler artık Google'da zengin sonuç göstermiyor."
+    }
+   ]
+  },
+  {
+   "baslik": "Schema markup nasıl çalışır?",
+   "paragraflar": [
+    "Schema.org, arama motorlarının birlikte geliştirdiği ortak bir sözlüktür: Organization, Product, Article gibi türler ve bunların name, price, author gibi özelliklerini tanımlar. Siz bu sözlüğü kullanarak sayfanızdaki bilgiyi etiketlersiniz.",
+    "Google üç biçimi destekliyor: JSON-LD, Microdata ve RDFa. Search Central dokümanına göre üçü de geçerli işaretlemede eşit derecede uygundur ama Google, sitenizin kurulumu izin veriyorsa genel olarak JSON-LD'yi öneriyor. JSON-LD'nin avantajı, HTML'den ayrı bir blok olması; tasarımı bozmadan eklenip güncellenebilir.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Örnek Mobilya\",\n  \"url\": \"https://www.ornekmobilya.com/\",\n  \"logo\": \"https://www.ornekmobilya.com/logo.png\",\n  \"sameAs\": [\n    \"https://www.instagram.com/ornekmobilya\",\n    \"https://www.linkedin.com/company/ornekmobilya\"\n  ]\n}\n</script>"
+    },
+    "Bu kodu elle yazmak yerine [schema oluşturucu](/schema-olusturucu) aracıyla birkaç alanı doldurarak üretebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Schema markup zengin sonuç getirir mi?",
+   "paragraflar": [
+    "Getirebilir ama kesin değildir. Google, yapısal verinin zengin sonuçları \"mümkün kılabileceğini\" söyler; uygunluk için o türün zorunlu özelliklerinin eksiksiz olması gerekir, son karar yine Google'ındır. İşaretlenen bilgi sayfada görünür olmalı; görünmeyen yorumları ya da puanları işaretlemek kurallara aykırıdır.",
+    "Ayrıca schema markup yalnızca zengin sonuç için yazılmaz. Varlığınızı (marka, kişi, işletme) netleştirmek, Bilgi Paneli ve yapay zekâ destekli arama yüzeylerinde doğru tanınmak için de değerlidir. Bu tarafı [entity SEO](/entity-seo) ve [Knowledge Graph nedir](/knowledge-graph-nedir) yazılarında ele alıyorum.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "FAQPage işaretlemesi hakkında",
+      "metin": "Google, SSS (FAQ) zengin sonuçlarını 7 Mayıs 2026'dan itibaren Google Arama'da hiç göstermiyor; HowTo zengin sonuçları da daha önce kaldırıldı. FAQPage işaretlemesi geçerli kalır ve makinelerin içeriği anlamasına yardımcı olabilir, ama zengin sonuç beklentisiyle eklemeyin."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "En çok kullanılan 8 schema türü",
+   "paragraflar": [
+    {
+     "alt": "1. Organization"
+    },
+    "Şirketin adı, logosu, adresi, iletişim bilgileri ve sosyal profilleri (`sameAs`). Google'a göre bu bilgiler Bilgi Paneli gibi görsel öğelerde kullanılabilir. Her kurumsal sitede ana sayfaya ya da hakkımızda sayfasına eklenmesini öneriyorum.",
+    {
+     "alt": "2. LocalBusiness"
+    },
+    "Fiziksel adresi olan işletmeler için açılış saatleri, adres, telefon ve konum. Restoran (`Restaurant`), diş kliniği (`Dentist`) gibi alt türleri vardır. Bilgilerin [Google Business Profile](/google-business-profile) kaydınızla birebir aynı olması önemli; yerel tarafın tamamı [yerel SEO rehberinde](/yerel-seo).",
+    {
+     "alt": "3. Product"
+    },
+    "Ürün adı, fiyat, stok durumu, puan ve yorumlar. E-ticaret sitelerinde ürün sonuçlarında fiyat ve stok gibi bilgilerin görünmesine uygunluk sağlar. Varyantlı ürünlerde ve kampanya fiyatlarında işaretlemenin sayfadaki fiyatla tutarlı olması gerekir; ayrıntılar [e-ticaret SEO rehberinde](/e-ticaret-seo).",
+    {
+     "alt": "4. Article"
+    },
+    "Haber, blog ve makale sayfaları için başlık, yazar, yayın ve güncelleme tarihi, görsel. Yazar bilgisini (`author`) doğru vermek, içeriğin kim tarafından yazıldığını netleştirir.",
+    {
+     "alt": "5. BreadcrumbList"
+    },
+    "Sayfanın site hiyerarşisindeki yerini gösteren içerik haritası. Google, Ocak 2025'ten beri mobil sonuçlarda URL alanında yalnızca alan adını gösteriyor; içerik haritası bu alanda masaüstünde görünmeye devam ediyor. İşaretleme yine de site yapısını anlatmak için yararlı.",
+    {
+     "alt": "6. VideoObject"
+    },
+    "Videonun başlığı, açıklaması, küçük resmi, süresi ve yayın tarihi. Video sonuçlarında ve anahtar anlarda (key moments) görünmeye uygunluk sağlar. Video stratejisinin geri kalanı [video SEO](/video-seo) yazısında.",
+    {
+     "alt": "7. Review ve AggregateRating"
+    },
+    "Yorum ve ortalama puan işaretlemesi; ürün, tarif, film, kitap, yazılım ve yerel işletme gibi türlerle birlikte kullanılır. Dikkat: Google'a göre bir işletme kendi sitesinde kendisi hakkındaki yorumları kontrol ediyorsa (gömülü bir yorum widget'ı dahil), LocalBusiness ve Organization sayfaları yıldızlı yorum sonuçlarına uygun değildir.",
+    {
+     "alt": "8. FAQPage"
+    },
+    "Sıkça sorulan sorular ve cevapları. Yukarıdaki uyarıda belirttiğim gibi Google Arama'da artık zengin sonuç üretmiyor. Soru-cevap yapısı içerik olarak yine değerli: net cevaplar yapay zekâ özetlerinde ve [öne çıkan snippet'larda](/featured-snippet-serp-ozellikleri) işe yarayabilir."
+   ]
+  },
+  {
+   "baslik": "Hangi schema türü hâlâ zengin sonuç veriyor?",
+   "paragraflar": [
+    "Aşağıdaki tablo, Google Search Central'daki yapısal veri galerisinin Ekim 2026 güncellemesine göre hazırlandı. Google'ın desteklediği türler zamanla değiştiği için uygulamadan önce galeriyi tekrar kontrol edin.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Tür",
+       "Google'daki durumu (Kasım 2026)",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Organization",
+        "Destekleniyor",
+        "Logo ve kurum bilgileri, Bilgi Paneli gibi öğeler"
+       ],
+       [
+        "LocalBusiness",
+        "Destekleniyor",
+        "Saat, adres, yol tarifi gibi işletme bilgileri"
+       ],
+       [
+        "Product",
+        "Destekleniyor",
+        "Fiyat, stok, puan bilgileri"
+       ],
+       [
+        "Article",
+        "Destekleniyor",
+        "Başlık ve büyük görsel"
+       ],
+       [
+        "BreadcrumbList",
+        "Destekleniyor",
+        "Mobilde URL alanında yalnızca alan adı görünüyor"
+       ],
+       [
+        "VideoObject",
+        "Destekleniyor",
+        "Video sonuçları, anahtar anlar"
+       ],
+       [
+        "Review / AggregateRating",
+        "Destekleniyor (kısıtlı)",
+        "Kendi hakkındaki yorumlarda LocalBusiness ve Organization uygun değil"
+       ],
+       [
+        "FAQPage",
+        "Zengin sonuç yok",
+        "7 Mayıs 2026'dan beri gösterilmiyor"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Sitenize hangi schema türlerini eklemelisiniz?",
+   "paragraflar": [
+    "Tür seçimi site tipine göre değişir. Her sayfaya mümkün olan her türü eklemek yerine, sayfanın gerçekten ne olduğunu anlatan türleri seçin.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏢",
+       "baslik": "Kurumsal site",
+       "metin": "Ana sayfada Organization, tüm sayfalarda BreadcrumbList, blogda Article."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Yerel işletme",
+       "metin": "LocalBusiness (uygun alt türüyle), Organization ve BreadcrumbList."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "E-ticaret",
+       "metin": "Ürün sayfalarında Product (puan ve yorumlarla), kategori ve ürünlerde BreadcrumbList."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Yayın ve blog",
+       "metin": "Article, yazar bilgisi, varsa VideoObject ve BreadcrumbList."
+      }
+     ]
+    },
+    "Sağlık ve hukuk gibi alanlarda yapısal verinin yanı sıra güven sinyalleri de belirleyici; sektöre özel kurguyu [klinik SEO](/klinik-seo) sayfasında anlatıyorum."
+   ]
+  },
+  {
+   "baslik": "Schema markup nasıl test edilir?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Schema uygulama akışı",
+      "adimlar": [
+       {
+        "baslik": "Türü seçin",
+        "metin": "Sayfanın ana içeriğine uyan türü belirleyin."
+       },
+       {
+        "baslik": "Kodu üretin",
+        "metin": "JSON-LD'yi zorunlu ve önerilen özelliklerle hazırlayın."
+       },
+       {
+        "baslik": "Test edin",
+        "metin": "Zengin Sonuç Testi ile hata ve uyarıları kontrol edin."
+       },
+       {
+        "baslik": "Yayınlayın ve izleyin",
+        "metin": "Search Console'daki geliştirmeler raporlarını takip edin."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "İşaretlenen her bilgi sayfada ziyaretçiye görünüyor",
+      "Fiyat, stok ve puan sayfadaki değerlerle aynı",
+      "Tema ve eklenti aynı türü iki kez basmıyor",
+      "Zengin Sonuç Testi'nde kritik hata yok"
+     ]
+    },
+    "Yapısal veriyi daha kapsamlı bir [teknik SEO denetiminin](/teknik-seo) parçası olarak ele almak isterseniz [SEO danışmanlığı](/seo-uzmani) kapsamında birlikte çalışabiliriz; [ücretsiz ön görüşme](/randevu) için takvimden yer seçebilirsiniz. Terimlerin kısa tanımları için [SEO ve yapay zekâ sözlüğüne](/ai-sozluk) göz atın."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Schema markup doğrudan sıralama faktörü mü?",
+   "c": "Google, yapısal veriyi içeriği anlamak ve zengin sonuçlara uygunluğu belirlemek için kullanır. Tek başına sıralamayı yükselten bir etken olarak görmeyin; asıl faydası sayfanın daha doğru anlaşılması ve arama sonucunun daha bilgilendirici görünmesidir."
+  },
+  {
+   "s": "WordPress'te schema markup eklemek için eklenti şart mı?",
+   "c": "Şart değil ama pratik. Yoast SEO ve Rank Math gibi eklentiler Organization, Article ve BreadcrumbList gibi temel türleri otomatik ekler. Özel türler için JSON-LD bloğunu tema dosyasına ya da bir kod alanına elle ekleyebilirsiniz."
+  },
+  {
+   "s": "Microdata kullanan sitemi JSON-LD'ye taşımalı mıyım?",
+   "c": "Zorunlu değil; Google geçerli olduğu sürece üç biçimi de eşit kabul ediyor. Ancak tema güncellemelerinde bozulan Microdata sık görülür, bu yüzden yeniden yapılandırma fırsatı varsa JSON-LD'ye geçmek bakımı kolaylaştırır."
+  },
+  {
+   "s": "Schema hatası Search Console'da nasıl görünür?",
+   "c": "Search Console'un geliştirmeler bölümünde desteklenen türler için ayrı raporlar bulunur ve geçerli, uyarılı ve hatalı öğeleri listeler. Hatalar zengin sonuç uygunluğunu kaybettirir, uyarılar ise genellikle önerilen alanların eksik olduğunu gösterir."
+  },
+  {
+   "s": "Yapay zekâ arama sistemleri schema markup okur mu?",
+   "c": "Hangi sistemin yapısal veriyi nasıl kullandığına dair kesin bir bilgi yok. Ancak işaretleme, varlığınızı ve içeriğinizi makinece okunur hale getirdiği için zararı yoktur ve marka bilgilerinin tutarlılığına katkı sağlar."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Schema markup (structured data) is code that labels the information on a page with the schema.org vocabulary, telling search engines plainly \"this is a product, this is its price, this is the business address\". Visitors do not see it; Google and other systems read it to understand the page more accurately.",
+    "In this article I explain how schema markup works, the 8 most used types, and which of them still produce rich results in Google as of November 2026. For implementation detail there is a full [schema and structured data guide](/en/schema-yapisal-veri); here I focus on the basics and on choosing types.",
+    {
+     "alinti": "Short answer: Schema markup is structured data that labels page content with the schema.org vocabulary, and the format Google recommends is JSON-LD. Correct markup makes some types eligible for rich results but does not ensure them; some types, such as FAQPage, no longer show rich results in Google."
+    }
+   ]
+  },
+  {
+   "baslik": "How does schema markup work?",
+   "paragraflar": [
+    "Schema.org is a shared vocabulary developed jointly by search engines. It defines types such as Organization, Product and Article, and properties such as name, price and author. You use that vocabulary to label the information on your page.",
+    "Google supports three formats: JSON-LD, Microdata and RDFa. According to Search Central, all three are equally fine as long as the markup is valid, but Google generally recommends JSON-LD if your setup allows it. Its advantage is that it is a block separate from the HTML, so you can add and update it without touching the design.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Example Furniture\",\n  \"url\": \"https://www.examplefurniture.com/\",\n  \"logo\": \"https://www.examplefurniture.com/logo.png\",\n  \"sameAs\": [\n    \"https://www.instagram.com/examplefurniture\",\n    \"https://www.linkedin.com/company/examplefurniture\"\n  ]\n}\n</script>"
+    },
+    "Instead of writing this by hand, you can generate it by filling in a few fields in the [schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "Does schema markup get you rich results?",
+   "paragraflar": [
+    "It can, but it is not certain. Google says structured data \"can enable\" rich results; eligibility requires all required properties for that type, and the final decision is still Google's. Marked-up information must be visible on the page; marking up reviews or ratings users cannot see breaks the guidelines.",
+    "Schema markup is also not written only for rich results. It helps clarify your entity (brand, person, business) so you are recognized correctly in knowledge panels and AI-powered search surfaces. I cover that side in [entity SEO](/en/entity-seo) and [what is the Knowledge Graph](/en/knowledge-graph-nedir).",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "About FAQPage markup",
+      "metin": "Since May 7, 2026, Google no longer shows FAQ rich results in Google Search at all; HowTo rich results were removed earlier. FAQPage markup remains valid and can help machines understand the content, but do not add it expecting a rich result."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "The 8 most used schema types",
+   "paragraflar": [
+    {
+     "alt": "1. Organization"
+    },
+    "Company name, logo, address, contact details and social profiles (`sameAs`). According to Google this information can be used in visual elements such as knowledge panels. I recommend adding it to the homepage or about page of every company site.",
+    {
+     "alt": "2. LocalBusiness"
+    },
+    "Opening hours, address, phone and location for businesses with a physical address. It has subtypes such as `Restaurant` and `Dentist`. The details should match your [Google Business Profile](/en/google-business-profile) exactly; the full local picture is in the [local SEO guide](/en/yerel-seo).",
+    {
+     "alt": "3. Product"
+    },
+    "Product name, price, availability, rating and reviews. On online stores it makes product results eligible to show details such as price and stock. With variants and sale prices, the markup must match the price on the page; details are in the [e-commerce SEO guide](/en/e-ticaret-seo).",
+    {
+     "alt": "4. Article"
+    },
+    "Headline, author, publish and modified dates, and image for news, blog and article pages. Getting `author` right makes it clear who wrote the content.",
+    {
+     "alt": "5. BreadcrumbList"
+    },
+    "A breadcrumb trail showing the page's position in the site hierarchy. Since January 2025 Google shows only the domain in the URL area of mobile results; breadcrumbs still appear there on desktop. The markup is still useful for describing site structure.",
+    {
+     "alt": "6. VideoObject"
+    },
+    "Video title, description, thumbnail, duration and upload date. It makes videos eligible for video results and key moments. The rest of a video strategy is covered in [video SEO](/en/video-seo).",
+    {
+     "alt": "7. Review and AggregateRating"
+    },
+    "Review and average rating markup, used together with types such as products, recipes, movies, books, software and local businesses. Note: according to Google, if a business controls the reviews about itself on its own site (including through an embedded review widget), its LocalBusiness and Organization pages are not eligible for star review results.",
+    {
+     "alt": "8. FAQPage"
+    },
+    "Frequently asked questions and answers. As noted in the warning above, it no longer produces rich results in Google Search. The question and answer structure is still valuable as content: clear answers can help in AI summaries and [featured snippets](/en/featured-snippet-serp-ozellikleri)."
+   ]
+  },
+  {
+   "baslik": "Which schema types still produce rich results?",
+   "paragraflar": [
+    "The table below is based on the October 2026 update of the structured data gallery on Google Search Central. Supported types change over time, so check the gallery again before implementing.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Type",
+       "Status in Google (November 2026)",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Organization",
+        "Supported",
+        "Logo and company details, elements such as knowledge panels"
+       ],
+       [
+        "LocalBusiness",
+        "Supported",
+        "Business details such as hours, address, directions"
+       ],
+       [
+        "Product",
+        "Supported",
+        "Price, availability, rating"
+       ],
+       [
+        "Article",
+        "Supported",
+        "Headline and large image"
+       ],
+       [
+        "BreadcrumbList",
+        "Supported",
+        "Mobile URL area shows only the domain"
+       ],
+       [
+        "VideoObject",
+        "Supported",
+        "Video results, key moments"
+       ],
+       [
+        "Review / AggregateRating",
+        "Supported (restricted)",
+        "Self-serving reviews not eligible for LocalBusiness and Organization"
+       ],
+       [
+        "FAQPage",
+        "No rich result",
+        "Not shown since May 7, 2026"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Which schema types should your site use?",
+   "paragraflar": [
+    "The right choice depends on the type of site. Rather than adding every possible type to every page, pick the types that describe what the page actually is.",
+    {
+     "kartlar": [
+      {
+       "ikon": "🏢",
+       "baslik": "Company site",
+       "metin": "Organization on the homepage, BreadcrumbList on all pages, Article on the blog."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Local business",
+       "metin": "LocalBusiness (with the right subtype), Organization and BreadcrumbList."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "Online store",
+       "metin": "Product with ratings and reviews on product pages, BreadcrumbList on categories and products."
+      },
+      {
+       "ikon": "📰",
+       "baslik": "Publisher and blog",
+       "metin": "Article, author details, VideoObject where relevant, and BreadcrumbList."
+      }
+     ]
+    },
+    "In fields such as healthcare and law, trust signals matter as much as structured data; I describe the sector-specific setup on the [healthcare SEO](/en/healthcare-seo) page."
+   ]
+  },
+  {
+   "baslik": "How do you test schema markup?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Schema implementation workflow",
+      "adimlar": [
+       {
+        "baslik": "Choose the type",
+        "metin": "Pick the type that matches the page's main content."
+       },
+       {
+        "baslik": "Generate the code",
+        "metin": "Build the JSON-LD with required and recommended properties."
+       },
+       {
+        "baslik": "Test it",
+        "metin": "Check errors and warnings with the Rich Results Test."
+       },
+       {
+        "baslik": "Publish and monitor",
+        "metin": "Follow the enhancement reports in Search Console."
+       }
+      ]
+     }
+    },
+    {
+     "kontrol": [
+      "Every marked-up detail is visible to visitors on the page",
+      "Price, stock and rating match the values on the page",
+      "Theme and plugin do not output the same type twice",
+      "No critical errors in the Rich Results Test"
+     ]
+    },
+    "If you want structured data handled as part of a broader [technical SEO audit](/en/teknik-seo), we can work together through [SEO consulting](/en/seo-consulting); pick a slot for a [free intro call](/en/book-a-call). For short definitions of the terms, see the [SEO and AI glossary](/en/ai-glossary)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is schema markup a direct ranking factor?",
+   "c": "Google uses structured data to understand content and to determine rich result eligibility. Do not treat it as something that lifts rankings on its own; its real benefit is that the page is understood more accurately and the search result can look more informative."
+  },
+  {
+   "s": "Do I need a plugin to add schema markup in WordPress?",
+   "c": "Not necessarily, but it is practical. Plugins such as Yoast SEO and Rank Math add core types like Organization, Article and BreadcrumbList automatically. For custom types you can add a JSON-LD block to the theme or a code field by hand."
+  },
+  {
+   "s": "Should I move my site from Microdata to JSON-LD?",
+   "c": "It is not required; Google accepts all three formats equally as long as they are valid. But Microdata often breaks during theme updates, so if you are restructuring anyway, moving to JSON-LD makes maintenance easier."
+  },
+  {
+   "s": "How do schema errors show up in Search Console?",
+   "c": "Search Console has separate enhancement reports for supported types, listing valid items, items with warnings and invalid items. Errors cost you rich result eligibility, while warnings usually mean recommended fields are missing."
+  },
+  {
+   "s": "Do AI search systems read schema markup?",
+   "c": "There is no definitive information on how each system uses structured data. But because markup makes your entity and content machine-readable, it does no harm and supports consistent brand information."
+  }
+ ]
+}

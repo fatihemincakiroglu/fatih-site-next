@@ -1,0 +1,443 @@
+{
+ "kategori": "strategy",
+ "etiket": "Strateji",
+ "sure": 9,
+ "baslik_tr": "SaaS ve B2B Yazılım Şirketleri İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for SaaS and B2B Software Companies",
+ "meta_baslik_tr": "SaaS ve B2B Yazılım İçin 10 SEO Taktiği",
+ "meta_baslik_en": "10 SEO Tactics for SaaS and B2B Software",
+ "meta_desc_tr": "SaaS ve B2B yazılım şirketleri için özellik, entegrasyon, karşılaştırma ve dokümantasyon sayfaları ile uzun satış döngüsünde ölçüm üzerine 10 taktik.",
+ "meta_desc_en": "Ten SEO tactics for SaaS and B2B software teams covering feature, integration, comparison and docs pages, plus measurement in long sales cycles.",
+ "ozet_tr": "Özellik ve entegrasyon sayfalarından karşılaştırma içeriklerine ve uzun satış döngüsünde ölçüme kadar SaaS için 10 SEO taktiği.",
+ "ozet_en": "From feature and integration pages to comparison content and measuring long sales cycles, ten SEO tactics for SaaS teams.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "SaaS ve B2B yazılım şirketlerinde SEO, çoğu zaman bir blog projesi olarak başlar ve orada kalır. Oysa satın alma kararına yakın aramalar blogda değil; özellik, entegrasyon, karşılaştırma ve fiyat sayfalarında karşılanır. \"Ön muhasebe programı e-fatura entegrasyonu\" arayan biri makale değil, net bir ürün sayfası ister.",
+    "Bu yazıda yazılım şirketleriyle çalışırken uyguladığım 10 taktiği, sayfa türlerinden ölçüme kadar sırayla anlatıyorum. Örnekler Türkiye pazarından; satış döngüsü haftalar ya da aylar süren ürünler düşünülerek yazıldı.",
+    {
+     "alinti": "Kısa cevap: SaaS SEO'sunun omurgası, satın alma niyetine yakın sayfa türleridir: özellik, kullanım senaryosu, entegrasyon, karşılaştırma ve dokümantasyon sayfaları. Blog bu sayfaları besler. Başarıyı trafikle değil, demo ve deneme kayıtlarının organik aramadan gelen payıyla ölçün."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Her ana özellik için ayrı bir sayfa açın",
+   "paragraflar": [
+    "Tek bir \"Özellikler\" sayfasında 20 özelliği sıralamak, her birinin ayrı arama hacmini boşa harcar. \"Vardiya planlama\", \"PDKS\" ya da \"stok sayım\" gibi kendi başına aranan her özellik ayrı bir sayfayı hak eder.",
+    "Özellik sayfası ekran görüntüsü, kısa bir kullanım akışı, kimin için olduğu ve ilgili entegrasyonlarla birlikte çalışmalıdır. Bu sayfaların dönüşüm odaklı kurgusu için [landing page SEO](/landing-page-seo) yazısındaki yapı birebir uygulanabilir."
+   ]
+  },
+  {
+   "baslik": "2. Kullanım senaryosu ve sektör sayfaları kurun",
+   "paragraflar": [
+    "Alıcı çoğu zaman özelliği değil, sorununu arar. \"Restoranlar için stok takip programı\" ya da \"inşaat firmaları için hakediş yazılımı\" gibi sorgular, kullanım senaryosu sayfalarıyla karşılanır.",
+    "Her senaryo sayfasında o sektörün gerçek iş akışını anlatın; yalnızca sektör adını değiştirip aynı metni kopyalamayın. Hangi senaryoların arandığını bulmak için [anahtar kelime araştırması rehberi](/anahtar-kelime-arastirmasi) iyi bir başlangıç."
+   ]
+  },
+  {
+   "baslik": "3. Entegrasyon sayfalarını tek tek yayınlayın",
+   "paragraflar": [
+    "Türkiye'de B2B yazılım alıcısının ilk sorusu çoğu zaman \"mevcut sistemimle konuşuyor mu?\" olur. ERP, e-fatura, pazaryeri ya da ödeme altyapısı entegrasyonlarının her biri için ayrı bir sayfa, bu soruyu arayan kişiyi doğrudan yakalar.",
+    "Entegrasyon sayfasında hangi verinin hangi yönde aktığını, kurulum adımlarını ve sınırları açıkça yazın. Entegrasyonun gerçekten var olduğundan ve güncel olduğundan emin olun; eskimiş bir entegrasyon sayfası satış ekibine sorun çıkarır."
+   ]
+  },
+  {
+   "baslik": "4. Karşılaştırma ve alternatif sayfalarını dürüst yazın",
+   "paragraflar": [
+    "\"X alternatifi\" ve \"X ile Y karşılaştırması\" aramaları, alıcının karar aşamasında olduğunu gösterir. Bu sayfalar yüksek dönüşüm getirebilir, ama yalnızca güvenilir olduklarında.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Güven kazandıran",
+       "tur": "iyi",
+       "maddeler": [
+        "Rakibin güçlü olduğu alanı da yazmak",
+        "Karşılaştırma tarihini belirtmek",
+        "Kimin için hangisinin uygun olduğunu söylemek",
+        "Doğrulanabilir özellik bilgisi"
+       ]
+      },
+      "sag": {
+       "baslik": "Güven kaybettiren",
+       "tur": "kotu",
+       "maddeler": [
+        "Rakibi kötüleyen dil",
+        "Eskimiş fiyat ya da özellik bilgisi",
+        "Her satırda kendi ürününü kazandırmak",
+        "Kaynaksız iddialar"
+       ]
+      }
+     }
+    },
+    "Bu sayfalar yapay zekâ asistanlarının yazılım önerirken başvurduğu içerik türüne de yakındır. Bu açıdan [ChatGPT'de marka görünürlüğü](/chatgpt-marka-gorunurlugu) yazısı tamamlayıcı olur."
+   ]
+  },
+  {
+   "baslik": "5. Dokümantasyon ve yardım merkezini dizine açın",
+   "paragraflar": [
+    "Yardım merkezi, \"[ürün adı] fatura nasıl iptal edilir\" gibi uzun kuyruk aramaların doğal adresidir ve mevcut müşteri kadar potansiyel müşteriyi de getirir. Yine de birçok SaaS şirketi dokümantasyonunu giriş gerektiren bir alana ya da arama motorlarının göremediği bir araca koyar.",
+    {
+     "liste": [
+      "Herkese açık makaleleri giriş duvarının dışında tutun",
+      "Her makaleye açıklayıcı bir başlık ve tek bir konu verin",
+      "Sürüm farklı sayfalarda eski sürümlerden yeni sürüme canonical verin",
+      "Yardım makalelerinden ilgili özellik sayfalarına link verin",
+      "Alt alan adı mı alt klasör mü kararını teknik ekip ve SEO birlikte verin"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "6. Fiyatlandırma sayfasını taranabilir ve açık tutun",
+   "paragraflar": [
+    "\"[ürün adı] fiyat\" araması, marka aramalarının içinde en çok dönüşüm getirenlerden biridir. Fiyatlarınızı açıkça yazmıyorsanız bile paketleri, neyin dahil olduğunu ve teklif sürecini anlatan bir sayfa yayınlayın.",
+    "Fiyatlandırma sayfasında paket karşılaştırma tablosu, sık sorulan sorular ve demo çağrısı birlikte durmalıdır. Paket içeriği değiştiğinde sayfayı aynı gün güncelleyin."
+   ]
+  },
+  {
+   "baslik": "7. SoftwareApplication ve Organization işaretlemesi ekleyin",
+   "paragraflar": [
+    "Google'ın yazılım uygulaması (SoftwareApplication) yapısal veri dokümanı Kasım 2026 itibarıyla hâlâ yayında. Dokümana göre `name`, `offers.price` ile birlikte `aggregateRating` ya da `review` alanlarından biri zorunludur; zengin sonucun gösterilmesi ise Google'ın kararıdır.",
+    "Değerlendirme alanlarını yalnızca sayfada gerçekten görünen kullanıcı yorumlarına dayanarak doldurun. Organization işaretlemesiyle birlikte temel kurulum [schema yapısal veri rehberinde](/schema-yapisal-veri) anlatılıyor; kodu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "8. Programatik sayfa üretirken ölçülü olun",
+   "paragraflar": [
+    "\"[şehir] için CRM\" ya da \"[sektör] için muhasebe yazılımı\" kalıbıyla yüzlerce sayfa üretmek cazip görünür. Her sayfa gerçekten farklı bilgi taşımıyorsa bu yaklaşım Google'ın ölçekli içerik kötüye kullanımı politikasıyla çatışabilir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Önce 10 sayfayla test edin",
+      "metin": "Programatik şablonu önce az sayıda sayfada yayınlayın, bu sayfaların dizine girip girmediğini ve trafik alıp almadığını Search Console'da izleyin. Sonuç yoksa şablonu büyütmek sorunu da büyütür."
+     }
+    },
+    "Hangi durumlarda işe yaradığını ve riskleri [programatik SEO](/programatik-seo) yazısında ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "9. Blogu ürün sayfalarını besleyecek şekilde planlayın",
+   "paragraflar": [
+    "SaaS bloglarında en sık gördüğüm sorun, ürünle hiç bağlantısı olmayan genel yazılar. \"Verimlilik için 10 ipucu\" trafik getirebilir ama demo getirmez. Bunun yerine ürününüzün çözdüğü sorunun etrafında konu kümeleri kurun.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Sayfa türü",
+       "Arama niyeti",
+       "Örnek sorgu",
+       "Ana ölçüt"
+      ],
+      "satirlar": [
+       [
+        "Blog / rehber",
+        "Bilgi",
+        "e-irsaliye nasıl düzenlenir",
+        "Özellik sayfasına geçiş"
+       ],
+       [
+        "Kullanım senaryosu",
+        "Ticari araştırma",
+        "eczaneler için stok programı",
+        "Demo talebi"
+       ],
+       [
+        "Karşılaştırma",
+        "Ticari araştırma",
+        "X alternatifi",
+        "Deneme kaydı"
+       ],
+       [
+        "Özellik / entegrasyon",
+        "İşlem öncesi",
+        "PDKS yazılımı Logo entegrasyonu",
+        "Demo talebi"
+       ],
+       [
+        "Fiyatlandırma",
+        "İşlem",
+        "[ürün adı] fiyat",
+        "Teklif ya da kayıt"
+       ]
+      ]
+     }
+    },
+    "Niyet türlerini ayırt etmeyi [arama niyeti nedir](/arama-niyeti-nedir) yazısında, küme kurgusunu [topical authority](/topical-authority) yazısında, genel planlamayı [içerik stratejisi rehberinde](/icerik-stratejisi) bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "10. Uzun satış döngüsünde ölçümü CRM ile bağlayın",
+   "paragraflar": [
+    "B2B yazılımda ilk ziyaret ile imzalı sözleşme arasında aylar geçebilir. Yalnızca GA4'e bakarsanız organik aramanın katkısını eksik görürsünüz, çünkü karar verici çoğu zaman siteye birkaç kez ve farklı kanallardan döner.",
+    {
+     "akis": {
+      "baslik": "Organik aramadan gelire ölçüm zinciri",
+      "adimlar": [
+       {
+        "baslik": "İlk temas",
+        "metin": "Organik oturum ve giriş sayfası GA4'te kaydedilir"
+       },
+       {
+        "baslik": "Dönüşüm",
+        "metin": "Demo ya da deneme formu anahtar etkinlik olarak işaretlenir"
+       },
+       {
+        "baslik": "CRM kaydı",
+        "metin": "Formdaki kaynak bilgisi potansiyel müşteri kaydına aktarılır"
+       },
+       {
+        "baslik": "Fırsat ve satış",
+        "metin": "Kapanan anlaşmalar ilk kaynağa göre raporlanır"
+       }
+      ]
+     }
+    },
+    "Form gönderiminde ilk giriş sayfasını ve kaynağı gizli alanlarla CRM'e taşımak, bu zincirin en kritik halkasıdır. Ölçüt seçimi için [SEO ROI ölçümü](/seo-roi-olcumu) yazısına, hızlı bir tahmin için [SEO ROI hesaplayıcı](/seo-roi-hesaplayici) aracına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "SaaS SEO ile B2B üretici SEO'su arasındaki fark",
+   "paragraflar": [
+    "Yazılım şirketi ile endüstriyel üretici aynı \"B2B\" etiketini taşısa da arama davranışı farklıdır. Yazılım alıcısı deneme ve karşılaştırma arar, üretici alıcısı ise teknik şartname, sertifika ve katalog. Üretici tarafındaki yaklaşımı [B2B üretici SEO](/b2b-uretici-seo) sayfasında anlatıyorum.",
+    "Yazılım ürününüz için hangi sayfa türlerinin eksik olduğunu birlikte çıkarmak isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "At SaaS and B2B software companies, SEO often starts as a blog project and stays there. Yet the searches closest to a buying decision are answered on feature, integration, comparison and pricing pages, not on the blog. Someone searching \"accounting software e-invoice integration\" wants a clear product page, not an article.",
+    "This post covers the 10 tactics I use with software companies, from page types to measurement. The examples come from the Turkish market and assume products with sales cycles of weeks or months.",
+    {
+     "alinti": "Short answer: The backbone of SaaS SEO is page types close to purchase intent: feature, use case, integration, comparison and documentation pages. The blog feeds them. Measure success by the share of demo and trial signups that come from organic search, not by traffic."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Give each core feature its own page",
+   "paragraflar": [
+    "Listing 20 features on a single \"Features\" page wastes the search demand each of them has. Every feature people search for on its own, such as \"shift scheduling\", \"time and attendance\" or \"stock counting\", deserves a separate page.",
+    "A feature page should combine screenshots, a short workflow, who it is for and related integrations. The structure in the [landing page SEO](/en/landing-page-seo) post applies directly to these pages."
+   ]
+  },
+  {
+   "baslik": "2. Build use case and industry pages",
+   "paragraflar": [
+    "Buyers often search for their problem, not the feature. Queries like \"stock tracking software for restaurants\" or \"progress billing software for construction firms\" are answered by use case pages.",
+    "Describe the real workflow of each industry on its page; do not copy the same text and swap the industry name. The [keyword research guide](/en/anahtar-kelime-arastirmasi) is a good starting point for finding which use cases people search for."
+   ]
+  },
+  {
+   "baslik": "3. Publish integration pages one by one",
+   "paragraflar": [
+    "In Turkey, a B2B software buyer's first question is often \"does it talk to my current system?\" A separate page for each ERP, e-invoice, marketplace or payment integration catches the person searching for exactly that.",
+    "On each integration page, state which data flows in which direction, the setup steps and the limits. Make sure the integration really exists and is current; an outdated integration page creates problems for the sales team."
+   ]
+  },
+  {
+   "baslik": "4. Write honest comparison and alternative pages",
+   "paragraflar": [
+    "Searches like \"X alternative\" and \"X vs Y\" show the buyer is in the decision stage. These pages can convert well, but only when they are trustworthy.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Builds trust",
+       "tur": "iyi",
+       "maddeler": [
+        "Mentioning where the competitor is strong",
+        "Dating the comparison",
+        "Saying which option suits whom",
+        "Verifiable feature information"
+       ]
+      },
+      "sag": {
+       "baslik": "Loses trust",
+       "tur": "kotu",
+       "maddeler": [
+        "Language that disparages the competitor",
+        "Outdated price or feature details",
+        "Your product winning every row",
+        "Unsourced claims"
+       ]
+      }
+     }
+    },
+    "These pages are also close to the kind of content AI assistants draw on when recommending software. The post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu) complements this."
+   ]
+  },
+  {
+   "baslik": "5. Open your documentation and help centre to indexing",
+   "paragraflar": [
+    "A help centre is the natural home of long tail searches like \"how to cancel an invoice in [product]\", and it brings prospects as well as customers. Still, many SaaS companies put their docs behind a login or in a tool search engines cannot see.",
+    {
+     "liste": [
+      "Keep public articles outside the login wall",
+      "Give each article a descriptive title and a single topic",
+      "Where versions live on different pages, canonicalise old versions to the current one",
+      "Link from help articles to the related feature pages",
+      "Decide subdomain versus subfolder with engineering and SEO together"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "6. Keep the pricing page crawlable and clear",
+   "paragraflar": [
+    "\"[product] pricing\" is one of the highest converting branded searches. Even if you do not publish prices, publish a page explaining plans, what is included and how quoting works.",
+    "The pricing page should combine a plan comparison table, FAQs and a demo call to action. When plan contents change, update the page the same day."
+   ]
+  },
+  {
+   "baslik": "7. Add SoftwareApplication and Organization markup",
+   "paragraflar": [
+    "Google's software app (SoftwareApplication) structured data documentation is still live as of November 2026. It lists `name`, `offers.price` and either `aggregateRating` or `review` as required; whether a rich result appears is Google's decision.",
+    "Fill rating fields only from user reviews that actually appear on the page. The basics, together with Organization markup, are in the [schema structured data guide](/en/schema-yapisal-veri), and you can draft the code with the [schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "8. Be careful with programmatic pages",
+   "paragraflar": [
+    "Generating hundreds of pages from templates like \"CRM for [city]\" or \"accounting software for [industry]\" is tempting. If each page does not carry genuinely different information, this approach can conflict with Google's scaled content abuse policy.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Test with 10 pages first",
+      "metin": "Publish the programmatic template on a small number of pages first and watch in Search Console whether they get indexed and earn traffic. If nothing happens, scaling the template only scales the problem."
+     }
+    },
+    "I cover when it works and what the risks are in the [programmatic SEO](/en/programatik-seo) post."
+   ]
+  },
+  {
+   "baslik": "9. Plan the blog to feed your product pages",
+   "paragraflar": [
+    "The most common issue I see on SaaS blogs is generic posts with no link to the product. \"10 productivity tips\" may bring traffic but not demos. Build topic clusters around the problem your product solves instead.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Page type",
+       "Search intent",
+       "Example query",
+       "Main metric"
+      ],
+      "satirlar": [
+       [
+        "Blog / guide",
+        "Informational",
+        "how to issue an e-waybill",
+        "Clicks to feature page"
+       ],
+       [
+        "Use case",
+        "Commercial investigation",
+        "stock software for pharmacies",
+        "Demo requests"
+       ],
+       [
+        "Comparison",
+        "Commercial investigation",
+        "X alternative",
+        "Trial signups"
+       ],
+       [
+        "Feature / integration",
+        "Pre-transactional",
+        "attendance software Logo integration",
+        "Demo requests"
+       ],
+       [
+        "Pricing",
+        "Transactional",
+        "[product] pricing",
+        "Quote or signup"
+       ]
+      ]
+     }
+    },
+    "You can learn to tell intents apart in [what is search intent](/en/arama-niyeti-nedir), build clusters with [topical authority](/en/topical-authority) and plan the whole thing with the [content strategy guide](/en/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "10. Connect measurement to your CRM in long sales cycles",
+   "paragraflar": [
+    "In B2B software, months can pass between the first visit and a signed contract. If you only look at GA4 you will undercount organic search, because decision makers often return several times through different channels.",
+    {
+     "akis": {
+      "baslik": "Measurement chain from organic search to revenue",
+      "adimlar": [
+       {
+        "baslik": "First touch",
+        "metin": "Organic session and landing page recorded in GA4"
+       },
+       {
+        "baslik": "Conversion",
+        "metin": "Demo or trial form marked as a key event"
+       },
+       {
+        "baslik": "CRM record",
+        "metin": "Source data from the form passed into the lead record"
+       },
+       {
+        "baslik": "Opportunity and sale",
+        "metin": "Closed deals reported by original source"
+       }
+      ]
+     }
+    },
+    "Passing the first landing page and source to the CRM through hidden form fields is the most critical link in this chain. For choosing metrics see [measuring SEO ROI](/en/seo-roi-olcumu), and for a quick estimate try the [SEO ROI calculator](/en/seo-roi-calculator)."
+   ]
+  },
+  {
+   "baslik": "How SaaS SEO differs from B2B manufacturer SEO",
+   "paragraflar": [
+    "A software company and an industrial manufacturer may share the \"B2B\" label, but their buyers search differently. Software buyers look for trials and comparisons; manufacturing buyers look for technical specifications, certificates and catalogues. I cover the manufacturer side on the [B2B manufacturer SEO](/en/b2b-manufacturer-seo) page.",
+    "If you want to map which page types your software product is missing, [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "SaaS şirketi SEO'ya ne zaman başlamalı?",
+   "c": "Ürünün temel özellikleri ve hedef müşteri netleştiği anda başlamak en verimlisidir. Erken aşamada bile özellik ve entegrasyon sayfaları ile birkaç karşılaştırma sayfası, ileride üzerine inşa edeceğiniz temeli oluşturur."
+  },
+  {
+   "s": "Türkçe ve İngilizce siteyi nasıl kurmalıyım?",
+   "c": "Her dil için ayrı URL kullanın ve hreflang ile birbirine bağlayın. İngilizce sayfaları Türkçenin çevirisi olarak değil, hedef pazarın arama terimlerine göre yazın; yurtdışındaki alıcının sorguları farklı olabilir."
+  },
+  {
+   "s": "Ücretsiz deneme sayfası dizine girmeli mi?",
+   "c": "Kayıt formunun bulunduğu sayfa genelde dizine açık kalabilir, çünkü \"[ürün adı] ücretsiz deneme\" araması gerçek bir aramadır. Kayıt sonrası panel ve onboarding ekranları ise dizine girmemelidir."
+  },
+  {
+   "s": "Müşteri vaka çalışmaları SEO'ya katkı sağlar mı?",
+   "c": "Sağlar, özellikle sektör adıyla birlikte aranan senaryolarda. Müşteri izniyle yayınlanan, somut süreç anlatan vaka sayfaları kullanım senaryosu sayfalarına iç link verdiğinde ikisini de güçlendirir."
+  },
+  {
+   "s": "SEO ile Google Ads'i nasıl dengelemeliyim?",
+   "c": "Kısa vadede demo hedefi olan ekipler reklama, uzun vadede maliyet düşürmek isteyenler organik aramaya ağırlık verir. İkisini aynı anahtar kelime listesiyle yönetmek, hangi terimin organikte yeterli olduğunu görmenizi kolaylaştırır."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "When should a SaaS company start SEO?",
+   "c": "The most efficient time is as soon as the core features and target customer are clear. Even early on, feature and integration pages plus a few comparison pages form the base you will build on later."
+  },
+  {
+   "s": "How should I set up Turkish and English versions?",
+   "c": "Use separate URLs for each language and connect them with hreflang. Write the English pages for the target market's search terms rather than translating the Turkish ones; buyers abroad may search differently."
+  },
+  {
+   "s": "Should the free trial page be indexed?",
+   "c": "The page with the signup form can usually stay indexable, because \"[product] free trial\" is a real search. Post-signup dashboards and onboarding screens should stay out of the index."
+  },
+  {
+   "s": "Do customer case studies help SEO?",
+   "c": "Yes, especially for scenarios searched together with an industry name. Case pages published with customer consent that describe a concrete process strengthen both themselves and the use case pages they link to."
+  },
+  {
+   "s": "How should I balance SEO and Google Ads?",
+   "c": "Teams with short term demo targets lean on ads; teams that want lower acquisition cost over time lean on organic search. Managing both with the same keyword list makes it easier to see which terms organic already covers."
+  }
+ ]
+}

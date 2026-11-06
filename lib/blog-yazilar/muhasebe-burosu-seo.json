@@ -1,0 +1,493 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Muhasebe Büroları İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Accounting Firms",
+ "meta_baslik_tr": "Muhasebe Bürosu SEO İçin 10 Taktik",
+ "meta_baslik_en": "10 SEO Tactics for Accounting Firms",
+ "meta_desc_tr": "Mali müşavir ve muhasebe büroları için meslek kurallarını gözeten 10 SEO taktiği. Hizmet sayfaları, mevzuat içeriği, yerel arama ve ölçüm.",
+ "meta_desc_en": "Ten SEO tactics for accountants and accounting firms in Turkey that respect professional rules. Service pages, tax content, local search, tracking.",
+ "ozet_tr": "Reklam yasağını gözeterek bilgilendirici hizmet sayfaları, doğru mevzuat içeriği ve yerel aramalarla muhasebe bürosu SEO'su.",
+ "ozet_en": "Accounting firm SEO that respects advertising rules, built on informative service pages, accurate tax content and local search.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Mali müşavirlik, internette görünür olmanın en dikkat istediği mesleklerden biri. Bir yanda \"Kadıköy mali müşavir\" ya da \"şahıs şirketi kuruluşu için gerekli belgeler\" diye arayan gerçek bir talep var, öte yanda meslek mensuplarının tanıtım ve reklam faaliyetlerini sınırlayan bir mevzuat.",
+    "Bu yazıdaki 10 taktik, reklam yapmadan bilgilendirerek görünür olmayı hedefliyor. Hukuki yorum yapmıyorum; meslek kurallarına dair her konuda bağlı olduğunuz odanın güncel görüşünü esas alın.",
+    {
+     "alinti": "Kısa cevap: Muhasebe bürosu SEO'su tanıtım diline değil, bilgilendirmeye dayanmalıdır. Doğru ve güncel mevzuat içerikleri, süreci anlatan hizmet sayfaları, eksiksiz künye bilgileri ve yerel aramalar temel taşlardır. Başlamadan önce Haksız Rekabet ve Reklam Yasağı Yönetmeliği'ni okuyun ve odanızın görüşünü alın."
+    }
+   ]
+  },
+  {
+   "baslik": "1. İşe meslek kurallarını okuyarak başlayın",
+   "paragraflar": [
+    "Serbest muhasebeci mali müşavirler için 3568 sayılı Kanun'daki reklam yasağı, \"Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Mesleklerine İlişkin Haksız Rekabet ve Reklam Yasağı Yönetmeliği\" ile ayrıntılandırılıyor. Yönetmeliğin 22. maddesi doğrudan internet uygulamalarını düzenliyor.",
+    "Erişebildiğim metne göre bu madde internet sitesinin alan adına, sitede yer alacak bilgilere ve arama motorlarında kullanılacak sözcüklere sınırlar getiriyor; müşteri kazanmaya yönelik internet reklamlarını da yasaklıyor. Bu hükümlerin sayfa başlıklarına, hizmet sayfalarına ve ücretli reklama nasıl uygulanacağı konusunda kesin yorum yapmıyorum.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Odanızın görüşünü yazılı alın",
+      "metin": "Yönetmelik zaman zaman değişiyor (son değişikliklerden biri Şubat 2025'te Resmî Gazete'de yayımlandı). Siteyi kurmadan ya da yenilemeden önce güncel metni okuyun ve tereddüt ettiğiniz her noktada bağlı olduğunuz odaya danışın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2. Künye ve güven bilgilerini eksiksiz yayınlayın",
+   "paragraflar": [
+    "Yönetmelik, sitede bulunabilecek bilgileri sayıyor: ad soyad, unvan, büro unvanı, bağlı olunan oda ve sicil numarası, mesleğe başlama tarihi, mezun olunan üniversite, yabancı dil, adres ve iletişim bilgileri gibi. Bu bilgiler aynı zamanda Google'ın ve ziyaretçinin güven aradığı sinyallerdir.",
+    "Bu bilgileri bir \"Hakkımızda\" sayfasında ve sayfa altında tutarlı biçimde gösterin. Adres ve telefonun sitede, Business Profile'da ve oda kayıtlarında birebir aynı yazılması yerel aramalarda da işinize yarar."
+   ]
+  },
+  {
+   "baslik": "3. Hizmet sayfalarını süreç anlatan bir dille yazın",
+   "paragraflar": [
+    "\"En uygun fiyatlı\", \"en iyi mali müşavir\" gibi ifadeler hem meslek kuralları açısından riskli hem de okuyana bilgi vermez. Hizmet sayfasını bir tanıtım metni gibi değil, sürecin rehberi gibi yazın.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Bilgilendirici dil",
+       "tur": "iyi",
+       "maddeler": [
+        "Şirket kuruluşunda istenen belgeler",
+        "Sürecin adımları ve tahmini süreleri",
+        "Mükellefin hazırlaması gerekenler",
+        "Sık yapılan hatalar"
+       ]
+      },
+      "sag": {
+       "baslik": "Tanıtım dili",
+       "tur": "kotu",
+       "maddeler": [
+        "Üstünlük ve karşılaştırma iddiaları",
+        "İndirim ve kampanya vurgusu",
+        "\"Bize gelen herkes kazanıyor\" türü vaatler",
+        "Meslektaşlara gönderme"
+       ]
+      }
+     }
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Konu",
+       "Sayfada ne anlatılır",
+       "Dikkat"
+      ],
+      "satirlar": [
+       [
+        "Şirket kuruluşu",
+        "Şahıs ve limited şirket farkı, belgeler, adımlar",
+        "Mevzuata dayalı bilgiyi tarihle verin"
+       ],
+       [
+        "Beyanname ve bildirimler",
+        "Hangi beyannamenin kimi ilgilendirdiği",
+        "Son tarihleri resmi takvimden kontrol edin"
+       ],
+       [
+        "Bordro ve SGK işlemleri",
+        "Süreç, gerekli bilgiler, sorumluluklar",
+        "Oran ve tutarları güncel tutun"
+       ],
+       [
+        "E-dönüşüm (e-fatura, e-defter)",
+        "Kimlerin geçmesi gerektiği, geçiş adımları",
+        "Eşikleri resmi kaynaktan doğrulayın"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "4. Mevzuat içeriğinde doğruluğu birinci öncelik yapın",
+   "paragraflar": [
+    "Vergi ve sigorta konuları Google'ın \"hayatınızı ya da paranızı etkileyebilecek\" (YMYL) diye nitelediği konular arasında yer alır. Yanlış bir son tarih ya da eskimiş bir oran, okuyana doğrudan para kaybettirebilir.",
+    {
+     "liste": [
+      "Her bilgiyi dayandığı kanun, tebliğ ya da resmi duyuruya göre yazın",
+      "Yazının başında hangi tarih itibarıyla geçerli olduğunu belirtin",
+      "Oran, tutar ve eşikleri metne gömmek yerine ayrı bir tabloda toplayın",
+      "Emin olmadığınız yorumları kesin bilgi gibi sunmayın"
+     ]
+    },
+    "Bu içeriklerin güven sinyallerini nasıl taşıdığını [E-E-A-T için içerik](/eeat-icin-icerik) yazısında ayrıntılı anlattım."
+   ]
+  },
+  {
+   "baslik": "5. Güncelleme takvimi kurun",
+   "paragraflar": [
+    "Mevzuat içerikleri yayımlandığı gün eskimeye başlar. Yeni bir düzenleme çıktığında aynı konuda ikinci bir yazı açmak yerine mevcut yazıyı güncellemek, hem okuyucuyu hem arama motorunu tek ve doğru adrese yönlendirir.",
+    {
+     "akis": {
+      "baslik": "Mevzuat yazısı güncelleme döngüsü",
+      "adimlar": [
+       {
+        "baslik": "Takip",
+        "metin": "Resmî Gazete ve idare duyurularını izleyin"
+       },
+       {
+        "baslik": "Etki analizi",
+        "metin": "Değişiklikten etkilenen yazıları listeleyin"
+       },
+       {
+        "baslik": "Güncelleme",
+        "metin": "Metni, tabloyu ve geçerlilik tarihini düzeltin"
+       },
+       {
+        "baslik": "Kontrol",
+        "metin": "Search Console'da sayfanın yeniden taranmasını izleyin"
+       }
+      ]
+     }
+    },
+    "Yazıların başlık ve yapısını kurarken [SEO uyumlu blog yazısı](/seo-uyumlu-blog-yazisi) rehberindeki kontrol listesini kullanabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "6. Yazar bilgisini ve unvanı görünür kılın",
+   "paragraflar": [
+    "Yönetmelik, meslek mensuplarının makale ve benzeri çalışmalarda mesleki ve akademik unvanlarını kullanabileceğini söylüyor; ancak bu çalışmalarda büro adıyla tanıtım yapılmasını sınırlıyor. Bu yüzden yazının altına mesleki unvanı ve kısa uzmanlık bilgisini içeren bir yazar kutusu koyun.",
+    "Yazar sayfası, okuyucuya bilginin kimden geldiğini gösterir. Bu yaklaşım, benzer reklam kısıtlamaları olan hukuk sektöründe de işe yarıyor; [avukatlar için SEO](/avukatlar-icin-seo) yazısında bu paralellik ayrıntılı."
+   ]
+  },
+  {
+   "baslik": "7. Yerel aramalara adres ve semt bilgisiyle cevap verin",
+   "paragraflar": [
+    "\"Ümraniye mali müşavir\" ya da \"yakınımdaki muhasebe bürosu\" gibi aramalarda Google Haritalar sonuçları öne çıkar. Google Business Profile kaydı ad, adres, telefon ve çalışma saatleri gibi künye bilgilerinden oluşur; yine de kaydı açmadan ve fotoğraf ya da yorum gibi alanları kullanmadan önce odanızın bu konudaki yorumunu sorun.",
+    "Sitede büronuzun semtini, ulaşım bilgisini ve harita yerleşimini içeren bir iletişim sayfası bulunsun. Yerel sinyallerin genel mantığını [yerel SEO rehberi](/yerel-seo), kaydın ayarlarını [Google Business Profile rehberi](/google-business-profile) anlatıyor. Küçük ofisler için öncelik sırası [küçük işletme yerel SEO](/kucuk-isletme-yerel-seo) yazısında."
+   ]
+  },
+  {
+   "baslik": "8. Teknik temeli ve form güvenliğini sağlayın",
+   "paragraflar": [
+    "Muhasebe büroları siteden çoğu zaman vergi levhası, kimlik ya da bordro bilgisi gibi hassas veriler alır. İletişim formu HTTPS üzerinden çalışmalı, KVKK aydınlatma metni formun yanında yer almalı ve belge yükleme gerekiyorsa genel bir form yerine güvenli bir müşteri paneli kullanılmalıdır.",
+    "Mobil uyum ve hız da önemli; ziyaretçilerin önemli bir kısmı \"hangi belgeler gerekiyor\" sorusuna telefondan cevap arar. Core Web Vitals eşikleri (LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1) hedef olarak yeterlidir."
+   ]
+  },
+  {
+   "baslik": "9. AccountingService işaretlemesi ekleyin",
+   "paragraflar": [
+    "Schema.org'daki `AccountingService` türü, işletmenizin bir muhasebe hizmeti olduğunu makinelerin anlayacağı biçimde tanımlar. Ad, adres, telefon, çalışma saatleri ve hizmet bölgesi bu işaretlemeyle açık hale gelir.",
+    "Bu işaretleme tek başına özel bir arama görünümü sağlamaz, ama sitedeki künye bilgilerini tutarlı ve okunur kılar. Temel kurulumu [schema yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, kodu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "10. Hangi içeriğin talep getirdiğini ölçün",
+   "paragraflar": [
+    "Muhasebe bürosunda dönüşüm genelde bir telefon, bir e-posta ya da iletişim formudur. Bu üç eylemi GA4'te anahtar etkinlik olarak tanımlayın ve hangi yazının ya da hizmet sayfasının talep getirdiğini izleyin.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📞",
+       "baslik": "Telefon tıklaması",
+       "metin": "Mobilde en sık görülen dönüşüm. Hangi sayfadan geldiğini mutlaka kaydedin."
+      },
+      {
+       "ikon": "✉️",
+       "baslik": "Form gönderimi",
+       "metin": "Hangi hizmet için yazıldığını bir seçim alanıyla öğrenin."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Yol tarifi",
+       "metin": "Business Profile raporlarında görülür, yerel görünürlüğün göstergesidir."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Rehber okuma",
+       "metin": "Mevzuat yazılarından hizmet sayfasına geçişler, içeriğin işe yaradığını gösterir."
+      }
+     ]
+    },
+    "Kurulum adımları [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında anlatılıyor."
+   ]
+  },
+  {
+   "baslik": "Muhasebe bürosu sitesi için kısa kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Haksız Rekabet ve Reklam Yasağı Yönetmeliği'nin güncel metnini okudunuz mu?",
+      "Sitede üstünlük, fiyat karşılaştırması ya da kampanya dili var mı?",
+      "Künye bilgileri sitede ve Business Profile'da tutarlı mı?",
+      "Mevzuat yazılarında geçerlilik tarihi ve kaynak var mı?",
+      "Form HTTPS üzerinde ve KVKK metniyle birlikte mi?",
+      "Telefon ve form dönüşümleri ölçülüyor mu?"
+     ]
+    },
+    "Benzer kurallara tabi meslekler için yaptığım çalışmaları [avukat SEO](/avukat-seo) ve diğer [sektöre özel SEO](/sektorler) sayfalarında görebilirsiniz. Büronuzun sitesini meslek kurallarını gözeterek birlikte değerlendirmek isterseniz [iletişim sayfasından](/iletisim) yazabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Accounting (mali müşavirlik in Turkey) is one of the professions where online visibility needs the most care. On one side there is real demand from people searching \"accountant in Kadıköy\" or \"documents needed to set up a sole proprietorship\"; on the other, regulation that limits how professionals may promote and advertise themselves.",
+    "The 10 tactics in this post aim for visibility through information rather than advertising. I am not giving legal advice; on any question of professional rules, follow the current view of the chamber you belong to.",
+    {
+     "alinti": "Short answer: SEO for an accounting firm should rest on information, not promotion. Accurate, current tax content, service pages that explain the process, complete professional details and local search are the foundation. Before you start, read the regulation on unfair competition and advertising and ask your chamber."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Start by reading the professional rules",
+   "paragraflar": [
+    "For certified public accountants in Turkey, the advertising ban in Law No. 3568 is detailed in the regulation on unfair competition and the advertising ban for the profession (Haksız Rekabet ve Reklam Yasağı Yönetmeliği). Article 22 of that regulation deals directly with online activity.",
+    "According to the text I could access, the article limits the website's domain, the information it may contain and the words used for search engines, and prohibits online advertising aimed at winning clients. I am not interpreting how these provisions apply to page titles, service pages or paid ads.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Get your chamber's view in writing",
+      "metin": "The regulation changes from time to time (one recent amendment was published in the Official Gazette in February 2025). Read the current text before building or redesigning your site, and ask your chamber about anything you are unsure of."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2. Publish complete professional details",
+   "paragraflar": [
+    "The regulation lists the information a website may show, such as name, title, firm name, chamber and registration number, start date in the profession, university, languages, address and contact details. These are also the trust signals Google and visitors look for.",
+    "Show them consistently on an \"About\" page and in the footer. Writing the address and phone exactly the same way on your site, in Business Profile and in chamber records also helps with local search."
+   ]
+  },
+  {
+   "baslik": "3. Write service pages that explain the process",
+   "paragraflar": [
+    "Phrases like \"most affordable\" or \"best accountant\" are risky under professional rules and tell the reader nothing. Write a service page as a guide to the process, not as a promotional text.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Informative language",
+       "tur": "iyi",
+       "maddeler": [
+        "Documents needed to set up a company",
+        "Steps and typical timeframes",
+        "What the client needs to prepare",
+        "Common mistakes"
+       ]
+      },
+      "sag": {
+       "baslik": "Promotional language",
+       "tur": "kotu",
+       "maddeler": [
+        "Superiority and comparison claims",
+        "Discounts and campaigns",
+        "\"Everyone who comes to us wins\" promises",
+        "References to other practitioners"
+       ]
+      }
+     }
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "Topic",
+       "What the page explains",
+       "Watch out"
+      ],
+      "satirlar": [
+       [
+        "Company formation",
+        "Sole proprietorship vs limited company, documents, steps",
+        "Date any regulation-based information"
+       ],
+       [
+        "Tax returns and filings",
+        "Which return applies to whom",
+        "Check deadlines against the official calendar"
+       ],
+       [
+        "Payroll and social security",
+        "Process, required data, responsibilities",
+        "Keep rates and amounts current"
+       ],
+       [
+        "E-invoicing and e-ledger",
+        "Who must switch and how",
+        "Verify thresholds from official sources"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "4. Make accuracy the first priority in tax content",
+   "paragraflar": [
+    "Tax and social security topics fall under what Google calls \"Your Money or Your Life\" (YMYL). A wrong deadline or an outdated rate can cost the reader money directly.",
+    {
+     "liste": [
+      "Base every statement on the law, communiqué or official announcement behind it",
+      "State at the top of the post which date it is valid as of",
+      "Collect rates, amounts and thresholds in a separate table",
+      "Do not present uncertain interpretations as fact"
+     ]
+    },
+    "I explain how this kind of content carries trust signals in the post on [content for E-E-A-T](/en/eeat-icin-icerik)."
+   ]
+  },
+  {
+   "baslik": "5. Set up an update schedule",
+   "paragraflar": [
+    "Tax content starts ageing the day it is published. When a new rule comes out, updating the existing post instead of opening a second one on the same topic sends readers and search engines to one correct address.",
+    {
+     "akis": {
+      "baslik": "Update cycle for a tax article",
+      "adimlar": [
+       {
+        "baslik": "Monitor",
+        "metin": "Follow the Official Gazette and tax authority announcements"
+       },
+       {
+        "baslik": "Impact check",
+        "metin": "List the posts affected by the change"
+       },
+       {
+        "baslik": "Update",
+        "metin": "Fix the text, the table and the valid as of date"
+       },
+       {
+        "baslik": "Verify",
+        "metin": "Watch the page get recrawled in Search Console"
+       }
+      ]
+     }
+    },
+    "When structuring titles and headings, use the checklist in the [SEO-friendly blog post](/en/seo-uyumlu-blog-yazisi) guide."
+   ]
+  },
+  {
+   "baslik": "6. Make the author and title visible",
+   "paragraflar": [
+    "The regulation says professionals may use their professional and academic titles in articles and similar work, while limiting promotion of the firm in that work. So add an author box under each post with the professional title and a short note on expertise.",
+    "An author page shows readers who the information comes from. The same approach works in law, which has similar advertising limits; the post on [SEO for lawyers](/en/avukatlar-icin-seo) covers the parallel."
+   ]
+  },
+  {
+   "baslik": "7. Answer local searches with address and district details",
+   "paragraflar": [
+    "For searches like \"accountant in Ümraniye\" or \"accounting firm near me\", Google Maps results stand out. A Business Profile is made of the same kind of details as a professional directory entry (name, address, phone, hours), but ask your chamber before opening one and before using fields like photos or reviews.",
+    "Keep a contact page with your district, directions and an embedded map. The [local SEO guide](/en/yerel-seo) explains local signals, the [Google Business Profile guide](/en/google-business-profile) covers the settings and [local SEO for small businesses](/en/kucuk-isletme-yerel-seo) sets priorities for small offices."
+   ]
+  },
+  {
+   "baslik": "8. Secure the technical basics and your forms",
+   "paragraflar": [
+    "Accounting firms often collect sensitive data through their site, such as tax certificates, IDs or payroll details. The contact form must run over HTTPS, a KVKK (Turkish data protection law) notice should sit next to it, and document uploads belong in a secure client portal rather than a general form.",
+    "Mobile usability and speed matter too; many visitors look up \"which documents do I need\" on their phone. The Core Web Vitals thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1) are a sufficient target."
+   ]
+  },
+  {
+   "baslik": "9. Add AccountingService markup",
+   "paragraflar": [
+    "The schema.org `AccountingService` type tells machines your business is an accounting service. Name, address, phone, opening hours and service area become explicit with this markup.",
+    "It does not create a special search appearance on its own, but it makes your professional details consistent and machine readable. The basics are in the [schema structured data guide](/en/schema-yapisal-veri), and you can draft the code with the [schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "10. Track which content brings enquiries",
+   "paragraflar": [
+    "For an accounting firm, a conversion is usually a call, an email or a contact form. Set these three up as key events in GA4 and watch which post or service page brings enquiries.",
+    {
+     "kartlar": [
+      {
+       "ikon": "📞",
+       "baslik": "Phone click",
+       "metin": "The most common conversion on mobile. Always record the page it came from."
+      },
+      {
+       "ikon": "✉️",
+       "baslik": "Form submission",
+       "metin": "Use a dropdown to learn which service the enquiry is about."
+      },
+      {
+       "ikon": "📍",
+       "baslik": "Directions",
+       "metin": "Shown in Business Profile reports, a sign of local visibility."
+      },
+      {
+       "ikon": "📄",
+       "baslik": "Guide reading",
+       "metin": "Clicks from tax articles to service pages show the content is working."
+      }
+     ]
+    },
+    "The setup steps are in the post on [tracking SEO in GA4](/en/ga4-seo-takibi)."
+   ]
+  },
+  {
+   "baslik": "A short checklist for accounting firm websites",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Have you read the current text of the advertising regulation?",
+      "Does the site contain superiority claims, price comparisons or campaign language?",
+      "Are your professional details consistent on the site and in Business Profile?",
+      "Do tax articles show a valid as of date and a source?",
+      "Is the form on HTTPS with a KVKK notice?",
+      "Are calls and form submissions tracked?"
+     ]
+    },
+    "You can see my work for professions with similar rules on the [law firm SEO](/en/law-firm-seo) page and other [industry-specific SEO](/en/industries) pages. If you want to review your firm's site with the professional rules in mind, write to me through the [contact page](/en/contact)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Mali müşavir blog yazabilir mi?",
+   "c": "Yönetmelik, internet sitesinin makale ve bilimsel çalışmaların yayımlanması amacıyla da kullanılabileceğini belirtiyor. Yazıların tanıtım değil bilgilendirme amaçlı olması ve odanızın yorumuna uygun kalması gerekir."
+  },
+  {
+   "s": "Sosyal medya hesabı açmak SEO'ya yardımcı olur mu?",
+   "c": "Sosyal medya sıralamayı doğrudan belirlemez, ama mevzuat yazılarınızın okunmasını ve paylaşılmasını sağlayabilir. Sosyal medya paylaşımları da aynı meslek kurallarına tabi olduğu için tanıtım diline orada da dikkat edin."
+  },
+  {
+   "s": "Müşterilerden Google yorumu istemeli miyim?",
+   "c": "Bu konu meslek kuralları açısından yoruma açık olabilir. Yorum istemeden önce odanıza danışın; gelen yorumlara ise müşteri bilgisi paylaşmadan, kısa ve nazik cevap verin."
+  },
+  {
+   "s": "Hizmet bölgem dışındaki şehirler için sayfa açabilir miyim?",
+   "c": "Gerçekten hizmet vermediğiniz şehirler için sayfa açmak hem kullanıcıyı yanıltır hem de ince içerik riski yaratır. Uzaktan hizmet veriyorsanız bunu tek bir sayfada açıkça anlatmak daha doğrudur."
+  },
+  {
+   "s": "Mevzuat yazısı ne sıklıkla güncellenmeli?",
+   "c": "Takvim yerine olaya bağlı güncelleme en sağlıklısıdır. İlgili düzenleme değiştiğinde aynı hafta içinde güncelleyin, değişiklik yoksa bile yılda bir kez tüm yazıları gözden geçirin."
+  },
+  {
+   "s": "Yapay zekâ asistanları muhasebe sorularında beni kaynak gösterebilir mi?",
+   "c": "ChatGPT, Gemini ve Perplexity gibi asistanlar web kaynaklarını alıntılayabiliyor. Net, tarihli ve kaynaklı mevzuat yazıları bu tür alıntılar için uygun içerik türüdür, ama gösterileceğinizin bir kesinliği yoktur."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can an accountant run a blog?",
+   "c": "The regulation states that a website may also be used to publish articles and scholarly work. Posts should inform rather than promote and stay within your chamber's interpretation."
+  },
+  {
+   "s": "Does a social media account help SEO?",
+   "c": "Social media does not directly decide rankings, but it can get your tax articles read and shared. Posts there fall under the same professional rules, so watch promotional language on social media too."
+  },
+  {
+   "s": "Should I ask clients for Google reviews?",
+   "c": "This may be open to interpretation under professional rules. Ask your chamber before requesting reviews, and reply to the ones you get briefly and politely without sharing client details."
+  },
+  {
+   "s": "Can I create pages for cities outside my service area?",
+   "c": "Pages for cities you do not actually serve mislead users and create thin content risk. If you serve clients remotely, explaining that clearly on a single page is the better choice."
+  },
+  {
+   "s": "How often should a tax article be updated?",
+   "c": "Event-driven updates work best. Update within the same week when the relevant rule changes, and review every post at least once a year even if nothing changed."
+  },
+  {
+   "s": "Can AI assistants cite me for accounting questions?",
+   "c": "Assistants like ChatGPT, Gemini and Perplexity can cite web sources. Clear, dated and sourced tax articles are a good fit for such citations, but there is no certainty you will be shown."
+  }
+ ]
+}

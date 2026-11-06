@@ -1,0 +1,449 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Eğitim Kurumları İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Schools and Education Providers",
+ "meta_baslik_tr": "Eğitim Kurumları İçin 10 SEO Taktiği",
+ "meta_baslik_en": "10 SEO Tactics for Schools and Courses",
+ "meta_desc_tr": "Özel okul, kurs, etüt merkezi ve dil okulları için program sayfaları, kayıt dönemi planı, şube sayfaları, yorumlar ve yapısal veri taktikleri.",
+ "meta_desc_en": "SEO tactics for private schools, tutoring centres and language schools covering programme pages, enrolment season, branches, reviews and schema.",
+ "ozet_tr": "Program sayfalarından kayıt dönemi takvimine, şube profillerinden yapısal veriye eğitim kurumları için 10 SEO taktiği.",
+ "ozet_en": "From programme pages and enrolment calendars to branch profiles and structured data, 10 SEO tactics for education providers.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Bir velinin okul ya da kurs seçimi, bir restoran seçimi gibi dakikalar içinde verilmez. Haftalarca araştırır, birkaç kurumu karşılaştırır, yorumları okur, sonra ön görüşme ister. Bu süreçte Google'da karşısına çıkan program sayfaları, şube bilgileri ve yorumlar karar listesine girip girmeyeceğinizi belirler.",
+    "Bu yazıda özel okullar, kurslar, etüt merkezleri ve dil okulları için 10 taktiği anlatıyorum. Kurum türü farklı olsa da ortak noktalar aynı: veli ve öğrencinin arama niyeti, kayıt dönemine bağlı sezonsallık ve şubeler arasındaki yerel rekabet.",
+    {
+     "alinti": "Kısa cevap: Eğitim kurumlarında SEO, her program ve kademe için ayrı bir sayfa, kayıt döneminden aylar önce hazırlanmış içerik, her şube için doğru kurulmuş Business Profile ve düzenli veli yorumları üzerine kurulur. Ön kayıt formlarını dönüşüm olarak ölçmek, hangi sayfanın gerçekten öğrenci getirdiğini gösterir."
+    }
+   ]
+  },
+  {
+   "baslik": "Eğitim kurumu aramaları nasıl işler?",
+   "paragraflar": [
+    "Bu sektörde arayan kişi ile hizmeti alan kişi çoğu zaman farklıdır. Anaokulu ve ilkokulda karar veren velidir; dil kursunda ise yetişkin öğrencinin kendisi. Aynı kurum bu iki grubun farklı sorularına cevap vermek zorundadır.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👪",
+       "baslik": "Veli araştırması",
+       "metin": "“Ataşehir özel ilkokul”, “anaokulu servis var mı”. Kademe ve semt birlikte aranır."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Sınav hazırlığı",
+       "metin": "“LGS hazırlık kursu Kadıköy”, “YKS etüt merkezi”. Dönemsel ve rekabetçi aramalar."
+      },
+      {
+       "ikon": "🗣️",
+       "baslik": "Yetişkin öğrenci",
+       "metin": "“Hafta sonu İngilizce kursu”, “IELTS kursu Beşiktaş”. Saat, seviye ve format önemlidir."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Güven araması",
+       "metin": "Kurum adı ile “yorum”, “şikayet”. Kayıt öncesi son kontrol."
+      }
+     ]
+    },
+    "Bu aramaların hangisine öncelik vereceğinizi belirlemek için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) niyet analizini kullanabilirsiniz. Resmi kurum türü adı farklı olsa bile velilerin hâlâ “dershane” gibi alışkanlık kelimeleriyle arayabildiğini Search Console sorgularınızda kontrol edin."
+   ]
+  },
+  {
+   "baslik": "Program sayfaları için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "1. Her program ve kademe için ayrı bir sayfa açın"
+    },
+    "Anaokulu, ilkokul ve ortaokul; LGS ve YKS hazırlık; A1'den C1'e İngilizce seviyeleri ya da IELTS hazırlık her biri farklı bir aramaya karşılık gelir. Hepsini tek bir “Programlarımız” sayfasında toplamak hiçbirinde güçlü olmamanıza yol açar. Okunabilir ve kalıcı adresler için [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısına bakabilirsiniz.",
+    {
+     "alt": "2. Velinin ve öğrencinin gerçek sorularını cevaplayın"
+    },
+    "Program sayfası, kurum broşürünün kopyası değil, karar vermeye yardım eden bir sayfa olmalı. Kurum türüne göre en çok sorulan bilgiler farklıdır:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kurum türü",
+       "Sayfada mutlaka olması gerekenler",
+       "Sık yapılan eksik"
+      ],
+      "satirlar": [
+       [
+        "Özel okul",
+        "Kademe, sınıf mevcudu, servis ve yemek, yabancı dil saatleri, kampüs olanakları",
+        "Yalnızca vizyon ve misyon metni"
+       ],
+       [
+        "Sınav hazırlık kursu, etüt merkezi",
+        "Program süresi, haftalık ders saati, deneme sınavı düzeni, öğretmen kadrosu",
+        "Ders saatlerinin yazılmaması"
+       ],
+       [
+        "Dil okulu",
+        "Seviye tespit süreci, kur süresi, sınıf büyüklüğü, online ya da yüz yüze seçenek",
+        "Tüm seviyelerin tek sayfada olması"
+       ],
+       [
+        "Mesleki ve hobi kursu",
+        "Kurs içeriği, süre, sertifika türü, gereken malzeme",
+        "Sertifikanın niteliğinin belirsiz olması"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "3. Başarı ve öğretmen bilgisini doğrulanabilir biçimde sunun"
+    },
+    "Öğretmenlerin adları, branşları ve deneyimleri güven oluşturur. Sınav başarısı paylaşıyorsanız yalnızca belgeleyebildiğiniz sonuçları, öğrenci ve velinin izniyle yayınlayın. Özel öğretim kurumlarının reklam ve ilanlarına ilişkin kurallar mevzuatta yer aldığı için güncel düzenlemeyi kontrol edin; abartılı iddialar hem itibar hem de yasal risk taşır."
+   ]
+  },
+  {
+   "baslik": "Kayıt dönemi sezonsallığı için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "4. İçerik takvimini kayıt döneminden önce hazırlayın"
+    },
+    "Yeni bir sayfanın taranması, dizine eklenmesi ve sıralamada yerleşmesi zaman alır. Kayıt dönemi başladığında sayfa yayına giriyorsa en yoğun arama haftalarını kaçırırsınız. Benim önerdiğim takvim şöyle:",
+    {
+     "akis": {
+      "baslik": "Kayıt dönemi içerik takvimi",
+      "adimlar": [
+       {
+        "baslik": "Dönemden birkaç ay önce",
+        "metin": "Program sayfalarını güncelleyin, yeni programlar için sayfa açın."
+       },
+       {
+        "baslik": "Bilgi içerikleri",
+        "metin": "Okul seçimi, seviye tespiti, sınav takvimi gibi rehber yazıları yayınlayın."
+       },
+       {
+        "baslik": "Dönem öncesi",
+        "metin": "Business Profile'da açık kapı günü ve tanıtım etkinliklerini duyurun."
+       },
+       {
+        "baslik": "Kayıt dönemi",
+        "metin": "Ön kayıt formlarını ve iletişim yollarını sık kontrol edin."
+       },
+       {
+        "baslik": "Dönem sonrası",
+        "metin": "Hangi sayfanın form getirdiğini inceleyin, gelecek yılı planlayın."
+       }
+      ]
+     }
+    },
+    {
+     "alt": "5. Yıl içermeyen kalıcı URL'ler kullanın"
+    },
+    "“/lgs-hazirlik-2026” gibi yıl içeren adresler her yıl yeni bir sayfa açmanıza ve birikmiş değeri kaybetmenize neden olur. “/lgs-hazirlik” adresini kalıcı tutun, yıl bilgisini sayfa başlığında ve içerikte güncelleyin.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Eski yıl sayfaları",
+      "metin": "Geçmiş yıllar için açılmış sayfalarınız varsa bunları kalıcı sayfaya 301 ile yönlendirin. Kuralları [yönlendirme oluşturucu](/yonlendirme-olusturucu) ile hazırlayabilirsiniz."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Şube sayfaları ve Business Profile için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "6. Her şube ve kampüs için ayrı sayfa ve profil kurun"
+    },
+    "Google her fiziksel konum için tek bir profil öngörür. Her şubenin adresi, telefonu, ulaşım bilgisi, verdiği programlar ve fotoğrafları kendi sayfasında yer almalı; profildeki web sitesi bağlantısı da ana sayfaya değil, şube sayfasına gitmeli. Profil ayarlarının ayrıntıları için [Google Business Profile optimizasyonu](/google-business-profile) rehberine bakabilirsiniz.",
+    {
+     "alt": "7. Kurum adını tabeladaki ve izin belgesindeki gibi yazın"
+    },
+    "Google'ın yönergeleri işletme adının gerçek dünyadaki adla aynı olmasını ve anahtar kelime ya da konum eklenmemesini istiyor. “ABC Koleji Ataşehir En İyi Anaokulu” gibi bir ad profilin askıya alınmasına yol açabilir. Özel öğretim kurumlarında kurum adı ayrıca izin belgesiyle de tutarlı olmalı; sitede, profilde ve dizinlerde aynı adı kullanın."
+   ]
+  },
+  {
+   "baslik": "Yorumlar ve itibar için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "8. Veli ve mezun yorumlarını düzenli toplayın"
+    },
+    "Dönem sonunda, veli toplantısından sonra ya da kurs sertifikası verilirken yorum bağlantısını paylaşın. Cevap verirken öğrencinin adını, sınıfını ya da notlarını yazmayın; çocuklara ait bilgiler özellikle hassastır ve KVKK kapsamında dikkat gerektirir. Olumsuz yorumlara yaklaşımı [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında örneklerle anlattım."
+   ]
+  },
+  {
+   "baslik": "Yapısal veri için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "9. EducationalOrganization ve Course işaretlemesini doğru beklentiyle kullanın"
+    },
+    "Kurum için Schema.org'daki **EducationalOrganization** türü ya da School gibi daha spesifik bir alt türü kullanılabilir. Kurslar için **Course** türü var; ancak Kasım 2026 itibarıyla Google'ın dokümanına göre kurs listesi zengin sonucu yalnızca İngilizce olarak sunuluyor ve en az üç kursun işaretlenmesini gerektiriyor. Tekil kurs bilgisi (Course info) zengin sonucu ise Haziran 2025'te kaldırıldı.",
+    "Bu nedenle Türkçe sayfalarda işaretlemenin asıl faydası, kurumun ve programların makineler tarafından net anlaşılmasıdır. Türleri [Schema yapısal veri rehberinden](/schema-yapisal-veri) seçip kodu [Schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Ölçüm için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "10. Ön kayıt ve bilgi talebi formlarını dönüşüm olarak izleyin"
+    },
+    "Eğitim kurumlarında satış sitede değil, görüşmede tamamlanır. Bu yüzden ön kayıt formu, telefon tıklaması, WhatsApp ve tanıtım günü kaydı gibi adımları GA4'te anahtar etkinlik olarak tanımlayın. Kurulumu [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında anlattım; organik trafiğin kayıt değerini tahmin etmek için [SEO ROI hesaplayıcı](/seo-roi-hesaplayici) işinize yarayabilir.",
+    "Yerel görünürlüğün tüm boyutları için [yerel SEO rehberine](/yerel-seo), daha kısa bir başlangıç listesi için [küçük işletmeler için yerel SEO](/kucuk-isletme-yerel-seo) yazısına göz atabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Kayıt dönemi öncesi kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Her program sayfasında bu yılın ders saatleri, dönem tarihleri ve iletişim bilgisi güncel mi?",
+      "Yıl içeren eski sayfalar kalıcı adrese yönlendirildi mi?",
+      "Her şubenin Business Profile'ında doğru saatler ve fotoğraflar var mı?",
+      "Açık kapı günü ya da tanıtım etkinliği profilde duyuruldu mu?",
+      "Ön kayıt formu mobilde sorunsuz çalışıyor ve GA4'te ölçülüyor mu?",
+      "Son dönemin tüm veli yorumlarına cevap verildi mi?"
+     ]
+    },
+    "Kayıt döneminden önce sitenizi ve şube profillerinizi birlikte değerlendirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz. Farklı sektörlerdeki çalışmalarım için [sektörel SEO çözümleri](/sektorler) sayfasına bakabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Okul ücretlerini sitede yayınlamalı mıyım?",
+   "c": "Veliler ücret bilgisini sıkça arar ve hiç bilgi bulamadıklarında başka kuruma geçebilir. Tam ücret yerine kapsamı ve ödeme seçeneklerini anlatan bir sayfa da işe yarar; yayınladığınız bilgiyi her dönem güncelleyin."
+  },
+  {
+   "s": "Online kurslar için Business Profile açabilir miyim?",
+   "c": "Business Profile, müşterilerin ziyaret ettiği gerçek bir adres ya da müşteriye giden işletmeler içindir. Yalnızca online eğitim veriyorsanız profil yerine web sitesi ve içerik üzerinden görünürlüğe odaklanın."
+  },
+  {
+   "s": "Kurs adında “En iyi” veya “Kesin başarı” demek SEO'ya yardım eder mi?",
+   "c": "Hayır. Bu ifadeler sıralamaya katkı sağlamaz, kullanıcıda şüphe uyandırır ve reklam kuralları açısından risk oluşturur. Programın gerçekte ne sunduğunu anlatan net bir başlık daha iyi sonuç verir."
+  },
+  {
+   "s": "Öğretmenlerin ayrı Business Profile'ı olmalı mı?",
+   "c": "Genellikle hayır. Google'ın bireysel uygulayıcı kuralları daha çok hekim, avukat gibi doğrudan müşteriye hizmet veren meslekler için tasarlanmıştır; okul ve kurslarda kurum profili ve sitedeki öğretmen sayfaları yeterlidir."
+  },
+  {
+   "s": "Blog yazıları kayıt getirir mi?",
+   "c": "Doğrudan değil ama karar sürecinin başındaki veliye ulaşır. Okul seçimi, sınav takvimi ya da seviye tespiti gibi yazılar program sayfalarına link vererek kayıt yolculuğunu besler; planlama için [içerik stratejisi rehberine](/icerik-stratejisi) bakabilirsiniz."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Parents do not choose a school or course in minutes, the way they pick a restaurant. They research for weeks, compare a few providers, read reviews and then ask for a meeting. During that process, the programme pages, branch information and reviews they find on Google decide whether you make the shortlist.",
+    "In this post I cover 10 tactics for private schools, courses, tutoring centres and language schools. The provider types differ, but the common ground is the same: parent and student search intent, seasonality tied to enrolment and local competition between branches.",
+    {
+     "alinti": "Short answer: SEO for education providers is built on a separate page for each programme and level, content prepared months before enrolment, a correctly set up Business Profile for each branch and steady parent reviews. Measuring pre-registration forms as conversions shows which pages actually bring students."
+    }
+   ]
+  },
+  {
+   "baslik": "How do education searches work?",
+   "paragraflar": [
+    "In this sector the searcher and the learner are often different people. For preschool and primary school the parent decides; for a language course it is the adult learner. The same provider has to answer both groups' questions.",
+    {
+     "kartlar": [
+      {
+       "ikon": "👪",
+       "baslik": "Parent research",
+       "metin": "“Private primary school Ataşehir”, “does the preschool offer transport”. Level and district are searched together."
+      },
+      {
+       "ikon": "🎯",
+       "baslik": "Exam preparation",
+       "metin": "“LGS prep course Kadıköy”, “YKS tutoring centre”. Seasonal and competitive searches."
+      },
+      {
+       "ikon": "🗣️",
+       "baslik": "Adult learner",
+       "metin": "“Weekend English course”, “IELTS course Beşiktaş”. Schedule, level and format matter."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Trust search",
+       "metin": "Provider name plus “reviews” or “complaints”. The last check before enrolling."
+      }
+     ]
+    },
+    "To decide which of these searches to prioritise, use the intent analysis in the [keyword research guide](/en/anahtar-kelime-arastirmasi). Even when the official provider type has a different name, check your Search Console queries to see whether parents still search with habitual words such as “dershane”."
+   ]
+  },
+  {
+   "baslik": "3 tactics for programme pages",
+   "paragraflar": [
+    {
+     "alt": "1. Create a separate page for each programme and level"
+    },
+    "Preschool, primary and middle school; LGS and YKS preparation; English levels from A1 to C1 or IELTS preparation each match a different search. Grouping them all on one “Our programmes” page leaves you strong in none of them. For readable, permanent addresses, see [SEO friendly URL structure](/en/url-yapisi-seo).",
+    {
+     "alt": "2. Answer parents' and students' real questions"
+    },
+    "A programme page should help people decide, not copy the brochure. The most requested information differs by provider type:",
+    {
+     "tablo": {
+      "basliklar": [
+       "Provider type",
+       "Must have on the page",
+       "Common gap"
+      ],
+      "satirlar": [
+       [
+        "Private school",
+        "Levels, class size, transport and meals, foreign language hours, campus facilities",
+        "Only a vision and mission statement"
+       ],
+       [
+        "Exam prep course, tutoring centre",
+        "Programme length, weekly hours, mock exam schedule, teaching staff",
+        "No class schedule"
+       ],
+       [
+        "Language school",
+        "Placement process, course length, class size, online or in person option",
+        "All levels on one page"
+       ],
+       [
+        "Vocational and hobby course",
+        "Course content, duration, certificate type, required materials",
+        "Unclear certificate status"
+       ]
+      ]
+     }
+    },
+    {
+     "alt": "3. Present results and teachers in a verifiable way"
+    },
+    "Teachers' names, subjects and experience build trust. If you share exam results, publish only results you can document, with student and parent consent. Turkish regulations include rules on advertising by private education institutions, so check the current rules; exaggerated claims carry both reputational and legal risk."
+   ]
+  },
+  {
+   "baslik": "2 tactics for enrolment seasonality",
+   "paragraflar": [
+    {
+     "alt": "4. Prepare your content calendar before enrolment opens"
+    },
+    "A new page takes time to be crawled, indexed and settle in rankings. If the page goes live when enrolment opens, you miss the busiest search weeks. This is the calendar I recommend:",
+    {
+     "akis": {
+      "baslik": "Enrolment season content calendar",
+      "adimlar": [
+       {
+        "baslik": "A few months before",
+        "metin": "Update programme pages and create pages for new programmes."
+       },
+       {
+        "baslik": "Informational content",
+        "metin": "Publish guides on choosing a school, placement tests and exam calendars."
+       },
+       {
+        "baslik": "Before the season",
+        "metin": "Announce open days and info sessions on Business Profile."
+       },
+       {
+        "baslik": "Enrolment season",
+        "metin": "Check pre-registration forms and contact paths frequently."
+       },
+       {
+        "baslik": "After the season",
+        "metin": "Review which pages brought forms and plan next year."
+       }
+      ]
+     }
+    },
+    {
+     "alt": "5. Use permanent URLs without a year"
+    },
+    "Addresses with a year, such as “/lgs-hazirlik-2026”, force you to create a new page every year and lose the value already built. Keep “/lgs-hazirlik” permanent and update the year in the page title and content.",
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Old year pages",
+      "metin": "If you have pages created for previous years, 301 redirect them to the permanent page. You can build the rules with the [redirect generator](/en/redirect-generator)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "2 tactics for branch pages and Business Profile",
+   "paragraflar": [
+    {
+     "alt": "6. Set up a separate page and profile for each branch and campus"
+    },
+    "Google expects one profile per physical location. Each branch's address, phone, directions, programmes and photos belong on its own page, and the website link on the profile should point to that branch page, not the home page. For profile settings, see the [Google Business Profile optimization](/en/google-business-profile) guide.",
+    {
+     "alt": "7. Use the name on your signage and licence"
+    },
+    "Google's guidelines require the business name to match the real-world name, without added keywords or locations. A name like “ABC College Ataşehir Best Preschool” can get the profile suspended. For private education institutions the name should also match the official licence; use the same name on the site, the profile and directories."
+   ]
+  },
+  {
+   "baslik": "1 tactic for reviews and reputation",
+   "paragraflar": [
+    {
+     "alt": "8. Collect parent and alumni reviews consistently"
+    },
+    "Share your review link at the end of term, after parent meetings or when course certificates are handed out. In replies, never mention a student's name, class or grades; children's data is especially sensitive and needs care under Turkey's data protection law (KVKK). I cover negative reviews with examples in [how to respond to Google reviews](/en/google-yorumlarina-cevap)."
+   ]
+  },
+  {
+   "baslik": "1 tactic for structured data",
+   "paragraflar": [
+    {
+     "alt": "9. Use EducationalOrganization and Course markup with the right expectations"
+    },
+    "For the provider you can use **EducationalOrganization** in Schema.org or a more specific subtype such as School. Courses have the **Course** type; however, as of November 2026 Google's documentation says the course list rich result is available only in English and requires at least three marked up courses. The single course info rich result was retired in June 2025.",
+    "On Turkish pages, then, the main benefit of markup is that machines clearly understand the provider and its programmes. Choose types using the [Schema structured data guide](/en/schema-yapisal-veri) and generate the code with the [Schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "1 tactic for measurement",
+   "paragraflar": [
+    {
+     "alt": "10. Track pre-registration and enquiry forms as conversions"
+    },
+    "For education providers the sale is completed in a meeting, not on the site. Define steps such as pre-registration forms, phone clicks, WhatsApp and open day sign-ups as key events in GA4. I explain the setup in [SEO tracking with GA4](/en/ga4-seo-takibi); the [SEO ROI calculator](/en/seo-roi-calculator) can help you estimate the enrolment value of organic traffic.",
+    "For every dimension of local visibility, see the [local SEO guide](/en/yerel-seo), and for a shorter starter list, [local SEO for small businesses](/en/kucuk-isletme-yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Checklist before enrolment season",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Does every programme page show this year's schedule, term dates and contact details?",
+      "Have old pages with a year been redirected to the permanent address?",
+      "Does each branch's Business Profile have correct hours and photos?",
+      "Has the open day or info session been announced on the profile?",
+      "Does the pre-registration form work on mobile and is it tracked in GA4?",
+      "Has every parent review from last term been answered?"
+     ]
+    },
+    "If you would like your site and branch profiles reviewed before enrolment season, [book a free intro call](/en/book-a-call). For my work in other sectors, see the [industry SEO solutions](/en/industries) page."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Should I publish school fees on the website?",
+   "c": "Parents search for fee information often and may move to another provider when they find none. A page explaining what is included and the payment options also works instead of exact fees; update whatever you publish each term."
+  },
+  {
+   "s": "Can I create a Business Profile for online courses?",
+   "c": "Business Profile is for a real address customers visit or for businesses that travel to customers. If you only teach online, focus on visibility through your website and content instead."
+  },
+  {
+   "s": "Does adding “best” or “guaranteed” to a course name help SEO?",
+   "c": "No. These words do not help rankings, make users suspicious and create risk under advertising rules. A clear title describing what the programme actually offers works better."
+  },
+  {
+   "s": "Should teachers have their own Business Profiles?",
+   "c": "Usually not. Google's individual practitioner rules are designed mainly for professions that serve clients directly, such as doctors and lawyers; for schools and courses, the provider profile and teacher pages on the site are enough."
+  },
+  {
+   "s": "Do blog posts bring enrolments?",
+   "c": "Not directly, but they reach parents early in the decision. Posts on choosing a school, exam calendars or placement tests feed the enrolment journey by linking to programme pages; see the [content strategy guide](/en/icerik-stratejisi) for planning."
+  }
+ ]
+}

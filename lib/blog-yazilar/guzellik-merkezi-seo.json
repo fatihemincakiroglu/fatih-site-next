@@ -1,0 +1,511 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Güzellik Merkezleri İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Beauty Salons and Centres",
+ "meta_baslik_tr": "Güzellik Merkezleri İçin 10 SEO Taktiği",
+ "meta_baslik_en": "10 SEO Tactics for Beauty Salons",
+ "meta_desc_tr": "Güzellik merkezleri için hizmet sayfaları, sağlık iddialarında dikkat, önce sonra görselleri, randevu, yorum yönetimi ve Business Profile taktikleri.",
+ "meta_desc_en": "SEO tactics for beauty salons covering service pages, careful health claims, before and after photos, bookings, reviews and Business Profile.",
+ "ozet_tr": "Lazer ve cilt bakımı sayfalarından önce sonra görsellerine, yorumlardan randevuya güzellik merkezleri için 10 SEO taktiği.",
+ "ozet_en": "From laser and skincare service pages to before and after photos, reviews and bookings, 10 SEO tactics for beauty salons.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Güzellik merkezleri için arama, çoğu zaman bir hizmet adı ve semtle başlar: “Ataşehir lazer epilasyon”, “Nişantaşı cilt bakımı”, “yakınımdaki kaş laminasyonu”. Kullanıcı birkaç profili karşılaştırır, fotoğraflara ve yorumlara bakar, sonra randevu ister. Bu yolculukta hem harita sonuçları hem de hizmet sayfalarınız rol oynar.",
+    "Sektörün bir farkı daha var: Bazı hizmetler cilt ve sağlıkla ilgili olduğu için Google bu içerikleri daha sıkı değerlendirir, reklam mevzuatı da iddialar konusunda dikkat ister. Bu yazıda bu iki gerçeği birlikte gözeten 10 taktiği anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Güzellik merkezlerinde SEO, her hizmet için ayrı ve ayrıntılı bir sayfa, sağlık iddialarında ölçülü bir dil, izinli ve gerçekçi önce sonra görselleri, doğru Business Profile kategorisi ve düzenli yorum yönetimi üzerine kurulur. Kolay bir randevu yolu, bu görünürlüğü müşteriye dönüştürür."
+    }
+   ]
+  },
+  {
+   "baslik": "Güzellik merkezi aramaları nasıl işler?",
+   "paragraflar": [
+    "Bu sektörde arama niyeti genellikle hizmete özeldir. “Güzellik merkezi” diye arayan az, belirli bir uygulamayı arayan çoktur. Bu yüzden sitenin ve profilin hizmet düzeyinde kurgulanması gerekir.",
+    {
+     "kartlar": [
+      {
+       "ikon": "✨",
+       "baslik": "Hizmet ve semt",
+       "metin": "“Kadıköy lazer epilasyon”, “Bakırköy protez tırnak”. Hizmet sayfası ve harita profili birlikte çalışır."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Ön araştırma",
+       "metin": "“Lazer epilasyon kaç seans”, “cilt bakımı ne sıklıkla”. Bilgi veren hizmet sayfaları burada görünür."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Güven araması",
+       "metin": "Merkez adı ile “yorum”, “şikayet”. Yorumlar ve cevaplarınız karar verdirir."
+      },
+      {
+       "ikon": "📅",
+       "baslik": "Randevu niyeti",
+       "metin": "“Bugün müsait manikür”, “online randevu”. Hızlı iletişim yolu belirleyicidir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Hizmet sayfaları için 3 taktik",
+   "paragraflar": [
+    {
+     "alt": "1. Her hizmet için ayrı bir sayfa açın"
+    },
+    "Tüm hizmetleri tek bir “Hizmetlerimiz” sayfasında listelemek, her birinin kendi aramasında görünme şansını ortadan kaldırır. Lazer epilasyon, cilt bakımı, kalıcı makyaj ve tırnak hizmetlerinin her biri ayrı sayfa olmalı; alt türleri yeterince aranıyorsa onlar da kendi sayfasını hak eder.",
+    {
+     "agac": {
+      "kok": "guzellikmerkezi.com",
+      "dallar": [
+       {
+        "ad": "/lazer-epilasyon/",
+        "alt": [
+         "/lazer-epilasyon/tum-vucut",
+         "/lazer-epilasyon/erkek"
+        ]
+       },
+       {
+        "ad": "/cilt-bakimi/",
+        "alt": [
+         "/cilt-bakimi/hydrafacial",
+         "/cilt-bakimi/akne-bakimi"
+        ]
+       },
+       {
+        "ad": "/kalici-makyaj/",
+        "alt": [
+         "/kalici-makyaj/kas",
+         "/kalici-makyaj/dudak"
+        ]
+       },
+       {
+        "ad": "/tirnak/",
+        "alt": [
+         "/tirnak/protez-tirnak",
+         "/tirnak/kalici-oje"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "alt": "2. Hizmet sayfasında gerçek soruları cevaplayın"
+    },
+    "İyi bir hizmet sayfası işlemin nasıl yapıldığını, ortalama süresini, öncesi ve sonrasında nelere dikkat edileceğini, kimler için uygun olmayabileceğini ve uygulamayı kimin yaptığını anlatır. Kullanılan cihazın türü ve uygulayıcının eğitimi gibi somut bilgiler, genel övgü cümlelerinden çok daha değerlidir. İçeriği nasıl planlayacağınızı [içerik stratejisi](/icerik) hizmetimde ayrıntılı ele alıyorum.",
+    {
+     "alt": "3. Semt sayfası yalnızca gerçek şube için açın"
+    },
+    "Tek şubeniz Kadıköy'deyse “Üsküdar lazer epilasyon”, “Maltepe lazer epilasyon” gibi onlarca sayfa üretmek ince içerik oluşturur ve güven vermez. Semt adını şubenizin bulunduğu yerde, sayfanın doğal metninde ve adres bilgisinde kullanın; birden fazla şubeniz varsa her biri için özgün bir şube sayfası hazırlayın."
+   ]
+  },
+  {
+   "baslik": "Sağlık iddiaları ve YMYL için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "4. Tıbbi iddialardan ve yetki dışı işlemlerden uzak durun"
+    },
+    "Google, sağlığı etkileyebilecek konuları “Your Money or Your Life” (YMYL) olarak daha yüksek bir güvenilirlik beklentisiyle değerlendirir. Ticaret Bakanlığı Reklam Kurulu da sağlık ve güzellik alanındaki yanıltıcı reklamlara düzenli olarak yaptırım kararı veriyor. Dolgu, botoks gibi tıbbi estetik uygulamalar mevzuatta hekimlere ve yetkili sağlık kuruluşlarına bağlanmıştır; merkezinizin yetkisinde olmayan bir işlem için sayfa açmayın ve güncel mevzuatı kontrol edin.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Ölçülü ifade",
+       "tur": "iyi",
+       "maddeler": [
+        "Seans sayısı kişiden kişiye değişir",
+        "Uygulama öncesi cilt analizi yapılır",
+        "Hassas ciltlerde uzman görüşü alınmalıdır",
+        "Uygulayıcı ve cihaz bilgisi açıkça belirtilir"
+       ]
+      },
+      "sag": {
+       "baslik": "Riskli ifade",
+       "tur": "kotu",
+       "maddeler": [
+        "Tek seansta kesin sonuç",
+        "Tamamen acısız ve yan etkisiz",
+        "Cilt hastalıklarını tedavi eder",
+        "Yüzde yüz kalıcı"
+       ]
+      }
+     }
+    },
+    "Sağlık içeriğinde güvenin nasıl kurulacağını [sağlık sektöründe SEO rehberinde](/saglik-seo) anlattım. Hekimlerin çalıştığı estetik kliniklerin kuralları farklıdır; bu kurumlar için yaklaşımım [klinik SEO](/klinik-seo) sayfasında.",
+    {
+     "alt": "5. Uzmanlık ve güven sinyallerini görünür kılın"
+    },
+    "Uygulayıcıların adlarını, eğitim ve sertifikalarını, kaç yıldır bu işi yaptıklarını bir ekip sayfasında gösterin ve hizmet sayfalarından bu sayfaya link verin. Bu bilgiler Google'ın deneyim, uzmanlık ve güvenilirlik değerlendirmesiyle doğrudan ilişkilidir; ayrıntılar için [E-E-A-T için içerik](/eeat-icin-icerik) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Önce sonra görselleri için 1 taktik",
+   "paragraflar": [
+    {
+     "alt": "6. Önce sonra görsellerini izinli ve gerçekçi kullanın"
+    },
+    "Önce sonra görselleri bu sektörün en güçlü içeriklerinden biri ama en riskli olanı da. Her görsel için müşteriden yazılı ve açık izin alın; yüz içeren fotoğraflar kişisel veri sayıldığından KVKK yükümlülüklerini gözetin. Aynı ışık, aynı açı ve aynı çekim mesafesi kullanın, rötuş yapmayın ve görselin altına işlem adını ve kaç seans sonra çekildiğini yazın.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Rötuşlu görsel yanıltıcı reklamdır",
+      "metin": "Filtre ya da düzenleme yapılmış bir önce sonra görseli hem müşteri güvenini hem de reklam mevzuatı açısından işletmeyi riske atar. Gerçek ve tutarlı çekimler, daha az etkileyici görünse bile uzun vadede daha çok randevu getirir."
+     }
+    },
+    "Görsel dosya adı ve alt metni için “kas-laminasyonu-once-sonra.jpg” gibi açıklayıcı adlar kullanın. Ayrıntılar [görsel SEO](/gorsel-seo) yazısında."
+   ]
+  },
+  {
+   "baslik": "Business Profile ve randevu için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "7. Kategorileri az ve doğru seçin"
+    },
+    "Google'ın yönergelerine göre kategoriler işletmenin ne olduğunu anlatmalı ve mümkün olduğunca az sayıda olmalı. En çok gelir getiren ana hizmetinize göre birincil kategoriyi (güzellik salonu, cilt bakımı, epilasyon gibi) seçin, diğerlerini ek kategori olarak ekleyin ve panelde Türkçe kategori listesini kontrol edin. Hizmetler bölümünü de doldurun. Profilin geri kalanı için [Google Business Profile optimizasyonu](/google-business-profile) rehberine bakabilirsiniz.",
+    {
+     "alt": "8. Randevu yolunu kısaltın ve ölçün"
+    },
+    "Her hizmet sayfasında görünür bir randevu butonu, tıklanabilir telefon ve WhatsApp bağlantısı olsun. Business Profile'da kategoriye ve ülkeye göre randevu bağlantısı eklenebiliyor; kullandığınız randevu yazılımının Google ile entegre olup olmadığını sağlayıcınıza sorun. Bu tıklamaları GA4'te olay olarak izlemenin yolunu [GA4 ile SEO takibi](/ga4-seo-takibi) yazısında anlattım."
+   ]
+  },
+  {
+   "baslik": "Yorumlar ve sosyal kanıt için 2 taktik",
+   "paragraflar": [
+    {
+     "alt": "9. Yorum isteyin, cevaplarda kişisel ayrıntı vermeyin"
+    },
+    "İşlemden sonra kısa bir mesajla yorum bağlantısı gönderin. Cevap verirken müşterinin hangi işlemi yaptırdığını, cilt durumunu ya da seans geçmişini yazmayın; bu bilgileri müşteri kendisi paylaşmış olsa bile tekrar etmeyin. Olumsuz yorumlara yaklaşımı [Google yorumlarına cevap verme](/google-yorumlarina-cevap) yazısında örneklerle anlattım.",
+    {
+     "alt": "10. Instagram içeriğini web sitesiyle birleştirin"
+    },
+    "Güzellik müşterisinin önemli bir kısmı karar vermeden önce Instagram'a bakıyor. Reels ve gönderilerinizi ilgili hizmet sayfasına yerleştirin, Instagram biyografinizde de ilgili sayfaya link verin. Instagram aramasında görünürlük için [Instagram SEO](/instagram-seo) yazısını okuyabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "10 taktiğin öncelik tablosu",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Öncelik",
+       "Taktikler",
+       "Not"
+      ],
+      "satirlar": [
+       [
+        "Hemen",
+        "Riskli ifadeleri temizleyin, kategorileri düzeltin (4, 7)",
+        "Yasal ve profil riski taşır"
+       ],
+       [
+        "İlk ay",
+        "Hizmet sayfaları ve randevu yolu (1, 2, 8)",
+        "Trafiği randevuya dönüştürür"
+       ],
+       [
+        "İlk üç ay",
+        "Ekip sayfası, önce sonra galerisi, Instagram bağlantısı (5, 6, 10)",
+        "İzin süreci zaman alır"
+       ],
+       [
+        "Sürekli",
+        "Yorumlar ve şube sayfaları (3, 9)",
+        "Haftalık rutin"
+       ]
+      ]
+     }
+    },
+    "Yerel görünürlüğün genel çerçevesi için [yerel SEO rehberini](/yerel-seo), daha basit bir başlangıç listesi için [küçük işletmeler için yerel SEO](/kucuk-isletme-yerel-seo) yazısını okuyabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Güzellik merkezi için aylık kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Hizmet sayfalarında kesin sonuç ya da tedavi iddiası kalmadı mı?",
+      "Yeni eklenen önce sonra görsellerinin yazılı izni dosyada mı?",
+      "Business Profile'daki hizmetler ve fiyat bilgisi sitedekiyle uyumlu mu?",
+      "Ayın tüm yorumlarına kişisel ayrıntı vermeden cevap verildi mi?",
+      "Randevu butonu tıklamaları GA4'te kayıt altında mı?"
+     ]
+    },
+    "Hizmet sayfalarınızı ve profilinizi birlikte değerlendirmek isterseniz [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Güzellik merkezi sitesi YMYL sayılır mı?",
+   "c": "Tüm sayfalar değil. Tırnak ya da makyaj sayfası genellikle düşük risklidir; cilt, lazer ve vücut uygulamalarıyla ilgili sayfalar ise sağlığı etkileyebildiği için daha dikkatli yazılmalıdır."
+  },
+  {
+   "s": "Hizmet fiyatlarını sitede yazmalı mıyım?",
+   "c": "Zorunlu değil ama fiyat arayan kullanıcı için başlangıç fiyatı ya da fiyat aralığı vermek güven oluşturur. Fiyat yazıyorsanız Business Profile ve kampanya sayfalarıyla tutarlı olsun ve düzenli güncelleyin."
+  },
+  {
+   "s": "Kampanya sayfaları SEO'ya zarar verir mi?",
+   "c": "Her kampanya için yeni URL açıp sonra silmek zarar verir. Kalıcı bir kampanyalar sayfası kullanın ve kampanyaları ilgili hizmet sayfasında duyurun."
+  },
+  {
+   "s": "Yabancı müşteriler için İngilizce sayfa açmalı mıyım?",
+   "c": "Turistik bir bölgedeyseniz ve gerçekten yabancı müşteri ağırlıyorsanız evet. Sayfaların makine çevirisi değil, düzgün çevrilmiş olması ve hreflang ile bağlanması gerekir."
+  },
+  {
+   "s": "Hangi yapısal veri türünü kullanmalıyım?",
+   "c": "Schema.org'daki BeautySalon ya da DaySpa gibi işletmenize en uygun LocalBusiness alt türünü seçin. Kodu [Schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz; ad, adres ve telefon Business Profile ile aynı olmalı."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Searches for beauty salons usually start with a service and a district: “laser hair removal Ataşehir”, “facial Nişantaşı”, “brow lamination near me”. The user compares a few profiles, checks photos and reviews, then books. Both map results and your service pages play a part in that journey.",
+    "The sector has another twist: some services relate to skin and health, so Google evaluates that content more strictly and advertising rules call for care with claims. In this post I cover 10 tactics that keep both of those realities in mind.",
+    {
+     "alinti": "Short answer: SEO for beauty salons is built on a separate, detailed page for each service, measured language around health claims, consented and realistic before and after photos, the right Business Profile category and steady review management. An easy booking path turns that visibility into clients."
+    }
+   ]
+  },
+  {
+   "baslik": "How do beauty salon searches work?",
+   "paragraflar": [
+    "Search intent in this sector is usually service specific. Few people search for “beauty centre”; many search for a particular treatment. The site and profile therefore need to be built at service level.",
+    {
+     "kartlar": [
+      {
+       "ikon": "✨",
+       "baslik": "Service and district",
+       "metin": "“Laser hair removal Kadıköy”, “acrylic nails Bakırköy”. Service page and map profile work together."
+      },
+      {
+       "ikon": "❓",
+       "baslik": "Research",
+       "metin": "“How many laser sessions”, “how often to get a facial”. Informative service pages appear here."
+      },
+      {
+       "ikon": "⭐",
+       "baslik": "Trust search",
+       "metin": "Your name plus “reviews” or “complaints”. Reviews and your replies decide."
+      },
+      {
+       "ikon": "📅",
+       "baslik": "Booking intent",
+       "metin": "“Manicure available today”, “book online”. A fast contact path decides."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "3 tactics for service pages",
+   "paragraflar": [
+    {
+     "alt": "1. Create a separate page for each service"
+    },
+    "Listing every service on a single “Our services” page removes the chance for each one to rank for its own search. Laser hair removal, facials, permanent make-up and nails should each have a page; sub types with enough search demand deserve their own page too.",
+    {
+     "agac": {
+      "kok": "beautysalon.com",
+      "dallar": [
+       {
+        "ad": "/laser-hair-removal/",
+        "alt": [
+         "/laser-hair-removal/full-body",
+         "/laser-hair-removal/men"
+        ]
+       },
+       {
+        "ad": "/facials/",
+        "alt": [
+         "/facials/hydrafacial",
+         "/facials/acne-facial"
+        ]
+       },
+       {
+        "ad": "/permanent-make-up/",
+        "alt": [
+         "/permanent-make-up/brows",
+         "/permanent-make-up/lips"
+        ]
+       },
+       {
+        "ad": "/nails/",
+        "alt": [
+         "/nails/acrylic-nails",
+         "/nails/gel-polish"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "alt": "2. Answer real questions on each service page"
+    },
+    "A good service page explains how the treatment is done, how long it takes, what to watch out for before and after, who it may not suit and who performs it. Concrete details such as the device type and the practitioner's training are worth far more than generic praise. I cover content planning in my [content strategy](/en/content-strategy) service.",
+    {
+     "alt": "3. Create district pages only for real branches"
+    },
+    "If your only branch is in Kadıköy, producing dozens of pages like “laser hair removal Üsküdar” and “laser hair removal Maltepe” creates thin content and erodes trust. Use the district name where your branch actually is, in natural copy and in the address; if you have several branches, give each one an original branch page."
+   ]
+  },
+  {
+   "baslik": "2 tactics for health claims and YMYL",
+   "paragraflar": [
+    {
+     "alt": "4. Avoid medical claims and procedures outside your licence"
+    },
+    "Google treats topics that can affect health as “Your Money or Your Life” (YMYL) and expects a higher level of trust. The Turkish Ministry of Trade's Advertising Board also regularly sanctions misleading ads in health and beauty. Medical aesthetic procedures such as fillers and botox are restricted to physicians and authorised health facilities under Turkish regulations; do not create pages for procedures your centre is not licensed for, and check the current rules.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Measured wording",
+       "tur": "iyi",
+       "maddeler": [
+        "The number of sessions varies by person",
+        "A skin assessment is done before treatment",
+        "Sensitive skin should get expert advice",
+        "Practitioner and device details are stated"
+       ]
+      },
+      "sag": {
+       "baslik": "Risky wording",
+       "tur": "kotu",
+       "maddeler": [
+        "Guaranteed results in one session",
+        "Completely painless with no side effects",
+        "Treats skin diseases",
+        "One hundred percent permanent"
+       ]
+      }
+     }
+    },
+    "I explain how to build trust in health content in the [healthcare SEO guide](/en/saglik-seo). Aesthetic clinics staffed by physicians follow different rules; my approach for them is on the [healthcare SEO](/en/healthcare-seo) page.",
+    {
+     "alt": "5. Make expertise and trust signals visible"
+    },
+    "Show practitioners' names, training, certificates and years of experience on a team page and link to it from service pages. This information relates directly to how Google assesses experience, expertise and trust; see [content for E-E-A-T](/en/eeat-icin-icerik) for details."
+   ]
+  },
+  {
+   "baslik": "1 tactic for before and after photos",
+   "paragraflar": [
+    {
+     "alt": "6. Use consented, realistic before and after photos"
+    },
+    "Before and after photos are among the strongest content in this sector, and among the riskiest. Get clear written consent from the client for every image; photos showing faces are personal data, so follow Turkey's data protection law (KVKK). Use the same light, angle and distance, do not retouch, and caption each image with the treatment and the number of sessions.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "A retouched photo is a misleading ad",
+      "metin": "A filtered or edited before and after photo puts both client trust and your compliance with advertising rules at risk. Real, consistent shots bring more bookings over time, even if they look less dramatic."
+     }
+    },
+    "Use descriptive file names and alt text such as “brow-lamination-before-after.jpg”. Details are in the [image SEO](/en/gorsel-seo) post."
+   ]
+  },
+  {
+   "baslik": "2 tactics for Business Profile and bookings",
+   "paragraflar": [
+    {
+     "alt": "7. Choose few, accurate categories"
+    },
+    "Google's guidelines say categories should describe what the business is and be as few as possible. Pick the primary category (beauty salon, skin care, hair removal and so on) by your main revenue service, add others as additional categories and check the exact category names in your dashboard. Fill in the services section too. For the rest of the profile, see the [Google Business Profile optimization](/en/google-business-profile) guide.",
+    {
+     "alt": "8. Shorten and measure the booking path"
+    },
+    "Each service page should have a visible booking button, a tappable phone number and a WhatsApp link. Business Profile can show a booking link depending on category and country; ask your booking software provider whether it integrates with Google. I show how to track these clicks as GA4 events in [SEO tracking with GA4](/en/ga4-seo-takibi)."
+   ]
+  },
+  {
+   "baslik": "2 tactics for reviews and social proof",
+   "paragraflar": [
+    {
+     "alt": "9. Ask for reviews and keep replies free of personal details"
+    },
+    "Send a short message with your review link after the appointment. When replying, do not mention which treatment the client had, their skin condition or session history, even if the client shared it. I cover negative reviews with examples in [how to respond to Google reviews](/en/google-yorumlarina-cevap).",
+    {
+     "alt": "10. Connect Instagram content with your website"
+    },
+    "Many beauty clients check Instagram before deciding. Embed your Reels and posts on the relevant service pages and link to those pages from your Instagram bio. For visibility in Instagram search, read [Instagram SEO](/en/instagram-seo)."
+   ]
+  },
+  {
+   "baslik": "Priority table for the 10 tactics",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Priority",
+       "Tactics",
+       "Note"
+      ],
+      "satirlar": [
+       [
+        "Now",
+        "Remove risky wording, fix categories (4, 7)",
+        "Carries legal and profile risk"
+       ],
+       [
+        "First month",
+        "Service pages and booking path (1, 2, 8)",
+        "Turns traffic into bookings"
+       ],
+       [
+        "First three months",
+        "Team page, before and after gallery, Instagram link (5, 6, 10)",
+        "Consent takes time"
+       ],
+       [
+        "Ongoing",
+        "Reviews and branch pages (3, 9)",
+        "Weekly routine"
+       ]
+      ]
+     }
+    },
+    "For the wider local visibility framework, read the [local SEO guide](/en/yerel-seo), and for a simpler starter list, [local SEO for small businesses](/en/kucuk-isletme-yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "Monthly checklist for a beauty salon",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Are service pages free of guaranteed result or treatment claims?",
+      "Is written consent on file for every new before and after photo?",
+      "Do services and prices on Business Profile match the website?",
+      "Has every review this month been answered without personal details?",
+      "Are booking button clicks recorded in GA4?"
+     ]
+    },
+    "If you want your service pages and profile reviewed together, [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Is a beauty salon website considered YMYL?",
+   "c": "Not every page. Nail or make-up pages are usually low risk; pages about skin, laser and body treatments can affect health and should be written more carefully."
+  },
+  {
+   "s": "Should I publish prices on the website?",
+   "c": "It is not required, but giving a starting price or range builds trust with users looking for prices. If you publish prices, keep them consistent with Business Profile and campaign pages and update them regularly."
+  },
+  {
+   "s": "Do campaign pages hurt SEO?",
+   "c": "Creating a new URL for every campaign and deleting it later does. Use a permanent offers page and announce campaigns on the relevant service page."
+  },
+  {
+   "s": "Should I add English pages for foreign clients?",
+   "c": "Yes, if you are in a tourist area and genuinely serve foreign clients. The pages should be properly translated, not machine translated, and connected with hreflang."
+  },
+  {
+   "s": "Which structured data type should I use?",
+   "c": "Choose the LocalBusiness subtype in Schema.org that best fits, such as BeautySalon or DaySpa. You can generate the code with the [Schema generator](/en/schema-generator); name, address and phone must match Business Profile."
+  }
+ ]
+}

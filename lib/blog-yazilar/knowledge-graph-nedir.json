@@ -1,0 +1,367 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 7,
+ "baslik_tr": "Knowledge Graph Nedir? Markanızı Bilgi Paneline Taşıyan 6 Adım",
+ "baslik_en": "What Is the Knowledge Graph? 6 Steps Toward a Knowledge Panel for Your Brand",
+ "meta_baslik_tr": "Knowledge Graph Nedir? 6 Adım",
+ "meta_baslik_en": "What Is the Knowledge Graph? 6 Steps",
+ "meta_desc_tr": "Knowledge Graph ve bilgi paneli nedir, nasıl oluşur? Markanızı Google'ın tanıdığı bir varlığa dönüştüren 6 adım ve panel sahiplenme süreci.",
+ "meta_desc_en": "What the Knowledge Graph and knowledge panels are, how they form, 6 steps that help Google recognise your brand as an entity and how to claim a panel.",
+ "ozet_tr": "Knowledge Graph'in ne olduğunu, bilgi panelinin nasıl oluştuğunu ve markanızı bu panele yaklaştıran 6 adımı anlatıyorum.",
+ "ozet_en": "What the Knowledge Graph is, how a knowledge panel forms and 6 steps that bring your brand closer to having one.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Knowledge Graph (Bilgi Grafiği), Google'ın kişiler, şirketler, yerler ve kavramlar gibi varlıklar hakkında bildiklerini ve bu varlıklar arasındaki ilişkileri tuttuğu bilgi tabanıdır. Bir markayı aradığınızda sağ tarafta (mobilde üstte) çıkan bilgi kutusu, yani bilgi paneli, bu bilgi tabanından beslenir.",
+    "Danışanlarımın en sık sorduğu soru şu: \"Rakibimin bilgi paneli var, bizim neden yok?\" Bu yazıda Knowledge Graph'in nasıl çalıştığını, bilgi panelinin neden kendiliğinden oluştuğunu ve markanızı bu panele yaklaştıran 6 adımı sırasıyla anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Knowledge Graph, Google'ın varlıklar ve aralarındaki ilişkiler hakkındaki bilgi tabanıdır. Bilgi panelleri bu tabandan otomatik olarak üretilir ve başvuruyla açılmaz. Markanızı net tanımlamak, Organization işaretlemesi, tutarlı profiller ve bağımsız kaynaklarda bahsedilmek panel ihtimalini artırır, ama kesin bir sonuç vaat etmez."
+    }
+   ]
+  },
+  {
+   "baslik": "Knowledge Graph, bilgi paneli ve Business Profile farkı",
+   "paragraflar": [
+    "Bu üç kavram sık karıştırılıyor. Google'ın destek sayfasına göre bilgi panelleri otomatik olarak oluşturulur ve içindeki bilgiler web'deki çeşitli kaynaklardan gelir. Belirli bir adreste müşteriye hizmet veren işletmeler ise bilgi paneli yerine Google Business Profile kullanır; görünüşleri benzese de ayrı ürünlerdir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Kavram",
+       "Ne işe yarar",
+       "Kim kontrol eder"
+      ],
+      "satirlar": [
+       [
+        "Knowledge Graph",
+        "Varlıkları ve ilişkilerini tutan bilgi tabanı",
+        "Google, web kaynakları ve veri ortaklarıyla"
+       ],
+       [
+        "Bilgi paneli",
+        "Bir varlığın arama sonucundaki özet kutusu",
+        "Otomatik oluşur, doğrulanmış temsilci değişiklik önerebilir"
+       ],
+       [
+        "Google Business Profile",
+        "Fiziksel konumu ya da hizmet bölgesi olan işletme kaydı",
+        "İşletme sahibi oluşturur ve yönetir"
+       ]
+      ]
+     }
+    },
+    "Mağazanız, kliniğiniz ya da ofisiniz varsa önceliğiniz Business Profile olmalı. Kurulumunu ve optimizasyonunu [Google Business Profile yazısında](/google-business-profile) anlattım."
+   ]
+  },
+  {
+   "baslik": "Varlık (entity) nedir ve neden anahtar kelimeden farklı?",
+   "paragraflar": [
+    "Varlık, benzersiz olarak tanımlanabilen bir şeydir. \"Çakıroğlu\" kelimesi birçok kişiyi işaret edebilir, ama \"İstanbul merkezli SEO danışmanı Fatih Emin Çakıroğlu\" tek bir varlıktır. Google bir markayı varlık olarak tanıdığında onu kurucusu, sektörü, konumu ve sosyal profilleriyle ilişkilendirebilir.",
+    "Varlık mantığını, dört sinyal grubunu ve yapay zekâ asistanlarının markaları nasıl tanıdığını [entity SEO yazısında](/entity-seo) derinlemesine ele aldım. Terimin kısa tanımı için [AI sözlüğüne](/ai-sozluk) de bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Markanızı bilgi paneline taşıyan 6 adım",
+   "paragraflar": [
+    {
+     "alt": "1. Markanızı tek bir resmi sayfada tanımlayın"
+    },
+    "Ana sayfanız ya da Hakkımızda sayfanız markanın kim olduğunu, ne yaptığını, nerede kurulduğunu ve kim tarafından yönetildiğini açık cümlelerle anlatmalı. Google ve yapay zekâ sistemleri bu sayfayı varlığın \"resmi kaynağı\" olarak okur. Belirsiz slogan yerine tanım cümlesi yazın.",
+    {
+     "alt": "2. Organization işaretlemesi ve sameAs ekleyin"
+    },
+    "Google'ın Organization yapısal veri dokümanı, bu işaretlemenin kuruluşu arama sonuçlarında ayırt etmeye yardımcı olduğunu ve bazı özelliklerin (ör. logo) bilgi panelinde görünen görseli etkileyebileceğini söylüyor. Zorunlu özellik yok; Google ana sayfaya ya da kuruluşu anlatan tek bir sayfaya eklemeyi öneriyor. `sameAs` ile resmi sosyal profillerinizi bağlayın.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Örnek Mobilya\",\n  \"legalName\": \"Örnek Mobilya Sanayi ve Ticaret A.Ş.\",\n  \"url\": \"https://www.ornekmobilya.com\",\n  \"logo\": \"https://www.ornekmobilya.com/logo.png\",\n  \"foundingDate\": \"2009\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/ornekmobilya\",\n    \"https://www.instagram.com/ornekmobilya\",\n    \"https://www.youtube.com/@ornekmobilya\"\n  ]\n}\n</script>"
+    },
+    "Kodu elle yazmak istemiyorsanız [schema oluşturucu aracı](/schema-olusturucu) ile hazırlayabilir, ayrıntılar için [schema ve yapısal veri rehberine](/schema-yapisal-veri) bakabilirsiniz.",
+    {
+     "alt": "3. Ad, logo ve profil bilgilerini her yerde tutarlı tutun"
+    },
+    "Sitede \"Örnek Mobilya\", LinkedIn'de \"Ornek Furniture\", Instagram'da başka bir logo kullanıldığında sinyaller dağılır. Türkçe karakterli marka adlarında da tek bir yazımı seçin ve her profilde aynı biçimde kullanın.",
+    {
+     "alt": "4. Wikidata ve güvenilir dizinleri değerlendirin"
+    },
+    "Wikidata herkesin düzenleyebildiği açık bir bilgi tabanıdır ve birçok bilgi sistemi bu tür yapılandırılmış kaynaklardan yararlanabilir. Ancak kayıtların kaynakla desteklenmesi ve Wikidata'nın kayda değerlik kurallarına uyması gerekir; kaynaksız, tanıtım amaçlı kayıtlar silinebilir. Sektörünüzdeki meslek kuruluşu ve ticaret odası kayıtları da tutarlı birer referanstır.",
+    {
+     "alt": "5. Bağımsız kaynaklarda bahsedilin"
+    },
+    "Bilgi panelleri web'deki çeşitli kaynaklardan beslendiği için markanızın yalnızca kendi sitenizde anlatılması yetmez. Sektör yayınlarında röportaj, haber sitelerinde bahis ve konferans konuşmacı sayfaları varlığınızı doğrular. Bu kısmı [marka bahsi (brand mention) yazısında](/marka-bahsi-brand-mention) ve [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ayrıntılı anlattım.",
+    {
+     "alt": "6. Panel çıktığında sahiplenin ve doğrulayın"
+    },
+    "Panel oluştuğunda resmi temsilci olarak sahiplenebilir, böylece yanlış bilgiler için önerdiğiniz değişikliklerin incelenmesini hızlandırabilirsiniz. Süreci bir sonraki bölümde adım adım gösteriyorum.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Kesin sonuç yok",
+      "metin": "Google'ın destek sayfasına göre bilgi paneli talep edilerek oluşturulamaz. Bu 6 adım panel ihtimalini artırır, ama ne zaman ya da hiç çıkıp çıkmayacağına kimse söz veremez. \"Bilgi paneli açıyoruz\" diyen hizmetlere temkinli yaklaşın."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Bilgi paneli nasıl sahiplenilir?",
+   "paragraflar": [
+    "Google'ın \"Get verified on Google\" destek sayfası sahiplenme sürecini şöyle tarif ediyor:",
+    {
+     "akis": {
+      "baslik": "Bilgi paneli sahiplenme süreci",
+      "adimlar": [
+       {
+        "baslik": "Google hesabıyla giriş",
+        "metin": "Markanızı ya da kendinizi Google'da arayın ve paneli bulun."
+       },
+       {
+        "baslik": "Sahiplenme bağlantısı",
+        "metin": "Panelin altındaki \"Claim this knowledge panel\" seçeneğine tıklayın."
+       },
+       {
+        "baslik": "Resmi profille doğrulama",
+        "metin": "YouTube, Search Console, X (Twitter) ya da Facebook gibi listelenen resmi hesaplardan birine giriş yapın."
+       },
+       {
+        "baslik": "Ek bilgi",
+        "metin": "Uygun hesap bulunamazsa Google ek doğrulama bilgisi isteyebilir."
+       },
+       {
+        "baslik": "Değişiklik önerisi",
+        "metin": "Doğrulandıktan sonra Feedback seçeneğiyle yanlış bilgiyi kaynak bağlantısıyla bildirin."
+       }
+      ]
+     }
+    },
+    "Destek sayfasına göre her panel henüz sahiplenilemiyor, bu yüzden sahiplenme düğmesini dönem dönem kontrol etmek gerekiyor. Doğrulama e-postasıyla giriş yapıp gönderdiğiniz öneriler incelemede öncelik alıyor, ama kararı yine Google veriyor."
+   ]
+  },
+  {
+   "baslik": "Bilgi paneli neden çıkmaz ya da yanlış bilgi gösterir?",
+   "paragraflar": [
+    "Sahada en sık gördüğüm nedenler şunlar:",
+    {
+     "liste": [
+      "Marka adı genel bir kelime ya da başka bir varlıkla aynı (ör. \"Defne\" adında bir kozmetik markası).",
+      "Sitede kuruluşu anlatan net bir sayfa yok ya da bilgiler çelişkili.",
+      "Bağımsız kaynaklarda markadan neredeyse hiç bahsedilmiyor.",
+      "Eski unvan, eski logo ya da kapanmış şube bilgileri dizinlerde duruyor.",
+      "Kişisel marka ile şirket markası aynı sayfada karışık anlatılıyor."
+     ]
+    },
+    "Yanlış bilgi gösteren bir panelde önce bilginin hangi kaynaktan geldiğini bulun ve o kaynağı düzeltin. Kaynak düzelmeden yapılan öneri genellikle kalıcı olmuyor."
+   ]
+  },
+  {
+   "baslik": "Knowledge Graph yapay zekâ aramasında neden önemli?",
+   "paragraflar": [
+    "AI Overviews, AI Mode, ChatGPT ve Perplexity gibi sistemler bir markayı anlatırken tutarlı ve doğrulanabilir bilgilere ihtiyaç duyar. Markası net tanımlanmış bir varlığın yapay zekâ cevaplarında doğru anlatılma ihtimali, bilgileri dağınık bir markaya göre daha yüksektir. Hangi asistanın hangi bilgi kaynağını kullandığına dair kesin bir şey söylemek mümkün değil, ama varlık sinyallerini güçlendirmek hepsine yarar.",
+    "Yapay zekâ asistanlarının markanızı nasıl anlattığını ölçmek için [ChatGPT'de marka görünürlüğü yazısındaki](/chatgpt-marka-gorunurlugu) test yöntemini kullanabilirsiniz. Genel uygulama planı ise [GEO uygulama rehberinde](/geo-uygulama) yer alıyor."
+   ]
+  },
+  {
+   "baslik": "Hangi durumda uzman desteği almalı?",
+   "paragraflar": [
+    "Marka adınız başka bir varlıkla karışıyorsa, birleşme ya da unvan değişikliği yaşadıysanız veya panelde inatçı bir yanlış bilgi varsa varlık temizliği planlı bir çalışma gerektirir. [GEO danışmanlığı](/geo-uzmani) kapsamında bu süreci kaynak tespitiyle birlikte yürütüyorum; durumunuzu konuşmak için [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "The Knowledge Graph is Google's knowledge base about entities such as people, companies, places and concepts, and about the relationships between them. When you search for a brand and see an information box on the right (or near the top on mobile), that knowledge panel is drawn from this knowledge base.",
+    "The question I hear most from clients is \"Our competitor has a knowledge panel, why don't we?\" This article explains how the Knowledge Graph works, why knowledge panels appear on their own, and 6 steps that bring your brand closer to having one.",
+    {
+     "alinti": "Short answer: The Knowledge Graph is Google's knowledge base of entities and their relationships. Knowledge panels are generated automatically from it and cannot be requested. A clear brand definition, Organization markup, consistent profiles and mentions on independent sources improve your chances, but nobody can promise a panel."
+    }
+   ]
+  },
+  {
+   "baslik": "Knowledge Graph vs knowledge panel vs Business Profile",
+   "paragraflar": [
+    "These three get mixed up all the time. According to Google's help page, knowledge panels are generated automatically and their information comes from various sources across the web. Businesses that serve customers at a location or in a service area use a Google Business Profile instead; it looks similar, but it is a separate product.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Concept",
+       "What it does",
+       "Who controls it"
+      ],
+      "satirlar": [
+       [
+        "Knowledge Graph",
+        "Knowledge base of entities and relationships",
+        "Google, using web sources and data partners"
+       ],
+       [
+        "Knowledge panel",
+        "Summary box for an entity in search results",
+        "Generated automatically, verified representatives can suggest changes"
+       ],
+       [
+        "Google Business Profile",
+        "Listing for a business with a location or service area",
+        "Created and managed by the business owner"
+       ]
+      ]
+     }
+    },
+    "If you run a shop, clinic or office, your Business Profile comes first. I cover setup and optimisation in my [Google Business Profile article](/en/google-business-profile)."
+   ]
+  },
+  {
+   "baslik": "What is an entity and how is it different from a keyword?",
+   "paragraflar": [
+    "An entity is something that can be uniquely identified. The word \"Cakiroglu\" could point to many people, but \"Fatih Emin Cakiroglu, the Istanbul based SEO consultant\" is one entity. Once Google recognises a brand as an entity, it can connect it to its founder, industry, location and social profiles.",
+    "I go deep into entities, the four signal groups and how AI assistants recognise brands in the [entity SEO article](/en/entity-seo). For a quick definition, see the [AI glossary](/en/ai-glossary)."
+   ]
+  },
+  {
+   "baslik": "6 steps toward a knowledge panel for your brand",
+   "paragraflar": [
+    {
+     "alt": "1. Define your brand on one official page"
+    },
+    "Your home page or About page should state in plain sentences who the brand is, what it does, where it was founded and who runs it. Google and AI systems read this page as the entity's official source. Write a definition, not a slogan.",
+    {
+     "alt": "2. Add Organization markup with sameAs"
+    },
+    "Google's Organization structured data documentation says the markup helps disambiguate your organisation in search results, and some properties (such as logo) can influence the image shown in the knowledge panel. There are no required properties; Google recommends placing it on the home page or on a single page about the organisation. Use `sameAs` to connect your official social profiles.",
+    {
+     "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Example Furniture\",\n  \"legalName\": \"Example Furniture Manufacturing Inc.\",\n  \"url\": \"https://www.examplefurniture.com\",\n  \"logo\": \"https://www.examplefurniture.com/logo.png\",\n  \"foundingDate\": \"2009\",\n  \"sameAs\": [\n    \"https://www.linkedin.com/company/examplefurniture\",\n    \"https://www.instagram.com/examplefurniture\",\n    \"https://www.youtube.com/@examplefurniture\"\n  ]\n}\n</script>"
+    },
+    "If you would rather not write it by hand, use the [schema generator tool](/en/schema-generator), and see the [schema and structured data guide](/en/schema-yapisal-veri) for the details.",
+    {
+     "alt": "3. Keep name, logo and profile details consistent"
+    },
+    "When the site says one name, LinkedIn uses a translated name and Instagram shows a different logo, the signals scatter. For brand names with Turkish characters, pick one spelling and use it everywhere.",
+    {
+     "alt": "4. Consider Wikidata and trusted directories"
+    },
+    "Wikidata is an open knowledge base anyone can edit, and many information systems draw on structured sources like it. Entries must be backed by sources and meet Wikidata's notability rules; unsourced promotional entries can be deleted. Professional bodies and chamber of commerce listings in your sector are also consistent references.",
+    {
+     "alt": "5. Get mentioned on independent sources"
+    },
+    "Because knowledge panels draw on many sources across the web, describing your brand only on your own site is not enough. Interviews in trade publications, news mentions and conference speaker pages confirm your entity. I cover this in the [brand mention article](/en/marka-bahsi-brand-mention) and the [backlink and digital PR guide](/en/backlink-dijital-pr).",
+    {
+     "alt": "6. Claim and verify the panel once it appears"
+    },
+    "When a panel appears, you can claim it as the official representative, which gives your suggested corrections priority in review. The next section walks through the process.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "No certain outcome",
+      "metin": "Google's help page says you cannot simply create a knowledge panel. These 6 steps improve your chances, but no one can promise when or whether a panel will appear. Be careful with services that claim to \"create\" knowledge panels."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How do you claim a knowledge panel?",
+   "paragraflar": [
+    "Google's \"Get verified on Google\" help page describes the claim process like this:",
+    {
+     "akis": {
+      "baslik": "Knowledge panel claim process",
+      "adimlar": [
+       {
+        "baslik": "Sign in to Google",
+        "metin": "Search for your brand or yourself and find the panel."
+       },
+       {
+        "baslik": "Claim link",
+        "metin": "Click \"Claim this knowledge panel\" at the bottom of the panel."
+       },
+       {
+        "baslik": "Verify with an official profile",
+        "metin": "Sign in to one of the listed official accounts such as YouTube, Search Console, X (Twitter) or Facebook."
+       },
+       {
+        "baslik": "Extra details",
+        "metin": "If no matching account is found, Google may ask for more information."
+       },
+       {
+        "baslik": "Suggest changes",
+        "metin": "Once verified, use Feedback to flag incorrect facts with a supporting link."
+       }
+      ]
+     }
+    },
+    "According to the help page, not every panel can be claimed yet, so check for the claim button periodically. Suggestions sent while signed in with the verification email get priority in review, but Google still makes the final call."
+   ]
+  },
+  {
+   "baslik": "Why is there no panel, or why does it show wrong facts?",
+   "paragraflar": [
+    "These are the causes I see most often:",
+    {
+     "liste": [
+      "The brand name is a common word or shared with another entity (for example a cosmetics brand called \"Defne\").",
+      "The site has no clear page about the organisation, or details conflict.",
+      "Independent sources barely mention the brand.",
+      "Old company names, old logos or closed branches still sit in directories.",
+      "Personal brand and company brand are mixed together on the same page."
+     ]
+    },
+    "When a panel shows a wrong fact, find which source it comes from and fix that source first. Suggestions made before the source is fixed rarely stick."
+   ]
+  },
+  {
+   "baslik": "Why does the Knowledge Graph matter for AI search?",
+   "paragraflar": [
+    "AI Overviews, AI Mode, ChatGPT and Perplexity need consistent, verifiable facts when they describe a brand. A clearly defined entity is more likely to be described accurately in AI answers than a brand with scattered information. Nobody can say exactly which assistant uses which knowledge source, but stronger entity signals help with all of them.",
+    "To measure how AI assistants describe your brand, use the test method in the [ChatGPT brand visibility article](/en/chatgpt-marka-gorunurlugu). The wider implementation plan is in the [GEO implementation guide](/en/geo-uygulama)."
+   ]
+  },
+  {
+   "baslik": "When should you bring in an expert?",
+   "paragraflar": [
+    "If your brand name is confused with another entity, you have been through a merger or name change, or a stubborn wrong fact sits in your panel, entity cleanup needs a planned approach. I run this work, including source tracing, as part of [GEO consulting](/en/geo-consulting); [book a free intro call](/en/book-a-call) to talk through your case."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bilgi paneli için Google'a başvuru yapılabilir mi?",
+   "c": "Hayır. Google'ın destek sayfasına göre bilgi panelleri otomatik oluşturulur ve talep edilerek açılmaz. Yapabileceğiniz şey varlık sinyallerini güçlendirmek ve panel çıktığında onu sahiplenmektir."
+  },
+  {
+   "s": "Bilgi paneli ne kadar sürede çıkar?",
+   "c": "Belirli bir süre yok. Bazı markalarda birkaç ay içinde, bazılarında yıllar sonra çıkar, bazılarında hiç çıkmaz. Bağımsız kaynaklardaki bahis sayısı ve bilgilerin tutarlılığı süreyi en çok etkileyen etkenler arasında."
+  },
+  {
+   "s": "Wikipedia sayfası olmadan bilgi paneli olur mu?",
+   "c": "Olabilir. Wikipedia güçlü bir kaynak olsa da bilgi panelleri web'deki çeşitli kaynaklardan beslenir. Kayda değerlik kuralları gereği her marka için Wikipedia sayfası açılamaz ve kendi şirketiniz için sayfa yazmak çıkar çatışması kurallarına takılabilir."
+  },
+  {
+   "s": "Kişisel marka için de bilgi paneli alınabilir mi?",
+   "c": "Evet, bilgi panelleri kişiler için de oluşabilir ve sahiplenme süreci kişiler için de geçerlidir. Kişisel sitenizde net bir biyografi sayfası, Person işaretlemesi ve tutarlı sosyal profiller burada da temel adımlardır."
+  },
+  {
+   "s": "Paneldeki fotoğrafı ya da logoyu nasıl değiştirebilirim?",
+   "c": "Logo için Organization işaretlemesindeki logo özelliği Google'a tercih ettiğiniz görseli bildirir. Paneli sahiplendiyseniz Feedback seçeneğiyle görsel değişikliği de önerebilirsiniz; son kararı Google verir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can you apply to Google for a knowledge panel?",
+   "c": "No. Google's help page says knowledge panels are generated automatically and cannot simply be created on request. What you can do is strengthen your entity signals and claim the panel once it appears."
+  },
+  {
+   "s": "How long does it take for a knowledge panel to appear?",
+   "c": "There is no set timeframe. Some brands get one within months, others after years, and some never do. The number of independent mentions and the consistency of your details are among the biggest factors."
+  },
+  {
+   "s": "Can you get a knowledge panel without a Wikipedia page?",
+   "c": "Yes, it is possible. Wikipedia is a strong source, but knowledge panels draw on many sources across the web. Not every brand meets Wikipedia's notability rules, and writing a page about your own company can conflict with its conflict of interest guidelines."
+  },
+  {
+   "s": "Can a personal brand get a knowledge panel?",
+   "c": "Yes, knowledge panels also appear for people, and the claim process applies to individuals too. A clear biography page on your own site, Person markup and consistent social profiles are the basic steps here as well."
+  },
+  {
+   "s": "How do I change the photo or logo in the panel?",
+   "c": "For the logo, the logo property in your Organization markup tells Google which image you prefer. If you have claimed the panel, you can also suggest an image change through Feedback; Google makes the final decision."
+  }
+ ]
+}

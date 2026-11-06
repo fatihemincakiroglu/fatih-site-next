@@ -66,8 +66,14 @@ export default function AracSayfa({ isEn, yol, yolEn, baslik, metaBaslik, metaDe
           </div>
         </header>
 
-        <main style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '28px 16px 32px', display: 'grid', gap: '20px' }}>
-          <section style={kutu} aria-label={baslik}>{children}</section>
+        <main style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '28px 16px 32px', display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '20px' }}>
+          <style>{`
+            .arac-kutu, .arac-kutu * { min-width: 0; }
+            .arac-kutu [style*="display:grid"]:not([style*="grid-template-columns"]) { grid-template-columns: minmax(0, 1fr); }
+            .arac-kutu pre { max-width: 100%; overflow-x: auto; }
+            .arac-kutu input, .arac-kutu textarea, .arac-kutu select { max-width: 100%; }
+          `}</style>
+          <section className="arac-kutu" style={kutu} aria-label={baslik}>{children}</section>
 
           {adimlar.length > 0 && (
             <section style={kutu}>

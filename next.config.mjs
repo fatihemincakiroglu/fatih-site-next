@@ -75,6 +75,10 @@ const ARACLAR = [
   ['utm-olusturucu', 'utm-builder'],
   ['og-onizleme', 'og-preview'],
   ['seo-roi-hesaplayici', 'seo-roi-calculator'],
+  ['yonlendirme-zinciri-kontrol', 'redirect-checker'],
+  ['anahtar-kelime-gruplama', 'keyword-clustering'],
+  ['site-haritasi-olusturucu', 'sitemap-generator'],
+  ['meta-etiket-olusturucu', 'meta-tag-generator'],
 ]
 function duzRotalar() {
   const oku = (y) => fs.readFileSync(new URL(y, import.meta.url), 'utf8')

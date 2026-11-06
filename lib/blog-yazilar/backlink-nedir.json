@@ -1,0 +1,411 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 7,
+ "baslik_tr": "Backlink Nedir? 7 Backlink Türü",
+ "baslik_en": "What Is a Backlink? 7 Types of Backlinks",
+ "meta_baslik_tr": "Backlink Nedir? 7 Backlink Türü",
+ "meta_baslik_en": "What Is a Backlink? 7 Types of Backlinks",
+ "meta_desc_tr": "Backlink nedir, neden önemlidir? Dofollow, nofollow, sponsored, ugc, editoryal, dizin ve misafir yazısı linkleri ile Google link spam kuralları.",
+ "meta_desc_en": "What a backlink is and why it matters. Dofollow, nofollow, sponsored, ugc, editorial, directory and guest post links, plus Google's link spam rules.",
+ "ozet_tr": "Backlink, başka bir sitenin sizin sitenize verdiği linktir. 7 backlink türü, link nitelikleri ve Google'ın link spam kuralları.",
+ "ozet_en": "A backlink is a link from another site to yours. The 7 types of backlinks, link attributes and Google's link spam rules.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Backlink (geri bağlantı), başka bir web sitesinin sizin sitenizdeki bir sayfaya verdiği linktir. Bir haber sitesi yazısında işletmenize link verdiğinde ya da bir sektör blogu rehberinizi kaynak gösterdiğinde backlink kazanırsınız.",
+    "Bu yazıda backlinkin neden önemli olduğunu, link niteliklerinin (rel değerlerinin) ne anlama geldiğini ve 7 backlink türünü anlatıyorum. Link kazanma stratejisinin tamamı [backlink ve dijital PR rehberinde](/backlink-dijital-pr) var; burada temel kavramları netleştiriyorum. Kısa tanımlar için [SEO ve yapay zekâ sözlüğü](/ai-sozluk) de işinize yarar.",
+    {
+     "alinti": "Kısa cevap: Backlink, başka bir sitenin sizin sayfanıza verdiği linktir. Google, sayfaların birbirine nasıl linklendiğini anlayan sistemler kullanır ve PageRank hâlâ temel sıralama sistemlerinin parçasıdır. Değerli olan, sıralamayı manipüle etmek için değil, içeriğiniz kaynak gösterilmeye değer olduğu için verilen linklerdir."
+    }
+   ]
+  },
+  {
+   "baslik": "Backlink neden önemlidir?",
+   "paragraflar": [
+    "Google'ın sıralama sistemleri rehberine göre Google, sayfaların birbirine nasıl linklendiğini anlayan çeşitli sistemlere sahip ve bu sistemler bir sayfanın neyle ilgili olduğunu ve ne kadar yararlı olabileceğini anlamaya yardım ediyor. PageRank bunlardan biri; nasıl çalıştığı çok değişmiş olsa da temel sıralama sistemlerinin parçası olmaya devam ediyor.",
+    "Backlinkler ayrıca keşfi sağlar: Googlebot yeni sayfaları büyük ölçüde linkleri izleyerek bulur. İlgili bir sitedeki link de doğrudan ziyaretçi getirebilir. Ama tek bir sinyal değil; içerik kalitesi ve teknik sağlık olmadan backlinkler tek başına sonuç vermez. Diğer etkenler için [Google sıralama faktörleri](/google-siralama-faktorleri) yazısına bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Link nitelikleri nasıl çalışır?",
+   "paragraflar": [
+    "Bir linkin türünü belirleyen ilk şey HTML'deki `rel` değeridir. Google 2019'da `sponsored` ve `ugc` değerlerini tanıttı ve `nofollow` dahil bu değerleri ipucu olarak değerlendirmeye başladığını duyurdu. Değerler boşluk ya da virgülle birleştirilebilir.",
+    {
+     "kod": "<!-- Standart (niteliksiz) link -->\n<a href=\"https://www.ornekotel.com/\">Kapadokya butik otel</a>\n\n<!-- Ücretli yerleşim, reklam, sponsorluk -->\n<a href=\"https://www.ornekotel.com/\" rel=\"sponsored\">Örnek Otel</a>\n\n<!-- Yorum ve forum gibi kullanıcı içerikleri -->\n<a href=\"https://www.ornekotel.com/\" rel=\"ugc nofollow\">ornekotel.com</a>\n\n<!-- Siteyle ilişkilendirmek istemediğiniz link -->\n<a href=\"https://www.ornekotel.com/\" rel=\"nofollow\">kaynak</a>"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "rel değeri",
+       "Google'ın tanımı",
+       "Ne zaman kullanılır"
+      ],
+      "satirlar": [
+       [
+        "Yok (standart link)",
+        "Normal editoryal link",
+        "Güvendiğiniz, kendi tercihinizle verdiğiniz linkler"
+       ],
+       [
+        "sponsored",
+        "Reklam ya da ücretli yerleşim",
+        "Ücretli, karşılıklı ya da sponsorlu linkler"
+       ],
+       [
+        "ugc",
+        "Kullanıcı tarafından oluşturulan içerik",
+        "Yorumlar, forum gönderileri"
+       ],
+       [
+        "nofollow",
+        "Diğer değerler uymadığında",
+        "Siteyle ilişkilendirmek istemediğiniz linkler"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "7 backlink türü",
+   "paragraflar": [
+    "İlk dört tür linkin teknik niteliğine, son üç tür ise linkin nasıl kazanıldığına göre ayrılır. Bir link aynı anda iki gruba da girebilir; örneğin bir misafir yazısındaki link nofollow olabilir.",
+    {
+     "alt": "1. Dofollow (standart) linkler"
+    },
+    "\"Dofollow\" aslında bir HTML değeri değil; herhangi bir `rel` niteliği taşımayan standart link için kullanılan sektör terimidir. Sıralama sinyali taşıyabilen linkler bunlardır, bu yüzden ücret karşılığı ya da takasla elde edilmemeleri gerekir.",
+    {
+     "alt": "2. Nofollow linkler"
+    },
+    "Google'a \"bu siteyle ilişkilendirmeyin\" diyen linktir. Google bunu ipucu olarak değerlendirir; yani nofollow link yine de keşfe ve trafiğe katkı sağlayabilir. Doğal bir profilde her zaman bir miktar nofollow link bulunur.",
+    {
+     "alt": "3. Sponsored linkler"
+    },
+    "Reklam, ücretli yerleşim ve sponsorluk linkleri. Google'ın spam politikasına göre reklam ya da sponsorluk için link alıp satmak, link `nofollow` ya da `sponsored` ile işaretlendiği sürece link spam sayılmaz. Google bu durumda `sponsored` değerini tercih ediyor.",
+    {
+     "alt": "4. UGC linkler"
+    },
+    "Yorum ve forum gönderileri gibi kullanıcı içeriklerindeki linkler. Google, uzun süre kaliteli katkı yapan üyelerin linklerinde bu niteliğin kaldırılabileceğini de belirtiyor.",
+    {
+     "alt": "5. Editoryal linkler"
+    },
+    "Bir gazeteci, blog yazarı ya da kurumun içeriğinizi kendi kararıyla kaynak göstermesi. En değerli backlink türü budur, çünkü kazanılması zordur ve gerçek bir güven oyudur. Özgün veri, araştırma ve uzman görüşü bu linkleri en sık getiren içeriklerdir; [marka bahsi (brand mention)](/marka-bahsi-brand-mention) çalışmaları da çoğu zaman editoryal linke dönüşür.",
+    {
+     "alt": "6. Dizin ve rehber linkleri"
+    },
+    "İşletme rehberleri, sektör dernekleri ve meslek odası listeleri. Gerçek kullanıcıların kullandığı, editoryal denetimi olan dizinler yerel görünürlük için işe yarar. Google ise düşük kaliteli dizin ve yer imi sitelerinden gelen linkleri link spam örnekleri arasında sayıyor.",
+    {
+     "alt": "7. Misafir yazısı linkleri"
+    },
+    "Başka bir sitede yazdığınız makaledeki linkler. Hedef kitlenize ulaşmak için meşru bir yöntemdir, ama Google, sıralama değeri aktaran ya da optimize edilmiş bağlantı metni içeren misafir yazısı kampanyalarını link spam olarak tanımlıyor. Bağlantı metnini doğal tutmak için [anchor text](/anchor-text) yazısındaki dağılım önerilerine bakın."
+   ]
+  },
+  {
+   "baslik": "Google link spam politikası neyi yasaklıyor?",
+   "paragraflar": [
+    "Google'ın spam politikaları, öncelikli olarak sıralamayı manipüle etmek amacıyla oluşturulan linkleri link spam olarak tanımlıyor. Politikada sayılan örneklerden bazıları:",
+    {
+     "liste": [
+      "Sıralama için link alıp satmak; para, ürün ya da hizmet karşılığı link almak",
+      "Aşırı link takası ve yalnızca çapraz link için oluşturulan ortaklık sayfaları",
+      "Otomatik programlarla ya da hizmetlerle link üretmek",
+      "Sıralama değeri aktaran reklam metinleri ve optimize bağlantı metinli ücretli makaleler",
+      "Düşük kaliteli dizin ve yer imi siteleri",
+      "Birçok siteye dağıtılan widget'larda ve şablon altbilgilerinde anahtar kelimeli linkler",
+      "Forum yorumlarında ve imzalarda optimize edilmiş linkler"
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Paket backlink teklifleri",
+      "metin": "\"1000 backlink paketi\" gibi teklifler genellikle otomatik ya da düşük kaliteli kaynaklardan gelir ve politikadaki örneklerin birçoğuna uyar. Böyle bir geçmişiniz varsa [toksik backlink ve disavow](/toksik-backlink-disavow) yazısındaki değerlendirme adımlarını izleyin."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "İyi bir backlink nasıl anlaşılır?",
+   "paragraflar": [
+    "Üçüncü taraf araçların puanları bir fikir verir ama tek ölçüt olmamalı; bu metriklerin ne olduğunu [domain authority nedir](/domain-authority-nedir) yazısında anlattım. Ben bir linki değerlendirirken şu iki tabloyu karşılaştırırım:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Değerli backlink",
+       "tur": "iyi",
+       "maddeler": [
+        "Konunuzla ilgili, gerçek okuru olan bir siteden gelir",
+        "İçeriğin akışı içinde, bağlamla verilir",
+        "Doğal bir bağlantı metni taşır",
+        "Tıklayan ziyaretçi için anlamlıdır"
+       ]
+      },
+      "sag": {
+       "baslik": "Riskli backlink",
+       "tur": "kotu",
+       "maddeler": [
+        "Konuyla ilgisiz, yalnızca link satan bir siteden gelir",
+        "Altbilgide ya da yüzlerce linkin arasında durur",
+        "Birebir anahtar kelimeli bağlantı metni taşır",
+        "Ücret karşılığı alınmış ama işaretlenmemiştir"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Backlink profilinizi nasıl incelersiniz?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Backlink inceleme akışı",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "Bağlantılar raporunda en çok link veren siteleri ve en çok link alan sayfaları görün."
+       },
+       {
+        "baslik": "Üçüncü taraf araç",
+        "metin": "Daha geniş bir veritabanıyla yeni ve kaybedilen linkleri izleyin."
+       },
+       {
+        "baslik": "Kaliteyi değerlendirin",
+        "metin": "Alaka, bağlam ve bağlantı metni dağılımını kontrol edin."
+       },
+       {
+        "baslik": "Plan yapın",
+        "metin": "Link kazandıracak içerik ve dijital PR fırsatlarını önceliklendirin."
+       }
+      ]
+     }
+    },
+    "Hangi aracın hangi işe uygun olduğunu [en iyi backlink analiz araçları](/en-iyi-backlink-analiz-araclari) yazısında karşılaştırdım. Search Console'daki Bağlantılar raporunun okunuşu ise [Google Search Console rehberinde](/search-console-rehberi). Link kazandıracak içerik planı için [içerik stratejisi rehberi](/icerik-stratejisi) iyi bir başlangıç.",
+    "Spam riskine girmeden kalıcı link kazanmak istiyorsanız [backlink ve dijital PR hizmeti](/backlink) kapsamında birlikte çalışabiliriz; [SEO danışmanlığı](/seo-uzmani) ile ilgili sorularınız için [ücretsiz ön görüşme](/randevu) planlayabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Kaç backlink gerekir?",
+   "c": "Sabit bir sayı yok. Rekabet ettiğiniz sayfaların aldığı linklerin kalitesi ve alakası, sayıdan daha belirleyicidir. Konuyla ilgili birkaç güçlü editoryal link, yüzlerce ilgisiz linkten daha değerlidir."
+  },
+  {
+   "s": "Nofollow linklerin SEO'ya faydası var mı?",
+   "c": "Google nofollow'u ipucu olarak değerlendirdiği için bu linklerin nasıl kullanıldığına Google karar verir. Ayrıca doğrudan ziyaretçi, marka bilinirliği ve keşif sağlayabilirler. Doğal bir profilin parçasıdırlar."
+  },
+  {
+   "s": "Backlink satın almak yasak mı?",
+   "c": "Google'ın politikasına göre sıralama değeri aktaran ücretli linkler link spam sayılır. Reklam ya da sponsorluk için link satın almak, link `sponsored` ya da `nofollow` ile işaretlendiğinde politikaya uygundur."
+  },
+  {
+   "s": "Sosyal medya linkleri backlink sayılır mı?",
+   "c": "Teknik olarak başka bir siteden gelen linklerdir, ancak büyük platformların çoğu dış linkleri nofollow ya da benzeri niteliklerle işaretler. Asıl faydaları trafik ve görünürlüktür; içeriğinizi gören biri daha sonra kendi sitesinden link verebilir."
+  },
+  {
+   "s": "Kaybedilen backlinkler sıralamayı düşürür mü?",
+   "c": "Önemli bir sayfaya gelen güçlü linkler kaybedilirse etkisi olabilir. Silinen sayfalara gelen linkleri kaybetmemek için o sayfaları ilgili yeni sayfaya 301 ile yönlendirmek iyi bir uygulamadır."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A backlink is a link from another website to a page on your site. When a news site links to your business in an article, or an industry blog cites your guide as a source, you earn a backlink.",
+    "In this article I explain why backlinks matter, what link attributes (rel values) mean, and the 7 types of backlinks. The full link earning strategy is in the [backlink and digital PR guide](/en/backlink-dijital-pr); here I clarify the core concepts. The [SEO and AI glossary](/en/ai-glossary) is handy for quick definitions.",
+    {
+     "alinti": "Short answer: A backlink is a link from another site to your page. Google uses systems that understand how pages link to each other, and PageRank is still part of its core ranking systems. The valuable links are the ones given because your content is worth citing, not the ones built to manipulate rankings."
+    }
+   ]
+  },
+  {
+   "baslik": "Why do backlinks matter?",
+   "paragraflar": [
+    "According to Google's guide to ranking systems, Google has various systems that understand how pages link to each other, and these help it work out what a page is about and how helpful it may be. PageRank is one of them; how it works has changed a lot, but it remains part of the core ranking systems.",
+    "Backlinks also drive discovery: Googlebot finds new pages largely by following links. A link on a relevant site can send visitors directly too. But it is not the only signal; without content quality and technical health, backlinks alone will not deliver results. For the other factors see [Google ranking factors](/en/google-siralama-faktorleri)."
+   ]
+  },
+  {
+   "baslik": "How do link attributes work?",
+   "paragraflar": [
+    "The first thing that defines a link's type is the `rel` value in the HTML. In 2019 Google introduced the `sponsored` and `ugc` values and announced it would treat them, along with `nofollow`, as hints. Values can be combined with a space or a comma.",
+    {
+     "kod": "<!-- Standard (unqualified) link -->\n<a href=\"https://www.examplehotel.com/\">Cappadocia boutique hotel</a>\n\n<!-- Paid placement, advertising, sponsorship -->\n<a href=\"https://www.examplehotel.com/\" rel=\"sponsored\">Example Hotel</a>\n\n<!-- User-generated content such as comments and forums -->\n<a href=\"https://www.examplehotel.com/\" rel=\"ugc nofollow\">examplehotel.com</a>\n\n<!-- A link you do not want associated with your site -->\n<a href=\"https://www.examplehotel.com/\" rel=\"nofollow\">source</a>"
+    },
+    {
+     "tablo": {
+      "basliklar": [
+       "rel value",
+       "Google's definition",
+       "When to use it"
+      ],
+      "satirlar": [
+       [
+        "None (standard link)",
+        "Normal editorial link",
+        "Links you trust and give by your own choice"
+       ],
+       [
+        "sponsored",
+        "Advertising or paid placement",
+        "Paid, exchanged or sponsored links"
+       ],
+       [
+        "ugc",
+        "User-generated content",
+        "Comments, forum posts"
+       ],
+       [
+        "nofollow",
+        "When other values do not apply",
+        "Links you do not want associated with your site"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "7 types of backlinks",
+   "paragraflar": [
+    "The first four types are defined by a link's technical attribute, the last three by how the link was earned. A link can belong to both groups at once; for example, a link in a guest post can be nofollow.",
+    {
+     "alt": "1. Dofollow (standard) links"
+    },
+    "\"Dofollow\" is not actually an HTML value; it is the industry term for a standard link with no `rel` attribute. These are the links that can carry ranking signals, which is why they must not be bought or traded.",
+    {
+     "alt": "2. Nofollow links"
+    },
+    "A link that tells Google not to associate it with your site. Google treats it as a hint, so a nofollow link can still contribute to discovery and traffic. A natural profile always contains some nofollow links.",
+    {
+     "alt": "3. Sponsored links"
+    },
+    "Advertising, paid placement and sponsorship links. Under Google's spam policies, buying and selling links for advertising or sponsorship is not link spam as long as the link is qualified with `nofollow` or `sponsored`. Google prefers `sponsored` in this case.",
+    {
+     "alt": "4. UGC links"
+    },
+    "Links in user-generated content such as comments and forum posts. Google also notes you can remove the attribute for members who have contributed high-quality content over time.",
+    {
+     "alt": "5. Editorial links"
+    },
+    "A journalist, blogger or organization citing your content by their own decision. This is the most valuable type, because it is hard to earn and is a genuine vote of trust. Original data, research and expert commentary earn these links most often, and [brand mention](/en/marka-bahsi-brand-mention) work frequently turns into editorial links.",
+    {
+     "alt": "6. Directory and listing links"
+    },
+    "Business directories, industry associations and professional body listings. Directories with editorial oversight that real users rely on help local visibility. Google, however, lists links from low-quality directory and bookmark sites among its link spam examples.",
+    {
+     "alt": "7. Guest post links"
+    },
+    "Links in articles you write on other sites. It is a legitimate way to reach your audience, but Google defines guest posting campaigns that pass ranking credit or use optimized anchor text as link spam. To keep anchor text natural, see the distribution advice in [anchor text](/en/anchor-text)."
+   ]
+  },
+  {
+   "baslik": "What does Google's link spam policy prohibit?",
+   "paragraflar": [
+    "Google's spam policies define link spam as links created primarily to manipulate rankings. Some of the examples the policy lists:",
+    {
+     "liste": [
+      "Buying or selling links for ranking; exchanging money, goods or services for links",
+      "Excessive link exchanges and partner pages built only for cross-linking",
+      "Using automated programs or services to create links",
+      "Text ads that pass ranking credit and paid articles with optimized anchor text",
+      "Low-quality directory and bookmark sites",
+      "Keyword-rich links in widgets distributed across sites and in template footers",
+      "Optimized links in forum comments and signatures"
+     ]
+    },
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Backlink package offers",
+      "metin": "Offers like \"1000 backlinks package\" usually come from automated or low-quality sources and match several of the policy's examples. If you have that kind of history, follow the assessment steps in [toxic backlinks and disavow](/en/toksik-backlink-disavow)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How do you recognize a good backlink?",
+   "paragraflar": [
+    "Third-party tool scores give you an idea but should not be the only criterion; I explain what those metrics are in [what is domain authority](/en/domain-authority-nedir). When I assess a link, I compare these two pictures:",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Valuable backlink",
+       "tur": "iyi",
+       "maddeler": [
+        "Comes from a relevant site with real readers",
+        "Sits within the content, with context",
+        "Uses natural anchor text",
+        "Makes sense for a visitor who clicks it"
+       ]
+      },
+      "sag": {
+       "baslik": "Risky backlink",
+       "tur": "kotu",
+       "maddeler": [
+        "Comes from an unrelated site that only sells links",
+        "Sits in a footer or among hundreds of links",
+        "Uses exact-match keyword anchor text",
+        "Was paid for but is not qualified"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How do you review your backlink profile?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Backlink review workflow",
+      "adimlar": [
+       {
+        "baslik": "Search Console",
+        "metin": "See top linking sites and most linked pages in the Links report."
+       },
+       {
+        "baslik": "Third-party tool",
+        "metin": "Track new and lost links with a larger database."
+       },
+       {
+        "baslik": "Assess quality",
+        "metin": "Check relevance, context and anchor text distribution."
+       },
+       {
+        "baslik": "Plan",
+        "metin": "Prioritize content and digital PR opportunities that earn links."
+       }
+      ]
+     }
+    },
+    "I compare which tool suits which job in [the best backlink analysis tools](/en/en-iyi-backlink-analiz-araclari). How to read the Links report is covered in the [Google Search Console guide](/en/search-console-rehberi). For a content plan that earns links, the [content strategy guide](/en/icerik-stratejisi) is a good starting point.",
+    "If you want to earn lasting links without spam risk, we can work together through the [backlink and digital PR service](/en/backlink-digital-pr); for questions about [SEO consulting](/en/seo-consulting) you can [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "How many backlinks do I need?",
+   "c": "There is no fixed number. The quality and relevance of the links pointing to the pages you compete with matter more than the count. A few strong, relevant editorial links are worth more than hundreds of unrelated ones."
+  },
+  {
+   "s": "Do nofollow links help SEO?",
+   "c": "Because Google treats nofollow as a hint, Google decides how those links are used. They can also bring direct visitors, brand awareness and discovery. They are part of a natural profile."
+  },
+  {
+   "s": "Is buying backlinks against the rules?",
+   "c": "Under Google's policy, paid links that pass ranking credit count as link spam. Buying links for advertising or sponsorship is within policy when the link is qualified with `sponsored` or `nofollow`."
+  },
+  {
+   "s": "Do social media links count as backlinks?",
+   "c": "Technically they are links from another site, but most large platforms qualify outbound links with nofollow or similar attributes. Their real value is traffic and visibility; someone who sees your content may later link to it from their own site."
+  },
+  {
+   "s": "Do lost backlinks hurt rankings?",
+   "c": "Losing strong links to an important page can have an effect. To avoid losing links to deleted pages, redirecting those pages to a relevant new page with a 301 is good practice."
+  }
+ ]
+}

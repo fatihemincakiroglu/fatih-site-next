@@ -1,0 +1,409 @@
+{
+ "kategori": "geo",
+ "etiket": "GEO",
+ "sure": 7,
+ "baslik_tr": "RAG Nedir? Yapay Zekâ Aramasında Kaynak Seçilmenin 7 Koşulu",
+ "baslik_en": "What Is RAG? 7 Conditions for Being Chosen as a Source in AI Search",
+ "meta_baslik_tr": "RAG Nedir? Kaynak Seçilmenin 7 Koşulu",
+ "meta_baslik_en": "What Is RAG? 7 Conditions to Be Cited",
+ "meta_desc_tr": "RAG (retrieval-augmented generation) nedir, yapay zekâ cevaplarında kaynakları nasıl seçer? İçeriğinizin alıntılanması için 7 temel koşul.",
+ "meta_desc_en": "What RAG (retrieval-augmented generation) is, how AI answers pick their sources and 7 conditions your content should meet to be cited in AI search.",
+ "ozet_tr": "RAG'in sade anlatımı ve içeriğinizin yapay zekâ cevaplarında kaynak olarak seçilmesi için gereken 7 koşul.",
+ "ozet_en": "RAG explained in plain terms, plus 7 conditions your content should meet to be picked as a source in AI answers.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "RAG (retrieval-augmented generation, Türkçesiyle getirmeyle desteklenmiş üretim), bir dil modelinin cevap yazmadan önce dış kaynaklardan ilgili belgeleri bulup bu belgelere dayanarak cevap üretmesidir. Model yalnızca eğitim verisindeki bilgiye güvenmez; o an bulduğu sayfaları okur ve cevabını onlara dayandırır.",
+    "Yapay zekâ destekli aramada kaynak olarak gösterilen siteler, bu \"getirme\" aşamasında seçilen sayfalardır. Bu yazıda RAG mantığını teknik ayrıntıya boğmadan anlatıyor, içeriğinizin bu aşamada seçilmesi için gereken 7 koşulu sıralıyorum.",
+    {
+     "alinti": "Kısa cevap: RAG, yapay zekâ modelinin cevap üretmeden önce ilgili belgeleri arayıp bulduğu ve cevabını bu belgelere dayandırdığı yöntemdir. Kaynak olarak seçilmek için sayfanızın taranabilir ve dizinde olması, önemli bilginin metin halinde bulunması ve soruya kendi başına cevap veren net pasajlar içermesi gerekir."
+    }
+   ]
+  },
+  {
+   "baslik": "RAG nasıl çalışır?",
+   "paragraflar": [
+    "Sistemden sisteme ayrıntılar değişse de temel akış aşağıdaki gibidir. Hangi asistanın tam olarak hangi altyapıyı kullandığını şirketler ayrıntılı açıklamıyor, bu yüzden aşağıdaki şemayı genel bir model olarak okuyun.",
+    {
+     "akis": {
+      "baslik": "RAG'in genel akışı",
+      "adimlar": [
+       {
+        "baslik": "Soru",
+        "metin": "Kullanıcı bir soru sorar ya da arama yapar."
+       },
+       {
+        "baslik": "Sorgu üretimi",
+        "metin": "Sistem soruyu bir ya da birden çok arama sorgusuna dönüştürür."
+       },
+       {
+        "baslik": "Getirme",
+        "metin": "Bir dizinden ya da web'den ilgili sayfa ve pasajlar bulunur."
+       },
+       {
+        "baslik": "Seçme",
+        "metin": "En alakalı ve güvenilir görünen pasajlar modele verilir."
+       },
+       {
+        "baslik": "Üretim ve alıntı",
+        "metin": "Model cevabı bu pasajlara dayanarak yazar, kaynakları bağlantı olarak gösterebilir."
+       }
+      ]
+     }
+    },
+    "Google'ın yapay zekâ özellikleri dokümanı, AI Overviews ve AI Mode'un bir yanıt oluştururken alt konular ve veri kaynakları genelinde birden çok ilgili arama yapan \"query fan-out\" tekniğini kullanabildiğini söylüyor. Yani tek bir soru, arka planda birçok alt aramaya dönüşebilir. Terimin kısa tanımı için [AI sözlüğüne](/ai-sozluk) bakabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Klasik dil modeli ile RAG arasındaki fark",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Özellik",
+       "Yalnızca eğitim verisi",
+       "RAG"
+      ],
+      "satirlar": [
+       [
+        "Bilginin kaynağı",
+        "Modelin eğitildiği veri",
+        "O an getirilen belgeler"
+       ],
+       [
+        "Güncellik",
+        "Eğitim tarihine bağlı",
+        "Getirilen sayfa kadar güncel"
+       ],
+       [
+        "Kaynak gösterme",
+        "Genellikle yok",
+        "Kaynak bağlantısı verebilir"
+       ],
+       [
+        "Sitenizin etkisi",
+        "Dolaylı, eğitim verisine girmişse",
+        "Doğrudan, sayfanız getirilirse"
+       ]
+      ]
+     }
+    },
+    "SEO açısından önemli olan son satır. RAG kullanan bir sistemde sayfanızın o an bulunması ve okunabilir olması, cevapta yer alıp almamanızı belirler."
+   ]
+  },
+  {
+   "baslik": "Yapay zekâ aramasında kaynak seçilmenin 7 koşulu",
+   "paragraflar": [
+    {
+     "alt": "1. Sayfanız taranabilir olmalı"
+    },
+    "Getirme aşamasına girmek için sayfanın önce erişilebilir olması gerekir. Google, Search için tarama kontrolünün Googlebot'a yönelik robots.txt kurallarıyla yapıldığını belirtiyor. Diğer asistanların da kendi tarayıcıları var; adlarını ve kurallarını her şirketin resmi dokümanından kontrol edin. Kurallarınızı [robots.txt test aracıyla](/robots-txt-test) deneyebilir, mantığını [robots.txt yazısında](/robots-txt) okuyabilirsiniz.",
+    {
+     "alt": "2. Dizinde olmalı ve snippet gösterimine uygun olmalı"
+    },
+    "Google'ın dokümanına göre bir sayfanın AI Overviews ya da AI Mode'da destekleyici bağlantı olarak görünmesi için dizine eklenmiş ve Arama'da snippet ile gösterilmeye uygun olması gerekiyor. Ek bir teknik şart yok. Sayfanız dizinde değilse önce [tarandı ama dizine eklenmemiş sorununu](/tarandi-dizine-eklenmemis) çözün.",
+    {
+     "alt": "3. Önemli bilgi metin halinde olmalı"
+    },
+    "Fiyat tablosu görselin içinde, SSS bir PDF'te ya da içerik yalnızca kullanıcı tıklayınca JavaScript ile yükleniyorsa getirme sistemi bu bilgiye ulaşamayabilir. Google da önemli içeriği metin olarak sunmayı öneriyor. JavaScript ile oluşan içerikte dikkat edilecekleri [JavaScript SEO yazısında](/javascript-seo) anlattım.",
+    {
+     "alt": "4. Her bölüm kendi başına anlamlı olmalı"
+    },
+    "RAG sistemleri genellikle sayfanın tamamını değil, parçalarını (pasajları) değerlendirir. \"Yukarıda bahsettiğimiz gibi\" diye başlayan bir paragraf tek başına okunduğunda anlamını kaybeder. Her bölümün ilk cümlesi o başlığın sorusuna doğrudan cevap vermeli.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Seçilmesi kolay pasaj",
+       "tur": "iyi",
+       "maddeler": [
+        "İlk cümlede net cevap",
+        "Konuyu adıyla anar",
+        "Somut sayı, eşik ya da adım içerir",
+        "Tek bir soruya odaklanır"
+       ]
+      },
+      "sag": {
+       "baslik": "Seçilmesi zor pasaj",
+       "tur": "kotu",
+       "maddeler": [
+        "Cevap paragrafın sonunda",
+        "\"Bu\", \"o\" gibi önceki bölüme atıflar",
+        "Genel ve süslü ifadeler",
+        "Birkaç konuyu karıştırır"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "5. Başlık yapısı soruyu yansıtmalı"
+    },
+    "Kullanıcının sorusuna benzeyen h2 ve h3 başlıkları, hem getirme sisteminin pasajı doğru konuyla eşleştirmesini hem de okuyucunun aradığını bulmasını kolaylaştırır. \"Genel bilgiler\" yerine \"XML site haritası kaç URL içerebilir?\" gibi açık başlıklar kullanın.",
+    {
+     "alt": "6. Bilgi doğrulanabilir ve güncel olmalı"
+    },
+    "Yazar bilgisi, güncelleme tarihi, resmi kaynağa dayanan eşikler ve tutarlı veriler sayfanın güvenilir görünmesini sağlar. Çelişkili ya da eskimiş bilgi içeren sayfa, daha net bir rakip varken seçilmeyebilir. Bu konuda [E-E-A-T için içerik yazısındaki](/eeat-icin-icerik) kontrol listesi işinize yarar.",
+    {
+     "alt": "7. Ana sorunun alt sorularını da kapsamalı"
+    },
+    "Query fan-out mantığı düşünüldüğünde, bir konunun alt sorularını da cevaplayan sayfa ve site birden çok alt aramada karşılık bulabilir. \"Kombi bakımı\" yazısı yalnızca tanımla kalmayıp ne sıklıkla, ne kadar sürdüğü ve hangi belirtilerin bakım gerektirdiği gibi alt soruları da işlemeli. Konu kümesi kurmayı [topical authority yazısında](/topical-authority) anlattım.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Özel dosya ya da işaretleme gerekmiyor",
+      "metin": "Google'ın dokümanına göre AI Overviews ve AI Mode için özel bir schema.org işaretlemesi ya da yapay zekâya özel bir metin dosyası gerekmiyor. Diğer platformlar için durum farklı olabilir; llms.txt tartışmasını [llms.txt rehberinde](/llms-txt-rehberi) ele aldım."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "İçeriğinizi RAG'e hazırlamak için kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Önemli sayfalar robots.txt ve CDN ayarlarında taramaya açık mı?",
+      "Sayfa Search Console'da dizine eklenmiş görünüyor mu?",
+      "Sayfada nosnippet ya da çok kısa bir max-snippet değeri var mı?",
+      "Ana bilgi görsel, PDF ya da sekme arkasında değil, HTML metinde mi?",
+      "Her h2 bölümünün ilk cümlesi soruya doğrudan cevap veriyor mu?",
+      "Yazar ve güncelleme tarihi görünür mü?",
+      "Konunun en sık sorulan alt soruları sayfada ya da bağlantılı sayfalarda cevaplanıyor mu?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "AI Overviews, ChatGPT ve Perplexity için ne değişir?",
+   "paragraflar": [
+    "Temel koşullar ortak, ama her platformun kendi tarayıcısı, dizini ve kaynak gösterme biçimi var. Google tarafındaki ayrıntıları [Google AI Overviews optimizasyonu yazısında](/google-ai-overview-optimizasyonu), Perplexity'nin kaynak gösterme davranışını ise [Perplexity'de kaynak gösterilme yazısında](/perplexity-kaynak-gosterilme) ayrı ayrı inceledim.",
+    "Google, AI Overviews ve AI Mode'da görünen sitelerin trafiğini Search Console Performans raporunda \"Web\" arama türü altında, genel trafikle birlikte raporluyor. Diğer asistanlardan gelen ziyaretleri GA4'te nasıl ayıracağınızı [GA4'te yapay zekâ trafiği yazısında](/ga4-yapay-zeka-trafigi) anlattım. Uygulamanın tamamı için [GEO uygulama rehberi](/geo-uygulama) ve teknik altyapı için [teknik SEO rehberi](/teknik-seo) iyi başlangıç noktaları."
+   ]
+  },
+  {
+   "baslik": "RAG'e uygun içerik için destek",
+   "paragraflar": [
+    "Sitenizin yapay zekâ cevaplarında neden kaynak gösterilmediğini anlamak için tarama, dizin ve pasaj yapısını birlikte incelemek gerekir. [GEO danışmanlığı](/geo-uzmani) kapsamında bu analizi yapıyorum; [ücretsiz ön görüşme için randevu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "RAG (retrieval-augmented generation) is when a language model finds relevant documents from outside sources before writing an answer, and then bases the answer on those documents. The model does not rely only on its training data; it reads the pages it finds at that moment and grounds its answer in them.",
+    "The sites shown as sources in AI powered search are the pages picked during this retrieval step. In this article I explain RAG without drowning it in technical detail, then list 7 conditions your content should meet to be picked.",
+    {
+     "alinti": "Short answer: RAG is a method where an AI model searches for relevant documents before generating an answer and grounds its answer in them. To be chosen as a source, your page needs to be crawlable and indexed, keep key information in text, and contain clear passages that answer a question on their own."
+    }
+   ]
+  },
+  {
+   "baslik": "How does RAG work?",
+   "paragraflar": [
+    "Details vary by system, but the basic flow looks like this. Companies do not publish exactly which infrastructure each assistant uses, so read the diagram as a general model.",
+    {
+     "akis": {
+      "baslik": "The general RAG flow",
+      "adimlar": [
+       {
+        "baslik": "Question",
+        "metin": "The user asks a question or runs a search."
+       },
+       {
+        "baslik": "Query generation",
+        "metin": "The system turns the question into one or more search queries."
+       },
+       {
+        "baslik": "Retrieval",
+        "metin": "Relevant pages and passages are found in an index or on the web."
+       },
+       {
+        "baslik": "Selection",
+        "metin": "The most relevant and trustworthy looking passages are passed to the model."
+       },
+       {
+        "baslik": "Generation and citation",
+        "metin": "The model writes the answer from those passages and may show sources as links."
+       }
+      ]
+     }
+    },
+    "Google's AI features documentation says AI Overviews and AI Mode may use a \"query fan-out\" technique, issuing multiple related searches across subtopics and data sources to build a response. So a single question can become many searches behind the scenes. For a short definition, see the [AI glossary](/en/ai-glossary)."
+   ]
+  },
+  {
+   "baslik": "A plain language model vs RAG",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Feature",
+       "Training data only",
+       "RAG"
+      ],
+      "satirlar": [
+       [
+        "Source of information",
+        "The data the model was trained on",
+        "Documents retrieved at that moment"
+       ],
+       [
+        "Freshness",
+        "Limited by the training date",
+        "As fresh as the retrieved page"
+       ],
+       [
+        "Citations",
+        "Usually none",
+        "Can link to sources"
+       ],
+       [
+        "Your site's influence",
+        "Indirect, if it was in the training data",
+        "Direct, if your page is retrieved"
+       ]
+      ]
+     }
+    },
+    "The last row is what matters for SEO. In a system that uses RAG, whether your page can be found and read at that moment decides whether you appear in the answer."
+   ]
+  },
+  {
+   "baslik": "7 conditions for being chosen as a source in AI search",
+   "paragraflar": [
+    {
+     "alt": "1. Your page must be crawlable"
+    },
+    "To enter retrieval, a page first has to be reachable. Google states that crawling for Search is controlled with robots.txt rules for Googlebot. Other assistants have their own crawlers; check their names and rules in each company's official documentation. Test your rules with the [robots.txt tester](/en/robots-txt-tester) and read the logic in the [robots.txt article](/en/robots-txt).",
+    {
+     "alt": "2. It must be indexed and eligible for a snippet"
+    },
+    "According to Google's documentation, a page must be indexed and eligible to be shown in Search with a snippet to appear as a supporting link in AI Overviews or AI Mode. There are no additional technical requirements. If your page is not indexed, fix the [crawled but not indexed problem](/en/tarandi-dizine-eklenmemis) first.",
+    {
+     "alt": "3. Key information must be in text"
+    },
+    "If a price table lives inside an image, the FAQ sits in a PDF, or content only loads through JavaScript after a click, a retrieval system may never reach it. Google also recommends keeping important content in text form. I cover what to watch for with JavaScript content in the [JavaScript SEO article](/en/javascript-seo).",
+    {
+     "alt": "4. Every section must make sense on its own"
+    },
+    "RAG systems usually evaluate parts of a page (passages), not the whole page. A paragraph starting with \"as mentioned above\" loses its meaning when read alone. The first sentence of each section should answer that heading's question directly.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Easy to select passage",
+       "tur": "iyi",
+       "maddeler": [
+        "Clear answer in the first sentence",
+        "Names the topic explicitly",
+        "Contains a concrete number, threshold or step",
+        "Focuses on one question"
+       ]
+      },
+      "sag": {
+       "baslik": "Hard to select passage",
+       "tur": "kotu",
+       "maddeler": [
+        "Answer buried at the end",
+        "References like \"this\" or \"that\" to earlier sections",
+        "Vague, decorative wording",
+        "Mixes several topics"
+       ]
+      }
+     }
+    },
+    {
+     "alt": "5. Headings should mirror the question"
+    },
+    "h2 and h3 headings that resemble the user's question help the retrieval system match the passage to the right topic and help readers find what they need. Use clear headings like \"How many URLs can an XML sitemap contain?\" instead of \"General information\".",
+    {
+     "alt": "6. Information must be verifiable and current"
+    },
+    "Author details, an update date, thresholds backed by official sources and consistent figures make a page look trustworthy. A page with conflicting or outdated facts may be skipped when a clearer competitor exists. The checklist in the [content for E-E-A-T article](/en/eeat-icin-icerik) helps here.",
+    {
+     "alt": "7. It should cover the sub questions too"
+    },
+    "Given how query fan-out works, a page and a site that also answer a topic's sub questions can match several of the underlying searches. An article on boiler servicing should not stop at a definition; it should cover how often, how long it takes and which symptoms call for a service. I explain topic clusters in the [topical authority article](/en/topical-authority).",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "No special file or markup needed",
+      "metin": "According to Google's documentation, AI Overviews and AI Mode need no special schema.org markup and no AI specific text file. Other platforms may differ; I discuss the llms.txt debate in the [llms.txt guide](/en/llms-txt-rehberi)."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Checklist for making your content RAG ready",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Are key pages open to crawling in robots.txt and CDN settings?",
+      "Does Search Console show the page as indexed?",
+      "Does the page have nosnippet or a very short max-snippet value?",
+      "Is the core information in HTML text, not in an image, PDF or hidden tab?",
+      "Does the first sentence of each h2 section answer the question directly?",
+      "Are the author and update date visible?",
+      "Are the most common sub questions answered on the page or on linked pages?"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "What changes for AI Overviews, ChatGPT and Perplexity?",
+   "paragraflar": [
+    "The core conditions are shared, but each platform has its own crawler, index and citation style. I look at the Google side in the [Google AI Overviews optimisation article](/en/google-ai-overview-optimizasyonu) and at Perplexity's citation behaviour in the [Perplexity citation article](/en/perplexity-kaynak-gosterilme).",
+    "Google reports traffic from sites appearing in AI Overviews and AI Mode in the Search Console Performance report under the \"Web\" search type, together with overall traffic. To separate visits from other assistants in GA4, see the [GA4 AI traffic article](/en/ga4-yapay-zeka-trafigi). For the full implementation, start with the [GEO implementation guide](/en/geo-uygulama) and, for the technical foundation, the [technical SEO guide](/en/teknik-seo)."
+   ]
+  },
+  {
+   "baslik": "Help with RAG friendly content",
+   "paragraflar": [
+    "Understanding why your site is not cited in AI answers means looking at crawling, indexing and passage structure together. I run this analysis as part of [GEO consulting](/en/geo-consulting); [book a free intro call](/en/book-a-call) to get started."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "RAG ile ince ayar (fine-tuning) arasındaki fark nedir?",
+   "c": "İnce ayar, modelin kendisini ek veriyle yeniden eğitir ve bilgi modelin içine yerleşir. RAG ise modeli değiştirmez; her soruda dış kaynaklardan belge getirip cevabı onlara dayandırır. Bu yüzden RAG güncel bilgiyle daha kolay çalışır."
+  },
+  {
+   "s": "Googlebot'u engellemeden AI Overviews'dan çıkabilir miyim?",
+   "c": "Google'ın dokümanına göre Arama'da gösterilecek içeriği nosnippet, data-nosnippet, max-snippet ya da noindex ile sınırlayabilirsiniz. Bu kontroller klasik arama sonuçlarındaki snippet'i de etkiler, bu yüzden önce hangi sayfada neyi kaybetmeyi göze aldığınızı netleştirin."
+  },
+  {
+   "s": "Google-Extended'ı engellemek AI Overviews'u etkiler mi?",
+   "c": "Google'ın dokümanı, Google-Extended kontrolünün diğer Google sistemlerinde yapay zekâ eğitimi ve grounding kullanımını sınırlamak için olduğunu, Arama için taramanın ise Googlebot kurallarıyla yönetildiğini belirtiyor. Karar vermeden önce dokümanın güncel halini kontrol edin."
+  },
+  {
+   "s": "Kaynak gösterilip gösterilmediğimi nasıl takip ederim?",
+   "c": "Hedef sorularınızın bir listesini çıkarıp bunları düzenli aralıklarla AI Overviews, ChatGPT ve Perplexity'de sorabilir, kaynak listesini kaydedebilirsiniz. Cevaplar kişiye ve zamana göre değişebildiği için tek bir testle değil, eğilimle karar verin."
+  },
+  {
+   "s": "Kısa sayfalar mı uzun sayfalar mı daha çok seçilir?",
+   "c": "Belirleyici olan uzunluk değil, pasajın soruya ne kadar net cevap verdiği. Uzun bir rehber, iyi bölümlenmişse birçok farklı soru için kaynak olabilir; dağınık kısa bir sayfa ise hiçbirine uymayabilir."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What is the difference between RAG and fine-tuning?",
+   "c": "Fine-tuning retrains the model itself on extra data, so the knowledge is built into the model. RAG leaves the model unchanged and retrieves outside documents for each question, grounding the answer in them. That is why RAG works more easily with current information."
+  },
+  {
+   "s": "Can I opt out of AI Overviews without blocking Googlebot?",
+   "c": "According to Google's documentation, you can limit what is shown in Search with nosnippet, data-nosnippet, max-snippet or noindex. These controls also affect snippets in classic results, so be clear about what you are willing to give up on each page first."
+  },
+  {
+   "s": "Does blocking Google-Extended affect AI Overviews?",
+   "c": "Google's documentation says the Google-Extended control limits AI training and grounding in other Google systems, while crawling for Search is managed with Googlebot rules. Check the current version of the documentation before deciding."
+  },
+  {
+   "s": "How do I track whether I am being cited?",
+   "c": "List your target questions, ask them at regular intervals in AI Overviews, ChatGPT and Perplexity, and record the sources shown. Answers can vary by person and time, so decide based on trends rather than a single test."
+  },
+  {
+   "s": "Are short or long pages chosen more often?",
+   "c": "Length is not the deciding factor; how clearly a passage answers the question is. A long guide with good sections can be a source for many different questions, while a messy short page may fit none."
+  }
+ ]
+}

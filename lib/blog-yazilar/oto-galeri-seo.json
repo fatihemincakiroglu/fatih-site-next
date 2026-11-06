@@ -1,0 +1,455 @@
+{
+ "kategori": "local",
+ "etiket": "Yerel SEO",
+ "sure": 9,
+ "baslik_tr": "Oto Galeriler İçin 10 SEO Taktiği",
+ "baslik_en": "10 SEO Tactics for Car Dealerships",
+ "meta_baslik_tr": "Oto Galeri SEO İçin 10 Taktik",
+ "meta_baslik_en": "10 SEO Tactics for Car Dealers",
+ "meta_desc_tr": "Oto galeri sitesinde stok ilanları, satılan araç sayfaları, marka model sayfaları, portallar ve Business Profile için 10 uygulanabilir SEO taktiği.",
+ "meta_desc_en": "Ten practical SEO tactics for car dealers covering stock listings, sold vehicle pages, make and model pages, listing portals and Business Profile.",
+ "ozet_tr": "Stok ilanlarından satılan araç sayfalarına, portallardan Business Profile'a kadar oto galeriler için 10 SEO taktiği.",
+ "ozet_en": "From stock listings and sold car pages to portals and Business Profile, ten SEO tactics built for car dealerships.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Oto galerilerin çoğu satışını ilan portallarından yapıyor ve kendi web sitesini bir vitrin kartı gibi görüyor. Oysa \"Kartal ikinci el otomatik dizel\" ya da \"Corolla 2021 hybrid galeri\" gibi aramalarda kendi siteniz ve Google Haritalar kaydınız, portaldaki yüzlerce ilan arasında kaybolmadan doğrudan size telefon getirebilir.",
+    "Galeri sitelerinin SEO sorunu da kendine özgü. Stok her hafta değişiyor, araç satılınca sayfası ne olacak belli değil, filtreler binlerce URL üretiyor. Bu yazıda bu sorunların her birini sahada uyguladığım sırayla, 10 taktik halinde anlatıyorum.",
+    {
+     "alinti": "Kısa cevap: Oto galeri SEO'sunun temeli her araca ayrı ve taranabilir bir ilan sayfası, satılan araçlar için tutarlı bir 404/301 kuralı, kalıcı marka ve model sayfaları ve güçlü bir Google Business Profile kaydıdır. Portallar satış kanalı olarak kalabilir, ama kendi sitenizdeki içerik portal metninin kopyası olmamalıdır."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Her stok aracına ayrı ve taranabilir bir ilan sayfası açın",
+   "paragraflar": [
+    "Sahada en sık gördüğüm hata, stok listesinin bir portal widget'ı ya da yalnızca JavaScript ile yüklenen bir iframe içinde gösterilmesi. Bu durumda Google sizin sitenizde araç görmez; araçlar portalın sayfası olarak dizine girer.",
+    "Her araç için sunucuda üretilen, kendi başlığı ve açıklaması olan bir sayfa açın. URL'de marka, model, yıl ve ilan numarası yeterli olur, ör. `/ikinci-el/toyota-corolla-2021-hybrid-1452`. Kısa ve okunur adres kurmanın ayrıntıları [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısında var."
+   ]
+  },
+  {
+   "baslik": "2. Satılan araç sayfası için 404 mü 301 mi karar verin",
+   "paragraflar": [
+    "Araç satıldığında sayfayı ne yapacağınız, galeri sitelerinin en önemli teknik kararıdır. Tek bir kural seçip her araçta aynı şekilde uygulayın; rastgele davranmak hem kullanıcıyı hem Google'ı şaşırtır.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Durum",
+       "Önerilen yanıt",
+       "Neden"
+      ],
+      "satirlar": [
+       [
+        "Araç yeni satıldı, sayfa trafik alıyor",
+        "Birkaç hafta \"Satıldı\" etiketiyle 200, benzer araçlara link",
+        "Gelen ziyaretçi boşa gitmez, benzer stoka yönlenir"
+       ],
+       [
+        "Aynı model başka bir araç stokta",
+        "İlgili model sayfasına 301",
+        "Kullanıcının aradığına en yakın sayfa"
+       ],
+       [
+        "Benzer stok yok, sayfanın değeri kalmadı",
+        "404 ya da 410",
+        "Google sayfayı zamanla dizinden çıkarır"
+       ],
+       [
+        "Tüm satılanları ana sayfaya yönlendirmek",
+        "Kullanmayın",
+        "Google bunu soft 404 olarak değerlendirebilir"
+       ]
+      ]
+     }
+    },
+    "Yönlendirme türlerinin farkını [301 ve 302 yönlendirme rehberi](/301-302-yonlendirme) yazısında anlattım. Toplu kural yazarken [301 yönlendirme oluşturucu](/yonlendirme-olusturucu) aracı işinizi hızlandırır."
+   ]
+  },
+  {
+   "baslik": "3. Kalıcı marka ve model sayfaları kurun",
+   "paragraflar": [
+    "İlan sayfaları gelip gider, ama \"ikinci el Fiat Egea\" araması her ay vardır. Bu yüzden stoktan bağımsız, kalıcı marka ve model sayfaları kurun. Bu sayfalar mevcut stoku listeler, stok yokken de modelin genel bilgisi ve \"haber ver\" formuyla değer taşır.",
+    {
+     "agac": {
+      "kok": "galeriniz.com",
+      "dallar": [
+       {
+        "ad": "/ikinci-el/toyota/",
+        "alt": [
+         "/ikinci-el/toyota/corolla/",
+         "/ikinci-el/toyota/c-hr/"
+        ]
+       },
+       {
+        "ad": "/ikinci-el/fiat/",
+        "alt": [
+         "/ikinci-el/fiat/egea/",
+         "/ikinci-el/fiat/doblo/"
+        ]
+       },
+       {
+        "ad": "/ikinci-el/toyota-corolla-2021-hybrid-1452",
+        "alt": [
+         "model sayfasına iç link",
+         "benzer araçlara iç link"
+        ]
+       }
+      ]
+     }
+    },
+    "İlan sayfasından model sayfasına, model sayfasından ilanlara giden linkler hem kullanıcıyı hem tarayıcıyı doğru yere taşır. Bu bağlantı mantığını [iç linkleme stratejisi](/ic-linkleme) yazısında ayrıntılı bulabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "4. Filtre URL'lerini kontrol altına alın",
+   "paragraflar": [
+    "Yakıt, vites, kasa tipi, fiyat aralığı ve kilometre filtreleri birleşince binlerce URL ortaya çıkar. Bunların çoğu ince ve birbirinin kopyası sayfalardır, tarama bütçesini boşa harcar.",
+    "Kural basit olsun. Gerçekten aranan birkaç kombinasyonu (ör. \"otomatik vites dizel\") kalıcı, metinli bir sayfaya dönüştürün; geri kalan filtre URL'lerinde canonical ile ana listeyi gösterin ya da noindex kullanın. Sıralama ve sayfalama parametrelerini dizine açmayın."
+   ]
+  },
+  {
+   "baslik": "5. İlan açıklamasını portal metninden farklı yazın",
+   "paragraflar": [
+    "Aynı açıklamayı hem portala hem kendi sitenize yapıştırırsanız, Google iki sayfadan birini seçer ve çoğu zaman güçlü portal kazanır. Kendi sitenizdeki metin daha zengin olmalı.",
+    {
+     "liste": [
+      "Ekspertiz özeti ve varsa boyalı/değişen parça bilgisi",
+      "Bakım geçmişi, kaçıncı sahibinden olduğu ve net donanım listesi",
+      "Galerinin bulunduğu semt, test sürüşü ve kredi seçenekleri hakkında kısa not",
+      "Aracın kime uygun olduğuna dair bir iki cümle (şehir içi, aile, uzun yol)"
+     ]
+    },
+    "İkinci el araç ticareti Ticaret Bakanlığı'nın yetki belgesi düzenlemesine tabidir. İlan sayfalarında hangi bilgilerin bulunması gerektiğini güncel mevzuattan ve portal kurallarından kontrol edin."
+   ]
+  },
+  {
+   "baslik": "6. Portalları kanal, kendi sitenizi varlık olarak görün",
+   "paragraflar": [
+    "sahibinden.com ve arabam.com gibi portallar trafik ve güven sağlar; onları bırakmanızı önermiyorum. Ama portaldaki görünürlüğünüz portalın kurallarına bağlıdır, kendi siteniz ise size aittir.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "İlan portalı",
+       "tur": "notr",
+       "maddeler": [
+        "Hazır ve yüksek trafik",
+        "Rakip ilanlarla aynı sayfada",
+        "Kurallar ve görünürlük portala bağlı",
+        "Marka aramasını size taşımaz"
+       ]
+      },
+      "sag": {
+       "baslik": "Kendi siteniz",
+       "tur": "iyi",
+       "maddeler": [
+        "Marka ve model aramalarında kalıcı varlık",
+        "Rakip yok, tüm stok sizin",
+        "Telefon ve WhatsApp ölçümü sizde",
+        "Emek ve zaman ister"
+       ]
+      }
+     }
+    },
+    "Portal ilanlarından sitenize link verebiliyorsanız UTM parametreli kullanın; hangi portalın siteye ne kadar ziyaretçi getirdiğini görürsünüz. Linkleri [UTM oluşturucu](/utm-olusturucu) ile hazırlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "7. Fotoğraf ve videoyu hız bozmadan kullanın",
+   "paragraflar": [
+    "Bir araç ilanında 20 ile 40 fotoğraf olağandır ve bu sayfaları en çok yavaşlatan şey genelde bu görsellerdir. Görselleri WebP ya da AVIF'e çevirin, ilk görsel dışındakilere lazy loading verin.",
+    "Dosya adını `IMG_4521.jpg` yerine `toyota-corolla-2021-hybrid-on.jpg` yapın ve alt metne aracın ne gösterdiğini yazın (ör. \"Corolla 2021 hybrid ön konsol\"). Ayrıntılar [görsel SEO rehberinde](/gorsel-seo), tur videosu için ipuçları [video SEO](/video-seo) yazısında."
+   ]
+  },
+  {
+   "baslik": "8. AutoDealer ve Car schema işaretlemesini doğru beklentiyle kullanın",
+   "paragraflar": [
+    "Galeri için schema.org'daki `AutoDealer` türü işletmenizi, `Car` türü ise araçlarınızı makinelerin anlayacağı biçimde tanımlar. Marka, model, yıl, kilometre, yakıt ve fiyat gibi alanlar bu işaretlemeyle açık hale gelir.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Araç ilanı zengin sonucu artık yok",
+      "metin": "Google, Haziran 2025'te araç ilanı (vehicle listing) zengin sonucunu aşamalı olarak kaldıracağını duyurdu. Car işaretlemesi geçerli bir schema.org türü olarak kalır ve içeriğin anlaşılmasına yardımcı olabilir, ama arama sonuçlarında özel bir görünüm beklemeyin."
+     }
+    },
+    "İşletme düzeyindeki işaretlemenin temellerini [schema yapısal veri rehberi](/schema-yapisal-veri) anlatıyor. AutoDealer kodunu sıfırdan yazmak yerine [schema oluşturucu](/schema-olusturucu) ile başlayabilirsiniz."
+   ]
+  },
+  {
+   "baslik": "9. Google Business Profile kaydını galeriye göre düzenleyin",
+   "paragraflar": [
+    "\"Yakınımdaki oto galeri\" ve \"Ataşehir galeri\" gibi aramalarda Haritalar sonuçları belirleyicidir. Birincil kategoriyi işinizi en doğru anlatan seçenekten seçin (ikinci el araç satıcısı ile yetkili bayi farklı kategorilerdir), çalışma saatlerini ve hafta sonu durumunu güncel tutun.",
+    "Galerinin dış cephesini, sergi alanını ve teslim anlarını (müşteri izniyle) düzenli fotoğraflayın. Yorumlara, özellikle olumsuz olanlara, sakin ve somut cevap verin; bunun için [Google yorumlarına cevap örnekleri](/google-yorumlarina-cevap) yazısına bakabilirsiniz. Kaydın tüm ayarları [Google Business Profile rehberinde](/google-business-profile) var."
+   ]
+  },
+  {
+   "baslik": "10. Telefon, WhatsApp ve form dönüşümlerini ölçün",
+   "paragraflar": [
+    "Galeri sitesinde satış sitede değil, telefonda ve galeride kapanır. Bu yüzden asıl ölçmeniz gereken telefon tıklaması, WhatsApp tıklaması, test sürüşü formu ve yol tarifi tıklamasıdır.",
+    "Bunları GA4'te anahtar etkinlik olarak tanımlayın ve hangi model sayfalarının arama getirdiğini Search Console ile eşleştirin. Böylece \"hangi markayı daha çok stoklamalıyım\" sorusuna da veriyle yaklaşırsınız. Kurulum adımları [yerel SEO rehberinde](/yerel-seo) özetleniyor."
+   ]
+  },
+  {
+   "baslik": "Oto galeri sitesi için kısa kontrol listesi",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Her araç sunucuda üretilen ayrı bir sayfada mı?",
+      "Satılan araçlar için yazılı bir 404/301 kuralı var mı?",
+      "Marka ve model sayfaları stoktan bağımsız yayında mı?",
+      "Filtre ve sıralama URL'leri canonical ya da noindex ile kontrol ediliyor mu?",
+      "İlan metni portal metninden farklı ve daha zengin mi?",
+      "Business Profile kategorisi, saatleri ve fotoğrafları güncel mi?",
+      "Telefon ve WhatsApp tıklamaları GA4'te ölçülüyor mu?"
+     ]
+    },
+    "Bu listede üçten fazla \"hayır\" varsa, siteniz portal trafiğine bağımlı kalıyor demektir. Galeri sitenizi birlikte gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasından çalışma biçimimi inceleyebilir, diğer sektörler için [sektöre özel SEO](/sektorler) sayfasına bakabilir ya da doğrudan [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Most car dealerships in Turkey sell through listing portals and treat their own website as a business card. Yet for searches like \"used automatic diesel Kartal\" or \"Corolla 2021 hybrid dealer\", your own site and your Google Maps listing can bring calls straight to you instead of leaving you buried among hundreds of portal ads.",
+    "Dealer websites also have their own SEO problems. Stock changes weekly, nobody has decided what happens to a sold car's page, and filters generate thousands of URLs. Here are 10 tactics, in the order I apply them.",
+    {
+     "alinti": "Short answer: Car dealer SEO rests on a separate, crawlable page for every car, a consistent 404/301 rule for sold vehicles, permanent make and model pages and a strong Google Business Profile. Portals can stay as a sales channel, but the content on your own site should not be a copy of the portal text."
+    }
+   ]
+  },
+  {
+   "baslik": "1. Give every car in stock its own crawlable page",
+   "paragraflar": [
+    "The most common mistake I see is a stock list shown through a portal widget or an iframe loaded only with JavaScript. Google then sees no cars on your site; the cars get indexed as the portal's pages.",
+    "Create a server-rendered page for each car with its own title and description. Make, model, year and a listing number are enough for the URL, for example `/used/toyota-corolla-2021-hybrid-1452`. The details of short, readable addresses are in the post on [SEO-friendly URL structure](/en/url-yapisi-seo)."
+   ]
+  },
+  {
+   "baslik": "2. Decide between 404 and 301 for sold cars",
+   "paragraflar": [
+    "What happens to a page once the car is sold is the key technical decision on a dealer site. Pick one rule and apply it to every car.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Situation",
+       "Recommended response",
+       "Why"
+      ],
+      "satirlar": [
+       [
+        "Car just sold, page still gets traffic",
+        "Keep it live (200) for a few weeks with a \"Sold\" label and links to similar cars",
+        "Visitors are not wasted, they move to similar stock"
+       ],
+       [
+        "Another car of the same model is in stock",
+        "301 to the relevant model page",
+        "The closest page to what the user wanted"
+       ],
+       [
+        "No similar stock, page has no value left",
+        "404 or 410",
+        "Google drops the page from the index over time"
+       ],
+       [
+        "Redirecting every sold car to the homepage",
+        "Avoid",
+        "Google may treat it as a soft 404"
+       ]
+      ]
+     }
+    },
+    "I explain the difference between redirect types in the [301 vs 302 redirect guide](/en/301-302-yonlendirme). When you write rules in bulk, the [301 redirect generator](/en/redirect-generator) speeds things up."
+   ]
+  },
+  {
+   "baslik": "3. Build permanent make and model pages",
+   "paragraflar": [
+    "Listings come and go, but the search \"used Fiat Egea\" exists every month. Build make and model pages that list current cars and, when nothing is in stock, still offer model information and a \"notify me\" form.",
+    {
+     "agac": {
+      "kok": "yourdealer.com",
+      "dallar": [
+       {
+        "ad": "/used/toyota/",
+        "alt": [
+         "/used/toyota/corolla/",
+         "/used/toyota/c-hr/"
+        ]
+       },
+       {
+        "ad": "/used/fiat/",
+        "alt": [
+         "/used/fiat/egea/",
+         "/used/fiat/doblo/"
+        ]
+       },
+       {
+        "ad": "/used/toyota-corolla-2021-hybrid-1452",
+        "alt": [
+         "internal link to model page",
+         "internal links to similar cars"
+        ]
+       }
+      ]
+     }
+    },
+    "Links from listing to model page and from model page to listings guide both users and crawlers. You can find this linking logic in detail in the post on [internal linking strategy](/en/ic-linkleme)."
+   ]
+  },
+  {
+   "baslik": "4. Keep filter URLs under control",
+   "paragraflar": [
+    "Fuel, transmission, body type, price range and mileage filters combine into thousands of URLs. Most of them are thin, near-duplicate pages that waste crawl budget.",
+    "Keep the rule simple. Turn the few combinations people really search for (for example \"automatic diesel\") into permanent pages with real text; for the rest, point a canonical to the main list or use noindex. Do not open sorting and pagination parameters to indexing."
+   ]
+  },
+  {
+   "baslik": "5. Write listing text that differs from the portal",
+   "paragraflar": [
+    "If you paste the same description on the portal and on your own site, Google picks one of the two pages and the stronger portal usually wins. The text on your site should be richer.",
+    {
+     "liste": [
+      "An inspection (ekspertiz) summary and any painted or replaced parts",
+      "Service history, number of previous owners and a clear equipment list",
+      "A short note on your location, test drives and financing options",
+      "A sentence or two on who the car suits (city driving, family, long trips)"
+     ]
+    },
+    "Used car trading in Turkey is subject to the Ministry of Trade's authorisation certificate rules. Check the current regulation and portal rules for which details a listing page must include."
+   ]
+  },
+  {
+   "baslik": "6. Treat portals as a channel and your site as an asset",
+   "paragraflar": [
+    "Portals such as sahibinden.com and arabam.com bring traffic and trust, and I am not suggesting you leave them. But your visibility there follows the portal's rules; your own site belongs to you.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Listing portal",
+       "tur": "notr",
+       "maddeler": [
+        "Ready-made, high traffic",
+        "Same page as competitor ads",
+        "Rules and visibility set by the portal",
+        "Does not build searches for your brand"
+       ]
+      },
+      "sag": {
+       "baslik": "Your own site",
+       "tur": "iyi",
+       "maddeler": [
+        "Lasting presence for make and model searches",
+        "No competitors, all stock is yours",
+        "You own phone and WhatsApp tracking",
+        "Takes time and effort"
+       ]
+      }
+     }
+    },
+    "If portal listings let you link to your site, add UTM parameters so you can see how many visitors each portal sends. The [UTM builder](/en/utm-builder) makes these links in seconds."
+   ]
+  },
+  {
+   "baslik": "7. Use photos and video without hurting speed",
+   "paragraflar": [
+    "A car listing with 20 to 40 photos is normal, and those images are usually what slows the page down the most. Convert them to WebP or AVIF and lazy load everything except the first image.",
+    "Rename `IMG_4521.jpg` to `toyota-corolla-2021-hybrid-front.jpg` and describe what the photo shows in the alt text (for example \"Corolla 2021 hybrid centre console\"). More in the [image SEO guide](/en/gorsel-seo), and tips for walkaround videos in the [video SEO](/en/video-seo) post."
+   ]
+  },
+  {
+   "baslik": "8. Use AutoDealer and Car schema with the right expectations",
+   "paragraflar": [
+    "The schema.org `AutoDealer` type describes your business and the `Car` type describes your vehicles in a form machines understand. Make, model, year, mileage, fuel and price become explicit with this markup.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "The vehicle listing rich result is gone",
+      "metin": "In June 2025 Google announced it would phase out the vehicle listing rich result. Car markup remains a valid schema.org type and can help machines understand the content, but do not expect a special appearance in search results."
+     }
+    },
+    "The basics of business-level markup are covered in the [schema structured data guide](/en/schema-yapisal-veri). Rather than writing AutoDealer code from scratch, start with the [schema generator](/en/schema-generator)."
+   ]
+  },
+  {
+   "baslik": "9. Set up Google Business Profile for a dealership",
+   "paragraflar": [
+    "For searches like \"car dealer near me\" or \"Ataşehir car dealer\", Maps results decide a lot. Choose the primary category that describes your business most accurately (a used car dealer and a franchised dealer are different categories) and keep opening hours and weekend status current.",
+    "Photograph the storefront, the showroom and handovers (with customer consent) regularly. Reply calmly and specifically to reviews, especially negative ones; see the post with [examples of replies to Google reviews](/en/google-yorumlarina-cevap). Every setting is in the [Google Business Profile guide](/en/google-business-profile)."
+   ]
+  },
+  {
+   "baslik": "10. Track phone, WhatsApp and form conversions",
+   "paragraflar": [
+    "On a dealer website the sale closes on the phone and at the lot, not on the site. So what you really need to track is phone clicks, WhatsApp clicks, test drive forms and direction clicks.",
+    "Set these up as key events in GA4 and match them with the model pages that bring search traffic in Search Console. Setup steps are in the [local SEO guide](/en/yerel-seo)."
+   ]
+  },
+  {
+   "baslik": "A short checklist for dealer websites",
+   "paragraflar": [
+    {
+     "kontrol": [
+      "Is every car on its own server-rendered page?",
+      "Is there a written 404/301 rule for sold cars?",
+      "Are make and model pages live regardless of stock?",
+      "Are filter and sort URLs controlled with canonical or noindex?",
+      "Is the listing text different from, and richer than, the portal text?",
+      "Are Business Profile category, hours and photos current?",
+      "Are phone and WhatsApp clicks tracked in GA4?"
+     ]
+    },
+    "More than three \"no\" answers means your site still depends on portal traffic. To review it together, see the [SEO consulting](/en/seo-consulting) page, browse [industry-specific SEO](/en/industries) or [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Oto galeri sitesi için hangi altyapıyı seçmeliyim?",
+   "c": "Her araca sunucu tarafında ayrı sayfa üretebilen, başlık ve açıklamayı araç bazında düzenlemenize izin veren ve satılan araçlar için yönlendirme kuralı yazılabilen her altyapı iş görür. Hazır galeri yazılımı seçiyorsanız demo sitede bir ilanın kaynak kodunu açıp araç bilgilerinin HTML'de görünüp görünmediğine bakın."
+  },
+  {
+   "s": "Portaldaki ilanlarım kendi sitemin önüne geçer mi?",
+   "c": "Aynı metni kullanıyorsanız büyük ihtimalle evet, çünkü portallar çok daha güçlü alan adlarıdır. Kendi sitenizde daha ayrıntılı açıklama, ekspertiz özeti ve gerçek fotoğraflar kullanarak sayfanızı farklılaştırmak en sağlıklı yoldur."
+  },
+  {
+   "s": "Stokta 15 araç olan küçük bir galeri SEO yapmalı mı?",
+   "c": "Evet, ama önceliği farklıdır. Küçük galeride en hızlı sonucu genelde Google Business Profile ve semt adıyla yapılan aramalar verir; marka ve model sayfalarını ise en çok sattığınız birkaç modelle sınırlı tutabilirsiniz."
+  },
+  {
+   "s": "Araç fiyatını sitede yazmalı mıyım?",
+   "c": "Kullanıcılar fiyat görmek istiyor ve fiyatsız ilan çoğu zaman daha az tıklanıyor. Fiyatı yazarsanız portal ve site arasında tutarlı tutun, değiştiğinde iki yerde birden güncelleyin."
+  },
+  {
+   "s": "Galeri için blog yazmak işe yarar mı?",
+   "c": "\"Hangi model daha az yakar\" türü genel yazılar yerine stokla bağlantılı rehberler daha iyi çalışır, ör. bir modelin donanım paketlerini karşılaştıran ve stoktaki araçlara link veren bir sayfa. Böyle içerikler model sayfalarını da destekler."
+  },
+  {
+   "s": "Birden fazla şubem varsa ne yapmalıyım?",
+   "c": "Her şube için ayrı Business Profile kaydı ve sitede ayrı bir şube sayfası açın. Şube sayfasında o şubedeki stoku, adresi, çalışma saatlerini ve yol tarifini gösterin."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Which platform should I choose for a dealer website?",
+   "c": "Any platform works if it renders a separate server-side page for each car, lets you edit titles per car and supports redirect rules for sold vehicles. On a demo site, check that car details appear in the HTML source."
+  },
+  {
+   "s": "Will my portal listings outrank my own site?",
+   "c": "If you use the same text, most likely yes, because portals are much stronger domains. Differentiating your page with a more detailed description, an inspection summary and real photos is the healthiest way out."
+  },
+  {
+   "s": "Should a small dealer with 15 cars in stock do SEO?",
+   "c": "Yes, but with different priorities. For a small dealer, Google Business Profile and searches with the neighbourhood name usually bring the fastest results; make and model pages can be limited to the few models you sell most."
+  },
+  {
+   "s": "Does a blog help a car dealership?",
+   "c": "Guides tied to your stock work better than generic posts, for example a page comparing a model's trim levels that links to cars you have in stock. That kind of content also supports your model pages."
+  },
+  {
+   "s": "What if I have more than one location?",
+   "c": "Create a separate Business Profile and a separate location page on your site for each branch. Show the stock at that branch, the address, opening hours and directions on that page."
+  }
+ ]
+}

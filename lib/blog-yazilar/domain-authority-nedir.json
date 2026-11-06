@@ -1,0 +1,425 @@
+{
+ "kategori": "backlink",
+ "etiket": "Backlink",
+ "sure": 7,
+ "baslik_tr": "Domain Authority Nedir? 6 Yanlış Bilinen Gerçek",
+ "baslik_en": "What Is Domain Authority? 6 Common Myths",
+ "meta_baslik_tr": "Domain Authority Nedir? 6 Yanlış Bilgi",
+ "meta_baslik_en": "What Is Domain Authority? 6 Myths",
+ "meta_desc_tr": "Domain Authority nedir, Google kullanır mı? Moz DA, Ahrefs DR ve Semrush AS farkı, 6 yaygın yanlış bilgi ve bu metriklerin doğru kullanımı.",
+ "meta_desc_en": "What Domain Authority is and whether Google uses it. Moz DA vs Ahrefs DR vs Semrush AS, 6 common myths and how to use these metrics properly.",
+ "ozet_tr": "Domain Authority, Moz'un geliştirdiği üçüncü taraf bir metriktir; Google kullanmaz. 6 yanlış bilgi ve doğru kullanım.",
+ "ozet_en": "Domain Authority is a third-party metric from Moz, and Google does not use it. 6 common myths and how to use it properly.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Domain Authority (DA), SEO yazılım şirketi Moz'un geliştirdiği, bir alan adının arama sonuçlarında ne kadar güçlü olabileceğini 1-100 arası bir puanla tahmin etmeye çalışan üçüncü taraf bir metriktir. Ahrefs'in Domain Rating (DR) ve Semrush'ın Authority Score (AS) puanları da aynı amaca hizmet eden benzer metriklerdir.",
+    "Satış tekliflerinde, link pazarlıklarında ve hatta ajans raporlarında bu puanlar sıkça \"Google puanı\" gibi sunuluyor. Bu yazıda DA'nın ne olduğunu, Google'ın bu konuda ne söylediğini ve sahada en sık karşılaştığım 6 yanlış bilgiyi anlatıyorum. Terimin kısa tanımı [SEO ve yapay zekâ sözlüğünde](/ai-sozluk) de var.",
+    {
+     "alinti": "Kısa cevap: Domain Authority, Moz'a ait bir tahmin puanıdır; Google'ın bir metriği değildir ve Google temsilcileri DA'yı algoritmalarında kullanmadıklarını defalarca söylemiştir. DA, DR ve AS, siteleri kendi aralarında karşılaştırmak için yararlı göstergelerdir ama hedef değil, yardımcı veridir."
+    }
+   ]
+  },
+  {
+   "baslik": "Moz DA, Ahrefs DR ve Semrush AS arasındaki fark",
+   "paragraflar": [
+    "Üç metrik de kendi şirketlerinin link veritabanına ve kendi formüllerine dayanır. Bu yüzden aynı site için farklı puanlar çıkması normaldir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Metrik",
+       "Sahibi",
+       "Ölçek",
+       "Neye dayanır"
+      ],
+      "satirlar": [
+       [
+        "Domain Authority (DA)",
+        "Moz",
+        "1-100",
+        "Moz'un link verisi ve sıralama tahmin modeli"
+       ],
+       [
+        "Domain Rating (DR)",
+        "Ahrefs",
+        "0-100",
+        "Backlink profilinin gücü, Ahrefs veritabanındaki diğer sitelere göre"
+       ],
+       [
+        "Authority Score (AS)",
+        "Semrush",
+        "1-100",
+        "Link gücü, tahmini organik trafik ve doğal profil (spam) göstergeleri"
+       ]
+      ]
+     }
+    },
+    "Semrush'ın yardım merkezine göre Authority Score, mutlak bir iyi ya da kötü ölçüsü olarak değil, alan adlarını karşılaştırmak için kullanılmalı. Ahrefs de DR'yi bir sitenin backlink profilinin veritabanındaki diğer sitelere göre gücü olarak tanımlıyor. Yani üçü de göreli, karşılaştırmalı puanlardır."
+   ]
+  },
+  {
+   "baslik": "Google domain authority kullanıyor mu?",
+   "paragraflar": [
+    "Hayır. Google'da arama savunucusu olarak çalışan John Mueller, 2016'dan bu yana farklı kanallarda Google'ın \"domain authority\" kullanmadığını, bunun bir SEO şirketinin metriği olduğunu tekrar tekrar belirtti. Gary Illyes de Google'ın \"genel bir domain otoritesi\" puanı olmadığını söyledi.",
+    "Burada önemli bir ayrım var: Mueller, Google'ın bazı site düzeyinde sinyalleri olduğunu da kabul etti. Yani \"Google site bazında hiçbir şeye bakmaz\" demek yanlış; doğru ifade, Google'ın Moz'un DA'sını ya da benzer bir üçüncü taraf puanını kullanmadığıdır.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Google'ın resmi tarafı",
+      "metin": "Google'ın sıralama sistemleri rehberi, sayfaların birbirine nasıl linklendiğini anlayan sistemlerden ve PageRank'in hâlâ temel sistemlerin parçası olduğundan bahseder. Ancak Google bu sistemlerin ürettiği herhangi bir değeri dışarıya puan olarak açıklamaz."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Domain authority hakkında 6 yanlış bilinen gerçek",
+   "paragraflar": [
+    {
+     "alt": "1. \"Google DA'yı sıralama faktörü olarak kullanır\""
+    },
+    "Yukarıda anlattığım gibi DA, Moz'un ürünüdür ve Google'ın bunu kullanmadığı Google temsilcilerince defalarca söylendi. DA ile sıralama arasında bir ilişki görülebilir, çünkü her ikisi de kısmen linklerden etkilenir; ama bu bir neden sonuç ilişkisi değildir.",
+    {
+     "alt": "2. \"DA, DR ve AS aynı şeydir\""
+    },
+    "Farklı veritabanları ve formüllerle hesaplanırlar. Semrush'ın puanı tahmini organik trafiği ve spam göstergelerini de hesaba katarken DR backlink profilinin gücüne odaklanır. Raporlarda tek bir metrik seçip zaman içinde onu izlemek, üçünü karıştırmaktan daha anlamlıdır.",
+    {
+     "alt": "3. \"DA yükselirse trafik de artar\""
+    },
+    "Trafik, sayfalarınızın gerçek aramalarda görünmesine bağlıdır. Yüksek puanlı ama kimsenin aramadığı konularda içerik üreten bir site trafik alamaz. Trafiği artıran işler için [organik trafiği artırma yolları](/organik-trafigi-artirma-yollari) yazısı daha doğru bir başlangıç.",
+    {
+     "alt": "4. \"Puanı düşük sitelerden link almak işe yaramaz\""
+    },
+    "Konunuzla doğrudan ilgili, gerçek okuru olan küçük bir sektör blogu ya da yerel bir haber sitesi, puanı yüksek ama alakasız bir siteden daha değerli olabilir. Ben link fırsatlarını önce alaka ve okur kitlesine göre, puana ise en son bakarak değerlendiriyorum.",
+    {
+     "alt": "5. \"DA'yı hızlıca yükseltmek güvenlidir\""
+    },
+    "Puanı hızla yükselten yöntemler genellikle toplu link satın almaktır ve bunlar Google'ın link spam politikasındaki örneklere uyar. Puan yükselse bile sitenizin riski artar. Bu tür linklerin temizliği için [toksik backlink ve disavow](/toksik-backlink-disavow) yazısına bakabilirsiniz.",
+    {
+     "alt": "6. \"DA düştüyse Google cezası aldınız\""
+    },
+    "Bu puanlar aracın kendi veritabanına göre yeniden hesaplanır. Aracın tarama yöntemi ya da formülü değiştiğinde ya da başka sitelerin profilleri büyüdüğünde puanınız düşebilir. Semrush da Google cezalarının Authority Score'u hemen etkilemesinin pek olası olmadığını belirtiyor. Gerçek bir sorun olup olmadığını Search Console'daki elle işlemler raporu ve performans verisi gösterir.",
+    {
+     "cubuk": {
+      "baslik": "Aynı sitenin üç araçtaki puanları",
+      "birim": "",
+      "veriler": [
+       {
+        "etiket": "Moz DA",
+        "deger": 34
+       },
+       {
+        "etiket": "Ahrefs DR",
+        "deger": 41
+       },
+       {
+        "etiket": "Semrush AS",
+        "deger": 27
+       }
+      ],
+      "not": "Temsili örnek: gerçek bir siteye ait veri değildir. Aynı alan adının araçlara göre farklı puan alabileceğini göstermek için hazırlanmıştır."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Domain authority metriği nasıl doğru kullanılır?",
+   "paragraflar": [
+    "Bu metrikler işe yaramaz değil; yalnızca neyi ölçtüklerini bilerek kullanılmaları gerekir. Bir link fırsatını değerlendirirken puandan önce şunlara bakıyorum:",
+    {
+     "kontrol": [
+      "Site konunuzla ya da hedef kitlenizle gerçekten ilgili mi?",
+      "Sitenin kendi organik trafiği ve gerçek okuru var mı?",
+      "Link içeriğin akışı içinde, bağlamla mı verilecek?",
+      "Site her konuda ücretli yazı yayımlayan bir link çiftliğine benziyor mu?"
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru kullanım",
+       "tur": "iyi",
+       "maddeler": [
+        "Rakiplerin link profilini kabaca karşılaştırmak",
+        "Link fırsatlarını ilk elemede sıralamak",
+        "Kendi sitenizin profilini aynı araçla zaman içinde izlemek",
+        "Ani değişimleri incelemek için uyarı olarak kullanmak"
+       ]
+      },
+      "sag": {
+       "baslik": "Yanlış kullanım",
+       "tur": "kotu",
+       "maddeler": [
+        "Puanı bir SEO hedefi ya da KPI yapmak",
+        "Link satın alırken tek ölçüt olarak kullanmak",
+        "Farklı araçların puanlarını birbiriyle karşılaştırmak",
+        "Puan düşüşünü Google cezası sanmak"
+       ]
+      }
+     }
+    },
+    "SEO başarısını gösteren metrikler organik trafik, dönüşüm ve önemli sorgulardaki görünürlüktür; hangi göstergeleri izlemeniz gerektiğini [SEO KPI](/seo-kpi) yazısında ve [SEO raporlama rehberinde](/seo-raporlama) anlattım."
+   ]
+  },
+  {
+   "baslik": "Otoriteyi gerçekte ne güçlendirir?",
+   "paragraflar": [
+    "Google'ın gözünde \"otorite\", tek bir puandan çok, sitenizin bir konuda güvenilir kaynak olarak tanınmasıdır. Bunu besleyen işler bellidir:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Kazanılmış linkler",
+       "metin": "İçeriğiniz kaynak gösterilmeye değer olduğu için verilen editoryal linkler. Türlerini [backlink nedir](/backlink-nedir) yazısında anlattım."
+      },
+      {
+       "ikon": "📚",
+       "baslik": "Konu derinliği",
+       "metin": "Bir konuyu tüm alt sorularıyla kapsayan içerik kümeleri; ayrıntılar [topical authority](/topical-authority) yazısında."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Marka bahisleri",
+       "metin": "Sektör yayınlarında, haberlerde ve topluluklarda markanızın adının geçmesi."
+      },
+      {
+       "ikon": "🧑‍💼",
+       "baslik": "Uzmanlık sinyalleri",
+       "metin": "Yazar bilgisi, gerçek deneyim ve doğrulanabilir referanslar."
+      }
+     ]
+    },
+    "Kalıcı link kazanma stratejisinin tamamı [backlink ve dijital PR rehberinde](/backlink-dijital-pr) var. Link profilinizi rakiplerinizle karşılaştırmak için [en iyi backlink analiz araçları](/en-iyi-backlink-analiz-araclari) listesinden uygun aracı seçebilirsiniz.",
+    "Puan kovalamak yerine işe yarayan linkleri kazanmak istiyorsanız [backlink ve dijital PR hizmeti](/backlink) kapsamında birlikte çalışabiliriz. [SEO danışmanlığı](/seo-uzmani) hakkında konuşmak için [ücretsiz ön görüşme](/randevu) planlayabilirsiniz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "İyi bir DA puanı kaçtır?",
+   "c": "Mutlak bir iyi puan yok, çünkü metrik karşılaştırmalıdır. Anlamlı soru, aynı aramalarda rekabet ettiğiniz sitelerin puanlarına göre nerede durduğunuzdur. Yerel bir işletme için ulusal haber siteleriyle kıyaslama yapmak yanıltıcı olur."
+  },
+  {
+   "s": "DA puanımı ücretsiz nasıl öğrenebilirim?",
+   "c": "Moz, Ahrefs ve Semrush ücretsiz kontrol araçları ya da sınırlı ücretsiz hesaplar sunuyor; kapsamları zaman zaman değiştiği için güncel koşulları resmi sitelerinden kontrol edin. Her araç kendi metriğini gösterir, bu yüzden hangi puana baktığınızı not edin."
+  },
+  {
+   "s": "Yeni bir sitenin DA'sı neden düşük?",
+   "c": "Yeni bir sitenin henüz kazanılmış linki az olduğu için üçüncü taraf puanlar düşük başlar. Bu, Google'da sıralanamayacağınız anlamına gelmez; özellikle rekabeti düşük ve yerel aramalarda iyi içerikle kısa sürede görünür olabilirsiniz."
+  },
+  {
+   "s": "Alan adı yaşı DA'yı veya sıralamayı etkiler mi?",
+   "c": "Google temsilcileri alan adı yaşının tek başına bir sıralama avantajı olmadığını söylemiştir. Üçüncü taraf puanlar ise yaşa değil, zamanla biriken linklere bağlı olarak artar."
+  },
+  {
+   "s": "Süresi dolmuş yüksek DA'lı bir alan adı almak mantıklı mı?",
+   "c": "Yalnızca puan için eski bir alan adı alıp ilgisiz içerikle kullanmak, Google'ın süresi dolmuş alan adı kötüye kullanımı politikası kapsamına girebilir. Alan adının geçmişi ve konusu sizin işinizle gerçekten örtüşmüyorsa bu yolu önermem."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Domain Authority (DA) is a third-party metric developed by the SEO software company Moz that tries to estimate, on a 1-100 scale, how strong a domain may be in search results. Ahrefs' Domain Rating (DR) and Semrush's Authority Score (AS) are similar metrics serving the same purpose.",
+    "In sales pitches, link negotiations and even agency reports, these scores are often presented as if they were a \"Google score\". In this article I explain what DA is, what Google has said about it, and the 6 myths I run into most in practice. You will also find a short definition in the [SEO and AI glossary](/en/ai-glossary).",
+    {
+     "alinti": "Short answer: Domain Authority is a predictive score owned by Moz; it is not a Google metric, and Google representatives have said many times that they do not use DA in their algorithms. DA, DR and AS are useful for comparing sites with each other, but they are supporting data, not a goal."
+    }
+   ]
+  },
+  {
+   "baslik": "Moz DA vs Ahrefs DR vs Semrush AS",
+   "paragraflar": [
+    "All three metrics rely on their own company's link database and their own formula. So it is normal for the same site to get different scores.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Metric",
+       "Owner",
+       "Scale",
+       "Based on"
+      ],
+      "satirlar": [
+       [
+        "Domain Authority (DA)",
+        "Moz",
+        "1-100",
+        "Moz's link data and ranking prediction model"
+       ],
+       [
+        "Domain Rating (DR)",
+        "Ahrefs",
+        "0-100",
+        "Strength of the backlink profile relative to other sites in Ahrefs' database"
+       ],
+       [
+        "Authority Score (AS)",
+        "Semrush",
+        "1-100",
+        "Link power, estimated organic traffic and natural profile (spam) indicators"
+       ]
+      ]
+     }
+    },
+    "According to Semrush's help center, Authority Score should be used to compare domains rather than as an absolute measure of good or bad. Ahrefs likewise defines DR as the strength of a site's backlink profile compared with others in its database. All three are relative, comparative scores."
+   ]
+  },
+  {
+   "baslik": "Does Google use domain authority?",
+   "paragraflar": [
+    "No. John Mueller, a Search Advocate at Google, has repeatedly said since 2016 across different channels that Google does not use \"domain authority\" and that it is a metric from an SEO company. Gary Illyes has also said Google does not have an \"overall domain authority\" score.",
+    "There is an important distinction here: Mueller has also acknowledged that Google has some site-level signals. So saying \"Google looks at nothing at site level\" is wrong; the accurate statement is that Google does not use Moz's DA or any similar third-party score.",
+    {
+     "kutu": {
+      "tur": "not",
+      "baslik": "Google's official side",
+      "metin": "Google's guide to ranking systems mentions systems that understand how pages link to each other and says PageRank is still part of the core systems. But Google does not publish any value these systems produce as a score."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "6 myths about domain authority",
+   "paragraflar": [
+    {
+     "alt": "1. \"Google uses DA as a ranking factor\""
+    },
+    "As explained above, DA is a Moz product, and Google representatives have said many times that Google does not use it. You may see a relationship between DA and rankings because both are partly influenced by links, but that is not cause and effect.",
+    {
+     "alt": "2. \"DA, DR and AS are the same thing\""
+    },
+    "They are calculated with different databases and formulas. Semrush's score also factors in estimated organic traffic and spam indicators, while DR focuses on backlink profile strength. In reports, picking one metric and tracking it over time makes more sense than mixing all three.",
+    {
+     "alt": "3. \"If DA goes up, traffic goes up\""
+    },
+    "Traffic depends on your pages appearing for real searches. A high-scoring site producing content on topics nobody searches for will not get traffic. For work that actually grows traffic, [ways to increase organic traffic](/en/organik-trafigi-artirma-yollari) is a better starting point.",
+    {
+     "alt": "4. \"Links from low-scoring sites are worthless\""
+    },
+    "A small industry blog or local news site that is directly relevant and has real readers can be worth more than a high-scoring but unrelated site. I assess link opportunities by relevance and audience first and look at the score last.",
+    {
+     "alt": "5. \"Boosting DA quickly is safe\""
+    },
+    "Methods that raise the score fast usually mean buying links in bulk, which matches the examples in Google's link spam policy. Even if the score rises, your site's risk rises with it. For cleaning up such links, see [toxic backlinks and disavow](/en/toksik-backlink-disavow).",
+    {
+     "alt": "6. \"If DA dropped you got a Google penalty\""
+    },
+    "These scores are recalculated against each tool's own database. When the tool's crawling or formula changes, or other sites' profiles grow, your score can fall. Semrush also says Google penalties are unlikely to affect Authority Score immediately. Whether there is a real problem is shown by the Manual actions report and performance data in Search Console.",
+    {
+     "cubuk": {
+      "baslik": "One site's scores in three tools",
+      "birim": "",
+      "veriler": [
+       {
+        "etiket": "Moz DA",
+        "deger": 34
+       },
+       {
+        "etiket": "Ahrefs DR",
+        "deger": 41
+       },
+       {
+        "etiket": "Semrush AS",
+        "deger": 27
+       }
+      ],
+      "not": "Illustrative example, not data from a real site. It shows how the same domain can score differently across tools."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "How to use domain authority metrics properly",
+   "paragraflar": [
+    "These metrics are not useless; they just need to be used with a clear idea of what they measure. When I assess a link opportunity, I check these before the score:",
+    {
+     "kontrol": [
+      "Is the site genuinely relevant to your topic or audience?",
+      "Does the site have its own organic traffic and real readers?",
+      "Will the link sit within the content, with context?",
+      "Does the site look like a link farm publishing paid posts on any topic?"
+     ]
+    },
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Right use",
+       "tur": "iyi",
+       "maddeler": [
+        "Roughly comparing competitors' link profiles",
+        "Ranking link opportunities in a first pass",
+        "Tracking your own profile over time in the same tool",
+        "Using sudden changes as a prompt to investigate"
+       ]
+      },
+      "sag": {
+       "baslik": "Wrong use",
+       "tur": "kotu",
+       "maddeler": [
+        "Making the score an SEO goal or KPI",
+        "Using it as the only criterion when buying links",
+        "Comparing scores across different tools",
+        "Mistaking a score drop for a Google penalty"
+       ]
+      }
+     }
+    },
+    "The metrics that show SEO success are organic traffic, conversions and visibility on important queries; I explain which indicators to track in [SEO KPIs](/en/seo-kpi) and the [SEO reporting guide](/en/seo-raporlama)."
+   ]
+  },
+  {
+   "baslik": "What actually builds authority?",
+   "paragraflar": [
+    "In Google's eyes, \"authority\" is less a single score and more your site being recognized as a trusted source on a topic. The work that feeds it is clear:",
+    {
+     "kartlar": [
+      {
+       "ikon": "🔗",
+       "baslik": "Earned links",
+       "metin": "Editorial links given because your content is worth citing. I cover the types in [what is a backlink](/en/backlink-nedir)."
+      },
+      {
+       "ikon": "📚",
+       "baslik": "Topic depth",
+       "metin": "Content clusters that cover a topic with all its sub-questions; details in [topical authority](/en/topical-authority)."
+      },
+      {
+       "ikon": "🏷️",
+       "baslik": "Brand mentions",
+       "metin": "Your brand name appearing in industry publications, news and communities."
+      },
+      {
+       "ikon": "🧑‍💼",
+       "baslik": "Expertise signals",
+       "metin": "Author details, real experience and verifiable credentials."
+      }
+     ]
+    },
+    "The full strategy for earning lasting links is in the [backlink and digital PR guide](/en/backlink-dijital-pr). To compare your link profile with competitors, pick a suitable tool from [the best backlink analysis tools](/en/en-iyi-backlink-analiz-araclari).",
+    "If you would rather earn links that work than chase a score, we can work together through the [backlink and digital PR service](/en/backlink-digital-pr). To talk about [SEO consulting](/en/seo-consulting), you can [book a free intro call](/en/book-a-call)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "What is a good DA score?",
+   "c": "There is no absolute good score, because the metric is comparative. The meaningful question is where you stand relative to the sites you compete with for the same searches. Comparing a local business with national news sites would be misleading."
+  },
+  {
+   "s": "How can I check my DA for free?",
+   "c": "Moz, Ahrefs and Semrush offer free checkers or limited free accounts; their scope changes from time to time, so check current terms on their official sites. Each tool shows its own metric, so note which score you are looking at."
+  },
+  {
+   "s": "Why is a new site's DA low?",
+   "c": "A new site has few earned links yet, so third-party scores start low. That does not mean you cannot rank in Google; with good content you can become visible fairly quickly, especially for low-competition and local searches."
+  },
+  {
+   "s": "Does domain age affect DA or rankings?",
+   "c": "Google representatives have said domain age on its own is not a ranking advantage. Third-party scores rise not with age itself but with links that accumulate over time."
+  },
+  {
+   "s": "Is buying an expired high-DA domain a good idea?",
+   "c": "Buying an old domain just for its score and using it for unrelated content can fall under Google's expired domain abuse policy. Unless the domain's history and topic genuinely match your business, I would not recommend it."
+  }
+ ]
+}

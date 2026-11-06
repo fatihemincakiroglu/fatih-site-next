@@ -1,0 +1,415 @@
+{
+ "kategori": "content",
+ "etiket": "İçerik",
+ "sure": 7,
+ "baslik_tr": "Arama Niyeti Nedir? 4 Niyet Türü ve Örnekleri",
+ "baslik_en": "What Is Search Intent? 4 Types of Intent with Examples",
+ "meta_baslik_tr": "Arama Niyeti Nedir? 4 Niyet Türü",
+ "meta_baslik_en": "What Is Search Intent? 4 Types",
+ "meta_desc_tr": "Arama niyeti nedir? Bilgi, ticari araştırma, işlem ve navigasyon niyetini Türkçe sorgu örnekleriyle öğrenin, SERP'i okuyarak niyeti bulun.",
+ "meta_desc_en": "What search intent is, the 4 types (informational, commercial, transactional, navigational) with example queries and how to read the SERP to find it.",
+ "ozet_tr": "Arama niyetinin 4 türü, Türkçe sorgu örnekleri ve arama sonuç sayfasını okuyarak doğru içerik türünü seçme yöntemi.",
+ "ozet_en": "The 4 types of search intent, example queries and how to read the results page to pick the right content type.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Arama niyeti (search intent), bir kullanıcının arama kutusuna sorguyu yazarken ulaşmak istediği amaçtır. \"Kombi nasıl temizlenir\" yazan biri bilgi ararken, \"kombi fiyatları\" yazan biri satın almaya yakındır. Aynı konudaki iki sorgu, bambaşka içerik türleri ister.",
+    "Sahada en sık gördüğüm hata, doğru anahtar kelimeyi yanlış sayfa türüyle hedeflemek: satın alma niyetli bir sorgu için blog yazısı ya da bilgi niyetli bir sorgu için ürün listesi. Bu yazıda 4 niyet türünü Türkçe örneklerle anlatıyor ve niyeti arama sonuç sayfasından nasıl okuyacağınızı gösteriyorum.",
+    {
+     "alinti": "Kısa cevap: Arama niyeti, kullanıcının sorguyu yazarken neyi amaçladığıdır. Dört temel tür vardır: bilgi, ticari araştırma, işlem ve navigasyon. Doğru niyeti bulmanın en güvenilir yolu, o sorgu için Google'ın ilk sayfada hangi içerik türlerini gösterdiğine bakmaktır."
+    }
+   ]
+  },
+  {
+   "baslik": "Arama niyeti neden bu kadar önemli?",
+   "paragraflar": [
+    "Google'ın amacı kullanıcıya aradığını en hızlı veren sonucu göstermek. Bir sayfa ne kadar iyi yazılmış olursa olsun, sorgunun niyetiyle örtüşmüyorsa üst sıralarda kalıcı olması zordur. Niyetle örtüşen sayfa ise daha az tıklama kaybıyla ziyaretçiyi istenen eyleme yaklaştırır.",
+    "Google'ın arama kalitesi değerlendirici yönergeleri de sorguları kendi terimleriyle (Know, Do, Website, Visit-in-person) benzer biçimde ayırır. SEO dünyasında yaygın kullanılan dörtlü sınıflandırma ise aşağıda. Terimin kısa tanımı [AI sözlüğünde](/ai-sozluk) de yer alıyor."
+   ]
+  },
+  {
+   "baslik": "4 arama niyeti türü",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "📘",
+       "baslik": "Bilgi",
+       "metin": "Kullanıcı bir şeyi öğrenmek ister. Rehber, nasıl yapılır yazısı, tanım."
+      },
+      {
+       "ikon": "⚖️",
+       "baslik": "Ticari araştırma",
+       "metin": "Satın almadan önce seçenekleri karşılaştırır. Karşılaştırma, inceleme, en iyi listeleri."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "İşlem",
+       "metin": "Bir eylemi hemen yapmak ister. Ürün, kategori, randevu ya da kayıt sayfası."
+      },
+      {
+       "ikon": "🧭",
+       "baslik": "Navigasyon",
+       "metin": "Belirli bir siteye ya da sayfaya gitmek ister. Ana sayfa, giriş sayfası, şube sayfası."
+      }
+     ]
+    },
+    {
+     "alt": "1. Bilgi niyeti (informational)"
+    },
+    "Kullanıcı bir soruya cevap ya da bir konuda bilgi arar. Sorgularda genellikle \"nedir\", \"nasıl\", \"neden\", \"ne zaman\" gibi soru kalıpları geçer. Bu sorgular için doğru içerik, net bir cevapla başlayan rehber ya da blog yazısıdır. Bu tür sorgularda öne çıkan snippet ve AI Overviews sık görülür; ayrıntısını [öne çıkan snippet ve SERP özellikleri yazısında](/featured-snippet-serp-ozellikleri) anlattım.",
+    {
+     "alt": "2. Ticari araştırma niyeti (commercial investigation)"
+    },
+    "Kullanıcı satın alacağını büyük ölçüde biliyor ama hangi ürünü, markayı ya da hizmeti seçeceğine karar vermemiş. \"En iyi\", \"karşılaştırma\", \"yorumları\", \"alternatifi\", \"mı ... mı\" kalıpları tipiktir. Bu sorgular için tarafsız karşılaştırma tabloları, karar ölçütleri ve gerçek kullanım bilgisi içeren sayfalar uygundur.",
+    {
+     "alt": "3. İşlem niyeti (transactional)"
+    },
+    "Kullanıcı bir eylem yapmaya hazır: satın almak, randevu almak, kayıt olmak, indirmek. \"Fiyat\", \"satın al\", \"sipariş\", \"indirim\", \"randevu\" ve konum içeren sorgular bu gruba girer. Burada blog yazısı değil; ürün, kategori ya da hizmet sayfası gerekir. Bu sayfaların nasıl kurgulanacağını [landing page SEO yazısında](/landing-page-seo), ürün metinlerini ise [e-ticaret ürün açıklaması yazısında](/e-ticaret-urun-aciklamasi) ele aldım.",
+    {
+     "alt": "4. Navigasyon niyeti (navigational)"
+    },
+    "Kullanıcı belirli bir markaya ya da sayfaya ulaşmak ister: \"trendyol giriş\", \"e-devlet\", \"turkcell fatura sorgulama\". Başkasının marka sorgusunda sıralama almak çoğu zaman gerçekçi değildir. Kendi markanız için ise ana sayfanın, iletişim ve şube sayfalarının net olması yeterli olur."
+   ]
+  },
+  {
+   "baslik": "Türkçe sorgu örnekleriyle niyet tablosu",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Sorgu",
+       "Niyet",
+       "Uygun sayfa türü"
+      ],
+      "satirlar": [
+       [
+        "diş beyazlatma zararlı mı",
+        "Bilgi",
+        "Uzman onaylı blog yazısı"
+       ],
+       [
+        "airfryer mı fırın mı",
+        "Ticari araştırma",
+        "Karşılaştırma yazısı"
+       ],
+       [
+        "en iyi kablosuz kulaklık 2026",
+        "Ticari araştırma",
+        "Tarafsız liste, karar tablosu"
+       ],
+       [
+        "iphone 17 fiyat",
+        "İşlem",
+        "Ürün ya da kategori sayfası"
+       ],
+       [
+        "kadıköy diş hekimi randevu",
+        "İşlem (yerel)",
+        "Hizmet ve şube sayfası, Business Profile"
+       ],
+       [
+        "hepsiburada satıcı paneli",
+        "Navigasyon",
+        "Markanın kendi giriş sayfası"
+       ],
+       [
+        "kira artış oranı ne kadar",
+        "Bilgi",
+        "Güncel ve kaynaklı kısa cevap sayfası"
+       ]
+      ]
+     }
+    },
+    "Bazı sorgular karışık niyet taşır. \"Kombi\" tek başına hem bilgi hem alışveriş amacı olabilir; böyle durumlarda Google ilk sayfada farklı türleri bir arada gösterir. Karar vermek için tahmin değil, sonuç sayfasının kendisi esas alınmalı."
+   ]
+  },
+  {
+   "baslik": "SERP'i okuyarak arama niyetini bulma",
+   "paragraflar": [
+    "Bir sorgunun niyetini belirlemenin en güvenilir yolu, o sorguyu Google'da aramak ve ilk sayfayı incelemektir. Mümkünse gizli pencerede ve Türkiye konumuyla bakın.",
+    {
+     "akis": {
+      "baslik": "SERP'ten niyet çıkarma",
+      "adimlar": [
+       {
+        "baslik": "Sonuç türlerine bakın",
+        "metin": "İlk 10 sonuçta blog, ürün, kategori, karşılaştırma ya da ana sayfa oranını not edin."
+       },
+       {
+        "baslik": "SERP özelliklerini sayın",
+        "metin": "AI Overviews, öne çıkan snippet, alışveriş sonuçları, harita paketi ya da video karuseli var mı?"
+       },
+       {
+        "baslik": "Başlık kalıplarını okuyun",
+        "metin": "\"Nedir\", \"en iyi 10\", \"fiyatları\" gibi tekrar eden ifadeler niyeti ele verir."
+       },
+       {
+        "baslik": "Formatı belirleyin",
+        "metin": "Liste, rehber, tablo ya da ürün ızgarası; hangisi baskın?"
+       },
+       {
+        "baslik": "Sayfa türünü seçin",
+        "metin": "Hedefinizi baskın türe göre kurun, ama rakiplerden daha net ya da daha kapsamlı olun."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "Harita paketi yerel niyet işaretidir",
+      "metin": "Sorguda konum geçmese bile ilk sayfada harita paketi çıkıyorsa Google sorguyu yerel niyetli görüyor demektir. Bu durumda blog yazısından çok hizmet sayfası ve Business Profile önemlidir."
+     }
+    },
+    "Başlık ve açıklamanızın bu sonuç sayfasında nasıl görüneceğini [SERP önizleme aracıyla](/serp-onizleme) kontrol edebilirsiniz."
+   ]
+  },
+  {
+   "baslik": "Niyete göre içerik planı nasıl kurulur?",
+   "paragraflar": [
+    "Anahtar kelime listesini çıkardıktan sonra her sorguya bir niyet etiketi verin ve aynı niyeti taşıyan yakın sorguları tek sayfada toplayın. Bu gruplamayı [anahtar kelime gruplama aracıyla](/anahtar-kelime-gruplama) hızlandırabilirsiniz. Araştırma sürecinin tamamı [anahtar kelime araştırması rehberinde](/anahtar-kelime-arastirmasi) anlatılıyor.",
+    {
+     "liste": [
+      "Bilgi niyetli kümeler için blog ve rehber takvimi oluşturun, [SEO uyumlu blog yazısı](/seo-uyumlu-blog-yazisi) kurallarına göre yazın.",
+      "Ticari araştırma sorguları için karşılaştırma ve karar sayfaları planlayın.",
+      "İşlem sorgularını ürün, kategori ve hizmet sayfalarına eşleyin.",
+      "Bilgi sayfalarından ilgili işlem sayfalarına iç link verin.",
+      "Aynı niyet için birden çok sayfa yazıp birbirinizle yarışmayın."
+     ]
+    },
+    "Bilgi niyetli sorgularda tıklamaların bir kısmı arama sonucunda cevaplanıp kaybolabilir; bu durumu [sıfır tıklama aramaları yazısında](/zero-click-arama) ele aldım. Niyet temelli bir içerik planını uzun vadeli stratejiye bağlamak için [içerik stratejisi rehberine](/icerik-stratejisi) bakın."
+   ]
+  },
+  {
+   "baslik": "Niyete uygun içerik için destek",
+   "paragraflar": [
+    "Trafiğiniz var ama dönüşüm yoksa sorun çoğu zaman niyet uyumsuzluğudur. [İçerik danışmanlığı](/icerik) kapsamında sitenizdeki sayfaları niyete göre eşliyor, eksik sayfa türlerini belirliyorum. Durumunuzu konuşmak için [ücretsiz ön görüşme randevusu](/randevu) alabilirsiniz."
+   ]
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Search intent is the goal a user has in mind when typing a query into the search box. Someone searching \"how to clean a boiler\" wants information, while someone searching \"boiler prices\" is close to buying. Two queries on the same topic can call for completely different types of content.",
+    "The mistake I see most in the field is targeting the right keyword with the wrong page type: a blog post for a buying query, or a product listing for an informational one. This article explains the 4 types of intent with examples, many taken from the Turkish market, and shows how to read intent from the results page.",
+    {
+     "alinti": "Short answer: Search intent is what the user is trying to achieve with a query. There are four main types: informational, commercial investigation, transactional and navigational. The most reliable way to find the right intent is to look at which content types Google shows on the first page for that query."
+    }
+   ]
+  },
+  {
+   "baslik": "Why does search intent matter so much?",
+   "paragraflar": [
+    "Google aims to show the result that gives users what they want fastest. However well written a page is, it rarely holds a top position if it does not match the query's intent. A page that matches intent brings visitors closer to the desired action with less friction.",
+    "Google's search quality rater guidelines split queries in a similar way using their own terms (Know, Do, Website, Visit-in-person). The four part classification widely used in SEO is below. You will also find a short definition in the [AI glossary](/en/ai-glossary)."
+   ]
+  },
+  {
+   "baslik": "The 4 types of search intent",
+   "paragraflar": [
+    {
+     "kartlar": [
+      {
+       "ikon": "📘",
+       "baslik": "Informational",
+       "metin": "The user wants to learn something. Guides, how to articles, definitions."
+      },
+      {
+       "ikon": "⚖️",
+       "baslik": "Commercial investigation",
+       "metin": "Comparing options before buying. Comparisons, reviews, best of lists."
+      },
+      {
+       "ikon": "🛒",
+       "baslik": "Transactional",
+       "metin": "Ready to act now. Product, category, booking or sign up pages."
+      },
+      {
+       "ikon": "🧭",
+       "baslik": "Navigational",
+       "metin": "Wants a specific site or page. Home page, login page, branch page."
+      }
+     ]
+    },
+    {
+     "alt": "1. Informational intent"
+    },
+    "The user wants an answer or information on a topic. Queries often include question words such as \"what is\", \"how\", \"why\" or \"when\". The right content is a guide or blog post that opens with a clear answer. Featured snippets and AI Overviews are common for these queries; I cover them in the [featured snippets and SERP features article](/en/featured-snippet-serp-ozellikleri).",
+    {
+     "alt": "2. Commercial investigation intent"
+    },
+    "The user mostly knows they will buy but has not chosen a product, brand or service. Patterns like \"best\", \"comparison\", \"reviews\", \"alternative\" and \"X vs Y\" are typical. Neutral comparison tables, decision criteria and real usage details suit these queries.",
+    {
+     "alt": "3. Transactional intent"
+    },
+    "The user is ready to act: buy, book, sign up or download. Queries with \"price\", \"buy\", \"order\", \"discount\", \"appointment\" or a location belong here. These need a product, category or service page, not a blog post. I explain how to build such pages in the [landing page SEO article](/en/landing-page-seo) and product copy in the [ecommerce product description article](/en/e-ticaret-urun-aciklamasi).",
+    {
+     "alt": "4. Navigational intent"
+    },
+    "The user wants to reach a specific brand or page, for example \"trendyol login\" or \"e-devlet\" (Turkey's e-government portal). Ranking for someone else's brand query is rarely realistic. For your own brand, a clear home page plus contact and branch pages is usually enough."
+   ]
+  },
+  {
+   "baslik": "Intent table with example queries",
+   "paragraflar": [
+    {
+     "tablo": {
+      "basliklar": [
+       "Query",
+       "Intent",
+       "Suitable page type"
+      ],
+      "satirlar": [
+       [
+        "is teeth whitening harmful",
+        "Informational",
+        "Expert reviewed blog post"
+       ],
+       [
+        "air fryer or oven",
+        "Commercial investigation",
+        "Comparison article"
+       ],
+       [
+        "best wireless earbuds 2026",
+        "Commercial investigation",
+        "Neutral list with a decision table"
+       ],
+       [
+        "iphone 17 price",
+        "Transactional",
+        "Product or category page"
+       ],
+       [
+        "kadikoy dentist appointment",
+        "Transactional (local)",
+        "Service and branch page, Business Profile"
+       ],
+       [
+        "hepsiburada seller panel",
+        "Navigational",
+        "The brand's own login page"
+       ],
+       [
+        "rent increase rate turkey",
+        "Informational",
+        "Short, current, sourced answer page"
+       ]
+      ]
+     }
+    },
+    "Some queries carry mixed intent. \"Boiler\" on its own can mean research or shopping, and Google then shows different types together on page one. Decide from the results page itself, not from guesswork."
+   ]
+  },
+  {
+   "baslik": "How to find search intent by reading the SERP",
+   "paragraflar": [
+    "The most reliable way to identify a query's intent is to search it on Google and study the first page. If possible, use a private window and the target country's location.",
+    {
+     "akis": {
+      "baslik": "Reading intent from the SERP",
+      "adimlar": [
+       {
+        "baslik": "Check result types",
+        "metin": "Note the share of blog posts, products, categories, comparisons and home pages in the top 10."
+       },
+       {
+        "baslik": "Count SERP features",
+        "metin": "Is there an AI Overview, featured snippet, shopping results, map pack or video carousel?"
+       },
+       {
+        "baslik": "Read title patterns",
+        "metin": "Repeated phrases like \"what is\", \"top 10\" or \"prices\" reveal intent."
+       },
+       {
+        "baslik": "Identify the format",
+        "metin": "List, guide, table or product grid; which one dominates?"
+       },
+       {
+        "baslik": "Choose the page type",
+        "metin": "Build your page around the dominant type, but be clearer or more complete than competitors."
+       }
+      ]
+     }
+    },
+    {
+     "kutu": {
+      "tur": "ipucu",
+      "baslik": "A map pack signals local intent",
+      "metin": "If a map pack appears on page one even without a location in the query, Google treats the query as local. A service page and Business Profile then matter more than a blog post."
+     }
+    },
+    "Check how your title and description will look on that results page with the [SERP preview tool](/en/serp-preview)."
+   ]
+  },
+  {
+   "baslik": "How to build a content plan around intent",
+   "paragraflar": [
+    "Once you have a keyword list, tag each query with an intent and group close queries with the same intent onto one page. The [keyword clustering tool](/en/keyword-clustering) speeds this up. The whole research process is covered in the [keyword research guide](/en/anahtar-kelime-arastirmasi).",
+    {
+     "liste": [
+      "Build a blog and guide calendar for informational clusters, following the rules for an [SEO friendly blog post](/en/seo-uyumlu-blog-yazisi).",
+      "Plan comparison and decision pages for commercial investigation queries.",
+      "Map transactional queries to product, category and service pages.",
+      "Link from informational pages to the related transactional pages.",
+      "Do not write several pages for the same intent and compete with yourself."
+     ]
+    },
+    "With informational queries, some clicks may be answered on the results page and never reach you; I cover this in the [zero click search article](/en/zero-click-arama). To tie an intent based plan to long term strategy, see the [content strategy guide](/en/icerik-stratejisi)."
+   ]
+  },
+  {
+   "baslik": "Help with intent matched content",
+   "paragraflar": [
+    "If you have traffic but no conversions, the problem is often an intent mismatch. As part of my [content strategy service](/en/content-strategy), I map your pages to intent and identify missing page types. [Book a free intro call](/en/book-a-call) to talk through your situation."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Bir sayfa birden çok arama niyetini hedefleyebilir mi?",
+   "c": "Yakın niyetler aynı sayfada karşılanabilir; örneğin bir kategori sayfasının altına kısa bir satın alma rehberi eklemek işe yarar. Ancak bilgi ve işlem niyetini tek sayfada zorlamak genellikle ikisini de zayıflatır. Baskın niyet için sayfayı kurun, diğerine iç link verin."
+  },
+  {
+   "s": "Arama niyeti zamanla değişir mi?",
+   "c": "Evet. Mevsim, gündem ve ürün yaşam döngüsü niyeti değiştirebilir; \"Black Friday\" sorgusu kasımda işlem, yılın geri kalanında bilgi ağırlıklı olabilir. Önemli sorgularınızın sonuç sayfasını birkaç ayda bir yeniden kontrol edin."
+  },
+  {
+   "s": "Arama niyetini araçlar otomatik belirleyebilir mi?",
+   "c": "Bazı anahtar kelime araçları sorgulara niyet etiketi ekler ve hızlı bir başlangıç sağlar. Bu etiketler tahmindir; önemli sorgularda kararı sonuç sayfasını kendiniz inceleyerek verin."
+  },
+  {
+   "s": "Yanlış niyete göre yazılmış bir sayfayı nasıl düzeltirim?",
+   "c": "Önce sorgunun sonuç sayfasında baskın içerik türünü belirleyin. Sayfanızı o türe dönüştürmek mümkünse aynı URL'de yeniden kurgulayın; değilse doğru türde yeni bir sayfa açıp eski sayfadan iç link ya da gerekiyorsa yönlendirme verin."
+  },
+  {
+   "s": "Yapay zekâ aramaları arama niyetini değiştiriyor mu?",
+   "c": "Yapay zekâ asistanlarında sorgular daha uzun ve konuşma diline yakın olabiliyor, ama temel amaçlar aynı kalıyor. Bilgi niyetli sorularda cevabın bir kısmı doğrudan özetlendiği için net ve alıntılanabilir pasajlar yazmak daha da önemli hale geliyor."
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Can one page target more than one search intent?",
+   "c": "Close intents can share a page; for example, adding a short buying guide below a category page works well. Forcing informational and transactional intent onto one page usually weakens both. Build the page for the dominant intent and link to the other."
+  },
+  {
+   "s": "Does search intent change over time?",
+   "c": "Yes. Seasons, news and product life cycles can shift intent; a \"Black Friday\" query may be transactional in November and mostly informational the rest of the year. Recheck the results page for your key queries every few months."
+  },
+  {
+   "s": "Can tools detect search intent automatically?",
+   "c": "Some keyword tools add intent labels to queries and give you a quick start. These labels are estimates; for important queries, decide by reviewing the results page yourself."
+  },
+  {
+   "s": "How do I fix a page written for the wrong intent?",
+   "c": "First identify the dominant content type on the query's results page. If you can turn your page into that type, rework it on the same URL; if not, create a new page of the right type and add an internal link from the old page, or a redirect if needed."
+  },
+  {
+   "s": "Is AI search changing search intent?",
+   "c": "Queries in AI assistants can be longer and more conversational, but the underlying goals stay the same. Because informational answers are often summarised directly, writing clear, quotable passages matters even more."
+  }
+ ]
+}

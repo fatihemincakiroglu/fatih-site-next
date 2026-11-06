@@ -1,0 +1,393 @@
+{
+ "kategori": "technical",
+ "etiket": "Teknik SEO",
+ "sure": 7,
+ "baslik_tr": "Canonical Etiket Nedir? 5 Kullanım Kuralı",
+ "baslik_en": "What Is a Canonical Tag? 5 Rules for Using It",
+ "meta_baslik_tr": "Canonical Etiket Nedir? 5 Kural",
+ "meta_baslik_en": "What Is a Canonical Tag? 5 Rules",
+ "meta_desc_tr": "Canonical etiket nedir, Google onu neden ipucu olarak görür? Kendine canonical, parametreli URL'ler ve sık hatalarla 5 kullanım kuralı.",
+ "meta_desc_en": "What a canonical tag is, why Google treats it as a hint, and 5 rules covering self-referencing canonicals, URL parameters and common mistakes.",
+ "ozet_tr": "Canonical etiket, kopya sayfalar arasında tercih ettiğiniz adresi Google'a söyler. Doğru kullanım için 5 kural ve sık hatalar.",
+ "ozet_en": "A canonical tag tells Google which of your duplicate URLs you prefer. Here are 5 rules for using it and the mistakes to avoid.",
+ "bolumler_tr": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "Canonical etiket (`rel=\"canonical\"`), aynı ya da çok benzer içeriğe birden fazla adresten ulaşılabildiğinde, bu adreslerden hangisinin arama sonuçlarında görünmesini istediğinizi Google'a bildiren bir HTML bağlantı öğesidir. Kısacası kopya adresler arasında \"asıl sayfa budur\" demenin yoludur.",
+    "E-ticaret filtreleri, UTM parametreleri, http ve https sürümleri, sonunda eğik çizgi olan ve olmayan adresler... Bir sitede aynı sayfanın onlarca kopyası farkında olmadan oluşabilir. Bu yazıda canonical etiketin ne yaptığını, Google'ın onu nasıl değerlendirdiğini ve sahada en çok işe yarayan 5 kullanım kuralını anlatıyorum. Terimin kısa tanımı [SEO ve yapay zekâ sözlüğünde](/ai-sozluk) de var.",
+    {
+     "alinti": "Kısa cevap: Canonical etiket, kopya ya da benzer sayfalar arasında tercih ettiğiniz URL'yi Google'a gösteren bir bağlantı öğesidir. Google bunu güçlü bir sinyal olarak kullanır ama bir kural değil ipucu olarak değerlendirir; diğer sinyaller çelişirse farklı bir sayfayı standart (canonical) seçebilir."
+    }
+   ]
+  },
+  {
+   "baslik": "Canonical etiket ne işe yarar?",
+   "paragraflar": [
+    "Google, içeriği aynı ya da çok benzer olan sayfaları bir grupta toplar ve bu gruptan birini standart sayfa olarak seçer. Arama sonuçlarında genellikle bu sayfa gösterilir; kopyalar ise daha seyrek taranır. Canonical etiket, bu seçimde sizin tercihinizi bildirmenizi sağlar.",
+    "Pratikte üç fayda sağlar: Hangi adresin sıralanacağını yönlendirirsiniz, raporlarınızda performans tek adreste toplanır ve Googlebot kopyaları taramaya daha az zaman harcar. Büyük sitelerde bu son nokta [crawl bütçesi](/crawl-butcesi) açısından da önemlidir.",
+    "Etiket, sayfanın `<head>` bölümüne eklenir. PDF gibi HTML olmayan dosyalar için aynı bilgi HTTP başlığıyla verilebilir:",
+    {
+     "kod": "<!-- https://www.ornekmagaza.com/kadin-ayakkabi?renk=siyah&sirala=fiyat -->\n<head>\n  <link rel=\"canonical\" href=\"https://www.ornekmagaza.com/kadin-ayakkabi\" />\n</head>\n\n<!-- PDF gibi HTML olmayan dosyalar için HTTP başlığı -->\nLink: <https://www.ornekmagaza.com/katalog.pdf>; rel=\"canonical\""
+    }
+   ]
+  },
+  {
+   "baslik": "Google canonical etiketi bir kural olarak mı görür?",
+   "paragraflar": [
+    "Hayır. Google Search Central dokümanı, standart sayfa tercihi belirtmenin \"bir kural değil, bir ipucu\" olduğunu açıkça yazıyor. Google; https kullanımı, yönlendirmeler, site haritası ve canonical etiketi gibi sinyalleri birlikte değerlendirir ve sizden farklı bir sayfa seçebilir.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Yöntem",
+       "Google'a göre sinyal gücü",
+       "Ne zaman kullanılır"
+      ],
+      "satirlar": [
+       [
+        "301 yönlendirme",
+        "Güçlü sinyal",
+        "Kopya sayfa artık kullanılmayacaksa"
+       ],
+       [
+        "rel=\"canonical\" etiketi",
+        "Güçlü sinyal",
+        "Kopya adresin erişilebilir kalması gerekiyorsa (filtre, parametre)"
+       ],
+       [
+        "HTTP başlığında canonical",
+        "rel=\"canonical\" ile aynı amaç",
+        "PDF gibi HTML olmayan dosyalar"
+       ],
+       [
+        "XML site haritası",
+        "Zayıf sinyal",
+        "Büyük sitelerde tercih edilen adresleri listelemek için"
+       ]
+      ]
+     }
+    },
+    "Bu yüzden canonical etiketi tek başına bir çözüm sanmayın. İç linkleriniz, site haritanız ve yönlendirmeleriniz başka bir adresi işaret ediyorsa etiketin ağırlığı azalır."
+   ]
+  },
+  {
+   "baslik": "Canonical etiket için 5 kullanım kuralı",
+   "paragraflar": [
+    {
+     "alt": "1. Her sayfaya kendine işaret eden canonical ekleyin"
+    },
+    "Google, standart sayfanın kendisine de canonical etiketi (self-referencing canonical) eklenmesini öneriyor. Böylece biri sayfanıza parametreli bir link verdiğinde ya da sayfa bir kampanya adresiyle açıldığında, tercih ettiğiniz URL net kalır.",
+    {
+     "alt": "2. Mutlak URL kullanın ve etiketi head içine koyun"
+    },
+    "`href` değeri protokol ve alan adıyla birlikte tam adres olmalı; Google göreli yol yerine mutlak yol kullanmanızı öneriyor. Etiket yalnızca `<head>` içindeyse kabul edilir. URL parçası (`#bolum`) canonical olarak verilmemeli. JavaScript ile çalışan sitelerde etiketi HTML kaynağında verip JavaScript ile değiştirmeyin; ayrıntılar [JavaScript SEO](/javascript-seo) yazısında.",
+    {
+     "alt": "3. Parametreli ve filtreli adresleri doğru sayfaya bağlayın"
+    },
+    "Sıralama (`?sirala=fiyat`), takip (`?utm_source=`) ve oturum parametreleri içeriği değiştirmiyorsa canonical temiz adrese gitmeli. Ama \"siyah deri bot\" gibi kendi arama talebi olan bir filtre sayfası ayrı sıralanacaksa ona kendi canonical'ını verin. Hangi parametrenin hangi davranışı alacağını [URL yapısı ve SEO](/url-yapisi-seo) yazısındaki şemayla planlayabilirsiniz.",
+    {
+     "alt": "4. Sinyalleri birbiriyle çelişkili göndermeyin"
+    },
+    "Canonical etiket A adresini, site haritası B adresini, iç linkler C adresini gösteriyorsa Google'ın kendi seçimini yapması çok olasıdır. Google, site haritasında ve canonical etiketinde aynı sayfa için farklı URL'ler vermemenizi açıkça istiyor. Çok dilli sitelerde canonical, aynı dildeki sayfayı göstermeli; hreflang kurgusu için [hreflang ve uluslararası SEO](/hreflang-uluslararasi-seo) yazısına ve [hreflang oluşturucu](/hreflang-olusturucu) aracına bakabilirsiniz.",
+    {
+     "alt": "5. Canonical yerine noindex, robots.txt ya da URL kaldırma aracı kullanmayın"
+    },
+    "Google, standart sayfa belirlemek için robots.txt kullanılmamasını, tek site içinde noindex ile canonical seçimini engellemeyi önermediğini ve URL kaldırma aracının tüm sürümleri aramadan gizlediğini belirtiyor. Robots.txt ile engellenen bir sayfadaki canonical etiketi zaten okunamaz.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Sayfalamada dikkat",
+      "metin": "Kategori sayfalamasında 2., 3. ve sonraki sayfaların canonical'ını 1. sayfaya vermek sık yapılan bir hata. Bu sayfalardaki ürünler farklıdır; her sayfa genellikle kendine işaret etmelidir."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Sık yapılan canonical hataları",
+   "paragraflar": [
+    "Teknik denetimlerde en sık karşılaştığım canonical sorunları genellikle bir tema ya da eklenti ayarından kaynaklanıyor ve sitedeki binlerce sayfayı birden etkiliyor.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Doğru uygulama",
+       "tur": "iyi",
+       "maddeler": [
+        "Canonical, 200 durum kodu dönen ve dizine eklenebilir bir sayfayı gösterir",
+        "Sayfa başına tek canonical etiketi vardır",
+        "Site haritasında yalnızca canonical URL'ler bulunur",
+        "İç linkler canonical adrese verilir"
+       ]
+      },
+      "sag": {
+       "baslik": "Sık görülen hata",
+       "tur": "kotu",
+       "maddeler": [
+        "Canonical, yönlendirilen ya da 404 dönen bir adresi gösterir",
+        "Tema ve SEO eklentisi iki farklı canonical basar",
+        "Tüm sayfaların canonical'ı ana sayfayı gösterir",
+        "Canonical sayfada noindex de vardır"
+       ]
+      }
+     }
+    },
+    "Bu hataların çoğu, daha geniş bir listenin parçası olarak [teknik SEO hataları](/teknik-seo-hatalari) yazısında da yer alıyor. Site taşıma sırasında canonical'ların eski alan adında kalması ise ayrı bir risk; [site taşıma SEO rehberi](/site-tasima-seo) bu kontrolü adım adım veriyor."
+   ]
+  },
+  {
+   "baslik": "Canonical etiket nasıl kontrol edilir?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Canonical kontrol akışı",
+      "adimlar": [
+       {
+        "baslik": "Kaynağı inceleyin",
+        "metin": "Sayfa kaynağında head içinde tek bir rel=\"canonical\" olduğunu ve mutlak URL verdiğini görün."
+       },
+       {
+        "baslik": "URL Denetimi",
+        "metin": "Search Console'da \"User-declared canonical\" ile \"Google-selected canonical\" alanlarını karşılaştırın."
+       },
+       {
+        "baslik": "Dizine ekleme raporu",
+        "metin": "\"Duplicate, Google chose different canonical than user\" satırındaki URL'leri inceleyin."
+       },
+       {
+        "baslik": "Tüm siteyi tarayın",
+        "metin": "Bir site tarayıcısıyla canonical'ı 3xx, 4xx ya da noindex sayfayı gösteren URL'leri listeleyin."
+       }
+      ]
+     }
+    },
+    "Search Console raporlarının nerede olduğunu ve nasıl okunduğunu [Google Search Console rehberinde](/search-console-rehberi) anlattım. Denetimden önce kısa bir kontrol listesi:",
+    {
+     "kontrol": [
+      "Her dizine eklenmesi istenen sayfada kendine işaret eden canonical var",
+      "Canonical adresleri https ve tercih edilen alan adı sürümüyle yazılmış",
+      "Parametreli URL'lerin canonical'ı bilinçli bir kurala göre belirlenmiş",
+      "Site haritası, iç linkler ve hreflang aynı canonical URL'leri gösteriyor"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Canonical mı, 301 yönlendirme mi?",
+   "paragraflar": [
+    "Kopya sayfayı ziyaretçinin görmesine gerek yoksa 301 yönlendirme daha güçlü ve net bir çözümdür; Google da yönlendirmeyi yalnızca kopya sayfayı kullanımdan kaldırırken önerir. Filtre, sıralama ya da kampanya adresi gibi kullanıcının ihtiyaç duyduğu kopyalarda ise canonical doğru araçtır.",
+    "İki yöntemin farkını [301 ve 302 yönlendirme](/301-302-yonlendirme) yazısında ayrıntılı ele aldım; kuralları hazırlamak için [yönlendirme oluşturucu](/yonlendirme-olusturucu) aracını kullanabilirsiniz. Sitenizdeki kopya içerik sorunlarının kapsamlı bir [teknik SEO denetimi](/teknik-seo) ile ele alınmasını isterseniz [SEO danışmanlığı](/seo-uzmani) için [ücretsiz ön görüşme](/randevu) planlayabiliriz."
+   ]
+  }
+ ],
+ "sss_tr": [
+  {
+   "s": "Canonical etiket sıralamayı yükseltir mi?",
+   "c": "Doğrudan bir sıralama artışı sağlamaz. Kopya adresler arasındaki sinyallerin tek bir URL'de toplanmasına ve doğru sayfanın görünmesine yardım eder. Asıl etkisi, karışıklığı ortadan kaldırmaktır."
+  },
+  {
+   "s": "Farklı alan adları arasında canonical kullanılabilir mi?",
+   "c": "Evet. Aynı içeriği başka bir sitede yayımladığınızda (örneğin bir makaleyi ortak bir yayında tekrar paylaştığınızda) diğer site sizin orijinal sayfanıza canonical verebilir. Ancak bu da bir ipucudur ve karşı tarafın uygulamasına bağlıdır."
+  },
+  {
+   "s": "WordPress'te canonical etiketi nasıl eklenir?",
+   "c": "Yoast SEO ve Rank Math gibi eklentiler her sayfaya otomatik olarak kendine işaret eden canonical ekler ve sayfa bazında değiştirmenize izin verir. Temanın ayrıca canonical basıp basmadığını sayfa kaynağından kontrol edin; iki etiket olmamalı."
+  },
+  {
+   "s": "Google seçtiğim canonical'ı neden yok sayıyor?",
+   "c": "En sık nedenler; iç linklerin ve site haritasının başka bir adresi göstermesi, iki sayfanın içeriğinin aslında farklı olması ya da canonical adresin yönlendirme veya hata döndürmesidir. URL Denetimi aracı Google'ın seçtiği adresi gösterir; sinyalleri o adrese göre hizalayın."
+  },
+  {
+   "s": "Canonical etiketi olan sayfa taranmaya devam eder mi?",
+   "c": "Evet, kopya sayfalar da taranır ama Google'a göre standart sayfadan daha seyrek. Bu nedenle canonical, tarama yükünü azaltır ama sıfırlamaz."
+  }
+ ],
+ "bolumler_en": [
+  {
+   "baslik": null,
+   "paragraflar": [
+    "A canonical tag (`rel=\"canonical\"`) is an HTML link element that tells Google which URL you want shown in search results when the same or very similar content is reachable at more than one address. Put simply, it is how you say \"this is the main page\" among duplicates.",
+    "Store filters, UTM parameters, http and https versions, URLs with and without a trailing slash... A site can end up with dozens of copies of the same page without anyone noticing. In this article I explain what the canonical tag does, how Google evaluates it, and the 5 rules that work best in practice. You will also find a short definition in the [SEO and AI glossary](/en/ai-glossary).",
+    {
+     "alinti": "Short answer: A canonical tag is a link element that points Google to your preferred URL among duplicate or similar pages. Google uses it as a strong signal but treats it as a hint, not a rule; if other signals conflict, it can choose a different page as canonical."
+    }
+   ]
+  },
+  {
+   "baslik": "What does a canonical tag do?",
+   "paragraflar": [
+    "Google groups pages whose content is the same or very similar and picks one of them as the canonical page. That page is usually the one shown in search results, while duplicates are crawled less often. The canonical tag lets you state your preference in that choice.",
+    "In practice it gives you three benefits: you influence which URL ranks, performance data in your reports consolidates on one address, and Googlebot spends less time crawling duplicates. On large sites that last point matters for [crawl budget](/en/crawl-butcesi) too.",
+    "The tag goes in the page's `<head>`. For non-HTML files such as PDFs, the same information can be sent in an HTTP header:",
+    {
+     "kod": "<!-- https://www.examplestore.com/womens-shoes?color=black&sort=price -->\n<head>\n  <link rel=\"canonical\" href=\"https://www.examplestore.com/womens-shoes\" />\n</head>\n\n<!-- HTTP header for non-HTML files such as PDFs -->\nLink: <https://www.examplestore.com/catalog.pdf>; rel=\"canonical\""
+    }
+   ]
+  },
+  {
+   "baslik": "Does Google treat the canonical tag as a rule?",
+   "paragraflar": [
+    "No. Google Search Central documentation states clearly that indicating a canonical preference is \"a hint, not a rule\". Google weighs signals such as HTTPS, redirects, sitemaps and the canonical tag together, and it may pick a different page than you did.",
+    {
+     "tablo": {
+      "basliklar": [
+       "Method",
+       "Signal strength per Google",
+       "When to use it"
+      ],
+      "satirlar": [
+       [
+        "301 redirect",
+        "Strong signal",
+        "When the duplicate page is being retired"
+       ],
+       [
+        "rel=\"canonical\" tag",
+        "Strong signal",
+        "When the duplicate must stay accessible (filters, parameters)"
+       ],
+       [
+        "Canonical in HTTP header",
+        "Same purpose as rel=\"canonical\"",
+        "Non-HTML files such as PDFs"
+       ],
+       [
+        "XML sitemap",
+        "Weak signal",
+        "Listing preferred URLs on large sites"
+       ]
+      ]
+     }
+    },
+    "So do not treat the canonical tag as a fix on its own. If your internal links, sitemap and redirects point to another address, the tag carries less weight."
+   ]
+  },
+  {
+   "baslik": "5 rules for using the canonical tag",
+   "paragraflar": [
+    {
+     "alt": "1. Add a self-referencing canonical to every page"
+    },
+    "Google recommends adding a canonical tag on the canonical page itself (a self-referencing canonical). That way, when someone links to your page with parameters or it opens through a campaign URL, your preferred URL stays clear.",
+    {
+     "alt": "2. Use absolute URLs and place the tag in the head"
+    },
+    "The `href` should be a full address with protocol and domain; Google recommends absolute paths over relative ones. The tag is only accepted inside `<head>`. Do not specify a URL fragment (`#section`) as canonical. On JavaScript sites, set the tag in the HTML source and do not let JavaScript change it; see [JavaScript SEO](/en/javascript-seo) for details.",
+    {
+     "alt": "3. Point parameter and filter URLs to the right page"
+    },
+    "If sorting (`?sort=price`), tracking (`?utm_source=`) or session parameters do not change the content, the canonical should point to the clean URL. But if a filter page such as \"black leather boots\" has its own search demand and should rank separately, give it its own canonical. You can plan which parameter gets which treatment with the scheme in [URL structure and SEO](/en/url-yapisi-seo).",
+    {
+     "alt": "4. Do not send conflicting signals"
+    },
+    "If the canonical tag points to URL A, the sitemap to URL B and internal links to URL C, Google is very likely to make its own choice. Google explicitly asks you not to specify different URLs for the same page in your sitemap and canonical tag. On multilingual sites the canonical should point to a page in the same language; for the hreflang setup see [hreflang and international SEO](/en/hreflang-uluslararasi-seo) and the [hreflang generator](/en/hreflang-generator).",
+    {
+     "alt": "5. Do not use noindex, robots.txt or the removal tool instead"
+    },
+    "Google says not to use robots.txt for canonicalization, does not recommend using noindex to steer canonical selection within a single site, and notes that the URL removal tool hides all versions of a URL from Search. A canonical tag on a page blocked by robots.txt cannot even be read.",
+    {
+     "kutu": {
+      "tur": "uyari",
+      "baslik": "Watch out with pagination",
+      "metin": "Pointing the canonical of category pages 2, 3 and beyond to page 1 is a common mistake. Those pages list different products; each one should usually reference itself."
+     }
+    }
+   ]
+  },
+  {
+   "baslik": "Common canonical mistakes",
+   "paragraflar": [
+    "The canonical problems I run into most during technical audits usually come from a single theme or plugin setting, which is why they affect thousands of pages at once.",
+    {
+     "karsilastir": {
+      "sol": {
+       "baslik": "Correct setup",
+       "tur": "iyi",
+       "maddeler": [
+        "The canonical points to an indexable page returning 200",
+        "Each page has exactly one canonical tag",
+        "The sitemap lists only canonical URLs",
+        "Internal links point to the canonical URL"
+       ]
+      },
+      "sag": {
+       "baslik": "Common mistake",
+       "tur": "kotu",
+       "maddeler": [
+        "The canonical points to a redirected or 404 URL",
+        "Theme and SEO plugin output two different canonicals",
+        "Every page's canonical points to the homepage",
+        "The canonical page also carries noindex"
+       ]
+      }
+     }
+    },
+    "Most of these also appear as part of a longer list in [common technical SEO mistakes](/en/teknik-seo-hatalari). Canonicals left on the old domain during a migration are a separate risk; the [site migration SEO guide](/en/site-tasima-seo) covers that check step by step."
+   ]
+  },
+  {
+   "baslik": "How do you check a canonical tag?",
+   "paragraflar": [
+    {
+     "akis": {
+      "baslik": "Canonical check workflow",
+      "adimlar": [
+       {
+        "baslik": "Inspect the source",
+        "metin": "Confirm there is a single rel=\"canonical\" in the head and that it uses an absolute URL."
+       },
+       {
+        "baslik": "URL Inspection",
+        "metin": "In Search Console, compare \"User-declared canonical\" with \"Google-selected canonical\"."
+       },
+       {
+        "baslik": "Page indexing report",
+        "metin": "Review the URLs under \"Duplicate, Google chose different canonical than user\"."
+       },
+       {
+        "baslik": "Crawl the whole site",
+        "metin": "Use a site crawler to list URLs whose canonical points to 3xx, 4xx or noindex pages."
+       }
+      ]
+     }
+    },
+    "I explain where these reports live and how to read them in the [Google Search Console guide](/en/search-console-rehberi). A short checklist before you audit:",
+    {
+     "kontrol": [
+      "Every page you want indexed has a self-referencing canonical",
+      "Canonical URLs use https and your preferred domain version",
+      "Canonicals on parameter URLs follow a deliberate rule",
+      "Sitemap, internal links and hreflang point to the same canonical URLs"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Canonical tag or 301 redirect?",
+   "paragraflar": [
+    "If visitors never need to see the duplicate page, a 301 redirect is the stronger and clearer solution; Google itself recommends redirects only when you are retiring a duplicate. For duplicates users do need, such as filter, sort or campaign URLs, the canonical tag is the right tool.",
+    "I cover the difference in detail in [301 vs 302 redirects](/en/301-302-yonlendirme), and you can build the rules with the [redirect generator](/en/redirect-generator). If you want duplicate content issues on your site handled as part of a thorough [technical SEO audit](/en/teknik-seo), we can [book a free intro call](/en/book-a-call) about [SEO consulting](/en/seo-consulting)."
+   ]
+  }
+ ],
+ "sss_en": [
+  {
+   "s": "Does a canonical tag improve rankings?",
+   "c": "Not directly. It helps consolidate signals from duplicate URLs onto one address so the right page appears. Its real effect is removing confusion."
+  },
+  {
+   "s": "Can I use a canonical across different domains?",
+   "c": "Yes. When the same content is published on another site, for example a syndicated article, that site can point a canonical to your original page. It is still a hint, and it depends on the other site implementing it."
+  },
+  {
+   "s": "How do I add a canonical tag in WordPress?",
+   "c": "Plugins such as Yoast SEO and Rank Math add a self-referencing canonical to every page automatically and let you change it per page. Check the page source to see whether your theme also outputs one; there should not be two."
+  },
+  {
+   "s": "Why does Google ignore the canonical I chose?",
+   "c": "The usual reasons are internal links and the sitemap pointing elsewhere, the two pages actually having different content, or the canonical URL redirecting or returning an error. URL Inspection shows the address Google picked; align your signals with your preferred one."
+  },
+  {
+   "s": "Is a page with a canonical tag still crawled?",
+   "c": "Yes. Duplicates are still crawled, but according to Google less often than the canonical page. So a canonical reduces crawl load but does not remove it."
+  }
+ ]
+}
