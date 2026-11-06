@@ -14,7 +14,7 @@
   {
    "baslik": null,
    "paragraflar": [
-    "Backlink analizinde iki farklı soru vardır: Google sitenize gelen hangi bağlantıları görüyor ve rakiplerinizin bağlantı profili nasıl? İlk soruya yalnızca Search Console birinci taraf veriyle cevap verir. İkinci soru için kendi tarayıcısıyla web'i dolaşan bağımsız bir veritabanı gerekir.",
+    "Backlink analizinde iki farklı soru vardır: Google sitenize gelen hangi bağlantıları görüyor ve rakiplerinizin bağlantı profili nasıl? İlk soruya yalnızca Search Console birinci taraf veriyle cevap verir. İkinci soru için kendi tarayıcısıyla web'i dolaşan bağımsız bir veritabanı gerekir. Bağlantının kendisini ve türlerini tanımak için önce [backlink nedir](/backlink-nedir) yazısına bakabilirsiniz.",
     "Aşağıdaki 10 aracı sıralama yapmadan, hangi işte güçlü olduklarına göre anlatıyorum. Her biri için en uygun durumu ve sınırı yazdım. Fiyat vermiyorum, güncel paketleri resmi sitelerden kontrol edin. Bu yazıda sponsorluk yoktur.",
     {
      "alinti": "Kısa cevap: Kendi sitenizin backlinklerini görmek için ücretsiz Google Search Console ve Bing Webmaster Tools ile başlayın. Rakip ve geniş link verisi için Ahrefs, Semrush, Majestic, Moz ya da SE Ranking gibi bir veritabanı kullanılır. DR, DA ve Trust Flow gibi puanlar araçların kendi metrikleridir, Google'ın sıralama sinyali değildir."
@@ -24,7 +24,7 @@
   {
    "baslik": "Backlink araçlarındaki metrikler ne anlama geliyor?",
    "paragraflar": [
-    "Her platform bağlantı gücünü kendi formülüyle puanlar. Bu puanlar karşılaştırma için faydalıdır ama aynı site için araçtan araca farklı çıkar.",
+    "Her platform bağlantı gücünü kendi formülüyle puanlar. Bu puanlar karşılaştırma için faydalıdır ama aynı site için araçtan araca farklı çıkar. Bu puanların Google ile ilişkisini [domain authority nedir](/domain-authority-nedir) yazısında ayrıntılı anlattım.",
     {
      "kartlar": [
       {
@@ -229,7 +229,7 @@
   {
    "baslik": null,
    "paragraflar": [
-    "Backlink analysis asks two different questions: which links to your site does Google see, and what do your competitors' link profiles look like? Only Search Console answers the first with first-party data. The second needs an independent database that crawls the web with its own bot.",
+    "Backlink analysis asks two different questions: which links to your site does Google see, and what do your competitors' link profiles look like? Only Search Console answers the first with first-party data. The second needs an independent database that crawls the web with its own bot. To understand links and their types first, see [what is a backlink](/en/backlink-nedir).",
     "I cover the 10 tools below without ranking them, by the job each one does well. For each I note the situation it suits best and its limit. I do not list prices; check current plans on the official sites. There is no sponsorship here.",
     {
      "alinti": "Short answer: To see your own backlinks, start with the free Google Search Console and Bing Webmaster Tools. For competitor and wider link data, use a database such as Ahrefs, Semrush, Majestic, Moz or SE Ranking. Scores like DR, DA and Trust Flow are the tools' own metrics, not Google ranking signals."
@@ -239,7 +239,7 @@
   {
    "baslik": "What do backlink tool metrics mean?",
    "paragraflar": [
-    "Each platform scores link strength with its own formula. The scores help with comparison but differ from tool to tool for the same site.",
+    "Each platform scores link strength with its own formula. The scores help with comparison but differ from tool to tool for the same site. I explain how these scores relate to Google in [what is domain authority](/en/domain-authority-nedir).",
     {
      "kartlar": [
       {

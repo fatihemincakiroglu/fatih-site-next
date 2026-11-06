@@ -46,6 +46,8 @@ const TR_PAGES = [
   { url: '/anahtar-kelime-gruplama', priority: '0.7', changefreq: 'monthly' },
   { url: '/site-haritasi-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/meta-etiket-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/indekslenebilirlik-kontrolu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/schema-dogrulayici', priority: '0.7', changefreq: 'monthly' },
   { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -93,6 +95,8 @@ const EN_PAGES = [
   { url: '/en/keyword-clustering', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/sitemap-generator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/meta-tag-generator', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/indexability-checker', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/schema-validator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -166,6 +170,8 @@ const TR_EN_MAP = {
   '/anahtar-kelime-gruplama': '/en/keyword-clustering',
   '/site-haritasi-olusturucu': '/en/sitemap-generator',
   '/meta-etiket-olusturucu': '/en/meta-tag-generator',
+  '/indekslenebilirlik-kontrolu': '/en/indexability-checker',
+  '/schema-dogrulayici': '/en/schema-validator',
   '/google-guncellemeleri': '/en/google-updates',
   '/klinik-seo': '/en/healthcare-seo',
   '/avukat-seo': '/en/law-firm-seo',

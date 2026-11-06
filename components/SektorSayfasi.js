@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { renderBlok, renderInline } from './IcerikBlok'
 import IlgiliRehberler from './IlgiliRehberler'
+import YaziKartlari from './YaziKartlari'
 import { SektorGscVakalari } from './GscVakalar'
 import { sektorProjeleri } from '../lib/gsc-vakalar'
 import { SEKTOR_LISTE } from '../lib/sektor-liste'
@@ -10,7 +11,7 @@ import { KONUMLAR } from '../lib/geo-konum/ilceler'
 const BASE = 'https://fatihemincakiroglu.com'
 
 // Sektör hizmet sayfası (TR: /sektorler/<slug>, EN: /en/industries/<slug_en>)
-export default function SektorSayfasi({ veri, isEn }) {
+export default function SektorSayfasi({ veri, isEn, yazilar = [] }) {
   if (!veri) return null
   const L = isEn ? 'en' : 'tr'
   const v = (k) => veri[`${k}_${L}`]
@@ -134,6 +135,9 @@ export default function SektorSayfasi({ veri, isEn }) {
         <SektorGscVakalari projeler={sektorProjeleri(veri.slug)} isEn={isEn} sektorAd={v('ad')} />
 
         <IlgiliRehberler sluglar={veri.rehberler || []} isEn={isEn} stil={{ maxWidth: '920px', padding: '16px 16px 8px' }} />
+
+        <YaziKartlari kartlar={yazilar} isEn={isEn}
+          baslik={isEn ? 'Related articles' : 'İlgili yazılar'} />
 
         <section style={{ maxWidth: '920px', margin: '0 auto', padding: '24px 16px 8px' }}>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(20px, 3vw, 26px)', fontWeight: 800, color: '#111', marginBottom: '14px' }}>

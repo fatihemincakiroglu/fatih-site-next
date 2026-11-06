@@ -199,7 +199,7 @@
  "sss_tr": [
   {
    "s": "Black Friday sayfasını kampanya dışında noindex yapmalı mıyım?",
-   "c": "Hayır. Noindex sayfayı dizinden çıkarır ve kampanya öncesi yeniden dizine girmesi zaman alabilir. Sayfayı yıl boyu yayında ve dizinde tutup içeriğini döneme göre güncellemek daha güvenlidir."
+   "c": "Hayır. Noindex sayfayı dizinden çıkarır ve kampanya öncesi yeniden dizine girmesi zaman alabilir. Sayfayı yıl boyu yayında ve dizinde tutup içeriğini döneme göre güncellemek daha güvenlidir. Aynı ilke kayıt dönemine göre çalışan okul ve kursların sayfaları için de geçerli; ayrıntısı [eğitim kurumları için SEO taktikleri](/egitim-kurumu-seo) yazısında."
   },
   {
    "s": "Kampanya için alt alan adı (kampanya.site.com) açmak mantıklı mı?",
@@ -411,7 +411,7 @@
  "sss_en": [
   {
    "s": "Should I noindex the Black Friday page outside the sale?",
-   "c": "No. Noindex removes the page from the index, and getting it back before the sale can take time. Keeping it live and indexed all year with seasonal updates is safer."
+   "c": "No. Noindex removes the page from the index, and getting it back before the sale can take time. Keeping it live and indexed all year with seasonal updates is safer. The same principle applies to schools and courses with enrolment seasons; see [SEO tactics for schools and education providers](/en/egitim-kurumu-seo)."
   },
   {
    "s": "Does a sale subdomain (sale.site.com) make sense?",

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import AracSayfa, { formStil as F } from '../../components/AracSayfa'
 import { semaUret, uyarilar, jsonLdMetni, ISLETME_TURLERI, GUNLER } from '../../lib/schema-uretici'
@@ -62,7 +63,7 @@ export default function SchemaOlusturucu(props) {
         'Üstten şema türünü seçin. Fiziksel adresi olan işletmeler için **Yerel İşletme**, marka veya şirket için **Kurum** uygundur.',
         'Bilgileri sitenizde ve Google Business Profile\'da göründüğü şekilde, birebir aynı yazımla girin.',
         'Sağdaki kodu kopyalayıp ilgili sayfanın <head> bölümüne ya da sayfa gövdesine ekleyin.',
-        'Yayınladıktan sonra Google\'ın Zengin Sonuçlar Testi ve Schema Markup Validator ile kontrol edin.',
+        'Kodu [schema doğrulayıcıda](/schema-dogrulayici) kontrol edin; yayınladıktan sonra Google\'ın Zengin Sonuçlar Testi ve Schema Markup Validator ile de deneyin.',
       ],
       sss: [
         { s: 'Girdiğim bilgiler bir yere kaydediliyor mu?', c: 'Hayır. Araç tamamen tarayıcınızda çalışır; girdiğiniz bilgiler sunucuya gönderilmez ve kaydedilmez.' },
@@ -80,7 +81,7 @@ export default function SchemaOlusturucu(props) {
         'Pick a schema type at the top. **Local Business** suits businesses with a physical address; **Organization** suits a brand or company.',
         'Enter your details exactly as they appear on your website and Google Business Profile.',
         'Copy the code on the right and add it to the <head> or body of the relevant page.',
-        'After publishing, check it with Google\'s Rich Results Test and the Schema Markup Validator.',
+        'Check the code in the [schema validator](/en/schema-validator); after publishing, also test it with Google\'s Rich Results Test and the Schema Markup Validator.',
       ],
       sss: [
         { s: 'Is the information I enter stored anywhere?', c: 'No. The tool runs entirely in your browser; nothing you type is sent to a server or saved.' },
@@ -222,6 +223,8 @@ export default function SchemaOlusturucu(props) {
             </ul>
           )}
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', marginTop: '12px', fontSize: '13px' }}>
+            {/* Oluşturulan kod sessionStorage ile doğrulayıcıya taşınır; doğrulayıcı açılışta okur ve siler */}
+            <Link href={isEn ? '/en/schema-validator' : '/schema-dogrulayici'} onClick={() => { try { sessionStorage.setItem('schemaDogrula', cikti) } catch { /* gizli mod: kodsuz açılır */ } }} style={{ color: 'var(--orange)', fontWeight: 600 }}>{t('Schema doğrulayıcıda kontrol et →', 'Check in the schema validator →')}</Link>
             <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--orange)', fontWeight: 600 }}>{t('Zengin Sonuçlar Testi ↗', 'Rich Results Test ↗')}</a>
             <a href="https://validator.schema.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--orange)', fontWeight: 600 }}>Schema Markup Validator ↗</a>
           </div>

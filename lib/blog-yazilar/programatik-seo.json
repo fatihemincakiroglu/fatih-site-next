@@ -87,7 +87,7 @@
       "Büyük ürün kataloglarında kategori ve filtre kombinasyonları; yalnızca gerçek arama talebi olan ve yeterli ürün içerenler.",
       "Gerçek şubesi ya da hizmet alanı olan işletmelerde konum sayfaları; adres, ekip, çalışma saati, bölgeye özgü bilgilerle.",
       "Rota, tarife, kur, hava durumu gibi her sorguda verisi değişen bilgi sayfaları.",
-      "Teknik özelliklere dayanan ürün ya da yazılım karşılaştırmaları.",
+      "Teknik özelliklere dayanan ürün ya da yazılım karşılaştırmaları. Yazılım tarafının ayrıntısı [SaaS ve B2B yazılım şirketleri için SEO taktikleri](/saas-b2b-seo) yazısında.",
       "Otel, tur ve destinasyon sayfaları; oda tipi, konum, mesafe ve güncel uygunluk verisiyle."
      ]
     },
@@ -198,7 +198,7 @@
       "Category and filter combinations in large product catalogues, limited to those with real search demand and enough products.",
       "Location pages for businesses with real branches or service areas, with address, team, opening hours and local details.",
       "Information pages where the data changes per query, such as routes, timetables, exchange rates or weather.",
-      "Product or software comparisons based on technical specifications.",
+      "Product or software comparisons based on technical specifications. For the software side, see [SEO tactics for SaaS and B2B software companies](/en/saas-b2b-seo).",
       "Hotel, tour and destination pages with room types, location, distances and current availability."
      ]
     },
@@ -243,7 +243,7 @@
   },
   {
    "s": "Hizmet vermediğim şehirler için sayfa açabilir miyim?",
-   "c": "Bu, Google'ın doorway örnekleriyle doğrudan örtüşür ve kullanıcıyı yanıltır. Yalnızca gerçekten hizmet verdiğiniz, o bölgeye özgü bilgi sunabildiğiniz konumlar için sayfa açın."
+   "c": "Bu, Google'ın doorway örnekleriyle doğrudan örtüşür ve kullanıcıyı yanıltır. Yalnızca gerçekten hizmet verdiğiniz, o bölgeye özgü bilgi sunabildiğiniz konumlar için sayfa açın. Emlak sitelerinde bölge ve mahalle sayfalarını bu ilkeyle kurmayı [emlak siteleri için SEO taktikleri](/emlak-seo) yazısında anlattım."
   },
   {
    "s": "Programatik sayfalara canonical vermek sorunu çözer mi?",
@@ -269,7 +269,7 @@
   },
   {
    "s": "Can I create pages for cities I do not serve?",
-   "c": "That maps directly onto Google's doorway examples and misleads users. Create pages only for locations you genuinely serve and can describe with area-specific information."
+   "c": "That maps directly onto Google's doorway examples and misleads users. Create pages only for locations you genuinely serve and can describe with area-specific information. I apply this principle to area and neighbourhood pages in [SEO tactics for real estate websites](/en/emlak-seo)."
   },
   {
    "s": "Does adding a canonical to programmatic pages solve the problem?",

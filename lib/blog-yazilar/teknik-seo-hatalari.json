@@ -39,11 +39,11 @@
     {
      "alt": "4. Yanlış ya da çelişkili canonical"
     },
-    "**Belirti:** \"Kopya, Google kullanıcıdan farklı bir standart sayfa seçti\" durumu. **Tespit:** URL Denetimi'nde kullanıcı tarafından belirtilen ve Google'ın seçtiği standart URL'yi karşılaştırın. **Çözüm:** Canonical'ı tüm sayfalarda ana sayfaya değil, kendi standart sürümüne verin; iç linkler ve site haritası da aynı URL'yi göstermeli. Dizine eklenmeyen sayfalar için [tarandı ama dizine eklenmemiş çözümü](/tarandi-dizine-eklenmemis).",
+    "**Belirti:** \"Kopya, Google kullanıcıdan farklı bir standart sayfa seçti\" durumu. **Tespit:** URL Denetimi'nde kullanıcı tarafından belirtilen ve Google'ın seçtiği standart URL'yi karşılaştırın. **Çözüm:** Canonical'ı tüm sayfalarda ana sayfaya değil, kendi standart sürümüne verin; iç linkler ve site haritası da aynı URL'yi göstermeli. Dizine eklenmeyen sayfalar için [tarandı ama dizine eklenmemiş çözümü](/tarandi-dizine-eklenmemis). Canonical etiketin beş kullanım kuralını [canonical etiket nedir](/canonical-etiket-nedir) yazısında topladım.",
     {
      "alt": "5. Site haritasında hatalı URL'ler"
     },
-    "**Belirti:** Site haritası raporunda gönderilen ve dizine eklenen sayı arasında büyük fark. **Tespit:** Haritayı tarayıcıda listeleyip durum kodlarını kontrol edin. **Çözüm:** Haritada yalnızca 200 dönen, noindex olmayan, standart URL'ler kalsın. Google'a göre site haritası bir ipucudur ve priority ile changefreq değerlerini yok sayar; lastmod'u yalnızca doğruysa kullanır."
+    "**Belirti:** Site haritası raporunda gönderilen ve dizine eklenen sayı arasında büyük fark. **Tespit:** Haritayı tarayıcıda listeleyip durum kodlarını kontrol edin. **Çözüm:** Haritada yalnızca 200 dönen, noindex olmayan, standart URL'ler kalsın. Google'a göre site haritası bir ipucudur ve priority ile changefreq değerlerini yok sayar; lastmod'u yalnızca doğruysa kullanır. Doğru haritayı hazırlamanın kurallarını [XML site haritası nedir](/xml-site-haritasi-nedir) yazısında anlattım."
    ]
   },
   {
@@ -209,11 +209,11 @@
     {
      "alt": "4. Wrong or conflicting canonicals"
     },
-    "**Symptom:** \"Duplicate, Google chose different canonical than user\". **Detect:** Compare the user-declared and Google-selected canonical in URL Inspection. **Fix:** Point each page's canonical at its own preferred version, not the homepage, and make internal links and the sitemap use the same URL. See [crawled, currently not indexed](/en/tarandi-dizine-eklenmemis) for indexing issues.",
+    "**Symptom:** \"Duplicate, Google chose different canonical than user\". **Detect:** Compare the user-declared and Google-selected canonical in URL Inspection. **Fix:** Point each page's canonical at its own preferred version, not the homepage, and make internal links and the sitemap use the same URL. See [crawled, currently not indexed](/en/tarandi-dizine-eklenmemis) for indexing issues. I collect five rules for canonical tags in [what is a canonical tag](/en/canonical-etiket-nedir).",
     {
      "alt": "5. Bad URLs in the sitemap"
     },
-    "**Symptom:** A big gap between submitted and indexed URLs in the Sitemaps report. **Detect:** Crawl the sitemap in list mode and check status codes. **Fix:** Keep only canonical, indexable URLs that return 200. Google treats a sitemap as a hint, ignores priority and changefreq, and uses lastmod only when it is accurate."
+    "**Symptom:** A big gap between submitted and indexed URLs in the Sitemaps report. **Detect:** Crawl the sitemap in list mode and check status codes. **Fix:** Keep only canonical, indexable URLs that return 200. Google treats a sitemap as a hint, ignores priority and changefreq, and uses lastmod only when it is accurate. I cover the rules for building a clean sitemap in [what is an XML sitemap](/en/xml-site-haritasi-nedir)."
    ]
   },
   {

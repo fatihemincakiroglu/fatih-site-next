@@ -158,7 +158,7 @@
   {
    "baslik": "Yayına almadan önce ürün sayfası kontrolü",
    "paragraflar": [
-    "Metin hazır olduğunda sayfanın geri kalanını da birlikte kontrol edin. Açıklama ne kadar iyi olursa olsun, eksik yapısal veri ya da yanlış görsel metni sayfanın değerini düşürür. Ürün görsellerinin dosya adı ve alt metni için [görsel SEO teknikleri](/gorsel-seo) yazısındaki kontrol listesini kullanabilirsiniz.",
+    "Metin hazır olduğunda sayfanın geri kalanını da birlikte kontrol edin. Açıklama ne kadar iyi olursa olsun, eksik yapısal veri ya da yanlış görsel metni sayfanın değerini düşürür. Ürün görsellerinin dosya adı ve alt metni için [görsel SEO teknikleri](/gorsel-seo) yazısındaki kontrol listesini kullanabilirsiniz. Product işaretlemesinin temellerini [schema markup nedir](/schema-markup-nedir) yazısında anlattım.",
     {
      "kontrol": [
       "Başlık müşterinin aradığı ürün adını, markayı ve ayırt edici özelliği içeriyor.",
@@ -354,7 +354,7 @@
   {
    "baslik": "Product page checks before publishing",
    "paragraflar": [
-    "Once the copy is ready, check the rest of the page too. However good the description, missing structured data or wrong image text lowers the page's value.",
+    "Once the copy is ready, check the rest of the page too. However good the description, missing [structured data markup](/en/schema-markup-nedir) or wrong image text lowers the page's value.",
     {
      "kontrol": [
       "The title includes the product name shoppers search for, the brand and a distinguishing feature.",

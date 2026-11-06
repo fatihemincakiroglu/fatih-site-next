@@ -79,6 +79,8 @@ const ARACLAR = [
   ['anahtar-kelime-gruplama', 'keyword-clustering'],
   ['site-haritasi-olusturucu', 'sitemap-generator'],
   ['meta-etiket-olusturucu', 'meta-tag-generator'],
+  ['indekslenebilirlik-kontrolu', 'indexability-checker'],
+  ['schema-dogrulayici', 'schema-validator'],
 ]
 function duzRotalar() {
   const oku = (y) => fs.readFileSync(new URL(y, import.meta.url), 'utf8')
@@ -221,6 +223,9 @@ const nextConfig = {
         // Markdown sürümleri: /<slug>.md ve /en/<slug>.md (blog mu rehber mi API slug'dan anlar)
         { source: '/:slug.md', destination: '/api/blog-md?slug=:slug&lang=tr' },
         { source: '/en/:slug.md', destination: '/api/blog-md?slug=:slug&lang=en' },
+        // Tüm içerik tek dosyada (yapay zekâ araçları için): /llms-full.txt ve /en/llms-full.txt
+        { source: '/llms-full.txt', destination: '/api/llms-full?lang=tr' },
+        { source: '/en/llms-full.txt', destination: '/api/llms-full?lang=en' },
       ],
       // Düz adres → sayfa dosyası (sayfa ve public dosyalarından sonra, dinamik rotalardan önce)
       afterFiles: duzRotalar().map(([source, destination]) => ({ source, destination })),

@@ -363,11 +363,11 @@
   },
   {
    "s": "Yönlendirme mi, canonical etiketi mi kullanmalıyım?",
-   "c": "Kullanıcının eski sayfayı görmesine gerek yoksa yönlendirme kullanın. İki sayfanın da erişilebilir kalması gerekiyorsa (örneğin parametreli filtre sayfaları) canonical daha uygundur. Canonical bir ipucudur; yönlendirme ise kullanıcıyı da taşır."
+   "c": "Kullanıcının eski sayfayı görmesine gerek yoksa yönlendirme kullanın. İki sayfanın da erişilebilir kalması gerekiyorsa (örneğin parametreli filtre sayfaları) canonical daha uygundur. Canonical bir ipucudur; yönlendirme ise kullanıcıyı da taşır. Canonical etiketin doğru kullanımını [canonical etiket nedir](/canonical-etiket-nedir) yazısında beş kuralla anlattım."
   },
   {
    "s": "Silinen sayfa için 404 mü dönmeli, 301 mi yapmalı?",
-   "c": "Aynı ihtiyacı karşılayan bir sayfa varsa 301 yapın. Karşılığı yoksa 404 ya da 410 döndürmek dürüst ve doğru bir sinyaldir. Her silinen sayfayı ana sayfaya yönlendirmek kullanıcıyı da yanıltır."
+   "c": "Aynı ihtiyacı karşılayan bir sayfa varsa 301 yapın. Karşılığı yoksa 404 ya da 410 döndürmek dürüst ve doğru bir sinyaldir. Her silinen sayfayı ana sayfaya yönlendirmek kullanıcıyı da yanıltır. Satılan araç ilanlarında bu kararın nasıl verileceğini [oto galeriler için SEO taktikleri](/oto-galeri-seo) yazısında örnekledim."
   },
   {
    "s": "Search Console'daki “Yönlendirmeli sayfa” uyarısı sorun mu?",
@@ -389,11 +389,11 @@
   },
   {
    "s": "Should I use a redirect or a canonical tag?",
-   "c": "Use a redirect if users never need to see the old page. If both pages must stay accessible, such as parameterised filter pages, a canonical fits better. A canonical is a hint; a redirect moves the user as well."
+   "c": "Use a redirect if users never need to see the old page. If both pages must stay accessible, such as parameterised filter pages, a canonical fits better. A canonical is a hint; a redirect moves the user as well. I cover correct canonical use in five rules in [what is a canonical tag](/en/canonical-etiket-nedir)."
   },
   {
    "s": "Should a deleted page return 404 or be redirected with 301?",
-   "c": "If another page serves the same need, use a 301. If there is no equivalent, returning 404 or 410 is an honest and correct signal."
+   "c": "If another page serves the same need, use a 301. If there is no equivalent, returning 404 or 410 is an honest and correct signal. I walk through this decision for sold vehicle listings in [SEO tactics for car dealerships](/en/oto-galeri-seo)."
   },
   {
    "s": "Is the “Page with redirect” status in Search Console a problem?",

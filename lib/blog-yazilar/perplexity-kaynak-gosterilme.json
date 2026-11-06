@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Perplexity, soruları web'de arama yaparak yanıtlayan bir cevap motorudur. Resmi yardım merkezine göre içerik soru sorulduğu anda web'den gerçek zamanlı olarak alınır ve her cevapta, bilgiyi doğrulayabilmeniz için orijinal kaynaklara giden atıflar ve bağlantılar bulunur. Bu yapı, markalar için somut bir fırsat sunar: Perplexity cevabında kaynak olarak gösterilmek, hem görünürlük hem de nitelikli bir ziyaret anlamına gelebilir.",
-    "Bu yazıda Perplexity'ye özgü kısmı anlatıyorum: tarayıcı erişimi, kaynak gösterilmeye uygun sayfa yapısı ve ölçüm. Genel GEO sürecini, yani soru seti, varlık netliği ve marka bahsi adımlarını [GEO uygulama rehberinde](/geo-uygulama) ayrıntılı ele aldığım için burada tekrar etmiyorum.",
+    "Bu yazıda Perplexity'ye özgü kısmı anlatıyorum: tarayıcı erişimi, kaynak gösterilmeye uygun sayfa yapısı ve ölçüm. Genel GEO sürecini, yani soru seti, varlık netliği ve marka bahsi adımlarını [GEO uygulama rehberinde](/geo-uygulama) ayrıntılı ele aldığım için burada tekrar etmiyorum. Varlık netliğinin Google tarafındaki karşılığını [knowledge graph nedir](/knowledge-graph-nedir) yazısında ele aldım.",
     {
      "alinti": "Kısa cevap: Perplexity'de kaynak gösterilmek için önce sitenizin PerplexityBot'a açık olması, ardından soruları doğrudan ve doğrulanabilir biçimde yanıtlayan sayfalarınızın bulunması gerekir. Perplexity kaynak seçim formülünü kamuya açıklamıyor; bu yüzden kendi sitenizin yanında markanızın anıldığı üçüncü taraf kaynakları da güçlendirmek ve sonucu düzenli test etmek en sağlıklı yoldur."
     }
@@ -147,7 +147,7 @@
    "baslik": null,
    "paragraflar": [
     "Perplexity is an answer engine that responds to questions by searching the web. According to its official help centre, content is sourced from the web in real time as you ask, and every answer includes citations and links to original sources so you can verify the information. That gives brands a concrete opportunity: being cited in a Perplexity answer can mean both visibility and a qualified visit.",
-    "In this post I cover the Perplexity-specific part: crawler access, page structure that is ready to be cited, and measurement. I cover the general GEO process, meaning the question set, entity clarity and brand mentions, in detail in the [GEO implementation guide](/en/geo-uygulama), so I won't repeat it here.",
+    "In this post I cover the Perplexity-specific part: crawler access, page structure that is ready to be cited, and measurement. For how Google models brands as entities, see [what is the Knowledge Graph](/en/knowledge-graph-nedir). I cover the general GEO process, meaning the question set, entity clarity and brand mentions, in detail in the [GEO implementation guide](/en/geo-uygulama), so I won't repeat it here.",
     {
      "alinti": "Short answer: To be cited by Perplexity, your site first has to be open to PerplexityBot, and then you need pages that answer questions directly and verifiably. Perplexity does not publish its source-selection formula, so the soundest approach is to strengthen the third-party sources that mention your brand alongside your own site, and to test the results regularly."
     }
@@ -289,7 +289,7 @@
   },
   {
    "s": "Perplexity'de kaynak gösterilmek Google sıralamasıyla ilişkili mi?",
-   "c": "Perplexity, kaynak seçiminde hangi arama altyapısını ve sinyalleri kullandığını ayrıntılı olarak açıklamıyor; bu yüzden doğrudan bir ilişki iddia etmek doğru olmaz. Ancak taranabilir, net ve güvenilir içerik iki tarafta da işe yarar."
+   "c": "Perplexity, kaynak seçiminde hangi arama altyapısını ve sinyalleri kullandığını ayrıntılı olarak açıklamıyor; bu yüzden doğrudan bir ilişki iddia etmek doğru olmaz. Ancak taranabilir, net ve güvenilir içerik iki tarafta da işe yarar. Yapay zekâ aramasında kaynak seçilmenin genel koşullarını [RAG nedir](/rag-nedir) yazısında anlattım."
   },
   {
    "s": "Değişikliklerin Perplexity cevaplarına yansıması ne kadar sürer?",
@@ -315,7 +315,7 @@
   },
   {
    "s": "Is being cited in Perplexity related to Google rankings?",
-   "c": "Perplexity does not disclose in detail which search infrastructure or signals it uses for source selection, so claiming a direct link would be wrong. Crawlable, clear and trustworthy content works on both sides, though."
+   "c": "Perplexity does not disclose in detail which search infrastructure or signals it uses for source selection, so claiming a direct link would be wrong. Crawlable, clear and trustworthy content works on both sides, though. I cover the general conditions for being chosen as a source in AI search in [what is RAG](/en/rag-nedir)."
   },
   {
    "s": "How long do changes take to show up in Perplexity answers?",

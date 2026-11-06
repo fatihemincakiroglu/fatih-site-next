@@ -25,7 +25,7 @@
    "baslik": "AI Bakışı kaynak bağlantılarını nasıl seçiyor?",
    "paragraflar": [
     "AI Bakışı, klasik sonuçların üstünde yapay zekâ ile oluşturulmuş kısa bir özet ve onu destekleyen bağlantılar gösterir. Google'ın dokümanına göre bu özet her sorguda çıkmaz; sistemler yalnızca klasik aramaya bir katkı sağlayacağına karar verdiğinde tetiklenir.",
-    "Dokümanda dikkat çeken bir kavram var: **query fan-out**. AI Bakışı ve AI Modu bir cevap oluştururken alt konular ve veri kaynakları genelinde birden fazla ilişkili arama yapabiliyor. Bu yüzden destekleyici bağlantılar klasik ilk 10 sonuçtan daha geniş ve çeşitli bir kümeden gelebiliyor; ana sorguda ilk sayfada olmayan ama bir alt soruyu iyi yanıtlayan sayfa da kaynak olabilir.",
+    "Dokümanda dikkat çeken bir kavram var: **query fan-out**. AI Bakışı ve AI Modu bir cevap oluştururken alt konular ve veri kaynakları genelinde birden fazla ilişkili arama yapabiliyor. Bu yüzden destekleyici bağlantılar klasik ilk 10 sonuçtan daha geniş ve çeşitli bir kümeden gelebiliyor; ana sorguda ilk sayfada olmayan ama bir alt soruyu iyi yanıtlayan sayfa da kaynak olabilir. Bu getir ve özetle mantığının genel adı olan RAG yaklaşımını [RAG nedir](/rag-nedir) yazısında sade bir dille anlattım.",
     "AI Modu'nun Türkiye'deki kullanımı ve AI Bakışı'ndan farkı için [Google AI Mode Türkiye yazısına](/google-ai-mode-turkiye) bakabilirsiniz; burada yalnızca AI Bakışı'nda kaynak olma tarafına odaklanıyorum."
    ]
   },
@@ -203,7 +203,7 @@
    "baslik": "How does AI Overviews choose its supporting links?",
    "paragraflar": [
     "AI Overviews shows a short AI-generated summary above classic results, along with links that support it. According to Google's documentation, it does not appear for every query; it is triggered only when the systems decide it adds something to classic Search.",
-    "One concept in the documentation stands out: **query fan-out**. When building a response, AI Overviews and AI Mode may issue multiple related searches across subtopics and data sources. That is why supporting links can come from a wider, more varied set than the classic top ten; a page that is not on page one for the main query but answers a sub-question well can still be cited.",
+    "One concept in the documentation stands out: **query fan-out**. When building a response, AI Overviews and AI Mode may issue multiple related searches across subtopics and data sources. That is why supporting links can come from a wider, more varied set than the classic top ten; a page that is not on page one for the main query but answers a sub-question well can still be cited. I explain the retrieve and summarise approach behind this, known as RAG, in [what is RAG](/en/rag-nedir).",
     "For how AI Mode works in Turkey and how it differs from AI Overviews, see the [Google AI Mode in Turkey article](/en/google-ai-mode-turkiye)."
    ]
   },

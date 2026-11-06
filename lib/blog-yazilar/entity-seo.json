@@ -63,7 +63,7 @@
    "baslik": "Knowledge Graph ve bilgi paneli nasıl oluşur?",
    "paragraflar": [
     "Google, Knowledge Graph'ı insanlar, yerler ve şeyler hakkında milyarlarca bilgiden oluşan bir veritabanı olarak tanımlıyor. Yardım sayfalarına göre bilgi panelleri Google'ın sistemleri tarafından otomatik oluşturuluyor ve web'deki bilgiler değiştikçe otomatik güncelleniyor; bilgiler web'deki çeşitli kaynaklardan, bazı konularda veri ortaklarından geliyor.",
-    "Yani bilgi paneli için başvurulacak bir form yok. Panel oluştuktan sonra resmi temsilci \"Bu bilgi panelini sahiplen\" adımıyla doğrulama yapıp değişiklik önerebilir. Doğrulamada YouTube, Search Console gibi resmi hesaplardan birine giriş istenebiliyor.",
+    "Yani bilgi paneli için başvurulacak bir form yok. Panel oluştuktan sonra resmi temsilci \"Bu bilgi panelini sahiplen\" adımıyla doğrulama yapıp değişiklik önerebilir. Doğrulamada YouTube, Search Console gibi resmi hesaplardan birine giriş istenebiliyor. Panelin oluşmasına zemin hazırlayan adımları [knowledge graph nedir](/knowledge-graph-nedir) yazısında altı maddede topladım.",
     {
      "kutu": {
       "tur": "not",
@@ -223,7 +223,7 @@
    "baslik": "How are the Knowledge Graph and knowledge panels built?",
    "paragraflar": [
     "Google describes the Knowledge Graph as a database of billions of facts about people, places and things. According to its help pages, knowledge panels are created automatically by Google's systems and updated automatically as information changes on the web; the information comes from various sources across the web and, for some topics, from data partners.",
-    "So there is no form to apply for a knowledge panel. Once a panel exists, an official representative can verify through the \"Claim this knowledge panel\" step and suggest changes. Verification may ask you to sign in to an official account such as YouTube or Search Console.",
+    "So there is no form to apply for a knowledge panel. Once a panel exists, an official representative can verify through the \"Claim this knowledge panel\" step and suggest changes. Verification may ask you to sign in to an official account such as YouTube or Search Console. I list six steps that prepare the ground for a panel in [what is the Knowledge Graph](/en/knowledge-graph-nedir).",
     {
      "kutu": {
       "tur": "not",

@@ -24,9 +24,9 @@
   {
    "baslik": "Toksik backlink nedir, Google bu kavramı kullanır mı?",
    "paragraflar": [
-    "“Toksik backlink” Google'ın değil, üçüncü taraf SEO araçlarının kullandığı bir ifade. Bu araçlar bağlantıları kendi ölçütlerine göre puanlar; puan Google'ın o bağlantıyı nasıl değerlendirdiğini göstermez. Google'ın dokümanlarında geçen ifade “spam, yapay ya da düşük kaliteli bağlantılar” ve ölçüt, bağlantının sıralamayı manipüle etmek amacıyla oluşturulup oluşturulmadığı.",
+    "“Toksik backlink” Google'ın değil, üçüncü taraf SEO araçlarının kullandığı bir ifade. Bu araçlar bağlantıları kendi ölçütlerine göre puanlar; puan Google'ın o bağlantıyı nasıl değerlendirdiğini göstermez. Google'ın dokümanlarında geçen ifade “spam, yapay ya da düşük kaliteli bağlantılar” ve ölçüt, bağlantının sıralamayı manipüle etmek amacıyla oluşturulup oluşturulmadığı. Aynı mantık araçların otorite puanları için de geçerli; ayrıntısı [domain authority nedir](/domain-authority-nedir) yazısında.",
     "Google'ın spam politikaları bağlantı spam'ini, öncelikle arama sıralamasını manipüle etmek için sitelere ya da sitelerden bağlantı oluşturmak olarak tanımlıyor: ücretli bağlantılar, aşırı link takası, otomatik link üretimi, düşük kaliteli dizinler ve optimize anchor'lı konuk yazılar. Anchor tarafı için [anchor text stratejisi](/anchor-text) yazısına bakabilirsiniz.",
-    "Düşük otoriteli, yabancı dilde ya da alakasız bir siteden gelen bağlantı tek başına zararlı değildir. Asıl soru, bağlantının sizin ya da sizin adınıza çalışan birinin kurduğu bir link şemasının parçası olup olmadığıdır."
+    "Düşük otoriteli, yabancı dilde ya da alakasız bir siteden gelen bağlantı tek başına zararlı değildir. Asıl soru, bağlantının sizin ya da sizin adınıza çalışan birinin kurduğu bir link şemasının parçası olup olmadığıdır. İyi bir bağlantının nasıl anlaşılacağını [backlink nedir](/backlink-nedir) yazısında anlattım."
    ]
   },
   {
@@ -192,9 +192,9 @@
   {
    "baslik": "What is a toxic backlink, and does Google use the term?",
    "paragraflar": [
-    "“Toxic backlink” is SEO tool vocabulary, not Google's. Tools score links by their own criteria, and that score does not reflect how Google treats a link. Google's documentation speaks of “spammy, artificial, or low-quality links”, and the test is whether a link was built to manipulate rankings.",
+    "“Toxic backlink” is SEO tool vocabulary, not Google's. Tools score links by their own criteria, and that score does not reflect how Google treats a link. Google's documentation speaks of “spammy, artificial, or low-quality links”, and the test is whether a link was built to manipulate rankings. The same applies to the authority scores tools report; see [what is domain authority](/en/domain-authority-nedir).",
     "Google's spam policies define link spam as creating links to or from a site primarily to manipulate rankings: paid links, excessive link exchanges, automated link building, low-quality directories and guest posts with optimized anchors. The [anchor text strategy](/en/anchor-text) article covers the anchor side.",
-    "A link from a weak or unrelated site is not harmful by default; what matters is whether it belongs to a scheme you, or someone acting for you, built."
+    "A link from a weak or unrelated site is not harmful by default; what matters is whether it belongs to a scheme you, or someone acting for you, built. I explain how to recognise a good link in [what is a backlink](/en/backlink-nedir)."
    ]
   },
   {

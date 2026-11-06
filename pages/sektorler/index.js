@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { SEKTOR_LISTE } from '../../lib/sektor-liste'
+import YaziKartlari from '../../components/YaziKartlari'
+import { yaziKartlari, SEKTOREL_YAZILAR } from '../../lib/yazi-kart'
 
 const BASE = 'https://fatihemincakiroglu.com'
 
@@ -69,7 +71,17 @@ export default function Sektorler(props) {
             })}
           </div>
         </main>
+        <YaziKartlari kartlar={isEn ? props.yazilarEn : props.yazilarTr} isEn={isEn}
+          stil={{ maxWidth: 'var(--max-w)', padding: '0 16px 96px', marginTop: '-56px' }}
+          baslik={isEn ? 'SEO tactics for other industries' : 'Diğer sektörler için SEO taktikleri'}
+          aciklama={isEn
+            ? 'Practical, numbered SEO guides for industries without a dedicated service page: real estate, restaurants, beauty salons, schools, car dealers, SaaS, accountants and architects.'
+            : 'Ayrı hizmet sayfası olmayan sektörler için sayılı, uygulanabilir SEO rehberleri: emlak, restoran ve kafe, güzellik merkezi, eğitim kurumu, oto galeri, SaaS, muhasebe bürosu ve mimarlık ofisi.'} />
       </div>
     </>
   )
+}
+
+export async function getStaticProps() {
+  return { props: { yazilarTr: yaziKartlari(SEKTOREL_YAZILAR, 'tr'), yazilarEn: yaziKartlari(SEKTOREL_YAZILAR, 'en') } }
 }

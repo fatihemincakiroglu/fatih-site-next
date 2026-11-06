@@ -12,7 +12,7 @@ Fatih Emin Çakıroğlu specializes in Technical SEO, GEO, Content Strategy, Bac
 - [Content Strategy](https://fatihemincakiroglu.com/icerik): Topical authority and content production
 - [Blog](https://fatihemincakiroglu.com/blog): SEO, GEO and digital marketing articles
 - [Guides](https://fatihemincakiroglu.com/rehber): Comprehensive SEO and GEO guides
-- [AI Glossary](https://fatihemincakiroglu.com/ai-sozluk): 125+ SEO, GEO and AI terms
+- [AI Glossary](https://fatihemincakiroglu.com/ai-sozluk): 36 SEO, GEO and AI terms
 - [FAQ](https://fatihemincakiroglu.com/sss): 100+ questions about SEO consulting
 - [About](https://fatihemincakiroglu.com/hakkimda): Background and expertise
 - [Contact](https://fatihemincakiroglu.com/iletisim): Get in touch
@@ -23,6 +23,10 @@ Fatih Emin Çakıroğlu specializes in Technical SEO, GEO, Content Strategy, Bac
 - Content Strategy (topical authority, E-E-A-T, pillar-cluster model)
 - Backlink & Digital PR (editorial links, media relations)
 - Performance & Growth (traffic analysis, conversion optimization)
+
+## Full Content
+- [llms-full.txt (Turkish)](https://fatihemincakiroglu.com/llms-full.txt): full Markdown text of every guide and published article in one file
+- [llms-full.txt (English)](https://fatihemincakiroglu.com/en/llms-full.txt): the same in English
 
 ## Content Usage
 Content on this site may be cited for informational purposes. Please attribute as: "Fatih Emin Çakıroğlu (fatihemincakiroglu.com)"
@@ -172,5 +176,7 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [Anahtar Kelime Gruplama Aracı](https://fatihemincakiroglu.com/anahtar-kelime-gruplama)
 - [XML Site Haritası Oluşturucu](https://fatihemincakiroglu.com/site-haritasi-olusturucu)
 - [Meta Etiket Oluşturucu](https://fatihemincakiroglu.com/meta-etiket-olusturucu)
+- [İndekslenebilirlik Kontrolü](https://fatihemincakiroglu.com/indekslenebilirlik-kontrolu)
+- [Schema Doğrulayıcı (JSON-LD)](https://fatihemincakiroglu.com/schema-dogrulayici)
 - [Ücretsiz SEO kontrol listeleri (PDF)](https://fatihemincakiroglu.com/kaynaklar#kontrol-listeleri)
 - [Google Güncellemeleri Günlüğü](https://fatihemincakiroglu.com/google-guncellemeleri)

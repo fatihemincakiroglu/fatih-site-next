@@ -5,8 +5,8 @@ import { useRouter } from 'next/router'
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
 import { duzYol } from '../lib/urls'
 
-const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/schema-olusturucu', yonlendirmeArac:'/yonlendirme-olusturucu', robotsArac:'/robots-txt-test', hreflangArac:'/hreflang-olusturucu', serpArac:'/serp-onizleme', utmArac:'/utm-olusturucu', ogArac:'/og-onizleme', roiArac:'/seo-roi-hesaplayici', yzKontrolArac:'/yonlendirme-zinciri-kontrol', gruplamaArac:'/anahtar-kelime-gruplama', sitemapArac:'/site-haritasi-olusturucu', metaArac:'/meta-etiket-olusturucu', guncellemeler:'/google-guncellemeleri' }
-const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/schema-generator', yonlendirmeArac:'/en/redirect-generator', robotsArac:'/en/robots-txt-tester', hreflangArac:'/en/hreflang-generator', serpArac:'/en/serp-preview', utmArac:'/en/utm-builder', ogArac:'/en/og-preview', roiArac:'/en/seo-roi-calculator', yzKontrolArac:'/en/redirect-checker', gruplamaArac:'/en/keyword-clustering', sitemapArac:'/en/sitemap-generator', metaArac:'/en/meta-tag-generator', guncellemeler:'/en/google-updates' }
+const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/schema-olusturucu', yonlendirmeArac:'/yonlendirme-olusturucu', robotsArac:'/robots-txt-test', hreflangArac:'/hreflang-olusturucu', serpArac:'/serp-onizleme', utmArac:'/utm-olusturucu', ogArac:'/og-onizleme', roiArac:'/seo-roi-hesaplayici', yzKontrolArac:'/yonlendirme-zinciri-kontrol', gruplamaArac:'/anahtar-kelime-gruplama', sitemapArac:'/site-haritasi-olusturucu', metaArac:'/meta-etiket-olusturucu', indeksArac:'/indekslenebilirlik-kontrolu', schemaDogrulaArac:'/schema-dogrulayici', guncellemeler:'/google-guncellemeleri' }
+const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/schema-generator', yonlendirmeArac:'/en/redirect-generator', robotsArac:'/en/robots-txt-tester', hreflangArac:'/en/hreflang-generator', serpArac:'/en/serp-preview', utmArac:'/en/utm-builder', ogArac:'/en/og-preview', roiArac:'/en/seo-roi-calculator', yzKontrolArac:'/en/redirect-checker', gruplamaArac:'/en/keyword-clustering', sitemapArac:'/en/sitemap-generator', metaArac:'/en/meta-tag-generator', indeksArac:'/en/indexability-checker', schemaDogrulaArac:'/en/schema-validator', guncellemeler:'/en/google-updates' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
@@ -32,6 +32,8 @@ const TR_TO_EN = {
   '/anahtar-kelime-gruplama':'/en/keyword-clustering',
   '/site-haritasi-olusturucu':'/en/sitemap-generator',
   '/meta-etiket-olusturucu':'/en/meta-tag-generator',
+  '/indekslenebilirlik-kontrolu':'/en/indexability-checker',
+  '/schema-dogrulayici':'/en/schema-validator',
   '/google-guncellemeleri':'/en/google-updates',
   '/klinik-seo':'/en/healthcare-seo',
   '/avukat-seo':'/en/law-firm-seo',
@@ -58,6 +60,7 @@ function resolveAltPath(asPath, isEn) {
   return TR_TO_EN[cleanPath] || '/en'
 }
 
+// Alt menüde { grup:'...' } öğesi küçük bir grup etiketi olarak çizilir (Araçlar menüsü, /araclar sayfasındaki gruplarla aynı)
 const getMenu = (isEn, u) => isEn ? [
   { label:'Services', url:u.hizmetler, altlar:[
     { label:'SEO Consulting', url:u.seo, ikon:'🔍', alt:'Technical SEO & content optimization' },
@@ -80,18 +83,24 @@ const getMenu = (isEn, u) => isEn ? [
   ]},
   { label:'Tools', url:u.araclar, altlar:[
     { label:'All tools', url:u.araclar, ikon:'🧰', alt:'Free SEO tools' },
-    { label:'Schema Generator', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD code' },
+    { grup:'Technical SEO' },
+    { label:'robots.txt Tester', url:u.robotsArac, ikon:'🤖', alt:'Bot access test' },
     { label:'Redirect Generator', url:u.yonlendirmeArac, ikon:'🔀', alt:'301 rules' },
     { label:'Redirect Checker', url:u.yzKontrolArac, ikon:'⛓️', alt:'Chains & status codes' },
-    { label:'robots.txt Tester', url:u.robotsArac, ikon:'🤖', alt:'Bot access test' },
+    { label:'Indexability Checker', url:u.indeksArac, ikon:'🔎', alt:'noindex, canonical, robots.txt' },
     { label:'hreflang Generator', url:u.hreflangArac, ikon:'🌐', alt:'Multilingual sites' },
-    { label:'SERP Preview', url:u.serpArac, ikon:'🔍', alt:'Title & description' },
-    { label:'UTM Link Builder', url:u.utmArac, ikon:'🏷️', alt:'Campaign links' },
-    { label:'Open Graph Preview', url:u.ogArac, ikon:'🖼️', alt:'Social share preview' },
-    { label:'SEO ROI Calculator', url:u.roiArac, ikon:'📈', alt:'Return on SEO' },
-    { label:'Keyword Clustering', url:u.gruplamaArac, ikon:'🗂️', alt:'Group keywords by topic' },
     { label:'Sitemap Generator', url:u.sitemapArac, ikon:'🗺️', alt:'XML sitemap & hreflang' },
+    { grup:'Structured data and meta' },
+    { label:'Schema Generator', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD code' },
+    { label:'Schema Validator', url:u.schemaDogrulaArac, ikon:'✅', alt:'JSON-LD error check' },
     { label:'Meta Tag Generator', url:u.metaArac, ikon:'🧾', alt:'Title, description, og tags' },
+    { label:'SERP Preview', url:u.serpArac, ikon:'🔍', alt:'Title & description' },
+    { label:'Open Graph Preview', url:u.ogArac, ikon:'🖼️', alt:'Social share preview' },
+    { grup:'Content and keywords' },
+    { label:'Keyword Clustering', url:u.gruplamaArac, ikon:'🗂️', alt:'Group keywords by topic' },
+    { grup:'Measurement' },
+    { label:'UTM Link Builder', url:u.utmArac, ikon:'🏷️', alt:'Campaign links' },
+    { label:'SEO ROI Calculator', url:u.roiArac, ikon:'📈', alt:'Return on SEO' },
   ]},
   { label:'Guides', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },
@@ -117,18 +126,24 @@ const getMenu = (isEn, u) => isEn ? [
   ]},
   { label:'Araçlar', url:u.araclar, altlar:[
     { label:'Tüm araçlar', url:u.araclar, ikon:'🧰', alt:'Ücretsiz SEO araçları' },
-    { label:'Schema Oluşturucu', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD kodu' },
+    { grup:'Teknik SEO' },
+    { label:'robots.txt Test Aracı', url:u.robotsArac, ikon:'🤖', alt:'Bot erişim testi' },
     { label:'301 Yönlendirme', url:u.yonlendirmeArac, ikon:'🔀', alt:'Yönlendirme kuralları' },
     { label:'Yönlendirme Kontrolü', url:u.yzKontrolArac, ikon:'⛓️', alt:'Zincir ve durum kodu' },
-    { label:'robots.txt Test Aracı', url:u.robotsArac, ikon:'🤖', alt:'Bot erişim testi' },
+    { label:'İndekslenebilirlik Kontrolü', url:u.indeksArac, ikon:'🔎', alt:'noindex, canonical, robots.txt' },
     { label:'hreflang Oluşturucu', url:u.hreflangArac, ikon:'🌐', alt:'Çok dilli site' },
-    { label:'SERP Önizleme', url:u.serpArac, ikon:'🔍', alt:'Başlık ve açıklama' },
-    { label:'UTM Link Oluşturucu', url:u.utmArac, ikon:'🏷️', alt:'Kampanya linkleri' },
-    { label:'Open Graph Önizleme', url:u.ogArac, ikon:'🖼️', alt:'Paylaşım önizlemesi' },
-    { label:'SEO ROI Hesaplayıcı', url:u.roiArac, ikon:'📈', alt:'SEO getirisi' },
-    { label:'Anahtar Kelime Gruplama', url:u.gruplamaArac, ikon:'🗂️', alt:'Kelimeleri konuya göre grupla' },
     { label:'Site Haritası Oluşturucu', url:u.sitemapArac, ikon:'🗺️', alt:'XML site haritası ve hreflang' },
+    { grup:'Yapısal veri ve meta' },
+    { label:'Schema Oluşturucu', url:u.schemaArac, ikon:'{ }', alt:'JSON-LD kodu' },
+    { label:'Schema Doğrulayıcı', url:u.schemaDogrulaArac, ikon:'✅', alt:'JSON-LD hata kontrolü' },
     { label:'Meta Etiket Oluşturucu', url:u.metaArac, ikon:'🧾', alt:'Title, açıklama, og etiketleri' },
+    { label:'SERP Önizleme', url:u.serpArac, ikon:'🔍', alt:'Başlık ve açıklama' },
+    { label:'Open Graph Önizleme', url:u.ogArac, ikon:'🖼️', alt:'Paylaşım önizlemesi' },
+    { grup:'İçerik ve anahtar kelime' },
+    { label:'Anahtar Kelime Gruplama', url:u.gruplamaArac, ikon:'🗂️', alt:'Kelimeleri konuya göre grupla' },
+    { grup:'Ölçüm' },
+    { label:'UTM Link Oluşturucu', url:u.utmArac, ikon:'🏷️', alt:'Kampanya linkleri' },
+    { label:'SEO ROI Hesaplayıcı', url:u.roiArac, ikon:'📈', alt:'SEO getirisi' },
   ]},
   { label:'Rehber', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },
@@ -190,7 +205,9 @@ export default function Navbar({ onSearchOpen }) {
                     <Link href={item.url} onClick={() => setAcik(null)} style={{ display:'block', padding:'12px 16px', fontSize:'11px', color:'#bbb', borderBottom:'1px solid #f0f0f0', fontWeight:700, letterSpacing:'1px', textTransform:'uppercase' }}>
                       {isEn ? `All ${item.label}` : `Tüm ${item.label}`} →
                     </Link>
-                    {item.altlar.map(alt => (
+                    {item.altlar.map(alt => alt.grup ? (
+                      <div key={`g-${alt.grup}`} role="presentation" style={{ padding:'12px 16px 4px', fontSize:'10.5px', color:'#b0a89c', fontWeight:700, letterSpacing:'1px', textTransform:'uppercase', borderTop:'1px solid #f3f0eb' }}>{alt.grup}</div>
+                    ) : (
                       <Link key={alt.label} href={alt.url} onClick={() => setAcik(null)}
                         style={{ display:'flex', alignItems:'flex-start', gap:'10px', padding:'12px 16px' }}
                         onMouseEnter={e => e.currentTarget.style.background='#faf9f7'}
@@ -248,7 +265,9 @@ export default function Navbar({ onSearchOpen }) {
                       <Link href={item.url} onClick={() => setMobil(false)} style={{ display:'block', padding:'10px 0', color:'var(--orange)', fontSize:'13px', fontWeight:700, borderBottom:'1px solid #f0f0f0' }}>
                         {isEn ? `All ${item.label}` : `Tüm ${item.label}`} →
                       </Link>
-                      {item.altlar.map(alt => (
+                      {item.altlar.map(alt => alt.grup ? (
+                        <div key={`g-${alt.grup}`} role="presentation" style={{ padding:'12px 0 2px', fontSize:'10.5px', color:'#b0a89c', fontWeight:700, letterSpacing:'1px', textTransform:'uppercase' }}>{alt.grup}</div>
+                      ) : (
                         <Link key={alt.label} href={alt.url} onClick={() => setMobil(false)} style={{ display:'flex', alignItems:'center', gap:'10px', padding:'10px 0', borderBottom:'1px solid #faf9f7' }}>
                           <span style={{ fontSize:'18px' }}>{alt.ikon}</span>
                           <span style={{ fontSize:'14px', color:'#444' }}>{alt.label}</span>

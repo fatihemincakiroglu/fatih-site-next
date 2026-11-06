@@ -74,7 +74,7 @@
   {
    "baslik": "AI Modu işletmeler için arama davranışında neyi değiştiriyor?",
    "paragraflar": [
-    "Sahada gördüğüm en belirgin değişiklik sorguların biçimi. Kullanıcı AI Modu'nda karşılaştırma, koşul ve bağlam içeren sorular soruyor; Google da bu soruyu birden çok alt aramaya bölüp farklı kaynakları bir araya getirebiliyor. Bu durum işletmeler için üç sonuç doğuruyor:",
+    "Sahada gördüğüm en belirgin değişiklik sorguların biçimi. Kullanıcı AI Modu'nda karşılaştırma, koşul ve bağlam içeren sorular soruyor; Google da bu soruyu birden çok alt aramaya bölüp farklı kaynakları bir araya getirebiliyor. Bu tür sistemlerin kaynakları nasıl getirip cevaba dönüştürdüğünü [RAG nedir](/rag-nedir) yazısında anlattım. Bu durum işletmeler için üç sonuç doğuruyor:",
     {
      "liste": [
       "**Tek sayfa yerine konu kapsamı önem kazanıyor:** bir hizmetin fiyat etkenleri, süreci, uygun olduğu durumlar ve sık sorulan soruları net biçimde yanıtlanmış olmalı.",
@@ -196,7 +196,7 @@
   {
    "baslik": "How does AI Mode change search behaviour for businesses?",
    "paragraflar": [
-    "The clearest change I see in client work is the shape of queries. In AI Mode people ask questions that include comparisons, conditions and context, and Google can split them into multiple sub-searches and combine different sources. That has three consequences for businesses:",
+    "The clearest change I see in client work is the shape of queries. In AI Mode people ask questions that include comparisons, conditions and context, and Google can split them into multiple sub-searches and combine different sources. I explain how such systems retrieve sources and turn them into answers in [what is RAG](/en/rag-nedir). That has three consequences for businesses:",
     {
      "liste": [
       "**Topic coverage matters more than a single page:** price factors, process, suitable cases and common questions for a service should all be answered clearly.",

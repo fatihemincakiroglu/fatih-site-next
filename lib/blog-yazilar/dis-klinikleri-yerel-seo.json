@@ -113,14 +113,14 @@
       "Uzmanlık unvanları diplomaya dayalı ana dal ve yan dal ile sınırlı."
      ]
     },
-    "Bu yüzden profil açıklamasına “en iyi implant merkezi” yazmak, gönderilerde kampanya duyurmak ya da hizmet adlarına fiyat eklemek hem Google hem mevzuat açısından risklidir. Kuralların daha geniş çerçevesini [sağlık sektörü SEO rehberinde](/saglik-seo) özetledim; kliniğinize özgü uygulamalar için sağlık hukuku alanında hukuki danışmanlık alın."
+    "Bu yüzden profil açıklamasına “en iyi implant merkezi” yazmak, gönderilerde kampanya duyurmak ya da hizmet adlarına fiyat eklemek hem Google hem mevzuat açısından risklidir. Kuralların daha geniş çerçevesini [sağlık sektörü SEO rehberinde](/saglik-seo) özetledim; kliniğinize özgü uygulamalar için sağlık hukuku alanında hukuki danışmanlık alın. Benzer sağlık iddiası sınırları lazer ve cilt bakımı gibi hizmetlerde de geçerli; bunları [güzellik merkezleri için SEO taktikleri](/guzellik-merkezi-seo) yazısında ele aldım."
    ]
   },
   {
    "baslik": "Adres tutarlılığı, yapısal veri ve ölçüm",
    "paragraflar": [
     "Klinik adı, adresi ve telefonu; profilde, sitede, sosyal medya hesaplarında ve rehber platformlarında aynı biçimde yazılmalıdır. Taşınma ya da telefon değişikliğinden sonra eski bilgilerin internette kalması, hem haritada hem yapay zekâ cevaplarında karışıklığa yol açar. Hangi platformlarda kayıt açılacağını ve tutarlılığın nasıl korunacağını [yerel SEO rehberinde](/yerel-seo) anlattım.",
-    "Web sitesinde kliniği schema.org'daki Dentist türüyle, hekimleri Person türüyle işaretlemek bilgiyi makinelerin okuyacağı biçimde sunar. Taslağı [schema oluşturucu aracıyla](/schema-olusturucu) hazırlayabilirsiniz. Ölçümde ise aylık olarak şunlara bakıyorum:",
+    "Web sitesinde kliniği schema.org'daki Dentist türüyle, hekimleri Person türüyle işaretlemek bilgiyi makinelerin okuyacağı biçimde sunar. Schema türlerinin genel mantığını [schema markup nedir](/schema-markup-nedir) yazısında anlattım; taslağı [schema oluşturucu aracıyla](/schema-olusturucu) hazırlayabilirsiniz. Ölçümde ise aylık olarak şunlara bakıyorum:",
     {
      "kontrol": [
       "Profilden gelen telefon aramaları ve yol tarifi istekleri",
@@ -237,14 +237,14 @@
       "Specialty titles are limited to diploma-based main and sub-specialties."
      ]
     },
-    "So writing “the best implant centre” in the profile description, announcing campaigns in posts or adding prices to service names is risky from both Google's and the regulator's perspective. I summarise the wider framework in the [healthcare SEO guide](/en/saglik-seo); for practices specific to your clinic, get advice from a health law specialist."
+    "So writing “the best implant centre” in the profile description, announcing campaigns in posts or adding prices to service names is risky from both Google's and the regulator's perspective. I summarise the wider framework in the [healthcare SEO guide](/en/saglik-seo); for practices specific to your clinic, get advice from a health law specialist. Similar limits on health claims apply to services such as laser hair removal and skin care, which I cover in [SEO tactics for beauty salons and centres](/en/guzellik-merkezi-seo)."
    ]
   },
   {
    "baslik": "Address consistency, structured data and measurement",
    "paragraflar": [
     "The clinic's name, address and phone should be written identically on the profile, the website, social accounts and directory platforms. Old details left online after a move or phone change cause confusion both on the map and in AI answers. I cover which platforms to list on and how to keep details consistent in the [local SEO guide](/en/yerel-seo).",
-    "Marking up the clinic with schema.org's Dentist type and dentists with the Person type presents the information in a machine-readable way. You can draft it with the [schema generator tool](/en/schema-generator). For measurement, these are what I review each month:",
+    "Marking up the clinic with schema.org's Dentist type and dentists with the Person type presents the information in a machine-readable way. I explain how schema types work in [what is schema markup](/en/schema-markup-nedir), and you can draft it with the [schema generator tool](/en/schema-generator). For measurement, these are what I review each month:",
     {
      "kontrol": [
       "Calls and direction requests from the profile",

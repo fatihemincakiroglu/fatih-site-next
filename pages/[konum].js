@@ -19,6 +19,8 @@ import { ilceSayfasi } from '../lib/ilce-sayfa'
 import { SEO_KONUM_SLUGLARI, seoKonumBul, seoKonumSayfasi } from '../lib/seo-konum'
 import SEO_ILCELER from '../lib/seo-konum/ilceler.json'
 import AiOzetle from '../components/AiOzetle'
+import YaziKartlari from '../components/YaziKartlari'
+import { yaziKartlari, ilceYazilari } from '../lib/yazi-kart'
 
 // Sayfa tipine göre değişen metinler
 const TIP = {
@@ -112,7 +114,7 @@ function Blok({ b }) {
   }
 }
 
-export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, bloklar, sss, sssNot = null, konumAdi }) {
+export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, bloklar, sss, sssNot = null, konumAdi, yazilar = [] }) {
   const canonical = `${BASE}/${slug}`
   const T = TIP[tip]
 
@@ -214,6 +216,12 @@ export default function KonumUzmani({ tip = 'geo', slug, meta, alt = null, blokl
           </article>
         </main>
 
+        <YaziKartlari kartlar={yazilar} stil={{ maxWidth: '900px', padding: '0 16px 32px' }}
+          baslik={`${konumAdi} işletmeleri için faydalı yazılar`}
+          aciklama={tip === 'seo'
+            ? `${konumAdi} bölgesinde yerel aramalarda öne çıkmak isteyen işletmeler için sektöre göre uygulanabilir SEO taktikleri.`
+            : `${konumAdi} bölgesindeki işletmelerin yapay zekâ cevaplarında ve yerel aramalarda görünür olması için okunacak yazılar.`} />
+
         {/* CTA */}
         <section style={{ maxWidth: '900px', margin: '0 auto', padding: '0 16px 80px' }}>
           <div style={{ background: '#111', borderRadius: '16px', padding: '32px', textAlign: 'center' }}>
@@ -250,6 +258,7 @@ export async function getStaticProps({ params }) {
         alt: sayfa.alt,
         bloklar: sayfa.bloklar,
         sss: sayfa.sss,
+        yazilar: yaziKartlari(ilceYazilari(s.slug, 'seo'), 'tr'),
       },
     }
   }
@@ -267,6 +276,7 @@ export async function getStaticProps({ params }) {
       alt: sayfa.alt,
       bloklar: sayfa.bloklar,
       sss: sayfa.sss,
+      yazilar: yaziKartlari(ilceYazilari(d.slug, 'geo'), 'tr'),
     },
   }
 }

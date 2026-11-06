@@ -135,13 +135,13 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Implant tedavisi adım adım\",\n  \"description\": \"Muayeneden kontrole implant sürecinin aşamaları.\",\n  \"thumbnailUrl\": [\"https://www.ornek.com.tr/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Örnek Klinik\"}\n}\n</script>"
     },
-    "Google işaretlemenin belirli bir video özelliği üreteceğini taahhüt etmiyor. Şema türlerinin genel mantığı için [schema ve yapısal veri rehberine](/schema-yapisal-veri) bakın; JSON-LD'yi elle yazmak istemiyorsanız [schema oluşturucu](/schema-olusturucu) aracını kullanabilirsiniz."
+    "Google işaretlemenin belirli bir video özelliği üreteceğini taahhüt etmiyor. Şema türlerinin genel mantığı için [schema ve yapısal veri rehberine](/schema-yapisal-veri) bakın; JSON-LD'yi elle yazmak istemiyorsanız [schema oluşturucu](/schema-olusturucu) aracını kullanabilirsiniz. En çok kullanılan türlerin özetini [schema markup nedir](/schema-markup-nedir) yazısında bulabilirsiniz."
    ]
   },
   {
    "baslik": "Video site haritası mı, yapısal veri mi?",
    "paragraflar": [
-    "İkisi birbirinin alternatifi değil, tamamlayıcısıdır. Video site haritası Google'ın videoları keşfetmesine yardım eder; yapısal veri ise sayfadaki videoyu tanımlar. Çok sayıda videosu olan sitelerde ikisini birlikte kullanıyorum.",
+    "İkisi birbirinin alternatifi değil, tamamlayıcısıdır. Video site haritası Google'ın videoları keşfetmesine yardım eder; yapısal veri ise sayfadaki videoyu tanımlar. Çok sayıda videosu olan sitelerde ikisini birlikte kullanıyorum. Standart sayfalar için temel kuralları [XML site haritası nedir](/xml-site-haritasi-nedir) yazısında topladım.",
     "Video site haritasında zorunlu etiketler şunlar:",
     {
      "liste": [
@@ -330,13 +330,13 @@
     {
      "kod": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"VideoObject\",\n  \"name\": \"Dental implant treatment step by step\",\n  \"description\": \"The stages of implant treatment from exam to follow-up.\",\n  \"thumbnailUrl\": [\"https://www.example.com/video/implant-16x9.jpg\"],\n  \"uploadDate\": \"2026-10-01T09:00:00+03:00\",\n  \"duration\": \"PT4M30S\",\n  \"embedUrl\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"creator\": {\"@type\": \"Organization\", \"name\": \"Example Clinic\"}\n}\n</script>"
     },
-    "Google does not promise that markup will produce a specific video feature. For how schema types fit together, see the [schema and structured data guide](/en/schema-yapisal-veri); if you would rather not hand-write JSON-LD, use the [schema generator](/en/schema-generator)."
+    "Google does not promise that markup will produce a specific video feature. For how schema types fit together, see the [schema and structured data guide](/en/schema-yapisal-veri); if you would rather not hand-write JSON-LD, use the [schema generator](/en/schema-generator). For a summary of the most used types, see [what is schema markup](/en/schema-markup-nedir)."
    ]
   },
   {
    "baslik": "Video sitemap or structured data?",
    "paragraflar": [
-    "They complement each other. A video sitemap helps discovery; structured data describes the video on the page. On video-heavy sites I use both.",
+    "They complement each other. A video sitemap helps discovery; structured data describes the video on the page. On video-heavy sites I use both. I collect the basic rules for regular pages in [what is an XML sitemap](/en/xml-site-haritasi-nedir).",
     "The required video sitemap tags are:",
     {
      "liste": [
@@ -403,7 +403,7 @@
  "sss_tr": [
   {
    "s": "Videoyu YouTube'da mı, kendi sunucumda mı barındırmalıyım?",
-   "c": "İkisi de dizine eklenebilir. YouTube keşif ve barındırma kolaylığı sağlar; kendi sunucunuz ya da bir video platformu ise izleme sayfası üzerinde daha fazla kontrol verir. Kararı videonun amacına ve trafiğin nerede kalmasını istediğinize göre verin."
+   "c": "İkisi de dizine eklenebilir. YouTube keşif ve barındırma kolaylığı sağlar; kendi sunucunuz ya da bir video platformu ise izleme sayfası üzerinde daha fazla kontrol verir. Kararı videonun amacına ve trafiğin nerede kalmasını istediğinize göre verin. Araç tanıtım videolarında bu dengeyi [oto galeriler için SEO taktikleri](/oto-galeri-seo) yazısında örnekledim."
   },
   {
    "s": "Küçük resim için bir boyut şartı var mı?",
@@ -425,7 +425,7 @@
  "sss_en": [
   {
    "s": "Should I host videos on YouTube or on my own server?",
-   "c": "Both can be indexed. YouTube offers discovery and easy hosting; your own server or a video platform gives more control over the watch page. Decide by the video's purpose and where you want the traffic to land."
+   "c": "Both can be indexed. YouTube offers discovery and easy hosting; your own server or a video platform gives more control over the watch page. Decide by the video's purpose and where you want the traffic to land. I show this balance for vehicle videos in [SEO tactics for car dealerships](/en/oto-galeri-seo)."
   },
   {
    "s": "Is there a size requirement for thumbnails?",

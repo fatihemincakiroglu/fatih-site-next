@@ -393,7 +393,7 @@
  "sss_tr": [
   {
    "s": "Site haritası tarama bütçesini artırır mı?",
-   "c": "Site haritası bütçeyi büyütmez ama Google'ın önemli URL'leri bulmasına ve değişiklikleri fark etmesine yardım eder. Google, güncellenen içerik için lastmod alanını kullanmanızı öneriyor. Haritada yalnızca dizine eklenmesini istediğiniz standart URL'ler olmalı."
+   "c": "Site haritası bütçeyi büyütmez ama Google'ın önemli URL'leri bulmasına ve değişiklikleri fark etmesine yardım eder. Google, güncellenen içerik için lastmod alanını kullanmanızı öneriyor. Haritayı hazırlarken uyduğum kuralları [XML site haritası nedir](/xml-site-haritasi-nedir) yazısında topladım. Haritada yalnızca dizine eklenmesini istediğiniz standart URL'ler olmalı."
   },
   {
    "s": "Daha sık içerik yayınlamak taramayı artırır mı?",
@@ -415,7 +415,7 @@
  "sss_en": [
   {
    "s": "Does a sitemap increase crawl budget?",
-   "c": "A sitemap does not enlarge the budget, but it helps Google find important URLs and notice changes. Google recommends using lastmod for updated content. Only canonical URLs you want indexed should be listed."
+   "c": "A sitemap does not enlarge the budget, but it helps Google find important URLs and notice changes. Google recommends using lastmod for updated content. Only canonical URLs you want indexed should be listed. I collect the rules I follow when building one in [what is an XML sitemap](/en/xml-site-haritasi-nedir)."
   },
   {
    "s": "Does publishing more often increase crawling?",

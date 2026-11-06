@@ -69,6 +69,8 @@ const SEARCH_INDEX = [
   { title: 'Anahtar Kelime Gruplama', title_en: 'Keyword Clustering', href: '/anahtar-kelime-gruplama', href_en: '/en/keyword-clustering', cat: 'Araç' },
   { title: 'XML Site Haritası Oluşturucu', title_en: 'XML Sitemap Generator', href: '/site-haritasi-olusturucu', href_en: '/en/sitemap-generator', cat: 'Araç' },
   { title: 'Meta Etiket Oluşturucu', title_en: 'Meta Tag Generator', href: '/meta-etiket-olusturucu', href_en: '/en/meta-tag-generator', cat: 'Araç' },
+  { title: 'İndekslenebilirlik Kontrolü', title_en: 'Indexability Checker', href: '/indekslenebilirlik-kontrolu', href_en: '/en/indexability-checker', cat: 'Araç' },
+  { title: 'Schema Doğrulayıcı', title_en: 'Schema Validator', href: '/schema-dogrulayici', href_en: '/en/schema-validator', cat: 'Araç' },
   { title: 'Ücretsiz Kontrol Listeleri (PDF)', title_en: 'Free Checklists (PDF)', href: '/kaynaklar#kontrol-listeleri', href_en: '/en/resources#kontrol-listeleri', cat: 'Kaynak' },
   { title: 'Google Güncellemeleri', title_en: 'Google Updates', href: '/google-guncellemeleri', href_en: '/en/google-updates', cat: 'Kaynak' },
   { title: 'Sektörel SEO', title_en: 'Industry SEO', href: '/sektorler', href_en: '/en/industries', cat: 'Hizmet' },

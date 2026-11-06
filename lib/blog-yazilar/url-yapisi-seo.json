@@ -148,7 +148,7 @@
   {
    "baslik": "URL parametreleri SEO'yu nasıl etkiler?",
    "paragraflar": [
-    "Filtre, sıralama, sayfalama ve kampanya takibi için parametre kullanmak normal. Sorun, aynı içeriği taşıyan sayısız parametre kombinasyonunun taranabilir hâle gelmesi. Google, içeriği değiştirmeyen parametreleri ayıklamayı ve oturum kimliklerini URL yerine çerezde tutmayı öneriyor.",
+    "Filtre, sıralama, sayfalama ve kampanya takibi için parametre kullanmak normal. Sorun, aynı içeriği taşıyan sayısız parametre kombinasyonunun taranabilir hâle gelmesi. Google, içeriği değiştirmeyen parametreleri ayıklamayı ve oturum kimliklerini URL yerine çerezde tutmayı öneriyor. İçeriği değiştirmeyen parametreli adreslerde tercih edilen URL için [canonical etiket kullanım kurallarına](/canonical-etiket-nedir) bakabilirsiniz.",
     {
      "liste": [
       "**Kampanya parametreleri (utm_):** İç linklerde kullanmayın; canonical her zaman temiz adresi göstersin.",
@@ -158,7 +158,7 @@
       "**Fragment (#):** İçerik değiştirmek için kullanmayın; Google genellikle desteklemez, History API tercih edin."
      ]
     },
-    "Parametre çoğalmasının tarama tarafındaki maliyetini [tarama bütçesi](/crawl-butcesi) yazısında ayrıntılı ele aldım. Google birden fazla parametre için = ve & kullanımını, bir anahtara birden fazla değer için virgülü öneriyor."
+    "Parametre çoğalmasının tarama tarafındaki maliyetini [tarama bütçesi](/crawl-butcesi) yazısında ayrıntılı ele aldım. Google birden fazla parametre için = ve & kullanımını, bir anahtara birden fazla değer için virgülü öneriyor. Filtre adreslerinin bir galeri sitesinde nasıl kontrol altına alındığını [oto galeriler için SEO taktikleri](/oto-galeri-seo) yazısında gösterdim."
    ]
   },
   {
@@ -350,7 +350,7 @@
   {
    "baslik": "How do URL parameters affect SEO?",
    "paragraflar": [
-    "Using parameters for filters, sorting, pagination and campaign tracking is normal. The problem is countless parameter combinations with the same content becoming crawlable. Google recommends trimming parameters that do not change the content and keeping session IDs in cookies rather than URLs.",
+    "Using parameters for filters, sorting, pagination and campaign tracking is normal. The problem is countless parameter combinations with the same content becoming crawlable. Google recommends trimming parameters that do not change the content and keeping session IDs in cookies rather than URLs. For parameter URLs that do not change the content, see the [rules for using canonical tags](/en/canonical-etiket-nedir).",
     {
      "liste": [
       "**Campaign parameters (utm_):** never use them in internal links; the canonical should always point to the clean address.",
@@ -360,7 +360,7 @@
       "**Fragments (#):** do not use them to change content; Google generally does not support them, so prefer the History API."
      ]
     },
-    "I cover the crawling cost of parameter sprawl in the [crawl budget](/en/crawl-butcesi) article. For multiple parameters Google recommends = and &, and a comma for several values of one key."
+    "I cover the crawling cost of parameter sprawl in the [crawl budget](/en/crawl-butcesi) article. For multiple parameters Google recommends = and &, and a comma for several values of one key. I show how to keep filter URLs under control on a dealership site in [SEO tactics for car dealerships](/en/oto-galeri-seo)."
    ]
   },
   {

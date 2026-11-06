@@ -339,7 +339,7 @@
   },
   {
    "s": "nofollow linklerin anchor'ı önemli mi?",
-   "c": "Google'ın dokümanına göre nofollow, sponsored ve ugc ile işaretli linkler genellikle takip edilmez. Bu linkler yine de trafik ve marka bilinirliği getirebilir; anchor'larının doğal olması burada da kullanıcı için önemlidir."
+   "c": "Google'ın dokümanına göre nofollow, sponsored ve ugc ile işaretli linkler genellikle takip edilmez. Bu linkler yine de trafik ve marka bilinirliği getirebilir; anchor'larının doğal olması burada da kullanıcı için önemlidir. Link niteliklerini ve backlink türlerini [backlink nedir](/backlink-nedir) yazısında anlattım."
   },
   {
    "s": "Rakiplerim tam eşleşme anchor'larla sıralanıyor, ben de yapmalı mıyım?",
@@ -365,7 +365,7 @@
   },
   {
    "s": "Does the anchor of a nofollow link matter?",
-   "c": "Google's documentation says links marked nofollow, sponsored or ugc will generally not be followed. They can still bring traffic and awareness, so natural anchors matter for users here too."
+   "c": "Google's documentation says links marked nofollow, sponsored or ugc will generally not be followed. They can still bring traffic and awareness, so natural anchors matter for users here too. I explain link attributes and types of backlinks in [what is a backlink](/en/backlink-nedir)."
   },
   {
    "s": "Competitors rank with exact-match anchors; should I copy them?",

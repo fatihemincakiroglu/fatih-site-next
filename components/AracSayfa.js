@@ -8,6 +8,12 @@ const BASE = 'https://fatihemincakiroglu.com'
 // Bağımsız araç sayfaları (/schema-olusturucu, /yonlendirme-olusturucu
 // ve EN karşılıkları) için ortak kabuk: breadcrumb, başlık, araç, "nasıl kullanılır",
 // SSS (FAQPage), ilgili rehberler ve WebApplication şeması.
+// Araç kutusundaki içerik sütunu taşmasın (uzun satırlı girdiler, tablolar, kod)
+const ARAC_KUTU_CSS = '.arac-kutu, .arac-kutu * { min-width: 0; }' +
+  ' .arac-kutu [style*="display:grid"]:not([style*="grid-template-columns"]) { grid-template-columns: minmax(0, 1fr); }' +
+  ' .arac-kutu pre { max-width: 100%; overflow-x: auto; }' +
+  ' .arac-kutu input, .arac-kutu textarea, .arac-kutu select { max-width: 100%; }'
+
 export default function AracSayfa({ isEn, yol, yolEn, baslik, metaBaslik, metaDesc, giris, adimlar = [], sss = [], rehberler = [], children }) {
   const canonical = `${BASE}${isEn ? yolEn : yol}`
   const duz = (t) => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '')
@@ -67,12 +73,8 @@ export default function AracSayfa({ isEn, yol, yolEn, baslik, metaBaslik, metaDe
         </header>
 
         <main style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '28px 16px 32px', display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '20px' }}>
-          <style>{`
-            .arac-kutu, .arac-kutu * { min-width: 0; }
-            .arac-kutu [style*="display:grid"]:not([style*="grid-template-columns"]) { grid-template-columns: minmax(0, 1fr); }
-            .arac-kutu pre { max-width: 100%; overflow-x: auto; }
-            .arac-kutu input, .arac-kutu textarea, .arac-kutu select { max-width: 100%; }
-          `}</style>
+          {/* dangerouslySetInnerHTML: tırnaklar sunucu HTML'inde kaçışlanınca hidrasyon uyuşmazlığı olmasın */}
+          <style dangerouslySetInnerHTML={{ __html: ARAC_KUTU_CSS }} />
           <section className="arac-kutu" style={kutu} aria-label={baslik}>{children}</section>
 
           {adimlar.length > 0 && (

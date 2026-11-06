@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Marka bahsi (brand mention), markanızın, ürününüzün ya da kurucunuzun adının başka bir sitede, haberde, forumda veya yorum platformunda anılmasıdır. Bu anma bir bağlantıyla birlikte gelebilir; ama çoğu zaman gelmez. Bir gazeteci sizden alıntı yapar, bir sektör listesi firmanızı sayar, bir forum kullanıcısı hizmetinizi önerir; hiçbirinde link yoktur.",
-    "Uzun süre SEO'da yalnızca linkli bahisler önemsendi. Yapay zekâ asistanlarının cevaplarını birden çok kaynaktan sentezlemesiyle, linksiz bahis de daha çok konuşulur oldu. Bu yazıda konunun abartısız bir çerçevesini çiziyorum. Link kazanma yöntemlerini [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ayrıntılı anlattığım için burada tekrar etmiyorum.",
+    "Uzun süre SEO'da yalnızca linkli bahisler önemsendi. Yapay zekâ asistanlarının cevaplarını birden çok kaynaktan sentezlemesiyle, linksiz bahis de daha çok konuşulur oldu. Bu yazıda konunun abartısız bir çerçevesini çiziyorum. Link kazanma yöntemlerini [backlink ve dijital PR rehberinde](/backlink-dijital-pr) ayrıntılı anlattığım için burada tekrar etmiyorum. Linkli bahislerin dahil olduğu bağlantı türlerini [backlink nedir](/backlink-nedir) yazısında özetledim.",
     {
      "alinti": "Kısa cevap: Marka bahsi, markanızın başka bir kaynakta link verilerek ya da verilmeden anılmasıdır. Google, linksiz bahsin doğrudan bir sıralama sinyali olduğunu kamuya açık biçimde söylemiyor; ancak bağımsız kaynaklardaki tutarlı bahisler itibarı, marka aramalarını ve yapay zekâ cevaplarında markanın doğru tanınmasını destekleyebilir. Değerli olan bahis sayısı değil, bağlamı ve kaynağıdır."
     }
@@ -55,7 +55,7 @@
       ]
      }
     },
-    "Buradaki ayrım önemli: SEO'da link, belgelenmiş bir sinyaldir. Linksiz bahsin SEO etkisi ise çoğunlukla dolaylıdır. GEO tarafında durum farklı; çünkü bir yapay zekâ cevabı, kaynakların metnini okuyarak oluşur ve metinde markanın adı geçiyorsa bağlantının olup olmaması bu okumayı engellemez."
+    "Buradaki ayrım önemli: SEO'da link, belgelenmiş bir sinyaldir. Linksiz bahsin SEO etkisi ise çoğunlukla dolaylıdır. GEO tarafında durum farklı; çünkü bir yapay zekâ cevabı, kaynakların metnini okuyarak oluşur ve metinde markanın adı geçiyorsa bağlantının olup olmaması bu okumayı engellemez. Yapay zekâ aramasının kaynakları nasıl bulup okuduğunu [RAG nedir](/rag-nedir) yazısında anlattım."
    ]
   },
   {
@@ -63,7 +63,7 @@
    "paragraflar": [
     "Kısa ve dürüst cevap: Google, linksiz bahsin sıralamada doğrudan kullanıldığını resmi olarak açıklamış değil. Bu konuda kesin rakam ya da formül veren yazılara temkinli yaklaşın.",
     "Yine de bahsin dolaylı olarak işe yaradığı yerler var. Google'ın arama kalitesi değerlendirici yönergeleri, bir sitenin itibarını araştırırken sitenin kendi söylediklerine değil, bağımsız kaynakların o site ve marka hakkında söylediklerine bakılmasını ister. Değerlendiricilerin puanları sıralamayı doğrudan etkilemez; ama Google'ın neyi kaliteli saydığını gösterir. Bunun dışında bir haberde anılmak marka aramalarını, doğrudan ziyaretleri ve ileride link kazanma ihtimalini artırabilir.",
-    "Bu yüzden müşterilerime linksiz bahsi bir sıralama taktiği olarak değil, itibar ve bilinirlik çalışmasının doğal çıktısı olarak sunuyorum."
+    "Bu yüzden müşterilerime linksiz bahsi bir sıralama taktiği olarak değil, itibar ve bilinirlik çalışmasının doğal çıktısı olarak sunuyorum. Markanın Google tarafında bir varlık olarak nasıl tanındığını [knowledge graph nedir](/knowledge-graph-nedir) yazısında anlattım."
    ]
   },
   {
@@ -131,7 +131,7 @@
    "baslik": null,
    "paragraflar": [
     "A brand mention is when your brand, product or founder's name is mentioned on another site, in the news, on a forum or on a review platform. The mention may come with a link, but often it doesn't. A journalist quotes you, an industry list includes your firm, a forum user recommends your service, and none of them link.",
-    "For a long time SEO cared only about linked mentions. Now that AI assistants synthesise answers from multiple sources, unlinked mentions get far more attention. In this post I draw a sober frame around the topic. I cover link-earning methods in detail in the [backlink and digital PR guide](/en/backlink-dijital-pr), so I won't repeat them here.",
+    "For a long time SEO cared only about linked mentions. Now that AI assistants synthesise answers from multiple sources, unlinked mentions get far more attention. In this post I draw a sober frame around the topic. I summarise the types of links, including linked mentions, in [what is a backlink](/en/backlink-nedir). I cover link-earning methods in detail in the [backlink and digital PR guide](/en/backlink-dijital-pr), so I won't repeat them here.",
     {
      "alinti": "Short answer: A brand mention is when your brand is named on another source, with or without a link. Google does not publicly say that unlinked mentions are a direct ranking signal; however, consistent mentions in independent sources can support reputation, branded searches and accurate recognition of the brand in AI answers. What matters is not the number of mentions but their context and source."
     }
@@ -179,13 +179,13 @@
    "paragraflar": [
     "The short, honest answer: Google has not officially stated that unlinked mentions are used directly in ranking. Be cautious with articles that give precise numbers or formulas on this.",
     "There are still places where mentions help indirectly. Google's search quality rater guidelines ask raters researching a site's reputation to look at what independent sources say about the site and brand, not at what the site says about itself. Rater scores don't directly affect rankings, but they show what Google considers quality. Beyond that, being mentioned in the news can increase branded searches, direct visits and the chance of earning links later.",
-    "That's why I present unlinked mentions to clients not as a ranking tactic but as a natural output of reputation and awareness work."
+    "That's why I present unlinked mentions to clients not as a ranking tactic but as a natural output of reputation and awareness work. I explain how Google comes to recognise a brand as an entity in [what is the Knowledge Graph](/en/knowledge-graph-nedir)."
    ]
   },
   {
    "baslik": "Why do brand mentions matter for GEO?",
    "paragraflar": [
-    "Assistants such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI features can draw on web sources when generating answers. For questions like \"who would you recommend\" or \"A or B\", the raw material is often comparison articles, industry lists, news and forums. A brand that isn't mentioned in these sources has a harder time getting into the answer.",
+    "Assistants such as ChatGPT, Gemini, Perplexity, Copilot and Google's AI features can draw on web sources when generating answers. I explain how AI search finds and reads its sources in [what is RAG](/en/rag-nedir). For questions like \"who would you recommend\" or \"A or B\", the raw material is often comparison articles, industry lists, news and forums. A brand that isn't mentioned in these sources has a harder time getting into the answer.",
     "There is no public formula for source selection, so saying \"this many mentions, this much visibility\" would be wrong. What I observe is this: when a brand is consistently mentioned together with a specific topic in trustworthy, independent sources, a system answering questions on that topic may be more likely to recognise and describe the brand correctly. I cover the practical side for Perplexity in the post on [getting cited by Perplexity](/en/perplexity-kaynak-gosterilme) and the testing method in the post on [brand visibility in ChatGPT](/en/chatgpt-marka-gorunurlugu). For the overall frame, see the brand mention step in the [GEO implementation guide](/en/geo-uygulama)."
    ]
   },

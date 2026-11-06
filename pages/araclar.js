@@ -473,6 +473,32 @@ function ReadabilityAnaliz({ isEn }) {
   );
 }
 
+// Ayrı sayfalı araçlar, /araclar ve /en/tools sayfasında gruplar hâlinde (Navbar araç menüsü de aynı sırada)
+const ARAC_GRUPLARI = [
+  { id: 'teknik-seo', tr: 'Teknik SEO', en: 'Technical SEO', aciklamaTr: 'Taranma, dizine ekleme, yönlendirme ve çok dilli yapı.', aciklamaEn: 'Crawling, indexing, redirects and multilingual setup.', araclar: (isEn) => [
+    { href: isEn ? '/en/robots-txt-tester' : '/robots-txt-test', ikon: '🤖', ad: isEn ? 'robots.txt Tester' : 'robots.txt Test Aracı', aciklama: isEn ? 'Shows whether URLs are blocked for Googlebot and AI bots, and which rule decides it.' : "URL'lerin Googlebot ve yapay zekâ botları için engelli mi açık mı olduğunu, kararı veren kuralla gösterir." },
+    { href: isEn ? '/en/redirect-generator' : '/yonlendirme-olusturucu', ikon: '🔀', ad: isEn ? '301 Redirect Generator' : '301 Yönlendirme Oluşturucu', aciklama: isEn ? 'Rules for .htaccess, Nginx, Vercel, Next.js and Netlify; flags chains and loops.' : '.htaccess, Nginx, Vercel, Next.js ve Netlify kuralları; zincir ve döngüleri yakalar.' },
+    { href: isEn ? '/en/redirect-checker' : '/yonlendirme-zinciri-kontrol', ikon: '⛓️', ad: isEn ? 'Redirect Chain Checker' : 'Yönlendirme Zinciri Kontrolü', aciklama: isEn ? 'Follow redirects hop by hop with status codes; flags loops, long chains, 302s and 404s. Up to 10 URLs.' : "Yönlendirmeleri durum kodlarıyla adım adım izler; döngü, uzun zincir, 302 ve 404'leri bulur. 10 adrese kadar." },
+    { href: isEn ? '/en/indexability-checker' : '/indekslenebilirlik-kontrolu', ikon: '🔎', ad: isEn ? 'Indexability Checker' : 'İndekslenebilirlik Kontrolü', aciklama: isEn ? 'Finds what keeps a URL out of the index: status code, robots.txt, noindex, X-Robots-Tag, canonical and hreflang.' : 'Bir adresin dizine girmesini engelleyen sinyalleri bulur; durum kodu, robots.txt, noindex, X-Robots-Tag, canonical ve hreflang.' },
+    { href: isEn ? '/en/hreflang-generator' : '/hreflang-olusturucu', ikon: '🌐', ad: isEn ? 'hreflang Generator' : 'hreflang Oluşturucu', aciklama: isEn ? 'hreflang for multilingual sites as HTML, XML sitemap or HTTP header, with code checks.' : 'Çok dilli siteler için HTML, XML site haritası ve HTTP başlığı biçiminde hreflang; kod denetimiyle.' },
+    { href: isEn ? '/en/sitemap-generator' : '/site-haritasi-olusturucu', ikon: '🗺️', ad: isEn ? 'XML Sitemap Generator' : 'XML Site Haritası Oluşturucu', aciklama: isEn ? 'Valid XML sitemaps from a URL list with lastmod, hreflang alternates and a sitemap index for large sites.' : 'URL listesinden lastmod, hreflang alternatifleri ve büyük siteler için dizinle geçerli XML site haritası.' },
+  ]},
+  { id: 'yapisal-veri-meta', tr: 'Yapısal veri ve meta', en: 'Structured data and meta', aciklamaTr: 'Schema işaretlemesi, başlık ve açıklama, paylaşım önizlemesi.', aciklamaEn: 'Schema markup, titles and descriptions, share previews.', araclar: (isEn) => [
+    { href: isEn ? '/en/schema-generator' : '/schema-olusturucu', ikon: '{ }', ad: isEn ? 'Schema Generator (JSON-LD)' : 'Schema Oluşturucu (JSON-LD)', aciklama: isEn ? 'LocalBusiness, Organization, FAQPage and Article markup in seconds.' : 'LocalBusiness, Organization, FAQPage ve Article işaretlemesini saniyeler içinde üretin.' },
+    { href: isEn ? '/en/schema-validator' : '/schema-dogrulayici', ikon: '✅', ad: isEn ? 'Schema Validator (JSON-LD)' : 'Schema Doğrulayıcı (JSON-LD)', aciklama: isEn ? 'Paste JSON-LD or a page source; finds syntax errors and missing Google required fields in your browser.' : 'JSON-LD ya da sayfa kaynağını yapıştırın; sözdizimi hatalarını ve eksik Google zorunlu alanlarını tarayıcıda bulur.' },
+    { href: isEn ? '/en/meta-tag-generator' : '/meta-etiket-olusturucu', ikon: '🧾', ad: isEn ? 'Meta Tag Generator' : 'Meta Etiket Oluşturucu', aciklama: isEn ? 'Title, description, canonical, robots and Open Graph tags with pixel checks and live previews.' : 'Title, açıklama, canonical, robots ve Open Graph etiketleri; piksel ölçümü ve canlı önizlemeyle.' },
+    { href: isEn ? '/en/serp-preview' : '/serp-onizleme', ikon: '🔍', ad: isEn ? 'SERP Preview' : 'SERP Önizleme', aciklama: isEn ? 'See how your title and meta description may look in Google, measured in pixels.' : "Başlık ve meta açıklamanın Google'da nasıl görüneceğini piksel genişliğiyle gösterir." },
+    { href: isEn ? '/en/og-preview' : '/og-onizleme', ikon: '🖼️', ad: isEn ? 'Open Graph Preview' : 'Open Graph Önizleme', aciklama: isEn ? 'See how a page looks when shared on WhatsApp, LinkedIn, X and Facebook; flags missing og tags.' : "Sayfanın WhatsApp, LinkedIn, X ve Facebook'ta paylaşım görünümü; eksik og etiketlerini bulur." },
+  ]},
+  { id: 'icerik-anahtar-kelime', tr: 'İçerik ve anahtar kelime', en: 'Content and keywords', aciklamaTr: 'Anahtar kelime listelerini konulara ayırma.', aciklamaEn: 'Turning keyword lists into topics.', araclar: (isEn) => [
+    { href: isEn ? '/en/keyword-clustering' : '/anahtar-kelime-gruplama', ikon: '🗂️', ad: isEn ? 'Keyword Clustering' : 'Anahtar Kelime Gruplama', aciklama: isEn ? 'Group a keyword list by shared terms with Turkish aware matching; cluster volumes and CSV export.' : 'Kelime listesini Türkçe eklere duyarlı olarak ortak kelimelere göre gruplar; küme hacmi ve CSV.' },
+  ]},
+  { id: 'olcum', tr: 'Ölçüm', en: 'Measurement', aciklamaTr: 'Kampanya takibi ve SEO getirisinin hesabı.', aciklamaEn: 'Campaign tracking and SEO return.', araclar: (isEn) => [
+    { href: isEn ? '/en/utm-builder' : '/utm-olusturucu', ikon: '🏷️', ad: isEn ? 'UTM Link Builder' : 'UTM Link Oluşturucu', aciklama: isEn ? 'Consistent campaign links for GA4 with presets, bulk URLs and a channel estimate.' : 'GA4 için tutarlı kampanya linkleri; hazır ayarlar, toplu URL ve kanal tahmini.' },
+    { href: isEn ? '/en/seo-roi-calculator' : '/seo-roi-hesaplayici', ikon: '📈', ad: isEn ? 'SEO ROI Calculator' : 'SEO ROI Hesaplayıcı', aciklama: isEn ? 'Estimate extra profit, ROI and payback month from your own traffic and cost assumptions.' : 'Kendi trafik ve maliyet varsayımlarınızla ek kârı, ROI\'yi ve geri ödeme ayını tahmin edin.' },
+  ]},
+]
+
 const ARACLAR = [
   { id: 'meta', component: MetaChecker,
     tr: { isim: 'Gerçek Zamanlı SEO Denetimi', aciklama: 'URL girişiyle sitenizi anlık çekip başlık, meta açıklama, H1, görsel alt metni ve daha fazlasını gerçek veriyle kontrol edin.' },
@@ -545,58 +571,63 @@ export default function Page(props) {
         </div>
 
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '32px 32px 96px' }}>
-          {/* Ayrı sayfalı araçlar */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px', marginBottom: '28px' }}>
-            {[
-              { href: isEn ? '/en/schema-generator' : '/schema-olusturucu', ikon: '{ }', ad: isEn ? 'Schema Generator (JSON-LD)' : 'Schema Oluşturucu (JSON-LD)', aciklama: isEn ? 'LocalBusiness, Organization, FAQPage and Article markup in seconds.' : 'LocalBusiness, Organization, FAQPage ve Article işaretlemesini saniyeler içinde üretin.' },
-              { href: isEn ? '/en/redirect-generator' : '/yonlendirme-olusturucu', ikon: '🔀', ad: isEn ? '301 Redirect Generator' : '301 Yönlendirme Oluşturucu', aciklama: isEn ? 'Rules for .htaccess, Nginx, Vercel, Next.js and Netlify; flags chains and loops.' : '.htaccess, Nginx, Vercel, Next.js ve Netlify kuralları; zincir ve döngüleri yakalar.' },
-              { href: isEn ? '/en/robots-txt-tester' : '/robots-txt-test', ikon: '🤖', ad: isEn ? 'robots.txt Tester' : 'robots.txt Test Aracı', aciklama: isEn ? 'Shows whether URLs are blocked for Googlebot and AI bots, and which rule decides it.' : "URL'lerin Googlebot ve yapay zekâ botları için engelli mi açık mı olduğunu, kararı veren kuralla gösterir." },
-              { href: isEn ? '/en/hreflang-generator' : '/hreflang-olusturucu', ikon: '🌐', ad: isEn ? 'hreflang Generator' : 'hreflang Oluşturucu', aciklama: isEn ? 'hreflang for multilingual sites as HTML, XML sitemap or HTTP header, with code checks.' : 'Çok dilli siteler için HTML, XML site haritası ve HTTP başlığı biçiminde hreflang; kod denetimiyle.' },
-              { href: isEn ? '/en/serp-preview' : '/serp-onizleme', ikon: '🔍', ad: isEn ? 'SERP Preview' : 'SERP Önizleme', aciklama: isEn ? 'See how your title and meta description may look in Google, measured in pixels.' : "Başlık ve meta açıklamanın Google'da nasıl görüneceğini piksel genişliğiyle gösterir." },
-              { href: isEn ? '/en/utm-builder' : '/utm-olusturucu', ikon: '🏷️', ad: isEn ? 'UTM Link Builder' : 'UTM Link Oluşturucu', aciklama: isEn ? 'Consistent campaign links for GA4 with presets, bulk URLs and a channel estimate.' : 'GA4 için tutarlı kampanya linkleri; hazır ayarlar, toplu URL ve kanal tahmini.' },
-              { href: isEn ? '/en/og-preview' : '/og-onizleme', ikon: '🖼️', ad: isEn ? 'Open Graph Preview' : 'Open Graph Önizleme', aciklama: isEn ? 'See how a page looks when shared on WhatsApp, LinkedIn, X and Facebook; flags missing og tags.' : "Sayfanın WhatsApp, LinkedIn, X ve Facebook'ta paylaşım görünümü; eksik og etiketlerini bulur." },
-              { href: isEn ? '/en/seo-roi-calculator' : '/seo-roi-hesaplayici', ikon: '📈', ad: isEn ? 'SEO ROI Calculator' : 'SEO ROI Hesaplayıcı', aciklama: isEn ? 'Estimate extra profit, ROI and payback month from your own traffic and cost assumptions.' : 'Kendi trafik ve maliyet varsayımlarınızla ek kârı, ROI\'yi ve geri ödeme ayını tahmin edin.' },
-              { href: isEn ? '/en/redirect-checker' : '/yonlendirme-zinciri-kontrol', ikon: '⛓️', ad: isEn ? 'Redirect Chain Checker' : 'Yönlendirme Zinciri Kontrolü', aciklama: isEn ? 'Follow redirects hop by hop with status codes; flags loops, long chains, 302s and 404s. Up to 10 URLs.' : "Yönlendirmeleri durum kodlarıyla adım adım izler; döngü, uzun zincir, 302 ve 404'leri bulur. 10 adrese kadar." },
-              { href: isEn ? '/en/keyword-clustering' : '/anahtar-kelime-gruplama', ikon: '🗂️', ad: isEn ? 'Keyword Clustering' : 'Anahtar Kelime Gruplama', aciklama: isEn ? 'Group a keyword list by shared terms with Turkish aware matching; cluster volumes and CSV export.' : 'Kelime listesini Türkçe eklere duyarlı olarak ortak kelimelere göre gruplar; küme hacmi ve CSV.' },
-              { href: isEn ? '/en/sitemap-generator' : '/site-haritasi-olusturucu', ikon: '🗺️', ad: isEn ? 'XML Sitemap Generator' : 'XML Site Haritası Oluşturucu', aciklama: isEn ? 'Valid XML sitemaps from a URL list with lastmod, hreflang alternates and a sitemap index for large sites.' : 'URL listesinden lastmod, hreflang alternatifleri ve büyük siteler için dizinle geçerli XML site haritası.' },
-              { href: isEn ? '/en/meta-tag-generator' : '/meta-etiket-olusturucu', ikon: '🧾', ad: isEn ? 'Meta Tag Generator' : 'Meta Etiket Oluşturucu', aciklama: isEn ? 'Title, description, canonical, robots and Open Graph tags with pixel checks and live previews.' : 'Title, açıklama, canonical, robots ve Open Graph etiketleri; piksel ölçümü ve canlı önizlemeyle.' },
-            ].map(a => (
-              <Link key={a.href} href={a.href} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start', padding: '18px 20px', borderRadius: '12px', background: '#111', color: '#fff', textDecoration: 'none' }}>
-                <span aria-hidden="true" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--orange)', minWidth: '34px' }}>{a.ikon}</span>
-                <span>
-                  <span style={{ display: 'block', fontSize: '15px', fontWeight: 700, marginBottom: '4px' }}>{a.ad} →</span>
-                  <span style={{ display: 'block', fontSize: '13px', color: '#aaa', lineHeight: 1.5 }}>{a.aciklama}</span>
-                </span>
-              </Link>
+          {/* Gruplara atlama menüsü */}
+          <nav aria-label={isEn ? 'Tool groups' : 'Araç grupları'} style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '28px' }}>
+            {[...ARAC_GRUPLARI.map(g => [g.id, isEn ? g.en : g.tr]), ['hizli-araclar', isEn ? 'Quick in-page tools' : 'Sayfa içi hızlı araçlar']].map(([id, ad]) => (
+              <a key={id} href={`#${id}`} style={{ fontSize: '13px', fontWeight: 600, color: '#333', background: '#fff', border: '1px solid #e7e2da', borderRadius: '999px', padding: '7px 14px', textDecoration: 'none' }}>{ad}</a>
             ))}
-          </div>
+          </nav>
 
-          {/* Araç seçici */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px', marginBottom: '32px' }}>
-            {ARACLAR.map(a => {
-              const l = isEn ? a.en : a.tr
-              return (
-                <button key={a.id} onClick={() => setAktif(a.id)} style={{
-                  padding: '20px', borderRadius: '12px', border: aktif === a.id ? '2px solid var(--orange)' : '2px solid #eee',
-                  background: aktif === a.id ? 'rgba(232,86,10,0.04)' : '#fff',
-                  cursor: 'pointer', textAlign: 'left', fontFamily: 'var(--font-body)',
-                  transition: 'all 0.15s',
-                }}>
-                  <div style={{ fontSize: '24px', marginBottom: '8px' }}>{a.ikon}</div>
-                  <div style={{ fontSize: '14px', fontWeight: 700, color: aktif === a.id ? 'var(--orange)' : '#111', marginBottom: '4px' }}>{l.isim}</div>
-                  <div style={{ fontSize: '12px', color: '#888', lineHeight: 1.5 }}>{l.aciklama}</div>
-                </button>
-              )
-            })}
-          </div>
+          {/* Ayrı sayfalı araçlar, gruplu */}
+          {ARAC_GRUPLARI.map(g => (
+            <section key={g.id} id={g.id} aria-labelledby={`${g.id}-baslik`} style={{ marginBottom: '32px', scrollMarginTop: 'calc(var(--nav-h) + 16px)' }}>
+              <h2 id={`${g.id}-baslik`} style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', margin: '0 0 4px' }}>{isEn ? g.en : g.tr}</h2>
+              <p style={{ color: '#777', fontSize: '14px', margin: '0 0 14px' }}>{isEn ? g.aciklamaEn : g.aciklamaTr}</p>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '12px' }}>
+                {g.araclar(isEn).map(a => (
+                  <Link key={a.href} href={a.href} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start', padding: '18px 20px', borderRadius: '12px', background: '#111', color: '#fff', textDecoration: 'none' }}>
+                    <span aria-hidden="true" style={{ fontSize: '20px', fontWeight: 800, color: 'var(--orange)', minWidth: '34px' }}>{a.ikon}</span>
+                    <span>
+                      <span style={{ display: 'block', fontSize: '15px', fontWeight: 700, marginBottom: '4px' }}>{a.ad} →</span>
+                      <span style={{ display: 'block', fontSize: '13px', color: '#aaa', lineHeight: 1.5 }}>{a.aciklama}</span>
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ))}
 
-          {/* Araç içeriği */}
-          <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee' }}>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '20px' }}>
-              {(isEn ? aktifArac?.en : aktifArac?.tr)?.isim}
-            </h2>
-            {AktifComponent && <AktifComponent isEn={isEn} />}
-          </div>
+          {/* Sayfa içi hızlı araçlar */}
+          <section id="hizli-araclar" aria-labelledby="hizli-araclar-baslik" style={{ scrollMarginTop: 'calc(var(--nav-h) + 16px)' }}>
+            <h2 id="hizli-araclar-baslik" style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', margin: '0 0 4px' }}>{isEn ? 'Quick in-page tools' : 'Sayfa içi hızlı araçlar'}</h2>
+            <p style={{ color: '#777', fontSize: '14px', margin: '0 0 14px' }}>{isEn ? 'Small checks that run right on this page, from a live SEO audit and keyword ideas to title length, slugs, robots.txt and readability.' : 'Bu sayfada çalışan küçük kontroller; canlı SEO denetimi, anahtar kelime fikirleri, başlık uzunluğu, slug, robots.txt ve okunabilirlik.'}</p>
+            {/* Araç seçici */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px', marginBottom: '32px' }}>
+              {ARACLAR.map(a => {
+                const l = isEn ? a.en : a.tr
+                return (
+                  <button key={a.id} onClick={() => setAktif(a.id)} style={{
+                    padding: '20px', borderRadius: '12px', border: aktif === a.id ? '2px solid var(--orange)' : '2px solid #eee',
+                    background: aktif === a.id ? 'rgba(232,86,10,0.04)' : '#fff',
+                    cursor: 'pointer', textAlign: 'left', fontFamily: 'var(--font-body)',
+                    transition: 'all 0.15s',
+                  }}>
+                    <div style={{ fontSize: '24px', marginBottom: '8px' }}>{a.ikon}</div>
+                    <div style={{ fontSize: '14px', fontWeight: 700, color: aktif === a.id ? 'var(--orange)' : '#111', marginBottom: '4px' }}>{l.isim}</div>
+                    <div style={{ fontSize: '12px', color: '#888', lineHeight: 1.5 }}>{l.aciklama}</div>
+                  </button>
+                )
+              })}
+            </div>
+
+            {/* Araç içeriği */}
+            <div style={{ background: '#fff', borderRadius: '16px', padding: '32px', border: '1px solid #eee' }}>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '20px' }}>
+                {(isEn ? aktifArac?.en : aktifArac?.tr)?.isim}
+              </h3>
+              {AktifComponent && <AktifComponent isEn={isEn} />}
+            </div>
+          </section>
         </div>
       </div>
     </>

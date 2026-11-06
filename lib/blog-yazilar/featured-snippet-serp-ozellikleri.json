@@ -158,7 +158,7 @@
       "metin": "Google, SSS (FAQ) zengin sonuçlarını 7 Mayıs 2026'dan bu yana Google Arama'da göstermiyor; HowTo zengin sonuçları daha önce kaldırılmıştı. FAQPage işaretlemesi geçerli kalıyor ve içeriğin makinelerce anlaşılmasına yardımcı olabilir, ancak artık bir zengin sonuç kazandırmıyor."
      }
     },
-    "Yapısal veri hâlâ ürün, yorum, etkinlik, video gibi pek çok sonuç türünün temeli. Hangi türün hangi sonuca uygun olduğunu [schema ve yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, JSON-LD kodunu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz. Öne çıkan snippet için ise yapısal veri gerekmiyor."
+    "Yapısal veri hâlâ ürün, yorum, etkinlik, video gibi pek çok sonuç türünün temeli. Hangi türün hangi sonuca uygun olduğunu [schema ve yapısal veri rehberinde](/schema-yapisal-veri) bulabilir, JSON-LD kodunu [schema oluşturucu](/schema-olusturucu) ile hazırlayabilirsiniz. Öne çıkan snippet için ise yapısal veri gerekmiyor. En çok kullanılan schema türlerinin özetini [schema markup nedir](/schema-markup-nedir) yazısında bulabilirsiniz."
    ]
   },
   {
@@ -351,7 +351,7 @@
       "metin": "Google has not shown FAQ rich results in Google Search since 7 May 2026; HowTo rich results were removed earlier. FAQPage markup remains valid and may help machines understand content, but it no longer earns a rich result."
      }
     },
-    "Structured data still underpins many result types such as products, reviews, events and videos. See which type fits which result in the [schema and structured data guide](/en/schema-yapisal-veri) and draft JSON-LD with the [schema generator](/en/schema-generator). Featured snippets need no structured data."
+    "Structured data still underpins many result types such as products, reviews, events and videos. See which type fits which result in the [schema and structured data guide](/en/schema-yapisal-veri) and draft JSON-LD with the [schema generator](/en/schema-generator). Featured snippets need no structured data. For a summary of the most used schema types, see [what is schema markup](/en/schema-markup-nedir)."
    ]
   },
   {
