@@ -326,8 +326,8 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'GEO GUIDE',
-    title: 'Complete GEO Guide (2026) | Fatih Emin Çakıroğlu',
-    h1: 'GEO Guide: Complete Generative Engine Optimization Guide from Beginner to Expert (2026)',
+    title: 'What Is GEO? Generative Engine Optimization Guide 2026',
+    h1: 'What Is GEO? Generative Engine Optimization Guide 2026',
     h1alt: 'What is GEO? Complete Guide: How to Appear in ChatGPT, Perplexity and Google AI Overview',
     desc: 'Everything you need to know about GEO, from how AI search engines work to content strategy, technical fixes and platform tactics. Updated for 2026.',
     breadcrumb: ['Home', 'Resources', 'GEO Guide'],
@@ -337,8 +337,8 @@ export default function Page(props) {
     cta_btn: 'Book a Free Call →',
   } : {
     badge: 'GEO REHBERİ',
-    title: 'Kapsamlı GEO Rehberi (2026) | Fatih Emin Çakıroğlu',
-    h1: 'GEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Generative Engine Optimization Kılavuzu (2026)',
+    title: 'GEO Nedir? Generative Engine Optimization Rehberi 2026',
+    h1: 'GEO Nedir? Generative Engine Optimization Rehberi 2026',
     h1alt: 'GEO Nedir? ChatGPT, Perplexity ve Google AI Overview\'da Nasıl Görünürsünüz?',
     desc: 'AI arama motorlarının nasıl çalıştığı, içerik stratejisi, teknik optimizasyon ve platform bazlı taktiklerle 2026 için güncellenmiş GEO rehberi.',
     breadcrumb: ['Ana Sayfa', 'Kaynaklar', 'GEO Rehberi'],

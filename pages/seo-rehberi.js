@@ -325,8 +325,8 @@ export default function Page(props) {
 
   const t = isEn ? {
     badge: 'SEO GUIDE',
-    title: 'Complete SEO Guide (2026) | Fatih Emin Çakıroğlu',
-    h1: 'SEO Guide: Complete Search Engine Optimization Guide from Beginner to Expert (2026)',
+    title: 'What Is SEO? Search Engine Optimization Guide 2026',
+    h1: 'What Is SEO? Search Engine Optimization Guide 2026',
     h1alt: 'What is SEO? Complete SEO Guide from Basics to Advanced',
     desc: 'A complete SEO guide covering technical SEO, keyword research, content strategy, backlinks and more. Updated for 2026, so start learning step by step.',
     breadcrumb: ['Home', 'Resources', 'SEO Guide'],
@@ -338,8 +338,8 @@ export default function Page(props) {
     dk: 'min read',
   } : {
     badge: 'SEO REHBERİ',
-    title: 'Kapsamlı SEO Rehberi (2026) | Fatih Emin Çakıroğlu',
-    h1: 'SEO Rehberi: Sıfırdan Uzmanlığa Kapsamlı Arama Motoru Optimizasyonu Kılavuzu (2026)',
+    title: 'SEO Nedir? Arama Motoru Optimizasyonu Rehberi 2026',
+    h1: 'SEO Nedir? Arama Motoru Optimizasyonu Rehberi 2026',
     h1alt: 'SEO Nedir? Başlangıçtan İleri Seviyeye Eksiksiz SEO Rehberi',
     desc: 'Teknik SEO, anahtar kelime araştırması, içerik stratejisi ve backlinkleri kapsayan, 2026 için güncellenmiş SEO rehberi. Adım adım öğrenin.',
     breadcrumb: ['Ana Sayfa', 'Kaynaklar', 'SEO Rehberi'],
