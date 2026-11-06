@@ -20,6 +20,27 @@ import { isYayindaBlog } from '../../lib/content-index';
 
 
 // Meta başlıktaki kategori adları (pages/blog.js KATEGORILER ile aynı)
+// Meta başlığı H1 ile aynı olan yazılar (ajans ve araç listeleri)
+const H1_META_AYNI = new Set([
+  'turkiye-en-iyi-10-dijital-pazarlama-ajansi-2026',
+  'turkiye-en-iyi-15-dijital-pazarlama-ajansi-2026',
+  'turkiye-en-iyi-10-geo-ajansi-2026',
+  'turkiye-en-iyi-15-geo-ajansi-2026',
+  'turkiye-en-iyi-10-seo-ajansi-2026',
+  'turkiye-en-iyi-15-seo-ajansi-2026',
+  'turkiye-en-iyi-10-sosyal-medya-ajansi-2026',
+  'turkiye-en-iyi-15-sosyal-medya-ajansi-2026',
+  'turkiye-en-iyi-10-e-ticaret-ajansi-2026',
+  'en-iyi-yapay-zeka-seo-araclari',
+  'turkiye-en-iyi-10-web-tasarim-ajansi-2026',
+  'en-iyi-wordpress-seo-eklentileri',
+  'en-iyi-ucretsiz-seo-araclari',
+  'en-iyi-siralama-takip-araclari',
+  'en-iyi-backlink-analiz-araclari',
+  'en-iyi-anahtar-kelime-araclari',
+  'chatgpt-seo-promptlari',
+])
+
 const KATEGORI_ADI = {
   tr: { technical: 'Teknik SEO', geo: 'GEO', content: 'İçerik', backlink: 'Backlink', ecommerce: 'E-Ticaret', analytics: 'Analitik', local: 'Yerel SEO', strategy: 'Strateji' },
   en: { technical: 'Technical SEO', geo: 'GEO', content: 'Content', backlink: 'Backlink', ecommerce: 'E-Commerce', analytics: 'Analytics', local: 'Local SEO', strategy: 'Strategy' },
@@ -62,7 +83,8 @@ export default function BlogPost(props) {
   // Meta başlık biçimi: "Konu | Kategori" (en fazla 54 karakter, iki nokta yok).
   // Konu: meta_baslik_tr/en; kategori: yazının blog kategorisi (pages/blog.js).
   const kategoriAdi = KATEGORI_ADI[isEn ? 'en' : 'tr'][YAZILAR.find(y => y.slug === slug)?.kategori] || 'Blog'
-  const sayfaBasligi = `${metaBaslik} | ${kategoriAdi}`
+  // Bu yazılarda meta başlık H1 ile birebir aynıdır (" | Kategori" eki yok); liste başlıklarına ay ve yıl yazılır
+  const sayfaBasligi = H1_META_AYNI.has(slug) ? baslik : `${metaBaslik} | ${kategoriAdi}`
   // Yayın ve güncelleme tarihleri: lib/blog-meta.js
   const meta = getBlogMeta(slug)
   const guncelleme = meta ? ayYil(meta.guncelleme || meta.yayin, isEn) : (isEn ? 'July 2026' : 'Temmuz 2026')
