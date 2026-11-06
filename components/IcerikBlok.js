@@ -25,7 +25,9 @@ export function renderInline(text) {
     const key = `i${m.index}`
     if (m[1] !== undefined) {
       const url = m[2]
-      parts.push(url.startsWith('/')
+      parts.push(url.startsWith('#')
+        ? <a key={key} href={url} style={inlineLinkStyle}>{m[1]}</a>
+        : url.startsWith('/')
         ? <Link key={key} href={url} style={inlineLinkStyle}>{m[1]}</Link>
         : <a key={key} href={url} target="_blank" rel="nofollow noopener noreferrer" style={inlineLinkStyle}>{m[1]}</a>)
     } else {
@@ -89,6 +91,21 @@ export function renderBlok(p, key, isMobile, mb) {
             )
           })}
         </ol>
+      </figure>
+    )
+  }
+  // Künye: etiket/değer satırları (ör. ajans künyesi). { kunye: { baslik, satirlar: [[etiket, deger], ...] } }
+  if (p.kunye) {
+    const { baslik, satirlar } = p.kunye
+    return (
+      <figure key={key} style={{ margin: `4px 0 ${mb === '0' ? '0' : '18px'}`, background: '#faf9f7', border: '1px solid #f0ece6', borderRadius: '14px', padding: isMobile ? '14px' : '16px 18px' }}>
+        {baslik && <figcaption style={sekilBaslik}>{renderInline(baslik)}</figcaption>}
+        <dl style={{ margin: 0, display: 'grid', gridTemplateColumns: isMobile ? 'minmax(0, 1fr)' : 'minmax(0, 170px) minmax(0, 1fr)', gap: isMobile ? '2px 0' : '8px 16px' }}>
+          {satirlar.map(([et, de], i) => [
+            <dt key={`t${i}`} style={{ fontSize: '12.5px', fontWeight: 700, color: '#888', marginTop: isMobile && i ? '8px' : 0 }}>{renderInline(et)}</dt>,
+            <dd key={`d${i}`} style={{ margin: 0, fontSize: '14px', color: '#222', lineHeight: 1.6 }}>{renderInline(de)}</dd>,
+          ])}
+        </dl>
       </figure>
     )
   }

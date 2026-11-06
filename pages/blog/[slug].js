@@ -10,6 +10,8 @@ import { getBlogMeta, ayYil } from '../../lib/blog-meta';
 import YazarFoto from '../../components/YazarFoto';
 import { renderBlok, renderInline } from '../../components/IcerikBlok';
 import IlgiliRehberler from '../../components/IlgiliRehberler';
+import AjansOneriFormu from '../../components/AjansOneriFormu';
+import AjansSerisi from '../../components/AjansSerisi';
 import { ILGILI_YAZILAR, YAZI_REHBERLERI } from '../../lib/ilgili-icerik';
 import LeadMagnet from '../../components/LeadMagnet';
 import { sayfaninListesi } from '../../lib/kontrol-listeleri';
@@ -105,10 +107,10 @@ export default function BlogPost(props) {
   useEffect(() => {
     if (isMobile) return
     const observer = new IntersectionObserver(
-      (entries) => { entries.forEach(entry => { if (entry.isIntersecting) { const idx = parseInt(entry.target.id.replace('bolum-', '')); if (!isNaN(idx)) setAktifBolum(idx) } }) },
+      (entries) => { entries.forEach(entry => { if (entry.isIntersecting) { const idx = parseInt(entry.target.dataset.bolum); if (!isNaN(idx)) setAktifBolum(idx) } }) },
       { rootMargin: '-20% 0px -70% 0px', threshold: 0 }
     )
-    const els = document.querySelectorAll('[id^="bolum-"]')
+    const els = document.querySelectorAll('[data-bolum]')
     els.forEach(el => observer.observe(el))
     return () => observer.disconnect()
   }, [bolumler, isMobile])
@@ -118,7 +120,7 @@ export default function BlogPost(props) {
   useEffect(() => {
     if (isMobile) return
     const kutu = document.querySelector('[data-toc-scroll]')
-    const oge = kutu?.querySelector(`a[href="#bolum-${aktifBolum}"]`)
+    const oge = kutu?.querySelector(`a[data-toc="${aktifBolum}"]`)
     if (!kutu || !oge || kutu.scrollHeight <= kutu.clientHeight) return
     const ust = oge.offsetTop - kutu.offsetTop
     if (ust < kutu.scrollTop || ust + oge.offsetHeight > kutu.scrollTop + kutu.clientHeight) {
@@ -137,7 +139,7 @@ export default function BlogPost(props) {
       </div>
       <div data-toc-scroll style={{ maxHeight: isMobile ? '320px' : '45vh', overflowY: 'auto', overscrollBehavior: 'contain' }}>
       {bolumler.map((b, i) => ({ b, i })).filter(x => x.b.baslik).map(({ b, i }, sira) => (
-        <a key={i} href={`#bolum-${i}`}
+        <a key={i} href={`#${b.id || `bolum-${i}`}`} data-toc={i}
           style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', padding: '8px 10px', borderRadius: '8px', marginBottom: '2px', textDecoration: 'none', background: !isMobile && aktifBolum === i ? 'rgba(232,86,10,0.08)' : 'transparent' }}>
           <span style={{ fontSize: '12px', fontWeight: 700, flexShrink: 0, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#ccc', minWidth: '20px' }}>{String(sira + 1).padStart(2, '0')}</span>
           <span style={{ fontSize: '13px', lineHeight: 1.4, color: !isMobile && aktifBolum === i ? 'var(--orange)' : '#555', fontWeight: !isMobile && aktifBolum === i ? 600 : 400 }}>{b.baslik}</span>
@@ -226,6 +228,23 @@ export default function BlogPost(props) {
     })),
   } : null
 
+  // Ajans listeleri: listedeki kuruluşlar sıralı liste olarak işaretlenir (alfabetik, sıralama değildir)
+  const ajansListe = (isEn ? veri?.itemlist_en : veri?.itemlist_tr) || null
+  const itemListSchema = ajansListe ? {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${canonicalUrl}#liste`,
+    name: baslik,
+    itemListOrder: 'https://schema.org/ItemListUnordered',
+    numberOfItems: ajansListe.length,
+    itemListElement: ajansListe.map((a, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${canonicalUrl}#${a.id}`,
+      item: { '@type': 'Organization', name: a.isim, ...(a.url ? { url: a.url } : {}) },
+    })),
+  } : null
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -287,6 +306,7 @@ export default function BlogPost(props) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+        {itemListSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />}
         {/* og:title / og:description / og:url _document.js'te merkezî üretilir. */}
         <meta property="og:type" content="article" key="og-type" />
         {meta?.yayin && <meta property="article:published_time" content={meta.yayin} key="article-published" />}
@@ -340,7 +360,7 @@ export default function BlogPost(props) {
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} sure={sure} />
               {KapakGorseli}
               {bolumler.map((b, bi) => (
-                <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
+                <div key={bi} id={b.id || `bolum-${bi}`} data-bolum={bi} style={{ marginBottom: bi < bolumler.length - 1 ? '36px' : '0', scrollMarginTop: '80px' }}>
                   {b.baslik && <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 800, color: '#111', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <span style={{ width: '3px', height: '18px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>}
@@ -373,8 +393,10 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {veri.ajans_listesi && <AjansOneriFormu isEn={isEn} isMobile={isMobile} sayfa={slug} />}
               {IndirmeKutusu}
               {SssBolumu}
+              {veri.ajans_listesi && <AjansSerisi slug={slug} isEn={isEn} />}
             </div>
             {AuthorCard}
             {CTACard}
@@ -386,7 +408,7 @@ export default function BlogPost(props) {
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} sure={sure} />
               {KapakGorseli}
               {bolumler.map((b, bi) => (
-                <div key={bi} id={`bolum-${bi}`} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
+                <div key={bi} id={b.id || `bolum-${bi}`} data-bolum={bi} style={{ marginBottom: bi < bolumler.length - 1 ? '44px' : '0', scrollMarginTop: '90px' }}>
                   {b.baslik && <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: 800, color: '#111', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <span style={{ width: '4px', height: '20px', background: 'var(--orange)', borderRadius: '2px', flexShrink: 0, display: 'inline-block' }}></span>{b.baslik}
                   </h2>}
@@ -415,8 +437,10 @@ export default function BlogPost(props) {
                   {bi === midCtaIndex && MidArticleCTA}
                 </div>
               ))}
+              {veri.ajans_listesi && <AjansOneriFormu isEn={isEn} isMobile={isMobile} sayfa={slug} />}
               {IndirmeKutusu}
               {SssBolumu}
+              {veri.ajans_listesi && <AjansSerisi slug={slug} isEn={isEn} />}
             </div>
             <div className="sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px' }}>
               {TOC}
