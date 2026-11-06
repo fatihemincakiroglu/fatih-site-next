@@ -57,7 +57,7 @@ const BECERILER = [
 ]
 
 const ISTATISTIKLER = [
-  { rakam: '10+', tr: 'Yıl toplam deneyim', en: 'Years total experience', renk: '#6366f1' },
+  { rakam: '8+', tr: 'Yıl toplam deneyim', en: 'Years total experience', renk: '#6366f1' },
   { rakam: '5',   tr: 'Yıl öğretmenlik', en: 'Years teaching', renk: '#0ea5e9' },
   { rakam: '5',   tr: 'Yıl SEO uzmanlığı', en: 'Years SEO expertise', renk: '#e8560a' },
   { rakam: '150+',tr: 'Marka', en: 'Brands served', renk: '#16a34a' },
@@ -212,7 +212,7 @@ export default function Page(props) {
     <>
       <Head>
         <title>{isEn ? 'About Me | Fatih Emin Çakıroğlu, SEO Expert' : 'Hakkımda | SEO ve GEO Uzmanı Fatih Emin Çakıroğlu'}</title>
-        <meta name="description" content={isEn ? 'My path from IB teaching to independent SEO and GEO consulting. 10+ years of experience advising 150+ brands across 14 different industries.' : "IB öğretmenliğinden bağımsız SEO ve GEO danışmanlığına uzanan yolculuğum. 10+ yıl deneyim ve 14 sektörde 150'den fazla markaya danışmanlık."} />
+        <meta name="description" content={isEn ? 'My path from IB teaching to independent SEO and GEO consulting. 8+ years of experience advising 150+ brands across 14 different industries.' : "IB öğretmenliğinden bağımsız SEO ve GEO danışmanlığına uzanan yolculuğum. 8+ yıl deneyim ve 14 sektörde 150'den fazla markaya danışmanlık."} />
         <link rel="canonical" href={isEn ? 'https://fatihemincakiroglu.com/en/about' : 'https://fatihemincakiroglu.com/hakkimda'} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context":"https://schema.org","@type":"Person","name":"Fatih Emin Çakıroğlu","jobTitle":isEn?"SEO & GEO Consultant":"SEO & GEO Danışmanı","url":"https://fatihemincakiroglu.com","alumniOf":{"@type":"EducationalOrganization","name":"Marmara University"},"knowsAbout":["SEO","GEO","Technical SEO","Content Strategy","Generative Engine Optimization"],"sameAs":["https://www.linkedin.com/in/fatihemincakiroglu/"] }) }} />
       </Head>
