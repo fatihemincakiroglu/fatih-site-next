@@ -157,7 +157,7 @@ export default function Page(props) {
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '17px' : '20px', fontWeight: 800, color: '#111', marginBottom: '14px' }}>
             {isEn ? 'Related guides' : 'İlgili rehberler'}
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '12px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, minmax(0, 1fr))', gap: '12px' }}>
             {ilgiliRehberler.map(r => {
               const l = isEn ? r.en : r.tr
               return (
@@ -286,7 +286,7 @@ export default function Page(props) {
           </div>
         ) : (
           /* DESKTOP: Sidebar left, article right */
-          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '260px 1fr', gap: '32px', alignItems: 'start' }}>
+          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '260px minmax(0, 1fr)', gap: '32px', alignItems: 'start' }}>
             {/* Sidebar */}
             <div className="sticky-sidebar" style={{ position: 'sticky', top: 'calc(var(--nav-h) + 24px)', display: 'flex', flexDirection: 'column', gap: '12px', maxHeight: 'calc(100vh - var(--nav-h) - 48px)', overflowY: 'auto' }}>
               {TOC}

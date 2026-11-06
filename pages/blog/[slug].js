@@ -359,7 +359,7 @@ export default function BlogPost(props) {
           </div>
         ) : (
           /* DESKTOP: 2-col layout */
-          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: '1fr 280px', gap: '32px', alignItems: 'start' }}>
+          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '32px 16px 96px', display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 280px', gap: '32px', alignItems: 'start' }}>
             <div style={{ background: '#fff', borderRadius: '16px', padding: '40px', border: '1px solid #eee' }}>
               <AiOzetle url={canonicalUrl} baslik={baslik} isEn={isEn} isMobile={isMobile} sure={sure} />
               {KapakGorseli}
@@ -370,7 +370,7 @@ export default function BlogPost(props) {
                   </h2>}
                   {b.paragraflar.map((p, pi) => renderBlok(p, pi, false, pi < b.paragraflar.length - 1 ? '14px' : (b.linkler ? '18px' : '0')))}
                   {b.linkler && (
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '10px' }}>
                       {b.linkler.map((l, li) => (
                         <div key={li} style={{ background: '#faf9f7', border: '1px solid #ede8e0', borderRadius: '10px', padding: '12px 16px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
                           <div style={{ fontSize: '14px', fontWeight: 700, color: '#111' }}>{l.isim}</div>

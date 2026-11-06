@@ -201,7 +201,7 @@ export function renderBlok(p, key, isMobile, mb) {
     <p key={key} style={{ ...metin, color: '#222', fontWeight: 600, borderLeft: '3px solid var(--orange)', background: '#faf9f7', padding: '10px 16px', borderRadius: '0 8px 8px 0' }}>{renderInline(p.alinti)}</p>
   )
   if (p.kod) return (
-    <pre key={key} style={{ background: '#1a1612', color: '#f5efe8', padding: '16px 18px', borderRadius: '10px', overflowX: 'auto', fontSize: '13px', lineHeight: 1.65, margin: `0 0 ${mb}`, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace', whiteSpace: 'pre' }}><code>{p.kod}</code></pre>
+    <pre key={key} style={{ background: '#1a1612', color: '#f5efe8', padding: '16px 18px', borderRadius: '10px', overflowX: 'auto', fontSize: '13px', lineHeight: 1.65, margin: `0 0 ${mb}`, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace', whiteSpace: 'pre-wrap', overflowWrap: 'anywhere', maxWidth: '100%' }}><code>{p.kod}</code></pre>
   )
   if (p.tablo) {
     const { basliklar, satirlar, sag = [] } = p.tablo
