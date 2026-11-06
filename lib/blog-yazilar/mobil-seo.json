@@ -154,8 +154,8 @@
   {
    "baslik": "Core Web Vitals mobil SEO'yu nasıl etkiler?",
    "paragraflar": [
-    "Core Web Vitals eşikleri mobil ve masaüstünde aynı: LCP 2,5 saniye, INP 200 milisaniye, CLS 0,1 ve altı \"iyi\" sayılıyor. Ancak mobil cihazlar ve ağlar daha yavaş olduğu için aynı sayfa mobilde çoğu zaman daha kötü sonuç veriyor.",
-    "Mobilde en sık LCP'yi büyük kahraman görselleri ve yavaş sunucu yanıtı, INP'yi ağır üçüncü taraf betikleri, CLS'yi ise boyutu belirtilmemiş görseller ve geç yüklenen bannerlar bozuyor. Ölçüm yöntemi ve iyileştirme adımları için [Core Web Vitals 2025](/core-web-vitals-2025) yazısına bakın; ağır şablonların hızlandırılmasını [performans ve büyüme hizmeti](/performans) kapsamında ele alıyorum."
+    "Core Web Vitals eşikleri mobil ve masaüstünde aynı: LCP 2,5 saniye, INP 200 milisaniye, CLS 0,1 ve altı \"iyi\" sayılıyor. Ancak mobil cihazlar ve ağlar daha yavaş olduğu için aynı sayfa mobilde çoğu zaman daha kötü sonuç veriyor. Siteniz WordPress üzerindeyse [WordPress site hızı](/wordpress-site-hizi) için uyguladığım adımlar mobil skoru da iyileştirir.",
+    "Mobilde en sık LCP'yi büyük kahraman görselleri ve yavaş sunucu yanıtı, INP'yi ağır üçüncü taraf betikleri, CLS'yi ise boyutu belirtilmemiş görseller ve geç yüklenen bannerlar bozuyor. Ölçüm yöntemi ve iyileştirme adımları için [Core Web Vitals 2025](/core-web-vitals-2025) yazısına bakın; ağır şablonların hızlandırılmasını [performans ve büyüme hizmeti](/performans) kapsamında ele alıyorum. Kahraman görselleri hafifletmek için [görsel SEO optimizasyon teknikleri](/gorsel-seo) yazısına da bakabilirsiniz."
    ]
   },
   {
@@ -311,8 +311,8 @@
   {
    "baslik": "How do Core Web Vitals affect mobile SEO?",
    "paragraflar": [
-    "Core Web Vitals thresholds are the same on mobile and desktop: LCP of 2.5 seconds, INP of 200 milliseconds and CLS of 0.1 or less count as \"good\". But because mobile devices and networks are slower, the same page often scores worse on mobile.",
-    "On mobile, LCP is most often hurt by large hero images and slow server response, INP by heavy third-party scripts, and CLS by images without dimensions and late-loading banners. For measurement and fixes, see [Core Web Vitals 2025](/en/core-web-vitals-2025); speeding up heavy templates is part of my [performance and growth service](/en/performance-growth)."
+    "Core Web Vitals thresholds are the same on mobile and desktop: LCP of 2.5 seconds, INP of 200 milliseconds and CLS of 0.1 or less count as \"good\". But because mobile devices and networks are slower, the same page often scores worse on mobile. If your site runs on WordPress, the steps I use for [WordPress site speed](/en/wordpress-site-hizi) also improve mobile scores.",
+    "On mobile, LCP is most often hurt by large hero images and slow server response, INP by heavy third-party scripts, and CLS by images without dimensions and late-loading banners. For measurement and fixes, see [Core Web Vitals 2025](/en/core-web-vitals-2025); speeding up heavy templates is part of my [performance and growth service](/en/performance-growth). To lighten hero images, see also the [image SEO optimization techniques](/en/gorsel-seo)."
    ]
   },
   {

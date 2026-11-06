@@ -150,5 +150,7 @@ Each article is also available as clean Markdown by adding ".md" to its URL (Eng
 - [hreflang Oluşturucu](https://fatihemincakiroglu.com/hreflang-olusturucu)
 - [SERP Önizleme](https://fatihemincakiroglu.com/serp-onizleme)
 - [UTM Link Oluşturucu](https://fatihemincakiroglu.com/utm-olusturucu)
+- [Open Graph Önizleme](https://fatihemincakiroglu.com/og-onizleme)
+- [SEO ROI Hesaplayıcı](https://fatihemincakiroglu.com/seo-roi-hesaplayici)
 - [Ücretsiz SEO kontrol listeleri (PDF)](https://fatihemincakiroglu.com/kaynaklar#kontrol-listeleri)
 - [Google Güncellemeleri Günlüğü](https://fatihemincakiroglu.com/google-guncellemeleri)

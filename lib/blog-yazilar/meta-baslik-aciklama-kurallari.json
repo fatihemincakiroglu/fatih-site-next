@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Meta başlık (title etiketi) ve meta açıklama, arama sonucunda kullanıcının sizi görüp görmeyeceğine ve tıklayıp tıklamayacağına karar verdiği ilk yerdir. Sıralamayı tek başına değiştirmeseler de aynı konumda daha fazla tıklama almanın en ucuz yoludur.",
-    "Bu yazıdaki 10 kuralı Google Search Central'daki title link ve snippet dokümanlarına dayandırdım, Kasım 2026 itibarıyla resmi metinle karşılaştırdım. “60 karakter” gibi ezber kurallar yerine Google'ın gerçekte ne söylediğini ve Türkçe sitelerde sahada en sık gördüğüm hataları anlatıyorum.",
+    "Bu yazıdaki 10 kuralı Google Search Central'daki title link ve snippet dokümanlarına dayandırdım, Kasım 2026 itibarıyla resmi metinle karşılaştırdım. “60 karakter” gibi ezber kurallar yerine Google'ın gerçekte ne söylediğini ve Türkçe sitelerde sahada en sık gördüğüm hataları anlatıyorum. Sayfanın sosyal medyada nasıl görüneceğini de [Open Graph önizleme aracı](/og-onizleme) ile kontrol edebilirsiniz.",
     {
      "alinti": "Kısa cevap: Her sayfaya o sayfaya özgü, ana konuyu başta söyleyen, anahtar kelime doldurulmamış bir title yazın ve sayfanın tamamını özetleyen doğal bir meta açıklama ekleyin. Google ikisi için de katı bir karakter sınırı koymaz ama sonuçları cihaz genişliğine göre keser. Google, title ve açıklamanızı sayfayı daha iyi anlatan bir metinle değiştirebilir."
     }
@@ -228,7 +228,7 @@
    "baslik": null,
    "paragraflar": [
     "The meta title (the title tag) and the meta description are the first place where a user decides whether to notice you in search results and whether to click. They rarely move rankings, but they are the cheapest way to earn more clicks.",
-    "I based the 10 rules in this article on Google Search Central's title link and snippet documentation, checked as of November 2026. Instead of rules of thumb such as “60 characters”, I explain what Google actually says and the mistakes I see most often on Turkish sites.",
+    "I based the 10 rules in this article on Google Search Central's title link and snippet documentation, checked as of November 2026. Instead of rules of thumb such as “60 characters”, I explain what Google actually says and the mistakes I see most often on Turkish sites. You can also check how the page will look on social media with the [Open Graph preview tool](/en/og-preview).",
     {
      "alinti": "Short answer: Give every page a unique title that states the main topic first without keyword stuffing, and add a natural meta description that summarises the whole page. Google sets no strict character limit for either, but it truncates results to fit the device width. Google may replace your title and description with text that describes the page better."
     }

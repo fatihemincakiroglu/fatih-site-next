@@ -25,7 +25,7 @@
    "baslik": "Programatik SEO nedir, nasıl çalışır?",
    "paragraflar": [
     "Üç parçası var: tekrarlanan bir arama kalıbı (baş terim + değişken), her değişken için ayrı veri tutan bir kaynak (veritabanı, ürün akışı, envanter, API) ve bu veriyi okunur bir sayfaya çeviren şablon. Kalıbı bulmak için [anahtar kelime araştırması rehberindeki](/anahtar-kelime-arastirmasi) kümeleme yöntemi iyi bir başlangıç; aynı niyetteki sorguları gruplayıp hangi değişkenin gerçekten farklı bir ihtiyaç doğurduğunu görürsünüz.",
-    "Kritik soru şablon değil, veri: Her sayfa için başka hiçbir yerde toplu halde bulunmayan, o sayfaya özgü bilgi var mı? Yoksa şablon ne kadar iyi olursa olsun sayfalar birbirinin kopyası olur."
+    "Kritik soru şablon değil, veri: Her sayfa için başka hiçbir yerde toplu halde bulunmayan, o sayfaya özgü bilgi var mı? Yoksa şablon ne kadar iyi olursa olsun sayfalar birbirinin kopyası olur. Şablona uygun sorgu kalıplarını bulmak için [anahtar kelime araştırma araçları](/en-iyi-anahtar-kelime-araclari) iyi bir başlangıç noktasıdır."
    ]
   },
   {
@@ -136,7 +136,7 @@
    "baslik": "What is programmatic SEO and how does it work?",
    "paragraflar": [
     "It has three parts: a repeating search pattern (head term plus variable), a source holding separate data for each variable (a database, product feed, inventory or API), and a template that turns this data into a readable page. To find the pattern, the clustering method in the [keyword research guide](/en/anahtar-kelime-arastirmasi) is a good start; grouping queries with the same intent shows which variable truly creates a different need.",
-    "The critical question is not the template but the data: is there information specific to each page that is not available in aggregate anywhere else? If not, the pages become copies of each other no matter how good the template is."
+    "The critical question is not the template but the data: is there information specific to each page that is not available in aggregate anywhere else? If not, the pages become copies of each other no matter how good the template is. To find query patterns that fit a template, [keyword research tools](/en/en-iyi-anahtar-kelime-araclari) are a good starting point."
    ]
   },
   {

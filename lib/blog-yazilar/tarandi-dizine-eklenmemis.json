@@ -81,7 +81,7 @@
       "Yeni site ya da yeni bölüm: Google henüz siteye güven oluşturmamışken dizine eklemeyi sınırlı tutabiliyor."
      ]
     },
-    "Bu desenler arasında en sık karşılaştığım, ölçekli şablon sayfalardır. Yüzlerce benzer sayfayı aynı anda yayına aldıysanız [programatik SEO ile doorway sayfa arasındaki çizgi](/programatik-seo) yazısına da göz atın."
+    "Bu desenler arasında en sık karşılaştığım, ölçekli şablon sayfalardır. Yüzlerce benzer sayfayı aynı anda yayına aldıysanız [programatik SEO ile doorway sayfa arasındaki çizgi](/programatik-seo) yazısına da göz atın. Dizine eklemeyi etkileyen diğer yaygın sorunları [teknik SEO hataları](/teknik-seo-hatalari) yazısında ele aldım."
    ]
   },
   {
@@ -112,7 +112,7 @@
   {
    "baslik": "Ne zaman endişelenmeli, ne zaman beklemeli?",
    "paragraflar": [
-    "Satırdaki sayı tek başına anlamlı değil; önemli olan, hangi sayfaların orada olduğu ve trendin yönü. Ürün ya da hizmet sayfalarınız, para kazandıran kategorileriniz bu listede kalıcı olarak duruyorsa sorun ciddidir. Etiket arşivleri ve parametreli URL'ler duruyorsa çoğu zaman sistem doğru çalışıyordur.",
+    "Satırdaki sayı tek başına anlamlı değil; önemli olan, hangi sayfaların orada olduğu ve trendin yönü. Ürün ya da hizmet sayfalarınız, para kazandıran kategorileriniz bu listede kalıcı olarak duruyorsa sorun ciddidir. Etiket arşivleri ve parametreli URL'ler duruyorsa çoğu zaman sistem doğru çalışıyordur. Yeni yayına alınan sitelerde bu tabloyu önlemek için [yeni web sitesi SEO kontrol listesi](/yeni-site-seo-kontrol-listesi) iyi bir başlangıçtır.",
     "Toplam sayının çekirdek güncellemesi dönemlerinde belirgin biçimde artması, sitenin genel kalite değerlendirmesiyle ilgili olabilir; bu durumda [çekirdek güncellemesi sonrası trafik düşüşü teşhis listesini](/cekirdek-guncelleme-trafik-dususu) birlikte uygulayın. Sayfa hızının dizine eklemeyi tek başına çözmesini beklemeyin, ama ağır şablonlar için [Core Web Vitals değerlendirmesi](/core-web-vitals-2025) yine de faydalı olur.",
     "Büyük bir mağazada bu satırın binlerce URL'ye ulaştığı projelerde [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında şablon bazlı bir temizlik planı çıkarıyorum. Kendi sitenizde nereden başlayacağınızdan emin değilseniz [SEO uzmanı](/seo-uzmani) olarak birlikte bakabiliriz; kısa bir [ön görüşme randevusu](/randevu) almanız yeterli."
    ]
@@ -189,7 +189,7 @@
       "A new site or section: Google may keep indexing limited until it builds confidence in the site."
      ]
     },
-    "The pattern I meet most is templated pages at scale. If you launched hundreds of similar pages at once, also read [where programmatic SEO turns into doorway pages](/en/programatik-seo)."
+    "The pattern I meet most is templated pages at scale. If you launched hundreds of similar pages at once, also read [where programmatic SEO turns into doorway pages](/en/programatik-seo). I cover other common issues that affect indexing in [technical SEO mistakes](/en/teknik-seo-hatalari)."
    ]
   },
   {
@@ -220,7 +220,7 @@
   {
    "baslik": "When to worry and when to wait",
    "paragraflar": [
-    "The number on its own means little; what matters is which pages are listed and which way the trend is going. If your product or service pages and revenue-driving categories sit in this list for good, the problem is serious. If it holds tag archives and parameter URLs, the system is often working as intended.",
+    "The number on its own means little; what matters is which pages are listed and which way the trend is going. If your product or service pages and revenue-driving categories sit in this list for good, the problem is serious. If it holds tag archives and parameter URLs, the system is often working as intended. On newly launched sites, the [new website SEO checklist](/en/yeni-site-seo-kontrol-listesi) helps prevent this picture.",
     "A clear jump in the total around a core update may relate to the overall quality assessment of the site; in that case, work through the [core update traffic drop diagnosis checklist](/en/cekirdek-guncelleme-trafik-dususu) as well. Do not expect page speed alone to fix indexing, though a [Core Web Vitals review](/en/core-web-vitals-2025) still helps on heavy templates.",
     "For large stores where this bucket reaches thousands of URLs, I build a template-level clean-up plan as part of [ecommerce SEO consulting](/en/ecommerce-seo-consulting). If you are unsure where to start on your own site, we can look at it together through [SEO consulting](/en/seo-consulting); just [book a short intro call](/en/book-a-call)."
    ]

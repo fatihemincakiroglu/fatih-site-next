@@ -71,7 +71,7 @@
       ]
      }
     },
-    "Pratikte en sık gördüğüm hata, kalıcı bir URL değişikliğinde 302 kullanılmasıdır. Bazı CMS eklentileri ve hosting panelleri varsayılan olarak 302 üretir; bu yüzden kuralı yazdıktan sonra durum kodunu mutlaka test edin."
+    "Pratikte en sık gördüğüm hata, kalıcı bir URL değişikliğinde 302 kullanılmasıdır. Bazı CMS eklentileri ve hosting panelleri varsayılan olarak 302 üretir; bu yüzden kuralı yazdıktan sonra durum kodunu mutlaka test edin. WordPress tarafında yönlendirme modülü sunan seçenekleri [en iyi WordPress SEO eklentileri](/en-iyi-wordpress-seo-eklentileri) yazısında inceledim."
    ]
   },
   {
@@ -176,7 +176,7 @@
       "Kurallar canlıya alındıktan sonra bir site tarayıcısıyla zincir ve döngü kontrolü yapıldı mı?"
      ]
     },
-    "Toplu kural yazarken [301 yönlendirme oluşturucu](/yonlendirme-olusturucu) ile Apache ve Nginx biçiminde kural üretebilirsiniz. Alan adı ya da altyapı değişikliği gibi büyük taşımalarda URL haritası, test ve izleme adımlarını [site taşıma SEO rehberinde](/site-tasima-seo) ayrıntılı anlattım; yeni slug'ları planlarken [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısı da yol gösterir.",
+    "Toplu kural yazarken [301 yönlendirme oluşturucu](/yonlendirme-olusturucu) ile Apache ve Nginx biçiminde kural üretebilirsiniz. Alan adı ya da altyapı değişikliği gibi büyük taşımalarda URL haritası, test ve izleme adımlarını [site taşıma SEO rehberinde](/site-tasima-seo) ayrıntılı anlattım; yeni slug'ları planlarken [SEO uyumlu URL yapısı](/url-yapisi-seo) yazısı da yol gösterir. Yeni bir site yayına alıyorsanız [yeni web sitesi için SEO kontrol listesi](/yeni-site-seo-kontrol-listesi) de işinize yarar.",
     "Yönlendirme, daha geniş [teknik SEO rehberindeki](/teknik-seo) tarama ve indeksleme konularının bir parçasıdır. Taşıma planınızı birlikte gözden geçirmek isterseniz [SEO danışmanlığı](/seo-uzmani) sayfasından kapsamı inceleyebilir ya da [ön görüşme randevusu](/randevu) alabilirsiniz."
    ]
   }
@@ -242,7 +242,7 @@
       ]
      }
     },
-    "The mistake I see most in practice is a 302 on a permanent URL change. Some CMS plugins create 302s by default, so always test the status code."
+    "The mistake I see most in practice is a 302 on a permanent URL change. Some CMS plugins create 302s by default, so always test the status code. I review the options with a redirect module in [the best WordPress SEO plugins](/en/en-iyi-wordpress-seo-eklentileri)."
    ]
   },
   {
@@ -347,7 +347,7 @@
       "After going live, did a site crawler check for chains and loops?"
      ]
     },
-    "For bulk rules, the [301 redirect generator](/en/redirect-generator) produces Apache and Nginx rules. For large moves such as a domain or platform change, I cover URL mapping, testing and monitoring in the [site migration SEO guide](/en/site-tasima-seo); [SEO-friendly URL structure](/en/url-yapisi-seo) helps when planning new slugs.",
+    "For bulk rules, the [301 redirect generator](/en/redirect-generator) produces Apache and Nginx rules. For large moves such as a domain or platform change, I cover URL mapping, testing and monitoring in the [site migration SEO guide](/en/site-tasima-seo); [SEO-friendly URL structure](/en/url-yapisi-seo) helps when planning new slugs. If you are launching a new site, the [SEO checklist for a new website](/en/yeni-site-seo-kontrol-listesi) helps too.",
     "Redirects are one part of the crawling and indexing topics in the broader [technical SEO guide](/en/teknik-seo). To review your migration plan together, see [SEO consulting](/en/seo-consulting) or [book an intro call](/en/book-a-call)."
    ]
   }

@@ -86,7 +86,7 @@
   {
    "baslik": "4. Kayıp hangi sayfa ve sorgularda? Büyüklüğü ölçün",
    "paragraflar": [
-    "Performans raporunda sayfalar ve sorgular sekmelerini, iki dönem arasındaki tıklama farkına göre sıralayın. Kaybın büyük kısmı genellikle birkaç sayfa ya da tek bir şablonda toplanır. Google dokümanı burada bir ayrım yapıyor: 2. sıradan 4. sıraya inmek gibi küçük düşüşlerde köklü değişiklik gerekmez ve iyi performans gösteren içeriği değiştirmekten kaçınmak önerilir; 4. sıradan 29. sıraya inmek gibi büyük düşüşler ise daha derin bir değerlendirme ister.",
+    "Performans raporunda sayfalar ve sorgular sekmelerini, iki dönem arasındaki tıklama farkına göre sıralayın. Kaybın büyük kısmı genellikle birkaç sayfa ya da tek bir şablonda toplanır. Google dokümanı burada bir ayrım yapıyor: 2. sıradan 4. sıraya inmek gibi küçük düşüşlerde köklü değişiklik gerekmez ve iyi performans gösteren içeriği değiştirmekten kaçınmak önerilir; 4. sıradan 29. sıraya inmek gibi büyük düşüşler ise daha derin bir değerlendirme ister. Sorgu bazındaki konum değişimini günlük izlemek için [sıralama takip araçlarından](/en-iyi-siralama-takip-araclari) birini kullanabilirsiniz.",
     {
      "kontrol": [
       "En çok tıklama kaybeden 20 sayfayı ve 50 sorguyu listeleyin.",
@@ -103,7 +103,7 @@
    "paragraflar": [
     "Büyük ve kalıcı bir düşüşte Google, siteyi tarafsız biçimde (gerekirse siteyle bağı olmayan kişilere) değerlendirmeyi ve faydalı, güvenilir, insan odaklı içerik için yayımladığı öz değerlendirme sorularını kullanmayı öneriyor. Benim pratikte sorduğum sorular şunlar: Sayfa, aramayı yapan kişinin asıl sorusunu ilk ekranda yanıtlıyor mu? Rakiplerde olmayan özgün bilgi, veri ya da deneyim var mı? Yazarın kim olduğu ve neden güvenilir olduğu açık mı? İçerik arama motoru için mi, okur için mi yazılmış?",
     "Yapay zekâ ile toplu üretilmiş sayfalar bu değerlendirmede en sık takıldığım konu. Google'ın bu konudaki resmi tutumunu [yapay zekâ ile üretilen içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ayrıca ele alıyorum. Konu kümelerini ve içerik boşluklarını sistematik biçimde çıkarmak için [içerik stratejisi rehberi](/icerik-stratejisi) kullanılabilir.",
-    "Otorite ve marka sinyalleri de tabloya dahil. Rakipler daha çok anılan, daha çok referans alan kaynaklarsa bunu [backlink ve dijital PR rehberindeki](/backlink-dijital-pr) yöntemlerle ele almak uzun vadede işe yarar."
+    "Otorite ve marka sinyalleri de tabloya dahil. Rakipler daha çok anılan, daha çok referans alan kaynaklarsa bunu [backlink ve dijital PR rehberindeki](/backlink-dijital-pr) yöntemlerle ele almak uzun vadede işe yarar. Otoritenin diğer sinyallerle birlikte nasıl değerlendirildiğini [Google sıralamasını etkileyen faktörler](/google-siralama-faktorleri) yazısında özetledim."
    ]
   },
   {
@@ -191,7 +191,7 @@
   {
    "baslik": "4. Which pages and queries lost? Measure the size",
    "paragraflar": [
-    "In the Performance report, sort the pages and queries tabs by the click difference between the two periods. Most of the loss usually sits in a few pages or a single template. Google's documentation draws a line here: for small drops, such as from position 2 to 4, no drastic action is needed and it advises against changing content that already performs well; large drops, such as from position 4 to 29, call for a deeper assessment.",
+    "In the Performance report, sort the pages and queries tabs by the click difference between the two periods. Most of the loss usually sits in a few pages or a single template. Google's documentation draws a line here: for small drops, such as from position 2 to 4, no drastic action is needed and it advises against changing content that already performs well; large drops, such as from position 4 to 29, call for a deeper assessment. To monitor position changes per query on a daily basis, you can use one of the [rank tracking tools](/en/en-iyi-siralama-takip-araclari).",
     {
      "kontrol": [
       "List the 20 pages and 50 queries that lost the most clicks.",
@@ -208,7 +208,7 @@
    "paragraflar": [
     "For a large, lasting drop, Google recommends reviewing the site objectively (if needed, by people unaffiliated with it) and using its self-assessment questions on helpful, reliable, people-first content. The questions I ask in practice are these: Does the page answer the searcher's real question on the first screen? Does it offer original information, data or experience that competitors lack? Is it clear who wrote it and why they are trustworthy? Was it written for the search engine or for the reader?",
     "Pages mass-produced with AI are where I get stuck most often in this review. I cover Google's official position separately in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). To map topic clusters and content gaps systematically, use the [content strategy guide](/en/icerik-stratejisi).",
-    "Authority and brand signals belong in the picture too. If competitors are mentioned and cited more often, the methods in the [backlink and digital PR guide](/en/backlink-dijital-pr) pay off over time."
+    "Authority and brand signals belong in the picture too. If competitors are mentioned and cited more often, the methods in the [backlink and digital PR guide](/en/backlink-dijital-pr) pay off over time. I summarise how authority is weighed alongside other signals in [the factors that affect Google rankings](/en/google-siralama-faktorleri)."
    ]
   },
   {

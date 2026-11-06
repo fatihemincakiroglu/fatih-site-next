@@ -5,8 +5,8 @@ import { useRouter } from 'next/router'
 import { YAYINDAKI_BLOG_SLUGS, YAYINDAKI_REHBER_SLUGS } from '../lib/content-index'
 import { duzYol } from '../lib/urls'
 
-const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/schema-olusturucu', yonlendirmeArac:'/yonlendirme-olusturucu', robotsArac:'/robots-txt-test', hreflangArac:'/hreflang-olusturucu', serpArac:'/serp-onizleme', utmArac:'/utm-olusturucu', guncellemeler:'/google-guncellemeleri' }
-const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/schema-generator', yonlendirmeArac:'/en/redirect-generator', robotsArac:'/en/robots-txt-tester', hreflangArac:'/en/hreflang-generator', serpArac:'/en/serp-preview', utmArac:'/en/utm-builder', guncellemeler:'/en/google-updates' }
+const URLS_TR = { home:'/', hizmetler:'/hizmetler', seo:'/seo-uzmani', icerik:'/icerik', performans:'/performans', geo:'/geo-uzmani', backlink:'/backlink', hakkimda:'/hakkimda', referanslar:'/referanslar', vakalar:'/vakalar', kaynaklar:'/kaynaklar', seoRehberi:'/seo-rehberi', geoRehberi:'/geo-rehberi', aiSozluk:'/ai-sozluk', sss:'/sss', araclar:'/araclar', rehber:'/rehber', blog:'/blog', iletisim:'/iletisim', randevu:'/randevu', fiyat:'/fiyatlandirma', sektorler:'/sektorler', schemaArac:'/schema-olusturucu', yonlendirmeArac:'/yonlendirme-olusturucu', robotsArac:'/robots-txt-test', hreflangArac:'/hreflang-olusturucu', serpArac:'/serp-onizleme', utmArac:'/utm-olusturucu', ogArac:'/og-onizleme', roiArac:'/seo-roi-hesaplayici', guncellemeler:'/google-guncellemeleri' }
+const URLS_EN = { home:'/en', hizmetler:'/en/services', seo:'/en/seo-consulting', icerik:'/en/content-strategy', performans:'/en/performance-growth', geo:'/en/geo-consulting', backlink:'/en/backlink-digital-pr', hakkimda:'/en/about', referanslar:'/en/testimonials', vakalar:'/en/case-studies', kaynaklar:'/en/resources', seoRehberi:'/en/seo-guide', geoRehberi:'/en/geo-guide', aiSozluk:'/en/ai-glossary', sss:'/en/faq', araclar:'/en/tools', rehber:'/en/guides', blog:'/en/blog', iletisim:'/en/contact', randevu:'/en/book-a-call', fiyat:'/en/pricing', sektorler:'/en/industries', schemaArac:'/en/schema-generator', yonlendirmeArac:'/en/redirect-generator', robotsArac:'/en/robots-txt-tester', hreflangArac:'/en/hreflang-generator', serpArac:'/en/serp-preview', utmArac:'/en/utm-builder', ogArac:'/en/og-preview', roiArac:'/en/seo-roi-calculator', guncellemeler:'/en/google-updates' }
 
 // TR path -> EN path mapping
 const TR_TO_EN = {
@@ -26,6 +26,8 @@ const TR_TO_EN = {
   '/hreflang-olusturucu':'/en/hreflang-generator',
   '/serp-onizleme':'/en/serp-preview',
   '/utm-olusturucu':'/en/utm-builder',
+  '/og-onizleme':'/en/og-preview',
+  '/seo-roi-hesaplayici':'/en/seo-roi-calculator',
   '/google-guncellemeleri':'/en/google-updates',
   '/klinik-seo':'/en/healthcare-seo',
   '/avukat-seo':'/en/law-firm-seo',
@@ -80,6 +82,8 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'hreflang Generator', url:u.hreflangArac, ikon:'🌐', alt:'Multilingual sites' },
     { label:'SERP Preview', url:u.serpArac, ikon:'🔍', alt:'Title & description' },
     { label:'UTM Link Builder', url:u.utmArac, ikon:'🏷️', alt:'Campaign links' },
+    { label:'Open Graph Preview', url:u.ogArac, ikon:'🖼️', alt:'Social share preview' },
+    { label:'SEO ROI Calculator', url:u.roiArac, ikon:'📈', alt:'Return on SEO' },
   ]},
   { label:'Guides', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },
@@ -111,6 +115,8 @@ const getMenu = (isEn, u) => isEn ? [
     { label:'hreflang Oluşturucu', url:u.hreflangArac, ikon:'🌐', alt:'Çok dilli site' },
     { label:'SERP Önizleme', url:u.serpArac, ikon:'🔍', alt:'Başlık ve açıklama' },
     { label:'UTM Link Oluşturucu', url:u.utmArac, ikon:'🏷️', alt:'Kampanya linkleri' },
+    { label:'Open Graph Önizleme', url:u.ogArac, ikon:'🖼️', alt:'Paylaşım önizlemesi' },
+    { label:'SEO ROI Hesaplayıcı', url:u.roiArac, ikon:'📈', alt:'SEO getirisi' },
   ]},
   { label:'Rehber', url:u.rehber, altlar:[] },
   { label:'Blog', url:u.blog, altlar:[] },

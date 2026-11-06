@@ -78,7 +78,7 @@
      ]
     },
     "En faydalı alışkanlık, iki dönemi karşılaştırıp sayfa ve sorgu kırılımına inmektir. Trafik düşüşü varsa önce hangi sayfa grubunda olduğunu bulun; olası nedenleri ve tarihleri [Google güncellemeleri günlüğüyle](/google-guncellemeleri) eşleştirin. Ani düşüşleri teşhis etme yöntemini [çekirdek güncelleme sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) yazısında anlattım.",
-    "Marka sorgularını ayırmak için Google'ın sunduğu markalı sorgular filtresi, uygun mülklerde Performans raporunda yer alıyor. Filtre yalnızca raporlama içindir ve sıralamayı etkilemez; Google bazı sorguların yanlış sınıflandırılabileceğini de belirtiyor."
+    "Marka sorgularını ayırmak için Google'ın sunduğu markalı sorgular filtresi, uygun mülklerde Performans raporunda yer alıyor. Filtre yalnızca raporlama içindir ve sıralamayı etkilemez; Google bazı sorguların yanlış sınıflandırılabileceğini de belirtiyor. Ortalama konumu belirli sorgular için günlük izlemek isterseniz [sıralama takip araçları](/en-iyi-siralama-takip-araclari) bu veriyi tamamlar."
    ]
   },
   {
@@ -130,7 +130,7 @@
    "baslik": "Site haritaları ve Deneyim raporları",
    "paragraflar": [
     "Site haritaları raporunda gönderdiğiniz XML haritalarının okunup okunmadığını ve kaç URL keşfedildiğini görürsünüz. Haritada yalnızca 200 dönen, standart ve dizine eklenmesini istediğiniz URL'ler bulunmalı; yönlendirilen ya da noindex sayfalar haritayı kirletir.",
-    "Deneyim bölümünde Core Web Vitals ve HTTPS raporları yer alır. Eskiden bunları özetleyen Sayfa deneyimi raporu kaldırıldı; veriler bu iki raporda duruyor. Core Web Vitals raporu gerçek kullanıcı verisine dayanır ve eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1'dir. Ayrıntılar için [Core Web Vitals yazısına](/core-web-vitals-2025) bakabilirsiniz.",
+    "Deneyim bölümünde Core Web Vitals ve HTTPS raporları yer alır. Eskiden bunları özetleyen Sayfa deneyimi raporu kaldırıldı; veriler bu iki raporda duruyor. Core Web Vitals raporu gerçek kullanıcı verisine dayanır ve eşikler LCP ≤ 2,5 sn, INP ≤ 200 ms, CLS ≤ 0,1'dir. Ayrıntılar için [Core Web Vitals yazısına](/core-web-vitals-2025) bakabilirsiniz. Search Console verisini tamamlayan diğer seçenekleri [en iyi ücretsiz SEO araçları](/en-iyi-ucretsiz-seo-araclari) yazısında topladım.",
     {
      "kontrol": [
       "Site haritası durumu “Başarılı” mı ve keşfedilen URL sayısı beklentiyle uyumlu mu?",
@@ -232,7 +232,7 @@
      ]
     },
     "The most useful habit is comparing two periods and drilling into pages and queries. If traffic dropped, first find which page group lost it, then match dates against the [Google updates log](/en/google-updates). I explain how to diagnose sudden drops in [traffic loss after a core update](/en/cekirdek-guncelleme-trafik-dususu).",
-    "To separate brand queries, Google's branded queries filter is available in the Performance report for eligible properties. It is reporting-only and does not affect rankings; Google also notes some queries may be misclassified."
+    "To separate brand queries, Google's branded queries filter is available in the Performance report for eligible properties. It is reporting-only and does not affect rankings; Google also notes some queries may be misclassified. If you want to monitor average position for specific queries daily, [rank tracking tools](/en/en-iyi-siralama-takip-araclari) complement this data."
    ]
   },
   {
@@ -284,7 +284,7 @@
    "baslik": "Sitemaps and Experience reports",
    "paragraflar": [
     "The Sitemaps report shows whether your XML sitemaps were read and how many URLs were discovered. A sitemap should only list canonical URLs that return 200 and that you want indexed; redirected or noindex pages pollute it.",
-    "The Experience section holds the Core Web Vitals and HTTPS reports. The Page experience report that summarised them was removed; the data remains in these two reports. Core Web Vitals uses real-user data, with thresholds of LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. See the [Core Web Vitals article](/en/core-web-vitals-2025).",
+    "The Experience section holds the Core Web Vitals and HTTPS reports. The Page experience report that summarised them was removed; the data remains in these two reports. Core Web Vitals uses real-user data, with thresholds of LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1. See the [Core Web Vitals article](/en/core-web-vitals-2025). I collected other options that complement Search Console data in the [best free SEO tools](/en/en-iyi-ucretsiz-seo-araclari) roundup.",
     {
      "kontrol": [
       "Is the sitemap status “Success” and the discovered URL count as expected?",

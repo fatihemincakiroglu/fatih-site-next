@@ -22,7 +22,7 @@ export default function IlgiliRehberler({ sluglar = [], isEn = false, baslik, ko
             <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`}
               style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '12px', border: koyu ? '1px solid #2a2a2a' : '1px solid #eee', background: koyu ? '#161616' : '#fff', textDecoration: 'none' }}>
               <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: koyu ? '#222' : '#f3f3f3' }}>
-                <Image src={getRehberKapak(r.slug)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 320px" style={{ objectFit: 'cover' }} />
+                <Image src={getRehberKapak(r.slug, isEn)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 320px" style={{ objectFit: 'cover' }} />
               </div>
               <div style={{ padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                 <div style={{ fontSize: '15px', fontWeight: 700, color: koyu ? '#fff' : '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>

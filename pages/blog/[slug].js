@@ -68,7 +68,7 @@ export default function BlogPost(props) {
   const guncelleme = meta ? ayYil(meta.guncelleme || meta.yayin, isEn) : (isEn ? 'July 2026' : 'Temmuz 2026')
   const mdUrl = `https://fatihemincakiroglu.com/${isEn ? 'en/' : ''}${slug}.md`
   // Kapak görseli (opsiyonel): lib/blog-kapaklar.js. Yoksa site geneli og-image kullanılır.
-  const kapak = getBlogKapak(slug)
+  const kapak = getBlogKapak(slug, isEn)
   const kapakUrl = kapak ? `https://fatihemincakiroglu.com${kapak}` : null
 
   // İlgili rehberler ve yazılar: lib/ilgili-icerik.js (elle seçilmiş eşlemeler)
@@ -436,7 +436,7 @@ export default function BlogPost(props) {
               </h3>
               <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '14px' }}>
                 {ilgiliYazilar.map((y) => {
-                  const yKapak = getBlogKapak(y.slug)
+                  const yKapak = getBlogKapak(y.slug, isEn)
                   return (
                   <Link key={y.slug} href={isEn ? `/en/${y.slug}` : `/${y.slug}`} style={{ textDecoration: 'none', background: '#fff', borderRadius: '12px', border: '1px solid #eee', display: 'flex', flexDirection: 'column', overflow: 'hidden', transition: 'transform 0.2s, box-shadow 0.2s' }}
                     onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.06)' }}

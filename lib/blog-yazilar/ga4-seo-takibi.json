@@ -62,7 +62,7 @@
       ]
      }
     },
-    "İki sınırı bilmek yanlış yorumu önler. Search Console metrikleri GA4 boyutlarından yalnızca açılış sayfası, cihaz ve ülke ile birleşebilir; yani sorgu bazında dönüşüm göremezsiniz. Ayrıca veri en fazla 16 ay geriye gider, çünkü Search Console da bu kadar saklar. Search Console raporlarının kendisini nasıl okuyacağınızı [Search Console rehberi](/search-console-rehberi) yazısında bulabilirsiniz."
+    "İki sınırı bilmek yanlış yorumu önler. Search Console metrikleri GA4 boyutlarından yalnızca açılış sayfası, cihaz ve ülke ile birleşebilir; yani sorgu bazında dönüşüm göremezsiniz. Ayrıca veri en fazla 16 ay geriye gider, çünkü Search Console da bu kadar saklar. Search Console raporlarının kendisini nasıl okuyacağınızı [Search Console rehberi](/search-console-rehberi) yazısında bulabilirsiniz. Hedef sorgulardaki konumu ayrıca izlemek için [en iyi sıralama takip araçları](/en-iyi-siralama-takip-araclari) listesine bakabilirsiniz."
    ]
   },
   {
@@ -91,7 +91,7 @@
   {
    "baslik": "SEO için kalıcı olarak kurulacak 5 rapor",
    "paragraflar": [
-    "Her ay sıfırdan filtre kurmak yerine aşağıdaki görünümleri kaydedin ya da kitaplıkta özel rapor olarak ekleyin. Hangi KPI'ları aylık rapora taşıyacağınızı [SEO raporlama rehberinde](/seo-raporlama) ayrıca anlattım.",
+    "Her ay sıfırdan filtre kurmak yerine aşağıdaki görünümleri kaydedin ya da kitaplıkta özel rapor olarak ekleyin. Hangi KPI'ları aylık rapora taşıyacağınızı [SEO raporlama rehberinde](/seo-raporlama) ayrıca anlattım. Bu raporlara hangi metrikleri koyacağınızı [takip edilmesi gereken 10 SEO KPI](/seo-kpi) yazısında sıraladım.",
     {
      "tablo": {
       "basliklar": [
@@ -227,7 +227,7 @@
       ]
      }
     },
-    "Two limits matter. Search Console metrics combine only with landing page, device and country in GA4, so there are no conversions per query, and data goes back at most 16 months. For reading the Search Console reports themselves, see the [Search Console guide](/en/search-console-rehberi)."
+    "Two limits matter. Search Console metrics combine only with landing page, device and country in GA4, so there are no conversions per query, and data goes back at most 16 months. For reading the Search Console reports themselves, see the [Search Console guide](/en/search-console-rehberi). To track positions for your target queries separately, see my list of [the best rank tracking tools](/en/en-iyi-siralama-takip-araclari)."
    ]
   },
   {
@@ -256,7 +256,7 @@
   {
    "baslik": "Five reports to keep permanently for SEO",
    "paragraflar": [
-    "Instead of rebuilding filters every month, save the views below or add them to the Library as custom reports. Which KPIs belong in the monthly report is covered in the [SEO reporting guide](/en/seo-raporlama).",
+    "Instead of rebuilding filters every month, save the views below or add them to the Library as custom reports. Which KPIs belong in the monthly report is covered in the [SEO reporting guide](/en/seo-raporlama). I list which metrics belong in these reports in [10 SEO KPIs worth tracking](/en/seo-kpi).",
     {
      "tablo": {
       "basliklar": [

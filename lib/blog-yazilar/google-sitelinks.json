@@ -184,7 +184,7 @@
     {
      "kontrol": [
       "Ana menüde net, birbirinden ayrışan bölümler var mı?",
-      "Her önemli sayfanın kısa, sayfaya özgü bir title etiketi ve H1'i var mı?",
+      "Her önemli sayfanın [kısa, sayfaya özgü bir title etiketi](/meta-baslik-aciklama-kurallari) ve H1'i var mı?",
       "Önemli sayfalar menü dışında içerik içinden de açıklayıcı iç link alıyor mu?",
       "Aynı konuyu işleyen kopya ya da ince sayfalar birleştirildi mi?",
       "Sitelink olarak görünmesini istemediğiniz sayfalar kaldırıldı ya da noindex yapıldı mı?",
@@ -284,7 +284,7 @@
       ]
      }
     },
-    "I cover how to plan internal links in [internal linking strategy](/en/ic-linkleme). Folder and slug layout is covered in [SEO-friendly URL structure](/en/url-yapisi-seo): readable paths like /services/implants/ explain your sections to users and Google alike."
+    "I cover how to plan internal links in [internal linking strategy](/en/ic-linkleme). Folder and slug layout is covered in [SEO-friendly URL structure](/en/url-yapisi-seo): readable paths like /services/implants/ explain your sections to users and Google alike. Since sitelink text is often drawn from page titles, the [rules for writing meta titles and descriptions](/en/meta-baslik-aciklama-kurallari) matter here too."
    ]
   },
   {

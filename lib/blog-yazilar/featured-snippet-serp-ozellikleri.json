@@ -67,7 +67,7 @@
    "paragraflar": [
     "Google'ın dokümanına göre öne çıkan snippet'i Google'ın sistemleri belirliyor: Bir sayfanın kullanıcının sorgusu için iyi bir snippet olacağına karar verirse onu öne çıkarıyor. “Sayfamı öne çıkan snippet olarak nasıl işaretlerim?” sorusuna dokümandaki cevap ise net: İşaretleyemezsiniz.",
     "Google'ın yardım sayfası, snippet'lerin soruyu ne kadar iyi cevapladıklarına ve ne kadar yardımcı olduklarına göre seçildiğini söylüyor. Aynı sayfaya göre snippet'ler kendi içerik politikalarına tabi; bir siteden çok sayıda politika ihlali çıkarsa Google o siteden öne çıkan snippet göstermeyi bırakabiliyor.",
-    "Sahada snippet'leri üç biçimde görüyorum: kısa paragraf (tanım, “nedir” soruları), liste (adımlar, sıralamalar) ve tablo (karşılaştırma, fiyat, ölçü). Sayfanızda hangi biçimin cevap için doğal olduğunu sorgunun kendisi belirler."
+    "Sahada snippet'leri üç biçimde görüyorum: kısa paragraf (tanım, “nedir” soruları), liste (adımlar, sıralamalar) ve tablo (karşılaştırma, fiyat, ölçü). Sayfanızda hangi biçimin cevap için doğal olduğunu sorgunun kendisi belirler. Standart sonuçta görünen metni iyileştirmek için [meta başlık ve açıklama kurallarına](/meta-baslik-aciklama-kurallari) bakabilirsiniz."
    ]
   },
   {
@@ -97,7 +97,7 @@
       }
      }
     },
-    "Bu yapı aynı zamanda okuyucuya da hizmet eder; zaten amaç bu. Kısa ve net cevap bloklarının konuşma diliyle sorulan sorgulardaki yerini [sesli arama SEO](/sesli-arama-seo) yazısında ayrıca anlattım. İçerikleri bu yapıda planlamak için [içerik hizmeti](/icerik) sayfasına göz atabilirsiniz."
+    "Bu yapı aynı zamanda okuyucuya da hizmet eder; zaten amaç bu. Kısa ve net cevap bloklarının konuşma diliyle sorulan sorgulardaki yerini [sesli arama SEO](/sesli-arama-seo) yazısında ayrıca anlattım. İçerikleri bu yapıda planlamak için [içerik hizmeti](/icerik) sayfasına göz atabilirsiniz. Yazının genel kurgusu için [SEO uyumlu blog yazısı kurallarına](/seo-uyumlu-blog-yazisi) da göz atabilirsiniz."
    ]
   },
   {
@@ -260,7 +260,7 @@
    "paragraflar": [
     "According to Google's documentation, Google's systems decide whether a page would make a good featured snippet for a query and, if so, promote it. To the question “How can I mark my page as a featured snippet?”, the documented answer is: you can't.",
     "Google's help page says snippets are chosen based on how well they answer the question and how helpful they are. Snippets are also subject to Google's content policies; if a site has many policy-violating snippets, Google may stop showing featured snippets from it.",
-    "In practice I see three formats: a short paragraph (definitions, “what is” questions), a list (steps, rankings) and a table (comparisons, prices, measurements). The query itself determines which format is natural."
+    "In practice I see three formats: a short paragraph (definitions, “what is” questions), a list (steps, rankings) and a table (comparisons, prices, measurements). The query itself determines which format is natural. To improve the text shown in a standard result, see the [rules for meta titles and descriptions](/en/meta-baslik-aciklama-kurallari)."
    ]
   },
   {
@@ -290,7 +290,7 @@
       }
      }
     },
-    "This structure serves readers too, which is the point. The role of short answer blocks in conversational queries is covered in [voice search SEO](/en/sesli-arama-seo). To plan content this way, see my [content strategy service](/en/content-strategy)."
+    "This structure serves readers too, which is the point. The role of short answer blocks in conversational queries is covered in [voice search SEO](/en/sesli-arama-seo). To plan content this way, see my [content strategy service](/en/content-strategy). For the overall structure of a post, see also the [rules for an SEO-friendly blog post](/en/seo-uyumlu-blog-yazisi)."
    ]
   },
   {

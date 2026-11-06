@@ -73,6 +73,8 @@ const ARACLAR = [
   ['hreflang-olusturucu', 'hreflang-generator'],
   ['serp-onizleme', 'serp-preview'],
   ['utm-olusturucu', 'utm-builder'],
+  ['og-onizleme', 'og-preview'],
+  ['seo-roi-hesaplayici', 'seo-roi-calculator'],
 ]
 function duzRotalar() {
   const oku = (y) => fs.readFileSync(new URL(y, import.meta.url), 'utf8')
@@ -102,6 +104,8 @@ const veriIstegiDegil = [{ type: 'header', key: 'x-nextjs-data' }]
 // • style-src 'unsafe-inline': tasarım satır içi stil ve styled-jsx kullanıyor.
 // • Google Analytics 4 alan adları Google'ın GA4 CSP rehberine göre eklendi.
 // • img-src www.google.com + *.gstatic.com: AiOzetle kutusundaki asistan logoları.
+// • img-src https: Open Graph önizleme aracı (/og-onizleme) kullanıcının girdiği sayfanın
+//   og:image görselini herhangi bir alan adından gösterir; bu yüzden tüm https görsellerine izin var.
 // • Yeni bir dış kaynak (ör. Calendly gömme, YouTube) eklenirse buraya da eklenmeli.
 //
 // CSP_ZORLA = false → "Report-Only": tarayıcı hiçbir şeyi ENGELLEMEZ, yalnızca
@@ -112,7 +116,7 @@ const CSP = [
   "default-src 'self'",
   "script-src 'self' https://www.googletagmanager.com",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://www.google.com https://*.gstatic.com https://*.google-analytics.com https://*.googletagmanager.com https://*.g.doubleclick.net",
+  "img-src 'self' data: blob: https:",
   "font-src 'self'",
   "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com",
   "frame-src 'none'",

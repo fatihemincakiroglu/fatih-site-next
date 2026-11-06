@@ -25,7 +25,7 @@
    "baslik": "robots.txt nedir ve nerede durmalı?",
    "paragraflar": [
     "Google'ın spesifikasyonuna göre dosya her ana makine, protokol ve port için ayrı ayrı kök dizinde durmalı: example.com/robots.txt. Alt alan adları (blog.example.com gibi) kendi dosyalarına ihtiyaç duyar; alt klasöre konan robots.txt dikkate alınmaz.",
-    "Dosya UTF-8 düz metin olmalı ve Google yalnızca ilk 500 KiB'ı okur. Google dosyayı genellikle 24 saate kadar önbellekte tutar; yani yaptığınız değişiklik anında yansımayabilir.",
+    "Dosya UTF-8 düz metin olmalı ve Google yalnızca ilk 500 KiB'ı okur. Google dosyayı genellikle 24 saate kadar önbellekte tutar; yani yaptığınız değişiklik anında yansımayabilir. Yayına çıkış öncesi diğer kontroller için [yeni web sitesi için 10 adımlık SEO kontrol listesi](/yeni-site-seo-kontrol-listesi) yazısına bakabilirsiniz.",
     "Dosyaya ulaşılamadığında ne olduğu da önemli. 4xx yanıtı (429 hariç) robots.txt yokmuş gibi yorumlanır ve kısıtlama uygulanmaz. 5xx yanıtında Google ilk 12 saat taramayı durdurur, sonra 30 güne kadar son başarılı sürümü kullanır."
    ]
   },
@@ -68,7 +68,7 @@
       }
      }
     },
-    "Klasik hata ikisini birlikte kullanmaktır: Sayfaya noindex ekleyip robots.txt ile de engellerseniz Googlebot noindex'i hiç göremez. Önce noindex ile sayfanın dizinden çıkmasını bekleyin, gerekiyorsa sonra engelleyin. Genel tarama-dizine ekleme ayrımı için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz."
+    "Klasik hata ikisini birlikte kullanmaktır: Sayfaya noindex ekleyip robots.txt ile de engellerseniz Googlebot noindex'i hiç göremez. Önce noindex ile sayfanın dizinden çıkmasını bekleyin, gerekiyorsa sonra engelleyin. Genel tarama-dizine ekleme ayrımı için [teknik SEO rehberine](/teknik-seo) bakabilirsiniz. Bu ve benzeri sorunları [en sık yapılan teknik SEO hataları](/teknik-seo-hatalari) yazısında çözümleriyle birlikte topladım."
    ]
   },
   {
@@ -179,7 +179,7 @@
    "baslik": "What is robots.txt and where should it live?",
    "paragraflar": [
     "According to Google's specification, the file must sit at the root of each host, protocol and port: example.com/robots.txt. Subdomains such as blog.example.com need their own file, and a robots.txt placed in a subfolder is ignored.",
-    "The file must be UTF-8 plain text, and Google only reads the first 500 KiB. Google generally caches the file for up to 24 hours, so a change may not take effect immediately.",
+    "The file must be UTF-8 plain text, and Google only reads the first 500 KiB. Google generally caches the file for up to 24 hours, so a change may not take effect immediately. For other pre-launch checks, see [a 10-step SEO checklist for a new website](/en/yeni-site-seo-kontrol-listesi).",
     "What happens when the file cannot be fetched also matters. A 4xx response (except 429) is treated as if no robots.txt exists, so no restrictions apply. On a 5xx response Google stops crawling for the first 12 hours, then uses the last successful version for up to 30 days."
    ]
   },
@@ -222,7 +222,7 @@
       }
      }
     },
-    "The classic mistake is using both: if you add noindex and also block the page in robots.txt, Googlebot never sees the noindex. Wait for the page to drop out with noindex first, then block it if needed. For the broader crawling versus indexing distinction, see the [technical SEO guide](/en/teknik-seo)."
+    "The classic mistake is using both: if you add noindex and also block the page in robots.txt, Googlebot never sees the noindex. Wait for the page to drop out with noindex first, then block it if needed. For the broader crawling versus indexing distinction, see the [technical SEO guide](/en/teknik-seo). I collected this and similar issues, with fixes, in [the most common technical SEO mistakes](/en/teknik-seo-hatalari)."
    ]
   },
   {

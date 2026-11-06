@@ -40,6 +40,8 @@ const TR_PAGES = [
   { url: '/hreflang-olusturucu', priority: '0.7', changefreq: 'monthly' },
   { url: '/serp-onizleme', priority: '0.7', changefreq: 'monthly' },
   { url: '/utm-olusturucu', priority: '0.7', changefreq: 'monthly' },
+  { url: '/og-onizleme', priority: '0.7', changefreq: 'monthly' },
+  { url: '/seo-roi-hesaplayici', priority: '0.7', changefreq: 'monthly' },
   { url: '/google-guncellemeleri', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -81,6 +83,8 @@ const EN_PAGES = [
   { url: '/en/hreflang-generator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/serp-preview', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/utm-builder', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/og-preview', priority: '0.7', changefreq: 'monthly' },
+  { url: '/en/seo-roi-calculator', priority: '0.7', changefreq: 'monthly' },
   { url: '/en/google-updates', priority: '0.7', changefreq: 'weekly' },
 ]
 
@@ -148,6 +152,8 @@ const TR_EN_MAP = {
   '/hreflang-olusturucu': '/en/hreflang-generator',
   '/serp-onizleme': '/en/serp-preview',
   '/utm-olusturucu': '/en/utm-builder',
+  '/og-onizleme': '/en/og-preview',
+  '/seo-roi-hesaplayici': '/en/seo-roi-calculator',
   '/google-guncellemeleri': '/en/google-updates',
   '/klinik-seo': '/en/healthcare-seo',
   '/avukat-seo': '/en/law-firm-seo',

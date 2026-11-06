@@ -83,7 +83,7 @@
     {
      "alt": "Doğruluk ve “halüsinasyon” kontrolü"
     },
-    "Üretken modeller gerçekleri bir veritabanından çekmez, olası kelime dizilerini tahmin eder; bu yüzden ürettikleri metin yanlış bilgi içerebilir. Google, yapay zekâyla üretilen tüm içeriğin yayından önce doğruluk ve güvenilirlik açısından elle kontrol edilmesini tavsiye ediyor. Bu kontrol yalnızca gövde metniyle sınırlı değil: Arama sonuçlarında görünebilecek title etiketi, meta açıklama, yapısal veri ve görsel alt metni de kapsamda.",
+    "Üretken modeller gerçekleri bir veritabanından çekmez, olası kelime dizilerini tahmin eder; bu yüzden ürettikleri metin yanlış bilgi içerebilir. Google, yapay zekâyla üretilen tüm içeriğin yayından önce doğruluk ve güvenilirlik açısından elle kontrol edilmesini tavsiye ediyor. Bu kontrol yalnızca gövde metniyle sınırlı değil: Arama sonuçlarında görünebilecek title etiketi, meta açıklama, yapısal veri ve görsel alt metni de kapsamda. Bu sürece uygun araç seçimi için [en iyi yapay zekâ destekli SEO araçları](/en-iyi-yapay-zeka-seo-araclari) listesine bakabilirsiniz.",
     {
      "alt": "Yapısal veri ve kullanıcıya bağlam"
     },
@@ -123,7 +123,7 @@
       "Yayımlanan içerik belirli aralıklarla güncellenir; değer üretmeyen sayfalar birleştirilir veya kaldırılır."
      ]
     },
-    "Bu akışın içerik planıyla nasıl birleşeceğini [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım. Ekibiniz yayın hacmini kontrol kapasitesiyle dengeleyemiyorsa, [içerik stratejisi danışmanlığı](/icerik) kapsamında brief ve editör sürecini birlikte kurabiliriz."
+    "Bu akışın içerik planıyla nasıl birleşeceğini [içerik stratejisi rehberinde](/icerik-stratejisi) anlattım. Ekibiniz yayın hacmini kontrol kapasitesiyle dengeleyemiyorsa, [içerik stratejisi danışmanlığı](/icerik) kapsamında brief ve editör sürecini birlikte kurabiliriz. Akışın taslak adımı için [ChatGPT SEO promptları](/chatgpt-seo-promptlari) yazısındaki örnekleri uyarlayabilirsiniz."
    ]
   },
   {
@@ -207,7 +207,7 @@
     {
      "alt": "Accuracy and hallucination checks"
     },
-    "Generative models do not pull facts from a database; they predict likely word sequences, so their output can contain errors. Google recommends manually fact-checking all AI-generated content for accuracy and trustworthiness before publishing. The review is not limited to body copy: title elements, meta descriptions, structured data and image alt text that can appear in search results are in scope too.",
+    "Generative models do not pull facts from a database; they predict likely word sequences, so their output can contain errors. Google recommends manually fact-checking all AI-generated content for accuracy and trustworthiness before publishing. The review is not limited to body copy: title elements, meta descriptions, structured data and image alt text that can appear in search results are in scope too. For tools that fit this process, see the list of [the best AI-powered SEO tools](/en/en-iyi-yapay-zeka-seo-araclari).",
     {
      "alt": "Structured data and context for users"
     },
@@ -247,7 +247,7 @@
       "Published content is updated periodically; pages that add no value are merged or removed."
      ]
     },
-    "I explain how this workflow fits into a content plan in my [content strategy guide](/en/icerik-stratejisi). If your team cannot balance publishing volume with review capacity, we can set up the brief and editing process together as part of [content strategy consulting](/en/content-strategy)."
+    "I explain how this workflow fits into a content plan in my [content strategy guide](/en/icerik-stratejisi). If your team cannot balance publishing volume with review capacity, we can set up the brief and editing process together as part of [content strategy consulting](/en/content-strategy). For the drafting step, you can adapt the examples in [ChatGPT prompts for SEO](/en/chatgpt-seo-promptlari)."
    ]
   },
   {

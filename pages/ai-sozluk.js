@@ -156,6 +156,9 @@ const KATEGORILER_EN = ['All', 'AI & LLM', 'GEO', 'SEO', 'Technical SEO', 'Conte
 const KAT_MAP_TR_TO_EN = { 'AI & LLM': 'AI & LLM', 'GEO': 'GEO', 'SEO': 'SEO', 'Teknik SEO': 'Technical SEO', 'İçerik': 'Content', 'Otorite': 'Authority', 'Analitik': 'Analytics' }
 const KAT_MAP_EN_TO_TR = { 'AI & LLM': 'AI & LLM', 'GEO': 'GEO', 'SEO': 'SEO', 'Technical SEO': 'Teknik SEO', 'Content': 'İçerik', 'Authority': 'Otorite', 'Analytics': 'Analitik' }
 
+// Terim çapası: kart id'si ve DefinedTerm url'si için
+const terimId = (t) => 'terim-' + t.toLocaleLowerCase('en-US').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
 const ALFABE = 'ABCDEFGHIJKLMNOPRSTUVWXYZ'.split('')
 
 const katRenk = {
@@ -212,6 +215,22 @@ export default function Page(props) {
         <title>{isEn ? 'AI & SEO Glossary | Fatih Emin Çakıroğlu' : 'AI Sözlük ve SEO Terimleri | Fatih Emin Çakıroğlu'}</title>
         <meta name="description" content={isEn ? `${TERIMLER.length}+ SEO, GEO and AI terms explained in plain English, including LLM, AI Overview, E-E-A-T and RAG. A practical glossary for the new era of search.` : `LLM, AI Overview, E-E-A-T ve RAG gibi ${TERIMLER.length}+ SEO, GEO ve AI terimi açık bir dille anlatılıyor. Aramanın yeni çağı için pratik bir sözlük.`} />
         <link rel="canonical" href={canonical} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'DefinedTermSet',
+          '@id': `${canonical}#terimler`,
+          name: isEn ? 'AI & SEO Glossary' : 'AI Sözlük ve SEO Terimleri',
+          url: canonical,
+          inLanguage: isEn ? 'en' : 'tr',
+          hasDefinedTerm: TERIMLER.map(t => ({
+            '@type': 'DefinedTerm',
+            name: t.terim,
+            ...(!isEn && t.trTerim ? { alternateName: t.trTerim } : {}),
+            description: isEn ? (t.aciklama_en || t.aciklama) : t.aciklama,
+            url: `${canonical}#${terimId(t.terim)}`,
+            inDefinedTermSet: `${canonical}#terimler`,
+          })),
+        }).replace(/</g, '\\u003c') }} />
       </Head>
 
       <div style={{ paddingTop: 'var(--nav-h)', minHeight: '100vh', background: '#faf9f7' }}>
@@ -298,7 +317,7 @@ export default function Page(props) {
                     const renk = katRenk[isEn ? KAT_MAP_TR_TO_EN[t.kategori] || t.kategori : t.kategori] || katRenk['SEO']
                     const displayKat = isEn ? (KAT_MAP_TR_TO_EN[t.kategori] || t.kategori) : t.kategori
                     return (
-                      <div key={i} style={{ background: '#fff', borderRadius: '14px', padding: '22px 24px', border: '1px solid #eee', borderLeft: `4px solid ${renk.color}` }}>
+                      <div key={i} id={terimId(t.terim)} style={{ scrollMarginTop: '90px', background: '#fff', borderRadius: '14px', padding: '22px 24px', border: '1px solid #eee', borderLeft: `4px solid ${renk.color}` }}>
                         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '12px', marginBottom: '10px', flexWrap: 'wrap' }}>
                           <div>
                             <strong style={{ fontSize: '17px', color: '#111', fontWeight: 800 }}>{t.terim}</strong>

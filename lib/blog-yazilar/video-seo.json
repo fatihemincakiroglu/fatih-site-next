@@ -48,7 +48,7 @@
       ]
      }
     },
-    "Dokümandaki kritik cümle şu: izleme sayfasının dizine eklenmiş olması videonun da dizine ekleneceği anlamına gelmez ve sayfanın önce aramada iyi performans göstermesi gerekir. Video dosyası ya da küçük resim URL'leri robots.txt veya noindex ile engellenmemeli."
+    "Dokümandaki kritik cümle şu: izleme sayfasının dizine eklenmiş olması videonun da dizine ekleneceği anlamına gelmez ve sayfanın önce aramada iyi performans göstermesi gerekir. Video dosyası ya da küçük resim URL'leri robots.txt veya noindex ile engellenmemeli. Küçük resimlerin dosya adı, boyutu ve alt metni için [görsel SEO teknikleri](/gorsel-seo) yazısındaki adımlar geçerlidir."
    ]
   },
   {
@@ -193,7 +193,7 @@
       "Küçük resim, başlıkla aynı vaadi taşıyor mu?"
      ]
     },
-    "Bu liste YouTube'un sıralama sistemi hakkında bir iddia değil; konuyu net anlatmanın pratik bir yolu."
+    "Bu liste YouTube'un sıralama sistemi hakkında bir iddia değil; konuyu net anlatmanın pratik bir yolu. Kısa video platformlarında benzer bir yaklaşım için [TikTok SEO taktiklerine](/tiktok-seo) bakabilirsiniz."
    ]
   },
   {
@@ -243,7 +243,7 @@
       ]
      }
     },
-    "The key line in the documentation: an indexed watch page does not mean the video will be indexed; the page must first perform well in Search. Never block video file or thumbnail URLs with robots.txt or noindex."
+    "The key line in the documentation: an indexed watch page does not mean the video will be indexed; the page must first perform well in Search. Never block video file or thumbnail URLs with robots.txt or noindex. For thumbnail file names, size and alt text, the steps in [image SEO techniques](/en/gorsel-seo) apply."
    ]
   },
   {
@@ -388,7 +388,7 @@
       "Does the thumbnail make the same promise as the title?"
      ]
     },
-    "This is not a claim about YouTube's ranking system, just a practical way to make the topic clear."
+    "This is not a claim about YouTube's ranking system, just a practical way to make the topic clear. For a similar approach on short-form video, see my [TikTok SEO tactics](/en/tiktok-seo)."
    ]
   },
   {

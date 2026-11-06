@@ -63,6 +63,8 @@ const SEARCH_INDEX = [
   { title: 'hreflang Oluşturucu', title_en: 'hreflang Generator', href: '/hreflang-olusturucu', href_en: '/en/hreflang-generator', cat: 'Araç' },
   { title: 'SERP Önizleme', title_en: 'SERP Preview', href: '/serp-onizleme', href_en: '/en/serp-preview', cat: 'Araç' },
   { title: 'UTM Link Oluşturucu', title_en: 'UTM Link Builder', href: '/utm-olusturucu', href_en: '/en/utm-builder', cat: 'Araç' },
+  { title: 'Open Graph Önizleme', title_en: 'Open Graph Preview', href: '/og-onizleme', href_en: '/en/og-preview', cat: 'Araç' },
+  { title: 'SEO ROI Hesaplayıcı', title_en: 'SEO ROI Calculator', href: '/seo-roi-hesaplayici', href_en: '/en/seo-roi-calculator', cat: 'Araç' },
   { title: 'Ücretsiz Kontrol Listeleri (PDF)', title_en: 'Free Checklists (PDF)', href: '/kaynaklar#kontrol-listeleri', href_en: '/en/resources#kontrol-listeleri', cat: 'Kaynak' },
   { title: 'Google Güncellemeleri', title_en: 'Google Updates', href: '/google-guncellemeleri', href_en: '/en/google-updates', cat: 'Kaynak' },
   { title: 'Sektörel SEO', title_en: 'Industry SEO', href: '/sektorler', href_en: '/en/industries', cat: 'Hizmet' },

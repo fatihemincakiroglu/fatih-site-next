@@ -427,8 +427,8 @@ const KAT_MAP = { technical: 'technical', geo: 'geo', content: 'content', backli
 
 // Kart görseli: kapak varsa 16:9 görsel, yoksa kategori renginde yer tutucu.
 // Böylece görseli olan ve olmayan kartlar aynı hizada durur.
-function KartGorseli({ slug, kat, alt, sizes, priority = false }) {
-  const kapak = getBlogKapak(slug)
+function KartGorseli({ slug, kat, alt, sizes, priority = false, isEn = false }) {
+  const kapak = getBlogKapak(slug, isEn)
   return (
     <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: kat.bg, overflow: 'hidden', flexShrink: 0 }}>
       {kapak ? (
@@ -580,7 +580,7 @@ export default function Page(props) {
                           style={{ background: kat.bg, borderRadius: '20px', padding: 0, border: `1px solid ${kat.renk}20`, textDecoration: 'none', display: 'grid', gridTemplateColumns: featured.length >= 2 ? '1fr' : '1fr 1fr', alignItems: 'stretch', minHeight: '260px', transition: 'transform 0.2s, box-shadow 0.2s', position: 'relative', overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = `0 16px 48px ${kat.renk}20` }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
-                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} sizes="(max-width: 768px) 100vw, 760px" priority />
+                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} isEn={isEn} sizes="(max-width: 768px) 100vw, 760px" priority />
                           <div style={{ padding: '32px 36px 36px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', flex: 1 }}>
                           <div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
@@ -642,7 +642,7 @@ export default function Page(props) {
                           style={{ background: '#fff', borderRadius: '16px', padding: 0, border: '1px solid #eee', textDecoration: 'none', display: 'flex', flexDirection: 'column', transition: 'transform 0.2s, box-shadow 0.2s', borderTop: `3px solid ${kat.renk}`, overflow: 'hidden' }}
                           onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.08)' }}
                           onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}>
-                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} sizes="(max-width: 768px) 100vw, 400px" />
+                          <KartGorseli slug={y.slug} kat={kat} alt={baslik} isEn={isEn} sizes="(max-width: 768px) 100vw, 400px" />
                           <div style={{ padding: '20px 24px 24px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                             <span style={{ fontSize: '18px' }}>{kat.emoji}</span>

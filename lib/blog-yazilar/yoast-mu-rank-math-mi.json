@@ -86,7 +86,7 @@
       ]
      }
     },
-    "Yoast'ın ücretsiz sürümü ayrıca canonical URL yönetimi ve toplu düzenleyici sunuyor. Rank Math'in WordPress.org sayfası ise ücretsiz sürümde yerel SEO araçlarını ve otomatik schema ile meta etiketleri içeren WooCommerce desteğini listeliyor."
+    "Yoast'ın ücretsiz sürümü ayrıca canonical URL yönetimi ve toplu düzenleyici sunuyor. Rank Math'in WordPress.org sayfası ise ücretsiz sürümde yerel SEO araçlarını ve otomatik schema ile meta etiketleri içeren WooCommerce desteğini listeliyor. Hangi eklentiyi seçerseniz seçin, alanları doldururken [meta başlık ve açıklama kuralları](/meta-baslik-aciklama-kurallari) aynıdır."
    ]
   },
   {
@@ -109,7 +109,7 @@
    "paragraflar": [
     "İçerik ekibi kalabalık olan ve yazarların yazarken okunabilirlik ve anahtar kelime geri bildirimi almasını isteyen sitelerde Yoast'ın yerleşik okunabilirlik analizi ve sade akışı işe yarıyor. Yoast'ın otomatik kurduğu bağlı schema grafı da kurumsal kimliği tutarlı tanımlamak isteyenler için sağlam bir temel.",
     "Ek eklenti kurmadan yönlendirme, 404 takibi ve Search Console verisini tek panelde görmek isteyen küçük ekipler için Rank Math'in ücretsiz sürümündeki modüller pratik. Ürün sayfası çok olan WooCommerce mağazalarında her iki eklentinin de e-ticaret tarafında sunduklarını resmi sayfalarından karşılaştırın. Altyapı kararı henüz verilmediyse [e-ticaret altyapılarının SEO karşılaştırması](/e-ticaret-altyapisi-seo-karsilastirma) farklı seçenekleri ele alıyor.",
-    "Halihazırda biri kurulu ve sorunsuz çalışıyorsa, yalnızca diğeri “daha popüler” diye değiştirmenin SEO'ya doğrudan bir katkısı yok. Eklenti, sıralamayı değil sizin ayar yapma kolaylığınızı belirler."
+    "Halihazırda biri kurulu ve sorunsuz çalışıyorsa, yalnızca diğeri “daha popüler” diye değiştirmenin SEO'ya doğrudan bir katkısı yok. Eklenti, sıralamayı değil sizin ayar yapma kolaylığınızı belirler. Bu ikisinin dışındaki alternatifleri [en iyi WordPress SEO eklentileri](/en-iyi-wordpress-seo-eklentileri) yazısında karşılaştırdım."
    ]
   },
   {
@@ -132,7 +132,7 @@
   {
    "baslik": "Eklenti tek başına yetmez: WordPress'te teknik SEO'nun geri kalanı",
    "paragraflar": [
-    "SEO eklentisi meta etiketleri, site haritasını ve temel schema'yı yönetir; ama hosting kalitesi, tema kodu, önbellekleme, görsel optimizasyonu ve iç link yapısı eklentinin dışında kalır. Bir eklentinin “yeşil ışık” vermesi sayfanın iyi sıralanacağı anlamına gelmez. Bütün resim için [teknik SEO rehberi](/teknik-seo) ve [Core Web Vitals](/core-web-vitals-2025) yazısı iyi bir başlangıç.",
+    "SEO eklentisi meta etiketleri, site haritasını ve temel schema'yı yönetir; ama hosting kalitesi, tema kodu, önbellekleme, görsel optimizasyonu ve iç link yapısı eklentinin dışında kalır. Bir eklentinin “yeşil ışık” vermesi sayfanın iyi sıralanacağı anlamına gelmez. Bütün resim için [teknik SEO rehberi](/teknik-seo) ve [Core Web Vitals](/core-web-vitals-2025) yazısı iyi bir başlangıç. Hosting, önbellek ve tema tarafı için [WordPress site hızını artırmanın 12 yolu](/wordpress-site-hizi) yazısına bakabilirsiniz.",
     "Eklentinin ürettiği schema'yı genişletmek, örneğin LocalBusiness ya da kişi profillerini ayrıntılandırmak istiyorsanız [schema ve yapısal veri rehberi](/schema-yapisal-veri) ile [schema oluşturucu](/schema-olusturucu) aracına göz atabilirsiniz."
    ]
   },
@@ -220,7 +220,7 @@
       ]
      }
     },
-    "Yoast's free version also offers canonical URL management and a bulk editor. Rank Math's WordPress.org page lists local SEO tools and WooCommerce support with automatic schema and meta tags in the free version."
+    "Yoast's free version also offers canonical URL management and a bulk editor. Rank Math's WordPress.org page lists local SEO tools and WooCommerce support with automatic schema and meta tags in the free version. Whichever plugin you choose, the [rules for meta titles and descriptions](/en/meta-baslik-aciklama-kurallari) stay the same when you fill in the fields."
    ]
   },
   {
@@ -243,7 +243,7 @@
    "paragraflar": [
     "On sites with larger content teams, where writers benefit from readability and keyword feedback as they write, Yoast's built-in readability analysis and simple workflow work well. The connected schema graph Yoast builds automatically is also a solid base if you want your organisation described consistently.",
     "For small teams that want redirects, 404 tracking and Search Console data in one panel without extra plugins, the modules in Rank Math's free version are practical. For WooCommerce stores with many product pages, compare what each plugin offers for e-commerce on its official pages. If the platform decision is still open, the [e-commerce platform SEO comparison](/en/e-ticaret-altyapisi-seo-karsilastirma) covers other options.",
-    "If one of them is already installed and working well, switching just because the other seems more popular brings no direct SEO gain. The plugin determines how easily you configure things, not how you rank."
+    "If one of them is already installed and working well, switching just because the other seems more popular brings no direct SEO gain. The plugin determines how easily you configure things, not how you rank. I compare alternatives beyond these two in [the best WordPress SEO plugins](/en/en-iyi-wordpress-seo-eklentileri)."
    ]
   },
   {
@@ -266,7 +266,7 @@
   {
    "baslik": "A plugin isn't enough: the rest of technical SEO on WordPress",
    "paragraflar": [
-    "An SEO plugin manages meta tags, the sitemap and basic schema, but hosting quality, theme code, caching, image optimisation and internal linking sit outside it. A plugin's “green light” doesn't mean the page will rank well. For the full picture, the [technical SEO guide](/en/teknik-seo) and the [Core Web Vitals](/en/core-web-vitals-2025) post are good starting points.",
+    "An SEO plugin manages meta tags, the sitemap and basic schema, but hosting quality, theme code, caching, image optimisation and internal linking sit outside it. A plugin's “green light” doesn't mean the page will rank well. For the full picture, the [technical SEO guide](/en/teknik-seo) and the [Core Web Vitals](/en/core-web-vitals-2025) post are good starting points. For hosting, caching and theme work, see [12 ways to speed up your WordPress site](/en/wordpress-site-hizi).",
     "If you want to extend the schema your plugin outputs, for instance by detailing LocalBusiness or author profiles, see the [schema and structured data guide](/en/schema-yapisal-veri) and the [schema generator](/en/schema-generator)."
    ]
   },

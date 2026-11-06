@@ -169,14 +169,14 @@
       }
      ]
     },
-    "Eklenti denetimi için basit bir kural: her eklentinin bir sahibi ve bir gerekçesi olsun. Kimse neden kurulduğunu bilmiyorsa, test ortamında kapatıp etkisine bakın."
+    "Eklenti denetimi için basit bir kural: her eklentinin bir sahibi ve bir gerekçesi olsun. Kimse neden kurulduğunu bilmiyorsa, test ortamında kapatıp etkisine bakın. Eklenti yükünün ötesindeki adımları [WordPress site hızını artırmanın yolları](/wordpress-site-hizi) yazısında topladım."
    ]
   },
   {
    "baslik": "SEO eklentisi ve yapısal veri seçimi",
    "paragraflar": [
     "WooCommerce tek başına başlık şablonu, site haritası ayrıntısı ve kategori meta açıklaması gibi alanlarda sınırlıdır; bu yüzden çoğu mağaza bir SEO eklentisi kullanır. Hangisinin hangi durumda uygun olduğunu [Yoast mu Rank Math mi](/yoast-mu-rank-math-mi) karşılaştırmasında anlattım. Tek kural: aynı anda yalnızca bir SEO eklentisi.",
-    "WooCommerce ürün sayfalarına temel bir ürün yapısal verisi ekler; SEO eklentileri bunu genişletebilir. Kaynak kodda birden fazla Product bloğu oluşmadığını Zengin Sonuç Testi ile kontrol edin. Ayrıntı için [yapısal veri rehberine](/schema-yapisal-veri) bakabilirsiniz.",
+    "WooCommerce ürün sayfalarına temel bir ürün yapısal verisi ekler; SEO eklentileri bunu genişletebilir. Kaynak kodda birden fazla Product bloğu oluşmadığını Zengin Sonuç Testi ile kontrol edin. Ayrıntı için [yapısal veri rehberine](/schema-yapisal-veri) bakabilirsiniz. Mağazanız için uygun seçeneği [WordPress SEO eklentileri](/en-iyi-wordpress-seo-eklentileri) karşılaştırmasında bulabilirsiniz.",
     {
      "kontrol": [
       "Kalıcı bağlantı tabanları kısa, Türkçe ve birbirinden farklı.",
@@ -376,14 +376,14 @@
       }
      ]
     },
-    "A simple rule for plugin audits: every plugin needs an owner and a reason. Otherwise, disable it on staging and measure."
+    "A simple rule for plugin audits: every plugin needs an owner and a reason. Otherwise, disable it on staging and measure. I gathered the steps beyond plugin load in [ways to speed up your WordPress site](/en/wordpress-site-hizi)."
    ]
   },
   {
    "baslik": "Choosing an SEO plugin and structured data",
    "paragraflar": [
     "On its own, WooCommerce is limited for title templates, sitemap detail and category meta descriptions, so most stores use an SEO plugin. I compare when each fits in [Yoast or Rank Math](/en/yoast-mu-rank-math-mi). One rule: only one SEO plugin at a time.",
-    "WooCommerce adds basic product structured data to product pages, and SEO plugins can extend it. Use the Rich Results Test to confirm the source does not contain more than one Product block. See the [structured data guide](/en/schema-yapisal-veri) for details.",
+    "WooCommerce adds basic product structured data to product pages, and SEO plugins can extend it. Use the Rich Results Test to confirm the source does not contain more than one Product block. See the [structured data guide](/en/schema-yapisal-veri) for details. You can find the right option for your store in my comparison of [WordPress SEO plugins](/en/en-iyi-wordpress-seo-eklentileri).",
     {
      "kontrol": [
       "Permalink bases are short, localised and distinct.",

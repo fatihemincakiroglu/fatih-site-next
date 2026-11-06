@@ -25,7 +25,7 @@
    "baslik": "URL'de Türkçe karakter kullanılmalı mı?",
    "paragraflar": [
     "Google'ın dokümanı ASCII dışındaki karakterlerin yüzde kodlamasıyla (percent encoding) yazılmasını öneriyor; yani \"ayakkabı\" adreste \"ayakkab%C4%B1\" olarak gider. Aynı doküman kitlenizin dilini, gerektiğinde transliterasyonla kullanmanızı da öneriyor. Kısacası iki yol da Google açısından geçerli.",
-    "Pratikte ben çoğu Türkçe sitede transliterasyonu öneriyorum. Kodlanmış adresler mesajlaşma uygulamalarında, e-postada ve bazı analiz araçlarında uzun ve okunaksız görünüyor; CMS'lerin ve eklentilerin karakterleri farklı işlemesi de aynı sayfanın iki adresle yayılmasına yol açabiliyor.",
+    "Pratikte ben çoğu Türkçe sitede transliterasyonu öneriyorum. Kodlanmış adresler mesajlaşma uygulamalarında, e-postada ve bazı analiz araçlarında uzun ve okunaksız görünüyor; CMS'lerin ve eklentilerin karakterleri farklı işlemesi de aynı sayfanın iki adresle yayılmasına yol açabiliyor. WordPress kullanıyorsanız slug ayarlarını yöneten [WordPress SEO eklentilerini](/en-iyi-wordpress-seo-eklentileri) de kontrol edin.",
     {
      "tablo": {
       "basliklar": [
@@ -208,7 +208,7 @@
       "Kalıcı sayfaların adresinde yıl, kampanya ya da stok kodu var mı?"
      ]
     },
-    "Genel teknik denetim çerçevesi için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç. Büyük bir mağazada URL yapısını yeniden kuruyorsanız bu işi [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında eşleme tablosundan izlemeye kadar birlikte yürütebiliriz; [SEO uzmanı](/seo-uzmani) sayfasından çalışma biçimime bakabilir ya da [görüşme randevusu](/randevu) alabilirsiniz."
+    "Genel teknik denetim çerçevesi için [teknik SEO rehberi](/teknik-seo) iyi bir başlangıç. Büyük bir mağazada URL yapısını yeniden kuruyorsanız bu işi [e-ticaret SEO danışmanlığı](/e-ticaret-seo-danismanligi) kapsamında eşleme tablosundan izlemeye kadar birlikte yürütebiliriz; [SEO uzmanı](/seo-uzmani) sayfasından çalışma biçimime bakabilir ya da [görüşme randevusu](/randevu) alabilirsiniz. Sıfırdan kurulan sitelerde URL kararlarını [yeni site SEO kontrol listesi](/yeni-site-seo-kontrol-listesi) ile birlikte ele alın."
    ]
   }
  ],
@@ -227,7 +227,7 @@
    "baslik": "Should URLs use Turkish characters?",
    "paragraflar": [
     "Google's documentation recommends percent-encoding characters outside the ASCII range, so \"ayakkabı\" (shoe) becomes \"ayakkab%C4%B1\" in the address. The same documentation also recommends using your audience's language, with transliteration where applicable. In short, both approaches work for Google.",
-    "In practice I recommend transliteration for most Turkish sites. Encoded addresses look long and unreadable in messaging apps, email and some analytics tools, and CMSs and plugins handling characters differently can spread one page across two addresses.",
+    "In practice I recommend transliteration for most Turkish sites. Encoded addresses look long and unreadable in messaging apps, email and some analytics tools, and CMSs and plugins handling characters differently can spread one page across two addresses. If you use WordPress, also check the [WordPress SEO plugins](/en/en-iyi-wordpress-seo-eklentileri) that manage slug settings.",
     {
      "tablo": {
       "basliklar": [
@@ -410,7 +410,7 @@
       "Do permanent pages carry a year, campaign or stock code in the address?"
      ]
     },
-    "The [technical SEO guide](/en/teknik-seo) is a good starting point for a broader audit. If you are rebuilding URL structure on a large store, we can run it together from mapping table to monitoring within [ecommerce SEO consulting](/en/ecommerce-seo-consulting); see how I work on the [SEO consulting](/en/seo-consulting) page or [book a call](/en/book-a-call)."
+    "The [technical SEO guide](/en/teknik-seo) is a good starting point for a broader audit. If you are rebuilding URL structure on a large store, we can run it together from mapping table to monitoring within [ecommerce SEO consulting](/en/ecommerce-seo-consulting); see how I work on the [SEO consulting](/en/seo-consulting) page or [book a call](/en/book-a-call). On sites built from scratch, handle URL decisions together with the [new website SEO checklist](/en/yeni-site-seo-kontrol-listesi)."
    ]
   }
  ],

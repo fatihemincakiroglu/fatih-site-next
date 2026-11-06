@@ -55,7 +55,7 @@
   {
    "baslik": "E-E-A-T bir sıralama faktörü mü?",
    "paragraflar": [
-    "Google'ın yardımcı ve güvenilir içerik dokümanı bunu doğrudan cevaplıyor: E-E-A-T tek başına belirli bir sıralama faktörü değil, ancak iyi E-E-A-T taşıyan içeriği belirleyebilen çeşitli faktörlerin birlikte kullanılması faydalı. Aynı dokümana göre kalite değerlendiricilerinin sayfaların nasıl sıralandığı üzerinde kontrolü yok ve değerlendirici verileri sıralama algoritmalarında doğrudan kullanılmıyor; sistemlerin iyi çalışıp çalışmadığını ölçmeye yardımcı oluyor.",
+    "Google'ın yardımcı ve güvenilir içerik dokümanı bunu doğrudan cevaplıyor: E-E-A-T tek başına belirli bir sıralama faktörü değil, ancak iyi E-E-A-T taşıyan içeriği belirleyebilen çeşitli faktörlerin birlikte kullanılması faydalı. Aynı dokümana göre kalite değerlendiricilerinin sayfaların nasıl sıralandığı üzerinde kontrolü yok ve değerlendirici verileri sıralama algoritmalarında doğrudan kullanılmıyor; sistemlerin iyi çalışıp çalışmadığını ölçmeye yardımcı oluyor. Hangi sinyallerin gerçekten belirleyici olduğunu [Google sıralama faktörleri](/google-siralama-faktorleri) yazısında ele aldım.",
     {
      "karsilastir": {
       "sol": {
@@ -102,7 +102,7 @@
       "Türkiye'ye özgü bağlam: e-Devlet adımları, yerel mevzuat, yerel platformlardaki gerçek kullanım."
      ]
     },
-    "Bu işaretler aynı zamanda içeriği benzerlerinden ayırır. Yapay zekâ ile hazırlanan taslaklarda en çok eksik kalan kısım da burası; Google'ın bu konudaki yaklaşımını [yapay zekâ içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ele aldım."
+    "Bu işaretler aynı zamanda içeriği benzerlerinden ayırır. Yapay zekâ ile hazırlanan taslaklarda en çok eksik kalan kısım da burası; Google'ın bu konudaki yaklaşımını [yapay zekâ içerik ve Google politikası](/yapay-zeka-icerik-google-politikasi) yazısında ele aldım. Bu işaretleri yazım sürecine taşımak için [SEO uyumlu blog yazısı kuralları](/seo-uyumlu-blog-yazisi) yazısına bakabilirsiniz."
    ]
   },
   {
@@ -243,7 +243,7 @@
   {
    "baslik": "Is E-E-A-T a ranking factor?",
    "paragraflar": [
-    "Google's helpful content documentation answers this directly: E-E-A-T itself is not a specific ranking factor, but using a mix of factors that can identify content with good E-E-A-T is useful. The same document says search raters have no control over how pages rank and rater data is not used directly in ranking algorithms; it helps Google check whether its systems work well.",
+    "Google's helpful content documentation answers this directly: E-E-A-T itself is not a specific ranking factor, but using a mix of factors that can identify content with good E-E-A-T is useful. The same document says search raters have no control over how pages rank and rater data is not used directly in ranking algorithms; it helps Google check whether its systems work well. I discuss which signals really matter in the [Google ranking factors](/en/google-siralama-faktorleri) article.",
     {
      "karsilastir": {
       "sol": {
@@ -290,7 +290,7 @@
       "Local context: real steps on government portals, local regulations, actual use of local platforms."
      ]
     },
-    "These signals also set content apart from look-alikes. They are what AI-drafted content most often lacks; I cover Google's stance in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi)."
+    "These signals also set content apart from look-alikes. They are what AI-drafted content most often lacks; I cover Google's stance in [AI-generated content and Google's policy](/en/yapay-zeka-icerik-google-politikasi). To build these signals into your writing process, see the [rules for an SEO-friendly blog post](/en/seo-uyumlu-blog-yazisi)."
    ]
   },
   {

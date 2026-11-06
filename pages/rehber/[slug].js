@@ -75,7 +75,7 @@ export default function Page(props) {
   // grafiğine @id ile bağlanır. Tarihler: lib/blog-meta.js → REHBER_META
   // Kapak görseli: public/images/rehber/<slug>.png (tools/kapak_uret.py ile üretildi).
   // Makale kartının en üstünde gösterilir ve paylaşım görseli (og:image) olarak kullanılır.
-  const kapak = getRehberKapak(slug)
+  const kapak = getRehberKapak(slug, isEn)
   const kapakUrl = `https://fatihemincakiroglu.com${kapak}`
   const KapakGorseli = (
     <figure style={{ margin: isMobile ? '0 0 24px' : '0 0 36px' }}>
@@ -175,7 +175,7 @@ export default function Page(props) {
               return (
                 <Link key={r.slug} href={isEn ? `/en/${r.slug}` : `/${r.slug}`} style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '12px', border: '1px solid #eee', background: '#fff', textDecoration: 'none' }}>
                   <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', background: '#f3f3f3' }}>
-                    <Image src={getRehberKapak(r.slug)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
+                    <Image src={getRehberKapak(r.slug, isEn)} alt={l.baslik} fill sizes="(max-width: 768px) 100vw, 300px" style={{ objectFit: 'cover' }} />
                   </div>
                   <div style={{ padding: '14px 16px 16px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                     <div style={{ fontSize: '14px', fontWeight: 700, color: '#111', lineHeight: 1.4, marginBottom: '6px' }}>{l.baslik}</div>

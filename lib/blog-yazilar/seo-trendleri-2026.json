@@ -100,7 +100,7 @@
       ]
      }
     },
-    "Aralık 2025'te Google, çekirdek güncellemeler dokümanına arama algoritmalarını büyük güncellemeyi beklemeden sürekli olarak güncellediğini ve daha küçük çekirdek güncellemeler yaptığını ekledi. Yani duyurulmamış tarihlerde de dalgalanma normal. Bir düşüşü teşhis ederken [çekirdek güncellemesi sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) kontrol listesini kullanıyorum."
+    "Aralık 2025'te Google, çekirdek güncellemeler dokümanına arama algoritmalarını büyük güncellemeyi beklemeden sürekli olarak güncellediğini ve daha küçük çekirdek güncellemeler yaptığını ekledi. Yani duyurulmamış tarihlerde de dalgalanma normal. Bir düşüşü teşhis ederken [çekirdek güncellemesi sonrası trafik düşüşü](/cekirdek-guncelleme-trafik-dususu) kontrol listesini kullanıyorum. Dalgalanmanın arkasındaki sinyalleri anlamak için [Google sıralama faktörleri](/google-siralama-faktorleri) yazısına da bakabilirsiniz."
    ]
   },
   {
@@ -121,7 +121,7 @@
   {
    "baslik": "5. Üretken yapay zekâ rehberi yayımlandı, llms.txt netleşti",
    "paragraflar": [
-    "15 Mayıs 2026'da Google, Arama'daki üretken yapay zekâ özelliklerinde görünmeye yönelik yeni bir rehber yayımladı ve aynı gün spam politikalarının bu yanıtlar için de geçerli olduğunu netleştirdi.",
+    "15 Mayıs 2026'da Google, Arama'daki üretken yapay zekâ özelliklerinde görünmeye yönelik yeni bir rehber yayımladı ve aynı gün spam politikalarının bu yanıtlar için de geçerli olduğunu netleştirdi. Bu dönüşümde iş akışınıza eklenebilecek [yapay zekâ destekli SEO araçlarını](/en-iyi-yapay-zeka-seo-araclari) ayrıca derledim.",
     {
      "kutu": {
       "tur": "not",
@@ -149,7 +149,7 @@
   {
    "baslik": "8. Search Console sosyal ve video platformlarını raporluyor",
    "paragraflar": [
-    "Temmuz 2026'da Google, Search Console'da Instagram, TikTok, X ve YouTube hesaplarının platform mülkü olarak eklenebildiğini duyurdu ve bu içeriklerin performansını analiz etmeye yönelik bir rehber yayımladı. Yardım sayfasına göre özellik kademeli olarak sunuluyor; içeriğin Google yüzeylerindeki (Arama, Discover, Haberler) performansını ölçüyor, platformların kendi içindeki görüntülemeleri ölçmüyor.",
+    "Temmuz 2026'da Google, Search Console'da Instagram, TikTok, X ve YouTube hesaplarının platform mülkü olarak eklenebildiğini duyurdu ve bu içeriklerin performansını analiz etmeye yönelik bir rehber yayımladı. Yardım sayfasına göre özellik kademeli olarak sunuluyor; içeriğin Google yüzeylerindeki (Arama, Discover, Haberler) performansını ölçüyor, platformların kendi içindeki görüntülemeleri ölçmüyor. Bu hesapların aramada bulunabilirliği için [Instagram SEO ipuçlarını](/instagram-seo) ayrıca derledim.",
     "Böylece web sitesi dışındaki içeriğin Google'daki görünürlüğü de Search Console'dan izlenebiliyor. Video içeriği olan markalar için ilk adımları [video SEO](/video-seo) yazısında topladım.",
     "Bu değişikliklerin sitenize hangi önceliklerle yansıması gerektiğini birlikte belirleyebiliriz: arama tarafı için [SEO uzmanı](/seo-uzmani), yapay zekâ yüzeyleri için [GEO uzmanı](/geo-uzmani) olarak çalışıyorum; kısa bir [ön görüşme](/randevu) ile başlayabiliriz."
    ]
@@ -245,7 +245,7 @@
       ]
      }
     },
-    "In December 2025, Google added to its core updates documentation that it continually updates its algorithms, including smaller core updates, without waiting for the next major one. Fluctuations on unannounced dates are therefore normal. To diagnose a drop, I use the [core update traffic drop](/en/cekirdek-guncelleme-trafik-dususu) checklist."
+    "In December 2025, Google added to its core updates documentation that it continually updates its algorithms, including smaller core updates, without waiting for the next major one. Fluctuations on unannounced dates are therefore normal. To diagnose a drop, I use the [core update traffic drop](/en/cekirdek-guncelleme-trafik-dususu) checklist. To understand the signals behind such fluctuations, see also the [Google ranking factors](/en/google-siralama-faktorleri) article."
    ]
   },
   {
@@ -266,7 +266,7 @@
   {
    "baslik": "5. A generative AI guide arrived and llms.txt was clarified",
    "paragraflar": [
-    "On 15 May 2026 Google published a new guide on appearing in generative AI features in Search and, the same day, clarified that spam policies apply to those responses too.",
+    "On 15 May 2026 Google published a new guide on appearing in generative AI features in Search and, the same day, clarified that spam policies apply to those responses too. I also compiled the [AI-powered SEO tools](/en/en-iyi-yapay-zeka-seo-araclari) that can fit into your workflow during this shift.",
     {
      "kutu": {
       "tur": "not",
@@ -294,7 +294,7 @@
   {
    "baslik": "8. Search Console now reports social and video platforms",
    "paragraflar": [
-    "In July 2026 Google announced that Instagram, TikTok, X and YouTube accounts can be added to Search Console as platform properties, along with a guide to analyzing that content. The help page says the feature is rolling out gradually; it measures how that content performs on Google surfaces (Search, Discover, News), not views inside the platforms themselves.",
+    "In July 2026 Google announced that Instagram, TikTok, X and YouTube accounts can be added to Search Console as platform properties, along with a guide to analyzing that content. The help page says the feature is rolling out gradually; it measures how that content performs on Google surfaces (Search, Discover, News), not views inside the platforms themselves. For making these accounts discoverable in search, I compiled [Instagram SEO tips](/en/instagram-seo).",
     "Content outside your website can now be tracked on Google from Search Console too. For brands with video, the first steps are in the [video SEO](/en/video-seo) article.",
     "We can work out together how these changes should shape your priorities: I work on search as an [SEO consultant](/en/seo-consulting) and on AI surfaces as a [GEO consultant](/en/geo-consulting); a short [intro call](/en/book-a-call) is a good start."
    ]

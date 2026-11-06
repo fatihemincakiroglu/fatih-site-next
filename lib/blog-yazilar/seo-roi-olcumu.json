@@ -15,7 +15,7 @@
    "baslik": null,
    "paragraflar": [
     "Yönetim toplantısında SEO bütçesi konuşulurken gelen soru hep aynı: “Bu yatırım ne getiriyor?” Organik trafik grafiği yukarı gidiyor olabilir, ama trafik tek başına bütçe savunmaz. Gerekli olan, organik kanalın gelire ya da potansiyel müşteriye katkısını tutarlı bir yöntemle hesaplamaktır.",
-    "Bu yazıda SEO ROI formülünü, gelir tarafını nereden alacağınızı, maliyet tarafına neleri koymanız gerektiğini ve hesabı yanıltan atıf sınırlarını anlatıyorum. Örnek tablodaki rakamlar temsilidir; kendi verinizle yeniden hesaplamanız gerekir.",
+    "Bu yazıda SEO ROI formülünü, gelir tarafını nereden alacağınızı, maliyet tarafına neleri koymanız gerektiğini ve hesabı yanıltan atıf sınırlarını anlatıyorum. Örnek tablodaki rakamlar temsilidir; kendi verinizle yeniden hesaplamanız gerekir. Kendi rakamlarınızla hızlı bir tahmin için [ücretsiz SEO ROI hesaplayıcı](/seo-roi-hesaplayici) aracını kullanabilirsiniz.",
     {
      "alinti": "Kısa cevap: SEO ROI = (organik kanaldan gelen artımlı brüt kâr − SEO maliyeti) / SEO maliyeti. Gelir yerine kâr kullanın, SEO çalışmasından önceki organik seviyeyi taban olarak çıkarın ve hesabı en az 12 aylık birikimli dönemde yapın. GA4 verisi tahmindir; ROI'yi kesin bir rakam değil, varsayımları yazılı bir aralık olarak sunun."
     }
@@ -28,7 +28,7 @@
     {
      "kod": "SEO ROI = (Artımlı organik brüt kâr − SEO maliyeti) / SEO maliyeti × 100\n\nArtımlı organik brüt kâr = (Dönem organik geliri − Taban organik gelir) × Brüt kâr marjı"
     },
-    "**Taban organik gelir**, çalışmaya başlamadan önceki dönemde organik kanalın zaten getirdiği gelirdir; marka aramalarının büyük kısmı bu tabana aittir. Yalnızca bu tabanın üzerindeki artışı SEO'ya yazmak, hesabı savunulabilir kılar. Mevsimselliği dengelemek için tabanı geçen yılın aynı dönemiyle kıyaslayın."
+    "**Taban organik gelir**, çalışmaya başlamadan önceki dönemde organik kanalın zaten getirdiği gelirdir; marka aramalarının büyük kısmı bu tabana aittir. Yalnızca bu tabanın üzerindeki artışı SEO'ya yazmak, hesabı savunulabilir kılar. Mevsimselliği dengelemek için tabanı geçen yılın aynı dönemiyle kıyaslayın. ROI dışında izlenecek göstergeler için [takip edilmesi gereken SEO KPI listesine](/seo-kpi) bakabilirsiniz."
    ]
   },
   {
@@ -209,7 +209,7 @@
    "baslik": null,
    "paragraflar": [
     "When the SEO budget comes up in a management meeting, the question is always the same: “What does this investment return?” The organic traffic chart may be rising, but traffic alone does not defend a budget. You need a consistent method for linking the organic channel to revenue or leads.",
-    "This post covers the SEO ROI formula, where to get revenue figures, what belongs on the cost side and the attribution limits that distort the result. Numbers in the example table are illustrative; recalculate with your own data.",
+    "This post covers the SEO ROI formula, where to get revenue figures, what belongs on the cost side and the attribution limits that distort the result. Numbers in the example table are illustrative; recalculate with your own data. For a quick estimate with your own numbers, try the [free SEO ROI calculator](/en/seo-roi-calculator).",
     {
      "alinti": "Short answer: SEO ROI = (incremental gross profit from organic − SEO cost) / SEO cost. Use profit instead of revenue, subtract the organic baseline from before the work started, and calculate over at least 12 cumulative months. GA4 data is an estimate, so present ROI as a range with written assumptions, not a single exact figure."
     }
@@ -222,7 +222,7 @@
     {
      "kod": "SEO ROI = (Incremental organic gross profit − SEO cost) / SEO cost × 100\n\nIncremental organic gross profit = (Period organic revenue − Baseline organic revenue) × Gross margin"
     },
-    "The **baseline** is the revenue organic search already produced before the work began; much of branded search belongs here. Crediting SEO only with growth above that baseline makes the number defensible. Compare against the same period last year to neutralise seasonality."
+    "The **baseline** is the revenue organic search already produced before the work began; much of branded search belongs here. Crediting SEO only with growth above that baseline makes the number defensible. Compare against the same period last year to neutralise seasonality. For metrics beyond ROI, see the [SEO KPIs worth tracking](/en/seo-kpi)."
    ]
   },
   {
