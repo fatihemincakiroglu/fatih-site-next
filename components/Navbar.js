@@ -63,10 +63,10 @@ function resolveAltPath(asPath, isEn) {
 // Alt menüde { grup:'...' } öğesi küçük bir grup etiketi olarak çizilir (Araçlar menüsü, /araclar sayfasındaki gruplarla aynı)
 const getMenu = (isEn, u) => isEn ? [
   { label:'Services', url:u.hizmetler, altlar:[
-    { label:'SEO Consulting', url:u.seo, ikon:'🔍', alt:'Technical SEO & content optimization' },
+    { label:'SEO Specialist', url:u.seo, ikon:'🔍', alt:'Technical SEO & content optimization' },
     { label:'Content Strategy', url:u.icerik, ikon:'✍️', alt:'Content strategy' },
     { label:'Performance', url:u.performans, ikon:'📈', alt:'Traffic & conversion optimization' },
-    { label:'GEO', url:u.geo, ikon:'🤖', alt:'AI search visibility' },
+    { label:'GEO Specialist', url:u.geo, ikon:'🤖', alt:'AI search visibility' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editorial links & digital PR' },
     { label:'Industries', url:u.sektorler, ikon:'🏢', alt:'Clinics, law, e-commerce, tourism, B2B' },
   ]},
