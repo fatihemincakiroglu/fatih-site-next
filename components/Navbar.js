@@ -106,10 +106,10 @@ const getMenu = (isEn, u) => isEn ? [
   { label:'Blog', url:u.blog, altlar:[] },
 ] : [
   { label:'Hizmetler', url:u.hizmetler, altlar:[
-    { label:'SEO', url:u.seo, ikon:'🔍', alt:'Teknik SEO ve içerik optimizasyonu' },
+    { label:'SEO Uzmanı', url:u.seo, ikon:'🔍', alt:'Teknik SEO ve içerik optimizasyonu' },
     { label:'İçerik', url:u.icerik, ikon:'✍️', alt:'İçerik stratejisi' },
     { label:'Performans', url:u.performans, ikon:'📈', alt:'Trafik ve dönüşüm optimizasyonu' },
-    { label:'GEO', url:u.geo, ikon:'🤖', alt:'AI arama görünürlüğü' },
+    { label:'GEO Uzmanı', url:u.geo, ikon:'🤖', alt:'AI arama görünürlüğü' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editoryal link ve dijital PR' },
     { label:'Sektörler', url:u.sektorler, ikon:'🏢', alt:'Klinik, hukuk, e-ticaret, turizm, B2B' },
   ]},
