@@ -64,9 +64,9 @@ function resolveAltPath(asPath, isEn) {
 const getMenu = (isEn, u) => isEn ? [
   { label:'Services', url:u.hizmetler, altlar:[
     { label:'SEO Specialist', url:u.seo, ikon:'🔍', alt:'Technical SEO & content optimization' },
+    { label:'GEO Specialist', url:u.geo, ikon:'🤖', alt:'AI search visibility' },
     { label:'Content Strategy', url:u.icerik, ikon:'✍️', alt:'Content strategy' },
     { label:'Performance', url:u.performans, ikon:'📈', alt:'Traffic & conversion optimization' },
-    { label:'GEO Specialist', url:u.geo, ikon:'🤖', alt:'AI search visibility' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editorial links & digital PR' },
     { label:'Industries', url:u.sektorler, ikon:'🏢', alt:'Clinics, law, e-commerce, tourism, B2B' },
   ]},
@@ -107,9 +107,9 @@ const getMenu = (isEn, u) => isEn ? [
 ] : [
   { label:'Hizmetler', url:u.hizmetler, altlar:[
     { label:'SEO Uzmanı', url:u.seo, ikon:'🔍', alt:'Teknik SEO ve içerik optimizasyonu' },
+    { label:'GEO Uzmanı', url:u.geo, ikon:'🤖', alt:'AI arama görünürlüğü' },
     { label:'İçerik', url:u.icerik, ikon:'✍️', alt:'İçerik stratejisi' },
     { label:'Performans', url:u.performans, ikon:'📈', alt:'Trafik ve dönüşüm optimizasyonu' },
-    { label:'GEO Uzmanı', url:u.geo, ikon:'🤖', alt:'AI arama görünürlüğü' },
     { label:'Backlink', url:u.backlink, ikon:'🔗', alt:'Editoryal link ve dijital PR' },
     { label:'Sektörler', url:u.sektorler, ikon:'🏢', alt:'Klinik, hukuk, e-ticaret, turizm, B2B' },
   ]},
