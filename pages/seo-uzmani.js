@@ -176,8 +176,8 @@ export default function Page(props) {
     breadcrumb: ['Home', 'Services', 'SEO Consulting'],
   } : {
     badge: 'SEO DANIŞMANLIĞI',
-    h1: 'Google\'da Zirveye Çıkın',
-    h1b: 'SEO Danışmanlığı',
+    h1: 'İstanbul',
+    h1b: 'SEO Uzmanı',
     subtitle: 'Organik Trafiği Artırın, Müşteriye Dönüştürün',
     hero_desc: 'E-ticaret, SaaS, sağlık ve daha birçok sektördeki işletmelerin teknik SEO, içerik stratejisi ve otorite inşasıyla sürdürülebilir organik büyüme elde etmesine yardım ediyorum.',
     btn1: 'Ücretsiz Analiz Al →',
