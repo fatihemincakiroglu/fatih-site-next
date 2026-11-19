@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import BrandMark, { BRANDS } from '../components/BrandMark'
+import SiralamaKaniti, { KANIT } from '../components/SiralamaKaniti'
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
 
@@ -519,13 +520,14 @@ export default function Page(props) {
 
             {/* Sağ - Google Mock */}
             <div style={{ position: 'relative' }}>
-              <div style={{ position: 'absolute', top: '-12px', right: '20px', background: '#fff', border: '1px solid #eee', borderRadius: '10px', padding: '8px 14px', boxShadow: '0 4px 16px rgba(0,0,0,0.1)', zIndex: 2, display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span style={{ fontSize: '18px', fontWeight: 900, color: '#111' }}>#1</span>
+              {/* Gerçek sıralama rozeti: tıklayınca aşağıdaki kanıt bölümüne iner */}
+              <a href="#kanit" style={{ position: 'absolute', top: '-12px', right: '20px', background: '#fff', border: '1px solid #eee', borderRadius: '10px', padding: '8px 14px', boxShadow: '0 4px 16px rgba(0,0,0,0.1)', zIndex: 2, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '18px', fontWeight: 900, color: 'var(--orange)' }}>#{KANIT.sira}</span>
                 <div>
-                  <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{isEn ? 'Top result' : 'Top 1 sonuç'}</div>
-                  <div style={{ fontSize: '11px', color: '#aaa' }}>{isEn ? 'Featured in AI Overview' : 'AI Overview\'da öne çıkıyor'}</div>
+                  <div style={{ fontSize: '12px', fontWeight: 700, color: '#111' }}>{isEn ? `“${KANIT.sorgu}” on Google` : `Google’da “${KANIT.sorgu}”`}</div>
+                  <div style={{ fontSize: '11px', color: '#888' }}>{isEn ? 'Also cited in AI Overview · see proof ↓' : 'AI Bakışı’nda da kaynak · kanıtı gör ↓'}</div>
                 </div>
-              </div>
+              </a>
               <div style={{ background: '#fff', borderRadius: '16px', boxShadow: '0 8px 40px rgba(0,0,0,0.12)', border: '1px solid #eee', overflow: 'hidden' }}>
                 <div style={{ background: '#f5f5f5', padding: '10px 16px', display: 'flex', alignItems: 'center', gap: '8px', borderBottom: '1px solid #eee' }}>
                   <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#ff5f57' }}></span>
@@ -584,6 +586,9 @@ export default function Page(props) {
             </div>
           </div>
         </section>
+
+        {/* ── GERÇEK SIRALAMA KANITI ("geo uzmanı" · Google 3. sıra + AI Bakışı) ── */}
+        <SiralamaKaniti isEn={isEn} />
 
         {/* ── REFERANSLAR (müşteri grid) ── */}
         <section style={{ padding: '72px 40px', background: '#fff', borderTop: '1px solid #ede8e0' }}>

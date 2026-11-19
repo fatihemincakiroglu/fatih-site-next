@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import IlgiliRehberler from '../components/IlgiliRehberler';
+import SiralamaKaniti from '../components/SiralamaKaniti';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { useState } from 'react';
@@ -471,6 +472,9 @@ export default function Page(props) {
 
         {/* ─── NE İŞ YAPAR (TR) ─── */}
         {!isEn && <MetinBolumu h2={NE_IS_YAPAR.h2} bloklar={NE_IS_YAPAR.bloklar} />}
+
+        {/* ─── GERÇEK SIRALAMA KANITI ─── */}
+        <SiralamaKaniti isEn={isEn} cta={false} arkaPlan="#fff" />
 
         {/* ─── HİZMETLER ─── */}
         <section style={{ padding: '80px 32px', background: isEn ? '#fff' : '#faf9f7', borderTop: '1px solid #ede8e0' }}>

@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 import YazarFoto from '../components/YazarFoto';
+import SiralamaKaniti from '../components/SiralamaKaniti';
 
 /* ═══════════════════════════════════════════════════
    VERİ KATMANI
@@ -356,6 +357,9 @@ export default function Page(props) {
             </div>
           </div>
         </section>
+
+        {/* ══ GERÇEK SIRALAMA KANITI ═════════════════════════ */}
+        <SiralamaKaniti isEn={isEn} arkaPlan="var(--bg)" />
 
         {/* ══ SONUÇLAR VE REFERANSLAR ═══════════════════════ */}
         <section style={{ padding:'72px 24px', background:'var(--bg2)', borderBottom:'1px solid var(--border)' }}>
