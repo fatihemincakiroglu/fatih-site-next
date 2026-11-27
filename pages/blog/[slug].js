@@ -381,7 +381,7 @@ export default function BlogPost(props) {
                                 {kartEtiketi(l.url, isEn)}
                               </Link>
                             ) : (
-                              <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)', whiteSpace: 'nowrap', flexShrink: 0, paddingTop: '2px' }}>
+                              <a href={l.url} target="_blank" rel={l.dofollow ? 'noopener noreferrer' : 'nofollow noopener noreferrer'} style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)', whiteSpace: 'nowrap', flexShrink: 0, paddingTop: '2px' }}>
                                 {isEn ? 'Visit site →' : 'Siteyi ziyaret et →'}
                               </a>
                             )
@@ -425,7 +425,7 @@ export default function BlogPost(props) {
                                 {kartEtiketi(l.url, isEn)}
                               </Link>
                             ) : (
-                              <a href={l.url} target="_blank" rel="nofollow noopener noreferrer" style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)' }}>
+                              <a href={l.url} target="_blank" rel={l.dofollow ? 'noopener noreferrer' : 'nofollow noopener noreferrer'} style={{ fontSize: '12px', fontWeight: 700, color: 'var(--orange)' }}>
                                 {isEn ? 'Visit site →' : 'Siteyi ziyaret et →'}
                               </a>
                             )
